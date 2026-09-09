@@ -114,7 +114,7 @@ export default function HowToUse({ setActiveView, setFilters, setSearchQuery }) 
           How to Navigate <span className="logo-highlight">IndiaExams</span>
         </h1>
         <p className="how-to-use-subtitle">
-          Your comprehensive guide to exploring over 200+ statutory government examinations,
+          Your comprehensive guide to exploring over 500+ statutory government examinations,
           switching between Central and State ecosystems, comparing cadres, and tracking annual schedules.
         </p>
       </div>
@@ -148,26 +148,6 @@ export default function HowToUse({ setActiveView, setFilters, setSearchQuery }) 
             </button>
           </div>
         ))}
-      </div>
-
-      <div className="how-to-use-footer-tip">
-        <div className="tip-content">
-          <h4>💡 Quick Pro-Tip for Aspirants</h4>
-          <p>
-            If you are preparing for both Central and State exams (e.g. SSC CGL + UPSSSC or UPSC + State PCS),
-            use the <strong>Central & All-India</strong> scope for national syllabus planning, and switch to your specific <strong>State Government</strong> filter to check local notification windows and eligibility criteria.
-          </p>
-        </div>
-        <button
-          className="btn-primary"
-          onClick={() => {
-            setFilters({ domain: '', level: '', exam_mode: '', frequency: '', exam_type: '', jurisdiction: '', state: '' })
-            setSearchQuery('')
-            setActiveView('explore')
-          }}
-        >
-          Start Exploring Exams →
-        </button>
       </div>
     </div>
   )
