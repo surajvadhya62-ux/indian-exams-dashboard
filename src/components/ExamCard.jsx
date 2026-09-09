@@ -34,6 +34,17 @@ export default function ExamCard({ exam, isComparing, onToggleCompare, onViewDet
         </span>
         <span className="exam-tag">{exam.level}</span>
         <span className="exam-tag">{exam.exam_type === 'entrance' ? '🎓 Entrance' : '💼 Job'}</span>
+        <span
+          className="exam-tag"
+          style={{
+            background: exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.12)' : 'rgba(168, 85, 247, 0.12)',
+            borderColor: exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.3)' : 'rgba(168, 85, 247, 0.3)',
+            color: exam.jurisdiction === 'central' ? '#60a5fa' : '#c084fc',
+            fontWeight: 500
+          }}
+        >
+          {exam.jurisdiction === 'central' ? '🇮🇳 Central' : `🏛️ ${exam.state}`}
+        </span>
       </div>
 
       <div className="exam-card-meta">

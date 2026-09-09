@@ -2,22 +2,88 @@ import { HiOutlineSearch } from 'react-icons/hi'
 
 export default function SearchFilter({
   searchQuery, setSearchQuery, filters, onFilterChange, clearFilters,
-  activeFilters, domains, levels, frequencies, resultCount, totalCount
+  activeFilters, domains, levels, frequencies, states,
+  centralCount, stateCount, resultCount, totalCount
 }) {
+  const isStateScope = filters.jurisdiction === 'state'
+  const isCentralScope = filters.jurisdiction === 'central'
+
+  const handleScopeSelect = (scope) => {
+    onFilterChange('jurisdiction', scope)
+    if (scope === 'central') {
+      onFilterChange('state', '')
+    }
+  }
+
   return (
     <div className="search-filter-section">
+      {/* Scope Selector: Central vs State vs All */}
+      <div className="scope-selector-wrapper">
+        <div className="scope-pills">
+          <button
+            id="scope-all"
+            className={`scope-pill ${!filters.jurisdiction ? 'active' : ''}`}
+            onClick={() => handleScopeSelect('')}
+          >
+            🌐 All Examinations
+            <span className="scope-pill-count">{totalCount}</span>
+          </button>
+          <button
+            id="scope-central"
+            className={`scope-pill ${isCentralScope ? 'active' : ''}`}
+            onClick={() => handleScopeSelect('central')}
+          >
+            🇮🇳 Central & All-India
+            <span className="scope-pill-count">{centralCount}</span>
+          </button>
+          <button
+            id="scope-state"
+            className={`scope-pill ${isStateScope ? 'active state-active' : ''}`}
+            onClick={() => handleScopeSelect('state')}
+          >
+            🏛️ State Government
+            <span className="scope-pill-count">{stateCount}</span>
+          </button>
+        </div>
+
+        {/* Quick State Selector when in State scope or when browsing */}
+        {(isStateScope || states?.length > 0) && (
+          <div className="scope-state-filter">
+            <select
+              id="filter-state-select"
+              className="state-select"
+              value={filters.state}
+              onChange={(e) => {
+                const val = e.target.value
+                onFilterChange('state', val)
+                if (val && !filters.jurisdiction) {
+                  onFilterChange('jurisdiction', 'state')
+                }
+              }}
+            >
+              <option value="">🏛️ {isStateScope ? 'All States & UTs' : 'Filter by State / UT'}</option>
+              {states?.map(s => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+          </div>
+        )}
+      </div>
+
+      {/* Search Input */}
       <div className="search-bar-wrapper">
         <HiOutlineSearch className="search-icon" />
         <input
           id="exam-search"
           type="text"
           className="search-bar"
-          placeholder="Search exams by name, acronym, domain, conducting body..."
+          placeholder="Search exams by name, acronym, domain, conducting body, role..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
       </div>
 
+      {/* Secondary Filters Bar */}
       <div className="filter-bar">
         <select
           id="filter-domain"
@@ -46,8 +112,8 @@ export default function SearchFilter({
           onChange={(e) => onFilterChange('exam_type', e.target.value)}
         >
           <option value="">All Types</option>
-          <option value="entrance">Entrance Exams</option>
-          <option value="job">Job / Recruitment</option>
+          <option value="entrance">🎓 Entrance Exams</option>
+          <option value="job">💼 Job / Recruitment</option>
         </select>
 
         <select
@@ -71,16 +137,34 @@ export default function SearchFilter({
         </div>
       </div>
 
+      {/* Active Filter Chips */}
       {activeFilters.length > 0 && (
         <div className="filter-chips">
-          {activeFilters.map(([key, value]) => (
-            <span key={key} className="filter-chip">
-              {key === 'exam_type' ? (value === 'entrance' ? 'Entrance' : 'Job') : value}
-              <button onClick={() => onFilterChange(key, '')}>×</button>
-            </span>
-          ))}
+          {activeFilters.map(([key, value]) => {
+            let label = value
+            if (key === 'jurisdiction') {
+              label = value === 'central' ? 'Scope: Central & All-India' : 'Scope: State Government'
+            } else if (key === 'state') {
+              label = `State: ${value}`
+            } else if (key === 'exam_type') {
+              label = value === 'entrance' ? 'Type: Entrance' : 'Type: Job'
+            } else if (key === 'domain') {
+              label = `Domain: ${value}`
+            } else if (key === 'level') {
+              label = `Level: ${value}`
+            } else if (key === 'frequency') {
+              label = `Frequency: ${value}`
+            }
+            return (
+              <span key={key} className="filter-chip">
+                {label}
+                <button onClick={() => onFilterChange(key, '')}>×</button>
+              </span>
+            )
+          })}
         </div>
       )}
     </div>
   )
 }
+

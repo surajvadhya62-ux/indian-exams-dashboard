@@ -20,6 +20,8 @@ function App() {
     exam_mode: '',
     frequency: '',
     exam_type: '',
+    jurisdiction: '',
+    state: '',
   })
   const [compareList, setCompareList] = useState([])
   const [selectedExam, setSelectedExam] = useState(null)
@@ -35,6 +37,7 @@ function App() {
         exam.description.toLowerCase().includes(q) ||
         exam.domain.toLowerCase().includes(q) ||
         exam.conducting_body.toLowerCase().includes(q) ||
+        (exam.state && exam.state.toLowerCase().includes(q)) ||
         (exam.field && exam.field.some(f => f.toLowerCase().includes(q)))
 
       const matchDomain = !filters.domain || exam.domain === filters.domain
@@ -42,8 +45,10 @@ function App() {
       const matchMode = !filters.exam_mode || exam.exam_mode.toLowerCase().includes(filters.exam_mode.toLowerCase())
       const matchFreq = !filters.frequency || exam.frequency === filters.frequency
       const matchType = !filters.exam_type || exam.exam_type === filters.exam_type
+      const matchJurisdiction = !filters.jurisdiction || exam.jurisdiction === filters.jurisdiction
+      const matchState = !filters.state || exam.state === filters.state
 
-      return matchSearch && matchDomain && matchLevel && matchMode && matchFreq && matchType
+      return matchSearch && matchDomain && matchLevel && matchMode && matchFreq && matchType && matchJurisdiction && matchState
     })
   }, [searchQuery, filters])
 
@@ -60,7 +65,7 @@ function App() {
   }
 
   const clearFilters = () => {
-    setFilters({ domain: '', level: '', exam_mode: '', frequency: '', exam_type: '' })
+    setFilters({ domain: '', level: '', exam_mode: '', frequency: '', exam_type: '', jurisdiction: '', state: '' })
     setSearchQuery('')
     setCurrentPage(1)
   }
@@ -82,6 +87,17 @@ function App() {
   const getDomains = () => [...new Set(examsData.map(e => e.domain))].sort()
   const getLevels = () => [...new Set(examsData.map(e => e.level))].sort()
   const getFrequencies = () => [...new Set(examsData.map(e => e.frequency))].sort()
+  const getStates = () => {
+    const s = new Set(
+      examsData
+        .filter(e => e.jurisdiction === 'state' && e.state && e.state !== 'All India')
+        .map(e => e.state)
+    )
+    return [...s].sort()
+  }
+
+  const centralCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'central').length, [])
+  const stateCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'state').length, [])
 
   const activeFilters = Object.entries(filters).filter(([, v]) => v)
 
@@ -115,6 +131,9 @@ function App() {
               domains={getDomains()}
               levels={getLevels()}
               frequencies={getFrequencies()}
+              states={getStates()}
+              centralCount={centralCount}
+              stateCount={stateCount}
               resultCount={filteredExams.length}
               totalCount={examsData.length}
             />

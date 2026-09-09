@@ -113,6 +113,28 @@ export default function Analytics({ exams, fullView = false }) {
       .sort((a, b) => b.value - a.value)
   }, [exams])
 
+  // Jurisdiction breakdown (Central vs State)
+  const jurisdictionData = useMemo(() => {
+    const central = exams.filter(e => e.jurisdiction === 'central').length
+    const state = exams.filter(e => e.jurisdiction === 'state').length
+    return [
+      { name: 'Central & All-India', value: central, fill: '#3b82f6' },
+      { name: 'State Government', value: state, fill: '#a855f7' }
+    ]
+  }, [exams])
+
+  // Top states by exam count
+  const stateData = useMemo(() => {
+    const counts = {}
+    exams.filter(e => e.jurisdiction === 'state' && e.state && e.state !== 'All India').forEach(e => {
+      counts[e.state] = (counts[e.state] || 0) + 1
+    })
+    return Object.entries(counts)
+      .map(([name, value]) => ({ name, value }))
+      .sort((a, b) => b.value - a.value)
+      .slice(0, 8)
+  }, [exams])
+
   return (
     <section className="analytics-section">
       <div className="section-header">
@@ -232,6 +254,65 @@ export default function Analytics({ exams, fullView = false }) {
                 </Pie>
                 <Tooltip content={<CustomTooltip />} />
               </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Central vs State Jurisdiction Breakdown */}
+        <div className="chart-card">
+          <h3 className="chart-card-title">Central vs State Jurisdiction</h3>
+          <div style={{ width: '100%', height: 320 }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <PieChart>
+                <Pie
+                  data={jurisdictionData}
+                  dataKey="value"
+                  nameKey="name"
+                  cx="50%"
+                  cy="50%"
+                  innerRadius={65}
+                  outerRadius={105}
+                  paddingAngle={4}
+                  label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
+                  labelLine={false}
+                >
+                  {jurisdictionData.map((entry, index) => (
+                    <Cell key={`jur-cell-${index}`} fill={entry.fill} stroke="rgba(0,0,0,0.4)" strokeWidth={1} />
+                  ))}
+                </Pie>
+                <Tooltip content={<CustomTooltip />} />
+                <Legend
+                  layout="horizontal"
+                  verticalAlign="bottom"
+                  align="center"
+                  wrapperStyle={{ fontSize: '0.8rem', paddingTop: '10px' }}
+                />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Top States Distribution */}
+        <div className="chart-card">
+          <h3 className="chart-card-title">State Government Exams by State</h3>
+          <div style={{ width: '100%', height: 320 }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                data={stateData}
+                layout="vertical"
+                margin={{ top: 10, right: 30, left: 50, bottom: 5 }}
+              >
+                <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                <YAxis
+                  type="category"
+                  dataKey="name"
+                  stroke="#64748b"
+                  tick={{ fill: '#cbd5e1', fontSize: 11 }}
+                  width={110}
+                />
+                <Tooltip content={<CustomTooltip />} />
+                <Bar dataKey="value" fill="#a855f7" radius={[0, 6, 6, 0]} />
+              </BarChart>
             </ResponsiveContainer>
           </div>
         </div>

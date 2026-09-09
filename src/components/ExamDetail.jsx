@@ -10,7 +10,7 @@ export default function ExamDetail({ exam, onClose }) {
         <button className="modal-close" onClick={onClose}><HiX /></button>
 
         <div className="modal-header">
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 8 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 8, flexWrap: 'wrap' }}>
             <span className="domain-badge" style={{
               background: `${color}20`, color, border: `1px solid ${color}40`
             }}>
@@ -21,6 +21,13 @@ export default function ExamDetail({ exam, onClose }) {
               border: '1px solid rgba(255,255,255,0.1)'
             }}>
               {exam.exam_type === 'entrance' ? '🎓 Entrance' : '💼 Job/Recruitment'}
+            </span>
+            <span className="domain-badge" style={{
+              background: exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.15)' : 'rgba(168, 85, 247, 0.15)',
+              color: exam.jurisdiction === 'central' ? '#60a5fa' : '#c084fc',
+              border: `1px solid ${exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.3)' : 'rgba(168, 85, 247, 0.3)'}`
+            }}>
+              {exam.jurisdiction === 'central' ? '🇮🇳 Central & All-India' : `🏛️ State: ${exam.state}`}
             </span>
           </div>
           <h2 className="modal-title">{exam.name}</h2>
@@ -36,6 +43,18 @@ export default function ExamDetail({ exam, onClose }) {
         <div className="modal-section">
           <h4 className="modal-section-title">Key Details</h4>
           <div className="modal-detail-grid">
+            <div className="modal-detail-item">
+              <div className="modal-detail-label">Scope & Jurisdiction</div>
+              <div className="modal-detail-value">
+                {exam.jurisdiction === 'central' ? '🇮🇳 Central / All-India' : `🏛️ State Govt (${exam.state})`}
+              </div>
+            </div>
+            {exam.cadre && (
+              <div className="modal-detail-item">
+                <div className="modal-detail-label">Cadre / Service Level</div>
+                <div className="modal-detail-value">{exam.cadre}</div>
+              </div>
+            )}
             <div className="modal-detail-item">
               <div className="modal-detail-label">Conducting Body</div>
               <div className="modal-detail-value">{exam.conducting_body}</div>

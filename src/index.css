@@ -241,7 +241,7 @@ input, select {
 /* ===== HERO / STATS OVERVIEW ===== */
 .stats-overview {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 16px;
   margin-bottom: 2rem;
 }
@@ -269,9 +269,10 @@ input, select {
 }
 
 .stat-card:nth-child(1)::before { background: linear-gradient(90deg, var(--accent-blue), var(--accent-teal)); }
-.stat-card:nth-child(2)::before { background: linear-gradient(90deg, var(--accent-purple), var(--accent-rose)); }
-.stat-card:nth-child(3)::before { background: linear-gradient(90deg, var(--accent-amber), var(--accent-orange)); }
-.stat-card:nth-child(4)::before { background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan)); }
+.stat-card:nth-child(2)::before { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
+.stat-card:nth-child(3)::before { background: linear-gradient(90deg, #a855f7, #c084fc); }
+.stat-card:nth-child(4)::before { background: linear-gradient(90deg, var(--accent-amber), var(--accent-orange)); }
+.stat-card:nth-child(5)::before { background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan)); }
 
 .stat-card:hover {
   border-color: var(--border-glass-hover);
@@ -303,6 +304,114 @@ input, select {
 /* ===== SEARCH & FILTER ===== */
 .search-filter-section {
   margin-bottom: 2rem;
+}
+
+/* Scope Selector (Central vs State distinction) */
+.scope-selector-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-lg);
+  padding: 8px 14px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.scope-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.scope-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.scope-pill:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.scope-pill.active {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.4);
+  color: var(--accent-blue);
+  box-shadow: 0 0 14px rgba(59, 130, 246, 0.15);
+}
+
+.scope-pill.active.state-active {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.4);
+  color: #c084fc;
+  box-shadow: 0 0 14px rgba(168, 85, 247, 0.15);
+}
+
+.scope-pill-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
+}
+
+.scope-pill.active .scope-pill-count {
+  background: rgba(59, 130, 246, 0.25);
+  color: #93c5fd;
+}
+
+.scope-pill.active.state-active .scope-pill-count {
+  background: rgba(168, 85, 247, 0.25);
+  color: #e9d5ff;
+}
+
+.scope-state-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.state-select {
+  padding: 8px 34px 8px 14px;
+  background: rgba(168, 85, 247, 0.12);
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  border-radius: var(--radius-md);
+  color: #e9d5ff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23c084fc' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  transition: all 0.2s ease;
+}
+
+.state-select:focus, .state-select:hover {
+  border-color: #c084fc;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.3);
+}
+
+.state-select option {
+  background: #0f172a;
+  color: #f8fafc;
 }
 
 .search-bar-wrapper {

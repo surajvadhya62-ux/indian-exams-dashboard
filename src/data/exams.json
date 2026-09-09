@@ -30,7 +30,10 @@
     "official_website": "https://jeemain.nta.nic.in",
     "application_period": "November - December",
     "exam_month": "January & April",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jee-advanced",
@@ -63,7 +66,10 @@
     "official_website": "https://jeeadv.ac.in",
     "application_period": "April - May",
     "exam_month": "June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "neet-ug",
@@ -97,7 +103,10 @@
     "official_website": "https://neet.nta.nic.in",
     "application_period": "February - March",
     "exam_month": "May",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "neet-pg",
@@ -128,7 +137,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "January - February",
     "exam_month": "March",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cat",
@@ -160,7 +172,10 @@
     "official_website": "https://iimcat.ac.in",
     "application_period": "August - September",
     "exam_month": "November",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "gate",
@@ -197,7 +212,10 @@
     "official_website": "https://gate2025.iitr.ac.in",
     "application_period": "August - September",
     "exam_month": "February",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "upsc-cse",
@@ -231,7 +249,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "February - March",
     "exam_month": "May (Prelims), September (Mains)",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "clat",
@@ -261,7 +282,10 @@
     "official_website": "https://consortiumofnlus.ac.in",
     "application_period": "January - April",
     "exam_month": "December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nda",
@@ -289,7 +313,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "January & June",
     "exam_month": "April & September",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cds",
@@ -319,7 +346,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "October & May",
     "exam_month": "February & September",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "wbjee",
@@ -353,7 +383,10 @@
     "official_website": "https://wbjeeb.in",
     "application_period": "December - February",
     "exam_month": "April",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "West Bengal",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "mht-cet",
@@ -383,7 +416,10 @@
     "official_website": "https://cetcell.mahacet.org",
     "application_period": "January - March",
     "exam_month": "May",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Maharashtra",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "kcet",
@@ -415,7 +451,10 @@
     "official_website": "https://cetonline.karnataka.gov.in",
     "application_period": "January - February",
     "exam_month": "April - May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Karnataka",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ap-eamcet",
@@ -447,7 +486,10 @@
     "official_website": "https://cets.apsche.ap.gov.in",
     "application_period": "February - April",
     "exam_month": "May - June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Andhra Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ts-eamcet",
@@ -478,7 +520,10 @@
     "official_website": "https://eapcet.tgche.ac.in",
     "application_period": "March - April",
     "exam_month": "May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Telangana",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "keam",
@@ -507,7 +552,10 @@
     "official_website": "https://cee.kerala.gov.in",
     "application_period": "January - March",
     "exam_month": "April",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Kerala",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "upcet",
@@ -540,7 +588,10 @@
     "official_website": "https://aktu.ac.in",
     "application_period": "March - May",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "gujcet",
@@ -567,7 +618,10 @@
     "official_website": "https://www.gseb.org",
     "application_period": "January - March",
     "exam_month": "March - April",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Gujarat",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nid-dat",
@@ -598,7 +652,10 @@
     "official_website": "https://admissions.nid.edu",
     "application_period": "October - December",
     "exam_month": "January (Prelim), April (Mains)",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nift",
@@ -630,7 +687,10 @@
     "official_website": "https://nift.ac.in",
     "application_period": "October - January",
     "exam_month": "February",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "uceed",
@@ -658,7 +718,10 @@
     "official_website": "https://www.uceed.iitb.ac.in",
     "application_period": "October - November",
     "exam_month": "January",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ceed",
@@ -687,7 +750,10 @@
     "official_website": "https://www.ceed.iitb.ac.in",
     "application_period": "September - October",
     "exam_month": "January",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ailet",
@@ -715,7 +781,10 @@
     "official_website": "https://nludelhi.ac.in",
     "application_period": "January - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "afcat",
@@ -744,7 +813,10 @@
     "official_website": "https://careerindianairforce.cdac.in",
     "application_period": "December & June",
     "exam_month": "February & August",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ssc-cgl",
@@ -776,7 +848,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "March - April",
     "exam_month": "July - August",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "ssc-chsl",
@@ -807,7 +882,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "February - March",
     "exam_month": "June - July",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "ibps-po",
@@ -834,7 +912,10 @@
     "official_website": "https://ibps.in",
     "application_period": "August - September",
     "exam_month": "October",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ibps-clerk",
@@ -861,7 +942,10 @@
     "official_website": "https://ibps.in",
     "application_period": "July - August",
     "exam_month": "September - October",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "sbi-po",
@@ -887,7 +971,10 @@
     "official_website": "https://sbi.co.in/web/careers",
     "application_period": "September - October",
     "exam_month": "November - December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "rbi-grade-b",
@@ -918,7 +1005,10 @@
     "official_website": "https://rbi.org.in/scripts/Bs_Recruitment.aspx",
     "application_period": "February - March",
     "exam_month": "April - May",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ugc-net",
@@ -955,7 +1045,10 @@
     "official_website": "https://ugcnet.nta.nic.in",
     "application_period": "March & September",
     "exam_month": "June & December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "csir-net",
@@ -985,7 +1078,10 @@
     "official_website": "https://csirnet.nta.nic.in",
     "application_period": "March & September",
     "exam_month": "June & December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ies-ese",
@@ -1013,7 +1109,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "September - October",
     "exam_month": "February (Prelims), June (Mains)",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "mat",
@@ -1039,7 +1138,10 @@
     "official_website": "https://mat.aima.in",
     "application_period": "Throughout the year",
     "exam_month": "February, May, September, December",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cmat",
@@ -1065,7 +1167,10 @@
     "official_website": "https://exams.nta.ac.in",
     "application_period": "January - March",
     "exam_month": "March - April",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "icar-aieea",
@@ -1100,7 +1205,10 @@
     "official_website": "https://exams.nta.ac.in",
     "application_period": "March - May",
     "exam_month": "June - July",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "rrb-ntpc",
@@ -1131,7 +1239,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "rrb-group-d",
@@ -1160,7 +1271,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "rrb-alp",
@@ -1188,7 +1302,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "rrb-je",
@@ -1218,7 +1335,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "cuet-ug",
@@ -1247,7 +1367,10 @@
     "official_website": "https://cuet.nta.nic.in",
     "application_period": "February - March",
     "exam_month": "May - June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cuet-pg",
@@ -1276,7 +1399,10 @@
     "official_website": "https://exams.nta.ac.in",
     "application_period": "March - April",
     "exam_month": "June - July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "iift",
@@ -1302,7 +1428,10 @@
     "official_website": "https://www.iift.ac.in",
     "application_period": "August - September",
     "exam_month": "December",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ca",
@@ -1337,7 +1466,10 @@
     "official_website": "https://www.icai.org",
     "application_period": "Throughout the year (Exam registrations Feb & Aug)",
     "exam_month": "May & November (Foundation: Jan, June, Sept)",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cs",
@@ -1372,7 +1504,10 @@
     "official_website": "https://www.icsi.edu",
     "application_period": "Throughout the year (Exam registrations March & September)",
     "exam_month": "June & December (CSEET: Jan, May, July, Nov)",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cma",
@@ -1407,7 +1542,10 @@
     "official_website": "https://icmai.in",
     "application_period": "Throughout the year (Exam registrations Feb & Aug)",
     "exam_month": "June & December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "upsc-ifs",
@@ -1436,7 +1574,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "February - March",
     "exam_month": "June (with CSE Prelims), November (Mains)",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "upsc-nda-na",
@@ -1464,7 +1605,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "January & June",
     "exam_month": "April & September",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "capf-ac",
@@ -1494,7 +1638,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "March - April",
     "exam_month": "August",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ctet",
@@ -1521,7 +1668,10 @@
     "official_website": "https://ctet.nic.in",
     "application_period": "October - November",
     "exam_month": "December - January",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "kvs-pgt-tgt",
@@ -1549,7 +1699,10 @@
     "official_website": "https://kvsangathan.nic.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "jam",
@@ -1581,7 +1734,10 @@
     "official_website": "https://jam2025.iitd.ac.in",
     "application_period": "September - October",
     "exam_month": "February",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "tifr-gs",
@@ -1615,7 +1771,10 @@
     "official_website": "https://www.tifr.res.in/~academics/",
     "application_period": "September - October",
     "exam_month": "December",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jest",
@@ -1642,7 +1801,10 @@
     "official_website": "https://www.jest.org.in",
     "application_period": "November - January",
     "exam_month": "February",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "isi-admission",
@@ -1671,7 +1833,10 @@
     "official_website": "https://www.isical.ac.in",
     "application_period": "February - April",
     "exam_month": "May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cmi-entrance",
@@ -1700,7 +1865,10 @@
     "official_website": "https://www.cmi.ac.in",
     "application_period": "February - April",
     "exam_month": "May",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nimcet",
@@ -1726,7 +1894,10 @@
     "official_website": "https://nimcet.admissions.nic.in",
     "application_period": "February - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nata",
@@ -1751,7 +1922,10 @@
     "official_website": "https://nata.in",
     "application_period": "January - March",
     "exam_month": "April & July",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "gpat",
@@ -1779,7 +1953,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "November - January",
     "exam_month": "February",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ongc-gt",
@@ -1812,7 +1989,10 @@
     "official_website": "https://www.ongcindia.com",
     "application_period": "As notified (usually post-GATE)",
     "exam_month": "Based on GATE score",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ntpc-et",
@@ -1844,7 +2024,10 @@
     "official_website": "https://www.ntpc.co.in",
     "application_period": "February - March",
     "exam_month": "Based on GATE score",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "iocl-apprentice",
@@ -1876,7 +2059,10 @@
     "official_website": "https://iocl.com",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "bhel-et",
@@ -1907,7 +2093,10 @@
     "official_website": "https://www.bhel.com",
     "application_period": "As notified",
     "exam_month": "Based on GATE score",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "isro-scientist",
@@ -1939,7 +2128,10 @@
     "official_website": "https://www.isro.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "drdo-ceptam",
@@ -1970,7 +2162,10 @@
     "official_website": "https://www.drdo.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "drdo-set",
@@ -2001,7 +2196,10 @@
     "official_website": "https://rac.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "barc-oces",
@@ -2033,7 +2231,10 @@
     "official_website": "https://www.barc.gov.in",
     "application_period": "February - March",
     "exam_month": "Through GATE score + Interview",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "imu-cet",
@@ -2063,7 +2264,10 @@
     "official_website": "https://www.imu.edu.in",
     "application_period": "March - May",
     "exam_month": "June",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "tissnet",
@@ -2096,7 +2300,10 @@
     "official_website": "https://admissions.tiss.edu",
     "application_period": "November - January",
     "exam_month": "February",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jnu-entrance",
@@ -2129,7 +2336,10 @@
     "official_website": "https://www.jnu.ac.in/admissions",
     "application_period": "March - April",
     "exam_month": "May - June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "du-entrance",
@@ -2158,7 +2368,10 @@
     "official_website": "https://www.du.ac.in",
     "application_period": "Via CUET",
     "exam_month": "Via CUET",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "pet-bhu",
@@ -2186,7 +2399,10 @@
     "official_website": "https://www.bhu.ac.in",
     "application_period": "Via CUET",
     "exam_month": "Via CUET",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "htet",
@@ -2214,7 +2430,10 @@
     "official_website": "https://bseh.org.in",
     "application_period": "August - September",
     "exam_month": "November - December",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Haryana",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "uptet",
@@ -2241,7 +2460,10 @@
     "official_website": "https://updeled.gov.in",
     "application_period": "August - September",
     "exam_month": "October - November",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "dsssb",
@@ -2273,7 +2495,10 @@
     "official_website": "https://dsssb.delhi.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Delhi",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "uppsc-pcs",
@@ -2304,7 +2529,10 @@
     "official_website": "https://uppsc.up.nic.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "mpsc",
@@ -2333,7 +2561,10 @@
     "official_website": "https://mpsc.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Maharashtra",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "bpsc",
@@ -2363,7 +2594,10 @@
     "official_website": "https://bpsc.bihar.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Bihar",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "rpsc-ras",
@@ -2392,7 +2626,10 @@
     "official_website": "https://rpsc.rajasthan.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Rajasthan",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "appsc",
@@ -2421,7 +2658,10 @@
     "official_website": "https://psc.ap.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Andhra Pradesh",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "tspsc",
@@ -2449,7 +2689,10 @@
     "official_website": "https://tgpsc.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Telangana",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "kpsc",
@@ -2478,7 +2721,10 @@
     "official_website": "https://kpsc.kar.nic.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Karnataka",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "wbcs",
@@ -2506,7 +2752,10 @@
     "official_website": "https://psc.wb.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "West Bengal",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "nabard-grade-a",
@@ -2536,7 +2785,10 @@
     "official_website": "https://www.nabard.org",
     "application_period": "July - August",
     "exam_month": "September - October",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "sebi-grade-a",
@@ -2566,7 +2818,10 @@
     "official_website": "https://www.sebi.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "lic-aao",
@@ -2597,7 +2852,10 @@
     "official_website": "https://licindia.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "epfo-apfc",
@@ -2626,7 +2884,10 @@
     "official_website": "https://www.epfindia.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "neet-ss",
@@ -2656,7 +2917,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "April - June",
     "exam_month": "August",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "fmge",
@@ -2681,7 +2945,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "March & September",
     "exam_month": "June & December",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ini-cet",
@@ -2712,7 +2979,10 @@
     "official_website": "https://aiimsexams.ac.in",
     "application_period": "March & September",
     "exam_month": "May & November",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jipmer",
@@ -2737,7 +3007,10 @@
     "official_website": "https://jipmer.edu.in",
     "application_period": "Via NEET",
     "exam_month": "Via NEET",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "afmc-mbbs",
@@ -2763,7 +3036,10 @@
     "official_website": "https://afmc.nic.in",
     "application_period": "Via NEET",
     "exam_month": "Additional screening post-NEET",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "kvpy",
@@ -2792,7 +3068,10 @@
     "official_website": "https://online-inspire.gov.in",
     "application_period": "July - September",
     "exam_month": "November",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ntse",
@@ -2819,7 +3098,10 @@
     "official_website": "https://ncert.nic.in",
     "application_period": "August - September",
     "exam_month": "November (Stage 1), May (Stage 2)",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "olympiad-science",
@@ -2850,7 +3132,10 @@
     "official_website": "https://olympiads.hbcse.tifr.res.in",
     "application_period": "August - October",
     "exam_month": "November (Stage 1)",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "imo",
@@ -2879,7 +3164,10 @@
     "official_website": "https://olympiads.hbcse.tifr.res.in",
     "application_period": "September",
     "exam_month": "October (RMO), January (INMO)",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "iiser-aptitude",
@@ -2909,7 +3197,10 @@
     "official_website": "https://www.iiseradmission.in",
     "application_period": "March - May",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "iisc-ug",
@@ -2938,7 +3229,10 @@
     "official_website": "https://iisc.ac.in",
     "application_period": "April - May",
     "exam_month": "Based on qualifying exam scores",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nchm-jee",
@@ -2967,7 +3261,10 @@
     "official_website": "https://exams.nta.ac.in",
     "application_period": "January - April",
     "exam_month": "May - June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "indian-navy-ssr-aa",
@@ -2994,7 +3291,10 @@
     "official_website": "https://www.joinindiannavy.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "indian-army-agniveer",
@@ -3023,7 +3323,10 @@
     "official_website": "https://joinindianarmy.nic.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ssc-mts",
@@ -3054,7 +3357,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "January - February",
     "exam_month": "May - July",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "ssc-gd",
@@ -3084,7 +3390,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "October - November",
     "exam_month": "January - February",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "ssc-cpo",
@@ -3112,7 +3421,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "March - April",
     "exam_month": "June - July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "fci-manager",
@@ -3142,7 +3454,10 @@
     "official_website": "https://fci.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "upsc-cms",
@@ -3170,7 +3485,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "March - April",
     "exam_month": "July",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "jee-main-arch",
@@ -3198,7 +3516,10 @@
     "official_website": "https://jeemain.nta.nic.in",
     "application_period": "November - December",
     "exam_month": "January / April",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "amu-entrance",
@@ -3234,7 +3555,10 @@
     "official_website": "https://www.amucontrollerexams.com",
     "application_period": "January - March",
     "exam_month": "April - June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jamia-entrance",
@@ -3269,7 +3593,10 @@
     "official_website": "https://www.jmi.ac.in",
     "application_period": "February - April",
     "exam_month": "May - June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nest",
@@ -3297,7 +3624,10 @@
     "official_website": "https://www.nestexam.in",
     "application_period": "January - April",
     "exam_month": "June",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "iim-cat-fellowship",
@@ -3329,7 +3659,10 @@
     "official_website": "https://iimcat.ac.in",
     "application_period": "October - January",
     "exam_month": "Through CAT score",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "mpsc-sti",
@@ -3358,7 +3691,10 @@
     "official_website": "https://mpsc.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Maharashtra",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "cgpsc",
@@ -3386,7 +3722,10 @@
     "official_website": "https://psc.cg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Chhattisgarh",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "jharkhand-jpsc",
@@ -3414,7 +3753,10 @@
     "official_website": "https://jpsc.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Jharkhand",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "mppsc",
@@ -3442,7 +3784,10 @@
     "official_website": "https://mppsc.mp.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Madhya Pradesh",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "hppsc",
@@ -3470,7 +3815,10 @@
     "official_website": "http://www.hppsc.hp.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Himachal Pradesh",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ukpsc",
@@ -3499,7 +3847,10 @@
     "official_website": "https://psc.uk.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Uttarakhand",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "gail-et",
@@ -3531,7 +3882,10 @@
     "official_website": "https://gailonline.com",
     "application_period": "February - March",
     "exam_month": "Based on GATE score",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "sail-octt",
@@ -3564,7 +3918,10 @@
     "official_website": "https://sail.co.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "hpcl-et",
@@ -3597,7 +3954,10 @@
     "official_website": "https://hindustanpetroleum.com",
     "application_period": "As notified",
     "exam_month": "Based on GATE score",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "bpcl-et",
@@ -3629,7 +3989,10 @@
     "official_website": "https://bharatpetroleum.in",
     "application_period": "As notified",
     "exam_month": "Based on GATE score",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ibps-so",
@@ -3663,7 +4026,10 @@
     "official_website": "https://ibps.in",
     "application_period": "October - November",
     "exam_month": "January - February",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ibps-rrb",
@@ -3692,7 +4058,10 @@
     "official_website": "https://ibps.in",
     "application_period": "June - July",
     "exam_month": "August - September",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "niacl-ao",
@@ -3719,7 +4088,10 @@
     "official_website": "https://newindia.co.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "uiic-ao",
@@ -3746,7 +4118,10 @@
     "official_website": "https://uiic.co.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "iiit-allahabad",
@@ -3775,7 +4150,10 @@
     "official_website": "https://www.iiita.ac.in",
     "application_period": "Via JEE Main",
     "exam_month": "Via JEE Main",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nda-na-ii",
@@ -3803,7 +4181,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "June",
     "exam_month": "September",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "lic-assistant",
@@ -3829,7 +4210,10 @@
     "official_website": "https://licindia.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "neet-mds",
@@ -3858,7 +4242,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "October - November",
     "exam_month": "January",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "sail-act-oct",
@@ -3889,7 +4276,10 @@
     "official_website": "https://sail.co.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ecil-et",
@@ -3920,7 +4310,10 @@
     "official_website": "https://ecil.co.in",
     "application_period": "As notified",
     "exam_month": "Based on GATE score",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "cusat-cat",
@@ -3951,7 +4344,10 @@
     "official_website": "https://admissions.cusat.ac.in",
     "application_period": "January - March",
     "exam_month": "May",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "tancet",
@@ -3982,7 +4378,10 @@
     "official_website": "https://tancet.annauniv.edu",
     "application_period": "January - February",
     "exam_month": "March",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Tamil Nadu",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ojee",
@@ -4013,7 +4412,10 @@
     "official_website": "https://ojee.nic.in",
     "application_period": "February - March",
     "exam_month": "May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Odisha",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ap-icet",
@@ -4041,7 +4443,10 @@
     "official_website": "https://cets.apsche.ap.gov.in",
     "application_period": "March - April",
     "exam_month": "May",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Andhra Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ts-icet",
@@ -4068,7 +4473,10 @@
     "official_website": "https://tgche.ac.in",
     "application_period": "March - May",
     "exam_month": "June",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Telangana",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ap-ecet",
@@ -4100,7 +4508,10 @@
     "official_website": "https://cets.apsche.ap.gov.in",
     "application_period": "March - April",
     "exam_month": "May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Andhra Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ts-ecet",
@@ -4129,7 +4540,10 @@
     "official_website": "https://tgche.ac.in",
     "application_period": "February - April",
     "exam_month": "May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Telangana",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cg-pet",
@@ -4159,7 +4573,10 @@
     "official_website": "https://vyapam.cgstate.gov.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Chhattisgarh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "bcece",
@@ -4190,7 +4607,10 @@
     "official_website": "https://bceceboard.bihar.gov.in",
     "application_period": "April - May",
     "exam_month": "June & July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Bihar",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jkcet",
@@ -4219,7 +4639,10 @@
     "official_website": "https://www.jkbopee.gov.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Jammu & Kashmir",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "assam-cee",
@@ -4249,7 +4672,10 @@
     "official_website": "https://astu.ac.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Assam",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "atma",
@@ -4278,7 +4704,10 @@
     "official_website": "https://www.atmaaims.com",
     "application_period": "Rolling (Feb, May, June, July)",
     "exam_month": "February, May, June & July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "mah-mba-cet",
@@ -4307,7 +4736,10 @@
     "official_website": "https://cetcell.mahacet.org",
     "application_period": "January - February",
     "exam_month": "March",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Maharashtra",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "aiims-nursing",
@@ -4336,7 +4768,10 @@
     "official_website": "https://www.aiimsexams.ac.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "aiapget",
@@ -4368,7 +4803,10 @@
     "official_website": "https://exams.nta.ac.in",
     "application_period": "April - May",
     "exam_month": "July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "dnb-pdcet",
@@ -4399,7 +4837,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "May - June",
     "exam_month": "July",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nbe-fet",
@@ -4427,7 +4868,10 @@
     "official_website": "https://natboard.edu.in",
     "application_period": "January - February",
     "exam_month": "March",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "mh-cet-law",
@@ -4456,7 +4900,10 @@
     "official_website": "https://cetcell.mahacet.org",
     "application_period": "January - March",
     "exam_month": "April & May",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Maharashtra",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ap-lawcet",
@@ -4484,7 +4931,10 @@
     "official_website": "https://cets.apsche.ap.gov.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Andhra Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "ts-lawcet",
@@ -4511,7 +4961,10 @@
     "official_website": "https://tgche.ac.in",
     "application_period": "March - May",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Telangana",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "klee",
@@ -4540,7 +4993,10 @@
     "official_website": "https://www.cee.kerala.gov.in",
     "application_period": "July - August",
     "exam_month": "August & September",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Kerala",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jgeebils",
@@ -4571,7 +5027,10 @@
     "official_website": "https://www.tifr.res.in/~academics/",
     "application_period": "October - November",
     "exam_month": "December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nbhm-phd",
@@ -4601,7 +5060,10 @@
     "official_website": "https://www.nbhm.dae.gov.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "icar-aice-jrf-srf",
@@ -4632,7 +5094,10 @@
     "official_website": "https://exams.nta.ac.in",
     "application_period": "April - May",
     "exam_month": "July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cg-pat",
@@ -4660,7 +5125,10 @@
     "official_website": "https://vyapam.cgstate.gov.in",
     "application_period": "April - May",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Chhattisgarh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "mp-pat",
@@ -4689,7 +5157,10 @@
     "official_website": "https://esb.mp.gov.in",
     "application_period": "May - June",
     "exam_month": "July & August",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Madhya Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "upcatet",
@@ -4719,7 +5190,10 @@
     "official_website": "https://upcatet.org",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "upsc-geo-scientist",
@@ -4750,7 +5224,10 @@
     "official_website": "https://upsc.gov.in",
     "application_period": "September - October",
     "exam_month": "February (Prelims) & June (Mains)",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ssc-je",
@@ -4779,7 +5256,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "ssc-steno",
@@ -4807,7 +5287,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "July - August",
     "exam_month": "October & November",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ib-acio",
@@ -4837,7 +5320,10 @@
     "official_website": "https://www.mha.gov.in",
     "application_period": "November - December",
     "exam_month": "January & February",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ssc-delhi-police-si",
@@ -4866,7 +5352,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "February - March",
     "exam_month": "May & June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "aai-atc",
@@ -4896,7 +5385,10 @@
     "official_website": "https://www.aai.aero",
     "application_period": "November - December",
     "exam_month": "December & January",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "pgcil-et",
@@ -4925,7 +5417,10 @@
     "official_website": "https://www.powergrid.in",
     "application_period": "January - February",
     "exam_month": "May",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "bis-scientist-b",
@@ -4955,7 +5450,10 @@
     "official_website": "https://www.bis.gov.in",
     "application_period": "October - November",
     "exam_month": "January",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "bel-trainee-engineer",
@@ -4985,7 +5483,10 @@
     "official_website": "https://bel-india.in",
     "application_period": "Periodic",
     "exam_month": "Periodic",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "hal-management-trainee",
@@ -5015,7 +5516,10 @@
     "official_website": "https://hal-india.co.in",
     "application_period": "February - March",
     "exam_month": "April & May",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "apsc-cce",
@@ -5045,7 +5549,10 @@
     "official_website": "https://apsc.nic.in",
     "application_period": "January - February",
     "exam_month": "March (Prelims) & July (Mains)",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Assam",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "kerala-psc-kas",
@@ -5072,7 +5579,10 @@
     "official_website": "https://www.keralapsc.gov.in",
     "application_period": "November - December",
     "exam_month": "February & July",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Kerala",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "opsc-oas",
@@ -5102,7 +5612,10 @@
     "official_website": "https://www.opsc.gov.in",
     "application_period": "January - February",
     "exam_month": "October & November",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Odisha",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ppsc-pcs",
@@ -5131,7 +5644,10 @@
     "official_website": "https://ppsc.gov.in",
     "application_period": "December - January",
     "exam_month": "February & June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Punjab",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "hpsc-hcs",
@@ -5161,7 +5677,10 @@
     "official_website": "https://hpsc.gov.in",
     "application_period": "December - January",
     "exam_month": "February & March",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Haryana",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "rbi-assistant",
@@ -5190,7 +5709,10 @@
     "official_website": "https://www.rbi.org.in",
     "application_period": "September - October",
     "exam_month": "November & December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "sbi-clerk",
@@ -5219,7 +5741,10 @@
     "official_website": "https://sbi.co.in/web/careers",
     "application_period": "November - December",
     "exam_month": "January & February",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "nabard-da",
@@ -5247,7 +5772,10 @@
     "official_website": "https://www.nabard.org",
     "application_period": "September - October",
     "exam_month": "November & December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "sidbi-grade-a",
@@ -5276,7 +5804,10 @@
     "official_website": "https://www.sidbi.in",
     "application_period": "December - January",
     "exam_month": "January & February",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "exim-bank-mt",
@@ -5306,7 +5837,10 @@
     "official_website": "https://www.eximbankindia.in",
     "application_period": "October - November",
     "exam_month": "December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "gic-re-am",
@@ -5336,7 +5870,10 @@
     "official_website": "https://www.gicre.in",
     "application_period": "December - January",
     "exam_month": "March",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "oicl-ao",
@@ -5366,7 +5903,10 @@
     "official_website": "https://orientalinsurance.org.in",
     "application_period": "March - April",
     "exam_month": "July & September",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "epfo-ssa",
@@ -5395,7 +5935,10 @@
     "official_website": "https://www.epfindia.gov.in",
     "application_period": "March - April",
     "exam_month": "August",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "esic-sso",
@@ -5424,7 +5967,10 @@
     "official_website": "https://www.esic.gov.in",
     "application_period": "March - April",
     "exam_month": "June & July",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "reet",
@@ -5452,7 +5998,10 @@
     "official_website": "https://rajeduboard.rajasthan.gov.in",
     "application_period": "April - May",
     "exam_month": "July & August",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Rajasthan",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "tntet",
@@ -5480,7 +6029,10 @@
     "official_website": "https://trb.tn.gov.in",
     "application_period": "March - April",
     "exam_month": "October",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Tamil Nadu",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "ktet",
@@ -5509,7 +6061,10 @@
     "official_website": "https://ktet.kerala.gov.in",
     "application_period": "October - November & April - May",
     "exam_month": "December & June",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Kerala",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "maha-tet",
@@ -5536,7 +6091,10 @@
     "official_website": "https://mahatet.in",
     "application_period": "September - October",
     "exam_month": "November & December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Maharashtra",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "fddi-aist",
@@ -5565,7 +6123,10 @@
     "official_website": "https://www.fddiindia.com",
     "application_period": "January - April",
     "exam_month": "May",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "acet-actuarial",
@@ -5596,7 +6157,10 @@
     "official_website": "https://www.actuariesindia.org",
     "application_period": "January & July",
     "exam_month": "March & December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "jbims-msc-finance",
@@ -5627,7 +6191,10 @@
     "official_website": "https://jbims.edu",
     "application_period": "April - May",
     "exam_month": "June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "nibm-pgdm",
@@ -5658,7 +6225,10 @@
     "official_website": "https://www.nibmindia.org",
     "application_period": "November - March",
     "exam_month": "April",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "mse-msc-finance",
@@ -5688,7 +6258,10 @@
     "official_website": "https://www.mse.ac.in",
     "application_period": "March - May",
     "exam_month": "June",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "igidr-msc-economics-finance",
@@ -5718,7 +6291,10 @@
     "official_website": "http://www.igidr.ac.in",
     "application_period": "March - April",
     "exam_month": "May",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "dse-mcom",
@@ -5748,7 +6324,10 @@
     "official_website": "http://www.commercedu.com",
     "application_period": "January - February",
     "exam_month": "March",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "pfrda-grade-a",
@@ -5778,7 +6357,10 @@
     "official_website": "https://www.pfrda.org.in",
     "application_period": "September - October",
     "exam_month": "November & December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ifsca-grade-a",
@@ -5808,7 +6390,10 @@
     "official_website": "https://www.ifsca.gov.in",
     "application_period": "March - April",
     "exam_month": "May & June",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "ssc-cgl-aao",
@@ -5838,7 +6423,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "June - July",
     "exam_month": "September & December",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "nhb-assistant-manager",
@@ -5868,7 +6456,10 @@
     "official_website": "https://www.nhb.org.in",
     "application_period": "September - October",
     "exam_month": "December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ecgc-po",
@@ -5898,7 +6489,10 @@
     "official_website": "https://www.ecgc.in",
     "application_period": "April - May",
     "exam_month": "July",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "rbi-grade-b-depr",
@@ -5928,7 +6522,10 @@
     "official_website": "https://www.rbi.org.in",
     "application_period": "June - July",
     "exam_month": "September & October",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "nism-certifications",
@@ -5958,7 +6555,10 @@
     "official_website": "https://www.nism.ac.in",
     "application_period": "Continuous Year-Round",
     "exam_month": "All Year (Weekly slots)",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "cag-sas",
@@ -5989,7 +6589,10 @@
     "official_website": "https://cag.gov.in",
     "application_period": "April & September",
     "exam_month": "June & November",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ongc-finance-officer",
@@ -6019,7 +6622,10 @@
     "official_website": "https://www.ongcindia.com",
     "application_period": "November - December",
     "exam_month": "January & February",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "iocl-finance-officer",
@@ -6048,7 +6654,10 @@
     "official_website": "https://iocl.com",
     "application_period": "May - June",
     "exam_month": "August",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "bhel-finance-executive",
@@ -6077,7 +6686,10 @@
     "official_website": "https://www.bhel.com",
     "application_period": "September - October",
     "exam_month": "December",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "sbi-so-credit-analyst",
@@ -6107,7 +6719,10 @@
     "official_website": "https://sbi.co.in/web/careers",
     "application_period": "January - February",
     "exam_month": "April",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "upsc-ies-iss",
@@ -6136,7 +6751,10 @@
     "official_website": "https://www.upsc.gov.in",
     "application_period": "March - April",
     "exam_month": "June - July",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ssc-selection-posts",
@@ -6161,7 +6779,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "Varies",
     "exam_month": "Varies",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "ssc-jht",
@@ -6189,7 +6810,10 @@
     "official_website": "https://ssc.gov.in",
     "application_period": "August - September",
     "exam_month": "October - November",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "nta-ncet",
@@ -6217,7 +6841,10 @@
     "official_website": "https://ncet.nta.ac.in",
     "application_period": "March - April",
     "exam_month": "June",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "rrb-technician",
@@ -6248,7 +6875,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "rrb-sse",
@@ -6279,7 +6909,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "rrb-paramedical",
@@ -6310,7 +6943,10 @@
     "official_website": "https://www.rrbcdg.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "rpf-si-constable",
@@ -6338,7 +6974,10 @@
     "official_website": "https://www.rpf.indianrailways.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "rbi-office-attendant",
@@ -6362,7 +7001,10 @@
     "official_website": "https://opportunities.rbi.org.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "sbi-so",
@@ -6394,7 +7036,10 @@
     "official_website": "https://sbi.co.in/web/careers",
     "application_period": "October - November",
     "exam_month": "December - January",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "isro-technical-assistant",
@@ -6425,7 +7070,10 @@
     "official_website": "https://www.isro.gov.in/Careers.html",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "lic-ado",
@@ -6454,7 +7102,10 @@
     "official_website": "https://licindia.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "irdai-grade-a",
@@ -6486,7 +7137,10 @@
     "official_website": "https://www.irdai.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "npcil-st",
@@ -6517,7 +7171,10 @@
     "official_website": "https://www.npcil.nic.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "cil-mt",
@@ -6549,7 +7206,10 @@
     "official_website": "https://www.coalindia.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "india-post-gds",
@@ -6573,7 +7233,10 @@
     "official_website": "https://indiapostgdsonline.gov.in",
     "application_period": "As notified",
     "exam_month": "Merit-based (no exam)",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "india-post-mts-postman",
@@ -6597,7 +7260,10 @@
     "official_website": "https://www.indiapost.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "agniveer-navy",
@@ -6626,7 +7292,10 @@
     "official_website": "https://www.joinindiannavy.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group C & D (Subordinate / Technical)"
   },
   {
     "id": "agniveer-air-force",
@@ -6656,7 +7325,10 @@
     "official_website": "https://agnipathvayu.cdac.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "tnpsc-group-1",
@@ -6685,7 +7357,10 @@
     "official_website": "https://www.tnpsc.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "very_high"
+    "popularity": "very_high",
+    "jurisdiction": "state",
+    "state": "Tamil Nadu",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "gpsc-class-1-2",
@@ -6714,7 +7389,10 @@
     "official_website": "https://gpsc.gujarat.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Gujarat",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "jkpsc-kas",
@@ -6743,7 +7421,10 @@
     "official_website": "https://www.jkpsc.nic.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "state",
+    "state": "Jammu & Kashmir",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "goa-psc",
@@ -6767,7 +7448,10 @@
     "official_website": "https://gpsc.goa.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "state",
+    "state": "Goa",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "tpsc-tcs",
@@ -6791,7 +7475,10 @@
     "official_website": "https://tpsc.tripura.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "low"
+    "popularity": "low",
+    "jurisdiction": "state",
+    "state": "Tripura",
+    "cadre": "Officer / Managerial"
   },
   {
     "id": "nvs-tgt-pgt",
@@ -6822,7 +7509,10 @@
     "official_website": "https://navodaya.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "super-tet",
@@ -6849,7 +7539,10 @@
     "official_website": "https://updeled.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "cadre": "Teaching & Education"
   },
   {
     "id": "aibe",
@@ -6879,7 +7572,10 @@
     "official_website": "https://www.barcouncilofindia.org",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Entrance / Admission"
   },
   {
     "id": "barc-stipendiary-trainee",
@@ -6910,7 +7606,10 @@
     "official_website": "https://www.barc.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "dmrc-je-sc",
@@ -6941,7 +7640,10 @@
     "official_website": "https://www.delhimetrorail.com",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "high"
+    "popularity": "high",
+    "jurisdiction": "state",
+    "state": "Delhi",
+    "cadre": "Group B & C (Executive / Technical)"
   },
   {
     "id": "nia-si-inspector",
@@ -6970,6 +7672,9 @@
     "official_website": "https://www.nia.gov.in",
     "application_period": "As notified",
     "exam_month": "As notified",
-    "popularity": "medium"
+    "popularity": "medium",
+    "jurisdiction": "central",
+    "state": "All India",
+    "cadre": "Group A & B (Gazetted / Officer)"
   }
 ]
