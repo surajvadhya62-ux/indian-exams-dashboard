@@ -10,6 +10,7 @@ import ComparisonTool from './components/ComparisonTool'
 import CalendarView from './components/CalendarView'
 import ExamDetail from './components/ExamDetail'
 import GovtGradesGuide from './components/GovtGradesGuide'
+import HowToUse from './components/HowToUse'
 
 function App() {
   const [activeView, setActiveView] = useState('explore')
@@ -70,6 +71,20 @@ function App() {
     setCurrentPage(1)
   }
 
+  const handleApplyAnalyticsFilter = (key, value) => {
+    if (key === 'conducting_body') {
+      setSearchQuery(value)
+    } else if (key === 'state') {
+      setFilters(prev => ({ ...prev, jurisdiction: 'state', state: value }))
+    } else if (key === 'jurisdiction') {
+      setFilters(prev => ({ ...prev, jurisdiction: value, state: '' }))
+    } else {
+      setFilters(prev => ({ ...prev, [key]: value }))
+    }
+    setCurrentPage(1)
+    setActiveView('explore')
+  }
+
   const toggleCompare = (exam) => {
     setCompareList(prev => {
       if (prev.find(e => e.id === exam.id)) {
@@ -111,10 +126,20 @@ function App() {
       />
 
       <main className="main-content">
+        {activeView === 'guide' && (
+          <div className="fade-in">
+            <HowToUse
+              setActiveView={setActiveView}
+              setFilters={setFilters}
+              setSearchQuery={setSearchQuery}
+            />
+          </div>
+        )}
+
         {activeView === 'dashboard' && (
           <div className="fade-in">
             <StatsOverview exams={examsData} />
-            <Analytics exams={examsData} />
+            <Analytics exams={examsData} onApplyFilter={handleApplyAnalyticsFilter} />
           </div>
         )}
 
@@ -151,7 +176,7 @@ function App() {
 
         {activeView === 'analytics' && (
           <div className="fade-in">
-            <Analytics exams={examsData} fullView />
+            <Analytics exams={examsData} fullView onApplyFilter={handleApplyAnalyticsFilter} />
           </div>
         )}
 

@@ -30,7 +30,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   return null
 }
 
-export default function Analytics({ exams, fullView = false }) {
+export default function Analytics({ exams, fullView = false, onApplyFilter }) {
   // Domain distribution
   const domainData = useMemo(() => {
     const counts = {}
@@ -60,14 +60,14 @@ export default function Analytics({ exams, fullView = false }) {
       .slice(0, 8)
   }, [exams])
 
-  // Level breakdown
+  // Level breakdown (Top 8 entries, horizontal layout to avoid label clipping)
   const levelData = useMemo(() => {
     const counts = {}
     exams.forEach(e => {
       const lvl = e.level || 'Other'
       counts[lvl] = (counts[lvl] || 0) + 1
     })
-    const palette = ['#3b82f6', '#14b8a6', '#8b5cf6', '#f59e0b', '#ec4899', '#06b6d4']
+    const palette = ['#3b82f6', '#14b8a6', '#8b5cf6', '#f59e0b', '#ec4899', '#06b6d4', '#10b981', '#f97316']
     return Object.entries(counts)
       .map(([name, value], i) => ({
         name,
@@ -75,6 +75,7 @@ export default function Analytics({ exams, fullView = false }) {
         fill: palette[i % palette.length]
       }))
       .sort((a, b) => b.value - a.value)
+      .slice(0, 8)
   }, [exams])
 
   // Frequency breakdown
@@ -146,10 +147,19 @@ export default function Analytics({ exams, fullView = false }) {
         </div>
       </div>
 
+      {onApplyFilter && (
+        <div className="analytics-interactive-banner">
+          <span>👆 <strong>Interactive Visual Explorer:</strong> Click on any slice, category name, or bar below to instantly filter matching examinations in the catalog.</span>
+        </div>
+      )}
+
       <div className="analytics-grid">
         {/* Domain Distribution Donut */}
         <div className="chart-card">
-          <h3 className="chart-card-title">Distribution by Domain</h3>
+          <div className="chart-header-row">
+            <h3 className="chart-card-title">Distribution by Domain</h3>
+            {onApplyFilter && <span className="chart-clickable-tag">Click slice to filter</span>}
+          </div>
           <div style={{ width: '100%', height: 320 }}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
@@ -158,10 +168,12 @@ export default function Analytics({ exams, fullView = false }) {
                   dataKey="value"
                   nameKey="name"
                   cx="50%"
-                  cy="50%"
-                  innerRadius={65}
-                  outerRadius={105}
+                  cy="45%"
+                  innerRadius={55}
+                  outerRadius={95}
                   paddingAngle={3}
+                  cursor={onApplyFilter ? 'pointer' : 'default'}
+                  onClick={(entry) => onApplyFilter && onApplyFilter('domain', entry.name)}
                 >
                   {domainData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={entry.color} stroke="rgba(0,0,0,0.4)" strokeWidth={1} />
@@ -172,7 +184,7 @@ export default function Analytics({ exams, fullView = false }) {
                   layout="horizontal"
                   verticalAlign="bottom"
                   align="center"
-                  wrapperStyle={{ fontSize: '0.75rem', paddingTop: '10px' }}
+                  wrapperStyle={{ fontSize: '0.72rem', paddingTop: '8px' }}
                 />
               </PieChart>
             </ResponsiveContainer>
@@ -181,13 +193,16 @@ export default function Analytics({ exams, fullView = false }) {
 
         {/* Top Conducting Bodies */}
         <div className="chart-card">
-          <h3 className="chart-card-title">Top Conducting Authorities</h3>
+          <div className="chart-header-row">
+            <h3 className="chart-card-title">Top Conducting Authorities</h3>
+            {onApplyFilter && <span className="chart-clickable-tag">Click bar to filter</span>}
+          </div>
           <div style={{ width: '100%', height: 320 }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={conductingBodyData}
                 layout="vertical"
-                margin={{ top: 10, right: 30, left: 40, bottom: 5 }}
+                margin={{ top: 10, right: 30, left: 10, bottom: 5 }}
               >
                 <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
                 <YAxis
@@ -195,34 +210,49 @@ export default function Analytics({ exams, fullView = false }) {
                   dataKey="name"
                   stroke="#64748b"
                   tick={{ fill: '#cbd5e1', fontSize: 11 }}
-                  width={90}
+                  width={110}
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="value" fill="#3b82f6" radius={[0, 6, 6, 0]} />
+                <Bar
+                  dataKey="value"
+                  fill="#3b82f6"
+                  radius={[0, 6, 6, 0]}
+                  cursor={onApplyFilter ? 'pointer' : 'default'}
+                  onClick={(entry) => onApplyFilter && onApplyFilter('conducting_body', entry.name)}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>
         </div>
 
-        {/* Education Level Breakdown */}
+        {/* Education Level Breakdown (Horizontal to avoid "Undergraduate" clipping) */}
         <div className="chart-card">
-          <h3 className="chart-card-title">Degree / Entry Level</h3>
+          <div className="chart-header-row">
+            <h3 className="chart-card-title">Degree / Entry Level</h3>
+            {onApplyFilter && <span className="chart-clickable-tag">Click bar to filter</span>}
+          </div>
           <div style={{ width: '100%', height: 320 }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={levelData}
-                margin={{ top: 10, right: 20, left: -10, bottom: 30 }}
+                layout="vertical"
+                margin={{ top: 10, right: 30, left: 15, bottom: 5 }}
               >
-                <XAxis
+                <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                <YAxis
+                  type="category"
                   dataKey="name"
                   stroke="#64748b"
-                  tick={{ fill: '#94a3b8', fontSize: 11 }}
-                  angle={-15}
-                  textAnchor="end"
+                  tick={{ fill: '#cbd5e1', fontSize: 11 }}
+                  width={140}
                 />
-                <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="value" radius={[6, 6, 0, 0]}>
+                <Bar
+                  dataKey="value"
+                  radius={[0, 6, 6, 0]}
+                  cursor={onApplyFilter ? 'pointer' : 'default'}
+                  onClick={(entry) => onApplyFilter && onApplyFilter('level', entry.name)}
+                >
                   {levelData.map((entry, index) => (
                     <Cell key={`lvl-cell-${index}`} fill={entry.fill} />
                   ))}
@@ -234,7 +264,10 @@ export default function Analytics({ exams, fullView = false }) {
 
         {/* Exam Frequency */}
         <div className="chart-card">
-          <h3 className="chart-card-title">Exam Frequency Breakdown</h3>
+          <div className="chart-header-row">
+            <h3 className="chart-card-title">Exam Frequency Breakdown</h3>
+            {onApplyFilter && <span className="chart-clickable-tag">Click slice to filter</span>}
+          </div>
           <div style={{ width: '100%', height: 320 }}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
@@ -243,16 +276,24 @@ export default function Analytics({ exams, fullView = false }) {
                   dataKey="value"
                   nameKey="name"
                   cx="50%"
-                  cy="50%"
-                  outerRadius={100}
-                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
-                  labelLine={false}
+                  cy="45%"
+                  innerRadius={55}
+                  outerRadius={95}
+                  paddingAngle={3}
+                  cursor={onApplyFilter ? 'pointer' : 'default'}
+                  onClick={(entry) => onApplyFilter && onApplyFilter('frequency', entry.name)}
                 >
                   {frequencyData.map((entry, index) => (
                     <Cell key={`freq-cell-${index}`} fill={entry.fill} stroke="rgba(0,0,0,0.4)" strokeWidth={1} />
                   ))}
                 </Pie>
                 <Tooltip content={<CustomTooltip />} />
+                <Legend
+                  layout="horizontal"
+                  verticalAlign="bottom"
+                  align="center"
+                  wrapperStyle={{ fontSize: '0.75rem', paddingTop: '8px' }}
+                />
               </PieChart>
             </ResponsiveContainer>
           </div>
@@ -260,7 +301,10 @@ export default function Analytics({ exams, fullView = false }) {
 
         {/* Central vs State Jurisdiction Breakdown */}
         <div className="chart-card">
-          <h3 className="chart-card-title">Central vs State Jurisdiction</h3>
+          <div className="chart-header-row">
+            <h3 className="chart-card-title">Central vs State Jurisdiction</h3>
+            {onApplyFilter && <span className="chart-clickable-tag">Click slice to filter</span>}
+          </div>
           <div style={{ width: '100%', height: 320 }}>
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
@@ -269,12 +313,16 @@ export default function Analytics({ exams, fullView = false }) {
                   dataKey="value"
                   nameKey="name"
                   cx="50%"
-                  cy="50%"
-                  innerRadius={65}
-                  outerRadius={105}
+                  cy="45%"
+                  innerRadius={60}
+                  outerRadius={95}
                   paddingAngle={4}
-                  label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
-                  labelLine={false}
+                  cursor={onApplyFilter ? 'pointer' : 'default'}
+                  onClick={(entry) => {
+                    if (!onApplyFilter) return
+                    const isCentral = entry.name.includes('Central')
+                    onApplyFilter('jurisdiction', isCentral ? 'central' : 'state')
+                  }}
                 >
                   {jurisdictionData.map((entry, index) => (
                     <Cell key={`jur-cell-${index}`} fill={entry.fill} stroke="rgba(0,0,0,0.4)" strokeWidth={1} />
@@ -285,7 +333,7 @@ export default function Analytics({ exams, fullView = false }) {
                   layout="horizontal"
                   verticalAlign="bottom"
                   align="center"
-                  wrapperStyle={{ fontSize: '0.8rem', paddingTop: '10px' }}
+                  wrapperStyle={{ fontSize: '0.8rem', paddingTop: '8px' }}
                 />
               </PieChart>
             </ResponsiveContainer>
@@ -294,13 +342,16 @@ export default function Analytics({ exams, fullView = false }) {
 
         {/* Top States Distribution */}
         <div className="chart-card">
-          <h3 className="chart-card-title">State Government Exams by State</h3>
+          <div className="chart-header-row">
+            <h3 className="chart-card-title">State Government Exams by State</h3>
+            {onApplyFilter && <span className="chart-clickable-tag">Click bar to filter</span>}
+          </div>
           <div style={{ width: '100%', height: 320 }}>
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={stateData}
                 layout="vertical"
-                margin={{ top: 10, right: 30, left: 50, bottom: 5 }}
+                margin={{ top: 10, right: 30, left: 15, bottom: 5 }}
               >
                 <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
                 <YAxis
@@ -308,10 +359,16 @@ export default function Analytics({ exams, fullView = false }) {
                   dataKey="name"
                   stroke="#64748b"
                   tick={{ fill: '#cbd5e1', fontSize: 11 }}
-                  width={110}
+                  width={130}
                 />
                 <Tooltip content={<CustomTooltip />} />
-                <Bar dataKey="value" fill="#a855f7" radius={[0, 6, 6, 0]} />
+                <Bar
+                  dataKey="value"
+                  fill="#a855f7"
+                  radius={[0, 6, 6, 0]}
+                  cursor={onApplyFilter ? 'pointer' : 'default'}
+                  onClick={(entry) => onApplyFilter && onApplyFilter('state', entry.name)}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -321,7 +378,10 @@ export default function Analytics({ exams, fullView = false }) {
           <>
             {/* Exam Mode Breakdown */}
             <div className="chart-card">
-              <h3 className="chart-card-title">Exam Delivery Mode</h3>
+              <div className="chart-header-row">
+                <h3 className="chart-card-title">Exam Delivery Mode</h3>
+                {onApplyFilter && <span className="chart-clickable-tag">Click bar to filter</span>}
+              </div>
               <div style={{ width: '100%', height: 300 }}>
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart
@@ -331,7 +391,13 @@ export default function Analytics({ exams, fullView = false }) {
                     <XAxis dataKey="name" stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 11 }} />
                     <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
                     <Tooltip content={<CustomTooltip />} />
-                    <Bar dataKey="value" fill="#14b8a6" radius={[6, 6, 0, 0]} />
+                    <Bar
+                      dataKey="value"
+                      fill="#14b8a6"
+                      radius={[6, 6, 0, 0]}
+                      cursor={onApplyFilter ? 'pointer' : 'default'}
+                      onClick={(entry) => onApplyFilter && onApplyFilter('exam_mode', entry.name)}
+                    />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -355,7 +421,7 @@ export default function Analytics({ exams, fullView = false }) {
                 </li>
                 <li style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                   <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#8b5cf6', display: 'inline-block' }} />
-                  <strong>Key Bodies:</strong> NTA, UPSC, and state PSCs conduct the majority of multi-lakh candidate exams.
+                  <strong>Interactive Drilldown:</strong> Click any chart item to immediately filter and view the matching exams.
                 </li>
               </ul>
             </div>

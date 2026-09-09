@@ -1,11 +1,13 @@
 import {
   HiOutlineAcademicCap, HiOutlineChartBar, HiOutlineScale,
-  HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck
+  HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck,
+  HiOutlineLightBulb
 } from 'react-icons/hi'
 
 export default function Header({ activeView, setActiveView, totalExams, compareCount }) {
   const views = [
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt className="nav-icon" /> },
+    { id: 'guide', label: 'How to Use', icon: <HiOutlineLightBulb className="nav-icon" /> },
     { id: 'dashboard', label: 'Dashboard', icon: <HiOutlineChartBar className="nav-icon" /> },
     { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar className="nav-icon" /> },
     { id: 'cadres', label: 'Govt Grades Guide', icon: <HiOutlineShieldCheck className="nav-icon" /> },
