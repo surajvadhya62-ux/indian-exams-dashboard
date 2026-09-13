@@ -1,0 +1,326 @@
+{
+  "id": "ppsc-pcs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Punjab State Civil Services Combined Competitive Examination (PSCSCCE) into the premier state executive cadre—Punjab Civil Service (Executive Branch) [Class I]—commence their career as Sub-Divisional Magistrates (SDM) / Assistant Commissioners and advance through the state civil administration hierarchy under the Punjab Civil Service (Executive Branch) (Class I) Rules, 1976 (as amended in 1989 and 2011). Senior officers are regularly inducted into the Indian Administrative Service (IAS) under the Punjab state promotion quota pursuant to the Indian Administrative Service (Appointment by Promotion) Regulations, 1955.",
+    "steps": [
+      {
+        "designation": "Assistant Commissioner (Under Training) / Executive Magistrate / Sub-Divisional Magistrate (SDM) / Assistant Secretary",
+        "pay_level": "Punjab Pay Matrix Level 10 (Entry Basic ₹56,100; Scale ₹56,100 - ₹1,77,500; unrevised GP ₹5,400)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-01-03",
+        "source_url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20251&postid=263",
+        "source_label": "PPSC Advt. No. 20251 General Information & Punjab Civil Services (Revised Pay) Rules, 2021 Level 10"
+      },
+      {
+        "designation": "Sub-Divisional Magistrate (Senior Scale) / Deputy Secretary to Government / Additional Deputy Commissioner (Development)",
+        "pay_level": "Punjab Pay Matrix Level 11 (Scale ₹67,700 - ₹2,08,700; unrevised GP ₹6,600)",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2021-07-05",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Punjab Civil Service (Executive Branch) (Class I) Rules, 1976 & Department of Personnel, Government of Punjab"
+      },
+      {
+        "designation": "Additional Deputy Commissioner (ADC - General) / Joint Secretary to Government / Director of State Department",
+        "pay_level": "Punjab Pay Matrix Level 12/13 (Scale ₹78,800 - ₹2,09,200 / ₹1,18,500 - ₹2,14,100; unrevised GP ₹7,600/₹8,700)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2021-07-05",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Punjab Civil Service (Executive Branch) (Class I) Rules, 1976 & Department of Personnel, Government of Punjab"
+      },
+      {
+        "designation": "Special Secretary to Government of Punjab / Head of Department / Municipal Corporation Commissioner (Selection Grade)",
+        "pay_level": "Punjab Pay Matrix Level 14 (Scale ₹1,44,200 - ₹2,18,200; unrevised GP ₹10,000)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2021-07-05",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Punjab Civil Service (Executive Branch) Rules & Department of Personnel"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) (Punjab Cadre Promotion Quota) / Selection Grade",
+        "pay_level": "7th CPC Level 13 (Selection Grade, ₹1,18,500 entry basic)",
+        "years": "approx. 18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations, 1955, DoPT & UPSC"
+      },
+      {
+        "designation": "Deputy Commissioner & District Magistrate / Director General / Special Secretary to Government of Punjab",
+        "pay_level": "7th CPC Level 14 (Super Time Scale, ₹1,44,200 entry basic)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules & Department of Personnel and Training (DoPT)"
+      },
+      {
+        "designation": "Divisional Commissioner / Secretary to Government of Punjab / Principal Secretary / Financial Commissioner",
+        "pay_level": "7th CPC Level 15/16 (HAG Scale, ₹1,82,200 - ₹2,24,100 / Apex Scale ₹2,25,000 fixed)",
+        "years": "approx. 28+ yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules & Department of Personnel and Training (DoPT)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Governed by the Punjab State Civil Services (Appointment by Combined Competitive Examination) Rules, 2009 (notified by Department of Personnel, Government of Punjab vide Notification No. G.S.R. 53/Const./Art.309/2009 dated 06.10.2009, as amended in 2014 and 2015). The examination is conducted in three successive stages: (1) Preliminary Competitive Examination (screening consisting of 2 objective papers of 200 marks each, 400 marks total, with NO negative marking, where both papers count towards preliminary merit shortlisting of candidates ~13 times the vacancies), (2) Main Written Examination (7 compulsory conventional descriptive papers totaling 1,350 marks, with minimum qualifying 25% in each paper and 45% aggregate in written), and (3) Interview / Viva-Voce (150 marks for candidates shortlisted ~3 times vacancies, requiring minimum 45% qualifying marks). Final selection rank is determined on the combined aggregate of 1,500 marks (1,350 Main Written + 150 Interview).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-03",
+        "source_url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20251&postid=263",
+        "source_label": "Punjab State Civil Services (Appointment by CCE) Rules, 2009 & PPSC Advt. No. 20251",
+        "papers": [
+          {
+            "paper_name": "Paper I — General Studies",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (confirmed by official PPSC question paper doc_13670)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Marks count towards Preliminary merit shortlist for Mains (~13 times vacancies)"
+          },
+          {
+            "paper_name": "Paper II — Civil Services Aptitude Test (CSAT)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (confirmed by official PPSC question paper doc_13672; 80 questions carrying 2.5 marks each)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Marks count towards Preliminary merit shortlist for Mains (both Paper I and Paper II marks are aggregated out of 400)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive / Conventional)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-01-03",
+        "source_url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20251&postid=263",
+        "source_label": "Punjab State Civil Services (Appointment by CCE) Rules, 2009 Schedule-II & PPSC Advt. No. 20251",
+        "papers": [
+          {
+            "paper_name": "Paper I — Punjabi in Gurmukhi Script (Compulsory)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "PSEB Matriculation standard; minimum 33% marks (33/100) required to qualify; marks are included in final merit"
+          },
+          {
+            "paper_name": "Paper II — English (Compulsory)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Matriculation standard; minimum 33% marks (33/100) required to qualify; marks are included in final merit"
+          },
+          {
+            "paper_name": "Paper III — Essay",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Three essays to be written in English or Punjabi script; minimum 25% required"
+          },
+          {
+            "paper_name": "Paper IV — General Studies I (History, Geography and Society)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 25% required; marks included in merit"
+          },
+          {
+            "paper_name": "Paper V — General Studies II (Indian Constitution & Polity, Governance and International Relations)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 25% required; marks included in merit"
+          },
+          {
+            "paper_name": "Paper VI — General Studies III (Economy, Statistics and Security Issues)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 25% required; marks included in merit"
+          },
+          {
+            "paper_name": "Paper VII — General Studies IV (Science & Technology, Environment, Problem Solving & Decision Making)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 25% required; marks included in merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview / Viva-Voce (Personality Test)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-01-03",
+        "source_url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20251&postid=263",
+        "source_label": "Punjab State Civil Services (Appointment by CCE) Rules, 2009 & PPSC Advt. No. 20251",
+        "papers": [
+          {
+            "paper_name": "Interview / Personality Test",
+            "marks": 150,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisted in ~1:3 ratio of vacancies based on Main Written aggregate (minimum 45% aggregate in written, 40% for SC/BC). Candidate must score minimum 45% (40% for SC/BC) in interview to qualify for final selection"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation for officers appointed to the Punjab Civil Service (Executive Branch) and Deputy Superintendent of Police (DSP) is governed by the Punjab Civil Services (Revised Pay) Rules, 2021 notified by the Department of Finance, Government of Punjab. Entry basic pay for PCS (EB) and DSP is ₹56,100 at Pay Matrix Level 10 (corresponding to unrevised Pay Band ₹15,600 - ₹39,100 + Grade Pay ₹5,400). Allied services recruited through the same competitive examination enter at Level 8 for Tehsildar (Entry basic ₹47,600) and Level 7 for Block Development & Panchayat Officer (BDPO), Food & Supplies Controller, Assistant Registrar of Co-operative Societies (ARCS), Labour-cum-Conciliation Officer, and Employment Generation Officer (Entry basic ₹44,900). Note on Punjab probation rule: Under Punjab Government policy instructions (letters dated 15.01.2015 and 17.07.2020), newly recruited officers receive fixed minimum basic pay without allowances during their probation period, after which regular allowances (DA, HRA, mobile, transport) are admissible in full.",
+    "pay_level": "Punjab Pay Matrix Level 10 (Entry Basic ₹56,100; Scale ₹56,100 - ₹1,77,500)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-01-03",
+    "pay_source_url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20251&postid=263",
+    "pay_source_label": "PPSC Advt. No. 20251 (PSCSCCE 2025) & Department of Finance, Government of Punjab",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 96000,
+      "max": 108000
+    },
+    "in_hand_range_estimate": {
+      "min": 85000,
+      "max": 95000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Post-probation gross salary is computed from Level 10 entry basic ₹56,100 + 58% DA (₹32,538) + Punjab HRA (ranging from 8% to 16% depending on posting in Category A cities like Mohali/Ludhiana/Amritsar vs district headquarters) + fixed medical allowance (₹1,000) and special executive allowance. Net in-hand estimate reflects statutory deductions including 10% NPS contributory pension (Basic + DA = ₹8,864), Punjab Development Tax (₹200/month), and GIS. Note: Under Government of Punjab notification instructions, during the initial probation period appointees draw fixed basic pay (₹56,100) without allowances.",
+    "official_perks": [
+      "Government-allotted executive residential bungalow/quarter in sub-division or district headquarters",
+      "Official government vehicle with dedicated driver and monthly POL (petrol, oil, lubricants) quota for executive field postings (SDM, ADC)",
+      "Official armed security escort / police personal security officer (PSO) commensurate with executive magisterial responsibilities",
+      "Dedicated secretarial staff, court reader, camp office establishment, and residential peon entitlement",
+      "Full medical reimbursement for officer and eligible dependent family members under Punjab Government Medical Attendance Rules",
+      "Contributory pension coverage under National Pension System (NPS) with 14% Government of Punjab matching contribution",
+      "Leave Travel Concession (LTC), encashment of earned leave, and telephone/broadband reimbursement allowances"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official competition benchmarks compiled from PPSC recruitment advertisements, addenda, preliminary examination result notifications, and shortlist merit notices for the Punjab State Civil Services Combined Competitive Examination.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 331,
+        "applicants": 78500,
+        "shortlisted_for_mains": 4238,
+        "cutoff_marks": {
+          "General / Open Competition": 100,
+          "Backward Classes (Punjab)": 92,
+          "Scheduled Castes Others (Punjab)": 88,
+          "Balmiki / Mazhbi Sikh (Punjab)": 72,
+          "Economically Weaker Section (EWS Punjab)": 76,
+          "Lineal Descendant of Ex-Serviceman (Punjab)": 104,
+          "Persons with Disabilities (Locomotor, Punjab)": 72,
+          "Ex-Servicemen (Self, Punjab)": 38
+        },
+        "selectivity_ratio": "1 in 237 (preliminary applicants; 1 in 13 shortlist ratio to vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-01-10",
+        "source_url": "https://ppsc.gov.in/usermanual.ashx?id=c13691",
+        "source_label": "PPSC Public Notice & Shortlist of Candidates for Mains, PSCSCCE-2025 (Advt. No. 20251), dated 10/01/2026"
+      },
+      {
+        "year": 2020,
+        "vacancies": 77,
+        "applicants": 52000,
+        "shortlisted_for_mains": 1025,
+        "cutoff_marks": {
+          "General / Open Competition": 244.5,
+          "Backward Classes (Punjab)": 236.0,
+          "Scheduled Castes Others (Punjab)": 218.5,
+          "Balmiki / Mazhbi Sikh (Punjab)": 182.0,
+          "Economically Weaker Section (EWS Punjab)": 222.0
+        },
+        "selectivity_ratio": "1 in 675 (approx.)",
+        "confidence": "verified",
+        "as_of": "2021-03-12",
+        "source_url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20202&postid=254",
+        "source_label": "PPSC Advt. No. 20202 (PSCSCCE 2020) & Preliminary Examination Result Shortlist Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, examination rules, preliminary result notices, and question papers published by the Punjab Public Service Commission (PPSC), Patiala.",
+    "links": [
+      {
+        "label": "PPSC Official Web Portal",
+        "url": "https://ppsc.gov.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "PPSC PSCSCCE 2025 Recruitment Details & General Information (Advt. 20251)",
+        "url": "https://ppsc.gov.in/Advertisement/detailadv.aspx?advno=20251&postid=263",
+        "type": "notification",
+        "cycle_label": "PSCSCCE-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "PPSC PSCSCCE 2025 Preliminary Exam Shortlist of Candidates for Mains",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c13691",
+        "type": "other",
+        "cycle_label": "PSCSCCE-2025",
+        "confidence": "verified",
+        "as_of": "2026-01-10"
+      },
+      {
+        "label": "PPSC PSCSCCE 2025 Preliminary Paper-I (General Studies) Question Paper",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c13670",
+        "type": "pyq",
+        "cycle_label": "PSCSCCE-2025",
+        "confidence": "verified",
+        "as_of": "2025-12-07"
+      },
+      {
+        "label": "PPSC PSCSCCE 2025 Preliminary Paper-II (CSAT) Question Paper",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c13672",
+        "type": "pyq",
+        "cycle_label": "PSCSCCE-2025",
+        "confidence": "verified",
+        "as_of": "2025-12-07"
+      },
+      {
+        "label": "Punjab State Civil Services (Appointment by Combined Competitive Examination) Rules, 2009",
+        "url": "https://ppsc.gov.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

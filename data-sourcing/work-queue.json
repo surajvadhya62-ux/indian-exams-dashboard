@@ -14,12 +14,12 @@
   },
   "totals": {
     "exams_total": 504,
-    "already_verified": 283,
-    "exams_queued": 221,
-    "units": 28,
+    "already_verified": 285,
+    "exams_queued": 219,
+    "units": 27,
     "tier_totals": {
-      "A": 75,
-      "B": 78,
+      "A": 74,
+      "B": 77,
       "C": 68
     }
   },
@@ -397,62 +397,6 @@
     {
       "unit_id": "u004",
       "order": 4,
-      "batch_id": "batch-4-state-psc--punjab",
-      "label": "Major State Public Service Commissions (State Administrative Services) — Punjab",
-      "exam_count": 2,
-      "tier_mix": {
-        "A": 1,
-        "B": 1,
-        "C": 0
-      },
-      "status": "not_started",
-      "exams": [
-        {
-          "id": "ppsc-pcs",
-          "name": "Punjab Civil Services Combined Competitive Examination",
-          "exam_type": "job",
-          "jurisdiction": "state",
-          "state": "Punjab",
-          "conducting_body": "PPSC",
-          "official_website": "https://ppsc.gov.in",
-          "popularity": "very_high",
-          "tier": "A",
-          "sections_required": [
-            "career_ladder",
-            "exam_scheme",
-            "financial_package",
-            "competition_benchmarks",
-            "official_downloads"
-          ],
-          "sections_best_effort": [],
-          "omit_sections": []
-        },
-        {
-          "id": "punjab-judicial-service",
-          "name": "Punjab Civil Service (Judicial Branch) Examination",
-          "exam_type": "job",
-          "jurisdiction": "state",
-          "state": "Punjab",
-          "conducting_body": "PPSC & High Court of Punjab & Haryana",
-          "official_website": "https://ppsc.gov.in",
-          "popularity": "high",
-          "tier": "B",
-          "sections_required": [
-            "exam_scheme",
-            "official_downloads"
-          ],
-          "sections_best_effort": [
-            "career_ladder",
-            "financial_package",
-            "competition_benchmarks"
-          ],
-          "omit_sections": []
-        }
-      ]
-    },
-    {
-      "unit_id": "u005",
-      "order": 5,
       "batch_id": "batch-5-subordinate-police-boards--andhra-pradesh",
       "label": "Subordinate Boards & State Police Recruitment Boards — Andhra Pradesh",
       "exam_count": 2,
@@ -506,8 +450,8 @@
       ]
     },
     {
-      "unit_id": "u006",
-      "order": 6,
+      "unit_id": "u005",
+      "order": 5,
       "batch_id": "batch-5-subordinate-police-boards--chhattisgarh",
       "label": "Subordinate Boards & State Police Recruitment Boards — Chhattisgarh",
       "exam_count": 2,
@@ -565,8 +509,8 @@
       ]
     },
     {
-      "unit_id": "u007",
-      "order": 7,
+      "unit_id": "u006",
+      "order": 6,
       "batch_id": "batch-5-subordinate-police-boards--dadra-nagar-haveli-and-daman-diu",
       "label": "Subordinate Boards & State Police Recruitment Boards — Dadra & Nagar Haveli and Daman & Diu",
       "exam_count": 1,
@@ -601,8 +545,8 @@
       ]
     },
     {
-      "unit_id": "u008",
-      "order": 8,
+      "unit_id": "u007",
+      "order": 7,
       "batch_id": "batch-5-subordinate-police-boards--delhi",
       "label": "Subordinate Boards & State Police Recruitment Boards — Delhi",
       "exam_count": 5,
@@ -719,8 +663,8 @@
       ]
     },
     {
-      "unit_id": "u009",
-      "order": 9,
+      "unit_id": "u008",
+      "order": 8,
       "batch_id": "batch-5-subordinate-police-boards--goa",
       "label": "Subordinate Boards & State Police Recruitment Boards — Goa",
       "exam_count": 1,
@@ -755,8 +699,8 @@
       ]
     },
     {
-      "unit_id": "u010",
-      "order": 10,
+      "unit_id": "u009",
+      "order": 9,
       "batch_id": "batch-5-subordinate-police-boards--puducherry",
       "label": "Subordinate Boards & State Police Recruitment Boards — Puducherry",
       "exam_count": 1,
@@ -791,8 +735,8 @@
       ]
     },
     {
-      "unit_id": "u011",
-      "order": 11,
+      "unit_id": "u010",
+      "order": 10,
       "batch_id": "batch-5-subordinate-police-boards--punjab",
       "label": "Subordinate Boards & State Police Recruitment Boards — Punjab",
       "exam_count": 4,
@@ -887,8 +831,8 @@
       ]
     },
     {
-      "unit_id": "u012",
-      "order": 12,
+      "unit_id": "u011",
+      "order": 11,
       "batch_id": "batch-5-subordinate-police-boards--telangana",
       "label": "Subordinate Boards & State Police Recruitment Boards — Telangana",
       "exam_count": 2,
@@ -942,8 +886,8 @@
       ]
     },
     {
-      "unit_id": "u013",
-      "order": 13,
+      "unit_id": "u012",
+      "order": 12,
       "batch_id": "batch-5-subordinate-police-boards--uttarakhand",
       "label": "Subordinate Boards & State Police Recruitment Boards — Uttarakhand",
       "exam_count": 2,
@@ -998,8 +942,8 @@
       ]
     },
     {
-      "unit_id": "u014",
-      "order": 14,
+      "unit_id": "u013",
+      "order": 13,
       "batch_id": "batch-6a-national-entrance-tests",
       "label": "National entrance tests (NTA & academic admissions)",
       "exam_count": 8,
@@ -1179,8 +1123,8 @@
       ]
     },
     {
-      "unit_id": "u015",
-      "order": 15,
+      "unit_id": "u014",
+      "order": 14,
       "batch_id": "batch-6a-national-entrance-tests",
       "label": "National entrance tests (NTA & academic admissions)",
       "exam_count": 14,
@@ -1500,8 +1444,8 @@
       ]
     },
     {
-      "unit_id": "u016",
-      "order": 16,
+      "unit_id": "u015",
+      "order": 15,
       "batch_id": "batch-6a-national-entrance-tests",
       "label": "National entrance tests (NTA & academic admissions)",
       "exam_count": 21,
@@ -1976,8 +1920,8 @@
       ]
     },
     {
-      "unit_id": "u017",
-      "order": 17,
+      "unit_id": "u016",
+      "order": 16,
       "batch_id": "batch-6b-defence-direct-entry",
       "label": "Defence, paramilitary & strategic direct entry",
       "exam_count": 8,
@@ -2151,8 +2095,8 @@
       ]
     },
     {
-      "unit_id": "u018",
-      "order": 18,
+      "unit_id": "u017",
+      "order": 17,
       "batch_id": "batch-6b-defence-direct-entry",
       "label": "Defence, paramilitary & strategic direct entry",
       "exam_count": 11,
@@ -2399,8 +2343,8 @@
       ]
     },
     {
-      "unit_id": "u019",
-      "order": 19,
+      "unit_id": "u018",
+      "order": 18,
       "batch_id": "batch-6c-research-premier-institutes",
       "label": "Premier institutes & national research bodies",
       "exam_count": 8,
@@ -2579,8 +2523,8 @@
       ]
     },
     {
-      "unit_id": "u020",
-      "order": 20,
+      "unit_id": "u019",
+      "order": 19,
       "batch_id": "batch-6c-research-premier-institutes",
       "label": "Premier institutes & national research bodies",
       "exam_count": 20,
@@ -3029,8 +2973,8 @@
       ]
     },
     {
-      "unit_id": "u021",
-      "order": 21,
+      "unit_id": "u020",
+      "order": 20,
       "batch_id": "batch-6d-medical-health",
       "label": "Medical & health services bodies",
       "exam_count": 14,
@@ -3343,8 +3287,8 @@
       ]
     },
     {
-      "unit_id": "u022",
-      "order": 22,
+      "unit_id": "u021",
+      "order": 21,
       "batch_id": "batch-6e-judiciary-regulators-professional",
       "label": "Judiciary, regulators & professional bodies",
       "exam_count": 8,
@@ -3521,8 +3465,8 @@
       ]
     },
     {
-      "unit_id": "u023",
-      "order": 23,
+      "unit_id": "u022",
+      "order": 22,
       "batch_id": "batch-6e-judiciary-regulators-professional",
       "label": "Judiciary, regulators & professional bodies",
       "exam_count": 5,
@@ -3641,8 +3585,8 @@
       ]
     },
     {
-      "unit_id": "u024",
-      "order": 24,
+      "unit_id": "u023",
+      "order": 23,
       "batch_id": "batch-6f-central-psus",
       "label": "Central PSUs & statutory corporations",
       "exam_count": 8,
@@ -3816,8 +3760,8 @@
       ]
     },
     {
-      "unit_id": "u025",
-      "order": 25,
+      "unit_id": "u024",
+      "order": 24,
       "batch_id": "batch-6f-central-psus",
       "label": "Central PSUs & statutory corporations",
       "exam_count": 8,
@@ -3991,8 +3935,8 @@
       ]
     },
     {
-      "unit_id": "u026",
-      "order": 26,
+      "unit_id": "u025",
+      "order": 25,
       "batch_id": "batch-6f-central-psus",
       "label": "Central PSUs & statutory corporations",
       "exam_count": 14,
@@ -4299,8 +4243,8 @@
       ]
     },
     {
-      "unit_id": "u027",
-      "order": 27,
+      "unit_id": "u026",
+      "order": 26,
       "batch_id": "batch-6f-central-psus",
       "label": "Central PSUs & statutory corporations",
       "exam_count": 15,
@@ -4629,8 +4573,8 @@
       ]
     },
     {
-      "unit_id": "u028",
-      "order": 28,
+      "unit_id": "u027",
+      "order": 27,
       "batch_id": "batch-6f-central-psus",
       "label": "Central PSUs & statutory corporations",
       "exam_count": 21,

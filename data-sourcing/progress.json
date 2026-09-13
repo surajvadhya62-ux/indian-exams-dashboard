@@ -3,9 +3,9 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 283,
+    "verified": 285,
     "partial": 0,
-    "not_started": 221,
+    "not_started": 219,
     "exams_total": 504,
     "detail_files_exist": 344,
     "total_exams": 504,
@@ -1133,6 +1133,19 @@
         "utet"
       ],
       "notes": "Completed Unit 111 (u111): Uttarakhand Teacher Eligibility Test / UTET (utet) under Uttarakhand Board of School Education (UBSE), Ramnagar (Nainital). Comprehensive audit of statutory NCTE & RTE Act 2009 Section 23(1) regulations, UTET-I (Primary Classes I-V) and UTET-II (Upper Primary Classes VI-VIII) 150-mark exam schemes with bilingual Hindi/English/Sanskrit/Urdu options, composite 150-minute exam duration, lifetime validity per Uttarakhand G.O. No. 889/XXIV-A-1/2021-15/2011, official candidate competition benchmarks (39,112 applicants, 8,717 qualified across 94 centres in 29 cities in 2025; 26.61% overall pass rate), and official UBSE notification vigyaptis, syllabi, and question papers; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u031",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-4-state-psc--punjab"
+      ],
+      "exam_ids_touched": [
+        "ppsc-pcs",
+        "punjab-judicial-service"
+      ],
+      "notes": "Completed Unit 31 (u031): 2 premier Punjab Public Service Commission recruitment examinations (ppsc-pcs: Punjab Civil Services Combined Competitive Examination / PSCSCCE, Tier A; punjab-judicial-service: Punjab Civil Service (Judicial Branch) Examination, Tier B). Rigorously verified against Punjab Civil Services (Revised Pay) Rules 2021 Level 10 (₹56,100) and SNJPC Level J-1 (₹77,840) pay frameworks, Punjab probation basic pay policies, canonical 58% DA constant as of 2025-07-01, Punjab State Civil Services (Appointment by CCE) Rules 2009 & Punjab Civil Services (Judicial Branch) Rules 1951 schemes, competition cutoffs and vacancy figures, and live official PPSC downloads; validated with zero errors."
     }
   ],
   "exams": {
@@ -8950,42 +8963,52 @@
       "batch_id": "batch-4-state-psc--punjab",
       "detail_file": "public/exam-details/ppsc-pcs.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         }
       },
       "flags": []
@@ -20674,42 +20697,52 @@
       "batch_id": "batch-4-state-psc--punjab",
       "detail_file": "public/exam-details/punjab-judicial-service.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u031"
         }
       },
       "flags": []

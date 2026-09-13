@@ -1,0 +1,310 @@
+{
+  "id": "punjab-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Punjab are recruited as Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC) in the Punjab Civil Service (Judicial Branch) under the Punjab Civil Services (Judicial Branch) Rules, 1951 (with amendments) and requisition from the Department of Home Affairs & Justice, Government of Punjab. Pay, allowances, and progression follow the uniform pay matrix of the Second National Judicial Pay Commission (SNJPC) as mandated by the Supreme Court of India in All India Judges Association v. Union of India (WP(C) 643/2015). Officers advance through Assured Career Progression (ACP) scale increments at 5-year intervals and cadre promotions through Senior Civil Judge / CJM and Additional District & Sessions Judge cadres up to the High Court of Punjab and Haryana.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520; unrevised ₹27,700 - ₹44,770)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-09-07",
+        "source_url": "https://ppsc.gov.in/usermanual.ashx?id=c11882",
+        "source_label": "PPSC Advt. No. 2022103 General Information for Candidates & Second National Judicial Pay Commission (SNJPC)"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Additional Chief Judicial Magistrate (ACJM)",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Senior Civil Judge — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "years": "approx. 15 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade)",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "District & Sessions Judge (Super Time Scale / Principal District Judge)",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Elevation to High Court Judge (High Court of Punjab and Haryana, Chandigarh)",
+        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "years": "Constitutional Elevation",
+        "confidence": "verified",
+        "as_of": "2018-01-01",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Amendment Act; Article 217, Constitution of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Punjab Civil Service (Judicial Branch) Examination is conducted jointly by the Punjab Public Service Commission and the Hon'ble High Court of Punjab & Haryana in three successive stages: Preliminary Examination (Objective screening of 125 MCQs carrying 500 marks, 2 hours duration, with 0.20% / 1/5th negative marking), Main Written Examination (5 conventional narrative subjective papers of 3 hours each, 950 marks total), and Viva-Voce (100 marks). Final selection merit is prepared on the aggregate of the Main Written Examination and Viva-Voce (out of 1,050 marks). Qualifying thresholds require minimum 33% in each written paper, 33% in Punjabi, and 50% aggregate across written papers (45% for SC/BC/PwD candidates) to be called for Viva-Voce.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-09-07",
+        "source_url": "https://ppsc.gov.in/usermanual.ashx?id=c11882",
+        "source_label": "PPSC Advt. No. 2022103 General Information for Candidates (Section 3.3)",
+        "papers": [
+          {
+            "paper_name": "Preliminary Entrance Examination (Objective Type MCQs)",
+            "marks": 500,
+            "duration_minutes": 120,
+            "negative_marking": "0.20% (1/5th marks deduction i.e. 0.80 marks deducted per wrong answer; each question carries 4 marks)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Objective screening for admission to Main examination; marks do not count towards final selection merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Subjective / Narrative Written Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-09-07",
+        "source_url": "https://ppsc.gov.in/usermanual.ashx?id=c11882",
+        "source_label": "PPSC Advt. No. 2022103 General Information for Candidates (Section 3.4)",
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Law - I",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper II: Civil Law - II",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper III: Criminal Law",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper IV: English Language",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper V: Punjabi Language (in Gurmukhi Script)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in Punjabi; minimum 50% aggregate across all written papers (45% for SC, BC, PwD) to qualify for Viva-Voce"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Personality Test / Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2022-09-07",
+        "source_url": "https://ppsc.gov.in/usermanual.ashx?id=c11882",
+        "source_label": "PPSC Advt. No. 2022103 General Information for Candidates (Section 3.5)",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Conducted in English. Tests alertness, intelligence, and general outlook. Candidates must secure at least 50% marks (45% for SC, BC, PwD) in aggregate of Main written examination and Viva-Voce to be eligible for appointment."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Civil Judges (Junior Division) / Judicial Magistrates in Punjab are compensated under the uniform pay structure recommended by the Second National Judicial Pay Commission (SNJPC) and approved by the Supreme Court of India in All India Judges Association v. Union of India. Officers enter at revised SNJPC Pay Scale Level J-1 (₹77,840 - ₹1,36,520; unrevised scale ₹27,700 - ₹44,770) with an entry basic pay of ₹77,840. Allowances are regulated by Punjab Government Law and Finance Department orders, including Dearness Allowance (58%), House Rent Allowance (or official rent-free judicial bungalow accommodation), Home Orderly / Domestic Help Allowance, Sumptuary Allowance, Electricity & Water Reimbursement, Robe Allowance, and Medical Reimbursement.",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520; unrevised ₹27,700 - ₹44,770)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-09-07",
+    "pay_source_url": "https://ppsc.gov.in/usermanual.ashx?id=c11882",
+    "pay_source_label": "PPSC Advt. No. 2022103 General Information for Candidates & Second National Judicial Pay Commission (SNJPC)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 138000,
+      "max": 155000
+    },
+    "in_hand_range_estimate": {
+      "min": 122000,
+      "max": 135000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from SNJPC Level J-1 entry basic ₹77,840 + 58% DA (₹45,147) + judicial House Rent Allowance (HRA 16% to 24% or designated official judicial bungalow) + judicial sumptuary, robe, medical, conveyance, and domestic help allowances. In-hand estimate accounts for statutory deductions including 10% NPS contribution (Basic + DA = ₹12,299), Group Insurance Scheme (GIS), and Punjab Professional Tax.",
+    "official_perks": [
+      "Designated independent judicial bungalow / official residence in the Judicial Officers' Colony of the posting district",
+      "Official staff car / conveyance facility with driver entitlement and monthly fuel allowance",
+      "Monthly sumptuary allowance and annual robe / dress maintenance allowance per SNJPC recommendations",
+      "Comprehensive cashless medical treatment and reimbursement for officer and dependent family members",
+      "Residential orderly / attendant allowance and reimbursement of domestic help charges",
+      "Reimbursement of electricity and water charges up to prescribed monthly units, plus official mobile and broadband facilities",
+      "Substantial judicial pension and gratuity entitlements under statutory judicial service rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official PPSC Advertisements, Preliminary Examination Results, Mains Written Results, and Category-wise Merit Lists published jointly by the Punjab Public Service Commission and the High Court of Punjab & Haryana.",
+    "years": [
+      {
+        "year": 2023,
+        "confidence": "verified",
+        "as_of": "2023-10-12",
+        "source_url": "https://ppsc.gov.in/usermanual.ashx?id=c12794",
+        "source_label": "PPSC Advt. No. 2022103 Final Result & Merit List Notification (Annexure A)",
+        "cycle_label": "2022-23 Recruitment Cycle (Advt. No. 2022103)",
+        "vacancies": 159,
+        "applicants": null,
+        "appeared_prelims": null,
+        "shortlisted_mains": null,
+        "called_for_interview": 296,
+        "recommended": 159,
+        "cutoffs": [
+          { "category": "General (Cut-off)", "marks": 577.25 },
+          { "category": "General (Highest Merit Rank 1)", "marks": 626.00 },
+          { "category": "SC Others Punjab", "marks": 505.00 },
+          { "category": "Balmiki/Mazhbi Sikh Punjab", "marks": 472.50 },
+          { "category": "Backward Classes Punjab", "marks": 542.00 },
+          { "category": "EWS Punjab", "marks": 530.00 }
+        ]
+      },
+      {
+        "year": 2019,
+        "confidence": "reported",
+        "as_of": "2019-12-31",
+        "source_url": "https://ppsc.gov.in",
+        "source_label": "PPSC Advt. No. 20191 & High Court of Punjab and Haryana Notifications",
+        "cycle_label": "2019 Recruitment Cycle",
+        "vacancies": 75,
+        "applicants": null,
+        "appeared_prelims": null,
+        "shortlisted_mains": null,
+        "called_for_interview": null,
+        "recommended": 75,
+        "cutoffs": []
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Authoritative PDF links from the official PPSC recruitment portal (ppsc.gov.in) and High Court of Punjab and Haryana.",
+    "links": [
+      {
+        "label": "General Information for Candidates - Punjab Civil Service (Judicial Branch) Examination-2022 (Advt. No. 2022103)",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c11882",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2022-09-07"
+      },
+      {
+        "label": "Short Advertisement - Recruitment to 159 Posts of Civil Judge (Junior Division) Cum Judicial Magistrate",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c11883",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2022-09-07"
+      },
+      {
+        "label": "Corrigendum Regarding the Advertisement - 159 Posts of Civil Judge (Junior Division)",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c11909",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2022-09-15"
+      },
+      {
+        "label": "Result of Punjab Civil Service (Judicial Branch) Preliminary Examination-2022",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c12319",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-01-22"
+      },
+      {
+        "label": "Result of Main Written Examination - 159 Posts of Civil Judge (Junior Division)",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c12607",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-07-26"
+      },
+      {
+        "label": "Final Result & Category-Wise Merit List of PCS (JB) - 2022-23 (Annexure A)",
+        "url": "https://ppsc.gov.in/usermanual.ashx?id=c12794",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-10-12"
+      },
+      {
+        "label": "PPSC Official Web Portal",
+        "url": "https://ppsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}
