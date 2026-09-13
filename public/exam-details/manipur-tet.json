@@ -1,0 +1,192 @@
+{
+  "id": "manipur-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted by the Directorate of Education (Schools), Government of Manipur, adhering to statutory National Council for Teacher Education (NCTE) norms under Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009, with curriculum and textbook alignment from the Board of Secondary Education, Manipur (BOSEM). The examination comprises two distinct objective papers: Paper-I for candidates aspiring to teach Classes I to V (Primary Stage) and Paper-II for candidates aspiring to teach Classes VI to VIII (Upper Primary / Elementary Stage). Candidates aiming to teach both levels must appear in both papers. Each paper comprises 150 Multiple Choice Questions (MCQs) for 150 marks with a duration of 150 minutes (2 hours 30 minutes) and no negative marking. The qualifying threshold is 60% (90/150 marks) for General category candidates and 50% (75/150 marks) for OBC, SC, ST, and Differently Abled candidates. Qualified candidates receive a TET certificate with lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Paper-I (Primary Stage — Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-06-16",
+        "source_url": "https://manipureducation.gov.in/wp-content/uploads/2026/08/TET-I-2026-first-Notification.pdf",
+        "source_label": "Government of Manipur Directorate of Education (S) Notification No. AO/272/TET/2022-DE(S)Pt-I dated 16th June 2026",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on age group 6–11 years: Child Development 15 MCQs, Inclusive Education 5 MCQs, Learning and Pedagogy 10 MCQs)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Language I — English (Comprehension 15 MCQs from two unseen passages, Pedagogy of Language Development 15 MCQs based on BOSEM Classes I–V syllabus with secondary linkage)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Language II — Modern Indian Language or English II (Comprehension 15 MCQs, Pedagogy of Language Development 15 MCQs; candidate opts from 23 recognized languages: Manipuri, Hindi, Bengali, Nepali, Tangkhul, Hmar, Mizo, Mao, Kom, Vaiphei, Paite, Ruangmei, Zou, Thadou Kuki, Anal, Gangte, Liangmei, Maram, Maring, Poula, Sanskrit, Simte, Zeme, or English II)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Mathematics (Content based on BOSEM Classes I–V prescribed textbooks covering Numbers, Operations, Geometry, Measurement, Money, Patterns, Data Handling, Calendar & Clock with secondary linkages)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Environmental Studies (Content based on BOSEM Classes I–V textbooks covering Human Needs, Living Organisms, Plants, Animals, Natural Resources, Health & Hygiene, Transport, Science Foundations, Manipur Geography & History, and Freedom Fighters)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper-II (Upper Primary / Elementary Stage — Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-07-13",
+        "source_url": "https://manipureducation.gov.in/wp-content/uploads/2026/08/TET-II-SYLLABUS-CORRIGENDUM.pdf",
+        "source_label": "Government of Manipur Directorate of Education (S) Notification & Corrigendum No. AO/272/TET/2022-DE(S)Pt-I dated 13th July 2026",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on educational psychology relevant to age group 11–14 years: Upper Primary Child Development 15 MCQs, Inclusive Education 5 MCQs, Learning and Pedagogy 10 MCQs)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Language I — English (Comprehension 15 MCQs from two unseen passages, Pedagogy of Language Development 15 MCQs based on BOSEM Classes VI–VIII syllabus with senior secondary linkage)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Language II — Modern Indian Language or English II (Comprehension 15 MCQs, Pedagogy 15 MCQs; candidate opts from recognized MILs: Manipuri, Hindi, Bengali, Nepali, Tangkhul, Hmar, Mizo, Mao, Kom, Vaiphei, Paite, Ruangmei, Zou, Thadou Kuki, or English II)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          },
+          {
+            "paper_name": "Specialized Subject: (a) Mathematics and Science (for Math & Science Teachers) OR (b) Social Studies / Social Science (for Social Studies Teachers) OR (c) Either (a) or (b) for other teachers",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 50% aggregate (75/150 marks) for OBC, SC, ST, and Differently Abled"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Empirical benchmarks compiled directly from statutory examination notifications, centre allocations, application rejection orders, and teacher recruitment notifications issued by the Directorate of Education (Schools), Government of Manipur. In Manipur, TET certification serves as the mandatory qualifying prerequisite for direct recruitment of teachers under the Directorate of Education (Schools).",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 1000,
+        "applicants": null,
+        "selectivity_ratio": "Direct recruitment of 1,000 Primary Teachers on contract basis initiated concurrently under Advt. No. AO/271/Rct-PT/2022-DE(S); pre-examination application scrutiny of TET 2026 resulted in 1,539 Paper-I and 800 Paper-II rejected applications with district preference selection conducted in September 2026 across state examination centres",
+        "confidence": "verified",
+        "as_of": "2026-08-28",
+        "source_url": "https://manipureducation.gov.in/wp-content/uploads/2026/08/TET-Application-Rejected-Notification.pdf",
+        "source_label": "Directorate of Education (S) Manipur Notification No. AO/272/TET/2022-DE(S)Pt-I dated 28th August 2026"
+      },
+      {
+        "year": 2024,
+        "vacancies": null,
+        "applicants": 11221,
+        "selectivity_ratio": "11,221 candidates allotted roll numbers (Roll 10001 to 21221) across 26 examination centres in 10 districts (Imphal East, Imphal West, Bishnupur, Ukhrul, Senapati, Thoubal, Chandel, Churachandpur, Tamenglong, Jiribam) for Paper-I held on 14 January 2024; results declared on 11 March 2024",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://manipureducation.gov.in/wp-content/uploads/2024/01/TET-centre-Allocation.pdf",
+        "source_label": "Directorate of Education (S) Manipur Examination Centre Allocation Notification No. AO/272/TET/2022-DE(S) dated 10th January 2024"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official government notifications, examination schemes, application scrutiny orders, and result notifications published by the Directorate of Education (Schools), Government of Manipur and the Board of Secondary Education Manipur (BOSEM).",
+    "links": [
+      {
+        "label": "Manipur TET-I 2026 Detailed Notification & Syllabus (Notification No. AO/272/TET/2022-DE(S)Pt-I PDF)",
+        "url": "https://manipureducation.gov.in/wp-content/uploads/2026/08/TET-I-2026-first-Notification.pdf",
+        "type": "notification",
+        "cycle_label": "TET-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-16"
+      },
+      {
+        "label": "Manipur TET-II Scheme of Examination & Syllabus Corrigendum PDF",
+        "url": "https://manipureducation.gov.in/wp-content/uploads/2026/08/TET-II-SYLLABUS-CORRIGENDUM.pdf",
+        "type": "syllabus",
+        "cycle_label": "TET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-13"
+      },
+      {
+        "label": "Manipur TET 2026 Application Scrutiny & Rejection List Notification PDF",
+        "url": "https://manipureducation.gov.in/wp-content/uploads/2026/08/TET-Application-Rejected-Notification.pdf",
+        "type": "notification",
+        "cycle_label": "TET-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-28"
+      },
+      {
+        "label": "Manipur TET-2022 (Paper-I) Examination Result Declaration Notification PDF",
+        "url": "https://manipureducation.gov.in/wp-content/uploads/2024/03/TET-result.pdf",
+        "type": "notification",
+        "cycle_label": "TET-2022",
+        "confidence": "verified",
+        "as_of": "2024-03-11"
+      },
+      {
+        "label": "Manipur TET-2022 (Paper-I) Centre Allocation & Roll Number Distribution PDF",
+        "url": "https://manipureducation.gov.in/wp-content/uploads/2024/01/TET-centre-Allocation.pdf",
+        "type": "other",
+        "cycle_label": "TET-2022",
+        "confidence": "verified",
+        "as_of": "2024-01-10"
+      },
+      {
+        "label": "Directorate of Education (Schools), Government of Manipur Official Portal",
+        "url": "https://manipureducation.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Board of Secondary Education, Manipur (BOSEM) Official Portal",
+        "url": "https://bosem.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
