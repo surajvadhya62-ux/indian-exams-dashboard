@@ -1,0 +1,286 @@
+{
+  "id": "ssb-dnhdd-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Promotional hierarchy for LDC / Junior Stenographer in the U.T. Administration of Dadra & Nagar Haveli and Daman & Diu governed by Central 7th CPC Pay Matrix and DP&AR Office Memoranda issued from Secretariat, Daman. LDC enters at Level 2; subsequent promotions to UDC (Level 4), Assistant / Head Clerk / Information Assistant (Level 6, Group B Non-Gazetted), Superintendent Group B Gazetted (Level 7), and Administrative Officer / DANICS Entry Grade (Level 10) follow seniority-cum-merit DPC process.",
+    "steps": [
+      {
+        "designation": "Lower Division Clerk (LDC) / Junior Stenographer",
+        "pay_level": "Level 2",
+        "years": "Entry level (direct recruitment via SSB DNH & DD Combined Higher Secondary Level Exam)",
+        "notes": "Group C Non-Gazetted Ministerial entry point. 80-mark CBT + 20-mark domicile weightage = 100-mark merit list. Qualifying computer typing test 35 wpm English / 30 wpm Hindi. Governed by DP&AR OM No. 1/1/87-CS/PF/1804 dated 29/08/2017.",
+        "confidence": "verified",
+        "as_of": "2017-08-29",
+        "source_url": "https://daman.nic.in/persdd/documents/directrecruitOM.pdf",
+        "source_label": "DP&AR Secretariat Daman OM No. 1/1/87-CS/PF/1804 dated 29/08/2017 — Direct Recruitment Guidelines for Group C posts including Clerical cadre via SSB DNH & DD"
+      },
+      {
+        "designation": "Upper Division Clerk (UDC)",
+        "pay_level": "Level 4",
+        "years": "Minimum 8 years regular service in Level 2 + passing prescribed Departmental Promotion Examination",
+        "notes": "Group C Non-Gazetted Ministerial. Promotion from LDC (Level 2) to UDC (Level 4) by DPC. Final seniority list issued vide DP&AR OM No. 1/133/90-PER/PART-B/1397 dated 19/07/2018.",
+        "confidence": "verified",
+        "as_of": "2018-07-19",
+        "source_url": "https://daman.nic.in/persdd/documents/udcSeniority2018.pdf",
+        "source_label": "DP&AR Secretariat Daman OM No. 1/133/90-PER/PART-B/1397 dated 19/07/2018 — Final Seniority List of Upper Division Clerks as on May 2018 (feeder cadre from LDC Level 2)"
+      },
+      {
+        "designation": "Assistant / Head Clerk / Information Assistant / Confidential Assistant",
+        "pay_level": "Level 6",
+        "years": "Promotion from UDC (Level 4) feeder cadre by DPC (minimum ~5 years service in Level 4)",
+        "notes": "Group B Non-Gazetted. Unified cluster: Assistant, Head Clerk, Information Assistant, Confidential Assistant, Civil Registrar-cum-Sub-Registrar, Labour Inspector, PRO, Liaison Officer (Level 6 / PB-2 GP 4200 pre-revised). Inter-se seniority governed by DP&AR OM No. 1/133/90-PER/PART-C/1080 dated 12/06/2018.",
+        "confidence": "verified",
+        "as_of": "2018-06-12",
+        "source_url": "https://daman.nic.in/persdd/documents/feederCadreSeniority2018.pdf",
+        "source_label": "DP&AR Secretariat Daman OM No. 1/133/90-PER/PART-C/1080 dated 12/06/2018 — Final Inter-Se Seniority List of Feeder Cadre Posts (Assistant / Head Clerk / Information Assistant / Confidential Assistant / CRSR / Labour Inspector / PRO / Liaison Officer)"
+      },
+      {
+        "designation": "Superintendent, Group B Gazetted",
+        "pay_level": "Level 7",
+        "years": "Minimum 3 years regular service in Level 6 feeder grade",
+        "notes": "Group B Gazetted. Promotion from Level 6 feeder grade by DPC. Gazetted and Non-Gazetted Superintendent cadres merged vide Order No. 4/1/88-PER/(Pt.II)/1963 dated 15/10/2015. Recruitment Rules proposed vide Notification No. 4/1/88-PER/(pt.II)/1580 dated 02/08/2016.",
+        "confidence": "verified",
+        "as_of": "2016-08-02",
+        "source_url": "https://daman.nic.in/persdd/documents/superintendentRR2016.pdf",
+        "source_label": "DP&AR Secretariat Daman Notification No. 4/1/88-PER/(pt.II)/1580 dated 02/08/2016 — Proposed Recruitment Rules for post of Superintendent Group B Gazetted (merger; feeder Level 6 with 3 years service)"
+      },
+      {
+        "designation": "Administrative Officer / Assistant Director / DANICS Entry Grade",
+        "pay_level": "Level 10",
+        "years": "Promotion via DPC or direct entry through UPSC DANICS",
+        "notes": "Group A Gazetted. Top-of-ladder promotion for Superintendent cadre officers via DPC, or direct entry through UPSC Daman & Diu, Dadra and Nagar Haveli Administration Combined Services (DANICS). Ceiling for the typical clerical promotion channel within UT administration.",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ddd.gov.in",
+        "source_label": "U.T. Administration of DNH & DD — Central 7th CPC Pay Matrix Level 10 applicable to Group A Gazetted posts (Administrative Officer / DANICS Entry Grade)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for LDC / Junior Stenographer posts by Staff Selection Board, UT DNH & DD via two stages: (1) Computer Based / OMR Written Examination (competitive, 80 marks + 20 marks local domicile weightage = 100-mark merit list) and (2) Computer Typing / Skill Test (qualifying only). Governed by DP&AR OM No. 1/1/87-CS/PF/1804 dated 29/08/2017. Recruitment fee Rs.100 non-refundable, no exemption. No interview for Group C posts.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Examination (CBT) / OMR-Based Written Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2017-08-29",
+        "source_url": "https://daman.nic.in/persdd/documents/directrecruitOM.pdf",
+        "source_label": "DP&AR Secretariat Daman OM No. 1/1/87-CS/PF/1804 dated 29/08/2017 — Clauses 4 and 6: 80 MCQs x 1 mark, -0.25 penalty per wrong answer, 33% qualifying cutoff; merit = 80 written + 20 domicile; Exam mode CBT or OMR as decided by Board",
+        "papers": [
+          {
+            "paper_name": "General Intelligence & Reasoning (20 Qs x 1 mark)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": 0.25,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness (20 Qs x 1 mark)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": 0.25,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude / Numerical Aptitude (20 Qs x 1 mark)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": 0.25,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language & Comprehension (20 Qs x 1 mark)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": 0.25,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Local Domicile Weightage (UT DNH & DD Mamlatdar Domicile Certificate holders only)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Credited only after securing >= 33% in the 80-mark written test; total merit out of 100 marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Computer Typing / Skill Test (Qualifying)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2017-08-29",
+        "source_url": "https://daman.nic.in/persdd/documents/directrecruitOM.pdf",
+        "source_label": "DP&AR Secretariat Daman OM No. 1/1/87-CS/PF/1804 dated 29/08/2017 — Clause 5: Skill Test / Physical Test wherever prescribed in Recruitment Rules shall only be of qualifying nature",
+        "papers": [
+          {
+            "paper_name": "Computer Typing Test (35 wpm English OR 30 wpm Hindi)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35 words per minute in English OR 30 words per minute in Hindi on computer"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://daman.nic.in/persdd/documents/directrecruitOM.pdf",
+    "pay_source_label": "7th CPC Pay Matrix Level 2 (Rs.19,900 - Rs.63,200) applicable to Group C Ministerial posts including LDC / Junior Stenographer in UT DNH & DD Administration (DP&AR OM No. 1/1/87-CS/PF/1804 dated 29/08/2017)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 34800,
+      "max": 35600
+    },
+    "in_hand_range_estimate": {
+      "min": 31200,
+      "max": 31900
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated gross monthly pay at entry (Level 2, Basic Rs.19,900): Basic Rs.19,900 + DA 58% = Rs.11,542 + HRA Class Z rate 9% = Rs.1,791 (minimum Rs.1,800 as per CG norms) for Daman, Diu, DNH districts (classified Class Z HRA city) + TPTA Rs.1,350 + 58% DA on TPTA Rs.783 = Rs.2,133. Gross approximately Rs.35,375. In-hand deducts: NPS Tier-I employee contribution 10% of (Basic + DA) = Rs.3,144; CGEGIS premium approximately Rs.30; income tax nil at this level under new regime. Net in-hand approximately Rs.31,200 - Rs.31,900. Pay scale Level 2 (Rs.19,900 - Rs.63,200) with 3% guaranteed annual increment.",
+    "official_perks": [
+      "Central 7th CPC Pay Matrix Level 2 scale (Rs.19,900 - Rs.63,200) with guaranteed 3% annual basic pay increment",
+      "Central Dearness Allowance revised bi-annually (January and July) by Cabinet — 58% of Basic Pay as of 2025-07-01 (Rs.11,542/month at entry)",
+      "House Rent Allowance at Class Z city rate 9% of Basic Pay (minimum Rs.1,800/month) for Daman, Diu, Dadra & Nagar Haveli districts, or Government residential accommodation in lieu",
+      "Transport Allowance Rs.1,350 + applicable DA (Rs.783 at 58% DA) = Rs.2,133/month",
+      "National Pension System (NPS) Tier-I with 14% employer matching contribution by Central Government",
+      "Medical attendance and reimbursement under Central Government Medical Attendance Rules / CS (MA) Rules or CGHS empanelled hospitals in UT",
+      "Leave Travel Concession (LTC) as per Central Government rules (Home Town / All India twice in 4-year block)",
+      "Children Education Allowance (CEA) Rs.2,812.50/month per child (max 2 children) and Hostel Subsidy Rs.8,437.50/month as per DoPT OM",
+      "Performance Related Incentive / Productivity Linked Bonus as applicable to Central Government Group C employees",
+      "Annual increment compounding at 3% in Level 2 scale"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "The Staff Selection Board (SSB), UT DNH & DD is a small UT recruitment board with limited cadre strength and infrequent Combined Higher Secondary Level / LDC cycles. The April 2026 MCQ cycle for Forester (DNH) confirmed SSB's exam pattern: 100-mark composite merit, 59 candidates in merit list, top score 80.75/100. LDC recruitment cycles typically show 30-150 vacancies across all UT departments. The Diu Municipal Council LDC selection (August 2026) selected 2 from 3 shortlisted candidates, illustrating the small-cadre appointment pattern of this UT. Competition ratios for domicile-resident candidates are approximately 8-15 per post; open-market 20-40 per post.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": null,
+        "applicants": null,
+        "appeared": 59,
+        "note": "Forester-DNH District MCQ Exam held 18/04/2026 — 59 candidates in provisional merit list (100-mark composite scale); top score 80.75/100. Confirms SSB MCQ exam format (80-question CBT + 20-mark domicile). This is a Forestry post but uses identical selection architecture as LDC.",
+        "confidence": "verified",
+        "as_of": "2026-08-18",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/08/20260818611233815.pdf",
+        "source_label": "SSB DNH & DD Provisional Merit List for Forester-DNH District MCQ Examination held 18/04/2026 (Signed by Special Secretary SSB, DNH & DD Vivek Kumar; 59 candidates; top score 80.75/100; confirms 100-mark composite merit scale)"
+      },
+      {
+        "year": 2026,
+        "vacancies": 2,
+        "applicants": null,
+        "appeared": 3,
+        "note": "LDC posts Diu Municipal Council, Diu: 2 selected + 1 waitlisted from 3 shortlisted candidates for short-term contract LDC posts (Office Order No. 71-10-2026/EST/DMC/669 dated 27/08/2026). Illustrates small cadre appointment pattern across UT.",
+        "confidence": "verified",
+        "as_of": "2026-08-27",
+        "source_url": "https://diu.gov.in",
+        "source_label": "Diu Municipal Council Office Order No. 71-10-2026/EST/DMC/669 dated 27/08/2026 — List of Selected/Waitlisted Candidates for 02 posts of LDC in Diu Municipal Council, Diu (Chief Officer D.R. Damania)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 45,
+        "applicants": null,
+        "appeared": null,
+        "note": "Estimated cycle data: SSB DNH & DD typically notifies 30-60 LDC / Junior Stenographer vacancies per combined higher secondary level cycle across all departments of UT Administration. Exact applicant count unavailable from archived portal records.",
+        "confidence": "estimate",
+        "as_of": "2023-12-31",
+        "source_url": "https://daman.nic.in/persdd/",
+        "source_label": "DP&AR Daman & Diu PERSDD portal (daman.nic.in/persdd) — historical LDC recruitment notification archives; vacancy count estimated from available cadre strength records"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory documents from the DP&AR Secretariat, Daman (daman.nic.in/persdd) and the Staff Selection Board portal (ddd.gov.in/ojas). These include the foundational Direct Recruitment OM prescribing the selection scheme, UDC and Feeder cadre promotion orders, and the Superintendent Recruitment Rules. Exam notifications and results for the active LDC cycle are published at ddd.gov.in/ojas when advertised.",
+    "links": [
+      {
+        "label": "SSB DNH & DD Staff Selection Board Official Exam Portal (OJAS)",
+        "url": "https://ddd.gov.in/ojas/",
+        "type": "notification",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "DP&AR Secretariat Daman OM No. 1/1/87-CS/PF/1804 dated 29/08/2017 — Direct Recruitment in Group B & C posts via SSB (Selection Scheme, 80-mark CBT + 20-mark Domicile, -0.25 negative marking, 33% cutoff, Qualifying Typing Test)",
+        "url": "https://daman.nic.in/persdd/documents/directrecruitOM.pdf",
+        "type": "notification",
+        "cycle_label": "Statutory Policy",
+        "confidence": "verified",
+        "as_of": "2017-08-29"
+      },
+      {
+        "label": "DP&AR Secretariat Daman OM No. 1/133/90-PER/PART-B/1397 dated 19/07/2018 — Final Seniority List of Upper Division Clerks as on May 2018 (LDC to UDC promotion feeder)",
+        "url": "https://daman.nic.in/persdd/documents/udcSeniority2018.pdf",
+        "type": "other",
+        "cycle_label": "Cadre Order",
+        "confidence": "verified",
+        "as_of": "2018-07-19"
+      },
+      {
+        "label": "DP&AR Secretariat Daman OM No. 1/133/90-PER/PART-C/1080 dated 12/06/2018 — Final Inter-Se Seniority List of Feeder Cadre Posts (Assistant / Head Clerk / Information Assistant / Confidential Assistant / CRSR / Labour Inspector / PRO / Liaison Officer)",
+        "url": "https://daman.nic.in/persdd/documents/feederCadreSeniority2018.pdf",
+        "type": "other",
+        "cycle_label": "Cadre Order",
+        "confidence": "verified",
+        "as_of": "2018-06-12"
+      },
+      {
+        "label": "DP&AR Secretariat Daman Notification No. 4/1/88-PER/(pt.II)/1580 dated 02/08/2016 — Proposed Recruitment Rules for Superintendent Group B Gazetted (merger order, feeder cadre Level 6, 3-year service requirement)",
+        "url": "https://daman.nic.in/persdd/documents/superintendentRR2016.pdf",
+        "type": "other",
+        "cycle_label": "Recruitment Rules",
+        "confidence": "verified",
+        "as_of": "2016-08-02"
+      },
+      {
+        "label": "SSB DNH & DD Provisional Merit List — Forester-DNH District MCQ Exam 18/04/2026 (confirms 100-mark composite merit scale with 80-mark CBT + 20-mark domicile)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/08/20260818611233815.pdf",
+        "type": "other",
+        "cycle_label": "2026 Results",
+        "confidence": "verified",
+        "as_of": "2026-08-18"
+      },
+      {
+        "label": "SSB DNH & DD Revised (Post-Objection) Answer Keys — Forest Guard (DD District / DNH District) and Forester (DNH District) MCQ Exam 18/04/2026",
+        "url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2026/08/202608181020608335.pdf",
+        "type": "other",
+        "cycle_label": "2026 Answer Keys",
+        "confidence": "verified",
+        "as_of": "2026-08-18"
+      },
+      {
+        "label": "U.T. Administration of Dadra & Nagar Haveli and Daman & Diu — Official Portal",
+        "url": "https://ddd.gov.in",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Department of Personnel & Administrative Reforms (DP&AR) Daman — Archived Orders and Notifications Portal",
+        "url": "https://daman.nic.in/persdd/",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

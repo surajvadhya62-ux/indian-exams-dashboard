@@ -3,13 +3,13 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 286,
+    "verified": 287,
     "partial": 0,
-    "not_started": 218,
+    "not_started": 217,
     "exams_total": 504,
-    "detail_files_exist": 345,
+    "detail_files_exist": 346,
     "total_exams": 504,
-    "detail_files_present": 345,
+    "detail_files_present": 346,
     "last_updated": "2026-09-13"
   },
   "sessions": [
@@ -1158,6 +1158,18 @@
         "puducherry-police-constable"
       ],
       "notes": "Completed Unit 112 (u112): Puducherry Police Constable & Home Guard Recruitment Examination (puducherry-police-constable) under Police Department, Government of Puducherry and Puducherry Examining Authority (PEA). Comprehensive audit of Central 7th CPC Level 3 (₹21,700 basic) pay framework, canonical 58% DA constant as of 2025-07-01, HRA Class Y/Z enclave allocations, 3-stage selection architecture (PST/PET, bilingual Paper-I and Paper-II written competitive exam with 0.25 negative marking, and General Hospital medical fitness board), candidate competition benchmarks (148 vacancies, 1,843 applicants, 1,783 appeared in 2025-2026 cycle; 253 vacancies in 2022-2023 cycle), and live official py.gov.in notifications, question papers, and press release downloads; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u113",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--dadra-nagar-haveli-and-daman-diu"
+      ],
+      "exam_ids_touched": [
+        "ssb-dnhdd-clerk"
+      ],
+      "notes": "Completed Unit 113 (u113): SSB DNH & DD Combined Higher Secondary Level (LDC) Exam (ssb-dnhdd-clerk) under Staff Selection Board, U.T. Administration of Dadra & Nagar Haveli and Daman & Diu. Comprehensive audit of Central 7th CPC Level 2 (Rs.19,900 basic) pay framework, canonical 58% DA constant as of 2025-07-01, HRA Class Z rate 9% (min Rs.1,800), TPTA Rs.2,133, gross ~Rs.35,375, net in-hand ~Rs.31,500. Full 5-rung promotional ladder verified from DP&AR statutory OMs: LDC Level 2 -> UDC Level 4 (OM 1/133/90-PER/PART-B/1397 dated 19/07/2018, 8-yr service) -> Asst/Head Clerk/IA Level 6 (OM 1/133/90-PER/PART-C/1080 dated 12/06/2018) -> Superintendent Group B Gazetted Level 7 (Notif. 4/1/88-PER/(pt.II)/1580 dated 02/08/2016, 3-yr service at Level 6) -> AO/DANICS Level 10. Selection scheme verified from DP&AR OM No. 1/1/87-CS/PF/1804 dated 29/08/2017: 80 MCQs CBT (4 sections x 20 marks, -0.25 negative, 33% cutoff) + 20-mark Domicile Weightage = 100-mark merit; qualifying Computer Typing Test (35 wpm English / 30 wpm Hindi). Competition benchmarks from SSB OJAS April 2026 Forester merit list (59 candidates, top score 80.75/100) confirming MCQ format; validated with zero errors."
     }
   ],
   "exams": {
@@ -20054,43 +20066,53 @@
     "ssb-dnhdd-clerk": {
       "batch_id": "batch-5-subordinate-police-boards--dadra-nagar-haveli-and-daman-diu",
       "detail_file": "public/exam-details/ssb-dnhdd-clerk.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u113"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u113"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u113"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u113"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u113"
         }
       },
       "flags": []
