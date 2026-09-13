@@ -1,0 +1,222 @@
+{
+  "id": "puducherry-udc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "The ministerial cadre hierarchy under the Department of Personnel and Administrative Reforms (Personnel Wing), Government of Puducherry, begins with Lower Division Clerk (Level 2) and Upper Division Clerk (Level 4), advancing to Assistant (Level 6, Group B Non-Gazetted) and Superintendent (Level 7, Group B Gazetted). Direct recruitment to Upper Division Clerk is governed by the Puducherry UDC Recruitment Rules 2011 (G.O. Ms. No. 7/2011-DAR). Promoted officers can subsequently advance to Under Secretary or enter the Pondicherry Civil Service (PCS) executive cadre.",
+    "steps": [
+      {
+        "designation": "Upper Division Clerk (UDC)",
+        "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+        "years": "Entry grade (45% Direct Recruitment, 45% Promotion from LDC, 10% LDCE)",
+        "confidence": "verified",
+        "as_of": "2022-09-29",
+        "source_url": "https://dpar.py.gov.in/Exam/Recruitment/UDC_DR_29.09.22.pdf",
+        "source_label": "Government of Puducherry DP&AR Direct Recruitment Notification No. A-34012/7/E1/2022/DP&AR(EXAM)"
+      },
+      {
+        "designation": "Assistant",
+        "pay_level": "Level 6 (₹35,400 - ₹1,12,400)",
+        "years": "10 years regular service as UDC (or 5 years via LDCE) and passing Accounts Test for Subordinate Officers and Common General Departmental Test",
+        "confidence": "verified",
+        "as_of": "2012-04-29",
+        "source_url": "https://dpar.py.gov.in/RR/GO.42_2012(RR_Assistant).pdf",
+        "source_label": "Government of Puducherry (Assistant) Recruitment Rules 2012 (G.O. Ms. No. 42/2012-DP&AR)"
+      },
+      {
+        "designation": "Superintendent",
+        "pay_level": "Level 7 (₹44,900 - ₹1,42,400)",
+        "years": "5 years regular service as Assistant and passing Accounts (Higher) Test",
+        "confidence": "verified",
+        "as_of": "2019-02-02",
+        "source_url": "https://dpar.py.gov.in/RR/GO.9_2019(RR_Supdt)G.pdf",
+        "source_label": "Government of Puducherry (Superintendent) Recruitment Rules 2019 (G.O. Ms. No. 9/2019-DP&AR/SS-II(1))"
+      },
+      {
+        "designation": "Under Secretary / Administrative Officer / Pondicherry Civil Service (Entry Grade)",
+        "pay_level": "Level 10 / Level 11 (₹56,100 - ₹1,77,500 / ₹67,700 - ₹2,08,700)",
+        "years": "Superintendents with requisite regular service through promotional screening committee / selection quota",
+        "confidence": "verified",
+        "as_of": "2019-02-02",
+        "source_url": "https://dpar.py.gov.in/RR/GO.9_2019(RR_Supdt)G.pdf",
+        "source_label": "Puducherry Administration DP&AR Statutory Recruitment Rules and Seniority Cadre Schedules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Upper Division Clerk (Group C Non-Gazetted, Ministerial) in DP&AR Puducherry is made through a single-stage competitive written examination (Objective Multiple Choice OMR test) of Degree standard conducted across Puducherry, Karaikal, Mahe, and Yanam regions. Question paper is bilingual (English and regional language of candidate's choice: Tamil, Telugu, or Malayalam, except the General English portion). Negative marking of 0.25 is deducted per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Competitive Written Examination (Objective OMR Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-09-29",
+        "source_url": "https://dpar.py.gov.in/Exam/Recruitment/UDC_DR_29.09.22.pdf",
+        "source_label": "DP&AR Puducherry UDC Direct Recruitment Notification No. A-34012/7/E1/2022/DP&AR(EXAM)",
+        "papers": [
+          {
+            "paper_name": "Written Competitive Paper (General Mathematics, General Science, General English, Indian History & Geography, Indian Economics, Constitution of India, General Knowledge & Current Affairs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, MBC/OBC/EWS/EBC/BCM/BT: 25%, SC/ST/PwD/XSM: 20%"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Government of Puducherry employees are governed by the Central Civil Services (Revised Pay) Rules and the 7th Central Pay Commission (7th CPC) Pay Matrix under the administration of the Ministry of Home Affairs. Upper Division Clerks enter at Pay Matrix Level 4 with a basic pay of ₹25,500. Standard allowances include Central Dearness Allowance (standardized across the project at 58%), House Rent Allowance (10% to 20% depending on duty posting across Puducherry, Karaikal, Mahe, or Yanam), and Transport Allowance (₹1,350 + applicable DA).",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-09-29",
+    "pay_source_url": "https://dpar.py.gov.in/Exam/Recruitment/UDC_DR_29.09.22.pdf",
+    "pay_source_label": "DP&AR Puducherry UDC Notification No. A-34012/7/E1/2022/DP&AR(EXAM) (Pay Matrix Level 4)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 44700,
+      "max": 47800
+    },
+    "in_hand_range_estimate": {
+      "min": 40200,
+      "max": 43200
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated gross salary includes Level 4 basic pay (₹25,500), standard 58% DA (₹14,790), HRA (ranging from 10% for outlying enclaves like Yanam/Mahe to 20% in Puducherry town: ₹2,550 to ₹5,100), and Transport Allowance (₹1,350 + 58% DA = ₹2,133). In-hand estimate accounts for statutory Tier-I National Pension System (NPS) contribution of 10% (Basic + DA = ₹4,029), Central Government Employees Group Insurance Scheme (CGEGIS / UT GIS), and professional tax.",
+    "official_perks": [
+      "Central Civil Services (Revised Pay) Rules Level 4 pay progression with guaranteed 3% annual compound basic increments",
+      "Central Dearness Allowance revised bi-annually (January and July cycles)",
+      "House Rent Allowance as per Central Government classification (up to 20% for Puducherry city)",
+      "Transport Allowance (₹1,350 + applicable DA)",
+      "National Pension System (NPS) with 14% matching employer contribution",
+      "Central Government Health Scheme (CGHS) / UT Medical Attendance reimbursement for employee and recognized dependents",
+      "Leave Travel Concession (LTC) as per CCS (LTC) Rules",
+      "Children Education Allowance (CEA) and Hostel Subsidy as per Central Government norms",
+      "Paid leave entitlements including Earned Leave (30 days/year), Half Pay Leave (20 days/year), and Casual Leave (8 days/year)"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "DP&AR Puducherry conducts direct recruitment for Upper Division Clerks periodically across the Union Territory (Puducherry, Karaikal, Mahe, and Yanam). In the 2022-2023 recruitment cycle, 116 vacancies were initially notified and later expanded by 146 anticipated vacancies (arising from promotion to Assistant cadre) to reach 262 total vacancies. A competitive written examination was held on 23.07.2023, and a provisional select list of 110 candidates along with a 51-candidate wait list was notified on 26.07.2023.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 262,
+        "shortlisted_for_mains": 110,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-07-26",
+        "source_url": "https://dpar.py.gov.in/Exam/Recruitment/Notification_05.07.23.pdf",
+        "source_label": "DP&AR Puducherry Notifications dated 29.09.2022 (116 vacancies) & 05.07.2023 (146 anticipated vacancies) and Result Notification dated 26.07.2023 (110 select list candidates in Annexure-I excluding 6 MSP quota posts and 1 sealed cover)"
+      },
+      {
+        "year": 2015,
+        "applicants": null,
+        "vacancies": 503,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2015-08-11",
+        "source_url": "https://dpar.py.gov.in/exam/recruitment/UDCNotification11Aug15.pdf",
+        "source_label": "Government of Puducherry DP&AR Direct Recruitment Notification No. A-34012/4/2015/DP&AR(Exam) (503 vacancies including anticipated vacancies)"
+      },
+      {
+        "year": 2012,
+        "applicants": null,
+        "vacancies": 154,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2012-04-20",
+        "source_url": "https://dpar.py.gov.in/exam/recruitment/notifi_UDC.pdf",
+        "source_label": "DP&AR Puducherry Notification No. A-34012/1/2012/DP&AR (Exam) (119 UDC + 35 Senior Clerk vacancies)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, recruitment rules, answer key dispute resolutions, and merit lists published by DP&AR (Personnel Wing), Government of Puducherry.",
+    "links": [
+      {
+        "label": "DP&AR Puducherry UDC Direct Recruitment Detailed Notification (2022-2023)",
+        "url": "https://dpar.py.gov.in/Exam/Recruitment/UDC_DR_29.09.22.pdf",
+        "type": "notification",
+        "cycle_label": "2022-2023",
+        "confidence": "verified",
+        "as_of": "2022-09-29"
+      },
+      {
+        "label": "DP&AR Puducherry UDC Anticipated Vacancies Addendum Notification",
+        "url": "https://dpar.py.gov.in/Exam/Recruitment/Notification_05.07.23.pdf",
+        "type": "notification",
+        "cycle_label": "2022-2023",
+        "confidence": "verified",
+        "as_of": "2023-07-05"
+      },
+      {
+        "label": "DP&AR Puducherry UDC Written Examination Final Answer Key & Key Challenge Disposal Notice",
+        "url": "https://dpar.py.gov.in/Exam/Recruitment/Notice2_26.07.23.pdf",
+        "type": "other",
+        "cycle_label": "2022-2023",
+        "confidence": "verified",
+        "as_of": "2023-07-26"
+      },
+      {
+        "label": "DP&AR Puducherry UDC Provisional Merit Select List & Wait List",
+        "url": "https://dpar.py.gov.in/exam/result/competitive/Result_Notification_26.07.23.pdf",
+        "type": "other",
+        "cycle_label": "2022-2023",
+        "confidence": "verified",
+        "as_of": "2023-07-26"
+      },
+      {
+        "label": "DP&AR Puducherry UDC Certificate Verification Schedule Memorandum",
+        "url": "https://dpar.py.gov.in/Exam/Recruitment/Memo_14.08.23.pdf",
+        "type": "other",
+        "cycle_label": "2022-2023",
+        "confidence": "verified",
+        "as_of": "2023-08-14"
+      },
+      {
+        "label": "Government of Puducherry Upper Division Clerk Statutory Recruitment Rules 2011 (G.O. Ms. No. 7/2011-DAR)",
+        "url": "https://dpar.py.gov.in/RR/GO.7_2011(RR_UDC).pdf",
+        "type": "syllabus",
+        "cycle_label": "Statutory",
+        "confidence": "verified",
+        "as_of": "2011-01-31"
+      },
+      {
+        "label": "Government of Puducherry Assistant Statutory Recruitment Rules 2012 (G.O. Ms. No. 42/2012-DP&AR)",
+        "url": "https://dpar.py.gov.in/RR/GO.42_2012(RR_Assistant).pdf",
+        "type": "other",
+        "cycle_label": "Statutory",
+        "confidence": "verified",
+        "as_of": "2012-04-29"
+      },
+      {
+        "label": "Government of Puducherry Superintendent Statutory Recruitment Rules 2019 (G.O. Ms. No. 9/2019-DP&AR/SS-II(1))",
+        "url": "https://dpar.py.gov.in/RR/GO.9_2019(RR_Supdt)G.pdf",
+        "type": "other",
+        "cycle_label": "Statutory",
+        "confidence": "verified",
+        "as_of": "2019-02-02"
+      },
+      {
+        "label": "DP&AR Puducherry Recruitment Portal & Official Announcements Archive",
+        "url": "https://dpar.py.gov.in/Exam/Recruitment/Recruitment.htm",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-07-20"
+      }
+    ]
+  }
+}
