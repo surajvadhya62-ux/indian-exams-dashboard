@@ -1,0 +1,209 @@
+{
+  "id": "osssc-forest-guard",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Forest Guards and Foresters are recruited under the Forest, Environment and Climate Change Department, while Livestock Inspectors belong to the Fisheries & Animal Resources Development Department, Government of Odisha. Promotion pathways for forest personnel follow the Odisha Subordinate Forest Service Rules up to gazetted state forest service posts.",
+    "steps": [
+      {
+        "designation": "Forest Guard",
+        "pay_level": "ORSP 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "Odisha Subordinate Staff Selection Commission Forest Cadre Rules"
+      },
+      {
+        "designation": "Forester",
+        "pay_level": "ORSP 2017 Level 7 (Scale ₹25,500 - ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://forest.odisha.gov.in",
+        "source_label": "Odisha Subordinate Forest Service Recruitment and Promotion Rules"
+      },
+      {
+        "designation": "Deputy Ranger",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://forest.odisha.gov.in",
+        "source_label": "Forest Department Subordinate Hierarchy Regulations"
+      },
+      {
+        "designation": "Forest Range Officer (FRO)",
+        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://forest.odisha.gov.in",
+        "source_label": "Odisha Forest Service Group B Cadre Rules"
+      },
+      {
+        "designation": "Assistant Conservator of Forests (ACF, OFS Class I)",
+        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://forest.odisha.gov.in",
+        "source_label": "Odisha Forest Service Class I Recruitment Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Combined Recruitment Examination for Forest Guard, Forester, and Livestock Inspector is conducted by OSSSC in multiple phases: a Computer Based Recruitment Examination (CBRE), followed by Physical Standard Measurement (PSM) and Physical Efficiency Test (PET) featuring an endurance walk, concluding with Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Written Examination (Computer Based Recruitment Examination - CBRE)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Combined Forest Guard, Forester & LI Examination Scheme (Advt No. IIE-48/2023-863(C)/OSSSC)",
+        "papers": [
+          {
+            "paper_name": "CBRE Written Test (English 25 Q, Odia 25 Q, Arithmetic 25 Q, General Knowledge 25 Q, Computer Knowledge 25 Q, General Science 25 Q)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "0.50 marks deducted per incorrect answer (1/2 mark penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 35% for SC/ST/PwD/Sports/ESM, 40% for General and SEBC candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Physical Standard Measurement (PSM) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Physical Standards and Endurance Test Rules",
+        "papers": [
+          {
+            "paper_name": "Physical Standards Measurement & Endurance Walk (Male: 25 km walk in 4 hours; Female: 16 km walk in 4 hours; Height & Chest verification)",
+            "marks": 0,
+            "duration_minutes": 240,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature; mandatory completion of prescribed distance within 4 hours and clearance of height/chest norms"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Document Verification (DV) & Circle Allotment",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Document Verification and Forest Circle Allocation Procedure",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational, Age, Odia Knowledge, Caste, and Character Credentials",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of original credentials and satisfactory fitness assessment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for positions recruited under the Combined Forest Guard, Forester, and Livestock Inspector Examination are governed by the Odisha Revised Scales of Pay (ORSP) Rules, 2017. Forest Guards enter at Pay Matrix Level 4 (Scale ₹19,900 - ₹63,200 with entry basic pay of ₹19,900), while Foresters and Livestock Inspectors enter at Pay Matrix Level 7 (Scale ₹25,500 - ₹81,100 with entry basic pay of ₹25,500). The financial package below details the flagship Forest Guard post.",
+    "pay_level": "ORSP Rules 2017 Level 4 (Scale ₹19,900 - ₹63,200 for Forest Guard)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-09-09",
+    "pay_source_url": "https://finance.odisha.gov.in",
+    "pay_source_label": "Odisha Revised Scales of Pay (ORSP) Rules, 2017, Finance Department, Government of Odisha",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 34000,
+      "max": 37000
+    },
+    "in_hand_range_estimate": {
+      "min": 30500,
+      "max": 33000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated for Forest Guard at Level 4 entry basic pay ₹19,900 + 58% Dearness Allowance (₹11,542) + House Rent Allowance (9% for forest range headquarters, up to 18% in municipal circles: ₹1,791 to ₹3,582) + Medical Allowance (₹500) and uniform / forest duty allowance (~₹800). For Forester and Livestock Inspector cadres (Level 7, basic ₹25,500), entry gross salary is ~₹44,000 - ₹47,000. Statutory deductions include 10% NPS (Basic + DA = ₹3,144 for Level 4), Professional Tax (₹200), and GIS (~₹250).",
+    "official_perks": [
+      "Rent-free forest departmental accommodation / barracks in beat or range quarters, or HRA as sanctioned",
+      "Special uniform, kit maintenance, and field patrolling equipment allowance",
+      "Comprehensive medical treatment reimbursement under Odisha Government Servants' Medical Attendance Rules",
+      "Dearness Allowance (DA) linked to bi-annual revisions by the Government of Odisha",
+      "Contributory pension coverage under New Pension Scheme (NPS) with 14% state government matching contribution",
+      "Ration subsidy / risk allowance for sensitive wildlife sanctuary and national park deployments"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant volumes, test appearances, and cutoff scores compiled from official OSSSC recruitment press notices and merit lists.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 465000,
+        "vacancies": 2712,
+        "appeared": 340000,
+        "cutoff": "Forest Guard UR Cut-off: ~118.50 / 150, Forester UR Cut-off: ~124.00 / 150, LI UR Cut-off: ~112.50 / 150",
+        "confidence": "reported",
+        "as_of": "2024-08-25",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Combined Forest Guard, Forester & LI Result Notification (Advt No. 863(C)/OSSSC)"
+      },
+      {
+        "year": 2021,
+        "applicants": 380000,
+        "vacancies": 806,
+        "appeared": 275000,
+        "cutoff": "Forest Guard UR Cut-off: ~121.00 marks out of 150",
+        "confidence": "reported",
+        "as_of": "2022-04-10",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Forest Guard Recruitment Merit List and Shortlisting Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, physical endurance rules, and examination materials from the Odisha Subordinate Staff Selection Commission.",
+    "links": [
+      {
+        "label": "OSSSC Combined Forest Guard, Forester & Livestock Inspector Detailed Advertisement",
+        "url": "https://www.osssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Detailed Syllabus and Physical Endurance Test (PET) Walking Guidelines",
+        "url": "https://www.osssc.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC CBRE Scoring Keys and Question Bank Portal",
+        "url": "https://www.osssc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Candidate Application and Admission Portal",
+        "url": "https://www.osssc.gov.in/Public/OSSSC/Default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

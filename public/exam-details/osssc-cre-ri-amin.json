@@ -1,0 +1,227 @@
+{
+  "id": "osssc-cre-ri-amin",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Field revenue officials recruited under OSSSC Combined Recruitment Examination enter either as Amin (Level 3), Assistant Revenue Inspector (Level 4), or Revenue Inspector (Level 9) under the Revenue & Disaster Management Department, Government of Odisha. Promotion follows the Odisha District Revenue Service Rules and Odisha Revenue Service Group B Recruitment Rules based on seniority, departmental examination clearance, and merit.",
+    "steps": [
+      {
+        "designation": "Amin",
+        "pay_level": "ORSP 2017 Level 3 (Scale ₹16,600 - ₹52,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "Odisha Subordinate Staff Selection Commission Combined Recruitment Examination Cadre Rules"
+      },
+      {
+        "designation": "Assistant Revenue Inspector (ARI)",
+        "pay_level": "ORSP 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "Odisha District Revenue Service Recruitment and Promotion Rules"
+      },
+      {
+        "designation": "Revenue Inspector (RI)",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "Odisha Revenue Service Cadre Structure, Revenue & Disaster Management Department"
+      },
+      {
+        "designation": "Revenue Supervisor / Assistant Tahsildar",
+        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://revenue.odisha.gov.in",
+        "source_label": "Odisha Revenue Service (ORS) Group B Rules"
+      },
+      {
+        "designation": "Additional Tahsildar / Tahsildar",
+        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://revenue.odisha.gov.in",
+        "source_label": "Odisha Administrative Service (OAS) Class II Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Combined Recruitment Examination (CRE) for Revenue Inspector (RI), Assistant Revenue Inspector (ARI), Amin, Collection Assistant, and Statistical Field Surveyor is conducted by OSSSC in multiple stages: a Preliminary Screening Examination, followed by a Main Written Examination, a Practical Skill Test in Basic Computer Skills (qualifying), and Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Examination (Screening MCQ Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC CRE Scheme of Examination and Syllabus Notification",
+        "papers": [
+          {
+            "paper_name": "Preliminary Written Examination (General Studies 30 Q, Arithmetic 30 Q, Logical Reasoning & Mental Ability 20 Q, English & Odia Language 20 Q)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 marks deducted per incorrect answer (1/3rd penalty)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening cut-off to shortlist candidates for Main Examination (approximately 5 to 6 times total vacancies)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Main Examination (Objective Test for Merit Ranking)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC CRE Main Examination Regulations",
+        "papers": [
+          {
+            "paper_name": "Main Written Test (General Studies 50 Q / 50 marks, Arithmetic 40 Q / 40 marks, English 30 Q / 30 marks, Odia 30 Q / 30 marks, Computer Knowledge 30 Q / 30 marks)",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "0.33 marks deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Practical Skill Test in Basic Computer Skills",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Computer Practical Skill Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Basic Computer Skill Test (MS Windows, MS Office - Word, Excel, PowerPoint, MS Access, and Internet Operations)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% qualifying threshold (minimum 20 out of 50 marks required)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage IV: Document Verification (DV) & Cadre Counseling",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Document Verification Protocol",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Original Educational, Caste, Odia Standard, and Computer Certificates with District Cadre Preference Allocation",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Production and validation of all requisite original certificates and Odia language qualification"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for posts recruited under the OSSSC Combined Recruitment Examination are governed by the Odisha Revised Scales of Pay (ORSP) Rules, 2017. Pay levels vary by cadre: Revenue Inspector (RI) enters at Pay Matrix Level 9 (Scale ₹35,400 - ₹1,12,400 with entry basic pay of ₹35,400); Assistant Revenue Inspector (ARI) enters at Level 4 (Scale ₹19,900 - ₹63,200 with entry basic pay of ₹19,900); and Amin enters at Level 3 (Scale ₹16,600 - ₹52,400 with entry basic pay of ₹16,600). The package below represents the flagship Revenue Inspector (RI) cadre.",
+    "pay_level": "ORSP Rules 2017 Level 9 (Scale ₹35,400 - ₹1,12,400 for RI)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-09-09",
+    "pay_source_url": "https://finance.odisha.gov.in",
+    "pay_source_label": "Odisha Revised Scales of Pay (ORSP) Rules, 2017, Finance Department, Government of Odisha",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 60000,
+      "max": 65000
+    },
+    "in_hand_range_estimate": {
+      "min": 53000,
+      "max": 58000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated for Revenue Inspector (RI) at entry Level 9 basic pay ₹35,400 + 58% DA (₹20,532) + Odisha HRA (9% to 18% based on posting in rural/sub-divisional headquarters vs Bhubaneswar/Cuttack municipal areas) + medical allowance (₹500) and special field allowance. For junior posts, entry gross is ~₹34,000 for ARI (Level 4, basic ₹19,900) and ~₹28,500 for Amin (Level 3, basic ₹16,600). Deductions include 10% NPS (Basic + DA = ₹5,593 for RI), Professional Tax (₹200), and Group Insurance (GIS).",
+    "official_perks": [
+      "Government residential quarters accommodation or House Rent Allowance (HRA at 9% to 18% based on city tier)",
+      "Fixed travel allowance / conveyance support for revenue circle inspections and field demarcation duties",
+      "Comprehensive medical treatment reimbursement under Odisha Government Servants' Medical Attendance Rules",
+      "Dearness Allowance (DA) indexed to bi-annual revisions by the Government of Odisha",
+      "Contributory pension coverage under New Pension Scheme (NPS) with 14% state government matching contribution",
+      "Standard statutory leave entitlements (Earned Leave, Casual Leave, Half Pay Leave, and Maternity/Paternity Leave) under Odisha Service Code"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, attendance, and vacancy statistics compiled from official OSSSC recruitment notifications and result declarations for the Combined Recruitment Examination.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 585000,
+        "vacancies": 2895,
+        "appeared": 430000,
+        "cutoff": "RI UR: 138.50 / 180, ARI UR: 131.25 / 180, Amin UR: 124.00 / 180",
+        "confidence": "reported",
+        "as_of": "2024-11-20",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Combined Recruitment Examination (CRE-2023/24) Result & Shortlisting Press Notification"
+      },
+      {
+        "year": 2021,
+        "applicants": 420000,
+        "vacancies": 586,
+        "appeared": 312000,
+        "cutoff": "Revenue Inspector (RI) UR Final Selection Merit Cut-off: ~144.50 marks out of 180",
+        "confidence": "reported",
+        "as_of": "2021-12-15",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Revenue Inspector (Advt No. 03/2021) Final Selection Merit List Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and portal resources published on the Odisha Subordinate Staff Selection Commission portal.",
+    "links": [
+      {
+        "label": "OSSSC Combined Recruitment Examination (RI, ARI, Amin) Detailed Advertisement",
+        "url": "https://www.osssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Scheme of Examination and Detailed Subject-Wise Syllabus",
+        "url": "https://www.osssc.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC CRE Model Questions, Scoring Keys & Answer Key Archives",
+        "url": "https://www.osssc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Official Portal Homepage and Candidate Online Application Management System",
+        "url": "https://www.osssc.gov.in/Public/OSSSC/Default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

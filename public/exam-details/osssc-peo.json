@@ -1,0 +1,201 @@
+{
+  "id": "osssc-peo",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Panchayat Executive Officers (PEO) and Junior Assistants (JA) are recruited under the Panchayati Raj & Drinking Water Department, Government of Odisha. Promotion opportunities lead from grassroots Gram Panchayat management to block-level and district-level administrative posts under the Odisha Gram Panchayat Service Rules and Odisha Subordinate Administrative Service.",
+    "steps": [
+      {
+        "designation": "Panchayat Executive Officer (PEO) / Junior Assistant",
+        "pay_level": "ORSP 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "Odisha Subordinate Staff Selection Commission PEO & JA Recruitment Rules"
+      },
+      {
+        "designation": "Senior Panchayat Executive Officer / Gram Panchayat Officer (GPO)",
+        "pay_level": "ORSP 2017 Level 7 (Scale ₹25,500 - ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://panchayat.odisha.gov.in",
+        "source_label": "Odisha Gram Panchayat Administration Service Regulations"
+      },
+      {
+        "designation": "Block Panchayat Officer (BPO) / PA to BDO",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://panchayat.odisha.gov.in",
+        "source_label": "Panchayati Raj Department Block Level Cadre Structure"
+      },
+      {
+        "designation": "Assistant Project Director (DRDA) / Block Development Officer (OAS Class II)",
+        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://panchayat.odisha.gov.in",
+        "source_label": "Odisha Administrative Service Promotion Quota Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Combined Recruitment Examination for Panchayat Executive Officer (PEO) and Junior Assistant (JA) consists of a Written Examination (OMR / Offline Mode), followed by a Practical Skill Test in Basic Computer Skills (qualifying), and Document Verification with District Cadre counseling.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Written Examination (Objective Test for Merit Ranking)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC PEO & Junior Assistant Examination Scheme (Advt No. IIE-07/2023-492(C)/OSSSC)",
+        "papers": [
+          {
+            "paper_name": "Combined Written Test (English 35 Q, Odia 35 Q, Mathematics 35 Q, General Knowledge 35 Q, Computer Knowledge 35 Q, Logical Reasoning 5 Q)",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "0.50 marks deducted per incorrect answer (1/2 mark penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 35% for SC/ST/PwD/Ex-Servicemen/Sports, 40% for General and SEBC candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Practical Skill Test in Basic Computer Skills",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Basic Computer Skill Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Basic Computer Skills Test (MS Windows, MS Office - Word, Excel, PowerPoint, MS Access, Internet Operations)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% qualifying mark (minimum 20 marks out of 50)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Document Verification (DV) & District Counseling",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Verification and District Cadre Allocation Process",
+        "papers": [
+          {
+            "paper_name": "Original Certificate Verification and District Cadre Option Registration",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of 10+2 certificates, Odia pass standard, and category credentials"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Panchayat Executive Officers (PEO) and Junior Assistants in Odisha are appointed under Pay Matrix Level 4 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹19,900 - ₹63,200 with entry basic pay of ₹19,900). Pay and allowances are disbursed through the Panchayati Raj & Drinking Water Department, Government of Odisha.",
+    "pay_level": "ORSP Rules 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-09-09",
+    "pay_source_url": "https://finance.odisha.gov.in",
+    "pay_source_label": "Odisha Revised Scales of Pay (ORSP) Rules, 2017, Finance Department, Government of Odisha",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33500,
+      "max": 36500
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 32500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated based on entry basic pay of ₹19,900 + 58% Dearness Allowance (₹11,542) + House Rent Allowance (9% for rural block/panchayat headquarters, up to 18% in municipal areas: ₹1,791 to ₹3,582) + Medical Allowance (₹500) and fixed rural field allowance. Deductions comprise 10% NPS (Basic + DA = ₹3,144), Professional Tax (₹200), and Group Insurance Scheme (GIS ~₹250).",
+    "official_perks": [
+      "Government staff quarters or House Rent Allowance (HRA at 9% to 18% as applicable to posting location)",
+      "Conveyance / travel allowance for official visits to Gram Panchayat wards and block headquarters",
+      "Comprehensive medical treatment reimbursement under Odisha Government Servants' Medical Attendance Rules",
+      "Dearness Allowance (DA) linked to state government cost-of-living adjustments",
+      "Contributory pension scheme under New Pension Scheme (NPS) with 14% government contribution",
+      "Leave benefits including Earned Leave, Casual Leave, Half Pay Leave, and Maternity Leave per Odisha Service Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, attendance, and selection metrics from official OSSSC recruitment releases for Panchayat Executive Officer and Junior Assistant examinations.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 680000,
+        "vacancies": 6862,
+        "appeared": 520000,
+        "cutoff": "PEO UR Cut-off: ~146.50 / 180, JA UR Cut-off: ~141.00 / 180",
+        "confidence": "reported",
+        "as_of": "2023-12-08",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC PEO & JA (Advt No. 492(C)/OSSSC) Written Examination Result Notification"
+      },
+      {
+        "year": 2019,
+        "applicants": 340000,
+        "vacancies": 1746,
+        "appeared": 260000,
+        "cutoff": "Junior Clerk / Junior Assistant UR Cut-off: ~138.00 marks out of 180",
+        "confidence": "reported",
+        "as_of": "2019-11-15",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Junior Clerk / Junior Assistant Selection List and Cut-off Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and portal links from the Odisha Subordinate Staff Selection Commission.",
+    "links": [
+      {
+        "label": "OSSSC PEO & Junior Assistant Detailed Recruitment Notification (Advt No. 492(C))",
+        "url": "https://www.osssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Syllabus and Test Scheme for PEO & Junior Assistant Examination",
+        "url": "https://www.osssc.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC PEO Official Question Booklet and Final Scoring Key",
+        "url": "https://www.osssc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Online Application and Candidate Dashboard Portal",
+        "url": "https://www.osssc.gov.in/Public/OSSSC/Default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "oprb-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police (SI) are directly recruited executive officers in the Odisha Police. They serve as Investigating Officers (IO) and Officers-in-Charge (OIC) of police stations. Career advancement follows the Odisha Police Subordinate Service Rules and Odisha Police Service (OPS) Rules.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI)",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Recruitment Board SI Cadre Regulations"
+      },
+      {
+        "designation": "Inspector of Police (Inspector In-Charge / IIC)",
+        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Subordinate Service Promotion Rules"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / ACP, OPS Group A)",
+        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Service (OPS) Cadre Promotion Regulations"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP)",
+        "pay_level": "ORSP 2017 Level 13 (Scale ₹67,700 - ₹2,08,700)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Home Department Senior Police Cadre Structure"
+      },
+      {
+        "designation": "Superintendent of Police (SP / DCP, IPS Selection / State Senior Scale)",
+        "pay_level": "ORSP 2017 Level 13A/14 (Scale ₹1,31,100 - ₹2,16,600)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Indian Police Service Induction / State Senior Police Executive Scale"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Odisha Police Sub-Inspector recruitment consists of three main stages: a Computer Based Recruitment Examination (CBRE) comprising two objective papers, followed by Physical Standard Measurement (PSM) and Physical Efficiency Test (PET), concluding with Document Verification and Medical Examination.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Computer Based Recruitment Examination (CBRE)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Recruitment Board Sub-Inspector Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I: General English & Odia Language (General English 50 Q / 50 marks, Odia Language 50 Q / 50 marks)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: General Studies, Reasoning, Mental Ability & Basic Computer (General Studies 100 Q / 100 marks, Reasoning & Mental Ability 70 Q / 70 marks, Basic Computer 30 Q / 30 marks)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined aggregate minimum qualifying marks: 35% for SC/ST, 40% for General and SEBC candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Physical Standard Measurement (PSM) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police SI Physical Standards and Fitness Test Rules",
+        "papers": [
+          {
+            "paper_name": "Physical Standards Measurement & Physical Efficiency (Run: Men 1.6 km in 8 min, Women 1.6 km in 10 min; Long Jump: Men 3.66m in 3 attempts, Women 2.77m in 3 attempts; Height & Chest verification)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature; mandatory clearance of prescribed physical benchmarks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Document Verification & Medical Board Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police SI Medical Board Guidelines and Verification Process",
+        "papers": [
+          {
+            "paper_name": "Original Certificate Verification and Detailed Medical Examination (Vision, Hearing, Color Blindness, and Physical Deformity check)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Complete verification of degree certificates, Odia pass standard, and certified medical fitness"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police in Odisha are appointed at Pay Matrix Level 9 under the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹35,400 - ₹1,12,400 with entry basic pay of ₹35,400). SIs are entitled to dedicated police service allowances including ration allowance, uniform allowance, investigation kit allowance, and government quarter accommodation.",
+    "pay_level": "ORSP Rules 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-09-09",
+    "pay_source_url": "https://finance.odisha.gov.in",
+    "pay_source_label": "Odisha Revised Scales of Pay (ORSP) Rules, 2017, Finance Department, Government of Odisha",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 63000,
+      "max": 67000
+    },
+    "in_hand_range_estimate": {
+      "min": 56000,
+      "max": 60000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on entry basic pay of ₹35,400 + 58% Dearness Allowance (₹20,532) + House Rent Allowance (9% to 18%: ₹3,186 to ₹6,372 depending on posting in rural police station vs Bhubaneswar-Cuttack Police Commissionerate) + Monthly Police Ration Allowance (~₹2,000) + Kit Maintenance / Uniform Allowance (~₹1,200) + Medical Allowance (₹500). Statutory deductions include 10% NPS (Basic + DA = ₹5,593), Professional Tax (₹200), and Police Benevolent Fund / GIS (~₹350).",
+    "official_perks": [
+      "Designated officer accommodation / police quarters at Thana / Sub-Division campus, or House Rent Allowance (9% to 18%)",
+      "Monthly Police Ration Allowance / Diet Allowance sanctioned by Home Department",
+      "Uniform grant and monthly kit maintenance allowance",
+      "Comprehensive medical treatment reimbursement under Odisha Government Servants' Medical Attendance Rules and Police Hospitals",
+      "Dearness Allowance (DA) linked to state government revisions",
+      "Contributory pension coverage under New Pension Scheme (NPS) with 14% state government matching contribution",
+      "Mobile SIM connection / official communication allowance for investigative field duties"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registration, test attendance, and cutoff benchmarks compiled from official Odisha Police Recruitment Board press notices and final merit results.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 156000,
+        "vacancies": 477,
+        "appeared": 122000,
+        "cutoff": "UR Merit Cut-off: ~218.50 marks out of 300 in CBRE",
+        "confidence": "reported",
+        "as_of": "2023-06-20",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Recruitment Board Sub-Inspector (Advt No. 01/OPRB) Final Selection List Notification"
+      },
+      {
+        "year": 2021,
+        "applicants": 142000,
+        "vacancies": 477,
+        "appeared": 110000,
+        "cutoff": "UR Shortlist Cut-off for Physical Test: ~209.25 marks out of 300",
+        "confidence": "reported",
+        "as_of": "2021-12-18",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "OPRB SI Written Examination Shortlist for Physical Efficiency Test"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, syllabi, and score publications from the Odisha Police Recruitment Board.",
+    "links": [
+      {
+        "label": "Odisha Police Sub-Inspector Detailed Recruitment Advertisement",
+        "url": "https://odishapolice.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Police SI Detailed Syllabus & Physical Efficiency Standards",
+        "url": "https://odishapolice.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Police SI Model Questions & Scoring Key Archive",
+        "url": "https://odishapolice.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Police Official Recruitment Portal",
+        "url": "https://odishapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

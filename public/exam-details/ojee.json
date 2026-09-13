@@ -1,0 +1,169 @@
+{
+  "id": "ojee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Odisha Joint Entrance Examination (OJEE) is conducted annually by the State OJEE Committee under the Skill Development and Technical Education Department, Government of Odisha, for admission into undergraduate and postgraduate professional courses (B.Pharm, MCA, MBA, M.Tech, M.Pharm, M.Arch, M.Plan, Integrated MBA, Lateral Entry B.Tech/B.Pharm, and Basic B.Sc Nursing) across government and private colleges and universities in Odisha. First Year B.Tech admissions are primarily based on JEE (Main) ranks through centralized OJEE web counselling, supplemented by 2nd/Special OJEE for unfilled vacancies. All tests are conducted in Computer-Based Test (CBT) mode. Under the standard marking scheme, each correct answer fetches 4 marks (+4), 1 mark is deducted for each incorrect answer (-1), and no marks are awarded or deducted for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "Computer-Based Entrance Test (CBT) — Professional Degree Programmes",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+        "source_label": "OJEE Information Brochure (Section 7: Rules & Pattern of Examination)",
+        "papers": [
+          {
+            "paper_name": "B.Pharm (Physics 40, Chemistry 40, Mathematics/Biology 40 — attempt PCB or PCM)",
+            "marks": 480,
+            "duration_minutes": 120,
+            "negative_marking": "+4 for correct response, -1 for incorrect response, 0 for unattempted questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Lateral Entry B.Tech - Diploma (Engineering Mathematics 40, Engineering Mechanics 40, Basic Electrical & Electronics 40)",
+            "marks": 480,
+            "duration_minutes": 120,
+            "negative_marking": "+4 for correct response, -1 for incorrect response, 0 for unattempted questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "MCA (Computer Awareness 60, Mathematics 60)",
+            "marks": 480,
+            "duration_minutes": 120,
+            "negative_marking": "+4 for correct response, -1 for incorrect response, 0 for unattempted questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "MBA (Analytical & Logical Reasoning 30, Quantitative Techniques 30, Verbal Reasoning & Comprehension 30, General Awareness & Business Fundamentals 30)",
+            "marks": 480,
+            "duration_minutes": 120,
+            "negative_marking": "+4 for correct response, -1 for incorrect response, 0 for unattempted questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "M.Tech (Branch Discipline Subject 60, Engineering Mathematics 20, Analytical & Logical Reasoning 10)",
+            "marks": 360,
+            "duration_minutes": 120,
+            "negative_marking": "+4 for correct response, -1 for incorrect response, 0 for unattempted questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Web-Based Counselling & Single-Window Seat Allocation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/06/202606181156372451.pdf",
+        "source_label": "OJEE Revised Web Counselling Brochure and Seat Allotment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Online Registration, Web Option Filling & Locking, Document Verification, and Multi-Round Seat Allotment",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "State rank merit allocation against category reservation quotas and participating college seat matrices"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official applicant registration, test appearance, and rank allotment statistics compiled from Odisha Joint Entrance Examination (OJEE) Committee official press communications and statistical summaries.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 65742,
+        "vacancies": null,
+        "shortlisted_for_mains": 56047,
+        "selectivity_ratio": "85.25% allotment rate (56,047 appeared out of 65,742 registered [82.25% attendance]; 56,000 candidates allotted ranks across professional programmes)",
+        "confidence": "reported",
+        "as_of": "2024-06-03",
+        "source_url": "https://ojee.nic.in",
+        "source_label": "OJEE Committee Official Press Announcement for OJEE-2024 Results Declared on 3 June 2024 (65,742 registered, 56,047 appeared, 56,000 allotted ranks)"
+      },
+      {
+        "year": 2023,
+        "applicants": 55979,
+        "vacancies": null,
+        "shortlisted_for_mains": 48783,
+        "selectivity_ratio": "87.15% allotment rate (48,815 appeared out of 55,979 registered [87.20% attendance]; 48,783 candidates allotted ranks)",
+        "confidence": "verified",
+        "as_of": "2023-06-02",
+        "source_url": "https://ojee.nic.in",
+        "source_label": "OJEE Committee Official Results Announcement (55,979 registered, 48,815 appeared, 48,783 allotted ranks)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletins, detailed syllabi, application guidelines, and counselling brochures published by the OJEE Committee on the official government portal.",
+    "links": [
+      {
+        "label": "OJEE Official Information Brochure PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+        "type": "notification",
+        "cycle_label": "OJEE-2026 Brochure",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Official Syllabus Framework for OJEE PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281979424955.pdf",
+        "type": "syllabus",
+        "cycle_label": "OJEE-2026 Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Instructions for Filling Up Online Application Form PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/20260128233667574.pdf",
+        "type": "other",
+        "cycle_label": "Application Guide",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OJEE Revised Web Counselling Brochure PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/06/202606181156372451.pdf",
+        "type": "other",
+        "cycle_label": "Counselling Norms",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Joint Entrance Examination (OJEE) Official Web Portal",
+        "url": "https://ojee.nic.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OJEE Public Notices & Circulars Archive",
+        "url": "https://ojee.nic.in/notices/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OJEE Information & Bulletins Repository",
+        "url": "https://ojee.nic.in/information/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

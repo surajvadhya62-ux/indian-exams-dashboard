@@ -1,0 +1,210 @@
+{
+  "id": "oprb-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Constables (Civil Police) and Sepoys (Odisha Special Armed Police - OSAP / India Reserve Battalions) are recruited through the State Selection Board / Odisha Police Recruitment Board (OPRB). Career progression is governed by the Odisha Police Service Regulations and Police Manual based on departmental seniority, qualifying examinations, and field performance.",
+    "steps": [
+      {
+        "designation": "Police Constable / Sepoy",
+        "pay_level": "ORSP 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Recruitment Rules for Constables and Sepoys"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI)",
+        "pay_level": "ORSP 2017 Level 7 (Scale ₹25,500 - ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Manual Promotion Regulations (Rule 660)"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI)",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Subordinate Service Rules"
+      },
+      {
+        "designation": "Inspector of Police (Inspector In-Charge / IIC)",
+        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Executive Cadre Regulations"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP, OPS Group A)",
+        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Service (OPS) Cadre Promotion Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the rank of Constable / Sepoy is conducted in multiple stages: a Computer Based Recruitment Examination (CBRE), followed by Physical Standard Measurement (PSM) and Physical Efficiency Test (PET), concluding with Document Verification, optional Driving Trade Test, and Medical Examination.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Computer Based Recruitment Examination (CBRE)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police State Selection Board Constable Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "CBRE Written Test (Odia Language 15 Q, English Language 15 Q, Arithmetic 20 Q, General Knowledge & Current Affairs 25 Q, Situational Awareness & Reasoning 15 Q, Basic Computer Knowledge 10 Q)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 35% for SC/ST, 40% for General and SEBC candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Physical Standard Measurement (PSM) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Physical Standards and Physical Efficiency Regulations",
+        "papers": [
+          {
+            "paper_name": "PSM & PET (Run: Men 1.6 km in 6m 30s, Women 1.6 km in 8m 30s; Long Jump: Men 3.66m, Women 2.75m; Height: Men UR 168 cm, SC/ST 163 cm, Women UR 158 cm, SC/ST 153 cm)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature; mandatory clearance of physical measurements, timed run, and broad jump"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Document Verification, Driving Trade Test & Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Selection and Medical Assessment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Document Verification, Optional Driving Assessment (up to 5 bonus marks for valid HMV/LMV licence), and Comprehensive Medical Fitness Examination",
+            "marks": 5,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Verification of educational and character antecedents; medical fitness clearance"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables and Sepoys in Odisha Police receive compensation under Pay Matrix Level 4 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹19,900 - ₹63,200 with entry basic pay of ₹19,900). Police personnel also receive statutory police allowances including ration allowance, uniform allowance, and risk/hardship allowance for armed battalion postings.",
+    "pay_level": "ORSP Rules 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-09-09",
+    "pay_source_url": "https://finance.odisha.gov.in",
+    "pay_source_label": "Odisha Revised Scales of Pay (ORSP) Rules, 2017, Finance Department, Government of Odisha",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 39000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 35000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on entry basic pay of ₹19,900 + 58% Dearness Allowance (₹11,542) + House Rent Allowance (9% to 18%: ₹1,791 to ₹3,582) + Odisha Police Ration Allowance (₹1,500 - ₹2,000) + Kit Maintenance / Uniform Allowance (~₹800) + Medical Allowance (₹500). Deductions include 10% NPS (Basic + DA = ₹3,144), Professional Tax (₹200), and Police Welfare Fund / GIS (~₹300).",
+    "official_perks": [
+      "Government police barrack accommodation or family quarters, or House Rent Allowance (HRA at 9% to 18%)",
+      "Monthly Police Ration Allowance / Diet Allowance sanctioned by Home Department",
+      "Annual uniform allowance and kit maintenance allowance",
+      "Free medical care in Police Hospital and reimbursement under Odisha Government Servants' Medical Attendance Rules",
+      "Dearness Allowance (DA) indexed to state government revisions",
+      "Contributory pension coverage under New Pension Scheme (NPS) with 14% state government matching contribution",
+      "Special hardship allowance / tactical duty allowance for OSAP/IRB deployments in anti-Naxalite operations"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant turnout, vacancy counts, and physical shortlisting statistics compiled from official Odisha Police Recruitment Board press statements and merit list publications.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 312000,
+        "vacancies": 2030,
+        "appeared": 248000,
+        "cutoff": "Civil/Battalion Constable UR Cut-off: ~74.50 / 100",
+        "confidence": "reported",
+        "as_of": "2024-12-10",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police State Selection Board Sepoys/Constables in Battalions Recruitment Result"
+      },
+      {
+        "year": 2023,
+        "applicants": 425000,
+        "vacancies": 4790,
+        "appeared": 360000,
+        "cutoff": "Constable (Civil) UR State Average Cut-off: ~71.25 marks out of 100",
+        "confidence": "reported",
+        "as_of": "2023-04-12",
+        "source_url": "https://odishapolice.gov.in",
+        "source_label": "Odisha Police Civil Constable Selection Press Communique"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, physical endurance rules, and examination materials from the State Selection Board, Odisha Police.",
+    "links": [
+      {
+        "label": "Odisha Police Constable & Sepoy Detailed Recruitment Notification",
+        "url": "https://odishapolice.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Police Constable Syllabus and Physical Efficiency Test (PET) Guidelines",
+        "url": "https://odishapolice.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Police CBRE Model Question Paper and Answer Keys Archive",
+        "url": "https://odishapolice.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Odisha Police Official Recruitment Portal",
+        "url": "https://odishapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

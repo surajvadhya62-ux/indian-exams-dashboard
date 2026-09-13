@@ -1,0 +1,183 @@
+{
+  "id": "osssc-mphw",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Multipurpose Health Workers (MPHW - Female/Male) are recruited under the Health & Family Welfare Department, Government of Odisha, to deliver primary healthcare, maternal and child healthcare, and national disease control programmes across Sub-Centres and Community Health Centres. Promotion avenues follow the Odisha Subordinate Health Services Rules.",
+    "steps": [
+      {
+        "designation": "Multipurpose Health Worker (MPHW - Female/Male)",
+        "pay_level": "ORSP 2017 Level 5 (Scale ₹21,700 - ₹69,100)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "Odisha Subordinate Staff Selection Commission Health Cadre Recruitment Rules"
+      },
+      {
+        "designation": "Lady Health Visitor (LHV) / Health Supervisor",
+        "pay_level": "ORSP 2017 Level 7 (Scale ₹25,500 - ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://health.odisha.gov.in",
+        "source_label": "Odisha Directorate of Health Services Cadre Promotion Guidelines"
+      },
+      {
+        "designation": "Block Health Extension Officer (BHEO)",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://health.odisha.gov.in",
+        "source_label": "Health & Family Welfare Department Block Administrative Structure"
+      },
+      {
+        "designation": "District Public Health Extension Officer",
+        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://health.odisha.gov.in",
+        "source_label": "Odisha Public Health Technical Service Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The OSSSC Multipurpose Health Worker examination comprises a single-stage Written Examination (OMR / CBRE) assessing technical paramedical/nursing coursework along with basic arithmetic and English, followed by Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Written Examination (Technical Coursework & General Subjects)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Multipurpose Health Worker Scheme of Examination (Advt No. IIE-51/2023-882(C)/OSSSC)",
+        "papers": [
+          {
+            "paper_name": "Written Test (Technical Diploma/ANM Syllabus 60 Q / 60 marks, Practical Skills 25 Q / 25 marks, Class 10 Arithmetic 10 Q / 10 marks, Class 10 English 5 Q / 5 marks)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 35% for SC/ST/PwD/Sports/ESM, 40% for General and SEBC candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Document Verification & Registration Validation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC Document Verification Protocol for Healthcare Cadres",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of ANM/Diploma Certificates, Valid Registration in Odisha Nursing and Midwives Council / Pharmacy Council, and Odia Standard",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory valid council registration and verification of all original eligibility credentials"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Multipurpose Health Workers in Odisha are appointed under Pay Matrix Level 5 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹21,700 - ₹69,100 with entry basic pay of ₹21,700). Health workers serving in rural sub-centres and scheduled tribal areas receive additional rural healthcare allowances.",
+    "pay_level": "ORSP Rules 2017 Level 5 (Scale ₹21,700 - ₹69,100)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-09-09",
+    "pay_source_url": "https://finance.odisha.gov.in",
+    "pay_source_label": "Odisha Revised Scales of Pay (ORSP) Rules, 2017, Finance Department, Government of Odisha",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 37000,
+      "max": 40500
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on entry basic pay of ₹21,700 + 58% Dearness Allowance (₹12,586) + House Rent Allowance (9% for rural Sub-Centre/CHC headquarters, up to 18% in municipal health units: ₹1,953 to ₹3,906) + Medical Allowance (₹500) + rural health duty and uniform allowance (~₹1,000). Statutory deductions include 10% NPS (Basic + DA = ₹3,429), Professional Tax (₹200), and GIS (~₹250).",
+    "official_perks": [
+      "Sub-Centre residential quarter accommodation or House Rent Allowance (HRA at 9% to 18% as sanctioned)",
+      "Special tribal/rural healthcare service allowance for difficult geographic postings",
+      "Comprehensive medical treatment reimbursement under Odisha Government Servants' Medical Attendance Rules",
+      "Dearness Allowance (DA) linked to state government cost-of-living index revisions",
+      "Contributory pension scheme under New Pension Scheme (NPS) with 14% government contribution",
+      "Maternity leave, child care leave, and statutory leave entitlements under Odisha Service Code"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration, test turnout, and merit cutoffs from official OSSSC recruitment releases for Multipurpose Health Worker examinations.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 48000,
+        "vacancies": 2753,
+        "appeared": 39500,
+        "cutoff": "MPHW (Female) UR District Merit Cut-offs: ~62.50 to 71.00 marks out of 100",
+        "confidence": "reported",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC MPHW(F) Result & District Allocation List (Advt No. 882(C)/OSSSC)"
+      },
+      {
+        "year": 2022,
+        "applicants": 32000,
+        "vacancies": 1451,
+        "appeared": 25000,
+        "cutoff": "MPHW (Male) UR Merit Cut-off: ~66.25 marks out of 100",
+        "confidence": "reported",
+        "as_of": "2022-09-18",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC MPHW(M) Selection List Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, syllabi, and score publications from the Odisha Subordinate Staff Selection Commission.",
+    "links": [
+      {
+        "label": "OSSSC Multipurpose Health Worker Detailed Recruitment Advertisement",
+        "url": "https://www.osssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC MPHW Technical Subject-Wise Syllabus and Examination Scheme",
+        "url": "https://www.osssc.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC MPHW Model Questions & Official Scoring Key",
+        "url": "https://www.osssc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "OSSSC Candidate Log-in and Result Publication Portal",
+        "url": "https://www.osssc.gov.in/Public/OSSSC/Default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
