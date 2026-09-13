@@ -1,0 +1,222 @@
+{
+  "id": "apssb-csl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Direct recruitment through the APSSB Combined Secondary Level Examination (CSLE) appoints candidates to Group 'C' subordinate positions across Arunachal Pradesh departments. Clerical & technical recruits (Lower Division Clerk / LDC, Data Entry Operator, Forester) enter at Central 7th CPC Level 4 (₹25,500 – ₹81,100), while uniform cadres (Constable Civil/AAPBn/Tax and Fireman) enter at Level 3 (₹21,700 – ₹69,100), and Laboratory/MTS cadres enter at Levels 1-2. Clerical personnel advance to Upper Division Clerk (UDC, Level 5), Assistant Section Officer (ASO, Level 7), Section Officer (SO, Level 8), and Under Secretary (Level 11) in the Arunachal Pradesh Civil Secretariat and directorates.",
+    "steps": [
+      {
+        "designation": "Lower Division Clerk (LDC) / Data Entry Operator",
+        "pay_level": "Central 7th CPC Level 4 (₹25,500 – ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+        "source_label": "APSSB Combined Secondary Level Examination (CSLE) Notification"
+      },
+      {
+        "designation": "Upper Division Clerk (UDC)",
+        "pay_level": "Central 7th CPC Level 5 (₹29,200 – ₹92,300)",
+        "confidence": "verified",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+        "source_label": "APSSB CGL Examination Notification (UDC Pay Matrix Scale)"
+      },
+      {
+        "designation": "Assistant Section Officer (ASO) / Branch Superintendent",
+        "pay_level": "Central 7th CPC Level 7 (₹44,900 – ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Civil Secretariat Subordinate Service Rules"
+      },
+      {
+        "designation": "Section Officer (SO)",
+        "pay_level": "Central 7th CPC Level 8 (₹47,600 – ₹1,51,100)",
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Civil Secretariat Subordinate Service Rules"
+      },
+      {
+        "designation": "Under Secretary (State Secretariat)",
+        "pay_level": "Central 7th CPC Level 11 (₹67,700 – ₹2,08,700)",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Secretariat Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Objective Type Written Examination (OMR Multiple Choice)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+        "source_label": "APSSB CSLE 2025 Scheme of Examination (Advt No. 04/25)",
+        "papers": [
+          {
+            "paper_name": "General Awareness: 25 Questions, 50 Marks (Current events, History, Polity, Constitution, Sports, Art & Culture, Geography, Everyday Science, Arunachal Pradesh state-specific topics)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning Ability: 25 Questions, 50 Marks (Analogies, similarities, differences, space visualization, problem solving, analysis, visual memory, arithmetical reasoning)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Arithmetical & Numerical Ability: 25 Questions, 50 Marks (Number Systems, Simplification, Decimals, Fractions, LCM/HCF, Ratio & Proportion, Percentage, Average, Profit & Loss, Simple & Compound Interest, Mensuration, Time & Work)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Test of English Language and Comprehension: 25 Questions, 50 Marks (Error spot, fill in blanks, synonyms, antonyms, spelling, idioms & phrases, one word substitution, sentence improvement, comprehension passage)",
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Standard Test (PST) & Physical Efficiency Test (PET) / Skill Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+        "source_label": "APSSB CSLE 2025 Notification",
+        "papers": [
+          {
+            "paper_name": "Physical Standard Test (PST) & Physical Efficiency Test (PET): Mandatory for uniform posts (Constable Civil Police, AAPBn, Tax/Excise, and Fireman). Candidates shortlisted in 1:8 ratio based on Stage-I marks. Qualifying in nature.",
+            "qualifying_only": true
+          },
+          {
+            "paper_name": "Skill / Typing Test: Mandatory for Lower Division Clerk (LDC) and Data Entry Operator posts (Minimum typing speed of 35 wpm in English on computer). Qualifying in nature.",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Medical Fitness Test & Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+        "source_label": "APSSB CSLE 2025 Notification",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of original certificates (Class 10/12 marksheets, PRC, APST Certificate) and Comprehensive Medical Fitness Examination conducted by Government Medical Board.",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Central 7th CPC Level 4 (₹25,500 – ₹81,100) for LDC / Level 3 (₹21,700 – ₹69,100) for Constable",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-16",
+    "pay_source_url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+    "pay_source_label": "APSSB Combined Secondary Level Examination Notification (Pay Matrix Scale)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 44000,
+      "max": 49000
+    },
+    "in_hand_range_estimate": {
+      "min": 39000,
+      "max": 44000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance at 58% of Basic Pay (₹14,790 per month on entry basic of ₹25,500 as of 01.07.2025) as adopted by Government of Arunachal Pradesh."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 9% of Basic Pay (₹2,295 per month for Class-Z stations in Arunachal Pradesh) or government residential quarter allotment."
+      },
+      {
+        "perk_name": "Special Duty Allowance (SDA)",
+        "description": "Special Duty Allowance at 10% of Basic Pay (₹2,550 per month) admissible to state employees serving in Arunachal Pradesh."
+      },
+      {
+        "perk_name": "Transport Allowance (TA)",
+        "description": "Transport Allowance of ₹1,350 per month plus 58% DA on TA (total ₹2,133 per month)."
+      },
+      {
+        "perk_name": "Difficult Area / Remote Allowance",
+        "description": "Tough location allowance for postings in remote, hilly, and border circle headquarters as per state finance norms."
+      },
+      {
+        "perk_name": "Retirement & Medical Security",
+        "description": "Defined contributory pension under National Pension System (NPS with 14% Government contribution) and medical reimbursement under state health services rules."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 450,
+        "confidence": "verified",
+        "as_of": "2026-02-24",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/CSL_Exam_Result_dtd_24022026_20260224_203138.pdf",
+        "source_label": "APSSB CSLE 2025 Final Recommendation List (Notice No. APSSB-13/10/2025)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 124,
+        "confidence": "reported",
+        "as_of": "2023-06-15",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "APSSB CSLE 2023 Recruitment Notification Compilation"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "Combined Secondary Level Examination 2025 Advertisement Notice (Advt No. 04/25)",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2025-07-16"
+      },
+      {
+        "label": "Final Result Notice for Combined Secondary Level Examination (CSLE) 2025",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/CSL_Exam_Result_dtd_24022026_20260224_203138.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-02-24"
+      },
+      {
+        "label": "Corrigendum Result Notice for CSLE 2025",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/Corrigendum_Result_Notice_CSLE_2025_20260303_104607.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-03-03"
+      },
+      {
+        "label": "Press Release Regarding CSLE 2025 Written Examination",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/press_release_csle_2025_20251024_131155.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-10-24"
+      },
+      {
+        "label": "CSLE 2025 Syllabus and Examination Scheme Document",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-16"
+      }
+    ]
+  }
+}

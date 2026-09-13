@@ -1,0 +1,295 @@
+{
+  "id": "chandigarh-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Direct recruitment enters as Constable (Executive / Information Technology Cadre) in Central 7th CPC Pay Matrix Level 3 (₹21,700 – ₹69,100). The career progression moves up through Senior Constable / Head Constable (Level 4), Assistant Sub-Inspector (Level 5), Sub-Inspector (Level 6), and Inspector of Police (Level 7) as Police Station Station House Officer (SHO) or Cyber Crime/Technical cell commander, with promotional induction into Deputy Superintendent of Police (DSP, Level 10) under the UT/DANIPS police service cadre.",
+    "steps": [
+      {
+        "designation": "Constable (Executive / IT Cadre)",
+        "pay_level": "Central 7th CPC Level 3 (₹21,700 – ₹69,100)",
+        "confidence": "verified",
+        "as_of": "2024-01-23",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf",
+        "source_label": "Chandigarh Police Direct Recruitment Notice 2024 (Constable IT)"
+      },
+      {
+        "designation": "Senior Constable / Head Constable (HC)",
+        "pay_level": "Central 7th CPC Level 4 (₹25,500 – ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Standing_order_46_2023_f810d.pdf",
+        "source_label": "Chandigarh Police Standing Order No. 46/2023"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI)",
+        "pay_level": "Central 7th CPC Level 5 (₹29,200 – ₹92,300)",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Standing_order_46_2023_f810d.pdf",
+        "source_label": "Chandigarh Police Standing Order No. 46/2023"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI)",
+        "pay_level": "Central 7th CPC Level 6 (₹35,400 – ₹1,12,400)",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Standing_order_46_2023_f810d.pdf",
+        "source_label": "Chandigarh Police Standing Order No. 46/2023"
+      },
+      {
+        "designation": "Inspector of Police (SHO / Sector Incharge)",
+        "pay_level": "Central 7th CPC Level 7 (₹44,900 – ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Standing_order_46_2023_f810d.pdf",
+        "source_label": "Chandigarh Police Standing Order No. 46/2023"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / Sub-Divisional Officer)",
+        "pay_level": "Central 7th CPC Level 10 (₹56,100 – ₹1,77,500)",
+        "confidence": "reported",
+        "as_of": "2023-05-20",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Standing_order_46_2023_f810d.pdf",
+        "source_label": "Chandigarh Police Standing Order No. 46/2023"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (OMR Objective Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-23",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf",
+        "source_label": "Chandigarh Police Recruitment Notice (Constable IT) 2024 & Standing Order No. 57/2024",
+        "papers": [
+          {
+            "paper_name": "Tier-I: General Written Test (GK/Current Affairs, Reasoning, Numerical Ability - 100 MCQs, 100 Marks, 2 Hours; 0.25 Negative Marking; Qualifying Cut-off: 40% General, 35% SC/OBC, 30% ESM)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Tier-II: Technical Domain Test (IT Support / Electronics / Computer Applications - 50 MCQs, 50 Marks, 1 Hour; 0.25 Negative Marking; evaluated for candidates qualifying Tier-I)",
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Efficiency & Measurement Test (PE&MT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-23",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/standing_order_IT_57_2024_44c24.pdf",
+        "source_label": "Chandigarh Police Standing Order No. 57/2024 (PE&MT Standards)",
+        "papers": [
+          {
+            "paper_name": "Physical Endurance Test: 1600m Race (6 min 15 sec for males 18-30 yrs), 800m Race (4 min 15 sec for females 18-30 yrs); Long Jump (3.95m male, 2.74m female in 3 attempts); High Jump (1.14m male, 0.90m female in 3 attempts)",
+            "qualifying_only": true
+          },
+          {
+            "paper_name": "Physical Measurement Test: Height (min 170 cm male, 157.5 cm female; 5 cm relaxation for Hill Areas / Wards of Police Personnel); Chest (84-88 cm male); Height Bonus (2 marks for male >= 183 cm, female >= 165 cm); NCC Bonus (5% C, 3% B, 2% A); Dope Test mandatory",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Document Verification & Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-04-13",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/instruction_docu_Medi_IT_2024_21617.pdf",
+        "source_label": "Chandigarh Police Document Verification & Medical Examination Instructions 2024",
+        "papers": [
+          {
+            "paper_name": "Document Verification: Scrutiny of Educational Degree/Diploma, Category/Caste Certificates, Valid Driving License for two-wheelers & four-wheelers (mandatory for male candidates), and Entry-level ICT Computer Skills Course Certificate",
+            "qualifying_only": true
+          },
+          {
+            "paper_name": "Medical Examination: Comprehensive Medical Fitness Assessment by Government Medical Board (Vision 6/6 without glasses in one eye and 6/9 in other eye; free from colour blindness, flat foot, knock knees, and other physical defects)",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Central 7th CPC Level 3 (₹21,700 – ₹69,100)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-23",
+    "pay_source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf",
+    "pay_source_label": "Chandigarh Police Constable (Executive)(IT) Recruitment Notice & Standing Order No. 57/2024",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 41000,
+      "max": 46000
+    },
+    "in_hand_range_estimate": {
+      "min": 36000,
+      "max": 41000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance at 58% of Basic Pay (₹12,586 per month as of 01.07.2025) as sanctioned by the Ministry of Home Affairs, Government of India for Chandigarh Administration employees."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 18% of Basic Pay (₹3,906 per month for Chandigarh City classified as Class-Y) or government allotment of departmental police residential quarters / police lines accommodation."
+      },
+      {
+        "perk_name": "Transport Allowance (TA)",
+        "description": "Transport Allowance of ₹1,350 per month plus 58% DA on TA (total ₹2,133 per month) as admissible to Level 3 central employees in Y-class cities."
+      },
+      {
+        "perk_name": "Ration Money & Police Duty Allowance",
+        "description": "Monthly ration money allowance and special duty/conveyance allowance as admissible to operational executive police personnel."
+      },
+      {
+        "perk_name": "Uniform & Kit Maintenance Allowance",
+        "description": "Annual uniform and clothing allowance as per central police service guidelines for executive staff."
+      },
+      {
+        "perk_name": "Retirement & Medical Security",
+        "description": "Defined contributory pension under National Pension System (NPS Tier-I with 14% Government contribution) and cashless medical coverage at Government Multi-Specialty Hospital (GMSH) Sector 16 and GMCH Sector 32 Chandigarh."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 144,
+        "cutoffs": {
+          "pemt_shortlisting_male_ur": 20.0,
+          "pemt_shortlisting_male_sc": 17.25,
+          "pemt_shortlisting_male_obc": 25.5,
+          "pemt_shortlisting_male_ews": 22.0,
+          "pemt_shortlisting_female_ur": 22.5,
+          "pemt_shortlisting_female_sc": 13.0,
+          "pemt_shortlisting_female_obc": 15.25,
+          "pemt_shortlisting_female_ews": 24.5,
+          "final_merit_male_ur": 38.75,
+          "final_merit_male_sc": 23.5,
+          "final_merit_male_obc": 34.5,
+          "final_merit_male_ews": 33.25,
+          "final_merit_female_ur": 36.75,
+          "final_merit_female_sc": 27.75,
+          "final_merit_female_obc": 30.0,
+          "final_merit_female_ews": 29.5,
+          "final_merit_esm_ur": 26.0,
+          "final_merit_esm_sc": 17.5,
+          "final_merit_esm_obc": 19.0
+        },
+        "confidence": "verified",
+        "as_of": "2024-04-13",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Cutoff_IT_2024_83ab1.pdf",
+        "source_label": "Chandigarh Police Cut off list of candidates for 144 posts of Constable (Executive)(IT)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 700,
+        "cutoffs": {
+          "final_merit_male_ur": 75.77,
+          "final_merit_male_ews": 73.72,
+          "final_merit_male_obc": 73.47,
+          "final_merit_male_sc": 64.54,
+          "final_merit_female_ur": 72.66,
+          "final_merit_female_ews": 70.66,
+          "final_merit_female_obc": 68.11,
+          "final_merit_female_sc": 56.89,
+          "final_merit_esm_ur": 59.69,
+          "final_merit_esm_obc": 50.51,
+          "final_merit_esm_sc": 36.22
+        },
+        "confidence": "verified",
+        "as_of": "2023-10-18",
+        "source_url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/cat_wise_merit_list_web_1d049.pdf",
+        "source_label": "Chandigarh Police Category Wise Final Merit List (700 Posts of Constable-Executive 2023)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "Standing Order No. 46/2023 for Recruitment of Constables (Executive)",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Standing_order_46_2023_f810d.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2023-05-20"
+      },
+      {
+        "label": "Recruitment Notice for 700 Vacancies of Constable (Executive) 2023",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_notice_2023_e542c.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2023-05-20"
+      },
+      {
+        "label": "Standing Order No. 57/2024 for Recruitment of Constables (Executive)(IT)",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/standing_order_IT_57_2024_44c24.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2024-01-23"
+      },
+      {
+        "label": "Recruitment Notice for 144 Posts of Constable (Executive)(IT) 2024",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2024-01-23"
+      },
+      {
+        "label": "Syllabus for Tier-II Domain Specialisation (IT Support)",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/TierIISyllabus_IT_2024_1c9b8.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-01-23"
+      },
+      {
+        "label": "Category-Wise Final Cut Off List for 144 Posts of Constable (IT) 2024",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Cutoff_IT_2024_83ab1.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2024-04-13"
+      },
+      {
+        "label": "Category-Wise Final Merit List for 700 Posts of Constable (Executive) 2023",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/cat_wise_merit_list_web_1d049.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-10-18"
+      },
+      {
+        "label": "Revised Answer Key for Constable (Executive) Written Exam (SET A)",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/SET_A_latest_ef690.pdf",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2023-07-23"
+      },
+      {
+        "label": "Question Booklet-I and Answer Key for Constable (Executive)(IT) 2024",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/QBooklet_I_answer_IT_2024_cd644.pdf",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2024-03-03"
+      },
+      {
+        "label": "Question Booklet-II and Answer Key for Constable (Executive)(IT) 2024",
+        "url": "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/QBooklet_II_answer_IT_2024_16eb8.pdf",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2024-03-03"
+      }
+    ]
+  }
+}

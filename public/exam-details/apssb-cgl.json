@@ -1,0 +1,210 @@
+{
+  "id": "apssb-cgl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Direct recruitment through the APSSB Combined Graduate Level Examination (CGLE) appoints candidates as Upper Division Clerk (UDC, Post Code 14/26), Personal Assistant / Stenographer Grade-III (Post Code 12/26), and Librarian (Post Code 13/26) in Central 7th CPC Level 5 (₹29,200 – ₹92,300). Recruits in the ministerial cadre advance through the state civil secretariat hierarchy to Assistant Section Officer (ASO / Superintendent, Level 7, ₹44,900 – ₹1,42,400), Section Officer (SO, Level 8, ₹47,600 – ₹1,51,100), Under Secretary (Level 11, ₹67,700 – ₹2,08,700), and Deputy Secretary (Level 12, ₹78,800 – ₹2,09,200) in the Arunachal Pradesh Civil Secretariat and directorates.",
+    "steps": [
+      {
+        "designation": "Upper Division Clerk (UDC) / Personal Assistant",
+        "pay_level": "Central 7th CPC Level 5 (₹29,200 – ₹92,300)",
+        "confidence": "verified",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+        "source_label": "APSSB Combined Graduate Level Examination (CGLE) 2026 Notification"
+      },
+      {
+        "designation": "Assistant Section Officer (ASO) / Branch Superintendent",
+        "pay_level": "Central 7th CPC Level 7 (₹44,900 – ₹1,42,400)",
+        "confidence": "verified",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Civil Secretariat Subordinate Service Rules"
+      },
+      {
+        "designation": "Section Officer (SO)",
+        "pay_level": "Central 7th CPC Level 8 (₹47,600 – ₹1,51,100)",
+        "confidence": "verified",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Civil Secretariat Subordinate Service Rules"
+      },
+      {
+        "designation": "Under Secretary (State Secretariat)",
+        "pay_level": "Central 7th CPC Level 11 (₹67,700 – ₹2,08,700)",
+        "confidence": "reported",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Secretariat Service Rules"
+      },
+      {
+        "designation": "Deputy Secretary (State Secretariat)",
+        "pay_level": "Central 7th CPC Level 12 (₹78,800 – ₹2,09,200)",
+        "confidence": "reported",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "Arunachal Pradesh Secretariat Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Stenography Proficiency Test (for Personal Assistant only)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+        "source_label": "APSSB CGLE 2026 Notification (Advt No. 03/2026)",
+        "papers": [
+          {
+            "paper_name": "Stenography Skill Test (80 wpm shorthand dictation for 5 minutes + 40 wpm transcription on computer in 45 minutes). Qualifying in nature. (For UDC and Librarian posts, Stage-1 is exempt and candidates appear directly in Stage-2 Written Exam).",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Objective Type Written Examination (OMR Multiple Choice)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-03-09",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+        "source_label": "APSSB CGLE 2026 Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "General Awareness: 25 Questions, 50 Marks (Current events, History, Polity, Constitution, Geography, Economics, Everyday Science, Arunachal Pradesh Specific GK)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning Ability: 25 Questions, 50 Marks (Verbal and non-verbal reasoning, analogies, similarities, differences, problem solving, analysis, number series)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Arithmetical & Numerical Ability: 25 Questions, 50 Marks (Number Systems, Simplification, Decimals, Fractions, LCM/HCF, Ratio & Proportion, Percentage, Average, Profit & Loss, Simple & Compound Interest, Mensuration, Time & Work)",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Test of English Language and Comprehension: 25 Questions, 50 Marks (Error detection, fill in blanks, vocabulary, idioms & phrases, active/passive voice, direct/indirect narration, cloze test, reading comprehension)",
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-05",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/Provisional_Result_Notice_for_shortlisted_candidates_of_Combined_Graduate_Level__Examination__2026_20260905_121737.pdf",
+        "source_label": "APSSB CGLE 2026 Provisional Shortlisting Notice (No. APSSB-13/5/2026/1353)",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of original Degree certificates, 6-month Computer Diploma certificate, APST certificate, Permanent Resident Certificate (PRC), and identity proofs.",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Central 7th CPC Level 5 (₹29,200 – ₹92,300)",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-03-09",
+    "pay_source_url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+    "pay_source_label": "APSSB Combined Graduate Level Examination 2026 Advertisement Notice",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 51000,
+      "max": 56000
+    },
+    "in_hand_range_estimate": {
+      "min": 46000,
+      "max": 51000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance at 58% of Basic Pay (₹16,936 per month on entry basic of ₹29,200 as of 01.07.2025) as adopted by Government of Arunachal Pradesh."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 9% of Basic Pay (₹2,628 per month for Class-Z stations in Arunachal Pradesh) or government residential quarter accommodation in Itanagar/district headquarters."
+      },
+      {
+        "perk_name": "Special Duty Allowance (SDA)",
+        "description": "Special Duty Allowance at 10% of Basic Pay (₹2,920 per month) admissible to state government employees posted in the North Eastern Region / Arunachal Pradesh."
+      },
+      {
+        "perk_name": "Transport Allowance (TA)",
+        "description": "Transport Allowance of ₹1,350 per month plus 58% DA on TA (total ₹2,133 per month)."
+      },
+      {
+        "perk_name": "Difficult Area / Remote Allowance",
+        "description": "Location allowance for postings in tough or border circle administrative headquarters as per state finance norms."
+      },
+      {
+        "perk_name": "Retirement & Medical Security",
+        "description": "Defined contributory pension under National Pension System (NPS with 14% Government contribution) and state government employee medical attendance reimbursement."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 101,
+        "cutoffs": {
+          "shortlisted_for_dv_udc_librarian": 130,
+          "shortlisted_for_dv_personal_assistant": 38,
+          "total_shortlisted_for_dv": 168,
+          "minimum_qualifying_threshold_percent": 33.0
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-05",
+        "source_url": "https://apssb.nic.in/upload/files/RECINS001/Provisional_Result_Notice_for_shortlisted_candidates_of_Combined_Graduate_Level__Examination__2026_20260905_121737.pdf",
+        "source_label": "APSSB CGLE 2026 Shortlisting Notice for Document Verification (Memo No. APSSB-13/5/2026/1353)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 53,
+        "confidence": "reported",
+        "as_of": "2023-05-18",
+        "source_url": "https://apssb.nic.in",
+        "source_label": "APSSB CGLE 2023 Recruitment Compilation"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "Combined Graduate Level Examination 2026 Advertisement Notice (Advt No. 03/2026)",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-03-09"
+      },
+      {
+        "label": "Provisional Result Notice for Shortlisted Candidates of CGLE 2026",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/Provisional_Result_Notice_for_shortlisted_candidates_of_Combined_Graduate_Level__Examination__2026_20260905_121737.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-05"
+      },
+      {
+        "label": "CGLE 2026 Examination Scheme and Syllabus Document",
+        "url": "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-03-09"
+      }
+    ]
+  }
+}

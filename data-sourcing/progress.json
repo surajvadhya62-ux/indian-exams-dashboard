@@ -3,13 +3,13 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 257,
+    "verified": 260,
     "partial": 0,
-    "not_started": 247,
+    "not_started": 244,
     "exams_total": 504,
-    "detail_files_exist": 330,
+    "detail_files_exist": 333,
     "total_exams": 504,
-    "detail_files_present": 330,
+    "detail_files_present": 333,
     "last_updated": "2026-09-13"
   },
   "sessions": [
@@ -890,6 +890,21 @@
         "wbprb-excise-constable"
       ],
       "notes": "Completed Unit 93 (u093): 5 West Bengal police and enforcement examinations across West Bengal Police Recruitment Board / WBPRB (West Bengal Police Constable & Lady Constable, West Bengal Police Sub-Inspector UB/AB, Kolkata Police Constable & Lady Constable, Kolkata Police Sub-Inspector UB & Sergeant, and Excise Constable & Lady Excise Constable). Fully researched and audited from primary statutory rules, pay matrices (WBS ROPA 2019 Level 6 and Level 10), and official recruitment notifications; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u089",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--arunachal-pradesh",
+        "batch-5-subordinate-police-boards--chandigarh"
+      ],
+      "exam_ids_touched": [
+        "apssb-cgl",
+        "apssb-csl",
+        "chandigarh-police-constable"
+      ],
+      "notes": "Completed Unit 89 (u089): Arunachal Pradesh Staff Selection Board Combined Graduate Level (APSSB CGL), APSSB Combined Secondary Level (APSSB CSL), and Chandigarh Police Constable (Executive & IT Cadre) recruitment examinations fully researched from official primary notifications, statutory standing orders, official merit lists/cut-offs, and pay matrix rules (7th CPC Levels 3, 4, and 5 with 58% DA constant); all dossiers validated with zero errors and zero warnings."
     }
   ],
   "exams": {
@@ -18940,43 +18955,53 @@
     "apssb-cgl": {
       "batch_id": "batch-5-subordinate-police-boards--arunachal-pradesh",
       "detail_file": "public/exam-details/apssb-cgl.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/cgle2026_20260309_155927_20260313_154733.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         }
       },
       "flags": []
@@ -18984,43 +19009,53 @@
     "apssb-csl": {
       "batch_id": "batch-5-subordinate-police-boards--arunachal-pradesh",
       "detail_file": "public/exam-details/apssb-csl.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://apssb.nic.in/upload/files/RECINS001/COMBINED_SECONDARY_LEVEL_EXAMINATION_2025001_20250716_121255.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         }
       },
       "flags": []
@@ -19420,43 +19455,53 @@
     "chandigarh-police-constable": {
       "batch_id": "batch-5-subordinate-police-boards--chandigarh",
       "detail_file": "public/exam-details/chandigarh-police-constable.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "verified",
+          "citations": [
+            "https://portal.chandigarhpolice.gov.in/public/attachments/uploads/files/2026-04-13/Recruitment_Notice_Const_IT_2024_a898c.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "antigravity-ai"
         }
       },
       "flags": []
