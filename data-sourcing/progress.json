@@ -993,6 +993,18 @@
         "lakshadweep-admin-staff"
       ],
       "notes": "Completed Unit 100 (u100): Administration of UT of Lakshadweep Staff Selection Examination (lakshadweep-admin-staff). Comprehensive audit of 7th CPC central pay matrix scales (Level 2 entry basic ₹19,900, Level 3 ₹21,700, Level 4 ₹25,500) with canonical 58% DA constant and Island Special Duty Allowance (ISDA), 2-stage exam scheme, and primary recruitment rules from Lakshadweep Gazette Extraordinary; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u104",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--nagaland"
+      ],
+      "exam_ids_touched": [
+        "nagaland-tet"
+      ],
+      "notes": "Completed Unit 104 (u104): Nagaland Teacher Eligibility Test (nagaland-tet) conducted by SCERT Nagaland. Comprehensive audit of primary statutory guidelines, syllabus, RTE 2009 / NCTE qualifying criteria (60% General, 55% ST/SC/OBC/differently-abled), Paper I and Paper II structure with 20 state languages / Nagaland Heritage Studies options, official result statistics from 3rd, 4th, and 5th editions (2023, 2024, 2025), and 10 verified primary links; validated with zero errors."
     }
   ],
   "exams": {
@@ -18242,42 +18254,48 @@
       "batch_id": "batch-7-state-other--nagaland",
       "detail_file": "public/exam-details/nagaland-tet.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Teacher eligibility entrance exam (omitted per schema §5.4)",
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u104"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u104"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Teacher eligibility entrance exam (omitted per schema §5.4)",
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u104"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u104"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u104"
         }
       },
       "flags": []

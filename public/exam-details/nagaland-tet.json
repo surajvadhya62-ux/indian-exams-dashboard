@@ -1,0 +1,229 @@
+{
+  "id": "nagaland-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Nagaland Teacher Eligibility Test (N-TET) is conducted by the State Council of Educational Research and Training (SCERT), Nagaland as the designated Academic Authority of the State under Section 23 of the Right of Children to Free and Compulsory Education (RTE) Act, 2009 and NCTE statutory guidelines. N-TET comprises two separate offline pen-and-paper OMR papers conducted on the same day: Paper I (for Primary Level teachers of Classes I to V; 10:00 AM to 12:30 PM) and Paper II (for Upper Primary Level teachers of Classes VI to VIII; 1:30 PM to 4:00 PM). Each paper consists of 150 objective Multiple Choice Questions (MCQs) of 1 mark each with no negative marking. Minimum qualifying benchmark is 60% (90/150) for General category and 55% (82.5/150) for ST, SC, OBC, and Differently-abled candidates, with lifetime certificate validity.",
+    "stages": [
+      {
+        "stage_name": "Paper I — Primary Level (For Teachers of Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-07-31",
+        "source_url": "https://scert.nagaland.gov.in/wp-content/uploads/2016/09/Guidelines-and-Syllabus.pdf",
+        "source_label": "SCERT Nagaland N-TET Guidelines and Syllabus (Section 3: Structure, Content Area and Standard of Questions for Paper - I)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on educational psychology of teaching-learning for age group 6-11 years)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I — English (Proficiencies related to the medium of instruction including English grammar)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II — Nagaland Heritage Studies / NHS (Candidate selects one of 20 recognized languages: Ao, Chang, Chokri, Kuzhale, Khiamniungan, Kuki, Konyak, Liangmai, Lotha, Nzonkhwe, Nthenyi, Phom, Pochury, Sangtam, Sumi, Tenyidie, Yimkhuing, Zeme, Hindi, or Tükhya yu)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Concepts, problem solving abilities, critical thinking and pedagogical understanding)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies — EVS (Concepts, environmental awareness and pedagogical understanding)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper II — Upper Primary Level (For Teachers of Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-07-31",
+        "source_url": "https://scert.nagaland.gov.in/wp-content/uploads/2016/09/Guidelines-and-Syllabus.pdf",
+        "source_label": "SCERT Nagaland N-TET Guidelines and Syllabus (Section 4: Structure, Content Area and Standard of Questions for Paper - II)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on educational psychology of teaching-learning for age group 11-14 years)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I — English (Proficiencies related to the medium of instruction with English grammar)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II — Nagaland Heritage Studies / NHS (Mother tongue / indigenous state language or Hindi chosen from 20 options with Classes VI-VIII standard)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Subject Core Option: Mathematics & Science (60 MCQs: 30 Mathematics + 30 Science) OR Social Science (60 MCQs) based on Class VI-VIII syllabus with secondary linkages",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Nagaland Teacher Eligibility Test (N-TET) is a statutory qualifying credential exam under NCTE guidelines rather than a direct vacancy-based recruitment test. Qualifying status confers lifetime statutory eligibility for appointment as elementary school teachers in Government and private schools across Nagaland. Benchmark statistics reflect official qualified candidates across Paper I and Paper II published in SCERT Nagaland notifications.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 2500,
+        "vacancies": null,
+        "shortlisted_for_mains": 897,
+        "selectivity_ratio": "35.88% qualification rate based on ~2,500 registered candidates (897 total qualified: 395 in Paper I Primary, 186 in Paper II Math & Science, 316 in Paper II Social Science)",
+        "confidence": "verified",
+        "as_of": "2026-01-21",
+        "source_url": "https://scert.nagaland.gov.in/result-of-n-tet-2025/",
+        "source_label": "SCERT Nagaland Notification dated 21.01.2026: Result of 5th Edition of N-TET conducted on 22.11.2025"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": 266,
+        "selectivity_ratio": "266 total candidates qualified state-wide (125 in Paper I Primary, 60 in Paper II Math & Science, 81 in Paper II Social Science)",
+        "confidence": "verified",
+        "as_of": "2025-01-21",
+        "source_url": "https://scert.nagaland.gov.in/result-of-n-tet-2024/",
+        "source_label": "SCERT Nagaland Notification No. SCERT/TET/R-1/2013-14 dated 21.01.2025: Result of 4th Edition of N-TET conducted on 23.11.2024"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": 1899,
+        "selectivity_ratio": "1,899 total candidates qualified state-wide (839 in Paper I Primary, 309 in Paper II Math & Science, 751 in Paper II Social Science)",
+        "confidence": "verified",
+        "as_of": "2023-12-05",
+        "source_url": "https://scert.nagaland.gov.in/result-of-n-tet-2023/",
+        "source_label": "SCERT Nagaland Notification dated 05.12.2023: Result of 3rd Edition of N-TET 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information guidelines, syllabus documents, examination notices, result merit lists, and registration portals hosted on the SCERT Nagaland web domain.",
+    "links": [
+      {
+        "label": "N-TET 2026 Official Guidelines & Syllabus PDF (SCERT Nagaland)",
+        "url": "https://scert.nagaland.gov.in/wp-content/uploads/2016/09/Guidelines-and-Syllabus.pdf",
+        "type": "syllabus",
+        "cycle_label": "N-TET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-31"
+      },
+      {
+        "label": "N-TET 2026 Online Registration Notice & Extended Window Notification",
+        "url": "https://scert.nagaland.gov.in/registration-for-n-tet-2026/",
+        "type": "notification",
+        "cycle_label": "N-TET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-31"
+      },
+      {
+        "label": "SCERT Nagaland N-TET Statutory Mandate & Lifelong Certificate Validity",
+        "url": "https://scert.nagaland.gov.in/teacher-eligibility-test-tet/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-02-23"
+      },
+      {
+        "label": "N-TET 2025 Declaration of Results Notification (5th Edition)",
+        "url": "https://scert.nagaland.gov.in/result-of-n-tet-2025/",
+        "type": "other",
+        "cycle_label": "N-TET-2025",
+        "confidence": "verified",
+        "as_of": "2026-01-21"
+      },
+      {
+        "label": "N-TET 2025 Paper I Primary Merit List (PDF)",
+        "url": "https://scert.nagaland.gov.in/wp-content/uploads/2026/02/Paper-I.pdf",
+        "type": "other",
+        "cycle_label": "N-TET-2025",
+        "confidence": "verified",
+        "as_of": "2026-01-21"
+      },
+      {
+        "label": "N-TET 2025 Paper II Mathematics & Science Merit List (PDF)",
+        "url": "https://scert.nagaland.gov.in/wp-content/uploads/2016/09/Paper-II-MSc.pdf",
+        "type": "other",
+        "cycle_label": "N-TET-2025",
+        "confidence": "verified",
+        "as_of": "2026-01-21"
+      },
+      {
+        "label": "N-TET 2025 Paper II Social Science Merit List (PDF)",
+        "url": "https://scert.nagaland.gov.in/wp-content/uploads/2016/09/Paper-II-SS.pdf",
+        "type": "other",
+        "cycle_label": "N-TET-2025",
+        "confidence": "verified",
+        "as_of": "2026-01-21"
+      },
+      {
+        "label": "N-TET 2024 Declaration of Results Notification (4th Edition)",
+        "url": "https://scert.nagaland.gov.in/result-of-n-tet-2024/",
+        "type": "other",
+        "cycle_label": "N-TET-2024",
+        "confidence": "verified",
+        "as_of": "2025-01-21"
+      },
+      {
+        "label": "N-TET 2023 Declaration of Results Notification (3rd Edition)",
+        "url": "https://scert.nagaland.gov.in/result-of-n-tet-2023/",
+        "type": "other",
+        "cycle_label": "N-TET-2023",
+        "confidence": "verified",
+        "as_of": "2023-12-05"
+      },
+      {
+        "label": "SCERT Nagaland Official Portal Homepage",
+        "url": "https://scert.nagaland.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
