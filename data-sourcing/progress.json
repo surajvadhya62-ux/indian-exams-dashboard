@@ -1121,6 +1121,18 @@
         "pspcl-junior-engineer"
       ],
       "notes": "Completed Unit 107 (u107): 2 Punjab State Power Corporation Limited (PSPCL) technical recruitment examinations (pspcl-assistant-lineman and pspcl-junior-engineer). Fully researched and audited against primary statutory notifications (PSPCL Advt. CRA 312/25 & CRA 303/24, Financial Circular No. 21/2022, Punjab Finance Department probation pay orders), 7th CPC Level 2 and Level 6 pay scales with canonical 58% DA constant, normalized CBT exam schemes with qualifying Punjabi language requirements, competition benchmarks, and verified live official download portals."
+    },
+    {
+      "session_id": "2026-09-13-u111",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--uttarakhand"
+      ],
+      "exam_ids_touched": [
+        "utet"
+      ],
+      "notes": "Completed Unit 111 (u111): Uttarakhand Teacher Eligibility Test / UTET (utet) under Uttarakhand Board of School Education (UBSE), Ramnagar (Nainital). Comprehensive audit of statutory NCTE & RTE Act 2009 Section 23(1) regulations, UTET-I (Primary Classes I-V) and UTET-II (Upper Primary Classes VI-VIII) 150-mark exam schemes with bilingual Hindi/English/Sanskrit/Urdu options, composite 150-minute exam duration, lifetime validity per Uttarakhand G.O. No. 889/XXIV-A-1/2021-15/2011, official candidate competition benchmarks (39,112 applicants, 8,717 qualified across 94 centres in 29 cities in 2025; 26.61% overall pass rate), and official UBSE notification vigyaptis, syllabi, and question papers; validated with zero errors."
     }
   ],
   "exams": {
@@ -18173,7 +18185,7 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u111"
         },
         "competition_benchmarks": {
           "status": "populated",
@@ -18182,7 +18194,7 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u111"
         },
         "official_downloads": {
           "status": "populated",
@@ -18191,12 +18203,13 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u111"
         }
       },
       "flags": [
         "entrance-exam — career_ladder and financial_package omitted per schema §5.4",
-        "unit u087"
+        "unit u087",
+        "unit u111"
       ]
     },
     "hptet": {

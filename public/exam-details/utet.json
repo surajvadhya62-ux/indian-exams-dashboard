@@ -1,0 +1,226 @@
+{
+  "id": "utet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Uttarakhand Teacher Eligibility Test (UTET) is conducted annually by the Uttarakhand Board of School Education (UBSE), Ramnagar (Nainital) under guidelines framed by the National Council for Teacher Education (NCTE) and the Government of Uttarakhand School Education Department. The examination determines statutory eligibility for appointment as elementary teachers in state government, aided, and private schools across Uttarakhand. The examination comprises two independent papers: UTET-I for Primary Teachers (Classes I to V) and UTET-II for Upper Primary / Elementary Teachers (Classes VI to VIII). Each paper consists of 150 objective-type multiple-choice questions carrying 150 marks for a duration of 2.5 hours (150 minutes). Questions are bilingual in Hindi and English (except specific language sections). There is no negative marking. Per Uttarakhand Government Order No. 889/XXIV-A-1/2021-15/2011 Vol-I dated 28.06.2021, the UTET qualifying certificate is valid for a lifetime with retrospective effect from 11.02.2011.",
+    "stages": [
+      {
+        "stage_name": "UTET-I: Primary Stage Eligibility (Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/07/202507111495469767.pdf",
+        "source_label": "UBSE Uttarakhand UTET Structure and Content of Syllabus (Paper-I)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Primary School Child)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150 marks) for General / Unreserved; 50% (75/150 marks) for OBC / PwD / Ex-Servicemen / DFF; 40% (60/150 marks) for SC / ST"
+          },
+          {
+            "paper_name": "Language-I (Hindi / English / Sanskrit / Urdu)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language-II (English / Hindi / Sanskrit / Urdu - must differ from Language-I)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Numbers, Geometry, Mensuration, Measurement, and Pedagogical Issues)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies (Family, Friends, Food, Shelter, Water, Travel, Ecology, and Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "UTET-II: Upper Primary / Elementary Stage Eligibility (Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/07/202507111495469767.pdf",
+        "source_label": "UBSE Uttarakhand UTET Structure and Content of Syllabus (Paper-II)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Elementary School Child - Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150 marks) for General / Unreserved; 50% (75/150 marks) for OBC / PwD / Ex-Servicemen / DFF; 40% (60/150 marks) for SC / ST"
+          },
+          {
+            "paper_name": "Language-I (Compulsory - Hindi / English / Sanskrit / Urdu)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language-II (Compulsory - English / Hindi / Sanskrit / Urdu - must differ from Language-I)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Subject Elective: Mathematics & Science (60 Marks) OR Social Studies / Social Sciences (60 Marks)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate registration, test appearance, and qualification statistics published by the Uttarakhand Board of School Education (UBSE), Ramnagar (Nainital) via official result notifications and press releases.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 39112,
+        "vacancies": null,
+        "shortlisted_for_mains": 8717,
+        "selectivity_ratio": "26.61% pass rate overall (8,717 qualified out of 32,752 appearing candidates across 94 centers in 29 cities; UTET-I: 4,564 qualified of 11,949 appeared [38.20%]; UTET-II: 4,153 qualified of 20,803 appeared [19.96%])",
+        "confidence": "verified",
+        "as_of": "2025-11-12",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/11/20251112138018775.pdf",
+        "source_label": "UBSE Uttarakhand UTET-I & II 2025 Result Official Press Release (संख्यात्मक विवरण)"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2023-11-28",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/05/202505271717377374.pdf",
+        "source_label": "UBSE Uttarakhand UTET-I & II 2023 Result Notification No. 06/448-50/2023-24"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, information brochures, syllabus frameworks, lifetime validity government orders, and question paper archives hosted on Uttarakhand Board of School Education (UBSE) portals.",
+    "links": [
+      {
+        "label": "UBSE Uttarakhand UTET 2026 Official Detailed Notification (Vigyapti)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2026/07/202607151232929937.pdf",
+        "type": "notification",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET 2026 Examination Notice & Schedule",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2026/07/202607151997735215.pdf",
+        "type": "notification",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET Structure and Content of Syllabus PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/07/202507111495469767.pdf",
+        "type": "syllabus",
+        "cycle_label": "UTET Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Government of Uttarakhand UTET Certificate Lifetime Validity Order (G.O. No. 889/XXIV-A-1/2021-15/2011)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/09/20250922129301683.pdf",
+        "type": "other",
+        "cycle_label": "Statutory Order",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET 2025 Result Notification & Category Statistics PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/11/20251112138018775.pdf",
+        "type": "other",
+        "cycle_label": "2025 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET 2025 Final Answer Key Paper-I PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/11/202511121701447404.pdf",
+        "type": "other",
+        "cycle_label": "2025 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET 2025 Final Answer Key Paper-II PDF",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/11/20251112723281827.pdf",
+        "type": "other",
+        "cycle_label": "2025 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET Previous Year Question Paper Booklet 1 (2023)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/09/20250920332583548.pdf",
+        "type": "pyq",
+        "cycle_label": "2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE Uttarakhand UTET Previous Year Question Paper Booklet 2 (2023)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s32dbf21633f03afcf882eaf10e4b5caca/uploads/2025/09/20250920972321550.pdf",
+        "type": "pyq",
+        "cycle_label": "2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Uttarakhand Board of School Education (UBSE) Official Portal",
+        "url": "https://ubse.uk.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "UBSE UTET Official Online Application Portal",
+        "url": "https://ukutet.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
