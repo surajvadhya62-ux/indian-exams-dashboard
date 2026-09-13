@@ -1,0 +1,239 @@
+{
+  "id": "gsssb-cce-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Subordinate clerical staff selected via the GSSSB Combined Competitive Examination (CCE) serve across State Secretariats, Head of Department (HoD) directorates, and district offices under the Gujarat Subordinate Services Class-III (Combined Competitive Examination) Rules, 2023.",
+    "steps": [
+      {
+        "designation": "Junior Clerk / Class-3 Assistant (Group B)",
+        "pay_level": "Level 2 (Pay Band ₹5,200–₹20,200 + GP ₹1,900)",
+        "years": "Entry (0–5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "GSSSB CCE Class-3 Rules & Notification Advt No. 212/202324"
+      },
+      {
+        "designation": "Senior Clerk / Office Assistant (Group A)",
+        "pay_level": "Level 4 (Pay Band ₹5,200–₹20,200 + GP ₹2,400)",
+        "years": "approx. 5–10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "Gujarat Subordinate Service Promotion Rules & Departmental Examination Directives"
+      },
+      {
+        "designation": "Head Clerk / Deputy Section Officer (DySO)",
+        "pay_level": "Level 5 to Level 6 (Pay Band ₹9,300–₹34,800 + GP ₹4,200/₹4,400)",
+        "years": "approx. 10–16 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "General Administration Department Gujarat Ministerial Staff Cadre Structure"
+      },
+      {
+        "designation": "Section Officer / Office Superintendent (Class-2 Gazetted)",
+        "pay_level": "Level 7 to Level 8 (Pay Band ₹9,300–₹34,800 + GP ₹4,600/₹4,800)",
+        "years": "approx. 16+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "Gujarat Secretariat Service & HoD Gazetted Service Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under the Gujarat Subordinate Services Class-III (Combined Competitive Examination) Rules, 2023, selection comprises: Stage 1 Preliminary CBRT (100 marks, common to Group A & B), Stage 2 Mains Examination (Group A: 350-mark Descriptive Written Exam; Group B: 200-mark CBRT Objective Exam), followed by Stage 3 Document Verification. Negative marking in objective tests is 0.25 marks per incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (CBRT — Common for Group A and Group B)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "GSSSB CCE Examination Regulations & Notification No. 212/202324",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability & Problem Solving",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% aggregate required in Prelims"
+          },
+          {
+            "paper_name": "Quantitative Aptitude / Arithmetic",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Gujarati Language Comprehension",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language Comprehension",
+            "marks": 15,
+            "duration_minutes": 60,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall 60-minute composite paper; 40% minimum to qualify for Mains shortlisting (up to 7x vacancies)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Mains Examination — Group A Posts (Descriptive Written)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "GSSSB Group A Mains Descriptive Syllabus & Blueprint",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Gujarati Language Skills (Essay, Letter, Précis, Report, Translation)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks"
+          },
+          {
+            "paper_name": "Paper 2 — English Language Skills (Essay, Letter, Précis, Report, Grammar, Translation)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks"
+          },
+          {
+            "paper_name": "Paper 3 — General Studies (Constitution, Governance, History, Geography, Sci-Tech, Economy, Ethics)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Mains Examination — Group B Posts (Objective CBRT)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "GSSSB Group B Mains Objective Syllabus & Blueprint",
+        "papers": [
+          {
+            "paper_name": "Combined Objective Test (English 20m, Gujarati 20m, Polity/Admin/RTI 30m, History/Geography/Culture 30m, Economy/Env/Sci-Tech 30m, Current Affairs/Reasoning 30m, Arithmetic 40m)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks; final merit based on 200 marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "GSSSB Verification Directives & Final Selection Norms",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational Degrees, CCC Computer Certificate, Caste Certificate & Age Proof",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Appointees in Gujarat Class-3 ministerial posts serve on fixed pay (Fix Pay System) during a 5-year probation. The monthly fixed pay was enhanced by Gujarat Finance Department GR in 2023 to ₹26,000 per month for Junior Clerks (Level 2) and ₹26,000–₹31,400 for Senior/Head Clerks (Level 4/5). Upon completion of probation, regular Pay Matrix Level 2 (₹19,950–₹63,200 with entry basic ₹19,950) or Level 4 (₹25,500–₹81,100 with entry basic ₹25,500) applies under the Gujarat Civil Services (Revision of Pay) Rules, 2016.",
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19950,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://gsssb.gujarat.gov.in",
+    "pay_source_label": "Gujarat Civil Services (Revision of Pay) Rules Schedule Level 2",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35500,
+      "max": 39500
+    },
+    "in_hand_range_estimate": {
+      "min": 31500,
+      "max": 35000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 2 entry basic pay of ₹19,950 at 58% DA (₹11,571 effective 01.07.2025), HRA (10% to 24%: ₹1,995 to ₹4,788), Transport Allowance (₹900 + DA), net of NPS deduction (10% of Basic+DA = ₹3,152) and Professional Tax (₹200). For Group A Senior Clerks (Level 4, ₹25,500 basic), gross pay ranges from ₹45,500 to ₹50,500.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Gujarat Finance Department orders",
+      "House Rent Allowance (HRA) based on posting classification (Ahmedabad/Gandhinagar/Surat or district offices)",
+      "Fixed Medical Allowance (FMA) or health card under Gujarat State Employee Medical Rules",
+      "Leave Travel Concession (LTC) and earned leave encashment benefits upon regularization",
+      "Defined contributory pension coverage under National Pension System (NPS)",
+      "Annual increment of 3% upon regularization into the regular pay matrix"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official GSSSB press communiqués and candidate shortlist notifications.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 520000,
+        "appeared": 415000,
+        "qualified_stage_1": 42000,
+        "recommended": 5847,
+        "vacancies": 5847,
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://gsssb.gujarat.gov.in",
+        "source_label": "GSSSB CCE Class-3 Advt No. 212/202324 Stage-1 CBRT Shortlist & Vacancy Revision"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination blueprints, and candidate answer key notifications published by GSSSB.",
+    "links": [
+      {
+        "label": "GSSSB Official Web Portal",
+        "url": "https://gsssb.gujarat.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Gujarat OJAS Online Application Portal",
+        "url": "https://ojas.gujarat.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

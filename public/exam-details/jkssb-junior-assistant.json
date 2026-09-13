@@ -1,0 +1,198 @@
+{
+  "id": "jkssb-junior-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Assistants serve across the J&K Civil Secretariat, Divisional Commissioners, Deputy Commissioner Offices, and various State Line Departments under the Jammu and Kashmir Ministerial Staff (Subordinate) Service Rules.",
+    "steps": [
+      {
+        "designation": "Junior Assistant / Computer Operator",
+        "pay_level": "Level 4 (₹25,500–₹81,100)",
+        "years": "Entry (0–6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Junior Assistant Recruitment Rules & Notification No. 05 of 2022"
+      },
+      {
+        "designation": "Senior Assistant",
+        "pay_level": "Level 5 (₹29,200–₹92,300)",
+        "years": "approx. 6–12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "J&K Secretariat Subordinate Service Promotion Rules"
+      },
+      {
+        "designation": "Head Assistant / Statistical Assistant / Section In-Charge",
+        "pay_level": "Level 6 (₹35,400–₹1,12,400)",
+        "years": "approx. 12–18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "General Administration Department J&K Ministerial Cadre Schedule"
+      },
+      {
+        "designation": "Section Officer (SO - Gazetted)",
+        "pay_level": "Level 7 to Level 8 (₹44,900–₹1,42,400 / ₹47,600–₹1,51,100)",
+        "years": "approx. 18+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "J&K Secretariat (Gazetted) Service Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under JKSSB selection criteria, recruitment comprises two sequential stages: Stage 1 Computer Based Type Test (Qualifying, minimum 35 wpm with 90% accuracy), Stage 2 Written Examination (80 marks, 80 minutes), followed by Stage 3 Document Verification. Negative marking in the written test is 0.25 marks per incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Skill Test (Type Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Type Test Directives & Evaluation Protocol",
+        "papers": [
+          {
+            "paper_name": "Computer Typing Speed Test (English Keyboard Typing)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 35 words per minute (wpm) with minimum 90% accuracy required to qualify for written test"
+          }
+        ]
+      },
+      {
+        "stage_name": "Written Examination (OMR / CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Junior Assistant Written Exam Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General English (Comprehension, Grammar, Sentence Completion)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness with special reference to JK UT (History, Geography, Current Affairs, Reorganisation Act)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Numerical and Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Basic Concepts of Computers (Architecture, Windows, Word, Excel, PowerPoint, Internet)",
+            "marks": 20,
+            "duration_minutes": 80,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Single composite paper of 80 marks / 80 minutes; merit determines final cadre allocation"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Document Verification Directives for Junior Assistant",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Bachelor's Degree Certificate, Computer Typing Qualification Certificate, Domicile & Category Documents",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Assistants are appointed in Pay Matrix Level 4 (₹25,500–₹81,100 with Entry Basic Pay ₹25,500) under the Jammu and Kashmir Civil Services (Revised Pay) Rules (S.O. 192 of 2020).",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://jkssb.nic.in",
+    "pay_source_label": "J&K Civil Services (Revised Pay) Rules Schedule Level 4",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 45000,
+      "max": 49500
+    },
+    "in_hand_range_estimate": {
+      "min": 40000,
+      "max": 44000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 at 58% DA (₹14,790 effective 01.07.2025), HRA (9% to 18%: ₹2,295 to ₹4,590 for district headquarters and Civil Secretariat Jammu/Srinagar), Medical Allowance (₹300), Transport Allowance (₹900 + DA = ₹1,422), net of NPS deduction (10% of Basic+DA = ₹4,029) and State Insurance.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually aligned with central rates",
+      "House Rent Allowance (HRA) categorized by district / Secretariat posting",
+      "Cashless medical facility under Ayushman Bharat SEHAT for employees and dependants",
+      "Computer allowance and secretariat duty incentive where applicable",
+      "Defined contribution pension coverage under National Pension System (NPS)",
+      "Standard 3% annual basic increment in Pay Matrix Level 4"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics compiled from official JKSSB notifications, skill test result sheets, and final recommendation lists.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 180000,
+        "appeared": 75000,
+        "qualified_stage_1": 42000,
+        "recommended": 1534,
+        "vacancies": 1534,
+        "confidence": "verified",
+        "as_of": "2023-01-18",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Junior Assistant Combined Recruitment Selection Lists (Advt 01 to 07 of 2020 & 01-03 of 2021)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, type test guidelines, and merit lists published by JKSSB.",
+    "links": [
+      {
+        "label": "JKSSB Official Web Portal",
+        "url": "https://jkssb.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

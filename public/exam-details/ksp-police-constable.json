@@ -1,0 +1,203 @@
+{
+  "id": "ksp-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Civil Police Constables (CPC) and Armed Police Constables (APC / CAR / DAR / KSRP) form the frontline enforcement personnel of Karnataka State Police under the Karnataka State Police (Cadre and Recruitment) Rules.",
+    "steps": [
+      {
+        "designation": "Police Constable (Civil CPC / Armed APC / KSRP)",
+        "pay_level": "Pay Scale ₹23,500–₹47,650",
+        "years": "Entry (0–8 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka State Police Recruitment Notification No. 04-2/2022-23 (CPC)"
+      },
+      {
+        "designation": "Head Constable (HC / Mukhya Constable)",
+        "pay_level": "Pay Scale ₹27,650–₹52,650",
+        "years": "approx. 8–15 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka State Police Non-Gazetted Executive Cadre Promotion Directives"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI / Sahayak Up-Nirakshaka)",
+        "pay_level": "Pay Scale ₹37,900–₹70,850",
+        "years": "approx. 15–22 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka Police Cadre and Service Regulations"
+      },
+      {
+        "designation": "Police Sub-Inspector (PSI - Station House Officer)",
+        "pay_level": "Pay Scale ₹40,900–₹78,200",
+        "years": "approx. 22–28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka Police Department Executive Hierarchy Guidelines"
+      },
+      {
+        "designation": "Police Inspector (PI / Circle Inspector / CCB)",
+        "pay_level": "Pay Scale ₹52,650–₹97,100",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka State Police Department Senior Executive Cadre Schedule"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment for Police Constable is conducted by Karnataka State Police Recruitment Board in three stages: Stage 1 Written Examination (100 marks, 90 minutes OMR based), Stage 2 Endurance Test (ET) & Physical Standard Test (PST) (shortlisted at 1:5 ratio), followed by Stage 3 Document Verification and Medical Examination. Negative marking in the written test is 0.25 marks per incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (OMR Objective Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP Constable Written Examination Syllabus and Blueprint",
+        "papers": [
+          {
+            "paper_name": "General Studies, Constitution of India, History, Geography, Science, Current Affairs & Mental Ability (Bilingual: Kannada & English)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.25 marks deducted per incorrect answer (25% penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit determines 1:5 shortlisting for Endurance and Physical tests"
+          }
+        ]
+      },
+      {
+        "stage_name": "Endurance Test (ET) & Physical Standard Test (PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP ET & PST Directives for Civil Police Constable",
+        "papers": [
+          {
+            "paper_name": "Male Candidates: 1,600m Run (max 6m 30s), Long Jump (min 3.80m) or High Jump (min 1.20m), Shot Put 7.26 kg (min 5.60m) & Height/Chest measurement",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standards (Height: min 168 cm, Chest: 86 cm with 5 cm expansion)"
+          },
+          {
+            "paper_name": "Female & Transgender Candidates: 1,000m Run (max 6 mins), Long Jump (min 2.75m) or High Jump (min 0.90m), Shot Put 4 kg (min 3.75m) & Height measurement",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standards (Height: min 157 cm)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification and Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP Medical Board Standards & Document Verification Directives",
+        "papers": [
+          {
+            "paper_name": "Verification of PUC / 10+2 Certificate, Kannada Medium Certificate, Rural Certificate, Caste / HK Certificate & Medical Examination",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification and medical fitness qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables in Karnataka State Police are appointed in the 7th State Pay Commission scale of ₹23,500–₹47,650 with entry basic pay of ₹23,500.",
+    "pay_level": "Pay Scale ₹23,500–₹47,650",
+    "entry_basic_pay": 23500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://ksp.karnataka.gov.in",
+    "pay_source_label": "Karnataka State Police Revised Pay Rules Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 43500,
+      "max": 49500
+    },
+    "in_hand_range_estimate": {
+      "min": 38500,
+      "max": 44000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic pay of ₹23,500 at 58% DA (₹13,630 effective 01.07.2025), HRA (9% to 27%: ₹2,115 to ₹6,345 across district and Bengaluru city limits), Uniform Allowance, Washing Allowance, Risk Allowance, net of NPS deduction (10% of Basic+DA = ₹3,713) and Professional Tax.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Karnataka Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting zone (Bengaluru metro vs district stations)",
+      "Police uniform maintenance allowance, kit replacement grant, and stitching subsidy",
+      "Special risk allowance for law & order and armed police personnel",
+      "Cashless medical treatment for police personnel and family under Jyothi Sanjeevini Scheme",
+      "Pension coverage under National Pension System (NPS)"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official KSP recruitment circulars, examination attendance bulletins, and selection gazettes.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 385000,
+        "appeared": 290000,
+        "qualified_stage_1": 7955,
+        "recommended": 1591,
+        "vacancies": 1591,
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP Advt No. 04-2/2022-23 Civil Police Constable Examination and ET/PST Shortlist Notification"
+      },
+      {
+        "year": 2022,
+        "applicants": 420000,
+        "appeared": 315000,
+        "qualified_stage_1": 15320,
+        "recommended": 3064,
+        "vacancies": 3064,
+        "confidence": "reported",
+        "as_of": "2023-01-20",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP Advt No. 06-2/2022-23 Armed Police Constable Selection Announcement"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, answer keys, and selection lists published by Karnataka State Police.",
+    "links": [
+      {
+        "label": "Karnataka State Police Official Web Portal",
+        "url": "https://ksp.karnataka.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

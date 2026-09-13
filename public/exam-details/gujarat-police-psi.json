@@ -1,0 +1,235 @@
+{
+  "id": "gujarat-police-psi",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Police Sub-Inspectors (PSI) in Gujarat Police are inducted as Class-3 executive officers across Unarmed Police, Armed Police, Intelligence Bureau, and Motor Transport sections. Governed by the Gujarat Police Sub-Inspector (Recruitment) Rules and Gujarat Police Act, 1951.",
+    "steps": [
+      {
+        "designation": "Police Sub-Inspector (Unarmed / Armed / Intelligence Officer)",
+        "pay_level": "Level 7 (Pay Band ₹9,300–₹34,800 + GP ₹4,200)",
+        "years": "Entry (0–6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police PSI Cadre Recruitment Rules & Notification No. PSIRB/202021/1"
+      },
+      {
+        "designation": "Police Inspector (PI / Station House Officer / Circle Inspector)",
+        "pay_level": "Level 8 (Pay Band ₹9,300–₹34,800 + GP ₹4,600)",
+        "years": "approx. 6–12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Executive Promotion Regulations & Cadre Schedule"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP / Assistant Commissioner of Police - ACP)",
+        "pay_level": "Level 10 (Pay Band ₹15,600–₹39,100 + GP ₹5,400)",
+        "years": "approx. 12–18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat State Police Service (GPS Class-1) Cadre Rules"
+      },
+      {
+        "designation": "Superintendent of Police (SP / DCP / Commandant SRPF)",
+        "pay_level": "Level 11 to Level 12 (Junior Administrative Grade / IPS Induction Quota)",
+        "years": "approx. 18+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Home Department Gujarat Senior Police Cadre Hierarchy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under Gujarat Police PSI Recruitment Board directives, selection comprises: Stage 1 Physical Efficiency Test (PET) & Physical Standard Test (PST), Stage 2 Preliminary Written Examination (100 marks, 2 hours), Stage 3 Mains Written Examination (4 papers, 400 marks total), and Stage 4 Document Verification & Medical Examination. Negative marking in objective tests is 0.25 marks per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Physical Efficiency Test (PET) & Physical Standard Test (PST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police PSI Recruitment Board PET/PST Directives",
+        "papers": [
+          {
+            "paper_name": "Endurance Run (Male: 5,000m in max 25 mins; Female: 1,600m in max 9m 30s; Ex-Servicemen: 2,400m in max 12m 30s) & Physical Measurements",
+            "marks": null,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical standards (Height: Male 164 cm [SC/ST 162 cm], Female 158 cm [SC/ST 156 cm]; Chest: Male 79-84 cm)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Preliminary Written Examination (Objective MCQ)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police PSI Preliminary Examination Pattern & Scheme",
+        "papers": [
+          {
+            "paper_name": "General Studies & Mental Ability (GK, Current Affairs, History, Geography, Science, Psychology, Sociology, Reasoning)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer (Option E = Not Attempted avoids penalty)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit ranking for shortlisting to Mains (up to 15 times the category-wise vacancies)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Mains Written Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police PSI Mains Examination Syllabus & Structure",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Gujarati Language (Grammar, Comprehension, Essay, Vocabulary)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate marks"
+          },
+          {
+            "paper_name": "Paper 2 — English Language (Grammar, Translation, Comprehension, Précis)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate marks"
+          },
+          {
+            "paper_name": "Paper 3 — General Studies (History, Geography, Polity, Science, Tech, Current Affairs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate marks"
+          },
+          {
+            "paper_name": "Paper 4 — Legal Aspects & Criminal Law (Constitution of India, IPC/BNS, CrPC/BNSS, Indian Evidence Act/BSA, Gujarat Police Act, Prohibition Act, SC/ST PoA Act)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification and Medical Fitness Examination",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Recruitment Board Verification & Medical Directives",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Academic Degrees, Age Proof, Domicile Certificate, Category Proof & Medical Board Examination",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in medical fitness standards and document scrutiny"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Under Gujarat Civil Services rules, direct Class-3 appointees serve on a 5-year fixed pay contract (Fix Pay System) at ₹38,090 per month. Upon successful completion of the 5-year probation, officers are absorbed into regular Pay Matrix Level 7 (₹39,900–₹1,26,600 with Entry Basic Pay ₹39,900) under the Gujarat Civil Services (Revision of Pay) Rules, 2016.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 39900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://police.gujarat.gov.in",
+    "pay_source_label": "Gujarat Civil Services (Revision of Pay) Rules Schedule Level 7",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 72000,
+      "max": 78500
+    },
+    "in_hand_range_estimate": {
+      "min": 63500,
+      "max": 69000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 entry basic pay of ₹39,900 at 58% DA (₹23,142 effective 01.07.2025), HRA (10% to 24%: ₹3,990 to ₹9,576 for Ahmedabad/Surat X-category and other posting districts), Police Uniform Maintenance Allowance, Investigation Allowance, net of NPS (10% of Basic+DA = ₹6,304) and Professional Tax.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Gujarat Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting zone (Class X, Y, and Z cities)",
+      "Police uniform maintenance grant, holster and ammunition allowance, and kit upkeep",
+      "Investigation allowance, mobile phone reimbursement, and travel allowances on duty",
+      "Government accommodation entitlement or police executive quarters",
+      "Comprehensive medical coverage under Gujarat State Employees Health Scheme"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics compiled from official Gujarat Police PSI Recruitment Board notifications and merit lists.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 420000,
+        "appeared": 345000,
+        "qualified_stage_1": 96231,
+        "recommended": 1382,
+        "vacancies": 1382,
+        "confidence": "verified",
+        "as_of": "2022-09-30",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police PSI Recruitment Board Advt No. PSIRB/202021/1 Final Selection Results"
+      },
+      {
+        "year": 2024,
+        "applicants": 380000,
+        "appeared": 310000,
+        "qualified_stage_1": 75000,
+        "recommended": 472,
+        "vacancies": 472,
+        "confidence": "reported",
+        "as_of": "2024-04-15",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Recruitment Board Direct Recruitment Notification GPRB/202324/1"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination rules, and merit directives issued by Gujarat Police Recruitment Board.",
+    "links": [
+      {
+        "label": "Gujarat Police Official Portal",
+        "url": "https://police.gujarat.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Online Job Application System (OJAS) Gujarat Portal",
+        "url": "https://ojas.gujarat.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

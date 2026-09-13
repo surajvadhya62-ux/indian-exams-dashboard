@@ -1,0 +1,224 @@
+{
+  "id": "jkssb-accounts-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Accounts Assistants serve in the Finance Department and Rural Development Department of Jammu and Kashmir under the Jammu & Kashmir Subordinate Accounts Service Rules, handling treasury accounting, budget maintenance, local fund auditing, and Public Financial Management System (PFMS) administration.",
+    "steps": [
+      {
+        "designation": "Accounts Assistant (Finance / Panchayat Cadre)",
+        "pay_level": "Level 5 (₹29,200–₹92,300)",
+        "years": "Entry (0–6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Notification No. 04 of 2020 & J&K Subordinate Accounts Service Rules"
+      },
+      {
+        "designation": "Accountant / Junior Assistant Accounts Officer",
+        "pay_level": "Level 6E to Level 7 (₹35,900–₹1,13,500 / ₹44,900–₹1,42,400)",
+        "years": "approx. 6–12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "Subordinate Accounts Course (SAC Part-I) Promotion Regulations"
+      },
+      {
+        "designation": "Assistant Accounts Officer (AAO)",
+        "pay_level": "Level 8 (₹47,600–₹1,51,100)",
+        "years": "approx. 12–18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "J&K Public Service Commission SAC Part-II Examination Cadre Rules"
+      },
+      {
+        "designation": "Accounts Officer / Chief Accounts Officer (AO / CAO - Gazetted)",
+        "pay_level": "Level 9 to Level 11 (₹52,700–₹1,66,700 / ₹67,700–₹2,08,700)",
+        "years": "approx. 18+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "J&K Accounts (Gazetted) Service Rules & Finance Department Senior Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Accounts Assistant (Finance) is conducted via a single-stage OMR Based Written Examination (120 marks, 120 minutes) followed by Document Verification. Negative marking is 0.25 marks per incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "OMR Based Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB FAA Examination Syllabus & Blueprint (Notification No. 04 of 2020)",
+        "papers": [
+          {
+            "paper_name": "General Knowledge with special reference to UT of J&K",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Accountancy and Book Keeping (Principles, Ledger, Trial Balance, Cash Book, Financial Statements, Depreciation, Audit)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Statistics (Probability, Index Numbers, Sampling, Census)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Set Theory, Relations, Matrices, Determinants, Differentiation)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Economics (Fiscal Policy, Monetary Policy, GDP, National Income)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Science (Physics, Chemistry, Biology)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Knowledge of Computers",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Single composite paper of 120 marks / 120 minutes; overall merit determines selection"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Document Verification Notification for Accounts Assistant",
+        "papers": [
+          {
+            "paper_name": "Verification of Degree Certificate (Commerce/Science/Arts with requisite percentage), Domicile & Category Documents",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Accounts Assistants are appointed in Pay Matrix Level 5 (₹29,200–₹92,300 with Entry Basic Pay ₹29,200) under the Jammu and Kashmir Civil Services (Revised Pay) Rules (S.O. 192 of 2020).",
+    "pay_level": "Level 5",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://jkssb.nic.in",
+    "pay_source_label": "J&K Civil Services (Revised Pay) Rules Schedule Level 5",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 51500,
+      "max": 56500
+    },
+    "in_hand_range_estimate": {
+      "min": 45500,
+      "max": 50500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 5 entry basic pay of ₹29,200 at 58% DA (₹16,936 effective 01.07.2025), HRA (9% to 18%: ₹2,628 to ₹5,256), Medical Allowance (₹300), Transport Allowance (₹1,800 + DA = ₹2,844), net of NPS deduction (10% of Basic+DA = ₹4,614) and State Insurance.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually aligned with Central Government rates",
+      "House Rent Allowance (HRA) categorized across Jammu/Srinagar urban and district treasuries",
+      "Fixed Medical Allowance / cashless medical treatment under government health insurance",
+      "Subordinate accounts training sponsorship and examination incentives for SAC qualification",
+      "Defined contributory pension benefits under National Pension System (NPS)",
+      "Standard 3% annual basic increment in Pay Matrix Level 5"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics compiled from official JKSSB merit notifications and re-examination reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 210000,
+        "appeared": 155000,
+        "qualified_stage_1": 3100,
+        "recommended": 972,
+        "vacancies": 972,
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB FAA (Finance Accounts Assistant) Advt No. 04 of 2020 Final Merit List"
+      },
+      {
+        "year": 2020,
+        "applicants": 190000,
+        "appeared": 175000,
+        "qualified_stage_1": 5600,
+        "recommended": 1889,
+        "vacancies": 1889,
+        "confidence": "reported",
+        "as_of": "2021-02-18",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB Panchayat Accounts Assistant Advt No. 02 of 2020 Selection List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabus, and merit announcements published by JKSSB.",
+    "links": [
+      {
+        "label": "JKSSB Official Web Portal",
+        "url": "https://jkssb.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

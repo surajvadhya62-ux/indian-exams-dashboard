@@ -1,0 +1,202 @@
+{
+  "id": "ksp-psi",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Police Sub-Inspectors (Civil PSI, Armed RSI, Wireless PSI, and KSRP SRPSI) are executive sub-inspectors in Karnataka State Police appointed under the Karnataka State Police Services (Cadre & Recruitment) Rules, serving as Station House Officers (SHOs) in police stations across the state.",
+    "steps": [
+      {
+        "designation": "Police Sub-Inspector (Civil PSI / Armed Reserve RSI / Wireless)",
+        "pay_level": "Pay Scale ₹37,900–₹70,850",
+        "years": "Entry (0–7 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP Police Sub-Inspector Recruitment Rules & Advt No. 89-2/2020-21 & 95-2/2021-22"
+      },
+      {
+        "designation": "Police Inspector (PI / Circle Inspector / City Crime Branch)",
+        "pay_level": "Pay Scale ₹43,100–₹83,900",
+        "years": "approx. 7–14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka State Police Department Executive Cadre Schedule"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP / Assistant Commissioner of Police - ACP)",
+        "pay_level": "Pay Scale ₹52,650–₹97,100 (Karnataka State Police Service - KSPS Group A)",
+        "years": "approx. 14–20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Karnataka State Police Service (Gazetted Executive) Rules"
+      },
+      {
+        "designation": "Superintendent of Police (SP / DCP Non-IPS / Selection Grade)",
+        "pay_level": "Pay Scale ₹67,550–₹1,04,600 / Pay Matrix Level 11 (IPS Induction Quota)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "Home Department Karnataka Senior Police Hierarchy & Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Police Sub-Inspector comprises: Stage 1 Endurance Test (ET) & Physical Standard Test (PST) (qualifying), Stage 2 Written Examination (Paper 1 Descriptive 50 marks + Paper 2 Objective 150 marks = 200 marks total), followed by Stage 3 Document Verification and Medical Examination. Negative marking in Paper 2 is 0.375 marks (25% of 1.5 marks) per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Endurance Test (ET) & Physical Standard Test (PST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP PSI Endurance and Physical Standard Test Regulations",
+        "papers": [
+          {
+            "paper_name": "Male Candidates: 1,600m Run (max 7 mins), Long Jump (min 3.80m) or High Jump (min 1.20m), Shot Put 7.26 kg (min 5.60m) & Physical Measurements",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standards (Height: min 168 cm, Chest: 86 cm with 5 cm expansion)"
+          },
+          {
+            "paper_name": "Female & In-Service Candidates: 400m Run (max 2 mins), Long Jump (min 2.75m) or High Jump (min 0.90m), Shot Put 4 kg (min 3.75m) & Physical Measurements",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standards (Height: min 157 cm)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Written Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP PSI Written Examination Blueprint and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Descriptive Test (Essay Writing 20m, English-Kannada Translation 20m, Précis Writing 10m)",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated for merit along with Paper 2"
+          },
+          {
+            "paper_name": "Paper 2 — Objective MCQ (100 Questions on General Studies, Constitution, Current Affairs, Science, History, Geography & Mental Ability)",
+            "marks": 150,
+            "duration_minutes": 90,
+            "negative_marking": "0.375 marks deducted per wrong answer (25% penalty of 1.5 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite evaluation of Paper 1 (50m) + Paper 2 (150m) = 200 marks determines merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification and Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP Medical Board Standards & Document Verification Directives",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Bachelor's Degree Certificate, Kannada Medium Certificate, Rural Certificate, Category Proof & Medical Fitness Check",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification and medical fitness qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Police Sub-Inspectors in Karnataka State Police are placed in the state revised pay scale of ₹37,900–₹70,850 with entry basic pay of ₹37,900.",
+    "pay_level": "Pay Scale ₹37,900–₹70,850",
+    "entry_basic_pay": 37900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://ksp.karnataka.gov.in",
+    "pay_source_label": "Karnataka State Police Revised Pay Rules Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 68500,
+      "max": 75500
+    },
+    "in_hand_range_estimate": {
+      "min": 61000,
+      "max": 67000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic pay of ₹37,900 at 58% DA (₹21,982 effective 01.07.2025), HRA (9% to 27%: ₹3,411 to ₹10,233 for district postings and Bengaluru City Police Commissionerate), Uniform Maintenance Allowance, Investigation Allowance, Risk Allowance, net of NPS deduction (10% of Basic+DA = ₹5,988) and Professional Tax.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Karnataka Finance Department orders",
+      "House Rent Allowance (HRA) categorized across Bengaluru (Class X) and other districts",
+      "Officer uniform allowance, holster kit upkeep, and annual accoutrements grant",
+      "Investigation allowance, police mobile conveyance allowance, and CUG SIM entitlement",
+      "Cashless medical facility under Jyothi Sanjeevini Scheme for officer and family",
+      "Contributory pension coverage under National Pension System (NPS)"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official Karnataka State Police recruitment notifications, re-examination reports, and merit gazettes.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 150000,
+        "appeared": 54289,
+        "qualified_stage_1": 54289,
+        "recommended": 545,
+        "vacancies": 545,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP 545 PSI (Civil) Re-examination Results & Provisional Merit Notification"
+      },
+      {
+        "year": 2022,
+        "applicants": 120000,
+        "appeared": 85000,
+        "qualified_stage_1": 2100,
+        "recommended": 402,
+        "vacancies": 402,
+        "confidence": "reported",
+        "as_of": "2024-06-15",
+        "source_url": "https://ksp.karnataka.gov.in",
+        "source_label": "KSP 402 PSI (Civil) Advt No. 95-2/2021-22 Examination Announcement"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, answer keys, and selection lists published by Karnataka State Police.",
+    "links": [
+      {
+        "label": "Karnataka State Police Official Web Portal",
+        "url": "https://ksp.karnataka.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
