@@ -1,0 +1,331 @@
+{
+  "id": "goa-ssc-cgl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Promotional hierarchy for ministerial and subordinate services in the Government of Goa, governed by the Goa Staff Selection Commission Act, 2019, department-specific Recruitment Rules, and Central Civil Services (Revised Pay) Rules 2016 as adopted by the Government of Goa. Direct recruits at Lower Division Clerk / Junior Assistant (Level 2) progress to Upper Division Clerk (Level 4), Head Clerk / Assistant / Accountant (Level 6), Superintendent Group B Gazetted (Level 7), and Under Secretary / Junior Scale Officer (Level 10) through Departmental Promotion Committees (DPC).",
+    "steps": [
+      {
+        "designation": "Lower Division Clerk (LDC) / Junior Assistant / Recovery Clerk",
+        "pay_level": "Level 2 (Pay Matrix ₹19,900 – ₹63,200)",
+        "years": "Entry level (direct recruitment through GSSC Two-Tier CBT)",
+        "notes": "Group C Non-Gazetted ministerial entry post. Direct recruitment through GSSC Two-Tier CBT (CBT-I screening 60 marks, CBT-II merit 80 marks) followed by qualifying English typing test at 30 wpm.",
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026_compressed.pdf",
+        "source_label": "Goa Staff Selection Commission Advertisement No. 3 of Year 2026 & Recruitment Rules"
+      },
+      {
+        "designation": "Upper Division Clerk (UDC)",
+        "pay_level": "Level 4 (Pay Matrix ₹25,500 – ₹81,100)",
+        "years": "approx. 8 years regular service in Level 2",
+        "notes": "Group C Non-Gazetted promotional post. Promotion from LDC / Junior Assistant cadre on seniority-cum-fitness basis upon completion of prescribed regular service and passing departmental promotion examination.",
+        "confidence": "verified",
+        "as_of": "2026-01-14",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2023/05/1.-GSSC-Act-2019.pdf",
+        "source_label": "Government of Goa Ministerial Subordinate Services Recruitment Rules & GSSC Act, 2019"
+      },
+      {
+        "designation": "Head Clerk / Assistant / Accountant",
+        "pay_level": "Level 6 (Pay Matrix ₹35,400 – ₹1,12,400)",
+        "years": "approx. 5-7 years service in Level 4",
+        "notes": "Group B Non-Gazetted supervisory post. Supervisory charge of clerical branches / accounts units across state directorates and collectorates.",
+        "confidence": "verified",
+        "as_of": "2025-07-18",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2025/07/Advertisment-No.2-of-Year-2025_compressed.pdf",
+        "source_label": "Government of Goa Subordinate Service Rules & GSSC Advertisement No. 2 of Year 2025"
+      },
+      {
+        "designation": "Superintendent / Section Officer (Group B Gazetted)",
+        "pay_level": "Level 7 (Pay Matrix ₹44,900 – ₹1,42,400)",
+        "years": "approx. 3-5 years regular service in Level 6",
+        "notes": "Group B Gazetted managerial post. Head of administrative / ministerial section within the Goa Government Secretariat (Patto Plaza / Porvorim) or attached state directorates.",
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2024/03/Advetisement-No.2-of-Year-2024_detailed.pdf",
+        "source_label": "Government of Goa Secretariat Ministerial Service Rules & GSSC Pay Matrix Classification"
+      },
+      {
+        "designation": "Under Secretary / Junior Scale Officer (Goa Civil Service)",
+        "pay_level": "Level 10 (Pay Matrix ₹56,100 – ₹1,77,500)",
+        "years": "Promotion ceiling via DPC quota / state civil service selection",
+        "notes": "Group A Gazetted executive post. Apex promotion ceiling for ministerial personnel inducted into the Goa Civil Service or Secretariat administrative cadre.",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2023/05/1.-GSSC-Act-2019.pdf",
+        "source_label": "Goa Civil Service Rules & Government of Goa Personnel Department Administrative Hierarchy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Goa Staff Selection Commission (GSSC) conducts recruitment to subordinate Group C posts via a Two-Tier Computer Based Examination (CBT) followed by a mandatory qualifying Skill / Typing Test. CBT-I is a common objective screening test (60 marks, 75 minutes) with a mandatory Konkani language passing cutoff of 4 out of 10 marks; candidates who clear CBT-I are shortlisted in a 1:5 ratio for CBT-II. CBT-II is the competitive merit examination (80 marks, 100 minutes) which determines 100% of the selection merit. There is no negative marking in either CBT stage. Candidates passing CBT-II appear for an English typing test (30 wpm) which is strictly qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: CBT-I (Computer Based Screening Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/syllabus-and-scheme-of-examination-advertisement-no.-3-of-2026_compressed.pdf",
+        "source_label": "GSSC Advertisement No. 3 of Year 2026 — Syllabus & Scheme of Examination (CBT-I)",
+        "papers": [
+          {
+            "paper_name": "Test of English & Comprehension",
+            "marks": 20,
+            "duration_minutes": 75,
+            "qualifying_only": true,
+            "notes": "Objective MCQs testing English grammar, vocabulary, sentence structure, and comprehension skills. Composite time of 75 minutes for entire CBT-I."
+          },
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 20,
+            "duration_minutes": 75,
+            "qualifying_only": true,
+            "notes": "Objective MCQs testing verbal and non-verbal reasoning, analogies, series, pattern recognition, and logical deductions."
+          },
+          {
+            "paper_name": "Test of Numerical Ability",
+            "marks": 10,
+            "duration_minutes": 75,
+            "qualifying_only": true,
+            "notes": "Objective MCQs covering basic arithmetic, number systems, percentages, ratios, averages, and time-distance."
+          },
+          {
+            "paper_name": "Test of Konkani Language (Mandatory Qualifying)",
+            "marks": 10,
+            "duration_minutes": 75,
+            "qualifying_only": true,
+            "notes": "Objective MCQs on Konkani language. Mandatory requirement: Candidates must score at least 4 out of 10 marks (questions 1 to 10 in CBT-I) to have the remainder of their paper evaluated. Minimum overall passing for CBT-I is 45% for UR (27/60), 40% for OBC (24/60), and 35% for SC/ST/PwD (21/60). Shortlists 5 times the vacancy count for CBT-II."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: CBT-II (Computer Based Merit Examination)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/syllabus-and-scheme-of-examination-advertisement-no.-3-of-2026_compressed.pdf",
+        "source_label": "GSSC Advertisement No. 3 of Year 2026 — Syllabus & Scheme of Examination (CBT-II)",
+        "papers": [
+          {
+            "paper_name": "Test of English & Comprehension",
+            "marks": 30,
+            "duration_minutes": 100,
+            "qualifying_only": false,
+            "notes": "Advanced comprehension, vocabulary, grammar, and drafting concepts. Part of the 80-mark composite CBT-II (100 minutes total duration)."
+          },
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 20,
+            "duration_minutes": 100,
+            "qualifying_only": false,
+            "notes": "Analytical and logical reasoning problems."
+          },
+          {
+            "paper_name": "Test of Basic Knowledge of Computer Proficiency",
+            "marks": 20,
+            "duration_minutes": 100,
+            "qualifying_only": false,
+            "notes": "Computer fundamentals, operating systems, MS Office / word processing, spreadsheets, internet and cyber awareness."
+          },
+          {
+            "paper_name": "Test of Numerical Ability",
+            "marks": 10,
+            "duration_minutes": 100,
+            "qualifying_only": false,
+            "notes": "Data handling, arithmetic operations, and quantitative reasoning. Final merit list is constructed strictly on aggregate marks obtained out of 80 in CBT-II. Minimum qualifying: 45% for UR (36/80), 40% for OBC (32/80), 35% for SC/ST/PwD (28/80)."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Skill Test / Typing Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/syllabus-and-scheme-of-examination-advertisement-no.-3-of-2026_compressed.pdf",
+        "source_label": "GSSC Advertisement No. 3 of Year 2026 — Skill Test Criteria",
+        "papers": [
+          {
+            "paper_name": "English Typing Test (30 wpm on Computer)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "qualifying_only": true,
+            "notes": "Prescribed under Recruitment Rules for LDC / Recovery Clerk / Junior Assistant / Data Entry Operator: minimum typing speed of 30 words per minute in English on computer. Candidates shortlisted in 1:2 ratio based on CBT-II merit; strictly qualifying nature and does not alter CBT-II merit ranking."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Subordinate clerical staff recruited through GSSC are appointed under the Central Civil Services (Revised Pay) Rules, 2016 as adopted by the Government of Goa vide Finance Department Order No. 8/1/2016-Fin(R&C). Lower Division Clerks, Junior Assistants, and Recovery Clerks enter at Pay Matrix Level 2 (entry basic ₹19,900), whereas Accounts Clerks enter at Level 4 (entry basic ₹25,500). Allowances include Dearness Allowance at canonical 58% benchmark, House Rent Allowance (10% to 20% based on Goa municipal/rural classification), Transport Allowance (₹1,350 + DA), and state healthcare benefits.",
+    "pay_level": "Level 2 (Pay Matrix ₹19,900 – ₹63,200)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-11",
+    "pay_source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026_compressed.pdf",
+    "pay_source_label": "GSSC Advertisement No. 3 of Year 2026 & Government of Goa Adoption of CCS (RP) Rules 2016",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 39000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 35000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary calculated on entry basic ₹19,900 + 58% DA (₹11,542) + HRA (₹1,990 to ₹3,980 at 10% to 20% in Goa cities/talukas) + Transport Allowance (₹1,350 + 58% DA = ₹2,133). In-hand estimate factors in statutory employee deductions including 10% National Pension System (NPS Basic + DA = ₹3,144), Goa Professional Tax (₹200/mo), and Goa State Employees Group Insurance Scheme (GIS).",
+    "official_perks": [
+      "Comprehensive medical coverage under Goa Government Employees Medical Reimbursement Scheme and Deen Dayal Swasthya Seva Yojana (DDSSY)",
+      "Pension and social security under National Pension System (NPS) with 14% Government of Goa matching contribution",
+      "Earned Leave (30 days/yr), Half Pay Leave (20 days/yr), and Casual Leave (8 days/yr)",
+      "Children Education Allowance (CEA) and Hostel Subsidy as per Goa Government orders",
+      "Leave Travel Concession (LTC) / Home Town Concession as per Central Civil Services norms",
+      "Festival Advance, Computer Advance, and House Building Advance (HBA) eligibility under Goa financial rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical recruitment data and candidate statistics from official Goa Staff Selection Commission notifications and Computer Based Examination results. GSSC was operationalised following statutory amendments in 2022-2024 to conduct centralized Group C recruitment for all Goa Government departments.",
+    "years": [
+      {
+        "year": 2026,
+        "cycle_label": "2026-Ad-03",
+        "vacancies": 222,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026_compressed.pdf",
+        "source_label": "GSSC Advertisement No. 3 of Year 2026 dated 11/09/2026 (204 Lower Division Clerk / Recovery Clerk, 13 Junior Assistant, 2 Data Entry Operator, 3 DTP Operator)",
+        "notes": "State-wide combined subordinate recruitment across Revenue, Health, Education, Printing, and Secretariat directorates."
+      },
+      {
+        "year": 2025,
+        "cycle_label": "2025-Ad-03-CBT-II",
+        "vacancies": 85,
+        "applicants": 474,
+        "confidence": "verified",
+        "as_of": "2026-08-30",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2026/08/provisional-result-cbt-ii-30.08.2026-searcher-aval-karkun-etc_compressed.pdf",
+        "source_label": "GSSC Provisional Result of CBT-II held on 30.08.2026 for Searcher, Aval Karkun, Accounts Clerk, Talathi, Village Panchayat Secretary (Advertisement No. 3 of Year 2025)",
+        "notes": "474 candidates shortlisted and evaluated in CBT-II merit examination across subordinate cadres."
+      },
+      {
+        "year": 2024,
+        "cycle_label": "2024-Ad-02",
+        "vacancies": 65,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://gssc.goa.gov.in/wp-content/uploads/2024/03/Advetisement-No.2-of-Year-2024_detailed.pdf",
+        "source_label": "GSSC Advertisement No. 2 of Year 2024 (Assistant Teacher, Subordinate Technical cadres)",
+        "notes": "Early recruitment cycle following Commission restructuring."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, scheme documents, syllabus PDFs, sample question papers, and statutory regulations from the Goa Staff Selection Commission (GSSC).",
+    "links": [
+      {
+        "label": "GSSC Advertisement No. 3 of Year 2026 (Lower Division Clerk, Junior Assistant, Data Entry Operator)",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/advertisement-no.-3-of-year-2026_compressed.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "cycle_label": "2026-Ad-03"
+      },
+      {
+        "label": "GSSC Syllabus and Scheme of Examination — Advertisement No. 3 of Year 2026 (Two-Tier CBT & Skill Test)",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2026/09/syllabus-and-scheme-of-examination-advertisement-no.-3-of-2026_compressed.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "cycle_label": "2026-Ad-03"
+      },
+      {
+        "label": "GSSC Advertisement No. 2 of Year 2026 (Police Constable, Forest Guard, Platoon Commander)",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2026/02/Advertisement-No.-2-of-Year-2026_compressed.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-02-20",
+        "cycle_label": "2026-Ad-02"
+      },
+      {
+        "label": "GSSC Syllabus and Scheme of Examination — Advertisement No. 2 of Year 2026",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2026/02/Syllabus-and-Scheme-of-Examination-Advertisement-No.-2-of-2026_compressed.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-02-20",
+        "cycle_label": "2026-Ad-02"
+      },
+      {
+        "label": "GSSC Advertisement No. 3 of Year 2025 (Accounts Clerk, Talathi, Village Panchayat Secretary, Aval Karkun)",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2025/12/Advertisement-No.3-of-Year-2025.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2025-12-05",
+        "cycle_label": "2025-Ad-03"
+      },
+      {
+        "label": "GSSC Syllabus and Scheme of Examination — Advertisement No. 3 of Year 2025",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2025/12/Syllabus-and-Scheme-of-Examination.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-12-05",
+        "cycle_label": "2025-Ad-03"
+      },
+      {
+        "label": "GSSC Lower Division Clerk Official Sample Question Paper",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2025/06/Lower-Division-Clerk-sample.pdf",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2025-06-15"
+      },
+      {
+        "label": "The Goa Staff Selection Commission Act, 2019 (Goa Act 11 of 2019)",
+        "url": "https://gssc.goa.gov.in/wp-content/uploads/2023/05/1.-GSSC-Act-2019.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-05-15"
+      },
+      {
+        "label": "GSSC Official Advertisements Portal Hub",
+        "url": "https://gssc.goa.gov.in/?page_id=1079",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "GSSC Official Syllabus and Scheme Portal Hub",
+        "url": "https://gssc.goa.gov.in/?page_id=1096",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "GSSC Official Sample Question Papers Hub",
+        "url": "https://gssc.goa.gov.in/?page_id=1383",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "GSSC Official Results & Selection Lists Portal Hub",
+        "url": "https://gssc.goa.gov.in/?page_id=1230",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
