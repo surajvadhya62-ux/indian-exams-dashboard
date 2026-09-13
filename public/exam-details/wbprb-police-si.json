@@ -1,0 +1,270 @@
+{
+  "id": "wbprb-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Sub-Inspectors in West Bengal Police serve as primary investigating officers across police stations, detective departments, and armed battalions. Promotion pathways are governed by the Police Regulations of Bengal (PRB), West Bengal Police Service rules, and the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019). Outstanding officers can reach the West Bengal Police Service (WBPS) cadre and receive nomination to the Indian Police Service (IPS).",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI / LSI - Unarmed & Armed Branch)",
+        "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Sub-Inspector / Sub-Inspectress (UB & AB) in West Bengal Police 2024, and WBS (ROPA) Rules 2019"
+      },
+      {
+        "designation": "Inspector of Police (IP / IC / OC / Circle Inspector)",
+        "pay_level": "ROPA 2019 Pay Level 12 (₹35,800 – ₹92,100)",
+        "years": "approx. 6-10 yrs (Seniority-cum-merit)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "West Bengal Police Regulations (PRB) Promotion Framework"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / ACP — West Bengal Police Service)",
+        "pay_level": "ROPA 2019 Pay Level 16 (₹56,100 – ₹1,44,300)",
+        "years": "approx. 14-18 yrs (Promotion to State Police Service Cadre)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "West Bengal Police Service (WBPS) Cadre Schedule & ROPA 2019"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP)",
+        "pay_level": "ROPA 2019 Pay Level 17 (₹67,300 – ₹1,73,200)",
+        "years": "approx. 20-24 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "West Bengal Police Service (WBPS) Promotion Regulations"
+      },
+      {
+        "designation": "Superintendent of Police (SP / DCP) — Indian Police Service (IPS)",
+        "pay_level": "7th CPC Pay Matrix Level 11 / 12 (₹67,700 – ₹2,09,200)",
+        "years": "Selection (approx. 25+ yrs, via State Police Service Promotion Quota)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations & MHA Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The selection scheme for West Bengal Police Sub-Inspector (Unarmed Branch) and Sub-Inspector (Armed Branch) comprises four successive stages: (i) Preliminary Examination (Screening, 200 marks), (ii) Physical Measurement Test (PMT) & Physical Efficiency Test (PET) (Qualifying), (iii) Final Combined Competitive Examination (Conventional Descriptive, 200 marks), and (iv) Personality Test (Interview, 30 marks with minimum 8 marks qualifying). Final merit is compiled strictly on the basis of marks obtained in the Final Combined Competitive Examination and the Personality Test (Total: 230 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination — Objective Screening Test (100 MCQs)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Scheme of Examination for Sub-Inspector / Sub-Inspectress in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "General Studies",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "1/4th of the marks assigned to that question (0.50 marks) deducted per incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening cut-off fixed by WBPRB for PMT/PET shortlisting"
+          },
+          {
+            "paper_name": "Logical & Analytical Reasoning",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "1/4th of the marks assigned to that question (0.50 marks) deducted per incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Arithmetic (Madhyamik Standard)",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "1/4th of the marks assigned to that question (0.50 marks) deducted per incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Measurement Test (PMT) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Sub-Inspector in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male (UB): Height 167 cm, Weight 56 kg, Chest 79 cm (5 cm expansion); Male (AB): Height 173 cm, Weight 60 kg, Chest 86 cm (5 cm expansion); Female (UB): Height 160 cm, Weight 48 kg; Transgender: Height 163 cm, Weight 51 kg"
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET) — Running Event",
+            "marks": 0,
+            "duration_minutes": 3,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male (UB & AB): 800 metres run within 3 minutes 00 seconds; Female (UB): 400 metres run within 2 minutes 00 seconds; Transgender: 400 metres run within 1 minute 40 seconds"
+          }
+        ]
+      },
+      {
+        "stage_name": "Final Combined Competitive Examination (Conventional Descriptive Papers)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Scheme of Examination for Sub-Inspector in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies and Arithmetic (50 marks GS, 25 marks Logical Reasoning, 25 marks Arithmetic)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: English Language (Drafting of report, translation from vernacular, précis writing, correct use of words and idioms)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: Bengali / Hindi / Urdu / Nepali (Drafting of report, translation from English, précis writing, grammar)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Interview)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Scheme of Examination for Sub-Inspector in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "Personality Test (Viva-Voce)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying mark of 8 marks (out of 30) is mandatory for final selection"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "West Bengal Police Sub-Inspectors are remunerated under Pay Level 10 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-3 (₹7,100 – ₹37,600 with Grade Pay ₹3,900). Starting basic pay is ₹32,100.",
+    "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+    "entry_basic_pay": 32100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-09-25",
+    "pay_source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+    "pay_source_label": "West Bengal Services (Revision of Pay and Allowances) Rules, 2019, Level 10, and WBPRB Employment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 54000, "max": 60000 },
+    "in_hand_range_estimate": { "min": 48000, "max": 54000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on ROPA 2019 Level 10 entry basic pay of ₹32,100 with project constant 58% Dearness Allowance (₹18,618), 12% House Rent Allowance (₹3,852), Medical Allowance (₹500/month), plus statutory police officer allowances including ration subsidy and kit/washing maintenance. Deductions include West Bengal Professional Tax (PTax ₹200) and GPF/NPS contributions (~10% basic+DA).",
+    "official_perks": [
+      "Sub-Inspector government family residential quarters or 12% House Rent Allowance (HRA)",
+      "Coverage under the West Bengal Health Scheme (WBHS) for officer and family dependents",
+      "Departmental motorcycle patrol mobility and fuel allowance for field investigative duty",
+      "Uniform grant, annual kit maintenance, and holster/badge upkeep allowance",
+      "Special investigative allowances and compensatory risk pay during law & order operations",
+      "Leave Travel Concession (LTC) and leave encashment under West Bengal Service Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "West Bengal Police Sub-Inspector recruitment attracts graduate applicants from across the state. Vacancy counts are verified directly from WBPRB official employment notifications. Applicant counts are reported from official administrative briefings.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 180000,
+        "vacancies": 464,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 388 (calculated: reported applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Employment Notice No. WBPRB/NOTICE - 2024/16 (SI_WBP_24) notifying 464 vacancies (Unarmed Branch: 364; Armed Branch: 100)."
+      },
+      {
+        "year": 2020,
+        "applicants": 280000,
+        "vacancies": 1088,
+        "shortlisted_for_mains": 16500,
+        "selectivity_ratio": "approx. 1 in 257 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-01-22",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Information to Applicants for Recruitment to the Post of Sub-Inspector/Lady Sub-Inspector of Police in WBP 2020 notifying 1,088 vacancies (SI UB: 753; Lady SI UB: 150; SI AB: 185)."
+      },
+      {
+        "year": 2019,
+        "applicants": 220000,
+        "vacancies": 668,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 329 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2019-08-10",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Employment Notice for Recruitment to the Post of Sub-Inspector (UB & AB) in West Bengal Police 2019 notifying 668 vacancies."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, detailed syllabus, and application instructions for West Bengal Police Sub-Inspector examinations are hosted on the West Bengal Police Recruitment Board and Police Directorate web portals.",
+    "links": [
+      {
+        "label": "West Bengal Police Directorate — Official Recruitment Notifications",
+        "url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "West Bengal Police Recruitment Board (WBPRB) — Official Portal",
+        "url": "https://prb.wb.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "West Bengal Police — Official Departmental Website",
+        "url": "https://wbpolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

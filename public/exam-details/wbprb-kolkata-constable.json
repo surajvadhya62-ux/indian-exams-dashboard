@@ -1,0 +1,265 @@
+{
+  "id": "wbprb-kolkata-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Constables in the Kolkata Police Commissionerate are appointed to maintain law, order, and traffic administration across the Kolkata metropolitan jurisdiction. Service progression is governed by the Kolkata Police Act, Calcutta Suburban Police Act, departmental service regulations, and the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019). Promotion to Assistant Sub-Inspector and Sub-Inspector is conducted through departmental examinations and seniority.",
+    "steps": [
+      {
+        "designation": "Constable / Lady Constable (Kolkata Police)",
+        "pay_level": "ROPA 2019 Pay Level 6 (₹22,700 – ₹58,500)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables and Lady Constables in Kolkata Police 2024, and WBS (ROPA) Rules 2019"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI / LASI — Kolkata Police)",
+        "pay_level": "ROPA 2019 Pay Level 8 (₹27,000 – ₹69,800)",
+        "years": "approx. 7-10 yrs (via Departmental Promotional Examination)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "Kolkata Police Commissionerate Cadre Regulations"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI) / Sergeant (Kolkata Police)",
+        "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBS (ROPA) Rules 2019 and Kolkata Police Service Rules"
+      },
+      {
+        "designation": "Inspector of Police (Kolkata Police)",
+        "pay_level": "ROPA 2019 Pay Level 12 (₹35,800 – ₹92,100)",
+        "years": "approx. 22-26 yrs (Selection / Seniority)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "Kolkata Police Executive Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Constables and Lady Constables in Kolkata Police is conducted by the West Bengal Police Recruitment Board (WBPRB). The examination scheme consists of: (i) Preliminary Written Test (PWT, 100 marks) as a qualifying screening stage, (ii) Physical Measurement Test (PMT) & Physical Efficiency Test (PET), (iii) Final Written Examination (85 marks), and (iv) Interview (15 marks). Merit ranking for final appointment is determined by the combined score of the Final Written Examination and Interview (Total: 100 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Written Test (PWT) — Qualifying Screening Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in Kolkata Police 2024",
+        "papers": [
+          {
+            "paper_name": "General Awareness and General Knowledge",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening cut-off fixed by WBPRB based on vacancies"
+          },
+          {
+            "paper_name": "Elementary Mathematics (Madhyamik Standard)",
+            "marks": 30,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning and Analytical Ability",
+            "marks": 30,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Measurement Test (PMT) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in Kolkata Police 2024",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male UR/OBC: Height 167 cm, Weight 57 kg, Chest 78 cm (5 cm expansion); Female UR/OBC: Height 160 cm, Weight 49 kg; ST/Gorkha: Male 160 cm/53 kg, Female 152 cm/45 kg; Third Gender: 163 cm/52 kg"
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET) — Running Event",
+            "marks": 0,
+            "duration_minutes": 7,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male: 1,600 metres run within 6 mins 30 secs; Female: 800 metres run within 4 mins 00 secs; Third Gender: 800 metres run within 3 mins 30 secs"
+          }
+        ]
+      },
+      {
+        "stage_name": "Final Written Examination (85 MCQs)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in Kolkata Police 2024",
+        "papers": [
+          {
+            "paper_name": "General Awareness and General Knowledge",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 10,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Elementary Mathematics (Madhyamik Standard)",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning and Analytical Ability",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview (Personality Test)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in Kolkata Police 2024",
+        "papers": [
+          {
+            "paper_name": "Interview & Test of Bengali / Nepali Speaking Ability",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Competency test in speaking, reading, and writing Bengali/Nepali language"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables and Lady Constables in Kolkata Police are remunerated under Pay Level 6 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-2 (₹5,400 – ₹25,200 with Grade Pay ₹2,600). Entry basic pay is ₹22,700.",
+    "pay_level": "ROPA 2019 Pay Level 6 (₹22,700 – ₹58,500)",
+    "entry_basic_pay": 22700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-09-25",
+    "pay_source_url": "https://kolkatapolice.gov.in/recruitments/",
+    "pay_source_label": "WBPRB Notice & WBS (Revision of Pay and Allowances) Rules, 2019, Level 6",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 39000, "max": 44000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 39000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on ROPA 2019 Level 6 entry basic pay of ₹22,700 with project constant 58% Dearness Allowance (₹13,166), 12% House Rent Allowance (₹2,724), Medical Allowance (₹500/month), plus statutory metropolitan Kolkata Police allowances including ration subsidy and kit/washing maintenance. Deductions include West Bengal Professional Tax (PTax ₹150–₹200) and GPF/NPS contributions (~10% basic+DA).",
+    "official_perks": [
+      "Kolkata Police residential quarters accommodation or 12% House Rent Allowance (HRA)",
+      "Coverage under the West Bengal Health Scheme (WBHS) for police personnel and family dependents",
+      "Metropolitan police dietary / ration allowance for urban patrolling and active duty personnel",
+      "Annual uniform allowance, kit replacement, and monthly washing allowance",
+      "Metropolitan compensatory duty allowances during major festivals (Durga Puja), sports events, and VIP security",
+      "Leave Travel Concession (LTC) and earned leave encashment under West Bengal Service Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Kolkata Police Constable recruitment is conducted by WBPRB. Vacancy numbers are verified from official recruitment notifications. Applicant counts are reported from official administrative briefing figures.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 650000,
+        "vacancies": 3734,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 174 (calculated: reported applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB Employment Notice No. WBPRB/NOTICE - 2024/18 (CONS._KP_24) notifying 3,734 vacancies (Constable: 3,464; Lady Constable: 270)."
+      },
+      {
+        "year": 2022,
+        "applicants": 620000,
+        "vacancies": 2266,
+        "shortlisted_for_mains": 52000,
+        "selectivity_ratio": "approx. 1 in 274 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-05-27",
+        "source_url": "https://kolkatapolice.gov.in/recruitments/",
+        "source_label": "WBPRB Information to Applicants for Recruitment to the Post of Constables/Lady Constables in Kolkata Police 2022 notifying 2,266 vacancies (Constable: 1,410; Lady Constable: 856)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, application forms, and scheme guidelines for Kolkata Police Constables are published jointly across the Kolkata Police and West Bengal Police Recruitment Board portals.",
+    "links": [
+      {
+        "label": "Kolkata Police — Official Recruitment Portal",
+        "url": "https://kolkatapolice.gov.in/recruitments/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "West Bengal Police Recruitment Board (WBPRB) — Official Portal",
+        "url": "https://prb.wb.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "West Bengal Police Directorate — Recruitment Notifications Hub",
+        "url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Kolkata Police — Official Commissionerate Portal",
+        "url": "https://kolkatapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

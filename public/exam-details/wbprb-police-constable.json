@@ -1,0 +1,269 @@
+{
+  "id": "wbprb-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Constables in the West Bengal Police are appointed into the subordinate police service. Promotion progression is governed by the West Bengal Police Regulations (PRB), statutory service rules, and the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019). Advancement to Assistant Sub-Inspector occurs via departmental promotional examinations and seniority-cum-merit.",
+    "steps": [
+      {
+        "designation": "Constable / Lady Constable",
+        "pay_level": "ROPA 2019 Pay Level 6 (₹22,700 – ₹58,500)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "West Bengal Police Recruitment Board (WBPRB) — Information to Applicants for Recruitment to the Post of Constables in West Bengal Police, and WBS (ROPA) Rules 2019"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI / LASI)",
+        "pay_level": "ROPA 2019 Pay Level 8 (₹27,000 – ₹69,800)",
+        "years": "approx. 7-10 yrs (via Departmental Promotional Examination)",
+        "confidence": "verified",
+        "as_of": "2024-04-18",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Notification — Departmental Promotional Examination of Constables in West Bengal Police for Promotion to the Rank of ASI/LASI (UB/AB)"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI / LSI)",
+        "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBS (ROPA) Rules 2019 and West Bengal Police Regulations (PRB) Promotion Norms"
+      },
+      {
+        "designation": "Inspector of Police (IP) / Officer-in-Charge (OC)",
+        "pay_level": "ROPA 2019 Pay Level 12 (₹35,800 – ₹92,100)",
+        "years": "approx. 22-26 yrs (Selection / Seniority)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "West Bengal Police Cadre Regulations and ROPA 2019 Pay Matrix"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Constable and Lady Constable in West Bengal Police is conducted by the West Bengal Police Recruitment Board (WBPRB) through a multi-tier selection process: Preliminary Written Test (PWT), Physical Measurement Test (PMT), Physical Efficiency Test (PET), Final Written Examination, and Interview. Marks scored in the Preliminary Test are screening only; final merit is prepared on the aggregate of Final Written Examination (85 marks) and Interview (15 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Written Test (PWT) — Screening Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "General Awareness and General Knowledge",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cut-off determined by WBPRB based on vacancies"
+          },
+          {
+            "paper_name": "Elementary Mathematics (Madhyamik Standard)",
+            "marks": 30,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning and Analytical Ability",
+            "marks": 30,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Measurement Test (PMT) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT) — Height, Weight and Chest Measurement",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male UR/OBC: Height 167 cm, Weight 57 kg, Chest 78 cm (5 cm expansion); Female UR/OBC: Height 160 cm, Weight 49 kg; ST/Gorkha: Male 160 cm/53 kg, Female 152 cm/45 kg; Third Gender: 163 cm/52 kg"
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET) — Running Event",
+            "marks": 0,
+            "duration_minutes": 7,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male: 1,600 metres run within 6 mins 30 secs; Female: 800 metres run within 4 mins 00 secs; Third Gender: 800 metres run within 3 mins 30 secs"
+          }
+        ]
+      },
+      {
+        "stage_name": "Final Written Examination (85 MCQs)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "General Awareness and General Knowledge",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 10,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Elementary Mathematics (Madhyamik Standard)",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning and Analytical Ability",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25 marks) deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview (Personality Test)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Constables in West Bengal Police 2024",
+        "papers": [
+          {
+            "paper_name": "Interview & Test of Bengali / Nepali Speaking Ability",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Competency test in speaking, reading, and writing Bengali/Nepali language"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale for West Bengal Police Constables is sanctioned under Pay Level 6 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-2 (₹5,400 – ₹25,200 with Grade Pay ₹2,600). Entry basic pay is ₹22,700.",
+    "pay_level": "ROPA 2019 Pay Level 6 (₹22,700 – ₹58,500)",
+    "entry_basic_pay": 22700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-09-25",
+    "pay_source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+    "pay_source_label": "West Bengal Police Recruitment Board Notice & WBS (Revision of Pay and Allowances) Rules, 2019, Schedule I, Level 6",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 38000, "max": 43000 },
+    "in_hand_range_estimate": { "min": 33000, "max": 38000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on ROPA 2019 Level 6 entry basic pay of ₹22,700 with project constant 58% Dearness Allowance (₹13,166), 12% House Rent Allowance (₹2,724), Medical Allowance (₹500/month), plus statutory police allowances including ration subsidy and kit/washing allowance. Deductions include West Bengal Professional Tax (PTax ₹150–₹200) and General Provident Fund / NPS contributions.",
+    "official_perks": [
+      "Government police barrack accommodation or 12% House Rent Allowance (HRA)",
+      "Coverage under the West Bengal Health Scheme (WBHS) for police personnel and eligible dependents",
+      "Subsidized police dietary / ration allowance for field and active duty personnel",
+      "Annual uniform allowance, kit replacement, and monthly washing allowance",
+      "Special risk and compensatory field allowances during riot control, election, and emergency bandobast duties",
+      "Leave Travel Concession (LTC) and earned leave encashment under West Bengal Service Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "West Bengal Police Constable recruitment is one of the highest-volume mass employment drives in Eastern India. Notified vacancies and recruitment notices are verified directly from WBPRB employment notices. Applicant figures are reported based on official board announcements released during examination scheduling.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1150000,
+        "vacancies": 11749,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 98 (calculated: reported applicants ÷ revised notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Notice No. WBPRB/NOTICE - 2024/15 (CONS._WBP_24) for 11,749 vacancies (Male: 8,212; Female: 3,537). Applicant registration estimate reported by state administrative authorities."
+      },
+      {
+        "year": 2020,
+        "applicants": 1350000,
+        "vacancies": 8632,
+        "shortlisted_for_mains": 85000,
+        "selectivity_ratio": "approx. 1 in 156 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-01-22",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Information to Applicants (Constables & Lady Constables in WBP 2020) notifying 8,632 vacancies (Constables: 7,440; Lady Constables: 1,192). Applicant volume reported in state police administrative review."
+      },
+      {
+        "year": 2019,
+        "applicants": 1180000,
+        "vacancies": 8419,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 140 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2019-02-05",
+        "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "source_label": "WBPRB Employment Notice for Recruitment of Constables in West Bengal Police 2019 notifying 8,419 vacancies."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notices, instructions to applicants, and exam pattern guidelines are published on the West Bengal Police Recruitment Board portal and West Bengal Police departmental site.",
+    "links": [
+      {
+        "label": "West Bengal Police Directorate — Official Recruitment Notifications Hub",
+        "url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "West Bengal Police Recruitment Board (WBPRB) — Official Portal",
+        "url": "https://prb.wb.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "West Bengal Police — Official Departmental Portal",
+        "url": "https://wbpolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

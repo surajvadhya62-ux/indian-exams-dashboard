@@ -3,9 +3,9 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 252,
+    "verified": 257,
     "partial": 0,
-    "not_started": 252,
+    "not_started": 247,
     "exams_total": 504,
     "detail_files_exist": 330,
     "total_exams": 504,
@@ -874,6 +874,22 @@
         "ojee"
       ],
       "notes": "Completed Unit 92 (u092): 7 Odisha examinations across Odisha Subordinate Staff Selection Commission / OSSSC (CRE for RI, ARI, Amin; PEO & Junior Assistant; Combined Forest Guard, Forester & Livestock Inspector; Multipurpose Health Worker), State Selection Board / Odisha Police Recruitment Board / OPRB (Constable & Sepoy; Sub-Inspector of Police), and Odisha Joint Entrance Examination Committee (OJEE). Fully researched and audited from primary statutory rules, pay revisions (ORSP Rules 2017 Levels 3, 4, 5, 7, 9 with mandatory 58% DA constant), and official selection results; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u093",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--west-bengal"
+      ],
+      "exam_ids_touched": [
+        "wbprb-police-constable",
+        "wbprb-police-si",
+        "wbprb-kolkata-constable",
+        "wbprb-kolkata-si",
+        "wbprb-excise-constable"
+      ],
+      "notes": "Completed Unit 93 (u093): 5 West Bengal police and enforcement examinations across West Bengal Police Recruitment Board / WBPRB (West Bengal Police Constable & Lady Constable, West Bengal Police Sub-Inspector UB/AB, Kolkata Police Constable & Lady Constable, Kolkata Police Sub-Inspector UB & Sergeant, and Excise Constable & Lady Excise Constable). Fully researched and audited from primary statutory rules, pay matrices (WBS ROPA 2019 Level 6 and Level 10), and official recruitment notifications; validated with zero errors."
     }
   ],
   "exams": {
@@ -14768,42 +14784,52 @@
       "batch_id": "batch-5-subordinate-police-boards--west-bengal",
       "detail_file": "public/exam-details/wbprb-police-constable.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         }
       },
       "flags": []
@@ -14812,42 +14838,52 @@
       "batch_id": "batch-5-subordinate-police-boards--west-bengal",
       "detail_file": "public/exam-details/wbprb-police-si.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         }
       },
       "flags": []
@@ -14856,42 +14892,52 @@
       "batch_id": "batch-5-subordinate-police-boards--west-bengal",
       "detail_file": "public/exam-details/wbprb-kolkata-constable.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         }
       },
       "flags": []
@@ -14900,42 +14946,52 @@
       "batch_id": "batch-5-subordinate-police-boards--west-bengal",
       "detail_file": "public/exam-details/wbprb-kolkata-si.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         }
       },
       "flags": []
@@ -14944,42 +15000,52 @@
       "batch_id": "batch-5-subordinate-police-boards--west-bengal",
       "detail_file": "public/exam-details/wbprb-excise-constable.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u093"
         }
       },
       "flags": []
