@@ -955,6 +955,21 @@
       "notes": "Completed Unit 96 (u096): 3 Jharkhand state examinations across JSSC (Combined Graduate Level / JGGLCCE and Jharkhand Excise Constable / JECCE) and JAC Ranchi (Jharkhand Teacher Eligibility Test / JTET). Fully audited and updated from primary statutory rules, Jharkhand Revised Pay Rules 2017, and official recruitment notifications; validated with zero errors."
     },
     {
+      "session_id": "2026-09-13-u098",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--kerala"
+      ],
+      "exam_ids_touched": [
+        "ktet",
+        "kerala-judicial-service",
+        "keam",
+        "klee"
+      ],
+      "notes": "Completed Unit 98 (u098): 4 Kerala state examinations across Pareeksha Bhavan Kerala (Kerala Teacher Eligibility Test / KTET), High Court of Kerala (Kerala Judicial Service Munsiff-Magistrate), and Commissioner for Entrance Examinations / CEE Kerala (Kerala Engineering Architecture Medical / KEAM and Kerala Law Entrance Examination / KLEE). Fully audited and updated from primary statutory prospectuses, KCSR 11th Pay Revision & SNJPC judicial pay scales, and official result notifications; all dossiers validated with zero errors."
+    },
+    {
       "session_id": "2026-09-13-u099",
       "date": "2026-09-13",
       "operator": "antigravity-ai",
@@ -1709,44 +1724,47 @@
         "career_ladder": {
           "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": "Entrance exam; no recruitment career ladder or appointment cadre.",
+          "unavailable_reason": "Undergraduate engineering, architecture & pharmacy entrance examination (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "exam_scheme": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "financial_package": {
           "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": "Entrance exam; no salary or recruitment pay package.",
+          "unavailable_reason": "Undergraduate engineering, architecture & pharmacy entrance examination (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "competition_benchmarks": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "https://cee.kerala.gov.in/keam2026/pdf/Engg_Highlights.pdf"
+            "https://cee.kerala.gov.in/keam2026/pdf/Engg_Highlights.pdf",
+            "https://cee.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "official_downloads": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf",
-            "https://cee.kerala.gov.in/keam2026/"
+            "https://cee.kerala.gov.in/keam2026/pdf/Engg_Highlights.pdf",
+            "https://cee.kerala.gov.in/keam2026/",
+            "https://cee.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         }
       },
       "flags": []
@@ -7872,44 +7890,50 @@
         "career_ladder": {
           "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": "Entrance exam; no recruitment career ladder or appointment cadre.",
+          "unavailable_reason": "Undergraduate & postgraduate professional law entrance examination (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "exam_scheme": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://cee.kerala.gov.in/llb52026/pdf/Prospectus.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "financial_package": {
           "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": "Entrance exam; no salary or recruitment pay package.",
+          "unavailable_reason": "Undergraduate & postgraduate professional law entrance examination (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "competition_benchmarks": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "https://cee.kerala.gov.in/llb52026/list/llb5_RankList_final.pdf"
+            "https://cee.kerala.gov.in/llb52026/list/llb5_RankList_final.pdf",
+            "https://cee.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "official_downloads": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://cee.kerala.gov.in/llb52026/pdf/Prospectus.pdf",
-            "https://cee.kerala.gov.in/llb52026/"
+            "https://cee.kerala.gov.in/llb32026/pdf/Prospectus.pdf",
+            "https://cee.kerala.gov.in/llb52026/list/llb5_RankList_final.pdf",
+            "https://cee.kerala.gov.in/llb32026/list/llb3_RankList.pdf",
+            "https://cee.kerala.gov.in/llb52026/",
+            "https://cee.kerala.gov.in/llb32026/",
+            "https://cee.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         }
       },
       "flags": []
@@ -9386,50 +9410,58 @@
       "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://ktet.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "exam_scheme": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "https://ktet.kerala.gov.in/syllabus/syllabus1.pdf"
+            "https://ktet.kerala.gov.in/syllabus/syllabus1.pdf",
+            "https://ktet.kerala.gov.in/syllabus/syllabus2.pdf",
+            "https://ktet.kerala.gov.in/syllabus/syllabus3.pdf",
+            "https://ktet.kerala.gov.in/syllabus/syllabus4.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "financial_package": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://ktet.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "competition_benchmarks": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "https://ktet.kerala.gov.in/results_june_2025/"
+            "https://ktet.kerala.gov.in/results_june_2025/",
+            "https://ktet.kerala.gov.in/results_nov_2024/"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "official_downloads": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://ktet.kerala.gov.in/syllabus/syllabus1.pdf",
-            "https://ktet.kerala.gov.in/downloads/feb2026/feb2026.pdf"
+            "https://ktet.kerala.gov.in/syllabus/syllabus2.pdf",
+            "https://ktet.kerala.gov.in/syllabus/syllabus3.pdf",
+            "https://ktet.kerala.gov.in/syllabus/syllabus4.pdf",
+            "https://ktet.kerala.gov.in/downloads/feb2026/feb2026.pdf",
+            "https://ktet.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         }
       },
       "flags": []
@@ -20940,50 +20972,50 @@
       "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://hckrecruitment.keralacourts.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "exam_scheme": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://hckrecruitment.keralacourts.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "financial_package": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://hckrecruitment.keralacourts.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "competition_benchmarks": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://hckrecruitment.keralacourts.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         },
         "official_downloads": {
-          "status": "available",
+          "status": "populated",
           "citations": [
             "https://hckrecruitment.keralacourts.in/hckrecruitment/Login",
             "https://highcourt.kerala.gov.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "researcher"
+          "updated_by": "2026-09-13-u098"
         }
       },
       "flags": []

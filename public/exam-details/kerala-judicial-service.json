@@ -1,0 +1,250 @@
+{
+  "id": "kerala-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Kerala are appointed under the Kerala Judicial Service Rules, 1991 under the superintendence and administrative control of the High Court of Kerala. Pay scales follow the Second National Judicial Pay Commission (SNJPC) revised pay matrix for the Subordinate Judiciary, with advancement based on seniority-cum-merit and suitability evaluations.",
+    "steps": [
+      {
+        "designation": "Munsiff-Magistrate (Civil Judge Junior Division / Judicial Magistrate First Class)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "Kerala Judicial Service Rules, 1991 and Second National Judicial Pay Commission (SNJPC) Revised Pay Matrix"
+      },
+      {
+        "designation": "Subordinate Judge (Sub Judge) / Chief Judicial Magistrate (CJM) / Assistant Sessions Judge",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "High Court of Kerala Subordinate Judiciary Promotion Regulations"
+      },
+      {
+        "designation": "Subordinate Judge (Selection Grade)",
+        "pay_level": "SNJPC Level J-4 (₹1,39,200 - ₹1,79,150)",
+        "years": "approx. 10-14 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Assured Career Progression Structure"
+      },
+      {
+        "designation": "District & Sessions Judge (Entry Level) / Additional District Judge (ADJ)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "Kerala Higher Judicial Service Rules and Constitution of India Article 233"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade)",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "SNJPC Higher Judicial Service Selection Grade Matrix"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (Super Time Scale)",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "High Court of Kerala Higher Judicial Service Super Time Scale Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process conducted directly by the High Court of Kerala consists of three successive stages: Preliminary Examination (Objective screening of 100 questions carrying 200 marks), Main Written Examination (4 descriptive papers of 100 marks each, 3 hours duration each), followed by a Viva-Voce test (50 marks). Final merit list is determined by the aggregate marks obtained in the Main Written Examination and Viva-Voce (total 450 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "High Court of Kerala Kerala Judicial Service Examination Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "Part A: Civil Laws (CPC, Indian Contract Act, Negotiable Instruments Act, Transfer of Property Act, Specific Relief Act, Kerala Building Lease and Rent Control Act)",
+            "marks": 70,
+            "duration_minutes": 120,
+            "negative_marking": "-0.5 (deduction of 1/4th mark per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (80/200) for General/OBC; 35% (70/200) for SC/ST; shortlisted for Mains in a 1:10 ratio of notified vacancies"
+          },
+          {
+            "paper_name": "Part B: Criminal Laws (CrPC, Indian Penal Code, Indian Evidence Act)",
+            "marks": 70,
+            "duration_minutes": 120,
+            "negative_marking": "-0.5 (deduction of 1/4th mark per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C: Constitution of India, Legal General Knowledge, Reasoning and Mental Ability",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "-0.5 (deduction of 1/4th mark per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive Law Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "High Court of Kerala Munsiff-Magistrate Written Examination Regulations",
+        "papers": [
+          {
+            "paper_name": "Paper I: English Essay, Translation (English to Malayalam & Malayalam to English), Precis Writing and Legal Notes",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper and 45% aggregate (35% in each paper and 40% aggregate for SC/ST)"
+          },
+          {
+            "paper_name": "Paper II: Civil Laws (Indian Contract Act, Transfer of Property Act, Limitation Act, Specific Relief Act, Easements Act, Kerala Building Lease & Rent Control Act, Hindu Succession Act, Indian Succession Act, Kerala Land Reforms Act)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper and 45% aggregate (35% in each paper and 40% aggregate for SC/ST)"
+          },
+          {
+            "paper_name": "Paper III: Criminal Laws (Indian Penal Code, Criminal Procedure Code, Indian Evidence Act)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper and 45% aggregate (35% in each paper and 40% aggregate for SC/ST)"
+          },
+          {
+            "paper_name": "Paper IV: Civil Rules of Practice, Kerala Court Fees and Suits Valuation Act, Kerala Stamp Act, Criminal Rules of Practice, Framing of Charges and Judgment Writing",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper and 45% aggregate (35% in each paper and 40% aggregate for SC/ST)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "Kerala Judicial Service Rules, 1991 (Viva-Voce Evaluation Clause)",
+        "papers": [
+          {
+            "paper_name": "Oral Interview & Comprehensive Legal Personality Assessment",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% (20 marks out of 50) for General/OBC; 35% (17.5 marks out of 50) for SC/ST candidates"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per the Second National Judicial Pay Commission (SNJPC) revised pay matrix for the Subordinate Judiciary (Level J-1: ₹77,840–₹1,36,520; Entry Basic Pay ₹77,840) as accepted by the Government of Kerala pursuant to Supreme Court directives. Applies standardized project constant 58% DA as of 2025-07-01.",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://hckrecruitment.keralacourts.in",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) Recommendation Matrix and Government of Kerala Implementation Order",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 132000,
+      "max": 148000
+    },
+    "in_hand_range_estimate": {
+      "min": 116000,
+      "max": 129000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹77,840 at mandatory 58% DA (₹45,147) plus Judicial HRA / designated government judicial quarters, sumptuary allowance (₹4,000), robe allowance, conveyance allowance, and electricity/water reimbursement, less statutory pension and income tax deductions.",
+    "official_perks": [
+      "Designated judicial bungalow / official residence or judicial HRA",
+      "Official vehicle / conveyance allowance with driver",
+      "Sumptuary allowance, library allowance, and book grant as per SNJPC",
+      "Free electricity and water quota as prescribed under judicial service rules",
+      "Comprehensive medical cover for officer and family dependents under judicial regulations",
+      "Robe allowance and telephone / broadband reimbursement"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment milestones compiled from High Court of Kerala notifications and selection declarations for Munsiff-Magistrate posts.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 9850,
+        "vacancies": 52,
+        "shortlisted_for_mains": 520,
+        "selectivity_ratio": "approx. 1 in 189 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-12-31",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "High Court of Kerala Munsiff-Magistrate Recruitment Notification and Preliminary Screening Results"
+      },
+      {
+        "year": 2023,
+        "applicants": 8920,
+        "vacancies": 45,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 198 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-12-31",
+        "source_url": "https://hckrecruitment.keralacourts.in",
+        "source_label": "High Court of Kerala Kerala Judicial Service Recruitment Selection Data"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, recruitment portals, and syllabi hosted by the High Court of Kerala.",
+    "links": [
+      {
+        "label": "High Court of Kerala Online Recruitment Portal",
+        "url": "https://hckrecruitment.keralacourts.in/hckrecruitment/Login",
+        "type": "notification",
+        "cycle_label": "HCK Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "High Court of Kerala Official Website",
+        "url": "https://highcourt.kerala.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

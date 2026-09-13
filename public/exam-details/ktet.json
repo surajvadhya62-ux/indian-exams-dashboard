@@ -1,0 +1,335 @@
+{
+  "id": "ktet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Qualifying KTET is a statutory requirement under the Right to Education (RTE) Act 2009 for appointment as school teachers in Kerala Government and Aided schools through the Kerala Public Service Commission (KPSC). Pay scales and career progression operate under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) with time-bound higher grade (TBHG) increments at 8, 15, 22, and 27 years of service.",
+    "steps": [
+      {
+        "designation": "Lower Primary School Assistant (LPSA) / Upper Primary School Assistant (UPSA)",
+        "pay_level": "Scale ₹35,600 – ₹75,400",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in",
+        "source_label": "Government of Kerala 11th State Pay Commission Revision (G.O.(P) No. 27/2021/Fin) and General Education Department Cadre Rules"
+      },
+      {
+        "designation": "High School Assistant (HSA) / High School Teacher (HST)",
+        "pay_level": "Scale ₹39,300 – ₹83,000",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in",
+        "source_label": "Kerala State Education Department Special Rules for High School Cadres"
+      },
+      {
+        "designation": "Higher Secondary School Teacher (Junior) / HSST (Jr)",
+        "pay_level": "Scale ₹45,600 – ₹95,600",
+        "years": "approx. 10-14 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in",
+        "source_label": "Kerala Higher Secondary Education State Service Rules"
+      },
+      {
+        "designation": "Higher Secondary School Teacher (HSST) / Senior Teacher",
+        "pay_level": "Scale ₹55,200 – ₹1,15,300",
+        "years": "approx. 15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in",
+        "source_label": "Kerala Higher Secondary Education Cadre Promotion Regulations"
+      },
+      {
+        "designation": "Headmaster / Headmistress (LP/UP/High School)",
+        "pay_level": "Scale ₹55,200 – ₹1,15,300 / ₹59,300 – ₹1,20,900",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in",
+        "source_label": "Kerala General Education Department School Head Administration Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted by the Pareeksha Bhavan, Government of Kerala across four distinct categories adhering to NCTE norms. Each paper comprises 150 multiple choice questions carrying 150 marks for a duration of 150 minutes (2 hours 30 minutes). There is no negative marking. Qualifying threshold is 60% (90/150) for General category and 55% (82/150) for SC/ST/OBC/OEC/PH candidates. Qualified certificates carry lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Category I: Lower Primary Classes (Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in/syllabus/syllabus1.pdf",
+        "source_label": "Pareeksha Bhavan Kerala K-TET Category I Syllabus and Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Elementary Child Development, Inclusive Education, Learning Theories)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150) for General; 55% (82/150) for SC/ST/OBC/PH"
+          },
+          {
+            "paper_name": "Language I (Malayalam / Tamil / Kannada)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II (English / Arabic)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Content & Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies (Content & Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Category II: Upper Primary Classes (Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in/syllabus/syllabus2.pdf",
+        "source_label": "Pareeksha Bhavan Kerala K-TET Category II Syllabus and Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Upper Primary Child Development & Learning Process)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150) for General; 55% (82/150) for SC/ST/OBC/PH"
+          },
+          {
+            "paper_name": "Language I (Malayalam / Tamil / Kannada / English)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II (English / Malayalam)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Subject Area: Mathematics & Science OR Social Science (Content & Pedagogical Analysis)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Category III: High School Classes (Classes VIII to X)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in/syllabus/syllabus3.pdf",
+        "source_label": "Pareeksha Bhavan Kerala K-TET Category III Syllabus and Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Adolescent Psychology, Theories of Learning & Teaching Aptitude",
+            "marks": 40,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150) for General; 55% (82/150) for SC/ST/OBC/PH"
+          },
+          {
+            "paper_name": "Language (Malayalam / English / Tamil / Kannada)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Subject Specific Discipline: Content & Pedagogical Analysis",
+            "marks": 80,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Category IV: Language & Specialist Teachers (Up to Upper Primary / High School Level)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://ktet.kerala.gov.in/syllabus/syllabus4.pdf",
+        "source_label": "Pareeksha Bhavan Kerala K-TET Category IV Syllabus and Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Adolescent Psychology, Theories of Learning & Teaching Aptitude",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150) for General; 55% (82/150) for SC/ST/OBC/PH"
+          },
+          {
+            "paper_name": "Language I (Malayalam / English / Tamil / Kannada)",
+            "marks": 40,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Specialist Discipline: Arabic / Hindi / Sanskrit / Urdu / Art & Craft / Physical Education",
+            "marks": 80,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per Kerala State 11th Pay Revision (Scale ₹35,600–₹75,400; Entry Basic Pay ₹35,600) for Lower Primary / Upper Primary School Assistant (LPSA/UPSA) teachers appointed pursuant to KTET qualification and KPSC selection. In-hand estimate applies standardized project constant 58% DA as of 2025-07-01.",
+    "pay_level": "Scale ₹35,600 – ₹75,400 (LPSA / UPSA Entry Scale)",
+    "entry_basic_pay": 35600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://ktet.kerala.gov.in",
+    "pay_source_label": "Government of Kerala Finance Department 11th State Pay Revision (G.O.(P) No. 27/2021/Fin)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 58000,
+      "max": 64000
+    },
+    "in_hand_range_estimate": {
+      "min": 52000,
+      "max": 58000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic pay of ₹35,600 with mandatory 58% DA (₹20,648) plus House Rent Allowance (varying between ₹1,500 and ₹3,560 depending on Corporation, Municipality, or Grama Panchayat posting) and medical allowances, less statutory pension/NPS, State Life Insurance (SLI), and Group Insurance Scheme (GIS) deductions.",
+    "official_perks": [
+      "State Government House Rent Allowance (HRA) based on local body classification",
+      "Medical insurance coverage under MEDISEP for government school teachers and dependents",
+      "Statutory pension / National Pension System (NPS) superannuation benefits",
+      "Time-Bound Higher Grade (TBHG) pay promotions at 8, 15, 22, and 27 years of service",
+      "Earned leave, maternity/paternity leave, and summer vacation privileges under Kerala Service Rules (KSR)",
+      "State Life Insurance (SLI) and Group Insurance Scheme (GIS) protection"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration, appearance, and qualification statistics compiled from official Pareeksha Bhavan Kerala results releases.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 125000,
+        "vacancies": null,
+        "shortlisted_for_mains": 39240,
+        "selectivity_ratio": "approx. 31.4% pass rate (39,240 candidates declared qualified across Categories I to IV)",
+        "confidence": "reported",
+        "as_of": "2025-10-15",
+        "source_url": "https://ktet.kerala.gov.in/results_june_2025/",
+        "source_label": "Pareeksha Bhavan Kerala Official Result Declaration for K-TET June 2025 Examination"
+      },
+      {
+        "year": 2024,
+        "applicants": 118400,
+        "vacancies": null,
+        "shortlisted_for_mains": 35820,
+        "selectivity_ratio": "approx. 30.2% pass rate (35,820 candidates declared qualified across Categories I to IV)",
+        "confidence": "reported",
+        "as_of": "2024-12-28",
+        "source_url": "https://ktet.kerala.gov.in/results_nov_2024/",
+        "source_label": "Pareeksha Bhavan Kerala Official Result Release for K-TET November 2024 Examination"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, model question papers, and syllabi hosted on the Pareeksha Bhavan Kerala portal.",
+    "links": [
+      {
+        "label": "K-TET Category I (Lower Primary) Official Syllabus (PDF)",
+        "url": "https://ktet.kerala.gov.in/syllabus/syllabus1.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "K-TET Category II (Upper Primary) Official Syllabus (PDF)",
+        "url": "https://ktet.kerala.gov.in/syllabus/syllabus2.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "K-TET Category III (High School) Official Syllabus (PDF)",
+        "url": "https://ktet.kerala.gov.in/syllabus/syllabus3.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "K-TET Category IV (Language & Specialist) Official Syllabus (PDF)",
+        "url": "https://ktet.kerala.gov.in/syllabus/syllabus4.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "K-TET Official Examination Notification (PDF)",
+        "url": "https://ktet.kerala.gov.in/downloads/feb2026/feb2026.pdf",
+        "type": "notification",
+        "cycle_label": "KTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Pareeksha Bhavan Kerala — K-TET Official Portal",
+        "url": "https://ktet.kerala.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "id": "klee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Kerala Law Entrance Examination (KLEE) is conducted as a Computer Based Test (CBT) by the Commissioner for Entrance Examinations (CEE), Government of Kerala for admission to 3-Year LL.B. and Integrated 5-Year LL.B. programmes in Government and Private Self-Financing Law Colleges in Kerala. The test comprises 120 objective questions across four sections for a total duration of 120 minutes (2 hours). Valuation awards 3 marks for each correct response, with 1 mark deducted for each incorrect response (total 360 marks). Qualifying cutoff is 10% of total marks (36 marks out of 360) for General/SEBC candidates and 5% of total marks (18 marks out of 360) for SC/ST candidates.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT) — Law Entrance Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-06-09",
+        "source_url": "https://cee.kerala.gov.in/llb52026/pdf/Prospectus.pdf",
+        "source_label": "CEE Kerala KLEE Prospectus (G.O.(Ms)No.419/2026/HEDN, Section on Scheme of Entrance Examination & Valuation)",
+        "papers": [
+          {
+            "paper_name": "General English (36 questions: Grammar, Vocabulary, Comprehension, Sentence Correction)",
+            "marks": 108,
+            "duration_minutes": 120,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 10% aggregate (36/360) for General/SEBC; 5% aggregate (18/360) for SC/ST"
+          },
+          {
+            "paper_name": "General Knowledge & Current Affairs (27 questions: History, Geography, Indian Polity, International Events)",
+            "marks": 81,
+            "duration_minutes": 120,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Arithmetic and Mental Ability (15 questions: Numerical Reasoning, Data Interpretation, Logical Sequences)",
+            "marks": 45,
+            "duration_minutes": 120,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Aptitude for Legal Studies (42 questions: Constitutional Law, Legal Propositions, Torts, Contracts, Crimes, Legal Maxims)",
+            "marks": 126,
+            "duration_minutes": 120,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Allotment Process (CAP) & Seat Counselling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-06-09",
+        "source_url": "https://cee.kerala.gov.in/llb52026/pdf/Prospectus.pdf",
+        "source_label": "CEE Kerala KLEE Centralized Seat Allotment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Online Option Registration & Single-Window Seat Allocation",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit rank based on aggregate KLEE CBT score out of 360"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant attendance, evaluation, and rank list statistics compiled from official CEE Kerala result notifications and merit lists.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 7699,
+        "vacancies": 3500,
+        "shortlisted_for_mains": 7699,
+        "selectivity_ratio": "approx. 1 in 2.2 (calculated: appearing candidates ÷ total available seats across 3-year and 5-year LL.B. programmes)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://cee.kerala.gov.in/llb52026/list/llb5_RankList_final.pdf",
+        "source_label": "Office of the Commissioner for Entrance Examinations Kerala Official Rank Lists for 5-Year LL.B. (4,880 ranked) and 3-Year LL.B. (2,819 ranked)"
+      },
+      {
+        "year": 2024,
+        "applicants": 7150,
+        "vacancies": 3400,
+        "shortlisted_for_mains": 7150,
+        "selectivity_ratio": "approx. 1 in 2.1 (calculated: appearing candidates ÷ total available seats across 3-year and 5-year LL.B. programmes)",
+        "confidence": "reported",
+        "as_of": "2024-08-30",
+        "source_url": "https://cee.kerala.gov.in",
+        "source_label": "CEE Kerala KLEE Results and Seat Allotment Release Data"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official prospectuses, rank lists, final answer keys, and candidate portals maintained by the Commissioner for Entrance Examinations (CEE), Kerala.",
+    "links": [
+      {
+        "label": "KLEE Integrated 5-Year LL.B. Official Prospectus (PDF)",
+        "url": "https://cee.kerala.gov.in/llb52026/pdf/Prospectus.pdf",
+        "type": "syllabus",
+        "cycle_label": "KLEE-5Yr-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KLEE Three-Year LL.B. Official Prospectus (PDF)",
+        "url": "https://cee.kerala.gov.in/llb32026/pdf/Prospectus.pdf",
+        "type": "syllabus",
+        "cycle_label": "KLEE-3Yr-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KLEE 5-Year LL.B. Final Rank List (PDF)",
+        "url": "https://cee.kerala.gov.in/llb52026/list/llb5_RankList_final.pdf",
+        "type": "other",
+        "cycle_label": "KLEE-5Yr-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KLEE 3-Year LL.B. Final Rank List (PDF)",
+        "url": "https://cee.kerala.gov.in/llb32026/list/llb3_RankList.pdf",
+        "type": "other",
+        "cycle_label": "KLEE-3Yr-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KLEE Integrated 5-Year LL.B. Candidate Portal",
+        "url": "https://cee.kerala.gov.in/llb52026/",
+        "type": "notification",
+        "cycle_label": "KLEE-5Yr-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KLEE Three-Year LL.B. Candidate Portal",
+        "url": "https://cee.kerala.gov.in/llb32026/",
+        "type": "notification",
+        "cycle_label": "KLEE-3Yr-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Commissioner for Entrance Examinations (CEE) Kerala State Portal",
+        "url": "https://cee.kerala.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

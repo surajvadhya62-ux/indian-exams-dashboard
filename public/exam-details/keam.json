@@ -1,0 +1,131 @@
+{
+  "id": "keam",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Kerala Engineering Architecture Medical (KEAM) is conducted by the Commissioner for Entrance Examinations (CEE), Government of Kerala. The Engineering Entrance Examination is conducted as a Computer Based Test (CBT) across multiple sessions with 150 objective multiple-choice questions (Mathematics: 75 questions, Physics: 45 questions, Chemistry: 30 questions) for a total duration of 180 minutes. For each correct response 4 marks are awarded, and 1 mark is deducted for each incorrect response. Raw scores out of 600 are normalized to an index mark out of 300. The final Engineering rank list is compiled with 50:50 equal weightage between normalized KEAM scores (300 marks) and standardized Class 12 / Plus Two Board examination marks in Mathematics, Physics, and Chemistry (300 marks).",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT) — Engineering Entrance Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-07-10",
+        "source_url": "https://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf",
+        "source_label": "CEE Kerala KEAM Prospectus (Clauses 9.4.1 to 9.4.4: Method of Examination & Scoring)",
+        "papers": [
+          {
+            "paper_name": "Mathematics (75 questions: Algebra, Calculus, Trigonometry, Coordinate Geometry, Vectors)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "At least one question must be answered to avoid disqualification"
+          },
+          {
+            "paper_name": "Physics (45 questions: Mechanics, Thermodynamics, Electrodynamics, Optics, Modern Physics)",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Chemistry (30 questions: Physical, Organic, and Inorganic Chemistry)",
+            "marks": 120,
+            "duration_minutes": 180,
+            "negative_marking": "-1 (deduction of 1 mark per incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Allotment Process (CAP) & Merit Normalization",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-07-10",
+        "source_url": "https://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf",
+        "source_label": "CEE Kerala KEAM Prospectus (Clause 9.7 & 11: Normalization & Single-Window Seat Allotment)",
+        "papers": [
+          {
+            "paper_name": "Standardization of Plus Two Marks & Composite Ranking (300 Marks KEAM CBT + 300 Marks Board PCM)",
+            "marks": 600,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 10 marks in KEAM CBT (exempted for SC/ST); 45% aggregate in 12th Board PCM (40% for reserved categories)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant attendance, qualification, and rank list statistics compiled from official CEE Kerala result releases and statistical reports.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 96747,
+        "vacancies": 49000,
+        "shortlisted_for_mains": 65438,
+        "selectivity_ratio": "approx. 1 in 1.97 (calculated: appearing candidates ÷ total available engineering seats)",
+        "confidence": "verified",
+        "as_of": "2026-06-27",
+        "source_url": "https://cee.kerala.gov.in/keam2026/pdf/Engg_Highlights.pdf",
+        "source_label": "Office of the Commissioner for Entrance Examinations Kerala KEAM 2026 Results Highlights (96,747 appeared, 79,788 qualified, 65,438 included in rank list)"
+      },
+      {
+        "year": 2024,
+        "applicants": 79044,
+        "vacancies": 48500,
+        "shortlisted_for_mains": 58340,
+        "selectivity_ratio": "approx. 1 in 1.63 (calculated: appearing candidates ÷ total available engineering seats)",
+        "confidence": "reported",
+        "as_of": "2024-07-11",
+        "source_url": "https://cee.kerala.gov.in",
+        "source_label": "CEE Kerala Official Press Release for KEAM Engineering Rank List (79,044 appeared, 58,340 qualified & ranked)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official prospectus, result highlights, rank lists, and online counselling portals hosted by the Commissioner for Entrance Examinations (CEE), Kerala.",
+    "links": [
+      {
+        "label": "KEAM Official Prospectus (PDF)",
+        "url": "https://cee.kerala.gov.in/keam2026/pdf/Prospectus.pdf",
+        "type": "syllabus",
+        "cycle_label": "KEAM-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KEAM Engineering Results & Rank List Highlights (PDF)",
+        "url": "https://cee.kerala.gov.in/keam2026/pdf/Engg_Highlights.pdf",
+        "type": "other",
+        "cycle_label": "KEAM-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "KEAM Candidate Portal & Single-Window Seat Allotment",
+        "url": "https://cee.kerala.gov.in/keam2026/",
+        "type": "notification",
+        "cycle_label": "KEAM-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Commissioner for Entrance Examinations (CEE) Kerala State Portal",
+        "url": "https://cee.kerala.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
