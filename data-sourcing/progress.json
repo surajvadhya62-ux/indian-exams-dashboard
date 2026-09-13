@@ -3,13 +3,13 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 266,
+    "verified": 271,
     "partial": 0,
-    "not_started": 238,
+    "not_started": 233,
     "exams_total": 504,
-    "detail_files_exist": 339,
+    "detail_files_exist": 344,
     "total_exams": 504,
-    "detail_files_present": 339,
+    "detail_files_present": 344,
     "last_updated": "2026-09-13"
   },
   "sessions": [
@@ -18590,46 +18590,64 @@
     "nssb-csee": {
       "batch_id": "batch-5-subordinate-police-boards--nagaland",
       "detail_file": "public/exam-details/nssb-csee.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+            "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u088"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "mpsc-mizoram-mcs": {
       "batch_id": "batch-4-state-psc--mizoram",
@@ -18688,46 +18706,64 @@
     "msssb-group-c": {
       "batch_id": "batch-5-subordinate-police-boards--mizoram",
       "detail_file": "public/exam-details/msssb-group-c.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://dpar.mizoram.gov.in",
+            "https://dipr.mizoram.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://dpar.mizoram.gov.in",
+            "https://dipr.mizoram.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://dpar.mizoram.gov.in",
+            "https://dipr.mizoram.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://dpar.mizoram.gov.in",
+            "https://dipr.mizoram.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://dpar.mizoram.gov.in",
+            "https://dipr.mizoram.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u088"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "mpsc-manipur-cce": {
       "batch_id": "batch-4-state-psc--manipur",
@@ -18786,46 +18822,59 @@
     "manipur-police-si": {
       "batch_id": "batch-5-subordinate-police-boards--manipur",
       "detail_file": "public/exam-details/manipur-police-si.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://manipurpolice.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://manipurpolice.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://manipurpolice.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://manipurpolice.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://manipurpolice.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u088"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "mpsc-meghalaya-cce": {
       "batch_id": "batch-4-state-psc--meghalaya",
@@ -18884,46 +18933,64 @@
     "meghalaya-police-mlp": {
       "batch_id": "batch-5-subordinate-police-boards--meghalaya",
       "detail_file": "public/exam-details/meghalaya-police-mlp.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://megpolice.gov.in",
+            "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://megpolice.gov.in",
+            "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://megpolice.gov.in",
+            "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://megpolice.gov.in",
+            "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://megpolice.gov.in",
+            "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u088"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "appsc-cce": {
       "batch_id": "batch-4-state-psc--arunachal-pradesh",
@@ -19144,46 +19211,59 @@
     "tripura-police-constable": {
       "batch_id": "batch-5-subordinate-police-boards--tripura",
       "detail_file": "public/exam-details/tripura-police-constable.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://police.tripura.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://police.tripura.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://police.tripura.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://police.tripura.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://police.tripura.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u088"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u088"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "ladakh-ssrb-matric": {
       "batch_id": "batch-7-state-other--ladakh",

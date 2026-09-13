@@ -1,0 +1,228 @@
+{
+  "id": "meghalaya-police-mlp",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Recruitment through the Meghalaya Police Central Recruitment Board (MLPRB) selects personnel for both executive Sub-Inspector and Constable cadres. Constables (Unarmed Branch, Armed Branch, Fireman, MPRO Operator) enter at Meghalaya Services (ROP) Rules 2018 Level 3 (₹20,600 – ₹47,000), while directly recruited Sub-Inspectors enter at Level 11 (₹37,800 – ₹86,400). Constables advance through competitive departmental promotion examinations and seniority to Head Constable (Level 5, ₹26,000 – ₹59,000), Assistant Sub-Inspector (ASI, Level 8, ₹30,300 – ₹69,200), Sub-Inspector of Police (SI, Level 11, ₹37,800 – ₹86,400), Inspector of Police (Level 15, ₹47,600 – ₹1,08,200), and Gazetted Deputy Superintendent of Police (DSP, Level 16, ₹53,100 – ₹1,20,800) in the Meghalaya Police Service (MPS).",
+    "steps": [
+      {
+        "designation": "Unarmed Branch Constable (UBC) / Armed Branch Constable (ABC)",
+        "pay_level": "Meghalaya ROP 2018 Level 3 (₹20,600 – ₹47,000)",
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf",
+        "source_label": "Meghalaya Police CRB Constable Merit Notice & Pay Grade Schedule"
+      },
+      {
+        "designation": "Head Constable (HC)",
+        "pay_level": "Meghalaya ROP 2018 Level 5 (₹26,000 – ₹59,000)",
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police Subordinate Executive Rules"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI)",
+        "pay_level": "Meghalaya ROP 2018 Level 8 (₹30,300 – ₹69,200)",
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police Subordinate Executive Rules"
+      },
+      {
+        "designation": "Sub-Inspector of Police (UB SI / AB SI)",
+        "pay_level": "Meghalaya ROP 2018 Level 11 (₹37,800 – ₹86,400)",
+        "confidence": "verified",
+        "as_of": "2025-12-08",
+        "source_url": "https://megpolice.gov.in/sites/default/files/selectlistubsidt.08.12.2025.pdf",
+        "source_label": "Meghalaya Police CRB UB SI Merit Notification"
+      },
+      {
+        "designation": "Inspector of Police",
+        "pay_level": "Meghalaya ROP 2018 Level 15 (₹47,600 – ₹1,08,200)",
+        "confidence": "reported",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police Executive Cadre Scheme"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / MPS Cadre)",
+        "pay_level": "Meghalaya ROP 2018 Level 16 (₹53,100 – ₹1,20,800)",
+        "confidence": "reported",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police Service Cadre Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Physical Efficiency Test (PET) & Physical Measurement Test (PMT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police CRB PET Norms (RFID Timed Running)",
+        "papers": [
+          {
+            "paper_name": "RFID-Timed Endurance Run: 5 km in 24 minutes for male candidates (graded marks up to 100 marks for UBC / 250 marks for ABC); 3 km in 19 minutes for female candidates",
+            "max_marks": 100,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Competitive Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police CRB Written Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "General English (Grammar, Vocabulary, Sentence Construction)",
+            "max_marks": 100,
+            "duration_minutes": 60,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Elementary Mathematics & Basic Science",
+            "max_marks": 100,
+            "duration_minutes": 60,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "General Knowledge & Logical Reasoning (North-East, National Affairs & Meghalaya History)",
+            "max_marks": 100,
+            "duration_minutes": 60,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Interview / Viva-Voce",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in/sites/default/files/selectlistubsidt.08.12.2025.pdf",
+        "source_label": "Meghalaya Police CRB Personality Evaluation Guidelines",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce / Personal Assessment by Central Recruitment Board",
+            "max_marks": 50,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Medical Examination & Police Verification",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-02-25",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police Medical Assessment Board Standards",
+        "papers": [
+          {
+            "paper_name": "Comprehensive Medical Evaluation (Visual Acuity, Color Vision, Knock Knees, Flat Feet) and Character Antecedent Scrutiny",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Meghalaya ROP 2018 Level 3 (₹20,600 – ₹47,000)",
+    "entry_basic_pay": 20600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-02-25",
+    "pay_source_url": "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf",
+    "pay_source_label": "Meghalaya Services (Revision of Pay) Rules 2018 & Police Department Pay Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance at 58% of Basic Pay (₹11,948 per month on entry basic of ₹20,600 as of 01.07.2025) as notified by Finance Department, Government of Meghalaya."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 8% of Basic Pay (₹1,648 per month) in Shillong and other district headquarters, or rent-free police barrack/family quarter accommodation."
+      },
+      {
+        "perk_name": "Hill & Winter Allowance",
+        "description": "Compensatory hill allowance and winter heating allowance admissible to police personnel stationed in the Khasi, Jaintia, and Garo hills."
+      },
+      {
+        "perk_name": "Ration & Kit Maintenance Allowance",
+        "description": "Monthly ration money subsidy and uniform washing allowance (approx ₹2,000 per month) under Meghalaya Police Service Regulations."
+      },
+      {
+        "perk_name": "Medical Benefits & Pension",
+        "description": "Coverage under National Pension System (NPS with 14% matching employer contribution) and Meghalaya Health Insurance Scheme (MHIS)."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 2968,
+        "total_applicants": 145000,
+        "confidence": "verified",
+        "as_of": "2024-11-20",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police CRB Central Recruitment Drive 2024 Official Press Release"
+      },
+      {
+        "year": 2019,
+        "vacancies": 1015,
+        "total_applicants": 122000,
+        "confidence": "verified",
+        "as_of": "2021-04-12",
+        "source_url": "https://megpolice.gov.in",
+        "source_label": "Meghalaya Police CRB Examination Roll Analysis"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "Meghalaya Police Unarmed Branch Constable Selection Notice (25.02.2026)",
+        "url": "https://megpolice.gov.in/sites/default/files/7.un-armed-branch-constable-dtd-25.02.2026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-02-25"
+      },
+      {
+        "label": "Meghalaya Police CRB UB Sub-Inspector Merit List (08.12.2025)",
+        "url": "https://megpolice.gov.in/sites/default/files/selectlistubsidt.08.12.2025.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-12-08"
+      },
+      {
+        "label": "Meghalaya Police Official Central Recruitment Board Portal",
+        "url": "https://megpolice.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-02-25"
+      }
+    ]
+  }
+}

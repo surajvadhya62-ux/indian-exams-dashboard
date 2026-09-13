@@ -1,0 +1,226 @@
+{
+  "id": "tripura-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Direct recruitment through the Tripura Police Constable Examination appoints personnel as Police Constable (Men & Women, Executive Cadre) and Rifleman in the Tripura State Rifles (TSR) in Tripura State Civil Services (Revised Pay) Rules 2018 Pay Matrix Level 6 (₹20,900 – ₹66,400). Recruits complete basic training at the Police Training Academy (KTDS PTA), Narsingarh, Agartala. Progression takes place through departmental promotion examinations and seniority to Head Constable (Level 7, ₹22,900 – ₹72,700), Assistant Sub-Inspector (ASI, Level 8, ₹26,100 – ₹82,800), Sub-Inspector of Police (SI, Level 10, ₹34,700 – ₹1,10,000), Inspector of Police (Level 12, ₹42,900 – ₹1,35,000), and Gazetted Deputy Superintendent of Police (DSP, Level 14, ₹54,000 – ₹1,71,000) in the Tripura Police Service (TPS).",
+    "steps": [
+      {
+        "designation": "Police Constable (Executive) / TSR Rifleman",
+        "pay_level": "Tripura Pay Matrix 2018 Level 6 (₹20,900 – ₹66,400)",
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Constable Recruitment Notification & TSCS ROP 2018"
+      },
+      {
+        "designation": "Head Constable (HC) / TSR Havildar",
+        "pay_level": "Tripura Pay Matrix 2018 Level 7 (₹22,900 – ₹72,700)",
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Subordinate Executive Cadre Rules"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI) / TSR Naib Subedar",
+        "pay_level": "Tripura Pay Matrix 2018 Level 8 (₹26,100 – ₹82,800)",
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Subordinate Executive Cadre Rules"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI) / TSR Subedar",
+        "pay_level": "Tripura Pay Matrix 2018 Level 10 (₹34,700 – ₹1,10,000)",
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Executive Service Regulations"
+      },
+      {
+        "designation": "Inspector of Police",
+        "pay_level": "Tripura Pay Matrix 2018 Level 12 (₹42,900 – ₹1,35,000)",
+        "confidence": "reported",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Service Cadre Schedule"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / TPS Cadre)",
+        "pay_level": "Tripura Pay Matrix 2018 Level 14 (₹54,000 – ₹1,71,000)",
+        "confidence": "reported",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Physical Standard Test (PST) & Physical Endurance Test (PET)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Constable Recruitment Standards & Ground Test Norms",
+        "papers": [
+          {
+            "paper_name": "Endurance Running: 4 km run for male candidates, 1.6 km run for female candidates within prescribed time limits",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Competitive Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Constable Written Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Intelligence & Reasoning",
+            "max_marks": 25,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "General Knowledge & Current Affairs (with Tripura Heritage & Geography Focus)",
+            "max_marks": 25,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Elementary Mathematics",
+            "max_marks": 20,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Language Comprehension (Bengali / Kokborok / English)",
+            "max_marks": 15,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Viva-Voce / Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Constable Selection Board Interview Norms",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce / Personality Test by District Selection Board",
+            "max_marks": 15,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Medical Examination & Police Antecedents Verification",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-07-15",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Medical Board Fitness Standards",
+        "papers": [
+          {
+            "paper_name": "Standard Medical Examination (Visual Acuity, Hearing, Chest Expansion, Physical Fitness) and Police Antecedent Verification",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Tripura Pay Matrix 2018 Level 6 (₹20,900 – ₹66,400)",
+    "entry_basic_pay": 20900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-07-15",
+    "pay_source_url": "https://police.tripura.gov.in",
+    "pay_source_label": "Tripura State Civil Services (Revised Pay) Rules 2018 & Police HQ Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 41000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance at 58% of Basic Pay (₹12,122 per month on entry basic of ₹20,900 as of 01.07.2025) as sanctioned by Finance Department, Government of Tripura."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 8% of Basic Pay (₹1,672 per month) in Agartala and district stations, or rent-free government police accommodation."
+      },
+      {
+        "perk_name": "Ration Allowance",
+        "description": "Monthly police ration allowance (₹2,000 per month) for uniformed executive staff."
+      },
+      {
+        "perk_name": "Uniform & Kit Maintenance Allowance",
+        "description": "Annual uniform grant and monthly kit maintenance allowance (approx ₹1,500 per month) under state police regulations."
+      },
+      {
+        "perk_name": "Retirement & Medical Scheme",
+        "description": "National Pension System (NPS) with 14% Government matching contribution and Mukhyamantri Jan Arogya Yojana (MMJAY) / State Medical Attendance Reimbursement."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1000,
+        "total_applicants": 65000,
+        "confidence": "verified",
+        "as_of": "2024-08-30",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police Headquarters Recruitment Drive 2024 Press Release"
+      },
+      {
+        "year": 2022,
+        "vacancies": 1488,
+        "total_applicants": 78200,
+        "confidence": "verified",
+        "as_of": "2022-10-14",
+        "source_url": "https://police.tripura.gov.in",
+        "source_label": "Tripura Police TSR & Executive Constable Recruitment Statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "Tripura Police Official Portal & Recruitment Bulletins",
+        "url": "https://police.tripura.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-07-15"
+      },
+      {
+        "label": "Tripura Police Constable Physical Standards & Syllabus Guidelines",
+        "url": "https://police.tripura.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-07-15"
+      }
+    ]
+  }
+}

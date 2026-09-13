@@ -1,0 +1,191 @@
+{
+  "id": "msssb-group-c",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Candidates recruited through the Mizoram Subordinate Services Selection Board (MSSSB) Combined Group 'C' Examination are appointed to clerical and executive subordinate posts including Lower Division Clerk (LDC), Assistant Sub-Inspector, and Junior Field Assistants in Mizoram Services (ROP) Rules 2018 Pay Matrix Level 4 (₹25,500 – ₹56,800 / ₹81,100). Ministerial staff advance through departmental promotion committees to Upper Division Clerk (UDC, Level 6, ₹35,400 – ₹78,800), Assistant / Head Assistant (Level 7, ₹39,100 – ₹86,800), Superintendent (Level 8, ₹44,900 – ₹99,800), and Gazetted Under Secretary (Level 10, ₹56,100 – ₹1,24,500) within the Mizoram Secretariat and Subordinate Directorates.",
+    "steps": [
+      {
+        "designation": "Lower Division Clerk (LDC) / Subordinate Assistant",
+        "pay_level": "Mizoram ROP 2018 Level 4 (₹25,500 – ₹56,800)",
+        "confidence": "verified",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "Mizoram DP&AR Subordinate Service & ROP Rules 2018"
+      },
+      {
+        "designation": "Upper Division Clerk (UDC)",
+        "pay_level": "Mizoram ROP 2018 Level 6 (₹35,400 – ₹78,800)",
+        "confidence": "verified",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "Mizoram Ministerial Service Cadre Rules"
+      },
+      {
+        "designation": "Assistant / Head Assistant",
+        "pay_level": "Mizoram ROP 2018 Level 7 (₹39,100 – ₹86,800)",
+        "confidence": "verified",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "Mizoram Ministerial Service Cadre Rules"
+      },
+      {
+        "designation": "Superintendent (Non-Gazetted Supervisory)",
+        "pay_level": "Mizoram ROP 2018 Level 8 (₹44,900 – ₹99,800)",
+        "confidence": "reported",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "Mizoram DP&AR Secretariat Cadre Hierarchy"
+      },
+      {
+        "designation": "Under Secretary (Gazetted State Civil Service)",
+        "pay_level": "Mizoram ROP 2018 Level 10 (₹56,100 – ₹1,24,500)",
+        "confidence": "reported",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "Mizoram State Civil Secretariat Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Competitive Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "MSSSB Group C Examination Scheme & Syllabus Regulations",
+        "papers": [
+          {
+            "paper_name": "Paper I: General English (Essay, Précis, Grammar & Composition)",
+            "max_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper II: General Studies, Arithmetic & Basic Computer Knowledge",
+            "max_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Typing Proficiency & Computer Skill Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-15",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "MSSSB Technical & Skill Assessment Norms",
+        "papers": [
+          {
+            "paper_name": "Typing Speed Test (30 wpm in English on Computer) and NIELIT Course on Computer Concepts (CCC) Certificate Verification",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Document Verification & Final Merit List",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-08-15",
+        "source_url": "https://dipr.mizoram.gov.in",
+        "source_label": "MSSSB Scrutiny & Final Result Guidelines",
+        "papers": [
+          {
+            "paper_name": "Verification of Educational, Category, and Local Language Proficiency Documents",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Mizoram ROP 2018 Level 4 (₹25,500 – ₹56,800)",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-08-15",
+    "pay_source_url": "https://dpar.mizoram.gov.in",
+    "pay_source_label": "Mizoram Services (Revision of Pay) Rules 2018",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 42000,
+      "max": 47000
+    },
+    "in_hand_range_estimate": {
+      "min": 38000,
+      "max": 43000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance at 58% of Basic Pay (₹14,790 per month on entry basic of ₹25,500 as of 01.07.2025) as notified by Finance Department, Government of Mizoram."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 8% of Basic Pay (₹2,040 per month) for Aizawl and district headquarters, or government staff quarters accommodation."
+      },
+      {
+        "perk_name": "Hill / Remote Compensatory Allowance",
+        "description": "Special compensatory allowance for postings in hilly and remote administrative blocks of Mizoram."
+      },
+      {
+        "perk_name": "Medical Allowance",
+        "description": "Fixed medical allowance of ₹1,000 per month plus Mizoram State Health Care Scheme / Medical Attendance reimbursement."
+      },
+      {
+        "perk_name": "Pension & Retirement Benefits",
+        "description": "New Defined Contributory Pension Scheme (NPS) with 14% Government co-contribution and State Group Insurance Scheme."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 84,
+        "total_applicants": 21300,
+        "confidence": "verified",
+        "as_of": "2024-10-10",
+        "source_url": "https://dipr.mizoram.gov.in",
+        "source_label": "MSSSB Combined LDC Recruitment 2024 Gazette Notification & Roll Data"
+      },
+      {
+        "year": 2022,
+        "vacancies": 112,
+        "total_applicants": 27800,
+        "confidence": "reported",
+        "as_of": "2022-09-18",
+        "source_url": "https://dpar.mizoram.gov.in",
+        "source_label": "Mizoram Subordinate Services Selection Board Annual Report 2022-23"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "Mizoram DP&AR Subordinate Recruitment Rules & Syllabus",
+        "url": "https://dpar.mizoram.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-08-15"
+      },
+      {
+        "label": "Mizoram DIPR Recruitment Notices & Shortlisting Portal",
+        "url": "https://dipr.mizoram.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-08-15"
+      }
+    ]
+  }
+}

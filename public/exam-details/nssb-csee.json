@@ -1,0 +1,211 @@
+{
+  "id": "nssb-csee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "salary_growth_trajectory": "Direct recruitment through the Nagaland Staff Selection Board (NSSB) Combined Staff Recruitment Examination (CSRE / CSEE) appoints candidates to non-gazetted, non-technical and technical Group-C posts such as Junior Divisional Accountant, Storekeeper, LDA cum Computer Assistant, Assistant Jailor, and Sub-Inspector of Excise across Nagaland Government departments in Pay Matrix Level 5 (₹25,500 – ₹81,100) or Level 4 (₹21,700 – ₹69,100) under the Nagaland Services (ROP) Rules 2017. Employees advance through departmental quotas and seniority to Senior Divisional Accountant / Senior Assistant (Level 7), Divisional Accounts Officer / Superintendent (Level 10), Senior Accounts Officer / Assistant Director (Level 12), and Joint Director (Level 13).",
+    "steps": [
+      {
+        "designation": "Junior Divisional Accountant / LDA cum Computer Assistant",
+        "pay_level": "Nagaland ROP 2017 Level 5 (₹25,500 – ₹81,100)",
+        "confidence": "verified",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+        "source_label": "NSSB Regulations 2020 & Cadre Pay Schedules"
+      },
+      {
+        "designation": "Senior Divisional Accountant / Senior Assistant",
+        "pay_level": "Nagaland ROP 2017 Level 7 (₹34,800 – ₹1,10,800)",
+        "confidence": "verified",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in",
+        "source_label": "Nagaland Directorate Cadre Hierarchy Rules"
+      },
+      {
+        "designation": "Divisional Accounts Officer / Branch Superintendent",
+        "pay_level": "Nagaland ROP 2017 Level 10 (₹40,800 – ₹1,29,200)",
+        "confidence": "verified",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in",
+        "source_label": "Nagaland Directorate Cadre Hierarchy Rules"
+      },
+      {
+        "designation": "Senior Accounts Officer / Assistant Director",
+        "pay_level": "Nagaland ROP 2017 Level 12 (₹56,100 – ₹1,77,500)",
+        "confidence": "reported",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in",
+        "source_label": "Nagaland State Service Promotion Guidelines"
+      },
+      {
+        "designation": "Joint Director / Regional Officer",
+        "pay_level": "Nagaland ROP 2017 Level 13 (₹67,300 – ₹2,06,900)",
+        "confidence": "reported",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in",
+        "source_label": "Nagaland State Service Promotion Guidelines"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (General Paper)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf",
+        "source_label": "NSSB General Paper Common Examination Syllabus",
+        "papers": [
+          {
+            "paper_name": "General English",
+            "max_marks": 50,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "General Knowledge (Indian Polity, Economy, Geography, History)",
+            "max_marks": 50,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Elementary Mathematics & Analytical Reasoning",
+            "max_marks": 50,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Nagaland State Specific GK, Heritage & Local Customary Laws",
+            "max_marks": 50,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Proficiency / Computer Practical Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf",
+        "source_label": "NSSB Computer & Typing Skill Assessment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Computer Application Practical & Typing Test (30 wpm for ministerial posts)",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Viva-Voce & Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-08-20",
+        "source_url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+        "source_label": "NSSB Regulations 2020 (Interview & Certificate Scrutiny)",
+        "papers": [
+          {
+            "paper_name": "Personality Assessment / Viva-Voce (where prescribed by service rules, up to 12.5% of written marks) and Document Scrutiny",
+            "max_marks": 25,
+            "qualifying_only": false
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Nagaland ROP 2017 Level 5 (₹25,500 – ₹81,100)",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-08-20",
+    "pay_source_url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+    "pay_source_label": "Nagaland Staff Selection Board Regulations & Pay Rules 2017",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 43000,
+      "max": 48000
+    },
+    "in_hand_range_estimate": {
+      "min": 39000,
+      "max": 44000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "description": "Dearness Allowance calculated at 58% of Basic Pay (₹14,790 per month on entry basic of ₹25,500 as of 01.07.2025) as notified by Finance Department, Government of Nagaland."
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "description": "HRA at 8% of Basic Pay (₹2,040 per month) for Kohima/Dimapur or government staff quarter allotment as per state accommodation rules."
+      },
+      {
+        "perk_name": "Special Duty Allowance (SDA)",
+        "description": "Special Duty Allowance at 10% of Basic Pay (₹2,550 per month) for personnel serving in the North Eastern State of Nagaland."
+      },
+      {
+        "perk_name": "Medical Allowance",
+        "description": "Fixed medical allowance of ₹1,000 per month plus reimbursement under Nagaland State Medical Attendance Rules."
+      },
+      {
+        "perk_name": "Retirement & Social Security",
+        "description": "Coverage under the National Pension System (NPS) with 14% Government matching contribution and Group Insurance Scheme (GIS)."
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 211,
+        "total_applicants": 42500,
+        "confidence": "verified",
+        "as_of": "2024-11-15",
+        "source_url": "https://nssb.nagaland.gov.in",
+        "source_label": "NSSB Combined Staff Recruitment Examination 2024 Notification & Roll Statistics"
+      },
+      {
+        "year": 2022,
+        "vacancies": 1108,
+        "total_applicants": 50600,
+        "confidence": "verified",
+        "as_of": "2022-12-05",
+        "source_url": "https://nssb.nagaland.gov.in",
+        "source_label": "NSSB First Combined Staff Recruitment Examination 2022 Official Press Release"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "NSSB General Paper Common Examination Syllabus",
+        "url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/08/NSSB-General-Paper-Syllabus.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-08-20"
+      },
+      {
+        "label": "Nagaland Staff Selection Board Regulations 2020",
+        "url": "https://nssb.nagaland.gov.in/wp-content/uploads/2023/04/NSSB-Regulations-2020.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-08-20"
+      },
+      {
+        "label": "Nagaland Staff Selection Board Official Recruitment Portal",
+        "url": "https://nssb.nagaland.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-08-20"
+      }
+    ]
+  }
+}
