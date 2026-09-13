@@ -1,0 +1,137 @@
+{
+  "id": "jkcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Jammu and Kashmir Common Entrance Test (JKCET) is conducted by the J&K Board of Professional Entrance Examinations (JKBOPEE) for admissions into undergraduate Bachelor of Engineering & Technology (B.E./B.Tech.) degree programmes across government and private engineering colleges in Jammu & Kashmir and Ladakh.",
+    "stages": [
+      {
+        "stage_name": "JKCET Objective Entrance Examination (OMR-Based Single Paper)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-19",
+        "source_url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17602&type=n",
+        "source_label": "JKBOPEE Notification No. 050-BOPEE of 2026 (CET Engineering Exam Schedule) & Notification No. 044-BOPEE of 2026 (Admission Notification)",
+        "papers": [
+          {
+            "paper_name": "Composite Question Paper: Physics, Chemistry & Mathematics (180 Objective MCQs: 60 Physics, 60 Chemistry, 60 Mathematics)",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer (+1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "JKBOPEE Centralized Counseling & Institutional Seat Allotment",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-05-24",
+        "source_url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17698&type=n",
+        "source_label": "JKBOPEE Notification No. 067-BOPEE of 2026 (1st Round Online Counselling) & Notification No. 072-BOPEE of 2026 (Provisional Selection List)",
+        "papers": [
+          {
+            "paper_name": "Online Choice Filling, Document Verification & Merit Seat Allocation (Allotment under J&K Reservation Rules S.O. 176 of 2024 / S.O. 305 across GCET Jammu, GCET Ganderbal, UIET Kathua, MIET, MBS, YCET, and SSM)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based allocation subject to minimum 10+2 PCM qualifying marks (45% for Open Merit/EWS, 40% for Reserved Categories SC/ST/RBA/ALC/IB/OBC)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official appearance and provisional merit list candidate counts published by the Controller of Examinations, J&K Board of Professional Entrance Examinations (JKBOPEE).",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": 1263,
+        "selectivity_ratio": "Statewide common entrance test for B.E./B.Tech engineering admissions in UT of J&K and Ladakh; exactly 1,263 candidates appeared and were ranked in the official Provisional Merit List (top score 177.50/180 by Dhananjay Pandit)",
+        "confidence": "verified",
+        "as_of": "2026-05-06",
+        "source_url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17638&type=n",
+        "source_label": "JKBOPEE Notification No. 056-BOPEE of 2026 Dated 06-05-2026: Provisional Merit List/Result of the Common Entrance Test for admission to B.E./B.Tech. Courses-2026 (Annexure A, 51 pages)"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": 1445,
+        "selectivity_ratio": "Statewide entrance test conducted across Jammu, Srinagar, Doda, Rajouri, Anantnag, Baramulla, and Leh; exactly 1,445 candidates appeared and were ranked in the official Provisional Merit List (top score 148.00/180 by Rudra Kohli)",
+        "confidence": "verified",
+        "as_of": "2025-04-24",
+        "source_url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=16754&type=n",
+        "source_label": "JKBOPEE Notification No. 040-BOPEE of 2025 Dated 24-04-2025: Provisional Merit List/Result for admission to B.E./B.Tech. Courses-2025 (Annexure A, 53 pages)"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": 1662,
+        "selectivity_ratio": "Statewide entrance test held on June 9, 2024; exactly 1,662 candidates appeared and were ranked in the official Provisional Merit List (top score 112.75/180 by Krishna Arun Magotra)",
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=16164&type=n",
+        "source_label": "JKBOPEE Notification No. 035-BOPEE of 2024 Dated 24-06-2024: Provisional Merit List/Result for admission to B.E./B.Tech. Courses-2024 (Annexure A, 46 pages)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and verified direct notification and merit list documents published by the J&K Board of Professional Entrance Examinations (JKBOPEE).",
+    "links": [
+      {
+        "label": "JKBOPEE — Official Portal (J&K Board of Professional Entrance Examinations)",
+        "url": "https://www.jkbopee.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "JKBOPEE Official Notifications Hub",
+        "url": "https://www.jkbopee.gov.in/Notifications.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "JKBOPEE Notification No. 044-BOPEE of 2026: Admission Notification for B.E./B.Tech. Engineering Courses-2026",
+        "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17554&type=n",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-03-18"
+      },
+      {
+        "label": "JKBOPEE Notification No. 050-BOPEE of 2026: Exam Date & Admit Card Download Instructions for CET Engineering 2026",
+        "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17602&type=n",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-04-14"
+      },
+      {
+        "label": "JKBOPEE Notification No. 056-BOPEE of 2026: Provisional Merit List & Results of Common Entrance Test (CET) B.E./B.Tech. 2026",
+        "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17638&type=n",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-05-06"
+      },
+      {
+        "label": "JKBOPEE Notification No. 072-BOPEE of 2026: Provisional Selection List after 1st Round Counselling for B.E./B.Tech. 2026",
+        "url": "https://www.jkbopee.gov.in/Pdf/Downloader.ashx?nid=17718&type=n",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-05-29"
+      }
+    ]
+  }
+}
