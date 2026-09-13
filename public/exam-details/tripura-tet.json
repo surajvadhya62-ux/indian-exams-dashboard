@@ -1,0 +1,201 @@
+{
+  "id": "tripura-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted by the Teachers' Recruitment Board, Tripura (TRBT), Education (School) Department, Government of Tripura in accordance with the National Council for Teacher Education (NCTE) guidelines under Section 23(1) of the RTE Act, 2009. The examination consists of two standalone objective papers: Paper-I for candidates intending to teach Classes I to V (Under-Graduate Teacher) and Paper-II for candidates intending to teach Classes VI to VIII (Graduate Teacher). Each paper comprises 150 multiple-choice questions (150 marks) of 150 minutes (2 hours 30 minutes) duration administered offline via OMR sheets with no negative marking. The qualifying threshold is 60% (90 out of 150 marks) for Unreserved candidates, with a 5% relaxation to 55% (83 out of 150 marks) for SC, ST, and PH candidates. In accordance with TRBT statutory guidelines, the T-TET eligibility certificate is valid for life.",
+    "stages": [
+      {
+        "stage_name": "Paper-I (Under-Graduate Teacher — Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-04-20",
+        "source_url": "https://trb.tripura.gov.in/sites/default/files/T-TET_2024__New___1_.pdf",
+        "source_label": "TRBT T-TET 2024 Prospectus Cum Instructions: Paper-I and Paper-II (Clause 7 & 8)",
+        "papers": [
+          {
+            "paper_name": "Part-I: Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-II: Language-I (English — Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-III / IV: Language-II (Bengali or Kokborok — Compulsory Option)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-V: Mathematics",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-VI: Environmental Studies",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper-II (Graduate Teacher — Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-04-27",
+        "source_url": "https://trb.tripura.gov.in/sites/default/files/T-TET_2024__New___1_.pdf",
+        "source_label": "TRBT T-TET 2024 Prospectus Cum Instructions: Paper-I and Paper-II (Clause 7 & 8)",
+        "papers": [
+          {
+            "paper_name": "Part-I: Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-II: Language-I (English — Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-III / IV: Language-II (Bengali or Kokborok — Compulsory Option)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-V / VI: Discipline Subject — Mathematics & Science (60 MCQs / 60 marks) OR Social Studies (60 MCQs / 60 marks)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for UR; 55% aggregate (83/150 marks) for SC/ST/PH candidates across the entire paper"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate appearance, qualification count, and percentage datasets published by the Teachers' Recruitment Board, Tripura (TRBT), Education (School) Department across 8 district examination centres. As an eligibility certification examination pursuant to NCTE guidelines, T-TET qualifies candidates for teacher recruitment rather than filling specific vacancies directly; hence vacancies are not applicable.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 40526,
+        "vacancies": null,
+        "shortlisted_for_mains": 1859,
+        "selectivity_ratio": "approx. 1 in 21.80 (4.59% aggregate pass rate: 1,859 qualified out of 40,526 candidate appearances across Paper-I and Paper-II)",
+        "confidence": "verified",
+        "as_of": "2025-05-15",
+        "source_url": "https://trb.tripura.gov.in/results",
+        "source_label": "TRBT T-TET 2024 Official Result Publications: Paper-I (8,240 appeared, 368 qualified, 4.47% pass rate) and Paper-II (32,286 appeared, 1,491 qualified, 4.62% pass rate)"
+      },
+      {
+        "year": 2022,
+        "applicants": 38220,
+        "vacancies": null,
+        "shortlisted_for_mains": 359,
+        "selectivity_ratio": "approx. 1 in 106.46 (0.94% aggregate pass rate: 359 qualified out of 38,220 candidate appearances across Paper-I and Paper-II)",
+        "confidence": "verified",
+        "as_of": "2023-01-20",
+        "source_url": "https://trb.tripura.gov.in/results",
+        "source_label": "TRBT T-TET 2022 Official Result Publications: Paper-I (16,409 appeared, 194 qualified, 1.18% pass rate) and Paper-II (21,811 appeared, 165 qualified, 0.76% pass rate)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official prospectus, syllabuses, qualification lists, and complete candidate result sheets published by Teachers' Recruitment Board, Tripura (TRBT), Education (School) Department, Government of Tripura.",
+    "links": [
+      {
+        "label": "Teachers' Recruitment Board Tripura (TRBT) Official Portal",
+        "url": "https://trb.tripura.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Tripura TET (T-TET) 2024 Prospectus Cum Instructions (Paper-I & Paper-II)",
+        "url": "https://trb.tripura.gov.in/sites/default/files/T-TET_2024__New___1_.pdf",
+        "type": "notification",
+        "cycle_label": "T-TET 2024",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "T-TET Paper-I Official Syllabus (Classes I to V — Under-Graduate Teacher)",
+        "url": "https://trb.tripura.gov.in/sites/default/files/T-TET_Paper-I_Syllabus.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "T-TET Paper-II Official Syllabus (Classes VI to VIII — Graduate Teacher)",
+        "url": "https://trb.tripura.gov.in/sites/default/files/T-TET_Paper-II_Syllabus.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "List of Qualified Candidates — T-TET 2024 Paper-I",
+        "url": "https://trb.tripura.gov.in/sites/default/files/List%20of%20Qualified%20Candidates%20T-TET2024%20Paper-I.pdf",
+        "type": "other",
+        "cycle_label": "T-TET 2024",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "List of Qualified Candidates — T-TET 2024 Paper-II",
+        "url": "https://trb.tripura.gov.in/sites/default/files/List%20of%20Qualified%20Cadidates%20T-TET-2024%20Paper-II_0.pdf",
+        "type": "other",
+        "cycle_label": "T-TET 2024",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "T-TET 2024 Paper-I Official Result for Publication (Candidate Scores)",
+        "url": "https://trb.tripura.gov.in/sites/default/files/Paper%20-%20I%20Result%20For%20Publication%20%28Signed%29.pdf",
+        "type": "other",
+        "cycle_label": "T-TET 2024",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "T-TET 2024 Paper-II Official Result for Publication (Candidate Scores)",
+        "url": "https://trb.tripura.gov.in/sites/default/files/Paper%20-%20II%20Result%20For%20Publication%20%28Signed%29.pdf",
+        "type": "other",
+        "cycle_label": "T-TET 2024",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
