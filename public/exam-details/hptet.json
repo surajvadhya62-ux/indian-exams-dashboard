@@ -1,0 +1,377 @@
+{
+  "id": "hptet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted biannually (June and November sessions) by the Himachal Pradesh Board of School Education (HPBOSE), Dharamshala, on behalf of the Department of School Education, Government of Himachal Pradesh, in compliance with Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009, and National Council for Teacher Education (NCTE) norms. The test covers 10 distinct teaching subject categories: JBT (D.El.Ed.), TGT Arts, TGT Non-Medical, TGT Medical, TGT Hindi, TGT Sanskrit (Shastri), Punjabi Language Teacher, Urdu Language Teacher, Special Educator (Pre-Primary to Class V), and Special Educator (Classes VI to XII). Each test paper comprises 150 objective multiple-choice questions (MCQs) carrying 1 mark each (total 150 marks), with a duration of 150 minutes (2 hours 30 minutes). The examination is bilingual in English and Hindi (except language-specific sections). There is no negative marking. Qualifying standard is 60% (90 marks out of 150) for Unreserved candidates, and 55% (82 marks out of 150) with a 5% relaxation for SC, ST, OBC, and Physically Handicapped (PHH) candidates of Himachal Pradesh. TET qualification certificates carry lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Primary Stage: Junior Basic Training (JBT / D.El.Ed.) TET",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "source_label": "HPBOSE Dharamshala H.P. Teacher Eligibility Test (TET November-2026) Prospectus",
+        "papers": [
+          {
+            "paper_name": "Section I: Child Development and Pedagogy, Teaching Learning Processes",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          },
+          {
+            "paper_name": "Section II: English Literature & Grammar",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section III: Hindi Literature & Grammar",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section IV: Mathematics",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section V: Social Sciences, Environmental Studies, and General Awareness & Current Affairs including Himachal Pradesh",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Upper Primary / Elementary Stage: Trained Graduate Teacher (TGT) Arts TET",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "source_label": "HPBOSE Dharamshala H.P. Teacher Eligibility Test (TET November-2026) Prospectus",
+        "papers": [
+          {
+            "paper_name": "Section I: Child Psychology and Development, Pedagogy, Teaching Learning Processes",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          },
+          {
+            "paper_name": "Section II: General Awareness including Himachal Pradesh, Current Affairs & Environmental Studies",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section III: English Literature & Grammar",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section IV: Social Studies",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Upper Primary / Elementary Stage: Trained Graduate Teacher (TGT) Non-Medical TET",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "source_label": "HPBOSE Dharamshala H.P. Teacher Eligibility Test (TET November-2026) Prospectus",
+        "papers": [
+          {
+            "paper_name": "Section I: Child Psychology and Development, Pedagogy, Teaching Learning Processes",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          },
+          {
+            "paper_name": "Section II: General Awareness including Himachal Pradesh, Current Affairs & Environmental Studies",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section III: Mathematics",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section IV: Physics & Chemistry (30 marks Physics + 30 marks Chemistry)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Upper Primary / Elementary Stage: Trained Graduate Teacher (TGT) Medical TET",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "source_label": "HPBOSE Dharamshala H.P. Teacher Eligibility Test (TET November-2026) Prospectus",
+        "papers": [
+          {
+            "paper_name": "Section I: Child Psychology and Development, Pedagogy, Teaching Learning Processes",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          },
+          {
+            "paper_name": "Section II: General Awareness including Himachal Pradesh, Current Affairs & Environmental Studies",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section III: Botany & Zoology (30 marks Botany + 30 marks Zoology)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          },
+          {
+            "paper_name": "Section IV: Chemistry",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of aggregate qualifying score (90/150 for General; 82/150 for SC/ST/OBC/PHH)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Language & Classical Teacher Cadres: TGT Hindi, TGT Sanskrit (Shastri), Punjabi, and Urdu TET",
+        "stage_order": 5,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "source_label": "HPBOSE Dharamshala H.P. Teacher Eligibility Test (TET November-2026) Prospectus",
+        "papers": [
+          {
+            "paper_name": "Section I: Subject Degree Course Content (Hindi / Shastri / Punjabi / Urdu Graduation Level)",
+            "marks": 120,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          },
+          {
+            "paper_name": "Section II: General Awareness including Himachal Pradesh, Current Affairs & Environmental Studies",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          }
+        ]
+      },
+      {
+        "stage_name": "Inclusive Education Cadres: Special Educator TET (Pre-Primary to Class V & Classes VI to XII)",
+        "stage_order": 6,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "source_label": "HPBOSE Dharamshala H.P. Teacher Eligibility Test (TET November-2026) Prospectus",
+        "papers": [
+          {
+            "paper_name": "Section I: Special Education Domain (Disabilities, Early Intervention, Assessment, Inclusive Education & Teaching Strategies)",
+            "marks": 120,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          },
+          {
+            "paper_name": "Section II: General Studies & Awareness (HP Current Affairs, Social & Environmental Studies, Hindi & English Grammar, Basic Mathematics)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (82/150 marks) for SC/ST/OBC/PHH"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics verified directly from official result declarations and statistical press releases issued by the Departmental Examination Branch (DEB), Himachal Pradesh Board of School Education (HPBOSE), Dharamshala. Passing the HPTET is a mandatory statutory prerequisite under Section 23 of the RTE Act, 2009 for appointment as JBT, TGT, Shastri, Language Teacher, and Special Educator in elementary and secondary schools under the Himachal Pradesh Department of School Education.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 32531,
+        "shortlisted_for_mains": 6744,
+        "selectivity_ratio": "6,744 candidates qualified out of 29,900 appeared (32,531 applied) across 10 subject streams in June 2026 cycle; 22.55% overall pass rate (JBT: 4,369 / 8,374; TGT Non-Med: 969 / 5,067; TGT Arts: 497 / 9,647; TGT Hindi: 314 / 2,013; TGT Sanskrit: 205 / 1,296; TGT Medical: 161 / 3,020; Special Educator Primary: 136 / 320; Special Educator Upper Primary: 82 / 88; Punjabi: 9 / 71; Urdu: 2 / 4)",
+        "confidence": "verified",
+        "as_of": "2026-08-22",
+        "source_url": "https://hpbose.org/Admin/Upload/RESULT%20NOTIFICATION%20TET%20JUNE-2026.pdf",
+        "source_label": "HPBOSE Notification No. (37) DEB/TET Exam JUNE-2026/68866-872 dated 22-08-2026"
+      },
+      {
+        "year": 2025,
+        "applicants": 36571,
+        "shortlisted_for_mains": 8459,
+        "selectivity_ratio": "8,459 candidates qualified out of 33,083 appeared (36,571 applied) in November 2025 cycle (declared 02-01-2026); 25.57% overall pass rate (JBT: 2,506 / 7,574; TGT Medical: 1,743 / 4,309; TGT Arts: 1,429 / 10,858; TGT Hindi: 907 / 2,187; TGT Non-Med: 741 / 5,778; Special Educator Primary: 557 / 621; TGT Sanskrit: 427 / 1,541; Special Educator VI-XII: 144 / 150; Punjabi: 3 / 56; Urdu: 2 / 9)",
+        "confidence": "verified",
+        "as_of": "2026-01-02",
+        "source_url": "https://hpbose.org/Admin/Upload/NOTIFICATION%20&%20PRESS%20NOTE_1.pdf",
+        "source_label": "HPBOSE Notification No. (37) DEB/ TET Exam- Nov-2025/ 5204-5210 dated 02-01-2026"
+      },
+      {
+        "year": 2024,
+        "applicants": 35031,
+        "shortlisted_for_mains": 11026,
+        "selectivity_ratio": "11,026 candidates qualified out of 31,896 appeared (35,031 applied) in November 2024 cycle (declared 13-01-2025); 34.57% overall pass rate (TGT Arts: 3,554 / 11,760; JBT: 2,492 / 5,674; TGT Non-Med: 1,805 / 6,621; Language Teacher: 1,156 / 2,286; TGT Medical: 1,152 / 4,195; Shastri: 862 / 1,293; Punjabi: 3 / 61; Urdu: 2 / 6)",
+        "confidence": "verified",
+        "as_of": "2025-01-13",
+        "source_url": "https://hpbose.org/Admin/Upload/Noti.TET.13.01.2025.pdf",
+        "source_label": "HPBOSE Notification No. (37) DEB/ TET Exam-NOV-2024/ 43471-476 dated 13-01-2025"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, prospectuses, answer keys, and result gazettes verified live on the Himachal Pradesh Board of School Education (HPBOSE) portal.",
+    "links": [
+      {
+        "label": "HP TET November 2026 Official Notification (Advt No. HB/(37)/TET November-2026/68934-938 PDF)",
+        "url": "https://hpbose.org/Admin/Upload/Notification%20regarding%20TET.pdf",
+        "type": "notification",
+        "cycle_label": "TET-NOV-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "HP TET November 2026 Information Bulletin & Prospectus (28-Page Guidelines & Syllabus PDF)",
+        "url": "https://hpbose.org/Admin/Upload/PROSPEECTUSTETNOVEMBER2026FINAL.pdf",
+        "type": "syllabus",
+        "cycle_label": "TET-NOV-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "HP TET June 2026 Official Result Notification & Pass Statistics (Letter No. 68866-872 PDF)",
+        "url": "https://hpbose.org/Admin/Upload/RESULT%20NOTIFICATION%20TET%20JUNE-2026.pdf",
+        "type": "other",
+        "cycle_label": "TET-JUNE-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-22"
+      },
+      {
+        "label": "HP TET June 2026 Final Answer Keys for All Subjects (Official HPBOSE PDF)",
+        "url": "https://hpbose.org/Admin/Upload/FINAL_ANS_KEY_TET_JUNE_2026.pdf",
+        "type": "other",
+        "cycle_label": "TET-JUNE-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-22"
+      },
+      {
+        "label": "HP TET November 2025 Result Notification & Subject-wise Pass Statistics (Letter No. 5204-5210 PDF)",
+        "url": "https://hpbose.org/Admin/Upload/NOTIFICATION%20&%20PRESS%20NOTE_1.pdf",
+        "type": "other",
+        "cycle_label": "TET-NOV-2025",
+        "confidence": "verified",
+        "as_of": "2026-01-02"
+      },
+      {
+        "label": "HP TET June 2025 Official Result Notification & Category Statistics (Letter No. 13-08-2025 PDF)",
+        "url": "https://hpbose.org/Admin/Upload/Noti.T.R.13.08.2025.pdf",
+        "type": "other",
+        "cycle_label": "TET-JUNE-2025",
+        "confidence": "verified",
+        "as_of": "2025-08-13"
+      },
+      {
+        "label": "HP TET November 2024 Result Declaration Notification (Letter No. 43471-476 PDF)",
+        "url": "https://hpbose.org/Admin/Upload/Noti.TET.13.01.2025.pdf",
+        "type": "other",
+        "cycle_label": "TET-NOV-2024",
+        "confidence": "verified",
+        "as_of": "2025-01-13"
+      },
+      {
+        "label": "HP TET June 2024 Result Declaration Notification (Letter No. 41984-989 PDF)",
+        "url": "https://hpbose.org/Admin/Upload/Noti.TET.03.09.2024.pdf",
+        "type": "other",
+        "cycle_label": "TET-JUNE-2024",
+        "confidence": "verified",
+        "as_of": "2024-09-03"
+      },
+      {
+        "label": "HP TET June 2026 Examination Schedule Notification (PDF)",
+        "url": "https://hpbose.org/Admin/Upload/NOTITETJUNE2026.pdf",
+        "type": "notification",
+        "cycle_label": "TET-JUNE-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-08"
+      },
+      {
+        "label": "HPBOSE Online Services TET Application Portal & Guidelines",
+        "url": "https://hpbose.org/OnlineServices/CET/TET/Instructions.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HPBOSE Notifications and Press Releases Portal",
+        "url": "https://hpbose.org/Notification.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Himachal Pradesh Board of School Education (HPBOSE) Official Portal",
+        "url": "https://hpbose.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}
