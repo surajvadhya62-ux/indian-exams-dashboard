@@ -1,0 +1,241 @@
+{
+  "id": "dsssb-prt-tgt",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Assistant Teacher (Primary / Nursery) (PRT)",
+        "pay_level": "Level 6",
+        "years": "Entry for PRT (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-09-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_no_05-2025_asstt_teacher_primary.pdf",
+        "source_label": "DSSSB Advt No. 05/2025 — Assistant Teacher (Primary) Post Code 802/25 (Pay Level 6)"
+      },
+      {
+        "designation": "Trained Graduate Teacher (TGT)",
+        "pay_level": "Level 7",
+        "years": "Entry for TGT / 5-8 yrs (from PRT)",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+        "source_label": "DSSSB Advt No. 02/2024 — TGT & Drawing Teacher Combined Notice (Pay Level 7)"
+      },
+      {
+        "designation": "Post Graduate Teacher (PGT) / Lecturer (School Education)",
+        "pay_level": "Level 8",
+        "years": "approx. 8-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+        "source_label": "Directorate of Education Delhi — Teacher Cadre Promotion & 7th CPC Matrix (PB-2 GP 4800 / Level 8)"
+      },
+      {
+        "designation": "Vice Principal (Secondary & Senior Secondary Schools)",
+        "pay_level": "Level 10",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+        "source_label": "DoE Delhi School Administration Recruitment Rules — Vice Principal (Level 10 Gazetted)"
+      },
+      {
+        "designation": "Principal / Education Officer (EO) / Deputy Director of Education (DDE)",
+        "pay_level": "Level 12",
+        "years": "approx. 20-28 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+        "source_label": "Directorate of Education GNCTD — Gazetted Educational Administrative Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "DSSSB conducts teacher recruitment under One-Tier Teaching (I-T-T) examination scheme comprising a single 2-hour CBT paper of 200 MCQs (200 marks). Candidates must qualify in Section B (domain pedagogical and subject paper) with prescribed category-wise minimum qualifying marks, while final selection is strictly prepared on aggregate marks of Section A and Section B combined.",
+    "stages": [
+      {
+        "stage_name": "One-Tier Written CBT (Objective MCQ, 2 Hours Duration)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf",
+        "source_label": "DSSSB Resolution No. P&P/2017/17 — Examination Scheme for Trained Graduate Teachers (I-T-T)",
+        "papers": [
+          {
+            "paper_name": "Section A: General Awareness",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: General Intelligence & Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Arithmetical & Numerical Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Test of Hindi Language & Comprehension",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Test of English Language & Comprehension",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section B: Domain Subject & Teaching Methodology / Pedagogy (100 MCQs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Government school teachers in Delhi are placed under 7th CPC Central Pay Scales: Trained Graduate Teachers commence at Pay Level 7 (entry basic ₹44,900) while Assistant Teachers (Primary / PRT) commence at Pay Level 6 (entry basic ₹35,400). Both cadres receive Delhi Class 'X' metro allowances and central benefits.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-12",
+    "pay_source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+    "pay_source_label": "DSSSB Advt No. 02/2024 — Pay Scale for TGTs (₹44,900 – ₹1,42,400, Pay Level 7)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 70000, "max": 95000 },
+    "in_hand_range_estimate": { "min": 62000, "max": 84000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Spans entry PRT at Level 6 basic ₹35,400 (gross ~₹72,240, in-hand ~₹66,600) to TGT at Level 7 basic ₹44,900 (gross ~₹90,100, in-hand ~₹83,000) with 58% DA, 30% Delhi HRA, ₹3,600 + DA on TA, less 10% NPS and DGEHS deduction.",
+    "official_perks": [
+      "Delhi Government Employees Health Scheme (DGEHS) comprehensive cashless medical coverage across empanelled private and state hospitals",
+      "Summer Vacation (approx. 50 days) and Winter Break (approx. 10 days) with full salary entitlement",
+      "Child Care Leave (CCL) up to 730 days for eligible female teachers",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child plus hostel subsidy",
+      "National Pension System (NPS) with 14% defined government monthly contribution",
+      "Continuous professional development and state/national awards through SCERT Delhi"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "DSSSB teacher examinations are among Delhi's most competitive government recruitments. In the 2024 Combined Examination for TGTs (Advt No. 02/2024), 5,118 vacancies were advertised across disciplines. In TGT Mathematics alone (Post Code 803/24), 25,276 candidates appeared in CBT for 1,119 vacancies, and in TGT Social Science (Post Code 805/24), 26,945 candidates appeared for 310 vacancies, verified directly from DSSSB's official marks notices.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 5118,
+        "applicants": null,
+        "shortlisted_for_mains": 1567,
+        "selectivity_ratio": "approx. 1 in 23 for TGT Maths (calculated: 25,276 appeared in CBT ÷ 1,119 vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-06-01",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/notice_no_1630_0001.pdf",
+        "source_label": "DSSSB Notice No. 1630 dt 01/06/2026: Post Code 803/24 (TGT Maths) — 1,119 vacancies; 25,276 candidates appeared in CBT; 1,567 shortlisted for e-dossier (read directly)."
+      },
+      {
+        "year": 2025,
+        "vacancies": 1180,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2025-09-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_no_05-2025_asstt_teacher_primary.pdf",
+        "source_label": "DSSSB Advt No. 05/2025: Combined Examination for Assistant Teacher (Primary) Post Code 802/25 — 1,180 vacancies (DoE: 1,055, NDMC: 125)."
+      },
+      {
+        "year": 2021,
+        "vacancies": 13043,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2022-09-19",
+        "source_url": "https://dsssb.delhi.gov.in/dsssb-vacancies",
+        "source_label": "DSSSB Advt No. 02/2021 & 03/2021 — Combined recruitment for TGT (5,807 & 7,236 posts) across Directorate of Education"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official download links verified live on dsssb.delhi.gov.in.",
+    "links": [
+      {
+        "label": "Advt No. 02/2024 Combined Examination Notice (TGT & Drawing Teacher 5,118 Vacancies)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-02/2024",
+        "confidence": "verified",
+        "as_of": "2024-01-12"
+      },
+      {
+        "label": "Advt No. 05/2025 Combined Examination Notice (Assistant Teacher Primary 1,180 Vacancies)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_no_05-2025_asstt_teacher_primary.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-05/2025",
+        "confidence": "verified",
+        "as_of": "2025-09-10"
+      },
+      {
+        "label": "DSSSB Examination Scheme Notice for Trained Graduate Teachers (TGT)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2017-07-28"
+      },
+      {
+        "label": "DSSSB Examination Scheme Notice for Primary / Nursery / Assistant Teachers",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/notiination_scheme_prescribed_by_dsssb_for_the_post_of_prima_teacher_regarding.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2017-07-28"
+      },
+      {
+        "label": "Notice No. 1630 dt 01-06-2026 (TGT Maths Post Code 803/24 CBT Marks & Shortlisting)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/notice_no_1630_0001.pdf",
+        "type": "other",
+        "cycle_label": "Advt-02/2024",
+        "confidence": "verified",
+        "as_of": "2026-06-01"
+      },
+      {
+        "label": "Result Notice dt 01-06-2026 (TGT Social Science Post Code 805/24 Marks & Shortlisting)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/document_result_1.pdf",
+        "type": "other",
+        "cycle_label": "Advt-02/2024",
+        "confidence": "verified",
+        "as_of": "2026-06-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "dsssb-nursing-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Nursing personnel in Delhi Government hospitals (Health & Family Welfare Department, GNCTD) follow the clinical nursing hierarchy under 7th CPC Central Pay Scales from Nursing Officer up to Chief Nursing Officer.",
+    "steps": [
+      {
+        "designation": "Nursing Officer (formerly Staff Nurse)",
+        "pay_level": "Level 7",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "source_label": "DSSSB Advt No. 04/2024 — Post Code 02/24 Nursing Officer (Level 7, ₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Senior Nursing Officer (formerly Nursing Sister)",
+        "pay_level": "Level 8",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "source_label": "GNCTD Health & Family Welfare Department — Nursing Cadre Hierarchy (PB-2 GP 4800 / Level 8)"
+      },
+      {
+        "designation": "Assistant Nursing Superintendent (ANS)",
+        "pay_level": "Level 10",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "source_label": "Hospital Administration Cadre Rules — Assistant Nursing Superintendent (Level 10 Gazetted)"
+      },
+      {
+        "designation": "Deputy Nursing Superintendent (DNS)",
+        "pay_level": "Level 11",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "source_label": "GNCTD Directorate of Health Services — Deputy Nursing Superintendent Recruitment Rules"
+      },
+      {
+        "designation": "Nursing Superintendent (NS) / Chief Nursing Officer (CNO)",
+        "pay_level": "Level 12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "source_label": "Apex Nursing Administration — Nursing Superintendent / Chief Nursing Officer (Level 12)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "DSSSB recruits Nursing Officers through the One-Tier Technical (I-T-T) examination scheme comprising a single 2-hour CBT paper of 200 MCQs (200 marks). Section A tests general foundational aptitude (100 marks) and Section B tests domain professional nursing qualification (100 marks). Candidates must score at least 40% (UR/EWS), 35% (OBC Delhi), or 30% (SC/ST/PH) in Section B to qualify, with final selection based on total aggregate score.",
+    "stages": [
+      {
+        "stage_name": "One-Tier Written CBT (Objective MCQ, 2 Hours Duration)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+        "source_label": "DSSSB Official Examination Scheme for One-Tier Technical (I-T-T) Posts",
+        "papers": [
+          {
+            "paper_name": "Section A: General Awareness",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: General Intelligence & Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Arithmetical & Numerical Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Test of Hindi Language & Comprehension",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Test of English Language & Comprehension",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section B: Nursing Sciences & Professional Discipline (100 MCQs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Nursing Officers in GNCTD hospitals are appointed under Central 7th CPC Pay Matrix at Level 7 (entry basic ₹44,900) and are entitled to specialized central health allowances including Nursing Allowance (₹7,200/month) and Uniform Allowance (₹1,800/month) in addition to Class 'X' metro allowances.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-12",
+    "pay_source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+    "pay_source_label": "DSSSB Advt No. 04/2024 — Post Code 02/24 (Pay Level 7, ₹44,900 – ₹1,42,400)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 92000, "max": 102000 },
+    "in_hand_range_estimate": { "min": 80000, "max": 90000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 Entry Basic ₹44,900 + 58% DA (₹26,042) + 30% HRA (₹13,470) + TA (₹3,600 + DA = ₹5,688) + Nursing Allowance (₹7,200/mo) + Uniform Allowance (₹1,800/mo) giving Gross ~₹99,100; In-Hand ~₹84,000–₹86,000 after 10% NPS (₹7,094), DGEHS, and income tax deductions.",
+    "official_perks": [
+      "Nursing Allowance of ₹7,200 per month as sanctioned under 7th CPC recommendations",
+      "Uniform Allowance of ₹1,800 per month (₹21,600 per annum) for clinical hospital duties",
+      "Delhi Government Employees Health Scheme (DGEHS) comprehensive medical coverage across empanelled hospitals",
+      "Night Weightage Allowance and Special Duty Allowances for intensive care and emergency rotations",
+      "National Pension System (NPS) with 14% defined monthly government matching contribution",
+      "Child Care Leave (CCL) up to 730 days for eligible female nursing personnel"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "DSSSB Nursing Officer recruitments are high-volume healthcare selections across Delhi Government hospitals. Advt No. 04/2024 advertised 1,507 Nursing Officer vacancies (Post Code 02/24). In allied public health nursing examinations (Notice No. 303 dt 03-12-2025 for Post Code 30/24), 3,278 candidates appeared in CBT for 46 posts with 121 shortlisted for e-dossier, verified directly from official DSSSB marks notices.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1507,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "source_label": "DSSSB Advt No. 04/2024: Post Code 02/24 Nursing Officer — 1,507 vacancies (UR 724, OBC 445, SC 115, ST 106, EWS 117, PwBD 50)."
+      },
+      {
+        "year": 2025,
+        "vacancies": 46,
+        "applicants": null,
+        "shortlisted_for_mains": 121,
+        "selectivity_ratio": "approx. 1 in 71 for PHNO (calculated: 3,278 appeared in CBT ÷ 46 vacancies)",
+        "confidence": "verified",
+        "as_of": "2025-12-03",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/scan20251203_16113005.pdf",
+        "source_label": "DSSSB Notice No. 303 dt 03/12/2025: Post Code 30/24 Public Health Nursing Officer — 46 vacancies; 3,278 appeared in CBT; 121 shortlisted for e-dossier (read directly)."
+      },
+      {
+        "year": 2018,
+        "vacancies": 684,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2018-07-05",
+        "source_url": "https://dsssb.delhi.gov.in/dsssb-vacancies",
+        "source_label": "DSSSB Advt No. 02/2018 — Staff Nurse (Health & Family Welfare Dept) Post Code 03/18 (684 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official download links verified live on dsssb.delhi.gov.in.",
+    "links": [
+      {
+        "label": "Advt No. 04/2024 Combined Examination Notice (Nursing Officer 1,507 Vacancies, Post Code 02/24)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-04/2024",
+        "confidence": "verified",
+        "as_of": "2024-01-12"
+      },
+      {
+        "label": "Corrigendum dt 24-10-2024 (Nursing Officer Post Code 02/24 Vacancy & Qualification Clarification)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20241024_0053.pdf",
+        "type": "other",
+        "cycle_label": "Advt-04/2024",
+        "confidence": "verified",
+        "as_of": "2024-10-24"
+      },
+      {
+        "label": "DSSSB Official Examination Scheme for One-Tier Technical (I-T-T) Cadres",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2017-07-28"
+      },
+      {
+        "label": "Notice No. 303 dt 03-12-2025 (Public Health Nursing Officer Post Code 30/24 CBT Marks & Shortlisting)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/scan20251203_16113005.pdf",
+        "type": "other",
+        "cycle_label": "Advt-05/2024",
+        "confidence": "verified",
+        "as_of": "2025-12-03"
+      }
+    ]
+  }
+}

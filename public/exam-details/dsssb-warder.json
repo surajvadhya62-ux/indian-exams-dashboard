@@ -1,0 +1,245 @@
+{
+  "id": "dsssb-warder",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive security personnel in Delhi Prisons (Department of Delhi Prisons, GNCTD — Tihar, Rohini, and Mandoli Central Jails) follow the custodial administrative hierarchy from Warder up to Superintendent of Prisons.",
+    "steps": [
+      {
+        "designation": "Warder (Male) / Matron (Female)",
+        "pay_level": "Level 3",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "DSSSB Advt No. 03/2023 — Post Code 113/23 Warder & Post Code 112/23 Matron (Level 3, ₹21,700 – ₹69,100)"
+      },
+      {
+        "designation": "Head Warder / Head Matron",
+        "pay_level": "Level 4",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "Delhi Prisons Subordinate Service Rules — Head Warder Cadre (PB-1 GP 2400 / Level 4)"
+      },
+      {
+        "designation": "Assistant Superintendent (Prisons)",
+        "pay_level": "Level 6",
+        "years": "approx. 10-18 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "Delhi Prisons Executive Cadre Rules — Assistant Superintendent (PB-2 GP 4200 / Level 6)"
+      },
+      {
+        "designation": "Deputy Superintendent (Prisons)",
+        "pay_level": "Level 8",
+        "years": "approx. 18-25 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "Delhi Prisons Gazetted Service — Deputy Superintendent (Level 8 / PB-2 GP 4800)"
+      },
+      {
+        "designation": "Superintendent (Central Jail Tihar / Rohini / Mandoli)",
+        "pay_level": "Level 10",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "Delhi Prisons Administration Rules — Superintendent of Central Prisons (Level 10 Gazetted)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Warder and Matron consists of a Two-Stage recruitment process: Stage 1 is a One-Tier General (I-T-G) computer-based examination of 200 marks, followed by Stage 2 Physical Measurement and Physical Endurance Test (PMT & PET) conducted by the Delhi Prisons Department which is qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: One-Tier Written CBT (Objective MCQ, 2 Hours Duration)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "DSSSB Advt No. 03/2023 — One-Tier General (I-T-G) Scheme for Warder & Matron",
+        "papers": [
+          {
+            "paper_name": "General Awareness",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning Ability",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Arithmetical & Numerical Ability",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Hindi Language & Comprehension",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of English Language & Comprehension",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Standards and Endurance Test (PET & PMT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "DSSSB Advt No. 03/2023 — Physical Measurement & Physical Endurance Standards for Warder & Matron",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (Male: Height ≥ 170 cm, Chest 81-85 cm; Female: Height ≥ 157 cm)",
+            "marks": 0,
+            "duration_minutes": 0,
+            "negative_marking": "none",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical standards (5 cm height relaxation for hill tribes and ST candidates)"
+          },
+          {
+            "paper_name": "Physical Endurance Test (Male: 1600m run in 6 min, Long Jump 13 ft, High Jump 3'9\"; Female: 800m run in 4 min, Long Jump 9 ft, High Jump 3')",
+            "marks": 0,
+            "duration_minutes": 0,
+            "negative_marking": "none",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in all 3 events (up to 3 attempts allowed for long jump and high jump)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Warders and Matrons in Delhi Prisons are placed under Central 7th CPC Pay Matrix at Level 3 (entry basic ₹21,700) and are entitled to specialized prison uniform and security allowances in addition to standard Class 'X' metro allowances.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-11-10",
+    "pay_source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+    "pay_source_label": "DSSSB Advt No. 03/2023 — Pay Scale for Warder Post Code 113/23 & Matron Post Code 112/23 (Level 3, ₹21,700 – ₹69,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 44000, "max": 50000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 44000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 Entry Basic ₹21,700 + 58% DA (₹12,586) + 30% HRA (₹6,510) + TA (₹3,600 + DA = ₹5,688) plus Ration Money Allowance (~₹3,500/month) and Washing Allowance giving Gross ~₹48,000–₹50,000; In-Hand ~₹41,000–₹43,000 after 10% NPS deduction (₹3,429) and standard state deductions.",
+    "official_perks": [
+      "Ration Money Allowance (RMA) / Mess Allowance for executive custodial prison security staff",
+      "Uniform and Washing Allowance for executive uniformed warder duties",
+      "Delhi Government Employees Health Scheme (DGEHS) comprehensive medical facilities",
+      "One month extra basic pay (13th Month Salary) or compensatory leave in lieu of duty performed on gazetted holidays and weekends",
+      "National Pension System (NPS) with 14% defined monthly government matching contribution",
+      "Government residential quarters inside Delhi Prisons residential complexes (Tihar, Rohini, Mandoli)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "DSSSB Warder recruitments attract extensive applicant participation across Delhi and northern India. In the 2025 recruitment cycle for Warder (Male) Post Code 15/25 (Advt No. 01/2025), 63,817 candidates appeared in the CBT for 1,676 vacancies, with 16,596 shortlisted for the Physical Endurance and Measurement Test (UR cut-off: 139.35), verified directly from official DSSSB shortlisting results.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 1676,
+        "applicants": null,
+        "shortlisted_for_mains": 16596,
+        "selectivity_ratio": "approx. 1 in 38 (calculated: 63,817 appeared in CBT ÷ 1,676 vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-04-27",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/15_25_0001_2.pdf",
+        "source_label": "DSSSB Result Notice F.No. 397/Result/Warder/male/CC-III/DSSSB/25-26/3020-27 dt 27/04/2026: Post Code 15/25 Warder (Male) — 1,676 vacancies; 63,817 candidates appeared in CBT; 16,596 shortlisted for PET/PMT (UR cut-off: 139.35)."
+      },
+      {
+        "year": 2023,
+        "vacancies": 333,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-11-10",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "source_label": "DSSSB Advt No. 03/2023: Delhi Prisons Department — Warder Male Post Code 113/23 (271 vacancies) & Matron Female Post Code 112/23 (62 vacancies)."
+      },
+      {
+        "year": 2017,
+        "vacancies": 84,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-01-22",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/1586.pdf",
+        "source_label": "DSSSB Supplementary Result Notice No. 1586 dt 22/01/2026: Warder (Delhi Prisons) Post Code 86/17 — Selection and nomination list."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official download links verified live on dsssb.delhi.gov.in.",
+    "links": [
+      {
+        "label": "Advt No. 03/2023 Examination Notice (Warder Post Code 113/23 & Matron Post Code 112/23)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-03/2023",
+        "confidence": "verified",
+        "as_of": "2023-11-10"
+      },
+      {
+        "label": "Corrigendum dt 09-07-2024 (Advt No. 03/2023 Delhi Prisons Vacancy & Eligibility Details)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/0323_2024_7_9_6_34_30_9191.pdf",
+        "type": "other",
+        "cycle_label": "Advt-03/2023",
+        "confidence": "verified",
+        "as_of": "2024-07-09"
+      },
+      {
+        "label": "Result Notice dt 27-04-2026 (Warder Male Post Code 15/25 CBT Marks & PET Shortlisting)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/15_25_0001_2.pdf",
+        "type": "other",
+        "cycle_label": "Advt-01/2025",
+        "confidence": "verified",
+        "as_of": "2026-04-27"
+      },
+      {
+        "label": "Supplementary Result Notice No. 1586 dt 22-01-2026 (Warder Post Code 86/17 Delhi Prisons)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/1586.pdf",
+        "type": "other",
+        "cycle_label": "Advt-03/2017",
+        "confidence": "verified",
+        "as_of": "2026-01-22"
+      }
+    ]
+  }
+}

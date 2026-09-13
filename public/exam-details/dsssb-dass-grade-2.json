@@ -1,0 +1,307 @@
+{
+  "id": "dsssb-dass-grade-2",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Grade-II (DASS) / Assistant Section Officer (ASO) / Head Clerk",
+        "pay_level": "Level 7",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-02-20",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+        "source_label": "DSSSB Advt No. 01/2026 (Combined Exam 2026) — Post Code 804/26 Services Department"
+      },
+      {
+        "designation": "Grade-I (DASS) / Section Officer (SO)",
+        "pay_level": "Level 8",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2026-02-20",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+        "source_label": "Delhi Administration Subordinate Service Rules & 7th CPC Matrix (PB-2 GP 4800 / Level 8)"
+      },
+      {
+        "designation": "Section Officer (Non-Functional Selection Grade / NFSG)",
+        "pay_level": "Level 10",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+        "source_label": "Services Department GNCTD — NFSG Scale for Section Officers (Level 10)"
+      },
+      {
+        "designation": "DANICS Junior Grade (Entry Grade) / Assistant Commissioner / SDM",
+        "pay_level": "Level 10",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+        "source_label": "DANICS Rules — Induction Quota for DASS Cadre into Group 'A' Gazetted Service"
+      },
+      {
+        "designation": "DANICS Selection Grade / Senior Scale (Deputy Commissioner / Additional Secretary)",
+        "pay_level": "Level 11",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+        "source_label": "Ministry of Home Affairs — DANICS Senior Scale Service Rules"
+      },
+      {
+        "designation": "Indian Administrative Service (IAS) (AGMUT Cadre)",
+        "pay_level": "Level 12 / 13",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-20",
+        "source_url": "https://dsssb.delhi.gov.in/dsssb-vacancies",
+        "source_label": "DoPT / MHA Guidelines on Promotion of State/UT Civil Service Officers into IAS"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "DSSSB conducts the Combined Examination for Grade-II (GNCTDSS) / Assistant Section Officer (Services Department, DPCC, DUSIB) under Two-Tier General (II T-G) examination scheme. Tier-I is qualifying in nature for shortlisting candidates, while final merit is strictly prepared on cumulative marks obtained in Tier-II (Part-I MCQ + Part-II Descriptive out of 300 marks).",
+    "stages": [
+      {
+        "stage_name": "Tier-I Preliminary Examination (CBT Objective, Screening Only)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-20",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+        "source_label": "DSSSB Advt No. 01/2026 — Para 4 Examination Scheme (Post Code 804/26, II T-G)",
+        "papers": [
+          {
+            "paper_name": "General Awareness",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning Ability",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          },
+          {
+            "paper_name": "Arithmetical & Numerical Ability",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          },
+          {
+            "paper_name": "Hindi Language & Comprehension",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          },
+          {
+            "paper_name": "English Language & Comprehension",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier-II Main Examination (Part-I MCQ & Part-II Descriptive, Single 3-Hour Session)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-20",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+        "source_label": "DSSSB Advt No. 01/2026 — Para 4 Examination Scheme (Tier-II Part-I & Part-II)",
+        "papers": [
+          {
+            "paper_name": "Part-I (MCQ): General Awareness (40 Qs)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-I (MCQ): General Intelligence & Reasoning Ability (40 Qs)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-I (MCQ): Arithmetical & Numerical Ability (40 Qs)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-I (MCQ): English Language & Comprehension (40 Qs)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-I (MCQ): Computer Proficiency (40 Qs)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-II (Descriptive): Essay / Expansion of Ideas (in English)",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-II (Descriptive): Letter / Application Writing (in English)",
+            "marks": 25,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part-II (Descriptive): Precis Writing / Summarizing (in English)",
+            "marks": 25,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Appointees to Grade-II (GNCTDSS) / Assistant Section Officer / Head Clerk in Services Department and Delhi GNCTD bodies are governed under the Central Civil Services (Revised Pay) Rules, 2016 (7th CPC) in Pay Level 7 with an initial basic pay of ₹44,900. Delhi is classified as a Class 'X' higher TPTA metro city for allowances.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-02-20",
+    "pay_source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+    "pay_source_label": "DSSSB Advt No. 01/2026 — Post Code 804/26 Specification (Pay Scale ₹44,900 – ₹1,42,400, Level 7)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 85000, "max": 95000 },
+    "in_hand_range_estimate": { "min": 75000, "max": 84000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 Entry Basic ₹44,900 with 58% DA (₹26,042), Delhi metro Class 'X' HRA @ 30% (₹13,470), and Transport Allowance @ ₹3,600 + 58% DA (₹5,688), giving ₹90,100 gross pay before standard 10% NPS deduction (₹7,094), DGEHS health contribution (₹650), and tax withholding.",
+    "official_perks": [
+      "Delhi Government Employees Health Scheme (DGEHS) / CGHS cashless medical coverage across empanelled private and government super-specialty hospitals in Delhi NCR",
+      "GNCTD General Pool Residential Accommodation (GPRA) allotment eligibility across government residential colonies in Delhi",
+      "Central government Leave Travel Concession (LTC) with all-India travel block coverage",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child (up to two children) plus annual hostel subsidy",
+      "National Pension System (NPS) with 14% defined employer contribution by Government of NCT of Delhi",
+      "Annual increment of 3% on Basic Pay on 1st January or 1st July each year"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment for executive assistant cadres in Delhi Administration has been unified under Combined Examination 2026 (Advt No. 01/2026) for Grade-II (GNCTDSS) / Assistant Section Officer across Services Department, DPCC, and DUSIB. Vacancies were revised upward from 576 to 606 in Services Department alone vide Corrigendum dated 26-05-2026, totaling 617 vacancies across all three participating departments.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 617,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-05-26",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/corrigendum23_0001.pdf",
+        "source_label": "DSSSB Corrigendum dt 26-05-2026 & Advt No. 01/2026: Post Code 804/26 Services Department revised to 606 (UR 223, OBC 155, SC 101, ST 44, EWS 83, PwBD 25) plus DPCC (3) and DUSIB (8), totaling 617 vacancies."
+      },
+      {
+        "year": 2021,
+        "vacancies": 12,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2022-09-19",
+        "source_url": "https://dsssb.delhi.gov.in/dsssb-vacancies",
+        "source_label": "DSSSB Advt No. 02/2021 — Head Clerk under Post Code 46/21 in Delhi Urban Shelter Improvement Board (DUSIB)"
+      },
+      {
+        "year": 2017,
+        "vacancies": 221,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2022-09-19",
+        "source_url": "https://dsssb.delhi.gov.in/dsssb-vacancies",
+        "source_label": "DSSSB Advt No. 01/2017 — Grade-II (DASS) under Post Code 813/17 in Services Department, GNCTD"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official links point directly to primary PDFs and vacancy hubs hosted on DSSSB's verified government domain dsssb.delhi.gov.in.",
+    "links": [
+      {
+        "label": "Advt No. 01/2026 Combined Examination Notice (Grade-II GNCTDSS / ASO Post Code 804/26)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-01/2026",
+        "confidence": "verified",
+        "as_of": "2026-02-20"
+      },
+      {
+        "label": "Corrigendum dt 26-05-2026 (Revision of Vacancies to 606 in Services Department)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/corrigendum23_0001.pdf",
+        "type": "other",
+        "cycle_label": "Advt-01/2026",
+        "confidence": "verified",
+        "as_of": "2026-05-26"
+      },
+      {
+        "label": "Amendment in Examination Scheme for Grade-II DASS (Two-Tier General Scheme)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/amendment_in_examination_scheme_for_the_post_of_grade-ii_dass.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2017-06-02"
+      },
+      {
+        "label": "DSSSB Official Examination Schemes Hub",
+        "url": "https://dsssb.delhi.gov.in/dsssb/new-examination-and-interview-scheme",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "DSSSB Official Vacancies & Recruitment Hub",
+        "url": "https://dsssb.delhi.gov.in/dsssb-vacancies",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

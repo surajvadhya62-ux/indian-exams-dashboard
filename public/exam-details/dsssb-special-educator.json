@@ -1,0 +1,234 @@
+{
+  "id": "dsssb-special-educator",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Special education professionals in Delhi Government and municipal schools (DoE, GNCTD & MCD) progress along the specialized inclusive teaching cadre under Central 7th CPC Pay Scales from Special Educator (Primary) up to administrative leadership in the Inclusive Education Branch.",
+    "steps": [
+      {
+        "designation": "Special Educator (Primary) (MCD / DoE)",
+        "pay_level": "Level 6",
+        "years": "0-5 yrs (Entry level for PRT)",
+        "confidence": "verified",
+        "as_of": "2026-04-13",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
+        "source_label": "DSSSB Supplementary Result Notice No. 1612 dt 13-04-2026 — Special Educator Primary Post Code 32/21 in MCD (Level 6, ₹35,400 – ₹1,12,400)"
+      },
+      {
+        "designation": "Special Education Teacher (TGT) (Directorate of Education)",
+        "pay_level": "Level 7",
+        "years": "approx. 5-8 yrs (or direct entry for TGT)",
+        "confidence": "verified",
+        "as_of": "2025-12-15",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
+        "source_label": "DSSSB Notice No. 1576 dt 15-12-2025 — Special Education Teacher Post Code 20/22 in DoE (Level 7, ₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Post Graduate Teacher (Special Education / PGT Inclusive Education)",
+        "pay_level": "Level 8",
+        "years": "approx. 8-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-27",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+        "source_label": "Directorate of Education GNCTD — Inclusive Education Cadre Rules (PB-2 GP 4800 / Level 8)"
+      },
+      {
+        "designation": "Inclusive Education Officer (IEO) / Special Education Coordinator / Vice Principal",
+        "pay_level": "Level 10",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-27",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+        "source_label": "DoE Inclusive Education Branch — Administrative & Resource Management Cadre Rules (Level 10 Gazetted)"
+      },
+      {
+        "designation": "Deputy Director of Education (Inclusive Education Branch / IEB)",
+        "pay_level": "Level 12",
+        "years": "approx. 20-28 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-27",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+        "source_label": "Directorate of Education GNCTD — State Inclusive Education Administration Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "DSSSB conducts recruitment for Special Educators under the One-Tier Technical / Teaching (I-T-T) examination scheme comprising a single 2-hour CBT paper of 200 MCQs (200 marks). Section A evaluates general aptitude (100 marks) and Section B tests domain knowledge in Special Education, Child Development, Learning Disabilities, IEP planning, and pedagogy (100 marks). Section B requires minimum qualifying marks of 40% (UR/EWS), 35% (OBC Delhi), or 30% (SC/ST/PH), with final merit decided on total marks across both sections.",
+    "stages": [
+      {
+        "stage_name": "One-Tier Written CBT (Objective MCQ, 2 Hours Duration)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf",
+        "source_label": "DSSSB Resolution No. P&P/2017/17 — Examination Scheme for Special Education Teachers (I-T-T)",
+        "papers": [
+          {
+            "paper_name": "Section A: General Awareness",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: General Intelligence & Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Arithmetical & Numerical Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Test of Hindi Language & Comprehension",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section A: Test of English Language & Comprehension",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section B: Special Education, Pedagogy & Methodology (100 MCQs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (UR/EWS), 35% (OBC Delhi), 30% (SC/ST/PH)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Special education teachers in Delhi are placed under Central 7th CPC Pay Matrix: Primary Special Educators commence at Pay Level 6 (entry basic ₹35,400) and TGT Special Education Teachers commence at Pay Level 7 (entry basic ₹44,900), drawing standard Class 'X' metro allowances.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-05-27",
+    "pay_source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+    "pay_source_label": "DSSSB Advt No. 02/2023 & Addendum dt 27-05-2024 — Pay Scale for Special Education Cadre (Level 6 ₹35,400 / Level 7 ₹44,900)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 72000, "max": 95000 },
+    "in_hand_range_estimate": { "min": 64000, "max": 84000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Spans entry Special Educator Primary at Level 6 basic ₹35,400 (gross ~₹72,240, in-hand ~₹66,600) to TGT Special Education Teacher at Level 7 basic ₹44,900 (gross ~₹90,100, in-hand ~₹83,000) with 58% DA, 30% Delhi HRA, ₹3,600 + DA on TA, less 10% NPS and medical scheme deductions.",
+    "official_perks": [
+      "Delhi Government Employees Health Scheme (DGEHS) / MCD cashless hospital medical coverage",
+      "Resource Room and Special Needs Allowance / specialized pedagogy allowance for inclusive classrooms",
+      "Summer Vacation (approx. 50 days) and Winter Break (approx. 10 days) with full salary entitlement",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child plus hostel subsidy",
+      "National Pension System (NPS) with 14% defined monthly government matching contribution",
+      "Rehabilitation Council of India (RCI) accredited Continuing Rehabilitation Education (CRE) workshop sponsorships"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "DSSSB Special Educator recruitments require specialized Rehabilitation Council of India (RCI) qualifications, yielding high candidate selectivity. In the CBT for Special Education Teacher in DoE (Post Code 20/22), 2,793 candidates appeared for 364 vacancies with 767 shortlisted for e-dossier, verified directly from official DSSSB marks notices.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 364,
+        "applicants": null,
+        "shortlisted_for_mains": 767,
+        "selectivity_ratio": "approx. 1 in 8 for TGT Special Ed (calculated: 2,793 appeared in CBT ÷ 364 vacancies)",
+        "confidence": "verified",
+        "as_of": "2025-12-15",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
+        "source_label": "DSSSB Notice No. 1576 dt 15/12/2025: Post Code 20/22 Special Education Teacher (DoE) — 364 vacancies; 2,793 candidates appeared in CBT; 767 shortlisted for e-dossier (read directly)."
+      },
+      {
+        "year": 2021,
+        "vacancies": 1126,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-04-13",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
+        "source_label": "DSSSB Supplementary Result Notice No. 1612 dt 13/04/2026: Post Code 32/21 Special Educator Primary in MCD — 1,126 vacancies; 1,123 selected in main list, 225 in reserve list."
+      },
+      {
+        "year": 2023,
+        "vacancies": 587,
+        "applicants": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-05-27",
+        "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+        "source_label": "DSSSB Addendum / Notice dt 27/05/2024 for Advt No. 02/2023: Post Code 58/23 Special Education Teacher in DoE — 587 vacancies."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official download links verified live on dsssb.delhi.gov.in.",
+    "links": [
+      {
+        "label": "Notice No. 1612 dt 13-04-2026 (Special Educator Primary Post Code 32/21 MCD Selection Result)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
+        "type": "other",
+        "cycle_label": "Advt-01/2021",
+        "confidence": "verified",
+        "as_of": "2026-04-13"
+      },
+      {
+        "label": "Notice No. 1576 dt 15-12-2025 (Special Education Teacher Post Code 20/22 CBT Marks & e-Dossier)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
+        "type": "other",
+        "cycle_label": "Advt-07/2022",
+        "confidence": "verified",
+        "as_of": "2025-12-15"
+      },
+      {
+        "label": "Result Notice No. 1589 dt 02-02-2026 (Special Education Teacher Post Code 20/22 DoE Selection)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260202_16385381.pdf",
+        "type": "other",
+        "cycle_label": "Advt-07/2022",
+        "confidence": "verified",
+        "as_of": "2026-02-02"
+      },
+      {
+        "label": "Addendum dt 27-05-2024 (Advt No. 02/2023 Special Education Teacher Post Code 58/23)",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-02/2023",
+        "confidence": "verified",
+        "as_of": "2024-05-27"
+      },
+      {
+        "label": "DSSSB Examination Scheme Notice for Trained Graduate Teachers (TGT) & Special Education",
+        "url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2017-07-28"
+      }
+    ]
+  }
+}

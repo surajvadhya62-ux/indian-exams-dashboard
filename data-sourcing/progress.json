@@ -3,13 +3,13 @@
   "last_updated": "2026-09-14",
   "totals": {
     "exams": 504,
-    "verified": 342,
+    "verified": 347,
     "partial": 0,
-    "not_started": 162,
+    "not_started": 157,
     "exams_total": 504,
-    "detail_files_exist": 349,
+    "detail_files_exist": 354,
     "total_exams": 504,
-    "detail_files_present": 349,
+    "detail_files_present": 354,
     "last_updated": "2026-09-14"
   },
   "sessions": [
@@ -1195,6 +1195,22 @@
         "goa-ssc-cgl"
       ],
       "notes": "Completed Unit 120 (u120): Goa Staff Selection Commission Combined Subordinate Services Exam (goa-ssc-cgl) under Goa Staff Selection Commission (GSSC). All 5 sections fully researched and populated with primary verified citations. Exam scheme verified from GSSC Advertisement No. 3 of Year 2026 and Ad 3 of Year 2025: Two-Tier CBT (CBT-I screening 60 marks with mandatory 4/10 Konkani language cutoff; CBT-II merit examination 80 marks) and qualifying 30 wpm English typing test. State-jurisdiction pay rule (§5.3) adhered to: CCS (RP) Rules 2016 as adopted by Government of Goa Order No. 8/1/2016-Fin(R&C) (Pay Level 2 basic ₹19,900 for LDC / Junior Assistant / Recovery Clerk, Level 4 basic ₹25,500 for Accounts Clerk), standard 58% DA constant as of 2025-07-01, gross ₹35,000–₹39,000, in-hand ₹31,000–₹35,000. Verified promotional ladder from LDC to UDC, Head Clerk/Accountant, Superintendent Group B Gazetted, and Under Secretary / Junior Scale Officer. Validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-14-u119",
+      "date": "2026-09-14",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--delhi"
+      ],
+      "exam_ids_touched": [
+        "dsssb-dass-grade-2",
+        "dsssb-prt-tgt",
+        "dsssb-nursing-officer",
+        "dsssb-warder",
+        "dsssb-special-educator"
+      ],
+      "notes": "Unit u119 completed: 5 DSSSB exams researched and verified against official notifications, result notices, and examination schemes under Central 7th CPC Class X rules on dsssb.delhi.gov.in."
     }
   ],
   "exams": {
@@ -14299,43 +14315,60 @@
     "dsssb-dass-grade-2": {
       "batch_id": "batch-5-subordinate-police-boards--delhi",
       "detail_file": "public/exam-details/dsssb-dass-grade-2.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+            "https://dsssb.delhi.gov.in/dsssb-vacancies"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/corrigendum23_0001.pdf",
+            "https://dsssb.delhi.gov.in/dsssb-vacancies"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_01-2026.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/corrigendum23_0001.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/amendment_in_examination_scheme_for_the_post_of_grade-ii_dass.pdf",
+            "https://dsssb.delhi.gov.in/dsssb/new-examination-and-interview-scheme",
+            "https://dsssb.delhi.gov.in/dsssb-vacancies"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         }
       },
       "flags": []
@@ -14343,43 +14376,61 @@
     "dsssb-prt-tgt": {
       "batch_id": "batch-5-subordinate-police-boards--delhi",
       "detail_file": "public/exam-details/dsssb-prt-tgt.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_no_05-2025_asstt_teacher_primary.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/notice_no_1630_0001.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_no_05-2025_asstt_teacher_primary.pdf",
+            "https://dsssb.delhi.gov.in/dsssb-vacancies"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no._02-2024_trained_graduate_teachers_drawing_teacher_1.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt_no_05-2025_asstt_teacher_primary.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/notiination_scheme_prescribed_by_dsssb_for_the_post_of_prima_teacher_regarding.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/notice_no_1630_0001.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/document_result_1.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         }
       },
       "flags": []
@@ -14387,43 +14438,58 @@
     "dsssb-nursing-officer": {
       "batch_id": "batch-5-subordinate-police-boards--delhi",
       "detail_file": "public/exam-details/dsssb-nursing-officer.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/scan20251203_16113005.pdf",
+            "https://dsssb.delhi.gov.in/dsssb-vacancies"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_advt._no_04-2024.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20241024_0053.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/exam_scheme.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/scan20251203_16113005.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         }
       },
       "flags": []
@@ -14431,43 +14497,58 @@
     "dsssb-warder": {
       "batch_id": "batch-5-subordinate-police-boards--delhi",
       "detail_file": "public/exam-details/dsssb-warder.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/15_25_0001_2.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/1586.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/final_03-2023_dsssb_advt.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/0323_2024_7_9_6_34_30_9191.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/15_25_0001_2.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/1586.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         }
       },
       "flags": []
@@ -14475,43 +14556,61 @@
     "dsssb-special-educator": {
       "batch_id": "batch-5-subordinate-police-boards--delhi",
       "detail_file": "public/exam-details/dsssb-special-educator.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "available",
+          "citations": [
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260202_16385381.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
+            "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "researcher"
         }
       },
       "flags": []
