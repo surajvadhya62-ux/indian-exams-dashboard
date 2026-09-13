@@ -3,9 +3,9 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 271,
+    "verified": 277,
     "partial": 0,
-    "not_started": 233,
+    "not_started": 227,
     "exams_total": 504,
     "detail_files_exist": 344,
     "total_exams": 504,
@@ -922,6 +922,23 @@
         "aibe"
       ],
       "notes": "Completed Unit 90 (u090): 6 premier apex and Delhi judicial / legal examinations covering Delhi Judicial Service (DJS - Civil Judge), Delhi Higher Judicial Service (DHJS - Additional District Judge), Delhi High Court Senior Judicial Assistant / Judicial Assistant, Supreme Court of India Law Clerk-cum-Research Associate, Supreme Court of India Junior Court Assistant (JCA), and Bar Council of India All India Bar Examination (AIBE). Researched from primary statutory rules (DJS Rules 1970, DHJS Rules 1970, DHC Establishment Rules 1972, SCI Service Rules 1961, SCI Law Clerk Scheme 2024, Advocates Act 1961 & BCI Rules), pay matrices (SNJPC J-1 ₹77,840, SNJPC J-5 ₹1,44,840, 7th CPC Level 7 ₹44,900, Level 6 ₹35,400 with canonical 58% DA, and consolidated ₹80,000 stipend), and verified official recruitment gazettes; all dossiers validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u097",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--karnataka"
+      ],
+      "exam_ids_touched": [
+        "kea-vao",
+        "kptcl-junior-engineer",
+        "karnataka-forest-guard",
+        "karnataka-judicial-service",
+        "bescom-assistant-engineer",
+        "kcet"
+      ],
+      "notes": "Completed Unit 97 (u097): 6 Karnataka state examinations across Karnataka Examination Authority (KEA VAO & KCET), Karnataka Power Transmission Corporation Limited (KPTCL Junior Engineer), Bangalore Electricity Supply Company (BESCOM Assistant Engineer), Karnataka Forest Department (Forest Guard / Aranya Rakshaka), and High Court of Karnataka (Karnataka Judicial Service Civil Judge Cadre). Researched from primary recruitment notifications, KCSR 7th State Pay Commission & SNJPC judicial pay scales, and official syllabi/downloads; all dossiers validated with zero errors."
     }
   ],
   "exams": {
@@ -1503,42 +1520,53 @@
       "batch_id": "batch-7-state-other--karnataka",
       "detail_file": "public/exam-details/kcet.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Undergraduate academic common entrance test",
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_ENGenglish.pdf",
+            "https://cetonline.karnataka.gov.in/kea/ugcet2024"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Undergraduate academic common entrance test",
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/kea/ugcet2024"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_ENGenglish.pdf",
+            "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_KANkannada.pdf",
+            "https://cetonline.karnataka.gov.in/kea/ugcet2024",
+            "https://cetonline.karnataka.gov.in/kea/ugcet2026",
+            "https://cetonline.karnataka.gov.in/kea/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         }
       },
       "flags": []
@@ -15262,42 +15290,59 @@
       "batch_id": "batch-7-state-other--karnataka",
       "detail_file": "public/exam-details/kea-vao.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+            "https://cetonline.karnataka.gov.in/kea/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/KEA_Exam_Calender_2026_15082026kannada.pdf",
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_postclasification_10072026kannada.pdf",
+            "https://cetonline.karnataka.gov.in/kea/vaorpc2026"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_postclasification_10072026kannada.pdf",
+            "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/KEA_Exam_Calender_2026_15082026kannada.pdf",
+            "https://cetonline.karnataka.gov.in/kea/vaorpc2026",
+            "https://cetonline.karnataka.gov.in/kea/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         }
       },
       "flags": []
@@ -15416,42 +15461,57 @@
       "batch_id": "batch-7-state-other--karnataka",
       "detail_file": "public/exam-details/karnataka-forest-guard.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+            "https://aranya.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+            "https://recruitment.aranya.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://aranya.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://aranya.gov.in",
+            "https://recruitment.aranya.gov.in",
+            "https://recruitment.aranya.gov.in/candidate/login",
+            "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         }
       },
       "flags": []
@@ -20775,42 +20835,53 @@
       "batch_id": "batch-7-state-other--karnataka",
       "detail_file": "public/exam-details/karnataka-judicial-service.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://karnatakajudiciary.kar.nic.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://karnatakajudiciary.kar.nic.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://karnatakajudiciary.kar.nic.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://karnatakajudiciary.kar.nic.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://karnatakajudiciary.kar.nic.in",
+            "https://districts.ecourts.gov.in/karnataka"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         }
       },
       "flags": []
@@ -23394,42 +23465,57 @@
       "batch_id": "batch-7-state-other--karnataka",
       "detail_file": "public/exam-details/kptcl-junior-engineer.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+            "https://kptcl.karnataka.gov.in"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Detailed_Employment_Notifcaion_01_02_2022.pdf",
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalSelectionList_JE_Elec_NKK.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalSelectionList_JE_Elec_NKK.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in",
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Detailed_Employment_Notifcaion_01_02_2022.pdf",
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalSelectionList_JE_Elec_NKK.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         }
       },
       "flags": []
@@ -23438,42 +23524,58 @@
       "batch_id": "batch-7-state-other--karnataka",
       "detail_file": "public/exam-details/bescom-assistant-engineer.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+            "https://bescom.karnataka.gov.in/100/recruitment/en"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Detailed_Employment_Notifcaion_01_02_2022.pdf",
+            "https://bescom.karnataka.gov.in/100/recruitment/en"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalselectionList_AE_Civil_NKK_2.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://bescom.karnataka.gov.in",
+            "https://bescom.karnataka.gov.in/100/recruitment/en",
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+            "https://bescom.karnataka.gov.in/storage/pdf-files/Personnel/44953_NKK_DetailedNotification.pdf",
+            "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalselectionList_AE_Civil_NKK_2.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u097"
         }
       },
       "flags": []

@@ -1,0 +1,161 @@
+{
+  "id": "kcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Karnataka Common Entrance Test (KCET / UGCET) is an offline OMR entrance examination held over two days in four distinct sessions for Physics, Chemistry, Mathematics, and Biology based on the 1st and 2nd PUC syllabi prescribed by the Department of Pre-University Education of Karnataka State. There is no negative marking.",
+    "stages": [
+      {
+        "stage_name": "Common Entrance Test (Offline OMR Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_ENGenglish.pdf",
+        "source_label": "KEA UGCET Information Bulletin (Section 9: Method of CET Written Test)",
+        "papers": [
+          {
+            "paper_name": "Day 1 - Session 1: Biology (PCB tracks - Agriculture, Veterinary, Nursing)",
+            "marks": 60,
+            "duration_minutes": 80,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Day 1 - Session 2: Mathematics (PCM tracks - Engineering / Technology / Pharmacy)",
+            "marks": 60,
+            "duration_minutes": 80,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Day 2 - Session 3: Physics (Common to all streams)",
+            "marks": 60,
+            "duration_minutes": 80,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Day 2 - Session 4: Chemistry (Common to all streams)",
+            "marks": 60,
+            "duration_minutes": 80,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Kannada Language Test (For Horanadu & Gadinadu Kannadiga Candidates)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_ENGenglish.pdf",
+        "source_label": "KEA UGCET Information Bulletin (Section 4: Kannada Language Test)",
+        "papers": [
+          {
+            "paper_name": "Kannada Language Test (4th Standard Primary Level)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 12 marks out of 50 (exempted for candidates who studied 10 full academic years in Kannada Medium)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Online Counselling & Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/ugcet2024",
+        "source_label": "KEA Web Option Entry, Merit Ranking, and Single-Window Seat Allotment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Online Verification of 2nd PUC / 12th Marks, Clause Eligibility, SNQ, and Option Entry",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "50:50 composite merit computation for Engineering (50% KCET PCM + 50% 2nd PUC Board PCM)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registration, appearance, and seat allotment statistics compiled from official KEA UGCET press notes and statistical releases.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 349637,
+        "vacancies": 120000,
+        "shortlisted_for_mains": 310314,
+        "selectivity_ratio": "approx. 1 in 2.9 (calculated: applicants ÷ total available engineering & professional seats)",
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/ugcet2024",
+        "source_label": "KEA UGCET 2024 Official Press Note: 3,49,637 candidates registered; 3,10,314 appeared; 2,74,595 assigned engineering ranks across ~1.2 lakh state quota seats."
+      },
+      {
+        "year": 2023,
+        "applicants": 261610,
+        "vacancies": 115000,
+        "shortlisted_for_mains": 244345,
+        "selectivity_ratio": "approx. 1 in 2.3 (calculated: applicants ÷ total available seats)",
+        "confidence": "reported",
+        "as_of": "2023-06-15",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/ugcet2024",
+        "source_label": "KEA UGCET 2023 Statistical Summary."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletins, online portals, syllabus frameworks, and seat matrices hosted on the Karnataka Examinations Authority (KEA) portals.",
+    "links": [
+      {
+        "label": "KCET Official Information Bulletin (English)",
+        "url": "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_ENGenglish.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KCET Official Information Bulletin (Kannada)",
+        "url": "https://cetonline.karnataka.gov.in/keawebentry456/ugcet2024/UG_2024_KANkannada.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KEA UGCET 2024 Web Portal",
+        "url": "https://cetonline.karnataka.gov.in/kea/ugcet2024",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KEA UGCET 2026 Web Portal",
+        "url": "https://cetonline.karnataka.gov.in/kea/ugcet2026",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Karnataka Examinations Authority (KEA) Portal",
+        "url": "https://cetonline.karnataka.gov.in/kea/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

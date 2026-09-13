@@ -1,0 +1,227 @@
+{
+  "id": "bescom-assistant-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Engineers in Bangalore Electricity Supply Company Limited (BESCOM) advance through the power distribution engineering executive cadre based on performance appraisals, departmental promotion examinations, and service seniority.",
+    "steps": [
+      {
+        "designation": "Assistant Engineer (AE / Electrical & Civil)",
+        "pay_level": "Pay Scale ₹41,130 - ₹72,920",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+        "source_label": "KPTCL / ESCOMs Employment Notification No. KPTCL/B16/21723/2021-22 and Revised Board Pay Scales"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE / Sub-Division Head)",
+        "pay_level": "Pay Scale ₹57,120 - ₹1,06,860",
+        "years": "approx. 6-9 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "source_label": "BESCOM Cadre & Recruitment Regulations"
+      },
+      {
+        "designation": "Executive Engineer (EE / Division Head - Bengaluru Urban / Rural)",
+        "pay_level": "Pay Scale ₹74,400 - ₹1,12,800",
+        "years": "approx. 14-18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "source_label": "BESCOM Senior Engineering Management Regulations"
+      },
+      {
+        "designation": "Superintending Engineer (SE / Circle In-charge - BMAZ / BRAZ)",
+        "pay_level": "Pay Scale ₹90,500 - ₹1,23,300",
+        "years": "approx. 22-26 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "source_label": "BESCOM Circle Administration Cadre Rules"
+      },
+      {
+        "designation": "Chief Engineer (CE / Electricity - Zonal Operation & Maintenance)",
+        "pay_level": "Pay Scale ₹1,04,600 - ₹1,41,300",
+        "years": "approx. 27-32 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "source_label": "BESCOM Executive Management Regulations"
+      },
+      {
+        "designation": "Director (Technical) / Managing Director (MD)",
+        "pay_level": "Board Level Executive Scale",
+        "years": "Apex elevation",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "source_label": "State Energy Department Board Appointments"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted via a joint competitive process administered by KPTCL for BESCOM and sibling ESCOMs, comprising a qualifying Kannada Language Test (for non-exempt candidates) followed by an OMR-based online/offline Aptitude Test of 100 marks covering engineering degree curriculum and general aptitude.",
+    "stages": [
+      {
+        "stage_name": "Compulsory Kannada Language Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Detailed_Employment_Notifcaion_01_02_2022.pdf",
+        "source_label": "KPTCL / ESCOMs Detailed Employment Notification (Kannada Test Regulations)",
+        "papers": [
+          {
+            "paper_name": "Compulsory Kannada Language Test (SSLC standard)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35% (50 marks out of 150; exempted for candidates who passed SSLC or higher with Kannada as first or second language)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Aptitude Examination (CBT / Offline OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Detailed_Employment_Notifcaion_01_02_2022.pdf",
+        "source_label": "KPTCL / BESCOM Examination Scheme & Marks Distribution",
+        "papers": [
+          {
+            "paper_name": "Core Engineering Degree Syllabus (Electrical & Electronics / Civil B.E./B.Tech curriculum)",
+            "marks": 75,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness & Aptitude (Logical Reasoning, Quantitative Aptitude, General Knowledge)",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification & Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "source_label": "BESCOM Verification and Medical Fitness Regulations",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Original Engineering Degree, Marks Transcripts, and Reservation Testimonials",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "1:1 / 1:2 verification of shortlisted merit candidates"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per KPTCL / ESCOMs Board Revised Pay Scales (Scale ₹41,130–₹72,920; Entry Basic Pay ₹41,130). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and Bengaluru metro HRA at 27%.",
+    "pay_level": "Pay Scale ₹41,130 - ₹72,920 (Executive Officer Cadre)",
+    "entry_basic_pay": 41130,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+    "pay_source_label": "KPTCL / ESCOM Notification No. KPTCL/B16/21723/2021-22 and Board Pay Scales",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 69000,
+      "max": 78000
+    },
+    "in_hand_range_estimate": {
+      "min": 61000,
+      "max": 69000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹41,130 at mandatory 58% DA (₹23,855) plus 27% HRA in Bengaluru urban jurisdiction (₹11,105) and engineering field allowances, less statutory Contributory Pension / NPS (10% Basic+DA), Group Insurance, and professional tax deductions.",
+    "official_perks": [
+      "House Rent Allowance (HRA) at 27% across Bengaluru Metropolitan Area (BBMP)",
+      "Medical reimbursement under BESCOM Medical Attendance Rules",
+      "Power employee concession electricity quota",
+      "Contributory Pension Scheme (NPS) with employer matching contribution",
+      "Leave Travel Concession (LTC) across Karnataka and India",
+      "Gratuity and group insurance coverage"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant and vacancy figures verified directly from the combined KPTCL & ESCOMs Joint Recruitment Notification and Final Selection Lists.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 118400,
+        "vacancies": 533,
+        "shortlisted_for_mains": 118400,
+        "selectivity_ratio": "approx. 1 in 222 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalselectionList_AE_Civil_NKK_2.pdf",
+        "source_label": "KPTCL & ESCOMs Joint Recruitment (Advt. No. KPTCL/B16/21723/2021-22): 533 total Assistant Engineer posts (AE Electrical: 505 [393 NKK + 6 Backlog + 106 KK]; AE Civil: 28 [21 NKK + 7 KK]) serving KPTCL and BESCOM distribution areas."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, recruitment portals, and selection lists hosted on Bangalore Electricity Supply Company (BESCOM) and KPTCL portals.",
+    "links": [
+      {
+        "label": "BESCOM Official State Portal",
+        "url": "https://bescom.karnataka.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "BESCOM Recruitment Portal Hub",
+        "url": "https://bescom.karnataka.gov.in/100/recruitment/en",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KPTCL / ESCOMs Brief Notification (Advt. No. KPTCL/B16/21723/2021-22)",
+        "url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/KM_266_220124165946.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "BESCOM Detailed Employment Notification PDF",
+        "url": "https://bescom.karnataka.gov.in/storage/pdf-files/Personnel/44953_NKK_DetailedNotification.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KPTCL / ESCOMs AE Civil Final Selection List & Cut-off Marks (NKK)",
+        "url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalselectionList_AE_Civil_NKK_2.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

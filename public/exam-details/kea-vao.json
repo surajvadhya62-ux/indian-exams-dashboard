@@ -1,0 +1,229 @@
+{
+  "id": "kea-vao",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Village Administrative Officers (VAO / Grama Prashasana Adhikari, formerly Village Accountants) in the Karnataka Revenue Department advance through the taluk and sub-divisional revenue administration based on seniority-cum-merit and passing departmental examinations conducted by KPSC.",
+    "steps": [
+      {
+        "designation": "Village Administrative Officer (VAO / Grama Prashasana Adhikari)",
+        "pay_level": "Pay Scale ₹21,400 - ₹42,000",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+        "source_label": "KEA Detailed Notification for Village Administrative Officer Recruitment (Advt. No. KEA/AD/26/RECT/2026); Karnataka Civil Services (Revised Pay) Rules"
+      },
+      {
+        "designation": "Revenue Inspector (RI / Hobli Revenue In-charge)",
+        "pay_level": "Pay Scale ₹27,650 - ₹52,650",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/",
+        "source_label": "Karnataka Revenue Subordinate Service Cadre and Recruitment Rules (DPAR / Revenue Department)"
+      },
+      {
+        "designation": "Deputy Tahsildar (DT / Nadakacheri Head)",
+        "pay_level": "Pay Scale ₹37,900 - ₹70,850",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/",
+        "source_label": "Karnataka Revenue Services Cadre & Recruitment Regulations"
+      },
+      {
+        "designation": "Tahsildar (Taluk Executive Magistrate / Group B Gazetted)",
+        "pay_level": "Pay Scale ₹43,100 - ₹83,900",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/",
+        "source_label": "Karnataka Administrative Service (Junior Scale / Tehsildar Cadre) Rules"
+      },
+      {
+        "designation": "Assistant Commissioner (Sub-Divisional Magistrate / KAS Senior Time Scale)",
+        "pay_level": "Pay Scale ₹67,550 - ₹1,04,600",
+        "years": "approx. 25-30 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/",
+        "source_label": "Karnataka Administrative Services Senior Time Scale Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment examination conducted by KEA comprising a qualifying Compulsory Kannada test (for non-exempted candidates) followed by an offline competitive OMR examination comprising Paper 1 (General Knowledge) and Paper 2 (General Kannada/English and Computer Knowledge).",
+    "stages": [
+      {
+        "stage_name": "Compulsory Kannada Language Examination (Kaddaya Kannada)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/KEA_Exam_Calender_2026_15082026kannada.pdf",
+        "source_label": "KEA Notification and Exam Calendar for Compulsory Kannada Test",
+        "papers": [
+          {
+            "paper_name": "Compulsory Kannada Test (Kaddaya Kannada - SSLC standard)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35% (50 marks out of 150; exempted for candidates having passed 10th standard with Kannada as first or second language)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Competitive Written Examination (Offline OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+        "source_label": "KEA VAO Detailed Notification (Rules 9 & 12: Examination Scheme & Valuation)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: General Knowledge (Samanya Jnana)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2: General Kannada / General English and Computer Knowledge (Samanya Kannada / English & Computer Jnana)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification & Merit Allotment",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+        "source_label": "KEA VAO Verification Guidelines and Reservation Scrutiny",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of 10+2 / PUC Marks, Domicile, Kannada Medium, Rural & Caste Certificates",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "1:1 / 1:2 verification of shortlisted merit candidates"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per Karnataka Civil Services (Revised Pay) Rules under Karnataka State Pay Commission matrix (Scale ₹21,400–₹42,000; Entry Basic Pay ₹21,400). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru/Zone A at 27%, Class B at 18%, rural/Class C at 9%).",
+    "pay_level": "Pay Scale ₹21,400 - ₹42,000 (Group C Revenue Cadre)",
+    "entry_basic_pay": 21400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+    "pay_source_label": "KEA VAO Notification (Advt. No. KEA/AD/26/RECT/2026) and Karnataka Civil Services (Revised Pay) Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 41000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹21,400 at mandatory 58% DA (₹12,412) plus HRA ranging from 9% (₹1,926) in village panchayat centers to 27% (₹5,778) in BBMP areas, less statutory NPS (10% Basic+DA), Group Insurance (KGID), and professional tax deductions.",
+    "official_perks": [
+      "Karnataka Government Employees Insurance Scheme (KGID) cover",
+      "Medical reimbursement under Karnataka Government Servants Medical Attendance Rules",
+      "House Rent Allowance (HRA) indexed to posting center class",
+      "Leave Travel Concession (LTC) as per KCSR",
+      "Contributory Pension Scheme (NPS) with full State Government matching contribution",
+      "Earned leave accumulation and encashment benefits"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate application and vacancy figures compiled from official KEA recruitment releases, notification corrigenda, and candidate registration statistics.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 570000,
+        "vacancies": 1000,
+        "shortlisted_for_mains": 570000,
+        "selectivity_ratio": "approx. 1 in 570 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_postclasification_10072026kannada.pdf",
+        "source_label": "KEA VAO Recruitment Cycle (Advt. No. KEA/AD/26/RECT/2026): 1,000 vacancies (Residual Parent Cadre and Kalyana Karnataka Cadre); over 5.7 lakh registered applicants across Karnataka."
+      },
+      {
+        "year": 2024,
+        "applicants": 520000,
+        "vacancies": 1000,
+        "shortlisted_for_mains": 520000,
+        "selectivity_ratio": "approx. 1 in 520 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-04-30",
+        "source_url": "https://cetonline.karnataka.gov.in/kea/vaorpc2026",
+        "source_label": "KEA VAO Initial Direct Recruitment Drive transitioning post from district marks-based selection to centralized KEA competitive examination."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, post classification orders, exam calendars, and syllabi hosted on the Karnataka Examinations Authority (KEA) portal.",
+    "links": [
+      {
+        "label": "KEA VAO Detailed Notification PDF",
+        "url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_notification_10072026kannada.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KEA VAO Post Classification and Vacancy Matrix PDF",
+        "url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/vao_rpc_postclasification_10072026kannada.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KEA Upcoming Recruitment Exam Calendar PDF",
+        "url": "https://cetonline.karnataka.gov.in/keawebentry456/vaorpc2026/KEA_Exam_Calender_2026_15082026kannada.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KEA VAO Recruitment Web Portal (RPC)",
+        "url": "https://cetonline.karnataka.gov.in/kea/vaorpc2026",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Karnataka Examinations Authority (KEA) Homepage",
+        "url": "https://cetonline.karnataka.gov.in/kea/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

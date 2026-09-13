@@ -1,0 +1,230 @@
+{
+  "id": "karnataka-forest-guard",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Forest Guards (Aranya Rakshaka / Beat Foresters) in the Karnataka Forest Department (KFD) advance through the executive field hierarchy based on physical fitness, departmental qualifying examinations, and seniority.",
+    "steps": [
+      {
+        "designation": "Forest Guard (Aranya Rakshaka / Beat Forester)",
+        "pay_level": "Pay Scale ₹21,400 - ₹42,000",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+        "source_label": "Karnataka Forest Department Cadre and Recruitment Rules; Karnataka Civil Services (Revised Pay) Rules"
+      },
+      {
+        "designation": "Deputy Range Forest Officer (DRFO / Section Forester)",
+        "pay_level": "Pay Scale ₹27,650 - ₹52,650",
+        "years": "approx. 6-10 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://aranya.gov.in",
+        "source_label": "Karnataka Forest Department Subordinate Services Cadre & Recruitment Rules"
+      },
+      {
+        "designation": "Range Forest Officer (RFO / Territorial & Wildlife Range In-charge)",
+        "pay_level": "Pay Scale ₹43,100 - ₹83,900",
+        "years": "approx. 14-18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://aranya.gov.in",
+        "source_label": "Karnataka Forest Service (Executive Cadre) Rules (Group B Gazetted)"
+      },
+      {
+        "designation": "Assistant Conservator of Forests (ACF / Sub-Division Head)",
+        "pay_level": "Pay Scale ₹52,650 - ₹97,100",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://aranya.gov.in",
+        "source_label": "Karnataka State Forest Service (Group A Junior) Regulations"
+      },
+      {
+        "designation": "Deputy Conservator of Forests (DCF / Divisional Forest Officer)",
+        "pay_level": "Pay Scale ₹67,550 - ₹1,04,600",
+        "years": "approx. 26-30 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://aranya.gov.in",
+        "source_label": "Indian Forest Service (State Promotion Quota) / State Forest Service Senior Time Scale"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two primary stages: Stage 1 involves Physical Standards, Physical Efficiency Tests (including 1600m/1000m runs and a mandatory 25 km / 14 km endurance walk); Stage 2 is an objective written examination covering Mathematics and General Knowledge.",
+    "stages": [
+      {
+        "stage_name": "Physical Standard Test (PST) and Physical Endurance Test (PET)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+        "source_label": "KFD Recruitment Rules & Physical Efficiency Guidelines",
+        "papers": [
+          {
+            "paper_name": "Physical Standards & Field Events (Height min 163cm Male / 150cm Female; 1600m/1000m run, sprint, jumps, shot put)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying in all required physical events"
+          },
+          {
+            "paper_name": "Endurance Walking Test (25 km in 4 hours for Men; 14 km in 4 hours for Women)",
+            "marks": 0,
+            "duration_minutes": 240,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Completion within prescribed 4 hours duration"
+          }
+        ]
+      },
+      {
+        "stage_name": "Written Aptitude Examination (Offline OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+        "source_label": "Karnataka Forest Department Written Test Syllabus & Scheme",
+        "papers": [
+          {
+            "paper_name": "Mathematics (SSLC / Class 10 standard)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge, Forestry, Wildlife & Environmental Awareness",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Medical Fitness & Document Scrutiny",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://recruitment.aranya.gov.in",
+        "source_label": "KFD Medical Examination and Document Verification Standards",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness (Vision, Hearing, Physical Constitution) and Original Testimonials Scrutiny",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fitness certificate from government medical board"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per Karnataka Civil Services (Revised Pay) Rules under Karnataka State Pay Commission matrix (Scale ₹21,400–₹42,000; Entry Basic Pay ₹21,400). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and location HRA (9% to 27%).",
+    "pay_level": "Pay Scale ₹21,400 - ₹42,000 (Group C Forest Executive)",
+    "entry_basic_pay": 21400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+    "pay_source_label": "Karnataka Forest Department Recruitment Specification and KCSR Revised Pay Scales",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 41000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹21,400 at mandatory 58% DA (₹12,412) plus HRA ranging from 9% (₹1,926) in remote forest range beats to 27% (₹5,778) in urban territorial circles, plus uniform and ration allowances, less statutory NPS (10% Basic+DA), KGID, and professional tax deductions.",
+    "official_perks": [
+      "Uniform and kit maintenance allowances",
+      "Ration allowance / difficult area beat allowance in designated wildlife sanctuaries",
+      "Rent-free government forest quarters or HRA",
+      "Medical reimbursement under KCSR rules",
+      "Contributory Pension Scheme (NPS) with state government matching contribution",
+      "Karnataka Government Employees Insurance Scheme (KGID) cover"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment milestones compiled from Karnataka Forest Department circle-wise notification updates, physical test lists, and selection releases.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 185000,
+        "vacancies": 540,
+        "shortlisted_for_mains": 10800,
+        "selectivity_ratio": "approx. 1 in 342 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-08-08",
+        "source_url": "https://aranya.gov.in",
+        "source_label": "Karnataka Forest Department Beat Forester / Forest Guard Recruitment Drive (540 posts across 13 territorial circles); 1:20 candidates shortlisted for physical tests and written test."
+      },
+      {
+        "year": 2022,
+        "applicants": 140000,
+        "vacancies": 339,
+        "shortlisted_for_mains": 6780,
+        "selectivity_ratio": "approx. 1 in 413 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-12-31",
+        "source_url": "https://aranya.gov.in",
+        "source_label": "KFD 339 Forest Guard Recruitment Cycle."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, recruitment portals, candidate manuals, and guidelines hosted on the Karnataka Forest Department portals.",
+    "links": [
+      {
+        "label": "Karnataka Forest Department Official State Portal",
+        "url": "https://aranya.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KFD Online Recruitment Portal",
+        "url": "https://recruitment.aranya.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KFD Recruitment Candidate Login Portal",
+        "url": "https://recruitment.aranya.gov.in/candidate/login",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "KFD Recruitment Frequently Asked Questions & Guidelines PDF",
+        "url": "https://recruitment.aranya.gov.in/images/Frequently%20Asked%20Questions%20and%20Answers.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "id": "karnataka-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Karnataka are recruited under the Karnataka Judicial Service (Recruitment) Rules, 2004 under the administrative superintendence of the High Court of Karnataka, with revised pay scales governed by the Second National Judicial Pay Commission (SNJPC).",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC J-1 (₹77,840 - ₹1,36,520)",
+        "years": "Entry level",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "Karnataka Judicial Service (Recruitment) Rules and Second National Judicial Pay Commission (SNJPC) Revised Pay Matrix"
+      },
+      {
+        "designation": "Civil Judge (Senior Stage / ACP 1)",
+        "pay_level": "SNJPC J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Judicial Service Rules (Assured Career Progression)"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM)",
+        "pay_level": "SNJPC J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Senior Civil Judge Promotion Regulations"
+      },
+      {
+        "designation": "Senior Civil Judge (Selection Grade)",
+        "pay_level": "SNJPC J-4 (₹1,39,200 - ₹1,79,150)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Judicial Service Cadre Rules"
+      },
+      {
+        "designation": "District & Sessions Judge / Additional District Judge (ADJ)",
+        "pay_level": "SNJPC J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka District Judiciary Regulations"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (Super Time Scale)",
+        "pay_level": "SNJPC J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "Karnataka Judicial Service Cadre Register"
+      },
+      {
+        "designation": "Judge, High Court of Karnataka",
+        "pay_level": "Constitutional Post (₹2,25,000 fixed)",
+        "years": "Apex elevation",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "Constitution of India, Article 217 (Judicial Service Quota)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Direct recruitment conducted by the High Court of Karnataka consisting of Preliminary Examination (OMR Screening), Main Written Examination (4 descriptive papers of 100 marks each), and Viva-voce Test (100 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (OMR Screening)",
+        "stage_order": 1,
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "Karnataka Judicial Service (Recruitment) Rules & Civil Judge Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Part A: Civil Law (CPC, Contract Act, Specific Relief, Transfer of Property, Indian Constitution, Karnataka Rent Act)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "50% for GM/OBC (50 marks); 40% for SC/ST (40 marks); top 1:25 candidates shortlisted for Mains"
+          },
+          {
+            "paper_name": "Part B: Criminal Law (CrPC, IPC, Indian Evidence Act)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C: General Knowledge, Reasoning and Mental Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive)",
+        "stage_order": 2,
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Civil Judge Recruitment Rules (Mains Syllabus)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: Translation Paper (English to Kannada 50 marks; Kannada to English 50 marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper (35% for SC/ST) and 50% aggregate (40% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper 2: Law Paper I (Civil Law - Code of Civil Procedure, Principles of Pleading, Constitution of India)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 3: Law Paper II (Criminal Law - Code of Criminal Procedure, Indian Penal Code, Indian Evidence Act)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 4: Law Paper III (Framing of Issues & Judgment Writing in Civil and Criminal Cases)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Oral Interview)",
+        "stage_order": 3,
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Viva-Voce Guidelines",
+        "papers": [
+          {
+            "paper_name": "Personal Interview & Legal Grasp Assessment",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (40 marks out of 100) for General/OBC; 35% (35 marks out of 100) for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per the Second National Judicial Pay Commission (SNJPC) revised pay matrix for Subordinate Judiciary (Scale J-1: ₹77,840–₹1,36,520; Entry Basic Pay ₹77,840) as accepted by the Government of Karnataka pursuant to Supreme Court directives. Applies standardized project constant 58% DA as of 2025-07-01.",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "reported",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://karnatakajudiciary.kar.nic.in",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) Recommendation Matrix and Karnataka Government Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 132000,
+      "max": 148000
+    },
+    "in_hand_range_estimate": {
+      "min": 116000,
+      "max": 129000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹77,840 at mandatory 58% DA (₹45,147) plus Judicial HRA / official government bungalow allowance, sumptuary allowance (₹4,000), robe allowance, and conveyance allowance, less statutory pension and income tax deductions.",
+    "official_perks": [
+      "Designated judicial bungalow / official residence or judicial HRA",
+      "Official vehicle / conveyance allowance with driver",
+      "Sumptuary allowance and library allowance as per SNJPC",
+      "Free electricity and water quota as per judicial service rules",
+      "Comprehensive medical cover for officer and dependents under judicial regulations",
+      "Robe allowance and telephone / broadband reimbursement"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment milestones compiled from High Court of Karnataka recruitment notifications and selection notifications for Civil Judge posts.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 13420,
+        "vacancies": 57,
+        "shortlisted_for_mains": 1425,
+        "selectivity_ratio": "approx. 1 in 235 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-12-31",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Notification No. HCE 247/2023 for 57 posts of Civil Judges (Direct Recruitment)."
+      },
+      {
+        "year": 2022,
+        "applicants": 15800,
+        "vacancies": 106,
+        "shortlisted_for_mains": 2650,
+        "selectivity_ratio": "approx. 1 in 149 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-12-31",
+        "source_url": "https://karnatakajudiciary.kar.nic.in",
+        "source_label": "High Court of Karnataka Notification No. HCE 331/2021-22 for 106 posts of Civil Judges (89 Residual Parent Cadre + 17 Kalyana Karnataka Cadre)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and district court recruitment hubs under the High Court of Karnataka.",
+    "links": [
+      {
+        "label": "High Court of Karnataka Official Portal",
+        "url": "https://karnatakajudiciary.kar.nic.in",
+        "type": "notification",
+        "confidence": "reported",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Karnataka District Judiciary Recruitment Hub (eCourts)",
+        "url": "https://districts.ecourts.gov.in/karnataka",
+        "type": "notification",
+        "confidence": "reported",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}
