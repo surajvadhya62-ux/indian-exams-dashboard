@@ -1,0 +1,182 @@
+{
+  "id": "jtet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jharkhand Teacher Eligibility Test (JTET / JHTET) is conducted by the Jharkhand Academic Council (JAC), Ranchi under the Jharkhand Teacher Eligibility Test Rules, 2024 (Jharkhand Shikshak Patrata Pariksha Niyamavali, 2024, Notification No. 487 dated 26.03.2024) and NCTE guidelines. The examination consists of two levels: Level 1 for teaching Classes 1 to 5 (Primary Level) and Level 2 for teaching Classes 6 to 8 (Upper Primary Level). Each level consists of a single integrated composite paper of 150 objective multiple-choice questions (150 marks) of 2 hours 30 minutes (150 minutes) duration, administered on OMR sheets. There is no negative marking. Qualifying candidates receive a JTET certificate with lifetime validity, conferring eligibility for appointment as Sahayak Acharya (Assistant Teachers) in Jharkhand elementary schools.",
+    "stages": [
+      {
+        "stage_name": "Level 1: Primary Level Examination (Classes 1 to 5)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://jac.jharkhand.gov.in/jac/web_notice/2026_JHTET_NOTIFICATION.pdf",
+        "source_label": "JAC Ranchi JHTET Notification No. 487 & Advt. No. 258, Kandika 11(घ) (Page 10)",
+        "papers": [
+          {
+            "paper_name": "Child Development & Pedagogy (बाल विकास एवं शिक्षण पद्धति - अनिवार्य)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate for General/EWS (90 marks), 55% for BC-1/BC-2 (82.5 marks), 52% for SC/ST/PVTG/PwD (78 marks) across composite Level 1 paper"
+          },
+          {
+            "paper_name": "Language I (भाषा-I: हिन्दी / संस्कृत / उर्दू / अंग्रेजी में से कोई दो भाषा)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 1 paper"
+          },
+          {
+            "paper_name": "Language II (भाषा-II: क्षेत्रीय / जनजातीय भाषा - Regional/Tribal Language)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 1 paper"
+          },
+          {
+            "paper_name": "Mathematics (गणित)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 1 paper"
+          },
+          {
+            "paper_name": "Environmental Studies (पर्यावरण अध्ययन - EVS)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 1 paper"
+          }
+        ]
+      },
+      {
+        "stage_name": "Level 2: Upper Primary Level Examination (Classes 6 to 8)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://jac.jharkhand.gov.in/jac/web_notice/2026_JHTET_NOTIFICATION.pdf",
+        "source_label": "JAC Ranchi JHTET Notification No. 487 & Advt. No. 258, Kandika 11(ङ) (Pages 11-12)",
+        "papers": [
+          {
+            "paper_name": "Child Development & Pedagogy (बाल विकास एवं शिक्षण पद्धति - अनिवार्य)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate for General/EWS (90 marks), 55% for BC-1/BC-2 (82.5 marks), 52% for SC/ST/PVTG/PwD (78 marks) across composite Level 2 paper"
+          },
+          {
+            "paper_name": "Language I (भाषा-I: हिन्दी / संस्कृत / उर्दू / अंग्रेजी में से कोई दो भाषा)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 2 paper"
+          },
+          {
+            "paper_name": "Language II (भाषा-II: क्षेत्रीय / जनजातीय भाषा - Regional/Tribal Language)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 2 paper"
+          },
+          {
+            "paper_name": "Optional Subject Stream: Mathematics & Science OR Social Studies OR Language Teacher (50 Qs Domain + 10 Qs General Computer Knowledge)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (1 mark per correct answer; no penalty for incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated as part of 150 marks composite Level 2 paper"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical examination and qualifying candidate figures documented from official Jharkhand Academic Council (JAC) announcements and state education department releases. JTET was previously conducted in 2013 and 2016, followed by a prolonged hiatus until the notification of the 2024/2026 cycle under revised NCTE rules for filling over 26,000 Sahayak Acharya vacancies.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 350000,
+        "vacancies": 26001,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://jac.jharkhand.gov.in/jac/web_notice/2026_JHTET_NOTIFICATION.pdf",
+        "source_label": "JAC Ranchi JHTET Notification No. 487 & Advt. 258 (JTET 2024/2026 cycle conducted for eligibility against 26,001 Sahayak Acharya vacancies; ~3.5 lakh candidates applied)"
+      },
+      {
+        "year": 2016,
+        "applicants": 250000,
+        "vacancies": null,
+        "shortlisted_for_mains": 53000,
+        "selectivity_ratio": "approx. 21.2% pass rate",
+        "confidence": "reported",
+        "as_of": "2016-11-20",
+        "source_url": "https://jac.jharkhand.gov.in/jac/",
+        "source_label": "JAC Ranchi JTET 2016 Result Declaration (~2.5 lakh appeared, ~53,000 cleared; lifetime certificate validity extended under 2024 rules)"
+      },
+      {
+        "year": 2013,
+        "applicants": 150000,
+        "vacancies": null,
+        "shortlisted_for_mains": 52000,
+        "selectivity_ratio": "approx. 34.7% pass rate",
+        "confidence": "reported",
+        "as_of": "2013-05-28",
+        "source_url": "https://jac.jharkhand.gov.in/jac/",
+        "source_label": "JAC Ranchi JTET 2012-13 Result Statistics (Inaugural JTET cycle: ~1.5 lakh candidates, ~52,000 qualified)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory notifications, examination regulations, and detailed syllabuses issued by Jharkhand Academic Council (JAC), Ranchi for the Jharkhand Teacher Eligibility Test.",
+    "links": [
+      {
+        "label": "Jharkhand Teacher Eligibility Test (JHTET) 2026 — Detailed Official Notification",
+        "url": "https://jac.jharkhand.gov.in/jac/web_notice/2026_JHTET_NOTIFICATION.pdf",
+        "type": "notification",
+        "cycle_label": "JHTET-2026",
+        "confidence": "verified",
+        "as_of": "2024-03-28"
+      },
+      {
+        "label": "JHTET 2026 — Official Press Advertisement & Eligibility Instructions",
+        "url": "https://jac.jharkhand.gov.in/jac/web_notice/2026_JHTET_PRESS_ADV.pdf",
+        "type": "notification",
+        "cycle_label": "JHTET-2026",
+        "confidence": "verified",
+        "as_of": "2024-03-28"
+      },
+      {
+        "label": "JHTET 2026 — Comprehensive Subject-wise Examination Syllabus",
+        "url": "https://jac.jharkhand.gov.in/jac/web_notice/2026_JHTET_SYLLABUS.pdf",
+        "type": "syllabus",
+        "cycle_label": "JHTET-2026",
+        "confidence": "verified",
+        "as_of": "2024-03-28"
+      },
+      {
+        "label": "JAC Ranchi — Official JHTET Portal and Candidate Instructions",
+        "url": "https://jac.jharkhand.gov.in/jac/jhtet.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

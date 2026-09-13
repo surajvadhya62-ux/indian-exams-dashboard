@@ -1,0 +1,216 @@
+{
+  "id": "jssc-cgl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Cadre progression for officers recruited through the Jharkhand General Graduate Level Combined Competitive Examination (JGGLCCE) in the premier Jharkhand Secretariat Service (झारखण्ड सचिवालय सेवा) as Assistant Branch Officers (सहायक प्रशाखा पदाधिकारी / ASO) under the Department of Personnel, Administrative Reforms and Rajbhasha, Government of Jharkhand. Placement also occurs in executive line posts including Block Supply Officer, Block Welfare Officer, Circle Inspector-cum-Kanungo, and Labour Enforcement Officer.",
+    "steps": [
+      {
+        "designation": "Assistant Branch Officer / Prashakha Padadhikari (ASO) (झारखण्ड सचिवालय सेवा)",
+        "pay_level": "Jharkhand Pay Matrix Level 7 (PB-2 ₹9,300–34,800, GP 4600, entry basic ₹44,900)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "JSSC JGGLCCE-2023 Advt. No. 10/2023 Brochure, Kandika 3 & 4 (Page 5)"
+      },
+      {
+        "designation": "Section Officer / Senior Prashakha Padadhikari (झारखण्ड सचिवालय सेवा)",
+        "pay_level": "Jharkhand Pay Matrix Level 8 / Level 9 (PB-2 ₹9,300–34,800, GP 4800/5400, ₹47,600–53,100 basic)",
+        "years": "approx. 5-9 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "Jharkhand Secretariat Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Under Secretary (Avar Sachiv / अवर सचिव) (Government of Jharkhand)",
+        "pay_level": "Jharkhand Pay Matrix Level 11 (PB-3 ₹15,600–39,100, GP 6600, ₹67,700 basic)",
+        "years": "approx. 10-16 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "Jharkhand Secretariat Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Deputy Secretary (Up Sachiv / उप सचिव) (Government of Jharkhand)",
+        "pay_level": "Jharkhand Pay Matrix Level 12 (PB-3 ₹15,600–39,100, GP 7600, ₹78,800 basic)",
+        "years": "approx. 16-23 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "Jharkhand Secretariat Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Joint Secretary (Sanyukt Sachiv / संयुक्त सचिव) (Government of Jharkhand)",
+        "pay_level": "Jharkhand Pay Matrix Level 13 (PB-4 ₹37,400–67,000, GP 8700, ₹1,18,500 basic)",
+        "years": "approx. 23-28 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "Jharkhand Secretariat Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Additional Secretary / Special Secretary (Secretariat Apex Selection Grade)",
+        "pay_level": "Jharkhand Pay Matrix Level 14 (₹1,44,200 basic)",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "Jharkhand Secretariat Service Rules & Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jharkhand General Graduate Level Combined Competitive Examination (JGGLCCE) is conducted in a single Mains Examination stage (मुख्य परीक्षा) comprising 3 compulsory papers conducted on a single day across 3 shifts of 2 hours duration each. The exam is OMR-based with normalization across multiple shifts. Each question carries 3 marks, with a penalty of 1 mark for each incorrect response. Paper 1 is qualifying (30% threshold required; marks do not count towards merit). Merit is derived strictly from the aggregate sum of Paper 2 (Tribal/Regional Language, 300 marks) and Paper 3 (General Knowledge, 450 marks), totaling 750 marks.",
+    "stages": [
+      {
+        "stage_name": "Main Examination (Single Stage OMR Objective Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-06-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "JSSC JGGLCCE-2023 Advt. No. 10/2023 Brochure, Kandika 17 (Pages 14-16)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: भाषा ज्ञान (Language Knowledge — Hindi 60 Qs & English 60 Qs)",
+            "marks": 360,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer (+3 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "30% (minimum 108 marks out of 360 required to qualify. If candidate fails to secure 30%, Paper 2 and Paper 3 are not evaluated. Marks do not count for merit ranking)"
+          },
+          {
+            "paper_name": "Paper 2: चिह्नित जनजातीय एवं क्षेत्रीय भाषा (Tribal & Regional Language Selected by Candidate)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (minimum 90 marks out of 300 required; marks count towards final merit ranking)"
+          },
+          {
+            "paper_name": "Paper 3: सामान्य ज्ञान (General Knowledge — GS, Science, Math, Reasoning, Computer & Jharkhand GK)",
+            "marks": 450,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (minimum 135 marks out of 450 required; marks count towards final merit ranking)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale figures shown for premier Level 7 Assistant Branch Officer / Prashakha Padadhikari (entry basic pay ₹44,900) in Jharkhand Secretariat Service. Other executive postings recruited under JGGLCCE include Block Supply Officer, Block Welfare Officer, Circle Inspector-cum-Kanungo, and Labour Enforcement Officer placed in Jharkhand Pay Matrix Level 6 (entry basic pay ₹35,400), Planning Assistant in Level 5 (₹29,200), and Junior Secretariat Assistant (JSA) in Level 2 (₹19,900).",
+    "pay_level": "Jharkhand Pay Matrix Level 7 (PB-2 ₹9,300 - 34,800, GP 4600)",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-06-07",
+    "pay_source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+    "pay_source_label": "JSSC JGGLCCE-2023 Advt. No. 10/2023 Brochure, Kandika 4 (Page 5)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 75000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 64000,
+      "max": 76000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Level 7 entry basic ₹44,900 + 58% DA (₹26,042) + state HRA (8%–18% depending on posting in Ranchi or district headquarters) + medical allowance (₹1,000) + transport allowance. In-hand estimate accounts for statutory deductions including 10% NPS on Basic + DA (₹7,094), professional tax (₹208/month), and GIS.",
+    "official_perks": [
+      "Government designated residential quarters in state capital (Ranchi) or district administrative headquarters",
+      "Medical reimbursement facilities under Jharkhand State Health Scheme",
+      "Earned Leave, Casual Leave, Child Care Leave, and Leave Travel Concession (LTC)",
+      "Provident fund and superannuation pension benefits under National Pension System (NPS)",
+      "Subsidized telephone, mobile connectivity, and official communication allowances",
+      "Secretariat office infrastructure, IT support equipment, and administrative assistance"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancy and candidate participation data documented directly from official JSSC notifications, examination releases, and result publications for the Jharkhand General Graduate Level Combined Competitive Examination (JGGLCCE).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 640000,
+        "vacancies": 2025,
+        "shortlisted_for_mains": 2145,
+        "selectivity_ratio": "approx. 1 in 316 registered (1 in 150 appeared)",
+        "confidence": "verified",
+        "as_of": "2024-12-05",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "source_label": "JSSC Advt. No. 10/2023 & 11/2023 Notification and Official Shortlist Notice (2,025 vacancies across 7 cadres; 3,04,769 appeared on 21-22 Sept 2024; 2,145 shortlisted for DV)"
+      },
+      {
+        "year": 2022,
+        "applicants": null,
+        "vacancies": 956,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2021-12-23",
+        "source_url": "https://jssc.jharkhand.gov.in",
+        "source_label": "JSSC Advt. No. 05/2021 Notification (JGGLCCE-2021/2022: 956 vacancies across Assistant Branch Officer, Block Supply Officer, Block Welfare Officer, Planning Assistant)"
+      },
+      {
+        "year": 2019,
+        "applicants": null,
+        "vacancies": 1260,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://jssc.jharkhand.gov.in",
+        "source_label": "JSSC Advt. No. 03/2019 Notification (JGGLCCE-2019: 1,260 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment brochures, detailed notifications, and examination documents published by Jharkhand Staff Selection Commission for the Combined Graduate Level examination.",
+    "links": [
+      {
+        "label": "JGGLCCE-2023 (Regular) — Detailed Recruitment Brochure (Advt. No. 10/2023)",
+        "url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure_JGGLCCE-2023-Regular_Adv-10.pdf",
+        "type": "notification",
+        "cycle_label": "JGGLCCE-2023",
+        "confidence": "verified",
+        "as_of": "2023-06-07"
+      },
+      {
+        "label": "JGGLCCE-2023 — Short Advertisement Notice (Advt. No. 10/2023)",
+        "url": "https://jssc.jharkhand.gov.in/sites/default/files/Advt.%20no%2010-23%20-%20JGGLCCE-2023_Regular.pdf",
+        "type": "notification",
+        "cycle_label": "JGGLCCE-2023",
+        "confidence": "verified",
+        "as_of": "2023-06-06"
+      },
+      {
+        "label": "JSSC Candidate Corner — Official Examination Syllabus Hub",
+        "url": "https://jssc.jharkhand.gov.in/candidate-corner/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "JSSC Candidate Corner — Previous Year Question Papers Hub",
+        "url": "https://jssc.jharkhand.gov.in/candidate-corner/previous-year-question-paper",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

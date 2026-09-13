@@ -1,0 +1,225 @@
+{
+  "id": "jssc-excise-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Hierarchy and promotion avenue for Excise Constables (उत्पाद सिपाही) recruited into the Jharkhand Excise Constable Service Cadre (झारखण्ड उत्पाद सिपाही सेवा संवर्ग) under the Department of Excise and Prohibition, Government of Jharkhand.",
+    "steps": [
+      {
+        "designation": "Excise Constable (उत्पाद सिपाही) — Field Raids & Border Checkposts",
+        "pay_level": "Jharkhand Pay Matrix Level 2 (PB-1 ₹5,200–20,200, GP 1900, entry basic ₹19,900)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "JSSC JECCE-2023 Advt. No. 06/2023 Brochure, Kandika 4 (Page 4)"
+      },
+      {
+        "designation": "Head Excise Constable / Havaldar (हवलदार / प्रधान उत्पाद सिपाही)",
+        "pay_level": "Jharkhand Pay Matrix Level 4 (PB-1 ₹5,200–20,200, GP 2400, ₹25,500 basic)",
+        "years": "approx. 6-11 yrs",
+        "confidence": "reported",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "Jharkhand Excise Constable Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Excise (सहायक अवर निरीक्षक उत्पाद / ASI Excise)",
+        "pay_level": "Jharkhand Pay Matrix Level 5 (PB-1 ₹5,200–20,200, GP 2800, ₹29,200 basic)",
+        "years": "approx. 12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "Jharkhand Excise Constable Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Sub-Inspector of Excise (अवर निरीक्षक उत्पाद / SI Excise)",
+        "pay_level": "Jharkhand Pay Matrix Level 6 (PB-2 ₹9,300–34,800, GP 4200, ₹35,400 basic)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "Jharkhand Excise Constable Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Inspector of Excise (उत्पाद निरीक्षक / Excise Inspector)",
+        "pay_level": "Jharkhand Pay Matrix Level 7 (PB-2 ₹9,300–34,800, GP 4600, ₹44,900 basic)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "Jharkhand Excise Constable Service Rules & Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jharkhand Excise Constable Competitive Examination (JECCE) is conducted in three sequential stages: (1) Physical Efficiency Test (PET / शारीरिक दक्षता परीक्षण) which is qualifying in nature; (2) Written Examination (लिखित परीक्षा) consisting of 3 objective papers of 2 hours duration each on OMR sheets (+3 marks per correct answer, -1 mark penalty per wrong answer); and (3) Medical Examination (चिकित्सीय जाँच) conducted for candidates 3 times the vacancies. Paper 1 is qualifying (30% threshold required; marks do not count towards merit). Final merit list is determined by the aggregate score of Paper 2 (Tribal/Regional Language, 300 marks) and Paper 3 (General Knowledge, 360 marks), totaling 660 marks.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Physical Efficiency Test (PET / शारीरिक दक्षता परीक्षण)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "JSSC JECCE-2023 Brochure, Kandika 14 & 16 (Pages 14, 17-18)",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement & Endurance Run (शारीरिक माप एवं दौड़)",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Males: 10 km run in 60 minutes; Females: 5 km run in 40 minutes. Height: UR/EWS/BC 160 cm, SC/ST 155 cm, Female 148 cm. Chest: UR/EWS/BC 81 cm, SC/ST 79 cm. Qualifying only; no marks awarded."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Examination (OMR-based Objective Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "JSSC JECCE-2023 Brochure, Kandika 16 (Pages 15-17)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: भाषा ज्ञान (Language Knowledge — Hindi 80 Qs, English 40 Qs)",
+            "marks": 360,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer (+3 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "30% (minimum 108 marks out of 360 required to qualify. Marks do not count for merit ranking)"
+          },
+          {
+            "paper_name": "Paper 2: क्षेत्रीय एवं जनजातीय भाषा ज्ञान (Regional & Tribal Language)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (minimum 90 marks out of 300 required; marks count towards final merit list)"
+          },
+          {
+            "paper_name": "Paper 3: सामान्य ज्ञान (General Knowledge — GS 40 Qs, Jharkhand GK 50 Qs, Science 20 Qs, Math 10 Qs)",
+            "marks": 360,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (minimum 108 marks out of 360 required; marks count towards final merit list)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Medical Examination (चिकित्सीय जाँच)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "JSSC JECCE-2023 Brochure, Kandika 14 & 16 (Pages 14, 18)",
+        "papers": [
+          {
+            "paper_name": "Pre-Appointment Medical Board Examination",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Conducted for candidates 3 times the notified vacancies by district medical board. Assesses physical and mental fitness, colour blindness, night blindness, hearing, and physical defects."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale follows Jharkhand State Revised Pay Rules 2017 Level 2 (PB-1 ₹5,200–20,200 with Grade Pay ₹1,900, entry basic pay ₹19,900) for Excise Constables (उत्पाद सिपाही) in the Department of Excise and Prohibition, Government of Jharkhand.",
+    "pay_level": "Jharkhand Pay Matrix Level 2 (PB-1 ₹5,200 - 20,200, GP 1900)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-05-24",
+    "pay_source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+    "pay_source_label": "JSSC JECCE-2023 Advt. No. 06/2023 Brochure, Kandika 4 (Page 4)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 34000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 28000,
+      "max": 34000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary calculated from Level 2 basic ₹19,900 + 58% DA (₹11,542) + state HRA (8%–18% depending on posting location) + medical allowance (₹1,000) + uniform washing & enforcement field allowances. In-hand estimate accounts for statutory deductions of 10% NPS on Basic + DA (₹3,144), professional tax, and state employee group insurance.",
+    "official_perks": [
+      "Government designated barrack accommodation or house rent allowance",
+      "Uniform allowance, washing allowance, and protective duty equipment",
+      "Medical treatment reimbursement under Jharkhand State Health Scheme",
+      "Pension and family security benefits under National Pension System (NPS)",
+      "Ration allowance and special enforcement raid duty allowances",
+      "Earned Leave, Casual Leave, and Leave Travel Concession (LTC) benefits"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancy and candidate numbers documented from official JSSC notifications and physical efficiency test administration records for the Jharkhand Excise Constable Competitive Examination (JECCE).",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 510000,
+        "vacancies": 583,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 875 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-05-24",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "source_label": "JSSC Advt. No. 06/2023 Brochure (583 vacancies: UR 237, ST 148, SC 57, EBC-1 50, BC-2 32, EWS 59; ~5.1 lakh candidates registered for PET)"
+      },
+      {
+        "year": 2022,
+        "applicants": null,
+        "vacancies": 583,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2022-02-07",
+        "source_url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2022.pdf",
+        "source_label": "JSSC Advt. No. 01/2022 Brochure (583 vacancies advertised across Excise and Prohibition Department)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official brochures and notifications published by Jharkhand Staff Selection Commission for the Excise Constable examination.",
+    "links": [
+      {
+        "label": "JECCE-2023 — Detailed Recruitment Brochure (Advt. No. 06/2023)",
+        "url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2023.pdf",
+        "type": "notification",
+        "cycle_label": "JECCE-2023",
+        "confidence": "verified",
+        "as_of": "2023-05-24"
+      },
+      {
+        "label": "JECCE-2022 — Recruitment Brochure (Advt. No. 01/2022 Archive)",
+        "url": "https://jssc.jharkhand.gov.in/sites/default/files/Brochure%20JECCE-2022.pdf",
+        "type": "notification",
+        "cycle_label": "JECCE-2022",
+        "confidence": "verified",
+        "as_of": "2022-02-07"
+      },
+      {
+        "label": "JSSC Candidate Corner — Examination Syllabus Hub",
+        "url": "https://jssc.jharkhand.gov.in/candidate-corner/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}
