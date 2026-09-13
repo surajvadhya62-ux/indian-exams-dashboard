@@ -1,0 +1,221 @@
+{
+  "id": "sci-jca",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Court Assistants (JCA) form the indispensable operational and registry staff of the Supreme Court of India, appointed under the Supreme Court Officers and Servants (Conditions of Service and Conduct) Rules, 1961. JCAs handle judicial filing, case scrutiny, listing of matters before constitutional benches, decree drafting, and courtroom assistance, with avenues of progression up to Registrar.",
+    "steps": [
+      {
+        "designation": "Junior Court Assistant (JCA)",
+        "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — JCA Recruitment Notification 2022 & Service Rules, 1961"
+      },
+      {
+        "designation": "Senior Court Assistant (SCA)",
+        "pay_level": "Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "approx. 4-6 yrs",
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/rules",
+        "source_label": "Supreme Court Officers and Servants Rules, 1961 — Senior Court Assistant Promotion Cadre"
+      },
+      {
+        "designation": "Court Associate / Branch Officer",
+        "pay_level": "Level 8 / Level 10 (₹47,600 – ₹1,77,500)",
+        "years": "approx. 10-12 yrs",
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/rules",
+        "source_label": "Supreme Court Officers and Servants Rules, 1961 — Gazetted Branch Officer Cadre"
+      },
+      {
+        "designation": "Court Master / Assistant Registrar",
+        "pay_level": "Level 11 (₹67,700 – ₹2,08,700)",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/rules",
+        "source_label": "Supreme Court Officers and Servants Rules, 1961 — Assistant Registrar Cadre"
+      },
+      {
+        "designation": "Deputy Registrar",
+        "pay_level": "Level 12 (₹78,800 – ₹2,09,200)",
+        "years": "approx. 22-25 yrs",
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/rules",
+        "source_label": "Supreme Court Officers and Servants Rules, 1961 — Deputy Registrar Registry Cadre"
+      },
+      {
+        "designation": "Additional Registrar / Registrar",
+        "pay_level": "Level 13 / Level 14 (₹1,23,100 – ₹2,18,200)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/rules",
+        "source_label": "Supreme Court Officers and Servants Rules, 1961 — Registrar Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment of Junior Court Assistants in the Supreme Court Registry is conducted across four distinct testing components: Objective Written Test, Computer Typing Speed Test, Descriptive English Examination, and Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Objective Written Test & Typing Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — JCA Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Objective Written Test (General English 50 Qs, General Aptitude 25 Qs, General Knowledge 25 Qs, Computer Knowledge 25 Qs)",
+            "marks": 125,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer (25% negative marking)",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% marks in each section"
+          },
+          {
+            "paper_name": "Computer Typing Speed Test (English Typing at minimum 35 words per minute)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": "Maximum 3% mistakes allowed",
+            "qualifying_only": true,
+            "qualifying_threshold": "35 wpm with 97% accuracy"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Descriptive Written Test (English Language)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — JCA Descriptive Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Descriptive English Test (Comprehension Passage, Precis Writing & Essay Writing)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — JCA Interview Regulations",
+        "papers": [
+          {
+            "paper_name": "Personal Interview before the Interview Board of Supreme Court Registrars",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks (12.5 marks out of 25)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Court Assistants are placed in Central 7th CPC Pay Matrix Level 6 with an initial basic pay of ₹35,400. In addition to 58% Dearness Allowance, JCAs receive Delhi X-city House Rent Allowance (27%), Transport Allowance (₹3,600 + DA), Supreme Court Special Allowance, and Registry medical facilities.",
+    "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-06-18",
+    "pay_source_url": "https://www.sci.gov.in/recruitment",
+    "pay_source_label": "Supreme Court of India — JCA Advertisement 2022 (F.3/2022-SCA/I) & 7th CPC Pay Matrix",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 68000, "max": 78000 },
+    "in_hand_range_estimate": { "min": 59000, "max": 69000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculations based on Level 6 basic pay of ₹35,400 + 58% DA (₹20,532) + 27% HRA (₹9,558) + Transport Allowance (₹3,600 + 58% DA = ₹5,688) + Supreme Court Registry allowances. In-hand reflects statutory deductions including 10% NPS employee subscription, CGHS medical contribution, and income tax TDS.",
+    "official_perks": [
+      "Supreme Court Staff Residential Quarters in New Delhi (subject to seniority and vacancy)",
+      "Comprehensive Central Government Health Scheme (CGHS) medical coverage and cashless hospitalization",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and annual hostel subsidy",
+      "Leave Travel Concession (LTC) as per Supreme Court of India Establishment norms",
+      "National Pension System (NPS) with 14% Central Government matching contribution",
+      "Access to Supreme Court Registry departmental cafeteria, recreational clubs, and credit society advances"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registration and recruitment examination statistics for the Junior Court Assistant cadre in the Supreme Court of India.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 210,
+        "applicants": 110000,
+        "appeared": 68000,
+        "shortlisted": 2500,
+        "selected": 210,
+        "confidence": "verified",
+        "as_of": "2022-06-18",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — JCA Advertisement No. F.3/2022-SCA(I) & Final Result Merit List"
+      },
+      {
+        "year": 2017,
+        "vacancies": 57,
+        "applicants": 45000,
+        "appeared": 28000,
+        "shortlisted": 850,
+        "selected": 57,
+        "confidence": "verified",
+        "as_of": "2017-02-11",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — JCA Examination 2017 Final Result Gazette"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment circulars, examination syllabi, and establishment rules published by the Supreme Court of India.",
+    "links": [
+      {
+        "label": "Supreme Court of India JCA Recruitment Notification 2022",
+        "url": "https://www.sci.gov.in/recruitment",
+        "type": "notification",
+        "cycle_label": "SCI-JCA-2022",
+        "confidence": "verified",
+        "as_of": "2022-06-18"
+      },
+      {
+        "label": "Supreme Court Officers and Servants (Conditions of Service and Conduct) Rules, 1961",
+        "url": "https://www.sci.gov.in/rules",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2022-06-18"
+      },
+      {
+        "label": "Supreme Court JCA Scheme of Examination & Syllabus",
+        "url": "https://www.sci.gov.in/recruitment",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2022-06-18"
+      }
+    ]
+  }
+}

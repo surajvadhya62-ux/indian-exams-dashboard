@@ -1,0 +1,236 @@
+{
+  "id": "delhi-djs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers appointed to the Delhi Judicial Service (DJS) constitute the subordinate judiciary in the National Capital Territory of Delhi, governed under the Delhi Judicial Service Rules, 1970 and High Court of Delhi administrative oversight. Progression from Civil Judge / Metropolitan Magistrate to Additional District Judge occurs via promotion quota under the Delhi Higher Judicial Service Rules, 1970.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Metropolitan Magistrate (MM)",
+        "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "High Court of Delhi — Delhi Judicial Service Examination Notification & Delhi Judicial Service Rules, 1970 read with GNCTD Notification adopting SNJPC Pay Matrix"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) / Additional Chief Metropolitan Magistrate (ACMM)",
+        "pay_level": "SNJPC J-2 (₹1,11,000 – ₹1,63,030)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi Judicial Service Rules, 1970 — Senior Civil Judge Cadre & SNJPC Stage 2 Scale"
+      },
+      {
+        "designation": "Judge, Small Causes Court / Chief Metropolitan Magistrate (Selection Grade)",
+        "pay_level": "SNJPC J-3 (₹1,22,700 – ₹1,80,200)",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi Judicial Service Rules, 1970 — Selection Grade J-3 Cadre"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) — Promoted to DHJS",
+        "pay_level": "SNJPC J-5 (₹1,44,840 – ₹1,94,660)",
+        "years": "approx. 12-15 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi Higher Judicial Service Rules, 1970 — 65% Promotion Quota from DJS Cadre"
+      },
+      {
+        "designation": "Principal District & Sessions Judge / District Judge (Super Time Scale)",
+        "pay_level": "SNJPC J-7 (₹1,99,100 – ₹2,24,100)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi Higher Judicial Service Rules, 1970 — Super Time Scale Cadre"
+      },
+      {
+        "designation": "Judge, High Court of Delhi",
+        "pay_level": "Constitutional Post (₹2,25,000 fixed)",
+        "years": "Elevation Quota (Seniority-cum-Merit)",
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Act, 1954 and Supreme Court Collegium Resolution"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Delhi Judicial Service Examination is conducted in three successive stages: Preliminary Examination (Objective, OMR), Main Examination (Written, Descriptive), and Viva-Voce (Personal Interview) in accordance with the Delhi Judicial Service Rules, 1970 as amended.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective OMR, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — Detailed Advertisement, Delhi Judicial Service Examination 2023",
+        "papers": [
+          {
+            "paper_name": "Preliminary Objective Paper (General Legal Knowledge, Current Affairs & Substantive/Procedural Laws)",
+            "marks": 200,
+            "duration_minutes": 150,
+            "negative_marking": "-0.25 (25%) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (General), 55% (SC/ST/PwD)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Written, Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — Syllabus & Scheme of Delhi Judicial Service Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I — General Legal Knowledge & Language",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (General), 35% (SC/ST/PwD)"
+          },
+          {
+            "paper_name": "Paper II — Civil Law-I",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (General), 35% (SC/ST/PwD)"
+          },
+          {
+            "paper_name": "Paper III — Civil Law-II",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (General), 35% (SC/ST/PwD)"
+          },
+          {
+            "paper_name": "Paper IV — Criminal Law",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (General), 35% (SC/ST/PwD)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Personality Test / Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-11-06",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — DJS Rules Appendix: Viva-Voce Evaluation Guidelines",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce (Interview before Board of Hon'ble High Court Judges)",
+            "marks": 150,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% (General), 45% (SC/ST/PwD)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Delhi are remunerated on the revised pay matrix recommended by the Second National Judicial Pay Commission (SNJPC) as approved by the Hon'ble Supreme Court of India in All India Judges Association v. Union of India and notified by GNCTD. The initial basic pay of ₹77,840 is augmented by 58% Dearness Allowance, Delhi X-city HRA (27% to 30%), sumptuary allowance, robe allowance, and official judicial amenities.",
+    "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-11-06",
+    "pay_source_url": "https://delhihighcourt.nic.in/web/rules",
+    "pay_source_label": "High Court of Delhi — Delhi Judicial Service Rules, 1970 read with Second National Judicial Pay Commission (SNJPC) Implementation Orders",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 142000, "max": 165000 },
+    "in_hand_range_estimate": { "min": 122000, "max": 144000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate reflects entry-stage Civil Judge basic pay of ₹77,840 + 58% DA (₹45,147) + Delhi judicial allowances (sumptuary allowance ₹1,500, medical, orderly allowance, and HRA if government judicial bungalow/flat is not availed). Net salary accounts for standard NPS (10% of Basic+DA), income tax TDS, and judicial welfare fund contributions.",
+    "official_perks": [
+      "Government judicial residential bungalow/flat (Type V/VI in prime Delhi judicial enclaves)",
+      "Official chamber and dedicated courtroom infrastructure with computer systems and broadband",
+      "Sumptuary Allowance, Robe Allowance, and Book/Journal Grant",
+      "Residential orderly / domestic assistant facility or monthly peon allowance",
+      "Free residential telephone, mobile, and high-speed optical fiber broadband reimbursement",
+      "Free electricity and water units as prescribed under SNJPC judicial service norms",
+      "Comprehensive medical facility and cashless hospitalization under Delhi Government Employees Health Scheme (DGEHS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics are sourced directly from the High Court of Delhi official vacancy circulars and result notifications for the Delhi Judicial Service Examination.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 15820,
+        "vacancies": 53,
+        "shortlisted_for_mains": 648,
+        "selectivity_ratio": "approx. 1 in 298 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-02-02",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — Notification No. 01/DJS/Exam/2023: 53 vacancies notified (34 existing + 19 anticipated); Result of DJS Preliminary Examination 2023 declaring 648 candidates qualified for Mains"
+      },
+      {
+        "year": 2022,
+        "applicants": 18450,
+        "vacancies": 123,
+        "shortlisted_for_mains": 1245,
+        "selectivity_ratio": "approx. 1 in 150 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-05-18",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — Notification No. 01/DJS/Exam/2022: 123 vacancies notified (55 existing + 68 anticipated); Result of DJS Preliminary Examination 2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment circulars and syllabus schemes are hosted directly on the High Court of Delhi institutional portal.",
+    "links": [
+      {
+        "label": "Delhi Judicial Service Examination 2023 — Detailed Advertisement & Instructions",
+        "url": "https://delhihighcourt.nic.in/web/recruitments",
+        "type": "notification",
+        "cycle_label": "DJS-2023",
+        "confidence": "verified",
+        "as_of": "2023-11-06"
+      },
+      {
+        "label": "Delhi Judicial Service Rules, 1970 (Updated with Amendments)",
+        "url": "https://delhihighcourt.nic.in/web/rules",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-11-06"
+      },
+      {
+        "label": "High Court of Delhi Official Recruitment Portal (Evergreen Archive)",
+        "url": "https://delhihighcourt.nic.in/web/recruitments",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

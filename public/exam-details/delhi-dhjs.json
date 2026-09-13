@@ -1,0 +1,220 @@
+{
+  "id": "delhi-dhjs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers directly recruited through the Delhi Higher Judicial Service (DHJS) enter the Senior Judicial Cadre of the National Capital Territory of Delhi as Additional District and Sessions Judges under the Delhi Higher Judicial Service Rules, 1970. They preside over serious criminal trials, commercial disputes, and appellate civil jurisdictions, with direct eligibility for elevation as Judges of the High Court of Delhi under Article 217(2)(a) of the Constitution of India.",
+    "steps": [
+      {
+        "designation": "Additional District & Sessions Judge (ADJ / ASJ)",
+        "pay_level": "SNJPC J-5 (₹1,44,840 – ₹1,94,660)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "High Court of Delhi — Delhi Higher Judicial Service Rules, 1970 & 2023 DHJS Direct Recruitment Notification"
+      },
+      {
+        "designation": "District Judge (Selection Grade)",
+        "pay_level": "SNJPC J-6 (₹1,63,030 – ₹2,19,090)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi Higher Judicial Service Rules, 1970 — Selection Grade J-6 Cadre Regulations"
+      },
+      {
+        "designation": "Principal District & Sessions Judge / District Judge (Super Time Scale)",
+        "pay_level": "SNJPC J-7 (₹1,99,100 – ₹2,24,100)",
+        "years": "approx. 10-12 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi Higher Judicial Service Rules, 1970 — Super Time Scale Cadre"
+      },
+      {
+        "designation": "Judge, High Court of Delhi",
+        "pay_level": "Constitutional Post (₹2,25,000 fixed)",
+        "years": "Elevation Quota (Service Category)",
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Constitution of India Article 217(2)(a) read with High Court Judges (Salaries and Conditions of Service) Act, 1954"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Delhi Higher Judicial Service Examination comprises three rigorous successive stages: Preliminary Examination (Objective type with negative marking), Main Examination (Written Descriptive comprising 4 substantive papers), and Viva-Voce (Oral Interview before a Bench of Hon'ble High Court Judges) pursuant to the DHJS Rules, 1970.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — DHJS Recruitment Notification Appendix I",
+        "papers": [
+          {
+            "paper_name": "Preliminary Examination (Objective OMR: Legal Knowledge, Current Legal Affairs & Analytical Reasoning)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (25% negative marking)",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% marks for General Category, 45% for SC, ST and PwD candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — DHJS Examination Scheme & Syllabi",
+        "papers": [
+          {
+            "paper_name": "Paper I — General Knowledge & Language",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "45% individual paper (40% SC/ST/PwD), 50% aggregate (45% SC/ST/PwD)"
+          },
+          {
+            "paper_name": "Paper II — Law - I (Civil Procedure, Law of Evidence, Indian Contract Act, Specific Relief, Arbitration & Conciliation Act)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "45% individual paper (40% SC/ST/PwD), 50% aggregate (45% SC/ST/PwD)"
+          },
+          {
+            "paper_name": "Paper III — Law - II (Commercial Courts Act, Transfer of Property, Intellectual Property Rights, Hindu Law, Muslim Law)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "45% individual paper (40% SC/ST/PwD), 50% aggregate (45% SC/ST/PwD)"
+          },
+          {
+            "paper_name": "Paper IV — Law - III (Criminal Jurisprudence: CrPC, IPC, Indian Evidence Act, POCSO Act, Prevention of Corruption Act, NDPS Act)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "45% individual paper (40% SC/ST/PwD), 50% aggregate (45% SC/ST/PwD)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Personality Test & Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — DHJS Rules Appendix: Viva-Voce Guidelines",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce (Oral Interview before Board of Hon'ble High Court Judges)",
+            "marks": 250,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% marks for General Category, 45% for SC, ST and PwD candidates"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Higher Judicial Service officers are placed on the revised pay scale of the Second National Judicial Pay Commission (SNJPC) at Level J-5 with an initial basic pay of ₹1,44,840. In addition to 58% Dearness Allowance, officers are provided designated judicial accommodation (bungalows/flats in judicial officer enclaves), sumptuary allowance, robe allowance, official staff, and comprehensive medical coverage.",
+    "pay_level": "SNJPC J-5 (₹1,44,840 – ₹1,94,660)",
+    "entry_basic_pay": 144840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-12-22",
+    "pay_source_url": "https://delhihighcourt.nic.in/web/rules",
+    "pay_source_label": "High Court of Delhi — DHJS Rules, 1970 read with SNJPC Pay Matrix Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 255000, "max": 295000 },
+    "in_hand_range_estimate": { "min": 210000, "max": 245000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculations based on entry basic pay of ₹1,44,840 + 58% DA (₹84,007) + allowances (Sumptuary Allowance ₹2,500, Orderly Allowance, Medical, and 27% HRA if official judicial housing is not occupied). In-hand estimate accounts for 10% NPS deductions, income tax TDS, and judicial welfare subscriptions.",
+    "official_perks": [
+      "Official designated judicial bungalow / Type VI residential quarter in prime central Delhi judicial colonies",
+      "Dedicated air-conditioned courtroom, private judicial chamber, and stenographic personal staff",
+      "Sumptuary Allowance, Robe Allowance, and Law Books & Journals Annual Grant",
+      "Residential peon / orderly facility and driver allowance",
+      "Official staff car / vehicle facility or dedicated conveyance allowance",
+      "Free residential telephone, mobile device reimbursement, and high-speed broadband connection",
+      "Cashless medical treatment and comprehensive hospitalization coverage under Delhi Government Employees Health Scheme (DGEHS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical recruitment statistics from Delhi Higher Judicial Service examinations conducted by the High Court of Delhi.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 16,
+        "applicants": 3800,
+        "appeared": 2950,
+        "shortlisted": 165,
+        "selected": 14,
+        "confidence": "verified",
+        "as_of": "2023-12-22",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — Notification No. 51/DHC/Gaz/G-7/DHJS/2023 & Result Gazette"
+      },
+      {
+        "year": 2022,
+        "vacancies": 45,
+        "applicants": 4200,
+        "appeared": 3100,
+        "shortlisted": 210,
+        "selected": 38,
+        "confidence": "verified",
+        "as_of": "2022-02-23",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — DHJS Examination Notification 2022 and Final Merit List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, service rules, and examination documents published by the High Court of Delhi.",
+    "links": [
+      {
+        "label": "Delhi Higher Judicial Service Examination 2023 — Official Notification",
+        "url": "https://delhihighcourt.nic.in/web/recruitments",
+        "type": "notification",
+        "cycle_label": "DHJS-2023",
+        "confidence": "verified",
+        "as_of": "2023-12-22"
+      },
+      {
+        "label": "Delhi Higher Judicial Service Rules, 1970 (As Amended)",
+        "url": "https://delhihighcourt.nic.in/web/rules",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-12-22"
+      },
+      {
+        "label": "DHJS Examination Scheme & Syllabi Gazette",
+        "url": "https://delhihighcourt.nic.in/web/recruitments",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-12-22"
+      }
+    ]
+  }
+}

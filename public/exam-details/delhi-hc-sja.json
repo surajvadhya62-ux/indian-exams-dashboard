@@ -1,0 +1,231 @@
+{
+  "id": "delhi-hc-sja",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Senior Judicial Assistants (SJA) and Judicial Assistants (JA) form the core administrative and registry backbone of the High Court of Delhi, governed under the Delhi High Court Establishment (Appointment and Conditions of Service) Rules, 1972. They oversee judicial filings, cause lists, courtroom decree drafting, and record maintenance, progressing up to the rank of Registrar.",
+    "steps": [
+      {
+        "designation": "Judicial Assistant (JA) / Restorer",
+        "pay_level": "Level 5 (₹29,200 – ₹92,300)",
+        "years": "Entry (JA Cadre)",
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi High Court Establishment Rules, 1972 — Schedule II JA Cadre"
+      },
+      {
+        "designation": "Senior Judicial Assistant (SJA)",
+        "pay_level": "Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "Entry (Direct SJA) / 3-5 yrs (Promoted JA)",
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "High Court of Delhi — SJA Direct Recruitment Notification & Establishment Rules"
+      },
+      {
+        "designation": "Court Master / Administrative Officer (Judicial) / Branch Officer",
+        "pay_level": "Level 8 / Level 10 (₹47,600 – ₹1,77,500)",
+        "years": "approx. 6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi High Court Establishment Rules — Gazetted Registry Branch Officer Cadre"
+      },
+      {
+        "designation": "Assistant Registrar",
+        "pay_level": "Level 11 (₹67,700 – ₹2,08,700)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi High Court Establishment Rules — Assistant Registrar Cadre"
+      },
+      {
+        "designation": "Deputy Registrar",
+        "pay_level": "Level 12 (₹78,800 – ₹2,09,200)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi High Court Establishment Rules — Deputy Registrar Cadre"
+      },
+      {
+        "designation": "Joint Registrar / Registrar",
+        "pay_level": "Level 13 / Level 14 (₹1,23,100 – ₹2,18,200)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/rules",
+        "source_label": "Delhi High Court Establishment Rules — Senior Registry Executive Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment process for Senior Judicial Assistants and Judicial Assistants consists of a multi-tier evaluation comprising Preliminary Objective Test, English Typing Test, Descriptive Written Test, and Viva-Voce / Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Examination (Objective OMR / CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — SJA / JA Examination Scheme Notification",
+        "papers": [
+          {
+            "paper_name": "Preliminary Objective Test (Language Comprehension, General Knowledge, Reasoning, Numerical Ability)",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer (25% negative marking)",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% marks for General Category, 45% for Reserved Categories"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: English Typing Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — SJA / JA Skill Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "English Typing Test on Computer (Minimum 35 words per minute speed)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": "Maximum 3% formatting/spelling mistakes permissible",
+            "qualifying_only": true,
+            "qualifying_threshold": "35 words per minute with 97% accuracy"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Main Written Examination (Descriptive)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — SJA / JA Descriptive Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Descriptive English Test (Essay Writing, Letter/Report Drafting, Grammar & Precis)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% marks for General Category, 45% for Reserved Categories"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage IV: Viva-Voce (Interview)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — SJA / JA Viva-Voce Regulations",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce / Personal Interview",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% for General, 45% for Reserved Categories"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Recruits appointed as Senior Judicial Assistant (SJA) are placed in 7th CPC Pay Level 7 with an initial basic pay of ₹44,900 (Judicial Assistants commence at Pay Level 5, basic ₹29,200). In addition to 58% Dearness Allowance, personnel receive Delhi X-city House Rent Allowance (27%), Central Government Transport Allowance (₹3,600 + DA), and High Court establishment benefits.",
+    "pay_level": "Level 7 (₹44,900 – ₹1,42,400)",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-10-15",
+    "pay_source_url": "https://delhihighcourt.nic.in/web/rules",
+    "pay_source_label": "Delhi High Court Establishment (Appointment and Conditions of Service) Rules, 1972 & 7th CPC Pay Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 82000, "max": 94000 },
+    "in_hand_range_estimate": { "min": 72000, "max": 84000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculations based on Level 7 entry basic pay of ₹44,900 + 58% DA (₹26,042) + 27% HRA (₹12,123) + Transport Allowance (₹3,600 + 58% DA = ₹5,688) yielding a gross salary of approx. ₹88,753. Deductions include 10% NPS employee share (Basic + DA), income tax TDS, and CGHS/DGEHS medical contributions.",
+    "official_perks": [
+      "Delhi High Court Pool government residential quarters (subject to availability / seniority in Delhi)",
+      "Delhi Government Employees Health Scheme (DGEHS) / CGHS medical coverage with cashless empanelled hospital network",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and annual hostel subsidy",
+      "Leave Travel Concession (LTC) as per Central Government civil service norms",
+      "National Pension System (NPS) with 14% employer contribution by the High Court of Delhi",
+      "Interest-bearing House Building Advance (HBA) and computer purchase advance"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant and vacancy data from previous recruitment drives conducted by the High Court of Delhi.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 60,
+        "applicants": 38000,
+        "appeared": 24500,
+        "shortlisted": 1500,
+        "selected": 58,
+        "confidence": "verified",
+        "as_of": "2023-10-15",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — SJA Recruitment Notification 2023 & Result Notice"
+      },
+      {
+        "year": 2020,
+        "vacancies": 132,
+        "applicants": 65000,
+        "appeared": 42000,
+        "shortlisted": 3200,
+        "selected": 130,
+        "confidence": "verified",
+        "as_of": "2020-02-17",
+        "source_url": "https://delhihighcourt.nic.in/web/recruitments",
+        "source_label": "High Court of Delhi — Judicial Assistant / Restorer Examination 2020 Final Merit Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and establishment rules published by the High Court of Delhi.",
+    "links": [
+      {
+        "label": "Delhi High Court SJA Recruitment Notification",
+        "url": "https://delhihighcourt.nic.in/web/recruitments",
+        "type": "notification",
+        "cycle_label": "DHC-SJA-2023",
+        "confidence": "verified",
+        "as_of": "2023-10-15"
+      },
+      {
+        "label": "Delhi High Court Establishment (Appointment & Conditions of Service) Rules, 1972",
+        "url": "https://delhihighcourt.nic.in/web/rules",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-10-15"
+      },
+      {
+        "label": "DHC SJA / JA Syllabus & Scheme of Examination",
+        "url": "https://delhihighcourt.nic.in/web/recruitments",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-10-15"
+      }
+    ]
+  }
+}

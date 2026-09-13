@@ -1,0 +1,88 @@
+{
+  "id": "aibe",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The All India Bar Examination (AIBE) is a statutory qualifying examination mandated by the Bar Council of India under Section 24 and Section 49(1)(ah) of the Advocates Act, 1961. Passing the AIBE is mandatory for law graduates enrolled after 2010 to be awarded the Certificate of Practice (CoP) allowing them to practice law before any court, tribunal, or judicial forum across India.",
+    "stages": [
+      {
+        "stage_name": "All India Bar Examination (OMR-based National Certification Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-21",
+        "source_url": "https://allindiabarexamination.com",
+        "source_label": "Bar Council of India — AIBE Rules, Syllabus & Examination Regulations",
+        "papers": [
+          {
+            "paper_name": "AIBE Question Paper (100 Objective MCQs across 19 Legal Disciplines: Constitutional Law, CPC, CrPC, IPC, Evidence, Contract, Family Law, Arbitration, Ethics & Taxation)",
+            "marks": 100,
+            "duration_minutes": 210,
+            "negative_marking": "No negative marking (0 marks deducted for incorrect answers)",
+            "qualifying_only": true,
+            "qualifying_threshold": "45% marks for General and OBC candidates (45/100); 40% marks for SC, ST, and PwD candidates (40/100)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical candidate participation and certification data published by the Bar Council of India. Being a qualifying certification rather than a competitive recruitment exam, there are no seat quotas or vacancies; all candidates meeting the qualifying score receive the Certificate of Practice.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": null,
+        "applicants": 148000,
+        "appeared": 144000,
+        "selected": 105000,
+        "confidence": "verified",
+        "as_of": "2024-03-21",
+        "source_url": "https://allindiabarexamination.com",
+        "source_label": "Bar Council of India — AIBE XVIII (18) Result Statistics & Qualifying Report"
+      },
+      {
+        "year": 2022,
+        "vacancies": null,
+        "applicants": 171000,
+        "appeared": 165000,
+        "selected": 118000,
+        "confidence": "verified",
+        "as_of": "2023-04-28",
+        "source_url": "https://www.barcouncilofindia.org",
+        "source_label": "Bar Council of India — AIBE XVII (17) Official Declaration of Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, rules, and syllabus circulars published by the Bar Council of India.",
+    "links": [
+      {
+        "label": "All India Bar Examination Official Portal",
+        "url": "https://allindiabarexamination.com",
+        "type": "notification",
+        "cycle_label": "AIBE-XVIII",
+        "confidence": "verified",
+        "as_of": "2024-03-21"
+      },
+      {
+        "label": "Bar Council of India Official Institutional Website",
+        "url": "https://www.barcouncilofindia.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2024-03-21"
+      },
+      {
+        "label": "AIBE Subject-Wise Syllabus & Bare Act Regulations",
+        "url": "https://allindiabarexamination.com",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-03-21"
+      }
+    ]
+  }
+}

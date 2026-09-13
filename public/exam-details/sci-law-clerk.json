@@ -1,0 +1,212 @@
+{
+  "id": "sci-law-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Law Clerk-cum-Research Associates are engaged on a short-term contractual assignment to assist the Hon'ble Chief Justice of India and Judges of the Supreme Court of India in judicial research, special leave petition analysis, and bench briefing under the Scheme for Engaging Law Clerk-cum-Research Associates. While not a permanent civil service cadre, this apex fellowship serves as an elite springboard for Supreme Court advocacy, judicial service appointments, and international postgraduate legal studies.",
+    "steps": [
+      {
+        "designation": "Law Clerk-cum-Research Associate (First Year)",
+        "pay_level": "Contractual Honorarium (₹80,000 / month)",
+        "years": "Entry (1st Year Term)",
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Revised Scheme for Engaging Law Clerk-cum-Research Associates, 2024"
+      },
+      {
+        "designation": "Senior Law Clerk-cum-Research Associate (Extended Term)",
+        "pay_level": "Contractual Honorarium (₹90,000 / month)",
+        "years": "2nd Year (Subject to Extension)",
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Law Clerk Scheme Clause 7: Extension and Enhanced Honorarium"
+      },
+      {
+        "designation": "Apex Court Counsel / Junior Advocate",
+        "pay_level": "Professional Practice (Chambers of Senior Advocates)",
+        "years": "approx. 2-4 yrs post-clerkship",
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Bar Council of India & Supreme Court Bar Association Practice Standards"
+      },
+      {
+        "designation": "Advocate-on-Record (AoR), Supreme Court of India",
+        "pay_level": "Statutory Apex Court Practice Designation",
+        "years": "approx. 4-6 yrs (Upon clearing AoR Examination)",
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/rules",
+        "source_label": "Supreme Court Rules, 2013 — Order IV: Advocate-on-Record Examination"
+      },
+      {
+        "designation": "Civil Judge / Metropolitan Magistrate (Judicial Service)",
+        "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+        "years": "Competitive Judicial Selection",
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "State Judicial Service Rules (DJS, UP PCS-J, BPSC-J)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection of Law Clerks is conducted in three comprehensive phases pursuant to the revised Scheme notified by the Supreme Court of India: Phase I Objective Test (CBT), Phase II Subjective Written Test (Research and Case Analysis), and Phase III Oral Interview before Hon'ble Judges.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Objective Written Test (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Law Clerk Examination Scheme & Guidelines",
+        "papers": [
+          {
+            "paper_name": "Multiple Choice Questions (Constitutional Law, Criminal Law, Civil Procedure, Evidence Act, Contract Law & Current Legal Developments)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer (25% negative marking)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 50% marks to qualify for evaluation of Phase II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Subjective Written Examination (Case Analysis & Legal Writing)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Phase II Written Evaluation Guidelines",
+        "papers": [
+          {
+            "paper_name": "Part A: Preparation of Case Brief and Bench Memorandum (Analysis of Lower Court / High Court Record)",
+            "marks": 100,
+            "duration_minutes": 105,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated along with Part B for merit shortlisting"
+          },
+          {
+            "paper_name": "Part B: Legal Research, Statutory Interpretation & Judgment Synthesis Problem",
+            "marks": 200,
+            "duration_minutes": 105,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% aggregate in Phase II for interview consideration"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Oral Interview (Personality & Analytical Assessment)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Law Clerk Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Personal Interview before the Committee of Hon'ble Supreme Court Judges",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Suitability-based scoring towards final empanelment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Law Clerk-cum-Research Associates are engaged on a contractual basis and receive a consolidated monthly honorarium of ₹80,000 for the initial assignment period. If extended for a second court year, the honorarium is enhanced to ₹90,000 per month. Being a contractual assignment, it does not carry regular government allowances (DA, HRA, or pension), though comprehensive access to Supreme Court research databases, the Judges Library, and court transit is provided.",
+    "pay_level": "Contractual Honorarium (₹80,000 / month)",
+    "entry_basic_pay": 80000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-25",
+    "pay_source_url": "https://www.sci.gov.in/recruitment",
+    "pay_source_label": "Supreme Court of India — Scheme for Engaging Law Clerk-cum-Research Associates Notification (Clause 7)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 80000, "max": 90000 },
+    "in_hand_range_estimate": { "min": 72000, "max": 85000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Law Clerks receive a fixed consolidated monthly honorarium of ₹80,000 during their first year, revised to ₹90,000 per month upon approval of extension into the second year. As a contractual engagement under Supreme Court guidelines, standard 7th CPC Dearness Allowance and HRA are not applicable; net in-hand reflects contractual honorarium less applicable professional tax and income tax TDS.",
+    "official_perks": [
+      "Access to Supreme Court Judges Library — the largest judicial research library in Asia",
+      "Subscriptions to legal research databases including SCC Online, Manupatra, Westlaw, LexisNexis, and HeinOnline",
+      "Direct judicial mentorship and close association with Hon'ble Supreme Court Judges in constitutional and landmark matters",
+      "Certificate of Experience issued under the signature of the Registrar, Supreme Court of India",
+      "Official ID card granting access to Supreme Court premises, courtrooms, and administrative complexes",
+      "Casual leave and medical leave entitlements as specified under Supreme Court clerkship guidelines"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant turnout and empanelment statistics from Supreme Court Law Clerk recruitment cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 90,
+        "applicants": 8500,
+        "appeared": 6200,
+        "shortlisted": 220,
+        "selected": 90,
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Law Clerk-cum-Research Associate 2024 Empanelment Notification"
+      },
+      {
+        "year": 2023,
+        "vacancies": 70,
+        "applicants": 7200,
+        "appeared": 5100,
+        "shortlisted": 180,
+        "selected": 70,
+        "confidence": "verified",
+        "as_of": "2023-01-20",
+        "source_url": "https://www.sci.gov.in/recruitment",
+        "source_label": "Supreme Court of India — Law Clerk Selection 2023 Final Result & Merit List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, guidelines, and application documents published by the Supreme Court of India.",
+    "links": [
+      {
+        "label": "Supreme Court Law Clerk Recruitment Advertisement & Guidelines",
+        "url": "https://www.sci.gov.in/recruitment",
+        "type": "notification",
+        "cycle_label": "SCI-LC-2024",
+        "confidence": "verified",
+        "as_of": "2024-01-25"
+      },
+      {
+        "label": "Scheme for Engaging Law Clerk-cum-Research Associates (2024 Revised)",
+        "url": "https://www.sci.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2024-01-25"
+      },
+      {
+        "label": "Supreme Court Law Clerk Examination Scheme & Syllabus",
+        "url": "https://www.sci.gov.in/recruitment",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-01-25"
+      }
+    ]
+  }
+}

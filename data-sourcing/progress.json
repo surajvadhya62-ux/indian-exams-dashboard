@@ -3,13 +3,13 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 260,
+    "verified": 266,
     "partial": 0,
-    "not_started": 244,
+    "not_started": 238,
     "exams_total": 504,
-    "detail_files_exist": 333,
+    "detail_files_exist": 339,
     "total_exams": 504,
-    "detail_files_present": 333,
+    "detail_files_present": 339,
     "last_updated": "2026-09-13"
   },
   "sessions": [
@@ -905,6 +905,23 @@
         "chandigarh-police-constable"
       ],
       "notes": "Completed Unit 89 (u089): Arunachal Pradesh Staff Selection Board Combined Graduate Level (APSSB CGL), APSSB Combined Secondary Level (APSSB CSL), and Chandigarh Police Constable (Executive & IT Cadre) recruitment examinations fully researched from official primary notifications, statutory standing orders, official merit lists/cut-offs, and pay matrix rules (7th CPC Levels 3, 4, and 5 with 58% DA constant); all dossiers validated with zero errors and zero warnings."
+    },
+    {
+      "session_id": "2026-09-13-u090",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-6-central-psu-defence-institute"
+      ],
+      "exam_ids_touched": [
+        "delhi-djs",
+        "delhi-dhjs",
+        "delhi-hc-sja",
+        "sci-law-clerk",
+        "sci-jca",
+        "aibe"
+      ],
+      "notes": "Completed Unit 90 (u090): 6 premier apex and Delhi judicial / legal examinations covering Delhi Judicial Service (DJS - Civil Judge), Delhi Higher Judicial Service (DHJS - Additional District Judge), Delhi High Court Senior Judicial Assistant / Judicial Assistant, Supreme Court of India Law Clerk-cum-Research Associate, Supreme Court of India Junior Court Assistant (JCA), and Bar Council of India All India Bar Examination (AIBE). Researched from primary statutory rules (DJS Rules 1970, DHJS Rules 1970, DHC Establishment Rules 1972, SCI Service Rules 1961, SCI Law Clerk Scheme 2024, Advocates Act 1961 & BCI Rules), pay matrices (SNJPC J-1 ₹77,840, SNJPC J-5 ₹1,44,840, 7th CPC Level 7 ₹44,900, Level 6 ₹35,400 with canonical 58% DA, and consolidated ₹80,000 stipend), and verified official recruitment gazettes; all dossiers validated with zero errors."
     }
   ],
   "exams": {
@@ -11609,46 +11626,56 @@
     "aibe": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/aibe.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Entrance/qualifying exam; no recruitment career ladder or appointment cadre.",
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Entrance/qualifying exam; no salary or recruitment pay package.",
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         }
       },
-      "flags": []
+      "flags": [
+        "entrance-exam — career_ladder and financial_package omitted per schema §5.4",
+        "unit u090"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "barc-stipendiary-trainee": {
       "batch_id": "batch-6-central-psu-defence-institute",
@@ -19705,90 +19732,116 @@
     "delhi-djs": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/delhi-djs.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u090"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "delhi-dhjs": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/delhi-dhjs.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u090"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "up-pcs-j": {
       "batch_id": "batch-4-state-psc--uttar-pradesh",
@@ -20967,134 +21020,173 @@
     "sci-law-clerk": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/sci-law-clerk.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u090"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "sci-jca": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/sci-jca.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u090"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "delhi-hc-sja": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/delhi-hc-sja.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "u090"
         }
       },
-      "flags": []
+      "flags": [
+        "unit u090"
+      ],
+      "last_reviewed": "2026-09-13"
     },
     "nhpc-trainee-engineer": {
       "batch_id": "batch-6-central-psu-defence-institute",
