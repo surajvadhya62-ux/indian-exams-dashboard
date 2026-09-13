@@ -1,0 +1,237 @@
+{
+  "id": "ladakh-ssrb-matric",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Subordinate and field staff across the Union Territory of Ladakh are recruited through the Ladakh Subordinate Services Recruitment Board (LAHDC Leh SSRB / Kargil DSSRB) for district-cadre posts and through the Staff Selection Commission (SSC Selection Posts Ladakh) for UT and divisional cadres. Entry-level subordinate staff are appointed at Pay Level SL-1 (Orderly, Peon, Attendant, Chowkidar, Safaiwala: ₹14,800 - ₹47,100) or Level 2 (Driver Grade-II, Wildlife Guard, Forest Guard: ₹19,900 - ₹63,200). Promotion follows the Ladakh Subordinate Services regulations, progressing to Senior Attendant / Jamadar (Level 2), Daftari / Record Keeper / Junior Assistant under departmental promotion quota (Level 4: ₹25,500 - ₹81,100), Senior Assistant (Level 5: ₹29,200 - ₹92,300), and Office Superintendent / Section Officer (Level 6/7).",
+    "steps": [
+      {
+        "designation": "Orderly / Peon / Attendant / Chowkidar / Driver Grade-II / Forest Guard",
+        "pay_level": "Level SL-1 (Orderly: ₹14,800 - ₹47,100) / Level 2 (Driver/Guard: ₹19,900 - ₹63,200)",
+        "years": "Entry level (Subordinate Staff Cadre)",
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025, Annexure-XVI (Matric Level Posts: Orderly SL-1, Driver Grade-II Level 2, Wildlife Guard Level 2)"
+      },
+      {
+        "designation": "Jamadar / Senior Orderly / Head Chowkidar / Driver Grade-I",
+        "pay_level": "Level 2 / Level 3 (₹19,900 - ₹63,200 / ₹21,700 - ₹69,100)",
+        "years": "approx. 5-8 yrs regular service",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Subordinate Services Cadre Rules & SSC Corner"
+      },
+      {
+        "designation": "Daftari / Record Keeper / Junior Assistant (Departmental Promotion Quota)",
+        "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+        "years": "approx. 10-15 yrs regular service + qualifying departmental typing/trade test",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Subordinate Services Promotion Regulations"
+      },
+      {
+        "designation": "Senior Assistant / Head Assistant",
+        "pay_level": "Level 5 / Level 6 (₹29,200 - ₹92,300 / ₹35,400 - ₹1,12,400)",
+        "years": "approx. 18-22 yrs combined service",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Ministerial & Subordinate Cadre Hierarchy"
+      },
+      {
+        "designation": "Office Superintendent / Section Officer",
+        "pay_level": "Level 7 (₹44,900 - ₹1,42,400)",
+        "years": "approx. 25+ yrs service",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Ministerial Cadre Senior Promotional Avenues"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Matric Level posts in the Union Territory of Ladakh is conducted through an OMR-based Written Examination by the Ladakh Subordinate Services Recruitment Board (LAHDC Leh SSRB / Kargil DSSRB) for district cadre posts, and through a Computer Based Examination (CBE) by the Staff Selection Commission (SSC Selection Posts Ladakh) for UT/divisional posts. The written examination carries 100 objective multiple-choice questions across 4 sections: General Intelligence, General Awareness, Quantitative Aptitude (Basic Arithmetic Skills), and English Language (Basics of English Language). LAHD-SSRB allocates 100 marks (1 mark per question, 90 minutes, -0.25 negative marking). SSC allocates 200 marks (2 marks per question, 60 minutes, -0.50 negative marking). A qualifying Skill Test / Trade Test / Physical Endurance Test (e.g. driving skill test for Drivers, 25 km walk in 4 hours for Forest/Wildlife Guards) is conducted where prescribed, followed by Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: OMR / Computer Based Written Examination (Objective Multiple Choice Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025, Section 11 (Scheme of Examination) & Section 12 (Indicative Syllabus)",
+        "papers": [
+          {
+            "paper_name": "Part A: General Intelligence",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B: General Awareness",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C: Quantitative Aptitude (Basic Arithmetic Skills)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part D: English Language (Basics of English Language)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Test / Trade Test / Physical Endurance Test (Qualifying Only)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025, Section 11(v) & Annexure-XVI",
+        "papers": [
+          {
+            "paper_name": "Driving Trade Test (For Driver Grade-II / Driver Posts)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying practical driving test and vehicle maintenance assessment on Light Motor Vehicle (LMV) with TRANS endorsement"
+          },
+          {
+            "paper_name": "Physical Endurance & Fitness Test (For Forest Guard / Wildlife Guard Posts)",
+            "marks": null,
+            "duration_minutes": 240,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical fitness: 25 km walk in 4 hours for male candidates (height min 162 cm); 14 km walk in 4 hours for female candidates (height min 152 cm)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level SL-1 / Level 2",
+    "entry_basic_pay": 14800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-16",
+    "pay_source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+    "pay_source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025 Annexure-XVI & UT Administration of Ladakh SSC Corner (Pay Level SL-1: ₹14,800 - ₹47,100; Level 2: ₹19,900 - ₹63,200)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 26000,
+      "max": 38000
+    },
+    "in_hand_range_estimate": {
+      "min": 23000,
+      "max": 34000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level SL-1 entry basic pay (₹14,800) for Orderlies/Attendants and Level 2 (₹19,900) for Drivers/Forest Guards under the 7th CPC pay structure adopted by the UT Administration of Ladakh, with 58% Central DA, 10% HRA (Class Z category for Leh and Kargil), Transport Allowance (₹900 + 58% DA for Level SL-1 / Level 2), and Special Compensatory (Remote Locality) / High Altitude Allowance admissible across Ladakh UT postings. Deductions include 10% employee NPS contribution on Basic + DA and UT Group Insurance.",
+    "official_perks": [
+      "Special Compensatory (Remote Locality) Allowance (SCRLA) / Special Duty Allowance (SDA) for service in high-altitude UT of Ladakh",
+      "House Rent Allowance (10% for Class Z areas) or government staff accommodation in Leh / Kargil districts",
+      "Transport Allowance (₹900 + 58% DA for Pay Level SL-1 / Level 2)",
+      "Winter allowance, heating subsidy, and high altitude clothing/gear allowance where admissible",
+      "National Pension System (NPS) defined contribution with 14% government contribution",
+      "Medical reimbursement under Central Services (Medical Attendance) Rules, LTC (Leave Travel Concession), and encashable leave"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Matric-level recruitments in UT Ladakh draw immense participation from local youth across Leh and Kargil districts due to domicile reservation (mandating Ladakh Resident Certificate) and permanent government job security under the 7th CPC pay structure. In the 2025 cycle (Advt No. 01/2025), LAHD-SSRB notified 346 Matric Level vacancies, with 581 candidates shortlisted for counselling and document verification from an estimated applicant pool of ~9,380 candidates.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 346,
+        "applicants": 9380,
+        "shortlisted_for_mains": 581,
+        "selectivity_ratio": "1 in 27",
+        "confidence": "verified",
+        "as_of": "2026-01-22",
+        "source_url": "https://www.lahdssrb.in/file_uploads/selectionlist/attachment/ProvisionalSelectlistofcandidatesandallocationofDepartmentagainstthe346MatricLevelpostsadvertisedvideAdvertisementNoticeNo01of2025dated16072025Reg-e811de06c6bd49922716b3bdd2332236.pdf",
+        "source_label": "LAHD-SSRB Provisional Selection List & Allocation Notice No. F.No. SECY/LAHD-SSRB/ADV01/25/Prov-Select-List/222-54: 346 Matric Level posts (written exam held 30-11-2025; 581 candidates shortlisted for counselling; candidate roll numbers span 1050004 to 1059379)."
+      },
+      {
+        "year": 2022,
+        "vacancies": 241,
+        "applicants": 8200,
+        "shortlisted_for_mains": 490,
+        "selectivity_ratio": "1 in 34",
+        "confidence": "reported",
+        "as_of": "2023-05-07",
+        "source_url": "https://www.lahdssrb.in/file_uploads/notices/attachment/TentativeAnswerKeysforMatricLevelExaminationheldon07052023-c1c8e62bbf3ec9b9a98d54e587d4a134.pdf",
+        "source_label": "LAHD-SSRB Matric Level Examination (Held on 07.05.2023 for Advt 01 & 02 of 2022: 118 Orderly/Chowkidar posts + 114 Class IV/Attendant posts + 9 Driver posts)."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, indicative syllabi, select lists, and portals published by LAHD-SSRB and the Administration of Union Territory of Ladakh.",
+    "links": [
+      {
+        "label": "LAHD-SSRB Advertisement Notice No. 01 of 2025 (District Cadre Recruitment)",
+        "url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2025-07-16"
+      },
+      {
+        "label": "LAHD-SSRB Provisional Select List for 346 Matric Level Posts (Advt 01/2025)",
+        "url": "https://www.lahdssrb.in/file_uploads/selectionlist/attachment/ProvisionalSelectlistofcandidatesandallocationofDepartmentagainstthe346MatricLevelpostsadvertisedvideAdvertisementNoticeNo01of2025dated16072025Reg-e811de06c6bd49922716b3bdd2332236.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-01-22"
+      },
+      {
+        "label": "LAHD-SSRB Matric Level Indicative Examination Scheme & Syllabus",
+        "url": "https://www.lahdssrb.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "LAHD-SSRB Matric Level Examination Official Answer Key (07.05.2023)",
+        "url": "https://www.lahdssrb.in/file_uploads/notices/attachment/TentativeAnswerKeysforMatricLevelExaminationheldon07052023-c1c8e62bbf3ec9b9a98d54e587d4a134.pdf",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2023-05-07"
+      },
+      {
+        "label": "Administration of UT of Ladakh — SSC Selection Posts Ladakh Categorization & Syllabus Portal",
+        "url": "https://ladakh.gov.in/ssc-corner/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Administration of UT of Ladakh — Official Recruitment Corner Portal",
+        "url": "https://ladakh.gov.in/recruitment-corner/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

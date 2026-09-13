@@ -3,9 +3,9 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 277,
+    "verified": 279,
     "partial": 0,
-    "not_started": 227,
+    "not_started": 225,
     "exams_total": 504,
     "detail_files_exist": 344,
     "total_exams": 504,
@@ -953,6 +953,19 @@
         "jssc-excise-constable"
       ],
       "notes": "Completed Unit 96 (u096): 3 Jharkhand state examinations across JSSC (Combined Graduate Level / JGGLCCE and Jharkhand Excise Constable / JECCE) and JAC Ranchi (Jharkhand Teacher Eligibility Test / JTET). Fully audited and updated from primary statutory rules, Jharkhand Revised Pay Rules 2017, and official recruitment notifications; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u099",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--ladakh"
+      ],
+      "exam_ids_touched": [
+        "ladakh-ssrb-matric",
+        "ladakh-ssrb-graduate"
+      ],
+      "notes": "Completed Unit 99 (u099): 2 Ladakh UT subordinate recruitment examinations across Ladakh Subordinate Services Recruitment Board / LAHD-SSRB and Administration of UT Ladakh (Ladakh SSRB Matric Level Exam and Ladakh SSRB Graduate Level Executive & Clerical Exam). Fully audited from primary statutory advertisements, 7th CPC central pay scales with 58% DA constant, and official select lists; validated with zero errors."
     }
   ],
   "exams": {
@@ -19343,42 +19356,52 @@
       "batch_id": "batch-7-state-other--ladakh",
       "detail_file": "public/exam-details/ladakh-ssrb-matric.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         }
       },
       "flags": []
@@ -19387,42 +19410,52 @@
       "batch_id": "batch-7-state-other--ladakh",
       "detail_file": "public/exam-details/ladakh-ssrb-graduate.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u099"
         }
       },
       "flags": []

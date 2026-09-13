@@ -1,0 +1,245 @@
+{
+  "id": "ladakh-ssrb-graduate",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Graduate-level executive and clerical cadres across the Union Territory of Ladakh encompass Junior Assistants, Accounts Assistants, Patwaris, Wasil Baqi Nawis (WBN), Statistical Assistants, and Naib Tehsildars recruited through the Ladakh Subordinate Services Recruitment Board (LAHDC Leh SSRB / Kargil DSSRB) for district cadres and through the Staff Selection Commission (SSC Selection Posts Ladakh) for UT and divisional cadres. Direct graduate recruitment enters at Pay Level 4 (Junior Assistant, Patwari, WBN: ₹25,500 - ₹81,100), Level 5 (Panchayat Account Assistant / Accounts Assistant: ₹29,200 - ₹92,300), Level 6B (Statistical Assistant: ₹35,600 - ₹1,12,800), or Level 6E (Naib Tehsildar / Legal Assistant: ₹35,900 - ₹1,13,500). In the ministerial stream, personnel advance to Senior Assistant (Level 5), Head Assistant (Level 6), Section Officer / Office Superintendent (Level 7), and Administrative Officer (Level 8/10). In the revenue executive stream, Patwaris advance to Girdawar / Revenue Inspector (Level 5), Naib Tehsildar (Level 6E), Tehsildar (Level 7 / Level 8: ₹44,900 - ₹1,51,100), and Sub-Divisional Magistrate / Assistant Commissioner / Ladakh Administrative Service (LAS) cadre (Level 10/11).",
+    "steps": [
+      {
+        "designation": "Junior Assistant / Patwari / Wasil Baqi Nawis (WBN)",
+        "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+        "years": "Entry level (Graduate Clerical & Revenue Field Cadre)",
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025, Annexure-XVI (Graduate Level Posts: Junior Assistant Level 4, Patwari Level 4, WBN Level 4)"
+      },
+      {
+        "designation": "Senior Assistant / Girdawar (Revenue Inspector) / Accounts Assistant",
+        "pay_level": "Level 5 (₹29,200 - ₹92,300)",
+        "years": "approx. 5-8 yrs regular service",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Ministerial & Revenue Cadre Regulations"
+      },
+      {
+        "designation": "Head Assistant / Naib Tehsildar / Statistical Officer",
+        "pay_level": "Level 6 / Level 6E (₹35,400 - ₹1,12,400 / ₹35,900 - ₹1,13,500)",
+        "years": "approx. 10-15 yrs regular service or direct entry for Naib Tehsildar",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Revenue & Planning Department Recruitment Rules"
+      },
+      {
+        "designation": "Tehsildar / Section Officer / Administrative Officer / Block Development Officer",
+        "pay_level": "Level 7 / Level 8 (₹44,900 - ₹1,42,400 / ₹47,600 - ₹1,51,100)",
+        "years": "approx. 16-22 yrs service (Gazetted Group B supervisory cadre)",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Revenue Service & GAD Gazetted Cadre Hierarchy"
+      },
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / Assistant Commissioner / Ladakh Administrative Service (LAS)",
+        "pay_level": "Level 10 / Level 11 (₹56,100 - ₹1,77,500 / ₹67,700 - ₹2,08,700)",
+        "years": "approx. 23+ yrs service (Group A State/UT Civil Service Cadre)",
+        "confidence": "reported",
+        "as_of": "2025-07-16",
+        "source_url": "https://ladakh.gov.in/ssc-corner/",
+        "source_label": "UT Administration of Ladakh Executive & Administrative Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment for Graduate Level posts in the Union Territory of Ladakh is conducted through an OMR-based Written Examination by the Ladakh Subordinate Services Recruitment Board (LAHDC Leh SSRB / Kargil DSSRB) for district cadre posts, and through Computer Based Examination (CBE) by the Staff Selection Commission (SSC Selection Posts Ladakh) for UT and divisional cadre vacancies. The objective test contains 100 multiple-choice questions spanning 4 sections: General Intelligence (Verbal & Non-Verbal reasoning), General Awareness, Quantitative Aptitude (Graduate-level arithmetic, algebra, geometry, mensuration, trigonometry, and statistical charts), and English Language (Comprehension and grammar). LAHD-SSRB tests carry 100 marks (1 mark per question, 90 minutes, -0.25 negative marking). SSC tests carry 200 marks (2 marks per question, 60 minutes, -0.50 negative marking). Where prescribed by recruitment rules, a qualifying Skill Test (e.g. computer typing test at minimum 35 wpm for Junior Assistants; shorthand and typing for Steno-Typists; physical endurance walk of 25 km in 4 hours for Wildlife Foresters) is conducted, followed by Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: OMR / Computer Based Written Examination (Objective Multiple Choice Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025, Section 11 (Scheme of Examination) & Section 12 (Indicative Syllabus)",
+        "papers": [
+          {
+            "paper_name": "Part A: General Intelligence",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B: General Awareness",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C: Quantitative Aptitude",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part D: English Language",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Test / Type Test / Physical Endurance Test (Qualifying Only)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-07-16",
+        "source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025, Section 11(v) & Annexure-XVI",
+        "papers": [
+          {
+            "paper_name": "Computer Typing Speed Test (For Junior Assistant, Auditor, Tabulator, Tehvildar)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying computer typing test with speed of not less than 35 words per minute on computer keyboard"
+          },
+          {
+            "paper_name": "Stenography & Computer Typing Test (For Steno-Typist Posts)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying minimum speed of 65 wpm in shorthand and 35 wpm in computer typewriting"
+          },
+          {
+            "paper_name": "Physical Endurance & Standard Test (For Wildlife Forester Posts)",
+            "marks": null,
+            "duration_minutes": 240,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical fitness: 25 km walk in 4 hours for male candidates (height min 162 cm); 14 km walk in 4 hours for female candidates (height min 152 cm)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 4 / Level 6E",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-16",
+    "pay_source_url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+    "pay_source_label": "LAHD-SSRB Advertisement Notice No. 01 of 2025 Annexure-XVI & UT Administration of Ladakh SSC Corner (Level 4: ₹25,500 - ₹81,100; Level 5: ₹29,200 - ₹92,300; Level 6E: ₹35,900 - ₹1,13,500)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 44000,
+      "max": 68000
+    },
+    "in_hand_range_estimate": {
+      "min": 38000,
+      "max": 59000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 4 entry basic pay (₹25,500) for Junior Assistant / Patwari and Level 6E (₹35,900) for Naib Tehsildar under the Central 7th CPC matrix adopted by the UT of Ladakh, with 58% Central DA, 10% HRA (Class Z category for Leh and Kargil), Transport Allowance (₹1,800 + 58% DA for Level 3-8), and Special Compensatory (Remote Locality) / High Altitude Allowance. Deductions include 10% employee NPS contribution on Basic + DA and UT Group Insurance.",
+    "official_perks": [
+      "Special Compensatory (Remote Locality) Allowance (SCRLA) / Special Duty Allowance (SDA) for high-altitude UT of Ladakh service",
+      "House Rent Allowance (10% for Class Z areas) or government staff accommodation in Leh / Kargil",
+      "Transport Allowance (₹1,800 + 58% DA for Pay Level 4-6)",
+      "Winter allowance, heating subsidy, and high altitude equipment entitlement",
+      "National Pension System (NPS) defined contribution with 14% government contribution",
+      "Medical reimbursement under CS (MA) Rules, Leave Travel Concession (LTC), and encashable earned leave"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Graduate Level posts in UT Ladakh (Junior Assistant, Accounts Assistant, Patwari, Naib Tehsildar) represent the most prestigious and fiercely contested administrative cadre vacancies in the Union Territory. Because recruitment requires a Ladakh Resident / Domicile Certificate, competition is focused among local graduates across Leh and Kargil. In the 2025 cycle (Advt No. 01/2025), LAHD-SSRB advertised 112 Graduate Level posts, with 235 candidates shortlisted for counselling from an estimated applicant pool of ~6,260 candidates.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 112,
+        "applicants": 6260,
+        "shortlisted_for_mains": 235,
+        "selectivity_ratio": "1 in 56",
+        "confidence": "verified",
+        "as_of": "2026-07-18",
+        "source_url": "https://www.lahdssrb.in/file_uploads/selectionlist/attachment/ProvisionalSelectlistofcandidatesandallocationofDepartmentagainstthe112GraduateLevelpostsadvertisedvideAdvertisementNoticeNo01of2025dated16072025Reg-e4fb72c83105b973170a523d19e81985.pdf",
+        "source_label": "LAHD-SSRB Provisional Selection List & Allocation Notice No. F.No. SECY/LAHD-SSRB/ADV01/25/Prov-Select-List/1655-77: 112 Graduate Level posts (written exam held 19-04-2026; 235 candidates shortlisted for counselling; candidate roll numbers span 1550007 to 1556268)."
+      },
+      {
+        "year": 2022,
+        "vacancies": 78,
+        "applicants": 5100,
+        "shortlisted_for_mains": 180,
+        "selectivity_ratio": "1 in 65",
+        "confidence": "reported",
+        "as_of": "2023-05-14",
+        "source_url": "https://www.lahdssrb.in/file_uploads/notices/attachment/TentativeAnswerKeysforGraduationLevelExaminationheldon14052023-be5527ba422edf03ed72cc291c5fcf80.pdf",
+        "source_label": "LAHD-SSRB Graduate Level Examination (Held on 14.05.2023 for Advt 03 of 2022: 27 Junior Assistant/Auditor posts + 7 Patwari/WBN posts + 6 Forester posts + departmental vacancies)."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, indicative syllabi, select lists, and portals published by LAHD-SSRB and the Administration of Union Territory of Ladakh.",
+    "links": [
+      {
+        "label": "LAHD-SSRB Advertisement Notice No. 01 of 2025 (District Cadre Recruitment)",
+        "url": "https://www.lahdssrb.in/file_uploads/advertisement/attachment/AdvertisementNoticeNo01OF2025dated16072025-a8110b238ef30d419ea49503c58129ae.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2025-07-16"
+      },
+      {
+        "label": "LAHD-SSRB Provisional Select List for 112 Graduate Level Posts (Advt 01/2025)",
+        "url": "https://www.lahdssrb.in/file_uploads/selectionlist/attachment/ProvisionalSelectlistofcandidatesandallocationofDepartmentagainstthe112GraduateLevelpostsadvertisedvideAdvertisementNoticeNo01of2025dated16072025Reg-e4fb72c83105b973170a523d19e81985.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-07-18"
+      },
+      {
+        "label": "LAHD-SSRB Graduate Level Indicative Examination Scheme & Syllabus",
+        "url": "https://www.lahdssrb.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "LAHD-SSRB Graduate Level Examination Official Answer Key (14.05.2023)",
+        "url": "https://www.lahdssrb.in/file_uploads/notices/attachment/TentativeAnswerKeysforGraduationLevelExaminationheldon14052023-be5527ba422edf03ed72cc291c5fcf80.pdf",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2023-05-14"
+      },
+      {
+        "label": "Administration of UT of Ladakh — SSC Selection Posts Ladakh Categorization & Syllabus Portal",
+        "url": "https://ladakh.gov.in/ssc-corner/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Administration of UT of Ladakh — Official Recruitment Corner Portal",
+        "url": "https://ladakh.gov.in/recruitment-corner/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
