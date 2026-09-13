@@ -995,6 +995,18 @@
       "notes": "Completed Unit 100 (u100): Administration of UT of Lakshadweep Staff Selection Examination (lakshadweep-admin-staff). Comprehensive audit of 7th CPC central pay matrix scales (Level 2 entry basic ₹19,900, Level 3 ₹21,700, Level 4 ₹25,500) with canonical 58% DA constant and Island Special Duty Allowance (ISDA), 2-stage exam scheme, and primary recruitment rules from Lakshadweep Gazette Extraordinary; validated with zero errors."
     },
     {
+      "session_id": "2026-09-13-u102",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--meghalaya"
+      ],
+      "exam_ids_touched": [
+        "meghalaya-tet"
+      ],
+      "notes": "Completed Unit 102 (u102): Meghalaya Teacher Eligibility Test / MTET (meghalaya-tet) conducted by DERT Meghalaya under the Department of Education, Government of Meghalaya. Comprehensive audit of primary statutory regulations under NCTE & RTE Act 2009 Section 23(1), Paper-I (Lower Primary) and Paper-II (Upper Primary) 150-mark exam structures with 8 official regional language options, candidate participation statistics (43,883 appearances, 37,218 qualified across 24 district centres), official guidebooks, answer keys, and results; validated with zero errors."
+    },
+    {
       "session_id": "2026-09-13-u104",
       "date": "2026-09-13",
       "operator": "antigravity-ai",
@@ -1005,6 +1017,18 @@
         "nagaland-tet"
       ],
       "notes": "Completed Unit 104 (u104): Nagaland Teacher Eligibility Test (nagaland-tet) conducted by SCERT Nagaland. Comprehensive audit of primary statutory guidelines, syllabus, RTE 2009 / NCTE qualifying criteria (60% General, 55% ST/SC/OBC/differently-abled), Paper I and Paper II structure with 20 state languages / Nagaland Heritage Studies options, official result statistics from 3rd, 4th, and 5th editions (2023, 2024, 2025), and 10 verified primary links; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u103",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--mizoram"
+      ],
+      "exam_ids_touched": [
+        "mizoram-tet"
+      ],
+      "notes": "Completed Unit 103 (u103): Mizoram Teacher Eligibility Test (mizoram-tet) conducted by the Mizoram Board of School Education (MBSE). Comprehensive audit of 2-paper statutory scheme under RTE Act & NCTE norms, multi-year competition benchmarks (2023, 2024, 2025 result gazettes), and primary official downloads; all 13 URLs curl-verified live (HTTP 200); validated with zero errors."
     }
   ],
   "exams": {
@@ -18174,7 +18198,7 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u102"
         },
         "competition_benchmarks": {
           "status": "populated",
@@ -18183,7 +18207,7 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u102"
         },
         "official_downloads": {
           "status": "populated",
@@ -18192,12 +18216,13 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u102"
         }
       },
       "flags": [
         "entrance-exam — career_ladder and financial_package omitted per schema §5.4",
-        "unit u087"
+        "unit u087",
+        "unit u102"
       ]
     },
     "mizoram-tet": {
@@ -18211,41 +18236,46 @@
           "citations": [],
           "unavailable_reason": "Teacher eligibility entrance exam (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u066"
+          "updated_by": "2026-09-13-u103"
         },
         "exam_scheme": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "MBSE MTET 2026 Information Booklet (Section 7: Paper I & Paper II Structure and Content)"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u066"
+          "updated_by": "2026-09-13-u103"
         },
         "financial_package": {
           "status": "not_applicable",
           "citations": [],
           "unavailable_reason": "Teacher eligibility entrance exam (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u066"
+          "updated_by": "2026-09-13-u103"
         },
         "competition_benchmarks": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "MBSE MTET August 2025 Abstract of Results (Notice No. K.12012/3/2025-MBSE(Acad)/64)",
+            "MBSE MTET July 2024 Abstract of Results (Notice No. K.12012/2/2021-MBSE(Acad)/219)",
+            "MBSE MTET July 2023 Abstract of Results (Notice No. K.12012/2/2021-MBSE(Acad)/149)"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u066"
+          "updated_by": "2026-09-13-u103"
         },
         "official_downloads": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "MBSE MTET 2026 Official Information Booklet PDF (https://www.mbse.edu.in/wp-content/uploads/2026/04/MTET-2026-Information-Booklet.pdf)",
+            "MBSE MTET 2026 Examination Notice PDF (https://www.mbse.edu.in/wp-content/uploads/2026/04/MTET-2026-Notice.pdf)",
+            "MBSE MTET August 2025 Official Result Gazette PDF (https://www.mbse.edu.in/wp-content/uploads/2025/09/MTET-August-2025-Exam-Result.pdf)",
+            "MBSE Official Portal (https://www.mbse.edu.in) & Online Portal (https://www.mbseonline.com)"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u066"
+          "updated_by": "2026-09-13-u103"
         }
       },
       "flags": []

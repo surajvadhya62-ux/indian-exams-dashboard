@@ -1,0 +1,247 @@
+{
+  "id": "mizoram-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted annually by the Mizoram Board of School Education (MBSE), Chaltlang, Aizawl, in accordance with the statutory provisions of Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009, and National Council for Teacher Education (NCTE) norms. The test comprises two independent papers: Paper I for candidates intending to teach Primary Stage (Classes I to V) and Paper II for Elementary/Middle Stage (Classes VI to VIII). Each paper consists of 150 objective multiple choice questions (MCQs) carrying 1 mark each with no negative marking. The test duration is 150 minutes (2 hours 30 minutes) per paper. In Paper I, Language I is English and Language II is Mizo or Alternative English. In Paper II, candidates choose between Mathematics & Science or Social Studies for their 60-mark subject specialization. A minimum score of 55% or more qualifies candidates for the award of the MTET Certificate, which carries lifetime validity under amended NCTE guidelines.",
+    "stages": [
+      {
+        "stage_name": "Paper I — Primary Stage (Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.mbse.edu.in/wp-content/uploads/2026/04/MTET-2026-Information-Booklet.pdf",
+        "source_label": "MBSE MTET 2026 Information Booklet (Section 7.1: Paper I Primary Stage Structure and Content)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on 6–11 years age group)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I — English (Focus on proficiencies and comprehension)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II — Mizo or Alternative English",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Concepts, problem solving & pedagogical content)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies (Concepts, environmental science & pedagogy)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper II — Middle Stage (Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.mbse.edu.in/wp-content/uploads/2026/04/MTET-2026-Information-Booklet.pdf",
+        "source_label": "MBSE MTET 2026 Information Booklet (Section 7.2: Paper II Middle Stage Structure and Content)",
+        "papers": [
+          {
+            "paper_name": "Child Development & Pedagogy (Focus on 11–14 years age group)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I — English (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II — Mizo or Alternative English (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Subject Specialization: Mathematics & Science (60 MCQs) OR Social Science / Social Studies (60 MCQs)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official registration, attendance, and qualification statistics compiled directly from the published result notifications, gazettes, and statistical abstracts released by the Mizoram Board of School Education (MBSE), Chaltlang, Aizawl. MTET is a statutory eligibility certification qualifying examination under NCTE norms and does not have recruitment vacancies or mains selection stages.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 2639,
+        "vacancies": null,
+        "shortlisted_for_mains": 1705,
+        "selectivity_ratio": "60.25% overall pass rate (1,705 test qualifications out of 2,830 paper appearances across 2,402 candidates on roll: 810 passed Paper I [59.82%], 895 passed Paper II [60.64%])",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.mbse.edu.in/wp-content/uploads/2025/09/MTET-August-2025-Exam-Result.pdf",
+        "source_label": "MBSE MTET August 2025 Abstract of Results (Notice No. K.12012/3/2025-MBSE(Acad)/64)"
+      },
+      {
+        "year": 2024,
+        "applicants": 2832,
+        "vacancies": null,
+        "shortlisted_for_mains": 891,
+        "selectivity_ratio": "35.20% overall pass rate (891 total qualifications across 2,237 candidates on roll / 2,531 paper appearances: 255 passed Paper I [22.87%], 636 passed Paper II [44.92%])",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.mbse.edu.in/wp-content/uploads/2024/08/MTET-July-2024-Result.pdf",
+        "source_label": "MBSE MTET July 2024 Abstract of Results (Notice No. K.12012/2/2021-MBSE(Acad)/219)"
+      },
+      {
+        "year": 2023,
+        "applicants": 2094,
+        "vacancies": null,
+        "shortlisted_for_mains": 852,
+        "selectivity_ratio": "852 total qualifications across 1,946 candidates on roll / 2,415 paper appearances: 314 qualified Paper I [26.45% of 1,187 appeared], 538 qualified Paper II [43.81% of 1,228 appeared]",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.mbse.edu.in/wp-content/uploads/2023/08/mtet-results-2023.pdf",
+        "source_label": "MBSE MTET July 2023 Abstract of Results (Notice No. K.12012/2/2021-MBSE(Acad)/149)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory information booklets, official examination notifications, answer keys, result gazettes, and previous year question papers verified live on the official Mizoram Board of School Education (MBSE) domains.",
+    "links": [
+      {
+        "label": "MTET 2026 Official Information Booklet (Regulations, Eligibility, Syllabus & Scheme PDF)",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2026/04/MTET-2026-Information-Booklet.pdf",
+        "type": "syllabus",
+        "cycle_label": "MTET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2026 Official Examination & Online Application Notice",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2026/04/MTET-2026-Notice.pdf",
+        "type": "notification",
+        "cycle_label": "MTET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2026 Official Answer Key (Paper I & Paper II)",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2026/08/MTET-2026-Answer-Key.pdf",
+        "type": "other",
+        "cycle_label": "MTET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2026 Paper 1 Official Answer Key Correction Notification",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2026/09/MTET-2026-Paper-1-Answer-Key-Correction.pdf",
+        "type": "other",
+        "cycle_label": "MTET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET August 2025 Official Result Gazette & Candidate Abstract",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2025/09/MTET-August-2025-Exam-Result.pdf",
+        "type": "other",
+        "cycle_label": "MTET 2025",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET July 2024 Official Result Gazette & Candidate Abstract",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2024/08/MTET-July-2024-Result.pdf",
+        "type": "other",
+        "cycle_label": "MTET 2024",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2023 Paper I Official Question Paper (PYQ)",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2024/05/MTET-2023-PAPER-I-1.pdf",
+        "type": "pyq",
+        "cycle_label": "MTET 2023",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2023 Paper II Official Question Paper (PYQ)",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2024/05/MTET-2023-PAPER-II-1.pdf",
+        "type": "pyq",
+        "cycle_label": "MTET 2023",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2022 Paper I Official Question Paper (PYQ)",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2024/05/MTET-2022-PAPER-I-1.pdf",
+        "type": "pyq",
+        "cycle_label": "MTET 2022",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MTET 2022 Paper II Official Question Paper (PYQ)",
+        "url": "https://www.mbse.edu.in/wp-content/uploads/2024/05/MTET-2022-PAPER-II-1.pdf",
+        "type": "pyq",
+        "cycle_label": "MTET 2022",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MBSE Online Examination & Registration Portal",
+        "url": "https://www.mbseonline.com",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Mizoram Board of School Education (MBSE) Official Website",
+        "url": "https://www.mbse.edu.in",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
