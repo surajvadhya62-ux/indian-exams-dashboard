@@ -1,0 +1,270 @@
+{
+  "id": "puducherry-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "The executive cadre hierarchy under the Police Department, Government of Puducherry, commences with Police Constable (Civil / Armed Reserve / Traffic / Coastal Marine) at Pay Matrix Level 3 under Central Civil Services 7th CPC rules. Promoted officers advance through Head Constable (Level 4) and Assistant Sub-Inspector of Police (Level 5) to Sub-Inspector of Police (Level 6), Inspector of Police (Level 7), and departmental induction into the Puducherry Police Service (PPS, Level 10/11) Group 'A' gazetted cadre as Superintendent of Police.",
+    "steps": [
+      {
+        "designation": "Police Constable (Civil / Armed Reserve / Traffic / Coastal Marine)",
+        "pay_level": "Central 7th CPC Level 3 (₹21,700 – ₹69,100)",
+        "years": "Entry grade (Direct recruitment 10+2 standard, 2 years probation including 1 year basic training at Police Training School, Puducherry)",
+        "confidence": "verified",
+        "as_of": "2025-08-12",
+        "source_url": "https://recruitment.py.gov.in/recruitment/PC2025/RenderNotification",
+        "source_label": "Police Department Puducherry Recruitment Notification No. 237/Estt.1(B)/Rectt/PC/A1/25"
+      },
+      {
+        "designation": "Head Constable (HC)",
+        "pay_level": "Central 7th CPC Level 4 (₹25,500 – ₹81,100)",
+        "years": "5 to 8 years regular service as Constable, qualifying departmental promotional test and clean service record",
+        "confidence": "verified",
+        "as_of": "2016-01-13",
+        "source_url": "https://police.py.gov.in",
+        "source_label": "Puducherry Police Subordinate Services Recruitment Rules (G.O. Ms. No. 5/2016-Home)"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI)",
+        "pay_level": "Central 7th CPC Level 5 (₹29,200 – ₹92,300)",
+        "years": "5 years regular service as Head Constable and completion of promotional refresher training course",
+        "confidence": "verified",
+        "as_of": "2016-01-13",
+        "source_url": "https://police.py.gov.in",
+        "source_label": "Puducherry Police Subordinate Services Recruitment Rules (G.O. Ms. No. 5/2016-Home)"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI)",
+        "pay_level": "Central 7th CPC Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "Promotion from ASI or 50% direct recruitment through Puducherry Police Sub-Inspector Examination",
+        "confidence": "verified",
+        "as_of": "2016-01-13",
+        "source_url": "https://police.py.gov.in",
+        "source_label": "Puducherry Police Subordinate Services Recruitment Rules (G.O. Ms. No. 5/2016-Home)"
+      },
+      {
+        "designation": "Inspector of Police (Circle Inspector / Station House Officer)",
+        "pay_level": "Central 7th CPC Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "5 to 6 years approved service as Sub-Inspector of Police",
+        "confidence": "verified",
+        "as_of": "2016-01-13",
+        "source_url": "https://police.py.gov.in",
+        "source_label": "Puducherry Police Subordinate Services Recruitment Rules (G.O. Ms. No. 5/2016-Home)"
+      },
+      {
+        "designation": "Superintendent of Police (SP) / Puducherry Police Service (PPS)",
+        "pay_level": "Central 7th CPC Level 10 / Level 11 (₹56,100 – ₹1,77,500 / ₹67,700 – ₹2,08,700)",
+        "years": "Induction into Puducherry Police Service (PPS) Group 'A' Gazetted Cadre via Departmental Promotion Committee",
+        "confidence": "reported",
+        "as_of": "2016-01-13",
+        "source_url": "https://police.py.gov.in",
+        "source_label": "Puducherry Police Service (PPS) Cadre Rules and Ministry of Home Affairs UT Police Cadre Guidelines"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Police Constable in the Police Department, Government of Puducherry is conducted in three sequential stages: (1) Physical Standard Test (PST) and Physical Efficiency Test (PET), both mandatory and qualifying; (2) Written Competitive Examination of 10+2 standard comprising two objective papers of 100 marks each (200 marks aggregate) with 0.25 negative marking, bilingual in English and Tamil/Telugu/Malayalam; and (3) Certificate/Domicile Verification and Medical Fitness Examination by the Government Medical Board at General Hospital, Puducherry.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Physical Standard Test (PST) & Physical Efficiency Test (PET)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-12",
+        "source_url": "https://recruitment.py.gov.in/recruitment/PC2025/RenderNotification",
+        "source_label": "Police Department Puducherry Recruitment Notification No. 237/Estt.1(B)/Rectt/PC/A1/25",
+        "papers": [
+          {
+            "paper_name": "Physical Standard Test (PST): Male — Minimum Height 165 cm, Chest 81 cm (unexpanded) with minimum 5 cm expansion (86 cm), Body Mass Index (BMI) 18.50 to 29.99 kg/m²; Female — Minimum Height 154 cm, Body Weight minimum 45 kg, Body Mass Index (BMI) 18.50 to 29.99 kg/m²",
+            "qualifying_only": true
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET): Male — (i) 800m Run in 2m 50s, (ii) Long Jump 3.80m (3 attempts), (iii) High Jump 1.20m (3 attempts), (iv) 100m Run in 15.00s; Female — (i) 200m Run in 45.00s, (ii) Long Jump 2.75m (3 attempts), (iii) High Jump 0.90m (3 attempts)",
+            "qualifying_only": true
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Competitive Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-12",
+        "source_url": "https://recruitment.py.gov.in/recruitment/PC2025/RenderNotification",
+        "source_label": "Police Department Puducherry Recruitment Notification No. 237/Estt.1(B)/Rectt/PC/A1/25",
+        "papers": [
+          {
+            "paper_name": "Paper-I: General Intelligence & Reasoning, Quantitative Aptitude, General Awareness & Current Affairs, English Language, and Basic Computer Operations (100 MCQs, Higher Secondary Standard)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, MBC/OBC/EWS/EBC/BCM/BT: 25%, SC/ST/XSM: 20%"
+          },
+          {
+            "paper_name": "Paper-II: Science (Physics, Chemistry, Biology, Mathematics) and Social Sciences (History of India & World, Geography, Indian Polity & Constitution, Economics & Indian Economy) (100 MCQs, Higher Secondary Standard)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, MBC/OBC/EWS/EBC/BCM/BT: 25%, SC/ST/XSM: 20%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Certificate Verification & Medical Fitness Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-08-12",
+        "source_url": "https://recruitment.py.gov.in/recruitment/PC2025/RenderNotification",
+        "source_label": "Police Department Puducherry Recruitment Notification No. 237/Estt.1(B)/Rectt/PC/A1/25",
+        "papers": [
+          {
+            "paper_name": "Certificate & Domicile Verification: Scrutiny of 10+2 Educational Qualification Certificates, Age/Birth Proof, Continuous 5-Year Puducherry Residence/Nativity Certificate, Community/Caste Certificate, MSP/XSM Certificates",
+            "qualifying_only": true
+          },
+          {
+            "paper_name": "Medical Fitness Examination: Conducted by Government Medical Board at General Hospital, Puducherry (Vision 6/6 right eye, 6/9 left eye without glasses; free from colour blindness, squint, knock-knees, flat foot, and other physical infirmities)",
+            "qualifying_only": true
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Police Constables in the Government of Puducherry are central civilian employees governed by Central Civil Services rules and the 7th Central Pay Commission (7th CPC) Pay Matrix under the administrative jurisdiction of the Ministry of Home Affairs (MHA), Government of India. Police Constables enter at Pay Matrix Level 3 with an initial basic pay of ₹21,700 (pay scale ₹21,700 – ₹69,100). Standard allowances include Central Dearness Allowance (standardized across the project at 58% as of 01.07.2025), House Rent Allowance (18%–20% in Puducherry urban agglomeration / Class Y, or 9%–10% in Karaikal, Mahe, and Yanam / Class Z), Transport Allowance (₹1,350 + applicable DA), Ration Money / Special Police Duty Allowance, and Uniform/Kit Maintenance Allowance.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-08-12",
+    "pay_source_url": "https://recruitment.py.gov.in/recruitment/PC2025/RenderNotification",
+    "pay_source_label": "Police Department Puducherry Notification No. 237/Estt.1(B)/Rectt/PC/A1/25 (Pay Matrix Level 3)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38300,
+      "max": 43000
+    },
+    "in_hand_range_estimate": {
+      "min": 34500,
+      "max": 38500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated gross monthly salary includes Level 3 Basic Pay (₹21,700), standard 58% Central DA (₹12,586), HRA (ranging from 10% in outlying enclaves Karaikal/Mahe/Yanam at ₹2,170 to 18%–20% in Puducherry urban agglomeration at ₹3,906–₹4,340), Transport Allowance (₹1,350 + 58% DA = ₹2,133), and operational police allowances (Ration Money / Washing / Kit Maintenance Allowance of ~₹1,500–₹2,000). In-hand estimate accounts for statutory Tier-I National Pension System (NPS) contribution of 10% (Basic + DA = ₹3,429), UT Employees Group Insurance Scheme (CGEGIS / UT GIS), and professional tax.",
+    "official_perks": [
+      "Central Civil Services (Revised Pay) Rules Level 3 pay structure with guaranteed 3% annual compound basic increments",
+      "Central Dearness Allowance revised bi-annually (January and July cycles) sanctioned at 58% of Basic Pay",
+      "House Rent Allowance as per Central Government city classification (up to 20% for Puducherry urban enclave, or government police barracks / quarters)",
+      "Transport Allowance (₹1,350 + applicable DA) for commuting",
+      "Monthly Ration Money Allowance and Special Police Duty / Conveyance Allowance for active field personnel",
+      "Annual Uniform, Kit Maintenance, and Washing Allowance as per police department regulations",
+      "National Pension System (NPS Tier-I) with 14% matching employer contribution by the Government of India",
+      "Cashless medical attendance and reimbursement under Central Government Health Scheme (CGHS) / UT Medical Attendance Rules at General Hospital, Puducherry and empanelled super-specialty hospitals",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA) / Hostel Subsidy as per Central Government norms",
+      "Compensation in lieu of government holidays / 13th month additional pay for field police duties as per Puducherry Police regulations"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Police Department, Government of Puducherry conducts direct recruitment for Police Constables across all four regions (Puducherry, Karaikal, Mahe, and Yanam). In the 2025-2026 cycle, 148 vacancies (100 Male, 48 Female 33% horizontal quota) were notified on 12.08.2025; 1,843 candidates applied, and 1,775 appeared for Paper-I and 1,783 appeared for Paper-II in the written examination held on 08.02.2026 across 5 centres. Results were officially published on 10.02.2026. In the 2022-2023 cycle, 253 vacancies were notified on 26.11.2022, with the written examination conducted on 04.06.2023 and results notified on 08.06.2023.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 148,
+        "applicants": 1843,
+        "appeared": 1783,
+        "confidence": "verified",
+        "as_of": "2026-02-10",
+        "source_url": "https://recruitment.py.gov.in/files/PC2025/3269/pc-2025-post-exam-press-release",
+        "source_label": "Puducherry Examining Authority Post-Exam Press Release No. A.12011/184/2025/PEA/5517 dated 10.02.2026 (Exam held 08.02.2026: 1,843 applied, 1,775 appeared in Paper-I, 1,783 in Paper-II for 148 posts)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 253,
+        "confidence": "verified",
+        "as_of": "2023-06-08",
+        "source_url": "https://recruitment.py.gov.in/recruitment/PC2022/RenderNotification",
+        "source_label": "Police Department Puducherry Recruitment Notification No. 237/Estt.I(B)/Rectt/PC/2022 dated 26.11.2022 (253 vacancies: 104 UR, 40 SC, 27 OBC, 45 MBC, 5 BCM, 5 EBC, 1 BT, 1 ST, 25 EWS; Exam held 04.06.2023)"
+      },
+      {
+        "year": 2018,
+        "vacancies": 390,
+        "confidence": "verified",
+        "as_of": "2018-08-24",
+        "source_url": "https://police.py.gov.in",
+        "source_label": "Police Department Puducherry Recruitment Notification No. 237/Estt.I(A)/Rectt/PC/2018 dated 24.08.2018 (390 vacancies)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, post-exam press releases, merit result lists, and original question papers published by the Police Department and the Puducherry Examining Authority, Government of Puducherry.",
+    "links": [
+      {
+        "label": "Police Department Puducherry Police Constable Direct Recruitment Notification (2025-2026)",
+        "url": "https://recruitment.py.gov.in/recruitment/PC2025/RenderNotification",
+        "type": "notification",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2025-08-12"
+      },
+      {
+        "label": "Puducherry Examining Authority Police Constable Written Exam Post-Exam Press Release & Key Statistics (2026)",
+        "url": "https://recruitment.py.gov.in/files/PC2025/3269/pc-2025-post-exam-press-release",
+        "type": "other",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-10"
+      },
+      {
+        "label": "Police Department Puducherry Police Constable Written Examination Official Result List",
+        "url": "https://recruitment.py.gov.in/files/PC2025/3267/pc-2025-result",
+        "type": "other",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-10"
+      },
+      {
+        "label": "Police Department Puducherry Police Constable Written Examination Official Paper-I Question Paper",
+        "url": "https://recruitment.py.gov.in/files/PC2025/3264/pc2025-p1-question-paper",
+        "type": "pyq",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-08"
+      },
+      {
+        "label": "Police Department Puducherry Police Constable Written Examination Official Paper-II Question Paper",
+        "url": "https://recruitment.py.gov.in/files/PC2025/3265/pc2025-paper-2-question-paper",
+        "type": "pyq",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-08"
+      },
+      {
+        "label": "Police Department Puducherry Police Constable Direct Recruitment Notification (2022-2023)",
+        "url": "https://recruitment.py.gov.in/recruitment/PC2022/RenderNotification",
+        "type": "notification",
+        "cycle_label": "2022-2023",
+        "confidence": "verified",
+        "as_of": "2022-11-26"
+      },
+      {
+        "label": "Police Department, Government of Puducherry Official Web Portal",
+        "url": "https://police.py.gov.in",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-02-10"
+      },
+      {
+        "label": "Government of Puducherry Centralised Recruitment Web Portal",
+        "url": "https://recruitment.py.gov.in",
+        "type": "other",
+        "cycle_label": "Portal",
+        "confidence": "verified",
+        "as_of": "2026-02-10"
+      }
+    ]
+  }
+}

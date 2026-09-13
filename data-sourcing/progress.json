@@ -3,13 +3,13 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 285,
+    "verified": 286,
     "partial": 0,
-    "not_started": 219,
+    "not_started": 218,
     "exams_total": 504,
-    "detail_files_exist": 344,
+    "detail_files_exist": 345,
     "total_exams": 504,
-    "detail_files_present": 344,
+    "detail_files_present": 345,
     "last_updated": "2026-09-13"
   },
   "sessions": [
@@ -1146,6 +1146,18 @@
         "punjab-judicial-service"
       ],
       "notes": "Completed Unit 31 (u031): 2 premier Punjab Public Service Commission recruitment examinations (ppsc-pcs: Punjab Civil Services Combined Competitive Examination / PSCSCCE, Tier A; punjab-judicial-service: Punjab Civil Service (Judicial Branch) Examination, Tier B). Rigorously verified against Punjab Civil Services (Revised Pay) Rules 2021 Level 10 (₹56,100) and SNJPC Level J-1 (₹77,840) pay frameworks, Punjab probation basic pay policies, canonical 58% DA constant as of 2025-07-01, Punjab State Civil Services (Appointment by CCE) Rules 2009 & Punjab Civil Services (Judicial Branch) Rules 1951 schemes, competition cutoffs and vacancy figures, and live official PPSC downloads; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u112",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--puducherry"
+      ],
+      "exam_ids_touched": [
+        "puducherry-police-constable"
+      ],
+      "notes": "Completed Unit 112 (u112): Puducherry Police Constable & Home Guard Recruitment Examination (puducherry-police-constable) under Police Department, Government of Puducherry and Puducherry Examining Authority (PEA). Comprehensive audit of Central 7th CPC Level 3 (₹21,700 basic) pay framework, canonical 58% DA constant as of 2025-07-01, HRA Class Y/Z enclave allocations, 3-stage selection architecture (PST/PET, bilingual Paper-I and Paper-II written competitive exam with 0.25 negative marking, and General Hospital medical fitness board), candidate competition benchmarks (148 vacancies, 1,843 applicants, 1,783 appeared in 2025-2026 cycle; 253 vacancies in 2022-2023 cycle), and live official py.gov.in notifications, question papers, and press release downloads; validated with zero errors."
     }
   ],
   "exams": {
@@ -19762,43 +19774,53 @@
     "puducherry-police-constable": {
       "batch_id": "batch-5-subordinate-police-boards--puducherry",
       "detail_file": "public/exam-details/puducherry-police-constable.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u112"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u112"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u112"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u112"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u112"
         }
       },
       "flags": []
