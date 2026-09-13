@@ -1,0 +1,5089 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-13",
+  "generated_by": "scripts/data-sourcing/build-work-queue.mjs",
+  "how_to_use": "One unit = one researcher session. Work units in ascending `order`. Each exam carries its own tier and the exact sections required of it. Do not merge units — unit size is calibrated to the point where citation discipline starts to degrade.",
+  "tier_policy": {
+    "A": "popularity very_high — every applicable section researched and cited",
+    "B": "popularity high — exam_scheme + official_downloads required; others best-effort, not_available if not readily published",
+    "C": "popularity medium/low — official_downloads required; others best-effort, not_available if not readily published"
+  },
+  "fixed_constants": {
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01"
+  },
+  "totals": {
+    "exams_total": 504,
+    "already_verified": 283,
+    "exams_queued": 221,
+    "units": 28,
+    "tier_totals": {
+      "A": 75,
+      "B": 78,
+      "C": 68
+    }
+  },
+  "review_flags": [],
+  "units": [
+    {
+      "unit_id": "u001",
+      "order": 1,
+      "batch_id": "batch-3-banking-insurance",
+      "label": "Banking, Insurance & Financial Regulators",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "ibps-po",
+          "name": "IBPS Probationary Officer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IBPS",
+          "official_website": "https://ibps.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "sbi-po",
+          "name": "State Bank of India Probationary Officer",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SBI",
+          "official_website": "https://sbi.co.in/web/careers",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "rbi-assistant",
+          "name": "Reserve Bank of India Assistant Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "RBI",
+          "official_website": "https://www.rbi.org.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "sbi-clerk",
+          "name": "State Bank of India Junior Associates (Customer Support & Sales)",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SBI",
+          "official_website": "https://sbi.co.in/web/careers",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "sidbi-grade-a",
+          "name": "Small Industries Development Bank of India Assistant Manager",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SIDBI",
+          "official_website": "https://www.sidbi.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "pfrda-grade-a",
+          "name": "Pension Fund Regulatory and Development Authority Grade 'A' Officer",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "PFRDA",
+          "official_website": "https://www.pfrda.org.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "ecgc-po",
+          "name": "Export Credit Guarantee Corporation Probationary Officer Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ECGC Ltd",
+          "official_website": "https://www.ecgc.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "rbi-grade-b-depr",
+          "name": "Reserve Bank of India Grade 'B' (DEPR) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Reserve Bank of India Services Board",
+          "official_website": "https://www.rbi.org.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u002",
+      "order": 2,
+      "batch_id": "batch-4-state-psc--goa",
+      "label": "Major State Public Service Commissions (State Administrative Services) — Goa",
+      "exam_count": 1,
+      "tier_mix": {
+        "A": 0,
+        "B": 0,
+        "C": 1
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "goa-psc",
+          "name": "Goa Public Service Commission Civil Services Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Goa",
+          "conducting_body": "Goa PSC",
+          "official_website": "https://gpsc.goa.gov.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u003",
+      "order": 3,
+      "batch_id": "batch-4-state-psc--kerala",
+      "label": "Major State Public Service Commissions (State Administrative Services) — Kerala",
+      "exam_count": 7,
+      "tier_mix": {
+        "A": 4,
+        "B": 3,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "kerala-psc-kas",
+          "name": "Kerala Administrative Service",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "kerala-psc-ldc",
+          "name": "Kerala PSC Lower Division Clerk (LDC) District-wise Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "kerala-psc-cpo",
+          "name": "Kerala PSC Civil Police Officer (CPO) / Police Constable Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "kerala-psc-si",
+          "name": "Kerala PSC Sub-Inspector of Police (Trainee) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "kerala-psc-vfa",
+          "name": "Kerala PSC Village Field Assistant (VFA) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "kerala-psc-civil-excise",
+          "name": "Kerala PSC Civil Excise Officer (Excise Department) Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "kerala-psc-fireman",
+          "name": "Kerala PSC Fire and Rescue Officer (Trainee) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Kerala",
+          "conducting_body": "Kerala PSC",
+          "official_website": "https://www.keralapsc.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u004",
+      "order": 4,
+      "batch_id": "batch-4-state-psc--punjab",
+      "label": "Major State Public Service Commissions (State Administrative Services) — Punjab",
+      "exam_count": 2,
+      "tier_mix": {
+        "A": 1,
+        "B": 1,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "ppsc-pcs",
+          "name": "Punjab Civil Services Combined Competitive Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Punjab",
+          "conducting_body": "PPSC",
+          "official_website": "https://ppsc.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "punjab-judicial-service",
+          "name": "Punjab Civil Service (Judicial Branch) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Punjab",
+          "conducting_body": "PPSC & High Court of Punjab & Haryana",
+          "official_website": "https://ppsc.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u005",
+      "order": 5,
+      "batch_id": "batch-5-subordinate-police-boards--andhra-pradesh",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Andhra Pradesh",
+      "exam_count": 2,
+      "tier_mix": {
+        "A": 2,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "ap-slprb-constable",
+          "name": "State Level Police Recruitment Board AP Police Constable Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Andhra Pradesh",
+          "conducting_body": "SLPRB AP",
+          "official_website": "https://slprb.ap.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "ap-slprb-si",
+          "name": "SLPRB Andhra Pradesh Police Sub-Inspector Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Andhra Pradesh",
+          "conducting_body": "SLPRB AP",
+          "official_website": "https://slprb.ap.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u006",
+      "order": 6,
+      "batch_id": "batch-5-subordinate-police-boards--chhattisgarh",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Chhattisgarh",
+      "exam_count": 2,
+      "tier_mix": {
+        "A": 0,
+        "B": 0,
+        "C": 2
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "cg-pet",
+          "name": "Chhattisgarh Pre Engineering Test",
+          "exam_type": "entrance",
+          "jurisdiction": "state",
+          "state": "Chhattisgarh",
+          "conducting_body": "CG Vyapam",
+          "official_website": "https://vyapam.cgstate.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cg-pat",
+          "name": "Chhattisgarh Pre Agriculture Test",
+          "exam_type": "entrance",
+          "jurisdiction": "state",
+          "state": "Chhattisgarh",
+          "conducting_body": "CG Vyapam",
+          "official_website": "https://vyapam.cgstate.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "u007",
+      "order": 7,
+      "batch_id": "batch-5-subordinate-police-boards--dadra-nagar-haveli-and-daman-diu",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Dadra & Nagar Haveli and Daman & Diu",
+      "exam_count": 1,
+      "tier_mix": {
+        "A": 0,
+        "B": 0,
+        "C": 1
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "ssb-dnhdd-clerk",
+          "name": "Staff Selection Board DNH & DD Combined Higher Secondary Level (LDC) Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Dadra & Nagar Haveli and Daman & Diu",
+          "conducting_body": "SSB DNH & DD",
+          "official_website": "https://daman.nic.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u008",
+      "order": 8,
+      "batch_id": "batch-5-subordinate-police-boards--delhi",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Delhi",
+      "exam_count": 5,
+      "tier_mix": {
+        "A": 2,
+        "B": 2,
+        "C": 1
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "dsssb-dass-grade-2",
+          "name": "DSSSB DASS Grade-II & Head Clerk Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Delhi",
+          "conducting_body": "DSSSB",
+          "official_website": "https://dsssb.delhi.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "dsssb-prt-tgt",
+          "name": "DSSSB TGT & PRT School Teacher Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Delhi",
+          "conducting_body": "DSSSB",
+          "official_website": "https://dsssb.delhi.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "dsssb-nursing-officer",
+          "name": "DSSSB Nursing Officer & Staff Nurse Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Delhi",
+          "conducting_body": "DSSSB",
+          "official_website": "https://dsssb.delhi.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "dsssb-warder",
+          "name": "DSSSB Warder & Matron (Delhi Prisons Department) Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Delhi",
+          "conducting_body": "DSSSB",
+          "official_website": "https://dsssb.delhi.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "dsssb-special-educator",
+          "name": "DSSSB Special Educator (Primary & TGT) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Delhi",
+          "conducting_body": "DSSSB",
+          "official_website": "https://dsssb.delhi.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u009",
+      "order": 9,
+      "batch_id": "batch-5-subordinate-police-boards--goa",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Goa",
+      "exam_count": 1,
+      "tier_mix": {
+        "A": 0,
+        "B": 0,
+        "C": 1
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "goa-ssc-cgl",
+          "name": "Goa Staff Selection Commission (GSSC) Combined Subordinate Services Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Goa",
+          "conducting_body": "Goa Staff Selection Commission (GSSC)",
+          "official_website": "https://gssc.goa.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u010",
+      "order": 10,
+      "batch_id": "batch-5-subordinate-police-boards--puducherry",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Puducherry",
+      "exam_count": 1,
+      "tier_mix": {
+        "A": 0,
+        "B": 1,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "puducherry-police-constable",
+          "name": "Puducherry Police Constable & Home Guard Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Puducherry",
+          "conducting_body": "Police Department Puducherry",
+          "official_website": "https://police.py.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u011",
+      "order": 11,
+      "batch_id": "batch-5-subordinate-police-boards--punjab",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Punjab",
+      "exam_count": 4,
+      "tier_mix": {
+        "A": 3,
+        "B": 1,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "punjab-police-constable",
+          "name": "Punjab Police District & Armed Police Constable Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Punjab",
+          "conducting_body": "Punjab Police",
+          "official_website": "https://punjabpolice.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "punjab-police-si",
+          "name": "Punjab Police Sub-Inspector (Investigation, District & Armed) Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Punjab",
+          "conducting_body": "Punjab Police",
+          "official_website": "https://punjabpolice.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "psssb-patwari",
+          "name": "PSSSB Revenue Patwari & Zilladar Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Punjab",
+          "conducting_body": "PSSSB",
+          "official_website": "https://sssb.punjab.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "psssb-clerk",
+          "name": "Punjab Subordinate Services Selection Board (PSSSB) Clerk Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Punjab",
+          "conducting_body": "PSSSB",
+          "official_website": "https://sssb.punjab.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u012",
+      "order": 12,
+      "batch_id": "batch-5-subordinate-police-boards--telangana",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Telangana",
+      "exam_count": 2,
+      "tier_mix": {
+        "A": 2,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "tslprb-constable",
+          "name": "Telangana State Level Police Recruitment Board (TSLPRB) Police Constable Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Telangana",
+          "conducting_body": "TSLPRB",
+          "official_website": "https://www.tslprb.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "tslprb-si",
+          "name": "TSLPRB Sub-Inspector of Police (Civil, AR, TSSP) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Telangana",
+          "conducting_body": "TSLPRB",
+          "official_website": "https://www.tslprb.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u013",
+      "order": 13,
+      "batch_id": "batch-5-subordinate-police-boards--uttarakhand",
+      "label": "Subordinate Boards & State Police Recruitment Boards — Uttarakhand",
+      "exam_count": 2,
+      "tier_mix": {
+        "A": 1,
+        "B": 1,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "uksssc-graduate-level",
+          "name": "UKSSSC Graduate Level (VDO, VPDO & Assistant Manager) Examination",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Uttarakhand",
+          "conducting_body": "UKSSSC",
+          "official_website": "https://sssc.uk.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "uksssc-intermediate-level",
+          "name": "UKSSSC Intermediate Level (Junior Assistant, DEO & Tax Collector) Exam",
+          "exam_type": "job",
+          "jurisdiction": "state",
+          "state": "Uttarakhand",
+          "conducting_body": "UKSSSC",
+          "official_website": "https://sssc.uk.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u014",
+      "order": 14,
+      "batch_id": "batch-6a-national-entrance-tests",
+      "label": "National entrance tests (NTA & academic admissions)",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "jee-main",
+          "name": "Joint Entrance Examination Main (Paper 1 — B.E. / B.Tech)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://jeemain.nta.nic.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "neet-ug",
+          "name": "National Eligibility cum Entrance Test (UG)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://neet.nta.nic.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "ugc-net",
+          "name": "University Grants Commission National Eligibility Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://ugcnet.nta.nic.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cuet-ug",
+          "name": "Common University Entrance Test (UG)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://cuet.nta.nic.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "ctet",
+          "name": "Central Teacher Eligibility Test",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "CBSE",
+          "official_website": "https://ctet.nic.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "epfo-ssa",
+          "name": "Employees' Provident Fund Organisation Social Security Assistant",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA / EPFO",
+          "official_website": "https://www.epfindia.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "jbims-msc-finance",
+          "name": "Jamnalal Bajaj Institute of Management Studies M.Sc Finance",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "JBIMS / Mumbai University",
+          "official_website": "https://jbims.edu",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "igidr-msc-economics-finance",
+          "name": "Indira Gandhi Institute of Development Research M.Sc / Ph.D Entrance",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IGIDR / RBI",
+          "official_website": "http://www.igidr.ac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "u015",
+      "order": 15,
+      "batch_id": "batch-6a-national-entrance-tests",
+      "label": "National entrance tests (NTA & academic admissions)",
+      "exam_count": 14,
+      "tier_mix": {
+        "A": 1,
+        "B": 13,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "dse-mcom",
+          "name": "Delhi School of Economics Master of Commerce Entrance Examination",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA / University of Delhi",
+          "official_website": "http://www.commercedu.com",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "clat",
+          "name": "Common Law Admission Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Consortium of NLUs",
+          "official_website": "https://consortiumofnlus.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nid-dat",
+          "name": "National Institute of Design - Design Aptitude Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NID Ahmedabad",
+          "official_website": "https://admissions.nid.edu",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nift",
+          "name": "National Institute of Fashion Technology Entrance",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NIFT",
+          "official_website": "https://nift.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "csir-net",
+          "name": "Council of Scientific and Industrial Research NET",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (for CSIR)",
+          "official_website": "https://csirnet.nta.nic.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cuet-pg",
+          "name": "Common University Entrance Test (PG)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://exams.nta.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "kvs-pgt-tgt",
+          "name": "Kendriya Vidyalaya Sangathan Teacher Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "KVS",
+          "official_website": "https://kvsangathan.nic.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "du-entrance",
+          "name": "Delhi University Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (via CUET)",
+          "official_website": "https://www.du.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "ntse",
+          "name": "National Talent Search Examination",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NCERT",
+          "official_website": "https://ncert.nic.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cusat-cat",
+          "name": "Cochin University of Science and Technology Common Admission Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "CUSAT",
+          "official_website": "https://admissions.cusat.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "atma",
+          "name": "AIMS Test for Management Admissions",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AIMS",
+          "official_website": "https://www.atmaaims.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "aiapget",
+          "name": "All India AYUSH Post Graduate Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://exams.nta.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "icar-aice-jrf-srf",
+          "name": "ICAR All India Competitive Examination for JRF/SRF (PhD)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA / ICAR",
+          "official_website": "https://exams.nta.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nibm-pgdm",
+          "name": "National Institute of Bank Management PGDM (Banking & Financial Services)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NIBM Pune (via CAT / XAT / CMAT)",
+          "official_website": "https://www.nibmindia.org",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "u016",
+      "order": 16,
+      "batch_id": "batch-6a-national-entrance-tests",
+      "label": "National entrance tests (NTA & academic admissions)",
+      "exam_count": 21,
+      "tier_mix": {
+        "A": 0,
+        "B": 2,
+        "C": 19
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "mse-msc-finance",
+          "name": "Madras School of Economics M.Sc Finance / Financial Economics",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Madras School of Economics (MSE / CUET PG)",
+          "official_website": "https://www.mse.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nvs-tgt-pgt",
+          "name": "Navodaya Vidyalaya Samiti TGT/PGT Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Navodaya Vidyalaya Samiti",
+          "official_website": "https://navodaya.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "ailet",
+          "name": "All India Law Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NLU Delhi",
+          "official_website": "https://nludelhi.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "mat",
+          "name": "Management Aptitude Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AIMA",
+          "official_website": "https://mat.aima.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cmat",
+          "name": "Common Management Admission Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://exams.nta.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "icar-aieea",
+          "name": "ICAR All India Entrance Examination for Admission",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (for ICAR)",
+          "official_website": "https://exams.nta.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "iift",
+          "name": "Indian Institute of Foreign Trade MBA Entrance",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (for IIFT)",
+          "official_website": "https://www.iift.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cmi-entrance",
+          "name": "Chennai Mathematical Institute Entrance",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "CMI",
+          "official_website": "https://www.cmi.ac.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nata",
+          "name": "National Aptitude Test in Architecture",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Council of Architecture",
+          "official_website": "https://nata.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "gpat",
+          "name": "Graduate Pharmacy Aptitude Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "imu-cet",
+          "name": "Indian Maritime University Common Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IMU",
+          "official_website": "https://www.imu.edu.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "tissnet",
+          "name": "Tata Institute of Social Sciences National Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "TISS",
+          "official_website": "https://admissions.tiss.edu",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jnu-entrance",
+          "name": "Jawaharlal Nehru University Entrance Examination",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (for JNU)",
+          "official_website": "https://www.jnu.ac.in/admissions",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "pet-bhu",
+          "name": "Banaras Hindu University PET",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (via CUET-PG)",
+          "official_website": "https://www.bhu.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nchm-jee",
+          "name": "National Council for Hotel Management Joint Entrance Exam",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://exams.nta.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jee-main-arch",
+          "name": "JEE Main Paper 2 (B.Arch / B.Planning)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://jeemain.nta.nic.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "amu-entrance",
+          "name": "Aligarh Muslim University Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AMU",
+          "official_website": "https://www.amucontrollerexams.com",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jamia-entrance",
+          "name": "Jamia Millia Islamia Entrance Exam",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "JMI",
+          "official_website": "https://www.jmi.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "iiit-allahabad",
+          "name": "IIIT Allahabad Entrance (Through JEE Main)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA (Through JEE Main)",
+          "official_website": "https://www.iiita.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "fddi-aist",
+          "name": "Footwear Design & Development Institute All India Selection Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "FDDI",
+          "official_website": "https://www.fddiindia.com",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nta-ncet",
+          "name": "National Common Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTA",
+          "official_website": "https://ncet.nta.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "u017",
+      "order": 17,
+      "batch_id": "batch-6b-defence-direct-entry",
+      "label": "Defence, paramilitary & strategic direct entry",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "indian-army-agniveer",
+          "name": "Indian Army Agniveer Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Army",
+          "official_website": "https://joinindianarmy.nic.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "ib-acio",
+          "name": "Intelligence Bureau Assistant Central Intelligence Officer",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Ministry of Home Affairs",
+          "official_website": "https://www.mha.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "icg-navik-gd",
+          "name": "Indian Coast Guard Navik (General Duty) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Coast Guard (MoD)",
+          "official_website": "https://joinindiancoastguard.cdac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "icg-yantrik",
+          "name": "Indian Coast Guard Yantrik (Technical Mechanical/Electrical) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Coast Guard",
+          "official_website": "https://joinindiancoastguard.cdac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "icg-assistant-commandant",
+          "name": "Indian Coast Guard Assistant Commandant (Gazetted Officer Entry) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Coast Guard (MoD)",
+          "official_website": "https://joinindiancoastguard.cdac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "drdo-ceptam-sta-b",
+          "name": "DRDO CEPTAM Senior Technical Assistant 'B' (STA-B) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "DRDO CEPTAM",
+          "official_website": "https://www.drdo.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "drdo-ceptam-tech-a",
+          "name": "DRDO CEPTAM Technician 'A' (Tech-A) Industrial Trade Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "DRDO CEPTAM",
+          "official_website": "https://www.drdo.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "indian-navy-incet-tradesman",
+          "name": "Indian Navy Civilian Entrance Test (INCET) Tradesman Mate Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Navy (MoD)",
+          "official_website": "https://www.joinindiannavy.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u018",
+      "order": 18,
+      "batch_id": "batch-6b-defence-direct-entry",
+      "label": "Defence, paramilitary & strategic direct entry",
+      "exam_count": 11,
+      "tier_mix": {
+        "A": 0,
+        "B": 8,
+        "C": 3
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "drdo-ceptam",
+          "name": "DRDO Centre for Personnel Talent Management",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "DRDO",
+          "official_website": "https://www.drdo.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "drdo-set",
+          "name": "DRDO Scientist Entry Test",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "RAC / DRDO",
+          "official_website": "https://rac.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "agniveer-navy",
+          "name": "Agniveer (Navy) Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Navy",
+          "official_website": "https://www.joinindiannavy.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "agniveer-air-force",
+          "name": "Agniveer (Air Force) Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Air Force",
+          "official_website": "https://agnipathvayu.cdac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "icg-navik-db",
+          "name": "Indian Coast Guard Navik (Domestic Branch) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Coast Guard",
+          "official_website": "https://joinindiancoastguard.cdac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "mes-supervisor-barrack-store",
+          "name": "Military Engineer Services (MES) Supervisor Barrack & Draughtsman Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Military Engineer Services (MoD)",
+          "official_website": "https://mes.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "indian-navy-chargeman",
+          "name": "Indian Navy Civilian Chargeman (Ammunition Workshop / Engineering) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Navy (MoD)",
+          "official_website": "https://www.joinindiannavy.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "iaf-civilian-group-c",
+          "name": "Indian Air Force Civilian Group 'C' Direct Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Air Force",
+          "official_website": "https://indianairforce.nic.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "afcat",
+          "name": "Air Force Common Admission Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IAF",
+          "official_website": "https://careerindianairforce.cdac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "afmc-mbbs",
+          "name": "Armed Forces Medical College MBBS",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AFMC / DGAFMS",
+          "official_website": "https://afmc.nic.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nia-si-inspector",
+          "name": "National Investigation Agency Sub-Inspector / Inspector Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NIA / MHA",
+          "official_website": "https://www.nia.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u019",
+      "order": 19,
+      "batch_id": "batch-6c-research-premier-institutes",
+      "label": "Premier institutes & national research bodies",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "jee-advanced",
+          "name": "Joint Entrance Examination Advanced",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IIT (Rotating)",
+          "official_website": "https://jeeadv.ac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cat",
+          "name": "Common Admission Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IIM (Rotating)",
+          "official_website": "https://iimcat.ac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "gate",
+          "name": "Graduate Aptitude Test in Engineering",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IIT & IISc (Rotating)",
+          "official_website": "https://gate2025.iitr.ac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "isro-scientist",
+          "name": "ISRO Scientist / Engineer Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ISRO",
+          "official_website": "https://www.isro.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "aiims-nursing",
+          "name": "AIIMS B.Sc Nursing Entrance Exam",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AIIMS New Delhi",
+          "official_website": "https://www.aiimsexams.ac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jgeebils",
+          "name": "Joint Graduate Entrance Examination for Biology and Interdisciplinary Life Sciences",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "TIFR / NCBS",
+          "official_website": "https://www.tifr.res.in/~academics/",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "aiims-norcet",
+          "name": "AIIMS Nursing Officer Recruitment Common Eligibility Test (NORCET)",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AIIMS New Delhi",
+          "official_website": "https://www.aiimsexams.ac.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "nielit-scientist-b",
+          "name": "NIELIT Scientist 'B' & Scientific Assistant 'A' Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NIELIT / MeitY",
+          "official_website": "https://www.nielit.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u020",
+      "order": 20,
+      "batch_id": "batch-6c-research-premier-institutes",
+      "label": "Premier institutes & national research bodies",
+      "exam_count": 20,
+      "tier_mix": {
+        "A": 0,
+        "B": 7,
+        "C": 13
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "barc-oces",
+          "name": "BARC Training School OCES / DGFS",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BARC",
+          "official_website": "https://www.barc.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "ini-cet",
+          "name": "Institute of National Importance Combined Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AIIMS Delhi",
+          "official_website": "https://aiimsexams.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "iisc-ug",
+          "name": "IISc Bangalore Undergraduate Admission",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IISc Bangalore",
+          "official_website": "https://iisc.ac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nbhm-phd",
+          "name": "National Board for Higher Mathematics Doctoral Scholarship Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBHM / DAE",
+          "official_website": "https://www.nbhm.dae.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "isro-technical-assistant",
+          "name": "ISRO Technical Assistant / Scientific Assistant Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ISRO / ICRB",
+          "official_website": "https://www.isro.gov.in/Careers.html",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "barc-stipendiary-trainee",
+          "name": "Bhabha Atomic Research Centre Stipendiary Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BARC",
+          "official_website": "https://www.barc.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "cdac-project-engineer",
+          "name": "Centre for Development of Advanced Computing (C-DAC) Project Engineer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "C-DAC",
+          "official_website": "https://www.cdac.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "uceed",
+          "name": "Undergraduate Common Entrance Exam for Design",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IIT Bombay",
+          "official_website": "https://www.uceed.iitb.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "ceed",
+          "name": "Common Entrance Examination for Design",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IIT Bombay",
+          "official_website": "https://www.ceed.iitb.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jam",
+          "name": "Joint Admission Test for M.Sc.",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IIT (Rotating)",
+          "official_website": "https://jam2025.iitd.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "tifr-gs",
+          "name": "Tata Institute of Fundamental Research Graduate School Admissions",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "TIFR",
+          "official_website": "https://www.tifr.res.in/~academics/",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jest",
+          "name": "Joint Entrance Screening Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "JEST Committee",
+          "official_website": "https://www.jest.org.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "isi-admission",
+          "name": "Indian Statistical Institute Admission Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ISI Kolkata",
+          "official_website": "https://www.isical.ac.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "kvpy",
+          "name": "Kishore Vaigyanik Protsahan Yojana",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IISc Bangalore (earlier), now DST INSPIRE",
+          "official_website": "https://online-inspire.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "olympiad-science",
+          "name": "Science Olympiad (NSO / NSEJS / NSEP / NSEC / NSEB)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "HBCSE / IAPT",
+          "official_website": "https://olympiads.hbcse.tifr.res.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "imo",
+          "name": "International Mathematical Olympiad Selection (RMO/INMO)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "HBCSE / NBHM",
+          "official_website": "https://olympiads.hbcse.tifr.res.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "iiser-aptitude",
+          "name": "IISER Aptitude Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IISER (Rotating)",
+          "official_website": "https://www.iiseradmission.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nest",
+          "name": "National Entrance Screening Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NISER",
+          "official_website": "https://www.nestexam.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "iim-cat-fellowship",
+          "name": "IIM Fellowship Programme in Management (FPM)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Individual IIMs",
+          "official_website": "https://iimcat.ac.in",
+          "popularity": "low",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "npcil-st",
+          "name": "Nuclear Power Corporation of India Stipendiary Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NPCIL",
+          "official_website": "https://www.npcil.nic.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u021",
+      "order": 21,
+      "batch_id": "batch-6d-medical-health",
+      "label": "Medical & health services bodies",
+      "exam_count": 14,
+      "tier_mix": {
+        "A": 2,
+        "B": 7,
+        "C": 5
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "esic-nursing-officer",
+          "name": "Employees' State Insurance Corporation (ESIC) Nursing Officer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "UPSC / ESIC",
+          "official_website": "https://www.esic.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "esic-paramedical",
+          "name": "ESIC Paramedical Cadre Examination (Pharmacist, Lab Tech, Radiographer)",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ESIC",
+          "official_website": "https://www.esic.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "neet-pg",
+          "name": "National Eligibility cum Entrance Test (PG)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBEMS",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "jipmer",
+          "name": "JIPMER MBBS Entrance (Now NEET)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "JIPMER / NTA (via NEET)",
+          "official_website": "https://jipmer.edu.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "esic-sso",
+          "name": "Employees' State Insurance Corporation Social Security Officer",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ESIC",
+          "official_website": "https://www.esic.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "pgimer-nursing-officer",
+          "name": "PGIMER Chandigarh Nursing Officer & Store Keeper Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "PGIMER Chandigarh",
+          "official_website": "https://pgimer.edu.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "jipmer-nursing-officer",
+          "name": "JIPMER Puducherry Nursing Officer & Medical Record Technician Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "JIPMER Puducherry",
+          "official_website": "https://jipmer.edu.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "dghs-safdarjung-nurse",
+          "name": "DGHS Central Hospitals Staff Nurse & Technical Officer Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "DGHS MoHFW",
+          "official_website": "https://dghs.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "cghs-pharmacist",
+          "name": "Central Government Health Scheme (CGHS) Pharmacist & MTS Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "CGHS MoHFW",
+          "official_website": "https://cghs.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "neet-ss",
+          "name": "NEET Super Speciality",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBEMS",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "fmge",
+          "name": "Foreign Medical Graduates Examination",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBEMS",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "neet-mds",
+          "name": "NEET MDS",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBEMS",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "dnb-pdcet",
+          "name": "Diplomate of National Board Post Diploma Centralized Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBE",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "nbe-fet",
+          "name": "Fellowship Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NBEMS",
+          "official_website": "https://natboard.edu.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_id": "u022",
+      "order": 22,
+      "batch_id": "batch-6e-judiciary-regulators-professional",
+      "label": "Judiciary, regulators & professional bodies",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "ca",
+          "name": "Chartered Accountancy (CA - Foundation, Intermediate & Final)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ICAI",
+          "official_website": "https://www.icai.org",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cs",
+          "name": "Company Secretary (CS - CSEET, Executive & Professional)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ICSI",
+          "official_website": "https://www.icsi.edu",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "cma",
+          "name": "Cost and Management Accountant (CMA - Foundation, Intermediate & Final)",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ICMAI",
+          "official_website": "https://icmai.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "exam_scheme",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "ifsca-grade-a",
+          "name": "International Financial Services Centres Authority Grade 'A' Officer",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IFSCA",
+          "official_website": "https://www.ifsca.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "fssai-cfso",
+          "name": "FSSAI Central Food Safety Officer (CFSO) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "FSSAI",
+          "official_website": "https://www.fssai.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "fssai-technical-officer",
+          "name": "Food Safety and Standards Authority of India (FSSAI) Technical Officer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "FSSAI",
+          "official_website": "https://www.fssai.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "asrb-icar-administrative-officer",
+          "name": "Agricultural Scientists Recruitment Board (ASRB) AO & FAO Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ASRB New Delhi",
+          "official_website": "https://www.asrb.org.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "icar-iari-technician",
+          "name": "ICAR Indian Agricultural Research Institute (IARI) Technician (T-1) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ICAR IARI",
+          "official_website": "https://www.iari.res.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u023",
+      "order": 23,
+      "batch_id": "batch-6e-judiciary-regulators-professional",
+      "label": "Judiciary, regulators & professional bodies",
+      "exam_count": 5,
+      "tier_mix": {
+        "A": 0,
+        "B": 2,
+        "C": 3
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "cag-sas",
+          "name": "Comptroller and Auditor General Subordinate Audit/Accounts Service Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Comptroller and Auditor General of India",
+          "official_website": "https://cag.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "bis-technical-assistant",
+          "name": "Bureau of Indian Standards (BIS) Technical Assistant (Laboratory) & SSA Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Bureau of Indian Standards",
+          "official_website": "https://www.bis.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "bis-scientist-b",
+          "name": "Bureau of Indian Standards Scientist 'B'",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Bureau of Indian Standards",
+          "official_website": "https://www.bis.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "icfre-technical-assistant",
+          "name": "Indian Council of Forestry Research and Education (ICFRE) Technical Assistant Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ICFRE Dehradun",
+          "official_website": "https://www.icfre.org",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "gsi-driver-mechanic",
+          "name": "Geological Survey of India (GSI) Driver & Mechanical Technical Staff Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Geological Survey of India",
+          "official_website": "https://www.gsi.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u024",
+      "order": 24,
+      "batch_id": "batch-6f-central-psus",
+      "label": "Central PSUs & statutory corporations",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "aai-atc",
+          "name": "Airports Authority of India Junior Executive (Air Traffic Control)",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "AAI",
+          "official_website": "https://www.aai.aero",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "india-post-gds",
+          "name": "India Post Gramin Dak Sevak Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Department of Posts",
+          "official_website": "https://indiapostgdsonline.gov.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "pgcil-diploma-trainee",
+          "name": "Power Grid Corporation of India (PGCIL) Diploma Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "PGCIL",
+          "official_website": "https://www.powergrid.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "dfccil-executive",
+          "name": "Dedicated Freight Corridor Corporation of India (DFCCIL) Executive Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "DFCCIL",
+          "official_website": "https://dfccil.com",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "hal-design-trainee",
+          "name": "Hindustan Aeronautics Limited (HAL) Design Trainee & Management Trainee Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Hindustan Aeronautics Limited",
+          "official_website": "https://hal-india.co.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "bel-probationary-engineer",
+          "name": "Bharat Electronics Limited (BEL) Probationary Engineer Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Bharat Electronics Limited",
+          "official_website": "https://bel-india.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "bpcl-management-trainee",
+          "name": "Bharat Petroleum Corporation Limited (BPCL) Management Trainee Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BPCL",
+          "official_website": "https://www.bharatpetroleum.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "hpcl-officer-engineer",
+          "name": "Hindustan Petroleum Corporation Limited (HPCL) Officer / Engineer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "HPCL",
+          "official_website": "https://www.hindustanpetroleum.com",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u025",
+      "order": 25,
+      "batch_id": "batch-6f-central-psus",
+      "label": "Central PSUs & statutory corporations",
+      "exam_count": 8,
+      "tier_mix": {
+        "A": 8,
+        "B": 0,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "gail-executive-trainee",
+          "name": "GAIL (India) Limited Executive Trainee (ET) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "GAIL (India) Limited",
+          "official_website": "https://www.gailonline.com",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "ongc-graduate-trainee",
+          "name": "ONGC Graduate Trainee in Engineering & Geo-Sciences Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ONGC",
+          "official_website": "https://ongcindia.com",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "iocl-non-executive",
+          "name": "Indian Oil Corporation (IOCL) Non-Executive Personnel Recruitment Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Indian Oil Corporation Limited",
+          "official_website": "https://iocl.com",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "cil-management-trainee",
+          "name": "Coal India Limited (CIL) Management Trainee (MT) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Coal India Limited",
+          "official_website": "https://www.coalindia.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "sail-mtt",
+          "name": "Steel Authority of India Limited (SAIL) Management Trainee (Technical) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SAIL",
+          "official_website": "https://sail.co.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "ntpc-eet",
+          "name": "NTPC Limited Engineering Executive Trainee (EET) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTPC Limited",
+          "official_website": "https://careers.ntpc.co.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "bhel-engineer-trainee",
+          "name": "Bharat Heavy Electricals Limited (BHEL) Engineer Trainee (ET) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BHEL",
+          "official_website": "https://careers.bhel.in",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "aai-atc-junior-executive",
+          "name": "Airports Authority of India (AAI) Junior Executive (Air Traffic Control) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Airports Authority of India (AAI)",
+          "official_website": "https://www.aai.aero",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u026",
+      "order": 26,
+      "batch_id": "batch-6f-central-psus",
+      "label": "Central PSUs & statutory corporations",
+      "exam_count": 14,
+      "tier_mix": {
+        "A": 1,
+        "B": 13,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "aai-junior-executive-common",
+          "name": "Airports Authority of India (AAI) Junior Executive (Common Cadre) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Airports Authority of India",
+          "official_website": "https://www.aai.aero",
+          "popularity": "very_high",
+          "tier": "A",
+          "sections_required": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks",
+            "official_downloads"
+          ],
+          "sections_best_effort": [],
+          "omit_sections": []
+        },
+        {
+          "id": "ntpc-et",
+          "name": "NTPC Executive Trainee Through GATE",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NTPC",
+          "official_website": "https://www.ntpc.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "iocl-apprentice",
+          "name": "IOCL Apprentice / Engineer Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IOCL",
+          "official_website": "https://iocl.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "pgcil-et",
+          "name": "Power Grid Corporation Executive Trainee",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "PGCIL (via GATE / CBT)",
+          "official_website": "https://www.powergrid.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "hal-management-trainee",
+          "name": "Hindustan Aeronautics Limited Management / Design Trainee",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "HAL",
+          "official_website": "https://hal-india.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "ongc-finance-officer",
+          "name": "ONGC Finance & Accounts Officer Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ONGC",
+          "official_website": "https://www.ongcindia.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "iocl-finance-officer",
+          "name": "Indian Oil Corporation Officers in Finance Function",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IOCL",
+          "official_website": "https://iocl.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "bhel-finance-executive",
+          "name": "Bharat Heavy Electricals Limited Executive Trainee (Finance)",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BHEL",
+          "official_website": "https://www.bhel.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "cil-mt",
+          "name": "Coal India Limited Management Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "CIL",
+          "official_website": "https://www.coalindia.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "india-post-mts-postman",
+          "name": "India Post Postman / Mail Guard / MTS Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Department of Posts",
+          "official_website": "https://www.indiapost.gov.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "nhpc-trainee-engineer",
+          "name": "NHPC Limited Trainee Engineer & Trainee Officer Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NHPC Limited",
+          "official_website": "https://www.nhpcindia.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "sjvn-field-engineer",
+          "name": "SJVN Limited Field Engineer & Executive Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SJVN Limited",
+          "official_website": "https://sjvn.nic.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "thdc-engineer-trainee",
+          "name": "THDC India Limited Engineer Trainee Recruitment Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "THDC India Limited",
+          "official_website": "https://www.thdc.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "nalco-mt",
+          "name": "National Aluminium Company Limited (NALCO) Management Trainee Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NALCO",
+          "official_website": "https://www.nalcoindia.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u027",
+      "order": 27,
+      "batch_id": "batch-6f-central-psus",
+      "label": "Central PSUs & statutory corporations",
+      "exam_count": 15,
+      "tier_mix": {
+        "A": 0,
+        "B": 15,
+        "C": 0
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "bdl-management-trainee",
+          "name": "Bharat Dynamics Limited (BDL) Management Trainee (MT) Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Bharat Dynamics Limited (BDL)",
+          "official_website": "https://bdl-india.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "mdl-executive-trainee",
+          "name": "Mazagon Dock Shipbuilders Limited (MDL) Executive Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Mazagon Dock Shipbuilders Limited",
+          "official_website": "https://mazagondock.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "cochin-shipyard-executive",
+          "name": "Cochin Shipyard Limited (CSL) Executive Trainee & Ship Draftsman Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Cochin Shipyard Limited",
+          "official_website": "https://cochinshipyard.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "rvnl-site-engineer",
+          "name": "Rail Vikas Nigam Limited (RVNL) Site Engineer & Manager Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "RVNL",
+          "official_website": "https://rvnl.org",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "ircon-executive-trainee",
+          "name": "IRCON International Limited Executive Trainee & Assistant Manager Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IRCON International Limited",
+          "official_website": "https://www.ircon.org",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "concor-management-trainee",
+          "name": "Container Corporation of India (CONCOR) Management Trainee (MT) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "CONCOR",
+          "official_website": "https://concorindia.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "nfl-management-trainee",
+          "name": "National Fertilizers Limited (NFL) Management Trainee & Non-Executive Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "National Fertilizers Limited",
+          "official_website": "https://www.nationalfertilizers.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "rcf-management-trainee",
+          "name": "Rashtriya Chemicals and Fertilizers (RCF) Management Trainee Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "RCF Limited",
+          "official_website": "https://www.rcfltd.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "nmdc-maintenance-assistant",
+          "name": "NMDC Limited Junior Officer Trainee & Maintenance Assistant Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NMDC Limited",
+          "official_website": "https://www.nmdc.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "nlc-get",
+          "name": "NLC India Limited (Neyveli Lignite) Graduate Executive Trainee (GET) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NLC India Limited",
+          "official_website": "https://www.nlcindia.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "eil-management-trainee",
+          "name": "Engineers India Limited (EIL) Management Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Engineers India Limited",
+          "official_website": "https://engineersindia.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "beml-management-trainee",
+          "name": "BEML Limited Management Trainee & Diploma Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BEML Limited",
+          "official_website": "https://www.bemlindia.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "ecil-technical-officer",
+          "name": "Electronics Corporation of India Limited (ECIL) Technical Officer & GET Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "ECIL",
+          "official_website": "https://www.ecil.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "rites-engineer",
+          "name": "RITES Limited Graduate Engineer Trainee & Assistant Manager Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "RITES Limited",
+          "official_website": "https://www.rites.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "bhel-artisan",
+          "name": "BHEL Artisan / ITI Trade Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BHEL",
+          "official_website": "https://careers.bhel.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    },
+    {
+      "unit_id": "u028",
+      "order": 28,
+      "batch_id": "batch-6f-central-psus",
+      "label": "Central PSUs & statutory corporations",
+      "exam_count": 21,
+      "tier_mix": {
+        "A": 0,
+        "B": 2,
+        "C": 19
+      },
+      "status": "not_started",
+      "exams": [
+        {
+          "id": "spmcil-junior-office-associate",
+          "name": "Security Printing and Minting Corporation of India (SPMCIL) JOA Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SPMCIL",
+          "official_website": "https://www.spmcil.com",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "brbnmpl-industrial-workman",
+          "name": "Bharatiya Reserve Bank Note Mudran (BRBNMPL) Industrial Workman Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BRBNMPL",
+          "official_website": "https://www.brbnmpl.co.in",
+          "popularity": "high",
+          "tier": "B",
+          "sections_required": [
+            "exam_scheme",
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "nimcet",
+          "name": "NIT MCA Common Entrance Test",
+          "exam_type": "entrance",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "NIT (Rotating)",
+          "official_website": "https://nimcet.admissions.nic.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "exam_scheme",
+            "competition_benchmarks"
+          ],
+          "omit_sections": [
+            "career_ladder",
+            "financial_package"
+          ]
+        },
+        {
+          "id": "fci-manager",
+          "name": "Food Corporation of India Manager Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "FCI",
+          "official_website": "https://fci.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "gail-et",
+          "name": "GAIL Executive Trainee Through GATE",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "GAIL",
+          "official_website": "https://gailonline.com",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "sail-octt",
+          "name": "SAIL Management Trainee / Operator Recruitment",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SAIL",
+          "official_website": "https://sail.co.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "sail-act-oct",
+          "name": "SAIL Attendant Cum Technician / Operator Cum Technician",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "SAIL",
+          "official_website": "https://sail.co.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "bel-trainee-engineer",
+          "name": "Bharat Electronics Limited Project & Trainee Engineer",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "BEL",
+          "official_website": "https://bel-india.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "midhani-management-trainee",
+          "name": "Mishra Dhatu Nigam Limited (MIDHANI) Management Trainee & Executive Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "MIDHANI",
+          "official_website": "https://midhani-india.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "grse-management-trainee",
+          "name": "Garden Reach Shipbuilders & Engineers (GRSE) Management Trainee Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "GRSE Limited",
+          "official_website": "https://grse.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "gsl-management-trainee",
+          "name": "Goa Shipyard Limited (GSL) Management Trainee & Assistant Manager Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Goa Shipyard Limited",
+          "official_website": "https://goashipyard.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "fact-management-trainee",
+          "name": "Fertilisers and Chemicals Travancore Limited (FACT) Management Trainee Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "FACT Limited",
+          "official_website": "https://fact.co.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "mecl-geologist-engineer",
+          "name": "Mineral Exploration and Consultancy Limited (MECL) Geologist & Executive Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "MECL",
+          "official_website": "https://www.mecl.co.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "moil-management-trainee",
+          "name": "MOIL Limited (Manganese Ore India) Management Trainee Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "MOIL Limited",
+          "official_website": "https://moil.nic.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "kiocl-get",
+          "name": "KIOCL Limited (Kudremukh Iron Ore) Graduate Engineer Trainee (GET) Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "KIOCL Limited",
+          "official_website": "https://kioclltd.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "irfc-executive",
+          "name": "Indian Railway Finance Corporation (IRFC) Assistant Manager & Officer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "IRFC Limited",
+          "official_website": "https://irfc.co.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "central-silk-board-scientist",
+          "name": "Central Silk Board (CSB) Scientist 'B' & Assistant Director Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Central Silk Board",
+          "official_website": "https://csb.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "spices-board-field-officer",
+          "name": "Spices Board of India Field Officer & Assistant Director Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Spices Board India",
+          "official_website": "https://www.indianspices.com",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "tea-board-development-officer",
+          "name": "Tea Board of India Development Officer & Factory Advisory Officer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Tea Board of India",
+          "official_website": "https://www.teaboard.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "coffee-board-extension-officer",
+          "name": "Coffee Board of India Junior Liaison Officer & Extension Officer Exam",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Coffee Board of India",
+          "official_website": "https://www.coffeeboard.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        },
+        {
+          "id": "cochin-port-pilot",
+          "name": "Cochin Port Authority / Major Port Authorities Marine Pilot Examination",
+          "exam_type": "job",
+          "jurisdiction": "central",
+          "state": "All India",
+          "conducting_body": "Cochin Port Authority / Indian Ports Association",
+          "official_website": "https://cochinport.gov.in",
+          "popularity": "medium",
+          "tier": "C",
+          "sections_required": [
+            "official_downloads"
+          ],
+          "sections_best_effort": [
+            "career_ladder",
+            "exam_scheme",
+            "financial_package",
+            "competition_benchmarks"
+          ],
+          "omit_sections": []
+        }
+      ]
+    }
+  ]
+}

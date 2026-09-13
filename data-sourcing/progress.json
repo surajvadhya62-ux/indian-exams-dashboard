@@ -3,9 +3,9 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 281,
+    "verified": 283,
     "partial": 0,
-    "not_started": 223,
+    "not_started": 221,
     "exams_total": 504,
     "detail_files_exist": 344,
     "total_exams": 504,
@@ -1096,6 +1096,31 @@
         "ts-lawcet"
       ],
       "notes": "Completed Unit 109 (u109): 7 Telangana state examinations across Department of School Education (TG TET), Southern Power Distribution Company of Telangana Limited / TSSPDCL (Junior Lineman), High Court for the State of Telangana (Telangana Judicial Service Civil Judge Junior Division), and Telangana Council of Higher Education / TGCHE (TG ICET, TG EAPCET, TG ECET, TG LAWCET). Comprehensive primary statutory research and live URL verification across 25 endpoints; all 7 dossiers fully validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u108",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--sikkim"
+      ],
+      "exam_ids_touched": [
+        "sikkim-tet"
+      ],
+      "notes": "Completed Unit 108 (u108): Sikkim Teacher Eligibility Test / STET (sikkim-tet) conducted by the Examination Section, Education Department, Government of Sikkim. Comprehensive audit of 2-paper statutory scheme under Section 23(1) RTE Act & NCTE norms (Paper I Classes I-V & Paper II Classes VI-VIII, 150 MCQs / 150 marks each, no negative marking, 5 state languages: Nepali, Bhutia, Lepcha, Limboo, Hindi), empirical qualification benchmarks (STET 2024 Gazette: 823 qualified including 428 PRT, 254 GTA, 141 GTS; STET 2025 cycle; STET 2026 Special Educator examination notice Ref. No. 231/Exams/Edn/26), and live verification of all primary official URLs on education.sikkim.gov.in returning HTTP 200; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u107",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--punjab"
+      ],
+      "exam_ids_touched": [
+        "pspcl-assistant-lineman",
+        "pspcl-junior-engineer"
+      ],
+      "notes": "Completed Unit 107 (u107): 2 Punjab State Power Corporation Limited (PSPCL) technical recruitment examinations (pspcl-assistant-lineman and pspcl-junior-engineer). Fully researched and audited against primary statutory notifications (PSPCL Advt. CRA 312/25 & CRA 303/24, Financial Circular No. 21/2022, Punjab Finance Department probation pay orders), 7th CPC Level 2 and Level 6 pay scales with canonical 58% DA constant, normalized CBT exam schemes with qualifying Punjabi language requirements, competition benchmarks, and verified live official download portals."
     }
   ],
   "exams": {
@@ -18424,34 +18449,41 @@
         "exam_scheme": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "u108"
         },
         "competition_benchmarks": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150245.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150250.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "u108"
         },
         "official_downloads": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150250.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150245.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150238.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/Gazette/34.pdf",
+            "https://education.sikkim.gov.in/GeneralSection/NoticeBoardList.aspx"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "u108"
         }
       },
       "flags": [
         "entrance-exam — career_ladder and financial_package omitted per schema §5.4",
-        "unit u087"
+        "unit u108"
       ]
     },
     "arunachal-tet": {
@@ -23502,42 +23534,59 @@
       "batch_id": "batch-7-state-other--punjab",
       "detail_file": "public/exam-details/pspcl-junior-engineer.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Advt. No. CRA 303/24 & Financial Circular No. 21/2022",
+            "https://punjab.gov.in/recruitment/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Detailed Advt. No. CRA 303/24 (Section: Scheme of Examination & Selection Criteria)",
+            "https://punjab.gov.in/recruitment/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Advt. No. CRA 303/24 & Financial Circular No. 21/2022",
+            "https://punjab.gov.in/recruitment/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Advt. No. CRA 316/26 Notification for Junior Engineers",
+            "PSPCL Advt. No. CRA 303/24 Detailed Notification",
+            "PSPCL Advt. No. CRA 298/21 Notification & Result Summary",
+            "https://punjab.gov.in/recruitment/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://punjab.gov.in/recruitment/",
+            "https://billpayment.pspcl.in/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         }
       },
       "flags": []
@@ -23546,42 +23595,59 @@
       "batch_id": "batch-7-state-other--punjab",
       "detail_file": "public/exam-details/pspcl-assistant-lineman.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Advt. No. CRA 312/25 & Financial Circular No. 21/2022",
+            "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Detailed Advt. No. CRA 312/25 (Section 5.0 - Scheme of Examination)",
+            "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Advt. No. CRA 312/25 (Pay-Scale Clause) & Financial Circular No. 21/2022",
+            "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "PSPCL Advt. No. CRA 312/25 & Result Notification Dated 18.08.2025",
+            "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+            "PSPCL Advt. No. CRA 299/2022 Result & Selection Notice (Merit List dated 05.12.2022)"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+            "https://punjab.gov.in/recruitment/",
+            "https://billpayment.pspcl.in/"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u107"
         }
       },
       "flags": []

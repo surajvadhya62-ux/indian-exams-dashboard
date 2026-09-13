@@ -1,0 +1,190 @@
+{
+  "id": "pspcl-assistant-lineman",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Linemen (ALM) in Punjab State Power Corporation Limited (PSPCL) belong to the field technical operation cadre responsible for transmission, distribution, grid maintenance, and consumer service. The career progression path provides avenues for promotion to supervisory and engineering posts through departmental trade examinations, seniority-cum-merit, and qualification acquisition.",
+    "steps": [
+      {
+        "designation": "Assistant Lineman (ALM)",
+        "pay_level": "PSPCL Board Pay Scale / Level 2 (₹19,900 - ₹63,200, Entry Basic: ₹19,900)",
+        "confidence": "verified",
+        "as_of": "2025-02-21",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Advt. No. CRA 312/25 & Financial Circular No. 21/2022"
+      },
+      {
+        "designation": "Lineman (LM) / Sub-Station Attendant (SSA)",
+        "pay_level": "PSPCL Board Pay Scale / Level 4 (₹25,500 - ₹81,100, Entry Basic: ₹25,500)",
+        "confidence": "verified",
+        "as_of": "2025-02-21",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Field Technical Cadre Promotion Regulations"
+      },
+      {
+        "designation": "Junior Engineer (JE / Electrical) / Sub-Station Officer (SSO)",
+        "pay_level": "PSPCL Board Pay Scale / Level 6 (₹35,400 - ₹1,12,400, Entry Basic: ₹35,400)",
+        "confidence": "verified",
+        "as_of": "2025-02-21",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Junior Engineer Service Regulations (Departmental Quota)"
+      },
+      {
+        "designation": "Additional Assistant Engineer (AAE) / Assistant Engineer (AE / SDO)",
+        "pay_level": "PSPCL Board Pay Scale / Level 9 (₹47,600 - ₹1,51,100) to Level 10 (₹56,100 - ₹1,77,500)",
+        "confidence": "verified",
+        "as_of": "2025-02-21",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Engineering Service Regulations"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE) / Executive Engineer (XEN)",
+        "pay_level": "PSPCL Board Pay Scale / Level 11 (₹67,700 - ₹2,08,700)",
+        "confidence": "verified",
+        "as_of": "2025-02-21",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Class-I Service Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for the post of Assistant Lineman (ALM) in PSPCL is conducted via a Computer Based Online Test (CBT) consisting of two parts administered in a single 3-hour session (180 minutes). Part-I is a mandatory qualifying test of Punjabi Language (Matriculation standard) per Punjab Government Notification dated 28.10.2022. Part-II is the competitive merit test comprising 100 objective multiple-choice questions. All questions carry 1 mark each and there is NO negative marking.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Online Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-21",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Detailed Advt. No. CRA 312/25 (Section 5.0 - Scheme of Examination)",
+        "papers": [
+          {
+            "paper_name": "Part-I: Qualifying Test of Punjabi Language",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (0 marks deducted for incorrect answers)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying test comprising 50 objective MCQs. Candidates must secure a minimum of 50% marks (25 marks out of 50) to qualify. Failure to score 25 marks in Part-I disqualifies the candidate from selection irrespective of marks scored in Part-II. Marks of Part-I do not count towards final merit."
+          },
+          {
+            "paper_name": "Part-II: Core Technical & Aptitude Competitive Paper",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (0 marks deducted for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Comprises 100 objective MCQs: Technical Lineman Trade discipline questions (50 Qs), Punjabi Language Knowledge (20 Qs), General Knowledge (10 Qs), Reasoning (10 Qs), and Arithmetic (10 Qs). Minimum qualifying marks: 25% (25 marks) for General category and 20% (20 marks) for Reserved categories (SC/BC/EWS/Ex-SM/FF/Sports/PwD). Final selection merit is drawn purely on normalized scores of Part-II."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "The pay scale of Assistant Lineman is regulated by PSPCL Financial Circular No. 21/2022 dated 17.08.2022, following the Punjab State Power Corporation Limited wage revision aligned with the 7th CPC / Punjab Pay Commission structure. The post corresponds to Level 2 (₹19,900 - ₹63,200) with an entry basic pay of ₹19,900. In accordance with Punjab Government Finance Department instructions (Letter No. 7/42/2020-5FP1/741-746 dated 17.07.2020), newly recruited employees serve a probation period of 3 years during which only the fixed 'minimum admissible pay' of ₹19,900 per month is payable without DA, Grade Pay, annual increments, or allowances (except TA and medical reimbursement). Upon successful completion of probation, regular allowances including DA, HRA, and annual increments are restored.",
+    "pay_level": "PSPCL Board Pay Scale / Level 2 (₹19,900 - ₹63,200)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-02-21",
+    "pay_source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+    "pay_source_label": "PSPCL Advt. No. CRA 312/25 (Pay-Scale Clause) & Financial Circular No. 21/2022",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 34000,
+      "max": 37000
+    },
+    "in_hand_range_estimate": {
+      "min": 29500,
+      "max": 33000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Regular post-probation gross salary calculated from Level 2 minimum basic pay ₹19,900 + 58% Dearness Allowance (₹11,542) + House Rent Allowance (8% to 16% depending on city classification: ₹1,592 to ₹3,184) + medical allowance and technical allowances. In-hand estimate accounts for statutory deductions including 10% NPS/CPF contribution (Basic + DA = ₹3,144) and Punjab State Professional Tax (₹200). During the initial 3-year probation period, the employee draws a fixed gross and in-hand sum of approximately ₹18,000 - ₹19,900 per month.",
+    "official_perks": [
+      "Subsidized and concessional domestic electricity units entitlement per PSPCL employee electricity concession rules",
+      "Comprehensive medical facilities and medical expense reimbursement for employee and recognized dependents",
+      "Contributory Provident Fund (CPF) / National Pension System (NPS) and statutory Death-cum-Retirement Gratuity",
+      "Uniform allowance, safety gear entitlement, and field risk/hazard coverage for electrical transmission/distribution operations",
+      "Leave Travel Concession (LTC) and festival advance as per PSPCL board rules",
+      "Departmental residential accommodation in PSPCL thermal colonies, hydel power stations, and divisional quarters subject to availability"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition data compiled from official notifications, recruitment advertisements, and result merit lists published by PSPCL for Assistant Lineman recruitment drives across Punjab.",
+    "years": [
+      {
+        "year": 2025,
+        "confidence": "verified",
+        "as_of": "2025-08-18",
+        "source_url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "source_label": "PSPCL Advt. No. CRA 312/25 & Result Notification Dated 18.08.2025",
+        "vacancies": 3000,
+        "cutoff_marks": {
+          "general_ur": 73.5,
+          "bc": 70.75,
+          "ews": 68.5,
+          "sc_others": 67,
+          "sc_mazhabi_balmiki": 61.25,
+          "ex_servicemen_gen": 47.5,
+          "sports_gen": 57.5,
+          "pwbd": 51.75
+        },
+        "notes": "Initially advertised for 2,500 posts under CRA 312/25; vacancies enhanced to 3,000 vide Corrigendum No. 01 dated 20.02.2025. CBT was conducted on 24.06.2025 and merit lists published on 18.08.2025."
+      },
+      {
+        "year": 2022,
+        "confidence": "reported",
+        "as_of": "2022-12-05",
+        "source_url": "https://punjab.gov.in/recruitment/",
+        "source_label": "PSPCL Advt. No. CRA 299/2022 Result & Selection Notice (Merit List dated 05.12.2022)",
+        "vacancies": 1690,
+        "cutoff_marks": {
+          "general_ur": 78,
+          "bc": 74.75,
+          "ews": 72.5,
+          "sc_others": 71.25,
+          "sc_mazhabi_balmiki": 64.5,
+          "ex_servicemen_gen": 50.25,
+          "sports_gen": 60.25,
+          "pwbd": 55
+        },
+        "notes": "Recruitment drive under CRA 299/22 for 1,690 posts of Assistant Lineman. Selection was made on the basis of online written test followed by document verification."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination notices, and portals published by PSPCL and Government of Punjab.",
+    "links": [
+      {
+        "label": "PSPCL Assistant Lineman Detailed Recruitment Notification (CRA 312/25)",
+        "url": "https://dsw.punjab.gov.in/documents/85/recruitment_of_PSPCL_ASSISTANT_LINEMEN_.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2025-02-21"
+      },
+      {
+        "label": "Government of Punjab Official Recruitment & Notifications Portal",
+        "url": "https://punjab.gov.in/recruitment/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "PSPCL Official Online Web Services & Consumer Portal",
+        "url": "https://billpayment.pspcl.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
