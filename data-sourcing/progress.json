@@ -3,9 +3,9 @@
   "last_updated": "2026-09-13",
   "totals": {
     "exams": 504,
-    "verified": 279,
+    "verified": 281,
     "partial": 0,
-    "not_started": 225,
+    "not_started": 223,
     "exams_total": 504,
     "detail_files_exist": 344,
     "total_exams": 504,
@@ -1029,6 +1029,43 @@
         "mizoram-tet"
       ],
       "notes": "Completed Unit 103 (u103): Mizoram Teacher Eligibility Test (mizoram-tet) conducted by the Mizoram Board of School Education (MBSE). Comprehensive audit of 2-paper statutory scheme under RTE Act & NCTE norms, multi-year competition benchmarks (2023, 2024, 2025 result gazettes), and primary official downloads; all 13 URLs curl-verified live (HTTP 200); validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u105",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--odisha"
+      ],
+      "exam_ids_touched": [
+        "otet",
+        "ojee"
+      ],
+      "notes": "Completed Unit 105 (u105): 2 Odisha state examinations across Board of Secondary Education (BSE) Odisha (Odisha Teacher Eligibility Test / OTET) and Odisha Joint Entrance Examination Committee (OJEE). Thoroughly audited from primary statutory notifications, BSE Odisha syllabus structure & qualifying standards, and official OJEE Information Brochure & counseling regulations; both dossiers validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u106",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--puducherry"
+      ],
+      "exam_ids_touched": [
+        "puducherry-udc"
+      ],
+      "notes": "Completed Unit 106 (u106): DP&AR Puducherry Upper Division Clerk & Junior Assistant Exam (puducherry-udc). Comprehensive audit of 7th CPC central pay matrix scales (Level 4 entry basic ₹25,500) with canonical 58% DA constant, single-stage objective OMR competitive exam scheme, 3 recruitment cycles benchmark data (2023, 2015, 2012), and statutory recruitment rules (G.O. Ms. No. 7/2011-DAR, G.O. Ms. No. 42/2012, G.O. Ms. No. 9/2019) from DP&AR Puducherry; validated with zero errors."
+    },
+    {
+      "session_id": "2026-09-13-u101",
+      "date": "2026-09-13",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-7-state-other--manipur"
+      ],
+      "exam_ids_touched": [
+        "manipur-tet"
+      ],
+      "notes": "Completed Unit 101 (u101): Manipur Teacher Eligibility Test (manipur-tet) under Directorate of Education (Schools), Government of Manipur and BOSEM. Comprehensive audit of 2-paper examination scheme (Paper-I Classes I-V & Paper-II Classes VI-VIII, 150 MCQs / 150 marks each, no negative marking, 60% Gen / 50% reserved qualifying cutoffs), 1,000 linked primary teacher posts and empirical scrutiny benchmarks, and official notifications/syllabi from manipureducation.gov.in; validated with zero errors."
     }
   ],
   "exams": {
@@ -7045,48 +7082,49 @@
         "career_ladder": {
           "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": "Entrance exam; no recruitment career ladder or appointment cadre.",
+          "unavailable_reason": "Undergraduate and postgraduate professional admission entrance examination; no recruitment career ladder or appointment cadre (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u092"
+          "updated_by": "2026-09-13-u105"
         },
         "exam_scheme": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "see detail file"
+            "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u092"
+          "updated_by": "2026-09-13-u105"
         },
         "financial_package": {
           "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": "Entrance exam; no salary or recruitment pay package.",
+          "unavailable_reason": "Undergraduate and postgraduate professional admission entrance examination; no salary or recruitment pay package (omitted per schema §5.4)",
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u092"
+          "updated_by": "2026-09-13-u105"
         },
         "competition_benchmarks": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "see detail file"
+            "https://ojee.nic.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u092"
+          "updated_by": "2026-09-13-u105"
         },
         "official_downloads": {
-          "status": "available",
+          "status": "populated",
           "citations": [
-            "see detail file"
+            "https://cdnbbsr.s3waas.gov.in/s36832a7b24bc06775d02b7406880b93fc/uploads/2026/01/202601281538483605.pdf",
+            "https://ojee.nic.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u092"
+          "updated_by": "2026-09-13-u105"
         }
       },
       "flags": [
         "entrance-exam — career_ladder and financial_package omitted per schema §5.4",
-        "unit u092"
+        "unit u105"
       ]
     },
     "ap-icet": {
@@ -17774,37 +17812,53 @@
       "detail_file_exists": true,
       "overall_status": "verified",
       "sections": {
+        "career_ladder": {
+          "status": "not_applicable",
+          "citations": [],
+          "unavailable_reason": "Statutory teacher eligibility entrance test; no recruitment career ladder or appointment cadre (omitted per schema §5.4)",
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u105"
+        },
         "exam_scheme": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "https://cdn.bseodisha.ac.in/images12/SYLLABUS-STRUCTURE-FOR-OTET-2024.pdf"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u105"
+        },
+        "financial_package": {
+          "status": "not_applicable",
+          "citations": [],
+          "unavailable_reason": "Statutory teacher eligibility entrance test; no salary or recruitment pay package (omitted per schema §5.4)",
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u105"
         },
         "competition_benchmarks": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "http://bseodisha.ac.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u105"
         },
         "official_downloads": {
           "status": "populated",
           "citations": [
-            "see detail file"
+            "https://cdn.bseodisha.ac.in/images12/SYLLABUS-STRUCTURE-FOR-OTET-2024.pdf",
+            "https://cdn.bseodisha.ac.in/images12/ELIGIBILITY-APPLICABILITY.pdf",
+            "http://bseodisha.ac.in"
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "u087"
+          "updated_by": "2026-09-13-u105"
         }
       },
       "flags": [
         "entrance-exam — career_ladder and financial_package omitted per schema §5.4",
-        "unit u087"
+        "unit u105"
       ]
     },
     "pstet": {
@@ -18428,7 +18482,7 @@
           "citations": [],
           "unavailable_reason": "Teacher eligibility entrance exam",
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u064"
+          "updated_by": "2026-09-13-u101"
         },
         "exam_scheme": {
           "status": "populated",
@@ -18437,14 +18491,14 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u064"
+          "updated_by": "2026-09-13-u101"
         },
         "financial_package": {
           "status": "not_applicable",
           "citations": [],
           "unavailable_reason": "Teacher eligibility entrance exam",
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u064"
+          "updated_by": "2026-09-13-u101"
         },
         "competition_benchmarks": {
           "status": "populated",
@@ -18453,7 +18507,7 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u064"
+          "updated_by": "2026-09-13-u101"
         },
         "official_downloads": {
           "status": "populated",
@@ -18462,7 +18516,7 @@
           ],
           "unavailable_reason": null,
           "last_updated": "2026-09-13",
-          "updated_by": "2026-09-13-u064"
+          "updated_by": "2026-09-13-u101"
         }
       },
       "flags": []
@@ -19556,42 +19610,52 @@
       "batch_id": "batch-7-state-other--puducherry",
       "detail_file": "public/exam-details/puducherry-udc.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u106"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u106"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u106"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u106"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-13",
+          "updated_by": "2026-09-13-u106"
         }
       },
       "flags": []

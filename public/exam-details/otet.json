@@ -1,0 +1,193 @@
+{
+  "id": "otet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Odisha Teacher Eligibility Test (OTET) is conducted by the Board of Secondary Education (BSE), Odisha, Cuttack, adhering to NCTE guidelines for determining statutory eligibility for appointment as teachers in elementary schools (Classes I to VIII) across Odisha. The examination comprises two distinct papers: Paper-I for Primary Teachers (Classes I to V) and Paper-II for Upper Primary Teachers (Classes VI to VIII). Each paper consists of 150 multiple choice questions carrying 150 marks for a duration of 2.5 hours (150 minutes). All questions in non-language areas are bilingual in Odia and English. There is no negative marking.",
+    "stages": [
+      {
+        "stage_name": "Paper-I: Primary Teacher Eligibility (Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cdn.bseodisha.ac.in/images12/SYLLABUS-STRUCTURE-FOR-OTET-2024.pdf",
+        "source_label": "BSE Odisha OTET Syllabus Structure & Guidelines Document (Paper-I)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for General / Unreserved (90/150 marks overall), 50% for SC/ST/SEBC/OBC/PwD (75/150 marks overall)"
+          },
+          {
+            "paper_name": "Language-I (Odia / Urdu / Hindi / Telugu / Bengali - 20 Content + 10 Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language-II: English (20 Content + 10 Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (20 Content + 10 Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies (20 Content + 10 Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper-II: Upper Primary Teacher Eligibility (Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cdn.bseodisha.ac.in/images12/SYLLABUS-STRUCTURE-FOR-OTET-2024.pdf",
+        "source_label": "BSE Odisha OTET Syllabus Structure & Guidelines Document (Paper-II)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for General / Unreserved (90/150 marks overall), 50% for SC/ST/SEBC/OBC/PwD (75/150 marks overall)"
+          },
+          {
+            "paper_name": "Language-I: Odia / Urdu / Hindi / Telugu / Bengali (Compulsory - 20 Content + 10 Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language-II: English (Compulsory - 20 Content + 10 Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Discipline Subject Option: Mathematics & Science (30 Math + 30 Science) OR Social Studies (30 History/Pol. Sc. + 30 Geography)",
+            "marks": 60,
+            "duration_minutes": 60,
+            "negative_marking": "None (no negative evaluation for incorrect answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate registration, test appearance, and qualification statistics compiled from Board of Secondary Education (BSE) Odisha announcements and press communications.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 97151,
+        "vacancies": null,
+        "shortlisted_for_mains": 53314,
+        "selectivity_ratio": "64.48% pass rate (53,314 qualified out of 84,731 appearing candidates across Papers I & II; Paper I: 17,065 qualified [68.28%], Paper II: 36,249 qualified [60.68%])",
+        "confidence": "reported",
+        "as_of": "2026-09-02",
+        "source_url": "http://bseodisha.ac.in",
+        "source_label": "BSE Odisha Official Press Announcement for OTET-2026 Results (97,151 registered, 84,731 appeared, 53,314 qualified)"
+      },
+      {
+        "year": 2025,
+        "applicants": 160420,
+        "vacancies": null,
+        "shortlisted_for_mains": 103450,
+        "selectivity_ratio": "68.97% pass rate (approx. 1.03 lakh qualified out of ~1.5 lakh appearing candidates across Paper I and Paper II)",
+        "confidence": "reported",
+        "as_of": "2026-02-12",
+        "source_url": "http://bseodisha.ac.in",
+        "source_label": "BSE Odisha Official Results Announcement for OTET-2025 Cycle (1,60,420 registered across Papers I & II; 68.97% pass rate)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official syllabus structures, examination guidelines, application instructions, and result portals hosted on the Board of Secondary Education (BSE) Odisha domains.",
+    "links": [
+      {
+        "label": "BSE Odisha OTET Syllabus & Structure Framework PDF",
+        "url": "https://cdn.bseodisha.ac.in/images12/SYLLABUS-STRUCTURE-FOR-OTET-2024.pdf",
+        "type": "syllabus",
+        "cycle_label": "OTET Framework",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BSE Odisha OTET Eligibility & Applicability Guidelines PDF",
+        "url": "https://cdn.bseodisha.ac.in/images12/ELIGIBILITY-APPLICABILITY.pdf",
+        "type": "notification",
+        "cycle_label": "Eligibility Norms",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BSE Odisha OTET Online Application Step-by-Step Instructions PDF",
+        "url": "https://cdn.bseodisha.ac.in/images12/STEP-BY-STEP-INSTRUCTION-FOR-FILLING-UP-ONLINE-APPLICATION.pdf",
+        "type": "other",
+        "cycle_label": "Candidate Guide",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BSE Odisha OTET Instructions for Physically Handicapped Candidates PDF",
+        "url": "https://cdn.bseodisha.ac.in/images12/INSTRUCTION-FOR-P.H-CANDIDATES.pdf",
+        "type": "other",
+        "cycle_label": "PwD Norms",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Board of Secondary Education (BSE) Odisha Main Portal",
+        "url": "http://bseodisha.ac.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BSE Odisha OTET Digital Certificate Portal",
+        "url": "https://onlineapp.bseodisha.ac.in/OTET_CertificateView_2025/login.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BSE Odisha Official Results Server (IndiaResults)",
+        "url": "https://results.indiaresults.com/or/bse-orissa/otet-exam-result-2025/query.htm",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}
