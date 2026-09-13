@@ -1,0 +1,236 @@
+{
+  "id": "ap-slprb-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Police Constables in Andhra Pradesh serve as frontline law enforcement personnel under the Andhra Pradesh Police (Stipendiary Cadet Trainee) Rules (G.O.Ms.No.315 Home Dept dated 13.10.1999) and the Andhra Pradesh Police Subordinate Service Rules (G.O.Ms.No.126 Home Dept). Personnel are deployed across Civil Police stations, Special Branch, Armed Reserve (AR), and Andhra Pradesh Special Police (APSP) battalions. Promotion through the subordinate non-gazetted ranks to Head Constable, ASI, and Sub-Inspector is governed by departmental qualifying tests, service seniority, and unblemished record (Annual Confidential Reports).",
+    "steps": [
+      {
+        "designation": "Stipendiary Cadet Trainee (SCT) Police Constable (Civil / APSP)",
+        "pay_level": "AP RPS 2022 Scale (₹25,220 - ₹80,910)",
+        "years": "Entry (approx. 0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2022-11-28",
+        "source_url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_PC_Notification.pdf",
+        "source_label": "SLPRB AP Notification Rc.No.161/SLPRB/Rect.2/2022, Para 30 & Andhra Pradesh Revised Pay Scales 2022"
+      },
+      {
+        "designation": "Head Constable (HC) / Havildar (APSP)",
+        "pay_level": "AP RPS 2022 Scale (₹31,040 - ₹92,050)",
+        "years": "approx. 5-12 yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://slprb.ap.gov.in",
+        "source_label": "Andhra Pradesh Police Subordinate Service Rules (Rule 3) & G.O.Ms.No.1 Finance (PC-TA) Dept dt 17.01.2022"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI) / Assistant Reserve Sub-Inspector (ARSI)",
+        "pay_level": "AP RPS 2022 Scale (₹35,570 - ₹1,09,910)",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://slprb.ap.gov.in",
+        "source_label": "Andhra Pradesh Police Subordinate Service Rules (Promotion Category) & AP Revised Pay Scales 2022"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI / Station House Officer) / Reserve Sub-Inspector (RSI)",
+        "pay_level": "AP RPS 2022 Scale (₹44,570 - ₹1,27,480)",
+        "years": "approx. 20-28 yrs",
+        "confidence": "verified",
+        "as_of": "2022-11-28",
+        "source_url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_SI_%20Notification.pdf",
+        "source_label": "SLPRB AP Notification Rc.No.163/SLPRB/Rect.1/2022, Para 30 & AP Police Subordinate Service Rules"
+      },
+      {
+        "designation": "Inspector of Police (Circle Inspector - CI) / Reserve Inspector (RI)",
+        "pay_level": "AP RPS 2022 Scale (₹54,060 - ₹1,40,540)",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://slprb.ap.gov.in",
+        "source_label": "Andhra Pradesh Police Subordinate Service Rules & AP Revised Pay Scales 2022 (Master Scale)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "The selection scheme conducted by the State Level Police Recruitment Board Andhra Pradesh (SLPRB AP) comprises three successive stages: (1) Preliminary Written Test (PWT) of 200 objective questions for screening, (2) Physical Measurements Test (PMT) and Physical Efficiency Test (PET), and (3) Final Written Examination (FWE). For Post Code 21 (Civil PC), final selection is based solely on 200 marks in FWE with PET being qualifying. For Post Code 23 (APSP PC), final selection combines 100 marks from FWE and 100 marks from PET (total 200 marks).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Written Test (Objective Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-11-28",
+        "source_url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_PC_Notification.pdf",
+        "source_label": "SLPRB AP Notification Rc.No.161/SLPRB/Rect.2/2022, Para 20(A) & Annexure II",
+        "papers": [
+          {
+            "paper_name": "Preliminary Written Examination (Intermediate Standard: English, Arithmetic, Reasoning, General Science, History, Geography/Polity/Economy, Current Events)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% for OC/EWS (80/200), 35% for BC (70/200), 30% for SC/ST/Ex-Servicemen (60/200)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Measurements Test (PMT) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-11-28",
+        "source_url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_PC_Notification.pdf",
+        "source_label": "SLPRB AP Notification Rc.No.161/SLPRB/Rect.2/2022, Para 20(B), 20(C) & Annexure I",
+        "papers": [
+          {
+            "paper_name": "Physical Measurements Test (PMT: Men Height min 167.6 cm, Chest 86.3 cm with 5 cm expansion; Women Height min 152.5 cm, Weight min 40 kg)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard prescribed in notification (relaxed for Agency Scheduled Tribes: Men 160 cm, Women 150 cm)"
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET: 1600m Run + 100m Run / Long Jump for Civil PC [Qualifying]; All 3 events graded for APSP PC [Max 100 Marks: 1600m 40 marks, 100m 30 marks, Long Jump 30 marks])",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying for Civil PC (Post Code 21); Scored out of 100 marks for APSP PC (Post Code 23) and counted towards final merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Final Written Examination (FWE)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2022-11-28",
+        "source_url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_PC_Notification.pdf",
+        "source_label": "SLPRB AP Notification Rc.No.161/SLPRB/Rect.2/2022, Para 20(D), 20(E) & Annexure II",
+        "papers": [
+          {
+            "paper_name": "Final Written Examination (200 Objective Questions: English, Arithmetic, Reasoning, General Science, History of India, Geography/Polity/Economy, Current Events)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying: 40% for OC/EWS, 35% for BC, 30% for SC/ST/Ex-Servicemen. Graded out of 200 marks for Civil PC; Graded out of 100 marks for APSP PC"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Constables recruited by SLPRB AP are state-jurisdiction personnel remunerated under the Andhra Pradesh Revised Pay Scales 2022 (AP RPS 2022 / 11th PRC), notified vide G.O.Ms.No.1, Finance (PC-TA) Department, dated 17.01.2022. Direct recruit cadets undergo institutional training during which they receive a monthly stipend as fixed by the State Government. Upon successful completion of training, recruits are appointed into the regular time scale of pay ₹25,220 – ₹80,910 with an entry basic pay of ₹25,220.",
+    "pay_level": "AP RPS 2022 Scale (₹25,220 - ₹80,910)",
+    "entry_basic_pay": 25220,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-11-28",
+    "pay_source_url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_PC_Notification.pdf",
+    "pay_source_label": "SLPRB AP Notification Rc.No.161/SLPRB/Rect.2/2022, Para 30 read with AP RPS 2022 G.O.Ms.No.1 Finance Dept",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 42000,
+      "max": 48000
+    },
+    "in_hand_range_estimate": {
+      "min": 37000,
+      "max": 43000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on AP RPS 2022 entry basic pay of ₹25,220 with standardized project benchmark 58% Dearness Allowance (₹14,628) and HRA ranging from 8% in rural mandal/town stations (₹2,018) to 16% in major urban centers such as Vijayawada and Visakhapatnam (₹4,035), plus monthly police uniform maintenance/washing allowance and special duty/risk allowance. In-hand estimate deducts 10% Contributory Pension Scheme (CPS/APGPS: ₹3,985), APGLI life insurance (~₹500), GIS (~₹60), and Professional Tax (₹200). Initial institutional training receives monthly stipend as determined by Government.",
+    "official_perks": [
+      "Government police residential quarters or House Rent Allowance (HRA: 8% to 16% as per AP PRC 2022 classification)",
+      "Andhra Pradesh Employees Health Scheme (EHS) cashless medical coverage for police personnel and eligible dependents",
+      "Police uniform grant, kit maintenance allowance, and monthly washing allowance",
+      "Special Duty Allowance / Risk Allowance for APSP battalion personnel and high-risk security deployments",
+      "Contributory Pension Scheme (CPS) / Andhra Pradesh Guaranteed Pension Scheme (APGPS)",
+      "Annual surrender leave / extra month's basic pay compensation in lieu of working on public holidays and weekly offs",
+      "Leave Travel Concession (LTC) within Andhra Pradesh as per state government rules"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official recruitment applicant and qualification statistics published directly by the State Level Police Recruitment Board Andhra Pradesh (SLPRB AP) across press releases and result notes for the 2022-2023 mass recruitment drive (Notification Rc.No.161/SLPRB/Rect.2/2022).",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 503487,
+        "vacancies": 6100,
+        "shortlisted_for_mains": 95208,
+        "selectivity_ratio": "approx. 1 in 83 (calculated: 5,03,487 registered applicants issued hall tickets ÷ 6,100 notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-02-05",
+        "source_url": "https://slprb.ap.gov.in/PDFS/Press%20Note%20on%20PCs%20PWT%20%20Result-%2005.02.2023.pdf",
+        "source_label": "SLPRB AP Press Note on SCT PC PWT Results dt 05.02.2023 & Press Note dt 22.01.2023: 6,100 vacancies (3,580 Civil + 2,520 APSP); 5,03,487 hall tickets issued; 4,59,182 appeared (3,63,432 male, 95,750 female; 91% attendance); 95,208 candidates qualified PWT for Stage-II PMT/PET"
+      },
+      {
+        "year": 2018,
+        "applicants": 394400,
+        "vacancies": 3137,
+        "shortlisted_for_mains": 109106,
+        "selectivity_ratio": "approx. 1 in 126 (calculated: ~3,94,400 registered applicants ÷ 3,137 notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2018-12-24",
+        "source_url": "https://slprb.ap.gov.in",
+        "source_label": "SLPRB AP Notification Rc.No.202/R&T/Rect.1/2018 dated 01.11.2018 & PWT Results Release: 3,137 vacancies advertised; 3,94,400 applied; 3,51,000 appeared; 1,09,106 candidates qualified for PMT/PET"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, amendments, press releases, and syllabus documents from the State Level Police Recruitment Board Andhra Pradesh (slprb.ap.gov.in). Links checked live via HTTP GET.",
+    "links": [
+      {
+        "label": "SCT Police Constables (Civil & APSP) 2022-2023 Recruitment Notification (Rc.No.161/SLPRB/Rect.2/2022)",
+        "url": "https://slprb.ap.gov.in/PDFS/SLPRB_AP_PC_Notification.pdf",
+        "type": "notification",
+        "cycle_label": "2022-2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2022-11-28"
+      },
+      {
+        "label": "Amendment to Constable Recruitment Notification (Age Relaxation / Guidelines)",
+        "url": "https://slprb.ap.gov.in/PDFS/Amendment.pdf",
+        "type": "other",
+        "cycle_label": "2022-2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2022-12-23"
+      },
+      {
+        "label": "Preliminary Written Test (PWT) Results and Category-wise Qualification Statistics Press Note",
+        "url": "https://slprb.ap.gov.in/PDFS/Press%20Note%20on%20PCs%20PWT%20%20Result-%2005.02.2023.pdf",
+        "type": "other",
+        "cycle_label": "2022-2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2023-02-05"
+      },
+      {
+        "label": "Preliminary Answer Key & Final Written Exam Schedule Press Note",
+        "url": "https://slprb.ap.gov.in/PDFS/PressNotedated_01062025.pdf",
+        "type": "other",
+        "cycle_label": "2022-2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2025-06-01"
+      },
+      {
+        "label": "SLPRB AP Official Recruitments Portal Hub",
+        "url": "https://slprb.ap.gov.in/UI/Recruitments",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "SLPRB AP Official Press Releases Hub",
+        "url": "https://slprb.ap.gov.in/UI/pressRelease",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
