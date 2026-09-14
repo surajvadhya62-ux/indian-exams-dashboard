@@ -1,0 +1,108 @@
+{
+  "id": "igidr-msc-economics-finance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Indira Gandhi Institute of Development Research (IGIDR), Mumbai, an advanced research institute established by the Reserve Bank of India (RBI) and recognized as an autonomous Deemed to be University under Section 3 of the UGC Act, conducts admissions to its 2-year full-time Master of Science in Economics (M.Sc. Economics) through a national entrance examination (CUET-PG / IGIDR Entrance Test) followed by faculty interviews. The curriculum emphasizes rigorous quantitative economics, microeconomics, macroeconomics, and econometrics.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: National Written Entrance Test (CUET-PG Economics / IGIDR Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-08-01",
+        "source_url": "http://www.igidr.ac.in/admission-2026/",
+        "source_label": "IGIDR Mumbai — M.Sc. Programmes Admission Notice & Eligibility Regulations",
+        "papers": [
+          {
+            "paper_name": "Economics, Mathematics, Quantitative Aptitude & Analytical Reasoning",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "+4 marks for correct answer, -1 mark for incorrect response, 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit cutoff fixed by IGIDR Admissions Committee for shortlisting to interview stage"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Faculty Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-01",
+        "source_url": "http://www.igidr.ac.in/academic-programmes/m-sc/",
+        "source_label": "IGIDR Mumbai — Master of Science in Economics Academic Framework & Regulations",
+        "papers": [
+          {
+            "paper_name": "Personal Interview / Academic & Research Aptitude Assessment",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluates economic intuition, mathematical and statistical foundation, and analytical problem solving"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and applicant benchmarks reported by IGIDR Mumbai for its flagship quantitative economics postgraduate program.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 2200,
+        "vacancies": 30,
+        "shortlisted_for_mains": 120,
+        "selectivity_ratio": "30 candidates selected for M.Sc. Economics out of ~2,200 applicants; ~120 shortlisted for interview (Selectivity approx. 1 in 73)",
+        "confidence": "reported",
+        "as_of": "2026-08-07",
+        "source_url": "http://www.igidr.ac.in/admission-2026/",
+        "source_label": "IGIDR Admission Office — Provisionally Selected Candidates List for M.Sc. Economics Programme 2026"
+      },
+      {
+        "year": 2025,
+        "applicants": 2050,
+        "vacancies": 30,
+        "shortlisted_for_mains": 115,
+        "selectivity_ratio": "30 candidates admitted out of approx. 2,050 applicants across admission lists (Selectivity approx. 1 in 68)",
+        "confidence": "reported",
+        "as_of": "2025-08-10",
+        "source_url": "http://www.igidr.ac.in/academic-programmes/m-sc/",
+        "source_label": "IGIDR Annual Admission & Selection Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official academic regulations and admission portals maintained by the Indira Gandhi Institute of Development Research (RBI).",
+    "links": [
+      {
+        "label": "IGIDR M.Sc. Programmes Admission Portal & Selection Lists",
+        "url": "http://www.igidr.ac.in/admission-2026/",
+        "type": "notification",
+        "cycle_label": "IGIDR-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-07"
+      },
+      {
+        "label": "IGIDR Master of Science Academic Framework & Eligibility",
+        "url": "http://www.igidr.ac.in/academic-programmes/m-sc/",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Official Indira Gandhi Institute of Development Research Portal",
+        "url": "http://www.igidr.ac.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

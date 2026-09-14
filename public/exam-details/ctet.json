@@ -1,0 +1,233 @@
+{
+  "id": "ctet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "CTET is the mandatory statutory eligibility examination conducted by CBSE under Section 23(1) of the RTE Act and NCTE guidelines for recruitment as teachers in Central Government schools (Kendriya Vidyalaya Sangathan - KVS, Navodaya Vidyalaya Samiti - NVS, Central Tibetan Schools, and schools under the administrative control of UTs including Delhi). Qualifying CTET enables direct recruitment to Primary Teacher (PRT, Level 6) and Trained Graduate Teacher (TGT, Level 7) cadres.",
+    "steps": [
+      {
+        "designation": "Primary Teacher (PRT) / Assistant Teacher (Primary)",
+        "pay_level": "Level 6",
+        "years": "Entry level (qualifying CTET Paper I, probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Trained Graduate Teacher (TGT)",
+        "pay_level": "Level 7",
+        "years": "approx. 5 yrs (or direct recruitment qualifying CTET Paper II)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Post Graduate Teacher (PGT)",
+        "pay_level": "Level 8",
+        "years": "approx. 8-12 yrs (via departmental promotion or recruitment)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Vice Principal",
+        "pay_level": "Level 10",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Principal",
+        "pay_level": "Level 12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "CTET comprises two objective pen-and-paper (OMR-based) multiple choice test papers of 2.5 hours (150 minutes) duration each. Paper I is for candidates intending to teach Classes I to V (Primary Stage), and Paper II is for candidates intending to teach Classes VI to VIII (Elementary Stage). Candidates intending to teach both levels appear for both papers. There is no negative marking. Qualifying standard is 60% (90/150 marks) for General and 55% (82.5/150 marks) for SC/ST/OBC/differently-abled candidates; certificates are valid for life.",
+    "stages": [
+      {
+        "stage_name": "Paper I: Primary Stage (Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-05-11",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+        "source_label": "CBSE — Information Bulletin for Central Teacher Eligibility Test (CTET) September 2026, Section 7 (Structure and Content)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Mathematics (compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Environmental Studies (compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Language I (compulsory, chosen from 20 languages)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Language II (compulsory, chosen from 20 languages)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper II: Elementary Stage (Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-05-11",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+        "source_label": "CBSE — Information Bulletin for Central Teacher Eligibility Test (CTET) September 2026, Section 7 (Structure and Content)",
+        "papers": [
+          {
+            "paper_name": "Child Development & Pedagogy (compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Mathematics & Science (60 MCQs for Maths/Science teachers) OR Social Studies/Social Science (60 MCQs for Social Studies teachers)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Language I (compulsory, chosen from 20 languages)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          },
+          {
+            "paper_name": "Language II (compulsory, chosen from 20 languages)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (1 mark per correct answer, 0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General category; 55% (82.5/150 marks) for reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation for Primary Teachers (PRT) recruited via CTET eligibility under Central Government autonomous school organizations (KVS, NVS, Central Tibetan Schools) and UT administrations under 7th CPC rules.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 72000 },
+    "in_hand_range_estimate": { "min": 54000, "max": 63000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 6 entry basic pay (₹35,400) with 58% Dearness Allowance across major regional posting categories (X/Y/Z tiers); in-hand factors in standard 10% NPS Tier-I contribution (basic + DA) and central welfare deductions.",
+    "official_perks": [
+      "Residential school quarters / House Rent Allowance (27%/18%/9% by city classification)",
+      "Transport allowance with applicable Dearness Allowance",
+      "Medical facilities and reimbursement under Central Government Health Scheme (CGHS) / KVS Medical Scheme",
+      "Children Education Allowance (CEA) and hostel subsidy provisions",
+      "Defined contribution pension benefits under the National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration, appearance, and qualifying figures officially reported by CBSE for CTET across examination cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 2804260,
+        "vacancies": null,
+        "shortlisted_for_mains": 366279,
+        "selectivity_ratio": "3,66,279 candidates qualified out of 23,15,482 appeared across Paper I and Paper II in CTET July 2024 (approx. 15.82% overall qualification rate)",
+        "confidence": "verified",
+        "as_of": "2024-07-31",
+        "source_url": "https://ctet.nic.in",
+        "source_label": "CBSE Press Release: Declaration of Results of 19th Edition of Central Teacher Eligibility Test (CTET)"
+      },
+      {
+        "year": 2023,
+        "applicants": 2903428,
+        "vacancies": null,
+        "shortlisted_for_mains": 399815,
+        "selectivity_ratio": "3,99,815 candidates qualified out of ~23.7 lakh appeared (August 2023 edition)",
+        "confidence": "reported",
+        "as_of": "2023-09-25",
+        "source_url": "https://ctet.nic.in",
+        "source_label": "CBSE Press Release: CTET August 2023 Result Declaration Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletins and portals maintained by CBSE for the Central Teacher Eligibility Test.",
+    "links": [
+      {
+        "label": "CTET Information Bulletin (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2026/05/202605111250310617.pdf",
+        "type": "notification",
+        "cycle_label": "CTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-11"
+      },
+      {
+        "label": "Official Central Teacher Eligibility Test (CTET) Portal",
+        "url": "https://ctet.nic.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

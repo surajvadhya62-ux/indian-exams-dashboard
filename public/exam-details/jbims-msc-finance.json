@@ -1,0 +1,148 @@
+{
+  "id": "jbims-msc-finance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Jamnalal Bajaj Institute of Management Studies (JBIMS), University of Mumbai, conducts admissions to its 2-year full-time Master of Science in Finance (M.Sc. Finance / M.Fin.) program through a two-stage evaluation process comprising Application Rating based on CAT / MH-CET scores and an In-Person Assessment (IPA). The program was founded on the recommendation of former Prime Minister Dr. Manmohan Singh and modeled on the London School of Economics curriculum, with total sanctioned intake of 40 seats.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Application Rating (AR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-15",
+        "source_url": "https://jbims.edu/courses-details/master-of-science-in-finance",
+        "source_label": "JBIMS Mumbai — Master of Science in Finance Official Course & Admission Framework",
+        "papers": [
+          {
+            "paper_name": "National Written Entrance Test (CAT or MAH-CET Score Component)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "As per respective conducting body (CAT / State CET Cell)",
+            "qualifying_only": false,
+            "qualifying_threshold": "High percentile cutoff (typically 95+ percentile in CAT / MAH-CET)"
+          },
+          {
+            "paper_name": "Past Academic Record (Class 10th, Class 12th, and Bachelor's Degree)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks in Bachelor's degree (45% for reserved categories) with Mathematics at 10+2 level or higher"
+          },
+          {
+            "paper_name": "Extra-curricular Activities and Relevant Work Experience",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Gender and Academic Diversity Factor",
+            "marks": 5,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: In-Person Assessment (IPA)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-15",
+        "source_url": "https://jbims.edu/courses-details/master-of-science-in-finance",
+        "source_label": "JBIMS Mumbai — Master of Science in Finance Official Course & Admission Framework",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (PI)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Group Activity (GA)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Written Aptitude Test (WAT)",
+            "marks": 20,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum composite Total Score (0.62 AR + 0.14 IPA) threshold of 50 for General and 45 for Reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and applicant benchmarks reported by JBIMS Mumbai for the M.Sc. Finance program across admission cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 2600,
+        "vacancies": 40,
+        "shortlisted_for_mains": 280,
+        "selectivity_ratio": "40 candidates admitted out of approx. 2,600 applicants; ~280 shortlisted for In-Person Assessment (Selectivity approx. 1 in 65)",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://jbims.edu/courses-details/master-of-science-in-finance",
+        "source_label": "JBIMS Admissions Office M.Sc Finance Intake & Shortlisting Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 2450,
+        "vacancies": 40,
+        "shortlisted_for_mains": 260,
+        "selectivity_ratio": "40 candidates admitted out of approx. 2,450 applicants (Selectivity approx. 1 in 61)",
+        "confidence": "reported",
+        "as_of": "2023-06-30",
+        "source_url": "https://jbims.edu/courses-details/master-of-science-in-finance",
+        "source_label": "JBIMS Admissions Office M.Sc Finance Intake Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official course frameworks and admission portals maintained by Jamnalal Bajaj Institute of Management Studies, University of Mumbai.",
+    "links": [
+      {
+        "label": "JBIMS M.Sc. Finance Course Information & Admission Framework",
+        "url": "https://jbims.edu/courses-details/master-of-science-in-finance",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JBIMS Admissions Portal",
+        "url": "https://jbims.edu/admissions",
+        "type": "notification",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Official JBIMS Mumbai Portal",
+        "url": "https://jbims.edu",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

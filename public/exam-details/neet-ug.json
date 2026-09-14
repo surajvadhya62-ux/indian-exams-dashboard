@@ -1,0 +1,117 @@
+{
+  "id": "neet-ug",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "NEET (UG) is conducted by the National Testing Agency (NTA) on behalf of the National Medical Commission (NMC) as a single nationwide pen-and-paper (OMR-based) entrance examination for admission to undergraduate medical programs (MBBS, BDS, BAMS, BUMS, BSMS, BHMS, and B.Sc. Nursing) in all medical institutions across India including AIIMS and JIPMER. The examination is conducted in 13 languages (English, Hindi, and 11 regional languages).",
+    "stages": [
+      {
+        "stage_name": "NEET (UG) Pen and Paper (OMR-based) Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "source_label": "NTA & NMC — Information Bulletin for NEET (UG) 2026, Chapter 4 (Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Physics",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "+4 marks for correct answer, -1 mark for incorrect option, 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50th percentile for UR/EWS, 40th percentile for SC/ST/OBC, 45th percentile for UR-PwD across aggregate total score"
+          },
+          {
+            "paper_name": "Chemistry",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "+4 marks for correct answer, -1 mark for incorrect option, 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50th percentile for UR/EWS, 40th percentile for SC/ST/OBC, 45th percentile for UR-PwD across aggregate total score"
+          },
+          {
+            "paper_name": "Biology (Botany & Zoology)",
+            "marks": 360,
+            "duration_minutes": 180,
+            "negative_marking": "+4 marks for correct answer, -1 mark for incorrect option, 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50th percentile for UR/EWS, 40th percentile for SC/ST/OBC, 45th percentile for UR-PwD across aggregate total score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual registration, appearance, and qualification statistics declared officially by the National Testing Agency for NEET (UG).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 2406079,
+        "vacancies": null,
+        "shortlisted_for_mains": 1316268,
+        "selectivity_ratio": "13,16,268 candidates qualified out of 23,33,297 candidates appeared (approx. 56.41% qualifying rate for all-India and state counselling)",
+        "confidence": "verified",
+        "as_of": "2024-06-04",
+        "source_url": "https://neet.nta.nic.in",
+        "source_label": "NTA Press Release: Declaration of Results of National Eligibility cum Entrance Test (UG) 2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 2087462,
+        "vacancies": null,
+        "shortlisted_for_mains": 1145976,
+        "selectivity_ratio": "11,45,976 candidates qualified out of 20,38,596 appeared",
+        "confidence": "reported",
+        "as_of": "2023-06-13",
+        "source_url": "https://neet.nta.nic.in",
+        "source_label": "NTA Press Release: Declaration of Results for National Eligibility cum Entrance Test (UG) 2023"
+      },
+      {
+        "year": 2022,
+        "applicants": 1872343,
+        "vacancies": null,
+        "shortlisted_for_mains": 993069,
+        "selectivity_ratio": "9,93,069 candidates qualified out of 17,64,571 appeared",
+        "confidence": "reported",
+        "as_of": "2022-09-07",
+        "source_url": "https://neet.nta.nic.in",
+        "source_label": "NTA Press Note: Results of NEET (UG) 2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, syllabus, and portals maintained by the National Testing Agency and National Medical Commission for NEET (UG).",
+    "links": [
+      {
+        "label": "NEET (UG) 2026 Information Bulletin (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/02/202602231394640855.pdf",
+        "type": "notification",
+        "cycle_label": "NEET-UG-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-23"
+      },
+      {
+        "label": "NEET (UG) Syllabus Notified by NMC (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s37bc1ec1d9c3426357e69acd5bf320061/uploads/2026/01/20260102588210790.pdf",
+        "type": "syllabus",
+        "cycle_label": "NEET-UG-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-02"
+      },
+      {
+        "label": "Official NEET (UG) Examination Portal",
+        "url": "https://neet.nta.nic.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

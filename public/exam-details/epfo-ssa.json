@@ -1,0 +1,198 @@
+{
+  "id": "epfo-ssa",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Social Security Assistants (SSA) serve in the regional, sub-regional, and field offices of the Employees' Provident Fund Organisation (EPFO), a premier statutory social security organization under the Ministry of Labour and Employment, Government of India. SSAs handle claim settlements, establishment compliance tracking, member accounts, and digital passbook administration under the EPF & MP Act, 1952.",
+    "steps": [
+      {
+        "designation": "Social Security Assistant (SSA)",
+        "pay_level": "Level 5",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Senior Social Security Assistant (Sr. SSA)",
+        "pay_level": "Level 6",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Section Supervisor (SS)",
+        "pay_level": "Level 7",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Enforcement Officer / Accounts Officer (EO/AO)",
+        "pay_level": "Level 8",
+        "years": "approx. 16-22 yrs (via departmental competitive exam or seniority quota)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Provident Fund Commissioner (APFC)",
+        "pay_level": "Level 10",
+        "years": "approx. 24-28 yrs (Group 'A' cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Social Security Assistant in EPFO is conducted by NTA in two phases: Phase-I is an objective Computer Based Examination (CBT) carrying 600 marks with sectional timings; Phase-II is a qualifying Computer Data Entry / Skill Test in which candidates are shortlisted in the ratio of 1:10 of vacancies based on Phase-I merit.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Computer Based Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-24",
+        "source_url": "https://www.epfindia.gov.in",
+        "source_label": "EPFO & NTA — Official Notification for Recruitment to the Post of Social Security Assistant (SSA) 2023, Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "General Aptitude",
+            "marks": 120,
+            "duration_minutes": 30,
+            "negative_marking": "-1 mark per incorrect answer (each question carries 4 marks); 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise cut-off marks fixed by EPFO/NTA"
+          },
+          {
+            "paper_name": "General Knowledge / General Awareness",
+            "marks": 120,
+            "duration_minutes": 30,
+            "negative_marking": "-1 mark per incorrect answer (each question carries 4 marks); 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise cut-off marks fixed by EPFO/NTA"
+          },
+          {
+            "paper_name": "Quantitative Ability",
+            "marks": 120,
+            "duration_minutes": 30,
+            "negative_marking": "-1 mark per incorrect answer (each question carries 4 marks); 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise cut-off marks fixed by EPFO/NTA"
+          },
+          {
+            "paper_name": "General English with Comprehension",
+            "marks": 200,
+            "duration_minutes": 50,
+            "negative_marking": "-1 mark per incorrect answer (each question carries 4 marks); 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise cut-off marks fixed by EPFO/NTA"
+          },
+          {
+            "paper_name": "Computer Literacy",
+            "marks": 40,
+            "duration_minutes": 10,
+            "negative_marking": "-1 mark per incorrect answer (each question carries 4 marks); 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise cut-off marks fixed by EPFO/NTA"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Computer Skill Test (Computer Data Entry / Typing Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-24",
+        "source_url": "https://www.epfindia.gov.in",
+        "source_label": "EPFO & NTA — Official Notification for Recruitment to the Post of Social Security Assistant (SSA) 2023",
+        "papers": [
+          {
+            "paper_name": "Typing Speed Test on Computer",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35 words per minute in English or 30 words per minute in Hindi on computer (corresponding to 10,500 KDPH / 9,000 KDPH)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation for Social Security Assistant (Group 'C', Non-Gazetted) in EPFO under 7th CPC central pay matrix.",
+    "pay_level": "Level 5",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 52000, "max": 61000 },
+    "in_hand_range_estimate": { "min": 45000, "max": 53000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 5 entry basic pay (₹29,200) with 58% Dearness Allowance across major regional office cities (X/Y/Z classifications); in-hand factors in standard 10% NPS Tier-I contribution and central employee deductions.",
+    "official_perks": [
+      "House Rent Allowance (27%/18%/9% as per city tier) or leased accommodation facility",
+      "Transport Allowance with applicable Dearness Allowance",
+      "Comprehensive medical coverage under Central Government Health Scheme (CGHS) / EPFO Medical Benefit Scheme",
+      "Productivity-linked annual bonus / festival advance entitlement",
+      "Defined contribution pension benefits under National Pension System (NPS) and leave travel concession (LTC)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment vacancy, registration, and qualification statistics declared officially by EPFO and NTA for the Social Security Assistant examination.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 640000,
+        "vacancies": 2674,
+        "shortlisted_for_mains": 26777,
+        "selectivity_ratio": "2,674 candidates selected out of ~6.4 lakh applicants; 26,777 shortlisted for Phase II typing test at 1:10 ratio (Selectivity approx. 1 in 239)",
+        "confidence": "verified",
+        "as_of": "2023-10-19",
+        "source_url": "https://www.epfindia.gov.in",
+        "source_label": "NTA & EPFO Official Result Declaration: Social Security Assistant Phase-I Result Notification (26,777 candidates shortlisted across categories for 2,674 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and pay rules maintained by EPFO and the Government of India.",
+    "links": [
+      {
+        "label": "EPFO Official Portal",
+        "url": "https://www.epfindia.gov.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "7th Central Pay Commission Civilian Pay Matrix (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "cycle_label": "7th-CPC",
+        "confidence": "verified",
+        "as_of": "2025-02-10"
+      }
+    ]
+  }
+}

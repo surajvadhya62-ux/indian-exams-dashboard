@@ -1,0 +1,98 @@
+{
+  "id": "ugc-net",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "UGC-NET is conducted by the National Testing Agency (NTA) on behalf of the University Grants Commission (UGC) as a Computer Based Test (CBT) across India. The test determines Indian nationals' eligibility for: (1) Award of Junior Research Fellowship (JRF) and appointment as Assistant Professor; (2) Appointment as Assistant Professor and admission to Ph.D.; and (3) Admission to Ph.D. only in Indian universities and colleges. The examination comprises two compulsory papers conducted in a single 3-hour session without any break.",
+    "stages": [
+      {
+        "stage_name": "UGC-NET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-04-16",
+        "source_url": "https://ugcnet.nta.ac.in/images/information-bulletin-for-ugc-net-june-2025-16042025.pdf",
+        "source_label": "NTA & UGC — Information Bulletin for UGC-NET June 2025, Chapter 2 (Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Paper on Teaching and Research Aptitude",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "+2 marks for correct response; no negative marking (0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined aggregate minimum 40% marks for General/Unreserved, 35% for SC/ST/OBC-NCL/PwD across both Paper I and Paper II"
+          },
+          {
+            "paper_name": "Paper II: Subject Domain Specialization (83+ subjects)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "+2 marks for correct response; no negative marking (0 for incorrect/unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined aggregate minimum 40% marks for General/Unreserved, 35% for SC/ST/OBC-NCL/PwD across both Paper I and Paper II"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Registered, appeared, and qualification statistics declared officially by the National Testing Agency for UGC-NET across examination cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 908580,
+        "vacancies": null,
+        "shortlisted_for_mains": 117040,
+        "selectivity_ratio": "6,84,224 candidates appeared; 1,12,070 candidates qualified for Assistant Professor eligibility and ~4,970 qualified for JRF",
+        "confidence": "verified",
+        "as_of": "2024-10-17",
+        "source_url": "https://ugcnet.nta.ac.in",
+        "source_label": "NTA Press Release: Declaration of UGC-NET June 2024 Results (conducted Aug-Sep 2024)"
+      },
+      {
+        "year": 2023,
+        "applicants": 945872,
+        "vacancies": null,
+        "shortlisted_for_mains": 58794,
+        "selectivity_ratio": "6,95,928 appeared; 53,762 qualified for Assistant Professor and 5,032 qualified for JRF (December 2023 cycle)",
+        "confidence": "reported",
+        "as_of": "2024-01-18",
+        "source_url": "https://ugcnet.nta.ac.in",
+        "source_label": "NTA Press Release: Declaration of UGC - NET December 2023 Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletins, subject syllabi, and portals maintained by NTA and UGC.",
+    "links": [
+      {
+        "label": "UGC-NET Information Bulletin (PDF)",
+        "url": "https://ugcnet.nta.ac.in/images/information-bulletin-for-ugc-net-june-2025-16042025.pdf",
+        "type": "notification",
+        "cycle_label": "UGC-NET-2025",
+        "confidence": "verified",
+        "as_of": "2025-04-16"
+      },
+      {
+        "label": "UGC-NET Official Subject-wise Syllabus Repository",
+        "url": "https://www.ugcnetonline.in/syllabus-new.php",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Official NTA UGC-NET Examination Portal",
+        "url": "https://ugcnet.nta.ac.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

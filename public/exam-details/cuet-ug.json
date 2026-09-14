@@ -1,0 +1,101 @@
+{
+  "id": "cuet-ug",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Common University Entrance Test [CUET (UG)] is conducted by the National Testing Agency (NTA) in Computer Based Test (CBT) mode across India and abroad. The examination provides a single-window admission test for undergraduate programmes across all Central Universities (such as Delhi University, BHU, JNU, AMU, Jamia Millia Islamia) and over 280+ participating State, Deemed, and Private universities. Candidates can choose up to 5 subjects from 37 available subjects (13 Indian languages, 23 domain-specific subjects, and 1 General Aptitude Test).",
+    "stages": [
+      {
+        "stage_name": "CUET (UG) Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "source_label": "NTA — Information Bulletin for Common University Entrance Test CUET (UG) 2026, Chapter 2 (Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Domain Specific Subjects / Languages / General Test (per opted paper)",
+            "marks": 250,
+            "duration_minutes": 60,
+            "negative_marking": "+5 marks for correct answer, -1 mark for incorrect response, 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit and admission cut-offs determined individually by participating Central Universities based on normalised NTA score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual registration and appearance statistics officially published by NTA for CUET (UG) across all participating Central and State universities.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1347820,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "13,47,820 unique candidates registered (over 57 lakh subject tests opted) across 280+ participating universities; ~11.13 lakh unique candidates appeared",
+        "confidence": "verified",
+        "as_of": "2024-07-28",
+        "source_url": "https://cuet.nta.nic.in",
+        "source_label": "NTA Press Release: Declaration of CUET (UG) 2024 Results and Subject-wise Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 1499790,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "11,16,018 unique candidates appeared out of 14,99,790 registered across ~250 participating universities",
+        "confidence": "reported",
+        "as_of": "2023-07-15",
+        "source_url": "https://cuet.nta.nic.in",
+        "source_label": "NTA Press Release: Declaration of CUET (UG) 2023 Results"
+      },
+      {
+        "year": 2022,
+        "applicants": 1250804,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "9,68,201 unique candidates appeared in inaugural CUET (UG) edition",
+        "confidence": "reported",
+        "as_of": "2022-09-16",
+        "source_url": "https://cuet.nta.nic.in",
+        "source_label": "NTA Press Note: Results of CUET (UG) 2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletins, subject syllabi repositories, and portals maintained by NTA for CUET (UG).",
+    "links": [
+      {
+        "label": "CUET (UG) 2026 Information Bulletin (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2026/01/202601031633478370.pdf",
+        "type": "notification",
+        "cycle_label": "CUET-UG-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-03"
+      },
+      {
+        "label": "CUET (UG) Subject-wise Syllabus Repository",
+        "url": "https://cuet.nta.nic.in/cuetug-2026-syllabus/",
+        "type": "syllabus",
+        "cycle_label": "CUET-UG-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Official CUET (UG) Examination Portal",
+        "url": "https://cuet.nta.nic.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

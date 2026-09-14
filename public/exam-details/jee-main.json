@@ -1,0 +1,117 @@
+{
+  "id": "jee-main",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "JEE (Main) Paper 1 is conducted in Computer Based Test (CBT) mode by the National Testing Agency (NTA) for admission to undergraduate engineering programs (B.E./B.Tech.) at NITs, IIITs, CFTIs, and participating State institutions, and serves as the screening eligibility test for JEE (Advanced). The examination is conducted in two sessions annually (January and April) in 13 languages. Merit ranking is based on normalized NTA percentile scores, merging both sessions for candidates appearing in both and taking the best of the two scores.",
+    "stages": [
+      {
+        "stage_name": "Paper 1: B.E. / B.Tech. Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-01",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+        "source_label": "NTA — Information Bulletin for Joint Entrance Examination (Main) 2026, Chapter 2 (Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Mathematics (Section A: 20 MCQs + Section B: 5 Numerical Value Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "+4 for correct, -1 for incorrect in both Section A and Section B; 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Physics (Section A: 20 MCQs + Section B: 5 Numerical Value Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "+4 for correct, -1 for incorrect in both Section A and Section B; 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Chemistry (Section A: 20 MCQs + Section B: 5 Numerical Value Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "+4 for correct, -1 for incorrect in both Section A and Section B; 0 for unanswered",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual registration, appearance, and JEE (Advanced) eligibility qualification statistics officially released by the National Testing Agency across Session 1 and Session 2.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 1539848,
+        "vacancies": null,
+        "shortlisted_for_mains": 250236,
+        "selectivity_ratio": "2,50,236 candidates qualified for JEE (Advanced) out of 14,75,103 unique candidates appeared (approx. 16.96% qualification rate across Sessions 1 and 2)",
+        "confidence": "verified",
+        "as_of": "2025-04-18",
+        "source_url": "https://nta.ac.in/Download/Notice/Notice_20250419125449.pdf",
+        "source_label": "NTA Press Release dated 18.04.2025: Declaration of Result/NTA Scores for JEE (Main) - 2025 of Paper 1 (B.E./B.Tech.)"
+      },
+      {
+        "year": 2024,
+        "applicants": 1476557,
+        "vacancies": null,
+        "shortlisted_for_mains": 250284,
+        "selectivity_ratio": "2,50,284 candidates qualified for JEE (Advanced) out of 14,15,110 unique candidates appeared (approx. 17.68% qualification rate)",
+        "confidence": "reported",
+        "as_of": "2024-04-24",
+        "source_url": "https://jeemain.nta.nic.in",
+        "source_label": "NTA Official Press Release: Declaration of JEE (Main) 2024 NTA Scores for Paper 1 (B.E./B.Tech.)"
+      },
+      {
+        "year": 2023,
+        "applicants": 1162398,
+        "vacancies": null,
+        "shortlisted_for_mains": 251673,
+        "selectivity_ratio": "2,51,673 candidates qualified for JEE (Advanced) out of 11,13,325 appeared",
+        "confidence": "reported",
+        "as_of": "2023-04-29",
+        "source_url": "https://jeemain.nta.nic.in",
+        "source_label": "NTA Press Note: JEE (Main) 2023 Consolidated Final Results and Cut-off NTA Scores"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletins, syllabus documents, and portals maintained by the National Testing Agency for JEE (Main).",
+    "links": [
+      {
+        "label": "JEE (Main) 2026 Information Bulletin (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/11/202511021649722475.pdf",
+        "type": "notification",
+        "cycle_label": "JEE-Main-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-01"
+      },
+      {
+        "label": "JEE (Main) Paper 1 Syllabus (Mathematics, Physics, Chemistry) (PDF)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2025/10/202510311323551056.pdf",
+        "type": "syllabus",
+        "cycle_label": "JEE-Main-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-01"
+      },
+      {
+        "label": "Official JEE (Main) Examination Portal",
+        "url": "https://jeemain.nta.nic.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
