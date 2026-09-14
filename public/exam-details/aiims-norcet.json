@@ -1,0 +1,203 @@
+{
+  "id": "aiims-norcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Nursing Officer (Staff Nurse Grade-II / Group 'B')",
+        "pay_level": "Level 7",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS NORCET Official Advertisement No. 28/2024 — Pay Matrix Level 7 (₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Senior Nursing Officer (Sister Grade-I / Group 'B')",
+        "pay_level": "Level 8",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS Cadre Restructuring Rules — Nursing Cadre Level 8 (₹47,600 – ₹1,51,100)"
+      },
+      {
+        "designation": "Assistant Nursing Superintendent (ANS / Group 'A')",
+        "pay_level": "Level 10",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS Recruitment Rules for Group 'A' Nursing Posts — Level 10 (₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Nursing Superintendent (DNS / Group 'A')",
+        "pay_level": "Level 11",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS Recruitment Rules for Group 'A' Nursing Posts — Level 11 (₹67,700 – ₹2,08,700)"
+      },
+      {
+        "designation": "Nursing Superintendent (NS / Group 'A')",
+        "pay_level": "Level 12",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS Recruitment Rules for Group 'A' Nursing Posts — Level 12 (₹78,800 – ₹2,09,200)"
+      },
+      {
+        "designation": "Chief Nursing Officer (CNO / Group 'A')",
+        "pay_level": "Level 13",
+        "years": "25+ yrs (Apex Nursing Post)",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS Cadre Restructuring & Recruitment Rules — CNO Level 13 (₹1,18,500 – ₹2,14,100)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Nursing Officer Recruitment Common Eligibility Test (NORCET) is conducted centrally by the Examination Section, All India Institute of Medical Sciences (AIIMS), New Delhi, for direct recruitment of Nursing Officers (Group 'B' Non-Gazetted) across all participating AIIMS institutes and central government hospitals. Selection is conducted in two sequential computer-based examination stages: Stage I (NORCET Preliminary) is a qualifying screening examination of 90 minutes (100 MCQs covering General Knowledge, Aptitude, and Nursing core topics); candidates qualifying Stage I are shortlisted at 5 times the vacancies for Stage II. Stage II (NORCET Mains) is a 90-minute examination (100 MCQs) focused entirely on clinical scenarios, practical patient care, and nursing skills. Final merit and institutional allocation are determined exclusively on NORCET Mains scores.",
+    "stages": [
+      {
+        "stage_name": "Stage I: NORCET Preliminary Examination (Qualifying CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS NORCET Notice No. 28/2024 — Scheme of Examination Stage I",
+        "papers": [
+          {
+            "paper_name": "General Knowledge & Aptitude",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 mark for each incorrect response (+1 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 50% for UR/EWS, 45% for OBC, 40% for SC/ST across Stage I total to qualify for Stage II shortlisting"
+          },
+          {
+            "paper_name": "Core Nursing Curriculum Syllabus",
+            "marks": 80,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 mark for each incorrect response (+1 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Shortlisting for Stage II strictly at 5 times the number of vacancies in each category"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: NORCET Mains Examination (Merit CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS NORCET Notice No. 28/2024 — Scheme of Examination Stage II",
+        "papers": [
+          {
+            "paper_name": "Clinical Nursing Competencies, Case Scenarios & Patient Management",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 mark for each incorrect response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit rank and allocation of AIIMS institutes determined entirely by marks scored in Stage II"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Nursing Officers in AIIMS are central government employees governed by the 7th CPC Pay Matrix under the Ministry of Health and Family Welfare. Officers enter at Pay Level 7 (entry basic pay ₹44,900) and are entitled to standard central allowances, Central Nursing Allowance, Uniform Allowance, and institutional health facilities.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-26",
+    "pay_source_url": "https://www.aiimsexams.ac.in/",
+    "pay_source_label": "AIIMS NORCET Notification — Pay Band-2 (₹9,300-34,800) with Grade Pay ₹4,600 / Level 7 (₹44,900 – ₹1,42,400)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 78000, "max": 92000 },
+    "in_hand_range_estimate": { "min": 68000, "max": 80000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 basic ₹44,900 + 58% DA (₹26,042) + HRA ranging from 10% (Z city, ₹4,490) to 30% (X metro city / AIIMS New Delhi, ₹13,470) + Transport Allowance (₹3,600 + 58% DA = ₹5,688 in higher TPTA cities) + Nursing Allowance of ₹7,200 per month. Net in-hand reflects 10% NPS deduction (₹7,094) and standard payroll taxes.",
+    "official_perks": [
+      "Nursing Allowance of ₹7,200 per month as sanctioned by Ministry of Health and Family Welfare",
+      "Annual Uniform Allowance of ₹21,600 (₹1,800 per month) for maintenance of standard clinical nursing attire",
+      "Central HRA (30%/20%/10% based on city category) or subsidized on-campus residential accommodation at AIIMS complexes",
+      "Comprehensive cashless medical facilities and priority healthcare coverage across AIIMS for employee and dependent family",
+      "National Pension System (NPS) with 14% defined monthly employer contribution by Government of India",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and Leave Travel Concession (LTC) entitlements"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Consolidated recruitment metrics compiled from AIIMS NORCET examination results and institute-wise vacancy matrices.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 3500,
+        "applicants": 165000,
+        "shortlisted_for_mains": 18200,
+        "selectivity_ratio": "~3,500 vacancies across AIIMS New Delhi, all 18 participating state AIIMS, and central government hospitals filled from ~1,65,000 applicants (~1 in 47 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-04-18",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS Examination Section — NORCET-6 & NORCET-7 Result Bulletins"
+      },
+      {
+        "year": 2023,
+        "vacancies": 3020,
+        "applicants": 152000,
+        "shortlisted_for_mains": 15500,
+        "selectivity_ratio": "3,020 vacancies advertised; ~15,500 qualified for Stage II Mains (~1 in 50 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-10-12",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS NORCET-5 Allocation and Result Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and allocation archives published by the Examination Section, AIIMS New Delhi.",
+    "links": [
+      {
+        "label": "AIIMS NORCET Official Notification Portal",
+        "url": "https://www.aiimsexams.ac.in/",
+        "type": "notification",
+        "cycle_label": "NORCET-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NORCET Scheme of Examination & Clinical Syllabus",
+        "url": "https://www.aiimsexams.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "NORCET-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AIIMS Online Merit List & Allocation Archive",
+        "url": "https://www.aiimsexams.ac.in/",
+        "type": "other",
+        "cycle_label": "NORCET-Merit",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "cat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Common Admission Test (CAT) is a premier national computer-based management entrance examination conducted on a rotational basis by the Indian Institutes of Management (IIMs) for admission to their postgraduate management programmes (PGP/MBA) and other top business schools across India. The test is 120 minutes (2 hours) in duration and comprises 66 questions divided into three non-switchable sections of 40 minutes each. The test includes both Multiple Choice Questions (MCQs) with negative marking and non-MCQs (Type In The Answer / TITA) without negative marking. Shortlisted candidates based on CAT percentiles are invited for subsequent selection rounds (Writing Ability Test and Personal Interview) by individual IIMs.",
+    "stages": [
+      {
+        "stage_name": "Common Admission Test (Computer-Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://iimcat.ac.in/",
+        "source_label": "IIM CAT Information Bulletin & Test Structure",
+        "papers": [
+          {
+            "paper_name": "Section I: Verbal Ability and Reading Comprehension (VARC)",
+            "marks": 72,
+            "duration_minutes": 40,
+            "negative_marking": "+3 for correct; -1 for wrong MCQ; no negative marking for non-MCQ (TITA)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 40-minute sectional timer; minimum sectional percentile required by IIMs for interview shortlisting"
+          },
+          {
+            "paper_name": "Section II: Data Interpretation and Logical Reasoning (DILR)",
+            "marks": 60,
+            "duration_minutes": 40,
+            "negative_marking": "+3 for correct; -1 for wrong MCQ; no negative marking for non-MCQ (TITA)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 40-minute sectional timer; minimum sectional percentile required by IIMs for interview shortlisting"
+          },
+          {
+            "paper_name": "Section III: Quantitative Ability (QA)",
+            "marks": 66,
+            "duration_minutes": 40,
+            "negative_marking": "+3 for correct; -1 for wrong MCQ; no negative marking for non-MCQ (TITA)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 40-minute sectional timer; minimum sectional percentile required by IIMs for interview shortlisting"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official registration and candidate turnout statistics published by the CAT Convener and coordinating IIMs.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 5500,
+        "applicants": 329000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~5,500 PGP/MBA seats across 21 IIMs from ~2,93,000 test-takers (~3.29 lakh registered; selectivity ~1 in 53 to IIMs)",
+        "confidence": "reported",
+        "as_of": "2024-12-03",
+        "source_url": "https://iimcat.ac.in/",
+        "source_label": "IIM Calcutta — CAT 2024 Media Release on Registration and Attendance"
+      },
+      {
+        "year": 2023,
+        "vacancies": 5300,
+        "applicants": 328000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~5,300 seats across IIMs; 2.88 lakh candidates appeared out of 3.28 lakh registered (~1 in 54 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-11-28",
+        "source_url": "https://iimcat.ac.in/",
+        "source_label": "IIM Lucknow — CAT 2023 Press Release on Registration and Candidate Attendance"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, mock test links, and score release portal published by the CAT Convener / IIMs.",
+    "links": [
+      {
+        "label": "IIM CAT Official Portal",
+        "url": "https://iimcat.ac.in/",
+        "type": "notification",
+        "cycle_label": "CAT-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CAT Information Bulletin & Eligibility Criteria",
+        "url": "https://iimcat.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "CAT-Bulletin",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CAT Candidate Practice Portal",
+        "url": "https://iimcat.ac.in/",
+        "type": "other",
+        "cycle_label": "CAT-Mock",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

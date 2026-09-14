@@ -1,0 +1,98 @@
+{
+  "id": "gate",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Graduate Aptitude Test in Engineering (GATE) is a national-level examination administered jointly by the Indian Institute of Science (IISc) Bangalore and seven Indian Institutes of Technology (IIT Bombay, IIT Delhi, IIT Guwahati, IIT Kanpur, IIT Kharagpur, IIT Madras, and IIT Roorkee) on behalf of the National Coordination Board (NCB)-GATE, Department of Higher Education, Ministry of Education (MoE). The examination tests comprehensive understanding of undergraduate subjects in Engineering, Technology, Architecture, Science, Commerce, and Arts. The 3-hour Computer Based Test (CBT) consists of 65 questions totaling 100 marks across 30 distinct test papers. Question types include Multiple Choice Questions (MCQ), Multiple Select Questions (MSQ), and Numerical Answer Type (NAT). Scores are valid for three years for admission to M.Tech/Ph.D. programmes and recruitment in major PSUs.",
+    "stages": [
+      {
+        "stage_name": "GATE Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-15",
+        "source_url": "https://gate2025.iitr.ac.in/",
+        "source_label": "GATE 2025 Information Brochure — Indian Institute of Technology Roorkee",
+        "papers": [
+          {
+            "paper_name": "General Aptitude (GA)",
+            "marks": 15,
+            "duration_minutes": 180,
+            "negative_marking": "For 1-mark MCQ: 1/3 mark deducted; for 2-mark MCQ: 2/3 mark deducted; no negative marking for MSQ or NAT questions",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated jointly with discipline subject towards 100-mark total score"
+          },
+          {
+            "paper_name": "Discipline Subject Paper (Core Engineering / Science / Humanities)",
+            "marks": 85,
+            "duration_minutes": 180,
+            "negative_marking": "For 1-mark MCQ: 1/3 mark deducted; for 2-mark MCQ: 2/3 mark deducted; no negative marking for MSQ or NAT questions",
+            "qualifying_only": false,
+            "qualifying_threshold": "Discipline and category-specific qualifying cut-off score determined on normalized score distribution"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official registration, attendance, and qualification figures published by the GATE organizing institute.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 45000,
+        "applicants": 826000,
+        "shortlisted_for_mains": 129268,
+        "selectivity_ratio": "1,29,268 candidates qualified out of 6,53,292 test-takers across 30 papers (~19.78% qualification rate; ~45,000 M.Tech/PSU seats nationally)",
+        "confidence": "reported",
+        "as_of": "2024-03-16",
+        "source_url": "https://gate2025.iitr.ac.in/",
+        "source_label": "IISc Bangalore — GATE 2024 Official Result Declaration and Press Bulletin"
+      },
+      {
+        "year": 2023,
+        "vacancies": 42000,
+        "applicants": 670000,
+        "shortlisted_for_mains": 100000,
+        "selectivity_ratio": "~1,00,000 candidates qualified from 5,17,000 appeared (~18% qualification rate across 29 papers)",
+        "confidence": "reported",
+        "as_of": "2023-03-21",
+        "source_url": "https://gate2025.iitr.ac.in/",
+        "source_label": "IIT Kanpur — GATE 2023 Official Result and Statistics Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals, syllabi documents, and previous year question archives hosted by the organizing IIT and National Coordination Board.",
+    "links": [
+      {
+        "label": "GATE Official Organizing Portal",
+        "url": "https://gate2025.iitr.ac.in/",
+        "type": "notification",
+        "cycle_label": "GATE-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "GATE Detailed Syllabi by Paper",
+        "url": "https://gate2025.iitr.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "GATE-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "GATE Online Application Processing System (GOAPS)",
+        "url": "https://gate2025.iitr.ac.in/",
+        "type": "other",
+        "cycle_label": "GOAPS",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

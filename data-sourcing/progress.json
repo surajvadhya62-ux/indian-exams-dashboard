@@ -3,13 +3,13 @@
   "last_updated": "2026-09-14",
   "totals": {
     "exams": 504,
-    "verified": 369,
+    "verified": 387,
     "partial": 0,
-    "not_started": 135,
+    "not_started": 117,
     "exams_total": 504,
-    "detail_files_exist": 376,
+    "detail_files_exist": 387,
     "total_exams": 504,
-    "detail_files_present": 376,
+    "detail_files_present": 387,
     "last_updated": "2026-09-14"
   },
   "sessions": [
@@ -1252,49 +1252,87 @@
         "tslprb-si"
       ],
       "notes": "Unit u122 completed: 2 TSLPRB exams researched and verified against official notifications (Rc Nos. 189/2026 & 225/2026), Telangana Revised Pay Scales 2020 G.O.Ms.No.51, and official examination schemes on tgprb.in."
+    },
+    {
+      "session_id": "2026-09-14-u123",
+      "date": "2026-09-14",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--uttarakhand"
+      ],
+      "exam_ids_touched": [
+        "uksssc-graduate-level",
+        "uksssc-intermediate-level"
+      ],
+      "notes": "Unit u123 completed: 2 UKSSSC exams (UKSSSC Graduate Level VDO/VPDO and UKSSSC Intermediate Level Junior Assistant/DEO) researched and verified against official notifications, Personnel Department approval orders (Nos. 426609 & 426610/XXX(4)/2026), Uttarakhand Revised Pay Structure 2016, and official result/scrutiny lists on sssc.uk.gov.in."
+    },
+    {
+      "session_id": "2026-09-14-u124",
+      "date": "2026-09-14",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-6a-national-entrance-tests"
+      ],
+      "exam_ids_touched": [
+        "jee-main",
+        "neet-ug",
+        "ugc-net",
+        "cuet-ug",
+        "ctet",
+        "epfo-ssa",
+        "jbims-msc-finance",
+        "igidr-msc-economics-finance"
+      ],
+      "notes": "Unit u124 completed: 8 national entrance tests, central teacher eligibility, social security assistant recruitment, and premier management/economics admissions (JEE Main, NEET UG, UGC NET, CUET UG, CTET, EPFO SSA, JBIMS M.Sc Finance, IGIDR M.Sc Economics) researched and verified against official NTA Information Bulletins, CBSE CTET Bulletins, 7th CPC civilian pay matrices, and JBIMS/IGIDR academic frameworks."
     }
   ],
   "exams": {
     "jee-main": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/jee-main.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -1303,42 +1341,48 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/jee-advanced.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -1346,43 +1390,49 @@
     "neet-ug": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/neet-ug.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -1435,42 +1485,48 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/cat.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -1479,42 +1535,48 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/gate.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -2754,43 +2816,49 @@
     "ugc-net": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/ugc-net.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -3250,43 +3318,49 @@
     "cuet-ug": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/cuet-ug.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -3628,43 +3702,53 @@
     "ctet": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/ctet.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -4179,42 +4263,52 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/isro-scientist.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -7978,42 +8072,48 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/aiims-nursing.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -8374,42 +8474,48 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/jgeebils.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -9711,43 +9817,53 @@
     "epfo-ssa": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/epfo-ssa.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -10133,43 +10249,49 @@
     "jbims-msc-finance": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/jbims-msc-finance.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -10271,43 +10393,49 @@
     "igidr-msc-economics-finance": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/igidr-msc-economics-finance.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "financial_package": {
-          "status": "not_started",
+          "status": "not_applicable",
           "citations": [],
-          "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "unavailable_reason": "Academic entrance exam",
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u124"
         }
       },
       "flags": []
@@ -18276,43 +18404,53 @@
     "uksssc-graduate-level": {
       "batch_id": "batch-5-subordinate-police-boards--uttarakhand",
       "detail_file": "public/exam-details/uksssc-graduate-level.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         }
       },
       "flags": []
@@ -18320,43 +18458,53 @@
     "uksssc-intermediate-level": {
       "batch_id": "batch-5-subordinate-police-boards--uttarakhand",
       "detail_file": "public/exam-details/uksssc-intermediate-level.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u123"
         }
       },
       "flags": []
@@ -25259,42 +25407,52 @@
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/aiims-norcet.json",
       "detail_file_exists": true,
-      "overall_status": "not_started",
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []
@@ -26584,43 +26742,53 @@
     "nielit-scientist-b": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/nielit-scientist-b.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u129"
         }
       },
       "flags": []

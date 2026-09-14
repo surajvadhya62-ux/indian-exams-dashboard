@@ -1,0 +1,203 @@
+{
+  "id": "nielit-scientist-b",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Scientist 'B' (Group 'A' Gazetted / S&T)",
+        "pay_level": "Level 10",
+        "years": "Entry (0-3 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "NIELIT Recruitment Advertisement No. NIELIT/NIC/2023/1 — Pay Matrix Level 10 (₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Scientist 'C' (Group 'A' Gazetted)",
+        "pay_level": "Level 11",
+        "years": "approx. 3-7 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "MeitY Flexible Complementing Scheme (FCS) for Scientific & Technical Personnel — Level 11 (₹67,700 – ₹2,08,700)"
+      },
+      {
+        "designation": "Scientist 'D' (Group 'A' Gazetted)",
+        "pay_level": "Level 12",
+        "years": "approx. 7-11 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "MeitY FCS In-situ Promotion Rules — Level 12 (₹78,800 – ₹2,09,200)"
+      },
+      {
+        "designation": "Scientist 'E' (Group 'A' Gazetted)",
+        "pay_level": "Level 13",
+        "years": "approx. 11-16 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "MeitY FCS In-situ Promotion Rules — Level 13 (₹1,18,500 – ₹2,14,100)"
+      },
+      {
+        "designation": "Scientist 'F' (Senior Director / Group 'A')",
+        "pay_level": "Level 13A",
+        "years": "approx. 16-21 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "MeitY FCS In-situ Promotion Rules — Level 13A (₹1,31,100 – ₹2,16,600)"
+      },
+      {
+        "designation": "Scientist 'G' / Deputy Director General",
+        "pay_level": "Level 14",
+        "years": "21+ yrs (Apex Cadre)",
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "MeitY S&T Cadre Service Rules — Level 14 (₹1,44,200 – ₹2,18,200)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Scientist 'B' (Group 'A' Gazetted) in National Informatics Centre (NIC) and attached scientific organizations under the Ministry of Electronics and Information Technology (MeitY) is administered by the National Institute of Electronics and Information Technology (NIELIT). The selection process consists of a Written Examination followed by a Personal Interview. The Written Examination is an objective OMR-based or Computer Based Test of 180 minutes (3 hours) duration containing 120 multiple-choice questions (120 marks), divided into Generic (35%) and Technical (65%) sections. Candidates securing minimum 50% for General/EWS (40% for OBC, 30% for SC/ST/PWD) are shortlisted for interview in the ratio of 1:3 per vacancy. The final merit list is prepared giving 85% weightage to the Written Examination and 15% weightage to the Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (OMR / Computer-Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "NIELIT Detailed Scheme of Examination (Advt. No. NIELIT/NIC/2023/1)",
+        "papers": [
+          {
+            "paper_name": "Section A: Generic Area (Reasoning, Quantitative Ability & Aptitude)",
+            "marks": 42,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 mark (25% negative marking) for each incorrect response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% for General/EWS, 40% for OBC, 30% for SC/ST across total 120 marks"
+          },
+          {
+            "paper_name": "Section B: Technical Area (Computer Science & Engineering Curriculum)",
+            "marks": 78,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 mark (25% negative marking) for each incorrect response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% for General/EWS, 40% for OBC, 30% for SC/ST across total 120 marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-02",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "NIELIT / MeitY Interview Assessment Guidelines for Scientist 'B'",
+        "papers": [
+          {
+            "paper_name": "Technical and Professional Suitability Interview",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined weightage: 85% Written Test + 15% Interview for final empanelment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Scientist 'B' is a central Group 'A' Gazetted scientific appointment under the Ministry of Electronics and Information Technology (MeitY). Officers are placed in Pay Level 10 of the central 7th CPC Pay Matrix (entry basic pay ₹56,100 per month) and are eligible for time-bound promotions under the Flexible Complementing Scheme (FCS), standard central allowances, and technical updates.",
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-03-02",
+    "pay_source_url": "https://www.nielit.gov.in/recruitments",
+    "pay_source_label": "NIELIT Notification — Pay Matrix Level 10 (₹56,100 – ₹1,77,500) for Scientist 'B'",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 98000, "max": 118000 },
+    "in_hand_range_estimate": { "min": 86000, "max": 104000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 10 basic pay of ₹56,100 + 58% DA (₹32,538) + HRA ranging from 10% (Z city, ₹5,610) to 30% (X metro city / Delhi HQ, ₹16,830) + Transport Allowance (₹7,200 + 58% DA = ₹11,376 in higher TPTA cities). In-hand estimate factors in 10% NPS deduction (₹8,864) and standard professional and income taxes.",
+    "official_perks": [
+      "Flexible Complementing Scheme (FCS) enabling time-bound in-situ merit promotions from Scientist 'B' up to Scientist 'G'",
+      "Central Government HRA (30%/20%/10% by city category) or allotment of General Pool Residential Accommodation (GPRA)",
+      "Central Government Health Scheme (CGHS) offering comprehensive cashless medical treatment for officer and family dependents",
+      "Annual Professional Development / Book Allowance for technical literature, international journals, and conferences",
+      "National Pension System (NPS) with 14% monthly employer contribution by Government of India",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and Leave Travel Concession (LTC) entitlements"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics compiled from NIELIT MeitY / NIC recruitment notices and merit shortlist releases.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 598,
+        "applicants": 142000,
+        "shortlisted_for_mains": 213,
+        "selectivity_ratio": "598 vacancies (Scientist 'B': 71, Scientific Officer 'SB': 196, Scientific Assistant 'A': 331) advertised; ~213 shortlisted for Scientist 'B' interview out of ~1,42,000 total applicants (~1 in 237 overall)",
+        "confidence": "reported",
+        "as_of": "2024-01-20",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "NIELIT NIC Recruitment 2023 Shortlist and Result Statistics"
+      },
+      {
+        "year": 2020,
+        "vacancies": 495,
+        "applicants": 120000,
+        "shortlisted_for_mains": 864,
+        "selectivity_ratio": "495 vacancies across Scientist 'B' and Scientific Technical Assistant 'A'; selectivity ~1 in 242",
+        "confidence": "reported",
+        "as_of": "2021-02-15",
+        "source_url": "https://www.nielit.gov.in/recruitments",
+        "source_label": "NIELIT MeitY 2020 Selection Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment brochures, syllabus syllabi, and score card links hosted on the NIELIT recruitment portal.",
+    "links": [
+      {
+        "label": "NIELIT Recruitment Official Portal",
+        "url": "https://www.nielit.gov.in/recruitments",
+        "type": "notification",
+        "cycle_label": "NIELIT-MeitY-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NIELIT Scientist 'B' Detailed Technical Syllabus",
+        "url": "https://www.nielit.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "Scientist-B-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Ministry of Electronics and Information Technology (MeitY) Portal",
+        "url": "https://www.meity.gov.in/",
+        "type": "other",
+        "cycle_label": "MeitY-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

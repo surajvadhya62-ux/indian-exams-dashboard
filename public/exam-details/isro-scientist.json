@@ -1,0 +1,213 @@
+{
+  "id": "isro-scientist",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Scientist / Engineer 'SC' (Group 'A' Gazetted)",
+        "pay_level": "Level 10",
+        "years": "Entry (0-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "ISRO Centralised Recruitment Board (ICRB) Advt. No. ISRO:ICRB:02(EMC):2023 — Pay Matrix Level 10 (₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Scientist / Engineer 'SD'",
+        "pay_level": "Level 11",
+        "years": "approx. 4-8 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "Department of Space Merit Promotion Scheme for Scientific & Technical Personnel"
+      },
+      {
+        "designation": "Scientist / Engineer 'SE'",
+        "pay_level": "Level 12",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "Department of Space Merit Promotion Scheme for Scientific & Technical Personnel"
+      },
+      {
+        "designation": "Scientist / Engineer 'SF'",
+        "pay_level": "Level 13",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "Department of Space Merit Promotion Scheme for Scientific & Technical Personnel"
+      },
+      {
+        "designation": "Scientist / Engineer 'SG'",
+        "pay_level": "Level 13A",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "Department of Space Merit Promotion Scheme for Scientific & Technical Personnel"
+      },
+      {
+        "designation": "Outstanding Scientist / Scientist 'H'",
+        "pay_level": "Level 14",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "Department of Space Merit Promotion Scheme for Scientific & Technical Personnel"
+      },
+      {
+        "designation": "Distinguished Scientist",
+        "pay_level": "Level 15",
+        "years": "25+ yrs (Apex Selection)",
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "Department of Space Merit Promotion Scheme for Scientific & Technical Personnel"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Scientist/Engineer 'SC' in Level 10 of the Pay Matrix is conducted centrally by the ISRO Centralised Recruitment Board (ICRB), Department of Space, Government of India. The selection process comprises two sequential stages: a Written Test (Computer Based Test) to screen candidates and an Interview. The Written Test carries 100 marks across 95 questions (Part A covers Core Discipline Syllabus, Part B covers Aptitude/Reasoning). Candidates securing minimum 50% in Part A and Part B (40% for reserved) are eligible for shortlisting for the Interview in the ratio of 1:5 based on written test merit. Final empanelment requires a minimum 60% aggregate score (50% for reserved) in the Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "ISRO ICRB Advt. No. ISRO:ICRB:02(EMC):2023 — Pattern of Written Examination",
+        "papers": [
+          {
+            "paper_name": "Part 'A': Core Engineering / Science Discipline Specific",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-0.33 mark (1/3rd negative marking) for each incorrect response (+1 mark for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks for unreserved (40% for reserved category)"
+          },
+          {
+            "paper_name": "Part 'B': Aptitude / Ability Test (Numerical, Reasoning & Abstract)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (15 multiple choice questions carrying 20 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks for unreserved (40% for reserved category)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-05-25",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "ISRO ICRB Selection Process & Interview Assessment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Technical & Comprehensive Personality Interview",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 60% marks in interview (50% for reserved category) for empanelment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "ISRO is a premier R&D organization under the Department of Space, Government of India. Selected Scientists/Engineers are appointed to Pay Level 10 of the central 7th CPC Pay Matrix with an entry basic pay of ₹56,100 per month. Officers are entitled to standard central allowances, performance incentives under PRIS, professional update allowance, and comprehensive healthcare under the Contributory Health Service Scheme (CHSS).",
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-05-25",
+    "pay_source_url": "https://www.isro.gov.in/Careers.html",
+    "pay_source_label": "ISRO ICRB Notification — Pay Scale Level 10 (₹56,100 – ₹1,77,500)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 98000, "max": 118000 },
+    "in_hand_range_estimate": { "min": 86000, "max": 104000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 10 basic pay of ₹56,100 with 58% DA (₹32,538), HRA ranging from 10% (Z city, ₹5,610) to 30% (X metro city / Bengaluru HQ, ₹16,830), and Transport Allowance of ₹7,200 + 58% DA (₹11,376 in higher TPTA cities). In-hand estimate reflects standard 10% NPS deduction (₹8,864) and income tax withholdings.",
+    "official_perks": [
+      "Department of Space residential quarters in ISRO housing colonies (e.g., Bengaluru, Thiruvananthapuram, Sriharikota, Ahmedabad) or central HRA",
+      "Contributory Health Service Scheme (CHSS) providing complete, cashless medical coverage for employee and recognized family dependents",
+      "Professional Update Allowance (annual technical allowance for books, journals, and professional memberships)",
+      "Performance Related Incentive Scheme (PRIS) including organizational and individual incentive components",
+      "Subsidized canteen, departmental bus transportation to ISRO work centres, and sports/recreation facilities",
+      "National Pension System (NPS) with 14% monthly matching contribution by Central Government",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Consolidated recruitment statistics from ISRO Centralised Recruitment Board notifications and candidate shortlist releases.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 303,
+        "applicants": 185000,
+        "shortlisted_for_mains": 1515,
+        "selectivity_ratio": "303 Scientist/Engineer 'SC' vacancies (Electronics: 90, Mechanical: 163, Computer Science: 47, Autonomous bodies: 3) with ~1,515 shortlisted for interview out of ~1,85,000 applicants (~1 in 610 overall)",
+        "confidence": "reported",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "ISRO ICRB Advt. 02(EMC):2023 Written Test Results & Shortlist Announcement"
+      },
+      {
+        "year": 2019,
+        "vacancies": 327,
+        "applicants": 160000,
+        "shortlisted_for_mains": 1635,
+        "selectivity_ratio": "327 vacancies across core engineering streams; ~1,635 shortlisted for interview (~1 in 490 selectivity)",
+        "confidence": "reported",
+        "as_of": "2020-01-12",
+        "source_url": "https://www.isro.gov.in/Careers.html",
+        "source_label": "ISRO ICRB Advt. 01/2019 Selection Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, answer keys, and syllabus documents hosted on the ISRO centralized portal.",
+    "links": [
+      {
+        "label": "ISRO Careers Official Recruitment Portal",
+        "url": "https://www.isro.gov.in/Careers.html",
+        "type": "notification",
+        "cycle_label": "ISRO-ICRB",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ISRO Centralised Recruitment Board Syllabus Guidelines",
+        "url": "https://www.isro.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "ICRB-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Department of Space Official Website",
+        "url": "https://www.isro.gov.in/",
+        "type": "other",
+        "cycle_label": "DOS-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

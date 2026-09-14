@@ -1,0 +1,114 @@
+{
+  "id": "aiims-nursing",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The AIIMS B.Sc (Hons) Nursing Entrance Examination is conducted annually by the Examination Section, All India Institute of Medical Sciences (AIIMS), New Delhi, for admission to the undergraduate 4-year B.Sc (Honours) Nursing programme offered across all participating AIIMS institutes nationwide (including AIIMS New Delhi, Bhopal, Bhubaneswar, Jodhpur, Patna, Raipur, Rishikesh, Kalyani, Deoghar, Gorakhpur, Bathinda, Bibinagar, Bilaspur, Jammu, Guwahati, and Rajkot). The test is administered as a single-shift Computer Based Test (CBT) of 120 minutes (2 hours) duration comprising 100 objective-type multiple choice questions. Admission is strictly based on merit obtained in the entrance test through centralized online seat allocation.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Entrance Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS B.Sc (Hons) Nursing Prospectus & Examination Scheme — Examination Section, AIIMS New Delhi",
+        "papers": [
+          {
+            "paper_name": "Part A: Physics",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "+1 for correct answer; -1/3 (one-third negative marking) for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying percentile: 50th percentile for UR/EWS, 45th percentile for OBC, 40th percentile for SC/ST"
+          },
+          {
+            "paper_name": "Part B: Chemistry",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "+1 for correct answer; -1/3 (one-third negative marking) for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying percentile: 50th percentile for UR/EWS, 45th percentile for OBC, 40th percentile for SC/ST"
+          },
+          {
+            "paper_name": "Part C: Biology (Botany & Zoology)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "+1 for correct answer; -1/3 (one-third negative marking) for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying percentile: 50th percentile for UR/EWS, 45th percentile for OBC, 40th percentile for SC/ST"
+          },
+          {
+            "paper_name": "Part D: General Knowledge",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "+1 for correct answer; -1/3 (one-third negative marking) for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying percentile: 50th percentile for UR/EWS, 45th percentile for OBC, 40th percentile for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official seat matrix and candidate statistics compiled from AIIMS New Delhi admission prospectus and seat allocation results.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1231,
+        "applicants": 120000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,231 seats across 17 AIIMS institutes filled through centralized seat allocation from ~1,20,000 applicants (~1 seat per 97 candidates)",
+        "confidence": "reported",
+        "as_of": "2024-06-18",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS B.Sc (Hons) Nursing 2024 Seat Matrix and Result Notice"
+      },
+      {
+        "year": 2023,
+        "vacancies": 1046,
+        "applicants": 95000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,046 seats across 16 participating AIIMS institutes from ~95,000 test takers (~1 in 90 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-06-28",
+        "source_url": "https://www.aiimsexams.ac.in/",
+        "source_label": "AIIMS B.Sc (Hons) Nursing 2023 Consolidated Seat Matrix & Cut-off List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official prospectus, seat matrix notices, and result portals published by AIIMS Examination Section.",
+    "links": [
+      {
+        "label": "AIIMS Examination Section Official Portal",
+        "url": "https://www.aiimsexams.ac.in/",
+        "type": "notification",
+        "cycle_label": "AIIMS-Nursing-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AIIMS B.Sc Nursing Prospectus & Guidelines",
+        "url": "https://www.aiimsexams.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "Prospectus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AIIMS Online Seat Allocation Portal",
+        "url": "https://www.aiimsexams.ac.in/",
+        "type": "other",
+        "cycle_label": "Seat-Allocation",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

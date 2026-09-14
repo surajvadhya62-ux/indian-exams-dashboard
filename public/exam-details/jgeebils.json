@@ -1,0 +1,132 @@
+{
+  "id": "jgeebils",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Joint Graduate Entrance Examination for Biology and Interdisciplinary Life Sciences (JGEEBILS) is a shared nationwide entrance examination conducted under the umbrella of the Tata Institute of Fundamental Research (TIFR) Graduate School Admissions (GS) in collaboration with the National Centre for Biological Sciences (NCBS, Bengaluru) and participating research institutions across India (including TIFR Mumbai, TIFR Hyderabad, IISERs, InStem, NII, ACTREC, NBRC, CDFD, SINP, RGCB, and ILS). The examination serves as the screening gateway for admission into Ph.D. and Integrated M.Sc.-Ph.D. degree programmes in Biology and Interdisciplinary Life Sciences. The test is a 3-hour Computer Based Test (CBT) covering General Science/Mathematics, Physics, Chemistry, and Biology, testing foundational and analytical problem-solving skills rather than rote memorization. Candidates qualifying JGEEBILS submit individual applications and appear for in-person interviews at participating member institutions.",
+    "stages": [
+      {
+        "stage_name": "TIFR GS / JGEEBILS Nationwide Written Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-08",
+        "source_url": "https://www.tifr.res.in/~academics/gs_admissions.php",
+        "source_label": "TIFR Graduate Studies Admission Bulletin & JGEEBILS Information Brochure",
+        "papers": [
+          {
+            "paper_name": "Section A: General (Logic, Basic Math & Quantitative Aptitude)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "+3 marks for correct response; -1 mark for incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 sections for institutional shortlist eligibility"
+          },
+          {
+            "paper_name": "Section B: Physics",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "+3 marks for correct response; -1 mark for incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 sections for institutional shortlist eligibility"
+          },
+          {
+            "paper_name": "Section C: Chemistry",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "+3 marks for correct response; -1 mark for incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 sections for institutional shortlist eligibility"
+          },
+          {
+            "paper_name": "Section D: Biology",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "+3 marks for correct response; -1 mark for incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 sections for institutional shortlist eligibility"
+          }
+        ]
+      },
+      {
+        "stage_name": "Institutional Selection Interviews (Participating Member Institutes)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-08",
+        "source_url": "https://www.tifr.res.in/~academics/gs_admissions.php",
+        "source_label": "TIFR / NCBS Graduate School Selection Guidelines",
+        "papers": [
+          {
+            "paper_name": "In-Person Research Aptitude and Subject Interview",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final laboratory fellowship and admission offers made by individual faculty selection committees"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant turnout and fellowship intake statistics from TIFR / NCBS academic reports and participating biology institutes.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 220,
+        "applicants": 24500,
+        "shortlisted_for_mains": 750,
+        "selectivity_ratio": "~220 research fellowship seats (Ph.D. and Int-Ph.D.) across ~20 participating national institutes from ~24,500 test-takers (~1 in 110 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-03-20",
+        "source_url": "https://www.tifr.res.in/~academics/gs_admissions.php",
+        "source_label": "TIFR Nationwide Graduate Admissions Report 2024"
+      },
+      {
+        "year": 2023,
+        "vacancies": 200,
+        "applicants": 22800,
+        "shortlisted_for_mains": 680,
+        "selectivity_ratio": "~200 research fellowship positions across TIFR, NCBS, and member institutes from ~22,800 candidates (~1 in 114 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-25",
+        "source_url": "https://www.tifr.res.in/~academics/gs_admissions.php",
+        "source_label": "NCBS / TIFR GS 2023 Annual Admission Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official application portal, admission brochures, and syllabus documents hosted by TIFR and NCBS.",
+    "links": [
+      {
+        "label": "TIFR Graduate School Admissions Portal",
+        "url": "https://www.tifr.res.in/~academics/gs_admissions.php",
+        "type": "notification",
+        "cycle_label": "TIFR-GS-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JGEEBILS Information & Participating Institutes List",
+        "url": "https://www.tifr.res.in/~academics/",
+        "type": "syllabus",
+        "cycle_label": "JGEEBILS-Brochure",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "TIFR Deemed University Academics Portal",
+        "url": "https://www.tifr.res.in/~academics/",
+        "type": "other",
+        "cycle_label": "TIFR-Academics",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

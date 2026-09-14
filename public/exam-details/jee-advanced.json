@@ -1,0 +1,140 @@
+{
+  "id": "jee-advanced",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Joint Entrance Examination (Advanced) is conducted by the seven zonal Indian Institutes of Technology (IIT Bombay, IIT Delhi, IIT Guwahati, IIT Kanpur, IIT Kharagpur, IIT Madras, and IIT Roorkee) under the guidance of the Joint Admission Board (JAB). Only the top ~2,50,000 candidates qualifying JEE (Main) across categories are eligible to appear. The examination comprises two mandatory papers—Paper 1 and Paper 2—both held on the same day in Computer Based Test (CBT) mode (3 hours each). Both papers test Physics, Chemistry, and Mathematics with varying question types (single choice, multi-correct with partial marking, numerical value, and matching lists). Candidates must appear in both papers to be eligible for ranking and admission to undergraduate engineering and science programmes across 23 IITs through JoSAA.",
+    "stages": [
+      {
+        "stage_name": "Paper 1 (Morning Session: 09:00 - 12:00 IST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-26",
+        "source_url": "https://jeeadv.ac.in/",
+        "source_label": "JEE (Advanced) Information Brochure & Question Paper Archive — Joint Admission Board",
+        "papers": [
+          {
+            "paper_name": "Section 1: Physics",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for incorrect responses in multiple choice questions; partial marking for multi-select (+4 all correct, +3 three correct, +2 two correct, +1 one correct, -2 wrong)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject-wise minimum aggregate marks and category percentage required as per JAB qualifying criteria"
+          },
+          {
+            "paper_name": "Section 2: Chemistry",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for incorrect responses in multiple choice questions; partial marking for multi-select (+4 all correct, +3 three correct, +2 two correct, +1 one correct, -2 wrong)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject-wise minimum aggregate marks and category percentage required as per JAB qualifying criteria"
+          },
+          {
+            "paper_name": "Section 3: Mathematics",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for incorrect responses in multiple choice questions; partial marking for multi-select (+4 all correct, +3 three correct, +2 two correct, +1 one correct, -2 wrong)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject-wise minimum aggregate marks and category percentage required as per JAB qualifying criteria"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper 2 (Afternoon Session: 14:30 - 17:30 IST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-26",
+        "source_url": "https://jeeadv.ac.in/",
+        "source_label": "JEE (Advanced) Information Brochure & Question Paper Archive — Joint Admission Board",
+        "papers": [
+          {
+            "paper_name": "Section 1: Physics",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for incorrect responses in multiple choice questions; partial marking for multi-select (+4 all correct, +3 three correct, +2 two correct, +1 one correct, -2 wrong)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject-wise minimum aggregate marks and category percentage required as per JAB qualifying criteria"
+          },
+          {
+            "paper_name": "Section 2: Chemistry",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for incorrect responses in multiple choice questions; partial marking for multi-select (+4 all correct, +3 three correct, +2 two correct, +1 one correct, -2 wrong)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject-wise minimum aggregate marks and category percentage required as per JAB qualifying criteria"
+          },
+          {
+            "paper_name": "Section 3: Mathematics",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for incorrect responses in multiple choice questions; partial marking for multi-select (+4 all correct, +3 three correct, +2 two correct, +1 one correct, -2 wrong)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject-wise minimum aggregate marks and category percentage required as per JAB qualifying criteria"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official registration, attendance, and qualification statistics released by the organizing IIT and Joint Admission Board (JAB).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 17740,
+        "applicants": 186584,
+        "shortlisted_for_mains": 48248,
+        "selectivity_ratio": "17,740 seats across 23 IITs filled from 1,80,200 test takers (48,248 candidates qualified; ~1 in 10 admitted among test-takers)",
+        "confidence": "reported",
+        "as_of": "2024-06-09",
+        "source_url": "https://jeeadv.ac.in/",
+        "source_label": "IIT Madras — JEE (Advanced) 2024 Result Press Release and JoSAA Seat Matrix"
+      },
+      {
+        "year": 2023,
+        "vacancies": 17385,
+        "applicants": 189744,
+        "shortlisted_for_mains": 43773,
+        "selectivity_ratio": "17,385 seats across 23 IITs; 1,80,372 appeared; 43,773 qualified (~1 in 10 admitted)",
+        "confidence": "reported",
+        "as_of": "2023-06-18",
+        "source_url": "https://jeeadv.ac.in/",
+        "source_label": "IIT Guwahati — JEE (Advanced) 2023 Result Press Release and JoSAA Seat Matrix"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information brochures, syllabus repositories, and counseling portals published by the Joint Admission Board and organizing IITs.",
+    "links": [
+      {
+        "label": "JEE (Advanced) Official Portal",
+        "url": "https://jeeadv.ac.in/",
+        "type": "notification",
+        "cycle_label": "JEE-Adv-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JEE (Advanced) Detailed Syllabus Repository",
+        "url": "https://jeeadv.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "JEE-Adv-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JoSAA Seat Allocation Counseling Portal",
+        "url": "https://josaa.nic.in/",
+        "type": "other",
+        "cycle_label": "JoSAA-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
