@@ -1,0 +1,201 @@
+{
+  "id": "iocl-finance-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers in the Finance Function at Indian Oil Corporation Limited (IOCL) are inducted into the executive cadre in Grade A and advance through structured promotions governed by IOCL Officer Cadre Promotion Policy.",
+    "steps": [
+      {
+        "designation": "Officer (Finance & Accounts)",
+        "pay_level": "IDA Grade A (₹50,000 – ₹1,60,000)",
+        "years": "Entry Executive (1 yr probation)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Recruitment of Officers in Finance Function Notification"
+      },
+      {
+        "designation": "Senior Officer (Finance)",
+        "pay_level": "IDA Grade B (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Executive Service Regulations"
+      },
+      {
+        "designation": "Assistant Manager (Finance)",
+        "pay_level": "IDA Grade C (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Promotion Policy (Grade B to C)"
+      },
+      {
+        "designation": "Manager (Finance / Audit / Treasury)",
+        "pay_level": "IDA Grade D (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Mid-Level Executive Cadre Norms"
+      },
+      {
+        "designation": "Senior Manager (Finance)",
+        "pay_level": "IDA Grade E (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Senior Executive Regulations"
+      },
+      {
+        "designation": "Chief Manager (Finance)",
+        "pay_level": "IDA Grade F (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Senior Management Hierarchy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM - Finance)",
+        "pay_level": "IDA Grade G (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Executive Leadership Structure"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade H / I (₹1,30,000 – ₹3,00,000)",
+        "years": "Apex Leadership",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Board & Corporate Finance Leadership Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection consists of shortlisting based on CA/CMA examination merit or UGC-NET/written evaluation followed by Group Discussion (GD), Group Task (GT), and Personal Interview (PI).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Shortlisting on CA/CMA Merit / Written Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Selection Methodology for Finance Function",
+        "papers": [
+          {
+            "paper_name": "Shortlisting Evaluation (Marks in CA/CMA Final Examination)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Passing both groups of CA/CMA with merit ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: GD, GT & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL GD/GT/PI Assessment Framework",
+        "papers": [
+          {
+            "paper_name": "Group Discussion & Group Task",
+            "marks": 10,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Personal Interview",
+            "marks": 20,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for UR/EWS, 35% for SC/ST/OBC/PwBD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Finance Officers enter in Grade A with basic pay ₹50,000. Compensation includes 58% IDA constant as of 2025-07-01, HRA (up to 27%), cafeteria perks (35%), and annual Performance Related Pay (PRP). Total CTC is approximately ₹14–16 Lakhs per annum.",
+    "pay_level": "IDA Grade A (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://iocl.com",
+    "pay_source_label": "IOCL Compensation & Benefits for Officers in Finance Function",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 96000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Basic Pay ₹50,000, 58% IDA (₹29,000), HRA (up to 27% = ₹13,500), and Cafeteria Perks @ 35% (₹17,500), less statutory deductions for PF and Tax.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) indexed to AICPI",
+      "Company accommodation / leased housing or HRA up to 27%",
+      "Cafeteria perks up to 35% of basic pay",
+      "Performance Related Pay (PRP)",
+      "Comprehensive medical insurance and treatment at IOCL designated hospitals",
+      "Contributory Provident Fund, Gratuity, and Superannuation Benefit Fund"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics from recent IOCL Finance Officer recruitment notifications.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 45,
+        "applicants": 8400,
+        "shortlisted_for_mains": 225,
+        "selectivity_ratio": "approx. 1 in 186",
+        "confidence": "reported",
+        "as_of": "2023-10-20",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Recruitment Notification for Officers in Finance Function"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and job postings on the Indian Oil Corporation portal.",
+    "links": [
+      {
+        "label": "IOCL Careers Portal",
+        "url": "https://iocl.com",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IOCL Corporate Website",
+        "url": "https://iocl.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

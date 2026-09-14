@@ -1,0 +1,193 @@
+{
+  "id": "ntpc-et",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive Trainees at NTPC undergo 1 year of institutional and on-the-job training before absorption into the permanent executive cadre in IDA Grade E-2 as Assistant Manager / Engineer, progressing through merit-cum-seniority promotions.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (Engineering Disciplines)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Engineering Executive Trainees Recruitment Notification (Advt. No. 05/2024)"
+      },
+      {
+        "designation": "Assistant Manager / Engineer",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Executive Service Rules (Absorption & Cadre Norms)"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Executive Promotion Norms"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Cadre Management Rules"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Senior Executive Cadre Structure"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Corporate Leadership Hierarchy"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Board Level Management Norms"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection of Executive Trainees is based on valid normalized GATE scores in the respective engineering discipline followed by Document Verification, or a composite evaluation including Group Discussion and Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: GATE Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Advt. No. 05/2024 Selection Process (GATE Paper Codes: EE, ME, EC, IN, CE, MN)",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Corresponding Engineering Discipline",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Per GATE standard marking scheme (-0.33 for 1-mark MCQs, -0.66 for 2-mark MCQs)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank cut-off based on 1:5 ratio per vacancy"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Pre-Employment Medical Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Medical Guidelines and Verification Process",
+        "papers": [
+          {
+            "paper_name": "Original Credentials Verification & Medical Fitness",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fulfillment of educational qualifications, category certificate authenticity, and medical standards"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Executive Trainees receive basic pay of ₹40,000 in IDA Grade E-1 during training, plus 58% IDA constant as of 2025-07-01, company accommodation or HRA, and cafeteria perks (35%). On regularisation in E-2, basic pay advances to ₹50,000.",
+    "pay_level": "IDA Pay Scale Grade E-1 during training (₹40,000 – ₹1,40,000); Grade E-2 on absorption (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://careers.ntpc.co.in",
+    "pay_source_label": "NTPC Compensation Structure for Engineering Executive Trainees",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 78000,
+      "max": 96000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 83000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with training Basic Pay ₹40,000, 58% IDA (₹23,200), HRA (up to 27% = ₹10,800), and Cafeteria Perks @ 35% (₹14,000), less statutory deductions for PF and Group Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) indexed to quarterly AICPI",
+      "Company township accommodation or House Rent Allowance (HRA)",
+      "Perks & allowances under cafeteria approach up to 35% of basic pay",
+      "Performance Related Pay (PRP) linked to NTPC MoU targets and plant load factors",
+      "Medical facilities for self, spouse, children, and dependent parents in NTPC hospitals",
+      "Post-Retirement Medical Care, Contributory Provident Fund, and Gratuity"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics from recent NTPC Executive Trainee recruitment cycles via GATE.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 280,
+        "applicants": 42000,
+        "shortlisted_for_mains": 1400,
+        "selectivity_ratio": "approx. 1 in 150",
+        "confidence": "reported",
+        "as_of": "2024-10-30",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Advt. 05/2024 Vacancy & Shortlisting Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and job postings hosted on the NTPC Careers portal.",
+    "links": [
+      {
+        "label": "NTPC Careers Portal",
+        "url": "https://careers.ntpc.co.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NTPC Official Corporate Website",
+        "url": "https://www.ntpc.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

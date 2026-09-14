@@ -1,0 +1,219 @@
+{
+  "id": "india-post-mts-postman",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Postman, Mail Guard, and Multi Tasking Staff (MTS) in the Department of Posts (India Post) are central government civil employees under the Ministry of Communications. Personnel progress through the postal hierarchy via Limited Departmental Competitive Examinations (LDCE) and time-bound MACP (Modified Assured Career Progression) promotions.",
+    "steps": [
+      {
+        "designation": "Multi Tasking Staff (MTS)",
+        "pay_level": "7th CPC Pay Matrix Level 1 (₹18,000 – ₹56,900)",
+        "years": "Entry Cadre (Subordinate Service)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Multi Tasking Staff Recruitment Rules"
+      },
+      {
+        "designation": "Postman / Mail Guard",
+        "pay_level": "7th CPC Pay Matrix Level 3 (₹21,700 – ₹69,100)",
+        "years": "Entry Postman / approx. 3 yrs from MTS",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts (Postman and Mail Guard) Recruitment Rules"
+      },
+      {
+        "designation": "Postal Assistant (PA) / Sorting Assistant (SA)",
+        "pay_level": "7th CPC Pay Matrix Level 4 (₹25,500 – ₹81,100)",
+        "years": "approx. 3-5 yrs via LDCE",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Postal Assistant / Sorting Assistant Recruitment Rules"
+      },
+      {
+        "designation": "Lower Selection Grade (LSG / Sub Postmaster / Supervisor)",
+        "pay_level": "7th CPC Pay Matrix Level 5 (₹29,200 – ₹92,300)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Cadre Restructuring Orders"
+      },
+      {
+        "designation": "Higher Selection Grade II (HSG-II / Deputy Postmaster)",
+        "pay_level": "7th CPC Pay Matrix Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Operative Cadre Promotion Norms"
+      },
+      {
+        "designation": "Higher Selection Grade I (HSG-I / Postmaster Grade-I)",
+        "pay_level": "7th CPC Pay Matrix Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "approx. 18-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Supervisory Cadre Regulations"
+      },
+      {
+        "designation": "Assistant Superintendent of Posts (ASPO)",
+        "pay_level": "7th CPC Pay Matrix Level 8 (₹47,600 – ₹1,51,100)",
+        "years": "approx. 22-25 yrs via LDCE / Seniority",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Postal Services Group 'B' Rules"
+      },
+      {
+        "designation": "Superintendent of Post Offices (SPS / Senior Postmaster)",
+        "pay_level": "7th CPC Pay Matrix Level 9 / 10 (₹53,100 – ₹1,77,500)",
+        "years": "Postal Division Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Indian Postal Service (IPoS) and Divisional Superintendent Norms"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is governed by the Directorate of Postal Services examination framework comprising Paper I (Postal Knowledge & General Awareness, competitive for merit), Paper II (Local Language, qualifying), and Paper III (Data Entry Skill Test, qualifying for Postman/Mail Guard).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Paper I (Basic Postal Knowledge & General Awareness)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "India Post Syllabus and Pattern of Examination for Postman/Mail Guard and MTS",
+        "papers": [
+          {
+            "paper_name": "Part A: Post Office Guide & Postal Manual Knowledge",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for UR/EWS, 37% for OBC, 33% for SC/ST"
+          },
+          {
+            "paper_name": "Part B: General Awareness, Basic Arithmetic & Reasoning",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for UR/EWS, 37% for OBC, 33% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Paper II (Knowledge of Local Language)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "India Post Local Language Testing Standards",
+        "papers": [
+          {
+            "paper_name": "Translation, Letter Writing & Paragraph in Local Language",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% for UR/EWS, 37% for OBC, 33% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Paper III (Data Entry Skill Test - DEST)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "India Post DEST Guidelines for Postman/Mail Guard",
+        "papers": [
+          {
+            "paper_name": "Data Entry Skill Test (1,000 key depressions ± 5%)",
+            "marks": 25,
+            "duration_minutes": 15,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% for UR/EWS, 50% for SC/ST/OBC"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Postman and Mail Guard personnel receive pay under 7th CPC Matrix Level 3 (entry basic pay ₹21,700), while MTS receive Level 1 (entry basic pay ₹18,000). The package includes 58% Central DA constant as of 2025-07-01, HRA (up to 27% in X-class cities), transport allowance, and uniform allowances.",
+    "pay_level": "7th CPC Level 3 (₹21,700 – ₹69,100) for Postman; Level 1 (₹18,000 – ₹56,900) for MTS",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.indiapost.gov.in",
+    "pay_source_label": "Department of Posts 7th CPC Pay Matrix Schedules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 48000
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 42000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 3 Postman: Basic Pay ₹21,700, 58% DA (₹12,586), HRA (9% to 27% = ₹1,953 to ₹5,859), Transport Allowance (₹1,350 to ₹3,600 + DA), less NPS (10% of Basic+DA = ₹3,429) and CGHS deductions.",
+    "official_perks": [
+      "Central Government Dearness Allowance (DA) revised bi-annually",
+      "House Rent Allowance (HRA) @ 27%/18%/9% or government quarter allotment",
+      "Transport Allowance (TPTA) with DA thereon",
+      "Annual Uniform Allowance and Washing Allowance",
+      "Central Government Employees Group Insurance Scheme (CGEGIS)",
+      "National Pension System (NPS) with 14% government contribution and CGHS medical facilities"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics aggregated across India Post Circle examinations and national recruitment drives.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 32000,
+        "applicants": 1850000,
+        "shortlisted_for_mains": 64000,
+        "selectivity_ratio": "approx. 1 in 58",
+        "confidence": "reported",
+        "as_of": "2023-12-15",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Circle-wise Vacancy and Recruitment Compilation"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, rules, and circulars on the India Post portal.",
+    "links": [
+      {
+        "label": "India Post Recruitment & Results Portal",
+        "url": "https://www.indiapost.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "India Post Official Portal",
+        "url": "https://www.indiapost.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

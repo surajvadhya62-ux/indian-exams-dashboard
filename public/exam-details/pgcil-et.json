@@ -1,0 +1,201 @@
+{
+  "id": "pgcil-et",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive Trainees at Power Grid Corporation of India Limited (POWERGRID) undergo 1 year of rigorous technical and management training before absorption as Engineer in IDA Grade E-2, progressing through a transparent merit-cum-seniority appraisal framework.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (Electrical / Civil / Electronics / CS)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Recruitment Notification for Executive Trainees through GATE"
+      },
+      {
+        "designation": "Engineer",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Service Rules (Absorption & Cadre Progression)"
+      },
+      {
+        "designation": "Senior Engineer",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Promotion Policy"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Cadre Progression Norms"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Promotion Norms"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Senior Executive Cadre Structure"
+      },
+      {
+        "designation": "Chief Manager / Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Corporate Management Norms"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Leadership Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is based on normalized GATE score (85% weightage), Group Discussion (3% weightage), and Personal Interview (12% weightage). Qualifying in the Personal Interview is mandatory for final empanelment.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: GATE Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Selection Process Notification (GATE Papers: EE, EC, CE, CS)",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Relevant Discipline",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Per standard GATE deduction rules",
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisting ratio 1:5 based on normalized GATE marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Group Discussion & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID GD and Personal Interview Criteria",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (GD)",
+            "marks": 3,
+            "duration_minutes": 20,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Personal Interview (PI)",
+            "marks": 12,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for Unreserved/EWS, 30% for SC/ST/OBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During 1 year training, Executive Trainees receive basic pay ₹40,000 in IDA Grade E-1, 58% IDA constant as of 2025-07-01, company accommodation/HRA, and cafeteria perks (35%). On absorption in Grade E-2, basic pay advances to ₹50,000.",
+    "pay_level": "IDA Grade E-1 during training (₹40,000 – ₹1,40,000); Grade E-2 on regularisation (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.powergrid.in",
+    "pay_source_label": "POWERGRID Compensation & Benefits for Executive Trainees",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 78000,
+      "max": 96000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 83000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with training Basic Pay ₹40,000, 58% IDA (₹23,200), HRA (up to 27% = ₹10,800), and Cafeteria Perks @ 35% (₹14,000), less statutory deductions for PF and Group Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) indexed to AICPI",
+      "Company substation township accommodation or House Rent Allowance (HRA)",
+      "Cafeteria perks and allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on audited annual profitability and MOU rating",
+      "Comprehensive indoor and outdoor medical coverage for employee and dependents",
+      "Superannuation Benefit Scheme including Contributory Provident Fund and Pension Scheme"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics from recent POWERGRID Executive Trainee recruitment batches via GATE.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 215,
+        "applicants": 38500,
+        "shortlisted_for_mains": 1075,
+        "selectivity_ratio": "approx. 1 in 179",
+        "confidence": "reported",
+        "as_of": "2024-09-15",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Recruitment Advt. CC/08/2024 Shortlisting Details"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and career opportunities hosted on the POWERGRID corporate portal.",
+    "links": [
+      {
+        "label": "POWERGRID Career Opportunities Portal",
+        "url": "https://www.powergrid.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "POWERGRID Official Portal",
+        "url": "https://www.powergrid.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

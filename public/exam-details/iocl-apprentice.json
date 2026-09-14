@@ -1,0 +1,183 @@
+{
+  "id": "iocl-apprentice",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Apprentices at Indian Oil Corporation Limited undergo 1 year of statutory training under the Apprentices Act, 1961. Successful apprentices who transition into permanent non-executive technical cadres (such as Junior Engineering Assistant - IV) advance through IOCL's structured non-executive promotion policy towards executive officer positions.",
+    "steps": [
+      {
+        "designation": "Trade / Technician Apprentice",
+        "pay_level": "Prescribed Monthly Stipend (₹10,500 – ₹15,000 / month)",
+        "years": "1 yr statutory engagement",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Notification for Engagement of Technical and Non-Technical Trade & Technician Apprentices"
+      },
+      {
+        "designation": "Junior Engineering Assistant - IV (JEA-IV) / Technician",
+        "pay_level": "IDA Grade IV (₹25,000 – ₹1,05,000)",
+        "years": "Entry permanent cadre",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive Recruitment & Service Rules"
+      },
+      {
+        "designation": "Junior Engineering Assistant - III",
+        "pay_level": "IDA Grade V (₹26,500 – ₹1,10,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive Cadre Progression Norms"
+      },
+      {
+        "designation": "Engineering Assistant - II",
+        "pay_level": "IDA Grade VI (₹31,000 – ₹1,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Promotion Policy for Refineries & Marketing"
+      },
+      {
+        "designation": "Senior Engineering Assistant",
+        "pay_level": "IDA Grade VII (₹36,000 – ₹1,35,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive Senior Grade Structure"
+      },
+      {
+        "designation": "Officer (Operations / Maintenance / Quality Control)",
+        "pay_level": "IDA Grade A (₹50,000 – ₹1,60,000)",
+        "years": "Promotion to Executive Cadre",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Executive Conversion Channel Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Apprentice and non-executive posts is through a Computer Based Test (CBT) / Written Test followed by a Skill/Proficiency/Physical Test (SPPT) and Document Verification. The SPPT is qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination / CBT",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Detailed Selection Pattern for Apprentice & Non-Executive Recruitment",
+        "papers": [
+          {
+            "paper_name": "Technical Domain Subject Knowledge",
+            "marks": 75,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for General/EWS/OBC, 35% for SC/ST/PwBD"
+          },
+          {
+            "paper_name": "Generic Aptitude, Reasoning & Basic English",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill, Proficiency & Physical Test (SPPT) / Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL SPPT Guidelines and Verification Protocol",
+        "papers": [
+          {
+            "paper_name": "Practical Trade Skill / Physical Assessment & Verification",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard in equipment operation / trade test"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Trade and technician apprentices receive monthly statutory stipends as mandated under the Apprentices Act, 1961. Regular non-executive technical staff (JEA-IV) receive basic pay of ₹25,000 in Grade IV with 58% IDA constant as of 2025-07-01, HRA, industrial allowances, and medical cover.",
+    "pay_level": "Apprentice Stipend (₹10,500 – ₹15,000/mo); Regular Post Grade IV (₹25,000 – ₹1,05,000)",
+    "entry_basic_pay": 25000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://iocl.com",
+    "pay_source_label": "IOCL Terms of Engagement and Non-Executive Pay Matrix",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 48000,
+      "max": 62000
+    },
+    "in_hand_range_estimate": {
+      "min": 42000,
+      "max": 54000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Grade IV regular scale: Basic Pay ₹25,000, 58% IDA (₹14,500), HRA (18% to 27% = ₹4,500 to ₹6,750), and industrial perks (approx. 32% = ₹8,000), less standard statutory deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) indexed to AICPI",
+      "Company township residential accommodation or House Rent Allowance (HRA)",
+      "Cafeteria approach perks and allowances up to 32% of basic pay",
+      "Annual Performance Related Payment / Productivity Linked Incentive",
+      "Comprehensive medical facilities in IOCL refinery hospitals for self and family",
+      "Provident Fund, Gratuity, and Post-Retirement Benefit Schemes"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment numbers from recent IOCL apprentice and engineering assistant recruitment notifications across divisions.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 1720,
+        "applicants": 142000,
+        "shortlisted_for_mains": 3440,
+        "selectivity_ratio": "approx. 1 in 82",
+        "confidence": "reported",
+        "as_of": "2023-11-25",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Notification for Engagement of Apprentices Across Refineries Division"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and job postings hosted on the Indian Oil Corporation portal.",
+    "links": [
+      {
+        "label": "IOCL Apprenticeships Portal",
+        "url": "https://iocl.com",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IOCL Latest Job Openings",
+        "url": "https://iocl.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

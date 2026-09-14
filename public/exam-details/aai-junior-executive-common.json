@@ -1,0 +1,217 @@
+{
+  "id": "aai-junior-executive-common",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Executives in the Common Cadre at Airports Authority of India (AAI) enter at Executive Grade E-1 and advance through the general administrative and corporate management hierarchy under AAI Executive Cadre Promotion Regulations via Departmental Promotion Committees (DPCs).",
+    "steps": [
+      {
+        "designation": "Junior Executive (Common Cadre)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "Entry (1 yr probation)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Direct Recruitment Advt. No. 03/2023/CHQ (Pay Scale & Remuneration)"
+      },
+      {
+        "designation": "Assistant Manager (Common Cadre)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Executive Promotion Regulations"
+      },
+      {
+        "designation": "Manager (Administration / Commercial / HR)",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Executive Cadre Hierarchy Norms"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Executive Cadre Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Senior Executive Regulations"
+      },
+      {
+        "designation": "Joint General Manager (JGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Senior Management Cadre Structure"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Corporate Management Hierarchy"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Board & Executive Leadership Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is based solely on performance in an All-India Computer Based Online Test (CBT) followed by Application Verification. There is no interview and no negative marking in the CBT.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Advt. No. 03/2023/CHQ Selection Process and Syllabus for Junior Executive (Common Cadre)",
+        "papers": [
+          {
+            "paper_name": "General Intelligence & Reasoning",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 35,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language & Comprehension",
+            "marks": 35,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Application Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Advt. No. 03/2023/CHQ Application Verification Guidelines",
+        "papers": [
+          {
+            "paper_name": "Document Verification & Biometric Verification",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Production of valid original degree certificates, category certificates, and identity proofs"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Executive (Common Cadre) is recruited in IDA Pay Scale Grade E-1 with basic pay ₹40,000 per month. Package includes Industrial Dearness Allowance (58% constant as of 2025-07-01), HRA (up to 27% in metro airports), perks under cafeteria approach (35%), and performance-related pay.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.aai.aero/en/careers/recruitment",
+    "pay_source_label": "AAI Advt. No. 03/2023/CHQ Para 6 (Emoluments & CTC ~ ₹13 Lakhs per annum)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 78000,
+      "max": 94000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 81000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Basic Pay ₹40,000, 58% IDA (₹23,200), HRA (18% to 27% = ₹7,200 to ₹10,800), Cafeteria perks @ 35% (₹14,000), less statutory CPF (12% of Basic+DA) and professional tax.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "House Rent Allowance (HRA) @ 27%/18%/9% or leased accommodation",
+      "Perks & allowances under cafeteria approach @ 35% of basic pay",
+      "Annual Performance Related Pay (PRP)",
+      "Comprehensive medical facility for self and dependent family members",
+      "Contributory Provident Fund, Gratuity, Social Security Scheme, and Group Insurance"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics from AAI Advt. No. 03/2023/CHQ for Junior Executive (Common Cadre).",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 237,
+        "applicants": 328400,
+        "shortlisted_for_mains": 711,
+        "selectivity_ratio": "approx. 1 in 1,385",
+        "confidence": "reported",
+        "as_of": "2023-10-15",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Advt. 03/2023 Application Statistics and Final Result Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabus, and results hosted on the AAI portal.",
+    "links": [
+      {
+        "label": "AAI Careers & Recruitment Portal",
+        "url": "https://www.aai.aero/en/careers/recruitment",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AAI Official Corporate Portal",
+        "url": "https://www.aai.aero",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

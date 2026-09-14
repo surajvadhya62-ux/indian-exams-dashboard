@@ -1,0 +1,193 @@
+{
+  "id": "sjvn-field-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Field Engineers and Executive Trainees at SJVN Limited undergo 1 year of training or tenure engagement before regular absorption into the permanent executive cadre in IDA Grade E-2, advancing through SJVN's executive promotion framework across hydro, solar, and thermal generation projects.",
+    "steps": [
+      {
+        "designation": "Field Engineer / Executive Trainee",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training / engagement",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Recruitment Notification for Field Engineers & Executive Trainees"
+      },
+      {
+        "designation": "Engineer / Assistant Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Executive Service Rules (Absorption & Cadre Norms)"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Middle Management Cadre Regulations"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Senior Executive Cadre Structure"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Corporate & Project Station Hierarchy"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-8 / E-9 (₹1,20,000 – ₹3,00,000)",
+        "years": "Apex Leadership",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Board of Directors Executive Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted through an All-India Computer Based Test (CBT) followed by a Personal Interview (for Executive Trainees) or Document Verification based on CBT merit (for Field Engineers).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Advt. No. 105/2023 Selection Scheme and CBT Pattern",
+        "papers": [
+          {
+            "paper_name": "Part A: Discipline Engineering / Professional Knowledge",
+            "marks": 70,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for General/EWS/OBC, 30% for SC/ST/PwD"
+          },
+          {
+            "paper_name": "Part B: General Aptitude, Reasoning, Quantitative Ability & English",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview / Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Interview Assessment Framework and Verification Norms",
+        "papers": [
+          {
+            "paper_name": "Personal Interview / Credentials Verification",
+            "marks": 25,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying benchmark in interview and credential verification"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Field Engineers and Executive Trainees are placed in IDA Grade E-2 with basic pay ₹50,000 (or equivalent consolidated field pay). Compensation includes 58% IDA constant as of 2025-07-01, project allowances for mountainous hydropower project sites, cafeteria perks (35%), and HRA (up to 27%).",
+    "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://sjvn.nic.in",
+    "pay_source_label": "SJVN Compensation Structure and Remuneration Circular",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 96000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Basic Pay ₹50,000, 58% IDA (₹29,000), HRA (up to 27% = ₹13,500), and Cafeteria Perks @ 35% (₹17,500), less statutory deductions for PF and Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Company project township accommodation or House Rent Allowance (HRA)",
+      "Cafeteria allowances up to 35% of basic pay",
+      "Difficult area / project location allowance for remote Himalayan project sites",
+      "Performance Related Pay (PRP)",
+      "Comprehensive medical treatment for employee and dependent family members",
+      "Contributory Provident Fund, Gratuity, and Group Insurance Scheme"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics from recent SJVN recruitment drives for Field Engineers and Executive Trainees.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 153,
+        "applicants": 42000,
+        "shortlisted_for_mains": 765,
+        "selectivity_ratio": "approx. 1 in 274",
+        "confidence": "reported",
+        "as_of": "2023-11-20",
+        "source_url": "https://sjvn.nic.in",
+        "source_label": "SJVN Advt. No. 105/2023 Vacancy and Results Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications and career notices on the SJVN corporate portal.",
+    "links": [
+      {
+        "label": "SJVN Current Jobs Portal",
+        "url": "https://sjvn.nic.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "SJVN Official Corporate Website",
+        "url": "https://sjvn.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

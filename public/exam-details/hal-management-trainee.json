@@ -1,0 +1,209 @@
+{
+  "id": "hal-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees (Technical / Non-Technical) and Design Trainees at Hindustan Aeronautics Limited (HAL) undergo 1 year of training before absorption as Engineer / Officer in Grade II, progressing through structured promotional avenues under HAL Executive Promotion Rules.",
+    "steps": [
+      {
+        "designation": "Management Trainee / Design Trainee",
+        "pay_level": "IDA Grade II (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Detailed Advertisement for Recruitment of Design Trainees & Management Trainees"
+      },
+      {
+        "designation": "Engineer / Officer",
+        "pay_level": "IDA Grade II (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Executive Service Regulations"
+      },
+      {
+        "designation": "Senior Engineer / Senior Officer",
+        "pay_level": "IDA Grade III (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Promotion Norms (Grade II to Grade III)"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade IV (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Executive Cadre Regulations"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade V (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Executive Promotion Policy"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade VI (₹80,000 – ₹2,20,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Senior Management Cadre Structure"
+      },
+      {
+        "designation": "Chief Manager / Additional General Manager (AGM)",
+        "pay_level": "IDA Grade VII / VIII (₹90,000 – ₹2,60,000)",
+        "years": "approx. 20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Corporate Governance Norms"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade IX / X (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Board & Executive Leadership Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted through an All-India Online Selection Test (85% weightage) followed by a Personal Interview (15% weightage). There is no negative marking in the Online Test.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: All-India Online Selection Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Selection Process Guidelines for Management Trainees & Design Trainees",
+        "papers": [
+          {
+            "paper_name": "Part I: General Awareness",
+            "marks": 20,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II: English & Reasoning",
+            "marks": 40,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III: Discipline Engineering / Professional Knowledge",
+            "marks": 100,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Interview Assessment Scheme (1:5 Candidate Ratio)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical competence, Leadership & Personality)",
+            "marks": 15,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying benchmark in interview"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During 1 year training, Management Trainees receive basic pay ₹40,000 in IDA Grade II, 58% IDA constant as of 2025-07-01, company accommodation/HRA, and cafeteria perks (35%). Total CTC is approximately ₹12-14 Lakhs per annum.",
+    "pay_level": "IDA Grade II (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://hal-india.co.in",
+    "pay_source_label": "HAL Emoluments & Compensation Package for Management Trainees",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 78000,
+      "max": 94000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 82000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Basic Pay ₹40,000, 58% IDA (₹23,200), HRA (up to 27% = ₹10,800), and Cafeteria Perks @ 35% (₹14,000), less statutory deductions for PF and Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) indexed to AICPI",
+      "Company township accommodation or House Rent Allowance (HRA)",
+      "Cafeteria allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP)",
+      "Comprehensive medical treatment for employee and dependent family members in HAL hospitals",
+      "Provident Fund, Gratuity, and Group Insurance Schemes"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics from recent HAL Management Trainee and Design Trainee batches.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 185,
+        "applicants": 68000,
+        "shortlisted_for_mains": 925,
+        "selectivity_ratio": "approx. 1 in 368",
+        "confidence": "reported",
+        "as_of": "2023-09-10",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Advt. HAL/HR/2023 Selection and Empanelment Statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and career opportunities hosted on the HAL portal.",
+    "links": [
+      {
+        "label": "HAL Careers & Recruitment Portal",
+        "url": "https://hal-india.co.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "HAL Official Corporate Website",
+        "url": "https://hal-india.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

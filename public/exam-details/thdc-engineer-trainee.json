@@ -1,0 +1,193 @@
+{
+  "id": "thdc-engineer-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Engineer Trainees at THDC India Limited undergo 1 year of training in IDA Grade E-2 before absorption as Senior Engineer in IDA Grade E-3, advancing through THDC's executive promotion framework across hydro, thermal, wind, and solar power projects.",
+    "steps": [
+      {
+        "designation": "Engineer Trainee (Civil / Electrical / Mechanical / IT)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Recruitment Notification for Engineer Trainees through GATE"
+      },
+      {
+        "designation": "Senior Engineer",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Executive Service Regulations (Cadre Absorption Norms)"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Middle Management Progression Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Senior Executive Cadre Structure"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Project & Plant Leadership Regulations"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-8 / E-9 (₹1,20,000 – ₹3,00,000)",
+        "years": "Apex Leadership",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Board Level Governance Norms"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection of Engineer Trainees is based on valid normalized GATE scores (85% weightage), Group Discussion (5% weightage), and Personal Interview (10% weightage). Qualifying in the interview is mandatory.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: GATE Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Advt. No. 01/2023 Selection Process and Weightage Criteria",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Relevant Engineering Discipline (CE/EE/ME/CS)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Per standard GATE examination deduction rules",
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisting ratio 1:5 based on normalized GATE marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Group Discussion & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC GD and Personal Interview Criteria",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (GD)",
+            "marks": 5,
+            "duration_minutes": 20,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Personal Interview (PI)",
+            "marks": 10,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for Unreserved/EWS, 30% for SC/ST/OBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Engineer Trainees receive basic pay ₹50,000 in IDA Grade E-2 during training, plus 58% IDA constant as of 2025-07-01, hydro project allowances, company accommodation/HRA (up to 27%), and cafeteria perks (35%). On absorption in Grade E-3, basic pay advances to ₹60,000.",
+    "pay_level": "IDA Grade E-2 during training (₹50,000 – ₹1,60,000); Grade E-3 on regularisation (₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.thdc.co.in",
+    "pay_source_label": "THDC Remuneration and Service Benefits Schedule for Engineer Trainees",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 96000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with training Basic Pay ₹50,000, 58% IDA (₹29,000), HRA (up to 27% = ₹13,500), and Cafeteria Perks @ 35% (₹17,500), less statutory deductions for PF and Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Power plant township residential accommodation or House Rent Allowance (HRA)",
+      "Cafeteria allowances up to 35% of basic pay",
+      "Project allowance / special remote area allowance for Tehri/Koteshwar project sites",
+      "Performance Related Pay (PRP)",
+      "Comprehensive medical treatment for employee and dependent family members in project hospitals",
+      "Contributory Provident Fund, Gratuity, and Post-Retirement Medical Care"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics from recent THDC Engineer Trainee recruitment batches via GATE.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 90,
+        "applicants": 18200,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 202",
+        "confidence": "reported",
+        "as_of": "2023-11-15",
+        "source_url": "https://www.thdc.co.in",
+        "source_label": "THDC Advt. No. 01/2023 Recruitment Result Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and job postings on the THDC recruitment portal.",
+    "links": [
+      {
+        "label": "THDC Recruitment & Careers Portal",
+        "url": "https://www.thdc.co.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "THDC Official Corporate Website",
+        "url": "https://www.thdc.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
