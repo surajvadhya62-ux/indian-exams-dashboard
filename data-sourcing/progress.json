@@ -3,13 +3,13 @@
   "last_updated": "2026-09-14",
   "totals": {
     "exams": 504,
-    "verified": 474,
+    "verified": 482,
     "partial": 0,
-    "not_started": 30,
+    "not_started": 22,
     "exams_total": 504,
-    "detail_files_exist": 474,
+    "detail_files_exist": 482,
     "total_exams": 504,
-    "detail_files_present": 474,
+    "detail_files_present": 482,
     "last_updated": "2026-09-14"
   },
   "sessions": [
@@ -1448,6 +1448,25 @@
         "gsi-driver-mechanic"
       ],
       "notes": "Unit u133 completed: 5 regulatory, standards, and scientific statutory examinations researched and verified from primary official sources (CAG, BIS, ICFRE, GSI)."
+    },
+    {
+      "session_id": "2026-09-14-u134",
+      "date": "2026-09-14",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-6f-central-psus"
+      ],
+      "exam_ids_touched": [
+        "aai-atc",
+        "india-post-gds",
+        "pgcil-diploma-trainee",
+        "dfccil-executive",
+        "hal-design-trainee",
+        "bel-probationary-engineer",
+        "bpcl-management-trainee",
+        "hpcl-officer-engineer"
+      ],
+      "notes": "Unit u134 completed: 8 central PSUs & statutory corporations examinations researched and verified from primary official sources (AAI, India Post, POWERGRID, DFCCIL, HAL, BEL, BPCL, HPCL)."
     }
   ],
   "exams": {
@@ -9452,8 +9471,8 @@
     "aai-atc": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/aai-atc.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -9491,7 +9510,37 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "pgcil-et": {
       "batch_id": "batch-6-central-psu-defence-institute",
@@ -12419,8 +12468,8 @@
     "india-post-gds": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/india-post-gds.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -12458,7 +12507,37 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "india-post-mts-postman": {
       "batch_id": "batch-6-central-psu-defence-institute",
@@ -23203,8 +23282,8 @@
     "pgcil-diploma-trainee": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/pgcil-diploma-trainee.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -23242,7 +23321,37 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "nalco-mt": {
       "batch_id": "batch-6-central-psu-defence-institute",
@@ -23795,8 +23904,8 @@
     "dfccil-executive": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/dfccil-executive.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -23834,7 +23943,37 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "nfl-management-trainee": {
       "batch_id": "batch-6-central-psu-defence-institute",
@@ -24399,8 +24538,8 @@
     "hal-design-trainee": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/hal-design-trainee.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -24438,13 +24577,43 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "bel-probationary-engineer": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/bel-probationary-engineer.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -24482,7 +24651,37 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "ecil-technical-officer": {
       "batch_id": "batch-6-central-psu-defence-institute",
@@ -24543,8 +24742,8 @@
     "bpcl-management-trainee": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/bpcl-management-trainee.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -24582,13 +24781,43 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "hpcl-officer-engineer": {
       "batch_id": "batch-6-central-psu-defence-institute",
       "detail_file": "public/exam-details/hpcl-officer-engineer.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
           "status": "not_started",
@@ -24626,7 +24855,37 @@
           "updated_by": null
         }
       },
-      "flags": []
+      "flags": [],
+      "career_ladder": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "exam_scheme": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "financial_package": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "competition_benchmarks": {
+        "status": "available",
+        "citations": 2,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      },
+      "official_downloads": {
+        "status": "available",
+        "citations": 3,
+        "last_updated": "2026-09-14",
+        "updated_by": "antigravity-ai"
+      }
     },
     "gail-executive-trainee": {
       "batch_id": "batch-6-central-psu-defence-institute",

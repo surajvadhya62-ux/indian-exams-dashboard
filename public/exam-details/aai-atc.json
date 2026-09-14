@@ -1,0 +1,246 @@
+{
+  "id": "aai-atc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Airports Authority of India Junior Executives in Air Traffic Control are appointed in Executive Grade E-1 and progress through the Air Navigation Services / Air Traffic Management hierarchy based on mandatory residency periods, air traffic control rating acquisition, and Departmental Promotion Committees (DPC).",
+    "steps": [
+      {
+        "designation": "Junior Executive (Air Traffic Control)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "Entry (1 yr training / probation)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+        "source_label": "AAI Recruitment Advt. No. 02/2025/CHQ Para 6 (Remuneration)"
+      },
+      {
+        "designation": "Assistant Manager (Air Traffic Control)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Executive Cadre Promotion Regulations (ANS Directorate)"
+      },
+      {
+        "designation": "Manager (Air Traffic Control)",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Executive Cadre Promotion Regulations (ANS Directorate)"
+      },
+      {
+        "designation": "Senior Manager (Air Traffic Control)",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Executive Cadre Promotion Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM - ATC)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Senior Executive Cadre Regulations"
+      },
+      {
+        "designation": "Joint General Manager (JGM - ATC)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Senior Executive Cadre Regulations"
+      },
+      {
+        "designation": "General Manager (GM - Air Traffic Management)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Directorate of Air Traffic Management Structure"
+      },
+      {
+        "designation": "Executive Director (ED - Air Navigation Services)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI ANS Directorate Leadership Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted through an All-India Computer Based Test (CBT) followed by Application Verification, Voice Test, test for consumption of Psychoactive Substances, Psychological Assessment Test, and Pre-Employment Medical Examination. There is no negative marking in the CBT.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+        "source_label": "AAI Advt. No. 02/2025/CHQ Para 8 (Selection Process)",
+        "papers": [
+          {
+            "paper_name": "Part A: General Aptitude (English Language, Reasoning, Numerical Ability, General Knowledge)",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B: Core Technical (Basics of Physics & Mathematics at 10+2 / Degree Level)",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Application Verification, Voice Test, Psychoactive Substances & Psychological Assessment",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+        "source_label": "AAI Advt. No. 02/2025/CHQ Para 8(x)",
+        "papers": [
+          {
+            "paper_name": "Voice Test & Audio Comprehension",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Clear voice without stammering/lisping and attain minimum ICAO Language Proficiency Level 4)"
+          },
+          {
+            "paper_name": "Psychological Assessment & Psychoactive Substance Screening",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Negative report for psychoactive substances & psychologically fit)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Pre-Employment Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+        "source_label": "AAI Advt. No. 02/2025/CHQ Para 8(xiv)",
+        "papers": [
+          {
+            "paper_name": "Medical Examination (ICAO Class 3 Medical Standards for Air Traffic Controllers)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit as per DGCA / ICAO Class 3 Medical Standards"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Executives in AAI are inducted in IDA Pay Scale E-1 with entry basic pay of ₹40,000, 35% cafeteria perks, 58% DA constant as of 2025-07-01, HRA, and additional Air Traffic Controller rating and stress allowances. Approximate annual Cost to Company (CTC) is ₹13 Lakhs.",
+    "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+    "pay_source_label": "AAI Advt. No. 02/2025/CHQ Para 6 (Remuneration)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 88000,
+      "max": 102000
+    },
+    "in_hand_range_estimate": {
+      "min": 76000,
+      "max": 88000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹40,000 at 58% DA (₹23,200), Perks under Cafeteria Approach @ 35% of Basic Pay (₹14,000), House Rent Allowance (9% to 27% depending on airport city classification, ₹3,600 to ₹10,800), and ATCO rating allowance, less CPF (12% of Basic + DA) and tax deductions. Annual CTC approx ₹13 Lakhs.",
+    "official_perks": [
+      "Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach @ 35% of Basic Pay",
+      "House Rent Allowance (HRA) or AAI residential accommodation at airport quarters",
+      "Air Traffic Control Rating Allowance and Stress Allowance upon rating endorsement",
+      "Contributory Provident Fund (CPF), Gratuity, and Social Security Schemes",
+      "Comprehensive medical coverage under AAI Medical Rules for employee and dependents"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancy and competition figures compiled from official AAI recruitment advertisements, candidate shortlist notifications, and exam statistics.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 309,
+        "applicants": 135000,
+        "shortlisted_for_mains": 1240,
+        "selectivity_ratio": "approx. 1 in 437",
+        "confidence": "reported",
+        "as_of": "2026-04-25",
+        "source_url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+        "source_label": "AAI Advt. No. 02/2025/CHQ notifying 309 Junior Executive (ATC) vacancies (UR 125, EWS 30, OBC-NCL 72, SC 55, ST 27); approx 1,35,000 registered candidates."
+      },
+      {
+        "year": 2023,
+        "vacancies": 496,
+        "applicants": 168000,
+        "shortlisted_for_mains": 1984,
+        "selectivity_ratio": "approx. 1 in 339",
+        "confidence": "reported",
+        "as_of": "2023-11-01",
+        "source_url": "https://www.aai.aero/en/careers/recruitment",
+        "source_label": "AAI Advt. No. 05/2023 notifying 496 Junior Executive (ATC) vacancies; approx 1.68 lakh candidates appeared in CBT."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on Airports Authority of India web servers.",
+    "links": [
+      {
+        "label": "AAI Junior Executive (ATC) Official Notification (Advt. No. 02/2025/CHQ)",
+        "url": "https://www.aai.aero/sites/default/files/examdashboard_advertisement/Detailed%20ATC%20Advertisement%2002-2025-CHQ.pdf",
+        "type": "notification",
+        "cycle_label": "02/2025/CHQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AAI Official Recruitment Dashboard",
+        "url": "https://www.aai.aero/en/careers/recruitment",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Airports Authority of India Official Portal",
+        "url": "https://www.aai.aero",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

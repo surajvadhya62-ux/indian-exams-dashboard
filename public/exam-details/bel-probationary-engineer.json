@@ -1,0 +1,247 @@
+{
+  "id": "bel-probationary-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Probationary Engineers in Bharat Electronics Limited undergo 1 year of probation in Executive Grade E-II and are confirmed as Engineers. Progression through executive grades is based on annual Performance Management System (PMS) ratings, minimum residency periods, and Departmental Promotion Committees (DPC).",
+    "steps": [
+      {
+        "designation": "Probationary Engineer (PE)",
+        "pay_level": "IDA Grade E-II (₹40,000 – ₹1,40,000)",
+        "years": "1 yr probation",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in/job-notifications/",
+        "source_label": "BEL Probationary Engineer Recruitment Scheme & Grade E-II Pay Scale"
+      },
+      {
+        "designation": "Engineer",
+        "pay_level": "IDA Grade E-II (₹40,000 – ₹1,40,000)",
+        "years": "Confirmation post-probation",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Executive Cadre Absorption Rules"
+      },
+      {
+        "designation": "Senior Engineer",
+        "pay_level": "IDA Grade E-III (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Executive Cadre Promotion Policy"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-IV (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Executive Cadre Rules"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-V (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Middle Management Regulations"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-VI (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Middle Management Rules"
+      },
+      {
+        "designation": "Additional General Manager (AGM) / Deputy General Manager",
+        "pay_level": "IDA Grade E-VII (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Senior Executive Cadre Rules"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-VIII (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Senior Management Regulations"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-IX (₹1,20,000 – ₹2,80,000)",
+        "years": "Apex Strategic Leadership",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Corporate Leadership Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a Computer Based Test (CBT) and Personal Interview. The CBT carries 85% weightage and the Personal Interview carries 15% weightage for final selection merit. Negative marking of 1/4th (0.25) mark applies for every incorrect response in the CBT.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in/job-notifications/",
+        "source_label": "BEL Probationary Engineer Scheme of Examination and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: Technical Engineering Knowledge (Core Discipline Subjects)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% marks for General/OBC/EWS and 30% for SC/ST/PwBD in each part"
+          },
+          {
+            "paper_name": "Part II: General Aptitude and Reasoning Ability",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in/job-notifications/",
+        "source_label": "BEL Probationary Engineer Interview Guidelines (Shortlisted candidates called in 1:5 ratio)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical Evaluation & Managerial Competence)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "15% weightage for final selection merit; minimum 35% for UR/EWS and 30% for SC/ST/OBC/PwBD"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Document Verification & Pre-Employment Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://bel-india.in",
+        "source_label": "BEL Pre-Employment Medical Examination Standards",
+        "papers": [
+          {
+            "paper_name": "Document Verification & Pre-Employment Medical Checkup",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Satisfactory verification of B.E./B.Tech First Class degree and certified medically fit"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Probationary Engineers in BEL are placed in IDA Grade E-II pay scale (₹40,000–₹1,40,000) with starting basic pay of ₹40,000, 58% DA constant as of 2025-07-01, cafeteria approach allowances up to 35%, and company quarters or HRA. Annual Cost to Company (CTC) ranges from ₹12.5 to ₹15 Lakhs.",
+    "pay_level": "IDA Grade E-II (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://bel-india.in/job-notifications/",
+    "pay_source_label": "BEL Executive Pay Structure under DPE 3rd PRC IDA Scales",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 88000,
+      "max": 102000
+    },
+    "in_hand_range_estimate": {
+      "min": 76000,
+      "max": 88000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹40,000 with 58% IDA (₹23,200), Perks under Cafeteria Approach up to 35% of Basic Pay (₹14,000), House Rent Allowance (9% to 27% = ₹3,600 to ₹10,800 depending on posting unit in Bengaluru/Ghaziabad/Pune/Hyderabad), less statutory Provident Fund (12% of Basic+DA = ₹7,584) and income tax deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly as per AICPI",
+      "Perquisites and allowances under Cafeteria Approach up to 35% of basic pay",
+      "Performance Related Pay (PRP) variable pay linked to corporate and individual MOU ratings",
+      "Company Quarters in BEL townships or House Rent Allowance (HRA) in lieu thereof",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Superannuation Pension Scheme",
+      "Comprehensive medical coverage for self and eligible family members under BEL Medical Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official BEL recruitment notices, written test shortlists, and candidate appearance counts.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 340,
+        "applicants": 78000,
+        "shortlisted_for_mains": 1700,
+        "selectivity_ratio": "approx. 1 in 229",
+        "confidence": "reported",
+        "as_of": "2025-10-24",
+        "source_url": "https://bel-india.in/job-notifications/",
+        "source_label": "BEL Probationary Engineer Recruitment 2025 notifying 340 vacancies across Electronics, Mechanical, Computer Science, and Electrical disciplines; approximately 78,000 applicants; 1,700 candidates shortlisted for Interview (1:5 ratio)."
+      },
+      {
+        "year": 2023,
+        "vacancies": 232,
+        "applicants": 54000,
+        "shortlisted_for_mains": 1160,
+        "selectivity_ratio": "approx. 1 in 232",
+        "confidence": "reported",
+        "as_of": "2023-09-15",
+        "source_url": "https://bel-india.in/job-notifications/",
+        "source_label": "BEL Probationary Engineer 2023 cycle notifying 232 vacancies with approx 54,000 registered candidates."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and candidate shortlists published by Bharat Electronics Limited.",
+    "links": [
+      {
+        "label": "BEL Official Job Notifications Portal",
+        "url": "https://bel-india.in/job-notifications/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BEL Detailed Recruitment Notification (Advt. No. 1/2025)",
+        "url": "https://bel-india.in/wp-content/uploads/2025/02/Detailed-Advertisement-1.pdf",
+        "type": "notification",
+        "cycle_label": "01/2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Bharat Electronics Limited Official Portal",
+        "url": "https://bel-india.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

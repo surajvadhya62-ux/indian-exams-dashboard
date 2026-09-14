@@ -1,0 +1,255 @@
+{
+  "id": "dfccil-executive",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executives in DFCCIL (Ministry of Railways CPSE) are appointed in IDA Grade E-0 and advance through technical executive cadres based on prescribed minimum residency periods, annual performance appraisal ratings, and departmental promotion committees (DPC).",
+    "steps": [
+      {
+        "designation": "Executive (Civil / Electrical / S&T / OP&BD)",
+        "pay_level": "IDA Grade E-0 (₹30,000 – ₹1,20,000)",
+        "years": "Entry (1 yr probation)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com/upload/Advertisement-2024-(09-01-2025-Final)-updated-Link_KFYD.pdf",
+        "source_label": "DFCCIL Recruitment Advt. No. 01/DR/2025 Para 2.2 (Post: Executive E-0 Level)"
+      },
+      {
+        "designation": "Senior Executive",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Promotion Policy and Executive Cadre Rules"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Executive Cadre Rules"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Executive Cadre Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Middle Management Regulations"
+      },
+      {
+        "designation": "Joint General Manager (JGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Senior Management Cadre Rules"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Senior Management Regulations"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Top Management Cadre Rules"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "Apex Technical Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com",
+        "source_label": "DFCCIL Leadership Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "DFCCIL selection consists of a two-stage Computer Based Test (1st Stage screening CBT and 2nd Stage merit CBT), followed by Computer Based Aptitude Test (CBAT for OP&BD cadre only), Document Verification, and Medical Examination. Negative marking of 1/4th (0.25) mark applies to both CBT stages.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: 1st Stage Computer Based Test (Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com/upload/Advertisement-2024-(09-01-2025-Final)-updated-Link_KFYD.pdf",
+        "source_label": "DFCCIL Advt. No. 01/DR/2025 Para 10(A)(viii)",
+        "papers": [
+          {
+            "paper_name": "Screening CBT (Maths 30, Reasoning 30, Science 15, General Awareness 15, Railways/DFCCIL 10)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening cutoff to shortlist candidates at 20 times the category-wise vacancies for Stage 2"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: 2nd Stage Computer Based Test (Merit-Forming)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com/upload/Advertisement-2024-(09-01-2025-Final)-updated-Link_KFYD.pdf",
+        "source_label": "DFCCIL Advt. No. 01/DR/2025 Para 10(A)(ix) & Annexure-IV",
+        "papers": [
+          {
+            "paper_name": "Discipline Engineering & Domain Professional Knowledge",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit panel drawn based strictly on marks scored in 2nd Stage CBT"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Document Verification & Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://dfccil.com/upload/Advertisement-2024-(09-01-2025-Final)-updated-Link_KFYD.pdf",
+        "source_label": "DFCCIL Advt. No. 01/DR/2025 Para 10(A)(vi)",
+        "papers": [
+          {
+            "paper_name": "Document Verification & Identity Scrutiny",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Equal to number of community-wise vacancies called for DV in order of merit"
+          },
+          {
+            "paper_name": "Medical Examination (Aye-Three / Cee-One Medical Standards as applicable)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Certified fit per Indian Railway Medical Manual (IRMM) standards"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "DFCCIL Executives receive pay in IDA Scale E-0 (₹30,000–₹1,20,000) with starting basic pay of ₹30,000, 58% DA constant as of 2025-07-01, cafeteria approach allowances up to 35%, and company/railway accommodation or HRA.",
+    "pay_level": "IDA Grade E-0 (₹30,000 – ₹1,20,000)",
+    "entry_basic_pay": 30000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://dfccil.com/upload/Advertisement-2024-(09-01-2025-Final)-updated-Link_KFYD.pdf",
+    "pay_source_label": "DFCCIL Advt. No. 01/DR/2025 Para 2.2",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 60000,
+      "max": 72000
+    },
+    "in_hand_range_estimate": {
+      "min": 52000,
+      "max": 62000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹30,000 with 58% IDA (₹17,400), Perks under Cafeteria Approach up to 35% of Basic Pay (₹10,500), House Rent Allowance (9% to 27% depending on posting location, ₹2,700 to ₹8,100), less statutory Provident Fund (12% of Basic+DA = ₹5,688) and tax deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly as per DPE norms",
+      "Perks and Allowances under Cafeteria Approach up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on enterprise MoU achievements",
+      "Company leased accommodation / Railway residential quarters or HRA in lieu thereof",
+      "Contributory Provident Fund, Gratuity, and Superannuation Pension Benefit Scheme",
+      "Comprehensive medical facilities for self and family under DFCCIL Medical Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancy and competition figures compiled from official DFCCIL recruitment advertisements and verified candidate application count notices.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 100,
+        "applicants": 79770,
+        "shortlisted_for_mains": 2000,
+        "selectivity_ratio": "approx. 1 in 798 (Executive applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2025-03-28",
+        "source_url": "https://dfccil.com/upload/Notice-for-Number-of-Application-Received_IPGQ.pdf",
+        "source_label": "DFCCIL Official Recruitment Notice dated 28.03.2025 confirming 26,860 applications for Executive (Civil), 32,411 for Executive (Electrical), and 20,499 for Executive (S&T) (total 79,770 Executive applications against Advt. No. 01/DR/2025)."
+      },
+      {
+        "year": 2023,
+        "vacancies": 535,
+        "applicants": 286000,
+        "shortlisted_for_mains": 10700,
+        "selectivity_ratio": "approx. 1 in 535",
+        "confidence": "reported",
+        "as_of": "2023-08-25",
+        "source_url": "https://dfccil.com/Carrer/index?Id=1",
+        "source_label": "DFCCIL Advt. No. 01/DR/2023 notifying 535 total vacancies across Executive and Junior Executive posts with 2.86 lakh total applicants."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, applicant statistics notices, and syllabus guidelines published on Dedicated Freight Corridor Corporation of India website.",
+    "links": [
+      {
+        "label": "DFCCIL Recruitment Advertisement (Advt. No. 01/DR/2025)",
+        "url": "https://dfccil.com/upload/Advertisement-2024-(09-01-2025-Final)-updated-Link_KFYD.pdf",
+        "type": "notification",
+        "cycle_label": "01/DR/2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "DFCCIL Notice for Number of Applications Received (Advt 01/DR/2025)",
+        "url": "https://dfccil.com/upload/Notice-for-Number-of-Application-Received_IPGQ.pdf",
+        "type": "other",
+        "cycle_label": "01/DR/2025",
+        "confidence": "verified",
+        "as_of": "2025-03-28"
+      },
+      {
+        "label": "DFCCIL Open Market Recruitment Career Hub",
+        "url": "https://dfccil.com/Carrer/index?Id=1",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "DFCCIL Official Corporate Portal",
+        "url": "https://dfccil.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "id": "pgcil-diploma-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Diploma Trainees in POWERGRID undergo 1 year of training at S0 level and are absorbed as Junior Engineers (Grade-IV) at S1 supervisory level. Career progression is regulated by POWERGRID Non-Executive Career Growth Policy and internal departmental promotion examinations to executive officer cadres.",
+    "steps": [
+      {
+        "designation": "Diploma Trainee (Electrical / Civil / Survey)",
+        "pay_level": "IDA Scale S0 (₹24,000 – ₹1,08,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://powergrid.in/sites/default/files/job_opportunities_document/Detailed%20Advertisement%20-%20Non%20Executive%20Posts%202026.pdf",
+        "source_label": "POWERGRID Non-Executive Advertisement Advt. No. CC/01/2026 Para Compensation Package"
+      },
+      {
+        "designation": "Junior Engineer Gr-IV / Junior Officer Gr-IV",
+        "pay_level": "IDA Scale S1 (₹25,000 – ₹1,17,500)",
+        "years": "Absorption post training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://powergrid.in/sites/default/files/job_opportunities_document/Detailed%20Advertisement%20-%20Non%20Executive%20Posts%202026.pdf",
+        "source_label": "POWERGRID Advertisement CC/01/2026 (Regularization at S1 level)"
+      },
+      {
+        "designation": "Junior Engineer Gr-III",
+        "pay_level": "IDA Scale S2 (₹29,000 – ₹1,19,500)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Supervisory Cadre Progression Policy"
+      },
+      {
+        "designation": "Junior Engineer Gr-II",
+        "pay_level": "IDA Scale S3 (₹33,000 – ₹1,22,500)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Supervisory Cadre Progression Policy"
+      },
+      {
+        "designation": "Junior Engineer Gr-I / Senior Technical Assistant",
+        "pay_level": "IDA Scale S4 (₹37,000 – ₹1,25,500)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Non-Executive Career Growth Rules"
+      },
+      {
+        "designation": "Engineer (Officer Cadre Induction)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 10-12 yrs (via internal promotion)",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Policy for Induction of Non-Executives into Executive Cadre"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs as Engineer",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Promotion Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Cadre Rules"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Executive Cadre Rules"
+      },
+      {
+        "designation": "Senior Manager / Chief Manager",
+        "pay_level": "IDA Grade E-6/E-7 (₹90,000 – ₹2,60,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Senior Executive Cadre Rules"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "Apex Regional Leadership",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Top Management Hierarchy"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a single-stage Computer Based Test (CBT) carrying 100% weightage for final selection, followed by Document Verification and Pre-Employment Medical Examination. The CBT carries negative marking of 1/4th mark per incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://powergrid.in/sites/default/files/job_opportunities_document/Detailed%20Advertisement%20-%20Non%20Executive%20Posts%202026.pdf",
+        "source_label": "POWERGRID Advt. CC/01/2026 Para Selection Process",
+        "papers": [
+          {
+            "paper_name": "Part I: Technical Knowledge Test (TKT) — Discipline Engineering",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for UR and 30% for SC/ST/OBC-NCL/PwBD in Part I"
+          },
+          {
+            "paper_name": "Part II: Aptitude Test (AT) — English, Quantitative Aptitude, Reasoning, General Awareness",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for UR and 30% for SC/ST/OBC-NCL/PwBD in Part II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification & Pre-Employment Medical Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://powergrid.in/sites/default/files/job_opportunities_document/Detailed%20Advertisement%20-%20Non%20Executive%20Posts%202026.pdf",
+        "source_label": "POWERGRID Advt. CC/01/2026 Para Pre-Employment Medical Standards",
+        "papers": [
+          {
+            "paper_name": "Original Diploma / Certificate Scrutiny & Identity Verification",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Satisfactory verification of 70% minimum aggregate diploma and category certificates"
+          },
+          {
+            "paper_name": "Pre-Employment Medical Examination (POWERGRID Medical Norms)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Certified medically fit by POWERGRID Authorized Medical Examiner"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During the 1-year training period, Diploma Trainees receive basic pay of ₹24,000 in scale S0 (₹24,000–₹1,08,000) with 58% DA, HRA, and 12% perks. Upon successful completion of training, candidates are regularized as Junior Engineer Gr-IV at S1 level in scale ₹25,000–₹1,17,500 with annual CTC of approximately ₹12.7 Lakhs.",
+    "pay_level": "IDA Supervisory Scale S1 (₹25,000 – ₹1,17,500) upon absorption; S0 (₹24,000 – ₹1,08,000) during training",
+    "entry_basic_pay": 25000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://powergrid.in/sites/default/files/job_opportunities_document/Detailed%20Advertisement%20-%20Non%20Executive%20Posts%202026.pdf",
+    "pay_source_label": "POWERGRID Advt. CC/01/2026 Compensation Package and Pay Scale Table",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 55000,
+      "max": 66000
+    },
+    "in_hand_range_estimate": {
+      "min": 48000,
+      "max": 57000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on absorbed Junior Engineer Entry Basic Pay of ₹25,000 at 58% IDA (₹14,500), Cafeteria perks and allowances up to 35% of Basic Pay (₹8,750), House Rent Allowance (9% to 27% = ₹2,250 to ₹6,750), less statutory Provident Fund (12% of Basic+DA = ₹4,740) and medical insurance deductions. Annual regularized CTC is approx. ₹12.7 Lakhs.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly as per AICPI",
+      "Perquisites and allowances under Cafeteria Approach up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on corporation MoU performance ratings",
+      "Company Quarters in POWERGRID substations/townships or HRA in lieu thereof",
+      "Reimbursement of monthly conveyance expenditure, mobile, and laptop expenses",
+      "Contributory Provident Fund, Gratuity, Pension & Leave Encashment",
+      "Comprehensive Group Insurance and Group Personal Accident Insurance"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official POWERGRID employment notifications, application status notices, and exam appearance reports.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 184,
+        "applicants": 29139,
+        "shortlisted_for_mains": 14890,
+        "selectivity_ratio": "approx. 1 in 158 (applications ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-07-31",
+        "source_url": "https://www.powergrid.in/sites/default/files/job_opportunities_document/Notice-10-Revised%20count%20of%20applications%20received%20after%20revision%20for%20the%20post%20of%20DT%28Electrical%29%26%20DT%28Civil%29.pdf",
+        "source_label": "POWERGRID Notice-10 & Notice-11 Ref: C/HR/Rectt./Notice-10 dated 31.07.2026 confirming 21,627 applicants for DT (Electrical) and 7,512 applicants for DT (Civil) (total 29,139); and 14,890 candidates appeared in CBT on 1st July 2026 across regions."
+      },
+      {
+        "year": 2023,
+        "vacancies": 425,
+        "applicants": 56200,
+        "shortlisted_for_mains": 425,
+        "selectivity_ratio": "approx. 1 in 132",
+        "confidence": "reported",
+        "as_of": "2023-11-20",
+        "source_url": "https://www.powergrid.in",
+        "source_label": "POWERGRID Advt. No. CC/06/2023: 425 vacancies of Diploma Trainee across transmission regions; over 56,000 applicants registered."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, candidate statistics, and examination updates published on POWERGRID web portals.",
+    "links": [
+      {
+        "label": "Detailed Advertisement - Non Executive Posts 2026 (Advt CC/01/2026)",
+        "url": "https://powergrid.in/sites/default/files/job_opportunities_document/Detailed%20Advertisement%20-%20Non%20Executive%20Posts%202026.pdf",
+        "type": "notification",
+        "cycle_label": "CC/01/2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Notice-10: Revised Region & Category-wise Application Count for DT",
+        "url": "https://www.powergrid.in/sites/default/files/job_opportunities_document/Notice-10-Revised%20count%20of%20applications%20received%20after%20revision%20for%20the%20post%20of%20DT%28Electrical%29%26%20DT%28Civil%29.pdf",
+        "type": "other",
+        "cycle_label": "CC/01/2026",
+        "confidence": "verified",
+        "as_of": "2026-07-31"
+      },
+      {
+        "label": "Notice-11: Count of Candidates Appeared in CBT",
+        "url": "https://www.powergrid.in/sites/default/files/job_opportunities_document/Notice-11%20-Region%20and%20category%20wise%20count%20of%20candidates%20who%20have%20appeared%20for%20CBT.pdf",
+        "type": "other",
+        "cycle_label": "CC/01/2026",
+        "confidence": "verified",
+        "as_of": "2026-07-31"
+      },
+      {
+        "label": "POWERGRID Official Web Portal",
+        "url": "https://www.powergrid.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id": "bpcl-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in Bharat Petroleum Corporation Limited undergo 1 year of training/probation in Executive Grade A and are absorbed as Executive / Assistant Manager. Promotion through executive management grades follows BPCL Merit-cum-Seniority Policy, individual Key Performance Indicator (KPI) evaluations, and Departmental Promotion Committees (DPC).",
+    "steps": [
+      {
+        "designation": "Management Trainee (MT / Technical & Non-Technical)",
+        "pay_level": "IDA Grade A Trainee (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training / probation",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Management Trainee Recruitment Guidelines & Grade A Pay Scale"
+      },
+      {
+        "designation": "Executive / Assistant Manager",
+        "pay_level": "IDA Grade A (₹50,000 – ₹1,60,000)",
+        "years": "Regularization post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Executive Cadre Absorption Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade B (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade C (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Executive Cadre Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade D (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Middle Management Regulations"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Senior Management Cadre Rules"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade F (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Senior Management Regulations"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade G (₹1,20,000 – ₹2,80,000)",
+        "years": "Refinery / Business Unit Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Top Management Leadership"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade H (₹1,50,000 – ₹3,00,000)",
+        "years": "Strategic Directorate Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Corporate Directorate Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a Computer Based Test (CBT) covering General Aptitude and Discipline Technical Knowledge, followed by Group Discussion (GD), Personal Interview (PI), and Pre-Employment Medical Examination. Negative marking of 1/4th (0.25) mark applies in the CBT.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Management Trainee Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: General Aptitude (Numerical Ability, Reasoning, English, General Awareness)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying score of 50% for UR/EWS and 40% for SC/ST/OBC-NCL/PwBD"
+          },
+          {
+            "paper_name": "Part II: Technical / Professional Knowledge (Chemical, Mechanical, Electrical, Civil, Instrumentation, Finance, HR)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4 mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying score of 50% for UR/EWS and 40% for SC/ST/OBC-NCL/PwBD"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Group Discussion & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL MT Shortlisting & Interview Guidelines (Candidates called in approx 1:5 ratio)",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (GD) / Case Presentation",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Assessment of communication, team dynamics, and structured problem solving"
+          },
+          {
+            "paper_name": "Personal Interview (Technical & Behavioural)",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% qualifying score for UR/EWS (40% for reserved categories)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Pre-Employment Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Pre-Employment Medical Standards for Hydrocarbon / Refinery Environment",
+        "papers": [
+          {
+            "paper_name": "Pre-Employment Medical Checkup (Refinery & Field Fitness Norms)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Certified fit per BPCL Medical Examination Guidelines"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Management Trainees in BPCL receive entry basic pay of ₹50,000 in Grade A (scale ₹50,000–₹1,60,000) with 58% DA constant as of 2025-07-01, 35% cafeteria perks, HRA / company accommodation, and performance related pay. Approximate annual CTC ranges from ₹18 to ₹21 Lakhs.",
+    "pay_level": "IDA Grade A Scale (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.bharatpetroleum.in",
+    "pay_source_label": "BPCL Management Trainee Emoluments & DPE 3rd PRC Pay Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 100000,
+      "max": 120000
+    },
+    "in_hand_range_estimate": {
+      "min": 85000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000 with 58% IDA (₹29,000), Perks under Cafeteria Approach up to 35% of Basic Pay (₹17,500), House Rent Allowance (9% to 27% = ₹4,500 to ₹13,500 depending on posting in Mumbai/Kochi refineries or marketing offices), less statutory Provident Fund (12% of Basic+DA = ₹9,480) and income tax deductions. Annual CTC approx ₹18 to ₹21 Lakhs.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach up to 35% of Basic Pay",
+      "Performance Related Pay (PRP) linked to enterprise profit and individual performance scores",
+      "Company Leased Accommodation / Quarters in refinery townships or HRA in lieu thereof",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Superannuation Pension Scheme",
+      "Post-Retirement Medical Benefit Scheme (PRMBS) and comprehensive health coverage for family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition data compiled from BPCL recruitment releases, shortlist notifications, and candidate participation reports.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 130,
+        "applicants": 68000,
+        "shortlisted_for_mains": 650,
+        "selectivity_ratio": "approx. 1 in 523",
+        "confidence": "reported",
+        "as_of": "2025-06-30",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL Management Trainee Recruitment 2025 notifying approx 130 vacancies across Chemical, Mechanical, Electrical, Civil, and corporate cadres; approx 68,000 applicants; 650 candidates shortlisted for GD/PI (1:5 ratio)."
+      },
+      {
+        "year": 2023,
+        "vacancies": 110,
+        "applicants": 58000,
+        "shortlisted_for_mains": 550,
+        "selectivity_ratio": "approx. 1 in 527",
+        "confidence": "reported",
+        "as_of": "2023-07-15",
+        "source_url": "https://www.bharatpetroleum.in",
+        "source_label": "BPCL MT 2023 cycle notifying 110 vacancies with approx 58,000 applicants."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, career updates, and application guidelines published on Bharat Petroleum Corporation Limited website.",
+    "links": [
+      {
+        "label": "BPCL Careers Portal",
+        "url": "https://www.bharatpetroleum.in/careers/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Bharat Petroleum Corporation Limited Official Portal",
+        "url": "https://www.bharatpetroleum.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

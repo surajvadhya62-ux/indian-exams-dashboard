@@ -1,0 +1,230 @@
+{
+  "id": "india-post-gds",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Gramin Dak Sevaks (BPM, ABPM, Dak Sevak) are holders of civil posts outside the regular civil service, governed by GDS (Conduct and Engagement) Rules. They are eligible for absorption and promotion into the regular Department of Posts cadre through Limited Departmental Competitive Examinations (LDCE) and seniority quotas.",
+    "steps": [
+      {
+        "designation": "Gramin Dak Sevak (Branch Postmaster / ABPM / Dak Sevak)",
+        "pay_level": "TRCA Slab 1/2 (₹10,000 / ₹12,000 – ₹29,380 / ₹35,480)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://indiapostgdsonline1.cept.gov.in/Notifications/Model_Notification.pdf",
+        "source_label": "India Post GDS Model Notification Para 3 (Emoluments: Time Related Continuity Allowance)"
+      },
+      {
+        "designation": "Multi-Tasking Staff (MTS)",
+        "pay_level": "7th CPC Pay Level 1 (₹18,000 – ₹56,900)",
+        "years": "min. 3 yrs continuous GDS service",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts MTS Recruitment Rules (LDCE & Seniority Quota for GDS)"
+      },
+      {
+        "designation": "Postman / Mail Guard",
+        "pay_level": "7th CPC Pay Level 3 (₹21,700 – ₹69,100)",
+        "years": "min. 5 yrs continuous GDS service",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Postman & Mail Guard Recruitment Rules (GDS Quota)"
+      },
+      {
+        "designation": "Postal Assistant (PA) / Sorting Assistant (SA)",
+        "pay_level": "7th CPC Pay Level 4 (₹25,500 – ₹81,100)",
+        "years": "min. 5-8 yrs continuous service via LDCE",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Postal Assistant Recruitment Regulations"
+      },
+      {
+        "designation": "Lower Selection Grade (LSG) Supervisor",
+        "pay_level": "7th CPC Pay Level 5 (₹29,200 – ₹92,300)",
+        "years": "approx. 5 yrs as PA",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Postal Operative Hierarchy Promotion Rules"
+      },
+      {
+        "designation": "Higher Selection Grade II / I (HSG-II / HSG-I Postmaster)",
+        "pay_level": "7th CPC Pay Level 6/7 (₹35,400 – ₹1,42,400)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Supervisory Cadre Norms"
+      },
+      {
+        "designation": "Assistant Superintendent of Posts (ASPO) / Inspector of Posts (IP)",
+        "pay_level": "7th CPC Pay Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts Inspectorate Cadre Structure"
+      },
+      {
+        "designation": "Senior Superintendent of Post Offices (SSPO) / Postal Services Group B",
+        "pay_level": "7th CPC Pay Level 9/10 (₹53,100 – ₹1,77,500)",
+        "years": "Apex Divisional Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Postal Services Group B Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Engagement of Gramin Dak Sevaks is 100% merit-based with no written examination or viva-voce. A system-generated merit list is compiled solely on the basis of 10th standard (Secondary School Examination) marks, followed by Document Verification and Pre-engagement Formalities.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Automated System-Generated Merit List",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://indiapostgdsonline1.cept.gov.in/Notifications/Model_Notification.pdf",
+        "source_label": "India Post GDS Model Notification Para 5 & Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "Class 10th / Matriculation Merit Evaluation (Compulsory Maths, English, and Local Language)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-based cutoff (grades/marks normalized to percentage with multiplication factor 9.5 where applicable)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification (DV)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://indiapostgdsonline1.cept.gov.in/Notifications/Model_Notification.pdf",
+        "source_label": "India Post GDS Model Notification Para 13 & DV Guidelines",
+        "papers": [
+          {
+            "paper_name": "Physical Scrutiny of 10th Certificate, Caste/EWS, PwBD, Medical Fitness & Identity Proofs",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Satisfactory verification by Divisional Head / designated verifying authority"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Pre-Engagement Formalities & Accommodation Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://indiapostgdsonline1.cept.gov.in/Notifications/Model_Notification.pdf",
+        "source_label": "India Post GDS Model Notification Para 7, 8, 12",
+        "papers": [
+          {
+            "paper_name": "Branch Post Office Accommodation Undertaking, Cycling Declaration & Alternate Livelihood Undertaking",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Provision of standard accommodation (min 100 sq ft) for BPM and undertaking of secondary income"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Gramin Dak Sevaks receive remuneration in the form of Time Related Continuity Allowance (TRCA) based on the recommendations of the Kamlesh Chandra Committee. Minimum entry TRCA is ₹12,000 for Branch Postmaster (Level 1 / 4 hours) and ₹10,000 for Assistant Branch Postmaster / Dak Sevak, supplemented by Central DA at canonical 58% as of 2025-07-01 and role-specific allowances.",
+    "pay_level": "TRCA Level 1 (₹12,000 – ₹29,380 for BPM; ₹10,000 – ₹24,470 for ABPM/Dak Sevak)",
+    "entry_basic_pay": 12000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://indiapostgdsonline1.cept.gov.in/Notifications/Model_Notification.pdf",
+    "pay_source_label": "Department of Posts OM No. 17-31/2016-GDS and Model Notification Para 3",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 19500,
+      "max": 24500
+    },
+    "in_hand_range_estimate": {
+      "min": 18000,
+      "max": 22500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry TRCA of ₹12,000 (BPM Level 1) with 58% Dearness Allowance (₹6,960), Composite Allowance (₹500 for standard premises), Office Maintenance Allowance (₹100), Cycle Maintenance Allowance (₹180 for delivery work), and Stationery Allowance (₹25), less voluntary Service Discharge Benefit Scheme (SDBS ₹300) and GDS Group Insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance on TRCA aligned with Central Government DA orders",
+      "Composite Allowance for providing Branch Post Office accommodation (up to ₹500/month)",
+      "Office Maintenance Allowance (OMA) and Stationery Allowance",
+      "Cycle Maintenance Allowance (CMA) for delivery staff",
+      "Service Discharge Benefit Scheme (SDBS) contributory pension with matching Department contribution",
+      "GDS Group Insurance Scheme (GIS) and Gratuity up to ₹1,50,000 on completion of qualifying engagement",
+      "Severance amount upon discharge and 20 days paid leave per annum"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from Department of Posts GDS online engagement portal, press releases, and circle-wise merit lists. India Post GDS is one of India's largest recurring mass recruitment processes.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 44228,
+        "applicants": 4550000,
+        "shortlisted_for_mains": 44228,
+        "selectivity_ratio": "approx. 1 in 103",
+        "confidence": "reported",
+        "as_of": "2026-08-19",
+        "source_url": "https://indiapostgdsonline.gov.in",
+        "source_label": "Department of Posts GDS Online Engagement Schedule July 2024 / Jan 2025 notifying 44,228 vacancies across 23 postal circles; over 45.5 lakh applications submitted."
+      },
+      {
+        "year": 2023,
+        "vacancies": 40889,
+        "applicants": 4210000,
+        "shortlisted_for_mains": 40889,
+        "selectivity_ratio": "approx. 1 in 103",
+        "confidence": "reported",
+        "as_of": "2023-03-11",
+        "source_url": "https://indiapostgdsonline.gov.in",
+        "source_label": "India Post GDS Schedule-I (January 2023) notifying 40,889 vacancies nationwide; 42.1 lakh candidates applied."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official engagement notifications, merit lists, and service guidelines published on India Post and CEPT portals.",
+    "links": [
+      {
+        "label": "India Post GDS Model Notification & Guidelines",
+        "url": "https://indiapostgdsonline1.cept.gov.in/Notifications/Model_Notification.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "India Post GDS Online Engagement Portal",
+        "url": "https://indiapostgdsonline.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Department of Posts Official Portal",
+        "url": "https://www.indiapost.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

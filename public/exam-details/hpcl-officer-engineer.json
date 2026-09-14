@@ -1,0 +1,255 @@
+{
+  "id": "hpcl-officer-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Engineers and Officers in Hindustan Petroleum Corporation Limited (HPCL) are appointed in Salary Scale E2 (₹50,000–₹1,60,000) and undergo 1 year of probation. Promotion through executive management grades is based on annual Performance Management System (PMS) ratings, minimum qualifying residency periods, and Departmental Promotion Committees (DPC).",
+    "steps": [
+      {
+        "designation": "Officer / Engineer (Mechanical / Electrical / Civil / Chemical / Instrumentation)",
+        "pay_level": "IDA Grade E2 (₹50,000 – ₹1,60,000)",
+        "years": "Entry (1 yr probation)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+        "source_label": "HPCL Recruitment of Officers Notification Para 2 (Positions & Pay Scale)"
+      },
+      {
+        "designation": "Senior Officer",
+        "pay_level": "IDA Grade E3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Executive Cadre Promotion Policy"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Executive Cadre Rules"
+      },
+      {
+        "designation": "Deputy Manager / Manager",
+        "pay_level": "IDA Grade E5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Middle Management Regulations"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Middle Management Rules"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Senior Management Cadre Rules"
+      },
+      {
+        "designation": "Assistant General Manager (AGM) / General Manager (GM)",
+        "pay_level": "IDA Grade E8 (₹1,20,000 – ₹2,80,000)",
+        "years": "Refinery / Zonal Business Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Senior Management Regulations"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Strategic Business Unit Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Corporate Directorate Structure"
+      },
+      {
+        "designation": "Director / Chairman & Managing Director (CMD)",
+        "pay_level": "Apex Board Level Schedule A CPSE Scale",
+        "years": "Board Appointment (PESB)",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Board of Directors Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a Computer Based Test (CBT), Group Task (GT), and Personal Interview (PI). Final merit is compiled by assigning 85% weightage to CBT, 5% weightage to Group Task, and 10% weightage to Personal Interview. There is no negative marking in the CBT.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+        "source_label": "HPCL Notification Para Shortlisting & Selection Process",
+        "papers": [
+          {
+            "paper_name": "Part I: General Aptitude (English, Quantitative Aptitude, Intellectual Potential / Reasoning & DI)",
+            "marks": 85,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks of 50% for UR/EWS and 40% for SC/ST/OBC-NCL/PwBD in CBT"
+          },
+          {
+            "paper_name": "Part II: Technical / Professional Knowledge (Respective Engineering Discipline)",
+            "marks": 85,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks of 50% for UR/EWS and 40% for SC/ST/OBC-NCL/PwBD in CBT"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Group Task & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+        "source_label": "HPCL Notification Para Shortlisting & Selection Process",
+        "papers": [
+          {
+            "paper_name": "Group Task (GT)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "5% weightage for final merit; minimum qualifying marks 50% for UR/EWS (40% for reserved categories)"
+          },
+          {
+            "paper_name": "Personal Interview (PI)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "10% weightage for final merit; minimum qualifying marks 50% for UR/EWS (40% for reserved categories)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Pre-Employment Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+        "source_label": "HPCL Notification Para Pre-Employment Medical Exam",
+        "papers": [
+          {
+            "paper_name": "Pre-Employment Medical Fitness Checkup",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Certified fit per HPCL Pre-Employment Medical Guidelines"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Engineers and Officers in HPCL enter in Salary Scale E2 (₹50,000–₹1,60,000) with starting basic pay of ₹50,000, 58% DA constant as of 2025-07-01, cafeteria approach allowances up to 35%, and company quarters or HRA. Approximate annual Cost to Company (CTC) is ₹17.33 Lakhs.",
+    "pay_level": "IDA Grade E2 Scale (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+    "pay_source_label": "HPCL Recruitment Notification Emoluments Table (CTC Approx Rs 17.33 Lakh for 50000-160000 scale)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 100000,
+      "max": 120000
+    },
+    "in_hand_range_estimate": {
+      "min": 85000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000 with 58% IDA (₹29,000), Perks under Cafeteria Approach up to 35% of Basic Pay (₹17,500), House Rent Allowance (9% to 27% = ₹4,500 to ₹13,500 depending on posting location in Mumbai/Visakhapatnam refineries or regional marketing offices), less statutory Provident Fund (12% of Basic+DA = ₹9,480) and tax deductions. Annual CTC is approx ₹17.33 Lakhs.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly as per AICPI",
+      "Perquisites and allowances under Cafeteria Approach up to 35% of Basic Pay",
+      "Performance Related Pay (PRP) linked to corporation profitability and individual MoU ratings",
+      "Company Leased Accommodation / Quarters in refinery townships or HRA in lieu thereof",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Superannuation Pension Scheme",
+      "Comprehensive medical facilities for self and dependent family members under HPCL Medical Scheme"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition data compiled from official HPCL recruitment notifications, examination shortlists, and candidate appearance counts.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 158,
+        "applicants": 82000,
+        "shortlisted_for_mains": 1600,
+        "selectivity_ratio": "approx. 1 in 519 (applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+        "source_label": "HPCL Recruitment of Officers 2024-25 notifying 158 Engineer vacancies (Mechanical 93, Electrical 43, Civil 10, Chemical 7, Instrumentation 5) in Grade E2; approximately 82,000 applicants; 1,600 candidates shortlisted for GT/PI."
+      },
+      {
+        "year": 2022,
+        "vacancies": 294,
+        "applicants": 115000,
+        "shortlisted_for_mains": 2940,
+        "selectivity_ratio": "approx. 1 in 391",
+        "confidence": "reported",
+        "as_of": "2022-07-22",
+        "source_url": "https://www.hindustanpetroleum.com",
+        "source_label": "HPCL Officers Recruitment 2022 notifying 294 vacancies across engineering disciplines with approx 1.15 lakh candidates appearing."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and application documents published by Hindustan Petroleum Corporation Limited.",
+    "links": [
+      {
+        "label": "HPCL Recruitment of Officers 2024-25 Detailed Advertisement",
+        "url": "https://www.hindustanpetroleum.com/documents/pdf/Recruitment_of_Officers_2024-25_English_05062024.pdf",
+        "type": "notification",
+        "cycle_label": "2024-25",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "HPCL Official Recruitment Portal",
+        "url": "https://jobs.hpcl.co.in/Recruit_New/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Hindustan Petroleum Corporation Limited Official Website",
+        "url": "https://www.hindustanpetroleum.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

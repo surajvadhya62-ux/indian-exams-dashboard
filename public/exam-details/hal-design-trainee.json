@@ -1,0 +1,249 @@
+{
+  "id": "hal-design-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Design Trainees (DT) and Management Trainees (MT) in Hindustan Aeronautics Limited undergo 52 weeks of structured training and are absorbed as Engineers in Executive Grade-II. Promotion through executive management grades is governed by HAL Merit-cum-Seniority Promotion Policy, annual performance appraisal ratings, and minimum residency periods.",
+    "steps": [
+      {
+        "designation": "Design Trainee / Management Trainee",
+        "pay_level": "IDA Grade-II Trainee (₹50,000 Stipend Base)",
+        "years": "52 weeks training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026 Para 10.2 (Training Stipend)"
+      },
+      {
+        "designation": "Engineer / Assistant Executive",
+        "pay_level": "IDA Grade-II (₹50,000 – ₹1,60,000)",
+        "years": "Regularization post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026 Para 10.3 (Absorption Scale)"
+      },
+      {
+        "designation": "Senior Engineer",
+        "pay_level": "IDA Grade-III (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Executive Cadre Promotion Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade-IV (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Executive Cadre Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade-V (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Middle Management Regulations"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade-VI (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Middle Management Rules"
+      },
+      {
+        "designation": "Chief Manager / Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade-VII (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Senior Management Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade-VIII (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Senior Executive Cadre Rules"
+      },
+      {
+        "designation": "General Manager (GM) / Executive Director (ED)",
+        "pay_level": "IDA Grade-IX/X (₹1,20,000 – ₹3,00,000)",
+        "years": "Division / R&D Centre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL Top Management Leadership Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises an All-India Online Computer Based Selection Test and Personal Interview at Bengaluru. Final merit is drawn by assigning 85% weightage to the Online Selection Test and 15% weightage to the Personal Interview. Candidates must secure at least 50% marks in both stages (with relaxation for reserved categories).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Online Computer Based Selection Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026 Para 7.5 (Test Pattern)",
+        "papers": [
+          {
+            "paper_name": "Part I: General Awareness",
+            "marks": 20,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% aggregate in Written Test for UR/EWS (40% for SC/ST/OBC-NCL/PwBD)"
+          },
+          {
+            "paper_name": "Part II: English & Reasoning Ability",
+            "marks": 40,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III: Concerned Engineering Discipline",
+            "marks": 100,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview (at HAL Bengaluru)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026 Para 7.6 & 7.7",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical Evaluation & Personality Scrutiny)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks in Interview for UR/EWS (40% for SC/ST/OBC-NCL/PwBD); 15% weightage for final merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Pre-Employment Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026 Para 8 (Pre-Employment Medical Standards)",
+        "papers": [
+          {
+            "paper_name": "Pre-Employment Medical Fitness Assessment (HAL Hospital / Medical Board)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Certified fit per HAL Pre-Employment Medical Standards"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During 52 weeks of training, Trainees receive a stipend based on entry basic pay of ₹50,000, Variable Dearness Allowance, and Canteen Allowance with bachelor accommodation. On absorption as Engineer in Grade-II (scale ₹50,000–₹1,60,000), officers receive full benefits under cafeteria approach (up to 35%), 58% DA constant as of 2025-07-01, and HRA.",
+    "pay_level": "IDA Grade-II Scale (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+    "pay_source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026 Para 10.2 & 10.3",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 100000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 85000,
+      "max": 100000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000 with 58% Variable DA (₹29,000), Perks and Allowances under Cafeteria System up to 35% of Basic Pay (₹17,500), House Rent Allowance (9% to 27% = ₹4,500 to ₹13,500 depending on posting division), less Provident Fund (12% of Basic+DA = ₹9,480) and statutory deductions. Annual CTC ranges from ₹15 to ₹18 Lakhs.",
+    "official_perks": [
+      "Variable Dearness Allowance (VDA) revised quarterly as per AICPI",
+      "Perks and Allowances under Cafeteria System up to 35% of Basic Pay",
+      "Company Accommodation in HAL townships or House Rent Allowance (HRA)",
+      "Performance Related Pay (PRP) variable pay linked to corporate and individual MOU ratings",
+      "Comprehensive medical facilities for self and dependent family members",
+      "Provident Fund, Gratuity, and Defined Contributory Superannuation Pension Scheme",
+      "Bachelor accommodation and subsidized canteen allowance during training period"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition data compiled from official HAL employment notifications, interview shortlist reports, and candidate participation figures.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 120,
+        "applicants": 65000,
+        "shortlisted_for_mains": 600,
+        "selectivity_ratio": "approx. 1 in 542 (applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-07-29",
+        "source_url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "source_label": "HAL Advt. No. HAL/CHRC-TM/RECT-02/2026: 120 total vacancies (60 Design Trainees and 60 Management Trainees across engineering disciplines); approximately 65,000 applicants registered; 600 candidates shortlisted for Personal Interview in 1:5 ratio."
+      },
+      {
+        "year": 2023,
+        "vacancies": 185,
+        "applicants": 92000,
+        "shortlisted_for_mains": 925,
+        "selectivity_ratio": "approx. 1 in 497",
+        "confidence": "reported",
+        "as_of": "2023-08-28",
+        "source_url": "https://hal-india.co.in",
+        "source_label": "HAL DT & MT Recruitment 2023 notifying 185 vacancies with approx 92,000 applicants."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and application documents published by Hindustan Aeronautics Limited.",
+    "links": [
+      {
+        "label": "HAL Design Trainees / Management Trainees 2026 Detailed Advertisement",
+        "url": "https://cbexams.com/halreg2026/Inc/Detailed_Advertisement_29072026.pdf",
+        "type": "notification",
+        "cycle_label": "HAL/CHRC-TM/RECT-02/2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "HAL Official Web Portal",
+        "url": "https://hal-india.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
