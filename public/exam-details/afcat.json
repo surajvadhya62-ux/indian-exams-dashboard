@@ -1,0 +1,100 @@
+{
+  "id": "afcat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Air Force Common Admission Test (AFCAT) is conducted biannually by the Indian Air Force for granting Short Service Commission (SSC) in Flying Branch and Ground Duty (Technical and Non-Technical) Branches. The online examination consists of 100 objective questions carrying 300 marks of 120 minutes duration covering General Awareness, Verbal Ability in English, Numerical Ability, and Reasoning and Military Aptitude Test. Marking scheme: 3 marks for each correct answer and 1 mark deducted for each incorrect answer. Candidates who clear the online AFCAT cut-off are called for the Air Force Selection Board (AFSB) testing (Stage I: OIR & PPDT; Stage II: Psychological Tests, Group Tests, Personal Interview, and CPSS for Flying Branch).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: AFCAT Online Computer Based Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-30",
+        "source_url": "https://careerindianairforce.cdac.in/",
+        "source_label": "Indian Air Force AFCAT 02/2024 Detailed Information Brochure",
+        "papers": [
+          {
+            "paper_name": "AFCAT: General Awareness, Verbal Ability in English, Numerical Ability, Reasoning & Military Aptitude",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each wrong answer (+3 marks for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Cut-off marks (typically 135-155 marks out of 300) to qualify for AFSB testing"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Air Force Selection Board (AFSB) Testing & Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-30",
+        "source_url": "https://careerindianairforce.cdac.in/",
+        "source_label": "IAF AFSB Selection Guidelines — Dehradun, Mysuru, Gandhinagar, Varanasi",
+        "papers": [
+          {
+            "paper_name": "AFSB Stage I (OIR & PPDT) and Stage II (Psychology, GTO, Personal Interview & CPSS)",
+            "marks": 300,
+            "duration_minutes": 360,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Recommended by AFSB board; combined merit of AFCAT + AFSB determines Academy call letter"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Admission and selection statistics published by the Indian Air Force for AFCAT cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 317,
+        "applicants": 275000,
+        "shortlisted_for_mains": 14500,
+        "selectivity_ratio": "317 commission vacancies across Flying, Technical, and Ground Duty branches in AFCAT 01/2024 out of ~2.75 lakh applicants; cut-off was 137 marks (~1 in 867 selectivity into Air Force Academy)",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://careerindianairforce.cdac.in/",
+        "source_label": "IAF AFCAT 01/2024 Result Declaration & Cut-off Release"
+      },
+      {
+        "year": 2023,
+        "vacancies": 276,
+        "applicants": 260000,
+        "shortlisted_for_mains": 13800,
+        "selectivity_ratio": "276 vacancies in AFCAT 02/2023; cut-off was 151 marks; ~1 in 942 overall intake selectivity",
+        "confidence": "reported",
+        "as_of": "2023-09-27",
+        "source_url": "https://careerindianairforce.cdac.in/",
+        "source_label": "IAF AFCAT 02/2023 Result & Cut-off Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official application portal and guidelines maintained by the Indian Air Force in partnership with CDAC.",
+    "links": [
+      {
+        "label": "Career Indian Air Force CDAC Official Portal",
+        "url": "https://careerindianairforce.cdac.in/",
+        "type": "notification",
+        "cycle_label": "AFCAT-Official",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AFCAT Examination Scheme and Model Question Papers",
+        "url": "https://careerindianairforce.cdac.in/",
+        "type": "syllabus",
+        "cycle_label": "AFCAT-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "agniveer-air-force",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Agniveervayu candidates are enrolled in the Indian Air Force under the Air Force Act, 1950 for four years. On completion of four years, based on organizational requirements and merit performance, up to 25% are enrolled into the regular cadre of the IAF as Airmen in 7th CPC Pay Matrix Level 3. Progression in the regular cadre follows standard IAF airman promotion ladders.",
+    "steps": [
+      {
+        "designation": "Agniveervayu (Non-Combatant / Combatant)",
+        "pay_level": "Customized Package (₹30,000 – ₹40,000 per month)",
+        "years": "Years 1 to 4 (Agnipath engagement)",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Agniveervayu Intake 01/2025 Detailed Notification"
+      },
+      {
+        "designation": "Aircraftman / Leading Aircraftman (LAC)",
+        "pay_level": "Level 3",
+        "years": "Upon regular absorption (up to 25% intake)",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Airmen Regular Cadre Pay Scale — Level 3 (₹21,700 – ₹69,100)"
+      },
+      {
+        "designation": "Corporal (Cpl)",
+        "pay_level": "Level 4",
+        "years": "approx. 4-6 yrs in regular cadre",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Airmen Promotion Regulations — Level 4"
+      },
+      {
+        "designation": "Sergeant (Sgt)",
+        "pay_level": "Level 5",
+        "years": "approx. 9-13 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Airmen Promotion Regulations — Level 5"
+      },
+      {
+        "designation": "Junior Warrant Officer (JWO)",
+        "pay_level": "Level 6",
+        "years": "approx. 15-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Junior Warrant Officer Cadre Scale — Level 6"
+      },
+      {
+        "designation": "Warrant Officer (WO) / Master Warrant Officer (MWO)",
+        "pay_level": "Level 7 / Level 8",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Warrant Rank Cadre Regulations"
+      },
+      {
+        "designation": "Honorary Flying Officer / Flight Lieutenant",
+        "pay_level": "Level 10",
+        "years": "Honorary Commission prior to retirement",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Honorary Commission Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Agniveervayu consists of three phases. Phase-I is an Online Examination: candidates with Science subjects attempt English (20), Physics (25), and Mathematics (25) in 60 minutes; candidates other than Science attempt English (20) and Reasoning & General Awareness (RAGA 30) in 45 minutes; candidates opting for both attempt all subjects in 85 minutes. Marking scheme: +1 for correct answer, 0 for unattempted, and -0.25 marks for wrong answers. Phase-II comprises the Physical Fitness Test (PFT: 1.6 km run within 7 mins for males / 8 mins for females, 10 push-ups, 10 sit-ups, 20 squats) and Adaptability Test-II. Phase-III is the Medical Examination conducted by IAF Medical Boards.",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Computer Based Online Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Agniveervayu Intake 01/2025 Notice — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Science Subjects (English, Physics & Mathematics)",
+            "marks": 70,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Subject-wise minimum cut-off and aggregate cut-off to qualify for Phase-II"
+          },
+          {
+            "paper_name": "Other than Science Subjects (English & RAGA)",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Subject-wise minimum cut-off and aggregate cut-off to qualify for Phase-II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II: Physical Fitness Test (PFT) & Adaptability Test-II",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Agniveervayu Guidelines — Physical and Adaptability Testing",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test (1.6 km run, push-ups, sit-ups, squats) & Adaptability Assessment",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory pass in all physical events and Adaptability Test-II to receive Phase-III call letter"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III: Mandatory Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "IAF Medical Standards Regulations — Air Force Medical Board",
+        "papers": [
+          {
+            "paper_name": "Medical Board Clinical & Physical Fitness Assessment",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Declared medically fit as per IAF standards for final enrolment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "During the 4-year tenure, Agniveervayu personnel receive a composite customized stipend package starting at ₹30,000 per month (Year 1: ₹21,000 in-hand + ₹9,000 corpus) and rising to ₹40,000 per month (Year 4: ₹28,000 in-hand + ₹12,000 corpus). Exiting Agniveervayu receive the tax-exempt 'Seva Nidhi' package of ~₹11.71 Lakh with accrued interest. Candidates enrolled in the regular IAF cadre (up to 25%) are placed in 7th CPC Pay Matrix Level 3 (entry basic ₹21,700) with Military Service Pay (MSP).",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-17",
+    "pay_source_url": "https://agnipathvayu.cdac.in/",
+    "pay_source_label": "IAF Agniveervayu Information Brochure — Remuneration & Regular Cadre Level 3 Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 38000, "max": 47000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 42000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "For regular cadre Airman: basic pay ₹21,700 + 58% DA (₹12,586) + Military Service Pay (MSP ₹5,200 + DA) + standard allowances yields gross ~₹38,000 to ~₹47,000. During the 4-year Agnipath period, package is ₹30,000 to ₹40,000 per month.",
+    "official_perks": [
+      "Seva Nidhi package of approximately ₹11.71 Lakh (with equal government matching contribution, completely tax-exempt) on completion of 4 years",
+      "Non-contributory life insurance cover of ₹48 Lakh for the entire duration of the engagement period",
+      "Free medical facilities, mess and boarding facilities across Air Force stations",
+      "Military Service Pay (MSP) of ₹5,200 per month upon retention into the regular IAF airmen cadre",
+      "CSD Canteen amenities across Indian Air Force and armed forces stations",
+      "Skill certificate and 12th equivalent diploma credit under MSDE and IGNOU partnership upon exit"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake benchmarks compiled from Indian Air Force Agniveervayu recruitment drives.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 3500,
+        "applicants": 740000,
+        "shortlisted_for_mains": 22000,
+        "selectivity_ratio": "3,500 vacancies in Agniveervayu Intake 01/2024 (male & female) out of ~7.4 lakh registered candidates (~1 in 211 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-03-25",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "Indian Air Force Agniveervayu Intake 01/2024 Result Statistics"
+      },
+      {
+        "year": 2023,
+        "vacancies": 3500,
+        "applicants": 700000,
+        "shortlisted_for_mains": 21000,
+        "selectivity_ratio": "3,500 vacancies in Agniveervayu Intake 02/2023 out of ~7 lakh registered test takers (~1 in 200 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-08-30",
+        "source_url": "https://agnipathvayu.cdac.in/",
+        "source_label": "Indian Air Force Agniveervayu Intake 02/2023 Selection Panel"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and guidelines maintained by the Indian Air Force in collaboration with CDAC.",
+    "links": [
+      {
+        "label": "IAF Agniveervayu CDAC Official Portal",
+        "url": "https://agnipathvayu.cdac.in/",
+        "type": "notification",
+        "cycle_label": "Agniveervayu-Intake",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Air Force Official Website",
+        "url": "https://indianairforce.nic.in/",
+        "type": "syllabus",
+        "cycle_label": "IAF-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

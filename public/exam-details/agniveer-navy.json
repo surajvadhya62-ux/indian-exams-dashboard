@@ -1,0 +1,214 @@
+{
+  "id": "agniveer-navy",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Recruitment under the Agnipath scheme is for a distinct 4-year engagement period. On completion of four years, up to 25% of each Agniveer batch is enrolled into the regular cadre of the Indian Navy as Sailors in 7th CPC Pay Matrix Level 3. Subsequent promotions follow standard Naval Sailor cadre regulations.",
+    "steps": [
+      {
+        "designation": "Agniveer (SSR / MR)",
+        "pay_level": "Customized Package (₹30,000 – ₹40,000 per month)",
+        "years": "Years 1 to 4 (Agnipath engagement)",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Agniveer (SSR/MR) Recruitment Terms & Conditions"
+      },
+      {
+        "designation": "Sailor / Seaman (Regular Cadre)",
+        "pay_level": "Level 3",
+        "years": "Upon regular absorption (up to 25% intake)",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Regular Cadre Pay Matrix — Level 3 (₹21,700 – ₹69,100)"
+      },
+      {
+        "designation": "Leading Seaman",
+        "pay_level": "Level 4",
+        "years": "approx. 4-6 yrs in regular cadre",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Navy Sailor Promotion Regulations — Level 4"
+      },
+      {
+        "designation": "Petty Officer",
+        "pay_level": "Level 5",
+        "years": "approx. 9-12 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Navy Sailor Promotion Regulations — Level 5"
+      },
+      {
+        "designation": "Chief Petty Officer (CPO)",
+        "pay_level": "Level 6",
+        "years": "approx. 14-17 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Navy Sailor Promotion Regulations — Level 6"
+      },
+      {
+        "designation": "Master Chief Petty Officer II / I (MCPO)",
+        "pay_level": "Level 7 / Level 8",
+        "years": "approx. 19-24 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Navy Senior Sailor Cadre Regulations"
+      },
+      {
+        "designation": "Honorary Sub Lieutenant / Lieutenant",
+        "pay_level": "Level 10",
+        "years": "Honorary Commission prior to superannuation",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Naval Honorary Commission Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Agniveer (Navy) involves three consecutive stages. Stage 1 is an Indian Navy Entrance Test (INET) Computer-Based Examination: for SSR (100 questions, 100 marks, 60 minutes covering English, Science, Mathematics, and General Awareness; 0.25 negative marking); for MR (50 questions, 50 marks, 30 minutes covering Science & Mathematics and General Awareness). Stage 2 comprises the Physical Fitness Test (PFT: 1.6 km run in 6.5 mins for males / 8 mins for females, squats, push-ups, bent-knee sit-ups), written re-assessment, and initial medical exam. Stage 3 is the Final Medical Examination conducted at INS Chilka upon reporting.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Examination (INET CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Agniveer (SSR/MR) Advertisement — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "INET CBT for Agniveer SSR: English, Science, Mathematics & General Awareness",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "State-wise merit cut-off to shortlist candidates for Stage 2 PFT and initial medicals"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Fitness Test (PFT) & Initial Medical Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Agniveer Guidelines — PFT & Medical Standards",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test (1.6 km run, squats, push-ups/sit-ups) & Initial Medicals",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying pass required to receive recruitment call-up to INS Chilka"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Final Medical Examination at INS Chilka",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Training Regulations — INS Chilka Enrolment",
+        "papers": [
+          {
+            "paper_name": "Final Medical Review & Documentation Verification",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Declared medically fit at INS Chilka for final induction"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "During the 4-year Agnipath tenure, Agniveers receive a customized composite monthly package: Year 1: ₹30,000 (in-hand ₹21,000 + ₹9,000 Corpus Fund); Year 2: ₹33,000 (in-hand ₹23,100 + ₹9,900); Year 3: ₹36,500 (in-hand ₹25,550 + ₹10,950); Year 4: ₹40,000 (in-hand ₹28,000 + ₹12,000). Upon completion of 4 years, exiting Agniveers receive the 'Seva Nidhi' package of approximately ₹11.71 Lakh (tax-exempt). For candidates enrolled into the regular Navy cadre (up to 25%), basic pay is fixed at 7th CPC Level 3 (₹21,700).",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-05-15",
+    "pay_source_url": "https://www.joinindiannavy.gov.in/",
+    "pay_source_label": "Ministry of Defence — Agnipath Scheme Terms & 7th CPC Level 3 Regular Cadre Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 38000, "max": 47000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 42000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "For regular cadre Sailor: entry basic ₹21,700 + 58% DA (₹12,586) + Military Service Pay (MSP ₹5,200 + DA) + HRA/rations yields gross ~₹38,000 to ~₹47,000. For initial 4-year Agniveers, customized package spans ₹30,000 (Year 1) to ₹40,000 (Year 4) per month.",
+    "official_perks": [
+      "Seva Nidhi package of approximately ₹11.71 Lakh upon completion of 4-year engagement (completely exempt from income tax)",
+      "Non-contributory life insurance cover of ₹48 Lakh for the duration of engagement",
+      "Free ration, uniform allowance, mess amenities, and medical facilities on board ships and establishments",
+      "Military Service Pay (MSP) of ₹5,200 per month upon retention into regular cadre",
+      "CSD Canteen amenities across naval bases and stations",
+      "Skill certificate recognized by Ministry of Skill Development and Entrepreneurship upon exit"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate enrolment benchmarks from Indian Navy Agniveer recruitment notifications.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 4100,
+        "applicants": 950000,
+        "shortlisted_for_mains": 25000,
+        "selectivity_ratio": "4,100 total vacancies across Agniveer SSR and MR batches (01/2024 & 02/2024) out of ~9.5 lakh applicants (~1 in 232 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-06-10",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Agniveer 01/2024 & 02/2024 Intake Statistics"
+      },
+      {
+        "year": 2023,
+        "vacancies": 4165,
+        "applicants": 880000,
+        "shortlisted_for_mains": 26000,
+        "selectivity_ratio": "4,165 vacancies (including women recruits) across SSR and MR out of ~8.8 lakh applicants (~1 in 211 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-11-20",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Agniveer 02/2023 Batch Passing Out & Enrolment Data"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment website maintained by the Indian Navy, Ministry of Defence.",
+    "links": [
+      {
+        "label": "Join Indian Navy Official Portal",
+        "url": "https://www.joinindiannavy.gov.in/",
+        "type": "notification",
+        "cycle_label": "Agniveer-Navy",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Navy Agniveer Scheme and Eligibility Guidelines",
+        "url": "https://www.joinindiannavy.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "Agniveer-Guidelines",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

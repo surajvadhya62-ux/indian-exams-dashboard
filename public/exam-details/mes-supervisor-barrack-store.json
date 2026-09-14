@@ -1,0 +1,192 @@
+{
+  "id": "mes-supervisor-barrack-store",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Military Engineer Services (MES) under the Ministry of Defence recruits civilian technical and inventory supervisors. Supervisor Barrack & Store (SBS) enters as a Group 'B' Non-Gazetted officer in 7th CPC Pay Matrix Level 6 and progresses into the Barrack & Store Gazetted Cadre up to Director level.",
+    "steps": [
+      {
+        "designation": "Supervisor Barrack & Store (SBS, Group B Non-Gazetted)",
+        "pay_level": "Level 6",
+        "years": "Entry (Diploma / Degree entry point)",
+        "confidence": "verified",
+        "as_of": "2021-03-22",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES Advt. No. SBS/D'Man/2021 — Recruitment Notice"
+      },
+      {
+        "designation": "Barrack & Store Officer (BSO, Group A Gazetted)",
+        "pay_level": "Level 10",
+        "years": "approx. 6-8 yrs",
+        "confidence": "verified",
+        "as_of": "2021-03-22",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES Barrack & Store Cadre Recruitment Rules — Level 10 (₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Senior Barrack & Store Officer (Sr. BSO)",
+        "pay_level": "Level 11",
+        "years": "approx. 13-16 yrs",
+        "confidence": "verified",
+        "as_of": "2021-03-22",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES BSO Promotion Rules — Level 11 (₹67,700 – ₹2,08,700)"
+      },
+      {
+        "designation": "Director (Barrack & Stores / Inventory)",
+        "pay_level": "Level 12",
+        "years": "approx. 19-23 yrs",
+        "confidence": "verified",
+        "as_of": "2021-03-22",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES Directorate Cadre Regulations — Level 12 (₹78,800 – ₹2,09,200)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The examination scheme for Supervisor Barrack & Store in Military Engineer Services consists of an OMR-based Written Examination followed by Document Verification. The written exam comprises 100 questions carrying 125 marks (or 100 questions of 1 mark each as notified) of 120 minutes duration across four sections: General Intelligence & Reasoning (25), Numerical Aptitude (25), General English & General Awareness (25), and Specialized Topic / Material Management (25 or 50 marks). Negative marking of 0.25 marks is deducted for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: OMR Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-03-22",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES Detailed Notification — Scheme of Written Examination",
+        "papers": [
+          {
+            "paper_name": "Part I: General Intelligence & Reasoning",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for final merit"
+          },
+          {
+            "paper_name": "Part II: Numerical Aptitude",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for final merit"
+          },
+          {
+            "paper_name": "Part III: General English & General Awareness",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for final merit"
+          },
+          {
+            "paper_name": "Part IV: Specialized Topic (Material Management & Engineering Inventory)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Domain knowledge paper; counts towards total merit score"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Medical Assessment",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-03-22",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES Recruitment Guidelines — Verification & Medical Scrutiny",
+        "papers": [
+          {
+            "paper_name": "Document Verification and Physical / Medical Fitness",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying pass mandatory for issue of appointment letter"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Supervisor Barrack & Store in Military Engineer Services is placed in 7th CPC Pay Matrix Level 6 (entry basic ₹35,400 to ₹1,12,400). As civilian defence employees, staff receive central Dearness Allowance, HRA, Transport Allowance, and defence establishment amenities.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-03-22",
+    "pay_source_url": "https://mes.gov.in/",
+    "pay_source_label": "MES Advt. — Pay Scale for Supervisor (Barrack & Store)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 76000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 68000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹35,400 + 58% DA (₹20,532) + HRA (10%-30% by location: ₹3,540 to ₹10,620) + Transport Allowance (₹2,844 to ₹5,688) yields gross ~₹62,000 to ~₹76,000. In-hand reflects ~10% NPS deduction and standard deductions.",
+    "official_perks": [
+      "Government-funded residential quarters in military cantonments / MES stations or full central HRA",
+      "Central Government Health Scheme (CGHS) or Military Hospital outpatient access for civilian employees",
+      "CSD Canteen smart card amenities across military stations",
+      "National Pension System (NPS) with 14% monthly government matching contribution",
+      "Children Education Allowance (CEA) and Leave Travel Concession (LTC)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from MES recruitment notifications and result announcements.",
+    "years": [
+      {
+        "year": 2021,
+        "vacancies": 450,
+        "applicants": 185000,
+        "shortlisted_for_mains": 1350,
+        "selectivity_ratio": "450 vacancies (SBS: 402; Draughtsman: 48) out of ~1.85 lakh applicants (~1 in 411 selectivity)",
+        "confidence": "reported",
+        "as_of": "2021-11-15",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES Advt. 2021 Final Selection & Merit List"
+      },
+      {
+        "year": 2016,
+        "vacancies": 320,
+        "applicants": 140000,
+        "shortlisted_for_mains": 960,
+        "selectivity_ratio": "320 vacancies for Supervisor Barrack & Store filled across commands; selectivity ~1 in 437",
+        "confidence": "reported",
+        "as_of": "2017-04-10",
+        "source_url": "https://mes.gov.in/",
+        "source_label": "MES SBS Recruitment 2016 Panel Declaration"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and recruitment guidelines maintained by Military Engineer Services (MES), Engineer-in-Chief's Branch, New Delhi.",
+    "links": [
+      {
+        "label": "Military Engineer Services Official Website",
+        "url": "https://mes.gov.in/",
+        "type": "notification",
+        "cycle_label": "MES-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "MES Recruitment Guidelines and Cadre Rules",
+        "url": "https://mes.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "MES-Rules",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

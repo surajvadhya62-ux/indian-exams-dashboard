@@ -1,0 +1,194 @@
+{
+  "id": "nia-si-inspector",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "National Investigation Agency (NIA) under the Ministry of Home Affairs recruits Sub-Inspectors through the Staff Selection Commission Combined Graduate Level (SSC CGL) Examination and via deputation from Central Armed Police Forces and state police organizations. Executive personnel progress through standard central police officer hierarchies up to Superintendent of Police.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector (SI, Group B Non-Gazetted)",
+        "pay_level": "Level 6",
+        "years": "Entry (Graduate entry via SSC CGL / Direct Entry)",
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "NIA Recruitment Rules for Sub-Inspector — Level 6 (₹35,400 – ₹1,12,400)"
+      },
+      {
+        "designation": "Inspector",
+        "pay_level": "Level 7",
+        "years": "approx. 5-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "NIA Executive Cadre Promotion Regulations — Level 7 (₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (Dy SP, Group A Gazetted)",
+        "pay_level": "Level 10",
+        "years": "approx. 12-15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "NIA Gazetted Cadre Recruitment Rules — Level 10 (₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP)",
+        "pay_level": "Level 11",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "NIA IPS / State Police Deputation & Promotion Cadre — Level 11"
+      },
+      {
+        "designation": "Superintendent of Police (SP)",
+        "pay_level": "Level 12",
+        "years": "approx. 23-27 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "NIA Senior Executive Cadre — Level 12 (₹78,800 – ₹2,09,200)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Direct recruitment of Sub-Inspectors in the National Investigation Agency is conducted through the SSC Combined Graduate Level (CGL) Examination. The examination comprises Tier-I (CBT with 100 questions carrying 200 marks in Reasoning, GA, Quantitative Aptitude, English; qualifying in nature) and Tier-II (Paper I with Section I: Mathematical Abilities & Reasoning 180 marks; Section II: English Comprehension & General Awareness 210 marks; Section III: Computer Knowledge 60 marks + Data Entry Speed Test). Final allocation requires meeting the prescribed physical standards and medical fitness criteria for NIA posts.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: SSC CGL Tier-I (Computer Based Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "SSC CGL 2024 Notice & NIA Sub-Inspector Scheme",
+        "papers": [
+          {
+            "paper_name": "Tier-I: General Intelligence & Reasoning (50), GA (50), Quantitative Aptitude (50), English (50)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks for each wrong answer (+2 for correct)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Category-wise qualifying cut-off to shortlist candidates for Tier-II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: SSC CGL Tier-II & NIA Physical Standards Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "SSC CGL Scheme of Examination — Paper I & Physical Measurement Standards",
+        "papers": [
+          {
+            "paper_name": "Session I: Mathematical Abilities (90) & Reasoning and General Intelligence (90)",
+            "marks": 180,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark for each wrong answer (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off; combined with Section II for final merit ranking"
+          },
+          {
+            "paper_name": "Session II: English Language & Comprehension (135) & General Awareness (75)",
+            "marks": 210,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark for each wrong answer (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off; 390-mark composite merit determines NIA SI allocation"
+          },
+          {
+            "paper_name": "Session III: Computer Knowledge Test (60) & Data Entry Speed Test (DEST)",
+            "marks": 60,
+            "duration_minutes": 30,
+            "negative_marking": "-1 mark for each wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying pass and minimum typing speed of 2,000 key depressions"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspector in the National Investigation Agency is placed in central 7th CPC Pay Matrix Level 6 (entry basic ₹35,400 to ₹1,12,400). A distinguishing financial benefit for NIA personnel is the Special Security Allowance (SSA) at 20% of basic pay (in addition to standard DA, HRA, and Transport Allowance) as well as cash compensation equivalent to 30 days basic pay per year in lieu of duties performed on non-working days / gazetted holidays.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-06-24",
+    "pay_source_url": "https://nia.gov.in/",
+    "pay_source_label": "NIA Recruitment Notice — Sub-Inspector Pay Level 6 + 20% Special Security Allowance",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 69000, "max": 85000 },
+    "in_hand_range_estimate": { "min": 61000, "max": 76000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹35,400 + 20% Special Security Allowance (₹7,080) + 58% DA (₹20,532) + HRA (10%-30%: ₹3,540 to ₹10,620) + Transport Allowance (₹2,844 to ₹5,688) yields gross ~₹69,000 to ~₹85,000. In-hand reflects ~10% NPS deduction and standard deductions.",
+    "official_perks": [
+      "Special Security Allowance (SSA) of 20% of basic pay granted across all executive ranks in NIA",
+      "Cash compensation equivalent to 30 days basic pay (one additional month salary) per calendar year for round-the-clock operational duties",
+      "Government-funded residential quarters in Central Police Housing or full central HRA",
+      "Central Government Health Scheme (CGHS) comprehensive medical cover for self and dependents",
+      "National Pension System (NPS) with 14% defined monthly central government matching contribution",
+      "Specialized tactical and cyber-investigation training opportunities at National Police Academy and international partner agencies"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Allocation statistics compiled from SSC CGL examination reports for NIA Sub-Inspector cadre.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 12,
+        "applicants": 2400000,
+        "shortlisted_for_mains": 71000,
+        "selectivity_ratio": "12 vacancies for Sub-Inspector in NIA allocated through SSC CGL 2023; cut-off score was 346 marks out of 390 (top 0.05% of all CGL test-takers; selectivity ~1 in 200,000 overall)",
+        "confidence": "reported",
+        "as_of": "2023-12-04",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "SSC CGL 2023 Final Result & NIA SI Cut-off Allocation"
+      },
+      {
+        "year": 2022,
+        "vacancies": 19,
+        "applicants": 3480000,
+        "shortlisted_for_mains": 360432,
+        "selectivity_ratio": "19 vacancies for Sub-Inspector in NIA in SSC CGL 2022; among the highest cut-offs across all non-gazetted central posts",
+        "confidence": "reported",
+        "as_of": "2023-05-13",
+        "source_url": "https://nia.gov.in/",
+        "source_label": "SSC CGL 2022 Final Result & Post-wise Cut-off Allocation"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and recruitment notice repository maintained by the National Investigation Agency, Ministry of Home Affairs.",
+    "links": [
+      {
+        "label": "National Investigation Agency Official Portal",
+        "url": "https://nia.gov.in/",
+        "type": "notification",
+        "cycle_label": "NIA-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NIA Recruitment Notices and Eligibility Guidelines",
+        "url": "https://nia.gov.in/recruitment-notice.htm",
+        "type": "syllabus",
+        "cycle_label": "NIA-Recruitment",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

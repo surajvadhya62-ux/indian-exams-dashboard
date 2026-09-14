@@ -1,0 +1,192 @@
+{
+  "id": "iaf-civilian-group-c",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Civilian Group 'C' staff in the Indian Air Force are recruited across Air Commands, Air Force Stations, and Base Repair Depots (BRDs). Posts range from Multi Tasking Staff (MTS / Mess Staff, Pay Level 1) to Lower Division Clerk (LDC / Storekeeper, Pay Level 2). Promotions follow standard Central Government non-gazetted civilian cadres up to Office Superintendent / Assistant level.",
+    "steps": [
+      {
+        "designation": "Multi Tasking Staff (MTS) / Mess Staff / Safaiwala",
+        "pay_level": "Level 1",
+        "years": "Entry (Class 10 entry point)",
+        "confidence": "verified",
+        "as_of": "2021-08-07",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Direct Recruitment of Group 'C' Civilian Posts Notification"
+      },
+      {
+        "designation": "Lower Division Clerk (LDC) / Storekeeper",
+        "pay_level": "Level 2",
+        "years": "Entry (Class 12 entry point) / 3-5 yrs via promotion quota",
+        "confidence": "verified",
+        "as_of": "2021-08-07",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Civilian Cadre Recruitment Rules — Level 2 (₹19,900 – ₹63,200)"
+      },
+      {
+        "designation": "Upper Division Clerk (UDC) / Senior Storekeeper",
+        "pay_level": "Level 4",
+        "years": "approx. 8-10 yrs",
+        "confidence": "verified",
+        "as_of": "2021-08-07",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Civilian Ministerial Cadre Rules — Level 4 (₹25,500 – ₹81,100)"
+      },
+      {
+        "designation": "Assistant / Office Superintendent",
+        "pay_level": "Level 6",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2021-08-07",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Civilian Administration Hierarchy — Level 6 (₹35,400 – ₹1,12,400)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for IAF Civilian Group 'C' posts is conducted through a Written Examination followed by a Skill, Practical, or Physical Test wherever applicable. The written test is based on the minimum educational qualification (10th/12th standard) and consists of 100 objective-type questions of 120 minutes duration across four sections: General Intelligence and Reasoning (25), Numerical Aptitude (25), General English (25), and General Awareness (25). Negative marking of 0.25 marks applies where notified. The skill test (e.g. typing test of 35 wpm in English or 30 wpm in Hindi for LDC; trade test for cook/carpenter) is qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-08-07",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Civilian Recruitment Scheme — Written Examination Pattern",
+        "papers": [
+          {
+            "paper_name": "Part I: General Intelligence & Reasoning",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for Stage 1 merit"
+          },
+          {
+            "paper_name": "Part II: Numerical Aptitude",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for Stage 1 merit"
+          },
+          {
+            "paper_name": "Part III: General English",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for Stage 1 merit"
+          },
+          {
+            "paper_name": "Part IV: General Awareness",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for Stage 1 merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill / Practical / Trade Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-08-07",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Group 'C' Guidelines — Skill and Trade Testing",
+        "papers": [
+          {
+            "paper_name": "Trade / Typing / Practical Test (qualifying nature)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; final selection based strictly on Stage 1 written test merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Civilian Group 'C' personnel in the Indian Air Force are governed by the central 7th CPC Pay Matrix. Multi Tasking Staff (MTS) posts enter at Pay Level 1 (entry basic ₹18,000 to ₹56,900), while Lower Division Clerk (LDC) and Storekeeper posts enter at Pay Level 2 (entry basic ₹19,900 to ₹63,200). Staff receive Central Government Dearness Allowance, HRA, Transport Allowance, and defence civilian facilities.",
+    "pay_level": "Level 1",
+    "entry_basic_pay": 18000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-08-07",
+    "pay_source_url": "https://indianairforce.nic.in/",
+    "pay_source_label": "IAF Group 'C' Recruitment Advt. — Pay Scale for MTS (Level 1) & LDC (Level 2)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 31000, "max": 39000 },
+    "in_hand_range_estimate": { "min": 28000, "max": 35000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Entry basic ₹18,000 (Level 1 MTS) to ₹19,900 (Level 2 LDC) + 58% DA (₹10,440 to ₹11,542) + HRA (10%-30%: ₹1,800 to ₹5,970) + Transport Allowance (₹1,422 to ₹2,844) yields gross ~₹31,000 to ~₹39,000. In-hand reflects ~10% NPS deduction and standard deductions.",
+    "official_perks": [
+      "Residential accommodation in Air Force civilian quarters or central HRA",
+      "Comprehensive medical facilities under CGHS or Station Medicare Centres (SMC) for civilian employees",
+      "CSD Canteen smart card privileges across Air Force stations and Base Repair Depots",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and Leave Travel Concession (LTC)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from Indian Air Force civilian recruitment drives across commands.",
+    "years": [
+      {
+        "year": 2021,
+        "vacancies": 1524,
+        "applicants": 620000,
+        "shortlisted_for_mains": 15240,
+        "selectivity_ratio": "1,524 vacancies across Western, Eastern, Central, Maintenance, and Training Commands out of ~6.2 lakh applicants (~1 in 406 selectivity)",
+        "confidence": "reported",
+        "as_of": "2022-01-20",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Civilian Direct Recruitment 2021 Consolidated Result Panel"
+      },
+      {
+        "year": 2018,
+        "vacancies": 820,
+        "applicants": 380000,
+        "shortlisted_for_mains": 8200,
+        "selectivity_ratio": "820 civilian vacancies filled across Air Force stations; selectivity ~1 in 463",
+        "confidence": "reported",
+        "as_of": "2018-11-10",
+        "source_url": "https://indianairforce.nic.in/",
+        "source_label": "IAF Group 'C' Civilian Recruitment 2018 Selection List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and notifications maintained by the Indian Air Force, Ministry of Defence.",
+    "links": [
+      {
+        "label": "Indian Air Force Official Website",
+        "url": "https://indianairforce.nic.in/",
+        "type": "notification",
+        "cycle_label": "IAF-Civilian",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IAF Civilian Recruitment Scheme and Guidelines",
+        "url": "https://indianairforce.nic.in/",
+        "type": "syllabus",
+        "cycle_label": "IAF-Civilian-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

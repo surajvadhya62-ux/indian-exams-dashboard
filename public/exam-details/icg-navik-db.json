@@ -1,0 +1,205 @@
+{
+  "id": "icg-navik-db",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Indian Coast Guard Navik (Domestic Branch - Cook & Steward) is an enlisted maritime service cadre. Navik (DB) commences at 7th CPC Pay Matrix Level 3 and progresses through subordinate and warrant officer ranks up to Pradhan Adhikari (Level 8).",
+    "steps": [
+      {
+        "designation": "Navik (Domestic Branch - Cook / Steward)",
+        "pay_level": "Level 3",
+        "years": "Entry (Class 10 entry point)",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "Indian Coast Guard CGEPT-02/2024 Detailed Advertisement"
+      },
+      {
+        "designation": "Uttam Navik",
+        "pay_level": "Level 4",
+        "years": "approx. 4-6 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG Enlisted Cadre Promotion Regulations — Level 4 (₹25,500 – ₹81,100)"
+      },
+      {
+        "designation": "Pradhan Navik",
+        "pay_level": "Level 5",
+        "years": "approx. 9-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG Enlisted Cadre Promotion Regulations — Level 5 (₹29,200 – ₹92,300)"
+      },
+      {
+        "designation": "Adhikari",
+        "pay_level": "Level 6",
+        "years": "approx. 15-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG Subordinate Officer Cadre — Level 6 (₹35,400 – ₹1,12,400)"
+      },
+      {
+        "designation": "Uttam Adhikari",
+        "pay_level": "Level 7",
+        "years": "approx. 20-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG Subordinate Officer Cadre — Level 7 (₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Pradhan Adhikari",
+        "pay_level": "Level 8",
+        "years": "approx. 25-28 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG Warrant Officer Cadre — Level 8 (₹47,600 – ₹1,51,100)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Navik (DB) in the Indian Coast Guard is conducted through Coast Guard Enrolled Personnel Test (CGEPT) across four stages. Stage-I is a Computer Based Written Examination (Section I: 60 questions, 60 marks, 45 minutes; Maths 20, Science 10, English 15, Reasoning 10, GK 5; no negative marking; minimum pass mark is 30 for UR/EWS/OBC and 27 for SC/ST). Stage-II involves the Assessment & Adaptability Test, Physical Fitness Test (1.6 km run in 7 minutes, 20 squat ups, 10 push-ups), and initial document verification. Stage-III is Document Verification and Final Medicals at INS Chilka. Stage-IV is training induction and final document scrutiny.",
+    "stages": [
+      {
+        "stage_name": "Stage-I: Computer Based Examination (Section I)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG CGEPT-02/2024 Notification — Scheme of Stage-I Examination",
+        "papers": [
+          {
+            "paper_name": "Section I: Mathematics (20), Science (10), English (15), Reasoning (10), GK (5)",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "No negative marking (+1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Passing marks: 30 for UR/EWS/OBC, 27 for SC/ST; marks count for Stage-I merit ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage-II: Physical Fitness Test (PFT) & Adaptability Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG CGEPT Guidelines — Stage-II Assessment and PFT",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test (1.6 km run, 20 squat ups, 10 push-ups) & Document Scrutiny",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature; mandatory completion of all physical events"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage-III: Document Verification & Final Medicals at INS Chilka",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG Enrolment Regulations — INS Chilka Medical Standards",
+        "papers": [
+          {
+            "paper_name": "Final Medical Examination and Original Document Scrutiny",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Declared medically fit as per Armed Forces/Coast Guard standards"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Navik (Domestic Branch) in the Indian Coast Guard is placed in 7th CPC Pay Matrix Level 3 (entry basic ₹21,700 to ₹69,100). In addition to basic pay, personnel receive Dearness Allowance, Dearness Allowance on Ration, free clothing, free medical facilities, and family accommodation.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-13",
+    "pay_source_url": "https://joinindiancoastguard.cdac.in/",
+    "pay_source_label": "ICG CGEPT Advertisement — Pay Level 3 for Navik (DB)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 38000, "max": 46000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 41000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹21,700 + 58% DA (₹12,586) + HRA/ration allowance + sea-duty / station allowance where applicable yields gross ~₹38,000 to ~₹46,000. In-hand reflects ~10% NPS deduction and standard deductions.",
+    "official_perks": [
+      "Free ration and clothing according to existing government scales",
+      "Free medical treatment for self and family including dependents in Coast Guard / Armed Forces hospitals",
+      "Government accommodation for self and family on nominal licence fee where available, or central HRA",
+      "CSD Canteen amenities across Coast Guard and defence stations",
+      "45 days Earned Leave and 8 days Casual Leave per year with Leave Travel Concession (LTC)",
+      "Contributory Pension Scheme (NPS) with 14% defined monthly employer contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from Indian Coast Guard CGEPT selection cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 30,
+        "applicants": 160000,
+        "shortlisted_for_mains": 900,
+        "selectivity_ratio": "30 vacancies for Navik (Domestic Branch) in CGEPT-02/2024 out of ~1.6 lakh applicants (~1 in 5,333 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-05-18",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG CGEPT-02/2024 Shortlisting & Cut-off Release"
+      },
+      {
+        "year": 2023,
+        "vacancies": 30,
+        "applicants": 150000,
+        "shortlisted_for_mains": 850,
+        "selectivity_ratio": "30 vacancies for Navik (DB) in CGEPT-02/2023 out of ~1.5 lakh test-takers (~1 in 5,000 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-06-20",
+        "source_url": "https://joinindiancoastguard.cdac.in/",
+        "source_label": "ICG CGEPT-02/2023 Enrolment Panel"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and guidelines maintained by the Indian Coast Guard in collaboration with CDAC.",
+    "links": [
+      {
+        "label": "Join Indian Coast Guard CDAC Official Portal",
+        "url": "https://joinindiancoastguard.cdac.in/",
+        "type": "notification",
+        "cycle_label": "ICG-CGEPT",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Coast Guard Navik (DB) Examination Pattern and Syllabus",
+        "url": "https://joinindiancoastguard.cdac.in/",
+        "type": "syllabus",
+        "cycle_label": "ICG-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "afmc-mbbs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admission to the MBBS course at Armed Forces Medical College (AFMC), Pune is conducted for candidates who register for AFMC screening based on their NEET-UG scores. Shortlisted candidates (~1,600 boys and ~400 girls) undergo a rigorous multi-stage screening process at AFMC Pune. The screening comprises: (1) Test of English Language, Comprehension, Logic and Reasoning (ToELR) — a Computer Based Test of 40 questions carrying 80 marks (2 marks per correct, 0.5 marks deduction for incorrect) of 30 minutes duration; (2) Psychological Assessment Test (PAT) — qualifying only; (3) Personal Interview carrying 50 marks by the selection board; and (4) Medical Examination. Final merit score is computed as: (NEET Score out of 720 + ToELR Score out of 80) divided by 4, plus Interview marks (out of 50), totaling a maximum of 250 marks.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: NEET-UG Examination & Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-05",
+        "source_url": "https://afmc.nic.in/",
+        "source_label": "AFMC Pune MBBS Admission Information Brochure 2024",
+        "papers": [
+          {
+            "paper_name": "NEET (UG) All India Examination (Physics, Chemistry, Biology)",
+            "marks": 720,
+            "duration_minutes": 200,
+            "negative_marking": "-1 mark for each wrong answer (+4 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Screening cut-off to register for AFMC Pune screening (~622 boys / ~648 girls)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: AFMC Screening (ToELR, PAT, Interview & Medical Examination)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-05",
+        "source_url": "https://afmc.nic.in/",
+        "source_label": "AFMC Pune MBBS Admission Regulations — Scheme of Screening",
+        "papers": [
+          {
+            "paper_name": "Test of English Language, Comprehension, Logic and Reasoning (ToELR CBT)",
+            "marks": 80,
+            "duration_minutes": 30,
+            "negative_marking": "-0.5 marks for each wrong answer (+2 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Score added to NEET score and scaled down by factor of 4 for final composite score"
+          },
+          {
+            "paper_name": "Psychological Assessment Test (PAT)",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying assessment; does not add to written marks"
+          },
+          {
+            "paper_name": "Personal Interview by Selection Board",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Carries 50 marks added directly to the scaled written score for 250-mark final merit list"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Seat allotment and screening cut-off statistics published by Armed Forces Medical College, Pune.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 150,
+        "applicants": 48000,
+        "shortlisted_for_mains": 2000,
+        "selectivity_ratio": "150 total MBBS seats (115 boys, 30 girls, 5 sponsored) out of ~48,000 NEET-qualified applicants who registered for AFMC screening; NEET cut-off was ~622 for boys and ~648 for girls (~1 in 320 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-28",
+        "source_url": "https://afmc.nic.in/",
+        "source_label": "AFMC Pune MBBS 2024 Screening Cut-off & Merit List Announcement"
+      },
+      {
+        "year": 2023,
+        "vacancies": 150,
+        "applicants": 45000,
+        "shortlisted_for_mains": 1950,
+        "selectivity_ratio": "150 MBBS seats; screening cut-off was 622 for male candidates and 648 for female candidates; selectivity ~1 in 300",
+        "confidence": "reported",
+        "as_of": "2023-08-10",
+        "source_url": "https://afmc.nic.in/",
+        "source_label": "AFMC Pune MBBS 2023 Admission Selection Panel"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and admission brochures maintained by Armed Forces Medical College, Pune, Directorate General Armed Forces Medical Services (DGAFMS).",
+    "links": [
+      {
+        "label": "Armed Forces Medical College Official Website",
+        "url": "https://afmc.nic.in/",
+        "type": "notification",
+        "cycle_label": "AFMC-MBBS",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AFMC MBBS Admission Information Brochure & Screening Scheme",
+        "url": "https://afmc.nic.in/",
+        "type": "syllabus",
+        "cycle_label": "AFMC-Brochure",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

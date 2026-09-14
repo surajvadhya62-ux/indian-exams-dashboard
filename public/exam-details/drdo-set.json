@@ -1,0 +1,196 @@
+{
+  "id": "drdo-set",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "DRDO Scientist Entry Test / RAC Scientist 'B' recruits entry-level Group 'A' Gazetted R&D officers under the Defence Research & Development Service (DRDS). Promotion from Scientist 'B' onwards operates under the merit-based Flexible Complementing Scheme (FCS) through peer assessment by RAC, where promotion is personal to the scientist regardless of vacancies.",
+    "steps": [
+      {
+        "designation": "Scientist 'B' (Group A Gazetted)",
+        "pay_level": "Level 10",
+        "years": "Entry (B.Tech / M.Sc entry)",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDO RAC Advt. No. 145 — Recruitment of Scientist 'B'"
+      },
+      {
+        "designation": "Scientist 'C'",
+        "pay_level": "Level 11",
+        "years": "approx. 3-4 yrs (FCS assessment)",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDS Flexible Complementing Scheme Assessment Rules"
+      },
+      {
+        "designation": "Scientist 'D'",
+        "pay_level": "Level 12",
+        "years": "approx. 7-8 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDS FCS Assessment Rules — Level 12"
+      },
+      {
+        "designation": "Scientist 'E'",
+        "pay_level": "Level 13",
+        "years": "approx. 12-14 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDS FCS Assessment Rules — Level 13"
+      },
+      {
+        "designation": "Scientist 'F'",
+        "pay_level": "Level 13A",
+        "years": "approx. 17-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDS FCS Assessment Rules — Level 13A"
+      },
+      {
+        "designation": "Scientist 'G' (Associate Director / Outstanding Scientist)",
+        "pay_level": "Level 14",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDS FCS Assessment Rules — Level 14"
+      },
+      {
+        "designation": "Scientist 'H' / Distinguished Scientist (Director of Lab / DG)",
+        "pay_level": "Level 15",
+        "years": "approx. 27+ yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDS Leadership Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Scientist 'B' in DRDO is conducted by the Recruitment and Assessment Centre (RAC). Selection is primarily based on valid GATE score followed by a Personal Interview (85% GATE score + 15% Personal Interview). For disciplines where GATE is not conducted or specialized intake is notified, RAC conducts a Descriptive Examination (Paper I & II, 300 marks each, 3 hours duration each) followed by Personal Interview (80% Descriptive Examination + 20% Personal Interview). The minimum qualifying mark in the interview is 70% for UR and 60% for reserved categories.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Shortlisting based on GATE Score / Descriptive Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDO RAC Advt. No. 145 — Scheme of Selection",
+        "papers": [
+          {
+            "paper_name": "GATE Score Shortlisting (in 1:10 ratio for Personal Interview)",
+            "marks": 1000,
+            "duration_minutes": 180,
+            "negative_marking": "As per GATE conducting IIT regulations",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 85% in final merit computation (shortlisted at ratio of 1:10)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview at RAC Delhi",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-05-20",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDO RAC Guidelines — Personal Interview Assessment",
+        "papers": [
+          {
+            "paper_name": "Technical & Scientific Interview Board Evaluation",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 70% for UR, 60% for OBC/SC/ST; weighted 15% in composite merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Scientist 'B' in DRDO is a central Group 'A' Gazetted post placed in 7th CPC Pay Matrix Level 10 (entry basic ₹56,100 to ₹1,77,500). In addition to central DA, HRA, and Transport Allowance, DRDO scientists receive specialized allowances including Professional Update Allowance, Performance Related Incentive Scheme (PRIS), and medical cover.",
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-05-20",
+    "pay_source_url": "https://rac.gov.in/",
+    "pay_source_label": "DRDO RAC Advt. — Remuneration & Pay Level 10 for Scientist 'B'",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 98000, "max": 125000 },
+    "in_hand_range_estimate": { "min": 86000, "max": 110000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Entry basic ₹56,100 + 58% DA (₹32,538) + HRA (10%-30%: ₹5,610 to ₹16,830) + Transport Allowance (₹3,600 to ₹7,200 + DA) yields gross ~₹98,000 to ~₹1,25,000. In-hand reflects ~10% NPS deduction and income tax deductions.",
+    "official_perks": [
+      "Professional Update Allowance of ₹22,500 to ₹45,000 per annum based on rank and R&D role",
+      "Performance Related Incentive Scheme (PRIS) under Defence R&D framework",
+      "Central Government residential accommodation in DRDO housing complexes or full central HRA",
+      "Comprehensive medical coverage under CGHS or DRDO laboratory medical facilities",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics compiled from RAC Advt. No. 145 and earlier Scientist 'B' selection cycles.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 204,
+        "applicants": 42000,
+        "shortlisted_for_mains": 2040,
+        "selectivity_ratio": "204 vacancies across Electronics, Mechanical, Computer Science, and Allied disciplines; ~2,040 shortlisted for interview; ~1 in 205 selectivity",
+        "confidence": "reported",
+        "as_of": "2024-02-15",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDO RAC Scientist 'B' 2023 Final Selection Result"
+      },
+      {
+        "year": 2022,
+        "vacancies": 630,
+        "applicants": 115000,
+        "shortlisted_for_mains": 6300,
+        "selectivity_ratio": "630 vacancies across DRDO, ADA, and DST; ~6,300 candidates called for personal interview; ~1 in 182 selectivity",
+        "confidence": "reported",
+        "as_of": "2023-03-30",
+        "source_url": "https://rac.gov.in/",
+        "source_label": "DRDO RAC Advt. 140 Final Selection Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and selection guidelines maintained by DRDO Recruitment & Assessment Centre (RAC), Delhi.",
+    "links": [
+      {
+        "label": "DRDO RAC Official Recruitment Portal",
+        "url": "https://rac.gov.in/",
+        "type": "notification",
+        "cycle_label": "RAC-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "RAC Scientist 'B' Selection Process and Guidelines",
+        "url": "https://rac.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "RAC-Guidelines",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

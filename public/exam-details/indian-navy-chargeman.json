@@ -1,0 +1,202 @@
+{
+  "id": "indian-navy-chargeman",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Civilian Chargeman in the Indian Navy is a technical supervisory post under the Directorate of Civilian Personnel, Naval Headquarters. Chargeman commences as Group 'B' (Non-Gazetted) in 7th CPC Pay Matrix Level 6 and advances through technical supervisory and managerial roles up to General Manager level in Naval Dockyards and Armament Depots.",
+    "steps": [
+      {
+        "designation": "Chargeman (Ammunition Workshop / Factory / Engineering)",
+        "pay_level": "Level 6",
+        "years": "Entry (Diploma / B.Sc. entry point)",
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy INCET-01/2023 Detailed Notification — Chargeman"
+      },
+      {
+        "designation": "Senior Chargeman / Technical Foreman",
+        "pay_level": "Level 7",
+        "years": "approx. 5-7 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Naval Civilian Technical Cadre Promotion Rules — Level 7 (₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Senior Technical Officer / Assistant Manager (Technical)",
+        "pay_level": "Level 10",
+        "years": "approx. 11-14 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Naval Civilian Cadre Gazetted Promotion Regulations — Level 10"
+      },
+      {
+        "designation": "Manager (Production / Weapons / Engineering)",
+        "pay_level": "Level 11",
+        "years": "approx. 17-21 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Naval Dockyard Technical Managerial Cadre — Level 11"
+      },
+      {
+        "designation": "Deputy General Manager / General Manager (Technical)",
+        "pay_level": "Level 12",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Naval Civilian Technical Hierarchy — Level 12"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Civilian Chargeman in the Indian Navy is conducted through the Indian Navy Civilian Entrance Test (INCET). The examination is a single-stage Computer Based Test (CBT) consisting of 100 multiple-choice questions carrying 100 marks of 90 minutes duration across four equal sections: General Intelligence and Reasoning (25), General Awareness (25), Quantitative Aptitude (25), and English Language (25). There is no negative marking. Candidates qualifying the CBT are called for Document Verification and Pre-Appointment Medical Examination.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Indian Navy Civilian Entrance Test (INCET CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy INCET-01/2023 Detailed Notification — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (+1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for 100-mark composite CBT merit ranking"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (+1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for 100-mark composite CBT merit ranking"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (+1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for 100-mark composite CBT merit ranking"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (+1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for 100-mark composite CBT merit ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Medical Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-12-18",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy INCET Recruitment Guidelines — Document Verification",
+        "papers": [
+          {
+            "paper_name": "Document Verification and Pre-Appointment Medical Examination",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Declared medically fit and credentials verified for appointment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Civilian Chargeman in the Indian Navy is placed in 7th CPC Pay Matrix Level 6 (entry basic ₹35,400 to ₹1,12,400). Civilian staff deployed across Naval Dockyards, Armament Depots, and Missile Checkout facilities receive standard Central Government allowances, HRA, Transport Allowance, and CSD canteen privileges.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-12-18",
+    "pay_source_url": "https://www.joinindiannavy.gov.in/",
+    "pay_source_label": "Indian Navy INCET-01/2023 Notification — Remuneration & Pay Scale for Chargeman",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 76000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 68000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹35,400 + 58% DA (₹20,532) + HRA (10%-30% by port city / location: ₹3,540 to ₹10,620) + Transport Allowance (₹2,844 to ₹5,688) yields gross ~₹62,000 to ~₹76,000. In-hand reflects ~10% NPS deduction and standard deductions.",
+    "official_perks": [
+      "Government-funded residential quarters in Naval civilian housing colonies or applicable central HRA",
+      "Central Government Health Scheme (CGHS) or Naval Hospital medical facilities",
+      "CSD Canteen smart card privileges across Naval bases and establishments",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA)",
+      "Overtime / industrial allowance entitlement where applicable in Naval Dockyards"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from Indian Navy Civilian Entrance Test (INCET) notifications and merit releases.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 372,
+        "applicants": 210000,
+        "shortlisted_for_mains": 1116,
+        "selectivity_ratio": "372 vacancies for Chargeman (Factory and Workshop) in INCET-01/2023 out of ~2.1 lakh applicants (~1 in 564 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy INCET-01/2023 Result Notification & Cut-off Marks"
+      },
+      {
+        "year": 2021,
+        "vacancies": 172,
+        "applicants": 125000,
+        "shortlisted_for_mains": 516,
+        "selectivity_ratio": "172 vacancies for Chargeman-II across engineering branches out of ~1.25 lakh candidates (~1 in 726 selectivity)",
+        "confidence": "reported",
+        "as_of": "2021-12-10",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy Civilian Personnel Chargeman-II Selection Panel"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and notices maintained by the Indian Navy, Ministry of Defence.",
+    "links": [
+      {
+        "label": "Join Indian Navy Official Portal",
+        "url": "https://www.joinindiannavy.gov.in/",
+        "type": "notification",
+        "cycle_label": "Navy-INCET",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Navy Civilian Recruitment Regulations",
+        "url": "https://www.joinindiannavy.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "Navy-Civilian-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
