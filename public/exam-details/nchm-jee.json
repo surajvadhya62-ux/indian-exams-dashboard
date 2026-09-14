@@ -1,0 +1,114 @@
+{
+  "id": "nchm-jee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Council for Hotel Management Joint Entrance Examination (NCHM JEE) is conducted by the National Testing Agency (NTA) on behalf of the National Council for Hotel Management and Catering Technology (NCHMCT), an autonomous body under the Ministry of Tourism, Government of India. NCHM JEE is the national gateway for admission to the 3-year Bachelor of Science in Hospitality and Hotel Administration (B.Sc. HHA) degree programme offered jointly by NCHMCT and Jawaharlal Nehru University (JNU) across Central, State, Public Sector, and Private Institutes of Hotel Management (IHMs). The examination is a Computer Based Test (CBT) of 180 minutes (3 hours) duration comprising 200 multiple-choice questions carrying a total of 800 marks (4 marks per question). The test contains five sections: Numerical Ability and Analytical Aptitude (30 questions, 120 marks), Reasoning and Logical Deduction (30 questions, 120 marks), General Knowledge & Current Affairs (30 questions, 120 marks), English Language (60 questions, 240 marks), and Aptitude for Service Sector (50 questions, 200 marks). Marking scheme: 4 marks awarded for each correct response, negative marking of 1 mark deducted for each incorrect response (-1), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "NCHM JEE Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-15",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA NCHM JEE Information Bulletin — Examination Pattern & Scheme",
+        "papers": [
+          {
+            "paper_name": "Section 1: Numerical Ability and Analytical Aptitude",
+            "marks": 120,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in aggregate score (out of 800) for All India Rank computation"
+          },
+          {
+            "paper_name": "Section 2: Reasoning and Logical Deduction",
+            "marks": 120,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in aggregate score"
+          },
+          {
+            "paper_name": "Section 3: General Knowledge & Current Affairs",
+            "marks": 120,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in aggregate score"
+          },
+          {
+            "paper_name": "Section 4: English Language",
+            "marks": 240,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in aggregate score"
+          },
+          {
+            "paper_name": "Section 5: Aptitude for Service Sector",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in aggregate score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate participation numbers and sanctioned seat matrix published by NTA and NCHMCT.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 34200,
+        "vacancies": 11965,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "34,200 candidates appeared for 11,965 approved B.Sc. HHA seats across 21 Central IHMs, 29 State IHMs, 1 PSU IHM, and 26 Private IHMs nationwide (~1 in 2.8 selectivity overall; premier IHMs like Pusa, Mumbai, and Bangalore selectivity exceeds 1 in 10)",
+        "confidence": "reported",
+        "as_of": "2024-06-15",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA NCHM JEE 2024 Examination Highlights Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 32800,
+        "vacancies": 11800,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "32,800 appeared candidates for 11,800 sanctioned seats; selectivity approx. 1 in 2.8",
+        "confidence": "reported",
+        "as_of": "2023-06-20",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NCHMCT Annual Counseling Report & Seat Allocation Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal and council documentation maintained by NTA and NCHMCT.",
+    "links": [
+      {
+        "label": "NTA Examination Portal (NCHM JEE)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "NCHM-JEE-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NCHMCT Official Council Portal",
+        "url": "https://nchm.gov.in/",
+        "type": "notification",
+        "cycle_label": "NCHMCT-Corporate",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

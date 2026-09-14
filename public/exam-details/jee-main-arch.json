@@ -1,0 +1,98 @@
+{
+  "id": "jee-main-arch",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Joint Entrance Examination (Main) Paper 2 is administered by the National Testing Agency (NTA) for admission into undergraduate Bachelor of Architecture (B.Arch — Paper 2A) and Bachelor of Planning (B.Planning — Paper 2B) courses across National Institutes of Technology (NITs), Indian Institute of Engineering Science and Technology (IIEST) Shibpur, and Schools of Planning and Architecture (SPAs Delhi, Bhopal, Vijayawada). For Paper 2A (B.Arch), the examination carries 400 marks with a duration of 180 minutes (3 hours). It comprises three parts: Part I Mathematics (20 MCQs and 10 Numerical Value questions of which 5 are to be attempted, total 100 marks; CBT mode), Part II Aptitude Test (50 MCQs, 200 marks; CBT mode), and Part III Drawing Test (2 questions on drawing sheets, 100 marks; offline pen-and-paper mode). Marking scheme for Parts I & II: 4 marks awarded for correct response, negative marking of 1 mark deducted for incorrect response (-1), and 0 for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "JEE Main Paper 2A (B.Arch) / Paper 2B (B.Planning)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://jeemain.nta.nic.in/",
+        "source_label": "NTA JEE (Main) Information Bulletin — Scheme of Paper 2A & 2B",
+        "papers": [
+          {
+            "paper_name": "Part I: Mathematics (CBT mode: 20 MCQs + 5/10 Numerical Value questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in NTA percentile score computation"
+          },
+          {
+            "paper_name": "Part II: Aptitude Test (CBT mode: 50 MCQs on visual reasoning, architecture awareness)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in NTA percentile score computation"
+          },
+          {
+            "paper_name": "Part III: Drawing Test (Offline paper mode: 2 drawing / composition questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (evaluated on scale, proportion, shading, perspective)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated manually; combined with Parts I & II for B.Arch All India Rank"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and attendance figures published in official NTA JEE (Main) press notes across Session 1 and Session 2.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 73645,
+        "vacancies": 1120,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "73,645 unique candidates appeared across Session 1 and Session 2 for ~1,120 architecture and planning seats across NITs, IIEST Shibpur, and SPAs participating in JoSAA/CSAB counseling (~1 in 66 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-05-18",
+        "source_url": "https://jeemain.nta.nic.in/",
+        "source_label": "NTA JEE Main 2024 Paper 2 Declaration of Results Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 65300,
+        "vacancies": 1080,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "65,300 appeared candidates for 1,080 seats; selectivity approx. 1 in 60",
+        "confidence": "reported",
+        "as_of": "2023-05-25",
+        "source_url": "https://jeemain.nta.nic.in/",
+        "source_label": "NTA Press Release — JEE Main Paper 2 Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, question papers, and information bulletins maintained by National Testing Agency.",
+    "links": [
+      {
+        "label": "NTA JEE (Main) Official Portal",
+        "url": "https://jeemain.nta.nic.in/",
+        "type": "notification",
+        "cycle_label": "JEE-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "National Testing Agency Examination Repository",
+        "url": "https://exams.nta.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "NTA-Exams-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

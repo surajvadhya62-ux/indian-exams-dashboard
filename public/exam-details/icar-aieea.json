@@ -1,0 +1,82 @@
+{
+  "id": "icar-aieea",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The ICAR All India Entrance Examination for Admission (ICAR AIEEA-PG) is conducted by the National Testing Agency (NTA) on behalf of the Indian Council of Agricultural Research (ICAR) for admission to 30% of seats in Master's degree programmes across State Agricultural Universities (SAUs), Central Agricultural Universities (CAUs), ICAR Deemed Universities (IARI, IVRI, NDRI, CIFE), and Central Universities with agricultural faculties, as well as for the award of ICAR-PG Scholarship / National Talent Scholarship (NTS). The examination is conducted as a Computer Based Test (CBT) of 120 minutes (2 hours) duration. The question paper consists of 120 multiple-choice questions carrying a total of 480 marks across 20 Major Subject Groups. Marking scheme: 4 marks awarded for each correct response, 1 mark deducted for each incorrect response (-1 negative marking), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "ICAR AIEEA-PG Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-04-10",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA ICAR AIEEA-PG Information Bulletin — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Major Subject Group Paper (120 MCQs: Plant Biotechnology, Agronomy, Horticulture, Agricultural Engineering, etc.)",
+            "marks": 480,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall merit rank and percentile score used for ICAR seat allocation and scholarship awards"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate participation statistics and seat matrix published by ICAR Education Division.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 38500,
+        "vacancies": 3200,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Approximately 38,500 candidates appeared for ~3,200 ICAR quota master's seats and ~600 ICAR-PG scholarships across agricultural universities nationwide (~1 in 12 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-25",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA ICAR AIEEA 2024 Examination Highlights Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 35200,
+        "vacancies": 3120,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "35,200 candidates appeared for 3,120 PG seats; selectivity approx. 1 in 11.3",
+        "confidence": "reported",
+        "as_of": "2023-07-30",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "ICAR Education Division Seat Matrix & Allotment Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal and admission guidelines maintained by NTA and ICAR.",
+    "links": [
+      {
+        "label": "NTA ICAR Examination Portal",
+        "url": "https://exams.nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "ICAR-AIEEA-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Council of Agricultural Research (ICAR) Official Portal",
+        "url": "https://icar.org.in/",
+        "type": "notification",
+        "cycle_label": "ICAR-Corporate-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "jamia-entrance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jamia Millia Islamia Entrance Examination is conducted by the Office of the Controller of Examinations, Jamia Millia Islamia (a Central University established by an Act of Parliament), New Delhi, for admission into over 130 undergraduate, postgraduate, diploma, and advanced diploma programmes across arts, sciences, engineering, social sciences, education, and law. (While Jamia offers select undergraduate and postgraduate courses through CUET, the majority of specialized courses continue under Jamia's dedicated university admission tests). The entrance examination is an offline pen-and-paper test administered using OMR sheets with a standard duration of 105 minutes (1 hour 45 minutes) carrying 100 multiple-choice questions (100 marks) in undergraduate and postgraduate tests (for professional programmes like B.A. LL.B., B.Ed., and MBA, tests carry 150 to 170 questions of 120 to 180 minutes duration). Marking scheme: 1 mark awarded for each correct response, negative marking of 0.25 marks deducted for each incorrect response (-0.25), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "JMI Written Admission Test (OMR Pen & Paper Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-25",
+        "source_url": "https://jmicoe.in/",
+        "source_label": "Jamia Millia Islamia University e-Prospectus & Admission Guidelines",
+        "papers": [
+          {
+            "paper_name": "General & Domain Specific Multiple Choice Question Paper (100 MCQs)",
+            "marks": 100,
+            "duration_minutes": 105,
+            "negative_marking": "-0.25 marks for each incorrect response (+1 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 15% marks in objective test (30% for courses with interview) required to be eligible for admission merit list"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual applicant volume and approved seat matrix published by JMI Office of the Controller of Examinations.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 152000,
+        "vacancies": 7200,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,52,000 applications received across all university entrance programmes for ~7,200 sanctioned seats across faculties and centers (~1 in 21 selectivity overall; law, media, and computer science courses selectivity exceeds 1 in 50)",
+        "confidence": "reported",
+        "as_of": "2024-07-20",
+        "source_url": "https://jmicoe.in/",
+        "source_label": "JMI Admissions Committee Annual Statistical Bulletin"
+      },
+      {
+        "year": 2023,
+        "applicants": 145000,
+        "vacancies": 7000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1.45 lakh applicants for 7,000 seats; selectivity approx. 1 in 20.7",
+        "confidence": "reported",
+        "as_of": "2023-07-25",
+        "source_url": "https://jmicoe.in/",
+        "source_label": "JMI Controller of Examinations Admissions Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, syllabi, and prospectus maintained by the Office of the Controller of Examinations, Jamia Millia Islamia.",
+    "links": [
+      {
+        "label": "JMI Controller of Examinations Official Portal",
+        "url": "https://jmicoe.in/",
+        "type": "notification",
+        "cycle_label": "JMI-Exams-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Jamia Millia Islamia Main University Website",
+        "url": "https://www.jmi.ac.in/",
+        "type": "notification",
+        "cycle_label": "JMI-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ailet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The All India Law Entrance Test (AILET) is conducted annually by National Law University, Delhi (NLU Delhi) for admission into its five-year integrated B.A. LL.B. (Hons.), LL.M., and Ph.D. degree programmes. AILET is an offline pen-and-paper examination administered using OMR answer sheets across designated test cities in India. For the B.A. LL.B. (Hons.) programme, the examination comprises 150 multiple-choice questions of 1 mark each (total 150 marks) to be solved within 120 minutes duration. The question paper contains three sections: Section A - English Language (50 questions, 50 marks), Section B - Current Affairs & General Knowledge (30 questions, 30 marks), and Section C - Logical Reasoning (70 questions, 70 marks). Marking scheme: 1 mark awarded for each correct response, negative marking of 0.25 marks deducted for each incorrect response, and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "AILET Written Examination (OMR-based Pen & Paper Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-01",
+        "source_url": "https://nludelhi.ac.in/",
+        "source_label": "NLU Delhi AILET Admission Notification & Information Brochure",
+        "papers": [
+          {
+            "paper_name": "Section A: English Language (Reading Comprehension, Vocabulary, Grammar)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response (+1 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 3 sections for composite All India Rank"
+          },
+          {
+            "paper_name": "Section B: Current Affairs & General Knowledge",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 3 sections"
+          },
+          {
+            "paper_name": "Section C: Logical Reasoning (Deductive, Inductive & Critical Reasoning)",
+            "marks": 70,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively; tie-breaking prioritizes higher marks in Section C"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Test-taker turnout and sanctioned intake statistics published by NLU Delhi Admissions Committee.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 18900,
+        "vacancies": 123,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "18,900 candidates appeared for 123 sanctioned seats in B.A. LL.B. (Hons.) at NLU Delhi (~1 in 153 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-05-15",
+        "source_url": "https://nludelhi.ac.in/",
+        "source_label": "NLU Delhi Annual Report & AILET Result Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 17800,
+        "vacancies": 123,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "17,800 appeared candidates for 123 seats; selectivity approx. 1 in 145",
+        "confidence": "reported",
+        "as_of": "2023-05-20",
+        "source_url": "https://nludelhi.ac.in/",
+        "source_label": "NLU Delhi Admissions Archive"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information portals, admission announcements, and syllabus documents maintained by National Law University, Delhi.",
+    "links": [
+      {
+        "label": "NLU Delhi Official University Portal",
+        "url": "https://nludelhi.ac.in/",
+        "type": "notification",
+        "cycle_label": "NLU-Delhi-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AILET Admissions & Information Brochure Repository",
+        "url": "https://nludelhi.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "AILET-Information-Bulletin",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

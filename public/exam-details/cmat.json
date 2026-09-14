@@ -1,0 +1,114 @@
+{
+  "id": "cmat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Common Management Admission Test (CMAT) is a national-level Computer Based Test (CBT) administered by the National Testing Agency (NTA) on behalf of the Ministry of Education and AICTE for admission to MBA, PGDM, and Executive PGDM programmes across participating management institutions in India. The examination has a duration of 180 minutes (3 hours) and consists of 100 multiple-choice questions carrying a total of 400 marks. The test is structured into five mandatory sections of 20 questions (80 marks) each: Quantitative Techniques and Data Interpretation, Logical Reasoning, Language Comprehension, General Awareness, and Innovation & Entrepreneurship. Marking scheme: 4 marks awarded for each correct response, 1 mark deducted for each incorrect response (-1 negative marking), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "CMAT Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-15",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA CMAT Information Bulletin — Examination Scheme & Pattern",
+        "papers": [
+          {
+            "paper_name": "Section 1: Quantitative Techniques and Data Interpretation",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in total composite score (out of 400) and national percentile rank"
+          },
+          {
+            "paper_name": "Section 2: Logical Reasoning",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in total score"
+          },
+          {
+            "paper_name": "Section 3: Language Comprehension",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in total score"
+          },
+          {
+            "paper_name": "Section 4: General Awareness",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in total score"
+          },
+          {
+            "paper_name": "Section 5: Innovation and Entrepreneurship",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in total score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and attendance figures published in official NTA press releases following exam completion.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 76160,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "76,160 candidates registered and 65,127 appeared across 186 test cities nationwide for admission to 1,000+ AICTE-approved management institutions",
+        "confidence": "reported",
+        "as_of": "2024-06-06",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA CMAT 2024 Examination Highlights Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 75209,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "75,209 registered candidates, with 58,035 appearing in the CBT exam",
+        "confidence": "reported",
+        "as_of": "2023-05-31",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA CMAT 2023 Result Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal and notification repository maintained by the National Testing Agency.",
+    "links": [
+      {
+        "label": "NTA Examination Portal (CMAT)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "CMAT-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "National Testing Agency Official Corporate Portal",
+        "url": "https://nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "NTA-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

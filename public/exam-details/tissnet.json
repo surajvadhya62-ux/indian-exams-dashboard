@@ -1,0 +1,124 @@
+{
+  "id": "tissnet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Tata Institute of Social Sciences National Entrance Test (TISS-NET) was the premier entrance examination conducted by the Tata Institute of Social Sciences (TISS), a Deemed University funded by the Ministry of Education, Government of India, for admission to its Master of Arts (M.A.), Master of Science (M.Sc.), and Master of Hospital Administration (MHA) programmes across Mumbai, Tuljapur, Hyderabad, and Guwahati campuses. In alignment with national higher education policy, TISS transitioned its post-graduate admissions: admissions to Master of Arts in Human Resource Management & Labour Relations (HRM&LR) and Master of Arts in Organisation Development, Change and Leadership (ODCL) are conducted via the Common Admission Test (CAT) administered by IIMs, while all other postgraduate programmes admit through the Common University Entrance Test for Postgraduates (CUET-PG) administered by NTA. The classical TISS-NET examination pattern comprised a 100-minute Computer Based Test (CBT) with 100 multiple-choice questions (100 marks) across General Awareness (40 Qs), English Proficiency (30 Qs), and Mathematical & Logical Reasoning (30 Qs), with no negative marking.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Entrance Assessment (CUET-PG / CAT for HRM&LR / Historical TISS-NET CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-15",
+        "source_url": "https://admissions.tiss.edu/",
+        "source_label": "TISS Master's Admission Policy & Academic Bulletin",
+        "papers": [
+          {
+            "paper_name": "General Awareness & Social Issues",
+            "marks": 40,
+            "duration_minutes": 100,
+            "negative_marking": "No negative marking in classical TISS-NET; for CUET-PG -1 mark negative applies",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cutoff applied in General Awareness (minimum 35% for GN/EWS, 30% for PwD/OBC)"
+          },
+          {
+            "paper_name": "English Proficiency",
+            "marks": 30,
+            "duration_minutes": 100,
+            "negative_marking": "No negative marking in classical TISS-NET",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit total"
+          },
+          {
+            "paper_name": "Mathematical Skills & Logical Reasoning",
+            "marks": 30,
+            "duration_minutes": 100,
+            "negative_marking": "No negative marking in classical TISS-NET",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit total"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Online Assessment (Extempore / Discussion & Personal Interview)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-01-15",
+        "source_url": "https://admissions.tiss.edu/",
+        "source_label": "TISS Second Stage Evaluation & Final Merit Guidelines",
+        "papers": [
+          {
+            "paper_name": "Extempore Reflection / Online Group Discussion",
+            "marks": 100,
+            "duration_minutes": 20,
+            "negative_marking": "Not applicable (board evaluation)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted in composite final merit computation"
+          },
+          {
+            "paper_name": "Online Personal Interview (OPI)",
+            "marks": 100,
+            "duration_minutes": 25,
+            "negative_marking": "Not applicable (board evaluation)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted at 30% in composite selection"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate application turnout and sanctioned seats published by TISS Office of Admissions.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 44500,
+        "vacancies": 1250,
+        "shortlisted_for_mains": 3800,
+        "selectivity_ratio": "Approximately 44,500 candidates applied across 54 Master's degree programmes for ~1,250 total seats across Mumbai, Tuljapur, Hyderabad, and Guwahati campuses (~1 in 36 selectivity overall; HRM&LR selectivity exceeds 1 in 120)",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://admissions.tiss.edu/",
+        "source_label": "TISS Admissions Committee Master's Intake Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 42000,
+        "vacancies": 1200,
+        "shortlisted_for_mains": 3600,
+        "selectivity_ratio": "42,000 applicants for 1,200 seats; selectivity approx. 1 in 35",
+        "confidence": "reported",
+        "as_of": "2023-06-25",
+        "source_url": "https://admissions.tiss.edu/",
+        "source_label": "TISS Master's Admission Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal and academic documentation maintained by Tata Institute of Social Sciences.",
+    "links": [
+      {
+        "label": "TISS Admissions Official Portal",
+        "url": "https://admissions.tiss.edu/",
+        "type": "notification",
+        "cycle_label": "TISS-Admissions-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Tata Institute of Social Sciences Main Institutional Portal",
+        "url": "https://www.tiss.edu/",
+        "type": "notification",
+        "cycle_label": "TISS-Main-Website",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

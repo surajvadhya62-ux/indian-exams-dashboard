@@ -1,0 +1,82 @@
+{
+  "id": "gpat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Graduate Pharmacy Aptitude Test (GPAT) is the national single-window computer-based entrance examination for admission into Master of Pharmacy (M.Pharm) programmes and for the award of monthly AICTE/PCI postgraduate pharmacy scholarships. Following its transfer from the National Testing Agency (NTA), the examination is conducted by the National Board of Examinations in Medical Sciences (NBEMS). The examination consists of a single computer-based paper containing 125 multiple-choice questions of 4 marks each, carrying a total of 500 marks, to be answered in 180 minutes (3 hours). The test covers five core subject groups: Pharmaceutical Chemistry & Allied Subjects (38 questions), Pharmaceutics & Allied Subjects (38 questions), Pharmacognosy & Allied Subjects (10 questions), Pharmacology & Allied Subjects (28 questions), and Other Pharmacy Subjects (11 questions). Marking scheme: 4 marks awarded for each correct answer, negative marking of 1 mark deducted for each incorrect answer (-1 mark), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "GPAT Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-04-12",
+        "source_url": "https://natboard.edu.in/",
+        "source_label": "NBEMS GPAT Information Bulletin — Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Pharmaceutical Sciences (Pharm Chemistry 38, Pharmaceutics 38, Pharmacology 28, Pharmacognosy 10, Other 11)",
+            "marks": 500,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise percentile cutoffs determine qualification for M.Pharm admissions and PCI/AICTE PG stipend"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate participation and qualifying statistics published in official NBEMS / NTA result releases.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 64800,
+        "vacancies": null,
+        "shortlisted_for_mains": 4920,
+        "selectivity_ratio": "64,800 registered candidates and ~61,200 test-takers appeared across 113 cities; 4,920 candidates qualified for PG pharmacy admissions and AICTE/PCI scholarship awards (~1 in 12.4 qualification rate)",
+        "confidence": "reported",
+        "as_of": "2024-07-08",
+        "source_url": "https://natboard.edu.in/",
+        "source_label": "NBEMS GPAT 2024 Result Notification & Cutoff Score Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 68439,
+        "vacancies": null,
+        "shortlisted_for_mains": 5200,
+        "selectivity_ratio": "68,439 registered candidates and 62,275 appeared in the CBT examination; ~5,200 candidates qualified",
+        "confidence": "reported",
+        "as_of": "2023-07-01",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA GPAT 2023 Result Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal and notification repository maintained by National Board of Examinations in Medical Sciences.",
+    "links": [
+      {
+        "label": "NBEMS Official Examination Portal",
+        "url": "https://natboard.edu.in/",
+        "type": "notification",
+        "cycle_label": "NBEMS-GPAT-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NTA Examination Portal Archive (GPAT)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "NTA-GPAT-Archive",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

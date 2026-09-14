@@ -1,0 +1,114 @@
+{
+  "id": "mat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Management Aptitude Test (MAT) is a national-level entrance examination administered by the All India Management Association (AIMA) four times a year (February, May, September, and December) for admission to Master of Business Administration (MBA), Post Graduate Diploma in Management (PGDM), and allied management programmes across 600+ participating business schools in India. Candidates can choose between Paper Based Test (PBT), Computer Based Test (CBT), or Remote Proctored Internet Based Test (IBT) modes. Under the revised examination structure, the test comprises 150 multiple-choice questions of 1 mark each (total 150 marks) to be completed within 120 minutes (2 hours). The paper contains five sections: Language Comprehension (30 Qs), Intelligence & Critical Reasoning (30 Qs), Mathematical Skills (30 Qs), Data Analysis & Sufficiency (30 Qs), and Indian & Global Environment (30 Qs). Marking scheme: +1 for correct response, -0.25 for incorrect response. The composite score and percentile are computed using the first four sections (120 questions), while Indian & Global Environment is reported separately.",
+    "stages": [
+      {
+        "stage_name": "Management Aptitude Test (CBT / PBT / IBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-06-01",
+        "source_url": "https://mat.aima.in/",
+        "source_label": "AIMA MAT Information Bulletin & Examination Structure",
+        "papers": [
+          {
+            "paper_name": "Section 1: Language Comprehension",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response (+1 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score and percentile calculation (scaled 200–800)"
+          },
+          {
+            "paper_name": "Section 2: Intelligence & Critical Reasoning",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score"
+          },
+          {
+            "paper_name": "Section 3: Mathematical Skills",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score"
+          },
+          {
+            "paper_name": "Section 4: Data Analysis & Sufficiency",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score"
+          },
+          {
+            "paper_name": "Section 5: Indian & Global Environment",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": true,
+            "qualifying_threshold": "Reported separately on scorecard; not factored into scaled composite score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual test registration and candidate participation metrics published by AIMA.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 82000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Approximately 82,000 candidates tested across all four quarterly cycles (Feb, May, Sep, Dec) for admission to 600+ participating AICTE-approved management institutes",
+        "confidence": "reported",
+        "as_of": "2024-12-28",
+        "source_url": "https://mat.aima.in/",
+        "source_label": "AIMA Annual Administrative Overview & MAT Test Cycle Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 78000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "78,000 candidates appeared across testing modes throughout the year",
+        "confidence": "reported",
+        "as_of": "2023-12-30",
+        "source_url": "https://mat.aima.in/",
+        "source_label": "AIMA MAT Year-End Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, test schedule, and syllabus bulletins maintained by All India Management Association.",
+    "links": [
+      {
+        "label": "AIMA MAT Official Examination Portal",
+        "url": "https://mat.aima.in/",
+        "type": "notification",
+        "cycle_label": "AIMA-MAT-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "All India Management Association Main Website",
+        "url": "https://www.aima.in/",
+        "type": "notification",
+        "cycle_label": "AIMA-Corporate-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

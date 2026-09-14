@@ -1,0 +1,82 @@
+{
+  "id": "imu-cet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Indian Maritime University Common Entrance Test (IMU-CET) is conducted annually by the Indian Maritime University (IMU), a Central University under the Ministry of Ports, Shipping and Waterways, Government of India. IMU-CET serves as the national gateway for admission to undergraduate programmes (B.Tech in Marine Engineering, B.Sc. in Nautical Science, B.Tech in Naval Architecture & Ocean Engineering) and postgraduate programmes across IMU's six university campuses (Chennai, Kochi, Kolkata, Mumbai Port, Navi Mumbai, and Visakhapatnam) and affiliated maritime training institutes. The undergraduate technical entrance examination is an online Computer Based Test (CBT) consisting of 200 multiple-choice questions carrying a total of 200 marks, with a test duration of 180 minutes (3 hours). The paper contains five sections: Physics (50 questions), Mathematics (50 questions), Chemistry (20 questions), English (40 questions), and General Aptitude (40 questions). Marking scheme: 1 mark awarded for each correct answer, negative marking of 0.25 marks deducted for each incorrect answer (-0.25), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "IMU-CET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-03-20",
+        "source_url": "https://www.imu.edu.in/",
+        "source_label": "Indian Maritime University Academic Brochure & CET Information Bulletin",
+        "papers": [
+          {
+            "paper_name": "Undergraduate Technical CET (Physics 50, Mathematics 50, Chemistry 20, English 40, General Aptitude 40)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response (+1 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "All India Rank (AIR) in CET is mandatory for participation in online counseling and admission to Directorate General of Shipping (DGS) approved maritime courses"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Registration and seat matrix statistics published by Indian Maritime University Admissions Directorate.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 27500,
+        "vacancies": 3400,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "27,500 candidates appeared in IMU-CET for ~3,400 undergraduate maritime engineering and nautical science seats across 6 IMU campuses and 21 affiliated institutes (~1 in 8 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-06-25",
+        "source_url": "https://www.imu.edu.in/",
+        "source_label": "IMU-CET Rank List & Seat Allocation Highlights"
+      },
+      {
+        "year": 2023,
+        "applicants": 24800,
+        "vacancies": 3250,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "24,800 appeared candidates for 3,250 approved seats; selectivity approx. 1 in 7.6",
+        "confidence": "reported",
+        "as_of": "2023-06-28",
+        "source_url": "https://www.imu.edu.in/",
+        "source_label": "IMU Annual Academic Admissions Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official university portal, examination links, and academic brochures maintained by Indian Maritime University.",
+    "links": [
+      {
+        "label": "Indian Maritime University Official Portal",
+        "url": "https://www.imu.edu.in/",
+        "type": "notification",
+        "cycle_label": "IMU-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IMU Admissions & CET Information Repository",
+        "url": "https://www.imu.edu.in/",
+        "type": "syllabus",
+        "cycle_label": "IMU-CET-Information",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

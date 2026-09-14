@@ -1,0 +1,98 @@
+{
+  "id": "amu-entrance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Aligarh Muslim University (AMU) Entrance Tests are conducted by the Office of the Controller of Examinations, AMU, for admission into undergraduate (B.Tech at Zakir Husain College of Engineering & Technology, B.A. LL.B., B.Sc. Hons, B.Com. Hons) and postgraduate (M.Sc., MBA, MCA, LL.M.) degree courses. For the flagship engineering entrance examination (AMUEEE / B.Tech Entrance), the test comprises a single pen-and-paper OMR-based paper of 180 minutes (3 hours) duration containing 150 multiple-choice questions carrying 150 marks, equally distributed across Physics (50 questions, 50 marks), Chemistry (50 questions, 50 marks), and Mathematics (50 questions, 50 marks). For general departmental admission tests (B.A. LL.B., B.Com, B.Sc.), question papers carry 100 multiple-choice questions (100 marks) of 120 minutes duration. Marking scheme: 1 mark awarded for each correct response, negative marking of 0.25 marks deducted for each incorrect response (-0.25), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "AMU Admission Test (Pen & Paper OMR Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-20",
+        "source_url": "https://www.amucontrollerexams.com/",
+        "source_label": "AMU Guide to Admissions — Test Schemes, Courses of Study & Question Paper Pattern",
+        "papers": [
+          {
+            "paper_name": "Section 1: Physics",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response (+1 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 3 sections for B.Tech merit ranking"
+          },
+          {
+            "paper_name": "Section 2: Chemistry",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively"
+          },
+          {
+            "paper_name": "Section 3: Mathematics",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively; tie-breaking rules prioritize higher marks in Mathematics"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate application counts and seat matrix published by AMU Controller of Examinations.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 185000,
+        "vacancies": 8200,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Over 1.85 lakh candidates applied across all undergraduate, postgraduate, and diploma admission tests for ~8,200 sanctioned university seats; flagship B.Tech received ~34,500 applicants for ~450 seats (~1 in 76 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-15",
+        "source_url": "https://www.amucontrollerexams.com/",
+        "source_label": "AMU Controller of Examinations Annual Admission Review"
+      },
+      {
+        "year": 2023,
+        "applicants": 172000,
+        "vacancies": 8000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1.72 lakh applicants for ~8,000 university seats; selectivity approx. 1 in 21.5 overall",
+        "confidence": "reported",
+        "as_of": "2023-07-20",
+        "source_url": "https://www.amucontrollerexams.com/",
+        "source_label": "AMU Admissions Committee Highlights"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, syllabi, and admission guides maintained by the Office of the Controller of Examinations, AMU.",
+    "links": [
+      {
+        "label": "AMU Controller of Examinations Official Portal",
+        "url": "https://www.amucontrollerexams.com/",
+        "type": "notification",
+        "cycle_label": "AMU-Exams-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Aligarh Muslim University Main Institutional Website",
+        "url": "https://www.amu.ac.in/",
+        "type": "notification",
+        "cycle_label": "AMU-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

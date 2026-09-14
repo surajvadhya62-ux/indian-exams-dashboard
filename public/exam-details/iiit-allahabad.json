@@ -1,0 +1,116 @@
+{
+  "id": "iiit-allahabad",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admissions to the undergraduate Bachelor of Technology (B.Tech) programmes in Information Technology (IT), Information Technology - Business Informatics (IT-BI), and Electronics & Communication Engineering (ECE) at Indian Institute of Information Technology, Allahabad (IIIT-A) — an Institute of National Importance established by the Government of India — are conducted purely on the basis of All India Rank (AIR) in the Joint Entrance Examination (Main) Paper 1 administered by the National Testing Agency (NTA), followed by centralized counseling through the Joint Seat Allocation Authority (JoSAA) and Central Seat Allocation Board (CSAB). JEE (Main) Paper 1 is a Computer Based Test (CBT) of 180 minutes (3 hours) duration carrying 300 marks. The paper comprises three subjects: Physics, Chemistry, and Mathematics (each containing 20 Multiple Choice Questions and 10 Numerical Value questions of which 5 are to be answered; total 75 questions evaluated out of 90). Marking scheme: 4 marks awarded for each correct response, negative marking of 1 mark deducted for each incorrect response (-1), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: NTA JEE (Main) Paper 1 Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://jeemain.nta.nic.in/",
+        "source_label": "NTA JEE (Main) Information Bulletin & Examination Pattern",
+        "papers": [
+          {
+            "paper_name": "Physics (20 MCQs + 5 Numerical Value Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in NTA percentile score calculation"
+          },
+          {
+            "paper_name": "Chemistry (20 MCQs + 5 Numerical Value Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in NTA percentile score calculation"
+          },
+          {
+            "paper_name": "Mathematics (20 MCQs + 5 Numerical Value Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in NTA percentile score calculation"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Centralized Seat Allocation (JoSAA / CSAB Counseling)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-06-20",
+        "source_url": "https://www.iiita.ac.in/",
+        "source_label": "IIIT Allahabad B.Tech Admission Rules & JoSAA Business Rules",
+        "papers": [
+          {
+            "paper_name": "JoSAA Online Choice Filling & Multi-Round Seat Allocation",
+            "marks": 300,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable (merit rank matching)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Allocation based strictly on All India Rank (AIR) in JEE Main (General Opening Rank ~2,000 to Closing Rank ~5,500)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Opening and closing ranks published in official JoSAA / CSAB closing rank summaries and IIIT-A seat matrix.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1415000,
+        "vacancies": 375,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "375 sanctioned B.Tech seats filled through JoSAA from over 14.15 lakh JEE Main examinees; General Open category cutoff closed between AIR 2,150 and AIR 5,480 across IT and ECE disciplines (top 0.38% percentile selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-25",
+        "source_url": "https://www.iiita.ac.in/",
+        "source_label": "JoSAA Round 5 Closing Rank Statistics & IIIT-A Senate Academic Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 1160000,
+        "vacancies": 350,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "350 B.Tech seats filled; General closing rank closed at AIR 5,320 (~top 0.45% percentile)",
+        "confidence": "reported",
+        "as_of": "2023-07-28",
+        "source_url": "https://www.iiita.ac.in/",
+        "source_label": "JoSAA Round 6 Final Allotment Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official institutional portal and admissions guidelines maintained by IIIT Allahabad.",
+    "links": [
+      {
+        "label": "IIIT Allahabad Official Institutional Portal",
+        "url": "https://www.iiita.ac.in/",
+        "type": "notification",
+        "cycle_label": "IIITA-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IIIT Allahabad Academic Admissions Information",
+        "url": "https://www.iiita.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "IIITA-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

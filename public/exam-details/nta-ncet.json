@@ -1,0 +1,106 @@
+{
+  "id": "nta-ncet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Common Entrance Test (NCET) is conducted by the National Testing Agency (NTA) on behalf of the National Council for Teacher Education (NCTE) for admission into the 4-Year Integrated Teacher Education Programme (ITEP) — leading to dual-major Bachelor of Arts B.Ed. (B.A. B.Ed.), Bachelor of Science B.Ed. (B.Sc. B.Ed.), and Bachelor of Commerce B.Ed. (B.Com. B.Ed.) degrees — across premier multidisciplinary higher education institutions including Indian Institutes of Technology (IITs), National Institutes of Technology (NITs), Regional Institutes of Education (RIEs), Central Universities, and Government Colleges. The examination is conducted as a Computer Based Test (CBT) consisting of 160 multiple-choice questions (to be attempted from 181 total questions) carrying a total of 640 marks, with a test duration of 120 minutes. The examination comprises four distinct sections: Section 1 (Languages: candidates choose 2 languages from 38 languages, 20 questions each = 40 questions), Section 2 (Domain Specific Subjects: candidates choose 3 domain subjects from 26 offered disciplines, 25 questions each = 75 questions), Section 3 (General Test: mandatory, 25 questions), and Section 4 (Teaching Aptitude: mandatory, 20 questions). Marking scheme: 4 marks awarded for each correct response, negative marking of 1 mark deducted for each incorrect response (-1), and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "NCET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-04-10",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA NCET Information Bulletin — Examination Structure & Pattern",
+        "papers": [
+          {
+            "paper_name": "Section 1: Languages (Two Chosen Languages, 20 Qs each = 40 Qs)",
+            "marks": 160,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score (out of 640) for institutional merit allocation"
+          },
+          {
+            "paper_name": "Section 2: Domain-Specific Subjects (Three Chosen Domains, 25 Qs each = 75 Qs)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score"
+          },
+          {
+            "paper_name": "Section 3: General Test (General Knowledge, Current Affairs, Mental Ability, Reasoning)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score"
+          },
+          {
+            "paper_name": "Section 4: Teaching Aptitude (Pedagogical Concepts, Teacher-Learner Dynamic, Inclusivity)",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in composite score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Registration and participating institution metrics published in official NTA press releases.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 40233,
+        "vacancies": 3950,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "40,233 registered candidates appeared for ~3,950 approved 4-Year ITEP seats across 64 participating institutions including IIT Kharagpur, NIT Calicut, RIEs, and Central Universities (~1 in 10 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-28",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA NCET 2024 Examination Highlights Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 36500,
+        "vacancies": 3800,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "36,500 registered candidates across 42 participating institutions; selectivity approx. 1 in 9.6",
+        "confidence": "reported",
+        "as_of": "2023-08-10",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA Press Release on Conduct of First NCET"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, information bulletins, and NCTE teacher education frameworks.",
+    "links": [
+      {
+        "label": "National Testing Agency Examination Portal (NCET)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "NCET-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "National Council for Teacher Education (NCTE) ITEP Portal",
+        "url": "https://ncte.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "NCTE-ITEP-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

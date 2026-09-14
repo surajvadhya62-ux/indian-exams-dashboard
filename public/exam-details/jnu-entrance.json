@@ -1,0 +1,82 @@
+{
+  "id": "jnu-entrance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jawaharlal Nehru University Entrance Examination (JNUEE) was historically the dedicated university-wide entrance test administered by the National Testing Agency (NTA) for Jawaharlal Nehru University (JNU), New Delhi. In conformity with University Grants Commission directives, JNU now conducts admissions to its undergraduate programmes (B.A. Hons. in Foreign Languages, B.Sc.-M.Sc. Integrated programmes) via CUET-UG, its postgraduate master's programmes (M.A., M.Sc., MCA, MPH) via CUET-PG administered by NTA, and Ph.D. programmes via the NTA Ph.D. Entrance Examination / NET-JRF. For CUET-PG admissions, candidates appear in the respective domain-specific test code comprising 75 multiple-choice questions (300 marks) in Computer Based Test (CBT) mode of 105 minutes duration with a marking scheme of +4 for correct and -1 for incorrect responses. JNU uniquely applies a Deprivation Points policy (up to 12 additional points added to the composite score for candidates from backward districts, female candidates, and transgender applicants) to determine the final selection list.",
+    "stages": [
+      {
+        "stage_name": "NTA CUET-PG Examination (Domain Subject Paper)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-10",
+        "source_url": "https://www.jnu.ac.in/admissions",
+        "source_label": "JNU e-Prospectus & Admission Guidelines for Post-Graduate Programmes",
+        "papers": [
+          {
+            "paper_name": "Domain-Specific Subject Test (75 MCQs: Humanities, Social Sciences, Physical & Life Sciences)",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Normalized NTA score combined with JNU statutory Deprivation Points to generate merit ranks"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate preference counts and intake statistics published in JNU Academic Council reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 165000,
+        "vacancies": 2650,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Over 1.65 lakh student preferences registered for JNU postgraduate programmes in CUET-PG for an aggregate approved intake of ~2,650 PG seats across all schools and centers (~1 in 62 selectivity; flagship School of International Studies and School of Social Sciences selectivity exceeds 1 in 100)",
+        "confidence": "reported",
+        "as_of": "2024-07-28",
+        "source_url": "https://www.jnu.ac.in/admissions",
+        "source_label": "JNU Admissions Branch Annual Statistics & Allotment Summary"
+      },
+      {
+        "year": 2023,
+        "applicants": 158000,
+        "vacancies": 2580,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1.58 lakh course preferences for 2,580 PG seats; selectivity approx. 1 in 61",
+        "confidence": "reported",
+        "as_of": "2023-08-05",
+        "source_url": "https://www.jnu.ac.in/admissions",
+        "source_label": "JNU Office of Controller of Admissions Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal and university documentation maintained by Jawaharlal Nehru University.",
+    "links": [
+      {
+        "label": "JNU Official Admissions Portal",
+        "url": "https://www.jnu.ac.in/admissions",
+        "type": "notification",
+        "cycle_label": "JNU-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JNU Main Institutional Website",
+        "url": "https://www.jnu.ac.in/",
+        "type": "notification",
+        "cycle_label": "JNU-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pet-bhu",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Banaras Hindu University Postgraduate Entrance Test (BHU PET) was the dedicated institutional entrance exam conducted for admission to postgraduate master's degree programmes across Banaras Hindu University (BHU), Varanasi. In accordance with the Ministry of Education policy, BHU now conducts all postgraduate admissions through the Common University Entrance Test for Postgraduates (CUET-PG) administered by the National Testing Agency (NTA). Candidates select domain-specific paper codes (such as COQP, SCQP, HUQP, LAQP, and ACQP) corresponding to their intended master's discipline (M.A., M.Sc., M.Com., LL.M., MCA, M.Tech., and M.Sc. Agriculture). Each test comprises 75 domain-specific multiple-choice questions (300 marks) administered in Computer Based Test (CBT) mode of 105 minutes duration. Marking scheme: 4 marks awarded for each correct response, negative marking of 1 mark for each incorrect response (-1), and 0 marks for unattempted questions. Candidates register separately on the BHU Central Admission Portal (CAP PG) for seat allotment based on CUET-PG scores.",
+    "stages": [
+      {
+        "stage_name": "NTA CUET-PG (BHU Postgraduate Programmes)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-10",
+        "source_url": "https://www.bhu.ac.in/",
+        "source_label": "BHU Information Bulletin for Postgraduate Admissions & NTA CUET-PG Scheme",
+        "papers": [
+          {
+            "paper_name": "Domain Specific Question Paper (75 MCQs across Arts, Social Sciences, Commerce, Science, Agriculture)",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Normalized NTA score used for merit generation and seat counseling on BHU CAP-PG portal"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant preference counts and sanctioned intake published in BHU academic reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 225000,
+        "vacancies": 6500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Over 2.25 lakh programme preferences submitted for BHU post-graduate courses in CUET-PG across ~6,500 approved seats in main campus faculties and affiliated colleges (~1 in 34 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-22",
+        "source_url": "https://www.bhu.ac.in/",
+        "source_label": "BHU Central Admission Committee Annual Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 210000,
+        "vacancies": 6400,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "2.10 lakh course applications for 6,400 PG seats; selectivity approx. 1 in 33",
+        "confidence": "reported",
+        "as_of": "2023-07-28",
+        "source_url": "https://www.bhu.ac.in/",
+        "source_label": "BHU Postgraduate Admission Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official university portal, postgraduate admission guidelines, and counseling notices maintained by Banaras Hindu University.",
+    "links": [
+      {
+        "label": "Banaras Hindu University Official Website",
+        "url": "https://www.bhu.ac.in/",
+        "type": "notification",
+        "cycle_label": "BHU-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BHU Admissions Portal & Information Archive",
+        "url": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+        "type": "syllabus",
+        "cycle_label": "BHU-Admissions-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

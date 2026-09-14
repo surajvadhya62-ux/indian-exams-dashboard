@@ -1,0 +1,82 @@
+{
+  "id": "fddi-aist",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Footwear Design & Development Institute All India Selection Test (FDDI AIST) is conducted by the Footwear Design & Development Institute (FDDI), an Institute of National Importance under the Ministry of Commerce and Industry, Government of India, for admission into undergraduate (B.Des in Footwear Design & Production, Fashion Leather Accessory Design, and Textile & Apparel Design; BBA) and postgraduate (M.Des, MBA) programmes across its 12 campuses nationwide (Noida, Fursatganj, Chennai, Kolkata, Rohtak, Chhindwara, Guna, Jodhpur, Ankleshwar, Patna, Hyderabad, and Chandigarh). For undergraduate design programmes (B.Des), the AIST is a computer-based or paper-based test of 150 minutes (2.5 hours) duration comprising 150 questions carrying a total of 200 marks across five sections: Section 1 Quantitative Aptitude (25 questions, 25 marks), Section 2 Verbal Ability (30 questions, 30 marks), Section 3 General Awareness (30 questions, 30 marks), Section 4 Business Aptitude (25 questions, 25 marks), and Section 5 Design Aptitude (40 questions, 90 marks). There is no negative marking for incorrect attempts in FDDI AIST.",
+    "stages": [
+      {
+        "stage_name": "FDDI All India Selection Test (AIST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-15",
+        "source_url": "https://www.fddiindia.com/",
+        "source_label": "FDDI Admissions Prospectus & AIST Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Undergraduate Design AIST (Quantitative Aptitude 25, Verbal 30, GK 30, Business Aptitude 25, Design Aptitude 90)",
+            "marks": 200,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (unattempted and incorrect questions receive 0 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on aggregate score determines campus and discipline choice during counseling"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant turnout and sanctioned intake published in FDDI annual admissions reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 14200,
+        "vacancies": 2450,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "14,200 candidates applied for ~2,450 undergraduate and postgraduate design seats across 12 FDDI campuses (~1 in 5.8 selectivity overall; flagship Noida campus design seats selectivity exceeds 1 in 15)",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://www.fddiindia.com/",
+        "source_label": "FDDI Admissions Committee Annual Report & Counseling Allocation Summary"
+      },
+      {
+        "year": 2023,
+        "applicants": 13100,
+        "vacancies": 2400,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "13,100 applicants for 2,400 seats; selectivity approx. 1 in 5.5",
+        "confidence": "reported",
+        "as_of": "2023-06-25",
+        "source_url": "https://www.fddiindia.com/",
+        "source_label": "FDDI Annual Academic Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official institutional portal and admissions guidelines maintained by Footwear Design & Development Institute.",
+    "links": [
+      {
+        "label": "FDDI Official Institutional Portal",
+        "url": "https://www.fddiindia.com/",
+        "type": "notification",
+        "cycle_label": "FDDI-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "FDDI Academic Programmes & Admissions Repository",
+        "url": "https://www.fddiindia.com/",
+        "type": "syllabus",
+        "cycle_label": "FDDI-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

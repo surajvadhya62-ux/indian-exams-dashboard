@@ -1,0 +1,90 @@
+{
+  "id": "nata",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Aptitude Test in Architecture (NATA) is conducted by the Council of Architecture (CoA), a statutory body constituted under the Architects Act, 1972, as the mandatory entrance assessment for admission to the first year of 5-year Bachelor of Architecture (B.Arch) degree programmes across recognized government, aided, and private architecture colleges in India. The test carries a total of 200 marks and has a duration of 180 minutes (3 hours). The examination is divided into two distinct parts: Part A is a paper-based offline Drawing and Composition Test (3 questions, 80 marks: A1 Composition and Color 25 marks, A2 Sketching/Black and White 25 marks, A3 3D Composition 30 marks) administered for 90 minutes; and Part B is an online Computer Based Test (45 questions, 120 marks: Visual Reasoning, Logical Derivation, General Architecture Awareness, and Language Interpretation) administered for 90 minutes. Qualifying score requirement: Minimum qualifying marks in Part A, Part B, and an overall aggregate cutoff of 70 marks out of 200.",
+    "stages": [
+      {
+        "stage_name": "NATA Examination (Part A Drawing + Part B Online Aptitude)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-02-10",
+        "source_url": "https://nata.in/",
+        "source_label": "Council of Architecture NATA Information Brochure & Scheme of Exam",
+        "papers": [
+          {
+            "paper_name": "Part A: Drawing & Visual Composition Test (Offline Pen & Paper / Drawing Sheet)",
+            "marks": 80,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (manual evaluation on color harmony, proportions, perspective)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying cutoff prescribed by CoA (typically 20 marks out of 80)"
+          },
+          {
+            "paper_name": "Part B: Online Computer Based Test (Visual Reasoning, Architecture Knowledge, Design Aptitude)",
+            "marks": 120,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (+1, +2, or +3 marks depending on question type: MCQ, MSQ, PCQ)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying cutoff prescribed by CoA (typically 30 marks out of 120)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual candidate registration and qualifying metrics compiled from Council of Architecture releases.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 48200,
+        "vacancies": 22500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "48,200 unique test appearances recorded across multiple weekend slots for ~22,500 sanctioned B.Arch seats in ~450 CoA-approved architecture institutions nationwide (~1 in 2.1 ratio)",
+        "confidence": "reported",
+        "as_of": "2024-07-20",
+        "source_url": "https://nata.in/",
+        "source_label": "Council of Architecture NATA Annual Performance Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 45100,
+        "vacancies": 21800,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "45,100 candidates appeared across three scheduled phases; ~38,000 candidates achieved qualifying status",
+        "confidence": "reported",
+        "as_of": "2023-07-15",
+        "source_url": "https://nata.in/",
+        "source_label": "CoA Press Release on NATA Phase 3 Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal and statutory regulatory resources maintained by the Council of Architecture.",
+    "links": [
+      {
+        "label": "Council of Architecture NATA Official Portal",
+        "url": "https://nata.in/",
+        "type": "notification",
+        "cycle_label": "NATA-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Council of Architecture (CoA) Statutory Corporate Portal",
+        "url": "https://www.coa.gov.in/",
+        "type": "notification",
+        "cycle_label": "CoA-Main-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

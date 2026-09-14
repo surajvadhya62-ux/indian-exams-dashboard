@@ -1,0 +1,220 @@
+{
+  "id": "nvs-tgt-pgt",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Trained Graduate Teacher (TGT) / Miscellaneous Category Teachers",
+        "pay_level": "Level 7",
+        "years": "Entry for TGT (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Direct Recruitment Notification (Advt. No. 2022–23) — Pay Scale for TGT (₹44,900 – ₹1,42,400, Level 7)"
+      },
+      {
+        "designation": "Post Graduate Teacher (PGT)",
+        "pay_level": "Level 8",
+        "years": "Entry for PGT / 5-8 yrs (from TGT)",
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Direct Recruitment Notification (Advt. No. 2022–23) — Pay Scale for PGT (₹47,600 – ₹1,51,100, Level 8)"
+      },
+      {
+        "designation": "Vice Principal (Group A)",
+        "pay_level": "Level 10",
+        "years": "approx. 8-15 yrs",
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Recruitment Rules — Vice Principal (₹56,100 – ₹1,77,500, Level 10 Gazetted)"
+      },
+      {
+        "designation": "Principal (Group A)",
+        "pay_level": "Level 12",
+        "years": "approx. 15-22 yrs",
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Recruitment Rules — Principal (₹78,800 – ₹2,09,200, Level 12)"
+      },
+      {
+        "designation": "Assistant Commissioner (NVS Regional Office / Headquarters)",
+        "pay_level": "Level 13",
+        "years": "approx. 22-30 yrs",
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Administrative Cadre Rules — Assistant Commissioner (₹1,23,100 – ₹2,15,900, Level 13)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Navodaya Vidyalaya Samiti (NVS) conducts selection for teaching posts (PGTs and TGTs) through a Computer Based Test (CBT) followed by a Personal Interview. For PGTs, the CBT comprises 150 questions (180 minutes duration) across six parts: Part I General Awareness (10 Qs, 10 marks), Part II Reasoning Ability (20 Qs, 20 marks), Part III Knowledge of ICT (10 Qs, 10 marks), Part IV Teaching Aptitude (10 Qs, 10 marks), Part V Domain Knowledge & NEP 2020 pedagogy (80 Qs, 80 marks), and Part VI Language Competency Test (20 Qs, 20 marks: General English 10, General Hindi 10). Part VI is strictly qualifying (minimum 40% marks in each language is mandatory to have Parts I-V evaluated). For TGTs, total test length is 150 questions (120 marks evaluated + 30 marks Language Competency across Regional Language, English, and Hindi). Negative marking of 0.25 marks applies for each wrong answer in CBT. Final merit gives 80% weightage to CBT and 20% weightage to Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Detailed Recruitment Notification 2022–23 — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Part I: General Awareness",
+            "marks": 10,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit evaluation (130 marks for PGT / 120 marks for TGT)"
+          },
+          {
+            "paper_name": "Part II: Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit evaluation"
+          },
+          {
+            "paper_name": "Part III: Knowledge of ICT",
+            "marks": 10,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit evaluation"
+          },
+          {
+            "paper_name": "Part IV: Teaching Aptitude",
+            "marks": 10,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit evaluation"
+          },
+          {
+            "paper_name": "Part V: Domain Specific Subject Knowledge & Experiential Pedagogy (NEP 2020)",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": false,
+            "qualifying_threshold": "Included in Stage 1 merit evaluation"
+          },
+          {
+            "paper_name": "Part VI: Language Competency Test (General English & General Hindi / Regional Language)",
+            "marks": 20,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks for each incorrect response",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory 40% minimum qualifying marks in each language separately; non-qualifiers are disqualified from CBT ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-07-02",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Recruitment Scheme — Interview & Final Merit Computation",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Subject Knowledge, Communication Skills, Teaching Aptitude)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable (board assessment)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted at 20% in the composite selection score (80% CBT + 20% Interview)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "NVS is an autonomous organization under the Ministry of Education, Government of India. Teachers and officers are remunerated per the central 7th Central Pay Commission (7th CPC) Pay Matrix.",
+    "pay_level": "Level 8",
+    "entry_basic_pay": 47600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-07-02",
+    "pay_source_url": "https://navodaya.gov.in/",
+    "pay_source_label": "NVS Detailed Recruitment Notification 2022–23 — Pay Matrix Level 8 (₹47,600 – ₹1,51,100) for Post Graduate Teachers",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 75000, "max": 98000 },
+    "in_hand_range_estimate": { "min": 67000, "max": 88000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Spans entry TGT at Level 7 basic ₹44,900 (gross ~₹75,000, in-hand ~₹67,000) to PGT at Level 8 basic ₹47,600 (basic ₹47,600 + 58% DA ₹27,608 + 10% Special Allowance for residential duties ₹4,760 + central HRA/quarters + transport allowance = gross ~₹96,000, in-hand ~₹88,000 after 10% NPS deduction).",
+    "official_perks": [
+      "Mandatory rent-free furnished/unfurnished residential accommodation inside Jawahar Navodaya Vidyalaya (JNV) residential school campus",
+      "Free boarding and meals in school dining mess during session duties",
+      "Special Allowance of 10% of basic pay for arduous residential school responsibilities",
+      "Medical facilities / reimbursement as per Central Services (Medical Attendance) CS(MA) Rules / CGHS",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and free schooling in JNVs for wards of NVS employees",
+      "National Pension System (NPS) with 14% defined monthly employer contribution by Government of India",
+      "Leave Travel Concession (LTC) and Home Town Concession entitlements",
+      "Full salary coverage during seasonal school vacations (Summer, Autumn, and Winter breaks)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Direct recruitment statistics compiled from NVS official recruitment notices and selection panel announcements.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 2216,
+        "applicants": 580000,
+        "shortlisted_for_mains": 8500,
+        "selectivity_ratio": "2,216 vacancies filled across Direct and Special Recruitment Drives (PGTs: 449, TGTs: 1,326, Misc: 441) out of over 5.8 lakh registered applicants (~1 in 261 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-06-20",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Direct Recruitment 2022–23 Consolidated Result Notification"
+      },
+      {
+        "year": 2019,
+        "vacancies": 2370,
+        "applicants": 490000,
+        "shortlisted_for_mains": 7200,
+        "selectivity_ratio": "2,370 vacancies filled across teaching cadres; selectivity approx. 1 in 206",
+        "confidence": "reported",
+        "as_of": "2020-02-18",
+        "source_url": "https://navodaya.gov.in/",
+        "source_label": "NVS Recruitment 2019 Final Selection List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and employment notifications maintained by Navodaya Vidyalaya Samiti Head Office, Noida.",
+    "links": [
+      {
+        "label": "Navodaya Vidyalaya Samiti Official Portal",
+        "url": "https://navodaya.gov.in/",
+        "type": "notification",
+        "cycle_label": "NVS-Official-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NVS Recruitment & Vacancies Archive",
+        "url": "https://navodaya.gov.in/nvs/en/Home1",
+        "type": "notification",
+        "cycle_label": "NVS-Recruitment-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

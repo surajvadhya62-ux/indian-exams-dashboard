@@ -1,0 +1,82 @@
+{
+  "id": "mse-msc-finance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Madras School of Economics (MSE), Chennai, offers premier two-year Master of Science (M.Sc.) programmes in Actuarial Economics, Applied Quantitative Finance, Environmental Economics, Financial Economics, and General Economics. Admissions are conducted through two official channels: 50% of seats are admitted through the Common University Entrance Test for Postgraduates (CUET-PG) administered by the National Testing Agency (NTA) under Central University of Tamil Nadu (CUTN) / MSE allocation (Paper Code COQP10 - Economics), and 50% through MSE direct admissions based on CUET-PG scores. The test comprises 75 domain-specific multiple choice questions (300 marks) in Computer Based Test (CBT) mode of 105 minutes duration. Marking scheme: +4 for correct answer, -1 for incorrect answer, 0 for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "NTA CUET-PG (Paper Code: COQP10 — Economics)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-10",
+        "source_url": "https://www.mse.ac.in/",
+        "source_label": "Madras School of Economics M.Sc. Admission Guidelines & NTA CUET-PG Information Bulletin",
+        "papers": [
+          {
+            "paper_name": "Domain Specific Test (Microeconomics, Macroeconomics, Mathematics, Statistics & Indian Economy)",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on normalized score used for counseling and seat allocation across MSE M.Sc. specializations"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and applicant statistics compiled from MSE admission brochures and CUTN seat distribution announcements.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 14500,
+        "vacancies": 230,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Approximately 14,500 candidates opted for MSE M.Sc. programmes in CUET-PG for an aggregate approved intake of ~230 seats across 5 M.Sc. disciplines (~46 seats in M.Sc Financial Economics; ~1 in 63 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-15",
+        "source_url": "https://www.mse.ac.in/",
+        "source_label": "MSE Admissions Committee Annual Report & Allotment Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 12800,
+        "vacancies": 230,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Over 12,800 applications received for 230 postgraduate seats; selectivity approx. 1 in 55",
+        "confidence": "reported",
+        "as_of": "2023-07-20",
+        "source_url": "https://www.mse.ac.in/",
+        "source_label": "MSE Post-Graduate Admissions Allotment List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official institutional portal and admissions guidelines maintained by Madras School of Economics.",
+    "links": [
+      {
+        "label": "Madras School of Economics Official Website",
+        "url": "https://www.mse.ac.in/",
+        "type": "notification",
+        "cycle_label": "MSE-Academic-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "MSE M.Sc Admissions & Program Structure Portal",
+        "url": "https://www.mse.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "MSE-MSc-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

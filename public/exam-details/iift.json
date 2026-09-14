@@ -1,0 +1,108 @@
+{
+  "id": "iift",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Indian Institute of Foreign Trade (IIFT), an autonomous institution under the Ministry of Commerce and Industry, Government of India, offers its flagship two-year Master of Business Administration in International Business — MBA (IB) — across campuses in New Delhi, Kolkata, and Kakinada. Candidates are shortlisted for stage two based on their valid Common Admission Test (CAT) scores administered by the Indian Institutes of Management (historically, IIFT administered a dedicated CBT entrance via NTA comprising 110 MCQs across Quantitative Analysis, Reading Comprehension & Verbal Ability, Data Interpretation & Logical Reasoning, and General Awareness). Shortlisted candidates undergo a second selection round comprising a Writing Skills Assessment (WAT), Extempore / Group Discussion, and Personal Interview (PI). Final selection computes a composite score incorporating CAT score (approx. 50%), WAT/Extempore (10%), PI (25%), and Academic Diversity / Gender Diversity (15%).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Primary Screening via Common Admission Test (CAT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-15",
+        "source_url": "https://www.iift.ac.in/",
+        "source_label": "IIFT MBA (IB) Admission Policy & Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "CAT Examination (VARC, DILR, Quantitative Aptitude)",
+            "marks": 198,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect MCQ (+3 for correct; 0 for non-MCQs)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional and overall percentile cutoffs used to shortlist candidates for Stage 2"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Writing Assessment & Personal Interview (WAT & PI)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-15",
+        "source_url": "https://www.iift.ac.in/",
+        "source_label": "IIFT Second Stage Evaluation Criteria",
+        "papers": [
+          {
+            "paper_name": "Written Assessment Test (WAT) & Extempore Presentation",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable (board assessment)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted in composite final merit"
+          },
+          {
+            "paper_name": "Personal Interview (PI)",
+            "marks": 100,
+            "duration_minutes": 25,
+            "negative_marking": "Not applicable (board assessment)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted at 25% in composite final merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant turnout and sanctioned intake statistics published by IIFT Admissions Office.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 42000,
+        "vacancies": 550,
+        "shortlisted_for_mains": 2800,
+        "selectivity_ratio": "Approximately 42,000 aspirants applied for ~550 MBA (IB) seats across Delhi and Kolkata campuses (~1 in 76 selectivity; ~2,800 shortlisted for WAT-PI)",
+        "confidence": "reported",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.iift.ac.in/",
+        "source_label": "IIFT Annual Report & Admission Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 45000,
+        "vacancies": 535,
+        "shortlisted_for_mains": 2700,
+        "selectivity_ratio": "45,000 applications for 535 seats; selectivity approx. 1 in 84",
+        "confidence": "reported",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.iift.ac.in/",
+        "source_label": "IIFT Final Admission Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official institutional portal and admissions documentation maintained by Indian Institute of Foreign Trade.",
+    "links": [
+      {
+        "label": "IIFT Official Institutional Website",
+        "url": "https://www.iift.ac.in/",
+        "type": "notification",
+        "cycle_label": "IIFT-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IIFT MBA Admissions Information Portal",
+        "url": "https://www.iift.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "IIFT-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
