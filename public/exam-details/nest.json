@@ -1,0 +1,79 @@
+{
+  "id": "nest",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Entrance Screening Test (NEST) is a compulsory nationwide Computer Based Test conducted for admission to the 5-year Integrated M.Sc. programme in basic sciences (Biology, Chemistry, Mathematics, and Physics) at the National Institute of Science Education and Research (NISER), Bhubaneswar and the University of Mumbai - Department of Atomic Energy Centre for Excellence in Basic Sciences (UM-DAE CEBS), Mumbai. NEST is a 210-minute (3.5 hours) examination carrying 200 total marks across four subject sections of 50 marks each: Biology, Chemistry, Mathematics, and Physics. Each section contains both single-choice and multiple-choice questions. For generating the final merit list, only the best three scores out of the four subject sections are counted (total evaluation out of 150 marks). All admitted students receive an annual DISHA scholarship of ₹60,000 plus ₹20,000 annual mentorship grant from the Department of Atomic Energy.",
+    "stages": [
+      {
+        "stage_name": "NEST Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-06-22",
+        "source_url": "https://www.nestexam.in",
+        "source_label": "NEST Information Brochure — Examination Scheme and Merit Scoring Rules",
+        "papers": [
+          {
+            "paper_name": "NEST Science Paper (Biology, Chemistry, Mathematics, Physics)",
+            "marks": 200,
+            "duration_minutes": 210,
+            "negative_marking": "Negative marking on single-correct MCQs; partial marking on multiple-correct MCQs",
+            "qualifying_only": false,
+            "qualifying_threshold": "Section-wise Minimum Admissible Score (SMAS) in each section; overall merit calculated from best 3 sections (150 marks)"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and candidate statistics published by the NEST Committee (NISER / CEBS).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 257,
+        "applicants": 75000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "257 seats (200 at NISER Bhubaneswar + 57 at UM-DAE CEBS Mumbai) out of ~75,000 appeared candidates (~1 in 292 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-10",
+        "source_url": "https://www.nestexam.in",
+        "source_label": "NEST Results and Percentile Cutoff Declaration"
+      },
+      {
+        "year": 2023,
+        "vacancies": 257,
+        "applicants": 71000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "257 seats filled out of ~71,000 candidates appeared (~1 in 276 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-07-10",
+        "source_url": "https://www.nestexam.in",
+        "source_label": "NEST 2023 Qualified Merit Panel"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, question papers, and brochures maintained by NEST Committee.",
+    "links": [
+      {
+        "label": "NEST Official Portal",
+        "url": "https://www.nestexam.in",
+        "type": "notification",
+        "cycle_label": "NEST-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NEST Information Brochure and Syllabus",
+        "url": "https://www.nestexam.in",
+        "type": "syllabus",
+        "cycle_label": "NEST-Brochure",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

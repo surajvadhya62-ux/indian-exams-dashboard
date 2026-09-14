@@ -1,0 +1,79 @@
+{
+  "id": "iiser-aptitude",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The IISER Aptitude Test (IAT) is conducted annually by the Joint Admissions Committee across the Indian Institutes of Science Education and Research (IISERs) for admission to the 5-year BS-MS dual degree and 4-year BS degree programmes across 7 autonomous IISER campuses: Berhampur, Bhopal, Kolkata, Mohali, Pune, Thiruvananthapuram, and Tirupati. IAT scores are also used for admission to the Bachelor of Science (Research) programme at IISc Bangalore and the BS in Medical Sciences & Engineering at IIT Madras. The exam is a Computer Based Test (CBT) of 180 minutes duration consisting of 60 multiple-choice questions carrying a total of 240 marks. The paper comprises four mandatory sections with 15 questions each: Biology (15 questions, 60 marks), Chemistry (15 questions, 60 marks), Mathematics (15 questions, 60 marks), and Physics (15 questions, 60 marks). Marking scheme: +4 marks for each correct response, -1 mark for each incorrect response, and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "IISER Aptitude Test (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-06-09",
+        "source_url": "https://www.iiseradmission.in",
+        "source_label": "IISER Joint Admissions Committee Information Brochure — IAT Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "IISER Aptitude Test (Biology, Chemistry, Mathematics, Physics)",
+            "marks": 240,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 marks for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise All India Rank (AIR) list generated based on total score out of 240"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and seat allocation statistics published by the Joint Admissions Committee, IISER.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1933,
+        "applicants": 120000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,933 seats across 7 IISERs out of ~1,20,000 registered candidates (~1 in 62 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-15",
+        "source_url": "https://www.iiseradmission.in",
+        "source_label": "IISER Admissions Committee Seat Allocation and Closing Ranks Report"
+      },
+      {
+        "year": 2023,
+        "vacancies": 1808,
+        "applicants": 110000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,808 seats filled out of ~1,10,000 applicants (~1 in 61 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-07-12",
+        "source_url": "https://www.iiseradmission.in",
+        "source_label": "IISER Admissions Result Declaration Press Note"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal and examination guidelines published by the Joint Admissions Committee.",
+    "links": [
+      {
+        "label": "IISER Admissions Official Portal",
+        "url": "https://www.iiseradmission.in",
+        "type": "notification",
+        "cycle_label": "IAT-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IISER Aptitude Test Syllabus and Model Question Papers",
+        "url": "https://www.iiseradmission.in",
+        "type": "syllabus",
+        "cycle_label": "IAT-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "barc-oces",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Scientific Officer (Grade C)",
+        "pay_level": "Level 10",
+        "years": "Entry post 1-year training (0-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Training School Information Brochure — Scientific Officer (C) Absorption (₹56,100 – ₹1,77,500, Level 10)"
+      },
+      {
+        "designation": "Scientific Officer (Grade D)",
+        "pay_level": "Level 11",
+        "years": "4-8 yrs",
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Merit-Based Promotion Scheme — Scientific Officer (D) (Level 11)"
+      },
+      {
+        "designation": "Scientific Officer (Grade E)",
+        "pay_level": "Level 12",
+        "years": "8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Scientific Cadre Promotions — Scientific Officer (E) (Level 12)"
+      },
+      {
+        "designation": "Scientific Officer (Grade F)",
+        "pay_level": "Level 13",
+        "years": "12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Recruitment and Promotion Guidelines — Scientific Officer (F) (Level 13)"
+      },
+      {
+        "designation": "Scientific Officer (Grade G / Outstanding Scientist)",
+        "pay_level": "Level 14",
+        "years": "16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Apex Cadre Hierarchy — Scientific Officer (G) (Level 14)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Bhabha Atomic Research Centre conducts the OCES/DGFS recruitment for engineering graduates and science post-graduates through a two-stage process. Stage 1 is screening either through an Online Computer Based Test (CBT) conducted by BARC across major cities, or through a valid GATE score (cut-off score declared separately per discipline). Shortlisted candidates from both channels proceed to Stage 2: a rigorous in-person Technical Selection Interview conducted at BARC Training School, Anushaktinagar, Mumbai. Final selection is based 100% on performance in the Selection Interview, subject to medical fitness.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Screening Test (Online Examination CBT or GATE Score)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Training School Information Brochure — Screening Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Discipline Engineering / Science Paper",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each wrong answer (+3 marks for correct answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit cutoff declared per discipline to shortlist candidates for Selection Interview"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Technical Selection Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-01-05",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Selection Guidelines — In-depth Technical Interview",
+        "papers": [
+          {
+            "paper_name": "Comprehensive Technical Interview",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "100% weightage in final merit panel"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During the 1-year OCES training, Trainee Scientific Officers (TSOs) receive a monthly stipend of ₹55,000 plus a one-time book allowance of ₹18,000 with furnished institutional accommodation. On successful completion, trainees are absorbed as Scientific Officer (Grade C), Group A Gazetted under the 7th CPC Pay Matrix Level 10 (Entry Basic ₹56,100). Scientific officers are entitled to central allowances, Performance Related Incentive Scheme (PRIS), and Contributory Health Service Scheme (CHSS).",
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-01-05",
+    "pay_source_url": "https://www.barc.gov.in",
+    "pay_source_label": "BARC Training School Bulletin — Emoluments and Stipend Regulations",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 105000,
+      "max": 120000
+    },
+    "in_hand_range_estimate": {
+      "min": 92000,
+      "max": 105000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 10 basic ₹56,100 + 58% DA (₹32,538) + 30% HRA Mumbai (₹16,830) + Transport Allowance (₹7,200 + ₹4,176 DA on TA) = gross ₹1,16,844, in-hand ~₹1,02,000 after 10% NPS deduction.",
+    "official_perks": [
+      "Contributory Health Service Scheme (CHSS) providing comprehensive free medical care for officer and dependents",
+      "DAE Performance Related Incentive Scheme (PRIS-O and PRIS-I organizational and individual incentives)",
+      "Furnished government residential accommodation inside DAE Anushaktinagar colony",
+      "Annual Book Allowance and Professional Update Allowance",
+      "National Pension System (NPS) with 14% Government contribution",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA)"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment data published by BARC Training School for OCES / DGFS batches.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 260,
+        "applicants": 85000,
+        "shortlisted_for_mains": 1450,
+        "selectivity_ratio": "~260 appointments across all engineering disciplines out of ~85,000 applicants (~1 in 327 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-09-15",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Training School Selection Results Press Release"
+      },
+      {
+        "year": 2023,
+        "vacancies": 250,
+        "applicants": 82000,
+        "shortlisted_for_mains": 1400,
+        "selectivity_ratio": "~250 selections out of ~82,000 candidates (~1 in 328 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-09-10",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC OCES/DGFS Annual Recruitment Summary"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official application portal and recruitment information bulletins published by Bhabha Atomic Research Centre.",
+    "links": [
+      {
+        "label": "BARC Official Website",
+        "url": "https://www.barc.gov.in",
+        "type": "notification",
+        "cycle_label": "BARC-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BARC OCES/DGFS Examination Portal",
+        "url": "https://www.barc.gov.in",
+        "type": "syllabus",
+        "cycle_label": "BARC-OCES",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "kvpy",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Kishore Vaigyanik Protsahan Yojana (KVPY) was an ongoing National Program of Fellowship in Basic Sciences initiated and funded by the Department of Science and Technology (DST), Government of India, and coordinated by IISc Bangalore. Note: Starting from academic year 2022-23, DST officially decided to subsume KVPY under the DST INSPIRE Fellowship scheme (Innovation in Science Pursuit for Inspired Research), with ongoing KVPY scholars continuing to receive their regular fellowships. The established KVPY Aptitude Test scheme comprised three distinct streams: Stream SA (for students enrolled in Class 11), Stream SX (students in Class 12), and Stream SB (students enrolled in 1st year of undergraduate basic sciences). The test was a 3-hour exam of 100 marks divided into Part I (60 questions: 1 mark each, -0.25 negative marking) and Part II (20 questions: 2 marks each, -0.5 negative marking) covering Mathematics, Physics, Chemistry, and Biology.",
+    "stages": [
+      {
+        "stage_name": "KVPY National Aptitude Test (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-07-18",
+        "source_url": "https://online-inspire.gov.in",
+        "source_label": "DST Government of India Notification — KVPY Fellowship Subsumption under INSPIRE and Historical Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "KVPY Aptitude Test (Part I and Part II across Science Subjects)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: -0.25 marks; Part II: -0.5 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise and stream-wise cut-off marks declared by National Advisory Committee"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historic fellowship award and participation numbers published by IISc / DST KVPY Office.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 2500,
+        "applicants": 185000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~2,500 fellowships awarded across SA, SX, and SB streams out of ~1,85,000 applicants (~1 in 74 selectivity)",
+        "confidence": "reported",
+        "as_of": "2022-08-10",
+        "source_url": "https://online-inspire.gov.in",
+        "source_label": "KVPY Final Fellowship Award List Declaration"
+      },
+      {
+        "year": 2021,
+        "vacancies": 2400,
+        "applicants": 175000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~2,400 fellowships awarded out of ~1,75,000 candidates (~1 in 73 selectivity)",
+        "confidence": "reported",
+        "as_of": "2021-08-05",
+        "source_url": "https://online-inspire.gov.in",
+        "source_label": "KVPY 2021 Results Summary"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official DST INSPIRE portal and archival KVPY information leaflets maintained by Department of Science & Technology.",
+    "links": [
+      {
+        "label": "DST INSPIRE Official Portal",
+        "url": "https://online-inspire.gov.in",
+        "type": "notification",
+        "cycle_label": "DST-INSPIRE",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "KVPY Historical Examination and Fellowship Portal",
+        "url": "https://online-inspire.gov.in",
+        "type": "other",
+        "cycle_label": "KVPY-Archive",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

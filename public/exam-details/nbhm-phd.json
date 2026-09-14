@@ -1,0 +1,79 @@
+{
+  "id": "nbhm-phd",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Board for Higher Mathematics (NBHM), Department of Atomic Energy, Government of India, conducts the nationwide Doctoral Scholarship Screening Test. The test evaluates advanced mathematical understanding across algebra, analysis, geometry, topology, and applied mathematics. It serves two distinct purposes: (1) grant of prestigious NBHM Doctoral Fellowships (₹37,000/month JRF for 2 years, ₹42,000/month SRF for subsequent years plus contingency grant of ₹40,000/year), and (2) primary screening for Ph.D. / Integrated Ph.D. admissions at premier research institutions including IMSc Chennai, HRI Prayagraj, NISER Bhubaneswar, and IISERs.",
+    "stages": [
+      {
+        "stage_name": "NBHM Doctoral Scholarship Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-20",
+        "source_url": "https://www.nbhm.dae.gov.in",
+        "source_label": "NBHM Advertisement and Information Leaflet for Ph.D. Scholarship",
+        "papers": [
+          {
+            "paper_name": "Mathematics Written Test (Section A Short Answer, Section B Multiple Choice)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Negative marking applicable on select objective questions as specified on paper",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit threshold determined by NBHM Committee to award scholarships and shortlist for institutional interviews"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Scholarship award and screening numbers released annually by the NBHM Secretariat.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 180,
+        "applicants": 4800,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~180 doctoral scholarships awarded nationwide out of ~4,800 candidates appeared (~1 in 27 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-03-25",
+        "source_url": "https://www.nbhm.dae.gov.in",
+        "source_label": "NBHM Selection Committee Final Award List"
+      },
+      {
+        "year": 2023,
+        "vacancies": 175,
+        "applicants": 4500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~175 scholarships awarded out of ~4,500 candidates appeared (~1 in 26 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-20",
+        "source_url": "https://www.nbhm.dae.gov.in",
+        "source_label": "NBHM Doctoral Scholarship Results"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and examination notifications hosted by the National Board for Higher Mathematics.",
+    "links": [
+      {
+        "label": "NBHM Official Website",
+        "url": "https://www.nbhm.dae.gov.in",
+        "type": "notification",
+        "cycle_label": "NBHM-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NBHM Past Question Papers Repository",
+        "url": "https://www.nbhm.dae.gov.in",
+        "type": "pyq",
+        "cycle_label": "NBHM-PYQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

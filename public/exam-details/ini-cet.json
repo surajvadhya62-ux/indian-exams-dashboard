@@ -1,0 +1,79 @@
+{
+  "id": "ini-cet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Institute of National Importance Combined Entrance Test (INI-CET) is conducted by AIIMS New Delhi on a biannual basis (January and July sessions) for admission to postgraduate medical courses (MD, MS, M.Ch 6-year, DM 6-year, and MDS) across AIIMS New Delhi and all new AIIMS, JIPMER Puducherry, NIMHANS Bengaluru, PGIMER Chandigarh, and SCTIMST Thiruvananthapuram. The exam is a 3-hour Computer Based Test (CBT) consisting of 200 objective questions covering preclinical, paraclinical, and clinical subjects. Marking scheme: 1 mark for each correct response, negative marking of 1/3 (0.33) marks for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "INI-CET Postgraduate Computer Based Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-05-18",
+        "source_url": "https://aiimsexams.ac.in",
+        "source_label": "AIIMS Examination Section — INI-CET Prospectus & Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Single Comprehensive Medical Paper (Preclinical, Paraclinical, and Clinical Sciences)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 marks for each incorrect response (+1 mark for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "50th percentile for General/OBC/EWS candidates; 45th percentile for SC/ST/PwD candidates"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official seat allocation and test statistics published by AIIMS Examination Section across participating Institutes of National Importance.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1410,
+        "applicants": 85000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~1,410 PG medical seats across 20+ INIs out of ~85,000 appeared doctors (~1 in 60 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-06-15",
+        "source_url": "https://aiimsexams.ac.in",
+        "source_label": "AIIMS New Delhi — INI-CET Seat Matrix and Result Press Note"
+      },
+      {
+        "year": 2023,
+        "vacancies": 1365,
+        "applicants": 81000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~1,365 seats filled out of ~81,000 candidates (~1 in 59 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-06-12",
+        "source_url": "https://aiimsexams.ac.in",
+        "source_label": "AIIMS INI-CET Allocation Summary"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portal, information bulletins, and seat matrix published by AIIMS New Delhi.",
+    "links": [
+      {
+        "label": "AIIMS Examination Section Official Portal",
+        "url": "https://aiimsexams.ac.in",
+        "type": "notification",
+        "cycle_label": "INI-CET-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "INI-CET Prospectus and Regulations",
+        "url": "https://aiimsexams.ac.in",
+        "type": "syllabus",
+        "cycle_label": "INI-CET-Prospectus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "cdac-project-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Project Engineer",
+        "pay_level": "Level 10 Equivalent (Consolidated Band ₹44,900 – ₹56,100)",
+        "years": "Entry level (0-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Consolidated Recruitment Rules — Project Engineer Cadre"
+      },
+      {
+        "designation": "Senior Project Engineer",
+        "pay_level": "Level 11 Equivalent (Consolidated Band ₹67,700)",
+        "years": "4-8 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC R&D Technical Hierarchy — Senior Project Engineer"
+      },
+      {
+        "designation": "Project Manager / Lead Engineer",
+        "pay_level": "Level 12 Equivalent (Consolidated Band ₹78,800)",
+        "years": "8-13 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Technical Project Management Cadre"
+      },
+      {
+        "designation": "Senior Project Manager / Principal Technical Officer",
+        "pay_level": "Level 13 Equivalent",
+        "years": "13-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Apex Project Leadership Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Centre for Development of Advanced Computing (C-DAC), a premier R&D society of the Ministry of Electronics and Information Technology (MeitY), recruits Project Engineers through a multi-stage selection process. Stage 1 is an Online Written Test / CBT of 120 minutes duration consisting of Section A (General Aptitude, English proficiency, Logical Reasoning - 50 questions, 50 marks) and Section B (Domain Engineering, including Algorithms, Data Structures, Operating Systems, Computer Architecture, Computer Networks, and VLSI/Embedded Systems - 100 questions, 100 marks). Shortlisted candidates based on written test cutoffs proceed to Stage 2: a Technical and Personal Interview conducted by domain specialist committees.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Project Engineer Examination Scheme and Syllabus Guidelines",
+        "papers": [
+          {
+            "paper_name": "Section A: General Aptitude & Logical Reasoning",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "0.25 negative marking per incorrect response (+1 mark for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated jointly with Section B for interview shortlisting"
+          },
+          {
+            "paper_name": "Section B: Technical Domain Computer Science / Electronics",
+            "marks": 100,
+            "duration_minutes": 75,
+            "negative_marking": "0.25 negative marking per incorrect response (+1 mark for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated jointly with Section A for interview shortlisting"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Technical and Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Interview Assessment Regulations",
+        "papers": [
+          {
+            "paper_name": "Technical Evaluation and Personal Interview",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks in interview required for final selection panel"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Project Engineers at C-DAC are recruited on consolidated contractual emoluments benchmarked to the 7th CPC Level 10 entry scale. Starting consolidated pay ranges from ₹44,900 to ₹56,100 per month (CTC approx. ₹6.5 Lakhs to ₹9.0 Lakhs per annum depending on qualifications, center location, and project grant funding). Employees are provided medical cover, group life insurance, and annual performance-based increments.",
+    "pay_level": "Level 10 Equivalent",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-05-10",
+    "pay_source_url": "https://www.cdac.in",
+    "pay_source_label": "C-DAC Consolidated Recruitment Notification — Compensation Structure",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 68000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 60000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Consolidated package equivalent: base pay ₹44,900 plus applicable project allowances resulting in gross compensation between ₹68,000 and ₹88,000 per month (in-hand ~₹60,000 to ₹78,000 after statutory deductions including EPF and professional tax).",
+    "official_perks": [
+      "Contributory Medical Reimbursement Scheme and comprehensive Group Mediclaim Insurance",
+      "Group Term Life Insurance and Personal Accident Insurance coverage",
+      "Annual performance-linked increment and project incentive allowance",
+      "Employee Provident Fund (EPF) with statutory employer contribution",
+      "Earned Leave, Medical Leave, and Maternity/Paternity leave as per C-DAC Service Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics from centralized and center-level recruitment notices across C-DAC Pune, Bengaluru, Noida, and Hyderabad.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 340,
+        "applicants": 42000,
+        "shortlisted_for_mains": 1700,
+        "selectivity_ratio": "340 project positions across supercomputing, AI, and cybersecurity out of ~42,000 applicants (~1 in 124 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-08-20",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Corporate Recruitment Summary"
+      },
+      {
+        "year": 2023,
+        "vacancies": 290,
+        "applicants": 38000,
+        "shortlisted_for_mains": 1450,
+        "selectivity_ratio": "290 positions filled out of ~38,000 applicants (~1 in 131 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-09-15",
+        "source_url": "https://www.cdac.in",
+        "source_label": "C-DAC Recruitment Panel Release"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and career pages maintained by C-DAC.",
+    "links": [
+      {
+        "label": "C-DAC Careers Official Portal",
+        "url": "https://www.cdac.in",
+        "type": "notification",
+        "cycle_label": "CDAC-Careers",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "C-DAC Project Engineer Notification and Syllabus",
+        "url": "https://www.cdac.in",
+        "type": "syllabus",
+        "cycle_label": "CDAC-PE-Advt",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

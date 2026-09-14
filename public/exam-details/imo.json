@@ -1,0 +1,115 @@
+{
+  "id": "imo",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The International Mathematical Olympiad (IMO) Selection Programme in India is conducted jointly by the Homi Bhabha Centre for Science Education (HBCSE - TIFR), the National Board for Higher Mathematics (NBHM), and the Mathematics Teachers’ Association (India) [MTA(I)]. The selection process is a multi-tier competition pathway for secondary and higher secondary school students to select the official 6-member Indian team for the International Mathematical Olympiad: Stage 1 is the Indian Olympiad Qualifier in Mathematics (IOQM), an objective OMR test of 30 integer-answer questions (100 marks, 180 minutes). Stage 2 is the Regional Mathematical Olympiad (RMO), a 3-hour descriptive examination consisting of 6 proof-based mathematical problems. Stage 3 is the Indian National Mathematical Olympiad (INMO), a 4.5-hour (270 minutes) examination consisting of 6 advanced proof problems administered to ~600 qualifiers across India. The top ~35 students from INMO attend the International Mathematical Olympiad Training Camp (IMOTC) at HBCSE (Stage 4), where selection tests determine the final 6 students who represent India at the International Mathematical Olympiad (Stage 5).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Indian Olympiad Qualifier in Mathematics (IOQM)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-08",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "MTA-I & HBCSE Mathematical Olympiad Information Brochure — IOQM Regulations",
+        "papers": [
+          {
+            "paper_name": "IOQM Integer-Answer Examination",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (single-digit or two-digit integer answers)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Regional qualifying scores determined by MTA(I) to select top ~500 students per region for RMO"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Regional Mathematical Olympiad (RMO)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-10-27",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE RMO Operational Guidelines",
+        "papers": [
+          {
+            "paper_name": "RMO Descriptive Subjective Proofs (6 Problems)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Top ~30 students per region qualify for Stage 3 INMO (~600 students nationally)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Indian National Mathematical Olympiad (INMO)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-01-19",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE INMO Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "INMO Advanced Proof-Based Problems (6 Problems)",
+            "marks": 100,
+            "duration_minutes": 270,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Top ~35 students receive INMO Merit Award and qualify for Stage 4 IMOTC at HBCSE"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics from MTA(I) and HBCSE Mathematical Olympiad Cell.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 35,
+        "applicants": 115000,
+        "shortlisted_for_mains": 600,
+        "selectivity_ratio": "35 students selected for IMOTC training camp out of ~1,15,000 appeared in IOQM (~1 in 3,285 selectivity; top 6 represent India at IMO)",
+        "confidence": "reported",
+        "as_of": "2024-03-05",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE INMO Merit List and Selection Notification"
+      },
+      {
+        "year": 2023,
+        "vacancies": 35,
+        "applicants": 105000,
+        "shortlisted_for_mains": 580,
+        "selectivity_ratio": "35 IMOTC selections out of ~1,05,000 registered candidates (~1 in 3,000 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-04",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE Mathematical Olympiad Annual Summary"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official competition notices, syllabus guides, and archival INMO problems maintained by HBCSE.",
+    "links": [
+      {
+        "label": "HBCSE Mathematical Olympiad Portal",
+        "url": "https://olympiads.hbcse.tifr.res.in",
+        "type": "notification",
+        "cycle_label": "IMO-Selection-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "INMO Past Papers and Solutions",
+        "url": "https://olympiads.hbcse.tifr.res.in",
+        "type": "pyq",
+        "cycle_label": "INMO-PYQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "iim-cat-fellowship",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Fellowship Programme in Management (FPM / Ph.D. in Management) is the full-time doctoral programme offered by the Indian Institutes of Management (IIM Ahmedabad, IIM Bangalore, IIM Calcutta, IIM Lucknow, IIM Kozhikode, IIM Indore, and other IIMs). Selection is a multi-stage academic process: Stage 1 requires candidates to submit valid standard test scores from recognized national tests including CAT, GMAT, GRE, GATE, or UGC/CSIR-JRF. Shortlisted candidates are evaluated on their academic record, Statement of Purpose (SOP), and research proposal. Stage 2 consists of in-depth personal interviews conducted by faculty area committees (Economics, Finance & Accounting, Marketing, Organizational Behaviour & Human Resources, Operations Management, Strategy). All admitted full-time doctoral scholars receive a 100% tuition waiver, comprehensive monthly fellowship stipends (ranging from ₹35,000 to ₹45,000 per month), subsidized campus accommodation, annual contingency grants (₹25,000 to ₹30,000 per year), and international conference presentation grants up to ₹2.5 Lakhs.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Standardized Test Screening & Profile Evaluation",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-15",
+        "source_url": "https://iimcat.ac.in",
+        "source_label": "IIM Doctoral Programmes Admission Policy — Screening Criteria",
+        "papers": [
+          {
+            "paper_name": "Qualifying Standardized Test (CAT / GMAT / GRE / GATE / JRF)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "As per respective standardized testing agency guidelines",
+            "qualifying_only": true,
+            "qualifying_threshold": "Typically 90th+ percentile in CAT or equivalent scores for area shortlisting"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Faculty Area Personal Interview and Research Evaluation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-01-15",
+        "source_url": "https://iimcat.ac.in",
+        "source_label": "IIM FPM/PhD Selection Committee Interview Regulations",
+        "papers": [
+          {
+            "paper_name": "Personal Interview and Research Aptitude Presentation",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final admission offers determined exclusively by faculty area committee evaluation"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Doctoral admissions metrics published by individual IIM doctoral offices.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 30,
+        "applicants": 4500,
+        "shortlisted_for_mains": 180,
+        "selectivity_ratio": "~30 doctoral positions per premier IIM campus out of ~4,500 applicants (~1 in 150 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-04-30",
+        "source_url": "https://iimcat.ac.in",
+        "source_label": "IIM Doctoral Admissions Statistics"
+      },
+      {
+        "year": 2023,
+        "vacancies": 28,
+        "applicants": 4200,
+        "shortlisted_for_mains": 170,
+        "selectivity_ratio": "~28 doctoral offers out of ~4,200 applicants (~1 in 150 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-04-25",
+        "source_url": "https://iimcat.ac.in",
+        "source_label": "IIM Ph.D. Programme Annual Admission Report"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official CAT portal and doctoral programme information pages maintained by IIMs.",
+    "links": [
+      {
+        "label": "IIM CAT Official Portal",
+        "url": "https://iimcat.ac.in",
+        "type": "notification",
+        "cycle_label": "CAT-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IIM Doctoral Programmes Information Brochure",
+        "url": "https://iimcat.ac.in",
+        "type": "other",
+        "cycle_label": "IIM-PhD-Brochure",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

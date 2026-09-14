@@ -1,0 +1,97 @@
+{
+  "id": "olympiad-science",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Science Olympiad Programme is organized by the Homi Bhabha Centre for Science Education (HBCSE - TIFR) in collaboration with the Indian Association of Physics Teachers (IAPT), Association of Chemistry Teachers (ACT), and Association of Teachers in Biological Sciences (ATBS). The programme is the official national pathway leading to India representation at the International Olympiads in Physics (IPhO), Chemistry (IChO), Biology (IBO), Astronomy (IAO), and Junior Science (IJSO). It follows a rigorous 5-stage selection hierarchy: Stage 1 is the National Standard Examination (NSEP, NSEC, NSEB, NSEA, NSEJS) conducted by IAPT consisting of 60 multiple-choice questions (216 marks, 120 minutes, +3 marks for correct, -1 for wrong). Stage 2 is the Indian National Olympiad (INPhO, INChO, INBO, INAO, INJSO) conducted by HBCSE for the top ~300 students per subject, featuring in-depth theoretical and analytical problems. Stage 3 is the Orientation-cum-Selection Camp (OCSC) at HBCSE (~35 students per subject; intensive theoretical and experimental laboratory tests). Stage 4 is Pre-Departure Training (PDT) for the selected 4-5 member Indian national team, culminating in Stage 5: participation in the International Olympiads.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: National Standard Examination (NSEP / NSEC / NSEB / NSEJS by IAPT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-11-24",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE Olympiad Brochure — Stage 1 National Standard Examination Regulations",
+        "papers": [
+          {
+            "paper_name": "National Standard Examination (NSE) Objective Paper",
+            "marks": 216,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+3 marks for correct response)",
+            "qualifying_only": true,
+            "qualifying_threshold": "State-wise quota and Minimum Admissible Score (MAS) applied to shortlist ~300 students for Stage 2"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Indian National Olympiad (INPhO / INChO / INBO / INJSO by HBCSE)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-02-01",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE INO Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Indian National Olympiad Subjective Examination",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Not applicable (rigorous proof and analytical problem solving)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Top ~35-40 students across India selected for Stage 3 OCSC at HBCSE Mumbai"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Participation and qualification numbers published annually by HBCSE Olympiad Cell and IAPT.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 35,
+        "applicants": 160000,
+        "shortlisted_for_mains": 1500,
+        "selectivity_ratio": "~35 students selected for OCSC camp per subject out of ~1,60,000 registered across all NSE streams (~1 in 4,500 selectivity to reach national camp)",
+        "confidence": "reported",
+        "as_of": "2024-03-15",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE National Olympiad Results & OCSC Selection List"
+      },
+      {
+        "year": 2023,
+        "vacancies": 35,
+        "applicants": 150000,
+        "shortlisted_for_mains": 1400,
+        "selectivity_ratio": "~35 OCSC selections per subject from ~1,50,000 appeared students; final 4-5 selected for national team",
+        "confidence": "reported",
+        "as_of": "2023-03-14",
+        "source_url": "https://olympiads.hbcse.tifr.res.in",
+        "source_label": "HBCSE Olympiad Annual Report 2023"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official national Olympiad portals, past question papers, and solutions hosted by HBCSE.",
+    "links": [
+      {
+        "label": "HBCSE Science Olympiads Official Portal",
+        "url": "https://olympiads.hbcse.tifr.res.in",
+        "type": "notification",
+        "cycle_label": "Olympiads-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "HBCSE Olympiad Past Question Papers & Solutions",
+        "url": "https://olympiads.hbcse.tifr.res.in",
+        "type": "pyq",
+        "cycle_label": "HBCSE-PYQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

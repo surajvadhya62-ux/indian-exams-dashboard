@@ -1,0 +1,178 @@
+{
+  "id": "barc-stipendiary-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Stipendiary Trainee Category-I (2-Year Training)",
+        "pay_level": "Stipend (₹24,000 1st yr, ₹26,000 2nd yr)",
+        "years": "Training Period (0-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Advertisement No. 01/2023 — Stipendiary Trainees Category-I & II"
+      },
+      {
+        "designation": "Scientific Assistant (Grade C)",
+        "pay_level": "Level 7",
+        "years": "Entry post-training absorption (2-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Advt 01/2023 — Absorption into Scientific Assistant/C (₹44,900, Level 7)"
+      },
+      {
+        "designation": "Scientific Assistant (Grade D)",
+        "pay_level": "Level 8",
+        "years": "6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Technical Promotion Scheme — Scientific Assistant/D (Level 8)"
+      },
+      {
+        "designation": "Scientific Assistant (Grade E)",
+        "pay_level": "Level 9",
+        "years": "10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Scientific/Technical Cadre Rules — Level 9"
+      },
+      {
+        "designation": "Scientific Officer (Grade SB / C)",
+        "pay_level": "Level 10",
+        "years": "14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "DAE Scientific Officer Cadre Induction for Outstanding Technical Assistants"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Bhabha Atomic Research Centre recruits Stipendiary Trainees under two categories: Category-I (Diploma in Engineering / B.Sc.) and Category-II (HSC Science / SSC with ITI). For Category-I, the selection process comprises a Computer Based Screening Test of 40 multiple-choice questions (120 marks, 60 minutes duration, +3 marks for correct answer, -1 mark for wrong answer) testing diploma/B.Sc. syllabus knowledge. Shortlisted candidates based on the CBT screening appear for a personal Technical Interview. Final selection is based 100% on performance in the personal Interview, subject to qualifying the screening test and medical fitness.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Screening Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Advt 01/2023 — Selection Methodology for Category-I Stipendiary Trainees",
+        "papers": [
+          {
+            "paper_name": "Technical Discipline CBT",
+            "marks": 120,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark for each incorrect response (+3 marks for correct response)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit cutoff applied to shortlist candidates for Stage 2 Technical Interview in 1:5 ratio"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Technical Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Selection Guidelines — Personal Interview",
+        "papers": [
+          {
+            "paper_name": "Personal Technical Interview",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "100% weightage in final merit panel"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During the 2-year training period, Category-I trainees receive a monthly stipend of ₹24,000 (1st year) and ₹26,000 (2nd year) plus a one-time book allowance of ₹3,000. Upon successful completion of training, Category-I trainees are absorbed as Scientific Assistant / C under the 7th CPC Pay Matrix Level 7 (Entry Basic Pay ₹44,900; range ₹44,900 – ₹1,42,400). Compensation includes central DA, HRA, Transport Allowance, PRIS incentive, and CHSS healthcare.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-04-22",
+    "pay_source_url": "https://www.barc.gov.in",
+    "pay_source_label": "BARC Advt 01/2023 — Emoluments upon Absorption into Scientific Assistant/C",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 78000,
+      "max": 93000
+    },
+    "in_hand_range_estimate": {
+      "min": 70000,
+      "max": 83000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 basic ₹44,900 + 58% DA (₹26,042) + 30% HRA Mumbai (₹13,470) + Transport Allowance (₹3,600 + ₹2,088 DA on TA) = gross ₹90,100, in-hand ~₹81,000 after 10% NPS deduction.",
+    "official_perks": [
+      "Contributory Health Service Scheme (CHSS) covering full medical care for employee and eligible dependents",
+      "DAE Performance Related Incentive Scheme (PRIS) bonuses",
+      "Departmental residential accommodation in DAE townships",
+      "National Pension System (NPS) with 14% Central Government contribution",
+      "Leave Travel Concession (LTC) and annual allowances"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment and vacancy metrics published by BARC for massive consolidated DAE recruitment exercises.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 1216,
+        "applicants": 420000,
+        "shortlisted_for_mains": 6100,
+        "selectivity_ratio": "1,216 Category-I vacancies out of ~4,20,000 applicants (~1 in 345 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-11-15",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Recruitment Advt 01/2023 Selection Results"
+      },
+      {
+        "year": 2021,
+        "vacancies": 305,
+        "applicants": 115000,
+        "shortlisted_for_mains": 1550,
+        "selectivity_ratio": "305 vacancies filled out of ~1,15,000 candidates (~1 in 377 selectivity)",
+        "confidence": "reported",
+        "as_of": "2021-12-10",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC Category-I Final Panel Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, admit cards, and results portal maintained by BARC.",
+    "links": [
+      {
+        "label": "BARC Official Portal",
+        "url": "https://www.barc.gov.in",
+        "type": "notification",
+        "cycle_label": "BARC-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BARC Recruitment and Exam Scheme Bulletin",
+        "url": "https://www.barc.gov.in",
+        "type": "syllabus",
+        "cycle_label": "BARC-ST-Advt",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

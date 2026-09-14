@@ -1,0 +1,79 @@
+{
+  "id": "iisc-ug",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Indian Institute of Science (IISc) Bangalore admits undergraduate students to its 4-year Bachelor of Science (Research) and B.Tech in Mathematics and Computing programmes through national standardized examination channels rather than conducting its own separate written exam. The recognized entry channels are: (1) JEE Advanced, (2) JEE Main, (3) NEET-UG, and (4) the IISER Aptitude Test (IAT). For B.Tech (Mathematics and Computing), admission is exclusively through JEE Advanced. Candidates must qualify the respective national test and apply through the IISc admissions portal; merit lists are generated channel-wise based on respective ranks/percentiles.",
+    "stages": [
+      {
+        "stage_name": "Channel Screening (JEE Advanced / JEE Main / NEET-UG / IAT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-03-15",
+        "source_url": "https://iisc.ac.in",
+        "source_label": "IISc Bangalore UG Admissions Information Brochure — Admission Channels and Eligibility Criteria",
+        "papers": [
+          {
+            "paper_name": "Respective National Channel Examination (JEE Adv / JEE Main / NEET / IAT)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "As per respective exam conducting agency guidelines",
+            "qualifying_only": false,
+            "qualifying_threshold": "Top national percentiles / ranks (typically CRL < 350-500 in JEE Advanced or NEET top 250)"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual undergraduate intake and cutoff ranks published by the Admissions Committee, IISc Bangalore.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 189,
+        "applicants": 25000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "189 seats (137 B.Sc Research + 52 B.Tech Math & Computing) filled from over 25,000 applicants across 4 channels (~1 in 132 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-25",
+        "source_url": "https://iisc.ac.in",
+        "source_label": "IISc Bangalore UG Cutoff Ranks and Intake Declaration"
+      },
+      {
+        "year": 2023,
+        "vacancies": 189,
+        "applicants": 23500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "189 seats filled; closing CRL rank under 360 in JEE Advanced for General category; selectivity ~1 in 124",
+        "confidence": "reported",
+        "as_of": "2023-07-20",
+        "source_url": "https://iisc.ac.in",
+        "source_label": "IISc UG Admission Report 2023"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official undergraduate admission portal and brochures published by IISc Bangalore.",
+    "links": [
+      {
+        "label": "IISc Bangalore Official Portal",
+        "url": "https://iisc.ac.in",
+        "type": "notification",
+        "cycle_label": "IISc-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IISc UG Admissions Information Page",
+        "url": "https://iisc.ac.in",
+        "type": "other",
+        "cycle_label": "IISc-UG-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

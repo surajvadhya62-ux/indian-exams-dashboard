@@ -1,0 +1,87 @@
+{
+  "id": "ceed",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Common Entrance Examination for Design (CEED) is conducted by IIT Bombay for admissions to Master of Design (M.Des) and Ph.D. programmes in design at IISc Bangalore, IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, IIT Jodhpur, IIT Kanpur, IIT Roorkee, and IIITDM Jabalpur. The 3-hour examination consists of two parts: Part A is a Computer Based Test of 60 minutes duration (100 marks; NAT, MSQ, MCQ) evaluating design sensitivity, visual perception, and logical reasoning, functioning as a screening test. Part B is an offline subjective paper of 120 minutes duration (100 marks; 5 questions) testing sketching, creativity, visual communication, and problem identification. Part B answer sheets are evaluated only for candidates who qualify Part A with minimum percentile cut-offs.",
+    "stages": [
+      {
+        "stage_name": "CEED Examination (Part A Screening CBT + Part B Design Paper)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-19",
+        "source_url": "https://www.ceed.iitb.ac.in",
+        "source_label": "CEED Information Brochure — Examination Scheme and Evaluation Criteria",
+        "papers": [
+          {
+            "paper_name": "Part A: Computer Based Screening Test (NAT, MSQ, MCQ)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Negative marking applies on MSQ (-0.5) and MCQ (-0.5 marks per wrong answer); no negative marking on NAT",
+            "qualifying_only": true,
+            "qualifying_threshold": "Top percentile cutoff required to qualify for Part B manual evaluation"
+          },
+          {
+            "paper_name": "Part B: Offline Design & Drawing Test (5 Subjective Questions)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Only Part B marks are used for calculating the CEED final score and All India Rank"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and candidate statistics published by the CEED Organizing Committee, IIT Bombay.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 350,
+        "applicants": 6800,
+        "shortlisted_for_mains": 1850,
+        "selectivity_ratio": "~350 M.Des / Ph.D seats across participating IITs out of 6,800 appeared candidates (~1 in 19 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ceed.iitb.ac.in",
+        "source_label": "CEED Final Result Press Release and Qualified Candidates List"
+      },
+      {
+        "year": 2023,
+        "vacancies": 330,
+        "applicants": 6400,
+        "shortlisted_for_mains": 1720,
+        "selectivity_ratio": "~330 seats filled out of 6,400 candidates appeared (~1 in 19 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-07",
+        "source_url": "https://www.ceed.iitb.ac.in",
+        "source_label": "CEED Qualified Candidate Statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and information bulletins maintained by IIT Bombay.",
+    "links": [
+      {
+        "label": "CEED Official Portal",
+        "url": "https://www.ceed.iitb.ac.in",
+        "type": "notification",
+        "cycle_label": "CEED-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CEED Past Papers and Question Bank",
+        "url": "https://www.ceed.iitb.ac.in",
+        "type": "pyq",
+        "cycle_label": "CEED-PYQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

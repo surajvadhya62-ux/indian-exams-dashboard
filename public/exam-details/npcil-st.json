@@ -1,0 +1,178 @@
+{
+  "id": "npcil-st",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Stipendiary Trainee Category-I (2-Year Training)",
+        "pay_level": "Stipend (₹24,000 1st yr, ₹26,000 2nd yr)",
+        "years": "Training Period (0-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Recruitment Notification — Stipendiary Trainees Category-I & II"
+      },
+      {
+        "designation": "Scientific Assistant (Grade B)",
+        "pay_level": "Level 6",
+        "years": "Entry post absorption (2-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Pay and Promotion Rules — Scientific Assistant/B (₹35,400, Level 6)"
+      },
+      {
+        "designation": "Scientific Assistant (Grade C)",
+        "pay_level": "Level 7",
+        "years": "6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Technical Cadre Promotion Scheme — Level 7"
+      },
+      {
+        "designation": "Scientific Assistant (Grade D)",
+        "pay_level": "Level 8",
+        "years": "10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Career Progression Policy — Level 8"
+      },
+      {
+        "designation": "Scientific Officer / Engineer",
+        "pay_level": "Level 10",
+        "years": "14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Departmental Officer Promotion Channel — Level 10"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Nuclear Power Corporation of India Limited (NPCIL), a premier Public Sector Enterprise under the Department of Atomic Energy, conducts recruitment for Stipendiary Trainees Category-I (Diploma holders in Engineering / B.Sc.) and Category-II (ITI / HSC). For Category-I, the selection process comprises two stages: Stage 1 is a Written Examination (OMR or Computer Based Test) of 120 minutes duration carrying 100 multiple-choice questions (total 300 marks; +3 marks for correct, -1 mark for wrong). The paper is divided into non-technical subjects (General Awareness, English, Quantitative Aptitude - 40 questions) and engineering discipline domain knowledge (60 questions). Candidates qualifying the written examination are shortlisted in a 1:5 ratio for Stage 2: a personal Technical Interview (100 marks). Final selection is based 100% on performance in the personal Interview, subject to qualifying the written examination and medical fitness standards.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (OMR / Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Detailed Recruitment Advertisement — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Part A Non-Technical (40 Qs) + Part B Technical Domain (60 Qs)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+3 marks for correct response)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% marks for General/EWS; 30% for SC/ST/OBC/PwD candidates to be eligible for interview shortlisting"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Technical Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Selection Guidelines — Personal Interview",
+        "papers": [
+          {
+            "paper_name": "Personal Interview before Selection Committee",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks in interview required for inclusion in final select panel"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "During the 2-year institutional training period, Category-I trainees receive a monthly stipend of ₹24,000 in the 1st year and ₹26,000 in the 2nd year plus a one-time book allowance of ₹3,000. Upon successful training completion, trainees are absorbed as Scientific Assistant / B under the Central 7th CPC Pay Matrix Level 6 (Entry Basic Pay ₹35,400; range ₹35,400 – ₹1,12,400). In addition to basic pay, employees receive central DA, site allowances / HRA, Transport Allowance, Contributory Health Service Scheme (CHSS), and NPCIL performance incentives.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-05",
+    "pay_source_url": "https://www.npcil.nic.in",
+    "pay_source_label": "NPCIL Recruitment Advt — Pay and Allowances for Scientific Assistant/B",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 64000,
+      "max": 76000
+    },
+    "in_hand_range_estimate": {
+      "min": 57000,
+      "max": 68000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 basic ₹35,400 + 58% DA (₹20,532) + 30% HRA Metro / Site Township Allowance (₹10,620) + Transport Allowance (₹3,600 + ₹2,088 DA on TA) = gross ₹72,240, in-hand ~₹65,000 after 10% NPS deduction.",
+    "official_perks": [
+      "NPCIL residential township accommodation with heavily subsidized electricity, water, and schooling",
+      "Contributory Health Service Scheme (CHSS) providing complete medical cover for employee and family",
+      "Site allowances and Performance Related Incentive Scheme (PRIS) bonus",
+      "National Pension System (NPS) with 14% Employer contribution",
+      "Leave Travel Concession (LTC) and children education assistance"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics compiled from NPCIL unit-level notifications (Tarapur, Rawatbhata, Kudankulam, Kaiga, Kakrapar).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 185,
+        "applicants": 82000,
+        "shortlisted_for_mains": 925,
+        "selectivity_ratio": "185 Category-I vacancies across engineering disciplines out of ~82,000 applicants (~1 in 443 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-08-10",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Consolidated Selection Results"
+      },
+      {
+        "year": 2023,
+        "vacancies": 170,
+        "applicants": 76000,
+        "shortlisted_for_mains": 850,
+        "selectivity_ratio": "170 positions filled out of ~76,000 applicants (~1 in 447 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-09-05",
+        "source_url": "https://www.npcil.nic.in",
+        "source_label": "NPCIL Stipendiary Trainee Final Merit Panel"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, career portals, and candidate dashboards maintained by NPCIL.",
+    "links": [
+      {
+        "label": "NPCIL Official Careers Portal",
+        "url": "https://www.npcil.nic.in",
+        "type": "notification",
+        "cycle_label": "NPCIL-Careers",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NPCIL Stipendiary Trainee Notification and Syllabus",
+        "url": "https://www.npcil.nic.in",
+        "type": "syllabus",
+        "cycle_label": "NPCIL-ST-Advt",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

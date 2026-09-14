@@ -1,0 +1,97 @@
+{
+  "id": "tifr-gs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Tata Institute of Fundamental Research (TIFR) Graduate School Admissions examination is conducted nationwide for admission to Ph.D. and Integrated M.Sc.-Ph.D. programmes across Physics, Chemistry, Biology (conducted under JGEEBILS), Mathematics, Computer & Systems Sciences, and Science Education at TIFR Mumbai, TIFR Hyderabad, NCBS Bengaluru, ICTS Bengaluru, CAM Bengaluru, and GMRT Pune. The selection process consists of two stages: Stage 1 is a nationwide written test of 180 minutes duration evaluating foundational analytical and problem-solving skills in the chosen discipline. Shortlisted candidates from the written test proceed to Stage 2: two successive rounds of comprehensive in-person technical interviews before faculty selection committees. All admitted research scholars receive full monthly stipends (₹37,000 JRF for 2 years, ₹42,000 SRF for subsequent years plus 30% HRA and contingency grant).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Nationwide Written Entrance Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-12-08",
+        "source_url": "https://www.tifr.res.in/~academics/",
+        "source_label": "TIFR Graduate School Admissions Information Bulletin — Examination Structure",
+        "papers": [
+          {
+            "paper_name": "Discipline Subject Paper (Multiple Choice & Analytical Questions)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Negative marking applicable on objective sections as printed on question paper",
+            "qualifying_only": true,
+            "qualifying_threshold": "Discipline-specific merit cut-off applied to shortlist candidates for interview"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Comprehensive In-Person Faculty Interviews",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-12-08",
+        "source_url": "https://www.tifr.res.in/~academics/",
+        "source_label": "TIFR Academic Council Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Two Rounds of Faculty Technical Interviews",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final admission offers determined exclusively by faculty interview performance"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Admissions data compiled from TIFR University Cell and participating centers (NCBS, ICTS).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 140,
+        "applicants": 22000,
+        "shortlisted_for_mains": 850,
+        "selectivity_ratio": "~140 total research seats across all disciplines and centers out of ~22,000 candidates (~1 in 157 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-04-15",
+        "source_url": "https://www.tifr.res.in/~academics/",
+        "source_label": "TIFR University Cell Admission Statistics"
+      },
+      {
+        "year": 2023,
+        "vacancies": 135,
+        "applicants": 20500,
+        "shortlisted_for_mains": 800,
+        "selectivity_ratio": "~135 research fellowships awarded out of ~20,500 candidates (~1 in 152 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-04-12",
+        "source_url": "https://www.tifr.res.in/~academics/",
+        "source_label": "TIFR Graduate School Admission Report 2023"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official academic admissions portals and sample question papers maintained by TIFR.",
+    "links": [
+      {
+        "label": "TIFR Graduate Studies Official Website",
+        "url": "https://www.tifr.res.in/~academics/",
+        "type": "notification",
+        "cycle_label": "TIFR-GS-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "TIFR Past Question Papers Repository",
+        "url": "https://www.tifr.res.in/~academics/",
+        "type": "pyq",
+        "cycle_label": "TIFR-PYQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

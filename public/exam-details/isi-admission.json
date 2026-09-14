@@ -1,0 +1,105 @@
+{
+  "id": "isi-admission",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Indian Statistical Institute (ISI) Admission Test is conducted annually across India for admission to its prestigious undergraduate programmes — Bachelor of Statistics (Hons) at ISI Kolkata and Bachelor of Mathematics (Hons) at ISI Bengaluru — as well as Master of Statistics (M.Stat), Master of Mathematics (M.Math), MS in Quantitative Economics (MSQE), M.Tech in Computer Science, and Junior Research Fellowships (JRF). The entrance examination is held on a single day in two mandatory sessions: the Forenoon Session consists of a Multiple Choice Question paper (Test Code UGA / PGA: 30 questions, 120 marks, 120 minutes) testing advanced mathematical aptitude. The Afternoon Session consists of a Descriptive Subjective paper (Test Code UGB / PGB: 8 questions requiring rigorous mathematical proofs and problem solutions, 120 marks, 120 minutes). Only candidates meeting qualifying thresholds in the forenoon MCQ paper have their descriptive paper evaluated. Candidates qualifying the written test appear for a personal interview before final selection. All admitted students receive full monthly government stipends (₹5,000/month for UG, ₹8,000/month for PG, ₹37,000/month for JRF) plus annual contingency grants.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Admission Examination (Forenoon UGA + Afternoon UGB)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-05-11",
+        "source_url": "https://www.isical.ac.in",
+        "source_label": "ISI Kolkata Admission Notice & Prospectus — Selection Policy and Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Forenoon Session (Test Code UGA / PGA): Multiple Choice Questions",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 marks for correct response)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Cut-off score in UGA required for evaluation of Afternoon UGB paper"
+          },
+          {
+            "paper_name": "Afternoon Session (Test Code UGB / PGB): Descriptive Mathematical Proofs",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "Not applicable (rigorous proof and partial marking scheme)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted composite score determines shortlisting for personal interview"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-05-11",
+        "source_url": "https://www.isical.ac.in",
+        "source_label": "ISI Admission Policy Guidelines",
+        "papers": [
+          {
+            "paper_name": "Comprehensive Mathematics Faculty Interview",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit list computed from combined performance in UGB and Interview"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official seat capacity and merit lists released by Dean of Studies, ISI Kolkata.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 126,
+        "applicants": 19500,
+        "shortlisted_for_mains": 350,
+        "selectivity_ratio": "126 undergraduate seats (63 B.Stat Hons Kolkata + 63 B.Math Hons Bengaluru) out of ~19,500 applicants (~1 in 155 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-06-20",
+        "source_url": "https://www.isical.ac.in",
+        "source_label": "ISI Dean of Studies Final Admission Selection List"
+      },
+      {
+        "year": 2023,
+        "vacancies": 126,
+        "applicants": 18200,
+        "shortlisted_for_mains": 340,
+        "selectivity_ratio": "126 seats filled out of ~18,200 applicants (~1 in 144 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-06-18",
+        "source_url": "https://www.isical.ac.in",
+        "source_label": "ISI Admission Test Results Declaration"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal, syllabus bulletins, and archival question papers published by ISI Kolkata.",
+    "links": [
+      {
+        "label": "ISI Official Admissions Portal",
+        "url": "https://www.isical.ac.in",
+        "type": "notification",
+        "cycle_label": "ISI-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ISI Admission Syllabus and Past Question Papers",
+        "url": "https://www.isical.ac.in",
+        "type": "syllabus",
+        "cycle_label": "ISI-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "uceed",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Undergraduate Common Entrance Examination for Design (UCEED) is conducted by IIT Bombay for admissions to the Bachelor of Design (B.Des) programmes at IIT Bombay, IIT Delhi, IIT Guwahati, IIT Hyderabad, and IIITDM Jabalpur, along with numerous result-sharing institutes. UCEED is a 3-hour examination consisting of two parts: Part A is a Computer Based Test (CBT) of 120 minutes duration carrying 200 marks, divided into Section 1 Numerical Answer Type (NAT, 14 questions, 56 marks), Section 2 Multiple Select Questions (MSQ, 15 questions, 60 marks), and Section 3 Multiple Choice Questions (MCQ, 28 questions, 84 marks). Part B is an offline paper-based drawing test of 60 minutes duration carrying 100 marks (2 questions testing sketching and design aptitude).",
+    "stages": [
+      {
+        "stage_name": "UCEED Examination (Part A CBT + Part B Drawing)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-01-19",
+        "source_url": "https://www.uceed.iitb.ac.in",
+        "source_label": "UCEED Information Brochure — Examination Structure and Marking Scheme",
+        "papers": [
+          {
+            "paper_name": "Part A: Computer Based Test (NAT, MSQ, MCQ)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "Negative marking applies on MSQ (-0.19 to -1) and MCQ (-0.71 marks per wrong answer); no negative marking on NAT",
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisting cutoff applied on Part A to evaluate Part B"
+          },
+          {
+            "paper_name": "Part B: Drawing & Design Aptitude (Paper-based)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable (subjective evaluation)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated only for candidates shortlisted in Part A; combined score determines All India Rank (AIR)"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and intake statistics published by the UCEED-CEED Office, IIT Bombay.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 225,
+        "applicants": 14200,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "225 B.Des seats across 5 participating institutes out of 14,200 registered candidates (~1 in 63 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-03-10",
+        "source_url": "https://www.uceed.iitb.ac.in",
+        "source_label": "UCEED Final Result Statistics and Seat Allocation Summary"
+      },
+      {
+        "year": 2023,
+        "vacancies": 205,
+        "applicants": 13500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "205 seats out of 13,500 candidates appeared (~1 in 66 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-09",
+        "source_url": "https://www.uceed.iitb.ac.in",
+        "source_label": "UCEED Press Release — Qualified Candidate Statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and examination brochures hosted by IIT Bombay.",
+    "links": [
+      {
+        "label": "UCEED Official Portal",
+        "url": "https://www.uceed.iitb.ac.in",
+        "type": "notification",
+        "cycle_label": "UCEED-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "UCEED Information Brochure and Syllabus",
+        "url": "https://www.uceed.iitb.ac.in",
+        "type": "syllabus",
+        "cycle_label": "UCEED-Brochure",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

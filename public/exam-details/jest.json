@@ -1,0 +1,79 @@
+{
+  "id": "jest",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Joint Entrance Screening Test (JEST) is conducted nationwide by a consortium of premier Indian autonomous research institutes (including BARC, Bose Institute, HRI, ICTS, IGCAR, IIA, IISc, IISERs, IMSc, IOP, IPR, IUCAA, JNCASR, NCRA-TIFR, NISER, PRL, RRCAT, RRI, SINP, SNBNCBS, TIFR, and VECC) for screening candidates seeking admission to Ph.D. and Integrated M.Sc.-Ph.D. programmes in Physics, Theoretical Computer Science, Neuroscience, and Computational Biology. JEST is recognized as a National Eligibility Test (NET) by SERB. The Physics examination is a 3-hour test carrying 100 marks across 50 questions divided into three parts: Part A (15 multiple-choice questions, +3 marks for correct, -1 mark for wrong), Part B (10 integer/numerical questions, +3 marks for correct, no negative marking), and Part C (25 multiple-choice questions, +1 mark for correct, -1/3 mark for wrong). Each participating institute calls candidates for independent personal interviews based on JEST percentile ranks.",
+    "stages": [
+      {
+        "stage_name": "JEST National Screening Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-03-09",
+        "source_url": "https://www.jest.org.in",
+        "source_label": "JEST Organizing Committee Information Leaflet — Exam Pattern and Marking Scheme",
+        "papers": [
+          {
+            "paper_name": "Physics / Theoretical Computer Science Test Paper (Parts A, B, C)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part A: -1 mark; Part B: No negative; Part C: -0.33 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Percentile score generated for all test-takers; qualifying cutoff score published by JEST committee"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual test taker and qualification statistics released by the JEST Organizing Committee.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 500,
+        "applicants": 13500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~500 research scholar seats across 32 participating institutions out of ~13,500 candidates appeared (~1 in 27 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-04-10",
+        "source_url": "https://www.jest.org.in",
+        "source_label": "JEST Result Notification and Percentile Score Distribution"
+      },
+      {
+        "year": 2023,
+        "vacancies": 480,
+        "applicants": 12800,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~480 seats filled out of ~12,800 candidates (~1 in 27 selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-04-05",
+        "source_url": "https://www.jest.org.in",
+        "source_label": "JEST 2023 Scorecard and Cutoff Statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website, syllabus, and participating institute directory hosted by JEST.",
+    "links": [
+      {
+        "label": "JEST Official Portal",
+        "url": "https://www.jest.org.in",
+        "type": "notification",
+        "cycle_label": "JEST-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JEST Syllabus and Sample Papers",
+        "url": "https://www.jest.org.in",
+        "type": "syllabus",
+        "cycle_label": "JEST-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
