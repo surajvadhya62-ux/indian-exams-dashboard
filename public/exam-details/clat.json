@@ -1,0 +1,114 @@
+{
+  "id": "clat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Common Law Admission Test (CLAT) is conducted by the Consortium of National Law Universities for admissions to the 5-year integrated undergraduate (UG) law programmes (BA LLB, BBA LLB, B.Sc LLB, B.Com LLB) across 24 participating NLUs. The UG CLAT is a 2-hour pen-and-paper offline examination consisting of 120 multiple-choice questions based on reading comprehension passages of approximately 450 words each across 5 sections. Marking scheme: 1 mark for each correct answer and negative marking of 0.25 marks for each wrong answer.",
+    "stages": [
+      {
+        "stage_name": "CLAT Undergraduate Written Examination (OMR-based)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-07-15",
+        "source_url": "https://consortiumofnlus.ac.in/",
+        "source_label": "Consortium of NLUs — CLAT Information Booklet & Syllabus Regulations",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 24,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on aggregate score out of 120 across all 5 sections"
+          },
+          {
+            "paper_name": "Current Affairs, including General Knowledge",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on aggregate score out of 120 across all 5 sections"
+          },
+          {
+            "paper_name": "Legal Reasoning",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on aggregate score out of 120 across all 5 sections"
+          },
+          {
+            "paper_name": "Logical Reasoning",
+            "marks": 24,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on aggregate score out of 120 across all 5 sections"
+          },
+          {
+            "paper_name": "Quantitative Techniques",
+            "marks": 12,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based on aggregate score out of 120 across all 5 sections"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and seat allocation statistics published by the Consortium of National Law Universities.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 68500,
+        "vacancies": 3200,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~3,200 undergraduate seats across 24 participating NLUs out of ~68,500 candidates appeared (~1 in 21 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-12-10",
+        "source_url": "https://consortiumofnlus.ac.in/",
+        "source_label": "Consortium of NLUs — CLAT 2025 Official Press Note & Seat Matrix"
+      },
+      {
+        "year": 2024,
+        "applicants": 61200,
+        "vacancies": 3100,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~3,100 undergraduate seats across 24 NLUs out of 61,200 test-takers; top ranks required for NLSIU Bengaluru and NALSAR Hyderabad",
+        "confidence": "reported",
+        "as_of": "2023-12-11",
+        "source_url": "https://consortiumofnlus.ac.in/",
+        "source_label": "Consortium of NLUs — CLAT 2024 Result Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and admission documents maintained by the Consortium of National Law Universities.",
+    "links": [
+      {
+        "label": "Consortium of NLUs Official Portal",
+        "url": "https://consortiumofnlus.ac.in/",
+        "type": "notification",
+        "cycle_label": "CLAT-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CLAT Syllabus and Examination Pattern",
+        "url": "https://consortiumofnlus.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "CLAT-UG",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "aiapget",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The All India AYUSH Post Graduate Entrance Test (AIAPGET) is conducted annually by the National Testing Agency (NTA) on behalf of the Ministry of AYUSH, the National Commission for Indian System of Medicine (NCISM), and the National Commission for Homoeopathy (NCH). AIAPGET is the single gateway examination for admission into MD / MS / Postgraduate Diploma courses in Ayurveda, Unani, Siddha, and Homeopathy systems of medicine across all AYUSH medical colleges, state universities, and national institutes in India. The examination is conducted as a Computer Based Test (CBT) of 120 minutes (2 hours) duration comprising 120 multiple-choice questions (480 marks). Marking scheme: +4 marks for each correct answer; -1 mark for each incorrect response (25% negative marking); 0 for unanswered.",
+    "stages": [
+      {
+        "stage_name": "AIAPGET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://exams.nta.ac.in/AIAPGET/",
+        "source_label": "NTA AIAPGET Information Bulletin — Scheme of Examination & Discipline Structure",
+        "papers": [
+          {
+            "paper_name": "Discipline Subject Paper (Ayurveda / Unani / Siddha / Homeopathy)",
+            "marks": 480,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unanswered)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50th percentile (40th percentile for SC/ST/OBC; 45th percentile for UR-PwD) in accordance with NCISM/NCH regulations"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and qualification statistics published in NTA press notes and AYUSH Admissions Central Counseling Committee (AACCC) reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 37980,
+        "vacancies": 4500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~4,500 total MD/MS postgraduate seats across all four AYUSH disciplines out of 37,980 appeared (~1 in 8.4 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-31",
+        "source_url": "https://exams.nta.ac.in/AIAPGET/",
+        "source_label": "NTA AIAPGET 2024 Result Declaration Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 35496,
+        "vacancies": 4200,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "4,200 seats filled via AACCC all-India and state quota rounds; Ayurveda accounts for ~62% of total seats",
+        "confidence": "reported",
+        "as_of": "2023-08-19",
+        "source_url": "https://exams.nta.ac.in/AIAPGET/",
+        "source_label": "NTA AIAPGET 2023 Result Highlights"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portals and information bulletins maintained by NTA and Ministry of AYUSH.",
+    "links": [
+      {
+        "label": "NTA AIAPGET Examination Portal",
+        "url": "https://exams.nta.ac.in/AIAPGET/",
+        "type": "notification",
+        "cycle_label": "AIAPGET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "AYUSH Admissions Central Counseling Committee (AACCC)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "AACCC-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

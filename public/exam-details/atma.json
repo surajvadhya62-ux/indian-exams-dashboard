@@ -1,0 +1,122 @@
+{
+  "id": "atma",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The AIMS Test for Management Admissions (ATMA) is a national-level computer-based test conducted by the Association of Indian Management Schools (AIMS) multiple times a year (typically across February, May, June, and July test windows). ATMA is recognized by the Ministry of Education, Government of India, and AICTE for admissions to MBA, PGDM, MMS, and MCA programmes across more than 500 participating management institutes. The test duration is 180 minutes (3 hours) with 180 multiple choice questions divided into six strictly timed sections (30 minutes each): Analytical Reasoning Skills (Parts 1 & 2), Quantitative Skills (Parts 1 & 2), and Verbal Skills (Parts 1 & 2). Marking scheme: +1 mark for each correct answer; -0.25 mark for each incorrect response (25% negative marking); 0 for unattempted.",
+    "stages": [
+      {
+        "stage_name": "ATMA Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-05",
+        "source_url": "https://www.atmaaims.com/",
+        "source_label": "AIMS ATMA Information Bulletin — Test Structure and Instructions",
+        "papers": [
+          {
+            "paper_name": "Section 1: Analytical Reasoning Skills - Part 1",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 marks for each wrong response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 30-minute section limit; sectional and composite percentiles calculated"
+          },
+          {
+            "paper_name": "Section 2: Quantitative Skills - Part 1",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 marks for each wrong response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 30-minute section limit; sectional and composite percentiles calculated"
+          },
+          {
+            "paper_name": "Section 3: Verbal Skills - Part 1",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 marks for each wrong response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 30-minute section limit; sectional and composite percentiles calculated"
+          },
+          {
+            "paper_name": "Section 4: Analytical Reasoning Skills - Part 2",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 marks for each wrong response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 30-minute section limit; sectional and composite percentiles calculated"
+          },
+          {
+            "paper_name": "Section 5: Quantitative Skills - Part 2",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 marks for each wrong response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 30-minute section limit; sectional and composite percentiles calculated"
+          },
+          {
+            "paper_name": "Section 6: Verbal Skills - Part 2",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 marks for each wrong response (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Strict 30-minute section limit; sectional and composite percentiles calculated"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual test administration and candidate appearance statistics compiled from Association of Indian Management Schools reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 45000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~45,000 management aspirants appeared across testing cycles; scores accepted across 500+ AICTE-approved institutions nationwide",
+        "confidence": "reported",
+        "as_of": "2024-07-31",
+        "source_url": "https://www.atmaaims.com/",
+        "source_label": "AIMS ATMA 2024 Consolidated Annual Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 42000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "42,000 candidates tested across multiple windows; cutoffs vary by business school (typically 80–95 percentile for tier-2 management institutions)",
+        "confidence": "reported",
+        "as_of": "2023-07-28",
+        "source_url": "https://www.atmaaims.com/",
+        "source_label": "AIMS Annual General Meeting Secretariat Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official testing portal and sample material maintained by the Association of Indian Management Schools.",
+    "links": [
+      {
+        "label": "AIMS ATMA Official Portal",
+        "url": "https://www.atmaaims.com/",
+        "type": "notification",
+        "cycle_label": "ATMA-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ATMA Exam Structure & Participating Institutes Directory",
+        "url": "https://www.atmaaims.com/",
+        "type": "syllabus",
+        "cycle_label": "ATMA-Structure",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

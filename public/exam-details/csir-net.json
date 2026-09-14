@@ -1,0 +1,98 @@
+{
+  "id": "csir-net",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Joint CSIR-UGC NET Examination is conducted by the National Testing Agency (NTA) on behalf of the Council of Scientific and Industrial Research (CSIR) to determine eligibility for the award of Junior Research Fellowship (JRF), Lectureship (LS) / Assistant Professorship, and admission to Ph.D. programmes in Indian universities and colleges. The test covers five scientific disciplines: Chemical Sciences; Earth, Atmospheric, Ocean and Planetary Sciences; Life Sciences; Mathematical Sciences; and Physical Sciences. It is administered as a single-paper Computer Based Test (CBT) of 3 hours (180 minutes) carrying a maximum of 200 marks, structured into three parts: Part A (General Aptitude, common to all subjects), Part B (Subject-related conventional MCQs), and Part C (Higher-order scientific concept questions testing analytical reasoning). Negative marking applies at 25% across all parts.",
+    "stages": [
+      {
+        "stage_name": "Joint CSIR-UGC NET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-10",
+        "source_url": "https://csirnet.nta.nic.in/",
+        "source_label": "NTA CSIR-UGC NET Information Bulletin — Pattern of Examination",
+        "papers": [
+          {
+            "paper_name": "Part A: General Science, Quantitative Aptitude & Research Reasoning (Common)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "-0.5 marks for each wrong answer (+2 for correct; attempt any 15 out of 20 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Aggregate merit cutoff calculated across Parts A, B, and C combined"
+          },
+          {
+            "paper_name": "Part B: Subject-Related Core Multiple Choice Questions",
+            "marks": 70,
+            "duration_minutes": 180,
+            "negative_marking": "25% negative marking for wrong answers (+2 for correct; subject-specific question options)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Aggregate merit cutoff calculated across Parts A, B, and C combined"
+          },
+          {
+            "paper_name": "Part C: Higher Order Scientific Problem Solving & Analytical Questions",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "25% negative marking for wrong answers (typically +4 or +4.75 marks per correct question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Aggregate merit cutoff calculated across Parts A, B, and C combined"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Appearance and qualification statistics compiled from official NTA press releases for Joint CSIR-UGC NET cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 225335,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,63,529 appeared out of 2,25,335 registered across 5 subjects; ~2,800 qualified for JRF and ~4,200 qualified for Lectureship/Assistant Professor (~4.3% overall qualification rate)",
+        "confidence": "reported",
+        "as_of": "2024-09-12",
+        "source_url": "https://csirnet.nta.nic.in/",
+        "source_label": "NTA Joint CSIR-UGC NET June 2024 Result Declaration Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 274027,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,99,890 appeared out of 2,74,027 registered; 2,654 qualified for JRF (CSIR & UGC) and 4,128 qualified for Lectureship",
+        "confidence": "reported",
+        "as_of": "2023-07-29",
+        "source_url": "https://csirnet.nta.nic.in/",
+        "source_label": "NTA Joint CSIR-UGC NET Dec 2022 / June 2023 Consolidated Result Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination portals and information bulletins maintained by NTA and CSIR HRDG.",
+    "links": [
+      {
+        "label": "Joint CSIR-UGC NET Official Portal",
+        "url": "https://csirnet.nta.nic.in/",
+        "type": "notification",
+        "cycle_label": "CSIR-NET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NTA National Examination Hub",
+        "url": "https://exams.nta.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "CSIR-NET-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

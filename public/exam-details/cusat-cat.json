@@ -1,0 +1,98 @@
+{
+  "id": "cusat-cat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Common Admission Test (CAT) is conducted by the Cochin University of Science and Technology (CUSAT) for admission into various undergraduate and postgraduate programmes, prominently its Bachelor of Technology (B.Tech) courses across the School of Engineering (Thrikkakara Campus) and CUCEK (Kuttanad Campus). The B.Tech entrance examination (Test Code: 101) is a Computer Based Test (CBT) of 3 hours (180 minutes) duration comprising 225 multiple-choice questions: Mathematics (90 questions), Physics (75 questions), and Chemistry (60 questions). Marking scheme: 3 marks are awarded for each correct answer and 1 mark is deducted for each incorrect answer (total 675 marks).",
+    "stages": [
+      {
+        "stage_name": "CUSAT CAT Computer Based Test (Test 101 - B.Tech)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-20",
+        "source_url": "https://admissions.cusat.ac.in/",
+        "source_label": "CUSAT CAT Prospectus — Scheme of Computer Based Test (Test 101)",
+        "papers": [
+          {
+            "paper_name": "Mathematics",
+            "marks": 270,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for CUSAT CAT B.Tech Engineering rank"
+          },
+          {
+            "paper_name": "Physics",
+            "marks": 225,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for CUSAT CAT B.Tech Engineering rank"
+          },
+          {
+            "paper_name": "Chemistry",
+            "marks": 180,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+3 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively for CUSAT CAT B.Tech Engineering rank"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Admissions statistics published in CUSAT rank lists and university seat allocation bulletins.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 42500,
+        "vacancies": 1250,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~1,250 B.Tech engineering seats across Thrikkakara and Kuttanad campuses out of ~42,500 candidates appeared (~1 in 34 selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-06-03",
+        "source_url": "https://admissions.cusat.ac.in/",
+        "source_label": "CUSAT CAT 2024 Result Declaration & Rank List Publication"
+      },
+      {
+        "year": 2023,
+        "applicants": 39800,
+        "vacancies": 1220,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,220 seats across all engineering branches; high competition for Marine Engineering and Computer Science & Engineering (ranks <1,500)",
+        "confidence": "reported",
+        "as_of": "2023-06-05",
+        "source_url": "https://admissions.cusat.ac.in/",
+        "source_label": "CUSAT CAT 2023 Final Allotment Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal and prospectus published by Cochin University of Science and Technology.",
+    "links": [
+      {
+        "label": "CUSAT Admissions Official Portal",
+        "url": "https://admissions.cusat.ac.in/",
+        "type": "notification",
+        "cycle_label": "CUSAT-CAT-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CUSAT CAT Prospectus & Syllabi Archive",
+        "url": "https://admissions.cusat.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "CUSAT-Prospectus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

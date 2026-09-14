@@ -1,0 +1,90 @@
+{
+  "id": "dse-mcom",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admission to the Master of Commerce (M.Com) programme at Delhi School of Economics, University of Delhi, is conducted under the Common University Entrance Test for Postgraduates (CUET-PG) administered by the National Testing Agency (NTA). Candidates must appear in the Commerce question paper (Paper Code: COQP08). The examination is a single-shift Computer Based Test (CBT) of 105 minutes duration containing 75 domain-specific multiple choice questions (300 marks). 50% of the total seats are allocated under Category 1 (merit for DU B.Com graduates) and 50% under Category 2 (open to all eligible applicants based on CUET-PG score). Seat allocation is finalized through DU's Common Seat Allocation System (CSAS PG).",
+    "stages": [
+      {
+        "stage_name": "CUET-PG Paper COQP08 (Commerce)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-15",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "University of Delhi PG Admission Bulletin & NTA CUET-PG Information Bulletin",
+        "papers": [
+          {
+            "paper_name": "Commerce Domain Paper (COQP08)",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark for each incorrect response (25% negative marking; +4 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-based admission determined through DU CSAS (PG) counseling rounds"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant statistics from NTA CUET-PG releases and University of Delhi postgraduate admission reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 38200,
+        "vacancies": 348,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "348 seats filled across DSE Department of Commerce out of ~38,200 test-takers in COQP08 (over 12,500 opting for DU)",
+        "confidence": "reported",
+        "as_of": "2024-04-12",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "NTA CUET-PG 2024 Result Statistics & DU CSAS PG Seat Matrix"
+      },
+      {
+        "year": 2023,
+        "applicants": 35600,
+        "vacancies": 348,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "348 seats across DSE and affiliated colleges; general category final cutoff percentile >98.5 in Category 2",
+        "confidence": "reported",
+        "as_of": "2023-07-20",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "University of Delhi CSAS (PG) 2023 Allocation Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and admission brochures published by University of Delhi and the Department of Commerce, Delhi School of Economics.",
+    "links": [
+      {
+        "label": "University of Delhi PG Admission Portal",
+        "url": "https://admission.uod.ac.in/",
+        "type": "notification",
+        "cycle_label": "DU-PG-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Department of Commerce, DSE Official Website",
+        "url": "http://www.commercedu.com/",
+        "type": "syllabus",
+        "cycle_label": "DSE-MCOM",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NTA CUET-PG Portal",
+        "url": "https://exams.nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "CUET-PG-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

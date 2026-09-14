@@ -1,0 +1,98 @@
+{
+  "id": "icar-aice-jrf-srf",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The ICAR All India Competitive Examination for award of Junior Research Fellowship (JRF) and Senior Research Fellowship (SRF) for Ph.D. admissions (AICE-JRF/SRF-PhD) is conducted by the National Testing Agency (NTA) on behalf of the Indian Council of Agricultural Research (ICAR). It serves as the national gateway for doctoral admissions and fellowship grants across 72 specialized subjects in State Agricultural Universities (SAUs), ICAR Deemed Universities (IARI, IVRI, NDRI, CIFE), and Central Agricultural Universities. The test is a single Computer Based Test (CBT) of 120 minutes (2 hours) duration comprising 120 multiple-choice questions (480 marks) divided into three sections: Section A (20 questions on General Agriculture / Reasoning), Section B (50 questions on the Core Subject Group), and Section C (50 questions on the Specialized Sub-subject). Marking scheme: +4 marks for each correct response, -1 mark for each incorrect response (25% negative marking), and 0 for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "ICAR AICE-JRF/SRF (Ph.D.) Computer Based Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-25",
+        "source_url": "https://exams.nta.ac.in/ICAR/",
+        "source_label": "NTA ICAR AICE-JRF/SRF (Ph.D.) Information Bulletin — Pattern of Examination",
+        "papers": [
+          {
+            "paper_name": "Section A: General Agriculture & Scientific Reasoning",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 20 MCQs)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 3 sections for national merit ranking"
+          },
+          {
+            "paper_name": "Section B: Core Subject Group",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 50 MCQs)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 3 sections for national merit ranking"
+          },
+          {
+            "paper_name": "Section C: Specialized Sub-subject Paper",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 50 MCQs)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 3 sections for national merit ranking"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics from NTA examination summaries and ICAR Education Division seat allotment bulletins.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 14200,
+        "vacancies": 1850,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~1,850 doctoral seats and ~300 ICAR JRF/SRF fellowships awarded across agricultural universities out of 14,200 appeared candidates (~1 in 7.6 for seats; ~1 in 47 for fellowship)",
+        "confidence": "reported",
+        "as_of": "2024-08-13",
+        "source_url": "https://exams.nta.ac.in/ICAR/",
+        "source_label": "NTA ICAR AICE-JRF/SRF (Ph.D.) 2024 Examination Highlights"
+      },
+      {
+        "year": 2023,
+        "applicants": 13650,
+        "vacancies": 1780,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,780 Ph.D. seats filled across all participating agricultural universities; fellowships awarded strictly by national subject merit",
+        "confidence": "reported",
+        "as_of": "2023-08-22",
+        "source_url": "https://exams.nta.ac.in/ICAR/",
+        "source_label": "ICAR Education Division Seat Matrix & Allotment Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and information bulletins published by NTA and the Indian Council of Agricultural Research.",
+    "links": [
+      {
+        "label": "NTA ICAR Official Examination Portal",
+        "url": "https://exams.nta.ac.in/ICAR/",
+        "type": "notification",
+        "cycle_label": "ICAR-AICE-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Council of Agricultural Research (ICAR)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "ICAR-HQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

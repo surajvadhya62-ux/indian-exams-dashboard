@@ -1,0 +1,116 @@
+{
+  "id": "ntse",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The National Talent Search Examination (NTSE) is a prestigious flagship national scholarship programme conducted by the National Council of Educational Research and Training (NCERT) for Class 10 students across India. The selection process operates at two levels: Stage I (State/UT Level) conducted by individual State/UT education departments/SCERTs, and Stage II (National Level) conducted by NCERT for candidates qualifying Stage I state quotas. Both stages consist of two written papers administered on the same day: Paper 1 (Mental Ability Test - MAT) comprising 100 MCQs on logical and analytical reasoning (100 marks, 120 minutes) and Paper 2 (Scholastic Aptitude Test - SAT) comprising 100 MCQs covering Science (40), Mathematics (20), and Social Science (40) (100 marks, 120 minutes). There is no negative marking in either paper. A total of 2,000 national scholarships are awarded annually.",
+    "stages": [
+      {
+        "stage_name": "Stage I: State / UT Level NTSE Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-05-10",
+        "source_url": "https://ncert.nic.in/national-talent-examination.php",
+        "source_label": "NCERT Educational Survey Division — NTSE Scheme Guidelines",
+        "papers": [
+          {
+            "paper_name": "Paper I: Mental Ability Test (MAT)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% qualifying marks (32% for SC/ST/PH candidates)"
+          },
+          {
+            "paper_name": "Paper II: Scholastic Aptitude Test (SAT: Science, Maths, Social Science)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% qualifying marks (32% for SC/ST/PH candidates)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: National Level NTSE Examination (NCERT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-05-10",
+        "source_url": "https://ncert.nic.in/national-talent-examination.php",
+        "source_label": "NCERT Guidelines — Stage II National Merit List Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper I: Mental Ability Test (MAT - National Level)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying standard: 40% in each paper; merit on aggregate score of MAT + SAT (200 marks)"
+          },
+          {
+            "paper_name": "Paper II: Scholastic Aptitude Test (SAT - National Level)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying standard: 40% in each paper; merit on aggregate score of MAT + SAT (200 marks)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics from NCERT Educational Survey Division reports and state examination authority quotas.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 1400000,
+        "vacancies": 2000,
+        "shortlisted_for_mains": 8500,
+        "selectivity_ratio": "2,000 national scholarships awarded out of ~14 lakh initial applicants across India (~1 in 700 overall selectivity; 0.14%)",
+        "confidence": "reported",
+        "as_of": "2022-02-18",
+        "source_url": "https://ncert.nic.in/national-talent-examination.php",
+        "source_label": "NCERT NTSE Stage II National Result Notification & Scholarship Award List"
+      },
+      {
+        "year": 2020,
+        "applicants": 1350000,
+        "vacancies": 2000,
+        "shortlisted_for_mains": 8300,
+        "selectivity_ratio": "2,000 scholarships awarded across all state quotas; intense competition with qualifying cutoffs >165/200 in major states",
+        "confidence": "reported",
+        "as_of": "2021-07-16",
+        "source_url": "https://ncert.nic.in/national-talent-examination.php",
+        "source_label": "NCERT Annual Report — Educational Survey Division (NTSE Statistics)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official scheme portal and guidelines published by the National Council of Educational Research and Training.",
+    "links": [
+      {
+        "label": "NCERT NTSE Official Scheme Page",
+        "url": "https://ncert.nic.in/national-talent-examination.php",
+        "type": "notification",
+        "cycle_label": "NTSE-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NCERT Official Portal",
+        "url": "https://ncert.nic.in/",
+        "type": "syllabus",
+        "cycle_label": "NCERT-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

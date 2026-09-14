@@ -1,0 +1,108 @@
+{
+  "id": "nift",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admission to undergraduate and postgraduate design and fashion technology programmes across 18 NIFT campuses nationwide is administered by the National Testing Agency (NTA). For Bachelor of Design (B.Des), selection comprises three stages: General Ability Test (GAT) in Computer Based Test mode, Creative Ability Test (CAT) in paper-and-pencil mode, and a hands-on Situation Test for shortlisted candidates. Final B.Des composite merit is calculated with 50% weightage to CAT, 30% weightage to GAT, and 20% weightage to the Situation Test. Bachelor of Fashion Technology (B.F.Tech) requires only the GAT (100% weightage).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (GAT & CAT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-11-20",
+        "source_url": "https://exams.nta.ac.in/NIFT/",
+        "source_label": "NTA NIFT Information Bulletin — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "General Ability Test (GAT - CBT)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each wrong answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 30% in final B.Des merit calculation"
+          },
+          {
+            "paper_name": "Creative Ability Test (CAT - Paper-based Drawing)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 50% in final B.Des merit calculation"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Situation Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-11-20",
+        "source_url": "https://nift.ac.in/",
+        "source_label": "NIFT Admissions Guidelines — Situation Test Evaluation",
+        "papers": [
+          {
+            "paper_name": "Hands-on 3D Model Making & Write-up",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 20% in final B.Des merit calculation"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and appearance statistics published in NIFT admission notices and NTA examination summaries.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 42000,
+        "vacancies": 4500,
+        "shortlisted_for_mains": 12000,
+        "selectivity_ratio": "~4,500 total UG/PG seats across 18 NIFT campuses out of ~42,000 appeared (~1 in 9.3 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-05-14",
+        "source_url": "https://exams.nta.ac.in/NIFT/",
+        "source_label": "NTA NIFT 2024 Examination Summary & Seat Matrix"
+      },
+      {
+        "year": 2023,
+        "applicants": 39500,
+        "vacancies": 4300,
+        "shortlisted_for_mains": 11500,
+        "selectivity_ratio": "4,300 seats across all campuses; top ranks (<500) required for flagship programmes at NIFT New Delhi and Mumbai",
+        "confidence": "reported",
+        "as_of": "2023-05-19",
+        "source_url": "https://nift.ac.in/",
+        "source_label": "NIFT Admissions 2023 Consolidated Allocation Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and information bulletins published by NTA and NIFT Head Office.",
+    "links": [
+      {
+        "label": "NTA NIFT Examination Portal",
+        "url": "https://exams.nta.ac.in/NIFT/",
+        "type": "notification",
+        "cycle_label": "NIFT-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NIFT Official Head Office Website",
+        "url": "https://nift.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "NIFT-Admissions",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

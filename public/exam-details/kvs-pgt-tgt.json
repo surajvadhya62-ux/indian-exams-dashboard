@@ -1,0 +1,211 @@
+{
+  "id": "kvs-pgt-tgt",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Primary Teacher (PRT)",
+        "pay_level": "Level 6",
+        "years": "Entry for PRT (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Direct Recruitment Notification (Advt. No. 16/2022) — Pay Scale for PRT (₹35,400 – ₹1,12,400, Level 6)"
+      },
+      {
+        "designation": "Trained Graduate Teacher (TGT)",
+        "pay_level": "Level 7",
+        "years": "Entry for TGT / 5-8 yrs (from PRT)",
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Direct Recruitment Notification (Advt. No. 15/2022) — Pay Scale for TGT (₹44,900 – ₹1,42,400, Level 7)"
+      },
+      {
+        "designation": "Post Graduate Teacher (PGT)",
+        "pay_level": "Level 8",
+        "years": "Entry for PGT / 5-8 yrs (from TGT)",
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Direct Recruitment Notification (Advt. No. 15/2022) — Pay Scale for PGT (₹47,600 – ₹1,51,100, Level 8)"
+      },
+      {
+        "designation": "Vice Principal (Group A)",
+        "pay_level": "Level 10",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Recruitment Rules — Vice Principal (₹56,100 – ₹1,77,500, Level 10 Gazetted)"
+      },
+      {
+        "designation": "Principal (Group A)",
+        "pay_level": "Level 12",
+        "years": "approx. 16-24 yrs",
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Recruitment Rules — Principal (₹78,800 – ₹2,09,200, Level 12)"
+      },
+      {
+        "designation": "Assistant Commissioner (KVS Regional Office / HQ)",
+        "pay_level": "Level 13",
+        "years": "approx. 24-30 yrs",
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Administrative Cadre Promotion Rules — Assistant Commissioner (Level 13)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Kendriya Vidyalaya Sangathan (KVS) conducts teacher selection through a two-stage examination process consisting of a Computer Based Test (CBT) and a Professional Competency Test. The CBT comprises 180 multiple-choice questions (180 marks) of 180 minutes duration across four parts: Part I (Proficiency in Languages), Part II (General Awareness, Reasoning & Computer Literacy), Part III (Perspectives on Education and Leadership), and Part IV (Subject-Specific Syllabus). There is no negative marking. The Professional Competency Test carries 60 marks (30 for Demo Teaching and 30 for Interview). Final selection is based on a composite score with 70% weightage for CBT and 30% weightage for the Professional Competency Test.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Detailed Advertisement No. 15/2022 & 16/2022 — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Part I: Proficiency in Languages (General English 10, General Hindi 10)",
+            "marks": 20,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for Stage 1 merit"
+          },
+          {
+            "paper_name": "Part II: General Awareness (10), Reasoning Ability (5) & Computer Literacy (5)",
+            "marks": 20,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively across all 4 parts for Stage 1 merit"
+          },
+          {
+            "paper_name": "Part III: Perspectives on Education and Leadership",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 marks for PGT/TGT; 60 marks for PRT"
+          },
+          {
+            "paper_name": "Part IV: Subject Specific Syllabus",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 marks for PGT/TGT; 80 marks for PRT"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Professional Competency Test (Demo Teaching & Interview)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-12-02",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Guidelines — Interview and Demo Teaching Assessment",
+        "papers": [
+          {
+            "paper_name": "Demo Teaching & Interview",
+            "marks": 60,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 30% in final selection merit (70% CBT + 30% Professional Competency)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Kendriya Vidyalaya Sangathan is an autonomous organization under the Ministry of Education, Government of India. Teaching cadres are compensated under the central 7th CPC Pay Matrix: PGTs commence at Pay Level 8 (entry basic ₹47,600), TGTs at Pay Level 7 (entry basic ₹44,900), and PRTs at Pay Level 6 (entry basic ₹35,400). Teachers are entitled to standard central allowances, residential campus quarters where available, or applicable HRA.",
+    "pay_level": "Level 8",
+    "entry_basic_pay": 47600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-12-02",
+    "pay_source_url": "https://kvsangathan.nic.in/",
+    "pay_source_label": "KVS Advt. No. 15/2022 — Pay Matrix Level 8 (₹47,600 – ₹1,51,100) for Post Graduate Teachers",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 72000, "max": 96000 },
+    "in_hand_range_estimate": { "min": 64000, "max": 86000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Spans entry PRT at Level 6 basic ₹35,400 (gross ~₹72,000, in-hand ~₹64,000) to PGT at Level 8 basic ₹47,600 in Class X metro (basic ₹47,600 + 58% DA ₹27,608 + 30% HRA ₹14,280 + TPTA ₹5,688 = gross ~₹95,176, in-hand ~₹86,000 after 10% NPS deduction).",
+    "official_perks": [
+      "Government-funded residential quarters inside KV campus premises or central HRA (30%/20%/10% by city tier)",
+      "Summer Vacation (approx. 50 days), Autumn Break (approx. 10 days), and Winter Break (approx. 10 days) with full salary entitlement",
+      "Central Government Health Scheme (CGHS) / KVS Medical Assistance Scheme across empanelled hospitals",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and free education in Kendriya Vidyalayas for children of KVS staff",
+      "National Pension System (NPS) with 14% defined monthly employer contribution by Government of India",
+      "Leave Travel Concession (LTC) and Transfer Grant entitlements across pan-India postings"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Direct recruitment statistics compiled from KVS recruitment notices (Advt. No. 15/2022 & 16/2022) and result notifications.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 13404,
+        "applicants": 2200000,
+        "shortlisted_for_mains": 41200,
+        "selectivity_ratio": "13,404 vacancies across teaching and non-teaching posts (PGT: 1,409; TGT: 3,176; PRT: 6,414) out of over 22 lakh applicants (~1 in 164 overall)",
+        "confidence": "reported",
+        "as_of": "2023-11-28",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Direct Recruitment 2022–23 Consolidated Result Notification & Press Release"
+      },
+      {
+        "year": 2018,
+        "vacancies": 8339,
+        "applicants": 1400000,
+        "shortlisted_for_mains": 25000,
+        "selectivity_ratio": "8,339 vacancies filled across all teaching cadres; selectivity ~1 in 168",
+        "confidence": "reported",
+        "as_of": "2019-03-15",
+        "source_url": "https://kvsangathan.nic.in/",
+        "source_label": "KVS Recruitment 2018 Final Selection Panel"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and employment notices maintained by Kendriya Vidyalaya Sangathan Head Office, New Delhi.",
+    "links": [
+      {
+        "label": "KVS Official Head Office Website",
+        "url": "https://kvsangathan.nic.in/",
+        "type": "notification",
+        "cycle_label": "KVS-Recruitment",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "KVS Teaching Schemes and Syllabus Repository",
+        "url": "https://kvsangathan.nic.in/",
+        "type": "syllabus",
+        "cycle_label": "KVS-Syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

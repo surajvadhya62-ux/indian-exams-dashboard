@@ -1,0 +1,82 @@
+{
+  "id": "cuet-pg",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Common University Entrance Test for Postgraduates (CUET-PG) is administered by the National Testing Agency (NTA) for admission into postgraduate programmes across 190+ central, state, deemed, and private universities in India. As per the revised examination structure introduced in 2024, each question paper comprises 75 domain-specific multiple-choice questions (the general Part A was removed to focus strictly on discipline expertise). The examination is conducted in Computer Based Test (CBT) mode across multiple shifts with a total duration of 105 minutes. Total marks are 300. Marking scheme: 4 marks for each correct response, negative marking of 1 mark for each incorrect response, and 0 marks for unattempted questions.",
+    "stages": [
+      {
+        "stage_name": "CUET (PG) Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-10",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA CUET (PG) Information Bulletin — Examination Structure & Scheme",
+        "papers": [
+          {
+            "paper_name": "Domain-Specific Question Paper (75 MCQs)",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct; 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Normalized NTA score used for merit list preparation and counseling by participating universities"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Registration and attendance figures published in official NTA press releases following the completion of CUET-PG exam cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 462603,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "4,62,603 unique candidates registered for 7,68,414 tests across 157 question paper subjects; 5.77 lakh test appearances recorded across 190 participating universities",
+        "confidence": "reported",
+        "as_of": "2024-04-12",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA CUET (PG) 2024 Examination Highlights Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 459083,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "4,59,083 unique candidates registered (8,76,908 subject choices) across 142 participating universities; over 3.8 lakh candidates appeared",
+        "confidence": "reported",
+        "as_of": "2023-07-20",
+        "source_url": "https://exams.nta.ac.in/",
+        "source_label": "NTA CUET (PG) 2023 Result Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information portals and syllabus archives maintained by the National Testing Agency.",
+    "links": [
+      {
+        "label": "NTA Examination Portal (CUET-PG)",
+        "url": "https://exams.nta.ac.in/",
+        "type": "notification",
+        "cycle_label": "CUET-PG-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CUET-PG Information Bulletin & Syllabus Repository",
+        "url": "https://exams.nta.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "CUET-PG-Bulletin",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "nibm-pgdm",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admission to the two-year residential Post Graduate Diploma in Management (Banking and Financial Services) at the National Institute of Bank Management (NIBM Pune) — an autonomous institute established in 1969 by the Reserve Bank of India in consultation with the Government of India — is conducted through a multi-stage national selection process. The programme is approved by AICTE, accredited by NBA, and recognized by the Association of Indian Universities (AIU) as equivalent to an MBA. Candidates must possess valid scores from standardized national entrance examinations: CAT, XAT, CMAT, GMAT, or GRE. Shortlisted applicants are invited for a Written Ability Test (WAT) and Personal Interview (PI) conducted by senior faculty and banking practitioners. Final admission is based on a composite merit score: Entrance Exam Score (35%), Personal Interview (25%), Written Ability Test (25%), Academic Performance (10%), and Work Experience / Diversity (5%).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: National Entrance Score Screening (CAT / XAT / CMAT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-10-01",
+        "source_url": "https://www.nibmindia.org/education/pgdm/admission/",
+        "source_label": "NIBM Pune PGDM (B&FS) Admissions Brochure & Eligibility Criteria",
+        "papers": [
+          {
+            "paper_name": "National Standardized Entrance Test (CAT / XAT / CMAT / GMAT / GRE)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "As per respective national testing agency rules",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 35% in final composite merit calculation"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Ability Test (WAT) & Personal Interview (PI)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-10-01",
+        "source_url": "https://www.nibmindia.org/education/pgdm/admission/",
+        "source_label": "NIBM Pune — Stage 2 Evaluation Guidelines & Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "Written Ability Test (WAT - Economic & Business Analysis Essay)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 25% in final composite merit calculation"
+          },
+          {
+            "paper_name": "Personal Interview (PI - Professional Banking Aptitude & General Awareness)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 25% in final composite merit calculation"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Batch profile and admissions statistics published in NIBM Pune annual admission reports and mandatory AICTE disclosures.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 7200,
+        "vacancies": 150,
+        "shortlisted_for_mains": 950,
+        "selectivity_ratio": "150 approved seats filled out of ~7,200 applicants (~1 in 48 selectivity); average CAT percentile of admitted batch ~82, CMAT percentile ~94",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://www.nibmindia.org/education/pgdm/admission/",
+        "source_label": "NIBM Pune PGDM (B&FS) Batch Profile & Placement Statistics 2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 6800,
+        "vacancies": 150,
+        "shortlisted_for_mains": 900,
+        "selectivity_ratio": "150 seats filled; 100% placement record with average CTC of ₹15.2 LPA across leading public/private banks and financial institutions",
+        "confidence": "reported",
+        "as_of": "2023-06-25",
+        "source_url": "https://www.nibmindia.org/education/pgdm/admission/",
+        "source_label": "NIBM Pune Annual Report & Placement Summary 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal and brochures published by the National Institute of Bank Management, Pune.",
+    "links": [
+      {
+        "label": "NIBM PGDM Admissions Portal",
+        "url": "https://www.nibmindia.org/education/pgdm/admission/",
+        "type": "notification",
+        "cycle_label": "NIBM-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "National Institute of Bank Management Official Portal",
+        "url": "https://www.nibmindia.org/",
+        "type": "syllabus",
+        "cycle_label": "NIBM-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

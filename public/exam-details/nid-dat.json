@@ -1,0 +1,108 @@
+{
+  "id": "nid-dat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admission to the 4-year Bachelor of Design (B.Des) programme across National Institute of Design campuses (NID Ahmedabad, NID Andhra Pradesh, NID Haryana, NID Madhya Pradesh, and NID Assam) is conducted via a two-tier Design Aptitude Test (DAT). Stage 1 is DAT Prelims, a 3-hour pen-and-paper examination consisting of Objective/MCQ questions (Part I) and subjective drawing/design aptitude questions (Part II) evaluated out of 100 marks. Stage 2 is DAT Mains, comprising hands-on studio tests and material handling for candidates shortlisted from Prelims (approx 3 times the vacancies per category). Final merit for B.Des is computed with 40% weightage to DAT Prelims and 60% weightage to DAT Mains.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: DAT Prelims (Design Aptitude Test - Written)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-09-08",
+        "source_url": "https://admissions.nid.edu/",
+        "source_label": "NID Admissions Handbook — Bachelor of Design Regulations",
+        "papers": [
+          {
+            "paper_name": "Part I: Objective Design Knowledge & Visual Aptitude (MCQs / Visual Puzzles)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Threshold for shortlisting to DAT Mains based on category-wise cutoffs"
+          },
+          {
+            "paper_name": "Part II: Subjective Design, Drawing & Creative Problem Solving",
+            "marks": 70,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated collectively with Part I out of 100 marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: DAT Mains (Studio Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-09-08",
+        "source_url": "https://admissions.nid.edu/",
+        "source_label": "NID Admissions Handbook — DAT Mains Studio Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Studio Test (3D Material Prototyping, Observation & Audio-Visual Perception)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Weighted 60% in final composite merit calculation"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Intake and appearance statistics published in NID admissions handbooks and convocation annual reports.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 31000,
+        "vacancies": 425,
+        "shortlisted_for_mains": 1350,
+        "selectivity_ratio": "425 total B.Des seats across 5 NID campuses (Ahmedabad 125, AP 75, Haryana 75, MP 75, Assam 75); ~1 in 73 overall selectivity",
+        "confidence": "reported",
+        "as_of": "2024-05-18",
+        "source_url": "https://admissions.nid.edu/",
+        "source_label": "NID Admissions 2024 Final Seat Allocation & Merit Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 29500,
+        "vacancies": 425,
+        "shortlisted_for_mains": 1300,
+        "selectivity_ratio": "425 seats across all 5 NID campuses; NID Ahmedabad flagship campus selectivity ~1 in 240",
+        "confidence": "reported",
+        "as_of": "2023-05-20",
+        "source_url": "https://admissions.nid.edu/",
+        "source_label": "NID Admissions 2023 Result Bulletin"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official admissions portal and prospectus published by the National Institute of Design Ahmedabad.",
+    "links": [
+      {
+        "label": "NID Admissions Official Portal",
+        "url": "https://admissions.nid.edu/",
+        "type": "notification",
+        "cycle_label": "NID-DAT-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NID B.Des & M.Des Admissions Handbook",
+        "url": "https://admissions.nid.edu/",
+        "type": "syllabus",
+        "cycle_label": "DAT-Handbook",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

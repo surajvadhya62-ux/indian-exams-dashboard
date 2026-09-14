@@ -1,0 +1,100 @@
+{
+  "id": "du-entrance",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admissions to undergraduate (UG) and postgraduate (PG) programmes at the University of Delhi are administered through the National Testing Agency (NTA). Previously conducted as the Delhi University Entrance Test (DUET), all admissions have been transitioned to the Common University Entrance Test (CUET-UG for undergraduate degrees across 68 DU colleges, and CUET-PG for postgraduate degrees across university departments). Candidates must register and participate in the Common Seat Allocation System (CSAS UG & CSAS PG) hosted by Delhi University, where seat allocations are determined strictly on normalized NTA CUET percentiles and scores across subject-specific combinations.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: NTA CUET (UG / PG) Computer Based Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-15",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "University of Delhi CSAS Information Bulletin — Eligibility & Admission Schemes",
+        "papers": [
+          {
+            "paper_name": "CUET Domain Subject Papers (UG / PG as applicable)",
+            "marks": 300,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark per incorrect response (+4 for correct in PG; +5/-1 in UG)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Thresholds determined dynamically via DU CSAS allocation rounds"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Common Seat Allocation System (CSAS) Counseling Rounds",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-15",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "University of Delhi CSAS Allocation Policy & Tie-Breaking Rules",
+        "papers": [
+          {
+            "paper_name": "Centralized Preference Filling & Seat Allocation Rounds",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Acceptance and document verification at allotted constituent college"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual admission figures and seat allocation reports published by the University of Delhi Admission Branch.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 310000,
+        "vacancies": 71000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~71,000 undergraduate seats across 68 constituent colleges out of over 3.1 lakh registered applicants on DU CSAS (~1 in 4.3 overall; <1 in 40 for premier North Campus colleges)",
+        "confidence": "reported",
+        "as_of": "2024-08-25",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "University of Delhi CSAS 2024 Final Allocation Report"
+      },
+      {
+        "year": 2023,
+        "applicants": 304000,
+        "vacancies": 70000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "70,000 seats allocated across three regular rounds; top cutoff percentiles (99+ percentile) recorded for B.Com (Hons), Economics (Hons), and English (Hons)",
+        "confidence": "reported",
+        "as_of": "2023-08-30",
+        "source_url": "https://admission.uod.ac.in/",
+        "source_label": "University of Delhi Admission Branch 2023 Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and admission bulletins published by the University of Delhi Admission Branch.",
+    "links": [
+      {
+        "label": "University of Delhi Official Website",
+        "url": "https://www.du.ac.in/",
+        "type": "notification",
+        "cycle_label": "DU-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "DU Central Admission Branch (CSAS Portal)",
+        "url": "https://admission.uod.ac.in/",
+        "type": "syllabus",
+        "cycle_label": "CSAS-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
