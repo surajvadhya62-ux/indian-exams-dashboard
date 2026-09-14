@@ -1,0 +1,86 @@
+{
+  "id": "nbe-fet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Fellowship Entrance Test (FET) is a national single-window eligibility-cum-ranking entrance examination conducted by NBEMS for admission to 2-year Post-Doctoral / Post-MD/MS/DNB Fellowship Programme of National Board (FNB) and Fellowship Programme for International Students (FPIS) across accredited medical institutions and hospitals in India. The examination is administered as a Computer Based Test (CBT) consisting of 100 multiple-choice questions carrying 400 marks with a duration of 1 hour 45 minutes (105 minutes). Marking scheme: 4 marks for each correct response, deduction of 1 mark for each incorrect response (25% negative marking). The questions evaluate candidates on the core feeder specialty syllabus and subspecialty competencies. Minimum qualifying standard: 50th percentile in the respective fellowship discipline.",
+    "stages": [
+      {
+        "stage_name": "Fellowship Entrance Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-19",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS Information Bulletin — Fellowship Entrance Test (FET) Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Fellowship Subspecialty & Feeder Specialty Paper (100 MCQs)",
+            "marks": 400,
+            "duration_minutes": 105,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response, 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "50th percentile score in the respective fellowship discipline merit list"
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Online Merit Counselling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-19",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS FNB Centralized Seat Allotment Guidelines",
+        "papers": [
+          {
+            "paper_name": "FNB Fellowship Seat Allocation across Accredited Hospitals",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Allocation based on fellowship discipline merit rank and hospital seat availability"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate statistics for the Fellowship Entrance Test published by NBEMS.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 520,
+        "applicants": 3650,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "520 FNB fellowship seats across subspecialties nationwide out of 3,650 post-graduate specialist test-takers (~1 in 7 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-04-12",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS FET 2023 Result Declaration & FNB Seat Matrix Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, subspecialty regulations, and result notifications maintained by NBEMS.",
+    "links": [
+      {
+        "label": "NBEMS Official FET Examination Portal",
+        "url": "https://natboard.edu.in",
+        "type": "notification",
+        "cycle_label": "FET-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "FET Information Bulletin & Discipline Matrix",
+        "url": "https://natboard.edu.in",
+        "type": "syllabus",
+        "cycle_label": "FET-Bulletin",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

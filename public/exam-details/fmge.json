@@ -1,0 +1,105 @@
+{
+  "id": "fmge",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Foreign Medical Graduate Examination (FMGE) is a statutory screening test conducted twice a year (June and December cycles) by the National Board of Examinations in Medical Sciences (NBEMS) under the Screening Test Regulations, 2002 of the National Medical Commission (NMC). An Indian citizen or OCI cardholder possessing a primary medical qualification awarded by any medical institution outside India must qualify FMGE to obtain provisional or permanent registration with the NMC or any State Medical Council. The test is delivered via Computer Based Test (CBT) and comprises 300 multiple-choice questions carrying 300 marks, divided into two equal parts: Part A (150 questions, 150 minutes) covering Pre- and Para-Clinical subjects, and Part B (150 questions, 150 minutes) covering Clinical subjects. There is NO negative marking. To qualify, a candidate must obtain a minimum of 150 marks out of 300 (50%).",
+    "stages": [
+      {
+        "stage_name": "FMGE Screening Test (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-04-29",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS Information Bulletin — Foreign Medical Graduate Examination (FMGE) June 2024 Session",
+        "papers": [
+          {
+            "paper_name": "Part A: Pre-Clinical and Para-Clinical Medical Subjects",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (+1 for correct, 0 for wrong/unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "150 questions, 150 minutes; evaluated jointly with Part B"
+          },
+          {
+            "paper_name": "Part B: Clinical Medical & Surgical Subjects",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (+1 for correct, 0 for wrong/unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "150 questions, 150 minutes; qualifying standard: aggregate score of at least 150 out of 300 (50%)"
+          }
+        ]
+      },
+      {
+        "stage_name": "In-Person Verification & Pass Certificate Distribution",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-04-29",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS FMGE Pass Certificate Distribution Guidelines",
+        "papers": [
+          {
+            "paper_name": "Biometric & Document Scrutiny for State Medical Council Registration",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Physical verification of primary medical degree (Apostille/Embassy verified) and passport"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate appearance and qualifying statistics for the Foreign Medical Graduate Examination published by NBEMS.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": null,
+        "applicants": 35819,
+        "shortlisted_for_mains": 7233,
+        "selectivity_ratio": "35,819 foreign medical graduates appeared in July 2024 session; 7,233 candidates qualified (~20.19% pass percentage)",
+        "confidence": "reported",
+        "as_of": "2024-07-16",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS FMGE July 2024 Result Declaration Press Release"
+      },
+      {
+        "year": 2023,
+        "vacancies": null,
+        "applicants": 38535,
+        "shortlisted_for_mains": 8461,
+        "selectivity_ratio": "38,535 candidates appeared in December 2023 session; 8,461 candidates qualified (~21.95% overall pass percentage)",
+        "confidence": "reported",
+        "as_of": "2024-01-31",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS FMGE December 2023 Result Declaration Press Release"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, screening test regulations, and notifications maintained by NBEMS.",
+    "links": [
+      {
+        "label": "NBEMS Official FMGE Examination Portal",
+        "url": "https://natboard.edu.in",
+        "type": "notification",
+        "cycle_label": "FMGE-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "FMGE Information Bulletin & Screening Regulations",
+        "url": "https://natboard.edu.in",
+        "type": "syllabus",
+        "cycle_label": "FMGE-Bulletin",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

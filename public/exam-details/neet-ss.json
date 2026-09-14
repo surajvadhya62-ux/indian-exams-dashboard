@@ -1,0 +1,86 @@
+{
+  "id": "neet-ss",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "NEET-SS (Super Speciality) is the single eligibility-cum-ranking entrance examination for admission to Doctorate of Medicine (DM), Master of Chirurgiae (MCh), and DrNB Super Specialty courses across medical institutions in India, conducted by NBEMS. The examination is administered as a group-based Computer Based Test (CBT). Each group paper consists of 150 multiple-choice questions carrying 600 marks with a duration of 2 hours 30 minutes (150 minutes). Marking scheme: 4 marks for each correct response, deduction of 1 mark for each incorrect response (25% negative marking). All questions in a paper are drawn from the feeder broad specialty curriculum. Minimum qualifying standard: 50th percentile in the respective super specialty group.",
+    "stages": [
+      {
+        "stage_name": "NEET-SS Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-07-27",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS Information Bulletin — NEET-SS Examination Scheme & Grouping",
+        "papers": [
+          {
+            "paper_name": "Super Specialty Feeder Group Paper (150 MCQs)",
+            "marks": 600,
+            "duration_minutes": 150,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response, 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "50th percentile score in the respective super specialty group merit list"
+          }
+        ]
+      },
+      {
+        "stage_name": "MCC All India Quota Super Specialty Online Counselling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-07-27",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "MCC / DGHS DM & MCh Admission Guidelines",
+        "papers": [
+          {
+            "paper_name": "Online Merit-based Seat Allocation",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Allocation based on NEET-SS All India Rank and super specialty seat matrix"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate appearance and seat allocation statistics published by NBEMS and MCC.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 4466,
+        "applicants": 15261,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "4,466 DM/MCh/DrNB super specialty seats across India out of 15,261 post-graduate MD/MS/DNB specialist test-takers (~1 in 3.4 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-10-15",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS NEET-SS 2023 Result Declaration & Cut-off Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, regulations, and result publications maintained by NBEMS.",
+    "links": [
+      {
+        "label": "NBEMS Official Examination Portal",
+        "url": "https://natboard.edu.in",
+        "type": "notification",
+        "cycle_label": "NEET-SS-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NEET-SS Information Bulletin & Blueprint",
+        "url": "https://natboard.edu.in",
+        "type": "syllabus",
+        "cycle_label": "NEET-SS",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "id": "esic-sso",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Social Security Officers (SSO) / Manager Grade-II in ESIC are Group B executive officers under the Ministry of Labour & Employment and follow the central promotional ladder to senior managerial positions.",
+    "steps": [
+      {
+        "designation": "Social Security Officer (SSO) / Manager Grade-II / Superintendent",
+        "pay_level": "Level 7",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC SSO Recruitment Notification (Advt. No. 01/2022-SSO) — Pay Level 7 (₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Assistant Director / Manager Grade-I",
+        "pay_level": "Level 10",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Executive Cadre Promotion Regulations — Assistant Director (Level 10, ₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Director",
+        "pay_level": "Level 11",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Recruitment Rules — Deputy Director (Level 11, ₹67,700 – ₹2,08,700)"
+      },
+      {
+        "designation": "Joint Director / Regional Director Grade-B",
+        "pay_level": "Level 12",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Executive Leadership Cadre — Joint Director (Level 12, ₹78,800 – ₹2,09,200)"
+      },
+      {
+        "designation": "Director / Regional Director Grade-A",
+        "pay_level": "Level 13",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Top Management Rules — Regional Director Grade-A (Level 13, ₹1,23,100 – ₹2,15,900)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "ESIC conducts selection for Social Security Officer (SSO) through a comprehensive three-phase examination: Phase-I Preliminary Exam (online objective test of 100 marks), Phase-II Main Exam (online objective test of 200 marks), and Phase-III Computer Skill Test (50 marks) along with Descriptive English Test (50 marks). Phase-I is qualifying in nature with candidates shortlisted for Phase-II in the ratio of 1:10. Marks obtained in Phase-II Main Examination are considered for final merit listing, subject to qualifying Phase-III.",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Preliminary Examination (Online CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Advt. No. 01/2022-SSO — Scheme of Phase-I Examination",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "30 questions, 20 minutes sectional timing; qualifying for Phase-II shortlisting"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "35 questions, 20 minutes sectional timing"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "35 questions, 20 minutes sectional timing; total 100 questions, 100 marks, 60 minutes"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II: Main Examination (Online CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Advt. No. 01/2022-SSO — Scheme of Phase-II Main Examination",
+        "papers": [
+          {
+            "paper_name": "Reasoning and Computer Aptitude",
+            "marks": 50,
+            "duration_minutes": 35,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 questions carrying 50 marks"
+          },
+          {
+            "paper_name": "General, Economy, Financial and Insurance Awareness",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 questions carrying 40 marks"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 40,
+            "duration_minutes": 30,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "30 questions carrying 40 marks"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 35,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 questions carrying 50 marks; total 150 questions, 200 marks, 120 minutes"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III: Computer Skill Test & Descriptive English Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2022-03-12",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Advt. No. 01/2022-SSO — Phase-III Skill & Descriptive Test",
+        "papers": [
+          {
+            "paper_name": "Computer Skill Test (CST)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "Preparation of 2 PPT slides (10 marks), typing in MS Word (20 marks), MS Excel formula table (20 marks); qualifying standard: 17 marks out of 50"
+          },
+          {
+            "paper_name": "Descriptive English Test (Letter Writing & Essay)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "2 questions (1 Letter, 1 Essay); qualifying in nature"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Social Security Officers in ESIC are appointed under Central 7th CPC Pay Matrix at Level 7 (entry basic ₹44,900; pay scale ₹44,900 – ₹1,42,400). Officers receive central Dearness Allowance, House Rent Allowance, Transport Allowance, along with ESIC statutory benefits and medical coverage.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-03-12",
+    "pay_source_url": "https://esic.gov.in/",
+    "pay_source_label": "ESIC SSO Advt 01/2022: Level 7 of Pay Matrix with entry pay of ₹44,900",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 80000,
+      "max": 92000
+    },
+    "in_hand_range_estimate": {
+      "min": 70000,
+      "max": 80000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 7 Entry Basic ₹44,900 + 58% DA (₹26,042) + HRA (₹13,470 for Class X metro, ₹8,980 for Class Y) + Transport Allowance (₹3,600 + DA = ₹5,688). Gross in Class X metro is ~₹90,100; in-hand is ~₹78,000–₹80,000 after 10% NPS deduction (₹7,094) and standard statutory taxes.",
+    "official_perks": [
+      "Comprehensive ESIC medical coverage for officer and eligible dependent family members",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Central Government Leave Travel Concession (LTC) and Children Education Allowance (₹2,250/month per child)",
+      "Mobile phone and briefing allowance as per ESIC executive administrative entitlements",
+      "Annual festival advance and staff concessional loan facilities"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics for ESIC Social Security Officer (Advt. No. 01/2022-SSO).",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 93,
+        "applicants": 152000,
+        "shortlisted_for_mains": 1112,
+        "selectivity_ratio": "93 vacancies nationwide out of 1.52 lakh applicants; 1,112 candidates shortlisted for Phase-II (~1 in 1,634 final selectivity)",
+        "confidence": "reported",
+        "as_of": "2022-07-15",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Phase-I Result Notification (Notice No. A-12/16/1/2022-Exam) for SSO"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications and examination schemes published by ESIC.",
+    "links": [
+      {
+        "label": "ESIC Official Recruitment Portal",
+        "url": "https://esic.gov.in/",
+        "type": "notification",
+        "cycle_label": "SSO-2022",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ESIC SSO Exam Pattern and Syllabus Notice",
+        "url": "https://esic.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "SSO-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

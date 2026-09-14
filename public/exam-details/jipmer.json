@@ -1,0 +1,113 @@
+{
+  "id": "jipmer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "Admissions to the 250 undergraduate MBBS seats at the Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) — comprising 200 seats at JIPMER Puducherry campus and 50 seats at JIPMER Karaikal campus — are governed by Section 14 of the National Medical Commission (NMC) Act, 2019. JIPMER no longer conducts an independent entrance exam; admission is determined exclusively through the National Eligibility cum Entrance Test (Undergraduate) [NEET-UG] conducted by the National Testing Agency (NTA), followed by centralized All India Quota (AIQ) online counselling administered by the Medical Counselling Committee (MCC), Directorate General of Health Services (DGHS). The NEET-UG examination comprises 200 multiple-choice questions across Physics, Chemistry, and Biology (Botany & Zoology) carrying 720 marks, with 4 marks for each correct answer and negative marking of 1 mark for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "National Eligibility cum Entrance Test (UG) [NEET-UG]",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-09",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Academic Prospectus & NTA NEET-UG Information Bulletin",
+        "papers": [
+          {
+            "paper_name": "Physics (Section A: 35 questions, Section B: 15 questions [attempt 10])",
+            "marks": 180,
+            "duration_minutes": 200,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "45 questions to be attempted out of 50; contributes to 720 aggregate"
+          },
+          {
+            "paper_name": "Chemistry (Section A: 35 questions, Section B: 15 questions [attempt 10])",
+            "marks": 180,
+            "duration_minutes": 200,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "45 questions to be attempted out of 50; contributes to 720 aggregate"
+          },
+          {
+            "paper_name": "Biology: Botany & Zoology (Section A: 70 questions, Section B: 30 questions [attempt 20])",
+            "marks": 360,
+            "duration_minutes": 200,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "90 questions to be attempted out of 100; total paper duration 200 minutes (3 hours 20 mins)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Online Counselling (MCC / DGHS)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-09",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "Medical Counselling Committee (MCC) All India Quota Institutional Seat Allocation",
+        "papers": [
+          {
+            "paper_name": "Merit Seat Allocation across Puducherry & Karaikal Campuses",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Allocation based strictly on NEET-UG All India Rank (AIR) and candidate option choice"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Admission metrics for MBBS seats at JIPMER Puducherry and Karaikal campuses allocated through NEET-UG All India Quota counselling.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 250,
+        "applicants": 2333297,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "250 total MBBS seats (200 Puducherry, 50 Karaikal) out of 23,33,297 NEET-UG candidates (~1 in 9,333 selectivity); Puducherry Open category closing rank closed at AIR 277",
+        "confidence": "reported",
+        "as_of": "2024-06-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "MCC NEET-UG Round 1 & Round 2 Allotment Result and JIPMER Seat Matrix"
+      },
+      {
+        "year": 2023,
+        "vacancies": 250,
+        "applicants": 2038596,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "250 MBBS seats across both campuses out of 20,38,596 test-takers; closing rank for JIPMER Puducherry Open category was AIR 247 (~1 in 8,253 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-08-15",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "MCC AIQ Final Seat Allotment Statistics 2023"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official academic prospectus and counselling portals for JIPMER MBBS admissions.",
+    "links": [
+      {
+        "label": "JIPMER Academic Portal",
+        "url": "https://jipmer.edu.in",
+        "type": "notification",
+        "cycle_label": "JIPMER-MBBS",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Medical Counselling Committee (MCC) Portal",
+        "url": "https://jipmer.edu.in",
+        "type": "other",
+        "cycle_label": "MCC-AIQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

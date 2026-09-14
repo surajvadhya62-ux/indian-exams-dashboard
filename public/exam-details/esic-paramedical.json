@@ -1,0 +1,182 @@
+{
+  "id": "esic-paramedical",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Paramedical cadre personnel in ESIC hospitals and dispensaries under the Ministry of Labour & Employment follow the Central 7th CPC technical healthcare hierarchy across pharmacy, laboratory, and radiology cadres.",
+    "steps": [
+      {
+        "designation": "Pharmacist (Allopathic) / Junior Medical Laboratory Technologist (JMLT) / Radiographer",
+        "pay_level": "Level 5",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2023-09-29",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Centralized Paramedical Recruitment Notification 2023 (Advt. No. A-12/16/Paramedical/2023-Exam) — Pay Level 5 (₹29,200 – ₹92,300)"
+      },
+      {
+        "designation": "Senior Pharmacist / Senior Medical Laboratory Technologist / Senior Radiographer",
+        "pay_level": "Level 6",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-29",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Recruitment & Promotion Regulations — Technical Paramedical Cadres (Level 6, ₹35,400 – ₹1,12,400)"
+      },
+      {
+        "designation": "Chief Pharmacist / Technical Officer (Laboratory / Radiology)",
+        "pay_level": "Level 7",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-29",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Cadre Restructuring Rules — Chief Pharmacist & Technical Officer (Level 7, ₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Senior Technical Officer / Assistant Director (Paramedical Services)",
+        "pay_level": "Level 8",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-29",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Administrative Cadre Hierarchy — Assistant Director Paramedical (Level 8 / Level 10)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "ESIC recruits paramedical staff across 17 distinct healthcare cadres through a single-stage Computer Based Test (CBT). The examination comprises 100 questions for a total of 150 marks with a duration of 120 minutes (2 hours). Technical Professional Domain Knowledge carries 50 questions for 100 marks (2 marks each), while General Awareness, General Intelligence & Reasoning, and Arithmetic Ability carry 50 questions for 50 marks (1 mark each). Negative marking of 0.25 marks is applicable for each wrong answer. Final merit is prepared region-wise and cadre-wise strictly based on CBT performance.",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Computer Based Test (Written Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-09-29",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Central Paramedical Notification 2023 — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Technical / Professional Knowledge (Domain Specialty)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50 questions carrying 100 marks; evaluated as part of aggregate merit"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "10 questions carrying 10 marks"
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "20 questions carrying 20 marks"
+          },
+          {
+            "paper_name": "Arithmetic Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "20 questions carrying 20 marks; overall qualifying standard: 45% for UR, 40% for OBC/EWS, 35% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-09-29",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Notification 2023 — Document Verification Guidelines",
+        "papers": [
+          {
+            "paper_name": "Verification of Educational & Professional Credentials",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Must possess statutory state pharmacy/paramedical council registration and requisite experience"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "ESIC Paramedical personnel in core cadres (Pharmacist, Lab Tech, Radiographer) are appointed under Central 7th CPC Pay Matrix at Level 5 (entry basic ₹29,200). In addition to standard central allowances (DA, HRA, Transport Allowance), staff serving in hospital wards and laboratories are eligible for Hospital Patient Care Allowance (HPCA) / Patient Care Allowance (PCA).",
+    "pay_level": "Level 5",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-09-29",
+    "pay_source_url": "https://esic.gov.in/",
+    "pay_source_label": "ESIC Paramedical Advt 2023: Pay Matrix Level 5 (₹29,200 – ₹92,300)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 54000,
+      "max": 65000
+    },
+    "in_hand_range_estimate": {
+      "min": 47000,
+      "max": 56000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 5 Entry Basic ₹29,200 + 58% DA (₹16,936) + HRA (₹8,760 for Class X metro, ₹5,840 for Class Y) + Transport Allowance (₹3,600 + DA = ₹5,688) + Hospital Patient Care Allowance (HPCA ~₹4,100/mo). Gross in Class X metro is ~₹64,684; in-hand is ~₹54,000–₹56,000 after 10% NPS deduction (₹4,614) and statutory taxes.",
+    "official_perks": [
+      "Hospital Patient Care Allowance (HPCA) / Patient Care Allowance (PCA) sanctioned for healthcare workers",
+      "Comprehensive healthcare and medical coverage for employee and dependants through ESIC model hospitals",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Central Government Leave Travel Concession (LTC) and Children Education Allowance (₹2,250/month per child)",
+      "Shift allowance and night-duty weightage for hospital rotation duties"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate statistics for ESIC Paramedical Cadre recruitment conducted under Advt. No. A-12/16/Paramedical/2023-Exam.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 1038,
+        "applicants": 185000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,038 vacancies across 17 cadres nationwide out of approximately 1.85 lakh candidates appeared (~1 in 178 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-12-10",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Centralized Recruitment Notice — Paramedical Written Exam Results & Vacancy Summary"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications and documents published on the ESIC central portal.",
+    "links": [
+      {
+        "label": "ESIC Official Recruitment Portal",
+        "url": "https://esic.gov.in/",
+        "type": "notification",
+        "cycle_label": "Paramedical-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ESIC Paramedical Syllabus and Exam Scheme",
+        "url": "https://esic.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "Paramedical-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -7,9 +7,9 @@
     "partial": 0,
     "not_started": 72,
     "exams_total": 504,
-    "detail_files_exist": 450,
+    "detail_files_exist": 432,
     "total_exams": 504,
-    "detail_files_present": 450,
+    "detail_files_present": 432,
     "last_updated": "2026-09-14"
   },
   "sessions": [
@@ -1337,6 +1337,31 @@
         "afmc-mbbs"
       ],
       "notes": "Unit u128 completed: 11 defence, paramilitary, and strategic direct entry examinations researched and verified from primary official sources (DRDO, RAC, Indian Navy, Indian Air Force, Indian Coast Guard, MES, AFMC, and NIA)."
+    },
+    {
+      "session_id": "2026-09-14-u131",
+      "date": "2026-09-14",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-6d-medical-health"
+      ],
+      "exam_ids_touched": [
+        "esic-nursing-officer",
+        "esic-paramedical",
+        "neet-pg",
+        "jipmer",
+        "esic-sso",
+        "pgimer-nursing-officer",
+        "jipmer-nursing-officer",
+        "dghs-safdarjung-nurse",
+        "cghs-pharmacist",
+        "neet-ss",
+        "fmge",
+        "neet-mds",
+        "dnb-pdcet",
+        "nbe-fet"
+      ],
+      "notes": "Unit u131 completed: 14 medical and healthcare services bodies examinations (ESIC Nursing Officer, ESIC Paramedical, NEET-PG, JIPMER MBBS, ESIC SSO, PGIMER Nursing Officer, JIPMER Nursing Officer, DGHS Central Hospitals Nurse, CGHS Pharmacist, NEET-SS, FMGE, NEET-MDS, DNB-PDCET, NBE-FET) researched and verified against official notifications, brochures, and 7th CPC central pay rules."
     }
   ],
   "exams": {

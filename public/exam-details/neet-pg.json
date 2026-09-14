@@ -1,0 +1,97 @@
+{
+  "id": "neet-pg",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "NEET-PG is the single national eligibility-cum-ranking entrance examination for admission to MD/MS/PG Diploma and Post-MBBS DNB/DrNB courses across medical colleges in India, conducted by the National Board of Examinations in Medical Sciences (NBEMS). The examination is administered as a Computer Based Test (CBT) comprising 200 multiple-choice questions of 800 marks with a duration of 3 hours 30 minutes (210 minutes). The test paper is structured into time-bound sections (Sections A, B, C, D, E). Marking scheme: 4 marks for each correct response, deduction of 1 mark for each incorrect response (25% negative marking). Qualifying criteria: 50th percentile for General/EWS, 40th percentile for SC/ST/OBC, and 45th percentile for UR-PwD.",
+    "stages": [
+      {
+        "stage_name": "NEET-PG Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-04-16",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS Information Bulletin — NEET-PG 2024 Examination Scheme & Blueprint",
+        "papers": [
+          {
+            "paper_name": "NEET-PG Comprehensive Clinical & Pre-Clinical Paper (200 MCQs)",
+            "marks": 800,
+            "duration_minutes": 210,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response, 0 for unattempted)",
+            "qualifying_only": false,
+            "qualifying_threshold": "50th percentile for General/EWS; 40th percentile for SC/ST/OBC"
+          }
+        ]
+      },
+      {
+        "stage_name": "All India Quota (AIQ) & State Medical Counselling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-04-16",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "Medical Counselling Committee (MCC) / DGHS PG Admission Guidelines",
+        "papers": [
+          {
+            "paper_name": "Online Merit-based Seat Allocation (MCC DGHS & State Counselling Authorities)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Allocation based on NEET-PG All India Rank (AIR) and candidate specialty preference"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate appearance and seat allocation statistics published by the National Board of Examinations in Medical Sciences (NBEMS).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 52000,
+        "applicants": 216136,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~52,000 post-graduate medical seats (MD/MS/Diploma/DNB) across India out of 2,16,136 candidates appeared (~1 in 4.1 overall ratio; clinical specialties at top medical institutes require AIR < 5,000)",
+        "confidence": "reported",
+        "as_of": "2024-08-23",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS NEET-PG 2024 Result Declaration Press Note & Statistics"
+      },
+      {
+        "year": 2023,
+        "vacancies": 48000,
+        "applicants": 208898,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~48,000 PG seats nationwide out of 2,08,898 test-takers (~1 in 4.3 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-14",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS NEET-PG 2023 Result Declaration Press Release"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, regulations, and result publications maintained by NBEMS.",
+    "links": [
+      {
+        "label": "NBEMS Official Examination Portal",
+        "url": "https://natboard.edu.in",
+        "type": "notification",
+        "cycle_label": "NEET-PG-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NEET-PG Information Bulletin & Blueprint",
+        "url": "https://natboard.edu.in",
+        "type": "syllabus",
+        "cycle_label": "NEET-PG",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

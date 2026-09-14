@@ -1,0 +1,105 @@
+{
+  "id": "neet-mds",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "NEET-MDS is the single national eligibility-cum-ranking entrance examination for admission to Master of Dental Surgery (MDS) and PG Diploma dental courses across government, deemed, and private dental colleges in India, conducted by NBEMS under the Dentists Act, 1948 and DCI regulations. The examination is administered as a single Computer Based Test (CBT) consisting of 240 multiple-choice questions carrying 960 marks with a duration of 3 hours (180 minutes). The syllabus is divided into Part A (100 questions) covering general medical sciences and Part B (140 questions) covering core dental surgery disciplines. Marking scheme: 4 marks for each correct response, deduction of 1 mark for each incorrect response (25% negative marking). Qualifying criteria: 50th percentile for General/EWS, 40th percentile for SC/ST/OBC, and 45th percentile for UR-PwD.",
+    "stages": [
+      {
+        "stage_name": "NEET-MDS Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-30",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS Information Bulletin — NEET-MDS 2024 Examination Scheme & Subject Blueprint",
+        "papers": [
+          {
+            "paper_name": "Part A: General Medical Sciences & Basic Foundations (100 MCQs)",
+            "marks": 400,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 questions carrying 400 marks"
+          },
+          {
+            "paper_name": "Part B: Core Dental Specialties & Clinical Sciences (140 MCQs)",
+            "marks": 560,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for each incorrect response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "140 questions carrying 560 marks; total 240 MCQs, 960 marks, 180 minutes duration"
+          }
+        ]
+      },
+      {
+        "stage_name": "MCC All India Quota & State Dental Counselling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-30",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "MCC MDS Online Counselling Information Bulletin",
+        "papers": [
+          {
+            "paper_name": "Online Merit-based MDS Seat Allocation",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Seat allocation based on NEET-MDS All India Rank and specialty seat availability"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate appearance and seat allocation statistics for NEET-MDS published by NBEMS and MCC.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 6500,
+        "applicants": 28088,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~6,500 MDS seats across dental colleges in India out of 28,088 candidates appeared (~1 in 4.3 overall ratio; government college seats in top specialties require AIR < 1,000)",
+        "confidence": "reported",
+        "as_of": "2024-04-03",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS NEET-MDS 2024 Result Declaration Press Release"
+      },
+      {
+        "year": 2023,
+        "vacancies": 6200,
+        "applicants": 26500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "~6,200 MDS seats nationwide out of 26,500 candidates appeared (~1 in 4.3 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-03-10",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS NEET-MDS 2023 Result Declaration Press Release"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information bulletin, regulations, and result notifications maintained by NBEMS.",
+    "links": [
+      {
+        "label": "NBEMS Official NEET-MDS Examination Portal",
+        "url": "https://natboard.edu.in",
+        "type": "notification",
+        "cycle_label": "NEET-MDS-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NEET-MDS Information Bulletin & Subject Weightage",
+        "url": "https://natboard.edu.in",
+        "type": "syllabus",
+        "cycle_label": "NEET-MDS",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

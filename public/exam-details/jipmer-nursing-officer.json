@@ -1,0 +1,176 @@
+{
+  "id": "jipmer-nursing-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Nursing personnel at Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER), Puducherry, an INI under MoHFW, follow the Central 7th CPC nursing promotion structure.",
+    "steps": [
+      {
+        "designation": "Nursing Officer",
+        "pay_level": "Level 7",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Puducherry Advt. No. Admn-I/DR/1(2)/2022 — Nursing Officer (Level 7, ₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Senior Nursing Officer",
+        "pay_level": "Level 8",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Recruitment & Promotion Regulations — Senior Nursing Officer (Level 8, ₹47,600 – ₹1,51,100)"
+      },
+      {
+        "designation": "Assistant Nursing Superintendent (ANS)",
+        "pay_level": "Level 10",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Hospital Administration Hierarchy — Assistant Nursing Superintendent (Level 10 Gazetted, ₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Nursing Superintendent (DNS)",
+        "pay_level": "Level 11",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Nursing Cadre Structure — Deputy Nursing Superintendent (Level 11, ₹67,700 – ₹2,08,700)"
+      },
+      {
+        "designation": "Nursing Superintendent / Chief Nursing Officer",
+        "pay_level": "Level 12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "Apex Institute Administration — Chief Nursing Officer (Level 12, ₹78,800 – ₹2,09,200)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "JIPMER Puducherry conducts selection for Nursing Officer and allied technical cadres through a two-stage process comprising an online Computer Based Test (CBT) followed by a Skill Test. The CBT carries 100 multiple-choice questions of 400 marks with a duration of 90 minutes. Marking scheme: 4 marks for each correct response and negative marking of 1 mark for each incorrect response. Subject-specific Nursing syllabus comprises 70 questions (280 marks), and General Knowledge, General Intelligence, General English, and General Mathematics comprise 30 questions (120 marks). Minimum qualifying mark in CBT: 50% for UR/EWS, 40% for SC/ST/OBC. Candidates shortlisted in 1:3 ratio appear for the qualifying Skill Test.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Advt. No. Admn-I/DR/1(2)/2022 — Scheme of CBT Examination",
+        "papers": [
+          {
+            "paper_name": "Related Subject (Nursing Core Domain)",
+            "marks": 280,
+            "duration_minutes": 90,
+            "negative_marking": "-1 mark for each wrong response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "70 questions carrying 280 marks"
+          },
+          {
+            "paper_name": "General Knowledge, Intelligence, English & Mathematics",
+            "marks": 120,
+            "duration_minutes": 90,
+            "negative_marking": "-1 mark for each wrong response (+4 for correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "30 questions carrying 120 marks; overall 100 questions, 400 marks, 90 minutes"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Assessment Test (Qualifying)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-11-04",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Advt. No. Admn-I/DR/1(2)/2022 — Skill Test Assessment Criteria",
+        "papers": [
+          {
+            "paper_name": "Clinical Nursing Procedures & Practical Demonstration",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard: minimum 50% marks in practical skill assessment; marks not added to final merit"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Nursing Officers at JIPMER Puducherry are compensated under Central 7th CPC Pay Matrix at Level 7 (entry basic ₹44,900) along with Nursing Allowance (₹7,200/month) and Uniform Allowance (₹1,800/month).",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-11-04",
+    "pay_source_url": "https://jipmer.edu.in",
+    "pay_source_label": "JIPMER Advt. No. Admn-I/DR/1(2)/2022: Level 7 of Pay Matrix with entry pay of ₹44,900",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 86000,
+      "max": 96000
+    },
+    "in_hand_range_estimate": {
+      "min": 75000,
+      "max": 85000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 7 Entry Basic ₹44,900 + 58% DA (₹26,042) + HRA (₹8,980 for Puducherry Class Y city) + Transport Allowance (₹1,800/₹3,600 + DA = ~₹2,844) + Nursing Allowance (₹7,200/mo) + Uniform Allowance (₹1,800/mo). Gross in Class Y is ~₹91,766; net in-hand is ~₹78,000–₹80,000 after 10% NPS deduction (₹7,094) and statutory taxes.",
+    "official_perks": [
+      "Nursing Allowance of ₹7,200 per month as sanctioned by Ministry of Health & Family Welfare",
+      "Uniform Allowance of ₹1,800 per month (₹21,600 per annum)",
+      "JIPMER campus residential quarters or central HRA",
+      "Comprehensive medical facilities at JIPMER hospital for self and dependants",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Central Government Leave Travel Concession (LTC) and Children Education Allowance"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks for JIPMER Puducherry Nursing Officer examinations.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 433,
+        "applicants": 62400,
+        "shortlisted_for_mains": 1350,
+        "selectivity_ratio": "433 vacancies (UR 175, EWS 43, OBC 116, SC 66, ST 33) out of 62,400 applicants (~1 in 144 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-01-10",
+        "source_url": "https://jipmer.edu.in",
+        "source_label": "JIPMER Examination Section — Results of CBT and Shortlist for Skill Test (Notice No. Admn-I/DR/1(2)/2022)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and notices maintained by JIPMER Puducherry.",
+    "links": [
+      {
+        "label": "JIPMER Official Recruitment Portal",
+        "url": "https://jipmer.edu.in",
+        "type": "notification",
+        "cycle_label": "JIPMER-NO-2022",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "JIPMER Nursing Officer Exam Pattern & Instructions",
+        "url": "https://jipmer.edu.in",
+        "type": "syllabus",
+        "cycle_label": "NO-Scheme",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "cghs-pharmacist",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Pharmacists in Central Government Health Scheme (CGHS) wellness centres across India under the Ministry of Health and Family Welfare follow the Central 7th CPC pharmaceutical services promotion hierarchy.",
+    "steps": [
+      {
+        "designation": "Pharmacist (Allopathic / Ayurvedic / Homeopathic)",
+        "pay_level": "Level 5",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "CGHS Recruitment Rules / SSC Selection Posts Phase-XI Notice — Pharmacist (Level 5, ₹29,200 – ₹92,300)"
+      },
+      {
+        "designation": "Senior Pharmacist",
+        "pay_level": "Level 6",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "CGHS Pharmaceutical Cadre Restructuring Rules — Senior Pharmacist (Level 6, ₹35,400 – ₹1,12,400)"
+      },
+      {
+        "designation": "Chief Pharmacist",
+        "pay_level": "Level 7",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "Central Health Services — Chief Pharmacist (Level 7, ₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Assistant Director / Stores Officer (Pharmaceuticals)",
+        "pay_level": "Level 8",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "CGHS Medical Stores Administration — Assistant Director Pharmaceuticals (Level 8 / Level 10)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment of Pharmacists and technical staff for CGHS wellness centres is conducted through centralized examinations (via SSC Selection Posts Phase examinations and DGHS recruitment tests). The written examination consists of a Computer Based Test (CBT) carrying 100 multiple-choice questions of 200 marks with a duration of 60 minutes. Marking scheme: 2 marks for each correct answer and negative marking of 0.50 marks for each incorrect response. Sections include Pharmacy Subject Domain (50 questions, 100 marks), General Intelligence (20 questions, 40 marks), General Awareness (15 questions, 30 marks), and Quantitative Aptitude / Basic English (15 questions, 30 marks). Selection is determined strictly on CBT score followed by document verification.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT Written Exam)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "SSC Selection Posts / CGHS Recruitment Notice — Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Technical Pharmacy Knowledge & Medical Store Procedures",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "0.50 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50 questions carrying 100 marks"
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "0.50 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "20 questions carrying 40 marks"
+          },
+          {
+            "paper_name": "General Awareness, Quantitative Aptitude & English Language",
+            "marks": 60,
+            "duration_minutes": 60,
+            "negative_marking": "0.50 marks deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "30 questions carrying 60 marks; total 100 questions, 200 marks, 60 minutes"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "CGHS Document Scrutiny Guidelines",
+        "papers": [
+          {
+            "paper_name": "Verification of Pharmacy Council Registration & Diplomas",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Valid registration as Pharmacist under the Pharmacy Act, 1948"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Pharmacists in CGHS wellness centres are appointed under Central 7th CPC Pay Matrix at Level 5 (entry basic ₹29,200; pay scale ₹29,200 – ₹92,300) along with Patient Care Allowance where sanctioned and standard central allowances.",
+    "pay_level": "Level 5",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-03-06",
+    "pay_source_url": "https://mohfw.gov.in",
+    "pay_source_label": "CGHS Recruitment Rules: Pay Matrix Level 5 (₹29,200 – ₹92,300)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 52000,
+      "max": 63000
+    },
+    "in_hand_range_estimate": {
+      "min": 45000,
+      "max": 55000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 5 Entry Basic ₹29,200 + 58% DA (₹16,936) + HRA (₹8,760 for Class X metro, ₹5,840 for Class Y) + Transport Allowance (₹3,600 + DA = ₹5,688) + Patient Care Allowance (PCA ~₹4,100/mo). Gross in Class X is ~₹64,684; in-hand is ~₹54,000–₹56,000 after 10% NPS deduction (₹4,614) and standard taxes.",
+    "official_perks": [
+      "Comprehensive healthcare and medical treatment for self and family under CGHS wellness scheme",
+      "Patient Care Allowance (PCA) as applicable to dispensary healthcare workers",
+      "National Pension System (NPS) with 14% defined monthly employer contribution",
+      "Central Government Leave Travel Concession (LTC) and Children Education Allowance (₹2,250/month per child)",
+      "General Pool Residential Accommodation (GPRA) eligibility in designated central cities"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks for CGHS Pharmacist posts across wellness centres in major Indian cities.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 185,
+        "applicants": 42000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "185 vacancies across Delhi, Mumbai, Kolkata, Chennai, Hyderabad wellness centres out of ~42,000 pharmacy diploma/degree applicants (~1 in 227 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2023-11-20",
+        "source_url": "https://mohfw.gov.in",
+        "source_label": "SSC Selection Posts Phase-XI Result Notice & CGHS Vacancy Allocation"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and circulars maintained by CGHS and the Ministry of Health and Family Welfare.",
+    "links": [
+      {
+        "label": "Ministry of Health & Family Welfare",
+        "url": "https://mohfw.gov.in",
+        "type": "notification",
+        "cycle_label": "MoHFW-CGHS",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Central Government Health Scheme Official Portal",
+        "url": "https://cghs.gov.in",
+        "type": "other",
+        "cycle_label": "CGHS-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

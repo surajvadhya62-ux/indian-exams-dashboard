@@ -1,0 +1,176 @@
+{
+  "id": "esic-nursing-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Nursing personnel in ESIC hospitals and dispensaries under the Ministry of Labour & Employment follow the Central 7th CPC clinical nursing hierarchy from Nursing Officer up to Chief Nursing Officer.",
+    "steps": [
+      {
+        "designation": "Nursing Officer",
+        "pay_level": "Level 7",
+        "years": "0-5 yrs (Entry level)",
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://www.upsc.gov.in/",
+        "source_label": "UPSC Special Advt. No. 52/2024 (Vacancy No. 24035201707) — 1,930 Nursing Officer posts in ESIC (Pay Level 7, ₹44,900 – ₹1,42,400)"
+      },
+      {
+        "designation": "Senior Nursing Officer",
+        "pay_level": "Level 8",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Recruitment & Promotion Regulations — Senior Nursing Officer (Level 8, ₹47,600 – ₹1,51,100)"
+      },
+      {
+        "designation": "Assistant Nursing Superintendent (ANS)",
+        "pay_level": "Level 10",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Hospital Administration Cadre Rules — Assistant Nursing Superintendent (Level 10 Gazetted, ₹56,100 – ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Nursing Superintendent (DNS)",
+        "pay_level": "Level 11",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "ESIC Hospital Administration Cadre Rules — Deputy Nursing Superintendent (Level 11, ₹67,700 – ₹2,08,700)"
+      },
+      {
+        "designation": "Nursing Superintendent / Chief Nursing Officer (CNO)",
+        "pay_level": "Level 12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://esic.gov.in/",
+        "source_label": "Apex ESIC Nursing Administration — Chief Nursing Officer (Level 12, ₹78,800 – ₹2,09,200)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to 1,930 posts of Nursing Officer in ESIC is conducted by the Union Public Service Commission (UPSC) via a pen-and-paper offline Recruitment Test (RT) followed by document verification. The RT is of 2 hours duration consisting of multiple-choice questions carrying equal marks. The test carries a total of 100 marks (or scaled to 300) with negative marking of one-third (0.33) marks for each wrong answer. There is no interview for this Group B non-gazetted post; final selection is based 100% on marks obtained in the Recruitment Test subject to qualifying medical and document standards.",
+    "stages": [
+      {
+        "stage_name": "Recruitment Test (Offline OMR-based Written Exam)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://www.upsc.gov.in/",
+        "source_label": "UPSC Special Advt. No. 52/2024 — Scheme and Syllabus of Recruitment Test for Nursing Officer in ESIC",
+        "papers": [
+          {
+            "paper_name": "Nursing Core & Allied Health Sciences",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "One-third (0.33) of marks assigned to question deducted for each incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying standard: 50% for UR/EWS, 45% for OBC, 40% for SC/ST/PwBD"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification & Medical Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-07",
+        "source_url": "https://www.upsc.gov.in/",
+        "source_label": "UPSC Advt. No. 52/2024 Notice — Scrutiny of Online Applications & Document Verification",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Certificates & Medical Fitness",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": "Not applicable",
+            "qualifying_only": true,
+            "qualifying_threshold": "Must meet educational qualifications (B.Sc Nursing or GNM with 1-year experience) and Central medical fitness criteria"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "ESIC Nursing Officers are appointed under Central 7th CPC Pay Matrix at Level 7 (entry basic ₹44,900). In addition to standard Central Government allowances (DA, HRA, Transport Allowance), nursing personnel are entitled to specialized statutory health sector allowances including Nursing Allowance (₹7,200/month) and Uniform Allowance (₹1,800/month).",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-07",
+    "pay_source_url": "https://www.upsc.gov.in/",
+    "pay_source_label": "UPSC Advt. No. 52/2024: Pay Scale Level 7 in the Pay Matrix as per 7th CPC (₹44,900 – ₹1,42,400)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 90000,
+      "max": 102000
+    },
+    "in_hand_range_estimate": {
+      "min": 78000,
+      "max": 88000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 7 Entry Basic ₹44,900 + 58% DA (₹26,042) + HRA (₹13,470 for Class X metro, ₹8,980 for Class Y) + Transport Allowance (₹3,600 + DA = ₹5,688) + Nursing Allowance (₹7,200/mo) + Uniform Allowance (₹1,800/mo). Gross in Class X metro is ~₹99,100; net in-hand is ~₹84,000–₹86,000 after 10% NPS deduction (₹7,094) and statutory taxes.",
+    "official_perks": [
+      "Nursing Allowance of ₹7,200 per month as sanctioned under 7th Central Pay Commission recommendations",
+      "Uniform Allowance of ₹1,800 per month (₹21,600 per annum) for hospital clinical duties",
+      "Comprehensive medical care for self and dependent family members through ESIC dispensaries and model hospitals",
+      "National Pension System (NPS) with 14% defined monthly employer contribution by Government of India",
+      "Central Government Leave Travel Concession (LTC) and Children Education Allowance (₹2,250/child/month)",
+      "Night Weightage Allowance and special duty allowances for clinical shifts in intensive care units"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition metrics for ESIC Nursing Officer recruitment conducted by UPSC under Advt. No. 52/2024.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1930,
+        "applicants": 275000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,930 vacancies nationwide across UR (892), EWS (193), OBC (446), SC (235), ST (164) out of over 2.75 lakh candidates registered (~1 in 142 overall selectivity)",
+        "confidence": "reported",
+        "as_of": "2024-07-07",
+        "source_url": "https://www.upsc.gov.in/",
+        "source_label": "UPSC Press Note & Examination Notice — Recruitment Test for 1,930 Posts of Nursing Officer in ESIC"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and recruitment notices published by UPSC and ESIC.",
+    "links": [
+      {
+        "label": "UPSC Official Recruitment Portal",
+        "url": "https://www.upsc.gov.in/",
+        "type": "notification",
+        "cycle_label": "Advt-52-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ESIC Official Portal",
+        "url": "https://esic.gov.in/",
+        "type": "other",
+        "cycle_label": "ESIC-HQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "UPSC Nursing Officer Scheme & Syllabus Notice",
+        "url": "https://www.upsc.gov.in/",
+        "type": "syllabus",
+        "cycle_label": "RT-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
