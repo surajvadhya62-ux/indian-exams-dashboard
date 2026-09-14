@@ -1,0 +1,230 @@
+{
+  "id": "cs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Company Secretary (CS) qualification is governed by the Institute of Company Secretaries of India (ICSI) under the Company Secretaries Act, 1980. Under the ICSI New Syllabus 2022, the professional qualifying journey comprises three stages: CSEET (Company Secretary Executive Entrance Test), CS Executive Programme (2 Groups, 7 Papers), and CS Professional Programme (2 Groups, 7 Papers), alongside mandatory 21 months of practical corporate training and Corporate Leadership Development Programme (CLDP). Passing criteria: minimum 40% in each individual paper and 50% in aggregate of each group.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Company Secretary Executive Entrance Test (CSEET)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.icsi.edu",
+        "source_label": "ICSI — Scheme of CSEET Remote Proctored Computer Based Examination",
+        "papers": [
+          {
+            "paper_name": "Part 1: Business Communication",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (35 Objective Multiple Choice Questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks (20/50) in Part 1 and 50% aggregate (100/200) across all 4 parts"
+          },
+          {
+            "paper_name": "Part 2: Legal Aptitude and Logical Reasoning",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (35 Objective Multiple Choice Questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks (20/50) in Part 2 and 50% aggregate (100/200) across all 4 parts"
+          },
+          {
+            "paper_name": "Part 3: Economic and Business Environment",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (35 Objective Multiple Choice Questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks (20/50) in Part 3 and 50% aggregate (100/200) across all 4 parts"
+          },
+          {
+            "paper_name": "Part 4: Current Affairs and Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (35 Objective Multiple Choice Questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks (20/50) in Part 4 and 50% aggregate (100/200) across all 4 parts"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: CS Executive Programme (Two Groups, 7 Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.icsi.edu",
+        "source_label": "ICSI — New Syllabus 2022: CS Executive Programme Structure",
+        "papers": [
+          {
+            "paper_name": "Group 1 - Paper 1: Jurisprudence, Interpretation and General Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Combination of descriptive and objective questions (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 1 - Paper 2: Company Law and Practice",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Company Law Principles (60 marks); Part II: Administration & Meetings (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 1 - Paper 3: Setting up of Business, Industrial and Labour Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Setting up of Business (60 marks); Part II: Industrial & Labour Laws (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 1 - Paper 4: Corporate Accounting and Financial Management",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Corporate Accounting (60 marks); Part II: Financial Management (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 2 - Paper 5: Capital Markets and Securities Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Capital Market (40 marks); Part II: Securities Laws (60 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 2"
+          },
+          {
+            "paper_name": "Group 2 - Paper 6: Economic, Commercial and Intellectual Property Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Economic & Commercial Laws (60 marks); Part II: Intellectual Property (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 2"
+          },
+          {
+            "paper_name": "Group 2 - Paper 7: Tax Laws and Practice",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Direct Tax (60 marks); Part II: Indirect Tax - GST & Customs (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 2"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: CS Professional Programme (Two Groups, 7 Papers)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.icsi.edu",
+        "source_label": "ICSI — New Syllabus 2022: CS Professional Programme Scheme",
+        "papers": [
+          {
+            "paper_name": "Group 1 - Paper 1: Environmental, Social and Governance (ESG) - Principles & Practice",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Descriptive and Case Study based (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 1 - Paper 2: Drafting, Pleadings and Appearances",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Descriptive legal drafting",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 1 - Paper 3: Compliance Management, Audit & Due Diligence",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Compliance Management (40 marks); Part II: Audit & Due Diligence (60 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 1 - Paper 4: Elective 1 (CSR & Social Auditing / Internal Audit / IPR / AI & Law)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Open Book Examination",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 1"
+          },
+          {
+            "paper_name": "Group 2 - Paper 5: Strategic Management & Corporate Finance",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Strategic Management (40 marks); Part II: Corporate Finance (60 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 2"
+          },
+          {
+            "paper_name": "Group 2 - Paper 6: Corporate Restructuring, Valuation and Insolvency",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Part I: Corporate Restructuring (40 marks); Part II: Valuation (20 marks); Part III: Insolvency (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 2"
+          },
+          {
+            "paper_name": "Group 2 - Paper 7: Elective 2 (Arbitration / Labour Laws / Banking & Insurance / IBC)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Open Book Examination",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group 2"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official result statistics and pass percentages declared by the Institute of Company Secretaries of India (ICSI) across examination sessions.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 85000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "June 2024 Examination Session: In CS Professional, Module 1 pass percentage was 20.11% and Module 2 pass percentage was 12.08%. In CS Executive Programme (Syllabus 2022), Group 1 pass percentage was 9.11% and Group 2 was 12.04%.",
+        "confidence": "verified",
+        "as_of": "2024-08-25",
+        "source_url": "https://www.icsi.edu",
+        "source_label": "ICSI Press Note — Declaration of Results of CS Professional and Executive Examinations (June 2024 Session)"
+      },
+      {
+        "year": 2023,
+        "applicants": 92000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "December 2023 Session: In CS Professional, Module 1 pass percentage was 20.06% and Module 2 was 12.91%. In CS Executive, Module 1 pass rate was 15.68% and Module 2 was 13.57%.",
+        "confidence": "reported",
+        "as_of": "2024-02-25",
+        "source_url": "https://www.icsi.edu",
+        "source_label": "ICSI Press Release — Result of Company Secretary Executive and Professional Examinations December 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and examination syllabus portals maintained by the Institute of Company Secretaries of India.",
+    "links": [
+      {
+        "label": "ICSI Official Portal",
+        "url": "https://www.icsi.edu",
+        "type": "notification",
+        "cycle_label": "ICSI-National",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

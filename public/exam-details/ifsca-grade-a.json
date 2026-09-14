@@ -1,0 +1,236 @@
+{
+  "id": "ifsca-grade-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The International Financial Services Centres Authority (IFSCA) is the unified statutory regulator established under the International Financial Services Centres Authority Act, 2019, governing offshore financial centers in India (GIFT City, Gandhinagar). Officers recruited as Assistant Managers (Grade 'A') serve as the core regulatory workforce overseeing offshore banking, international capital markets, global fintech entities, bullion exchange, and international reinsurance. Officers progress through executive regulatory grades based on merit, annual performance appraisals, and regulatory board selection.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Officer Grade A)",
+        "pay_level": "Grade A",
+        "years": "Entry level (probation 2 years)",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA — Recruitment Notification for Officer Grade A (Assistant Manager) 2024"
+      },
+      {
+        "designation": "Manager (Officer Grade B)",
+        "pay_level": "Grade B",
+        "years": "approx. 3-5 years",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA (Salary, Allowances and other Terms and Conditions of Service of Employees) Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM — Officer Grade C)",
+        "pay_level": "Grade C",
+        "years": "approx. 6-10 years",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA Regulations & Senior Regulatory Hierarchy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM — Officer Grade D) / Division Chief",
+        "pay_level": "Grade D",
+        "years": "approx. 11-15 years",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA Regulations & Senior Regulatory Hierarchy"
+      },
+      {
+        "designation": "General Manager (GM — Officer Grade E)",
+        "pay_level": "Grade E",
+        "years": "approx. 16-20 years",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA Regulations & Senior Regulatory Hierarchy"
+      },
+      {
+        "designation": "Chief General Manager (CGM — Officer Grade F) / Department Head",
+        "pay_level": "Grade F",
+        "years": "approx. 21-25 years",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA Regulations & Senior Regulatory Hierarchy"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "Executive Grade",
+        "years": "approx. 26+ years",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "International Financial Services Centres Authority Act, 2019"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection to IFSCA Grade 'A' (Assistant Manager) is conducted through a three-stage competitive process: Phase I (Online Screening Examination consisting of two papers), Phase II (Online Examination consisting of two papers with 1/3rd and 2/3rd aggregate weightage), and Phase III (Personal Interview). Negative marking of 1/4th (0.25 marks) is deducted for each incorrect answer across objective papers in Phase I and Phase II.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Online Screening Examination (2 Papers, 100 Marks Each)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA — Scheme of Phase I Online Examination (Notification 2024)",
+        "papers": [
+          {
+            "paper_name": "Paper 1 (All Streams): General Awareness (incl. financial sector), English Language, Quantitative Aptitude, Test of Reasoning",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks for each wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum cut-off 30%"
+          },
+          {
+            "paper_name": "Paper 2 (General Stream): Financial Sector General Awareness, Economic & Social Development, Indian Economy, Global Economy, IFSCA Act, Union Budget, Economic Survey, Banking, Capital Market, Insurance, Pensions, Bullion",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks for each wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum cut-off 40% (Aggregate cut-off for Phase I: 40%)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Online Examination (2 Papers, 100 Marks Each)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA — Scheme of Phase II Online Examination (Notification 2024)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: English (Descriptive Test — Precis Writing, Essay Writing, Business Comprehension)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "Descriptive writing test (1/3rd weightage towards Phase II merit)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum cut-off 30%"
+          },
+          {
+            "paper_name": "Paper 2 (General Stream): IFSCA Act, GIFT IFSC Regulations, Central Government Schemes in Financial Sector, Global Financial Centers, Banking, Securities, Insurance, Foreign Exchange, FinTech",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks for each wrong answer (2/3rd weightage towards Phase II merit)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum cut-off 40% (Aggregate cut-off for Phase II: 40%)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA — Phase III Interview Scheme and Final Merit Calculation",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (GIFT City, Gandhinagar)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "Comprehensive personal interview evaluating regulatory aptitude and financial domain competence",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit computed with 85% weightage for Phase II and 15% weightage for Interview"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Grade A (Officer)",
+    "entry_basic_pay": 44500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-28",
+    "pay_source_url": "https://www.ifsca.gov.in",
+    "pay_source_label": "IFSCA Recruitment Notification 2024 — Pay Scale: ₹44,500 - 2,500(4) - 54,500 - 2,850(7) - 74,450 - EB - 2,850(4) - 85,850 - 3,300(1) - 89,150",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 138000,
+      "max": 155000
+    },
+    "in_hand_range_estimate": {
+      "min": 112000,
+      "max": 130000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Officers in Grade A receive a starting basic pay of ₹44,500/month. Total monthly gross emoluments are approximately ₹1,43,000/month without official accommodation (or ₹1,12,000/month if availing leased accommodation). Allowances include Dearness Allowance, Grade Allowance, Special Allowance, Local Compensatory Allowance (GIFT City/Gandhinagar), Family Allowance, and Learning Allowance.",
+    "official_perks": [
+      "Authority leased residential accommodation or substantial House Rent Allowance in GIFT City / Gandhinagar / Ahmedabad",
+      "Conveyance allowance / official vehicle fuel reimbursement per regulatory norms",
+      "Comprehensive medical facilities with cashless hospitalization for officer and dependent family members",
+      "Subsidized residential lease, book grant, newspaper reimbursement, and residential office equipment allowance",
+      "Leave Travel Concession (LTC) / Foreign travel study provisions per Authority rules",
+      "Defined contribution benefits under New Pension Scheme (NPS) and Authority gratuity scheme"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "IFSCA Grade A is a highly selective regulatory competition attracting chartered accountants, corporate lawyers, master's degree holders in economics/finance, and MBAs targeting GIFT City financial regulation.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 18500,
+        "vacancies": 10,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 1850 overall selectivity (10 notified vacancies in General stream; ~450 shortlisted for Phase II and ~35 called for Interview)",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA — Notification for Recruitment of Officer Grade A (Assistant Manager) 2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 24000,
+        "vacancies": 20,
+        "shortlisted_for_mains": 624,
+        "selectivity_ratio": "approx. 1 in 1200 (20 vacancies; 624 appeared in Phase II; 70 shortlisted for interview)",
+        "confidence": "reported",
+        "as_of": "2023-02-11",
+        "source_url": "https://www.ifsca.gov.in",
+        "source_label": "IFSCA — Officer Grade A Recruitment 2023 Notification and Result Note"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website and recruitment resources maintained by the International Financial Services Centres Authority.",
+    "links": [
+      {
+        "label": "IFSCA Official Portal",
+        "url": "https://www.ifsca.gov.in",
+        "type": "notification",
+        "cycle_label": "IFSCA-National",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IFSCA Careers & Vacancies Section",
+        "url": "https://www.ifsca.gov.in/Careers",
+        "type": "other",
+        "cycle_label": "IFSCA-Careers",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

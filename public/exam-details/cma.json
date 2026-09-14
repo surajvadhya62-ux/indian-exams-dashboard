@@ -1,0 +1,246 @@
+{
+  "id": "cma",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Cost and Management Accountant (CMA) qualification is governed by the Institute of Cost Accountants of India (ICMAI), a statutory professional body under the Cost and Works Accountants Act, 1959. Under CMA Syllabus 2022, the qualification framework comprises three stages: CMA Foundation (4 Papers), CMA Intermediate (2 Groups, 8 Papers), and CMA Final (2 Groups, 8 Papers), integrated with mandatory 15 months of practical training and SAP Finance Power User training. Passing standard: minimum 40% marks in each individual paper and 50% in aggregate of each group/level.",
+    "stages": [
+      {
+        "stage_name": "Stage I: CMA Foundation Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://icmai.in",
+        "source_label": "ICMAI — Scheme of Foundation Examination under Syllabus 2022",
+        "papers": [
+          {
+            "paper_name": "Paper 1: Fundamentals of Business Laws and Business Communication",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "Objective Multiple Choice Questions (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% in aggregate across all 4 Foundation papers"
+          },
+          {
+            "paper_name": "Paper 2: Fundamentals of Financial and Cost Accounting",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "Objective Multiple Choice Questions (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% in aggregate across all 4 Foundation papers"
+          },
+          {
+            "paper_name": "Paper 3: Fundamentals of Business Mathematics and Statistics",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "Objective Multiple Choice Questions (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% in aggregate across all 4 Foundation papers"
+          },
+          {
+            "paper_name": "Paper 4: Fundamentals of Business Economics and Management",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "Objective Multiple Choice Questions (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% in aggregate across all 4 Foundation papers"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: CMA Intermediate Examination (Two Groups, 8 Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://icmai.in",
+        "source_label": "ICMAI — Syllabus 2022: Intermediate Programme Scheme",
+        "papers": [
+          {
+            "paper_name": "Group I - Paper 5: Business Laws and Ethics",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Section A Objective (no negative marking) + Section B Descriptive problems",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group I - Paper 6: Financial Accounting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Objective questions + Descriptive accounting problems",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group I - Paper 7: Direct and Indirect Taxation",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Section A Direct Tax (50 marks); Section B Indirect Tax - GST & Customs (50 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group I - Paper 8: Cost Accounting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Cost accounting principles, standard costing, and cost sheet analysis",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group II - Paper 9: Operations Management and Strategic Management",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Section A Operations Management (60 marks); Section B Strategic Management (40 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group II"
+          },
+          {
+            "paper_name": "Group II - Paper 10: Corporate Accounting and Auditing",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Section A Corporate Accounting (50 marks); Section B Auditing (50 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group II"
+          },
+          {
+            "paper_name": "Group II - Paper 11: Financial Management and Business Data Analytics",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Section A Financial Management (80 marks); Section B Data Analytics (20 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group II"
+          },
+          {
+            "paper_name": "Group II - Paper 12: Management Accounting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Activity based costing, marginal costing, decision-making",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: CMA Final Examination (Two Groups, 8 Papers)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://icmai.in",
+        "source_label": "ICMAI — Syllabus 2022: Final Programme Structure",
+        "papers": [
+          {
+            "paper_name": "Group III - Paper 13: Corporate and Economic Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Corporate governance, securities, IBC and foreign exchange laws",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group III"
+          },
+          {
+            "paper_name": "Group III - Paper 14: Strategic Financial Management",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Capital budgeting, derivatives, valuation and portfolio management",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group III"
+          },
+          {
+            "paper_name": "Group III - Paper 15: Direct Tax Laws and International Taxation",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Direct tax assessment, transfer pricing, and DTAA",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group III"
+          },
+          {
+            "paper_name": "Group III - Paper 16: Strategic Cost Management",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Strategic cost management, pricing policy, supply chain cost management",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group III"
+          },
+          {
+            "paper_name": "Group IV - Paper 17: Cost and Management Audit",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Statutory cost audit, CRA-1/2/3/4 forms, and internal audit",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group IV"
+          },
+          {
+            "paper_name": "Group IV - Paper 18: Corporate Financial Reporting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Ind AS, consolidated financial statements, business combinations",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group IV"
+          },
+          {
+            "paper_name": "Group IV - Paper 19: Indirect Tax Laws and Practice",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Advanced GST provisions, litigation, appeals, and foreign trade policy",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group IV"
+          },
+          {
+            "paper_name": "Group IV - Paper 20: Elective (Strategic Performance Management / Risk Management in Banking / Entrepreneurship)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "Specialised elective examination",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in individual paper and 50% aggregate across Group IV"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official pass percentage and candidate statistics published by the Institute of Cost Accountants of India (ICMAI) across examination terms.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 62000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "June 2024 Examination Term: In CMA Final (Syllabus 2022), Group III pass percentage was 16.48%, Group IV pass percentage was 22.35%, and both groups appeared together pass percentage was 14.12%. In CMA Intermediate, Group I pass rate was 11.23% and Group II was 20.89%.",
+        "confidence": "verified",
+        "as_of": "2024-08-23",
+        "source_url": "https://icmai.in",
+        "source_label": "ICMAI Press Note — Results of CMA Intermediate and Final Examinations for June 2024 Term"
+      },
+      {
+        "year": 2023,
+        "applicants": 68000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "December 2023 Term: In CMA Final, Group III pass percentage was 15.65% and Group IV was 19.34%. In CMA Intermediate, Group I pass rate was 10.87% and Group II was 22.14%.",
+        "confidence": "reported",
+        "as_of": "2024-02-21",
+        "source_url": "https://icmai.in",
+        "source_label": "ICMAI Press Release — Declaration of Results for Intermediate and Final Examination December 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and educational resources published by the Institute of Cost Accountants of India.",
+    "links": [
+      {
+        "label": "ICMAI Official Portal",
+        "url": "https://icmai.in",
+        "type": "notification",
+        "cycle_label": "ICMAI-National",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

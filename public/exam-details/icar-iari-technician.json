@@ -1,0 +1,197 @@
+{
+  "id": "icar-iari-technician",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Technicians (T-1) in ICAR institutes are recruited centrally by ICAR-IARI to support laboratory analytical services, field trial management, germplasm nurseries, agricultural farm machinery, and post-harvest technology units across 64+ ICAR research institutes. Governed by the ICAR Technical Service Rules (TSR), progression is based on a structured five-year assessment promotion system that is independent of vacancy availability.",
+    "steps": [
+      {
+        "designation": "Technician (T-1)",
+        "pay_level": "Level 3 (7th CPC)",
+        "years": "Entry level (Category I, probation 1 year)",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://www.iari.res.in",
+        "source_label": "ICAR-IARI Notification No. 1-1/2021-Rectt. Cell/Tech (CBT) — Pay Matrix Level 3 (₹21,700 - ₹69,100)"
+      },
+      {
+        "designation": "Senior Technician (T-2)",
+        "pay_level": "Level 4 (7th CPC)",
+        "years": "approx. 5 years (via 5-year assessment)",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://icar.org.in",
+        "source_label": "ICAR Technical Service Rules (TSR) Assessment Scheme"
+      },
+      {
+        "designation": "Technical Assistant (T-3)",
+        "pay_level": "Level 5 (7th CPC)",
+        "years": "approx. 10 years (Category II entry grade)",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://icar.org.in",
+        "source_label": "ICAR Technical Service Rules"
+      },
+      {
+        "designation": "Senior Technical Assistant (T-4)",
+        "pay_level": "Level 6 (7th CPC)",
+        "years": "approx. 15 years",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://icar.org.in",
+        "source_label": "ICAR Technical Service Rules"
+      },
+      {
+        "designation": "Technical Officer (T-5)",
+        "pay_level": "Level 7 (7th CPC)",
+        "years": "approx. 20 years",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://icar.org.in",
+        "source_label": "ICAR Technical Service Rules"
+      },
+      {
+        "designation": "Senior Technical Officer (T-6)",
+        "pay_level": "Level 10 (7th CPC)",
+        "years": "approx. 25 years (Category III entry grade)",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://icar.org.in",
+        "source_label": "ICAR Technical Service Rules"
+      },
+      {
+        "designation": "Assistant Director / Chief Technical Officer (CTO / T-9)",
+        "pay_level": "Level 12 (7th CPC)",
+        "years": "approx. 30+ years",
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://icar.org.in",
+        "source_label": "ICAR Technical Service Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment examination for ICAR-IARI Technician (T-1) is conducted as an all-India Computer Based Test (CBT) of 100 objective multiple choice questions of 10th standard (Matriculation) difficulty, followed by Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-12-18",
+        "source_url": "https://www.iari.res.in",
+        "source_label": "ICAR-IARI — Scheme and Syllabus of Examination for Technician (T-1)",
+        "papers": [
+          {
+            "paper_name": "General Knowledge",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks for each incorrect MCQ answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for UR, 30% for SC/OBC(NCL)/EWS, 25% for ST across aggregate CBT score"
+          },
+          {
+            "paper_name": "Mathematics (Matriculation Level)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks for each incorrect MCQ answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for UR, 30% for SC/OBC(NCL)/EWS, 25% for ST across aggregate CBT score"
+          },
+          {
+            "paper_name": "Science (Physical & Chemical Substances, Living World, Natural Phenomena)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks for each incorrect MCQ answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for UR, 30% for SC/OBC(NCL)/EWS, 25% for ST across aggregate CBT score"
+          },
+          {
+            "paper_name": "Social Science (Contemporary World, Democratic Politics, Economics, Disaster Management)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks for each incorrect MCQ answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for UR, 30% for SC/OBC(NCL)/EWS, 25% for ST across aggregate CBT score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 3 (7th CPC)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-12-18",
+    "pay_source_url": "https://www.iari.res.in",
+    "pay_source_label": "ICAR-IARI Notification No. 1-1/2021-Rectt. Cell/Tech (CBT) — Pay Matrix Level 3 (₹21,700 - ₹69,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 44500
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 39500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on 7th CPC Level 3 entry basic pay of ₹21,700. Dearness Allowance at canonical 58% equals ₹12,586. House Rent Allowance ranges from ₹2,170 (10% in Z-class rural agricultural stations) to ₹6,510 (30% in X-class cities like IARI Pusa, New Delhi). Transport Allowance ranges from ₹1,422 to ₹2,133 (including 58% DA). Monthly deductions include National Pension System (10% of Basic + DA = ₹3,429), employee health scheme, and welfare fund.",
+    "official_perks": [
+      "Allotted Type-II / Type-III ICAR institutional residential quarters across ICAR research campuses or HRA",
+      "Transport Allowance and overtime allowance for seasonal harvesting/laboratory shift duties",
+      "Comprehensive medical facilities under ICAR Medical Attendance Rules or CGHS in recognized hospitals",
+      "Leave Travel Concession (LTC) and annual earned/casual leave benefits",
+      "Defined contribution benefits under National Pension System (NPS) with 14% government contribution and Central Government Gratuity",
+      "Children Education Allowance (CEA) per central government rules"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Nationwide recruitment statistics for ICAR-IARI Technician (T-1) examination across 64 participating ICAR institutes.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 1053000,
+        "vacancies": 802,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 1313 overall selectivity (802 finalized vacancies across ICAR institutes; 10,53,000+ candidates registered and ~5,20,000 candidates appeared in the computer based examination)",
+        "confidence": "verified",
+        "as_of": "2022-03-08",
+        "source_url": "https://www.iari.res.in",
+        "source_label": "ICAR-IARI Press Release & Result Notification for Technician (T-1) Examination"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and recruitment links for ICAR Indian Agricultural Research Institute.",
+    "links": [
+      {
+        "label": "ICAR-IARI Official Portal",
+        "url": "https://www.iari.res.in",
+        "type": "notification",
+        "cycle_label": "IARI-Central",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "IARI Recruitment & Examination Section",
+        "url": "https://www.iari.res.in/en/recruitment.php",
+        "type": "other",
+        "cycle_label": "IARI-Recruitment",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

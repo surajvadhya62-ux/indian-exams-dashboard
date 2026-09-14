@@ -1,0 +1,222 @@
+{
+  "id": "ca",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Chartered Accountancy (CA) qualification is governed by the Institute of Chartered Accountants of India (ICAI) under the Chartered Accountants Act, 1949. Under the New Scheme of Education and Training (effective from 1st July 2023, examinations launched May 2024), the course is structured into three progressive stages: CA Foundation, CA Intermediate (2 Groups, 6 Papers), and CA Final (2 Groups, 6 Papers), integrated with Self-Paced Online Modules (SPOM Sets A, B, C, D) and mandatory 2-year practical training (Articleship). Passing criteria: minimum 40% in each individual paper and 50% in aggregate for each level/group.",
+    "stages": [
+      {
+        "stage_name": "Stage I: CA Foundation Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-01",
+        "source_url": "https://www.icai.org/post/new-scheme-of-education-and-training",
+        "source_label": "ICAI — New Scheme of Education and Training: Foundation Course Details",
+        "papers": [
+          {
+            "paper_name": "Paper 1: Accounting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (Subjective / Descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks in paper and 50% in aggregate of all 4 papers"
+          },
+          {
+            "paper_name": "Paper 2: Business Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (Subjective / Descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks in paper and 50% in aggregate of all 4 papers"
+          },
+          {
+            "paper_name": "Paper 3: Quantitative Aptitude (Business Mathematics 40 marks, Logical Reasoning 20 marks, Statistics 40 marks)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect MCQ answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks in paper and 50% in aggregate of all 4 papers"
+          },
+          {
+            "paper_name": "Paper 4: Business Economics",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect MCQ answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks in paper and 50% in aggregate of all 4 papers"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: CA Intermediate Examination (Two Groups, 6 Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-01",
+        "source_url": "https://www.icai.org/post/new-scheme-of-education-and-training",
+        "source_label": "ICAI — New Scheme of Education and Training: Intermediate Course Structure",
+        "papers": [
+          {
+            "paper_name": "Group I - Paper 1: Advanced Accounting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% Case-Scenario based MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group I papers"
+          },
+          {
+            "paper_name": "Group I - Paper 2: Corporate and Other Laws",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% Case-Scenario based MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group I papers"
+          },
+          {
+            "paper_name": "Group I - Paper 3: Taxation (Section A: Income-tax Law - 50 marks; Section B: Goods and Services Tax - 50 marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% Case-Scenario based MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group I papers"
+          },
+          {
+            "paper_name": "Group II - Paper 4: Cost and Management Accounting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% Case-Scenario based MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group II papers"
+          },
+          {
+            "paper_name": "Group II - Paper 5: Auditing and Ethics",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% Case-Scenario based MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group II papers"
+          },
+          {
+            "paper_name": "Group II - Paper 6: Financial Management and Strategic Management (FM 50 marks, SM 50 marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% Case-Scenario based MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group II papers"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: CA Final Examination (Two Groups, 6 Papers)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-05-01",
+        "source_url": "https://www.icai.org/post/new-scheme-of-education-and-training",
+        "source_label": "ICAI — New Scheme of Education and Training: Final Course Scheme",
+        "papers": [
+          {
+            "paper_name": "Group I - Paper 1: Financial Reporting",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group I - Paper 2: Advanced Financial Management",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group I - Paper 3: Advanced Auditing, Assurance and Professional Ethics",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group I"
+          },
+          {
+            "paper_name": "Group II - Paper 4: Direct Tax Laws and International Taxation",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group II"
+          },
+          {
+            "paper_name": "Group II - Paper 5: Indirect Tax Laws (Goods and Services Tax & Customs)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "30% MCQs (no negative marking) + 70% Descriptive",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group II"
+          },
+          {
+            "paper_name": "Group II - Paper 6: Integrated Business Solutions (Multi-disciplinary case study with open book examination)",
+            "marks": 100,
+            "duration_minutes": 240,
+            "negative_marking": "100% Case study based assessment (Open book)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in paper and 50% aggregate across Group II"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official pass percentage statistics published by the Examination Committee of the Institute of Chartered Accountants of India (ICAI) for CA Final and Intermediate examination sessions.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 116500,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "May 2024 New Scheme: In CA Final, 35,819 candidates appeared for both groups and 7,122 passed (19.88% pass rate; qualifying as Chartered Accountants). Group I pass rate was 27.35% (74,887 appeared) and Group II was 36.35% (58,891 appeared).",
+        "confidence": "verified",
+        "as_of": "2024-07-11",
+        "source_url": "https://www.icai.org",
+        "source_label": "ICAI Press Release — Result of Chartered Accountants Final and Intermediate Examinations held in May 2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 125000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "November 2023: In CA Final, 32,907 appeared for both groups and 3,099 passed (9.42% pass rate). In CA Intermediate, 53,459 candidates appeared for both groups and 5,204 passed (9.73% pass rate).",
+        "confidence": "reported",
+        "as_of": "2024-01-09",
+        "source_url": "https://www.icai.org",
+        "source_label": "ICAI Press Release — Result of Chartered Accountants Final and Intermediate Examination held in November 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and regulatory documents published by the Institute of Chartered Accountants of India.",
+    "links": [
+      {
+        "label": "ICAI Official Portal",
+        "url": "https://www.icai.org",
+        "type": "notification",
+        "cycle_label": "ICAI-National",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ICAI New Scheme of Education and Training Official Notification",
+        "url": "https://www.icai.org/post/new-scheme-of-education-and-training",
+        "type": "syllabus",
+        "cycle_label": "New-Scheme-2023",
+        "confidence": "verified",
+        "as_of": "2024-05-01"
+      }
+    ]
+  }
+}
