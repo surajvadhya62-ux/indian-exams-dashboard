@@ -1,0 +1,143 @@
+{
+  "id": "cg-pet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "exam_scheme": {
+    "status": "available",
+    "note": "Chhattisgarh Pre Engineering Test (CG PET) is conducted by the Chhattisgarh Professional Examination Board (CG Vyapam / छत्तीसगढ़ व्यावसायिक परीक्षा मण्डल, रायपुर) for admissions into undergraduate degree engineering programs (B.Tech / B.E. in Civil, Mechanical, Computer Science, Electrical, Electronics, Dairy Technology, Food Technology, Agriculture Engineering) across government, aided, and private engineering institutions in Chhattisgarh affiliated with Chhattisgarh Swami Vivekanand Technical University (CSVTU), Bhilai. The examination is administered offline across 33 district headquarters in a single shift using OMR response sheets. The test comprises 150 multiple-choice objective questions (50 Physics, 50 Chemistry, 50 Mathematics) carrying 150 marks for a duration of 180 minutes (3 hours). Each correct question awards +1 mark; there is no negative marking for incorrect or omitted responses. Post-examination counselling and seat allocation are conducted online by the Directorate of Technical Education (DTE), Chhattisgarh.",
+    "stages": [
+      {
+        "stage_name": "CG PET Written Entrance Examination (Offline OMR-Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-02",
+        "source_url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/a723e664-ee65-4837-93b0-60270ba5a01a.pdf",
+        "source_label": "CG Vyapam — CG PET Examination Guidelines (क्रमांक/व्यापम/परीक्षा एफ-20/2026/867, Para 10: Examination & Evaluation Methodology)",
+        "papers": [
+          {
+            "paper_name": "Physics (Class 11 & 12 Standard)",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Chemistry (Class 11 & 12 Standard)",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Class 11 & 12 Standard)",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Web-Based Counselling & Seat Allocation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-03-02",
+        "source_url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/26f6530c-067b-4d90-aaa0-6ad97fed3d11.pdf",
+        "source_label": "Directorate of Technical Education (DTE) Chhattisgarh — Departmental Admission Rules for B.E./B.Tech",
+        "papers": [
+          {
+            "paper_name": "Online Choice Filling, Document Verification & Centralized Seat Allotment (Round 1, Round 2 & Institutional Spot Rounds)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "State Merit Rank based on CG PET score (85% CG state quota) and JEE Main score (15% All India quota)"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate attendance and merit list metrics published by CG Vyapam. In the 2024 cycle, 12,068 candidates appeared in the Pre-PET entrance examination and were assigned state merit ranks on the official combined merit list. Over 11,000 engineering seats are offered across 30+ government and private engineering institutes affiliated with CSVTU Bhilai.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 12068,
+        "vacancies": 11500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "12,068 candidates appeared and were assigned ranks for approximately 11,500 engineering degree seats (high admission accessibility)",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/aedd7df1-3df0-4bbf-8b76-115e40c72e43.pdf",
+        "source_label": "CG Vyapam — Pre PET Entrance Exam 2024 Combined Merit Wise List of All Candidates (Sr. No. 1 to 12,068 read directly)"
+      },
+      {
+        "year": 2023,
+        "applicants": 13800,
+        "vacancies": 11500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 13,800 candidates appeared for approx. 11,500 engineering degree seats",
+        "confidence": "reported",
+        "as_of": "2023-08-04",
+        "source_url": "https://vyapamcg.cgstate.gov.in/Post?PostID=ENTRESULT2023",
+        "source_label": "CG Vyapam — Official Pre PET 2023 Results Declaration and Merit Statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination guidelines, departmental admission rules, syllabus, and model answer keys published by the Chhattisgarh Professional Examination Board (CG Vyapam).",
+    "links": [
+      {
+        "label": "CG Vyapam — PET Examination Guidelines (व्यापम परीक्षा निर्देश)",
+        "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/a723e664-ee65-4837-93b0-60270ba5a01a.pdf",
+        "type": "notification",
+        "cycle_label": "PET-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-02"
+      },
+      {
+        "label": "DTE Chhattisgarh — Departmental Admission Rules for B.E./B.Tech (विभागीय प्रवेश नियम)",
+        "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/26f6530c-067b-4d90-aaa0-6ad97fed3d11.pdf",
+        "type": "other",
+        "cycle_label": "PET-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-02"
+      },
+      {
+        "label": "CG Vyapam — PET Official Detailed Syllabus (Physics, Chemistry & Mathematics)",
+        "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/7d31de1c-ace8-4e49-ba1e-a20cc230039e.pdf",
+        "type": "syllabus",
+        "cycle_label": "PET-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-02"
+      },
+      {
+        "label": "CG Vyapam — PET Model Answer Key",
+        "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/76aaa07b-c955-4b35-8921-f79200e15430_PET26%20(Model%20Answer).pdf",
+        "type": "pyq",
+        "cycle_label": "PET-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-18"
+      },
+      {
+        "label": "CG Vyapam — PET Online Entrance Application & Information Hub",
+        "url": "https://vyapamcg.cgstate.gov.in/Post?PostID=PET26ONLINE",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-03-02"
+      },
+      {
+        "label": "CG Vyapam Official Portal (छत्तीसगढ़ व्यावसायिक परीक्षा मण्डल)",
+        "url": "https://vyapam.cgstate.gov.in",
+        "type": "other",
+        "confidence": "reported",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
