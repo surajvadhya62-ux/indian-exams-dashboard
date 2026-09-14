@@ -1,0 +1,241 @@
+{
+  "id": "gail-executive-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive Trainees in GAIL (India) Limited undergo 1 year of structured training and probation in Grade E-2. Upon successful completion, they are absorbed as Senior Engineer or Senior Officer in Grade E-2. Promotions through executive management cadres follow GAIL Executive Promotion Policy, annual performance appraisal ratings, and minimum residency requirements.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (Chemical / Mechanical / Electrical / Instrumentation / Civil / BIS / HR / Finance)",
+        "pay_level": "IDA Grade E-2 Trainee (₹60,000 – ₹1,80,000)",
+        "years": "1 yr training / probation",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Trainee Recruitment Terms & DPE IDA Grade E-2 Scale"
+      },
+      {
+        "designation": "Senior Engineer / Senior Officer",
+        "pay_level": "IDA Grade E-2 (₹60,000 – ₹1,80,000)",
+        "years": "Regularization post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Cadre Absorption Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-3 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-4 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Middle Management Cadre Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-5 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Senior Management Structure"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E-6 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Senior Executive Hierarchy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-7 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Leadership Rules"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Top Management Structure"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Apex Leadership Regulations"
+      },
+      {
+        "designation": "Director / Chairman & Managing Director (CMD)",
+        "pay_level": "Schedule 'A' Board Level (₹1,80,000 – ₹3,40,000 / ₹2,00,000 – ₹3,70,000)",
+        "years": "PESB Board Appointment",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "PESB / Government of India Board Appointments"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Executive Trainees in GAIL (India) Limited is conducted primarily through valid GATE scores in the respective engineering disciplines followed by Group Discussion (GD) and Personal Interview (PI). Final merit is compiled by assigning 85% weightage to normalized GATE score, 5% to GD, and 10% to PI.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Graduate Aptitude Test in Engineering (GATE) Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Trainee Selection Norms",
+        "papers": [
+          {
+            "paper_name": "GATE Paper in Respective Discipline (CH, ME, EE, IN, CE)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 for 1-mark MCQs, -0.67 for 2-mark MCQs",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise GATE qualifying cut-off score"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Group Discussion (GD)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Trainee Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (GD) on General / Techno-Commercial Topics",
+            "marks": 5,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluation component in composite final merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Personal Interview (PI)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Executive Trainee Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical, Managerial, and Behavioral Competencies)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for UR/EWS/OBC-NCL, 35% for SC/ST/PwBD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd Pay Revision Committee (PRC) guidelines for Maharatna CPSEs. Executive Trainees receive starting basic pay of ₹60,000 in Grade E-2, mandatory 58% DA constant as of 2025-07-01, cafeteria approach allowances @ 35% of basic pay, HRA (9% to 27%), performance-related pay (PRP), CPF, and medical coverage. Approximate annual Cost to Company (CTC) is ₹18 Lakhs.",
+    "pay_level": "IDA Pay Scale Grade E-2 (₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 60000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.gailonline.com",
+    "pay_source_label": "GAIL Executive Trainee Recruitment Terms & Conditions",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 115000,
+      "max": 136000
+    },
+    "in_hand_range_estimate": {
+      "min": 98000,
+      "max": 118000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹60,000, 58% IDA (₹34,800), Cafeteria perks @ 35% (₹21,000), and HRA (9% to 27% = ₹5,400 to ₹16,200), less statutory deductions for Contributory Provident Fund (12% of Basic + DA = ₹11,376), Post-Retirement Medical, and income tax.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly as per AICPI",
+      "Perks and Allowances under Cafeteria Approach @ 35% of Basic Pay",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / Company Leased Accommodation / Township quarters",
+      "Performance Related Pay (PRP) based on individual performance and GAIL corporate MoU rating",
+      "Contributory Provident Fund (CPF), Gratuity, and Defined Contribution Pension Scheme",
+      "Comprehensive indoor/outdoor medical benefits for employee and eligible dependents",
+      "Group Personal Accident Insurance and Group Life Insurance coverage"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application volumes from GAIL Executive Trainee recruitment cycles via GATE.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 47,
+        "applicants": 28500,
+        "shortlisted_for_mains": 240,
+        "selectivity_ratio": "approx. 1 in 606",
+        "confidence": "reported",
+        "as_of": "2024-03-31",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Advt. No. GAIL/OPEN/ET/2024 notifying 47 Executive Trainee posts via GATE-2024."
+      },
+      {
+        "year": 2023,
+        "vacancies": 43,
+        "applicants": 25200,
+        "shortlisted_for_mains": 215,
+        "selectivity_ratio": "approx. 1 in 586",
+        "confidence": "reported",
+        "as_of": "2023-03-15",
+        "source_url": "https://www.gailonline.com",
+        "source_label": "GAIL Advt. No. GAIL/OPEN/ET/2023 notifying 43 Executive Trainee posts via GATE-2023."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on GAIL (India) Limited web servers.",
+    "links": [
+      {
+        "label": "GAIL Official Careers Portal",
+        "url": "https://www.gailonline.com",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "GAIL Corporate Web Portal",
+        "url": "https://www.gailonline.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

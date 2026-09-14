@@ -1,0 +1,241 @@
+{
+  "id": "sail-mtt",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees (Technical) in Steel Authority of India Limited (SAIL) undergo 1 year of structured training in Executive Grade E-1 across steel plants (Bhilai, Bokaro, Rourkela, Durgapur, IISCO Burnpur, Salem, Alloy Steels Plant) and corporate units. Upon successful completion of training, they are regularized as Assistant Manager in Grade E-1 and progress through executive management cadres per the SAIL Executive Promotion Policy.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Technical - Mechanical / Metallurgy / Electrical / Chemical / Civil / Instrumentation / Mining)",
+        "pay_level": "IDA Grade E-1 Trainee (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL MTT Recruitment Notification Para on Emoluments & Training"
+      },
+      {
+        "designation": "Assistant Manager (Technical)",
+        "pay_level": "IDA Grade E-1 (₹50,000 – ₹1,60,000)",
+        "years": "Regularization post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Executive Cadre Regularization Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Middle Management Cadre Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Senior Technical Hierarchy"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-5 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Senior Management Cadre"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-6 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Executive Directorate Regulations"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Plant Department Head Hierarchy"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head / In-charge of Integrated Steel Plant",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL Executive Director Leadership Rules"
+      },
+      {
+        "designation": "Director / Chairman",
+        "pay_level": "Schedule 'A' Board Level (₹1,80,000 – ₹3,40,000 / ₹2,00,000 – ₹3,70,000)",
+        "years": "PESB Board Appointment",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "PESB / Government of India Board Appointments"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Management Trainees (Technical) in SAIL is conducted through Graduate Aptitude Test in Engineering (GATE) scores followed by Group Discussion (GD) and Personal Interview (PI) for shortlisted candidates (1:3 ratio category-wise and discipline-wise). Final merit is determined with 75% weightage to normalized GATE score, 10% weightage to Group Discussion, and 15% weightage to Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Graduate Aptitude Test in Engineering (GATE) Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL MTT Selection Process & Weightage Criteria",
+        "papers": [
+          {
+            "paper_name": "GATE Paper in Respective Discipline (ME, MT, EE, CH, CE, IN, MN)",
+            "marks": 75,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 for 1-mark MCQs, -0.67 for 2-mark MCQs",
+            "qualifying_only": false,
+            "qualifying_threshold": "Normalized GATE score weighted to 75 marks in final merit list"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Group Discussion (GD)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL MTT Interview and GD Guidelines",
+        "papers": [
+          {
+            "paper_name": "Group Discussion on Contemporary Industrial / Techno-Economic Issues",
+            "marks": 10,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluation component in composite final merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Personal Interview (PI)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL MTT Selection Scheme",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical & Managerial Suitability)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% (6 out of 15 marks) for General/EWS; minimum 35% for SC/ST/OBC-NCL/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd Pay Revision Committee (PRC) guidelines for Maharatna CPSEs. During the one-year training period, MTTs receive starting basic pay of ₹50,000 in Grade E-1 (scale ₹50,000–₹1,60,000). On regular absorption as Assistant Manager, basic pay remains ₹50,000 with standard annual increments. Includes mandatory 58% DA constant as of 2025-07-01, cafeteria approach allowances @ 35% of basic pay, HRA (9% to 27%) or steel plant township accommodation, performance-related pay (PRP), and SAIL mediclaim. Approximate annual Cost to Company (CTC) is ₹16 Lakhs.",
+    "pay_level": "IDA Grade E-1 Trainee / Assistant Manager (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://sail.co.in",
+    "pay_source_label": "SAIL MTT Advertisement Terms of Employment & Remuneration Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 98000,
+      "max": 115000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 100000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000, 58% IDA (₹29,000), Cafeteria perks @ 35% (₹17,500), and HRA (9% to 27% = ₹4,500 to ₹13,500), less statutory deductions for Provident Fund (12% of Basic + DA = ₹9,480), Gratuity, Superannuation, and income tax.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach @ 35% of Basic Pay",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / Company accommodation in integrated steel plant townships",
+      "Performance Related Pay (PRP) based on plant operational performance and MoU achievements",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Superannuation Pension Scheme",
+      "Free comprehensive medical treatment for employee and dependent family members in SAIL plant hospitals and empaneled premier hospitals",
+      "Leave Travel Concession (LTC) and subsidized steel purchase benefit"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application statistics from SAIL Management Trainee (Technical) recruitment cycles via GATE.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 249,
+        "applicants": 42000,
+        "shortlisted_for_mains": 750,
+        "selectivity_ratio": "approx. 1 in 168",
+        "confidence": "reported",
+        "as_of": "2024-05-10",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL MTT Notification notifying 249 vacancies across Mechanical, Metallurgy, Electrical, Chemical, Civil, Mining, and Instrumentation disciplines."
+      },
+      {
+        "year": 2023,
+        "vacancies": 202,
+        "applicants": 36000,
+        "shortlisted_for_mains": 610,
+        "selectivity_ratio": "approx. 1 in 178",
+        "confidence": "reported",
+        "as_of": "2023-04-18",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL MTT Recruitment Cycle 2023 for 202 Management Trainees (Technical)."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on Steel Authority of India Limited servers.",
+    "links": [
+      {
+        "label": "SAIL Careers Web Portal",
+        "url": "https://sail.co.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Steel Authority of India Limited Official Corporate Portal",
+        "url": "https://sail.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

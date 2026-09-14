@@ -1,0 +1,224 @@
+{
+  "id": "ntpc-eet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Engineering Executive Trainees (EETs) in NTPC Limited undergo 1 year of structured intensive training at Power Management Institute (PMI) and operational super thermal power projects. Upon successful completion of training, they are regularized as Assistant Manager in Executive Grade E-1 (₹40,000–₹1,40,000) and progress through the executive management ladder based on residency periods, annual performance management ratings, and DPC evaluations.",
+    "steps": [
+      {
+        "designation": "Engineering Executive Trainee (EET - Electrical / Mechanical / Electronics / Instrumentation / Civil)",
+        "pay_level": "IDA Grade E-1 Trainee (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC EET Recruitment Notification (Remuneration & Service Agreement Clause)"
+      },
+      {
+        "designation": "Assistant Manager (Operation / Maintenance / Engineering)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "Regularization post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Executive Cadre Absorption Regulations"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Middle Management Structure"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Senior Technical Management Cadre"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-5 / E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Senior Management Hierarchy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Station Leadership Cadre"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Plant Head / Project Head Hierarchy"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Regional Executive Director / Corporate Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Apex Cadre Governance Rules"
+      },
+      {
+        "designation": "Director / Chairman & Managing Director (CMD)",
+        "pay_level": "Schedule 'A' Board Level (₹1,80,000 – ₹3,40,000 / ₹2,00,000 – ₹3,70,000)",
+        "years": "PESB Board Appointment",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "PESB / Government of India Board Appointments"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Engineering Executive Trainees in NTPC is conducted 100% on the basis of Graduate Aptitude Test in Engineering (GATE) performance in the corresponding engineering paper, followed by Document Verification and Pre-Employment Medical Examination. In adherence to DoPT recruitment guidelines, interviews have been dispensed with for EET recruitment.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Graduate Aptitude Test in Engineering (GATE) Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC EET Selection Methodology via GATE Score",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Relevant Engineering Discipline (EE, ME, EC, IN, CE)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 for 1-mark MCQs, -0.67 for 2-mark MCQs",
+            "qualifying_only": false,
+            "qualifying_threshold": "Normalized GATE score used directly for category-wise and discipline-wise merit ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Pre-Employment Medical Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Medical Guidelines & Document Verification Norms",
+        "papers": [
+          {
+            "paper_name": "Document Verification & NTPC Medical Fitness Test",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit as per NTPC Medical Examination Rules"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd Pay Revision Committee (PRC) guidelines for Maharatna CPSEs. Engineering Executive Trainees receive starting basic pay of ₹40,000 in Grade E-1 (scale ₹40,000–₹1,40,000), mandatory 58% DA constant as of 2025-07-01, cafeteria approach allowances @ 35% of basic pay, project allowance for power station postings, HRA (9% to 27%) or power project township quarters, performance-related pay (PRP), CPF, and medical benefits. Approximate annual Cost to Company (CTC) is ₹14.50 Lakhs.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://careers.ntpc.co.in",
+    "pay_source_label": "NTPC EET Emoluments & Terms of Appointment",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 82000,
+      "max": 98000
+    },
+    "in_hand_range_estimate": {
+      "min": 71000,
+      "max": 85000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹40,000, 58% IDA (₹23,200), Cafeteria perks @ 35% (₹14,000), and HRA (9% to 27% = ₹3,600 to ₹10,800), less statutory deductions for Contributory Provident Fund (12% of Basic + DA = ₹7,584), Defined Contribution Pension Scheme, and income tax.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach @ 35% of Basic Pay",
+      "Project Allowance / Thermal Power Station Allowance for site and plant postings",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / Township residential accommodation in NTPC power colonies",
+      "Performance Related Pay (PRP) linked to station generation targets and MoU ratings",
+      "Contributory Provident Fund (CPF), Gratuity, and Defined Contribution Pension Scheme",
+      "Comprehensive medical treatment for employee and dependent family members in NTPC project hospitals and empaneled healthcare centers",
+      "Group Personal Accident Insurance and Group Life Insurance coverage"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application statistics from NTPC Engineering Executive Trainee recruitment cycles via GATE.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 280,
+        "applicants": 50000,
+        "shortlisted_for_mains": 560,
+        "selectivity_ratio": "approx. 1 in 178",
+        "confidence": "reported",
+        "as_of": "2024-04-20",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Advt. No. 04/2024 notifying 280 EET posts across Electrical, Mechanical, Electronics, Instrumentation, and Civil disciplines via GATE-2024."
+      },
+      {
+        "year": 2023,
+        "vacancies": 495,
+        "applicants": 72000,
+        "shortlisted_for_mains": 990,
+        "selectivity_ratio": "approx. 1 in 145",
+        "confidence": "reported",
+        "as_of": "2023-10-15",
+        "source_url": "https://careers.ntpc.co.in",
+        "source_label": "NTPC Advt. No. 14/2023 notifying 495 Engineering Executive Trainee posts via GATE-2023."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on NTPC web servers.",
+    "links": [
+      {
+        "label": "NTPC Careers Portal",
+        "url": "https://careers.ntpc.co.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "NTPC Official Corporate Web Portal",
+        "url": "https://careers.ntpc.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

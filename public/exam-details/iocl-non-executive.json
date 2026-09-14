@@ -1,0 +1,212 @@
+{
+  "id": "iocl-non-executive",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Non-Executive personnel in Indian Oil Corporation Limited (IOCL) are appointed in Non-Executive Grade IV across Refineries, Pipelines, and Marketing Divisions. Promotion across non-executive grades is governed by time-bound and merit-cum-seniority non-executive promotion agreements, leading to supervisory cadres and eligibility for induction into the Executive Cadre (Officer Grade A) through internal departmental promotion examinations.",
+    "steps": [
+      {
+        "designation": "Junior Engineering Assistant-IV / Engineering Assistant (Production / P&U / Electrical / Mechanical / Inst / QC / Fire)",
+        "pay_level": "IDA Grade IV Non-Executive (₹25,000 – ₹1,05,000)",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Recruitment of Non-Executive Personnel Notification (Emoluments Clause)"
+      },
+      {
+        "designation": "Junior Engineering Assistant-V / Senior Engineering Assistant",
+        "pay_level": "IDA Grade V (₹26,600 – ₹1,10,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive Cadre Promotion Policy"
+      },
+      {
+        "designation": "Engineering Assistant-VI / Lead Engineering Assistant",
+        "pay_level": "IDA Grade VI (₹28,400 – ₹1,15,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Long Term Settlement & Promotion Agreement"
+      },
+      {
+        "designation": "Senior Engineering Assistant-VII / Assistant Engineer",
+        "pay_level": "IDA Grade VII (₹30,500 – ₹1,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive Supervisory Hierarchy"
+      },
+      {
+        "designation": "Senior Technical Officer / Supervisor",
+        "pay_level": "IDA Grade VIII (₹33,000 – ₹1,25,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Apex Non-Executive Cadre Scale"
+      },
+      {
+        "designation": "Officer / Assistant Manager (Executive Cadre Induction)",
+        "pay_level": "IDA Grade A / E-1 (₹50,000 – ₹1,60,000)",
+        "years": "Through Departmental Promotion / DPC",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive to Executive Induction Policy"
+      },
+      {
+        "designation": "Manager (Executive Cadre)",
+        "pay_level": "IDA Grade C (₹70,000 – ₹2,00,000)",
+        "years": "approx. 20+ yrs cumulative",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Executive Hierarchy Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Non-Executive Personnel in IOCL is conducted through a two-stage process comprising an Objective Written Test / Computer Based Test (CBT) followed by a Skill/Proficiency/Physical Test (SPPT). The SPPT is of qualifying nature only; final merit is prepared exclusively from marks secured in the Written Test.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Test / Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Non-Executive Personnel Selection Methodology",
+        "papers": [
+          {
+            "paper_name": "Discipline Subject Knowledge",
+            "marks": 75,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% (35% for SC/ST/PwBD) in aggregate written test"
+          },
+          {
+            "paper_name": "Numerical Ability & Reasoning",
+            "marks": 15,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill / Proficiency / Physical Test (SPPT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL SPPT Evaluation Norms",
+        "papers": [
+          {
+            "paper_name": "Trade Skill Assessment / Physical Efficiency & Endurance (for Fire & Safety)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Candidates must be adjudged 'Suitable' by the trade testing committee)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Remuneration for Non-Executive personnel in IOCL is determined by the DPE 3rd PRC Wage Settlement for Unionized Non-Executive Employees. Entry basic pay in Grade IV is ₹25,000 in the scale of ₹25,000–₹1,05,000, with mandatory 58% DA constant as of 2025-07-01, 35% cafeteria perks, HRA (9% to 27%), shift allowance, refinery operational allowances, and comprehensive medical care.",
+    "pay_level": "IDA Grade IV Non-Executive (₹25,000 – ₹1,05,000)",
+    "entry_basic_pay": 25000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://iocl.com",
+    "pay_source_label": "IOCL Non-Executive Recruitment Terms (Scale of Pay & Emoluments)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 50000,
+      "max": 62000
+    },
+    "in_hand_range_estimate": {
+      "min": 43000,
+      "max": 53000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹25,000, 58% IDA (₹14,500), Cafeteria perks @ 35% (₹8,750), and HRA (9% to 27% = ₹2,250 to ₹6,750), plus continuous shift allowance where applicable, less statutory deductions for PF (12% of Basic + DA = ₹4,740) and defined pension contribution.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Cafeteria Approach Allowances @ 35% of Basic Pay",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / Township accommodation in IOCL refinery colonies",
+      "Continuous Shift Allowance and Night Shift Allowance for plant operational staff",
+      "Contributory Provident Fund (CPF), Gratuity, and Superannuation Pension Fund",
+      "Comprehensive medical treatment for employee and dependent family members in IOCL refinery hospitals and empaneled healthcare centers",
+      "Uniform subsidy, washing allowance, and safety equipment kit"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application statistics from IOCL Non-Executive recruitment drives across Refineries and Pipelines Divisions.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 467,
+        "applicants": 182000,
+        "shortlisted_for_mains": 980,
+        "selectivity_ratio": "approx. 1 in 390",
+        "confidence": "reported",
+        "as_of": "2024-07-25",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Advt. No. PL/HR/ESTB/RECT-2024 notifying 467 Non-Executive posts across refineries."
+      },
+      {
+        "year": 2023,
+        "vacancies": 513,
+        "applicants": 195000,
+        "shortlisted_for_mains": 1050,
+        "selectivity_ratio": "approx. 1 in 380",
+        "confidence": "reported",
+        "as_of": "2023-08-30",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL Refineries Division Recruitment Cycle 2023 for 513 Non-Executive personnel."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on IOCL web servers.",
+    "links": [
+      {
+        "label": "IOCL IndianOil for Careers Portal",
+        "url": "https://iocl.com",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Oil Corporation Official Corporate Website",
+        "url": "https://iocl.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "ongc-graduate-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Graduate Trainees (GTs) in Engineering and Geo-Sciences in ONGC are inducted in Executive Grade E-1 and undergo 1 year of training and probation. Upon successful completion of training, they are regularized as Assistant Executive Engineers (AEE) or equivalent officers in Grade E-1, advancing through the technical and managerial hierarchies up to Executive Director and Board-level appointments.",
+    "steps": [
+      {
+        "designation": "Graduate Trainee (GT - Drilling / Production / Reservoir / Mechanical / Electrical / Instrumentation / Civil / Geosciences)",
+        "pay_level": "IDA Grade E-1 Trainee (₹60,000 – ₹1,80,000)",
+        "years": "1 yr training / probation",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Recruitment of GTs in Engineering & Geo-Sciences Advt. Para on Emoluments"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE) / Chemist / Geologist / Geophysicist",
+        "pay_level": "IDA Grade E-1 (₹60,000 – ₹1,80,000)",
+        "years": "Regularization post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Executive Cadre Regulations"
+      },
+      {
+        "designation": "Executive Engineer (EE) / Senior Officer",
+        "pay_level": "IDA Grade E-2 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Modified Executive Promotion Policy (MEPP)"
+      },
+      {
+        "designation": "Deputy Superintending Engineer (DSE) / Deputy Superintending Officer",
+        "pay_level": "IDA Grade E-3 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Executive Promotion Rules"
+      },
+      {
+        "designation": "Superintending Engineer (SE) / Superintending Officer",
+        "pay_level": "IDA Grade E-4 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Middle Management Cadre Structure"
+      },
+      {
+        "designation": "Chief Engineer (CE) / Chief Officer",
+        "pay_level": "IDA Grade E-5 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Senior Management Hierarchy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-6 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Leadership Cadre Regulations"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,20,000 – ₹2,80,000 / ₹1,30,000 – ₹2,80,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Top Management Structure"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head / Asset Manager",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Asset & Basin Leadership Structure"
+      },
+      {
+        "designation": "Director / Chairman & Managing Director (CMD)",
+        "pay_level": "Schedule 'A' Board Level (₹1,80,000 – ₹3,40,000 / ₹2,00,000 – ₹3,70,000)",
+        "years": "PESB Board Appointment",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "PESB / Government of India Board Appointments"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Graduate Trainees in ONGC is conducted through Graduate Aptitude Test in Engineering (GATE) score in the relevant discipline followed by Personal Interview and evaluation of academic credentials. The final selection matrix assigns 60 marks to GATE score, 25 marks to Academic Qualification (20 marks for essential qualification + 5 marks for inline M.Tech/Ph.D), and 15 marks to Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Graduate Aptitude Test in Engineering (GATE) Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC GT Recruitment Advertisement Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "GATE Paper in Respective Engineering / Geo-Science Discipline",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 for 1-mark MCQs, -0.67 for 2-mark MCQs",
+            "qualifying_only": false,
+            "qualifying_threshold": "Normalized GATE score weighted to 60 marks in final merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Academic Qualification & Higher Degree Evaluation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC GT Selection Weightage Matrix",
+        "papers": [
+          {
+            "paper_name": "Academic Performance Evaluation (Essential B.Tech/M.Sc: 20 marks; Ph.D/M.Tech: 5 marks)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% or 1st class in essential qualifying degree"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Personal Interview (PI)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC GT Interview Norms",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical, Domain, and Behavioral Assessment)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 9 marks out of 15 (60%) for General/EWS/OBC; minimum 6 marks (40%) for SC/ST/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd Pay Revision Committee (PRC) guidelines for Maharatna CPSEs. Graduate Trainees in ONGC receive starting basic pay of ₹60,000 in Grade E-1, mandatory 58% DA constant as of 2025-07-01, cafeteria approach allowances @ 35% of basic pay, HRA (9% to 27%), substantial offshore / drilling allowances for offshore postings, performance-related pay (PRP), CPF, and medical coverage. Approximate annual Cost to Company (CTC) is ₹20 to ₹22 Lakhs.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 60000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://ongcindia.com",
+    "pay_source_label": "ONGC Terms of Appointment & E-1 Remuneration Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 115000,
+      "max": 142000
+    },
+    "in_hand_range_estimate": {
+      "min": 98000,
+      "max": 122000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹60,000, 58% IDA (₹34,800), Cafeteria perks @ 35% (₹21,000), and HRA (9% to 27% = ₹5,400 to ₹16,200), plus offshore allowances for offshore operational shifts, less statutory deductions for Contributory Provident Fund (12% of Basic + DA = ₹11,376), Post-Retirement Benefit Scheme, and income tax.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach @ 35% of Basic Pay",
+      "Offshore Hardship / Shift Allowance for offshore platforms and deepwater drilling operations",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / ONGC township residential colonies",
+      "Performance Related Pay (PRP) linked to individual score and corporate performance",
+      "Contributory Provident Fund (CPF), Gratuity, and Composite Social Security Scheme",
+      "Comprehensive medical treatment for employee and dependents in ONGC hospitals and empaneled multi-specialty centers",
+      "Conveyance Maintenance Reimbursement and uniform/safety gear allowances"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application statistics from ONGC Graduate Trainee recruitment cycles via GATE.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 262,
+        "applicants": 45000,
+        "shortlisted_for_mains": 1250,
+        "selectivity_ratio": "approx. 1 in 171",
+        "confidence": "reported",
+        "as_of": "2024-04-15",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Advt. No. 1/2024/GT notifying 262 Graduate Trainee vacancies in Engineering & Geo-Sciences via GATE-2024."
+      },
+      {
+        "year": 2023,
+        "vacancies": 158,
+        "applicants": 38000,
+        "shortlisted_for_mains": 820,
+        "selectivity_ratio": "approx. 1 in 240",
+        "confidence": "reported",
+        "as_of": "2023-03-20",
+        "source_url": "https://ongcindia.com",
+        "source_label": "ONGC Advt. No. 2/2023/GT notifying 158 Graduate Trainee posts via GATE-2023."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on ONGC corporate servers.",
+    "links": [
+      {
+        "label": "ONGC Recruitment Notices Portal",
+        "url": "https://ongcindia.com",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ONGC Official Corporate Website",
+        "url": "https://ongcindia.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

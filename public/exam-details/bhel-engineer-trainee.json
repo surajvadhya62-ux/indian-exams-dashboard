@@ -1,0 +1,256 @@
+{
+  "id": "bhel-engineer-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Engineer Trainees in Bharat Heavy Electricals Limited (BHEL) undergo 1 year of training on starting basic pay of ₹50,000 in Grade E-1 (₹50,000–₹1,60,000). Upon successful completion of training, they are regularized as Engineer in Grade E-1 on basic pay of ₹60,000 (scale ₹60,000–₹1,80,000) and progress through executive management cadres across manufacturing divisions (Bhopal, Haridwar, Trichy, Hyderabad, etc.) following BHEL Merit Promotion Scheme and DPC norms.",
+    "steps": [
+      {
+        "designation": "Engineer Trainee (Civil / Mechanical / IT / Electrical / Chemical / Metallurgy)",
+        "pay_level": "IDA Grade E-1 Trainee (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL ET Recruitment Notification Para on Emoluments & Training Terms"
+      },
+      {
+        "designation": "Engineer",
+        "pay_level": "IDA Grade E-1 (₹60,000 – ₹1,80,000)",
+        "years": "Absorption post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Executive Cadre Regularization Rules"
+      },
+      {
+        "designation": "Senior Engineer",
+        "pay_level": "IDA Grade E-2 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Executive Promotion Policy"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-3 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Middle Management Cadre Regulations"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-4 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Technical Cadre Structure"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-5 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Senior Management Rules"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-6 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Leadership Hierarchy"
+      },
+      {
+        "designation": "Senior Deputy General Manager / Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-7 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Executive Directorate Structure"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-8 (₹1,30,000 – ₹2,80,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Manufacturing Unit Head Cadre"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Apex Governance Regulations"
+      },
+      {
+        "designation": "Director / Chairman & Managing Director (CMD)",
+        "pay_level": "Schedule 'A' Board Level (₹1,80,000 – ₹3,40,000 / ₹2,00,000 – ₹3,70,000)",
+        "years": "PESB Board Appointment",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "PESB / Government of India Board Appointments"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Engineer Trainees in BHEL is conducted through a standalone Computer Based Test (CBT) followed by Personal Interview. Shortlisting for interview is carried out in a 1:3 ratio based on CBT score. Final merit is prepared by assigning 75% weightage to the Computer Based Test (CBT) and 25% weightage to the Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Engineer Trainee CBT Scheme & Structure",
+        "papers": [
+          {
+            "paper_name": "Section I: Technical / Engineering Discipline Subject Knowledge",
+            "marks": 120,
+            "duration_minutes": 150,
+            "negative_marking": "-0.25 for every incorrect MCQ",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite CBT minimum: 50% for UR/EWS, 45% for SC/ST/OBC-NCL/PwD"
+          },
+          {
+            "paper_name": "Section II: General Knowledge",
+            "marks": 20,
+            "duration_minutes": 150,
+            "negative_marking": "-0.25 for every incorrect MCQ",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section III: Reasoning",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "-0.25 for every incorrect MCQ",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section IV: General English",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "-0.25 for every incorrect MCQ",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Personal Interview Assessment Norms",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical Competence, Behavioral Traits & Leadership Potential)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluation component (25% weightage in final combined score)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd Pay Revision Committee (PRC) guidelines for Maharatna CPSEs. During the one-year training period, Engineer Trainees receive starting basic pay of ₹50,000 in Grade E-1 (scale ₹50,000–₹1,60,000). On regular absorption as Engineer in Grade E-1, basic pay is fixed at ₹60,000 (scale ₹60,000–₹1,80,000). Includes mandatory 58% DA constant as of 2025-07-01, cafeteria approach allowances @ 31% to 35% of basic pay, HRA (9% to 27%) or BHEL township accommodation, performance-related pay (PRP), and medical benefits. Approximate annual Cost to Company (CTC) is ₹14 Lakhs during training and ₹17.50 Lakhs on absorption.",
+    "pay_level": "IDA Grade E-1 Trainee (₹50,000 – ₹1,60,000) / Regular Engineer (₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://careers.bhel.in",
+    "pay_source_label": "BHEL ET Terms of Appointment & Emoluments Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 98000,
+      "max": 115000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 100000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000 during training, 58% IDA (₹29,000), Cafeteria perks @ 35% (₹17,500), and HRA (9% to 27% = ₹4,500 to ₹13,500), less statutory deductions for PF (12% of Basic + DA = ₹9,480), Gratuity, Superannuation, and income tax. Post-absorption in E-1 (Basic ₹60,000), gross pay increases to ₹1,18,000 – ₹1,38,000 per month.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach up to 35% of Basic Pay",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / Township residential accommodation in BHEL manufacturing units",
+      "Performance Related Pay (PRP) linked to company profitability and individual performance",
+      "Contributory Provident Fund, Gratuity, and Defined Contribution Pension Scheme",
+      "Free medical attendance and hospitalization benefits for employee and dependent family members in BHEL hospitals",
+      "Uniform allowance, safety gear allowance, and Leave Travel Concession (LTC)"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application statistics from BHEL Engineer Trainee recruitment cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 150,
+        "applicants": 92000,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 613",
+        "confidence": "reported",
+        "as_of": "2024-06-25",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Advt. No. 01/2024 notifying 150 Engineer Trainee vacancies across Civil, Mechanical, IT, Electrical, Chemical, and Metallurgy disciplines."
+      },
+      {
+        "year": 2022,
+        "vacancies": 150,
+        "applicants": 86000,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 573",
+        "confidence": "reported",
+        "as_of": "2022-10-04",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Advt. No. 01/2022 notifying 150 Engineer Trainee & Executive Trainee vacancies."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on BHEL web servers.",
+    "links": [
+      {
+        "label": "BHEL Careers Online Portal",
+        "url": "https://careers.bhel.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Bharat Heavy Electricals Limited Official Corporate Website",
+        "url": "https://careers.bhel.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

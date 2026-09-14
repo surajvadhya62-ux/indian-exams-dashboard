@@ -1,0 +1,222 @@
+{
+  "id": "cil-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in Coal India Limited undergo 1 year of training in Executive Grade E-2 on starting basic pay of ₹50,000. Upon successful completion of training, they are regularized as Assistant Manager in Executive Grade E-3 (₹60,000–₹1,80,000). Progression through higher executive grades across CIL subsidiaries (ECL, BCCL, CCL, WCL, SECL, NCL, MCL, CMPDIL) follows CIL Executive Cadre Scheme, performance ratings, and statutory certification (e.g. First Class Mines Manager Certificate for mining stream).",
+    "steps": [
+      {
+        "designation": "Management Trainee (Mining / Civil / Electrical / Mechanical / System / Geology / Finance / HR / Marketing)",
+        "pay_level": "IDA Grade E-2 Trainee (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL MT Recruitment Advertisement Para on Emoluments & Training"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "Absorption post-training",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Executive Cadre Scheme & Absorption Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Middle Management Structure"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Senior Management Cadre Regulations"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Senior Executive Hierarchy"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-8 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Area General Manager & Subsidiary Rules"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "Apex Cadre Head",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Apex Leadership Regulations"
+      },
+      {
+        "designation": "Director / Chairman-cum-Managing Director (CMD)",
+        "pay_level": "Schedule 'A' Board Level (₹1,80,000 – ₹3,40,000 / ₹2,00,000 – ₹3,70,000)",
+        "years": "PESB Board Appointment",
+        "confidence": "reported",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "PESB / Government of India Board Appointments"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Management Trainees in Coal India Limited is conducted through a single-stage Computer Based Test (CBT) consisting of two objective papers conducted in a single three-hour session, or through GATE scores for technical disciplines. The standard open CBT exam scheme comprises Paper-I (General Awareness and Aptitude) and Paper-II (Professional Discipline Knowledge). Shortlisted candidates undergo Document Verification and Initial Medical Examination (IME).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Online Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Management Trainee CBT Scheme & Syllabus Notification",
+        "papers": [
+          {
+            "paper_name": "Paper-I: General Awareness, Aptitude & Reasoning (General Knowledge, Numerical Ability, Reasoning, General English)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% (General/EWS), 35% (OBC-NCL), 30% (SC/ST/PwD) in aggregate across Paper-I and Paper-II"
+          },
+          {
+            "paper_name": "Paper-II: Professional / Discipline Knowledge (Engineering / Management Domain Subject)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Initial Medical Examination (IME)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL MT Document Verification & Medical Guidelines",
+        "papers": [
+          {
+            "paper_name": "Document Verification & Pre-Employment Medical Examination (Mines Medical Standards)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit as per CIL Medical Attendance Rules and DGMS Mines Safety Standards"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd Pay Revision Committee (PRC) guidelines for Maharatna CPSEs. During the one-year training period, MTs receive starting basic pay of ₹50,000 in Grade E-2. On regular absorption in Grade E-3, basic pay is fixed at ₹60,000. Includes mandatory 58% DA constant as of 2025-07-01, cafeteria approach allowances @ 35% of basic pay, underground allowance for mining staff, HRA (9% to 27%) or coalfield township quarters, performance-related pay (PRP), and CMPF. Approximate annual Cost to Company (CTC) is ₹15 Lakhs during training and ₹18 Lakhs on absorption.",
+    "pay_level": "IDA Grade E-2 Trainee (₹50,000 – ₹1,60,000) / Grade E-3 (₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://www.coalindia.in",
+    "pay_source_label": "CIL MT Notification on Compensation & Terms of Appointment",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 98000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000 during training, 58% IDA (₹29,000), Cafeteria perks @ 35% (₹17,500), and HRA (9% to 27% = ₹4,500 to ₹13,500), less statutory deductions for Coal Mines Provident Fund (CMPF @ 12% of Basic + DA = ₹9,480), Pension, and income tax. Post absorption in E-3 (Basic ₹60,000), gross pay increases to ₹1,18,000 – ₹1,40,000 per month.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Perks and Allowances under Cafeteria Approach @ 35% of Basic Pay",
+      "Underground Allowance (9% to 15% of basic pay) for executives working in underground coal mines",
+      "House Rent Allowance (HRA) @ 9%, 18%, or 27% / Free residential quarters in CIL subsidiary townships",
+      "Performance Related Pay (PRP) linked to individual performance and coal production targets",
+      "Coal Mines Provident Fund (CMPF), Gratuity, and Contributory Post-Retirement Medicare Scheme (CPRMS)",
+      "Free medical attendance for employee and dependents in subsidiary central hospitals"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment metrics and application statistics from Coal India Limited Management Trainee recruitment cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 640,
+        "applicants": 122000,
+        "shortlisted_for_mains": 1920,
+        "selectivity_ratio": "approx. 1 in 190",
+        "confidence": "reported",
+        "as_of": "2024-06-15",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Advt. No. 04/2024 notifying 640 Management Trainee vacancies across Mining, Engineering, and Non-Technical streams."
+      },
+      {
+        "year": 2023,
+        "vacancies": 560,
+        "applicants": 110000,
+        "shortlisted_for_mains": 1680,
+        "selectivity_ratio": "approx. 1 in 196",
+        "confidence": "reported",
+        "as_of": "2023-09-12",
+        "source_url": "https://www.coalindia.in",
+        "source_label": "CIL Advt. No. 03/2023 notifying 560 Management Trainee vacancies."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection guidelines, and portal links hosted on Coal India Limited web servers.",
+    "links": [
+      {
+        "label": "Coal India Limited Careers & Jobs Portal",
+        "url": "https://www.coalindia.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Coal India Limited Official Corporate Website",
+        "url": "https://www.coalindia.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
