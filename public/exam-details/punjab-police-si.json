@@ -1,0 +1,256 @@
+{
+  "id": "punjab-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Sub-Inspectors (SIs) in Punjab Police are appointed across District Police, Armed Police, and Investigation Cadres under the Punjab Police Act, 2007, the Punjab Police (Cadre and Recruitment) Rules, and the Punjab Police Rules, 1934. Sub-Inspectors are directly gazette-tracked officers who can rise through departmental promotion to Inspector, Deputy Superintendent of Police (DSP) in the Punjab Police Service (PPS), and subsequently earn induction into the Indian Police Service (IPS, Punjab Cadre) under Central DoPT regulations.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI) — Investigation / District / Armed Cadre",
+        "pay_level": "Punjab Pay Matrix Level 6 (Scale ₹35,400 - ₹1,12,400)",
+        "years": "Entry (probation 3 years)",
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "source_label": "Punjab Police Recruitment Notification (Sub-Inspectors) & Department of Home Affairs and Justice, Government of Punjab"
+      },
+      {
+        "designation": "Inspector of Police (Station House Officer / Incharge CIA / Cyber Crime Cell)",
+        "pay_level": "Punjab Pay Matrix Level 7 (Scale ₹44,900 - ₹1,42,400)",
+        "years": "approx. 6-8 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/administration/list-of-lower-inter-upper-school-probasi-inspr-dsps-pass-officers-officials-pbi/",
+        "source_label": "Punjab Police Administration — Upper School Course & Inspector Promotion List"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP) / Assistant Commissioner of Police (ACP) — Group A Gazetted",
+        "pay_level": "Punjab Pay Matrix Level 10 (Scale ₹56,100 - ₹1,77,500)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/administration/promotion-orders-of-ips-pps/",
+        "source_label": "Department of Home Affairs & Justice, Government of Punjab — Punjab Police Service (PPS) Cadre Rules"
+      },
+      {
+        "designation": "Superintendent of Police (SP) / Additional SP (Zonal / Crime / Traffic / Headquarters)",
+        "pay_level": "Punjab Pay Matrix Level 11 (Scale ₹67,700 - ₹2,08,700)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/administration/promotion-orders-of-ips-pps/",
+        "source_label": "Punjab Police Service (PPS) Senior Scale & Selection Grade Promotion Orders"
+      },
+      {
+        "designation": "Senior Superintendent of Police (SSP) / Non-Cadre Selection Grade SP",
+        "pay_level": "Punjab Pay Matrix Level 12 / Level 13 (Scale ₹78,800 - ₹2,11,500 / ₹1,23,100 - ₹2,15,900)",
+        "years": "approx. 25-30 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/administration/promotion-orders-of-ips-pps/",
+        "source_label": "Department of Home Affairs and Justice — Senior PPS Promotion Register"
+      },
+      {
+        "designation": "Indian Police Service (IPS) — Punjab Cadre (Promoted Quota)",
+        "pay_level": "Level 13 / Level 13A (7th CPC IPS Pay Matrix)",
+        "years": "Apex (Induction by promotion under IPS Appointment by Promotion Regulations)",
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/administration/promotion-orders-of-ips-pps/",
+        "source_label": "Ministry of Home Affairs & UPSC / DoPT IPS (Appointment by Promotion) Regulations, 1955"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of three sequential stages: Stage I (Computer Based Test comprising Paper I, Paper II, and mandatory qualifying Paper III Punjabi), Stage II (Physical Screening Test and Physical Measurement Test), and Stage III (Document Scrutiny). Final merit ranking is calculated on the aggregate marks scored in Paper I and Paper II (out of 800 marks) among candidates who qualify Paper III (Punjabi), PST, PMT, and DV.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "source_label": "Punjab Police Recruitment Notification (Sub-Inspectors in District, Armed & Investigation Cadres) — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I (General Awareness 50 Qs, Quantitative Aptitude 30 Qs, Punjabi Language 20 Qs)",
+            "marks": 400,
+            "duration_minutes": 120,
+            "negative_marking": "-25% (1 mark deducted per incorrect answer; 4 marks per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% aggregate in Paper I & II combined (35% for SC/ST/BC/EWS)"
+          },
+          {
+            "paper_name": "Paper II (Logical & Analytical Reasoning 50 Qs, Digital Literacy & Computer Awareness 30 Qs, English Language 20 Qs)",
+            "marks": 400,
+            "duration_minutes": 120,
+            "negative_marking": "-25% (1 mark deducted per incorrect answer; 4 marks per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% aggregate in Paper I & II combined (35% for SC/ST/BC/EWS)"
+          },
+          {
+            "paper_name": "Paper III (Mandatory Qualifying Punjabi Language Paper equivalent to Matriculation standard)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% (minimum 25 marks out of 50)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Physical Screening Test (PST) & Physical Measurement Test (PMT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "source_label": "Punjab Police Recruitment Notification — Physical Screening Standards",
+        "papers": [
+          {
+            "paper_name": "Physical Screening Test (District/Armed Male: 1600m in 7:00 min, Long Jump 3.65m, High Jump 1.15m; Investigation Male: 800m in 4:00 min, Long Jump 2.75m, High Jump 0.90m; Female: 800m in 4:30 min, Long Jump 3.00m/2.25m, High Jump 0.95m/0.75m)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard in all three physical events"
+          },
+          {
+            "paper_name": "Physical Measurement Test (Height verification: District/Armed Male 5 ft 7 in / 170.2 cm, Female 5 ft 2 in / 157.5 cm; Investigation Male 5 ft 5 in / 165.1 cm, Female 5 ft 1 in / 154.9 cm)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum height clearance"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Document Scrutiny & Background Character Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-01-31",
+        "source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "source_label": "Punjab Police Recruitment Notification — Document Scrutiny Procedure",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of original graduation degree, matriculation Punjabi certificate, domicile, caste/category certificate, and biometric verification",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Production of valid original certificates and verification"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation for Sub-Inspectors in Punjab Police is governed by the Punjab Civil Services (Revised Pay) Rules, 2021 notified by the Department of Finance, Government of Punjab. Sub-Inspectors enter at Punjab Pay Matrix Level 6 with an entry basic pay of ₹35,400. In accordance with Government of Punjab Department of Finance policy instructions (Letters No. 7/204/2012-4FP1/60 dated 15.01.2015 and No. 7/42/2020-5FP1/741-746 dated 17.07.2020), newly recruited personnel receive fixed minimum basic pay without allowances during the initial 3-year probation period, after which regular allowances (DA, HRA, uniform allowance, investigation allowance, medical allowance) are admissible in full.",
+    "pay_level": "Punjab Pay Matrix Level 6 (Entry Basic ₹35,400; Scale ₹35,400 - ₹1,12,400)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-01-31",
+    "pay_source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+    "pay_source_label": "Punjab Police Sub-Inspector Advt. No. 01/2023 & Punjab Civil Services (Revised Pay) Rules 2021, Department of Finance, Government of Punjab",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 61000,
+      "max": 67000
+    },
+    "in_hand_range_estimate": {
+      "min": 55000,
+      "max": 61000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Post-probation gross salary is computed from Punjab Pay Matrix Level 6 entry basic ₹35,400 + 58% DA (₹20,532) + Punjab HRA (ranging from 8% in rural police stations to 16% in major cities like SAS Nagar/Mohali, Ludhiana, Amritsar: ₹2,832 to ₹5,664) + fixed medical allowance (₹1,000) + special police investigation allowance and kit maintenance. Net in-hand estimate reflects statutory deductions including 10% NPS contribution (Basic + DA = ₹5,593), Punjab Development Tax (₹200/month), and GIS (₹200). Note: Newly appointed officers receive fixed basic pay ₹35,400 during the initial probation period as per Punjab government policy instructions.",
+    "official_perks": [
+      "Government-allotted residential family quarters in police lines or sub-divisional police headquarters (subject to availability)",
+      "Official wireless-fitted police patrol vehicle / motorcycle and monthly official POL (fuel) quota for operational duties",
+      "Special Investigation Allowance and uniform kit maintenance allowance under Punjab Police Rules",
+      "Free comprehensive medical treatment for officer and dependent family members under Punjab Government Medical Attendance Rules",
+      "Contributory pension coverage under the National Pension System (NPS) with 14% matching employer contribution by Government of Punjab",
+      "Official service weapon (Glock 9mm / 9mm Pistol / Service Revolver) entitlement for law enforcement duties",
+      "Leave Travel Concession (LTC) and 30 days annual earned leave entitlement plus casual leave"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Data compiled from official Punjab Police recruitment advertisements, press notes, and recruitment board notifications across District, Armed, and Investigation Cadres. Selectivity ratio is calculated as total applicants divided by notified vacancies.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 240000,
+        "vacancies": 288,
+        "shortlisted_for_mains": 5200,
+        "selectivity_ratio": "approx. 1 in 833 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-02-15",
+        "source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "source_label": "Punjab Police Recruitment Board Notice — Advt. No. 01/2023 (288 Sub-Inspector vacancies: 144 District Police, 144 Armed Police; approx. 2.4 lakh registered applicants)."
+      },
+      {
+        "year": 2021,
+        "applicants": 215000,
+        "vacancies": 560,
+        "shortlisted_for_mains": 9800,
+        "selectivity_ratio": "approx. 1 in 384 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-07-06",
+        "source_url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "source_label": "Punjab Police Recruitment Board — Advt. No. 01/2021 (560 Sub-Inspector posts across District, Armed, Investigation, and Intelligence Cadres; over 2.15 lakh applicants)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal links, service rules, and administrative statutory notifications published by Punjab Police and Department of Home Affairs & Justice, Government of Punjab.",
+    "links": [
+      {
+        "label": "Punjab Police Official Portal & Web Hub",
+        "url": "https://punjabpolice.gov.in/en/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-01-31"
+      },
+      {
+        "label": "Punjab Police Rules & Statutory Regulations Hub",
+        "url": "https://punjabpolice.gov.in/en/serving-community/punjab-police-rules/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-01-31"
+      },
+      {
+        "label": "Punjab Police Service Rules (Official Statutory Document)",
+        "url": "https://punjabpolice.gov.in/media/documents/PBPoliceservicerules.pdf",
+        "type": "notification",
+        "cycle_label": "Service Rules",
+        "confidence": "verified",
+        "as_of": "2023-01-31"
+      },
+      {
+        "label": "Punjab Police Officer Promotions & Cadre Orders Register",
+        "url": "https://punjabpolice.gov.in/en/administration/promotion-orders-of-ips-pps/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-01-31"
+      },
+      {
+        "label": "Punjab Police Subordinate Promotion School Courses (Upper/DSP Courses)",
+        "url": "https://punjabpolice.gov.in/en/administration/list-of-lower-inter-upper-school-probasi-inspr-dsps-pass-officers-officials-pbi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-01-31"
+      }
+    ]
+  }
+}

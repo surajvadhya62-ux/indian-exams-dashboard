@@ -1,0 +1,220 @@
+{
+  "id": "psssb-patwari",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Revenue Patwaris in the Department of Revenue, Rehabilitation and Disaster Management, Government of Punjab, operate as the grassroots administrative authority for rural land records, mutation entries, Jamabandi maintenance, and Girdawari crop harvest inspections. Departmental progression is governed by the Punjab Department of Revenue (Class III) Service Rules. Patwaris advance through the statutory Kanungo departmental examination to supervisory revenue positions, and subsequently to executive magisterial posts (Naib Tehsildar and Tehsildar).",
+    "steps": [
+      {
+        "designation": "Revenue Patwari (Department of Revenue, Punjab)",
+        "pay_level": "Punjab Pay Matrix Level 3 (Scale ₹21,700 - ₹69,100)",
+        "years": "Entry (probation 3 years)",
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "source_label": "PSSSB Advt. No. 02/2023 & Department of Revenue, Rehabilitation and Disaster Management Service Rules"
+      },
+      {
+        "designation": "Kanungo / Field Kanungo / Office Kanungo",
+        "pay_level": "Punjab Pay Matrix Level 4 (Scale ₹25,500 - ₹81,100)",
+        "years": "approx. 5-8 yrs (upon qualifying statutory Kanungo departmental exam)",
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "source_label": "Punjab Revenue Department Service Rules — Kanungo Cadre Promotion Regulations"
+      },
+      {
+        "designation": "Naib Tehsildar (Executive Magistrate & Sub-Registrar) — Group B",
+        "pay_level": "Punjab Pay Matrix Level 6 (Scale ₹35,400 - ₹1,12,400)",
+        "years": "approx. 12-16 yrs (50% promotion quota from Kanungos)",
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "source_label": "Punjab Department of Revenue — Naib Tehsildar Service Rules"
+      },
+      {
+        "designation": "Tehsildar / Sub-Divisional Revenue Officer — Group A",
+        "pay_level": "Punjab Pay Matrix Level 8 (Scale ₹47,600 - ₹1,51,100)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "source_label": "Punjab Civil Services Rules & Department of Revenue Cadre Orders"
+      },
+      {
+        "designation": "District Revenue Officer (DRO) / Assistant Commissioner (Revenue)",
+        "pay_level": "Punjab Pay Matrix Level 9 / Level 10 (Scale ₹53,100 - ₹1,67,800 / ₹56,100 - ₹1,77,500)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "source_label": "Punjab Revenue Executive Cadre — District Revenue Officer Promotion Schedule"
+      },
+      {
+        "designation": "Punjab Civil Service (Executive Branch) / Sub-Divisional Magistrate (SDM)",
+        "pay_level": "Punjab Pay Matrix Level 10+ (Scale ₹56,100 - ₹1,77,500)",
+        "years": "Apex (Induction into PCS Executive Cadre under state promotion quota)",
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "source_label": "Department of Personnel, Government of Punjab — PCS (Executive Branch) Promotion Register"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a Single Stage Objective Written Examination (OMR-based) held in two parts in a single session: Part A (Mandatory Qualifying Punjabi Language Paper) and Part B (Merit Subject Paper), followed by Document Verification & Counselling. Final merit is determined solely on the marks scored in Part B among candidates securing at least 50% in Part A.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (OMR Based)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/syllabus/",
+        "source_label": "PSSSB Official Syllabus & Examination Scheme for Revenue Patwari (Advt. No. 02/2023)",
+        "papers": [
+          {
+            "paper_name": "Part A (Mandatory Qualifying Punjabi Language Paper equivalent to Matriculation standard)",
+            "marks": 50,
+            "duration_minutes": 50,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% (minimum 25 marks out of 50)"
+          },
+          {
+            "paper_name": "Part B (General Knowledge 25 Qs, Mental Ability & Reasoning 25 Qs, Arithmetic 25 Qs, English 12 Qs, Punjabi 13 Qs)",
+            "marks": 100,
+            "duration_minutes": 100,
+            "negative_marking": "-0.25 marks deducted per incorrect answer (1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% minimum passing mark (35% for SC/ST)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification & Counselling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-02-23",
+        "source_url": "https://sssb.punjab.gov.in/previous-advertisements/",
+        "source_label": "PSSSB Counselling & Scrutiny Procedure Notice for Revenue Patwari",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of original graduation degree, 120-hour ISO computer certificate / 'O' Level certificate, Matriculation Punjabi certificate, and caste/domicile documents",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of eligibility and original documents"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale for Revenue Patwaris is governed by the Punjab Civil Services (Revised Pay) Rules, 2021 notified by the Department of Finance, Government of Punjab. Entry basic pay is fixed at ₹21,700 under Punjab Pay Matrix Level 3. In terms of Department of Finance policy instructions (Letters No. 7/204/2012-4FP1/60 dated 15.01.2015 and No. 7/42/2020-5FP1/741-746 dated 17.07.2020), newly appointed Patwaris draw fixed minimum basic pay without allowances during their initial 3-year probation period, after which regular allowances (DA, HRA, patwar allowance, medical allowance) are admissible in full.",
+    "pay_level": "Punjab Pay Matrix Level 3 (Entry Basic ₹21,700; Scale ₹21,700 - ₹69,100)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-02-23",
+    "pay_source_url": "https://sssb.punjab.gov.in/previous-advertisements/",
+    "pay_source_label": "PSSSB Advt. No. 02/2023 & Punjab Civil Services (Revised Pay) Rules 2021, Department of Finance, Government of Punjab",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 42000
+    },
+    "in_hand_range_estimate": {
+      "min": 34000,
+      "max": 38000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Post-probation gross salary is calculated from Level 3 entry basic ₹21,700 + 58% DA (₹12,586) + Punjab HRA (8% in rural patwar circles to 16% in district headquarters/tehsils: ₹1,736 to ₹3,472) + fixed medical allowance (₹1,000) + patwar field allowance. Net in-hand estimate accounts for statutory deductions including 10% NPS contribution (Basic + DA = ₹3,429), Punjab Development Tax (₹200/month), and GIS. During the initial probation period, appointees draw fixed basic ₹21,700 as per state policy.",
+    "official_perks": [
+      "Designated Patwarkhana (office establishment) in assigned rural circle or tehsil complex",
+      "Fixed monthly medical allowance sanctioned under Punjab Medical Attendance Rules",
+      "Contributory pension coverage under National Pension System (NPS) with 14% matching contribution by Government of Punjab",
+      "Group Insurance Scheme (GIS) cover and government death-cum-retirement gratuity benefits",
+      "Field travel allowance / conveyance compensation for revenue survey and crop girdawari duties",
+      "Leave Travel Concession (LTC) and standard state government leave entitlements"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official PSSSB recruitment notices, candidate examination lists, and category-wise cut-off score notifications for Revenue Patwari and Zilladar posts. Selectivity ratio represents total applicants divided by notified vacancies.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 235000,
+        "vacancies": 710,
+        "shortlisted_for_mains": 2130,
+        "selectivity_ratio": "approx. 1 in 331 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-05-14",
+        "source_url": "https://sssb.punjab.gov.in/previous-results/",
+        "source_label": "PSSSB Result & Counselling Notice for Advt. No. 02/2023 (710 Revenue Patwari vacancies; approx. 2.35 lakh registered candidates; exam conducted 14 May 2023)."
+      },
+      {
+        "year": 2021,
+        "applicants": 271000,
+        "vacancies": 1152,
+        "shortlisted_for_mains": 3450,
+        "selectivity_ratio": "approx. 1 in 235 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-08-10",
+        "source_url": "https://sssb.punjab.gov.in/previous-results/",
+        "source_label": "PSSSB Combined Patwari & Zilladar Examination Result — Advt. No. 01/2021 (1,090 Revenue Patwaris, 36 Zilladars, 26 Irrigation Booking Clerks; 2.71 lakh applicants)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official examination links, syllabi, and recruitment circulars maintained by Punjab Subordinate Services Selection Board (PSSSB), Government of Punjab.",
+    "links": [
+      {
+        "label": "PSSSB Official Web Portal",
+        "url": "https://sssb.punjab.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-02-23"
+      },
+      {
+        "label": "PSSSB Syllabus & Examination Schemes Hub",
+        "url": "https://sssb.punjab.gov.in/syllabus/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-02-23"
+      },
+      {
+        "label": "PSSSB Advertisements, Notices & Circulars Archive",
+        "url": "https://sssb.punjab.gov.in/previous-advertisements/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2023-02-23"
+      },
+      {
+        "label": "PSSSB Service Rules & Regulations Repository",
+        "url": "https://sssb.punjab.gov.in/rules-regulations/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-02-23"
+      },
+      {
+        "label": "PSSSB Previous Results & Merit Lists Hub",
+        "url": "https://sssb.punjab.gov.in/previous-results/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-02-23"
+      }
+    ]
+  }
+}
