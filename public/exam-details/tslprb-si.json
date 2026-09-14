@@ -1,0 +1,266 @@
+{
+  "id": "tslprb-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Governed by the Telangana Police (Subordinate Service) Rules and Telangana Police Service (TPS) Rules. Direct-entry Sub-Inspectors in Civil, AR, and TGSP undergo 1 year of foundation and specialized tactical training at the Telangana State Police Academy (TSPA), Himayathsagar, followed by 1 year of practical police station attachment prior to confirmation.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (Civil / AR / SAR CPL / TGSP / SPF)",
+        "pay_level": "Telangana RPS 2020 Scale 17 (Scale ₹42,300 - ₹1,15,270)",
+        "years": "Entry (2 years probation including 1 yr TSPA institutional training)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+        "source_label": "TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 Para 1 & G.O.Ms.No.51 Finance (HRM.IV) Dept Dt.11/06/2021"
+      },
+      {
+        "designation": "Inspector of Police (Circle Inspector / Station House Officer / Unit Commander)",
+        "pay_level": "Telangana RPS 2020 Scale 21 (Scale ₹51,320 - ₹1,27,310)",
+        "years": "approx. 6-10 yrs (subject to clean ACRs, field service, and qualifying promotion examinations)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://www.tgprb.in/",
+        "source_label": "Telangana Police (Subordinate Service) Rules & Office of Director General of Police, Telangana"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP) / Assistant Commissioner of Police (ACP)",
+        "pay_level": "Telangana RPS 2020 Scale 23 (Scale ₹58,850 - ₹1,37,050)",
+        "years": "approx. 14-18 yrs (induction into Gazetted State Police Service — TPS Category-2)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://www.tgprb.in/",
+        "source_label": "Telangana Police Service Rules & G.O.Ms.No.51 Finance (HRM.IV) Department"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP) / Additional Deputy Commissioner of Police (Addl. DCP)",
+        "pay_level": "Telangana RPS 2020 Scale 26 (Scale ₹72,850 - ₹1,47,310)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://www.tgprb.in/",
+        "source_label": "Telangana Police Service Rules & Home (Police) Department, Govt. of Telangana"
+      },
+      {
+        "designation": "Superintendent of Police (Non-Cadre SP) / Deputy Commissioner of Police (DCP)",
+        "pay_level": "Telangana RPS 2020 Scale 28 (Scale ₹87,130 - ₹1,58,380)",
+        "years": "approx. 26-30 yrs (Senior Selection Grade)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://www.tgprb.in/",
+        "source_label": "Telangana Police Service Rules & Home (Police) Department, Govt. of Telangana"
+      },
+      {
+        "designation": "Indian Police Service (IPS) (Conferment / Induction into IPS under Promotion Regulations)",
+        "pay_level": "7th CPC Pay Matrix Level 12 / 13 (Selection Grade / DIG Range Scale)",
+        "years": "Apex (Induction into IPS Cadre as per UPSC/MHA IPS Appointment by Promotion Regulations)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://www.tgprb.in/",
+        "source_label": "Ministry of Home Affairs & UPSC IPS Promotion Quota Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment examination consists of three stages: Stage I Preliminary Written Test (PWT, 200 marks, screening only), Stage II Physical Measurement Test (PMT) and Physical Efficiency Test (PET), and Stage III Final Written Examination (FWE) of 4 papers. In FWE, Papers I & II (English and Telugu/Urdu, 100 marks each) are qualifying only. For Civil SI (Post Code 11), Station Fire Officer (17), and Deputy Jailors (18/19), final merit is drawn from Paper III (200 marks) + Paper IV (200 marks) = 400 marks total. For AR (12), SAR CPL (13), TGSP (14), and SPF (16), final merit is drawn from Paper III (100 marks) + Paper IV (100 marks) + PET Run (100 marks) = 300 marks total.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Written Test (PWT) (Objective Type, Screening Only)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+        "source_label": "TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 (Para 16-A & Annexure-II Syllabus)",
+        "papers": [
+          {
+            "paper_name": "Preliminary Written Test (Part A: Arithmetic & Test of Reasoning / Mental Ability - 100 Qs; Part B: General Studies & Telangana Movement - 100 Qs)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "20% (1/5th) negative marks for each incorrect response",
+            "qualifying_only": true,
+            "qualifying_threshold": "30% for OC/EWS (60/200), 25% for BC (50/200), 20% for SC/ST/Ex-Servicemen (40/200)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Physical Measurement Test (PMT) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+        "source_label": "TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 (Para 16-B & Annexure-I Gradation Table)",
+        "papers": [
+          {
+            "paper_name": "1600m Run (Men, max 7m 15s; Ex-Servicemen 9m 30s) / 800m Run (Women, max 5m 20s)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Men: 7 min 15 sec (Ex-Servicemen: 9 min 30 sec); Women: 5 min 20 sec (Scored out of 100 for AR/TGSP/SAR CPL/SPF; qualifying for Civil/Fire/Jailor)"
+          },
+          {
+            "paper_name": "Physical Measurement Test (PMT) & Qualifying Events (Long Jump & Shot Put)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Height: Men 167.6 cm (Agency ST 160 cm), Women 152.5 cm (Agency ST 150 cm); Long Jump: Men 4.0m (Ex-SM 3.5m), Women 2.5m; Shot Put (7.26kg Men / 4kg Women): Men 6.0m, Women 4.0m"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Final Written Examination (FWE)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+        "source_label": "TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 (Para 16-C & Annexure-III Syllabus)",
+        "papers": [
+          {
+            "paper_name": "Paper I: English (Part A Objective MCQs 25 Marks with 25% negative marking; Part B Descriptive Précis/Letter/Essay 75 Marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "25% negative marking in Part A only; Part B is descriptive",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% for OC/EWS, 35% for BC, 30% for SC/ST/Ex-Servicemen (qualifying paper, marks not added to final merit)"
+          },
+          {
+            "paper_name": "Paper II: Telugu / Urdu (Part A Objective MCQs 25 Marks with 25% negative marking; Part B Descriptive Précis/Letter/Essay 75 Marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "25% negative marking in Part A only; Part B is descriptive",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% for OC/EWS, 35% for BC, 30% for SC/ST/Ex-Servicemen (qualifying paper, marks not added to final merit)"
+          },
+          {
+            "paper_name": "Paper III: Arithmetic and Test of Reasoning / Mental Ability (Objective Type, 200 Questions)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Deleted questions compensated proportionately; no negative marking in FWE",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for OC/EWS, 35% for BC, 30% for SC/ST/Ex-Servicemen (200 marks for Civil/Fire/Jailor; 100 marks for AR/TGSP/SPF)"
+          },
+          {
+            "paper_name": "Paper IV: General Studies (Objective Type, 200 Questions: General Science, Current Events, Indian History, Geography, Polity & Economy, Personality/Ethics, Telangana Movement & State Formation)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Deleted questions compensated proportionately; no negative marking in FWE",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for OC/EWS, 35% for BC, 30% for SC/ST/Ex-Servicemen (200 marks for Civil/Fire/Jailor; 100 marks for AR/TGSP/SPF)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police in Telangana are appointed under the Telangana Revised Pay Scales 2020 (RPS 2020), notified vide G.O.Ms.No.51, Finance (HRM.IV) Department, dated 11/06/2021. The post is placed in Scale 17 (₹42,300 – 1,15,270) with an Entry Basic Pay of ₹42,300 (Station Fire Officers and Deputy Jailors are in Scale 15: ₹38,890 – 1,12,510). Dearness Allowance (DA) is calculated at the standardized project review constant of 58% effective 2025-07-01. House Rent Allowance (HRA) is governed by G.O.Ms.No.53 Finance Department (24% for Greater Hyderabad/Cyberabad/Rachakonda municipal areas, 13% for district headquarters/corporations, and 11% for other locations).",
+    "pay_level": "Scale ₹42,300 - 1,15,270 (Telangana RPS 2020 Scale 17)",
+    "entry_basic_pay": 42300,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-07-29",
+    "pay_source_url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+    "pay_source_label": "TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 Para 1 & G.O.Ms.No.51 Finance (HRM.IV) Dept Dt.11/06/2021",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 74000,
+      "max": 82500
+    },
+    "in_hand_range_estimate": {
+      "min": 65500,
+      "max": 74000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross calculated on entry basic pay of ₹42,300 with 58% project constant DA (₹24,534), HRA ranging from 11% (₹4,653 in mofussil police sub-divisions) to 24% (₹10,152 in GHMC Hyderabad/Cyberabad/Rachakonda commissionerate jurisdictions) governed by G.O.Ms.No.53 Finance Department, plus executive police allowance, conveyance allowance, and uniform kit maintenance (~₹2,500–₹4,500). In-hand reflects deductions: 10% NPS contribution on Basic+DA (₹6,683), Professional Tax (₹200), and TSGLI/GIS/EHS deductions (~₹1,000–₹1,500).",
+    "official_perks": [
+      "Dearness Allowance (DA) indexed to AICPI as per Government of Telangana Finance Department orders",
+      "House Rent Allowance (HRA) at 11%, 13%, or 24% of basic pay based on location classification",
+      "Executive police allowance, conveyance allowance, and uniform maintenance allowance",
+      "Government accommodation (police quarters / officers' flats in police lines or HRA in lieu thereof)",
+      "Employee Health Scheme (EHS) cashless medical treatment for self and recognized dependent family members",
+      "Telangana State Government Life Insurance (TSGLI) and Group Insurance Scheme (GIS) coverage",
+      "NPS pension benefits with 14% state employer contribution",
+      "Official communication facility, CUG mobile reimbursement, and duty travel allowances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for the 2026 recruitment cycle are cited directly from TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 dated 29-07-2026 across 7 Zones in Telangana (275 total posts across Civil, AR, SAR CPL, TGSP, SPF, Fire, and Prisons). Historical 2022 figures reflect the earlier 554 SI recruitment cycle where 2,47,217 applicants registered and 1,05,603 candidates qualified the Preliminary Written Test.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 210000,
+        "vacancies": 275,
+        "selectivity_ratio": "approx. 1 in 764 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-07-29",
+        "source_url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+        "source_label": "TSLPRB Notification Rc No. 225/Rect./Rect.-1/2026 dated 29-07-2026 (Para 1 Vacancies: 275 total posts across 7 Zones)"
+      },
+      {
+        "year": 2022,
+        "applicants": 247217,
+        "vacancies": 554,
+        "shortlisted_for_mains": 105603,
+        "selectivity_ratio": "approx. 1 in 446 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-08-07",
+        "source_url": "https://www.tgprb.in/",
+        "source_label": "TSLPRB Official Press Release on Preliminary Written Test (PWT) for SCT SIs: 2,47,217 applicants, 2,25,668 appeared, 1,05,603 qualified"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notification documents, age relaxation amendments, and candidate user guides hosted on the official Telangana Police Recruitment Board document repository (doc.tgprb.in) and portal (tgprb.in).",
+    "links": [
+      {
+        "label": "TSLPRB SCT Sub-Inspector (Civil, AR, SAR CPL, TGSP, SPF, SFO, Deputy Jailor) Notification 2026",
+        "url": "https://doc.tgprb.in/SI+(Civil+et+al)+2026+Notification+dated+29-07-2026.pdf",
+        "type": "notification",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-07-29"
+      },
+      {
+        "label": "Supplementary Notification — Age Relaxation (G.O. Ms No. 122 dated 14-08-2026)",
+        "url": "https://doc.tgprb.in/Supplementary+Notification+2026++dated+15-08-2026.pdf",
+        "type": "notification",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-08-15"
+      },
+      {
+        "label": "TSLPRB User Guide for Online Application and Registration",
+        "url": "https://doc.tgprb.in/TSLPRB_UserGuide_2026.pdf",
+        "type": "other",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-08-18"
+      },
+      {
+        "label": "TSLPRB Recruitment Frequently Asked Questions (FAQs)",
+        "url": "https://doc.tgprb.in/TSLPRB2026+FAQs+210826.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-08-24"
+      },
+      {
+        "label": "Telangana Police Recruitment Board Official Portal",
+        "url": "https://www.tgprb.in/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

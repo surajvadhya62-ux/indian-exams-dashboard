@@ -3,13 +3,13 @@
   "last_updated": "2026-09-14",
   "totals": {
     "exams": 504,
-    "verified": 353,
+    "verified": 355,
     "partial": 0,
-    "not_started": 151,
+    "not_started": 149,
     "exams_total": 504,
-    "detail_files_exist": 360,
+    "detail_files_exist": 362,
     "total_exams": 504,
-    "detail_files_present": 360,
+    "detail_files_present": 362,
     "last_updated": "2026-09-14"
   },
   "sessions": [
@@ -1239,6 +1239,19 @@
         "cg-pat"
       ],
       "notes": "Unit u118 completed: 2 CG Vyapam entrance examinations (CG PET, CG PAT) researched and verified against official examination guidelines, DTE/IGKV admission rules, syllabus PDFs, and candidate merit lists."
+    },
+    {
+      "session_id": "2026-09-14-u122",
+      "date": "2026-09-14",
+      "operator": "antigravity-ai",
+      "batch_ids_touched": [
+        "batch-5-subordinate-police-boards--telangana"
+      ],
+      "exam_ids_touched": [
+        "tslprb-constable",
+        "tslprb-si"
+      ],
+      "notes": "Unit u122 completed: 2 TSLPRB exams researched and verified against official notifications (Rc Nos. 189/2026 & 225/2026), Telangana Revised Pay Scales 2020 G.O.Ms.No.51, and official examination schemes on tgprb.in."
     }
   ],
   "exams": {
@@ -16696,43 +16709,53 @@
     "tslprb-constable": {
       "batch_id": "batch-5-subordinate-police-boards--telangana",
       "detail_file": "public/exam-details/tslprb-constable.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         }
       },
       "flags": []
@@ -16740,43 +16763,53 @@
     "tslprb-si": {
       "batch_id": "batch-5-subordinate-police-boards--telangana",
       "detail_file": "public/exam-details/tslprb-si.json",
-      "detail_file_exists": false,
-      "overall_status": "not_started",
+      "detail_file_exists": true,
+      "overall_status": "verified",
       "sections": {
         "career_ladder": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "exam_scheme": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "financial_package": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "competition_benchmarks": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         },
         "official_downloads": {
-          "status": "not_started",
-          "citations": [],
+          "status": "populated",
+          "citations": [
+            "see detail file"
+          ],
           "unavailable_reason": null,
-          "last_updated": null,
-          "updated_by": null
+          "last_updated": "2026-09-14",
+          "updated_by": "2026-09-14-u122"
         }
       },
       "flags": []
