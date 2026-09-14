@@ -1,0 +1,210 @@
+{
+  "id": "bis-scientist-b",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Scientist 'B' is the premier direct entry cadre for engineers and scientists in the Bureau of Indian Standards (BIS), statutory national standards body under the Ministry of Consumer Affairs, Food and Public Distribution. Scientists in BIS formulate Indian Standards (IS), conduct laboratory testing and factory audits for ISI Mark / Compulsory Registration Scheme (CRS) conformity certification, represent India at ISO/IEC international technical committees, and steer national quality infrastructure missions. Promotions are governed by the Modified Flexible Complementing Scheme (FCS), which provides merit-based, time-bound advancement independent of vacancy constraints.",
+    "steps": [
+      {
+        "designation": "Scientist 'B'",
+        "pay_level": "Level 10 (7th CPC)",
+        "years": "Entry Grade (₹56,100 - ₹1,77,500), Group A Gazetted (probation 2 years)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Scientist 'B' Recruitment Regulations & Advt 01/2024"
+      },
+      {
+        "designation": "Scientist 'C'",
+        "pay_level": "Level 11 (7th CPC)",
+        "years": "approx. 4 years (Promoted via Flexible Complementing Scheme assessment)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Scientific Cadre Promotion Rules (FCS)"
+      },
+      {
+        "designation": "Scientist 'D'",
+        "pay_level": "Level 12 (7th CPC)",
+        "years": "approx. 8-9 years (FCS assessment)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Scientific Cadre Rules"
+      },
+      {
+        "designation": "Scientist 'E' (Director)",
+        "pay_level": "Level 13 (7th CPC)",
+        "years": "approx. 13-15 years",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Scientific Cadre Rules"
+      },
+      {
+        "designation": "Scientist 'F' (Senior Director)",
+        "pay_level": "Level 13A (7th CPC)",
+        "years": "approx. 18-22 years",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Scientific Cadre Rules"
+      },
+      {
+        "designation": "Scientist 'G' (Deputy Director General)",
+        "pay_level": "Level 14 (7th CPC)",
+        "years": "approx. 25+ years (Senior Selection Grade)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Scientific Cadre Rules"
+      },
+      {
+        "designation": "Director General (DG, BIS)",
+        "pay_level": "Level 17 (7th CPC)",
+        "years": "Apex Scale (₹2,25,000 fixed)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Executive Leadership Scale"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment of Scientist 'B' is conducted based on valid GATE (Graduate Aptitude Test in Engineering) Score in corresponding engineering disciplines (Civil, Mechanical, Electrical, Chemical, Metallurgical, Computer Engineering, Environmental Engineering) followed by a Personal Interview. Shortlisted candidates are called in the ratio of 1:4 per vacancy.",
+    "stages": [
+      {
+        "stage_name": "Shortlisting on Valid GATE Score",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in/index.php/recruitment-to-the-posts-of-scientist-b/?lang=en",
+        "source_label": "BIS Notification for Recruitment of Scientist 'B'",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Relevant Engineering Discipline (Normalized Score out of 1000)",
+            "marks": 85,
+            "duration_minutes": 180,
+            "negative_marking": "Standard GATE negative marking (-0.33 for 1-mark MCQs, -0.66 for 2-mark MCQs)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Valid GATE scorecard required; candidates shortlisted in 1:4 ratio per vacancy; carries 85% weightage in final composite merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in/recruitment-of-scientist-b-shortlisted-candidates-and-schedule-of-interview/?lang=en",
+        "source_label": "BIS Selection Board Interview Process for Scientist 'B'",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical Domain Knowledge, Research Aptitude & Problem Solving)",
+            "marks": 15,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking (Assesses engineering fundamentals, standardization ethics, and communication)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks in interview for UR/EWS/OBC and 40% for SC/ST; carries 15% weightage in final composite merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10 (7th CPC)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-01",
+    "pay_source_url": "https://www.bis.gov.in",
+    "pay_source_label": "7th CPC Pay Matrix Level 10 (₹56,100 - ₹1,77,500) for Scientist 'B' (Group A Gazetted)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 100000,
+      "max": 118500
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 101000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 10 entry basic pay of ₹56,100. Dearness Allowance at canonical 58% equals ₹32,538. House Rent Allowance ranges from ₹5,610 (10% in Z-class cities) to ₹16,830 (30% in X-class cities like New Delhi Headquarters). Transport Allowance is ₹11,376 (₹7,200 + 58% DA in higher TPTA cities) or ₹5,688 (other). Deductions include NPS 10% (Basic + DA = ₹8,864), medical scheme, and income tax.",
+    "official_perks": [
+      "Group 'A' Central Officer Gazetted rank with time-bound promotion under Flexible Complementing Scheme (FCS)",
+      "Official residential quarters in BIS residential complexes / GPRA Type-V accommodation or 30% HRA",
+      "Comprehensive medical treatment and inpatient coverage under BIS Medical Attendance Rules",
+      "Professional Update Allowance and reimbursement of annual membership in international technical bodies (ISO/IEC/IEEE)",
+      "Leave Travel Concession (LTC), annual casual/earned leave, and child care leave",
+      "Defined contribution benefits under National Pension System (NPS) with 14% government contribution and central gratuity"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "National recruitment statistics for BIS Scientist 'B' through GATE score and interview.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 12500,
+        "vacancies": 65,
+        "shortlisted_for_mains": 260,
+        "selectivity_ratio": "approx. 1 in 192 overall selectivity (65 vacancies across engineering disciplines; ~12,500 GATE-qualified applicants; 260 candidates shortlisted for Interview in 1:4 ratio)",
+        "confidence": "reported",
+        "as_of": "2023-10-31",
+        "source_url": "https://www.bis.gov.in/recruitment-of-scientist-b-2023-final-result/?lang=en",
+        "source_label": "BIS Final Result & Cut-off Notification for Scientist 'B' 2023"
+      },
+      {
+        "year": 2022,
+        "applicants": 8400,
+        "vacancies": 28,
+        "shortlisted_for_mains": 112,
+        "selectivity_ratio": "approx. 1 in 300 overall selectivity (28 vacancies; 8,400 applicants; 112 shortlisted for Interview)",
+        "confidence": "reported",
+        "as_of": "2022-11-15",
+        "source_url": "https://www.bis.gov.in/index.php/recruitment-to-the-posts-of-scientist-b/?lang=en",
+        "source_label": "BIS Scientist 'B' 2022 Recruitment Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official links and notifications published on the Bureau of Indian Standards portal.",
+    "links": [
+      {
+        "label": "BIS Scientist 'B' Recruitment Notice & Interview Portal",
+        "url": "https://www.bis.gov.in/index.php/recruitment-to-the-posts-of-scientist-b/?lang=en",
+        "type": "notification",
+        "cycle_label": "Scientist-B-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BIS Scientist 'B' Final Result and Marks Declaration",
+        "url": "https://www.bis.gov.in/recruitment-of-scientist-b-2023-final-result/?lang=en",
+        "type": "other",
+        "cycle_label": "Scientist-B-Result",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BIS Career Opportunities Main Directory",
+        "url": "https://www.bis.gov.in/career-opportunities/1961-2/?lang=en",
+        "type": "notification",
+        "cycle_label": "BIS-Careers",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

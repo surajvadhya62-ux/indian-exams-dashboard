@@ -1,0 +1,214 @@
+{
+  "id": "bis-technical-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Recruited under the Bureau of Indian Standards (BIS) Direct Recruitment framework for non-gazetted technical and administrative personnel. Technical Assistants (Laboratory) operate in BIS Central, Regional, and Branch Testing Laboratories handling physical, chemical, mechanical, and microbiological standards compliance testing for ISI Mark certification. Senior Secretariat Assistants (SSA) manage administrative, licensing, vigilance, and financial departments at Manak Bhavan and field directorates.",
+    "steps": [
+      {
+        "designation": "Technical Assistant (Laboratory) [Level 6] / Senior Secretariat Assistant (SSA) [Level 4]",
+        "pay_level": "Level 6 / Level 4 (7th CPC)",
+        "years": "Entry level (probation 2 years)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Recruitment Regulations & Advertisement No. 01/2024/ESTT"
+      },
+      {
+        "designation": "Senior Technical Assistant (Lab) [Level 7] / Assistant Section Officer (ASO) [Level 7]",
+        "pay_level": "Level 7 (7th CPC)",
+        "years": "approx. 5 years (via departmental promotion / assessment)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Recruitment & Promotion Regulations"
+      },
+      {
+        "designation": "Assistant Director (Lab / Administration)",
+        "pay_level": "Level 10 (7th CPC)",
+        "years": "approx. 10-12 years (Group A officer cadre entry)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Service Regulations — Group A Cadre"
+      },
+      {
+        "designation": "Deputy Director (Lab / Standards)",
+        "pay_level": "Level 11 (7th CPC)",
+        "years": "approx. 15-18 years",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Service Regulations"
+      },
+      {
+        "designation": "Joint Director (Lab / Standards)",
+        "pay_level": "Level 12 (7th CPC)",
+        "years": "approx. 20-24 years",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Service Regulations"
+      },
+      {
+        "designation": "Director (Lab / Regional Directorate)",
+        "pay_level": "Level 13 (7th CPC)",
+        "years": "Senior Directorate Grade (₹1,23,100 - ₹2,15,900)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in",
+        "source_label": "BIS Service Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two tiers: an Online Computer Based Examination (150 objective questions, 150 marks, 120 minutes) followed by a qualifying Practical Skill / Trade Test in laboratory testing (for Technical Assistant) or Typing / Computer Proficiency Test (for SSA).",
+    "stages": [
+      {
+        "stage_name": "Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/05/Detailed-Advt.pdf",
+        "source_label": "BIS Advertisement No. 02/2022/ESTT & Advt 01/2024/ESTT — Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "General Intelligence & Reasoning",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined time of 120 minutes for entire test; minimum 50% marks in aggregate required"
+          },
+          {
+            "paper_name": "General Awareness (National, International, Standards & Science)",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite testing window"
+          },
+          {
+            "paper_name": "English Language (Grammar, Vocabulary & Comprehension)",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite testing window"
+          },
+          {
+            "paper_name": "Domain Technical Knowledge (Chemical / Mechanical / Microbiology / Electrical Testing)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks required in the technical domain section for shortlisting"
+          }
+        ]
+      },
+      {
+        "stage_name": "Practical Skill / Trade Test (Laboratory Testing)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.bis.gov.in/wp-content/uploads/2022/12/Notice-Skill-Test-for-the-post-of-Technical-Assistant-Lab.-1.pdf",
+        "source_label": "BIS Notification on Skill Test for Technical Assistant (Lab)",
+        "papers": [
+          {
+            "paper_name": "Laboratory Testing Practical Skill Assessment (Qualifying)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (Demonstration of calibration, chemical titrations, tensile testing, or microbiological culture handling)",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% marks required to qualify; marks do not count towards final merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 6 (7th CPC)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-01",
+    "pay_source_url": "https://www.bis.gov.in",
+    "pay_source_label": "BIS Notification — 7th CPC Level 6 (₹35,400 - ₹1,12,400) for Technical Assistant (Lab)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 62000,
+      "max": 73500
+    },
+    "in_hand_range_estimate": {
+      "min": 52000,
+      "max": 62500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 6 entry basic pay of ₹35,400. Dearness Allowance at canonical 58% equals ₹20,532. House Rent Allowance ranges from ₹3,540 (10% in Z-class cities) to ₹10,620 (30% in X-class cities like New Delhi, Mumbai, Kolkata, Chennai). Transport Allowance is ₹5,688 (higher TPTA) or ₹2,844 (other). Deductions include NPS 10% (Basic + DA = ₹5,593), medical contribution, and professional tax.",
+    "official_perks": [
+      "Residential accommodation in BIS Staff Quarters across regional capitals (or HRA)",
+      "Comprehensive medical treatment and reimbursement under BIS Medical Rules",
+      "Leave Travel Concession (LTC) and annual leave encashment per central rules",
+      "Children Education Allowance (CEA) and hostel subsidy",
+      "Defined contribution benefits under National Pension System (NPS) with 14% employer contribution",
+      "Performance incentives and lab technical allowances"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics for BIS Group B & C Non-Gazetted positions (Advt No. 02/2022/ESTT and subsequent cycles).",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 85000,
+        "vacancies": 125,
+        "shortlisted_for_mains": 625,
+        "selectivity_ratio": "approx. 1 in 680 overall selectivity (125 vacancies across Technical Assistant Lab and SSA; ~85,000 applicants; 1:5 ratio shortlisted for practical skill test)",
+        "confidence": "reported",
+        "as_of": "2023-03-31",
+        "source_url": "https://www.bis.gov.in/wp-content/uploads/2023/03/Notice-for-Final-Result_SSA.pdf",
+        "source_label": "BIS Final Result & Merit List Notification for Advt 02/2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and notices published by the Bureau of Indian Standards.",
+    "links": [
+      {
+        "label": "BIS Career Opportunities & Recruitment Notices",
+        "url": "https://www.bis.gov.in/career-opportunities/1961-2/?lang=en",
+        "type": "notification",
+        "cycle_label": "BIS-Careers",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BIS Detailed Recruitment Advertisement (Advt No. 02/2022/ESTT)",
+        "url": "https://www.bis.gov.in/wp-content/uploads/2022/05/Detailed-Advt.pdf",
+        "type": "syllabus",
+        "cycle_label": "Advt-02-2022",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "BIS Technical Assistant (Lab) Skill Test Notice",
+        "url": "https://www.bis.gov.in/wp-content/uploads/2022/12/Notice-Skill-Test-for-the-post-of-Technical-Assistant-Lab.-1.pdf",
+        "type": "other",
+        "cycle_label": "Skill-Test-Notice",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

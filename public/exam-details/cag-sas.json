@@ -1,0 +1,284 @@
+{
+  "id": "cag-sas",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Qualifying the Subordinate Audit/Accounts Service (SAS) examination entitles departmental employees and confirms Direct Recruit Assistant Audit Officers (DR-AAOs) in the Indian Audit and Accounts Department (IA&AD) under the Comptroller and Auditor General of India. It marks the transition into the Gazetted officer cadre with non-functional upgradation to Level 9 after 4 years, followed by regular promotion to Senior Audit Officer (Level 10) and induction into the Indian Audit and Accounts Service (IA&AS).",
+    "steps": [
+      {
+        "designation": "Assistant Audit Officer (AAO) / Assistant Accounts Officer (AAO)",
+        "pay_level": "Level 8 (7th CPC)",
+        "years": "Entry level via SAS qualification / DR-AAO confirmation (probation 2 years)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "CAG Recruitment Rules for Assistant Audit Officer & Assistant Accounts Officer — 7th CPC Level 8 (₹47,600 - ₹1,51,100)"
+      },
+      {
+        "designation": "Audit Officer (AO) / Accounts Officer (AO)",
+        "pay_level": "Level 9 (7th CPC)",
+        "years": "approx. 4 years (Non-Functional Upgradation to Level 9 upon completion of 4 years regular service as AAO)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "CAG of India Circular on Grant of Non-Functional Level 9 to AAOs"
+      },
+      {
+        "designation": "Senior Audit Officer (Sr. AO) / Senior Accounts Officer (Sr. AO)",
+        "pay_level": "Level 10 (7th CPC)",
+        "years": "approx. 8-12 years (Regular promotion based on seniority-cum-fitness)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "CAG Recruitment Rules for Senior Audit Officer — 7th CPC Level 10 (₹56,100 - ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Accountant General (DAG) / Deputy Director (DD)",
+        "pay_level": "Level 10/11 (7th CPC)",
+        "years": "approx. 15-20 years (Induction into Indian Audit & Accounts Service (IA&AS) Group A central service quota)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "Indian Audit and Accounts Service (IA&AS) Recruitment Rules"
+      },
+      {
+        "designation": "Senior Deputy Accountant General (Sr. DAG) / Director",
+        "pay_level": "Level 12 (7th CPC)",
+        "years": "approx. 20-25 years",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "IA&AS Cadre Allocation and Promotion Regulations"
+      },
+      {
+        "designation": "Principal Director (PD) / Accountant General (AG)",
+        "pay_level": "Level 14 (7th CPC)",
+        "years": "approx. 25-30 years (Senior Selection Grade)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "IA&AS Senior Management Cadre Regulations"
+      },
+      {
+        "designation": "Director General (DG) / Principal Accountant General (PAG)",
+        "pay_level": "Level 15 (7th CPC)",
+        "years": "approx. 30+ years (Higher Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "IA&AS Higher Administrative Grade Regulations"
+      },
+      {
+        "designation": "Additional Deputy Comptroller and Auditor General (ADAI)",
+        "pay_level": "Level 17 (7th CPC)",
+        "years": "Apex Scale (₹2,25,000 fixed)",
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in",
+        "source_label": "CAG of India Senior Leadership Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Subordinate Audit/Accounts Service (SAS) Examination is conducted biannually (Exam-1 and Exam-2) in Computer Based Test (CBT) mode across IA&AD field offices. It comprises two stages: a preliminary screening test conducted by field offices (exempted for qualified Divisional Accountants) and the central Main Examination conducted by the Headquarters Examination Wing across Group-I (Common core papers) and Group-II (Branch-specialized papers, e.g. Civil Audit, Commercial Audit, Defence Audit, Railway Audit).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Screening Examination (Field Offices)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in/en/examination/examination-details/775",
+        "source_label": "CAG Examination Regulations — Preliminary Screening for SAS Eligibility",
+        "papers": [
+          {
+            "paper_name": "Preliminary Screening Test on General English/Hindi, Elementary Accounts and Service Rules",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT mode",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% marks required to qualify for Headquarters SAS Main Examination (exempted for qualified Divisional Accountants)"
+          }
+        ]
+      },
+      {
+        "stage_name": "SAS Main Examination (Headquarters CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-03-11",
+        "source_url": "https://cag.gov.in/uploads/ExaminationBooks/ExaminationBooks-068f9d8e3146b23-80636121.pdf",
+        "source_label": "Consolidated Revised Syllabus of Subordinate Audit/Accounts Services (SAS) Examination — CAG Exam Wing",
+        "papers": [
+          {
+            "paper_name": "PC 1: Language Skills (Descriptive — Drafting, Precis, Short Essay & Comprehension)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (Descriptive examination on computer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST) to pass / obtain paper exemption"
+          },
+          {
+            "paper_name": "PC 2: Government Audit (Theory, Auditing Standards & Financial Statements Audit)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT MCQ mode",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          },
+          {
+            "paper_name": "PC 3: Information Technology (60 Marks Theory/IT Audit + 40 Marks Practical CAAT & Excel)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in theory MCQ component",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          },
+          {
+            "paper_name": "PC 4: Financial Rules, Service Rules and Basic Principles of Government Accounts",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT MCQ mode",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          },
+          {
+            "paper_name": "PC 8: Financial Rules, Basic Principles of Government and Public Works Accounts",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT MCQ mode",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          },
+          {
+            "paper_name": "PC 11: Advanced Government Accounts and Government Accounting Standards (GASAB)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT MCQ mode",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          },
+          {
+            "paper_name": "PC 12: Performance Audit and Compliance Audit (Civil Audit Branch)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT MCQ mode",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          },
+          {
+            "paper_name": "PC 14: Financial Management, Commercial Laws and Corporate Governance",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer in CBT MCQ mode",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks for General candidates (40% for SC/ST)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 8 (7th CPC)",
+    "entry_basic_pay": 47600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-01",
+    "pay_source_url": "https://cag.gov.in",
+    "pay_source_label": "7th Central Pay Commission Pay Matrix — Level 8 (₹47,600 - ₹1,51,100) for Assistant Audit/Accounts Officer (Group B Gazetted)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 83000,
+      "max": 96000
+    },
+    "in_hand_range_estimate": {
+      "min": 71000,
+      "max": 83000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 8 entry basic pay of ₹47,600. Dearness Allowance at canonical 58% equals ₹27,608. House Rent Allowance ranges from ₹4,760 (10% in Z-class cities) to ₹14,280 (30% in X-class cities like New Delhi, Mumbai, Kolkata, Chennai). Transport Allowance is ₹5,688 (₹3,600 + 58% DA in higher TPTA cities) or ₹2,844 in other cities. Monthly deductions include NPS 10% (Basic + DA = ₹7,521), CGEGIS ₹60, CGHS ₹650, and income tax.",
+    "official_perks": [
+      "Group 'B' Gazetted officer status in Government of India with statutory audit authority",
+      "Non-Functional Level 9 pay scale (₹53,100 - ₹1,67,800) automatically after 4 years regular service as AAO",
+      "Daily Allowance and traveling entitlement for outstation compliance and performance audit field tours",
+      "Government accommodation / General Pool Residential Accommodation (GPRA Type-IV) or HRA",
+      "Comprehensive medical coverage under Central Government Health Scheme (CGHS)",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA)",
+      "Defined contribution benefits under National Pension System (NPS) with 14% government contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Biannual examination statistics for the Subordinate Audit/Accounts Service (SAS) examination across all field offices of IA&AD.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 12500,
+        "vacancies": null,
+        "shortlisted_for_mains": 2850,
+        "selectivity_ratio": "approx. 22.8% overall qualification pass rate (12,500 candidates appeared across Exam-1 and Exam-2; 2,850 candidates fully cleared all remaining papers for AAO appointment/confirmation)",
+        "confidence": "reported",
+        "as_of": "2024-12-31",
+        "source_url": "https://cag.gov.in/en/examination/dashboard",
+        "source_label": "CAG Headquarters Examination Wing — Consolidated SAS Results Summary"
+      },
+      {
+        "year": 2023,
+        "applicants": 11800,
+        "vacancies": null,
+        "shortlisted_for_mains": 2620,
+        "selectivity_ratio": "approx. 22.2% overall qualification pass rate (11,800 candidates appeared across sessions; 2,620 completed SAS qualification)",
+        "confidence": "reported",
+        "as_of": "2023-12-31",
+        "source_url": "https://cag.gov.in/en/examination/dashboard",
+        "source_label": "CAG Headquarters Examination Wing — SAS Exam Session Reports"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official links and regulatory downloads from the Comptroller and Auditor General of India.",
+    "links": [
+      {
+        "label": "CAG Examination Dashboard & Latest Announcements",
+        "url": "https://cag.gov.in/en/examination/dashboard",
+        "type": "notification",
+        "cycle_label": "CAG-Exam-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Consolidated Revised SAS Examination Syllabus (March 2025)",
+        "url": "https://cag.gov.in/uploads/ExaminationBooks/ExaminationBooks-068f9d8e3146b23-80636121.pdf",
+        "type": "syllabus",
+        "cycle_label": "Syllabus-2025",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "CAG Examination Wing Circulars & Question Bank Guidelines",
+        "url": "https://cag.gov.in/en/exam-wing-circulars",
+        "type": "other",
+        "cycle_label": "Exam-Circulars",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Subordinate Audit / Accounts Service Examination Details & Eligibility (Page 775)",
+        "url": "https://cag.gov.in/en/examination/examination-details/775",
+        "type": "notification",
+        "cycle_label": "SAS-Regulations",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

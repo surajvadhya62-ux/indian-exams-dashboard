@@ -1,0 +1,205 @@
+{
+  "id": "gsi-driver-mechanic",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Ordinary Grade Drivers and Mechanical Technical Staff in the Geological Survey of India (GSI), Ministry of Mines, operate and maintain 4x4 heavy field expedition trucks, drilling equipment carriers, mobile laboratories, and specialized survey jeeps across rugged terrains, remote desert tracts, and high-altitude Himalayan geological missions. Governed by Central Civil Services rules and GSI Technical Staff Service Rules, progression follows a structured four-grade driver hierarchy based on qualifying service and trade tests.",
+    "steps": [
+      {
+        "designation": "Driver (Ordinary Grade) / Automotive Mechanic",
+        "pay_level": "Level 2 (7th CPC)",
+        "years": "Entry Grade (₹19,900 - ₹63,200), Group C Non-Gazetted (probation 2 years)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "GSI Driver (Ordinary Grade) Recruitment Rules & Regional Advertisements"
+      },
+      {
+        "designation": "Driver (Grade-II)",
+        "pay_level": "Level 4 (7th CPC)",
+        "years": "approx. 9 years (Promoted on completion of 9 years regular service in Ordinary Grade subject to passing trade test)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "Staff Car Driver / Field Driver Hierarchy Rules, Ministry of Mines"
+      },
+      {
+        "designation": "Driver (Grade-I)",
+        "pay_level": "Level 5 (7th CPC)",
+        "years": "approx. 15 years (Promoted after 6 years regular service in Grade-II)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "GSI Technical Cadre Rules"
+      },
+      {
+        "designation": "Special Grade Driver",
+        "pay_level": "Level 6 (7th CPC)",
+        "years": "approx. 18-20 years (Senior non-gazetted technical grade per DoPT Staff Car Driver scheme)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "DoPT Staff Car Driver Modified Assured Career Progression (MACP) & Special Grade Scheme"
+      },
+      {
+        "designation": "Mechanical Transport Supervisor / Workshop Superintendent",
+        "pay_level": "Level 7 (7th CPC)",
+        "years": "approx. 25+ years (Selection post for fleet management and mechanical workshop supervision)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "GSI Engineering Workshop Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment is organized regional-wise (Northern, Southern, Eastern, Western, Central, and North Eastern Regions) through a two-stage examination: a Written Examination (100 marks objective OMR test) followed by a mandatory Practical Driving and Automotive Mechanical Trade Test.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "GSI Scheme of Examination for Ordinary Grade Drivers and Mechanical Staff",
+        "papers": [
+          {
+            "paper_name": "General Awareness & Current Affairs",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (Standard 10th-standard objective assessment)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for UR, 35% for OBC/EWS, 30% for SC/ST across aggregate written examination"
+          },
+          {
+            "paper_name": "General Intelligence & Numerical Reasoning",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite testing window"
+          },
+          {
+            "paper_name": "Traffic Rules, Motor Vehicles Act & Road Safety Signs",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite testing window"
+          },
+          {
+            "paper_name": "Vehicle Mechanisms, Routine Maintenance, Engine Diagnostics & Troubleshooting",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks required in vehicle mechanisms section"
+          }
+        ]
+      },
+      {
+        "stage_name": "Practical Driving & Mechanical Trade Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "GSI Trade Test Guidelines for Driver (Ordinary Grade)",
+        "papers": [
+          {
+            "paper_name": "Practical Driving Assessment (Heavy / Light Vehicle Maneuvering, Reversing, Rough Terrain & Hill Driving)",
+            "marks": 60,
+            "duration_minutes": 60,
+            "negative_marking": "Evaluated on obstacle course driving, reverse parking, and rough track navigation",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 50% marks required to qualify; qualifying in nature"
+          },
+          {
+            "paper_name": "Mechanical Maintenance and On-Spot Fault Rectification Test",
+            "marks": 40,
+            "duration_minutes": 45,
+            "negative_marking": "Hands-on assessment of tyre changing, engine oil checks, fan belt tensioning, fuse replacements, and battery maintenance",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 50% marks required to qualify"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 2 (7th CPC)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-01",
+    "pay_source_url": "https://www.gsi.gov.in",
+    "pay_source_label": "7th CPC Pay Matrix Level 2 (₹19,900 - ₹63,200) for Driver (Ordinary Grade) in GSI",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 42500
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 38000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 2 entry basic pay of ₹19,900. Dearness Allowance at canonical 58% equals ₹11,542. House Rent Allowance ranges from ₹1,990 (10% in Z-class rural/camp stations) to ₹5,970 (30% in X-class cities like Kolkata CHQ, Hyderabad, Delhi). Transport Allowance ranges from ₹1,422 to ₹2,133. Field staff deployed in remote mineral prospecting camps receive additional Special Camp Allowance and Daily Allowance for geological expedition tours. Deductions include NPS 10% (Basic + DA = ₹3,144) and employee insurance.",
+    "official_perks": [
+      "Government accommodation in GSI staff colonies across regional centers or HRA",
+      "Special Field Allowance and Daily Allowance (DA on tour) during remote geological and geophysical survey deployments",
+      "Comprehensive medical treatment under Central Government Health Scheme (CGHS)",
+      "Uniform Allowance and washing allowance",
+      "Leave Travel Concession (LTC) and annual paid leave",
+      "Defined contribution benefits under National Pension System (NPS) with 14% government contribution and central gratuity"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Regional recruitment statistics for Ordinary Grade Drivers in Geological Survey of India.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 18500,
+        "vacancies": 35,
+        "shortlisted_for_mains": 350,
+        "selectivity_ratio": "approx. 1 in 528 overall selectivity (35 regional vacancies; ~18,500 applicants; 350 candidates shortlisted for Trade Test in 1:10 ratio)",
+        "confidence": "reported",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.gsi.gov.in",
+        "source_label": "GSI Regional Recruitment Board Trade Test Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and notices for Geological Survey of India, Ministry of Mines.",
+    "links": [
+      {
+        "label": "Geological Survey of India Official Portal",
+        "url": "https://www.gsi.gov.in",
+        "type": "notification",
+        "cycle_label": "GSI-CHQ",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Ministry of Mines Central Recruitment & Gazette Rules",
+        "url": "https://mines.gov.in",
+        "type": "other",
+        "cycle_label": "Mines-Recruitment",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

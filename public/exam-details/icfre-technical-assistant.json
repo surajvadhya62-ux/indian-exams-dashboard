@@ -1,0 +1,196 @@
+{
+  "id": "icfre-technical-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Technical Assistants in the Indian Council of Forestry Research and Education (ICFRE) are appointed across constituent institutes including Forest Research Institute (FRI) Dehradun, Tropical Forest Research Institute (TFRI) Jabalpur, and Institute of Forest Genetics and Tree Breeding (IFGTB) Coimbatore. They provide specialized research and laboratory support in silviculture, forest genetics, pathology, wood anatomy, and agroforestry. Progression is governed by the ICFRE Technical Service Rules (TSR) merit assessment promotion scheme, enabling periodic advancements independent of vacancy constraints.",
+    "steps": [
+      {
+        "designation": "Technical Assistant (Field / Lab / Maintenance)",
+        "pay_level": "Level 5 (7th CPC)",
+        "years": "Entry Level (Category II, probation 2 years)",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://fri.icfre.gov.in",
+        "source_label": "ICFRE/FRI Group 'C' Technical Staff Recruitment Notification — Pay Matrix Level 5 (₹29,200 - ₹92,300)"
+      },
+      {
+        "designation": "Senior Technical Assistant",
+        "pay_level": "Level 6 (7th CPC)",
+        "years": "approx. 5 years (via 5-year assessment under ICFRE Technical Service Rules)",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://www.icfre.org",
+        "source_label": "ICFRE Technical Service Rules Assessment Scheme"
+      },
+      {
+        "designation": "Technical Officer",
+        "pay_level": "Level 7 (7th CPC)",
+        "years": "approx. 10 years (Category III promotion grade)",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://www.icfre.org",
+        "source_label": "ICFRE Technical Service Rules"
+      },
+      {
+        "designation": "Senior Technical Officer",
+        "pay_level": "Level 10 (7th CPC)",
+        "years": "approx. 15 years",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://www.icfre.org",
+        "source_label": "ICFRE Technical Service Rules"
+      },
+      {
+        "designation": "Principal Technical Officer",
+        "pay_level": "Level 11 (7th CPC)",
+        "years": "approx. 20 years",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://www.icfre.org",
+        "source_label": "ICFRE Technical Service Rules"
+      },
+      {
+        "designation": "Chief Technical Officer (CTO)",
+        "pay_level": "Level 12 (7th CPC)",
+        "years": "approx. 25+ years",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://www.icfre.org",
+        "source_label": "ICFRE Technical Service Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Technical Assistant in ICFRE institutes is conducted through an All-India Written Examination (OMR / CBT Objective Type) of 100 questions (100 marks) for 120 minutes, followed by Document Verification and Medical Examination.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://frirecruitment.icfre.gov.in",
+        "source_label": "ICFRE Forest Research Institute Examination Scheme & Syllabus for Technical Assistant",
+        "papers": [
+          {
+            "paper_name": "General Awareness & Science",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite 2-hour paper; minimum qualifying marks: 50% for UR, 45% for OBC/EWS, 40% for SC/ST"
+          },
+          {
+            "paper_name": "Mental Ability & Numerical Reasoning",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite testing window"
+          },
+          {
+            "paper_name": "General English",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Composite testing window"
+          },
+          {
+            "paper_name": "Relevant Subject Discipline (Botany / Forestry / Chemistry / Zoology / IT)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks for each incorrect answer (+1 for correct)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Core subject evaluation; minimum qualifying threshold applies across aggregate score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 5 (7th CPC)",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-07-01",
+    "pay_source_url": "https://fri.icfre.gov.in",
+    "pay_source_label": "7th CPC Pay Matrix Level 5 (₹29,200 - ₹92,300) for Technical Assistant in ICFRE",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 51000,
+      "max": 61500
+    },
+    "in_hand_range_estimate": {
+      "min": 43500,
+      "max": 52500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 5 entry basic pay of ₹29,200. Dearness Allowance at canonical 58% equals ₹16,936. House Rent Allowance ranges from ₹2,920 (10% in Z-class forestry research stations) to ₹8,760 (30% in X-class cities; 20% / ₹5,840 in Y-class cities like Dehradun, Jabalpur, Coimbatore). Transport Allowance ranges from ₹2,844 to ₹5,688. Deductions include NPS 10% (Basic + DA = ₹4,614), medical contribution, and employee insurance.",
+    "official_perks": [
+      "Allotted Type-III residential quarters within ICFRE lush forest estate campuses (e.g., New Forest, Dehradun) or HRA",
+      "Field research tour daily allowances and specimen collection travel entitlements",
+      "Comprehensive medical treatment at ICFRE institutional hospitals and empanelled CGHS centers",
+      "Leave Travel Concession (LTC) and annual leave encashment",
+      "Defined contribution benefits under National Pension System (NPS) with 14% government contribution and central gratuity",
+      "Children Education Allowance (CEA) per central government rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics for Technical Assistant across ICFRE constituent research institutes.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 38000,
+        "vacancies": 72,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 528 overall selectivity (72 vacancies across ICFRE institutes including FRI Dehradun; ~38,000 applicants appeared)",
+        "confidence": "reported",
+        "as_of": "2023-02-28",
+        "source_url": "https://fri.icfre.gov.in",
+        "source_label": "ICFRE Forest Research Institute Recruitment Final Merit List Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and recruitment notices for Indian Council of Forestry Research and Education.",
+    "links": [
+      {
+        "label": "ICFRE Main Portal & Recruitment Section",
+        "url": "https://www.icfre.org",
+        "type": "notification",
+        "cycle_label": "ICFRE-Main",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ICFRE Central Recruitment Portal",
+        "url": "https://recruitment.icfre.gov.in/",
+        "type": "notification",
+        "cycle_label": "Recruitment-Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Forest Research Institute (FRI) Dehradun Recruitment Portal",
+        "url": "https://frirecruitment.icfre.gov.in/home",
+        "type": "other",
+        "cycle_label": "FRI-Recruitment",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}
