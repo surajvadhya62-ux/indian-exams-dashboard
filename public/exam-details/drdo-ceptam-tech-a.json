@@ -1,0 +1,191 @@
+{
+  "id": "drdo-ceptam-tech-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Technician 'A' (Tech-A) is the skilled technical workshop cadre of DRDO holding Class 10 qualification plus ITI certification in designated engineering trades. Technicians operate high-precision machine tools, electronic fabrication assemblies, prototyping workshops, and instrumentation facilities across defence labs. Promotions follow the DRTC flexible complementing framework.",
+    "steps": [
+      {
+        "designation": "Technician 'A' (Tech-A)",
+        "pay_level": "Level 2 (₹19,900 – ₹63,200)",
+        "years": "Entry rank (Group C Non-Gazetted, Non-Ministerial)",
+        "confidence": "verified",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC Recruitment Advertisement for Tech-A"
+      },
+      {
+        "designation": "Technician 'B' (Tech-B)",
+        "pay_level": "Level 3 (₹21,700 – ₹69,100)",
+        "years": "approx. 5 yrs via Trade Assessment",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Technician 'C' (Tech-C)",
+        "pay_level": "Level 4 (₹25,500 – ₹81,100)",
+        "years": "approx. 10-12 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Senior Technician",
+        "pay_level": "Level 5 (₹29,200 – ₹92,300)",
+        "years": "approx. 15-18 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Master Craftsman",
+        "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "approx. 22-26 yrs (highest technician workshop rank)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection to Technician 'A' comprises a two-tier process: Tier-I CBT for Provisional Selection consisting of quantitative aptitude, general intelligence, awareness, English, and trade-specific questions; and Tier-II Trade Test (practical skill test in the relevant trade) which is qualifying in nature. Merit is compiled strictly from Tier-I scores of candidates who qualify Tier-II.",
+    "stages": [
+      {
+        "stage_name": "Tier-I: Computer Based Test (CBT) for Provisional Selection",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC — Scheme of Examination for Tech-A",
+        "papers": [
+          {
+            "paper_name": "Section A (Common Aptitude): Quantitative Ability/Aptitude, General Intelligence & Reasoning, General Awareness, English Language (40 Questions)",
+            "marks": 40,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined with Section B; Minimum 40% for UR/OBC/EWS and 35% for SC/ST"
+          },
+          {
+            "paper_name": "Section B (Trade Specific): Questions specific to candidate's ITI Trade syllabus (80 Questions)",
+            "marks": 80,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Tier-I total marks (120) determine 100% of provisional selection merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier-II: Trade Test (Practical Skill Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC — Scheme of Tier-II Trade Test for Tech-A",
+        "papers": [
+          {
+            "paper_name": "Practical Trade Skill Test: Hands-on evaluation in DRDO laboratory workshops on ITI machines and trade instruments",
+            "marks": null,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Strictly qualifying in nature; 1:8 shortlisting ratio based on Tier-I CBT score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Technician 'A' in DRDO is placed in Pay Matrix Level 2 (₹19,900 – ₹63,200) under the 7th CPC. Employees receive central DA, HRA, Transport Allowance, CGHS medical coverage, and uniform maintenance allowances.",
+    "pay_level": "Level 2 (₹19,900 – ₹63,200)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-09-03",
+    "pay_source_url": "https://www.drdo.gov.in",
+    "pay_source_label": "DRDO CEPTAM-10/DRTC Advertisement — Pay Matrix Level 2 for Tech-A",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 36000, "max": 44000 },
+    "in_hand_range_estimate": { "min": 31000, "max": 38000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 2 entry basic pay of ₹19,900: Dearness Allowance @ 58% is ₹11,542; HRA ranges from 10% (₹1,990 in Z class) to 30% (₹5,970 in X class); Transport Allowance is ₹1,350 + DA (₹2,133) in standard research cities. Gross monthly earnings range from ₹36,000 to ₹44,000. In-hand earnings after 10% NPS deduction (₹3,144) are approximately ₹31,000 to ₹38,000.",
+    "official_perks": [
+      "CGHS or DRDO Laboratory Medical dispensary facilities for self and dependent family members",
+      "Government residential quarter allotment in DRDO housing complexes or central HRA",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child",
+      "National Pension System (NPS) with 14% monthly employer contribution by Government of India",
+      "Leave Travel Concession (LTC) and annual leave encashment",
+      "CSD Canteen card privileges for civilian defence employees"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics for DRDO CEPTAM Technician 'A' across ITI trades.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 826,
+        "applicants": 340000,
+        "shortlisted_for_mains": 6608,
+        "selectivity_ratio": "826 vacancies across 20 ITI trades (Fitter: 127, Electrician: 106, Electronic Mechanic: 113, COPA: 139, Turner, Machinist, Welder, etc.); ~1 in 410 selectivity",
+        "confidence": "reported",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC Official Advertisement for Tech-A"
+      },
+      {
+        "year": 2018,
+        "vacancies": 351,
+        "applicants": 210000,
+        "shortlisted_for_mains": 2808,
+        "selectivity_ratio": "351 vacancies in CEPTAM-09/Tech-A drive",
+        "confidence": "reported",
+        "as_of": "2018-08-04",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-09/Tech-A Official Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and syllabus notifications hosted on DRDO portal.",
+    "links": [
+      {
+        "label": "DRDO Official Careers & CEPTAM Portal",
+        "url": "https://www.drdo.gov.in/drdo/en",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "DRDO CEPTAM Notice Board & Examination Hub",
+        "url": "https://drdo.res.in/ceptam_noticeboard/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order (Central Government Table)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "icg-yantrik",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Yantriks are the technical warrant sailor cadre in the Indian Coast Guard holding diplomas in Mechanical, Electrical, or Electronics & Telecommunication engineering. Personnel maintain ship propulsion plants, power generators, radar electronics, and shipboard armaments, advancing through senior technical grades up to Pradhan Sahayak Engineer (Level 10).",
+    "steps": [
+      {
+        "designation": "Yantrik",
+        "pay_level": "Level 5 (₹29,200 – ₹92,300) + ₹6,200 Yantrik Pay",
+        "years": "Entry rank (basic training at INS Chilka + technical training at naval schools)",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — CGEPT 02/2024 Notification for Yantrik (Mechanical/Electrical/Electronics)"
+      },
+      {
+        "designation": "Uttam Yantrik",
+        "pay_level": "Level 6 (₹35,400 – ₹1,12,400) + ₹6,200 Yantrik Pay",
+        "years": "approx. 5-7 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Coast Guard Technical Ratings)"
+      },
+      {
+        "designation": "Pradhan Yantrik",
+        "pay_level": "Level 7 (₹44,900 – ₹1,42,400) + ₹6,200 Yantrik Pay",
+        "years": "approx. 10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      },
+      {
+        "designation": "Sahayak Engineer",
+        "pay_level": "Level 8 (₹47,600 – ₹1,51,100) + ₹6,200 Yantrik Pay",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      },
+      {
+        "designation": "Uttam Sahayak Engineer",
+        "pay_level": "Level 9 (₹53,100 – ₹1,67,800) + ₹6,200 Yantrik Pay",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      },
+      {
+        "designation": "Pradhan Sahayak Engineer",
+        "pay_level": "Level 10 (₹56,100 – ₹1,77,500) + ₹6,200 Yantrik Pay",
+        "years": "approx. 27-30 yrs (highest technical rating rank)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Yantrik recruitment through CGEPT requires passing Stage-I Online CBT consisting of Section I (Common Class 10 syllabus) plus the candidate's engineering discipline section (Section III for Mechanical, Section IV for Electrical, or Section V for Electronics). This is followed by Stage-II PFT and Document Verification, Stage-III Final Medicals at INS Chilka, and Stage-IV final onboarding.",
+    "stages": [
+      {
+        "stage_name": "Stage-I: Computer Based Online Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Scheme of Examination for Yantrik CGEPT 02/2024",
+        "papers": [
+          {
+            "paper_name": "Section I (Common Class 10 Syllabus): Maths (20), Science (10), English (15), Reasoning (10), GK (5)",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "30 marks for UR/EWS/OBC; 27 marks for SC/ST"
+          },
+          {
+            "paper_name": "Section III (Diploma Mechanical) / Section IV (Diploma Electrical) / Section V (Diploma Electronics)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "20 marks for UR/EWS/OBC; 17 marks for SC/ST. Must pass Section I and engineering section separately."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage-II: Physical Fitness Test (PFT), Document Verification & Initial Medicals",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Stage-II Physical and Technical Evaluation",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test: 1.6 km Run in 7 minutes, 20 Squat-ups, 10 Push-ups",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Strictly qualifying standard"
+          },
+          {
+            "paper_name": "Verification of Engineering Diploma Credentials & Initial Medicals",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage-III: Document Verification & Final Medical Examination at INS Chilka",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Final Induction at INS Chilka",
+        "papers": [
+          {
+            "paper_name": "Final Medical Board Examination at INS Chilka",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit in maritime technical rating category"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Yantriks in the Indian Coast Guard are placed in Pay Matrix Level 5 (₹29,200 – ₹92,300) under the 7th CPC. Additionally, personnel receive a specialized technical allowance known as Yantrik Pay of ₹6,200 per month plus applicable Dearness Allowance on Yantrik Pay, along with free ration, housing, and clothing concessions.",
+    "pay_level": "Level 5 (₹29,200 – ₹92,300) + ₹6,200 Yantrik Pay",
+    "entry_basic_pay": 29200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-13",
+    "pay_source_url": "https://joinindiancoastguard.cdac.in",
+    "pay_source_label": "Indian Coast Guard — CGEPT 02/2024 Official Notification (Pay, Allowances and Concessions)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 60000, "max": 74000 },
+    "in_hand_range_estimate": { "min": 52000, "max": 64000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 5 entry basic pay of ₹29,200 plus fixed Yantrik Pay of ₹6,200 (combined base ₹35,400): Dearness Allowance @ 58% on basic + Yantrik Pay is ₹20,532; Ration Money Allowance is ~₹3,965; HRA spans 10% to 30% (₹2,920 to ₹8,760); Transport Allowance is ~₹2,133 to ₹5,688. Gross monthly salary ranges from ₹60,000 to ₹74,000. In-hand earnings after 10% NPS deduction (~₹4,973) are approximately ₹52,000 to ₹64,000.",
+    "official_perks": [
+      "Yantrik Pay of ₹6,200 per month plus applicable DA on Yantrik Pay for all engineering diploma holders",
+      "Free ration / Messing allowance and service clothing according to naval scale",
+      "Free medical treatment for self and dependent family members through Armed Forces / Coast Guard Hospitals",
+      "Government residential accommodation in Coast Guard enclaves or central HRA",
+      "CSD Canteen purchasing privileges",
+      "Annual leave of 45 days and casual leave of 8 days with LTC concessions"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Biannual technical vacancies for Yantrik (Mechanical, Electrical, and Electronics) across Indian Coast Guard zones.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 60,
+        "applicants": 85000,
+        "selectivity_ratio": "60 vacancies (Mechanical: 33, Electrical: 18, Electronics: 9) in 02/2024 batch",
+        "confidence": "reported",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "ICG CGEPT 02/2024 Notification Vacancy Table"
+      },
+      {
+        "year": 2023,
+        "vacancies": 60,
+        "applicants": 78000,
+        "selectivity_ratio": "60 vacancies (Mechanical: 30, Electrical: 20, Electronics: 10) in 01/2024 batch",
+        "confidence": "reported",
+        "as_of": "2023-09-08",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "ICG CGEPT 01/2024 Notification Vacancy Table"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official downloads and test resources hosted on C-DAC Coast Guard platform.",
+    "links": [
+      {
+        "label": "Indian Coast Guard CGEPT Official Portal",
+        "url": "https://joinindiancoastguard.cdac.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ICG Yantrik Diploma Engineering Syllabus & Model Papers",
+        "url": "https://joinindiancoastguard.cdac.in/cgept/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order (Central Government Table)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

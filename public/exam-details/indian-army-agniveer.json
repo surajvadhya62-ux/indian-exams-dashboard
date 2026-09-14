@@ -1,0 +1,229 @@
+{
+  "id": "indian-army-agniveer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Recruits join the Indian Army under the Agnipath Scheme as Agniveers for a fixed 4-year engagement period. Upon completion of 4 years, up to 25% of each Agniveer batch are selected for enrolment into the regular cadre of the Indian Army as Sepoy / Rifleman / Gunner / Sowar based on centralized merit and performance during service. Those absorbed into the regular cadre follow the permanent Junior Commissioned Officer (JCO) and Other Ranks (OR) promotional ladder.",
+    "steps": [
+      {
+        "designation": "Agniveer (GD / Tech / Clerk / Tradesman)",
+        "pay_level": "Agnipath Customised Package",
+        "years": "4-year fixed engagement",
+        "confidence": "verified",
+        "as_of": "2022-06-14",
+        "source_url": "https://joinindianarmy.nic.in",
+        "source_label": "Ministry of Defence — Agnipath Scheme Terms & Conditions for Indian Army Agniveer"
+      },
+      {
+        "designation": "Sepoy / Rifleman / Gunner (Regular Cadre Enrolment)",
+        "pay_level": "Defence Pay Matrix Level 3 (₹21,700 – ₹69,100)",
+        "years": "On regular enrolment after 4-year Agniveer tenure (up to 25% batch)",
+        "confidence": "verified",
+        "as_of": "2017-05-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Defence Pay Matrix (Army Other Ranks), Ministry of Defence"
+      },
+      {
+        "designation": "Naik",
+        "pay_level": "Defence Pay Matrix Level 4 (₹25,500 – ₹81,100)",
+        "years": "approx. 5-8 yrs in regular service",
+        "confidence": "verified",
+        "as_of": "2017-05-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Defence Pay Matrix (Army Other Ranks)"
+      },
+      {
+        "designation": "Havildar",
+        "pay_level": "Defence Pay Matrix Level 5 (₹29,200 – ₹92,300)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Defence Pay Matrix (Army Other Ranks)"
+      },
+      {
+        "designation": "Naib Subedar (Junior Commissioned Officer)",
+        "pay_level": "Defence Pay Matrix Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "approx. 16-20 yrs (induction into JCO rank)",
+        "confidence": "verified",
+        "as_of": "2017-05-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Defence Pay Matrix (Army JCOs)"
+      },
+      {
+        "designation": "Subedar (JCO)",
+        "pay_level": "Defence Pay Matrix Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Defence Pay Matrix (Army JCOs)"
+      },
+      {
+        "designation": "Subedar Major (Chief JCO)",
+        "pay_level": "Defence Pay Matrix Level 8 (₹47,600 – ₹1,51,100)",
+        "years": "approx. 27-30 yrs (highest JCO rank)",
+        "confidence": "verified",
+        "as_of": "2017-05-03",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Defence Pay Matrix (Army JCOs)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Indian Army Agniveer recruitment is conducted through a two-phase selection procedure: Phase I is an All India Online Computer Based Common Entrance Exam (CEE) administered across designated test centres; Phase II comprises the Recruitment Rally conducted by designated Zonal Recruiting Offices (ZRO) / Army Recruiting Offices (ARO), which includes Physical Fitness Test (PFT), Physical Measurement Test (PMT), Adaptability Test, and Detailed Medical Examination.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Online Common Entrance Exam (CEE) Computer Based Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindianarmy.nic.in",
+        "source_label": "Indian Army — Scheme of Online Common Entrance Exam for Agniveer Recruitment",
+        "papers": [
+          {
+            "paper_name": "Agniveer General Duty (GD): General Knowledge (15 Qs, 30m), General Science (15 Qs, 30m), Maths (15 Qs, 30m), Logical Reasoning (5 Qs, 10m)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-0.5 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "35 marks minimum passing"
+          },
+          {
+            "paper_name": "Agniveer Technical: General Knowledge & Reasoning (10 Qs, 40m), Maths (15 Qs, 60m), Physics (15 Qs, 60m), Chemistry (10 Qs, 40m)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "80 marks minimum passing"
+          },
+          {
+            "paper_name": "Agniveer Clerk / Store Keeper Technical: Part 1 GK, Science, Maths, Computer (25 Qs, 100m) and Part 2 General English (25 Qs, 100m)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "80 marks minimum passing (min 32 marks in each part)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: ZRO / ARO Recruitment Rally (PFT, PMT & Medical Examination)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindianarmy.nic.in",
+        "source_label": "Indian Army — Phase II Recruitment Rally Standards and Testing Protocol",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test (PFT): 1.6 Km Run (Group I: 60 marks, Group II: 48 marks), Beam / Pull-ups (up to 40 marks), 9 Feet Ditch, Zig-Zag Balance",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Scored for Agniveer GD/Tradesman; qualifying for Tech/Clerk"
+          },
+          {
+            "paper_name": "Physical Measurement Test (PMT) & Adaptability Test: Height, Chest, Weight measurements and psychological psychometric test",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard as per regional physical categories"
+          },
+          {
+            "paper_name": "Detailed Medical Examination: Clinical and surgical examination by Military Medical Officers at rally site / Military Hospital",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit in all military medical categories"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Under the Agnipath Scheme, Agniveers receive a customized monthly package starting at ₹30,000 in the 1st year and progressing to ₹40,000 in the 4th year, with 30% contributed to the Agniveer Corpus Fund matched equally by the Government of India. Upon discharge after 4 years, non-retained personnel receive the accumulated Seva Nidhi package (~₹10.04 Lakhs + interest, approx. ₹11.71 Lakhs tax-free). Personnel absorbed into the regular cadre enter Defence Pay Matrix Level 3 (₹21,700 – ₹69,100) plus Military Service Pay (MSP) of ₹5,200 per month and standard central dearness allowance.",
+    "pay_level": "Agnipath Customised Package (1st–4th Year) / Level 3 on regular absorption",
+    "entry_basic_pay": 30000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-06-14",
+    "pay_source_url": "https://joinindianarmy.nic.in",
+    "pay_source_label": "Ministry of Defence — Official Agnipath Scheme Notification and Emoluments Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 30000, "max": 40000 },
+    "in_hand_range_estimate": { "min": 21000, "max": 28000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "During the 4-year Agniveer tenure: Year 1 monthly pay is ₹30,000 (in-hand ₹21,000 + ₹9,000 corpus contribution); Year 2 is ₹33,000 (in-hand ₹23,100); Year 3 is ₹36,500 (in-hand ₹25,550); Year 4 is ₹40,000 (in-hand ₹28,000). Seva Nidhi corpus on exit after 4 years is ~₹10.04 Lakhs plus interest (total ~₹11.71 Lakhs tax-free). Personnel selected for permanent retention receive regular Level 3 pay (₹21,700 basic + ₹5,200 MSP + 58% DA + allowances).",
+    "official_perks": [
+      "Seva Nidhi package of ~₹11.71 Lakhs (accumulated corpus + matching GOI contribution + accrued interest) fully exempt from Income Tax on completion of 4-year tenure",
+      "Non-contributory Life Insurance Cover of ₹48,00,000 for the entire 4-year engagement period",
+      "Ex-gratia compensation of ₹44,00,000 to next-of-kin in case of death attributable to service, plus unserved portion of balance tenure pay",
+      "Full medical facilities at Service Hospitals and CSD canteen access during engagement",
+      "Skill certificate and 10% reservation in Central Armed Police Forces (CAPFs), Assam Rifles, and state police forces on demobilisation",
+      "Risk and Hardship Allowance, Uniform Allowance, and Ration Allowance as applicable to regular soldiers across field and high-altitude deployments"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment under the Agnipath Scheme is conducted across all ZROs/AROs nationwide with multi-lakh applicant participation.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 25000,
+        "applicants": 1280000,
+        "confidence": "reported",
+        "as_of": "2024-05-15",
+        "source_url": "https://joinindianarmy.nic.in",
+        "source_label": "Indian Army Agniveer Recruitment Cycle 2024–25 CEE Phase Press Releases & Registered Candidates Data"
+      },
+      {
+        "year": 2022,
+        "vacancies": 40000,
+        "applicants": 3500000,
+        "confidence": "reported",
+        "as_of": "2022-09-08",
+        "source_url": "https://joinindianarmy.nic.in",
+        "source_label": "Ministry of Defence Press Release — Maiden Agnipath Scheme Army Rallies Intake & Applications Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and notifications published by the Directorate General of Recruiting, Indian Army.",
+    "links": [
+      {
+        "label": "Join Indian Army Official Recruitment Portal",
+        "url": "https://joinindianarmy.nic.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Indian Army Agniveer Common Entrance Exam (CEE) Syllabus & Practice Test Hub",
+        "url": "https://joinindianarmy.nic.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "Ministry of Defence Agnipath Scheme Information Portal",
+        "url": "https://mod.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

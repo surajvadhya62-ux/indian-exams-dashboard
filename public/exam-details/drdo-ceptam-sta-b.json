@@ -1,0 +1,192 @@
+{
+  "id": "drdo-ceptam-sta-b",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Senior Technical Assistant 'B' (STA-B) is the primary scientific and engineering support cadre in the Defence Research and Development Organisation (DRDO) under the Ministry of Defence. Personnel are deployed across 50+ DRDO laboratories engaged in missiles, aeronautics, radars, armaments, and naval systems. Promotions occur under the DRDO Technical Cadre Merit Promotion Scheme based on annual assessments.",
+    "steps": [
+      {
+        "designation": "Senior Technical Assistant 'B' (STA-B)",
+        "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "Entry rank (Group B Non-Gazetted, Non-Ministerial)",
+        "confidence": "verified",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC Recruitment Advertisement for STA-B"
+      },
+      {
+        "designation": "Technical Officer 'A' (TO-A)",
+        "pay_level": "Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "approx. 5 yrs via Merit Promotion assessment",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Technical Officer 'B' (TO-B)",
+        "pay_level": "Level 8 (₹47,600 – ₹1,51,100)",
+        "years": "approx. 10-12 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Technical Officer 'C' (TO-C)",
+        "pay_level": "Level 10 (₹56,100 – ₹1,77,500)",
+        "years": "approx. 15-18 yrs (induction into Group A Gazetted cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Senior Technical Officer (STO)",
+        "pay_level": "Level 11 (₹67,700 – ₹2,08,700)",
+        "years": "approx. 20-24 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      },
+      {
+        "designation": "Principal Technical Officer (PTO)",
+        "pay_level": "Level 12 (₹78,800 – ₹2,09,200)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5, Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to STA-B under Defence Research Technical Cadre (DRTC) consists of two stages: Tier-I Computer Based Test (CBT) for Screening; and Tier-II Computer Based Test (CBT) for Provisional Selection. Tier-I is strictly qualifying and used to shortlist candidates for Tier-II in a 1:8 ratio. The final merit list is prepared strictly on the basis of marks secured in Tier-II.",
+    "stages": [
+      {
+        "stage_name": "Tier-I: Computer Based Test (CBT) for Screening",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC — Scheme of Examination for STA-B",
+        "papers": [
+          {
+            "paper_name": "Screening CBT: Quantitative Ability/Aptitude, General Intelligence & Reasoning, General Awareness, English Language, General Science (120 Questions)",
+            "marks": 120,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% for UR/OBC/EWS; 35% for SC/ST. Shortlisting in 1:8 ratio for Tier-II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier-II: Computer Based Test (CBT) for Provisional Selection",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC — Scheme of Tier-II Examination for STA-B",
+        "papers": [
+          {
+            "paper_name": "Subject Specialization Test: 100 objective questions specific to candidate's engineering discipline or degree subject",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final provisional selection merit is prepared 100% on the basis of marks secured in Tier-II"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "STA-B in DRDO is placed in Pay Matrix Level 6 (₹35,400 – ₹1,12,400) under the 7th Central Pay Commission. Being civilian technical personnel in the Ministry of Defence, employees enjoy standard central government DA, HRA, Transport Allowance, CGHS medical cover, and performance incentives where applicable.",
+    "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-09-03",
+    "pay_source_url": "https://www.drdo.gov.in",
+    "pay_source_label": "DRDO CEPTAM-10/DRTC Advertisement — Pay Matrix Level 6",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 65000, "max": 76000 },
+    "in_hand_range_estimate": { "min": 56000, "max": 66000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400: Dearness Allowance @ 58% is ₹20,532; HRA ranges from 10% (₹3,540 in Z class) to 30% (₹10,620 in X class); Transport Allowance is ₹1,800 + DA (₹2,844) to ₹3,600 + DA (₹5,688) in major research cities. Gross monthly salary ranges from ₹65,000 to ₹76,000. In-hand earnings after 10% NPS deduction (₹5,593) are approximately ₹56,000 to ₹66,000.",
+    "official_perks": [
+      "Central Government Health Scheme (CGHS) or DRDO Contributory Health Scheme facilities",
+      "Government residential quarters inside DRDO townships and research enclaves or central HRA",
+      "Children Education Allowance (CEA) of ₹2,250 per month per child and Hostel Subsidy",
+      "National Pension System (NPS) with 14% monthly employer contribution by Government of India",
+      "Leave Travel Concession (LTC) and Annual Leave encashment entitlements",
+      "Departmental CSD Canteen grocery card facility for defence civilian employees"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Direct recruitment statistics for DRDO CEPTAM Senior Technical Assistant 'B'.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 1075,
+        "applicants": 465000,
+        "shortlisted_for_mains": 8600,
+        "selectivity_ratio": "1,075 vacancies across 22 disciplines (Mech, ECE, CS, Elec, Chem, Civil, Metallurgy, Physics, etc.); ~1 in 430 selectivity",
+        "confidence": "reported",
+        "as_of": "2022-09-03",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-10/DRTC Official Advertisement & Applicant Statistics"
+      },
+      {
+        "year": 2018,
+        "vacancies": 494,
+        "applicants": 320000,
+        "shortlisted_for_mains": 3952,
+        "selectivity_ratio": "494 vacancies in CEPTAM-09/STA-B drive",
+        "confidence": "reported",
+        "as_of": "2018-08-04",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM-09/STA-B Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and exam syllabi hosted on DRDO official website.",
+    "links": [
+      {
+        "label": "DRDO Official Careers & CEPTAM Portal",
+        "url": "https://www.drdo.gov.in/drdo/en",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "DRDO CEPTAM Notice Board & Examination Hub",
+        "url": "https://drdo.res.in/ceptam_noticeboard/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order (Central Government Table)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

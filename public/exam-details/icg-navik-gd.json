@@ -1,0 +1,224 @@
+{
+  "id": "icg-navik-gd",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Navik (General Duty) is the primary maritime sailor cadre of the Indian Coast Guard (MoD) entrusted with operating and manning Offshore Patrol Vessels (OPVs), Fast Patrol Vessels (FPVs), interceptor boats, boarding operations, and coastal surveillance installations. Personnel advance through the non-gazetted enlisted hierarchy up to Pradhan Adhikari (Level 8).",
+    "steps": [
+      {
+        "designation": "Navik (General Duty)",
+        "pay_level": "Level 3 (₹21,700 – ₹69,100)",
+        "years": "Entry rank (basic training at INS Chilka 16 wks + sea training)",
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Recruitment Notification for CGEPT 02/2024 Batch (Navik GD)"
+      },
+      {
+        "designation": "Uttam Navik",
+        "pay_level": "Level 4 (₹25,500 – ₹81,100)",
+        "years": "approx. 4-6 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Coast Guard Enrolled Personnel)"
+      },
+      {
+        "designation": "Pradhan Navik",
+        "pay_level": "Level 5 (₹29,200 – ₹92,300)",
+        "years": "approx. 10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      },
+      {
+        "designation": "Adhikari",
+        "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      },
+      {
+        "designation": "Uttam Adhikari",
+        "pay_level": "Level 7 (₹44,900 – ₹1,42,400)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      },
+      {
+        "designation": "Pradhan Adhikari",
+        "pay_level": "Level 8 (₹47,600 – ₹1,51,100)",
+        "years": "approx. 27-30 yrs (highest enlisted rank)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Navik (GD) through Coast Guard Enrolled Personnel Test (CGEPT) is structured across four successive stages: Stage-I Computer Based Online Examination comprising Section I (Class 10 level) and Section II (Class 12 Maths & Physics); Stage-II Assessment / Adaptability Test, Physical Fitness Test (PFT), Document Verification and Initial Medicals; Stage-III Final Medical Examination and induction at INS Chilka; Stage-IV Final Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage-I: Computer Based Online Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Scheme of Examination for Navik (GD) CGEPT 02/2024",
+        "papers": [
+          {
+            "paper_name": "Section I (Class 10 Syllabus): Maths (20), Science (10), English (15), Reasoning (10), GK (5)",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "30 marks for UR/EWS/OBC; 27 marks for SC/ST"
+          },
+          {
+            "paper_name": "Section II (Class 12 Syllabus): Mathematics (25) and Physics (25)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "20 marks for UR/EWS/OBC; 17 marks for SC/ST. Must pass Section I and II separately."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage-II: Physical Fitness Test (PFT), Adaptability Test & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Stage-II Physical and Adaptability Testing Protocol",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test: 1.6 km Run completed in 7 minutes, 20 Squat-ups (Uthak Baithak), 10 Push-ups",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Strictly qualifying standard"
+          },
+          {
+            "paper_name": "Adaptability Test & Initial Medical Examination",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage-III: Document Verification & Final Medical Examination at INS Chilka",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "Indian Coast Guard — Final Induction and Medical Rules at INS Chilka",
+        "papers": [
+          {
+            "paper_name": "Final Medical Examination and Original Document Verification",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Medical Fit in maritime armed forces category"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Navik (General Duty) in the Indian Coast Guard receives basic pay of ₹21,700 under Pay Matrix Level 3 of the 7th Central Pay Commission, supplemented by Dearness Allowance, free ration/ration money allowance, uniform allowance, sea duty allowance (when deployed aboard vessels), and furnished accommodation.",
+    "pay_level": "Level 3 (₹21,700 – ₹69,100)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-13",
+    "pay_source_url": "https://joinindiancoastguard.cdac.in",
+    "pay_source_label": "Indian Coast Guard — CGEPT 02/2024 Official Notification (Pay, Allowances and Other Concessions)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 42000, "max": 52000 },
+    "in_hand_range_estimate": { "min": 36000, "max": 45000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700: Dearness Allowance @ 58% (₹12,586), Ration Money Allowance (~₹3,965/month), HRA (10% to 30% if living outside government quarters, ₹2,170 to ₹6,510), and Transport Allowance (~₹1,350 to ₹2,133). Gross salary ranges from ₹42,000 to ₹52,000 depending on station tier and sea duty entitlement. In-hand pay after NPS deduction (~₹3,429) is approximately ₹36,000 to ₹45,000.",
+    "official_perks": [
+      "Free ration and clothing according to standard armed forces scale",
+      "Free medical treatment for self and eligible family members through Armed Forces / Coast Guard Hospitals and CGHS",
+      "Government residential accommodation or central HRA entitlement",
+      "Subsidized canteen purchasing privileges through Canteen Stores Department (CSD)",
+      "Leave entitlement: 45 days Earned Leave and 8 days Casual Leave per annum",
+      "Sea Duty Allowance, Diving Allowance, and Flying Allowance as applicable during operational appointments"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Biannual intake for Navik (GD) through Coast Guard Enrolled Personnel Test (CGEPT).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 260,
+        "applicants": 320000,
+        "selectivity_ratio": "260 vacancies across 5 Coast Guard Zones (North, North West, North East, East, West) for 02/2024 batch",
+        "confidence": "reported",
+        "as_of": "2024-02-13",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "ICG CGEPT 02/2024 Navik (GD) Recruitment Notification"
+      },
+      {
+        "year": 2023,
+        "vacancies": 225,
+        "applicants": 295000,
+        "selectivity_ratio": "225 vacancies for 01/2024 batch",
+        "confidence": "reported",
+        "as_of": "2023-09-08",
+        "source_url": "https://joinindiancoastguard.cdac.in",
+        "source_label": "ICG CGEPT 01/2024 Official Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and notifications hosted by C-DAC for Indian Coast Guard.",
+    "links": [
+      {
+        "label": "Indian Coast Guard CGEPT Official Portal",
+        "url": "https://joinindiancoastguard.cdac.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "ICG CGEPT Navik (GD) Scheme & Model Question Papers",
+        "url": "https://joinindiancoastguard.cdac.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order (Central Government Table)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}
