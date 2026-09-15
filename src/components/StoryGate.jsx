@@ -304,7 +304,7 @@ export default function StoryGate({ exams, onEnter }) {
       <section className="sg-hero">
         <p className="sg-eyebrow">National Examinations Intelligence Terminal</p>
         <h1 className="sg-headline">
-          {stats.total.toLocaleString('en-IN')}+ exams.<br />
+          500+ exams.<br />
           28 states, 8 UTs.<br />
           <span className="brand-accent">One registry.</span>
         </h1>

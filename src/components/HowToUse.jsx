@@ -114,7 +114,7 @@ export default function HowToUse({ setActiveView, setFilters, setSearchQuery, to
           How to Navigate <span className="logo-highlight">IndiaExams</span>
         </h1>
         <p className="how-to-use-subtitle">
-          Your comprehensive guide to exploring over {totalExams ? `${totalExams}+` : '500+'} statutory government examinations,
+          Your comprehensive guide to exploring over 500+ statutory government examinations,
           switching between Central and State ecosystems, comparing cadres, and tracking annual schedules.
         </p>
       </div>

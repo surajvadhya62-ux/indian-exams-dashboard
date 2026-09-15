@@ -1,10 +1,31 @@
 import { useState, useMemo } from 'react'
 import { getMonthExams, getDomainColor } from '../utils/helpers'
-import { HiOutlineCalendar, HiOutlineClock } from 'react-icons/hi'
+import { HiOutlineCalendar, HiOutlineViewGrid, HiOutlineFilter } from 'react-icons/hi'
+
+const MONTH_NAMES = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December'
+]
+
+const MONTH_SHORT = {
+  January: 'Jan',
+  February: 'Feb',
+  March: 'Mar',
+  April: 'Apr',
+  May: 'May',
+  June: 'Jun',
+  July: 'Jul',
+  August: 'Aug',
+  September: 'Sep',
+  October: 'Oct',
+  November: 'Nov',
+  December: 'Dec'
+}
 
 export default function CalendarView({ exams, onViewDetails }) {
   const [filterMode, setFilterMode] = useState('both') // 'exams', 'applications', 'both'
   const [selectedDomain, setSelectedDomain] = useState('All')
+  const [selectedMonth, setSelectedMonth] = useState('All')
 
   const domains = useMemo(() => {
     return ['All', ...new Set(exams.map(e => e.domain))].sort()
@@ -19,6 +40,23 @@ export default function CalendarView({ exams, onViewDetails }) {
     return getMonthExams(filteredExams)
   }, [filteredExams])
 
+  const monthCounts = useMemo(() => {
+    const counts = { All: 0 }
+    monthData.forEach(item => {
+      const showExams = filterMode === 'both' || filterMode === 'exams'
+      const showApps = filterMode === 'both' || filterMode === 'applications'
+      const count = (showExams ? item.exams.length : 0) + (showApps ? item.applications.length : 0)
+      counts[item.month] = count
+      counts.All += count
+    })
+    return counts
+  }, [monthData, filterMode])
+
+  const displayedMonths = useMemo(() => {
+    if (selectedMonth === 'All') return monthData
+    return monthData.filter(item => item.month === selectedMonth)
+  }, [monthData, selectedMonth])
+
   return (
     <section className="calendar-section">
       <div className="section-header" style={{ flexWrap: 'wrap', gap: '1rem' }}>
@@ -29,7 +67,7 @@ export default function CalendarView({ exams, onViewDetails }) {
           </p>
         </div>
 
-        <div className="calendar-controls-group" style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+        <div className="calendar-controls-group">
           {/* Domain dropdown filter */}
           <select
             className="calendar-domain-select"
@@ -77,8 +115,53 @@ export default function CalendarView({ exams, onViewDetails }) {
         </div>
       </div>
 
-      <div className="calendar-grid">
-        {monthData.map((item) => {
+      {/* Horizontal Month Navigation Tabs */}
+      <div className="calendar-month-pills" role="tablist" aria-label="Filter calendar by month">
+        <button
+          role="tab"
+          aria-selected={selectedMonth === 'All'}
+          className={`month-pill-btn ${selectedMonth === 'All' ? 'active' : ''}`}
+          onClick={() => setSelectedMonth('All')}
+        >
+          <HiOutlineViewGrid style={{ fontSize: '0.95rem' }} />
+          <span>All Year</span>
+          <span className="month-pill-count">{monthCounts.All || 0}</span>
+        </button>
+        {MONTH_NAMES.map(m => {
+          const count = monthCounts[m] || 0
+          const isActive = selectedMonth === m
+          return (
+            <button
+              key={m}
+              role="tab"
+              aria-selected={isActive}
+              className={`month-pill-btn ${isActive ? 'active' : ''}`}
+              onClick={() => setSelectedMonth(m)}
+            >
+              <span className="month-pill-label-desktop">{m}</span>
+              <span className="month-pill-label-mobile">{MONTH_SHORT[m]}</span>
+              <span className="month-pill-count">{count}</span>
+            </button>
+          )
+        })}
+      </div>
+
+      {selectedMonth !== 'All' && (
+        <div className="calendar-single-month-header">
+          <div className="single-month-info">
+            <span className="single-month-title">{selectedMonth}</span>
+            <span className="single-month-meta">
+              {monthCounts[selectedMonth] || 0} scheduled events ({filterMode === 'exams' ? 'exams only' : filterMode === 'applications' ? 'applications only' : 'exams & applications'})
+            </span>
+          </div>
+          <button className="calendar-reset-btn" onClick={() => setSelectedMonth('All')}>
+            ← Back to All 12 Months
+          </button>
+        </div>
+      )}
+
+      <div className={`calendar-grid ${selectedMonth !== 'All' ? 'single-month-view' : 'all-months-view'}`}>
+        {displayedMonths.map((item) => {
           const showExams = filterMode === 'both' || filterMode === 'exams'
           const showApps = filterMode === 'both' || filterMode === 'applications'
           const totalEvents = (showExams ? item.exams.length : 0) + (showApps ? item.applications.length : 0)
@@ -86,8 +169,10 @@ export default function CalendarView({ exams, onViewDetails }) {
           return (
             <div key={item.month} className="calendar-month">
               <div className="calendar-month-name">
-                <HiOutlineCalendar style={{ color: 'var(--accent-blue)' }} />
-                <span>{item.month}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <HiOutlineCalendar style={{ color: 'var(--accent-blue)', flexShrink: 0 }} />
+                  <span>{item.month}</span>
+                </div>
                 <span className="calendar-month-count">{totalEvents} events</span>
               </div>
 
@@ -140,8 +225,8 @@ export default function CalendarView({ exams, onViewDetails }) {
                 })}
 
                 {totalEvents === 0 && (
-                  <div style={{ padding: '16px 0', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.75rem' }}>
-                    No major events noted
+                  <div style={{ padding: '24px 0', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.78rem' }}>
+                    No major events scheduled for this window
                   </div>
                 )}
               </div>
@@ -152,3 +237,4 @@ export default function CalendarView({ exams, onViewDetails }) {
     </section>
   )
 }
+
