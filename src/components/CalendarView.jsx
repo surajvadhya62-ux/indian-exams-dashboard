@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { getMonthExams, getDomainColor } from '../utils/helpers'
-import { HiOutlineCalendar, HiOutlineViewGrid, HiOutlineFilter } from 'react-icons/hi'
+import { HiOutlineCalendar, HiOutlineViewGrid, HiOutlineChevronLeft, HiOutlineChevronRight, HiOutlineArrowRight } from 'react-icons/hi'
 
 const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',
@@ -25,7 +25,9 @@ const MONTH_SHORT = {
 export default function CalendarView({ exams, onViewDetails }) {
   const [filterMode, setFilterMode] = useState('both') // 'exams', 'applications', 'both'
   const [selectedDomain, setSelectedDomain] = useState('All')
-  const [selectedMonth, setSelectedMonth] = useState('All')
+  
+  // Default to January for immediate readability on mobile, or user can toggle to any month or All Year
+  const [selectedMonth, setSelectedMonth] = useState('January')
 
   const domains = useMemo(() => {
     return ['All', ...new Set(exams.map(e => e.domain))].sort()
@@ -46,15 +48,28 @@ export default function CalendarView({ exams, onViewDetails }) {
       const showExams = filterMode === 'both' || filterMode === 'exams'
       const showApps = filterMode === 'both' || filterMode === 'applications'
       const count = (showExams ? item.exams.length : 0) + (showApps ? item.applications.length : 0)
-      counts[item.month] = count
+      counts[item.month] = {
+        total: count,
+        exams: item.exams.length,
+        applications: item.applications.length
+      }
       counts.All += count
     })
     return counts
   }, [monthData, filterMode])
 
-  const displayedMonths = useMemo(() => {
-    if (selectedMonth === 'All') return monthData
-    return monthData.filter(item => item.month === selectedMonth)
+  const navigateMonth = (direction) => {
+    const currentIdx = MONTH_NAMES.indexOf(selectedMonth)
+    if (currentIdx === -1) {
+      setSelectedMonth(direction > 0 ? 'January' : 'December')
+      return
+    }
+    const nextIdx = (currentIdx + direction + 12) % 12
+    setSelectedMonth(MONTH_NAMES[nextIdx])
+  }
+
+  const currentMonthData = useMemo(() => {
+    return monthData.find(item => item.month === selectedMonth) || monthData[0]
   }, [monthData, selectedMonth])
 
   return (
@@ -128,7 +143,7 @@ export default function CalendarView({ exams, onViewDetails }) {
           <span className="month-pill-count">{monthCounts.All || 0}</span>
         </button>
         {MONTH_NAMES.map(m => {
-          const count = monthCounts[m] || 0
+          const count = monthCounts[m]?.total || 0
           const isActive = selectedMonth === m
           return (
             <button
@@ -146,95 +161,203 @@ export default function CalendarView({ exams, onViewDetails }) {
         })}
       </div>
 
-      {selectedMonth !== 'All' && (
-        <div className="calendar-single-month-header">
-          <div className="single-month-info">
-            <span className="single-month-title">{selectedMonth}</span>
-            <span className="single-month-meta">
-              {monthCounts[selectedMonth] || 0} scheduled events ({filterMode === 'exams' ? 'exams only' : filterMode === 'applications' ? 'applications only' : 'exams & applications'})
-            </span>
-          </div>
-          <button className="calendar-reset-btn" onClick={() => setSelectedMonth('All')}>
-            ← Back to All 12 Months
-          </button>
-        </div>
-      )}
+      {/* SINGLE MONTH FOCUSED VIEW (Default, fully readable & spacious) */}
+      {selectedMonth !== 'All' ? (
+        <div className="calendar-single-month-container">
+          <div className="calendar-month-stepper">
+            <button
+              className="stepper-nav-btn"
+              onClick={() => navigateMonth(-1)}
+              title="Previous Month"
+            >
+              <HiOutlineChevronLeft />
+              <span className="stepper-nav-label">
+                {MONTH_SHORT[MONTH_NAMES[(MONTH_NAMES.indexOf(selectedMonth) - 1 + 12) % 12]]}
+              </span>
+            </button>
 
-      <div className={`calendar-grid ${selectedMonth !== 'All' ? 'single-month-view' : 'all-months-view'}`}>
-        {displayedMonths.map((item) => {
-          const showExams = filterMode === 'both' || filterMode === 'exams'
-          const showApps = filterMode === 'both' || filterMode === 'applications'
-          const totalEvents = (showExams ? item.exams.length : 0) + (showApps ? item.applications.length : 0)
-
-          return (
-            <div key={item.month} className="calendar-month">
-              <div className="calendar-month-name">
-                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  <HiOutlineCalendar style={{ color: 'var(--accent-blue)', flexShrink: 0 }} />
-                  <span>{item.month}</span>
-                </div>
-                <span className="calendar-month-count">{totalEvents} events</span>
+            <div className="stepper-center">
+              <div className="stepper-month-heading">
+                <HiOutlineCalendar className="stepper-cal-icon" />
+                <span className="stepper-month-name">{selectedMonth}</span>
+                <span className="stepper-event-badge">{monthCounts[selectedMonth]?.total || 0} events</span>
               </div>
-
-              <div className="calendar-events-list">
-                {/* Exams scheduled in this month */}
-                {showExams && item.exams.map((exam) => {
-                  const color = getDomainColor(exam.domain)
-                  return (
-                    <div
-                      key={`exam-${exam.id}`}
-                      className="calendar-event"
-                      style={{ borderLeftColor: color }}
-                      onClick={() => onViewDetails(exam)}
-                      title={`${exam.name} (${exam.domain}) - Click to view details`}
-                    >
-                      <div className="calendar-event-header">
-                        <span className="calendar-event-title">
-                          {exam.acronym || exam.name}
-                        </span>
-                        <span className="calendar-event-type type-exam">Exam</span>
-                      </div>
-                      <div className="calendar-event-sub">
-                        {exam.name}
-                      </div>
-                    </div>
-                  )
-                })}
-
-                {/* Applications active in this month */}
-                {showApps && item.applications.map((exam) => {
-                  return (
-                    <div
-                      key={`app-${exam.id}`}
-                      className="calendar-event"
-                      style={{ borderLeftColor: '#f59e0b', background: 'rgba(245, 158, 11, 0.04)' }}
-                      onClick={() => onViewDetails(exam)}
-                      title={`${exam.name} (Application window: ${exam.application_period}) - Click to view details`}
-                    >
-                      <div className="calendar-event-header">
-                        <span className="calendar-event-title" style={{ color: '#fbbf24' }}>
-                          {exam.acronym || exam.name}
-                        </span>
-                        <span className="calendar-event-type type-apply">Apply</span>
-                      </div>
-                      <div className="calendar-event-sub">
-                        Window: {exam.application_period}
-                      </div>
-                    </div>
-                  )
-                })}
-
-                {totalEvents === 0 && (
-                  <div style={{ padding: '24px 0', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.78rem' }}>
-                    No major events scheduled for this window
-                  </div>
-                )}
+              <div className="stepper-meta-breakdown">
+                <span className="meta-subitem">
+                  <strong style={{ color: '#38bdf8' }}>{monthCounts[selectedMonth]?.exams || 0}</strong> exams scheduled
+                </span>
+                <span className="meta-divider">·</span>
+                <span className="meta-subitem">
+                  <strong style={{ color: '#fbbf24' }}>{monthCounts[selectedMonth]?.applications || 0}</strong> registration windows
+                </span>
               </div>
             </div>
-          )
-        })}
-      </div>
+
+            <button
+              className="stepper-nav-btn"
+              onClick={() => navigateMonth(1)}
+              title="Next Month"
+            >
+              <span className="stepper-nav-label">
+                {MONTH_SHORT[MONTH_NAMES[(MONTH_NAMES.indexOf(selectedMonth) + 1) % 12]]}
+              </span>
+              <HiOutlineChevronRight />
+            </button>
+          </div>
+
+          {/* Detailed Event Cards List */}
+          <div className="calendar-detailed-events-list">
+            {/* Scheduled Exams */}
+            {(filterMode === 'both' || filterMode === 'exams') &&
+              currentMonthData.exams.map((exam) => {
+                const color = getDomainColor(exam.domain)
+                return (
+                  <div
+                    key={`exam-${exam.id}`}
+                    className="calendar-detailed-card card-exam-type"
+                    style={{ borderLeftColor: color }}
+                    onClick={() => onViewDetails(exam)}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <div className="card-top-row">
+                      <div className="card-title-block">
+                        <span className="card-primary-title">
+                          {exam.acronym || exam.name}
+                        </span>
+                        {exam.acronym && exam.acronym !== exam.name && (
+                          <span className="card-secondary-title">{exam.name}</span>
+                        )}
+                      </div>
+                      <span className="calendar-event-type type-exam">Exam</span>
+                    </div>
+
+                    <div className="card-meta-row">
+                      <span className="card-meta-pill authority-pill">{exam.conducting_body}</span>
+                      <span className="card-meta-pill domain-pill" style={{ color }}>{exam.domain}</span>
+                      <span className="card-meta-date">📅 {exam.exam_month}</span>
+                    </div>
+                  </div>
+                )
+              })}
+
+            {/* Application Windows */}
+            {(filterMode === 'both' || filterMode === 'applications') &&
+              currentMonthData.applications.map((exam) => {
+                return (
+                  <div
+                    key={`app-${exam.id}`}
+                    className="calendar-detailed-card card-apply-type"
+                    style={{ borderLeftColor: '#f59e0b' }}
+                    onClick={() => onViewDetails(exam)}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    <div className="card-top-row">
+                      <div className="card-title-block">
+                        <span className="card-primary-title" style={{ color: '#fbbf24' }}>
+                          {exam.acronym || exam.name}
+                        </span>
+                        {exam.acronym && exam.acronym !== exam.name && (
+                          <span className="card-secondary-title">{exam.name}</span>
+                        )}
+                      </div>
+                      <span className="calendar-event-type type-apply">Apply</span>
+                    </div>
+
+                    <div className="card-meta-row">
+                      <span className="card-meta-pill authority-pill">{exam.conducting_body}</span>
+                      <span className="card-meta-pill domain-pill" style={{ color: getDomainColor(exam.domain) }}>{exam.domain}</span>
+                      <span className="card-meta-date" style={{ color: '#fef08a' }}>📝 Window: {exam.application_period}</span>
+                    </div>
+                  </div>
+                )
+              })}
+
+            {(monthCounts[selectedMonth]?.total || 0) === 0 && (
+              <div className="calendar-empty-state">
+                <p>No exams or active registration windows found for {selectedMonth} with current filters.</p>
+                <button
+                  className="calendar-reset-btn"
+                  onClick={() => {
+                    setSelectedDomain('All')
+                    setFilterMode('both')
+                  }}
+                >
+                  Reset Filters
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      ) : (
+        /* ALL YEAR OVERVIEW VIEW */
+        <div className="calendar-grid all-months-overview">
+          {monthData.map((item) => {
+            const countInfo = monthCounts[item.month] || { total: 0, exams: 0, applications: 0 }
+            const topExams = [...item.exams, ...item.applications].slice(0, 3)
+
+            return (
+              <div
+                key={item.month}
+                className="calendar-month-overview-card"
+                onClick={() => setSelectedMonth(item.month)}
+              >
+                <div className="month-overview-header">
+                  <div className="month-overview-title-group">
+                    <HiOutlineCalendar style={{ color: 'var(--accent-blue)', fontSize: '1.1rem' }} />
+                    <span className="month-overview-name">{item.month}</span>
+                  </div>
+                  <span className="month-overview-count-badge">
+                    {countInfo.total} events
+                  </span>
+                </div>
+
+                <div className="month-overview-metrics">
+                  <span className="overview-metric-tag" style={{ color: '#38bdf8' }}>
+                    {countInfo.exams} Exams
+                  </span>
+                  <span className="overview-metric-divider">·</span>
+                  <span className="overview-metric-tag" style={{ color: '#fbbf24' }}>
+                    {countInfo.applications} Opens
+                  </span>
+                </div>
+
+                {/* Highlights preview */}
+                <div className="month-overview-highlights">
+                  {topExams.map((e, idx) => (
+                    <div key={`${e.id}-${idx}`} className="month-highlight-chip">
+                      <span
+                        className="highlight-chip-dot"
+                        style={{ backgroundColor: getDomainColor(e.domain) }}
+                      />
+                      <span className="highlight-chip-name">{e.acronym || e.name}</span>
+                    </div>
+                  ))}
+                  {countInfo.total > 3 && (
+                    <div className="month-highlight-more">
+                      +{countInfo.total - 3} more scheduled
+                    </div>
+                  )}
+                </div>
+
+                <button
+                  className="month-overview-view-btn"
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    setSelectedMonth(item.month)
+                  }}
+                >
+                  <span>Explore {item.month}</span>
+                  <HiOutlineArrowRight />
+                </button>
+              </div>
+            )
+          })}
+        </div>
+      )}
     </section>
   )
 }
+
 

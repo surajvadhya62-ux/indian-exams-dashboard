@@ -185,7 +185,7 @@ function ChapterHead({ num, label, meta }) {
   )
 }
 
-function StatTile({ value, label, sub, delay }) {
+function StatTile({ value, suffix = '', label, sub, delay }) {
   const [ref, visible] = useReveal(0.5)
   const [n, setN] = useState(0)
   useEffect(() => {
@@ -204,7 +204,7 @@ function StatTile({ value, label, sub, delay }) {
   }, [visible, value])
   return (
     <div ref={ref} className={`sg-reveal sg-stat-tile${visible ? ' in' : ''}`} style={{ transitionDelay: `${delay}ms` }}>
-      <div className="sg-stat-value">{n.toLocaleString('en-IN')}</div>
+      <div className="sg-stat-value">{n.toLocaleString('en-IN')}{suffix}</div>
       <div className="sg-stat-label">{label}</div>
       <div className="sg-stat-sub">{sub}</div>
     </div>
@@ -325,7 +325,7 @@ export default function StoryGate({ exams, onEnter }) {
       <section className="sg-chapter" id="sg-numbers">
         <ChapterHead num="01" label="By the Numbers" meta="Live registry" />
         <div className="sg-stats-grid">
-          <StatTile value={stats.total} label="Examinations tracked" sub="Central + State" delay={0} />
+          <StatTile value={500} suffix="+" label="Examinations tracked" sub="Central + State" delay={0} />
           <StatTile value={stats.central} label="Central & All-India" sub="UPSC · SSC · RRB · Banks" delay={70} />
           <StatTile value={stats.state} label="State & UT boards" sub="PSCs & subordinate boards" delay={140} />
           <StatTile value={stats.domains} label="Career domains" sub="Engineering to defence to law" delay={210} />
