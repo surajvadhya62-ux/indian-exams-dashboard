@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   sync-and-validate:
@@ -45,3 +46,41 @@ jobs:
             git commit -m "Auto-sync: update examination database from official portal scans [skip ci]"
             git push origin main
           fi
+
+      - name: Intimate Owner of New Exams (Email & Push Alert)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const logPath = "scripts/automation/new-exams-found.json";
+            if (fs.existsSync(logPath)) {
+              try {
+                const exams = JSON.parse(fs.readFileSync(logPath, "utf-8"));
+                if (Array.isArray(exams) && exams.length > 0) {
+                  const { execSync } = require("child_process");
+                  for (const exam of exams) {
+                    const title = `🔔 [New Exam Found] ${exam.name} (${exam.acronym || exam.id})`;
+                    const body = `### New Examination Detected and Added to IndiaExams\n\n` +
+                      `- **Exam Name:** ${exam.name}\n` +
+                      `- **Acronym:** ${exam.acronym || "N/A"}\n` +
+                      `- **Conducting Authority:** ${exam.conducting_body}\n` +
+                      `- **Domain:** ${exam.domain}\n` +
+                      `- **Jurisdiction:** ${exam.jurisdiction} (${exam.state})\n` +
+                      `- **Entry Level:** ${exam.level}\n` +
+                      `- **Application Period:** ${exam.application_period}\n` +
+                      `- **Exam Month:** ${exam.exam_month}\n` +
+                      `- **Official Portal:** ${exam.website}\n\n` +
+                      `*Dossier \`public/exam-details/${exam.id}.json\` has been created, schema-verified, and published to live site.*`;
+                    console.log("Creating notification issue for:", exam.name);
+                    execSync(`gh issue create --title "${title.replace(/"/g, "\\\"")}" --body "${body.replace(/"/g, "\\\"")}"`, { stdio: "inherit" });
+                  }
+                  // Clear after intimation
+                  fs.writeFileSync(logPath, "[]", "utf-8");
+                }
+              } catch (e) {
+                console.error("Intimation note:", e.message);
+              }
+            }
+          '

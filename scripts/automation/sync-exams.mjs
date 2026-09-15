@@ -26,6 +26,7 @@ const EXAMS_JSON_PATH = path.join(ROOT_DIR, 'src/data/exams.json')
 const DETAILS_DIR = path.join(ROOT_DIR, 'public/exam-details')
 const SOURCES_CONFIG_PATH = path.join(__dirname, 'sources-config.json')
 const VALIDATE_SCRIPT_PATH = path.join(ROOT_DIR, 'scripts/data-sourcing/validate-details.mjs')
+const NEW_EXAMS_LOG_PATH = path.join(__dirname, 'new-exams-found.json')
 
 function loadJSON(filePath) {
   try {
@@ -223,7 +224,12 @@ function addNewExam(newExamData, dryRun = false) {
   saveJSON(detailPath, detailData)
   console.log(`✓ Created dossier file at public/exam-details/${examEntry.id}.json`)
 
-  // 3. Run validation
+  // 3. Record for notification / intimation
+  const newExams = loadJSON(NEW_EXAMS_LOG_PATH) || []
+  newExams.push(examEntry)
+  saveJSON(NEW_EXAMS_LOG_PATH, newExams)
+
+  // 4. Run validation
   console.log('\nRunning schema validation...')
   try {
     execSync(`node "${VALIDATE_SCRIPT_PATH}"`, { stdio: 'inherit' })
