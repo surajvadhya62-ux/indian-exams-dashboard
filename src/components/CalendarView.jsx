@@ -29,9 +29,10 @@ export default function CalendarView({ exams, onViewDetails }) {
           </p>
         </div>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+        <div className="calendar-controls-group" style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
           {/* Domain dropdown filter */}
           <select
+            className="calendar-domain-select"
             value={selectedDomain}
             onChange={(e) => setSelectedDomain(e.target.value)}
             style={{
@@ -90,7 +91,7 @@ export default function CalendarView({ exams, onViewDetails }) {
                 <span className="calendar-month-count">{totalEvents} events</span>
               </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', maxHeight: '280px', overflowY: 'auto', paddingRight: '4px' }}>
+              <div className="calendar-events-list">
                 {/* Exams scheduled in this month */}
                 {showExams && item.exams.map((exam) => {
                   const color = getDomainColor(exam.domain)
@@ -102,13 +103,13 @@ export default function CalendarView({ exams, onViewDetails }) {
                       onClick={() => onViewDetails(exam)}
                       title={`${exam.name} (${exam.domain}) - Click to view details`}
                     >
-                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minWidth: 0, gap: '8px' }}>
-                        <span style={{ fontWeight: 600, color: '#f1f5f9', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', minWidth: 0 }}>
+                      <div className="calendar-event-header">
+                        <span className="calendar-event-title">
                           {exam.acronym || exam.name}
                         </span>
-                        <span className="calendar-event-type" style={{ color: '#38bdf8', flexShrink: 0 }}>Exam</span>
+                        <span className="calendar-event-type type-exam">Exam</span>
                       </div>
-                      <div style={{ fontSize: '0.7rem', color: '#94a3b8', marginTop: '2px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      <div className="calendar-event-sub">
                         {exam.name}
                       </div>
                     </div>
@@ -117,7 +118,6 @@ export default function CalendarView({ exams, onViewDetails }) {
 
                 {/* Applications active in this month */}
                 {showApps && item.applications.map((exam) => {
-                  const color = getDomainColor(exam.domain)
                   return (
                     <div
                       key={`app-${exam.id}`}
@@ -126,13 +126,13 @@ export default function CalendarView({ exams, onViewDetails }) {
                       onClick={() => onViewDetails(exam)}
                       title={`${exam.name} (Application window: ${exam.application_period}) - Click to view details`}
                     >
-                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', minWidth: 0, gap: '8px' }}>
-                        <span style={{ fontWeight: 600, color: '#fbbf24', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', minWidth: 0 }}>
+                      <div className="calendar-event-header">
+                        <span className="calendar-event-title" style={{ color: '#fbbf24' }}>
                           {exam.acronym || exam.name}
                         </span>
-                        <span className="calendar-event-type" style={{ color: '#fbbf24', flexShrink: 0 }}>Apply</span>
+                        <span className="calendar-event-type type-apply">Apply</span>
                       </div>
-                      <div style={{ fontSize: '0.7rem', color: '#94a3b8', marginTop: '2px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      <div className="calendar-event-sub">
                         Window: {exam.application_period}
                       </div>
                     </div>

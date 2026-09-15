@@ -1,0 +1,176 @@
+{
+  "version": "2.0",
+  "description": "Multi-dimensional structured discovery matrix for Indian competitive and entrance examinations",
+  "last_updated": "2026-09-16",
+  "axes": {
+    "domains": [
+      {
+        "id": "civil_services",
+        "name": "Civil Services & Administration",
+        "keywords": ["Civil Services", "Administrative Service", "IAS", "State PCS", "Combined State Services", "Executive Officer"],
+        "search_query_templates": [
+          "Civil services examination notification India {year}",
+          "State Public Service Commission civil services prelims mains notification {year}"
+        ]
+      },
+      {
+        "id": "engineering",
+        "name": "Engineering & Technical",
+        "keywords": ["GATE", "IES", "ESE", "Junior Engineer", "Assistant Engineer", "State Engineering Service", "PSU Executive Trainee", "JE", "AE"],
+        "search_query_templates": [
+          "Engineering government job recruitment examination {year} Assistant Engineer Junior Engineer",
+          "PSU engineering recruitment through GATE notification {year}"
+        ]
+      },
+      {
+        "id": "banking_finance",
+        "name": "Banking, Finance & Insurance",
+        "keywords": ["IBPS", "SBI PO", "SBI Clerk", "RBI Grade B", "RBI Assistant", "SEBI Grade A", "NABARD", "LIC AAO", "NIACL AO", "Specialist Officer"],
+        "search_query_templates": [
+          "Bank recruitment examination notification {year} IBPS SBI RBI",
+          "Insurance recruitment notification {year} LIC NIACL OICL"
+        ]
+      },
+      {
+        "id": "defence_police",
+        "name": "Defence, Police & Paramilitary",
+        "keywords": ["NDA", "CDS", "AFCAT", "CAPF AC", "State Police Sub Inspector", "Police Constable", "Coast Guard", "Territorial Army"],
+        "search_query_templates": [
+          "Defence entrance examination notification India {year} NDA CDS AFCAT",
+          "Police Sub Inspector recruitment notification {year} state police"
+        ]
+      },
+      {
+        "id": "teaching_education",
+        "name": "Teaching, Academia & Research",
+        "keywords": ["UGC NET", "CSIR NET", "CTET", "State TET", "REET", "KVS PGT TGT", "NVS", "Assistant Professor PSC"],
+        "search_query_templates": [
+          "Teacher Eligibility Test notification {year} state TET CTET",
+          "State PSC Assistant Professor college education recruitment {year}"
+        ]
+      },
+      {
+        "id": "medical_healthcare",
+        "name": "Medical, Nursing & Allied Health",
+        "keywords": ["NEET UG", "NEET PG", "AIIMS NORCET", "Medical Services", "UPSC CMS", "State Medical Officer", "Pharmacist recruitment"],
+        "search_query_templates": [
+          "Medical entrance exam notification {year} NEET NBE",
+          "Nursing Officer recruitment notification {year} AIIMS ESIC State MRB"
+        ]
+      },
+      {
+        "id": "law_judiciary",
+        "name": "Law & Judicial Services",
+        "keywords": ["CLAT", "AILET", "Judicial Service Civil Judge Junior Division", "Public Prosecutor", "Law Officer", "APO", "High Court Staff"],
+        "search_query_templates": [
+          "Judicial Service Examination Civil Judge notification {year}",
+          "Law officer public prosecutor recruitment examination {year}"
+        ]
+      },
+      {
+        "id": "agriculture_forestry",
+        "name": "Agriculture, Veterinary & Forestry",
+        "keywords": ["Indian Forest Service", "State Forest Service", "Range Forest Officer", "ICAR AIEEA", "Agriculture Officer", "Krishi Sevak"],
+        "search_query_templates": [
+          "Forest Service examination notification {year} IFS RFO",
+          "Agriculture Officer recruitment notification state PSC {year}"
+        ]
+      },
+      {
+        "id": "management",
+        "name": "Management & Business Admissions",
+        "keywords": ["CAT", "XAT", "MAT", "CMAT", "ATMA", "State MBA CET", "TANCET", "MAH MBA CET"],
+        "search_query_templates": [
+          "Management entrance exam MBA PGDM notification India {year}"
+        ]
+      },
+      {
+        "id": "subordinate_secretariat",
+        "name": "Staff Selection & Subordinate Secretariat",
+        "keywords": ["SSC CGL", "SSC CHSL", "SSC MTS", "SSC Stenographer", "State SSSC", "Patwari", "Lekhpal", "VDO", "Junior Assistant", "Clerk"],
+        "search_query_templates": [
+          "Staff Selection Commission exam notification {year} CGL CHSL MTS",
+          "Subordinate staff selection board clerk patwari recruitment {year}"
+        ]
+      }
+    ],
+
+    "qualifications": [
+      {
+        "level": "10th Pass",
+        "description": "Secondary / Matriculation level",
+        "typical_exams": ["SSC MTS", "SSC GD Constable", "Railway Group D", "State Police Constable", "Post Office GDS"],
+        "search_template": "10th pass matriculation government job exams notification India {year}"
+      },
+      {
+        "level": "12th Pass",
+        "description": "Higher Secondary / Intermediate (10+2)",
+        "typical_exams": ["SSC CHSL", "NDA", "SSC Stenographer", "State Police Constable", "JEE Main", "NEET UG", "CUET UG"],
+        "search_template": "12th pass intermediate government jobs entrance exams notification India {year}"
+      },
+      {
+        "level": "Diploma",
+        "description": "Polytechnic / 3-Year Technical Diploma",
+        "typical_exams": ["SSC JE", "RRB Junior Engineer", "State Electricity Board JE", "PSU Diploma Trainee"],
+        "search_template": "Diploma polytechnic junior engineer recruitment notification India {year}"
+      },
+      {
+        "level": "Graduate",
+        "description": "Bachelor Degree (B.A., B.Sc., B.Com., B.Tech, MBBS, LL.B., etc.)",
+        "typical_exams": ["UPSC CSE", "SSC CGL", "IBPS PO", "SBI PO", "State PCS", "CDS", "AFCAT", "CAT", "GATE"],
+        "search_template": "Graduate degree competitive exams recruitment notification India {year}"
+      },
+      {
+        "level": "Postgraduate",
+        "description": "Master Degree (M.A., M.Sc., M.Com., M.Tech, MD, LL.M.)",
+        "typical_exams": ["UGC NET", "CSIR NET", "GATE", "State Assistant Professor", "Specialist Officer", "NEET PG"],
+        "search_template": "Postgraduate government job exams assistant professor NET notification India {year}"
+      }
+    ],
+
+    "authorities_by_jurisdiction": {
+      "central": [
+        {"id": "upsc", "name": "Union Public Service Commission", "url": "https://www.upsc.gov.in"},
+        {"id": "ssc", "name": "Staff Selection Commission", "url": "https://ssc.gov.in"},
+        {"id": "nta", "name": "National Testing Agency", "url": "https://nta.ac.in"},
+        {"id": "rrb", "name": "Railway Recruitment Boards", "url": "https://indianrailways.gov.in"},
+        {"id": "ibps", "name": "Institute of Banking Personnel Selection", "url": "https://www.ibps.in"},
+        {"id": "sbi", "name": "State Bank of India Recruitment", "url": "https://sbi.co.in/careers"},
+        {"id": "rbi", "name": "Reserve Bank of India", "url": "https://opportunities.rbi.org.in"}
+      ],
+      "states": [
+        {"state": "Andhra Pradesh", "psc": "APPSC", "url": "https://psc.ap.gov.in"},
+        {"state": "Arunachal Pradesh", "psc": "APPSC", "url": "https://appsc.gov.in"},
+        {"state": "Assam", "psc": "APSC", "url": "https://apsc.nic.in"},
+        {"state": "Bihar", "psc": "BPSC", "ssb": "BSSC", "url": "https://bpsc.bih.nic.in"},
+        {"state": "Chhattisgarh", "psc": "CGPSC", "url": "https://psc.cg.gov.in"},
+        {"state": "Goa", "psc": "GPSC", "url": "https://gpsc.goa.gov.in"},
+        {"state": "Gujarat", "psc": "GPSC", "ssb": "GSSSB", "url": "https://gpsc.gujarat.gov.in"},
+        {"state": "Haryana", "psc": "HPSC", "ssb": "HSSC", "url": "https://hpsc.gov.in"},
+        {"state": "Himachal Pradesh", "psc": "HPPSC", "url": "https://hppsc.hp.gov.in"},
+        {"state": "Jharkhand", "psc": "JPSC", "ssb": "JSSC", "url": "https://jpsc.gov.in"},
+        {"state": "Karnataka", "psc": "KPSC", "ssb": "KEA", "url": "https://kpsc.kar.nic.in"},
+        {"state": "Kerala", "psc": "Kerala PSC", "url": "https://keralapsc.gov.in"},
+        {"state": "Madhya Pradesh", "psc": "MPPSC", "ssb": "MPESB", "url": "https://mppsc.mp.gov.in"},
+        {"state": "Maharashtra", "psc": "MPSC", "url": "https://mpsc.gov.in"},
+        {"state": "Manipur", "psc": "MPSC", "url": "https://mpscmanipur.gov.in"},
+        {"state": "Meghalaya", "psc": "MPSC", "url": "https://mpsc.nic.in"},
+        {"state": "Mizoram", "psc": "MPSC", "url": "https://mpsc.mizoram.gov.in"},
+        {"state": "Nagaland", "psc": "NPSC", "ssb": "NSSB", "url": "https://npsc.nagaland.gov.in"},
+        {"state": "Odisha", "psc": "OPSC", "ssb": "OSSSC", "url": "https://opsc.gov.in"},
+        {"state": "Punjab", "psc": "PPSC", "ssb": "PSSSB", "url": "https://ppsc.gov.in"},
+        {"state": "Rajasthan", "psc": "RPSC", "ssb": "RSMSSB", "url": "https://rpsc.rajasthan.gov.in"},
+        {"state": "Sikkim", "psc": "SPSC", "url": "https://spsc.sikkim.gov.in"},
+        {"state": "Tamil Nadu", "psc": "TNPSC", "ssb": "TNUSRB / TRB", "url": "https://tnpsc.gov.in"},
+        {"state": "Telangana", "psc": "TGPSC", "ssb": "TSLPRB", "url": "https://tspsc.gov.in"},
+        {"state": "Tripura", "psc": "TPSC", "url": "https://tpsc.tripura.gov.in"},
+        {"state": "Uttar Pradesh", "psc": "UPPSC", "ssb": "UPSSSC", "url": "https://uppsc.up.nic.in"},
+        {"state": "Uttarakhand", "psc": "UKPSC", "ssb": "UKSSSC", "url": "https://psc.uk.gov.in"},
+        {"state": "West Bengal", "psc": "WBPSC", "ssb": "WBPRB", "url": "https://psc.wb.gov.in"},
+        {"state": "Delhi", "ssb": "DSSSB", "url": "https://dsssb.delhi.gov.in"},
+        {"state": "Jammu & Kashmir", "psc": "JKPSC", "ssb": "JKSSB", "url": "https://jkpsc.nic.in"},
+        {"state": "Ladakh", "ssb": "Ladakh SSB", "url": "https://ladakh.gov.in"}
+      ]
+    }
+  }
+}

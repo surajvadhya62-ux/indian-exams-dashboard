@@ -207,6 +207,7 @@ function App() {
               setActiveView={setActiveView}
               setFilters={setFilters}
               setSearchQuery={setSearchQuery}
+              totalExams={examsData.length}
             />
           </div>
         )}

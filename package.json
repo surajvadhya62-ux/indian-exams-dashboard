@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync-exams": "node scripts/automation/sync-exams.mjs",
+    "sync-exams:dry-run": "node scripts/automation/sync-exams.mjs --dry-run",
+    "validate": "node scripts/data-sourcing/validate-details.mjs"
   },
   "devDependencies": {
     "typescript": "~6.0.2",
