@@ -84,3 +84,35 @@ jobs:
               }
             }
           '
+
+      - name: Intimate Owner of Existing Exam Updates
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const logPath = "scripts/automation/exam-updates-found.json";
+            if (fs.existsSync(logPath)) {
+              try {
+                const updates = JSON.parse(fs.readFileSync(logPath, "utf-8"));
+                if (Array.isArray(updates) && updates.length > 0) {
+                  const { execSync } = require("child_process");
+                  for (const u of updates) {
+                    const changesDesc = u.changes.map(c => `• **${c.field}**: \`${c.oldValue}\` ➔ \`${c.newValue}\``).join("\n");
+                    const title = `🔄 [Exam Updated] ${u.name} (${u.acronym || u.id})`;
+                    const body = `### Existing Examination Revised on IndiaExams\n\n` +
+                      `**Exam:** ${u.name} (${u.id})\n\n` +
+                      `#### Revisions Detected:\n${changesDesc}\n\n` +
+                      `*Updated in database and reflected across the Annual Calendar and Search Views.*`;
+                    console.log("Creating update notification for:", u.name);
+                    execSync(`gh issue create --title "${title.replace(/"/g, "\\\"")}" --body "${body.replace(/"/g, "\\\"")}"`, { stdio: "inherit" });
+                  }
+                  // Clear after intimation
+                  fs.writeFileSync(logPath, "[]", "utf-8");
+                }
+              } catch (e) {
+                console.error("Update intimation note:", e.message);
+              }
+            }
+          '

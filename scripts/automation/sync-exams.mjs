@@ -27,6 +27,7 @@ const DETAILS_DIR = path.join(ROOT_DIR, 'public/exam-details')
 const SOURCES_CONFIG_PATH = path.join(__dirname, 'sources-config.json')
 const VALIDATE_SCRIPT_PATH = path.join(ROOT_DIR, 'scripts/data-sourcing/validate-details.mjs')
 const NEW_EXAMS_LOG_PATH = path.join(__dirname, 'new-exams-found.json')
+const UPDATES_LOG_PATH = path.join(__dirname, 'exam-updates-found.json')
 
 function loadJSON(filePath) {
   try {
@@ -242,6 +243,93 @@ function addNewExam(newExamData, dryRun = false) {
   return true
 }
 
+// Update existing exam with new notification dates or revisions
+function updateExistingExam(examId, updates, dryRun = false) {
+  const exams = loadJSON(EXAMS_JSON_PATH)
+  if (!exams) return false
+
+  const index = exams.findIndex(e => e.id.toLowerCase() === examId.toLowerCase())
+  if (index === -1) {
+    console.error(`Exam with ID "${examId}" not found in database.`)
+    return false
+  }
+
+  const current = exams[index]
+  const changedFields = []
+
+  const updatableFields = [
+    'application_period', 'exam_month', 'website', 'salary_grade',
+    'eligibility', 'age_limit', 'selection_process', 'target_role', 'exam_mode'
+  ]
+
+  for (const field of updatableFields) {
+    if (updates[field] !== undefined && updates[field] !== current[field]) {
+      changedFields.push({
+        field,
+        oldValue: current[field],
+        newValue: updates[field]
+      })
+    }
+  }
+
+  if (changedFields.length === 0) {
+    console.log(`No changes detected for "${current.name}". Everything is current.`)
+    return false
+  }
+
+  if (dryRun) {
+    console.log(`[DRY RUN] Would update "${current.name}" (${current.id}):`)
+    changedFields.forEach(c => console.log(`  - ${c.field}: "${c.oldValue}" → "${c.newValue}"`))
+    return true
+  }
+
+  // Apply updates to exams.json
+  for (const c of changedFields) {
+    current[c.field] = c.newValue
+  }
+  exams[index] = current
+  saveJSON(EXAMS_JSON_PATH, exams)
+  console.log(`✓ Updated "${current.name}" in src/data/exams.json:`)
+  changedFields.forEach(c => console.log(`  - ${c.field}: "${c.oldValue}" → "${c.newValue}"`))
+
+  // Update public/exam-details/<id>.json last_reviewed
+  const detailPath = path.join(DETAILS_DIR, `${current.id}.json`)
+  if (fs.existsSync(detailPath)) {
+    const detailData = loadJSON(detailPath)
+    if (detailData) {
+      detailData.last_reviewed = new Date().toISOString().split('T')[0]
+      if (updates.website && detailData.official_resources?.links?.[0]) {
+        detailData.official_resources.links[0].url = updates.website
+        detailData.official_resources.links[0].last_verified = detailData.last_reviewed
+      }
+      saveJSON(detailPath, detailData)
+      console.log(`✓ Refreshed dossier timestamp at public/exam-details/${current.id}.json`)
+    }
+  }
+
+  // Record for notification / intimation
+  const updateLogs = loadJSON(UPDATES_LOG_PATH) || []
+  updateLogs.push({
+    id: current.id,
+    name: current.name,
+    acronym: current.acronym,
+    changes: changedFields,
+    updated_at: new Date().toISOString()
+  })
+  saveJSON(UPDATES_LOG_PATH, updateLogs)
+
+  // Validate
+  console.log('\nRunning schema validation...')
+  try {
+    execSync(`node "${VALIDATE_SCRIPT_PATH}"`, { stdio: 'inherit' })
+  } catch (err) {
+    console.error('Validation error on updated exam:', err.message)
+    return false
+  }
+
+  return true
+}
+
 // 1. Structured Search by Domain
 function showDomainSearch(config) {
   console.log('\n---------------------------------------------------------')
@@ -367,6 +455,34 @@ async function main() {
     }
 
     addNewExam(newExam, isDryRun)
+  }
+
+  // Update existing exam via CLI parameters
+  if (args.includes('--update')) {
+    const getArg = (key) => {
+      const idx = args.indexOf(key)
+      return idx !== -1 && args[idx + 1] ? args[idx + 1] : null
+    }
+
+    const id = getArg('--id')
+    if (!id) {
+      console.error('Error: --id is required when using --update')
+      console.log('Usage: node sync-exams.mjs --update --id "upsc-cse" --application "Feb 14 - Mar 05" --month "May"')
+      process.exit(1)
+    }
+
+    const updates = {}
+    if (getArg('--application')) updates.application_period = getArg('--application')
+    if (getArg('--month')) updates.exam_month = getArg('--month')
+    if (getArg('--website')) updates.website = getArg('--website')
+    if (getArg('--salary')) updates.salary_grade = getArg('--salary')
+    if (getArg('--eligibility')) updates.eligibility = getArg('--eligibility')
+    if (getArg('--age')) updates.age_limit = getArg('--age')
+    if (getArg('--selection')) updates.selection_process = getArg('--selection')
+    if (getArg('--role')) updates.target_role = getArg('--role')
+    if (getArg('--mode')) updates.exam_mode = getArg('--mode')
+
+    updateExistingExam(id, updates, isDryRun)
   }
 }
 
