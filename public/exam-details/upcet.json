@@ -1,0 +1,100 @@
+{
+  "id": "upcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPCET (formerly UPSEE, conducted by NTA for the Government of Uttar Pradesh / AKTU Lucknow) is the state-level entrance examination for admission into undergraduate professional programs (B.Pharm, B.Des, BHMCT, BFA, BFAD, B.Voc), postgraduate courses (MCA, MBA, M.Tech), and lateral entry to B.Tech/B.Pharm across all participating technical universities in Uttar Pradesh (AKTU, MMMUT, HBTU).",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT Entrance Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://aktu.ac.in",
+        "source_label": "NTA UPCET Information Bulletin & AKTU Guidelines",
+        "papers": [
+          {
+            "paper_name": "Domain Specific Entrance Test Paper (Pharmacy / Lateral Technical / Management / Design)",
+            "marks": 400,
+            "duration_minutes": 120,
+            "negative_marking": "1 mark deducted per incorrect response (4 marks per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank cut-off for seat allotment"
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized State Counseling & Seat Allocation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://aktu.ac.in",
+        "source_label": "AKTU Centralized Counseling Procedure",
+        "papers": [
+          {
+            "paper_name": "Online Registration, Choice Locking & Multi-Round Seat Allotment",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit-based admission in participating institutions"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Compiled from official admission reports and press releases published by AKTU Lucknow and National Testing Agency for state professional entrance testing cycles.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 160000,
+        "vacancies": 80000,
+        "shortlisted_for_mains": 115000,
+        "selectivity_ratio": "1 in 2",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://aktu.ac.in",
+        "source_label": "AKTU / UPCET NTA Admission & Counseling Report"
+      },
+      {
+        "year": 2020,
+        "applicants": 134505,
+        "vacancies": 75000,
+        "shortlisted_for_mains": 123027,
+        "selectivity_ratio": "1 in 2",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://aktu.ac.in",
+        "source_label": "AKTU UPSEE 2020 Result Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official website, information bulletins, and centralized counseling links hosted by Dr. A.P.J. Abdul Kalam Technical University (AKTU Lucknow).",
+    "links": [
+      {
+        "label": "Dr. A.P.J. Abdul Kalam Technical University (AKTU) Official Portal",
+        "url": "https://aktu.ac.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "AKTU State Admission and Counseling Guidelines",
+        "url": "https://aktu.ac.in",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

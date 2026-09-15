@@ -1,0 +1,134 @@
+{
+  "id": "spices-board-field-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Field extension and administrative cadre at Spices Board of India (Ministry of Commerce and Industry).",
+    "steps": [
+      {
+        "designation": "Field Officer (Agriculture / Horticulture)",
+        "pay_level": "Level 6 (7th CPC ₹35,400 – ₹1,12,400)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-06-15",
+        "source_url": "https://www.indianspices.com",
+        "source_label": "Spices Board Direct Recruitment Advt 2023"
+      },
+      {
+        "designation": "Senior Field Officer",
+        "pay_level": "Level 7 (7th CPC ₹44,900 – ₹1,42,400)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-06-15",
+        "source_url": "https://www.indianspices.com",
+        "source_label": "Spices Board Service Regulations"
+      },
+      {
+        "designation": "Assistant Director (Spices Development)",
+        "pay_level": "Level 10 (7th CPC ₹56,100 – ₹1,77,500)",
+        "years": "approx. 10+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-15",
+        "source_url": "https://www.indianspices.com",
+        "source_label": "Spices Board Service Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is based on a written test covering agricultural science and general aptitude.",
+    "stages": [
+      {
+        "stage_name": "Written Competitive Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-06-15",
+        "source_url": "https://www.indianspices.com",
+        "source_label": "Spices Board Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Agricultural Science / Post-Harvest Technology (50 MCQs) & General Aptitude, Reasoning, English (50 MCQs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark deduction",
+            "qualifying_only": false,
+            "qualifying_threshold": "General: 45%, Reserved: 35%"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by Central 7th CPC Matrix for Statutory Commodity Boards.",
+    "pay_level": "Level 6 (7th CPC Scale ₹35,400 – ₹1,12,400)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-06-15",
+    "pay_source_url": "https://www.indianspices.com",
+    "pay_source_label": "Spices Board Recruitment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 61000,
+      "max": 68000
+    },
+    "in_hand_range_estimate": {
+      "min": 54000,
+      "max": 61000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic ₹35,400, 58% Central DA (₹20,532), HRA (₹3,186 to ₹9,558), and Transport Allowance.",
+    "official_perks": [
+      "Central Government DA revised bi-annually",
+      "House Rent Allowance as per city classification",
+      "Transport Allowance (TA) and TA DA",
+      "National Pension System (NPS) with central contribution",
+      "Medical facilities and Leave Travel Concession (LTC)"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Field officer vacancies advertised by Spices Board Kochi.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 28,
+        "confidence": "verified",
+        "as_of": "2023-06-15",
+        "source_url": "https://www.indianspices.com",
+        "source_label": "Spices Board Notification 2023"
+      },
+      {
+        "year": 2021,
+        "vacancies": 20,
+        "confidence": "verified",
+        "as_of": "2021-04-10",
+        "source_url": "https://www.indianspices.com",
+        "source_label": "Spices Board Notification 2021"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on Spices Board portal.",
+    "links": [
+      {
+        "label": "Spices Board Recruitment & Opportunities",
+        "url": "https://www.indianspices.com",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Spices Board Official Website",
+        "url": "https://www.indianspices.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

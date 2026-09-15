@@ -1,0 +1,243 @@
+{
+  "id": "mp-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Constable (आरक्षक - GD / Radio)",
+        "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+        "promotion_criteria": "Direct recruitment through MPESB Police Constable Recruitment Test (Written CBT + Physical Proficiency Test), followed by 9 months basic police recruit training at Police Training Schools (PTS).",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MP Police Constable Recruitment Rulebook 2026, Section 4"
+      },
+      {
+        "step_order": 2,
+        "designation": "Head Constable (प्रधान आरक्षक)",
+        "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+        "promotion_criteria": "Promotion on seniority-cum-suitability basis after 8 to 10 years of service and successful completion of Head Constable Promotional Cadre Course (PCC), or through Limited Departmental Competitive Examination (LDCE).",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "Madhya Pradesh Police Executive (Subordinate) Service Regulations"
+      },
+      {
+        "step_order": 3,
+        "designation": "Assistant Sub-Inspector (ASI / सहायक उपनिरीक्षक)",
+        "pay_level": "Level 7 (₹28,700 – ₹91,300)",
+        "promotion_criteria": "Promotion based on seniority-cum-merit and clean service record after 5 to 6 years as Head Constable, with mandatory ASI pre-promotional training.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MP Police Department Executive Cadre Guidelines"
+      },
+      {
+        "step_order": 4,
+        "designation": "Sub-Inspector of Police (SI / उपनिरीक्षक)",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Promotion through Departmental Promotion Committee (DPC) after prescribed qualifying service as ASI and qualifying the professional investigation and law module.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MP Police Executive Service Promotion Rules"
+      },
+      {
+        "step_order": 5,
+        "designation": "Inspector of Police (TI / थाना प्रभारी / निरीक्षक)",
+        "pay_level": "Level 10 (₹42,700 – ₹1,35,100)",
+        "promotion_criteria": "Promotion on merit-cum-seniority from Sub-Inspector rank based on ACR gradings and successful leadership in police station commands.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MP Police Executive Service Rules"
+      },
+      {
+        "step_order": 6,
+        "designation": "Deputy Superintendent of Police (DSP / उप पुलिस अधीक्षक)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Induction into State Police Service (Gazetted Class I) via MPPSC DPC quota after distinguished service as Inspector.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MP State Police Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "First Stage Written Examination (CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Paper I: General Knowledge & Logic (40 marks), Intellectual Ability & Mental Aptitude (30 marks), Science & Simple Arithmetic (30 marks)",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MPESB Police Constable Rulebook 2026, Section 1"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Second Stage Physical Proficiency Test (PPT / शारीरिक दक्षता परीक्षण)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test: 800m Run (40 marks) + Shot Put / गोला फेंक (30 marks) + Long Jump / लंबी कूद (30 marks)",
+            "paper_type": "physical",
+            "total_marks": 100,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MPESB Police Constable Rulebook 2026, Physical Proficiency Test Table"
+      },
+      {
+        "stage_order": 3,
+        "stage_name": "Physical Standard Test (PST) & Document Verification",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Physical Measurement (Height & Chest) and Verification of Original Educational & Caste Certificates",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MP Police Headquarters PST Verification Norms"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+    "entry_basic_pay": 19500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+    "pay_source_label": "MPESB Police Constable Rulebook 2026, Page 5, Clause 4",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33000,
+      "max": 36000
+    },
+    "in_hand_range_estimate": {
+      "min": 28000,
+      "max": 31000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance calculated at 58% of basic pay (₹11,310 per month at entry level) as per MP Finance Department orders.",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "Police Special Allowance & Extra Duty Pay",
+        "perk_description": "Special police allowances for law-and-order duties, night patrolling, and extra duty allowance for one additional month salary per year.",
+        "confidence": "reported",
+        "source_label": "MP Police Headquarters Special Pay Circulars"
+      },
+      {
+        "perk_name": "Uniform & Kit Maintenance Allowance",
+        "perk_description": "Annual uniform grant and monthly kit maintenance allowance for police personnel.",
+        "confidence": "reported",
+        "source_label": "MP Police Regulations"
+      },
+      {
+        "perk_name": "Free Police Housing / HRA",
+        "perk_description": "Allotment of departmental police line quarters or HRA between 8% and 16% of basic pay.",
+        "confidence": "reported",
+        "source_label": "MP Police Housing Corporation Regulations"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Defined Contributory Pension Scheme with 14% state government matching contribution.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 7500,
+        "applicants": 0,
+        "appeared": 0,
+        "cut_off_marks": {
+          "note": "Recruitment notification issued September 2026 for 7,500 Constable vacancies (700 Special Armed Force + 6,800 District Executive Force / Radio)."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "source_label": "MPESB Police Constable Rulebook 2026"
+      },
+      {
+        "year": 2023,
+        "vacancies": 7411,
+        "applicants": 878000,
+        "appeared": 645000,
+        "cut_off_marks": {
+          "unreserved_open": 147.12,
+          "obc_open": 143.85,
+          "sc_open": 136.42,
+          "st_open": 122.9,
+          "ews_open": 139.68
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_23/PCRT_RES23/FINAL_RESULT/PCRT_Final2023_ResultNote.pdf",
+        "source_label": "MPESB Police Constable Recruitment Test 2023 Final Result Note and Cut-Off"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Police Constable (GD) Recruitment Test 2026 Rulebook",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PCRT_GD_2026_RuleBook_09092026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MP Police Constable Recruitment Test 2023 Final Result Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_23/PCRT_RES23/FINAL_RESULT/PCRT_Final2023_ResultNote.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MP Police Constable Recruitment Test 2023 Final Cut-Off Marks",
+        "url": "https://esb.mp.gov.in/results/RESULT_23/PCRT_RES23/FINAL_RESULT/PCRT_2023_Final_Cutoff.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

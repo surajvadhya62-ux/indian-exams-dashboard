@@ -1,0 +1,221 @@
+{
+  "id": "capf-ac",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Ranks and promotion timelines apply across the five Central Armed Police Forces (BSF, CRPF, CISF, ITBP, and SSB) under the Ministry of Home Affairs. Officers begin as company commanders and advance to battalion, sector, and frontier commands. Promotion intervals are based on MHA time-scale norms and cadre reviews.",
+    "steps": [
+      {
+        "designation": "Assistant Commandant (AC) / Company Commander",
+        "pay_level": "Level 10",
+        "years": "Entry level (probation + training 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Commandant (DC)",
+        "pay_level": "Level 11",
+        "years": "approx. 4-6 yrs (Senior Time Scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Second-in-Command (2I/C)",
+        "pay_level": "Level 12",
+        "years": "approx. 10-12 yrs (Junior Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Commandant (CO) / Battalion Commander",
+        "pay_level": "Level 13",
+        "years": "approx. 15-18 yrs (Selection Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Inspector General (DIG)",
+        "pay_level": "Level 13A",
+        "years": "approx. 20-24 yrs (Sector Commander / Range)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Inspector General (IG)",
+        "pay_level": "Level 14",
+        "years": "approx. 26-30 yrs (Frontier / Sector Head)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The CAPF (Assistant Commandants) examination is conducted by UPSC in three stages: Written Examination (two papers, 450 marks total), Physical Standards / Physical Efficiency Tests (PST/PET) and Medical Standards Tests (qualifying nature), and Personality Test / Interview (150 marks). Final merit list is determined out of a grand total of 600 marks (450 written + 150 interview). In Paper I objective questions, one-third (0.33) marks penalty applies for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme for Central Armed Police Forces (Assistant Commandants) Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Ability and Intelligence (Objective / Multiple Choice)",
+            "marks": 250,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: General Studies, Essay and Comprehension (Conventional / Descriptive)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Physical Efficiency Tests (PET) & Medical Standards Test (MST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Physical Standards & PET Regulations for CAPF (AC) Examination",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test (100m race, 800m race, Long Jump, Shot Put — qualifying only)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Prescribed standard (pass/fail)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme for Central Armed Police Forces (Assistant Commandants) Examination",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 150,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 118000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 102000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Base Level 10 calculation (₹56,100 + 58% DA). Officers deployed in field operational areas, Left-Wing Extremism (LWE) corridors, or High Altitude / Border zones receive additional Risk & Hardship Allowances (up to ₹17,300 to ₹25,000 per month depending on matrix cell).",
+    "official_perks": [
+      "Government accommodation / family quarters inside battalion campus or HRA",
+      "Risk & Hardship Allowance (RHA) for operational postings",
+      "Ration Money Allowance (RMA) / free field ration",
+      "Medical facilities through Composite Hospital / CGHS network for self and dependents",
+      "Central Police Canteen (CPC) tax-subsidized purchasing benefits",
+      "Dress / Uniform allowance and annual Leave Travel Concession (LTC)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "The 2025 vacancies (432 posts across CRPF: 204, BSF: 24, ITBP: 79, SSB: 33, CISF: 92) and final recommendations (350 candidates) were read directly in UPSC's official Final Result Press Note (dated 07.08.2026). The 2024 category-wise cut-off and selection statistics are confirmed from UPSC's official release.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 432,
+        "confidence": "verified",
+        "as_of": "2026-08-07",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/FR-CAPF-2025-Engl-070826.pdf",
+        "source_label": "UPSC — Press Note, Final Result of Central Armed Police Forces (Assistant Commandants) Examination 2025: 432 vacancies reported by Government (CRPF: 204, BSF: 24, ITBP: 79, SSB: 33, CISF: 92) and 350 candidates recommended in order of merit — read directly, figures quoted verbatim."
+      },
+      {
+        "year": 2024,
+        "vacancies": 506,
+        "confidence": "verified",
+        "as_of": "2025-06-16",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/CutOff-CAPF-ACs-2024-Eng-160625.pdf",
+        "source_label": "UPSC — Cut-off Marks and Recommendation Statement, Central Armed Police Forces (Assistant Commandants) Examination 2024."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official UPSC downloads for CAPF (AC). The 2025 Final Result and 2024 Cut-off PDFs have been verified live; previous question paper archives are maintained permanently on upsc.gov.in.",
+    "links": [
+      {
+        "label": "Central Armed Police Forces (ACs) Examination, 2025 — Final Result Press Note",
+        "url": "https://www.upsc.gov.in/sites/default/files/FR-CAPF-2025-Engl-070826.pdf",
+        "type": "other",
+        "cycle_label": "CAPF-2025",
+        "confidence": "verified",
+        "as_of": "2026-08-07"
+      },
+      {
+        "label": "Central Armed Police Forces (ACs) Examination, 2024 — Cut-off Marks & Recommendations",
+        "url": "https://www.upsc.gov.in/sites/default/files/CutOff-CAPF-ACs-2024-Eng-160625.pdf",
+        "type": "other",
+        "cycle_label": "CAPF-2024",
+        "confidence": "verified",
+        "as_of": "2025-06-16"
+      },
+      {
+        "label": "Previous Year Question Papers — Central Armed Police Forces (AC)",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Central+Armed+Police+Forces",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Revised Syllabus and Scheme (evergreen reference)",
+        "url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

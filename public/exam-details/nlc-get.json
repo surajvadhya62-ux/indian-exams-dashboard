@@ -1,0 +1,192 @@
+{
+  "id": "nlc-get",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Graduate Executive Trainees (GET) at NLC India Limited enter in Grade E-2 (₹50,000–₹1,60,000) and undergo 1 year training. On successful completion, they are absorbed as Assistant Executive Engineer (AEE) in Grade E-3, advancing along executive engineering cadres.",
+    "steps": [
+      {
+        "designation": "Graduate Executive Trainee (GET / Mech / Elect / Mining / Civil / CS)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC India Limited GET Recruitment Notification Advt. No. 04/2024"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE)",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Cadre & Promotion Rules (Absorption on training completion)"
+      },
+      {
+        "designation": "Deputy Executive Engineer (DEE)",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Promotion Policy"
+      },
+      {
+        "designation": "Executive Engineer (EE)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Engineering Executive Hierarchy"
+      },
+      {
+        "designation": "Senior Executive Engineer (SEE)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Middle Management Structure"
+      },
+      {
+        "designation": "Chief Manager / Superintending Engineer",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Senior Management Cadre"
+      },
+      {
+        "designation": "Deputy General Manager / General Manager",
+        "pay_level": "IDA Grade E-8 / E-9 (₹1,20,000 – ₹3,00,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Top Management Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment of GETs is conducted through an All-India Computer Based Online Examination (CBT) followed by a Personal Interview. CBT comprises 120 objective questions with 80% weightage for CBT and 20% weightage for Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Online Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC GET Detailed Examination Pattern and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: Quantitative Aptitude, Logical Reasoning, General Awareness, Data Interpretation, General English",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 mark deduction per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for OBC/SC/ST/PwD in combined CBT"
+          },
+          {
+            "paper_name": "Part II: Professional Discipline Subject Knowledge (Mechanical, Electrical, Mining, Civil, CSE, Finance, HR)",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 mark deduction per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC Interview Selection Regulations",
+        "papers": [
+          {
+            "paper_name": "Personal Interview before Selection Board",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS and 40% for Reserved"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "NLC GETs are placed in DPE 3rd PRC IDA pay scale E-2 (₹50,000–₹1,60,000). Starting basic pay during training is ₹50,000 with mandatory 58% DA constant as of 2025-07-01, township accommodation, mining allowances, and cafeteria perks.",
+    "pay_level": "IDA Pay Scale Grade E-2 (₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://www.nlcindia.in/careers/",
+    "pay_source_label": "NLC India Limited Terms of Appointment and Compensation",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 88000,
+      "max": 108000
+    },
+    "in_hand_range_estimate": {
+      "min": 77000,
+      "max": 94000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹50,000, 58% IDA (₹29,000), Mining/Thermal Power Station Allowance, Township Quarters in Neyveli/Barsingsar, Cafeteria perks (35% = ₹17,500), less statutory Provident Fund (12% Basic+DA) and pension deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised on quarterly basis",
+      "Company Quarters in Neyveli / Barsingsar Township with subsidized utilities",
+      "Perks and Allowances under Cafeteria Approach up to 35% of basic pay",
+      "Mining / Plant Operating Allowance for thermal and open-cast lignite mine postings",
+      "Performance Related Pay (PRP) based on annual generation and corporate MoU score",
+      "Comprehensive in-house hospital medical treatment at NLC General Hospital for family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from NLC India Limited GET examinations.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 295,
+        "applicants": 74200,
+        "shortlisted_for_mains": 1800,
+        "selectivity_ratio": "approx. 1 in 251",
+        "confidence": "reported",
+        "as_of": "2024-02-15",
+        "source_url": "https://www.nlcindia.in/careers/",
+        "source_label": "NLC India Advt. No. 04/2024: 295 Graduate Executive Trainee vacancies across Mechanical, Electrical, Civil, Mining, CSE, and Finance."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, detailed syllabus, and online test instructions hosted on the NLC India Limited portal.",
+    "links": [
+      {
+        "label": "NLC India Careers Portal",
+        "url": "https://www.nlcindia.in/careers/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "NLC India Official Corporate Website",
+        "url": "https://www.nlcindia.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

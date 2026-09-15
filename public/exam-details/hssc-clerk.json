@@ -1,0 +1,207 @@
+{
+  "id": "hssc-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Clerks in Haryana form the foundational ministerial cadre across Haryana Civil Secretariat, Financial Commissioner Revenue, District Commissioners' offices, and statutory boards. Promotion is governed by the Haryana Ministerial Services Rules.",
+    "steps": [
+      {
+        "designation": "Clerk / Junior Assistant",
+        "pay_level": "Level 2 (FPL-2)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt No. 03/2023 (Group 57 10+2 Level Posts) & Haryana Ministerial Service Rules"
+      },
+      {
+        "designation": "Assistant / Senior Clerk",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "approx. 6-10 yrs (subject to state typing qualification & seniority)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Government Subordinate Services Promotion Rules"
+      },
+      {
+        "designation": "Deputy Superintendent",
+        "pay_level": "Level 7 (FPL-7)",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Civil Secretariat Ministerial Promotion Cadre Rules"
+      },
+      {
+        "designation": "Superintendent / Administrative Officer",
+        "pay_level": "Level 8 (FPL-8)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana State Ministerial Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment for Clerks in Haryana is conducted through HSSC Group C Common Eligibility Test as part of Group 57 (Higher Secondary 10+2 Level Posts), followed by state computer typing clearance.",
+    "stages": [
+      {
+        "stage_name": "Common Eligibility Test (CET Group C Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC CET Group C Notification & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Screening Examination (General Studies, Reasoning, Quantitative Ability, Languages & Haryana GK)",
+            "marks": 95,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.95 deducted if fifth bubble left blank",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff for shortlisting to Group 57 Mains"
+          }
+        ]
+      },
+      {
+        "stage_name": "HSSC Group 57 Mains Written Examination (10+2 Level Posts)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Group 57 Mains Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Core Subject Knowledge & General Aptitude (70% weightage: General Awareness, Reasoning, Maths, Science, English, Hindi, and Computer Operations)",
+            "marks": 68.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; mandatory fifth bubble",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit selection"
+          },
+          {
+            "paper_name": "Haryana History, Civics, Geography, Environment, Literature & Culture (20% weightage) and Computer Literacy (10% weightage)",
+            "marks": 29.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; mandatory fifth bubble",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "State Computer Typing Test (SETH / HARTRON / Departmental)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Ministerial Service Typing Requirement",
+        "papers": [
+          {
+            "paper_name": "Typing Speed Test (30 words per minute in English or Hindi on Computer)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "30 wpm typing speed with prescribed accuracy"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Clerks in Haryana are placed in Functional Pay Level 2 (FPL-2) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹19,900.",
+    "pay_level": "Level 2 (FPL-2)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-03-07",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-2 scale ₹19,900 – ₹63,200)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 42000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry Level 2 basic pay of ₹19,900 with 58% Dearness Allowance (₹11,542), House Rent Allowance (8% to 24%), and fixed medical allowance (₹1,000), minus standard employee NPS and insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at prevailing state rates (58% effective 1 Jul 2025)",
+      "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
+      "Fixed Medical Allowance (FMA) / Cashless Medical Scheme",
+      "Defined Contributory Pension Scheme (NPS) with employer matching contribution",
+      "Children Education Allowance (CEA)",
+      "Leave Travel Concession (LTC) as per Haryana Civil Services Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Clerical recruitment in Haryana has historically generated some of the largest applicant counts in state public sector employment.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 32000,
+        "vacancies": 3800,
+        "shortlisted_for_mains": 32000,
+        "selectivity_ratio": "approx. 1 in 8 (calculated: shortlisted CET candidates ÷ Group 57 clerk vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-08-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 03/2023 Group 57 (10+2 Level): 3,800+ ministerial clerk vacancies across Haryana government departments."
+      },
+      {
+        "year": 2019,
+        "applicants": 1500000,
+        "vacancies": 4858,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 308 (calculated: registered applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2019-12-30",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 05/2019 (Clerk recruitment): 4,858 vacancies; over 15 lakh applicants; 10.4 lakh appeared in written examination on 21-23 September 2019."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, group-wise vacancies, and Group 57 Mains syllabus are hosted on HSSC's portal.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advertisements & Recruitment Notifications Hub",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "Advt-03/2023-Group-57",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      },
+      {
+        "label": "HSSC Group 57 Syllabus (Clerk Posts)",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      }
+    ]
+  }
+}

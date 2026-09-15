@@ -1,0 +1,184 @@
+{
+  "id": "aptet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "exam_scheme": {
+    "status": "available",
+    "note": "APTET is conducted as a Computer Based Test (CBT) by the Department of School Education, Government of Andhra Pradesh, adhering to NCTE norms. Paper-I (A & B) qualifies candidates for teaching Classes I to V (Secondary Grade Teacher / SGT), while Paper-II (A & B) qualifies candidates for Classes VI to VIII (School Assistant / SA). Each paper comprises 150 multiple choice questions carrying 150 marks with no negative marking. A 20% weightage of APTET marks is accorded in the AP Teacher Recruitment Test (DSC).",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test — Paper-I A (Regular Schools: Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-02",
+        "source_url": "https://cse.ap.gov.in",
+        "source_label": "APTET July 2024 Information Bulletin & G.O.Ms.No.23 School Education Dept",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Language I (Telugu / Urdu / Hindi / Kannada / Tamil / Odiya)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Language II (English)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Mathematics (Content 24 marks + Methodology 6 marks)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Environmental Studies (Content 24 marks + Methodology 6 marks)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Based Test — Paper-II A (Regular Schools: Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-02",
+        "source_url": "https://cse.ap.gov.in",
+        "source_label": "APTET July 2024 Information Bulletin & G.O.Ms.No.23 School Education Dept",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Language I (First Language Chosen by Candidate)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Language II (English)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          },
+          {
+            "paper_name": "Discipline Subject: Mathematics & Science (60 marks) OR Social Studies (60 marks) OR Respective Language (60 marks)",
+            "marks": 60,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Based Test — Paper-I B & Paper-II B (Special Education Schools)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-07-02",
+        "source_url": "https://cse.ap.gov.in",
+        "source_label": "APTET July 2024 Information Bulletin & Special Education Rules",
+        "papers": [
+          {
+            "paper_name": "Special Pedagogy & Domain Content (Child Development & Special Education Pedagogy, Language I, English, Subject Content)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for OC, 50% for BC, 40% for SC/ST/PH/Ex-Servicemen"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Verified from official Department of School Education press communications and results announcements for recent APTET cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 427300,
+        "vacancies": null,
+        "shortlisted_for_mains": 187256,
+        "selectivity_ratio": "50.79% overall pass rate (1,87,256 candidates qualified out of 3,68,661 appearing across Papers I & II)",
+        "confidence": "verified",
+        "as_of": "2024-11-04",
+        "source_url": "https://cse.ap.gov.in",
+        "source_label": "Department of School Education AP Official Results Announcement for APTET July 2024 Cycle (Conducted Oct 2024; 3,68,661 appeared, 1,87,256 qualified)"
+      },
+      {
+        "year": 2022,
+        "applicants": 525071,
+        "vacancies": null,
+        "shortlisted_for_mains": 238495,
+        "selectivity_ratio": "58.55% overall pass rate (2,38,495 qualified out of 4,07,329 appearing candidates across Papers I & II)",
+        "confidence": "verified",
+        "as_of": "2022-09-30",
+        "source_url": "https://cse.ap.gov.in",
+        "source_label": "Department of School Education AP Press Release for APTET August 2022 Examination (5,25,071 applied, 4,07,329 appeared)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official application, hall ticket, and teacher management portals maintained by the Department of School Education and APCFSS.",
+    "links": [
+      {
+        "label": "Department of School Education (DSE) Andhra Pradesh Portal",
+        "url": "https://cse.ap.gov.in",
+        "type": "notification",
+        "cycle_label": "DSE Hub",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "APTET & Mega DSC Official Application & Hall Ticket Portal",
+        "url": "https://tet2dsc.apcfss.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Special TET & Inclusive Education Portal",
+        "url": "https://sptet.apcfss.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Andhra Pradesh Teacher Information & Transfers Portal",
+        "url": "https://teacherinfo.apcfss.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "tnusrb-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression in the Tamil Nadu Police Subordinate Service, Prison Department, and Fire & Rescue Services. Grade-II Constables progress through time-bound promotional upgrades (Grade-I and Head Constable) as well as eligibility for the 20% departmental quota examination for direct recruitment as Sub-Inspectors of Police.",
+    "steps": [
+      {
+        "designation": "Police Constable Grade-II / Jail Warder Grade-II / Fireman",
+        "pay_level": "Level 6",
+        "years": "Entry (approx. 0-10 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "TNUSRB Notification No. 02/2025, Section 5: Scale of Pay (Rs. 18,200 - 67,100, Level 6 under Tamil Nadu Revised Pay Rules, 2017)"
+      },
+      {
+        "designation": "Police Constable Grade-I / Jail Warder Grade-I",
+        "pay_level": "Level 8",
+        "years": "approx. 10 yrs",
+        "confidence": "reported",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "G.O. Ms. No. 15, Home (Police V) Department (Upgradation to Grade-I after 10 years of unblemished service, Level 8: Rs. 19,500 - 71,900)"
+      },
+      {
+        "designation": "Head Constable (HC) / Leading Fireman",
+        "pay_level": "Level 10",
+        "years": "approx. 15 yrs",
+        "confidence": "reported",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "Tamil Nadu Police Subordinate Service Rules (Promotion/Upgradation to Head Constable, Level 10: Rs. 20,600 - 75,900)"
+      },
+      {
+        "designation": "Special Sub-Inspector of Police (SSI)",
+        "pay_level": "Level 13",
+        "years": "approx. 25 yrs",
+        "confidence": "reported",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "G.O. Ms. No. 937, Home Department (Time-bound financial and rank upgradation to Special Sub-Inspector after 25 years total service, Level 13: Rs. 36,900 - 1,16,600)"
+      },
+      {
+        "designation": "Sub-Inspector of Police (Taluk / AR / TSP)",
+        "pay_level": "Level 13",
+        "years": "approx. 5+ yrs in service (via 20% Departmental Quota Exam) or seniority",
+        "confidence": "verified",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "TNUSRB SI Notification No. 01/2025, Para 8: 20% Departmental Quota for in-service police personnel with 5 years regular service"
+      },
+      {
+        "designation": "Inspector of Police / Station Fire Officer",
+        "pay_level": "Level 16",
+        "years": "approx. 30+ yrs (or post-SI seniority)",
+        "confidence": "reported",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "Tamil Nadu Police Subordinate Service Rules (Inspector Cadre, Level 16: Rs. 56,100 - 2,05,700)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Common Recruitment examination conducted by TNUSRB follows a multi-tier selection process: Part I Tamil Language Eligibility Test (qualifying only), Part II Main Written Examination (General Knowledge & Psychology), Certificate Verification (CV), Physical Measurement Test (PMT), Endurance Test (ET), Physical Efficiency Test (PET), and Special Marks for NCC/NSS/Sports. Ranking is based out of 100 total marks (70 Written + 24 PET + 6 Special Marks).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Part I Tamil Eligibility & Part II Main Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "TNUSRB Notification No. 02/2025, Section 7: Marks Allocation & Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Part I — Tamil Language Eligibility Test (10th Standard Standard, 80 MCQs)",
+            "marks": 80,
+            "duration_minutes": 80,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (32 marks); compulsory for evaluation of Part II OMR sheet, marks not counted for ranking"
+          },
+          {
+            "paper_name": "Part II — Main Written Examination: Part A General Knowledge (45 MCQs) & Part B Psychology (25 MCQs)",
+            "marks": 70,
+            "duration_minutes": 80,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "35% (25 marks) required to qualify for CV-PMT-ET-PET; candidates shortlisted in 1:5 ratio"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Measurement Test (PMT) & Endurance Test (ET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "TNUSRB Notification No. 02/2025, Section 9: Physical Standards & Endurance Test",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT: Height & Chest)",
+            "marks": 0,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only. Height: Men (170 cm OC/BC/MBC, 167 cm SC/ST), Women (159 cm OC/BC/MBC, 157 cm SC/ST). Chest (Men only): 81 cm normal with min 5 cm expansion"
+          },
+          {
+            "paper_name": "Endurance Test (ET: Running)",
+            "marks": 0,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only. Men: 1500 metres run in 7 minutes; Women/Transgender: 400 metres run in 2 minutes 30 seconds; Ex-servicemen: 1500 metres run in 8 minutes"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET) & Special Marks",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "TNUSRB Notification No. 02/2025, Section 10: Physical Efficiency Test & Special Marks",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test (PET: 3 Events with One Star = 4 Marks, Two Stars = 8 Marks)",
+            "marks": 24,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Men: Rope Climbing (5m=4mks, 6m=8mks), Long Jump (3.80m=4mks, 4.50m=8mks) or High Jump (1.20m=4mks, 1.40m=8mks), 100m (15.0s=4mks, 13.5s=8mks) or 400m run (80.0s=4mks, 70.0s=8mks). Women: Long Jump, Shot Put/Cricket Ball, 100m/200m"
+          },
+          {
+            "paper_name": "Special Marks (NCC, NSS & Sports / Games Certificates)",
+            "marks": 6,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Maximum 6 marks (NCC up to 2 marks, NSS up to 2 marks, Sports/Games participation up to 2 marks)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for Grade-II Police Constables, Jail Warders, and Firemen are governed by Level 6 of the Tamil Nadu Revised Pay Matrix (₹18,200 - ₹67,100 under G.O. Ms. No. 303, Finance (Pay Cell) Department, dated 11.10.2017). Police personnel are additionally entitled to Risk Allowance, Uniform/Kit Maintenance Allowance, and Station Grade HRA.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 18200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-08-21",
+    "pay_source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+    "pay_source_label": "TNUSRB Notification No. 02/2025, Section 5: Scale of Pay (Rs. 18,200 - 67,100, Level 6 under Tamil Nadu Revised Pay Matrix)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 31000,
+      "max": 35000
+    },
+    "in_hand_range_estimate": {
+      "min": 26500,
+      "max": 30000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes Level 6 entry basic pay ₹18,200 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹800 to ₹2,400), City Compensatory Allowance, Medical Allowance, and Police Risk/Special Allowance. Deductions include Contributory Pension Scheme (CPS 10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under New Health Insurance Scheme (NHIS) for government employees and dependents",
+      "Police Risk Allowance / Uniform Allowance / Kit Maintenance Allowance",
+      "Government quarters / barracks accommodation or HRA as per station classification",
+      "Festival advance and special Pongal bonus declared annually by the State Government",
+      "Subsidized rations and canteen facility through Tamil Nadu Police Canteens"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TNUSRB Common Recruitment for Police Constables is one of South India's largest uniformed recruitment examinations by candidate volume. Benchmarks reflect official vacancy figures notified by TNUSRB and candidate counts appearing across recruitment cycles.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 3665,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2025-08-21",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "source_label": "TNUSRB Notification No. 02/2025: Total 3,665 vacancies (3,644 regular: 2,833 Police Constable Gr.II, 180 Jail Warder Gr.II, 631 Fireman + 21 ST shortfall vacancies)"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 3359,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-08-08",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/NotificationCR2023.pdf",
+        "source_label": "TNUSRB Notification No. 02/2023: Total 3,359 vacancies (780 Police Constable District/City AR Women, 1,819 Police Constable TSP Men, 86 Jail Warder Gr.II, 674 Fireman)"
+      },
+      {
+        "year": 2022,
+        "applicants": 366728,
+        "vacancies": 3552,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 103 (calculated: written exam attendees ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-06-30",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/informationbrochure.pdf",
+        "source_label": "TNUSRB Notification No. 02/2022 (3,552 vacancies: 2,180 AR, 1,091 TSP, 161 Jail Warder, 120 Fireman); total 366,728 candidates evaluated in written examination as verified from TNUSRB Written Examination Marks Archive (CR2022WTMARKS366728.pdf)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, syllabi, FAQs, and annual planners published directly on the TNUSRB recruitment portal.",
+    "links": [
+      {
+        "label": "Common Recruitment 2025 — Official Notification (Advt. No. 02/2025)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_CR_2025.pdf",
+        "type": "notification",
+        "cycle_label": "CR-2025",
+        "confidence": "verified",
+        "as_of": "2025-08-21"
+      },
+      {
+        "label": "Common Recruitment 2025 — Scheme & Syllabus (Tamil Eligibility & Main Written)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/Syllabus_CR2025.pdf",
+        "type": "syllabus",
+        "cycle_label": "CR-2025",
+        "confidence": "verified",
+        "as_of": "2025-09-09"
+      },
+      {
+        "label": "Common Recruitment 2025 — Frequently Asked Questions (English)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/FAQ_English_CR2025.pdf",
+        "type": "other",
+        "cycle_label": "CR-2025",
+        "confidence": "verified",
+        "as_of": "2025-08-25"
+      },
+      {
+        "label": "TNUSRB Annual Planner for 2026 - 2027",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/Annual_Planner_2026_English.pdf",
+        "type": "other",
+        "cycle_label": "2026-2027",
+        "confidence": "verified",
+        "as_of": "2026-09-02"
+      },
+      {
+        "label": "Common Recruitment 2023 — Official Notification Archive (Advt. No. 02/2023)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/NotificationCR2023.pdf",
+        "type": "notification",
+        "cycle_label": "CR-2023",
+        "confidence": "verified",
+        "as_of": "2023-08-08"
+      },
+      {
+        "label": "Common Recruitment 2022 — Information Brochure Archive (Advt. No. 02/2022)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/informationbrochure.pdf",
+        "type": "other",
+        "cycle_label": "CR-2022",
+        "confidence": "verified",
+        "as_of": "2022-06-30"
+      }
+    ]
+  }
+}

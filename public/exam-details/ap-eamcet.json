@@ -1,0 +1,98 @@
+{
+  "id": "ap-eamcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "AP EAPCET (formerly AP EAMCET) is conducted as a Computer Based Test (CBT) by JNTU Kakinada on behalf of APSCHE. For the Engineering stream (MPC), the test comprises 160 multiple-choice questions (80 Mathematics, 40 Physics, 40 Chemistry) of 180 minutes duration. Each question carries 1 mark with no negative marking. Qualifying mark is 25% (40 out of 160) for General/BC candidates; no minimum qualifying mark is prescribed for SC/ST candidates. Merit ranking is prepared with 75% weightage to AP EAPCET marks and 25% weightage to Intermediate group subjects (MPC).",
+    "stages": [
+      {
+        "stage_name": "AP EAPCET Engineering Stream (MPC) Computer Based Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-04",
+        "source_url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+        "source_label": "APSCHE & JNTUK — AP EAPCET 2026 Engineering Instruction Booklet",
+        "papers": [
+          {
+            "paper_name": "Mathematics (Intermediate 1st & 2nd Year Standard)",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (40 out of 160) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Physics (Intermediate 1st & 2nd Year Standard)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (40 out of 160) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Chemistry (Intermediate 1st & 2nd Year Standard)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (40 out of 160) for General/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual applicant registration and appearance figures reported officially by APSCHE during result announcements for the Engineering and Agriculture/Pharmacy streams across Andhra Pradesh.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 274213,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,95,092 qualified out of 2,58,374 appeared in Engineering stream (75.51% qualification rate across engineering college seats)",
+        "confidence": "reported",
+        "as_of": "2024-06-11",
+        "source_url": "https://cets.apsche.ap.gov.in/EAPCET/",
+        "source_label": "APSCHE AP EAPCET 2024 Official Results Declaration Statistics (2,74,213 registered and 2,58,374 appeared in Engineering stream)"
+      },
+      {
+        "year": 2023,
+        "applicants": 238180,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,71,514 qualified out of 2,24,724 appeared in Engineering stream (76.32% qualification rate across engineering college seats)",
+        "confidence": "reported",
+        "as_of": "2023-06-14",
+        "source_url": "https://cets.apsche.ap.gov.in/EAPCET/",
+        "source_label": "APSCHE AP EAPCET 2023 Official Results Declaration Statistics (2,38,180 registered and 2,24,724 appeared in Engineering stream)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official booklets and portals maintained by APSCHE and JNTU Kakinada.",
+    "links": [
+      {
+        "label": "Engineering Instruction Booklet & Syllabus (PDF)",
+        "url": "https://cets.apsche.ap.gov.in/EAPCET/PDF/APEAPCET2026_Instruction_Booklet_Engineering_V4.pdf",
+        "type": "syllabus",
+        "cycle_label": "EAPCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-04"
+      },
+      {
+        "label": "Official AP EAPCET Portal",
+        "url": "https://cets.apsche.ap.gov.in/EAPCET/",
+        "type": "notification",
+        "cycle_label": "EAPCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

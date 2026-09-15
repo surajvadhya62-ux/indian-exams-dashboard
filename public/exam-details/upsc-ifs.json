@@ -1,0 +1,251 @@
+{
+  "id": "upsc-ifs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The Indian Forest Service (IFS) is one of the three All India Services constituted under the All India Services Act, 1951. Officers are allocated state/joint cadres and manage forestry, wildlife sanctuaries, national parks, and environmental conservation. Pay levels follow the central 7th CPC All India Service scale; promotion timescales follow DOPT / Ministry of Environment, Forest and Climate Change (MoEFCC) guidelines.",
+    "steps": [
+      {
+        "designation": "Assistant Conservator of Forests (ACF) / Sub-Divisional Forest Officer (SDFO)",
+        "pay_level": "Level 10",
+        "years": "Entry / Junior Time Scale (probation at IGNFA Dehradun)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Divisional Forest Officer (DFO) / Deputy Conservator of Forests (DCF)",
+        "pay_level": "Level 11",
+        "years": "approx. 4-9 yrs (Senior Time Scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Conservator of Forests (CF)",
+        "pay_level": "Level 13A",
+        "years": "approx. 14 yrs (Selection Grade / Super Time Scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Conservator of Forests (CCF)",
+        "pay_level": "Level 14",
+        "years": "approx. 18-24 yrs (Super Time Scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Additional Principal Chief Conservator of Forests (APCCF)",
+        "pay_level": "Level 15",
+        "years": "approx. 25-30 yrs (Higher Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Principal Chief Conservator of Forests (PCCF) / Head of Forest Force (HoFF)",
+        "pay_level": "Level 16 / 17",
+        "years": "approx. 30+ yrs (Apex Scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Indian Forest Service Examination consists of two sequential stages. Stage I is a common screening test conducted through the Civil Services (Preliminary) Examination (objective, 400 marks). Candidates qualifying Prelims on the basis of GS Paper I marks (subject to achieving the mandatory 33% qualifying threshold in CSAT Paper II) proceed to Stage II: Indian Forest Service (Main) Examination consisting of a written examination (6 conventional papers, 1400 marks) followed by a Personality Test / Interview (300 marks) for a total final merit score of 1700 marks. In Stage I objective papers, a penalty of one-third (0.33) marks is deducted for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Examination (Common with Civil Services Preliminary Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+        "source_label": "UPSC — Examination Notice No. 06/2026-IFoSE, Appendix-I Section I (Plan of Examination)",
+        "papers": [
+          {
+            "paper_name": "General Studies Paper I",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper II (CSAT)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "33%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Indian Forest Service (Main) Examination (Written, Conventional)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+        "source_label": "UPSC — Examination Notice No. 06/2026-IFoSE, Appendix-I Section II (Scheme of Main Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General English",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: General Knowledge",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: Optional Subject 1 — Paper I",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper IV: Optional Subject 1 — Paper II",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper V: Optional Subject 2 — Paper I",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper VI: Optional Subject 2 — Paper II",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+        "source_label": "UPSC — Examination Notice No. 06/2026-IFoSE, Appendix-I Section II (Interview for Personality Test)",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 300,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 115000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 98000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Assumes Level 10 entry basic pay (₹56,100) at 58% DA across divisional field postings and state capital headquarters; in-hand pay factors in mandatory deductions for NPS Tier-I and medical/insurance funds.",
+    "official_perks": [
+      "Official residential bungalow / government accommodation within forest division or headquarters",
+      "Official 4WD duty vehicle with driver for territorial forest inspections",
+      "Medical coverage under CGHS / State AIS Health Scheme",
+      "Leave Travel Concession (LTC) and annual uniform / equipment allowances",
+      "Field duty allowances and special allowances for designated remote wildlife circle postings"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for 2026 were read directly in UPSC's official Examination Notice No. 06/2026-IFoSE (notified on 06.02.2026: 80 vacancies across UR: 33, SC: 12, ST: 6, OBC: 21, EWS: 8). The 2025 figure of approx. 150 vacancies is reported from UPSC's 2025 notice. Total applicants are screened via the common Civil Services Preliminary Examination.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 80,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+        "source_label": "UPSC — Examination Notice No. 06/2026-IFoSE: \"The number of vacancies to be filled on the results of the examination is expected to be approximately 80\" (read directly, figures reproduced verbatim)."
+      },
+      {
+        "year": 2025,
+        "vacancies": 150,
+        "confidence": "reported",
+        "as_of": "2024-02-14",
+        "source_label": "UPSC — Examination Notice for Indian Forest Service Examination 2025: approximately 150 vacancies reported across all reservation categories."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official UPSC downloads for the Indian Forest Service Examination. Direct notification PDF verified live; syllabus and PYQ archive hosted permanently on upsc.gov.in.",
+    "links": [
+      {
+        "label": "Indian Forest Service (Preliminary) Examination, 2026 — Notification",
+        "url": "https://www.upsc.gov.in/sites/default/files/Notif-IFSP-2026-Engl-060226Rev.pdf",
+        "type": "notification",
+        "cycle_label": "IFS-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "Previous Year Question Papers — Indian Forest Service",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Indian+Forest+Service",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Revised Syllabus and Scheme (evergreen reference)",
+        "url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "upsssc-vdo",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Gram Panchayat Adhikari (under the Panchayati Raj Department) and Gram Vikas Adhikari (under the Rural Development Department) serve as the key administrative and executive functionaries at the village panchayat level across Uttar Pradesh. They execute rural development programs, manage village panchayat funds, maintain birth/death and family registers, and coordinate social security pensions.",
+    "steps": [
+      {
+        "designation": "Gram Panchayat Adhikari / Gram Vikas Adhikari (Village Development Officer)",
+        "pay_level": "Level 3",
+        "years": "Entry (0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Panchayati Raj Department & Rural Development Service Rules"
+      },
+      {
+        "designation": "Assistant Development Officer (ADO — Panchayat / Rural Development)",
+        "pay_level": "Level 6",
+        "years": "approx. 6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Rural Development Service (Gazetted / Subordinate) Promotion Regulations"
+      },
+      {
+        "designation": "Block Development Officer (BDO — Block Level Administrative Head)",
+        "pay_level": "Level 10",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh State Development Service (Executive Branch) Rules"
+      },
+      {
+        "designation": "District Development Officer (DDO) / Deputy Commissioner (Development)",
+        "pay_level": "Level 11",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Rural Development Department Cadre Management"
+      },
+      {
+        "designation": "Chief Development Officer (CDO) / Additional Director (Rural Development)",
+        "pay_level": "Level 12",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Civil Services (Selection Scale / Super Time Scale)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Candidates are shortlisted through their normalized UPSSSC PET score, followed by a single-stage Main Written Examination. For Advt. No. 01-Exam/2023 (Panchayati Raj), UPSSSC notified an updated subject-specific exam scheme of 100 marks focusing on rural governance, Panchayati Raj systems, computer applications, and Uttar Pradesh general knowledge. Negative marking is 0.25 (1/4th) per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Main Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Gram Panchayat Adhikari Revised Scheme Notification (Advt. 01-Exam/2023)",
+        "papers": [
+          {
+            "paper_name": "Part I — Panchayati Raj System, Constitutional Amendments & Rural Development Schemes",
+            "marks": 65,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II — Concepts of Computer, Information Technology & Digital Governance",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III — General Information regarding Uttar Pradesh (History, Culture, Geography & Economy)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Abhilekh Pareekshan)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC DV Schedule & Certificate Scrutiny",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational, CCC Computer Certificate, Domicile & Category Credentials",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Gram Panchayat Adhikari and Gram Vikas Adhikari posts carry Pay Level 3 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://upsssc.gov.in/default.aspx",
+    "pay_source_label": "UP Panchayati Raj Department & UP Revised Pay Rules 2016 Level 3",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 at 58% DA (effective 01.07.2025), HRA (₹1,800 to ₹3,600 based on posting classification), rural travel conveyance allowance, net of 10% NPS deduction (₹3,429) and group insurance scheme deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per UP Finance Department orders",
+      "House Rent Allowance (HRA) based on block / tehsil classification",
+      "Conveyance and village travel allowance for field inspection duties",
+      "Medical reimbursement under UP Government Servants Medical Rules",
+      "National Pension System (NPS) with 14% matching employer contribution",
+      "Official mobile data / communication allowance for digital panchayat portal operations"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registration, PET shortlisting, and examination statistics compiled from UPSSSC notifications for Village Development Officer and Gram Panchayat Adhikari recruitments.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 66691,
+        "appeared": null,
+        "qualified_stage_1": 66691,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": 1468,
+        "confidence": "verified",
+        "as_of": "2023-09-27",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Gram Panchayat Adhikari Advt. 01-Exam/2023 Shortlisting Notice"
+      },
+      {
+        "year": 2018,
+        "applicants": 1433000,
+        "appeared": 514000,
+        "qualified_stage_1": 4065,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": 1953,
+        "confidence": "verified",
+        "as_of": "2024-02-21",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Combined VDO/GPA 2018 Re-Examination Result Notice (Advt. 02-Exam/2018)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, syllabi, master question papers, and shortlisting cutoffs issued by UPSSSC.",
+    "links": [
+      {
+        "label": "UPSSSC Official Web Portal",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Gram Panchayat Adhikari Notification (Advt. 01-Exam/2023)",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Gram Panchayat Adhikari Revised Syllabus & Exam Scheme Notice",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Combined VDO 2018 Re-Exam Result & Document Verification Notice",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

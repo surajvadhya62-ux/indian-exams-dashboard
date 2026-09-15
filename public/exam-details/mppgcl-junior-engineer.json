@@ -1,0 +1,279 @@
+{
+  "id": "mppgcl-junior-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Engineers in Madhya Pradesh Power Generating Company Limited (MPPGCL) are inducted as Trainees into the technical cadre across thermal and hydel power stations (such as SGTPS Birsinghpur, STPS Sarni, ATPS Chachai, and SSTPP Khandwa). After completing one year of training and a three-year probation period (including training), they receive two advance increments as personal pay and advance through departmental promotion committees (DPC) and qualifying benchmarks into executive engineering leadership.",
+    "steps": [
+      {
+        "designation": "Junior Engineer (Plant / Civil) — Trainee / Regular",
+        "pay_level": "Level 8 (Scale ₹32,800 - ₹1,03,600, Entry Basic ₹32,800)",
+        "years": "Entry (0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-10-15",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "source_label": "MPPGCL Direct Recruitment Rulebook (Advt. No. 4811/2025-26)"
+      },
+      {
+        "designation": "Assistant Engineer (Production / Civil / Electrical / Mechanical / C&I)",
+        "pay_level": "Level 12 (Scale ₹56,100 - ₹1,77,500, Entry Basic ₹56,100)",
+        "years": "approx. 6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2025-10-15",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "source_label": "MPPGCL Engineering Cadre Service Regulations & Promotion Quota"
+      },
+      {
+        "designation": "Executive Engineer (EE / Division In-Charge / Power Plant Section Head)",
+        "pay_level": "Level 13 (Scale ₹67,300 - ₹2,06,900, Entry Basic ₹67,300)",
+        "years": "approx. 12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2025-10-15",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "source_label": "MP State Electricity Companies Revised Pay Matrix & Cadre Hierarchy"
+      },
+      {
+        "designation": "Superintending Engineer (SE / Circle Head / Chief of Plant Operations)",
+        "pay_level": "Level 14 (Scale ₹1,18,500 - ₹2,14,100, Entry Basic ₹1,18,500)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2025-10-15",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "source_label": "MPPGCL Executive Technical Hierarchy Regulations"
+      },
+      {
+        "designation": "Additional Chief Engineer / Chief Engineer (Power Generating Station Head / Technical Director)",
+        "pay_level": "Level 15 to Level 16 (Scale ₹1,44,200 - ₹2,18,200)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2025-10-15",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "source_label": "MP State Power Generating Company Apex Administrative Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted via a single-stage Computer Based Test (CBT) of 100 objective multiple-choice questions across 120 minutes with zero negative marking. Candidates who clear category-wise minimum qualifying thresholds (40% for UR, 30% for SC/ST/OBC/EWS/PwD) are ranked on a normalized merit list for Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-10-15",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "source_label": "MPPGCL Direct Recruitment Rulebook (Advt. No. 4811/2025-26, Section 6)",
+        "papers": [
+          {
+            "paper_name": "Part A — Specific Engineering Technical Discipline & Plant Operations (Boiler, Turbine, Switchyard, C&I, Civil)",
+            "marks": 75,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking (गलत उत्तर का नकारात्मक अंकन नहीं होगा)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B — General Knowledge, General Aptitude, Reasoning & Basic Computer Awareness",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (गलत उत्तर का नकारात्मक अंकन नहीं होगा)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% aggregate marks for Unreserved (UR) candidates; 30% aggregate marks for SC, ST, OBC (Non-Creamy Layer), EWS, and PwD candidates"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (DV)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/NOTICE_DV_ADVT_4811_DTD_15102025.pdf",
+        "source_label": "MPPGCL Notice No. ED(HR&A)/Rectt./2025-26/PII/606 dated 06/02/2026",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Engineering Diploma / Degree Credentials, MP Domicile, Age Proof & Category Certificates",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying verification of original academic, domicile, and reservation documents"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Engineers are appointed in Pay Level 8 of the Madhya Pradesh Power Sector Revised Pay Matrix (pay scale ₹32,800–₹1,03,600 with an entry basic pay of ₹32,800). During the initial one-year training period, candidates receive a consolidated stipend equal to the minimum of the scale (₹32,800). Upon successful completion of training and absorption into regular service, appointees receive two advance increments as personal pay.",
+    "pay_level": "Level 8",
+    "entry_basic_pay": 32800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-10-15",
+    "pay_source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+    "pay_source_label": "MPPGCL Direct Recruitment Rulebook (Advt. No. 4811/2025-26, Clause 9 & 11)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 56000,
+      "max": 62000
+    },
+    "in_hand_range_estimate": {
+      "min": 48000,
+      "max": 54000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 8 entry basic pay of ₹32,800 at 58% DA (effective 01.07.2025), House Rent Allowance (₹2,624 to ₹5,248 depending on posting in Bhopal/Jabalpur/Indore or company residential colony at thermal/hydel generating stations), plant operation allowance, net of 10% NPS deduction (₹5,182), professional tax (₹208), and employee group insurance.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Madhya Pradesh state power sector notifications",
+      "Company township residential accommodation at Thermal/Hydel generating stations (SGTPS Birsinghpur, STPS Sarni, ATPS Chachai, SSTPP Khandwa) or House Rent Allowance (HRA)",
+      "Plant operation / shift duty allowance for operational staff",
+      "Medical reimbursement facilities under MPPGCL Medical Attendance Rules",
+      "Contributory Pension Scheme (NPS) with 14% matching employer contribution",
+      "Subsidized electricity concession per MPPGCL employee service regulations",
+      "Two advance increments granted as personal pay upon successful completion of 1-year training",
+      "Leave Travel Concession (LTC), Gratuity, and Group Insurance scheme coverage"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics and category-wise cut-off marks sourced from official MPPGCL recruitment notices, document verification schedules, and cut-off score publications across the 2024, 2025, and 2025-26 recruitment cycles.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 60,
+        "shortlisted_for_mains": 30,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/4811/CUTOFF_ADVT_4811_DTD_15102025.pdf",
+        "source_label": "MPPGCL Advt. No. 4811/2025-26 Notice & Cut-Off Score Notification (JE Plant: Mech UR 77, SC 54, ST 58, OBC 68; Elec UR 77, SC 38, OBC 71, EWS 64; ECE UR 53, SC 38, ST 40, OBC 48, EWS 39)"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 90,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2025-07-17",
+        "source_url": "https://mppgcl.mp.gov.in/CAREER/3233/Cutoff_marks_MPPGCL_ADVT_3233_17072025.pdf",
+        "source_label": "MPPGCL Advt. No. 3233/2025 Rulebook & Cut-Off Notification (JE Mech: UR 79, SC 72; JE Elec: UR 73, SC 60; JE ECE: UR 53, SC 33; JE Civil: UR 89, SC 84)"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": 27,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-03-09",
+        "source_url": "https://www.mppgcl.mp.gov.in/CAREER/MPPGCL_ADVT_009_POSTS_1153_09032024.pdf",
+        "source_label": "MPPGCL Advt. No. 1153/2023-24 Detailed Rulebook (JE Plant: Mech 13, Elec 5, ECE 3, Civil 6)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, rulebooks, detailed examination syllabi, cut-off mark declarations, and appointment offer templates published on the MPPGCL careers portal.",
+    "links": [
+      {
+        "label": "MPPGCL Detailed Rulebook & Recruitment Advertisement 2025-26 (Advt. No. 4811)",
+        "url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Rulebook_Rectt_Phase-II_4811_15102025.pdf",
+        "type": "notification",
+        "cycle_label": "2025-26",
+        "confidence": "verified",
+        "as_of": "2025-10-15"
+      },
+      {
+        "label": "Official Category-Wise CBT Cut-Off Marks (Advt. No. 4811)",
+        "url": "https://www.mppgcl.mp.gov.in/CAREER/4811/CUTOFF_ADVT_4811_DTD_15102025.pdf",
+        "type": "other",
+        "cycle_label": "2025-26",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "Document Verification Schedule & Candidate Shortlist Notice (Advt. No. 4811)",
+        "url": "https://www.mppgcl.mp.gov.in/CAREER/4811/NOTICE_DV_ADVT_4811_DTD_15102025.pdf",
+        "type": "other",
+        "cycle_label": "2025-26",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "Offer of Appointment along with Enclosures for JE (Plant)-Trainee (Advt. No. 4811)",
+        "url": "https://www.mppgcl.mp.gov.in/CAREER/4811/Offer_Appointment_JE_PLANT_ADVT_4811_15102025.pdf",
+        "type": "other",
+        "cycle_label": "2025-26",
+        "confidence": "verified",
+        "as_of": "2026-05-10"
+      },
+      {
+        "label": "MPPGCL Detailed Recruitment Rulebook & Notification 2025 (Advt. No. 3233)",
+        "url": "https://mppgcl.mp.gov.in/CAREER/3233/MPPGCL_Advertisement_3233_17072025.pdf",
+        "type": "notification",
+        "cycle_label": "2025",
+        "confidence": "verified",
+        "as_of": "2025-07-17"
+      },
+      {
+        "label": "Official Syllabus Portal for Computer Based Tests (CBTs)",
+        "url": "https://www.mppgcl.mp.gov.in/Syllabus_Advt_3233_17072025.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-27"
+      },
+      {
+        "label": "Detailed Syllabus — Junior Engineer Mechanical (Plant)",
+        "url": "https://mppgcl.mp.gov.in/CAREER/3233/SYLLABUS_JE_MECHANICAL_P09.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-27"
+      },
+      {
+        "label": "Detailed Syllabus — Junior Engineer Electrical (Plant)",
+        "url": "https://mppgcl.mp.gov.in/CAREER/3233/SYLLABUS_JE_ELECTRICAL_P10.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-27"
+      },
+      {
+        "label": "Detailed Syllabus — Junior Engineer Electronics (Plant)",
+        "url": "https://mppgcl.mp.gov.in/CAREER/3233/SYLLABUS_JE_ELECTRONICS_P11.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-27"
+      },
+      {
+        "label": "Detailed Syllabus — Junior Engineer Civil",
+        "url": "https://mppgcl.mp.gov.in/CAREER/3233/SYLLABUS_JE_CIVIL_P12.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-27"
+      },
+      {
+        "label": "Detailed Syllabus — General Aptitude, Reasoning & General Awareness",
+        "url": "https://mppgcl.mp.gov.in/CAREER/3233/SYLLABUS_GENERAL_APPTITUDE_REASONING.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-07-27"
+      },
+      {
+        "label": "MPPGCL Detailed Recruitment Advertisement & Rulebook 2024 (Advt. No. 1153)",
+        "url": "https://www.mppgcl.mp.gov.in/CAREER/MPPGCL_ADVT_009_POSTS_1153_09032024.pdf",
+        "type": "notification",
+        "cycle_label": "2024",
+        "confidence": "verified",
+        "as_of": "2024-03-09"
+      }
+    ]
+  }
+}

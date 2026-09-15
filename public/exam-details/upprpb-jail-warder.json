@@ -1,0 +1,216 @@
+{
+  "id": "upprpb-jail-warder",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Custodial security and emergency response cadre under the Uttar Pradesh Prison Administration and Reform Department (Karagar Prashasan Evam Sudhar Vibhag) and Fire Service Department. Recruits enter at Level 3 and advance through departmental quotas, promotional tests, and seniority.",
+    "steps": [
+      {
+        "designation": "Jail Warder (Karagar Bandi Rakshak / Fireman / Mounted Constable)",
+        "pay_level": "Level 3",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Prison Administration Service Rules & Advt. PRPB-1(Jail/Fireman)-2018"
+      },
+      {
+        "designation": "Head Warder (Mukhya Bandi Rakshak / Leading Fireman)",
+        "pay_level": "Level 4",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Prison Subordinate Service Promotion Rules"
+      },
+      {
+        "designation": "Deputy Jailor (Up-Karapal)",
+        "pay_level": "Level 6",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Prison Executive Cadre Service Rules"
+      },
+      {
+        "designation": "Jailor (Karapal / Correctional Superintendent)",
+        "pay_level": "Level 7",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Prison Service Executive Regulations"
+      },
+      {
+        "designation": "Senior Superintendent of Jail (Varishtha Karapal / District Jail Superintendent)",
+        "pay_level": "Level 10",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Prison Service Gazetted Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises an Objective Written Examination (OMR mode) of 300 marks (150 questions of 2 marks each with 0.5 marks negative penalty per wrong answer), followed by Document Verification & Physical Standard Test (DV/PST) and Physical Efficiency Test (PET).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Objective Written Examination (OMR Mode)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Jail Warder / Fireman Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "General Knowledge (Samanya Gyan)",
+            "marks": 76,
+            "duration_minutes": null,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Hindi (Samanya Hindi)",
+            "marks": 74,
+            "duration_minutes": null,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Numerical and Mental Ability (Sankhyatmak Evam Mansik Yogyata)",
+            "marks": 76,
+            "duration_minutes": null,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mental Aptitude, IQ and Reasoning Ability (Mansik Abhiruchi, Buddhilabdhi Evam Tarkik Kshamta)",
+            "marks": 74,
+            "duration_minutes": 120,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Physical Standard Test (DV/PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Jail Warder DV/PST Rules",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Testimonials & Physical Measurement (Height: Male 168 cm, Female 152 cm; Chest: Male 79-84 cm)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical standards"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET / Running)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB PET Guidelines",
+        "papers": [
+          {
+            "paper_name": "Endurance Running (Male: 4.8 km in 25 mins; Female: 2.4 km in 14 mins)",
+            "marks": null,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Completion of endurance race within prescribed time"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Jail Warders and Firemen in Uttar Pradesh are placed in Pay Level 3 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016. Personnel receive DA, HRA, risk allowance, and diet subsidies.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://uppbpb.gov.in/Home/Manual",
+    "pay_source_label": "UP Revised Pay Rules 2016 Level 3 & Advt. PRPB-1(Jail/Fireman)-2018",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36500,
+      "max": 41000
+    },
+    "in_hand_range_estimate": {
+      "min": 32500,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 with 58% DA (₹12,586), HRA (₹1,200 to ₹3,600 based on jail location), prison duty risk allowance, uniform allowance, net of 10% NPS deduction (₹3,429) and GIS.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP government finance orders",
+      "House Rent Allowance (HRA) or official quarters inside prison administrative complexes",
+      "Prison and Security Risk Allowance",
+      "Ration subsidy and diet allowance for custodial security personnel",
+      "Annual Uniform and Kit Maintenance Allowance",
+      "National Pension System (NPS) with 14% matching contribution",
+      "Medical facility under UP Government Servants Medical Attendance Rules"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Compiled from official UPPRPB notifications and final selection results for the combined Jail Warder, Fireman, and Mounted Police recruitment cycle.",
+    "years": [
+      {
+        "year": 2018,
+        "applicants": 683190,
+        "vacancies": 5805,
+        "shortlisted_for_mains": 14512,
+        "selectivity_ratio": "1 in 118",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Jail Warder and Fireman Final Selection Order & Result"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, recruitment circulars, and service manuals hosted on the UPPRPB website.",
+    "links": [
+      {
+        "label": "UPPRPB Jail Warder & Fireman Result and Merit Notice",
+        "url": "https://uppbpb.gov.in/Home/Notice",
+        "type": "notification",
+        "cycle_label": "2018-2021",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UP Police Recruitment Rules & Manuals",
+        "url": "https://uppbpb.gov.in/Home/Manual",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

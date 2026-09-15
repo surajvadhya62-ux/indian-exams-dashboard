@@ -1,0 +1,152 @@
+{
+  "id": "midhani-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive cadre ladder in Mishra Dhatu Nigam Limited (Specialty Alloys Defence CPSE).",
+    "steps": [
+      {
+        "designation": "Management Trainee (MT)",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "Training (1 yr)",
+        "confidence": "verified",
+        "as_of": "2023-10-18",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI Advt No. MDN/HR/R8/E/02/23"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "approx. 1-4 yrs",
+        "confidence": "verified",
+        "as_of": "2023-10-18",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI Advt No. MDN/HR/R8/E/02/23"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "E-3 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2023-10-18",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI Executive Cadre Promotion Policy"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of Written Test (CBT) and Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-10-18",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI MT Selection Scheme",
+        "papers": [
+          {
+            "paper_name": "Discipline Technical Subject (60 marks) & General Aptitude / Reasoning / English (40 marks)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "General/EWS: 50%, OBC: 45%, SC/ST: 40%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-10-18",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI MT Selection Scheme",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (shortlisting ratio 1:6 based on CBT)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "15% weightage in composite score"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by 3rd PRC IDA pattern for Central Public Sector Enterprises.",
+    "pay_level": "E-1 Grade (IDA Scale ₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-10-18",
+    "pay_source_url": "https://midhani-india.in/department-careers/",
+    "pay_source_label": "MIDHANI MT Recruitment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 78000,
+      "max": 86000
+    },
+    "in_hand_range_estimate": {
+      "min": 69000,
+      "max": 77000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic ₹40,000, 58% IDA DA (₹23,200), HRA (₹3,600 to ₹10,800), and cafeteria allowances.",
+    "official_perks": [
+      "Quarterly revised Industrial Dearness Allowance (IDA)",
+      "Company quarter in Hyderabad township or HRA",
+      "Cafeteria allowances up to 30% of basic pay",
+      "Contributory Provident Fund, Gratuity, and Pension",
+      "Medical cover for self and dependents"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual Management Trainee recruitment numbers at MIDHANI Hyderabad.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 42,
+        "confidence": "verified",
+        "as_of": "2023-10-18",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI Advt MDN/HR/R8/E/02/23"
+      },
+      {
+        "year": 2022,
+        "vacancies": 35,
+        "confidence": "verified",
+        "as_of": "2022-09-05",
+        "source_url": "https://midhani-india.in/department-careers/",
+        "source_label": "MIDHANI MT Notification 2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on MIDHANI portal.",
+    "links": [
+      {
+        "label": "MIDHANI Careers & Opportunities",
+        "url": "https://midhani-india.in/department-careers/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MIDHANI Official Corporate Website",
+        "url": "https://midhani-india.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

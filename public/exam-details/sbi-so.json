@@ -1,0 +1,179 @@
+{
+  "id": "sbi-so",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Specialist Cadre Officers (SCO / SO) in State Bank of India are recruited across specialized domains including Information Technology, Cybersecurity, Credit Analysis, Risk Management, Law, and Wealth Management. Direct entry occurs at Junior Management Grade Scale I (JMGS-I) or Middle Management Grade Scale II/III (MMGS-II / MMGS-III), with career progression through Senior Management and Top Executive grades.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Specialist — JMGS-I)",
+        "pay_level": "JMGS-I (Scale ₹48,480 - 85,920)",
+        "years": "Entry level for Scale I specialists (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "State Bank of India — Central Recruitment & Promotion Department (CRPD) Specialist Cadre Officer Regulations"
+      },
+      {
+        "designation": "Deputy Manager (Specialist — MMGS-II)",
+        "pay_level": "MMGS-II (Scale ₹64,820 - 93,960)",
+        "years": "approx. 3-5 yrs (or direct lateral entry)",
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "SBI Officer Service Rules (Specialist Cadre)"
+      },
+      {
+        "designation": "Manager (Specialist — MMGS-III)",
+        "pay_level": "MMGS-III (Scale ₹85,920 - 1,05,280)",
+        "years": "approx. 7-10 yrs (or direct lateral entry)",
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "SBI Officer Service Rules (Specialist Cadre)"
+      },
+      {
+        "designation": "Chief Manager (SMGS-IV)",
+        "pay_level": "SMGS-IV (Senior Management Grade)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "SBI Senior Management Cadre Structure"
+      },
+      {
+        "designation": "Assistant General Manager (AGM — SMGS-V) / Deputy General Manager (DGM — TEGS-VI)",
+        "pay_level": "SMGS-V / TEGS-VI",
+        "years": "approx. 18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "SBI Top Executive Cadre Structure"
+      },
+      {
+        "designation": "General Manager (GM) / Chief General Manager (CGM)",
+        "pay_level": "TEGS-VII / Top Executive",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "SBI Top Executive Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for SBI Specialist Cadre Officers varies by role and grade. For exam-based posts (e.g. Assistant Manager Systems, Credit Analysts), selection consists of an Online Written Test followed by an Interview, with merit weightage of 70% for the written test and 30% for the interview. For senior lateral/specialist roles, selection is based on shortlisting and Interview (100 marks). In the objective written test, a penalty of 1/4th (0.25) mark applies for every incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Online Written Test (General Aptitude & Professional Knowledge)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "State Bank of India — CRPD Specialist Cadre Officers Notification (Selection Process & Syllabus)",
+        "papers": [
+          {
+            "paper_name": "General Aptitude: Reasoning Ability, Quantitative Aptitude & English Language",
+            "marks": 120,
+            "duration_minutes": 90,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; candidates must score minimum qualifying marks to have Professional Knowledge evaluated"
+          },
+          {
+            "paper_name": "Professional Knowledge (Domain / Specialist Area: IT, Law, Risk, Finance)",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit ranking based on Professional Knowledge score"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "State Bank of India — CRPD Specialist Cadre Officers Notification (Interview Stage)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (SBI Local Head Offices / Corporate Centre)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks category-wise; combined with Stage I (70:30 weightage)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Specialist Cadre Officers receive pay and perks under the Bipartite Settlement / SBI Officers Service Rules. For Scale I (JMGS-I), starting basic pay is ₹48,480 in scale ₹48480-2010/7-62550-2340/2-67230-2680/7-85920; for Scale II (MMGS-II), starting basic pay is ₹64,820; for Scale III (MMGS-III), basic pay starts at ₹85,920. In addition, SBI provides four additional increments to direct officer recruits as per institutional policy.",
+    "pay_level": "Junior Management Grade Scale I (JMGS-I)",
+    "entry_basic_pay": 48480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-19",
+    "pay_source_url": "https://sbi.co.in/web/careers",
+    "pay_source_label": "State Bank of India — CRPD Notification (Salary & Emoluments for Specialist Cadre Officers)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 85000, "max": 96000 },
+    "in_hand_range_estimate": { "min": 72000, "max": 82000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Scale I entry basic pay of ₹48,480 plus applicable Dearness Allowance, House Rent Allowance (or leased accommodation up to city limits), Special Allowance, City Compensatory Allowance, and Location Allowance; net in-hand factors in defined pension and PF contributions.",
+    "official_perks": [
+      "Bank leased residential accommodation or House Rent Allowance in major commercial centers",
+      "Comprehensive medical benefits (100% for employee, 75% for dependent family) and Group Insurance",
+      "Defined contribution pension scheme under National Pension System (NPS) and Provident Fund",
+      "Leave Travel Concession (LTC) / Home Travel Concession and leave encashment provisions",
+      "Concessional staff loan schemes for housing, car, and personal needs, plus fuel and entertainment allowances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SBI notifies Specialist Cadre Officers periodically through multiple advertisements (CRPD/SCO series) each year across regular and contractual tracks. Annual vacancies typically range from 400 to 1,500 posts across specialized roles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1040,
+        "confidence": "reported",
+        "as_of": "2024-07-19",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "State Bank of India — Combined CRPD/SCO Advertisements 2024-25"
+      },
+      {
+        "year": 2023,
+        "vacancies": 616,
+        "confidence": "reported",
+        "as_of": "2023-09-16",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "State Bank of India — Advt. No. CRPD/SCO/2023-24/14"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and notices on the State Bank of India careers platform.",
+    "links": [
+      {
+        "label": "SBI Official Careers Portal",
+        "url": "https://sbi.co.in/web/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

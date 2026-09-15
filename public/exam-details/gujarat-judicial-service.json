@@ -1,0 +1,233 @@
+{
+  "id": "gujarat-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Subordinate judicial appointments in Gujarat follow the Gujarat State Judicial Service Rules, 2005 under the administrative superintendence of the High Court of Gujarat, with revised pay scales governed by the Second National Judicial Pay Commission (SNJPC).",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC J-1 (₹77,840 - ₹1,36,520)",
+        "years": "Entry (approx. 5-8 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/94_202122_2022_2_1_586.pdf",
+        "source_label": "Gujarat State Judicial Service Rules & Second National Judicial Pay Commission (SNJPC) Revised Pay Matrix"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM)",
+        "pay_level": "SNJPC J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in",
+        "source_label": "High Court of Gujarat Judicial Service Promotion Regulations (90% seniority cum merit, 10% LDCE)"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ)",
+        "pay_level": "SNJPC J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in",
+        "source_label": "High Court of Gujarat District Judiciary Cadre Rules"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (PDJ) / Selection Grade & Super Time Scale",
+        "pay_level": "SNJPC J-6/J-7 (₹1,63,030 - ₹2,24,100)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in",
+        "source_label": "High Court of Gujarat District Judiciary Cadre Rules"
+      },
+      {
+        "designation": "Judge, High Court of Gujarat",
+        "pay_level": "Constitutional Post (₹2,25,000 fixed)",
+        "years": "Apex elevation",
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in",
+        "source_label": "Constitution of India, Article 217 (Judicial Service Quota)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Direct recruitment examination conducted by the High Court of Gujarat consisting of Preliminary Elimination Examination (OMR), Main Written Examination (Descriptive), and Viva-voce Test (Oral Interview).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Elimination Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/94_202122_2022_2_1_586.pdf",
+        "source_label": "High Court of Gujarat Detailed Advertisement for Recruitment of Civil Judges",
+        "papers": [
+          {
+            "paper_name": "Paper I: Criminal Law (Part A), Civil Law (Part B), General Knowledge, English, Reasoning & Computer (Part C)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.33 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% marks (45% for SC/ST candidates)"
+          },
+          {
+            "paper_name": "Paper II: Test of Gujarati Language (Grammar, Essay, Translation, Comprehension)",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% marks (mandatory for candidates without Higher Level Gujarati at 10th/12th)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive Type)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/94_202122_2022_2_1_586.pdf",
+        "source_label": "High Court of Gujarat Detailed Advertisement for Recruitment of Civil Judges",
+        "papers": [
+          {
+            "paper_name": "Paper I: Criminal Law (IPC, CrPC, Evidence Act, Prohibition Act, POCSO, DV Act, etc.)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper and 50% aggregate (45% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper II: Civil Law (CPC, Limitation, Contract, Constitution, Specific Relief, Court Fees, TPA, etc.)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each paper and 50% aggregate (45% for SC/ST)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-voce Test (Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-04-24",
+        "source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/94_202122_2022_2_1_586.pdf",
+        "source_label": "High Court of Gujarat Detailed Advertisement for Recruitment of Civil Judges",
+        "papers": [
+          {
+            "paper_name": "Board Viva-voce / Personality & Legal Acumen Test (High Court of Gujarat, Ahmedabad)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks required in Viva-voce to be eligible for final select list"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Gujarat receive salary packages governed by the Second National Judicial Pay Commission (SNJPC) as implemented under orders of the Supreme Court of India in All India Judges Association v. Union of India.",
+    "pay_level": "SNJPC J-1 (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-04-24",
+    "pay_source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/94_202122_2022_2_1_586.pdf",
+    "pay_source_label": "High Court of Gujarat Notification & The Gujarat State Judicial Service Rules, 2005 (as amended; Second National Judicial Pay Commission Pay Scale ₹77,840 – ₹1,36,520)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 140000,
+      "max": 168000
+    },
+    "in_hand_range_estimate": {
+      "min": 120000,
+      "max": 145000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculations based on SNJPC Level J-1 entry basic pay of ₹77,840 with 58% DA (effective 1 Jul 2025), judicial HRA / rent-free government accommodation, sumptuary allowance, robe allowance, and fuel allowance minus standard NPS deductions.",
+    "official_perks": [
+      "Rent-free official judicial accommodation / bungalow with maintenance",
+      "Official staff vehicle or monthly conveyance allowance with fuel entitlement",
+      "Sumptuary allowance and robe allowance as mandated by SNJPC",
+      "Comprehensive medical facility and reimbursement for officer and family",
+      "Electricity and water subsidy, telephone/broadband reimbursement",
+      "Home orderly / domestic attendant allowance as per High Court rules",
+      "Leave Travel Concession (LTC) and judicial training programmes"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official notifications and qualified lists published by the Recruitment Cell, High Court of Gujarat.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 237,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-04-24",
+        "source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/999_999_2026_4_24_511.pdf",
+        "source_label": "High Court of Gujarat Notification No. RC/0719/2026 dated 24/04/2026: \"hereby notify 237 (approx.) Regular Vacancies (existing & future), for the Cadre of Civil Judges\" as per Supreme Court mandate in Malik Mazhar Sultan."
+      },
+      {
+        "year": 2024,
+        "applicants": 4500,
+        "vacancies": 219,
+        "shortlisted_for_mains": 211,
+        "selectivity_ratio": "approx. 1 in 21 (calculated: applicants ÷ vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-01-22",
+        "source_url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/120_202425_2026_1_22_825.pdf",
+        "source_label": "High Court of Gujarat Notice No. RC/0719/2024-25 (120/202425) dated 22/01/2026: List of 211 candidates who qualified the Main Written Examination held on 12/10/2025 and called for Oral Interview."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All judicial recruitment notifications, call letters, and results are published on the official High Court websites.",
+    "links": [
+      {
+        "label": "Civil Judges Recruitment 2026 — Vacancy Notification (237 Posts)",
+        "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/999_999_2026_4_24_511.pdf",
+        "type": "notification",
+        "cycle_label": "RC/0719/2026",
+        "confidence": "verified",
+        "as_of": "2026-04-24"
+      },
+      {
+        "label": "Detailed Advertisement for Direct Recruitment to Cadre of Civil Judge — Syllabus & Scheme",
+        "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/94_202122_2022_2_1_586.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-04-24"
+      },
+      {
+        "label": "Main Written Examination Qualified Candidates List for Viva-voce Test",
+        "url": "https://gujarathighcourt.nic.in/hccms/sites/default/files/Recruitment_files/120_202425_2026_1_22_825.pdf",
+        "type": "other",
+        "cycle_label": "RC/0719/2024-25",
+        "confidence": "verified",
+        "as_of": "2026-01-22"
+      },
+      {
+        "label": "High Court of Gujarat Online Job Application System (HC-OJAS)",
+        "url": "https://hc-ojas.gujarat.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

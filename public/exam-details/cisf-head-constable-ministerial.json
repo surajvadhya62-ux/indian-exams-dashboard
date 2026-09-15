@@ -1,0 +1,238 @@
+{
+  "id": "cisf-head-constable-ministerial",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Head Constable (Ministerial) is the primary ministerial cadre post in the Central Industrial Security Force (CISF) under the Ministry of Home Affairs. Personnel provide vital administrative, personnel, dispatch, and accounting support across CISF Units stationed at critical national infrastructure, international airports, seaports, nuclear installations, and space establishments.",
+    "steps": [
+      {
+        "designation": "Head Constable (Ministerial)",
+        "pay_level": "Level 4",
+        "years": "Entry level (probation & basic training 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Recruitment Notice for Assistant Sub-Inspector (Stenographer) and Head Constable (Ministerial) 2022"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (Ministerial)",
+        "pay_level": "Level 5",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Sub-Inspector (Ministerial)",
+        "pay_level": "Level 6",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Inspector (Ministerial)",
+        "pay_level": "Level 7",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Assistant Commandant (Ministerial)",
+        "pay_level": "Level 10",
+        "years": "approx. 24-28 yrs (induction into Group A Gazetted cadre)",
+        "confidence": "reported",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Directorate General Ministerial Cadre Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Head Constable (Ministerial) in CISF comprises four sequential stages: Stage 1 Physical Standard Test (PST) and Documentation; Stage 2 Written Examination (OMR or Computer Based Test, 100 objective questions, 120 minutes); Stage 3 Skill Test (Typing Test on computer); Stage 4 Detailed Medical Examination (DME) and Review Medical Examination (RME).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Physical Standard Test (PST) & Documentation",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Scheme of PST and Verification for HC (Ministerial) 2022",
+        "papers": [
+          {
+            "paper_name": "Physical Standard Measurement (Height: 165 cm male, 155 cm female; Chest: 77-82 cm male) and Verification of Original Documents",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying pass/fail"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Examination (OMR / CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Scheme of Written Examination for HC (Ministerial)",
+        "papers": [
+          {
+            "paper_name": "Part A: General Intelligence",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% for UR/EWS/ESM; 33% for SC/ST/OBC"
+          },
+          {
+            "paper_name": "Part B: General Knowledge",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% for UR/EWS/ESM; 33% for SC/ST/OBC"
+          },
+          {
+            "paper_name": "Part C: Arithmetic",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% for UR/EWS/ESM; 33% for SC/ST/OBC"
+          },
+          {
+            "paper_name": "Part D: General English Or Hindi",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% for UR/EWS/ESM; 33% for SC/ST/OBC"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Skill Test (Typing Test)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Skill Test Standards for HC (Ministerial)",
+        "papers": [
+          {
+            "paper_name": "English Typing (minimum 35 wpm on computer) OR Hindi Typing (minimum 30 wpm on computer)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35 wpm English or 30 wpm Hindi"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Detailed Medical Examination (DME)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "MHA Revised Uniform Guidelines for Medical Examination in CAPFs",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness & Visual Acuity Assessment (Visual standard: 6/6 and 6/9)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Medical Fit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Head Constable (Ministerial) in CISF is placed in Pay Level 4 (₹25,500 – ₹81,100) under the 7th CPC. CISF personnel stationed at major industrial undertakings, metropolitan airports, or sea ports receive city-appropriate HRA or departmental residential accommodations.",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-09-26",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 44000, "max": 55000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 48000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 with 58% DA (₹14,790), HRA (10% to 30%), Transport Allowance (₹900 to ₹1,350 + DA on TA), plus Ration Money Allowance (~₹3,965/month) where admissible, minus 10% NPS deduction.",
+    "official_perks": [
+      "Ration Money Allowance (RMA) / free messing facilities",
+      "Hair Cutting, Soap, and Annual Dress Allowance (₹10,000 per annum)",
+      "Free medical attendance through CISF Unit Hospitals and CGHS network",
+      "Subsidized consumer goods purchasing through Central Police Canteen (CPC)",
+      "Children Education Allowance (CEA) and Leave Travel Concession (LTC)",
+      "Residential township accommodation inside PSU / airport complexes or HRA"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Head Constable (Ministerial) in CISF across direct recruitment notifications published by the Central Industrial Security Force under MHA.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 418,
+        "confidence": "verified",
+        "as_of": "2022-09-26",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Recruitment of ASI (Steno) and Head Constable (Ministerial) 2022 (HC Ministerial: 418 vacancies)"
+      },
+      {
+        "year": 2019,
+        "vacancies": 429,
+        "confidence": "verified",
+        "as_of": "2019-01-21",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF — Direct Recruitment of Head Constable (Ministerial) in CISF 2019 (429 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and recruitment portals hosted on CISF's dedicated recruitment platform.",
+    "links": [
+      {
+        "label": "CISF Recruitment Portal — Official Portal",
+        "url": "https://cisfrectt.cisf.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CISF Head Constable (Ministerial) 2022 Notification Archive",
+        "url": "https://cisfrectt.cisf.gov.in",
+        "type": "notification",
+        "cycle_label": "CISF-HCM-2022",
+        "confidence": "verified",
+        "as_of": "2022-09-26"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

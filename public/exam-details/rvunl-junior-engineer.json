@@ -1,0 +1,217 @@
+{
+  "id": "rvunl-junior-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Engineers-I (JEN-I) in Rajasthan State Power Companies are recruited through a centralized Common Recruitment Exercise conducted by Rajasthan Rajya Vidyut Utpadan Nigam Limited (RVUNL) on behalf of all five State Power Utilities (RVUN, RVPN, JVVN, AVVN, JdVVN). Officers are appointed across thermal and hydel generating stations, transmission grids, and distribution circles, advancing through executive and chief engineer ranks under the Rajasthan Power Sector Engineers Service Regulations.",
+    "steps": [
+      {
+        "designation": "Junior Engineer-I (JEN-I - Electrical / Mechanical / Civil / C&I / Fire & Safety)",
+        "pay_level": "Level L-10",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Aug/30409/1834ef1422d-0e7f-4f51-bfd3-6c602a408063.pdf",
+        "source_label": "RVUNL Detailed Advt. No. RVUN/Rectt.-2026-27/02 Section 2 Remuneration"
+      },
+      {
+        "designation": "Assistant Engineer (AEN - Executive In-charge / Sub-Divisional Officer)",
+        "pay_level": "Level L-14",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://energy.rajasthan.gov.in/rvunl",
+        "source_label": "Rajasthan Power Companies Engineers Service Regulations Promotion Quota"
+      },
+      {
+        "designation": "Executive Engineer (XEN - Divisional Head / Plant Unit Head)",
+        "pay_level": "Level L-18 to Level L-19",
+        "years": "approx. 10-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://energy.rajasthan.gov.in/rvunl",
+        "source_label": "Rajasthan State Power Sector Senior Scale Engineering Regulations"
+      },
+      {
+        "designation": "Superintending Engineer (SE - Circle Head / Super Thermal Station O&M In-charge)",
+        "pay_level": "Level L-21",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://energy.rajasthan.gov.in/rvunl",
+        "source_label": "Vidyut Nigams Engineering Officers Selection Scale Regulations"
+      },
+      {
+        "designation": "Additional Chief Engineer / Chief Engineer (CE) / Director (Technical)",
+        "pay_level": "Level L-23 to Level L-24",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://energy.rajasthan.gov.in/rvunl",
+        "source_label": "Rajasthan Power Sector Top Management & Board Level Cadre Schedule"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Junior Engineer-I is conducted through a single-stage online Computer Based Test (CBT) Common Written Competitive Examination of two hours duration (120 minutes) consisting entirely of multiple-choice questions. The question paper carries two parts: Part A (60% weightage - Degree-level Engineering discipline) and Part B (40% weightage - General Aptitude, Reasoning, Mathematics, Rajasthan GK & Everyday Science, Hindi, and English). Penalty for wrong answers is applied. There is strictly no interview; merit is determined on total scores across Part A and Part B, followed by certificate verification.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Common Written Competitive Examination (Online CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Aug/30409/1834ef1422d-0e7f-4f51-bfd3-6c602a408063.pdf",
+        "source_label": "RVUNL Detailed Advt. No. RVUN/Rectt.-2026-27/02 Section 10 Selection Procedure",
+        "papers": [
+          {
+            "paper_name": "Part-A: Engineering Discipline Core (Degree Standard in Electrical / Mechanical / Civil)",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "Penalty for wrong answers applies for each incorrect response (1/4th / 0.25 mark deduction)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 30% marks for Unreserved category candidates and 20% marks for SC/ST/BC/MBC/EWS/PwBD candidates in written exam"
+          },
+          {
+            "paper_name": "Part-B: Non-Technical Aptitude (Reasoning, Mathematics Class-XII, GK & Everyday Science with special reference to Rajasthan, Hindi Class-X, English Class-X)",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "Penalty for wrong answers applies for each incorrect response (1/4th / 0.25 mark deduction)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 30% marks for Unreserved category candidates and 20% marks for SC/ST/BC/MBC/EWS/PwBD candidates in written exam"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Preference-based Company Allocation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Aug/30409/1834ef1422d-0e7f-4f51-bfd3-6c602a408063.pdf",
+        "source_label": "RVUNL Detailed Advt. No. RVUN/Rectt.-2026-27/02 Section 10 & 11",
+        "papers": [
+          {
+            "paper_name": "Verification of Engineering Degree, Category Credentials & Company Allocation across RVUN, RVPN, JVVN, AVVN, JdVVN",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Candidates up to 2 times the category-wise vacancies are shortlisted for document verification"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Engineers-I in Rajasthan Power Sector are placed in Pay Matrix Level L-10 (entry basic pay ₹33,800, equivalent to Grade Pay ₹3,600 under 6th CPC) in accordance with the Rajasthan Vidyut Nigams (Revised Pay) Regulations. Newly recruited candidates undergo a mandatory two-year probation training period during which they draw a fixed stipend of ₹23,700 per month. Upon satisfactory completion of probation, regular pay scale benefits and allowances commence.",
+    "pay_level": "Level L-10",
+    "entry_basic_pay": 33800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Aug/30409/1834ef1422d-0e7f-4f51-bfd3-6c602a408063.pdf",
+    "pay_source_label": "RVUNL Detailed Advt. No. RVUN/Rectt.-2026-27/02 Section 2 Remuneration/Salary",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 55000,
+      "max": 63000
+    },
+    "in_hand_range_estimate": {
+      "min": 48000,
+      "max": 56000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Post-probation gross earnings comprise Entry Basic Pay ₹33,800 + 58% DA (₹19,604) + HRA ranging from 10% (₹3,380 in rural/plant sites) to 20% (₹6,760 in Y-class cities like Jaipur, Jodhpur, Kota) + Thermal Power Generation Allowance / Shift Allowance where posted in thermal plants (Kota, Suratgarh, Chhabra, Kalisindh). In-hand salary reflects mandatory deductions under Contributory Pension Scheme / NPS (10% of Basic+DA = ₹5,340) and group insurance. During the two-year probation period, fixed remuneration is ₹23,700 per month.",
+    "official_perks": [
+      "Subsidized electricity allowance / energy quota as per Vidyut Nigam service regulations",
+      "Comprehensive cashless hospitalization and medical reimbursement under RGHS / Nigam Contributory Health Scheme",
+      "Company township residential accommodation at super thermal plants (Kota, Suratgarh, Chhabra, Kalisindh, Ramgarh) or HRA",
+      "Thermal Generation Allowance / Shift Duty Allowance for power station operational staff",
+      "Group Personal Accident Insurance, Contributory Provident Fund / NPS, and Gratuity on superannuation"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Common Recruitment in Rajasthan Power Companies for Junior Engineers is conducted jointly for all five Vidyut Nigams (RVUN, RVPN, JVVN, AVVN, JdVVN). In the 2026-27 recruitment cycle, 869 Junior Engineer-I vacancies (Electrical: 727, Mechanical: 110, Civil: 32) were notified out of 2,005 total vacancies. In the 2021 cycle, 946 Junior Engineer-I vacancies were advertised, drawing approximately 1,20,000 engineering applicants across Rajasthan.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 95000,
+        "vacancies": 869,
+        "shortlisted_for_mains": 1738,
+        "selectivity_ratio": "1 in 109 (869 JEN-I vacancies across Electrical 727, Mechanical 110, and Civil 32 in 5 Power Companies; approx. 1,738 shortlisted for DV)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Jun/30409/183ff2303dd-cc5c-4ac4-bd7d-0189e07f1ff4.pdf",
+        "source_label": "RVUNL Common Recruitment Short Advt. No. RVUN/Rectt.-2026-27/01 & Detailed Advt. No. 02"
+      },
+      {
+        "year": 2021,
+        "applicants": 120000,
+        "vacancies": 946,
+        "shortlisted_for_mains": 1892,
+        "selectivity_ratio": "1 in 127 (946 JEN-I posts across Electrical, Mechanical, Civil, C&I, and Fire & Safety disciplines)",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://energy.rajasthan.gov.in/rvunl",
+        "source_label": "RVUNL Common Recruitment 2021 Candidate Selection Notice"
+      },
+      {
+        "year": 2018,
+        "applicants": 110000,
+        "vacancies": 1027,
+        "shortlisted_for_mains": 2054,
+        "selectivity_ratio": "1 in 107 (1,027 JEN-I vacancies across five Rajasthan Vidyut Nigams)",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://energy.rajasthan.gov.in/rvunl",
+        "source_label": "Rajasthan State Power Sector 2018 Recruitment Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, detailed syllabi, and recruitment circulars issued by Rajasthan Rajya Vidyut Utpadan Nigam Limited (RVUNL) for power company recruitments.",
+    "links": [
+      {
+        "label": "Detailed Advertisement for Common Recruitment of Junior Engineers-I in State Power Companies (Advt. No. RVUN/Rectt.-2026-27/02)",
+        "url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Aug/30409/1834ef1422d-0e7f-4f51-bfd3-6c602a408063.pdf",
+        "type": "notification",
+        "cycle_label": "RVUN-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Common Recruitment Short Advertisement for 2005 Vacancies in Five Power Companies (Advt. No. RVUN/Rectt.-2026-27/01)",
+        "url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Jun/30409/183ff2303dd-cc5c-4ac4-bd7d-0189e07f1ff4.pdf",
+        "type": "notification",
+        "cycle_label": "RVUN-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Notice for Online Applications Commencement for State Power Companies Recruitment 2026-27",
+        "url": "https://jankalyanfile.rajasthan.gov.in/WebMyWayFiles/DepartmentMaster/183/2026/Jul/30409/18310ee6924-80fd-4bb6-a5d0-41fafa0a6492.pdf",
+        "type": "other",
+        "cycle_label": "RVUN-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Rajasthan Rajya Vidyut Utpadan Nigam Limited Official Energy Portal",
+        "url": "https://energy.rajasthan.gov.in/rvunl",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

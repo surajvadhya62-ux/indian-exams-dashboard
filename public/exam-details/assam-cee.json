@@ -1,0 +1,133 @@
+{
+  "id": "assam-cee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Assam Combined Entrance Examination (CEE) is conducted annually by the Assam Science and Technology University (ASTU) for admission into four-year Bachelor of Technology (B.Tech) programmes in state engineering colleges across Assam. The examination consists of a single offline OMR-based paper of 3 hours duration (180 minutes) containing 120 multiple choice questions based on the Higher Secondary syllabus of the Assam State School Education Board (ASSEB Division-II). The marking scheme awards +4 marks for each correct response and deducts 1 mark (-1) for each incorrect response, for a total maximum score of 480 marks. Question papers are provided bilingually in English and Assamese.",
+    "stages": [
+      {
+        "stage_name": "Combined Entrance Examination (Offline OMR Based)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-16",
+        "source_url": "https://astu.formsrec.in/pdf/Final%20Brochure%20CEE-2026.pdf",
+        "source_label": "ASTU CEE-2026 Information Brochure, Clause 5",
+        "papers": [
+          {
+            "paper_name": "Mathematics",
+            "marks": 160,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for wrong answer (+4 marks for correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 MCQs; highest marks in Mathematics serves as first priority in rank tie-breaking"
+          },
+          {
+            "paper_name": "Physics",
+            "marks": 160,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for wrong answer (+4 marks for correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 MCQs; marks in Physics serves as second priority in rank tie-breaking"
+          },
+          {
+            "paper_name": "Chemistry",
+            "marks": 160,
+            "duration_minutes": 180,
+            "negative_marking": "-1 mark for wrong answer (+4 marks for correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40 MCQs; marks in Chemistry serves as third priority in rank tie-breaking"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official admissions announcements and rank card notifications released by Assam Science and Technology University (ASTU) and the Directorate of Technical Education (DTE), Assam. Merit ranks determine seat allotment across premier state engineering institutions including Assam Engineering College (Guwahati), Jorhat Engineering College (Jorhat), JIST (Jorhat), Bineswar Brahma Engineering College (Kokrajhar), Barak Valley Engineering College (Karimganj), Golaghat Engineering College, and Dhemaji Engineering College.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 14200,
+        "shortlisted_for_mains": 2150,
+        "selectivity_ratio": "Ranks awarded to ~13,100 appeared candidates for admission across ~2,150 seats in state engineering colleges",
+        "confidence": "reported",
+        "as_of": "2026-06-14",
+        "source_url": "https://astu.ac.in/?page_id=40088",
+        "source_label": "ASTU CEE-2026 Examination News and Notifications"
+      },
+      {
+        "year": 2025,
+        "applicants": 13800,
+        "shortlisted_for_mains": 2050,
+        "selectivity_ratio": "~13,800 registered applicants competing for ~2,050 government engineering seats in Assam",
+        "confidence": "reported",
+        "as_of": "2025-06-15",
+        "source_url": "https://astu.ac.in",
+        "source_label": "ASTU Combined Entrance Examination Admissions Overview"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information brochures, answer keys, rank card notices, and counseling links verified live on ASTU and DTE Assam portals.",
+    "links": [
+      {
+        "label": "Assam CEE 2026 Official Information Brochure (PDF)",
+        "url": "https://astu.formsrec.in/pdf/Final%20Brochure%20CEE-2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "CEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-16"
+      },
+      {
+        "label": "Assam CEE 2026 Official Final Answer Key (PDF)",
+        "url": "https://astu.ac.in/wp-content/uploads/Combined-Entrance-Examination-CEE-2026-Answer-Key.pdf",
+        "type": "other",
+        "cycle_label": "CEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-20"
+      },
+      {
+        "label": "Assam CEE 2026 Online Application Extension Notice (PDF)",
+        "url": "https://astu.ac.in/wp-content/uploads/Extension-notice.pdf",
+        "type": "notification",
+        "cycle_label": "CEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-04-01"
+      },
+      {
+        "label": "Assam CEE 2026 Rank Card & OMR Photocopy Notice (PDF)",
+        "url": "https://astu.ac.in/wp-content/uploads/CEE-2026-Rank-Card-and-Photocopy-of-OMR.pdf",
+        "type": "other",
+        "cycle_label": "CEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-25"
+      },
+      {
+        "label": "Assam Science and Technology University (ASTU) Official Website",
+        "url": "https://astu.ac.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Assam CEE Official Examination & Rank Card Portal",
+        "url": "https://astu.formsrec.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Directorate of Technical Education (DTE) Assam Counseling Portal",
+        "url": "https://dte.assam.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "id": "wb-wbjs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "West Bengal Judicial Service cadres and promotion scales are governed by the West Bengal Judicial (Conditions of Service) Rules and the Second National Judicial Pay Commission (SNJPC) framework as adopted by the High Court at Calcutta and the Government of West Bengal.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate (Cadre J-1)",
+        "pay_level": "Cadre J-1 (₹77,840 – ₹1,36,520)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2022-07-27",
+        "source_url": "https://www.calcuttahighcourt.gov.in",
+        "source_label": "High Court at Calcutta & Second National Judicial Pay Commission (SNJPC) Revised Pay Structure for Subordinate Judiciary"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) / ACJM (Cadre J-3)",
+        "pay_level": "Cadre J-3 (₹1,11,000 – ₹1,63,030)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2022-07-27",
+        "source_url": "https://www.calcuttahighcourt.gov.in",
+        "source_label": "High Court at Calcutta & Second National Judicial Pay Commission (SNJPC) Revised Pay Structure for Subordinate Judiciary"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) (Cadre J-5)",
+        "pay_level": "Cadre J-5 (₹1,44,840 – ₹1,94,660)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2022-07-27",
+        "source_url": "https://www.calcuttahighcourt.gov.in",
+        "source_label": "High Court at Calcutta & Second National Judicial Pay Commission (SNJPC) Revised Pay Structure for Subordinate Judiciary"
+      },
+      {
+        "designation": "District and Sessions Judge / Principal District Judge (Cadre J-6 / J-7 Selection & Super Time Scale)",
+        "pay_level": "Cadre J-7 (₹1,99,100 – ₹2,24,100)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "verified",
+        "as_of": "2022-07-27",
+        "source_url": "https://www.calcuttahighcourt.gov.in",
+        "source_label": "High Court at Calcutta & Second National Judicial Pay Commission (SNJPC) Revised Pay Structure for Subordinate Judiciary"
+      },
+      {
+        "designation": "Judge, High Court at Calcutta (Elevation under Article 217(2)(a) from Judicial Service Quota)",
+        "pay_level": "High Court Judge Pay (₹2,25,000 fixed)",
+        "years": "Selection",
+        "confidence": "verified",
+        "as_of": "2022-07-27",
+        "source_url": "https://www.calcuttahighcourt.gov.in",
+        "source_label": "Constitution of India, Article 217(2)(a) and High Court Judges (Salaries and Conditions of Service) Act"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Exam scheme is notified under Advt. No. 9/2024 and corrigendum dated 14.10.2025, updating the criminal law papers to incorporate Bharatiya Nyaya Sanhita (BNS), Bharatiya Nagarik Suraksha Sanhita (BNSS), and Bharatiya Sakshya Adhiniyam (BSA). Preliminary exam is screening only; final merit is based on Final Examination (1,100 marks) + Personality Test (100 marks) = 1,200 marks total.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective MCQ Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-13",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20250813164846_SS_WBJS_2024.pdf&param2=advertisement",
+        "source_label": "WBPSC — Scheme and Syllabus for West Bengal Judicial Service Examination, 2024 (Advt. No. 9/2024)",
+        "papers": [
+          {
+            "paper_name": "Law, English & General Knowledge Composite Paper (200 MCQs covering English Composition [30m], GK/Current Affairs/Reasoning [40m], Indian Constitution [20m], Contracts & Torts [20m], BSA [20m], CPC [20m], BNSS & BNS [20m], Personal Law [10m], and Law of Limitation [20m])",
+            "marks": 200,
+            "duration_minutes": 150,
+            "negative_marking": "Negative marking applies for each wrong answer as per commission rules",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Final Examination (Conventional Written Descriptive Examination)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-13",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20250813164846_SS_WBJS_2024.pdf&param2=advertisement",
+        "source_label": "WBPSC — Scheme and Syllabus for West Bengal Judicial Service Examination, 2024 (Advt. No. 9/2024)",
+        "papers": [
+          {
+            "paper_name": "Compulsory Paper 1: English Composition, Essay and Précis Writing",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 2: Bengali/Hindi/Urdu/Nepali/Santali Composition, Essay and Translation from English",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 3: General Knowledge and Current Affairs",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 4: Civil Procedure Code (CPC)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 5: Bharatiya Nagarik Suraksha Sanhita (BNSS) and Bharatiya Nyaya Sanhita (BNS)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 6: Bharatiya Sakshya Adhiniyam (BSA)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 7: Law of Contracts and Torts",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper 8: Transfer of Property Act",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Paper I (Chosen from Hindu Law / Muhammadan Law / Jurisprudence & Principles of Legislation / Indian Law relating to Companies & Insurance / Principles of Equity, Trusts & Specific Relief / Partnership Act / Law of Limitation & Prescription / Constitution & Constitutional Law)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Paper II (Chosen from 8 prescribed optional subjects)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Paper III (Chosen from 8 prescribed optional subjects)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Viva-Voce)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-08-13",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20250813164846_SS_WBJS_2024.pdf&param2=advertisement",
+        "source_label": "WBPSC — Scheme and Syllabus for West Bengal Judicial Service Examination, 2024 (Advt. No. 9/2024)",
+        "papers": [
+          {
+            "paper_name": "Personality Test Interview (Calcutta High Court / Commission Board, Kolkata)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in West Bengal are compensated under the Second National Judicial Pay Commission (SNJPC) Cadre J-1 pay scale as approved by the Supreme Court of India in All India Judges Association v. Union of India and implemented by the West Bengal Judicial Department.",
+    "pay_level": "Cadre J-1 (SNJPC Pay Scale ₹77,840 – ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-07-27",
+    "pay_source_url": "https://www.calcuttahighcourt.gov.in",
+    "pay_source_label": "High Court at Calcutta & Second National Judicial Pay Commission (SNJPC) Report as approved by Supreme Court of India in All India Judges Association v. Union of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 135000, "max": 155000 },
+    "in_hand_range_estimate": { "min": 115000, "max": 132000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary calculated on Cadre J-1 entry basic pay of ₹77,840 with project constant 58% Dearness Allowance (effective 1 Jul 2025), judicial House Rent Allowance (16% to 24% depending on posting station or government bungalow), sumptuary allowance, and robe allowance. In-hand estimate factors in GPF/NPS contributions and statutory deductions.",
+    "official_perks": [
+      "Official designated residential accommodation (bungalow / government quarter) or Judicial HRA",
+      "Official staff car with driver or dedicated conveyance allowance for judicial duties",
+      "Sumptuary Allowance and Robe Allowance as prescribed under SNJPC",
+      "Comprehensive medical facility and reimbursement for officer and family",
+      "Subsidized electricity and domestic water supply allowances",
+      "Reimbursement for landline telephone, mobile, and broadband connectivity",
+      "Residential peon / home orderly allowance as per judicial service rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark figures for WBJS 2023 (Advt. No. 19/2023) and WBJS 2022 (Advt. No. 19/2022) are extracted directly from official WBPSC notifications. In the 2023 cycle, 479 candidates qualified in the Preliminary examination for the Final written examination (Document No. 260 P.S.C./Con., dated 12.02.2026), which was conducted from 08.09.2026 to 19.09.2026. The 2022 cycle notified 29 vacancies (12 clear, 17 anticipated). The 2024 cycle (Advt. No. 9/2024) Preliminary examination was held on 27.09.2026.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 29,
+        "shortlisted_for_mains": 479,
+        "confidence": "verified",
+        "as_of": "2026-02-12",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20260212170511_Results_WBJSRE_Preli_2023.pdf&param2=advertisement",
+        "source_label": "WBPSC — List of 479 Candidates Qualified for West Bengal Judicial Service (Final) Examination 2023 (No. 260 P.S.C./Con. dated 12.02.2026). Category cut-offs (out of 200): General 81.75, OBC-A 57.50, OBC-B 58.75, SC 42.50, ST 40.00, PwBD 40.25, EWS 31.75."
+      },
+      {
+        "year": 2022,
+        "vacancies": 29,
+        "confidence": "verified",
+        "as_of": "2022-12-30",
+        "source_url": "https://psc.wb.gov.in/Download?param1=Cur_20221230104513_ADVT.pdf&param2=advertisement",
+        "source_label": "WBPSC — West Bengal Judicial Service Examination, 2022 Detailed Advertisement (Advt. No. 19/2022): Total 29 vacancies (Clear - 12 & Anticipated - 17)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official downloads have been independently verified live with HTTP 200 status codes on psc.wb.gov.in during the research session.",
+    "links": [
+      {
+        "label": "West Bengal Judicial Service Examination 2024 — Scheme and Syllabus (Advt. No. 9/2024)",
+        "url": "https://psc.wb.gov.in/Download?param1=20250813164846_SS_WBJS_2024.pdf&param2=advertisement",
+        "type": "syllabus",
+        "cycle_label": "WBJS-2024",
+        "confidence": "verified",
+        "as_of": "2025-08-13"
+      },
+      {
+        "label": "West Bengal Judicial Service Examination 2024 — Corrigendum on Criminal Laws Scheme (BNS/BNSS)",
+        "url": "https://psc.wb.gov.in/Download?param1=An_20251014153546_Corrigendum_Jud24.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBJS-2024",
+        "confidence": "verified",
+        "as_of": "2025-10-14"
+      },
+      {
+        "label": "West Bengal Judicial Service Examination 2024 — Preliminary Examination Date & Admit Card Notice",
+        "url": "https://psc.wb.gov.in/Download?param1=An_20260828142524_Important_announcement_Admitcard_WBJS(Preli)_2024.pdf&param2=advertisement",
+        "type": "notification",
+        "cycle_label": "WBJS-2024",
+        "confidence": "verified",
+        "as_of": "2026-08-28"
+      },
+      {
+        "label": "West Bengal Judicial Service Examination 2023 — Preliminary Examination Qualified Candidates for Final Exam",
+        "url": "https://psc.wb.gov.in/Download?param1=20260212170511_Results_WBJSRE_Preli_2023.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBJS-2023",
+        "confidence": "verified",
+        "as_of": "2026-02-12"
+      },
+      {
+        "label": "West Bengal Judicial Service Examination 2023 — Programme of Final Written Examination",
+        "url": "https://psc.wb.gov.in/Download?param1=Ad_20260808111844_NewProgrammeWBJS(Final)Examination2023.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBJS-2023",
+        "confidence": "verified",
+        "as_of": "2026-08-08"
+      },
+      {
+        "label": "West Bengal Judicial Service Examination 2022 — Detailed Advertisement (Advt. No. 19/2022)",
+        "url": "https://psc.wb.gov.in/Download?param1=Cur_20221230104513_ADVT.pdf&param2=advertisement",
+        "type": "notification",
+        "cycle_label": "WBJS-2022",
+        "confidence": "verified",
+        "as_of": "2022-12-30"
+      },
+      {
+        "label": "West Bengal Judicial Service Examination 2025 — Indicative Advertisement (Advt. No. 02/2025)",
+        "url": "https://psc.wb.gov.in/Download?param1=An_20251122123405_Indicative_advt_judicial_2025.pdf&param2=advertisement",
+        "type": "notification",
+        "cycle_label": "WBJS-2025",
+        "confidence": "verified",
+        "as_of": "2025-11-22"
+      },
+      {
+        "label": "WBPSC Official Examination Scheme and Syllabus Hub",
+        "url": "https://psc.wb.gov.in/syllabus.jsp",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "WBPSC Official Website Home",
+        "url": "https://psc.wb.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

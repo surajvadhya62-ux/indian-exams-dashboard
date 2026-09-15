@@ -1,0 +1,275 @@
+{
+  "id": "nabard-grade-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Managers in Grade 'A' in the Rural Development Banking Service (RDBS) spearhead NABARD's field interventions, agricultural credit monitoring, rural infrastructure financing, and institutional development across India's states and union territories. Career progression is governed by merit, seniority, and performance assessments.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Grade A)",
+        "pay_level": "Grade A",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD — Recruitment of Assistant Manager in Grade 'A' (RDBS/Rajbhasha) Notification 2024"
+      },
+      {
+        "designation": "Manager (Grade B)",
+        "pay_level": "Grade B",
+        "years": "approx. 4-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD Staff Regulations & Officers Promotion Policy"
+      },
+      {
+        "designation": "Assistant General Manager (Grade C)",
+        "pay_level": "Grade C",
+        "years": "approx. 9-13 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD Staff Regulations & Officers Promotion Policy"
+      },
+      {
+        "designation": "Deputy General Manager (Grade D / District Development Manager - DDM)",
+        "pay_level": "Grade D",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD Staff Regulations & Officers Promotion Policy"
+      },
+      {
+        "designation": "General Manager (Grade E)",
+        "pay_level": "Grade E",
+        "years": "approx. 19-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD Staff Regulations & Officers Promotion Policy"
+      },
+      {
+        "designation": "Chief General Manager (Grade F) / Officer-in-Charge (OIC)",
+        "pay_level": "Grade F",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD Staff Regulations & Senior Executive Appointments"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "NABARD Grade A selection follows a Three-Phase Process: Phase-I Preliminary Examination (Objective screening), Phase-II Main Examination (Descriptive English + Objective/Descriptive Economic & Social Issues and Agriculture & Rural Development), followed by Phase-III Interview. In Phase-I, tests of Reasoning, English, Computer Knowledge, Quant, and Decision Making are qualifying; merit ranking for Mains shortlisting is based solely on General Awareness, ESI, and ARD.",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Preliminary Examination (Online Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD — Scheme of Phase-I Preliminary Examination",
+        "papers": [
+          {
+            "paper_name": "Test of Reasoning (Qualifying)",
+            "marks": 20,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying sectional cut-off"
+          },
+          {
+            "paper_name": "English Language (Qualifying)",
+            "marks": 30,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying sectional cut-off"
+          },
+          {
+            "paper_name": "Computer Knowledge (Qualifying)",
+            "marks": 20,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying sectional cut-off"
+          },
+          {
+            "paper_name": "Quantitative Aptitude (Qualifying)",
+            "marks": 20,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying sectional cut-off"
+          },
+          {
+            "paper_name": "Decision Making (Qualifying)",
+            "marks": 10,
+            "duration_minutes": 10,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying sectional cut-off"
+          },
+          {
+            "paper_name": "General Awareness (Merit Section)",
+            "marks": 20,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Economic & Social Issues — with focus on Rural India (Merit Section)",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Agriculture & Rural Development — with emphasis on Rural India (Merit Section)",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II: Main Examination (Online Objective & Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD — Scheme of Phase-II Main Examination",
+        "papers": [
+          {
+            "paper_name": "Paper-I: General English (Descriptive — Essay, Précis, Business Report Drafting)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-II: Economic & Social Issues and Agriculture & Rural Development (Objective 30 Qs / 50 marks + Descriptive 3 Qs / 50 marks)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-25% on objective questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD — Interview Scheme & Final Merit Determination",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Phase-II 200 marks + Interview 50 marks = 250 marks aggregate merit)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Grade A (Officer)",
+    "entry_basic_pay": 44500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-27",
+    "pay_source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+    "pay_source_label": "NABARD Officers' Pay Regulations (Scale: ₹44,500 - 2500(4) - 54,500 - 2850(7) - 74,450 - EB - 2850(4) - 85,850 - 3300(1) - 89,150)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 92000, "max": 115000 },
+    "in_hand_range_estimate": { "min": 78000, "max": 98000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Selected candidates draw a starting basic pay of ₹44,500/month in the scale of Assistant Manager Grade 'A'. Initial monthly gross emoluments stand at approximately ₹1,00,000/month (without bank residential accommodation). Compensation elements include Dearness Allowance, Local Compensatory Allowance, Grade Allowance, Special Allowance, and Family Allowance.",
+    "official_perks": [
+      "Bank leased residential quarters or House Rent Allowance across State capital postings",
+      "Official vehicle maintenance allowance / petrol reimbursement per NABARD rules",
+      "Comprehensive medical facilities including annual health check-up and family hospitalization cover",
+      "Leave Travel Concession (LTC) / Home Town travel once in two years with leave encashment",
+      "Children education allowance, book grant, newspaper reimbursement, and brief-case grant",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "NABARD Grade A RDBS is the premier specialized rural banking competitive examination in India, recruiting officers across General, Agriculture, Finance, Information Technology, Forestry, and Engineering streams.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 112000,
+        "vacancies": 102,
+        "shortlisted_for_mains": 2550,
+        "selectivity_ratio": "approx. 1 in 1098 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD — Advt No. 02/Grade A/2024-25, Recruitment of Assistant Manager in Grade 'A'"
+      },
+      {
+        "year": 2023,
+        "applicants": 138000,
+        "vacancies": 150,
+        "shortlisted_for_mains": 3750,
+        "selectivity_ratio": "approx. 1 in 920 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-09-02",
+        "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "source_label": "NABARD — Advt No. 03/Grade A/2023-24, Recruitment of Assistant Manager in Grade 'A'"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, vacancy addenda, syllabus outlines, and shortlist announcements are hosted on NABARD's central career portal.",
+    "links": [
+      {
+        "label": "NABARD Career Notices Portal",
+        "url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "NABARD Grade A (RDBS) Notification 2024",
+        "url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "type": "notification",
+        "cycle_label": "Grade-A-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "NABARD Grade A Detailed Scheme & Syllabus Document",
+        "url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

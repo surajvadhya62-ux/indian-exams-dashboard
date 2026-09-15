@@ -1,0 +1,193 @@
+{
+  "id": "sikkim-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Sikkim Teacher Eligibility Test (STET) is conducted annually by the Examination Section, Education Department, Government of Sikkim, Tashiling Secretariat, Gangtok, in coordination with the State Council of Educational Research and Training (SCERT), Sikkim, under Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009 and National Council for Teacher Education (NCTE) statutory norms. In alignment with NEP 2020 recommendations, the curriculum was revamped in academic collaboration with Azim Premji University, contextualizing the assessment to state pedagogical needs. The examination comprises two distinct pen-and-paper OMR objective tests conducted on the same day: Paper I (for Primary Teachers of Classes I to V) and Paper II (for Graduate / Elementary Teachers of Classes VI to VIII). Each paper features 150 Multiple Choice Questions (MCQs) carrying 1 mark each with no negative marking across a 150-minute (2 hours 30 minutes) duration. Language I is compulsory English (medium of instruction), while Language II is chosen by the candidate from among the five vernacular languages taught in Sikkim schools: Nepali, Bhutia, Lepcha, Limboo, or Hindi. The minimum qualifying threshold is 60% (90/150) for unreserved candidates and 55% (82/150) for SC, ST, Central OBC, and State OBC candidates. In accordance with amended NCTE guidelines adopted by the Government of Sikkim, the STET Certificate carries lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Paper I — Primary Stage (Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf",
+        "source_label": "Education Department Sikkim Official STET Notification (Section: Pattern of Examination - Paper I)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on educational psychology of teaching and learning for age group 6–11 years)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I — English (Focus on proficiencies and comprehension related to the medium of instruction)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II — Regional Vernacular (Candidate chooses one from Nepali, Bhutia, Lepcha, Limboo, or Hindi taught in Sikkim schools Classes I–V)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Concepts, problem-solving abilities, and pedagogical understanding)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies — EVS (Concepts, environmental science, and pedagogical processes)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper II — Elementary Stage (Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf",
+        "source_label": "Education Department Sikkim Official STET Notification (Section: Pattern of Examination - Paper II)",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Focus on educational psychology of teaching and learning for age group 11–14 years)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I — English (Focus on proficiencies and comprehension related to the medium of instruction)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II — Regional Vernacular (Candidate chooses one from Nepali, Bhutia, Lepcha, Limboo, or Hindi taught in Classes VI–VIII in Sikkim schools)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Subject Specialization: Mathematics and Science (60 MCQs: 30 Math + 30 Science) OR Social Studies / Social Science (60 MCQs evenly distributed across History, Geography, and Civics)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; +1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official qualification statistics, registered candidate cohorts, and cycle notifications compiled directly from gazettes and official result releases published by the Examination Section, Education Department, Government of Sikkim and Sikkim State Teachers' Recruitment Board (SSTRB). STET is a statutory qualifying eligibility examination under NCTE norms and does not carry recruitment vacancies or mains selection stages.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "STET-2026 for Special Educators notified on 12-01-2026 (Ref. No. 231/Exams/Edn/26) scheduled for 14-02-2026 across Gangtok and Namchi exam centres",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf",
+        "source_label": "Education Department Sikkim Notice No. 231/Exams/Edn/26 dated 12.01.2026"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "STET annual cycle conducted across Primary (PRT) and Graduate Teacher (GTA/GTS) categories with final answer keys and challenge window released via Education Department notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150245.pdf",
+        "source_label": "Education Department Sikkim STET Examination & Answer Key Gazette Notification"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": null,
+        "shortlisted_for_mains": 823,
+        "selectivity_ratio": "823 total candidates qualified across three categories: 428 Primary Teachers (PRT - roll series 1003–2024), 254 Graduate Teachers Arts (GTA - roll series 3628–4260), and 141 Graduate Teachers Science (GTS - roll series 6001–6167)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150250.pdf",
+        "source_label": "Education Department Sikkim STET-2024 Result of Qualified Candidates Notification dated 24-10-2024"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory information bulletins, examination notices, official answer keys, and result gazettes verified live on the official Government of Sikkim Education Department portal (education.sikkim.gov.in).",
+    "links": [
+      {
+        "label": "State Teacher Eligibility Test Official Examination Notice (Ref No. 231/Exams/Edn/26 PDF)",
+        "url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150270.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "STET Official Qualified Candidates Result Gazette (PRT, GTA, GTS Roll Numbers PDF)",
+        "url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150250.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "STET Official Answer Key and Question Challenge Form (PRT, GTA, GTS PDF)",
+        "url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150245.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Sikkim State Teachers' Recruitment Board (SSTRB) STET Certificate Submission Notice (Memo No. 708/SSTRB/ADM PDF)",
+        "url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/NoticeBoard/150238.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Sikkim Primary Teachers, Graduate Teachers and Post Graduate Teachers Statutory Recruitment Rules 1991 (Gazette No. 34 PDF)",
+        "url": "https://education.sikkim.gov.in/GeneralSection/UploadedFiles/Gazette/34.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Sikkim Education Department Official Notice Board & STET Archive Portal",
+        "url": "https://education.sikkim.gov.in/GeneralSection/NoticeBoardList.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

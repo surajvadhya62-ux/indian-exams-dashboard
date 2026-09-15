@@ -1,0 +1,246 @@
+{
+  "id": "upprpb-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Supervisory frontline law-enforcement cadre under the Uttar Pradesh Police (Home Department, Government of Uttar Pradesh). Sub-Inspectors are vested with statutory investigation and magisterial arrest powers under the Bharatiya Nagarik Suraksha Sanhita (BNSS) / CrPC. Promotion follows seniority, annual performance appraisals, and departmental promotion boards.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI Civil Police / Platoon Commander PAC / Fire Service Second Officer)",
+        "pay_level": "Level 6",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Sub-Inspector and Inspector (Civil Police) Service Rules 2015"
+      },
+      {
+        "designation": "Inspector of Police (Nirikshak / Station House Officer - SHO / Crime Inspector)",
+        "pay_level": "Level 7",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Inspector Service Rules"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP / Circle Officer / Assistant Commissioner of Police - ACP)",
+        "pay_level": "Level 10",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Provincial Police Service (PPS) Cadre Rules"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl SP / Addl DCP)",
+        "pay_level": "Level 11",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP PPS Senior Scale Promotion Rules"
+      },
+      {
+        "designation": "Superintendent of Police (SP / DCP / State Police Service Induction into IPS)",
+        "pay_level": "Level 12",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises an Online Written Examination (CBT) of 400 marks across four subjects with section-wise (35%) and aggregate (50%) qualifying minimums, followed by Document Verification & Physical Standard Test (DV/PST) and Physical Efficiency Test (PET).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Online Written Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/14-07-2026%20UPSI2025%20VIGYPTI944a5675-a3d4-4ac6-a52f-f476f72e81c1.pdf",
+        "source_label": "UPPRPB Sub-Inspector Examination Scheme & Service Rules 2015",
+        "papers": [
+          {
+            "paper_name": "General Hindi (Samanya Hindi)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% qualifying marks required in this subject"
+          },
+          {
+            "paper_name": "Law / Constitution & General Knowledge (Mool Vidhi, Samvidhan Evam Samanya Gyan)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% qualifying marks required in this subject"
+          },
+          {
+            "paper_name": "Numerical and Mental Ability Test (Sankhyatmak Evam Mansik Yogyata)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% qualifying marks required in this subject"
+          },
+          {
+            "paper_name": "Mental Aptitude, IQ and Reasoning Ability (Mansik Abhiruchi, Buddhilabdhi Evam Tarkik Pariksha)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% qualifying marks required; overall 50% aggregate minimum"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Physical Standard Test (DV/PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/14-07-2026%20UPSI2025%20VIGYPTI944a5675-a3d4-4ac6-a52f-f476f72e81c1.pdf",
+        "source_label": "UPPRPB SI DV/PST Rules",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Testimonials & Physical Measurement (Height: Male 168 cm, Female 152 cm; Chest: Male 79-84 cm)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard prescribed in statutory rules"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET / Running)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/14-07-2026%20UPSI2025%20VIGYPTI944a5675-a3d4-4ac6-a52f-f476f72e81c1.pdf",
+        "source_label": "UPPRPB SI PET Guidelines",
+        "papers": [
+          {
+            "paper_name": "Endurance Race (Male: 4.8 km in 28 mins; Female: 2.4 km in 16 mins)",
+            "marks": null,
+            "duration_minutes": 28,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Completion of endurance race within prescribed time"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors in Uttar Pradesh Police are placed in Pay Level 6 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹4,200) under the Uttar Pradesh Revised Pay Rules, 2016. Personnel receive investigation allowance, mobile allowance, kit maintenance, and ration subsidy.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://uppbpb.gov.in/Home/Manual",
+    "pay_source_label": "UP Revised Pay Rules 2016 Level 6 & UP Police SI Pay Structure",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 58000,
+      "max": 66000
+    },
+    "in_hand_range_estimate": {
+      "min": 52000,
+      "max": 59000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 with 58% DA (₹20,532), HRA (₹3,000 to ₹6,000 depending on Class X/Y/Z posting), investigation allowance, kit maintenance allowance, diet subsidy, net of 10% NPS deduction (₹5,593) and GIS.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP Government finance orders",
+      "House Rent Allowance (HRA) categorized by district classification (Class X/Y/Z)",
+      "Investigation and Mobile Conveyance Allowance",
+      "Diet Allowance / Ration Subsidy for executive officers",
+      "Annual Uniform and Kit Maintenance Allowance",
+      "National Pension System (NPS) with 14% matching employer contribution",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Compiled from official UPPRPB notification documents, selection results, and cut-off orders for Sub-Inspector recruitment cycles.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 1575760,
+        "vacancies": 4543,
+        "shortlisted_for_mains": 12333,
+        "selectivity_ratio": "1 in 347",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/14-07-2026%20UPSI2025%20VIGYPTI944a5675-a3d4-4ac6-a52f-f476f72e81c1.pdf",
+        "source_label": "UPPRPB SI Final Selection & Cutoff Notice No. 03/2025 dated 14-07-2026"
+      },
+      {
+        "year": 2020,
+        "applicants": 1227240,
+        "vacancies": 9534,
+        "shortlisted_for_mains": 36170,
+        "selectivity_ratio": "1 in 129",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB SI Advt. PRPB-2(Direct-2020-21) Final Selection List"
+      },
+      {
+        "year": 2016,
+        "applicants": 630926,
+        "vacancies": 3307,
+        "shortlisted_for_mains": 10450,
+        "selectivity_ratio": "1 in 191",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Sub-Inspector Direct Recruitment 2016 Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, final selection lists, and examination schemes published by UPPRPB.",
+    "links": [
+      {
+        "label": "UP Police Sub-Inspector Final Selection Result & Cut-off Order",
+        "url": "https://uppbpb.gov.in/FilesUploaded/Notice/14-07-2026%20UPSI2025%20VIGYPTI944a5675-a3d4-4ac6-a52f-f476f72e81c1.pdf",
+        "type": "notification",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UP Police SI Normalised Scores & Merit Notice",
+        "url": "https://uppbpb.gov.in/FilesUploaded/Notice/25SI_normalised_marks_noticec123b905-7353-4ab1-a961-58cdb7c22013.pdf",
+        "type": "other",
+        "cycle_label": "2025-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UP Police Recruitment Rules & Service Regulations",
+        "url": "https://uppbpb.gov.in/Home/Manual",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

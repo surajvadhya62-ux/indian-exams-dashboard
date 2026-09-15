@@ -1,0 +1,199 @@
+{
+  "id": "meghalaya-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted by the Directorate of Educational Research and Training (DERT), Meghalaya in accordance with the National Council for Teacher Education (NCTE) guidelines under Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009. The examination consists of two separate objective test papers: Paper-I for candidates intending to teach Classes I to V (Lower Primary Stage) and Paper-II for candidates intending to teach Classes VI to VIII (Upper Primary Stage). Each paper comprises 150 multiple-choice questions (150 marks) of 150 minutes (2 hours 30 minutes) duration with no negative marking. The minimum qualifying benchmark is 60% aggregate (90 out of 150 marks) for General category candidates, with a 5% relaxation to 55% (82 out of 150 marks) for SC, ST, OBC, and Differently Abled candidates. Candidates qualifying MTET are awarded a Teacher Eligibility Certificate with lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Paper-I (Lower Primary Stage — Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-20",
+        "source_url": "https://megeducation.gov.in/edu_dept/notices_and_circulars/2026/MTET%20Guidebook_%20Paper%20_%20I.pdf",
+        "source_label": "DERT Meghalaya MTET Official Guidebook — Paper I & NCTE Guidelines",
+        "papers": [
+          {
+            "paper_name": "Part-I: Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-II: Language II (English — Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-III: Mathematics",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-IV: Environmental Studies (EVS)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-V: Language I (Optional: Khasi / Garo / Assamese / Bengali / Hindi / Nepali / Urdu / Mizo)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper-II (Upper Primary Stage — Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-04-20",
+        "source_url": "https://megeducation.gov.in/edu_dept/notices_and_circulars/2026/MTET_Guidebook_%20Paper%20_%20II.pdf",
+        "source_label": "DERT Meghalaya MTET Official Guidebook — Paper II & NCTE Guidelines",
+        "papers": [
+          {
+            "paper_name": "Part-I: Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-II: Language II (English — Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-III & IV: Mathematics & Science (for Math & Science Teachers) OR Social Science / Social Studies (for Social Studies Teachers)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          },
+          {
+            "paper_name": "Part-V: Language I (Optional: Khasi / Garo / Assamese / Bengali / Hindi / Nepali / Urdu / Mizo)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking; 1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for SC/ST/OBC/Differently Abled candidates across the entire paper"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official candidate appearance, qualification count, and percentage datasets published by the Directorate of Educational Research & Training (DERT), Meghalaya on 03 September 2026 across 24 district examination centres. In accordance with NCTE guidelines, MTET is an eligibility benchmark examination rather than a competitive vacancy-filling test; hence vacancies are not applicable.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 43883,
+        "vacancies": null,
+        "shortlisted_for_mains": 37218,
+        "selectivity_ratio": "approx. 1 in 1.18 (84.81% aggregate pass rate: 37,218 qualified out of 43,883 candidate appearances across Paper-I and Paper-II)",
+        "confidence": "verified",
+        "as_of": "2026-09-03",
+        "source_url": "https://megeducation.gov.in/dert/notices_and_circulars/2026/MTET%202026%20Results%20for%20Paper%20I.pdf",
+        "source_label": "DERT Meghalaya MTET 2026 Official Result Summary: Paper I (21,999 appeared, 18,546 passed, 84.30%); Paper II (21,884 appeared, 18,672 passed, 85.32%) across 24 centres."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary curriculum guidebooks, result declarations, official answer keys, and portal links from the Directorate of Educational Research and Training (DERT), Department of Education, Government of Meghalaya.",
+    "links": [
+      {
+        "label": "Guidebook for Meghalaya Teacher Eligibility Test 2026 — Paper I (Classes I to V)",
+        "url": "https://megeducation.gov.in/edu_dept/notices_and_circulars/2026/MTET%20Guidebook_%20Paper%20_%20I.pdf",
+        "type": "syllabus",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-04-20"
+      },
+      {
+        "label": "Guidebook for Meghalaya Teacher Eligibility Test 2026 — Paper II (Classes VI to VIII)",
+        "url": "https://megeducation.gov.in/edu_dept/notices_and_circulars/2026/MTET_Guidebook_%20Paper%20_%20II.pdf",
+        "type": "syllabus",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-04-20"
+      },
+      {
+        "label": "Declaration of MTET Results 2026 Official Notification (Memo No. DERT/MTET/18/2026/22)",
+        "url": "https://megeducation.gov.in/dert/notices_and_circulars/2026/Declaration%20of%20MTET%202026%20Results.pdf",
+        "type": "notification",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-03"
+      },
+      {
+        "label": "MTET 2026 Results Summary & Qualified Candidate List — Paper I (Classes I to V)",
+        "url": "https://megeducation.gov.in/dert/notices_and_circulars/2026/MTET%202026%20Results%20for%20Paper%20I.pdf",
+        "type": "notification",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-03"
+      },
+      {
+        "label": "MTET 2026 Results Summary & Qualified Candidate List — Paper II (Classes VI to VIII)",
+        "url": "https://megeducation.gov.in/dert/notices_and_circulars/2026/MTET%202026%20Results%20for%20Paper%20II.pdf",
+        "type": "notification",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-03"
+      },
+      {
+        "label": "MTET 2026 Official Answer Key — Paper I (Series A, B, C, D)",
+        "url": "https://megeducation.gov.in/dert/notices_and_circulars/2026/MTET%202026-Answer%20Key_Paper%20I_Series-A.pdf",
+        "type": "pyq",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-30"
+      },
+      {
+        "label": "MTET 2026 Official Answer Key — Paper II (Series A, B, C, D)",
+        "url": "https://megeducation.gov.in/dert/notices_and_circulars/2026/MTET%202026-ANSWER%20KEY_Paper-II_Series-A.pdf",
+        "type": "pyq",
+        "cycle_label": "MTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-30"
+      },
+      {
+        "label": "Directorate of Educational Research and Training (DERT) Notice Board Portal",
+        "url": "https://megeducation.gov.in/dert/pages/dert_notice_board.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Department of Education, Government of Meghalaya Official Website",
+        "url": "https://megeducation.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

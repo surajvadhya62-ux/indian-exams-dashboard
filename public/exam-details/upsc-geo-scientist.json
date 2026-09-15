@@ -1,0 +1,227 @@
+{
+  "id": "upsc-geo-scientist",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Combined Geo-Scientist cadres operate under the Geological Survey of India (GSI, Ministry of Mines) and Central Ground Water Board (CGWB, Ministry of Jal Shakti). Positions are recruited at both Group 'A' (Geologist/Chemist/Scientist B) and Group 'B' (Assistant Geologist/Chemist/Geophysicist) levels, following Central Scientific Services promotional cadres.",
+    "steps": [
+      {
+        "designation": "Assistant Geologist / Assistant Geophysicist / Assistant Chemist (Group 'B')",
+        "pay_level": "Level 8",
+        "years": "Entry level (Group B Gazetted)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Geologist / Geophysicist / Chemist / Scientist 'B' (Group 'A')",
+        "pay_level": "Level 10",
+        "years": "Entry level (Group A) / 3 yrs promotion from Group B",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Senior Geologist / Senior Geophysicist / Scientist 'C'",
+        "pay_level": "Level 11",
+        "years": "approx. 4-5 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Superintending Geologist / Director / Scientist 'D'",
+        "pay_level": "Level 12",
+        "years": "approx. 9-12 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Director General (DDG) / Member (CGWB)",
+        "pay_level": "Level 14",
+        "years": "approx. 18-24 yrs (Senior Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Director General (DG), Geological Survey of India / Chairman (CGWB)",
+        "pay_level": "Level 16 / 17",
+        "years": "Apex Scale / Head of Department",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPSC conducts the Combined Geo-Scientist Examination in three stages: Stage I Preliminary Examination (Computer Based, Objective, two papers, 400 marks), Stage II Main Examination (Conventional, three discipline papers, 200 marks each = 600 marks), and Stage III Personality Test / Interview (200 marks). Marks obtained in all three stages are counted for final merit evaluation (Total = 1200 marks). In Stage I objective questions, one-third (0.33) marks penalty applies for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Examination (Computer Based Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-02",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+        "source_label": "UPSC — Examination Notice No. 01/2027-GEOL, Appendix-I (Plan of Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies (Common to all streams)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Stream Specific (Geology / Hydrogeology, Geophysics, or Chemistry)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Main Examination (Conventional / Descriptive Type)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-02",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+        "source_label": "UPSC — Examination Notice No. 01/2027-GEOL, Appendix-I Section II (Main Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: Discipline Specific Subject (Conventional Paper I)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Discipline Specific Subject (Conventional Paper II)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: Discipline Specific Subject (Conventional Paper III)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-02",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+        "source_label": "UPSC — Examination Notice No. 01/2027-GEOL, Appendix-I (Personality Test)",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 200,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 115000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 98000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 10 entry basic pay (₹56,100) for Group 'A' posts with 58% DA; Group 'B' entrants start at Level 8 (₹47,600 basic). Field duty postings in mineral exploration and hydrogeological surveying carry additional Daily Allowances and camp kit allowances.",
+    "official_perks": [
+      "Government accommodation / House Rent Allowance (27%/18%/9% by city category)",
+      "Official transport or monthly transport allowance with applicable DA",
+      "Field exploration allowances, tentage/camp allowance during geological expeditions",
+      "Medical coverage under Central Government Health Scheme (CGHS)",
+      "Annual Leave Travel Concession (LTC) and defined NPS retirement benefits"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for 2027 cycle were read directly from UPSC Examination Notice No. 01/2027-GEOL (dated 02.09.2026: 126 total vacancies across Category I GSI: 111 and Category II CGWB: 15). The 2025 recruitment notified approximately 85 vacancies across Geological Survey of India and Central Ground Water Board.",
+    "years": [
+      {
+        "year": 2027,
+        "vacancies": 126,
+        "confidence": "verified",
+        "as_of": "2026-09-02",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+        "source_label": "UPSC — Examination Notice No. 01/2027-GEOL: 126 total vacancies across Category I GSI (Geologist: 29, Chemist: 7, Asst Geologist: 34, Asst Geophysicist: 35, Asst Chemist: 6) and Category II CGWB (Scientist B: 7, Asst Hydrogeologist: 7, Asst Chemist: 1) — read directly, figures quoted verbatim."
+      },
+      {
+        "year": 2025,
+        "vacancies": 85,
+        "confidence": "reported",
+        "as_of": "2024-09-04",
+        "source_label": "UPSC — Examination Notice for Combined Geo-Scientist Examination 2025: 85 vacancies reported across scientific streams."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official UPSC downloads for Combined Geo-Scientist Examination. Direct notification PDF verified live; evergreen scheme and previous question paper archives hosted on upsc.gov.in.",
+    "links": [
+      {
+        "label": "Combined Geo-Scientist (Preliminary) Examination, 2027 — Official Notification",
+        "url": "https://www.upsc.gov.in/sites/default/files/Notif-CGSPE-2027-Engl-020926.pdf",
+        "type": "notification",
+        "cycle_label": "CGS-2027",
+        "confidence": "verified",
+        "as_of": "2026-09-02"
+      },
+      {
+        "label": "Previous Year Question Papers — Combined Geo-Scientist",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Combined+Geo-Scientist",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Revised Syllabus and Scheme (evergreen reference)",
+        "url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

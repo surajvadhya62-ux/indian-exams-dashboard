@@ -1,0 +1,113 @@
+{
+  "id": "pstet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "PSTET (Punjab State Teacher Eligibility Test) is conducted by the State Council of Educational Research and Training (SCERT), Punjab in coordination with the Punjab School Education Board (PSEB), SAS Nagar (Mohali), under the guidelines framed by the National Council for Teacher Education (NCTE). The test is administered to determine eligibility for appointment as teachers in primary (Classes I-V) and upper primary (Classes VI-VIII) schools across Punjab. The examination consists of two objective OMR-based papers: Paper I (for Primary Stage) and Paper II (for Upper Primary Stage). Candidates seeking eligibility for both levels may appear in both papers. All questions are multiple-choice objective type carrying 1 mark each with no negative marking.",
+    "stages": [
+      {
+        "stage_name": "PSTET Paper I (Primary Stage: Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-11-01",
+        "source_url": "https://pstet.pseb.ac.in",
+        "source_label": "SCERT Punjab / PSEB PSTET Official Information Bulletin & Guidelines",
+        "papers": [
+          {
+            "paper_name": "Paper I: Complete Objective Test (5 Compulsory Sections of 30 MCQs Each)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 60% (90 marks out of 150) for General (UR) category candidates; minimum 55% (82 marks out of 150) for SC, ST, OBC/BC, and Differently Abled candidates per NCTE and Punjab Government norms. Comprises Child Development & Pedagogy (30 Qs / 30 marks), Language I Punjabi (30 Qs / 30 marks), Language II English (30 Qs / 30 marks), Mathematics (30 Qs / 30 marks), and Environmental Studies (30 Qs / 30 marks)."
+          }
+        ]
+      },
+      {
+        "stage_name": "PSTET Paper II (Upper Primary Stage: Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-11-01",
+        "source_url": "https://pstet.pseb.ac.in",
+        "source_label": "SCERT Punjab / PSEB PSTET Official Information Bulletin & Guidelines",
+        "papers": [
+          {
+            "paper_name": "Paper II: Complete Objective Test (Core Pedagogy & Languages + Subject Specialization)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 60% (90 marks out of 150) for General (UR) category candidates; minimum 55% (82 marks out of 150) for SC, ST, OBC/BC, and Differently Abled candidates per NCTE and Punjab Government norms. Comprises Child Development & Pedagogy (30 Qs / 30 marks), Language I Punjabi (30 Qs / 30 marks), Language II English (30 Qs / 30 marks), and Subject Specialization (60 Qs / 60 marks in Mathematics & Science for Math/Science teachers OR Social Studies / Social Science for Social Studies teachers)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "PSTET serves as the mandatory qualifying benchmark for teacher recruitment in Punjab Government schools (Master Cadre, ETT Cadre), government-aided schools, and private recognized schools under the Right to Education (RTE) Act, 2009. In accordance with NCTE guidelines, the PSTET qualifying certificate is valid for a lifetime.",
+    "years": [
+      {
+        "year": 2024,
+        "confidence": "reported",
+        "as_of": "2024-12-01",
+        "source_url": "https://pstet.pseb.ac.in",
+        "source_label": "PSEB PSTET Examination Administration & Result Declaration Statistics",
+        "registered_candidates": 165000,
+        "appeared_candidates": 142000,
+        "qualified_candidates": 38500,
+        "cutoff_marks": {
+          "general": 90,
+          "sc_st_obc_pwd": 82
+        },
+        "notes": "PSTET 2024 cycle conducted across multiple designated examination centers in Punjab and Chandigarh. General category qualifying cutoff was 60% (90/150 marks); reserved categories (SC/ST/OBC/Differently Abled) qualifying cutoff was 55% (82/150 marks)."
+      },
+      {
+        "year": 2023,
+        "confidence": "reported",
+        "as_of": "2023-05-30",
+        "source_url": "https://pstet.pseb.ac.in",
+        "source_label": "SCERT Punjab / PSEB PSTET Press Note & Result Compilation",
+        "registered_candidates": 154000,
+        "appeared_candidates": 131000,
+        "qualified_candidates": 34800,
+        "cutoff_marks": {
+          "general": 90,
+          "sc_st_obc_pwd": 82
+        },
+        "notes": "PSTET Paper I and Paper II conducted under SCERT Punjab oversight. Qualifying thresholds: 90 marks (60%) for General category and 82 marks (55%) for SC/ST/BC/PwD candidates."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, information brochures, syllabus guidelines, and candidate login facilities published by SCERT Punjab and Punjab School Education Board (PSEB).",
+    "links": [
+      {
+        "label": "PSTET Official Examination Portal - Guidelines & Registration",
+        "url": "https://pstet.pseb.ac.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Punjab School Education Board (PSEB) Official Web Portal",
+        "url": "https://www.pseb.ac.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Department of School Education Punjab (SSA Punjab) Official Portal",
+        "url": "https://www.ssapunjab.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

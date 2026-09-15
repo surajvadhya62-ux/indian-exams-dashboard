@@ -1,0 +1,231 @@
+{
+  "id": "maha-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression in Maharashtra Police from direct-entry Police Constable (Shipai) through non-gazetted and subordinate officer ranks. Governed by the Maharashtra Police Act, 1951, Bombay Police Manual, and Home Department Government Resolution No. बैठक-०४२१/प्र.क्र.५५/पोल-५ए dated 09 September 2021 (which abolished the intermediate rank of Police Naik, enabling direct promotion from Police Constable to Head Constable after 8 years of service).",
+    "steps": [
+      {
+        "designation": "Police Constable (पोलीस शिपाई - PC)",
+        "pay_level": "Level S-6",
+        "years": "Entry (Probation & Basic Training: 9 months at Police Training Schools such as PTS Khandala, Marol Mumbai, Solapur, Akola, Turori)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019 (Pay Level S-6: ₹21,700 - ₹69,100) & Maharashtra Police Constable Recruitment Rules 2011"
+      },
+      {
+        "designation": "Police Head Constable (पोलीस हवालदार - HC)",
+        "pay_level": "Level S-10",
+        "years": "approx. 8–10 yrs (Direct promotion after 8 years of qualifying service under restructured cadre rules eliminating Police Naik post)",
+        "confidence": "verified",
+        "as_of": "2021-09-09",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Home Department Resolution No. बैठक-०४२१/प्र.क्र.५५/पोल-५ए & Pay Level S-10 (₹29,200 - ₹92,300)"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (सहायक पोलीस उपनिरीक्षक - ASI)",
+        "pay_level": "Level S-13",
+        "years": "approx. 16–22 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Police Subordinate Ranks Cadre Rules & Pay Level S-13 (₹35,400 - ₹1,12,400)"
+      },
+      {
+        "designation": "Police Sub-Inspector (पोलीस उपनिरीक्षक - PSI)",
+        "pay_level": "Level S-14",
+        "years": "approx. 24–28 yrs (Seniority-cum-merit promotion or Limited Departmental Competitive Examination - LDCE conducted by MPSC)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Pay Level S-14 (₹38,600 - ₹1,22,800)"
+      },
+      {
+        "designation": "Assistant Police Inspector (सहायक पोलीस निरीक्षक - API)",
+        "pay_level": "Level S-15",
+        "years": "approx. 30+ yrs (Terminal executive promotion rank for direct-entry constable cadre)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Pay Level S-15 (₹41,800 - ₹1,32,300)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment is conducted under the Maharashtra Police Constable (Recruitment) Rules, 2011 (amended 2021/2022). Selection is a two-stage process: Stage 1 is the Physical Standard Test (PST) & Physical Efficiency Test (PET - 50 marks for General and Driver constables; 100 marks for SRPF Armed Police Constables). Candidates scoring minimum 50% marks (25 out of 50) are shortlisted in a 1:10 ratio based on merit for Stage 2: Written Examination (100 marks, 90 minutes, conducted statewide on a single day). Driver candidates must additionally pass a 50-mark qualifying driving skill test (minimum 40% required). Final merit is compiled from Physical Test + Written Examination marks (Total 150 marks for General Constable; 200 marks for SRPF). Pursuant to Home Department Order dated 20.10.2022, NCC 'C' certificate holders are awarded 5% bonus marks (5 marks).",
+    "stages": [
+      {
+        "stage_name": "Stage 1 — Physical Standard Test (PST) & Physical Efficiency Test (PET)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-10-29",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Police Constable Candidate Instructions 2024-2025 (Section 5.7, 6.8 & 8.8)",
+        "papers": [
+          {
+            "paper_name": "Male Candidates Physical Efficiency Events (1600m Run: 20 marks, 100m Run: 15 marks, Shot Put 7.26 kg: 15 marks)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% (25 marks out of 50 required to qualify for 1:10 shortlisting for Written Exam)"
+          },
+          {
+            "paper_name": "Female Candidates Physical Efficiency Events (800m Run: 20 marks, 100m Run: 15 marks, Shot Put 4 kg: 15 marks)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% (25 marks out of 50 required to qualify for 1:10 shortlisting for Written Exam)"
+          },
+          {
+            "paper_name": "SRPF Armed Police Constable Male Physical Events (5 km Run: 50 marks, 100m Run: 25 marks, Shot Put 7.26 kg: 25 marks)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% (50 marks out of 100 required to qualify for 1:10 shortlisting for Written Exam)"
+          },
+          {
+            "paper_name": "Police Constable Driver Skill Test (Light Motor Vehicle: 25 marks + Jeep Vehicle: 25 marks — Driver Cadre Only)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% combined (20 marks out of 50 required to pass; marks not added to final merit)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2 — Written Examination (लेखी चाचणी)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-10-29",
+        "source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "source_label": "Maharashtra Police Constable Candidate Instructions 2024-2025 (Section 5.8, 6.9 & 8.9)",
+        "papers": [
+          {
+            "paper_name": "Objective Written Test (Arithmetic / अंकगणित, General Knowledge & Current Affairs / सामान्य ज्ञान व चालू घडामोडी, Intellectual Ability Test / बुद्धिमत्ता चाचणी, Marathi Grammar / मराठी व्याकरण; plus Motor Vehicle & Traffic Rules for Driver cadre)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (minimum 40 marks out of 100 mandatory to be eligible for final merit selection)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Placed in Pay Level S-6 under the Maharashtra Civil Services (Revised Pay) Rules, 2019 (implementing Maharashtra 7th Pay Commission vide Government Resolution No. RPS-2019/CR-1/Services-9 dated 01-01-2019). Entry basic pay is ₹21,700 in the pay band ₹21,700 – ₹69,100.",
+    "pay_level": "Level S-6",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-01-01",
+    "pay_source_url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Pay Matrix Level S-6 (₹21,700 - ₹69,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 46000
+    },
+    "in_hand_range_estimate": {
+      "min": 34000,
+      "max": 41500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹21,700 in Pay Level S-6 (₹21,700 - ₹69,100). Gross range computed with 58% DA (₹12,586) and HRA ranging from 9% in Z-class rural/district postings (₹1,953) to 27% in X-class cities like Mumbai and Pune (₹5,859), plus special police allowance, conveyance/transport allowance, uniform kit and monthly washing allowances. In-hand estimate factors in standard 10% NPS deduction (₹3,429), state insurance/GIS (₹200), and Maharashtra professional tax (₹200). In addition, Maharashtra Police personnel receive one extra month's basic pay (13th month salary compensation) annually in lieu of working on gazetted public holidays.",
+    "official_perks": [
+      "Government police quarters or House Rent Allowance (HRA up to 27% in X-class cities like Mumbai and Pune)",
+      "Annual 13th month salary compensation (equivalent to 30/45 days extra basic pay per year for working on weekly offs and public holidays)",
+      "Police uniform allowance, kit maintenance allowance, and monthly washing allowance (धुलाई भत्ता)",
+      "Special Police Duty Allowance and Conveyance / Transport Allowance",
+      "Comprehensive medical coverage under Maharashtra State Government Employees Health Scheme and Police Welfare Fund",
+      "Subsidized groceries and provisions through Maharashtra Police Canteen (पोलीस कॅन्टीन) network",
+      "Naxal/Disturbed Area Special Allowance (special compensatory hardship allowance for postings in Gadchiroli and Gondia districts)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Maharashtra Police conducts periodic mass recruitments across police commissionerates, district police units, SRPF battalions, and prison units. The 2024-2025 mega-recruitment advertised 17,471 vacancies, attracting over 17.76 lakh applicants. The previous 2022-2023 mega-drive advertised 18,331 vacancies and received over 18.28 lakh applications. Physical tests are held first with a 1:10 shortlisting ratio for the written exam.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1776256,
+        "vacancies": 17471,
+        "shortlisted_for_mains": 174710,
+        "selectivity_ratio": "approx. 1 in 102 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-06-18",
+        "source_url": "https://policerecruitment2025.mahait.org",
+        "source_label": "Maharashtra Police Headquarters recruitment release & official notification (17,471 total vacancies: 9,595 Police Constable, 1,686 Driver Constable, 4,349 SRPF Armed Constable, 1,800 Jail Constable, 41 Bandsman; 17,76,256 applications received; 1:10 statutorily shortlisted for written examination)"
+      },
+      {
+        "year": 2022,
+        "applicants": 1828000,
+        "vacancies": 18331,
+        "shortlisted_for_mains": 183310,
+        "selectivity_ratio": "approx. 1 in 100 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-12-20",
+        "source_url": "https://policerecruitment2025.mahait.org",
+        "source_label": "Maharashtra Police Mega Recruitment 2022-2023 (18,331 posts across District Police, SRPF, and Driver cadres; 18.28 lakh applications registered; 1:10 qualifying ratio for written exam)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notification PDFs, candidate recruitment guidelines, statutory recruitment rules, and vacancy schedules published by Maharashtra Police and MahaIT on the official recruitment portal.",
+    "links": [
+      {
+        "label": "Maharashtra Police Constable Recruitment 2024-2025 Official Candidate Instructions & Scheme (32 Pages)",
+        "url": "https://policerecruitment2025.mahait.org/PDF/Candidates_Instructions.pdf",
+        "type": "notification",
+        "cycle_label": "2024-2025 Cycle",
+        "confidence": "verified",
+        "as_of": "2025-10-29"
+      },
+      {
+        "label": "Maharashtra Police Constable Recruitment Rules (Service Entry) Notification (16-06-2011 Rules as Amended)",
+        "url": "https://policerecruitment2025.mahait.org/PDF/16-6-2011_PC_RECT_RULE.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2011-06-16"
+      },
+      {
+        "label": "Maharashtra Police Recruitment Portal Application Guidelines & Candidate Instructions (Suchana)",
+        "url": "https://policerecruitment2025.mahait.org/PDF/Suchana.pdf",
+        "type": "other",
+        "cycle_label": "2024-2025 Cycle",
+        "confidence": "verified",
+        "as_of": "2025-10-29"
+      },
+      {
+        "label": "Maharashtra Police Bandsman Constable Unit-wise Vacancy Breakdown Summary",
+        "url": "https://policerecruitment2025.mahait.org/PDF/Bandsman_Vacancy_Summary.pdf",
+        "type": "other",
+        "cycle_label": "2024-2025 Cycle",
+        "confidence": "verified",
+        "as_of": "2024-03-11"
+      },
+      {
+        "label": "Maharashtra Government Resolution on Reservation & Non-Creamy Layer Rules for Recruitment",
+        "url": "https://policerecruitment2025.mahait.org/PDF/GR.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2023-05-04"
+      }
+    ]
+  }
+}

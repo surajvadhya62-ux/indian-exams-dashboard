@@ -1,0 +1,190 @@
+{
+  "id": "bssc-stenographer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for stenographer cadres across various Bihar state government departments and secretariats. Appointees advance to Personal Assistant and Private Secretary cadres based on departmental promotion regulations and stenographic speed grading.",
+    "steps": [
+      {
+        "designation": "Stenographer / Ashulipik (आशुलिपिक) & Instructor Stenographer",
+        "pay_level": "Level 4 (Bihar 7th State Pay Matrix)",
+        "years": "0–7 years (Entry grade)",
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT.pdf",
+        "source_label": "BSSC Stenographer & Steno Typist Grade-III Advertisement No. 07/25"
+      },
+      {
+        "designation": "Personal Assistant / PA (निजी सहायक)",
+        "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
+        "years": "7–14 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Secretariat Stenographer Service Cadre Rules"
+      },
+      {
+        "designation": "Private Secretary / PS (निजी सचिव)",
+        "pay_level": "Level 9 (Bihar 7th State Pay Matrix)",
+        "years": "14–22 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Secretariat Stenographer Service Senior Cadre Promotion Rules"
+      },
+      {
+        "designation": "Senior Private Secretary (वरिष्ठ निजी सचिव)",
+        "pay_level": "Level 11 (Bihar 7th State Pay Matrix)",
+        "years": "22+ years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar General Administration Department (Executive Personal Staff Cadre Rules)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of: (1) Written Examination comprising 150 objective MCQs (600 marks, 2 hours 15 minutes, +4, -1) across General Studies, Science/Maths, and Reasoning to shortlist candidates in a 1:5 ratio; and (2) Practical Skill Test comprising Hindi Shorthand (80 wpm for 5 minutes, 20 minutes transcription, max 10% errors), Hindi Typing (30 wpm for 10 minutes, max 1.5% errors), and basic computer operating proficiency. Final merit is prepared based on written examination marks of candidates who qualify the skill test.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT.pdf",
+        "source_label": "BSSC Stenographer Advt. No. 07/25 Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Studies, General Science, Mathematics & Mental Ability Test",
+            "marks": 600,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit ranking for skill test shortlisting (1:5 ratio); min qualifying marks: UR 40%, BC 36.5%, EBC 34%, SC/ST/Female 32%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Practical Stenography & Typing Skill Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT.pdf",
+        "source_label": "BSSC Stenographer Skill Test Evaluation Standards",
+        "papers": [
+          {
+            "paper_name": "Hindi Shorthand (80 wpm, 400 words dictation in 5 mins; 20 mins transcription) & Hindi Typing (30 wpm)",
+            "marks": 0,
+            "duration_minutes": 35,
+            "negative_marking": "Permissible error limit: max 10% in shorthand transcription, max 1.5% in typing",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying test; candidate must also qualify MS Office & Computer operating proficiency test"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Stenographers and Instructor Stenographers are appointed in Pay Matrix Level 4 (Entry Basic ₹25,500 – ₹81,100). Entitled to state DA, HRA, medical allowance, and secretarial allowances.",
+    "pay_level": "Level 4 (Bihar 7th State Pay Matrix)",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-05-15",
+    "pay_source_url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT.pdf",
+    "pay_source_label": "BSSC Stenographer & Steno Typist Grade-III Advertisement No. 07/25",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 43000, "max": 49000 },
+    "in_hand_range_estimate": { "min": 37000, "max": 42000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 with standard 58% DA (₹14,790), HRA (8% to 16%: ₹2,040 to ₹4,080), Medical Allowance (₹1,000), and Transport Allowance. In-hand reflects statutory 10% NPS deduction on Basic+DA (₹4,029) and professional tax.",
+    "official_perks": [
+      "Government accommodation or House Rent Allowance (HRA) up to 16%",
+      "Medical allowance (₹1,000/month) and treatment reimbursement under state rules",
+      "Contributory Pension Scheme (NPS) with 14% matching government contribution",
+      "Paid casual, earned, and medical leave benefits with encashment provisions"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark figures compiled from official BSSC advertisement notices, skill test shortlisting lists, and final result declarations for Advt. No. 01/2023 and Advt. No. 07/25.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 68200,
+        "vacancies": 232,
+        "shortlisted_for_mains": 1145,
+        "selectivity_ratio": "1 in 294 (applicants per final vacancy; 1,145 shortlisted for skill test in 1:5 ratio)",
+        "confidence": "verified",
+        "as_of": "2024-03-20",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/2327.pdf",
+        "source_label": "BSSC Stenographer Final Result Notice (Advt. No. 01/23, Notice No. 2327)"
+      },
+      {
+        "year": 2016,
+        "applicants": 35400,
+        "vacancies": 326,
+        "shortlisted_for_mains": 1630,
+        "selectivity_ratio": "1 in 108 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2019-11-25",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "BSSC Stenographer Advt. No. 14010115 Result Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, vacancy addenda, and result notices verified live on the BSSC official portal.",
+    "links": [
+      {
+        "label": "BSSC Stenographer & Steno Typist Grade-III Detailed Advertisement (Advt. No. 07/25)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 07/25",
+        "confidence": "verified",
+        "as_of": "2025-09-10"
+      },
+      {
+        "label": "BSSC Stenographer Advt. No. 07/25 — Important Notice & Registration Dates",
+        "url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT_NOTICE.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 07/25",
+        "confidence": "verified",
+        "as_of": "2025-09-10"
+      },
+      {
+        "label": "BSSC Stenographer Advt. No. 01/23 — Final Result Notice (Notice No. 2327)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/2327.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/23",
+        "confidence": "verified",
+        "as_of": "2024-03-20"
+      },
+      {
+        "label": "BSSC Stenographer Advt. No. 01/23 — Revised Result Notice (Notice No. 3511)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/3511.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/23",
+        "confidence": "verified",
+        "as_of": "2024-07-02"
+      },
+      {
+        "label": "Bihar Staff Selection Commission (BSSC) Official Notice Board",
+        "url": "https://bssc.bihar.gov.in/NoticeBoard.htm",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

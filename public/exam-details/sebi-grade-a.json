@@ -1,0 +1,236 @@
+{
+  "id": "sebi-grade-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "SEBI Grade A Assistant Managers are the frontline regulatory cadre overseeing capital markets, corporate disclosures, mutual funds, stock exchanges, takeovers, insider trading surveillance, and enforcement. Officers progress through executive regulatory grades based on tenure, performance, and board selection.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Grade A)",
+        "pay_level": "Grade A",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "Securities and Exchange Board of India — Recruitment of Officer Grade A (Assistant Manager) Notification 2024"
+      },
+      {
+        "designation": "Manager (Grade B)",
+        "pay_level": "Grade B",
+        "years": "approx. 3-6 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI (Employees' Service) Regulations & Officer Promotion Policy"
+      },
+      {
+        "designation": "Assistant General Manager (AGM — Grade C)",
+        "pay_level": "Grade C",
+        "years": "approx. 7-11 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI (Employees' Service) Regulations & Officer Promotion Policy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM — Grade D) / Division Chief",
+        "pay_level": "Grade D",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI (Employees' Service) Regulations & Officer Promotion Policy"
+      },
+      {
+        "designation": "General Manager (GM — Grade E)",
+        "pay_level": "Grade E",
+        "years": "approx. 17-21 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI (Employees' Service) Regulations & Officer Promotion Policy"
+      },
+      {
+        "designation": "Chief General Manager (CGM — Grade F) / Department Head",
+        "pay_level": "Grade F",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI (Employees' Service) Regulations & Senior Management Appointments"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "Executive Grade",
+        "years": "approx. 27+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "Securities and Exchange Board of India Act, 1992"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "SEBI Grade A Officer recruitment comprises a Three-Stage Selection Process: Phase I (Online examination consisting of two papers), Phase II (Online examination consisting of two papers with 1/3rd and 2/3rd aggregate weightage), and Phase III (Personal Interview). Negative marking of 1/4th (0.25 marks) is deducted for each incorrect answer across objective tests in Phase I and Phase II.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Online Screening Examination (2 Papers, 100 Marks Each)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI — Scheme of Phase I Online Examination",
+        "papers": [
+          {
+            "paper_name": "Paper 1 (All Streams): General Awareness (incl. financial sector), English Language, Quantitative Aptitude, Test of Reasoning",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum cut-off 30%"
+          },
+          {
+            "paper_name": "Paper 2 (General Stream): Commerce, Accountancy, Management, Finance, Costing, Companies Act, Economics",
+            "marks": 100,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum cut-off 40%; aggregate cut-off 40% across both papers"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Online Examination (Scored for Interview Shortlisting)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI — Scheme of Phase II Online Examination",
+        "papers": [
+          {
+            "paper_name": "Paper 1 (All Streams): English (Descriptive Test — Essay, Précis, Comprehension / Business Drafting)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Cut-off 30% (carries 1/3rd weightage in Phase II aggregate)"
+          },
+          {
+            "paper_name": "Paper 2 (General Stream): Specialized Domain Subjects (Commerce, Accountancy, Management, Finance, Costing, Law, Economics)",
+            "marks": 100,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Cut-off 40% (carries 2/3rd weightage in Phase II aggregate; overall Phase II minimum cut-off 50%)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI — Interview Scheme & Final Merit Determination",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Phase II marks carry 85% weightage; Interview carries 15% weightage)",
+            "marks": 100,
+            "duration_minutes": 35,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Grade A (Officer)",
+    "entry_basic_pay": 44500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-14",
+    "pay_source_url": "https://www.sebi.gov.in",
+    "pay_source_label": "SEBI (Employees' Service) Regulations, 2001 & Salary Notification (Scale: ₹44,500 - 2,500(4) - 54,500 - 2,850(7) - 74,450 - EB - 2,850(4) - 85,850 - 3,300(1) - 89,150)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 120000, "max": 165000 },
+    "in_hand_range_estimate": { "min": 100000, "max": 138000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Officers in Grade A receive a starting basic pay of ₹44,500/month. Total monthly gross emoluments are approximately ₹1,55,000/month (without accommodation) or ₹1,16,000/month (with accommodation at SEBI housing in Mumbai/regional centres). Pay structure includes Special Allowance, Grade Allowance, Family Allowance, Local Allowance, Dearness Allowance, and Learning Allowance.",
+    "official_perks": [
+      "Board leased accommodation or substantial House Rent Allowance across Mumbai (BKC) and Regional Offices",
+      "Vehicle maintenance reimbursement / official conveyance allowance per Board guidelines",
+      "Comprehensive medical facilities with cashless hospitalization for officer, spouse, children, and dependent parents",
+      "Subsidized residential lease, book grant, newspaper allowance, and residential office equipment grant",
+      "Leave Travel Concession (LTC) / Foreign travel concession provisions per senior officer rules",
+      "Defined contribution benefits under New Pension Scheme (NPS) and Board gratuity scheme"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SEBI Grade A is among the most prestigious regulatory careers in India, attracting chartered accountants, corporate lawyers, master's degree holders in economics/finance, and software engineers.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 135000,
+        "vacancies": 97,
+        "shortlisted_for_mains": 2425,
+        "selectivity_ratio": "approx. 1 in 1391 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-03-14",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI — Officer Grade A (Assistant Manager) 2024 Notification (General: 62, Legal: 5, IT: 24, Engineering: 2, Research: 2, Official Language: 2)"
+      },
+      {
+        "year": 2022,
+        "applicants": 142000,
+        "vacancies": 120,
+        "shortlisted_for_mains": 3000,
+        "selectivity_ratio": "approx. 1 in 1183 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-01-05",
+        "source_url": "https://www.sebi.gov.in",
+        "source_label": "SEBI — Officer Grade A (Assistant Manager) 2022 Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, phase-wise question paper patterns, syllabus details, and shortlists are published on the official SEBI portal under 'Careers'.",
+    "links": [
+      {
+        "label": "SEBI Careers Portal & Recruitment Notices",
+        "url": "https://www.sebi.gov.in/department/human-resources-department-37/career.html",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SEBI Grade A (Assistant Manager) Recruitment Notification 2024",
+        "url": "https://www.sebi.gov.in",
+        "type": "notification",
+        "cycle_label": "SEBI-Grade-A-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SEBI Grade A Examination Structure & Stream-wise Syllabus",
+        "url": "https://www.sebi.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

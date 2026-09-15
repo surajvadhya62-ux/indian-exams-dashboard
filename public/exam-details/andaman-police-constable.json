@@ -1,0 +1,290 @@
+{
+  "id": "andaman-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Promotions in the Executive Cadre of Andaman & Nicobar Police are governed by the Andaman and Nicobar Police (Recruitment) Rules for Group 'C' posts (published vide Extraordinary Gazette No. 143 dated 20/12/2022) and Group 'B' Non-Gazetted posts (published vide Extraordinary Gazette dated 20/12/2022). Entry is at Constable (Pay Level 3), advancing to Head Constable (Pay Level 4), Assistant Sub-Inspector (Pay Level 5), Sub-Inspector (Pay Level 6), and Inspector (Pay Level 7). Higher progression leads to Deputy Superintendent of Police (Level 10) under the Delhi, Andaman and Nicobar Islands Police Service (DANIPS) Cadre Rules.",
+    "steps": [
+      {
+        "designation": "Constable (Executive / General Duty)",
+        "pay_level": "Level 3",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-12-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-c.pdf",
+        "source_label": "A&N Police Recruitment Rules for Group 'C' Executive Posts, Schedule IV (Gazette No. 143 dated 20/12/2022: Level 3, scale ₹21,700 - ₹69,100)"
+      },
+      {
+        "designation": "Head Constable (Executive)",
+        "pay_level": "Level 4",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2022-12-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-c.pdf",
+        "source_label": "A&N Police Recruitment Rules for Group 'C' Executive Posts, Schedule III (Gazette No. 143 dated 20/12/2022: 100% by promotion from Constable with 5 years regular service and passing of Lower School Course)"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI - Executive)",
+        "pay_level": "Level 5",
+        "years": "approx. 10 yrs (5 yrs as HC)",
+        "confidence": "verified",
+        "as_of": "2022-12-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-c.pdf",
+        "source_label": "A&N Police Recruitment Rules for Group 'C' Executive Posts, Schedule I (Gazette No. 143 dated 20/12/2022: 100% by promotion from Head Constable with 5 years regular service)"
+      },
+      {
+        "designation": "Sub-Inspector (SI - Executive)",
+        "pay_level": "Level 6",
+        "years": "approx. 16 yrs (6 yrs as ASI) or 5 yrs via LDCE",
+        "confidence": "verified",
+        "as_of": "2022-12-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-b-n-g.pdf",
+        "source_label": "A&N Police Recruitment Rules for Group 'B' Non-Gazetted Executive Posts, Schedule II (50% promotion from ASI with 6 years regular service and Upper School Course; 10% LDCE quota for ASIs/HCs/Constables with 5 years regular service; 40% direct recruitment)"
+      },
+      {
+        "designation": "Inspector of Police (Executive)",
+        "pay_level": "Level 7",
+        "years": "approx. 21-25 yrs (5 yrs as SI)",
+        "confidence": "verified",
+        "as_of": "2022-12-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-b-n-g.pdf",
+        "source_label": "A&N Police Recruitment Rules for Group 'B' Non-Gazetted Executive Posts, Schedule I (100% by promotion from Sub-Inspector with 5 years regular service and Upper School Course)"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP) / Assistant Commissioner of Police (ACP)",
+        "pay_level": "Level 10",
+        "years": "approx. 27-32 yrs",
+        "confidence": "verified",
+        "as_of": "2022-12-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-b-n-g.pdf",
+        "source_label": "Ministry of Home Affairs DANIPS (Delhi, Andaman and Nicobar Islands Police Service) Rules: 50% promotion quota from Inspector of Police"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment process is prescribed in Direct Recruitment Notice No. A-12024/1/2024-RECRUITMENTCELLPHQ-POLICE_AN/284 dated 24/04/2026 and Corrigendum No. DGP/RC/DR/2026/139/534 dated 27/07/2026. Stage 1 is the Physical Measurement & Endurance Test (PM&ET), which is strictly qualifying in nature and mandatory for all candidates. Candidates qualifying in PM&ET appear for Stage 2, a 200-mark written test of Higher Secondary Level standard. Merit is drawn purely on written examination marks, subject to medical examination and character verification.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Physical Measurement & Endurance Test (PM&ET - Qualifying)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-07-27",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/digp-rec-27-07-2026.pdf",
+        "source_label": "Andaman & Nicobar Police — Notice No. DGP/RC/DR/2026/139/534 dated 27/07/2026 & Recruitment Notice dated 24/04/2026",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT: Height & Chest)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Male: Height 168 cm, Chest 81 cm unexpanded / 85 cm expanded [5 cm expansion for ST: 77/81 cm, Height 160 cm]; Female: Height 155 cm [ST: 148 cm])"
+          },
+          {
+            "paper_name": "Physical Endurance Test (PET: Race, Long Jump, High Jump)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Male: 1600m race in 7 mins, Long Jump 12 ft in 3 chances, High Jump 4 ft in 3 chances; Female: 800m race in 5 mins, Long Jump 8 ft in 3 chances, High Jump 3 ft in 3 chances)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Examination (Higher Secondary Level Objective Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-04-24",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/recruitment-notice-2026.pdf",
+        "source_label": "Andaman & Nicobar Police — Direct Recruitment Notice No. A-12024/1/2024-RECRUITMENTCELLPHQ-POLICE_AN/284 dated 24/04/2026, Section VI",
+        "papers": [
+          {
+            "paper_name": "General Knowledge",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Aptitude (Reasoning & Elementary Mathematics)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Computer Knowledge",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Hindi Language",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Andaman & Nicobar Islands is a Union Territory directly administered by the Central Government (Ministry of Home Affairs); police personnel are Central Civil Services employees governed under the Central 7th CPC Pay Matrix. In addition to 58% Central DA and standard HRA/Transport Allowance, personnel serving in the islands are entitled to Island Special Duty Allowance (ISDA) under Ministry of Finance orders ranging from 10% (Port Blair / South Andaman) up to 20% (difficult / remote Nicobar group of islands).",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-04-24",
+    "pay_source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/recruitment-notice-2026.pdf",
+    "pay_source_label": "Andaman & Nicobar Police — Direct Recruitment Notice No. A-12024/1/2024-RECRUITMENTCELLPHQ-POLICE_AN/284 dated 24/04/2026 (Pay Scale: Pay Matrix Level 3, ₹21,700 - ₹69,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 39000,
+      "max": 45000
+    },
+    "in_hand_range_estimate": {
+      "min": 34000,
+      "max": 39500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Central 7th CPC Level 3 Entry Basic Pay of ₹21,700 with DA at 58% (₹12,586). Includes HRA (9% / ₹1,953 in non-metro / island towns, or government quarter allotment), Transport Allowance (₹1,350 + DA ₹783 = ₹2,133), Ration Money / Diet Allowance (~₹3,000-₹3,500), and Island Special Duty Allowance (ISDA) at 10% (₹2,170) to 20% (₹4,340) of Basic Pay depending on posting zone. Deductions include NPS employee contribution (10% of Basic + DA = ₹3,429) and CGEGIS/insurance, yielding estimated in-hand pay of ₹34,000 to ₹39,500.",
+    "official_perks": [
+      "Island Special Duty Allowance (ISDA) of 10% to 20% of Basic Pay depending on posting difficulty zone",
+      "Ration Money Allowance / Diet Allowance for executive police personnel",
+      "Uniform Allowance and kit maintenance allowance",
+      "Government departmental quarters or House Rent Allowance (HRA)",
+      "Central Government Employees Group Insurance Scheme (CGEGIS) and Central Civil Services medical reimbursement",
+      "Leave Travel Concession (LTC) including sea/air passage between mainland India and Andaman & Nicobar Islands per GOI rules",
+      "Defined contribution pension under the National Pension System (NPS) with 14% Central Government contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant figures, PM&ET schedules, and vacancy numbers are sourced directly from Andaman & Nicobar Police recruitment orders and published candidate master lists. In the 2026 mega-recruitment cycle, a combined recruitment across Group 'B' and Group 'C' posts advertised 155 vacancies for Constable (Executive) and 40 vacancies for Constable (GD - IRBn) (total 195 Constable vacancies). The published PM&ET master schedule dated 07/09/2026 confirmed 22,294 scheduled candidates across all notified posts, of which 18,693 opted for Constable (Executive) and 12,414 opted for Constable (GD - IRBn). In the 2017 cycle, 60 vacancies were notified for Constable (Executive). In 2016, 10,386 eligible candidates were scheduled for PM&ET at Netaji Stadium, Port Blair.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 22294,
+        "vacancies": 195,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 114 (calculated: total scheduled applicants 22,294 ÷ 195 constable vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-09-07",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/pme-list-07-09-2026-updated.pdf",
+        "source_label": "Andaman & Nicobar Police — PM&ET Master Schedule Notice dated 07/09/2026 (pme_list_07_09_2026_updated.pdf, 3,721 pages): 22,294 unique candidates scheduled across Netaji Stadium Port Blair, Diglipur, and Car Nicobar centres against 195 total constable vacancies (155 Constable Executive + 40 Constable GD IRBn) notified in Notice No. A-12024/1/2024-RECRUITMENTCELLPHQ-POLICE_AN/284."
+      },
+      {
+        "year": 2017,
+        "applicants": null,
+        "vacancies": 60,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2017-10-04",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2017/pc-recruitment-notice-2017.pdf",
+        "source_label": "Andaman & Nicobar Police — Recruitment Notice for Police Constable (Executive) dated 04/10/2017: 60 vacancies notified (General: 38 including 12 women; OBC: 22 including 7 women)."
+      },
+      {
+        "year": 2016,
+        "applicants": 10386,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2016-01-20",
+        "source_url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/result/list-of-eligible-candidates-applied-for-the-post-of-PCExe.pdf",
+        "source_label": "Andaman & Nicobar Police — Schedule for Physical Measurement & Endurance Test for Recruitment of Police Constable (Executive) 2016: 10,386 eligible candidates scheduled for PM&ET at Netaji Stadium, Port Blair from 08/02/2016 to 19/02/2016."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notices, corrigenda, statutory recruitment rules, and candidate test schedules are published by Andaman & Nicobar Police on their official portals police.andamannicobar.gov.in and erecruitment.andamannicobar.gov.in.",
+    "links": [
+      {
+        "label": "Andaman & Nicobar Police Direct Recruitment Notice 2026 (Executive & IRBn Group C Posts)",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/recruitment-notice-2026.pdf",
+        "type": "notification",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-04-24"
+      },
+      {
+        "label": "Corrigendum and PM&ET Admit Card Notice (Order No. DGP/RC/DR/2026/139/534)",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/digp-rec-27-07-2026.pdf",
+        "type": "notification",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-07-27"
+      },
+      {
+        "label": "Physical Measurement and Endurance Test (PM&ET) Schedule & Candidate List (Updated 07/09/2026)",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/pme-list-07-09-2026-updated.pdf",
+        "type": "other",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-07"
+      },
+      {
+        "label": "PM&ET 2026 Candidate Vigilance Advisory (Notice dated 06/09/2026)",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2026/advisory-to-candidates.pdf",
+        "type": "other",
+        "cycle_label": "2026 Cycle",
+        "confidence": "verified",
+        "as_of": "2026-09-06"
+      },
+      {
+        "label": "Andaman & Nicobar Police Recruitment (Amendment) Rules, 2022 — Group 'C' Executive Posts (Gazette No. 143)",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-c.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2022-12-20"
+      },
+      {
+        "label": "Andaman & Nicobar Police Recruitment Rules, 2022 — Group 'B' Non-Gazetted Executive Posts",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/exe-group-b-n-g.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2022-12-20"
+      },
+      {
+        "label": "India Reserve Battalion (IRBn) Group 'C' Posts Recruitment Rules, 2022",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/recruitment-rule/2023/irbn-group-c.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2022-12-20"
+      },
+      {
+        "label": "Historical Police Constable (Executive) Recruitment Notice 2017",
+        "url": "https://police.andamannicobar.gov.in/images/stories/pdf/recruitment/advert/2017/pc-recruitment-notice-2017.pdf",
+        "type": "notification",
+        "cycle_label": "2017 Cycle",
+        "confidence": "verified",
+        "as_of": "2017-10-04"
+      }
+    ]
+  }
+}

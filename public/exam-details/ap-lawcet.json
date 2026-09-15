@@ -1,0 +1,98 @@
+{
+  "id": "ap-lawcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "AP LAWCET is conducted as a Computer Based Test (CBT) by Sri Padmavati Mahila Visvavidyalayam on behalf of APSCHE for admission into 3-year and 5-year LL.B. programmes in Andhra Pradesh universities and affiliated law colleges. Total duration is 90 minutes with 120 multiple choice questions of 1 mark each across three parts. No negative marking. Qualifying mark: 35% (42 out of 120) for General/BC candidates; no minimum qualifying mark is prescribed for SC/ST candidates.",
+    "stages": [
+      {
+        "stage_name": "AP LAWCET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-04",
+        "source_url": "https://cets.apsche.ap.gov.in/LAWCET/PDF/APLAWCET2026_IntructionsBooklet_V2.pdf",
+        "source_label": "APSCHE & SPMVV — AP LAWCET 2026 Instruction Booklet",
+        "papers": [
+          {
+            "paper_name": "Part A: General Knowledge and Mental Ability",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% aggregate marks (42 out of 120) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Part B: Current Affairs",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% aggregate marks (42 out of 120) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Part C: Aptitude for the Study of Law (Basic principles of Law & Constitution of India)",
+            "marks": 60,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% aggregate marks (42 out of 120) for General/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant appearance and qualification statistics released by APSCHE and the convener university during result declarations.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 19224,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "17,117 qualified out of 19,224 appeared (89.04% qualification rate across AP law colleges)",
+        "confidence": "reported",
+        "as_of": "2024-06-27",
+        "source_url": "https://cets.apsche.ap.gov.in/LAWCET/",
+        "source_label": "APSCHE AP LAWCET 2024 Official Result Declaration Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 19014,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "13,402 qualified out of 19,014 appeared across 3-year LLB, 5-year LLB, and LLM courses",
+        "confidence": "reported",
+        "as_of": "2023-06-16",
+        "source_url": "https://cets.apsche.ap.gov.in/LAWCET/",
+        "source_label": "APSCHE AP LAWCET & PGLCET 2023 Official Result Declaration Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official booklet and portal links maintained by APSCHE and Sri Padmavati Mahila Visvavidyalayam.",
+    "links": [
+      {
+        "label": "Instruction Booklet & Syllabus (PDF)",
+        "url": "https://cets.apsche.ap.gov.in/LAWCET/PDF/APLAWCET2026_IntructionsBooklet_V2.pdf",
+        "type": "syllabus",
+        "cycle_label": "LAWCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-04"
+      },
+      {
+        "label": "Official AP LAWCET Portal",
+        "url": "https://cets.apsche.ap.gov.in/LAWCET/",
+        "type": "notification",
+        "cycle_label": "LAWCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "id": "lic-aao",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Administrative Officers (AAO) represent the primary officer management cadre in the Life Insurance Corporation of India (LIC). Officers oversee policy servicing, underwriting, claims settlement, marketing channel administration, and corporate accounts across divisional and branch offices nationwide.",
+    "steps": [
+      {
+        "designation": "Assistant Administrative Officer (AAO)",
+        "pay_level": "Officer Scale I",
+        "years": "Entry level (probation 1 yr, bond 4 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC of India — Recruitment of Assistant Administrative Officer (Generalist) Notification 2023"
+      },
+      {
+        "designation": "Administrative Officer (AO)",
+        "pay_level": "Officer Scale II",
+        "years": "approx. 4-7 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC Staff Regulations & Promotion Rules"
+      },
+      {
+        "designation": "Assistant Divisional Manager (ADM)",
+        "pay_level": "Officer Scale III",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC Staff Regulations & Promotion Rules"
+      },
+      {
+        "designation": "Divisional Manager (DM)",
+        "pay_level": "Officer Scale IV",
+        "years": "approx. 13-17 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC Staff Regulations & Promotion Rules"
+      },
+      {
+        "designation": "Senior Divisional Manager (SDM) / Head of Divisional Office",
+        "pay_level": "Officer Scale V",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC Staff Regulations & Senior Management Rules"
+      },
+      {
+        "designation": "Regional Manager (RM) / Zonal Manager",
+        "pay_level": "Officer Scale VI / VII",
+        "years": "approx. 23-27 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC Staff Regulations & Senior Management Rules"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "Top Executive",
+        "years": "approx. 28+ yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "Life Insurance Corporation Act, 1956"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process for LIC AAO (Generalist) consists of a Three-Tier Process: Phase-I Preliminary Examination (Screening), Phase-II Main Examination (Online Objective + Descriptive test), followed by Phase-III Interview and Pre-Recruitment Medical Examination. In Phase-I and Phase-II, English Language papers are qualifying in nature and their marks are not counted for ranking.",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Preliminary Examination (Online Objective, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC of India — Examination Scheme for AAO (Generalist)",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 18 (16 for SC/ST)"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 18 (16 for SC/ST)"
+          },
+          {
+            "paper_name": "English Language (with special emphasis on grammar, vocabulary and comprehension)",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying marks: 10 (9 for SC/ST); marks not counted for ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II: Main Examination (Objective 300 Marks + Descriptive 25 Marks)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC of India — Examination Scheme for AAO (Generalist)",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 90,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 45 (40 for SC/ST)"
+          },
+          {
+            "paper_name": "General Knowledge, Current Affairs",
+            "marks": 60,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 30 (27 for SC/ST)"
+          },
+          {
+            "paper_name": "Data Analysis & Interpretation",
+            "marks": 90,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 45 (40 for SC/ST)"
+          },
+          {
+            "paper_name": "Insurance and Financial Market Awareness",
+            "marks": 60,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 30 (27 for SC/ST)"
+          },
+          {
+            "paper_name": "English Language (Descriptive — Letter Writing & Essay)",
+            "marks": 25,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying marks: 10 (9 for SC/ST); marks not counted for ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC of India — Interview Guidelines & Selection Ratio",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Mains objective 300 marks + Interview 60 marks = 360 marks aggregate)",
+            "marks": 60,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 30 (27 for SC/ST/PwBD)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Officer Scale I (LIC)",
+    "entry_basic_pay": 53600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-01-15",
+    "pay_source_url": "https://licindia.in/careers",
+    "pay_source_label": "Life Insurance Corporation of India (Staff) Regulations, Pay Scale for AAO (₹53,600 - 2,645(14) - 90,630 - 2,865(4) - 1,02,090)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 88000, "max": 112000 },
+    "in_hand_range_estimate": { "min": 75000, "max": 96000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹53,600/month. Total monthly gross emoluments are approximately ₹92,870/month in 'A' Class cities. Benefits include Dearness Allowance, House Rent Allowance (where quarters not availed), City Compensatory Allowance (CCA), meal coupons, cash medical benefits, group insurance, and defined contributory pension.",
+    "official_perks": [
+      "Corporation residential quarters or House Rent Allowance per city classification",
+      "Defined Contributory Pension Scheme and Group Mediclaim policy coverage",
+      "Group Personal Accident Insurance and Group Term Life Insurance benefits",
+      "Meal coupons / subsidized food provisions per working day",
+      "Leave Travel Concession (LTC) once in two years with leave encashment option",
+      "Concessional housing loan, vehicle loan, and briefcase/mobile allowance"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "LIC AAO is one of the most popular statutory corporate recruitments in India, with high applicant volumes competing for centralized public life insurance officer positions.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 420000,
+        "vacancies": 300,
+        "shortlisted_for_mains": 6000,
+        "selectivity_ratio": "approx. 1 in 1400 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-01-15",
+        "source_url": "https://licindia.in/careers",
+        "source_label": "LIC of India — Recruitment of Assistant Administrative Officer (Generalist) 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, admit cards, answer keys, and final result lists are hosted on the LIC official careers portal.",
+    "links": [
+      {
+        "label": "LIC Careers & Recruitment Portal",
+        "url": "https://licindia.in/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "LIC AAO (Generalist) Recruitment Notification 2023",
+        "url": "https://licindia.in/careers",
+        "type": "notification",
+        "cycle_label": "LIC-AAO-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "LIC AAO Scheme of Examination & Information Handout",
+        "url": "https://licindia.in/careers",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

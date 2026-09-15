@@ -1,0 +1,191 @@
+{
+  "id": "nmdc-maintenance-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Maintenance Assistants and Junior Officer Trainees in NMDC Limited advance along the production and technical supervisory ladder across mining complexes (Bailadila, Donimalai, Panna) based on trade seniority and trade competency tests.",
+    "steps": [
+      {
+        "designation": "Maintenance Assistant (Mech / Elect) Trainee",
+        "pay_level": "Non-Executive RS-02 (₹18,100 – ₹31,850)",
+        "years": "18 months training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Employment Notification No. 04/2022 and 02/2024"
+      },
+      {
+        "designation": "Maintenance Assistant",
+        "pay_level": "Non-Executive RS-02 (₹18,100 – ₹31,850)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Workman Promotion Policy"
+      },
+      {
+        "designation": "Senior Maintenance Assistant",
+        "pay_level": "Non-Executive RS-03 (₹18,700 – ₹32,940)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Mining Technical Cadre Rules"
+      },
+      {
+        "designation": "Maintenance Assistant Grade-I",
+        "pay_level": "Non-Executive RS-04 (₹19,900 – ₹35,040)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Technical Cadre Hierarchy"
+      },
+      {
+        "designation": "Assistant Chargeman",
+        "pay_level": "Non-Executive RS-05 (₹20,210 – ₹35,590)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Supervisory Promotion Regulations"
+      },
+      {
+        "designation": "Chargeman / Junior Officer (JO)",
+        "pay_level": "Supervisory / Executive RS-07 / JO (₹32,000 – ₹73,000)",
+        "years": "approx. 15+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Junior Executive Cadre Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection comprises a Written Test followed by a Trade Test (practical skill test). The written test assesses trade domain knowledge and general aptitude. The trade test is qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Written Test (OMR / CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Selection Pattern for Maintenance Assistant Notification",
+        "papers": [
+          {
+            "paper_name": "Subject / ITI Trade Domain Knowledge (Fitter / Welder / Machinist / Diesel Mechanic / Electrician)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for UR/EWS, 30% for SC/ST/PwD across written test"
+          },
+          {
+            "paper_name": "General Knowledge & Current Affairs",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Numerical and Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Trade Test (Physical Ability & Skill Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Trade Test Evaluation Rules",
+        "papers": [
+          {
+            "paper_name": "Practical Trade Test (Shop Floor Job Operation)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% qualifying standard (1:3 ratio shortlisted from written test)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Non-executive pay scale RS-02 (₹18,100–₹31,850; Entry Basic ₹18,100) under DPE wage settlement. During initial 18-month training, candidates receive a fixed stipend (₹18,000 for first 12 months, ₹18,500 for next 6 months), followed by regular pay with mandatory 58% DA constant as of 2025-07-01 and mining allowances.",
+    "pay_level": "Non-Executive Wage Scale RS-02 (₹18,100 – ₹31,850)",
+    "entry_basic_pay": 18100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://www.nmdc.co.in/careers",
+    "pay_source_label": "NMDC Employment Notification & Wage Revision Terms",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 32000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 28000,
+      "max": 35000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹18,100, 58% IDA (₹10,498), Mining Hardship Allowance / Underground Allowance where applicable, free township accommodation / HRA (9%), less statutory PF (12%) and welfare deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "Free company township accommodation with subsidized electricity & water in mining projects",
+      "Mining Complex Allowance / Remote Field Hardship Allowance",
+      "Free comprehensive medical facilities for employee and family at NMDC Project Hospitals",
+      "Contributory Provident Fund, Gratuity, and Group Insurance",
+      "Leave Travel Concession (LTC) and uniform allowances"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment data compiled from NMDC Limited notifications and shortlists.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 200,
+        "applicants": 65400,
+        "shortlisted_for_mains": 600,
+        "selectivity_ratio": "approx. 1 in 327",
+        "confidence": "reported",
+        "as_of": "2022-03-15",
+        "source_url": "https://www.nmdc.co.in/careers",
+        "source_label": "NMDC Employment Notification 04/2022: 200 Maintenance Assistant (Mech/Elect) posts at Bailadila Iron Ore Mine, Kirandul and Bacheli Complexes."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, vacancy announcements, and trade test schedules hosted on NMDC Limited portal.",
+    "links": [
+      {
+        "label": "NMDC Official Careers Hub",
+        "url": "https://www.nmdc.co.in/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "NMDC Corporate Website",
+        "url": "https://www.nmdc.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

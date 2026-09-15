@@ -1,0 +1,233 @@
+{
+  "id": "ibps-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Clerical Cadre employees (Customer Service Associates) in Public Sector Banks serve at branches handling customer transactions, account services, front-office operations, and credit documentation. Clerks advance into officer scales through fast-track promotional channels (departmental tests and interviews) or seniority quotas.",
+    "steps": [
+      {
+        "designation": "Customer Service Associate (Clerk / Cashier)",
+        "pay_level": "Clerical Cadre",
+        "years": "Entry level (probation 6 months)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in",
+        "source_label": "12th Bipartite Settlement (IBA & Bank Unions), Clerical Scale (₹24,050 - 1,340/3 - 28,070 - 1,650/3 - 33,020 - 2,000/4 - 41,020 - 2,340/7 - 57,400 - 4,400/1 - 61,800 - 2,680/1 - 64,480)"
+      },
+      {
+        "designation": "Senior Customer Service Associate (Senior Clerk)",
+        "pay_level": "Clerical Special Pay",
+        "years": "approx. 4-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Indian Banks' Association (IBA) Promotion & Special Allowance Rules"
+      },
+      {
+        "designation": "Officer Junior Management Grade Scale I (Assistant Manager / PO)",
+        "pay_level": "JMGS-I",
+        "years": "approx. 3-6 yrs (via merit-based internal promotion exam) or 7-10 yrs (seniority)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Promotion Policy (Clerk to Officer Cadre)"
+      },
+      {
+        "designation": "Manager (Branch Head / Specialist)",
+        "pay_level": "MMGS-II",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Officer Promotion Policy"
+      },
+      {
+        "designation": "Senior Manager (Chief / Division Head)",
+        "pay_level": "MMGS-III",
+        "years": "approx. 13-17 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Officer Promotion Policy"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "SMGS-IV",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Officer Promotion Policy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The IBPS Common Recruitment Process (CRP) for Clerical Cadre consists of a Two-Tier Computer Based Examination: Preliminary and Main Examination. There is no interview stage for clerical posts in public sector banks per Government of India directives; final allotment is made strictly on the basis of Mains examination performance.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Online Objective, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-30",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Clerks XIV Detailed Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          },
+          {
+            "paper_name": "Numerical Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Online Objective, Scored for Allotment)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-30",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Clerks XIV Detailed Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "General / Financial Awareness",
+            "marks": 50,
+            "duration_minutes": 35,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English",
+            "marks": 40,
+            "duration_minutes": 35,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning Ability & Computer Aptitude",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Clerical Cadre (12th BPS)",
+    "entry_basic_pay": 24050,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://www.ibps.in",
+    "pay_source_label": "12th Bipartite Settlement on Bank Clerical Wages (IBA), entry basic pay ₹24,050",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 38000, "max": 48000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 42000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Pay scale reflects the revised 12th Bipartite Settlement scale starting at ₹24,050. Monthly salary includes Dearness Allowance, Special Allowance (26.5% of basic pay with DA thereon), House Rent Allowance (10.25% in metros), Transport Allowance, and City Compensatory Allowance. Deductions include 10% NPS contribution and professional tax.",
+    "official_perks": [
+      "House Rent Allowance or staff accommodation where available per bank rules",
+      "Special Allowance and Transport Allowance as per Bipartite settlement",
+      "Comprehensive medical aid for employee and eligible dependents",
+      "Leave Fare Concession (LFC) / Home Town travel once in two years",
+      "Concessional staff rate loans for personal computer, two-wheeler, and festival advance",
+      "Defined contribution retirement benefits under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "IBPS CRP Clerks is one of India's largest banking examinations by applicant volume, selecting clerical staff across 11 nationalized public sector banks (including Punjab National Bank, Canara Bank, Bank of Baroda, and Union Bank of India).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1180000,
+        "vacancies": 6128,
+        "shortlisted_for_mains": 61280,
+        "selectivity_ratio": "approx. 1 in 193 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-07-31",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Clerks XIV Notification & State-wise Vacancy Distribution"
+      },
+      {
+        "year": 2023,
+        "applicants": 1250000,
+        "vacancies": 4545,
+        "shortlisted_for_mains": 45450,
+        "selectivity_ratio": "approx. 1 in 275 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-07-31",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Clerks XIII Notification & State-wise Vacancy Distribution"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schedules, state-wise vacancies, and scorecards are published on the official IBPS portal under 'CRP Clerical'.",
+    "links": [
+      {
+        "label": "IBPS Official Web Portal & CRP Notices",
+        "url": "https://www.ibps.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "IBPS CRP Clerks XIV Detailed Notification & Instructions",
+        "url": "https://www.ibps.in",
+        "type": "notification",
+        "cycle_label": "CRP-Clerks-XIV",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "IBPS Examination Scheme & Testing Pattern Guidelines",
+        "url": "https://www.ibps.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

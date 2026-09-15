@@ -1,0 +1,226 @@
+{
+  "id": "mpesb-van-rakshak",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Van Rakshak / Kshetra Rakshak (Forest Guard)",
+        "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+        "promotion_criteria": "Direct recruitment through MPESB Written Examination and Physical Efficiency Walking Test, followed by basic forester training at Forest Guard Training Schools.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Van Rakshak & Kshetra Rakshak Rulebook 2026, Section 2"
+      },
+      {
+        "step_order": 2,
+        "designation": "Head Forest Guard (Vanpal / वनपाल)",
+        "pay_level": "Level 5 (₹22,100 – ₹70,000)",
+        "promotion_criteria": "Promotion on seniority-cum-fitness basis after 5 to 7 years of field service in beat protection and anti-poaching operations, subject to passing departmental examinations.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "Madhya Pradesh Subordinate Forest Service Recruitment Rules"
+      },
+      {
+        "step_order": 3,
+        "designation": "Deputy Ranger (Up-Kshetrapal / उप-क्षेत्रपाल)",
+        "pay_level": "Level 7 (₹28,700 – ₹91,300)",
+        "promotion_criteria": "Promotion through Departmental Promotion Committee (DPC) after ~5 years service as Vanpal, or through limited departmental competitive examination.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP Forest Department Executive Service Cadre Structure"
+      },
+      {
+        "step_order": 4,
+        "designation": "Forest Range Officer (Ranger / परिक्षेत्र अधिकारी)",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Promotion through MPPSC DPC based on merit-cum-seniority and mandatory completion of Range Officer training at State Forest Academy.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP State Forest Service Gazetted Rules"
+      },
+      {
+        "step_order": 5,
+        "designation": "Assistant Conservator of Forests (ACF / सहायक वन संरक्षक)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Induction into MP State Forest Service (Class II Gazetted) by promotion quota after 6 to 10 years of exemplary service as Forest Ranger.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP State Forest Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Written Examination (OMR/CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Combined Test: General Knowledge, General Hindi, General English, General Mathematics, General Science",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Van Rakshak & Kshetra Rakshak Rulebook 2026, Section 3"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Physical Standard Test (PST) & Physical Efficiency Test (PET - Walking Test)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Physical Endurance Walking Test: Men 25 km in 4 hours, Women 14 km in 4 hours",
+            "paper_type": "physical",
+            "total_marks": 0,
+            "duration_minutes": 240,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Van Rakshak Rulebook 2026, Physical Standards Section"
+      },
+      {
+        "stage_order": 3,
+        "stage_name": "Document Verification & Medical Examination",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Scrutiny of 10+2 Credentials, Domicile, Category Certificates and Comprehensive Medical Fitness",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP Forest Department Selection & Medical Norms"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+    "entry_basic_pay": 19500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+    "pay_source_label": "MPESB Van Rakshak Rulebook 2026, Page 4",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33000,
+      "max": 36000
+    },
+    "in_hand_range_estimate": {
+      "min": 28000,
+      "max": 31000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance computed at the rate of 58% of basic pay (₹11,310 per month at entry level).",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA) / Forest Quarters",
+        "perk_description": "Rent-free forest beat accommodation / inspection hutment or HRA between 8% to 16% of basic pay.",
+        "confidence": "reported",
+        "source_label": "MP Forest Department Quarters Allotment Rules"
+      },
+      {
+        "perk_name": "Uniform & Kit Allowance",
+        "perk_description": "Annual uniform upkeep and kit allowance for operational field duties in forest ranges.",
+        "confidence": "reported",
+        "source_label": "MP Forest Department Service Regulations"
+      },
+      {
+        "perk_name": "Ration & Field Allowance",
+        "perk_description": "Special compensatory allowance and ration allowance for wilderness patrolling and wildlife sanctuary posting.",
+        "confidence": "reported",
+        "source_label": "MP Forest Department Field Allowances"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Contributory Defined Pension Scheme with 14% matching contribution by the state government.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 2112,
+        "applicants": 0,
+        "appeared": 0,
+        "cut_off_marks": {
+          "note": "Combined Van Rakshak, Kshetra Rakshak and Jail Prahari recruitment test 2026 announced by MPESB."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Combined Jail & Van Rulebook 2026"
+      },
+      {
+        "year": 2023,
+        "vacancies": 1912,
+        "applicants": 652000,
+        "appeared": 480000,
+        "cut_off_marks": {
+          "unreserved_open": 78.42,
+          "obc_open": 76.84,
+          "sc_open": 72.15,
+          "st_open": 66.48,
+          "ews_open": 75.32
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_23/JAIL_VAN_RES23/FINAL_RESULT/Jail_van_2023_REsultNote_Final.pdf",
+        "source_label": "MPESB Combined Van Rakshak & Jail Prahari 2023 Final Result Note"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Van Rakshak, Kshetra Rakshak & Jail Prahari Recruitment Rulebook 2026",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPESB Van Rakshak & Jail Prahari 2023 Final Result Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_23/JAIL_VAN_RES23/FINAL_RESULT/Jail_van_2023_REsultNote_Final.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

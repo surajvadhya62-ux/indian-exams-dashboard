@@ -142,7 +142,7 @@ export default function ComparisonTool({ compareList, removeFromCompare }) {
         <table className="comparison-table">
           <thead>
             <tr>
-              <th style={{ width: '180px', minWidth: '150px' }}>Criteria</th>
+              <th className="comparison-criteria-col">Criteria</th>
               {compareList.map(exam => (
                 <th key={exam.id} style={{ minWidth: '220px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '8px' }}>
@@ -169,7 +169,7 @@ export default function ComparisonTool({ compareList, removeFromCompare }) {
           <tbody>
             {rows.map((row, idx) => (
               <tr key={idx}>
-                <td style={{ fontWeight: 600, color: '#94a3b8', fontSize: '0.8rem' }}>
+                <td className="comparison-criteria-col">
                   {row.label}
                 </td>
                 {compareList.map(exam => (

@@ -1,0 +1,258 @@
+{
+  "id": "rrb-technician",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "RRB Technician recruits skilled technical personnel across mechanical, electrical, civil, and signal & telecommunication workshops and open-line maintenance depots under Indian Railways. Technicians advance through time-scale grade promotions and internal departmental competitive examinations (LDCE) up to supervisory and Group 'B' Gazetted officer ranks.",
+    "steps": [
+      {
+        "designation": "Technician Grade III",
+        "pay_level": "Level 2",
+        "years": "Entry level (training / probation 1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — Centralized Employment Notice (CEN) No. 02/2024 (Technicians), Post Parameters"
+      },
+      {
+        "designation": "Technician Grade II",
+        "pay_level": "Level 4",
+        "years": "approx. 2-3 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Technician Grade I / Technician Gr I (Signal)",
+        "pay_level": "Level 5",
+        "years": "approx. 4-6 yrs (direct entry for Signal graduates or promotion)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — CEN No. 02/2024 (Technician Grade I Signal Pay Level 5)"
+      },
+      {
+        "designation": "Senior Technician / Master Craftsman (MCM)",
+        "pay_level": "Level 6",
+        "years": "approx. 8-12 yrs (Apex skilled artisan cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Junior Engineer (JE) / Workshop Superintendent",
+        "pay_level": "Level 6",
+        "years": "approx. 12-16 yrs (via 25% LDCE / promotional quota for eligible technicians)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Senior Section Engineer (SSE)",
+        "pay_level": "Level 7",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Assistant Divisional Engineer / Assistant Workshop Manager (AEN / AWM / AEE)",
+        "pay_level": "Level 8 / Level 9 (Group B Gazetted)",
+        "years": "approx. 24-28 yrs (via 70% seniority or 30% LDCE quota)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under RRB CEN 02/2024, recruitment is conducted through post-specific single-stage Computer Based Tests (CBTs): a dedicated technical CBT for Technician Grade I Signal (Level 5) and a trade-relevant CBT for Technician Grade III (Level 2). Each test comprises 100 multiple-choice questions for 100 marks over 90 minutes. Penalty of 1/3 (0.33) marks applies for every incorrect answer. Shortlisted candidates proceed to Document Verification (DV) and Medical Examination in Railway Hospitals.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT) — Technician Grade I Signal (Pay Level 5)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "RRB — Centralized Employment Notice (CEN) No. 02/2024, Scheme of CBT for Technician Grade I Signal",
+        "papers": [
+          {
+            "paper_name": "General Awareness",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum pass: UR/EWS 40%, OBC(NCL) 30%, SC 30%, ST 25%"
+          },
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 15,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Basics of Computers and Applications",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Basic Science and Engineering",
+            "marks": 35,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Based Test (CBT) — Technician Grade III (Pay Level 2)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "RRB — Centralized Employment Notice (CEN) No. 02/2024, Scheme of CBT for Technician Grade III",
+        "papers": [
+          {
+            "paper_name": "Mathematics",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum pass: UR/EWS 40%, OBC(NCL) 30%, SC 30%, ST 25%"
+          },
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Science",
+            "marks": 40,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://rrbsecunderabad.gov.in",
+    "pay_source_label": "Railway Recruitment Boards — CEN No. 02/2024, Pay Scale for Technician Grade III (Level 2)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 46000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 40000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 2 entry basic pay (₹19,900) for Technician Grade III with 58% DA (₹11,542), HRA (9%/18%/27%), and Transport Allowance. For Technician Grade I Signal (Pay Level 5, entry basic ₹29,200), initial gross salary ranges from ₹51,000 to ₹64,000 with in-hand pay between ₹44,000 and ₹56,000. Workshop staff also receive workshop incentive bonus allowances.",
+    "official_perks": [
+      "All-India free Railway Privilege Passes and Privilege Ticket Orders (PTOs) for self and family",
+      "Free medical care in dedicated Indian Railway Hospitals and Health Units",
+      "Railway residential quarters or House Rent Allowance (9%/18%/27% as per city classification)",
+      "Night Duty Allowance (NDA) and National Holiday Allowance (NHA) for operational shifts",
+      "Monthly workshop incentive bonus / production bonus in manufacturing and repair workshops",
+      "Contributory social security under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "RRB Technician is one of the most widely taken industrial technical recruitments in India. CEN 02/2024 originally advertised 9,144 vacancies across 21 Railway Recruitment Boards, later enhanced to 14,298 vacancies across 40 specialized trades. In the previous combined CEN 01/2018 recruitment drive, over 47 lakh candidates competed for ALP and Technician posts.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 14298,
+        "confidence": "verified",
+        "as_of": "2024-09-02",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — CEN 02/2024 Vacancy Revision Notice: Enhanced from 9,144 to 14,298 posts (Gr I Signal: 1,092; Gr III: 13,206)."
+      },
+      {
+        "year": 2018,
+        "applicants": 4756000,
+        "vacancies": 36576,
+        "confidence": "reported",
+        "as_of": "2018-02-03",
+        "source_url": "https://indianrailways.gov.in",
+        "source_label": "Ministry of Railways — CEN 01/2018 (Combined ALP & Technician: 36,576 Technician posts out of 64,371 total vacancies, 47.56 lakh applicants appeared)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Indian Railways Railway Recruitment Board portals.",
+    "links": [
+      {
+        "label": "Railway Recruitment Boards Central Notification Hub",
+        "url": "https://indianrailways.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "RRB Secunderabad — CEN 02/2024 Technician Portal",
+        "url": "https://rrbsecunderabad.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Railway Recruitment Board Unified Regional Portal",
+        "url": "https://rrb.indianrailways.gov.in/mumbai",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

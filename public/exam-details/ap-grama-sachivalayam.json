@@ -1,0 +1,199 @@
+{
+  "id": "ap-grama-sachivalayam",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Panchayat Secretary Grade-V and allied village/ward secretariat functionaries are grassroots administrative appointments governed by the Andhra Pradesh Panchayat Subordinate Service Rules and municipal service rules. Functionaries serve a 2-year mandatory probation period at a consolidated stipend, after which they are regularized into regular time scales upon passing departmental tests (Panchayat Subordinate Service tests and Accounts Test for Subordinate Officers).",
+    "steps": [
+      {
+        "designation": "Panchayat Secretary Grade-V / Ward Administrative Secretary (Entry Level)",
+        "pay_level": "AP PRC 2022 Scale 4 (₹22,460 - ₹72,810)",
+        "years": "0-4 yrs",
+        "confidence": "verified",
+        "as_of": "2022-06-28",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "G.O.Ms.No.110 PR&RD Dept dt 19.07.2019 read with G.O.Ms.No.114 Finance (PC-TA) Dept dt 28.06.2022"
+      },
+      {
+        "designation": "Panchayat Secretary Grade-IV / Senior Assistant (Cluster / Mandal Office)",
+        "pay_level": "AP PRC 2022 Scale 7 (₹25,220 - ₹80,910)",
+        "years": "4-9 yrs",
+        "confidence": "reported",
+        "as_of": "2022-06-28",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "Andhra Pradesh Panchayat Subordinate Service Rules (Promotion to Grade-IV Cadre)"
+      },
+      {
+        "designation": "Panchayat Secretary Grade-II / Grade-I / Mandal Extension Officer (PR&RD)",
+        "pay_level": "AP PRC 2022 Scale 11 (₹34,580 - ₹1,07,210)",
+        "years": "9-15 yrs",
+        "confidence": "reported",
+        "as_of": "2022-06-28",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP PR&RD Subordinate Service Rules (Supervisory Field Cadre)"
+      },
+      {
+        "designation": "Mandal Parishad Development Officer (MPDO) / Divisional Panchayat Officer (DLPO)",
+        "pay_level": "AP PRC 2022 Scale 18 (₹54,060 - ₹1,40,540)",
+        "years": "15-22 yrs",
+        "confidence": "reported",
+        "as_of": "2022-06-28",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP Panchayat Raj Service Rules — State Gazetted Administrative Cadre"
+      },
+      {
+        "designation": "District Panchayat Officer (DPO) / Deputy Commissioner (PR&RD)",
+        "pay_level": "AP PRC 2022 Scale 21 (₹61,960 - ₹1,51,370)",
+        "years": "22+ yrs",
+        "confidence": "reported",
+        "as_of": "2022-06-28",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP State PR&RD Department Executive Service Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment is conducted through an offline objective OMR-based Written Examination comprising 150 multiple choice questions for 150 marks over 150 minutes. Penalty of 0.25 (1/4th) mark applies for every incorrect answer. Shortlisted candidates are called for Certificate Verification in a 1:2 ratio based on district-wise merit lists.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Type, OMR Based)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2020-01-10",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP Village & Ward Secretariat Recruitment Notification No. 01/2020",
+        "papers": [
+          {
+            "paper_name": "Part-A: General Studies and Mental Ability",
+            "marks": 75,
+            "duration_minutes": 75,
+            "negative_marking": "0.25 (1/4th) mark penalized per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for OC, 35% for BC, 30% for SC/ST/PH"
+          },
+          {
+            "paper_name": "Part-B: General Studies Part-II (History, Polity, Society, Economy, Geography of AP & Rural Development)",
+            "marks": 75,
+            "duration_minutes": 75,
+            "negative_marking": "0.25 (1/4th) mark penalized per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for OC, 35% for BC, 30% for SC/ST/PH"
+          }
+        ]
+      },
+      {
+        "stage_name": "Certificate Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2020-01-10",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP Village & Ward Secretariat Recruitment Guidelines (District Selection Committee)",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Original Academic Credentials, Caste & Residence Certificates",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Strictly qualifying / verification of eligibility in 1:2 ratio"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Functionaries serve a mandatory 2-year probation during which they receive a consolidated honorarium of ₹15,000 per month (as prescribed under G.O.Ms.No.110 PR&RD Dept dated 19.07.2019). Following successful completion of probation and clearing departmental tests, employees are regularized into Andhra Pradesh Revised Pay Scales 2022 (RPS 2022 / 11th PRC) Scale 4 (₹22,460 - ₹72,810) vide G.O.Ms.No.114 Finance (PC-TA) Dept dated 28.06.2022.",
+    "pay_level": "AP PRC 2022 Scale 4 (₹22,460 - ₹72,810)",
+    "entry_basic_pay": 22460,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-06-28",
+    "pay_source_url": "https://gramawardsachivalayam.ap.gov.in",
+    "pay_source_label": "G.O.Ms.No.114 Finance (PC-TA) Dept dt 28.06.2022 read with G.O.Ms.No.110 PR&RD Dept",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 43000
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 38000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on regularized AP PRC 2022 Scale 4 entry basic pay of ₹22,460 with standardized 58% Dearness Allowance plus HRA (8% to 16% depending on village/mandal/district category); in-hand calculation deducts 10% CPS/NPS, APGLI/GIS, and Professional Tax (₹200). Initial 2-year probation receives consolidated stipend of ₹15,000/month.",
+    "official_perks": [
+      "House Rent Allowance (HRA) as per AP PRC 2022 categorization (8% for rural mandals up to 16% for urban areas)",
+      "Contributory Pension Scheme (CPS) / Andhra Pradesh Guaranteed Pension Scheme (APGPS) upon regularization",
+      "Andhra Pradesh Employees Health Scheme (EHS) cashless medical coverage for employee and family",
+      "Earned leave, half-pay leave, and maternity leave benefits as per AP State Fundamental Rules",
+      "Leave Travel Concession (LTC) within Andhra Pradesh as per state government entitlements"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Data verified from official Andhra Pradesh Village and Ward Secretariat recruitment records and Department of PR&RD press announcements.",
+    "years": [
+      {
+        "year": 2020,
+        "applicants": 1056931,
+        "vacancies": 16208,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 65 (calculated: 10,56,931 registered applicants ÷ 16,208 total notified vacancies across 19 categories)",
+        "confidence": "verified",
+        "as_of": "2020-09-20",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP Village & Ward Secretariat Notification No. 01/2020 Official Candidate Statistics (7,69,034 appeared across 13 districts)"
+      },
+      {
+        "year": 2019,
+        "applicants": 2169819,
+        "vacancies": 126728,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 17 (calculated: 21,69,819 registered applicants ÷ 1,26,728 notified rural and urban vacancies)",
+        "confidence": "verified",
+        "as_of": "2019-09-19",
+        "source_url": "https://gramawardsachivalayam.ap.gov.in",
+        "source_label": "AP Grama/Ward Sachivalayam Mega Recruitment 2019 Official Results (19,50,000+ appeared; 1,98,164 candidates qualified written tests)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official administrative portals and policy documentation for Andhra Pradesh Village and Ward Secretariats.",
+    "links": [
+      {
+        "label": "AP Grama / Ward Sachivalayam Official Portal",
+        "url": "https://gramawardsachivalayam.ap.gov.in",
+        "type": "notification",
+        "cycle_label": "GSWS Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Village & Ward Secretariat Central Departmental Portal",
+        "url": "https://sgsw.ap.gov.in/GSWS/Home/Main",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "GSWS Central Public Dashboard & Functionary Statistics",
+        "url": "https://sgsw.ap.gov.in/GSWSDASHBOARD/#!/DashBoardReports",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "GSWS Governance & Data Privacy Policy (Official Document)",
+        "url": "https://images.gsws.ap.gov.in/portalUploads/Others/Data%20Privacy%20Policy-GSWS.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-12-22"
+      }
+    ]
+  }
+}

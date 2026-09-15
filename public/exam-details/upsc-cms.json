@@ -1,0 +1,194 @@
+{
+  "id": "upsc-cms",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression applies to Medical Officers in the Central Health Service (CHS) and Assistant Divisional Medical Officers (ADMO) in Indian Railways. Medical officers are eligible for Dynamic Assured Career Progression (DACP) scheme time-scale upgrades up to Senior Administrative Grade without linkage to vacancies.",
+    "steps": [
+      {
+        "designation": "Medical Officer / General Duty Medical Officer (GDMO) / ADMO",
+        "pay_level": "Level 10 (+ 20% NPA)",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Senior Medical Officer (SMO) / Divisional Medical Officer (DMO)",
+        "pay_level": "Level 11 (+ 20% NPA)",
+        "years": "approx. 4 yrs under DACP",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Medical Officer (CMO) / Senior Divisional Medical Officer (Sr. DMO)",
+        "pay_level": "Level 12 (+ 20% NPA)",
+        "years": "approx. 9 yrs under DACP",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Medical Officer (NFSG) / Additional Chief Medical Superintendent",
+        "pay_level": "Level 13 (+ 20% NPA)",
+        "years": "approx. 13-14 yrs under DACP",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Senior Administrative Grade (SAG) / Chief Medical Superintendent",
+        "pay_level": "Level 14 (+ 20% NPA)",
+        "years": "approx. 20 yrs under DACP",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Director General of Health Services (DGHS) / Principal Executive Director (Health)",
+        "pay_level": "Level 16 / 17 (+ NPA)",
+        "years": "Apex Scale / Head of Service",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Combined Medical Services Examination consists of two parts: Part I Computer-Based Examination (two objective papers, 250 marks each = 500 marks total) and Part II Personality Test / Interview (100 marks) for a total aggregate of 600 marks. In Part I objective questions, one-third (0.33) marks are deducted as penalty for each wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Part I: Computer Based Written Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-11",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf",
+        "source_label": "UPSC — Examination Notice No. 09/2026-CMS, Appendix-I (Scheme of Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Medicine (96 questions) & Paediatrics (24 questions)",
+            "marks": 250,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Surgery (40 questions), Gynaecology & Obstetrics (40 questions), Preventive & Social Medicine (40 questions)",
+            "marks": 250,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Part II: Personality Test (Interview)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-03-11",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf",
+        "source_label": "UPSC — Examination Notice No. 09/2026-CMS, Appendix-I (Personality Test)",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 105000, "max": 128000 },
+    "in_hand_range_estimate": { "min": 90000, "max": 110000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Medical officers receive a statutory Non-Practicing Allowance (NPA) of 20% of basic pay (₹11,220 at entry). Dearness Allowance at 58% is calculated on Basic Pay + NPA. Gross and in-hand ranges include NPA, HRA, and Transport Allowance.",
+    "official_perks": [
+      "Non-Practicing Allowance (NPA) at 20% of Basic Pay",
+      "Government medical officer quarters or House Rent Allowance (27%/18%/9%)",
+      "Annual Book and Equipment Allowance for medical literature",
+      "Study leave and academic sponsorship for post-graduate medical qualifications",
+      "Comprehensive medical coverage under Central Government Health Scheme (CGHS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for 2026 were read directly in UPSC's official Examination Notice No. 09/2026-CMS (dated 11.03.2026: 1,358 total posts across CHS GDMO: 864, Railways ADMO: 450, NDMC GDMO: 14, MCD GDMO-II: 30). The 2025 vacancy figure of 1,261 is reported from UPSC's 2025 notification.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 1358,
+        "confidence": "verified",
+        "as_of": "2026-03-11",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf",
+        "source_label": "UPSC — Examination Notice No. 09/2026-CMS: 1,358 total vacancies across Category I CHS GDMO (864) and Category II Railways ADMO (450), NDMC (14), MCD (30) — read directly, figures quoted verbatim."
+      },
+      {
+        "year": 2025,
+        "vacancies": 1261,
+        "confidence": "reported",
+        "as_of": "2025-04-10",
+        "source_label": "UPSC — Examination Notice No. 08/2025-CMS: 1,261 vacancies reported across Central Health Service and municipal/railway medical cadres."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official UPSC downloads for Combined Medical Services Examination. The 2026 Notification and Written Result Name List PDFs have been verified live on upsc.gov.in.",
+    "links": [
+      {
+        "label": "Combined Medical Services Examination, 2026 — Official Notification",
+        "url": "https://www.upsc.gov.in/sites/default/files/Notification-CMSE-2026-English-110326.pdf",
+        "type": "notification",
+        "cycle_label": "CMS-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-11"
+      },
+      {
+        "label": "Combined Medical Services Examination, 2026 — Written Result Qualified Name List",
+        "url": "https://www.upsc.gov.in/sites/default/files/WR-NameList-CMSE-2026-Engl-010926.pdf",
+        "type": "other",
+        "cycle_label": "CMS-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-01"
+      },
+      {
+        "label": "Previous Year Question Papers — Combined Medical Services",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Combined+Medical+Services",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

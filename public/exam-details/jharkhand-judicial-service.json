@@ -1,0 +1,285 @@
+{
+  "id": "jharkhand-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Jharkhand are appointed as Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC) under the Jharkhand Judicial Service (Recruitment and Conditions of Service) Rules. Remuneration and promotion stages follow the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Officers advance through Assured Career Progression (ACP) increments at 5-year intervals and promotional cadres up to the High Court of Jharkhand.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520; unrevised ₹27,700 - ₹44,770)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-08-14",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "source_label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 & SNJPC Pay Matrix"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Jharkhand"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) / ACJM",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Jharkhand"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "years": "approx. 15 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Jharkhand"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Jharkhand"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade)",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Jharkhand"
+      },
+      {
+        "designation": "District & Sessions Judge (Super Time Scale / Principal District Judge)",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Jharkhand"
+      },
+      {
+        "designation": "Elevation to High Court Judge (High Court of Jharkhand, Ranchi)",
+        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "years": "Constitutional Elevation",
+        "confidence": "verified",
+        "as_of": "2018-01-01",
+        "source_url": "https://jharkhandhighcourt.nic.in",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Amendment Act; Article 217, Constitution of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jharkhand Judicial Service (Civil Judge Junior Division) Examination is conducted in three successive stages: Preliminary Entrance Test (Objective Type screening of 100 marks), Main Examination (Conventional descriptive written test across 4 papers of 100 marks each, 400 marks total), and Viva-Voce Test (100 marks). Final merit list is prepared on the combined aggregate of Main Examination and Viva-Voce (out of 500 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Entrance Test (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-08-14",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "source_label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 Notification & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Preliminary Entrance Test (Objective Type General English, GK & Core Laws)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (1 mark per correct answer; 0 mark penalty for incorrect responses)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test to shortlist candidates up to 15 times the total vacancies category-wise for the Main Examination. Marks do not count for final merit."
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Subjective / Descriptive Written)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-08-14",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "source_label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 Notification & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper I: Procedural Law (CPC 1908 & CrPC 1973), Indian Penal Code 1860, Indian Evidence Act 1872 & Limitation Act 1963",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          },
+          {
+            "paper_name": "Paper II: Law of Contract 1872, Sale of Goods Act 1930, Negotiable Instruments Act 1881, Arbitration and Conciliation Act 1996 & Transfer of Property Act 1882",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          },
+          {
+            "paper_name": "Paper III: Hindu Law and Mohammedan Law, Rent Control Law, Specific Relief Act 1963 & Jurisprudence",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          },
+          {
+            "paper_name": "Paper IV: Language (Hindi & English — Essay, Precis Writing, Translation & Paraphrase)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce Test (Personality & Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-08-14",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "source_label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 Notification & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce Test (Oral Interview)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 25% (25 marks out of 100) for General / EWS candidates; 20% (20 marks out of 100) for SC/ST/EBC & BC candidates. Failure to secure the minimum threshold disqualifies the candidate irrespective of Main written marks."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Jharkhand receive remuneration governed by the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. While JPSC Advertisement No. 22/2023 specifies the unrevised pay scale of ₹27,700–44,770, judicial appointments in Jharkhand are placed in the revised SNJPC Pay Scale Level J-1 (₹77,840–₹1,36,520).",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520; unrevised ₹27,700 - ₹44,770)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-08-14",
+    "pay_source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+    "pay_source_label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 & SNJPC Recommendations in WP(C) 643/2015",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 125000,
+      "max": 150000
+    },
+    "in_hand_range_estimate": {
+      "min": 108000,
+      "max": 130000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Level J-1 entry basic ₹77,840 + 58% DA (₹45,147) + judicial HRA (8%–16% or official government judicial bungalow) + judicial sumptuary, robe, medical, conveyance, and domestic help allowances. In-hand estimate reflects standard statutory deductions including 10% NPS (Basic + DA), GIS, and Professional Tax.",
+    "official_perks": [
+      "Official designated judicial residence / government bungalow in posting district",
+      "Sumptuary allowance and robe allowance per SNJPC recommendations",
+      "Conveyance allowance / official vehicle with driver and fuel entitlement",
+      "Medical facilities and reimbursement for officer and dependent family members",
+      "Electricity and water charge reimbursement up to prescribed monthly units",
+      "Residential orderly / attendant allowance and telephone/broadband reimbursement"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics sourced from JPSC Advertisements, Examination Calendars, and official Press Releases for Jharkhand Judicial Service Civil Judge (Junior Division) recruitment.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": 138,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-03-10",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "source_label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 Notification (PT conducted 10 March 2024; 138 vacancies: UNR 60, ST 28, SC 12, BC-I 10, BC-II 15, EWS 13)"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 138,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-08-14",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "source_label": "JPSC Advt. No. 22/2023 Notification Release"
+      },
+      {
+        "year": 2018,
+        "applicants": null,
+        "vacancies": 107,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2018-11-20",
+        "source_url": "https://www.jpsc.gov.in",
+        "source_label": "JPSC Civil Judge (Junior Division) Advt. No. 04/2018 Recruitment Cycle"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notification, application portal, examination calendar, and official commission links for Jharkhand Judicial Service.",
+    "links": [
+      {
+        "label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 Notification PDF",
+        "url": "https://www.jpsc.gov.in/data/Advertisement_22_23_dated_14_08_2023.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-22/2023",
+        "confidence": "verified",
+        "as_of": "2023-08-14"
+      },
+      {
+        "label": "JPSC 2026 Examination Calendar (Mains Schedule for Advt. No. 22/2023)",
+        "url": "https://www.jpsc.gov.in/data/Exam_Calendar_2026_dtd_09_07_2026.pdf",
+        "type": "other",
+        "cycle_label": "Calendar-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-09"
+      },
+      {
+        "label": "JPSC Civil Judge (Junior Division) Advt. No. 22/2023 Candidate Portal",
+        "url": "https://www.jpsc.gov.in/Civil_judge_junior_division_22_2023/login.php",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "High Court of Jharkhand Ranchi Official Portal",
+        "url": "https://jharkhandhighcourt.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "JPSC Official Website Portal",
+        "url": "https://www.jpsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

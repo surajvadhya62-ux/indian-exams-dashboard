@@ -1,0 +1,185 @@
+{
+  "id": "rbi-office-attendant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Office Attendants in the Reserve Bank of India belong to Class IV cadre (subordinate staff) responsible for office administration, document logistics, and operational maintenance across RBI Central Office and Regional Offices nationwide. Employees can advance through structured internal promotional examinations into Class III (clerical cadre) and subsequently into Class I (officer cadre).",
+    "steps": [
+      {
+        "designation": "Office Attendant (Class IV)",
+        "pay_level": "Class IV (Starting basic ₹24,250)",
+        "years": "Entry level (probation 6 months)",
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India — Recruitment for the Post of Office Attendants Notification / Class IV Staff Regulations"
+      },
+      {
+        "designation": "Senior Office Attendant / Special Office Attendant",
+        "pay_level": "Class IV (Senior Scale)",
+        "years": "approx. 4-6 yrs",
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Staff Regulations — Class IV Promotion Framework"
+      },
+      {
+        "designation": "Assistant (Class III Clerical Cadre)",
+        "pay_level": "Class III (Assistant Scale)",
+        "years": "approx. 5-8 yrs (via internal departmental examination)",
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Internal Promotion Policy (Class IV to Class III conversion)"
+      },
+      {
+        "designation": "Assistant Manager (Grade A — Officer Cadre)",
+        "pay_level": "Class I (Grade A)",
+        "years": "approx. 12-15 yrs (via LDCE / Merit Promotion)",
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Officer Promotion Regulations"
+      },
+      {
+        "designation": "Manager (Grade B)",
+        "pay_level": "Class I (Grade B)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Officer Promotion Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Office Attendant in Reserve Bank of India is conducted in two successive stages: an Online Objective Examination (120 marks, 90 minutes) followed by a Language Proficiency Test (LPT) in the official/local language of the state concerned. The LPT is mandatory and qualifying in nature; final selection is based strictly on the merit score secured in the online examination.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Online Objective Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India — Recruitment of Office Attendants Notification (Scheme of Selection)",
+        "papers": [
+          {
+            "paper_name": "Reasoning",
+            "marks": 30,
+            "duration_minutes": 22,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate cutoff benchmarks"
+          },
+          {
+            "paper_name": "General English",
+            "marks": 30,
+            "duration_minutes": 22,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate cutoff benchmarks"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 30,
+            "duration_minutes": 23,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate cutoff benchmarks"
+          },
+          {
+            "paper_name": "Numerical Ability",
+            "marks": 30,
+            "duration_minutes": 23,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate cutoff benchmarks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Language Proficiency Test (LPT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India — Recruitment of Office Attendants Notification (LPT Stage)",
+        "papers": [
+          {
+            "paper_name": "Language Proficiency Test (in Local/State Language of the recruitment zone)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; mandatory for appointment (testing reading, writing, and speaking ability)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Office Attendants receive basic pay starting at ₹24,250 per month under the revised RBI Class IV wage settlement (earlier starting basic pay ₹10,940 in scale ₹10940-380(4)-12460-440(3)-13780-520(3)-15340-690(2)-16720-740(4)-19680-840(3)-22200-1120(1)-23700). Initial monthly gross emoluments are approximately ₹42,000 to ₹46,000 per month.",
+    "pay_level": "Class IV (Office Attendant Scale)",
+    "entry_basic_pay": 24250,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-02-24",
+    "pay_source_url": "https://opportunities.rbi.org.in",
+    "pay_source_label": "Reserve Bank of India — Recruitment of Office Attendants Notification (Salary & Emoluments)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 40000, "max": 46000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 39000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on revised entry basic pay of ₹24,250 plus applicable Dearness Allowance, House Rent Allowance (15% if Bank quarters not allotted), Special Allowance, Grade Allowance, and Local Compensatory Allowance; net salary factors in standard pension and provident fund contributions.",
+    "official_perks": [
+      "Bank accommodation (subject to availability) or 15% House Rent Allowance",
+      "Comprehensive medical dispensary facilities and hospitalization reimbursement",
+      "Defined contribution pension scheme under Reserve Bank of India Pension Regulations",
+      "Leave Travel Concession (LTC) and festival advance provisions",
+      "Subsidized canteen facilities, book grant, and washing allowance"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment for Office Attendants in RBI is conducted periodically across 17 regional office zones. In the 2021 pan-India recruitment, a total of 841 vacancies were notified across regional offices.",
+    "years": [
+      {
+        "year": 2021,
+        "vacancies": 841,
+        "confidence": "verified",
+        "as_of": "2021-02-24",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India — Recruitment for 841 Posts of Office Attendants in RBI Notification 2021"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and announcements of the Reserve Bank of India.",
+    "links": [
+      {
+        "label": "RBI Opportunities Portal",
+        "url": "https://opportunities.rbi.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Reserve Bank of India Official Portal",
+        "url": "https://www.rbi.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

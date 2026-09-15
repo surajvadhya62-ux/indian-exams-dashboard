@@ -1,0 +1,152 @@
+{
+  "id": "grse-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive cadre progression in Garden Reach Shipbuilders & Engineers Limited, Kolkata.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Technical / Finance / HR)",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "Training (1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE Employment Notification HR/OP: 01/2024"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "approx. 1-3 yrs",
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE Employment Notification HR/OP: 01/2024"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-7 yrs",
+        "confidence": "reported",
+        "as_of": "2024-05-10",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE Executive Promotion Policy"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is via Computer Based Online Written Test (85 marks) followed by Personal Interview (15 marks).",
+    "stages": [
+      {
+        "stage_name": "Online Written Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE MT Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Part A: Discipline Knowledge (60 MCQs) & Part B: General Aptitude (25 MCQs)",
+            "marks": 85,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "General: 50%, SC/ST/OBC: 40%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE MT Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Personal Interview at GRSE Main Unit, Kolkata",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "15% weightage (shortlisted in 1:5 ratio)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by 3rd CPSE Pay Revision IDA Scale.",
+    "pay_level": "E-1 Grade (IDA Scale ₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-05-10",
+    "pay_source_url": "https://grse.in/careers/",
+    "pay_source_label": "GRSE Employment Notification HR/OP: 01/2024",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 77000,
+      "max": 87000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic ₹40,000, 58% IDA DA (₹23,200), HRA (₹3,600 to ₹10,800), and cafeteria allowances.",
+    "official_perks": [
+      "Quarterly revised Industrial Dearness Allowance (IDA)",
+      "House Rent Allowance (HRA) or company accommodation in Kolkata",
+      "Cafeteria approach perks and allowances up to 35% of basic pay",
+      "Provident Fund, Gratuity, and Post-Retirement Medical Benefit",
+      "Performance Related Pay (PRP) as per DPE norms"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Management Trainee vacancies advertised by GRSE Kolkata.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 50,
+        "confidence": "verified",
+        "as_of": "2024-05-10",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE Employment Notification HR/OP: 01/2024"
+      },
+      {
+        "year": 2022,
+        "vacancies": 38,
+        "confidence": "verified",
+        "as_of": "2022-07-01",
+        "source_url": "https://grse.in/careers/",
+        "source_label": "GRSE Notification HR/OP: 01/2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on GRSE portal.",
+    "links": [
+      {
+        "label": "GRSE Career Openings",
+        "url": "https://grse.in/careers/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "GRSE Official Website",
+        "url": "https://grse.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

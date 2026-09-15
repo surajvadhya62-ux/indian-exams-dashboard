@@ -1,0 +1,199 @@
+{
+  "id": "bhel-artisan",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Artisans and ITI Trade Trainees in Bharat Heavy Electricals Limited (BHEL) advance through the manufacturing shop floor workman hierarchy based on plant trade tests, service seniority, and wage agreement revisions.",
+    "steps": [
+      {
+        "designation": "Artisan / ITI Trade Trainee (Welder / Fitter / Electrician / Machinist)",
+        "pay_level": "Wage Grade W-IV (₹29,500 – ₹62,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Artisan Recruitment Advertisement and Wage Revision Agreement"
+      },
+      {
+        "designation": "Artisan Grade IV",
+        "pay_level": "Wage Grade W-IV (₹29,500 – ₹62,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Workman Cadre Rules (Regularization upon training completion)"
+      },
+      {
+        "designation": "Artisan Grade III",
+        "pay_level": "Wage Grade W-V (₹31,200 – ₹66,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Workman Promotion Policy"
+      },
+      {
+        "designation": "Artisan Grade II",
+        "pay_level": "Wage Grade W-VI (₹33,000 – ₹70,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Manufacturing Division Rules"
+      },
+      {
+        "designation": "Artisan Grade I",
+        "pay_level": "Wage Grade W-VII (₹35,000 – ₹75,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Senior Artisan Cadre"
+      },
+      {
+        "designation": "Master Artisan / Senior Artisan",
+        "pay_level": "Wage Grade W-VIII (₹37,500 – ₹82,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Technical Workman Hierarchy"
+      },
+      {
+        "designation": "Assistant Foreman / Supervisor",
+        "pay_level": "Supervisory Grade S-1 / S-2 (₹32,000 – ₹1,00,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Workman-to-Supervisor Promotion Quota Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment selection consists of a Computer Based Test (CBT) followed by a Trade / Skill Test. The written CBT carries 150 questions testing vocational trade curriculum and general aptitude. The trade test is qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Artisan Examination Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part A: NCVT ITI Trade Domain Knowledge (Welder / Fitter / Electrician / Machinist / Turner)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for SC/ST/OBC/PwD"
+          },
+          {
+            "paper_name": "Part B: General Knowledge, General English, Basic Mathematics & Reasoning",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Trade / Skill Test (Practical Shop Floor Evaluation)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Trade Test Assessment Norms",
+        "papers": [
+          {
+            "paper_name": "Practical Trade Test on Work Bench / Machine Tool",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature (shortlisted at 1:3 ratio from CBT)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Wages are fixed in accordance with BHEL bipartite workman wage revision settlement. Artisans enter in Wage Grade W-IV with starting basic pay ₹29,500, mandatory 58% DA constant as of 2025-07-01, plant township housing, and manufacturing allowances.",
+    "pay_level": "Wage Grade W-IV (₹29,500 – ₹62,000)",
+    "entry_basic_pay": 29500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://careers.bhel.in",
+    "pay_source_label": "BHEL Workman Wage Agreement and Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 50000,
+      "max": 64000
+    },
+    "in_hand_range_estimate": {
+      "min": 44000,
+      "max": 56000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on Entry Basic Pay ₹29,500, 58% IDA (₹17,110), Plant Allowance, HRA (9%–18%) or BHEL Township housing (Trichy / Haridwar / Bhopal / Hyderabad), less statutory Provident Fund (12% Basic+DA) and ESIC/medical deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "Free / Subsidized Company Township Quarters in BHEL industrial townships",
+      "Plant Workman Allowances and Shift Allowance for factory shifts",
+      "Plant Performance Incentive / Production Bonus Scheme",
+      "Contributory Provident Fund, Gratuity, and Group Term Insurance",
+      "Comprehensive in-house hospital medical treatment at BHEL Main Hospital for employee and family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from BHEL Artisan recruitment drives.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 150,
+        "applicants": 48900,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 326",
+        "confidence": "reported",
+        "as_of": "2023-08-30",
+        "source_url": "https://careers.bhel.in",
+        "source_label": "BHEL Recruitment Notification Advt. No. 02/2023: 150 Artisan vacancies across Welder, Fitter and Machinist trades."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabus, and skill test call letters hosted on the BHEL Careers portal.",
+    "links": [
+      {
+        "label": "BHEL Official Careers Portal",
+        "url": "https://careers.bhel.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BHEL Corporate Recruitment Page",
+        "url": "https://www.bhel.com/recruitment",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BHEL Official Corporate Portal",
+        "url": "https://www.bhel.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

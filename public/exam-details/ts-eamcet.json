@@ -1,0 +1,114 @@
+{
+  "id": "ts-eamcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Telangana State Engineering, Agriculture and Pharmacy Common Entrance Test (TG EAPCET, formerly TS EAMCET) is conducted as a Computer Based Test (CBT) by Jawaharlal Nehru Technological University Hyderabad (JNTUH) on behalf of the Telangana Council of Higher Education (TGCHE). For the Engineering stream (MPC), the test comprises 160 multiple-choice questions (80 Mathematics, 40 Physics, 40 Chemistry) of 180 minutes (3 hours) duration. Each question carries 1 mark with no negative marking. The qualifying mark is 25% of the maximum marks (40 out of 160) for General and BC candidates; no minimum qualifying mark is prescribed for SC and ST candidates. Ranks are assigned purely on the basis of normalized marks scored in the Computer Based Test.",
+    "stages": [
+      {
+        "stage_name": "TG EAPCET Engineering Stream (MPC) Computer Based Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-26",
+        "source_url": "https://eapcet.tgche.ac.in/TGEAPCET/Doc2026/05%20I%20Booklet%20-%20E%20-%202026.pdf",
+        "source_label": "TGCHE & JNTUH — TG EAPCET 2026 Engineering Stream Instruction Booklet",
+        "papers": [
+          {
+            "paper_name": "Mathematics (Intermediate 1st & 2nd Year Standard)",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (40 out of 160) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Physics (Intermediate 1st & 2nd Year Standard)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (40 out of 160) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Chemistry (Intermediate 1st & 2nd Year Standard)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (40 out of 160) for General/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual candidate registration, appearance, and qualification figures reported by JNTUH and TGCHE during official results announcements for the Engineering stream across Telangana.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 254814,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,80,424 qualified out of 2,40,618 appeared in Engineering stream (74.98% qualification rate across engineering degree seats)",
+        "confidence": "reported",
+        "as_of": "2024-05-18",
+        "source_url": "https://eapcet.tgche.ac.in",
+        "source_label": "TGCHE & JNTUH TG EAPCET 2024 Official Results Declaration Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 205351,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,56,879 qualified out of 1,95,275 appeared in Engineering stream (80.34% qualification rate)",
+        "confidence": "reported",
+        "as_of": "2023-05-25",
+        "source_url": "https://eapcet.tgche.ac.in",
+        "source_label": "TSCHE & JNTUH TS EAMCET 2023 Official Results Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official instruction booklets, notifications, and syllabi issued by TGCHE and JNTU Hyderabad.",
+    "links": [
+      {
+        "label": "TG EAPCET Engineering Instruction Booklet (PDF)",
+        "url": "https://eapcet.tgche.ac.in/TGEAPCET/Doc2026/05%20I%20Booklet%20-%20E%20-%202026.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG EAPCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-26"
+      },
+      {
+        "label": "TG EAPCET Detailed Notification (PDF)",
+        "url": "https://eapcet.tgche.ac.in/TGEAPCET/Doc2026/Detailed%20Notification-2026.pdf",
+        "type": "notification",
+        "cycle_label": "TG EAPCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-26"
+      },
+      {
+        "label": "TG EAPCET Engineering Syllabus (PDF)",
+        "url": "https://eapcet.tgche.ac.in/TGEAPCET/Doc2026/Syllabus-E.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG EAPCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-26"
+      },
+      {
+        "label": "Official TG EAPCET Portal",
+        "url": "https://eapcet.tgche.ac.in",
+        "type": "other",
+        "cycle_label": "TG EAPCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

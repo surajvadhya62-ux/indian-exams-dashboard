@@ -1,0 +1,220 @@
+{
+  "id": "kerala-psc-ldc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Lower Division Clerks (LDC) / Clerks form the foundational ministerial executive cadre across departments of the Government of Kerala. Recruits enter at Pay Scale ₹26,500 - ₹60,700 and advance through Senior Clerk, Head Clerk, Junior Superintendent, and Senior Superintendent up to administrative gazetted posts upon passing the requisite Departmental Tests and Secretariat/Manual tests conducted by Kerala PSC.",
+    "steps": [
+      {
+        "designation": "Lower Division Clerk (LDC) / Clerk (District-wise Departmental Ministerial Postings)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹26,500 - ₹60,700)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Gazette Notification (Category No. 503/2023: Clerk / LDC Various Departments) & Kerala Service Rules (KSR)"
+      },
+      {
+        "designation": "Senior Clerk / Upper Division Clerk (UDC)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹35,600 - ₹75,400)",
+        "years": "approx. 3-5 yrs",
+        "confidence": "reported",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Ministerial Subordinate Service Rules & Personnel and Administrative Reforms Department (P&ARD)"
+      },
+      {
+        "designation": "Head Clerk / Junior Superintendent",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹43,400 - ₹91,200)",
+        "years": "approx. 8-12 yrs",
+        "confidence": "reported",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Ministerial Subordinate Service Rules & Kerala Public Service Commission Manual"
+      },
+      {
+        "designation": "Senior Superintendent / Lay Secretary / Office Superintendent",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹51,400 - ₹1,10,300)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "reported",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala State Subordinate & State Services Promotion Guidelines"
+      },
+      {
+        "designation": "Administrative Officer / Assistant Secretary / Under Secretary (Gazetted)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹59,300 - ₹1,20,900 to ₹65,200 - ₹1,26,400)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "General Administration Department (GAD), Government of Kerala Promotion Rosters"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Lower Division Clerk / Clerk across all 14 revenue districts is conducted through a two-stage examination process: Common Tenth Level Preliminary Examination (Objective OMR screening test carrying 100 marks) followed by the District-wise Main Written Examination (Objective OMR carrying 100 marks). Final district-wise ranked lists are prepared strictly on the basis of marks secured in the Main Written Examination.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Common Tenth Level Preliminary Examination (Objective OMR Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC Common Tenth Level Preliminary Examination Scheme & Syllabus (Advt. No. 503/2023)",
+        "papers": [
+          {
+            "paper_name": "Common Preliminary OMR Test (General Knowledge, Current Affairs, Renaissance in Kerala, Science, Simple Arithmetic, Mental Ability, General English & Regional Language)",
+            "marks": 100,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; district-wise cut-off marks determine eligibility for appearance in District Main Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: District-wise Main Written Examination (Objective OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-11-30",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC LDC District-wise Main Examination Scheme (Advt. No. 503/2023)",
+        "papers": [
+          {
+            "paper_name": "Part I: General Knowledge, Current Affairs & Renaissance in Kerala",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II: Simple Arithmetic & Mental Ability",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III: General English",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part IV: Regional Language (Malayalam / Tamil / Kannada)",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Lower Division Clerks in Kerala State Government service are remunerated under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) at Pay Scale ₹26,500 - ₹60,700 with entry basic pay of ₹26,500.",
+    "pay_level": "Kerala 11th Pay Revision Scale (₹26,500 - ₹60,700)",
+    "entry_basic_pay": 26500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-11-30",
+    "pay_source_url": "https://www.keralapsc.gov.in/notifications",
+    "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 503/2023 & Kerala Government 11th Pay Revision Order",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 43500, "max": 46000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 41000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹26,500 with project standard 58% DA (effective 1 Jul 2025, ₹15,370) plus House Rent Allowance (Class A Corporation ₹2,650, Class B Municipalities ₹1,800, Class C Panchayats ₹1,200) and medical allowance (₹500/month); net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹4,187), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), and Professional Tax.",
+    "official_perks": [
+      "Government housing quarters allotment or House Rent Allowance based on district station",
+      "Cashless hospitalization coverage up to ₹3 lakh per annum under the Kerala Government MEDISEP scheme",
+      "Earned leave, casual leave, and maternity/paternity leave benefits under Kerala Service Rules (KSR)",
+      "Festival allowance / Onam bonus and special festival advance",
+      "Subsidized departmental loans and welfare fund assistance"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, screening, and appointment statistics for Kerala PSC LDC across all 14 revenue districts sourced from Kerala PSC annual reports, press releases, and district ranked lists.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 1450000,
+        "vacancies": 8500,
+        "shortlisted_for_mains": 122000,
+        "selectivity_ratio": "approx. 1 in 170 (calculated: 14.5 lakh applicants across 14 districts ÷ ~8,500 anticipated advice over 3-year ranked list validity; Category No. 503/2023)",
+        "confidence": "reported",
+        "as_of": "2024-08-10",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Tenth Level Preliminary & District-wise LDC 2023 Examination Releases"
+      },
+      {
+        "year": 2019,
+        "applicants": 1780000,
+        "vacancies": 11850,
+        "shortlisted_for_mains": 140000,
+        "selectivity_ratio": "approx. 1 in 150 (calculated: 17.8 lakh total applications received for Cat. No. 207/2019 ÷ 11,850 final advice made over 3-year ranked list validity across 14 districts)",
+        "confidence": "verified",
+        "as_of": "2022-08-01",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC LDC 2019 (Category No. 207/2019) Ranked List Notifications brought into force from August 2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, syllabi, and model answer keys for Kerala PSC Lower Division Clerk examinations hosted on Kerala PSC official servers.",
+    "links": [
+      {
+        "label": "Kerala PSC Official Portal",
+        "url": "https://www.keralapsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Thulasi Application Portal",
+        "url": "https://thulasi.psc.kerala.gov.in/thulasi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Notifications Archive",
+        "url": "https://www.keralapsc.gov.in/notifications",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Common Tenth Level & LDC Syllabus Archive",
+        "url": "https://www.keralapsc.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Previous Question Papers Archive",
+        "url": "https://www.keralapsc.gov.in/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

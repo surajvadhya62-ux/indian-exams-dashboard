@@ -1,0 +1,207 @@
+{
+  "id": "rrb-paramedical",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "RRB Paramedical recruits clinical healthcare professionals across Indian Railways' extensive network of Central Hospitals, Divisional Hospitals, Sub-Divisional Hospitals, and Health Units. Nursing Superintendents and allied paramedical specialists advance into supervisory, chief, and gazetted healthcare administrative leadership positions.",
+    "steps": [
+      {
+        "designation": "Nursing Superintendent",
+        "pay_level": "Level 7",
+        "years": "Entry level (probation 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-08-17",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — Centralized Employment Notice (CEN) No. 04/2024 (Paramedical Categories)"
+      },
+      {
+        "designation": "Senior Nursing Superintendent",
+        "pay_level": "Level 8",
+        "years": "approx. 5-8 yrs (cadre promotion)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Chief Nursing Superintendent",
+        "pay_level": "Level 9 / Level 10",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Assistant Nursing Officer (ANO) / Matron-in-Charge",
+        "pay_level": "Level 10 (Group B/A Gazetted)",
+        "years": "approx. 18-22 yrs (Gazetted hospital administration)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Chief Nursing Officer (CNO) / Chief Healthcare Administrator",
+        "pay_level": "Level 11 (Senior Time Scale)",
+        "years": "approx. 24-28 yrs (Apex divisional/zonal hospital cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under RRB CEN 04/2024, recruitment is conducted through a single-stage Computer Based Test (CBT) followed by Document Verification and Medical Examination. The CBT consists of 100 objective questions totaling 100 marks with a duration of 90 minutes (120 minutes for eligible PwBD candidates). The scheme places heavy 70% weightage on Professional Ability (domain medical/technical subject), with 1/3 (0.33) marks deducted for every incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Single-Stage Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-17",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — Centralized Employment Notice (CEN) No. 04/2024, Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Professional Ability (Discipline Core Medical Subject)",
+            "marks": 70,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying mark in CBT: UR/EWS 40%, OBC(NCL) 30%, SC 30%, ST 25%"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Arithmetic, General Intelligence and Reasoning",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Science",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification and Medical Fitness Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-08-17",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — CEN No. 04/2024, Document Verification and Medical Standards",
+        "papers": [
+          {
+            "paper_name": "Verification of Nursing / Pharmacy Registrations and Hospital Medical Standards (C-1 / B-1)",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fitness in prescribed medical standard (C-1 for Nursing Superintendent, B-1 for Health Inspector)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-08-17",
+    "pay_source_url": "https://rrbsecunderabad.gov.in",
+    "pay_source_label": "Railway Recruitment Boards — CEN No. 04/2024, Pay Scale for Nursing Superintendent (Level 7)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 76000,
+      "max": 96000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 85000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for the premier post of Nursing Superintendent at Level 7 entry basic pay (₹44,900) with 58% DA (₹26,042), HRA (9%/18%/27%), Transport Allowance, and Nursing Allowance (₹7,200/mo) / Hospital Patient Care Allowance (HPCA). Other posts span Level 3 (Laboratory Assistant: ₹21,700 basic), Level 5 (Pharmacist, Radiographer: ₹29,200 basic), and Level 6 (Health & Malaria Inspector: ₹35,400 basic).",
+    "official_perks": [
+      "Nursing Allowance (₹7,200/month) or Hospital Patient Care Allowance (HPCA / PCA)",
+      "Annual Uniform and Dress Allowance for healthcare personnel",
+      "All-India free 1st Class / AC Railway Passes and Privilege Ticket Orders (PTOs) for self and family",
+      "Free comprehensive medical care in Indian Railway Hospitals and referral super-specialty health centers",
+      "Railway residential quarters or House Rent Allowance (9%/18%/27%)",
+      "National Pension System (NPS) with 14% Government matching contribution"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "RRB Paramedical recruits specialized clinical personnel for Indian Railways. CEN 04/2024 notified 1,376 vacancies across 17 paramedical categories, led by 713 Nursing Superintendent and 246 Pharmacist posts. The prior recruitment drive (CEN 02/2019) advertised 1,937 vacancies.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1376,
+        "confidence": "verified",
+        "as_of": "2024-08-17",
+        "source_url": "https://rrbsecunderabad.gov.in",
+        "source_label": "Railway Recruitment Boards — Centralized Employment Notice (CEN) No. 04/2024: 1,376 vacancies across 17 paramedical posts (Nursing Superintendent: 713, Pharmacist: 246, Health Inspector: 126, Lab Assistant: 94)."
+      },
+      {
+        "year": 2019,
+        "vacancies": 1937,
+        "confidence": "reported",
+        "as_of": "2019-02-23",
+        "source_url": "https://indianrailways.gov.in",
+        "source_label": "Railway Recruitment Boards — Centralized Employment Notice (CEN) No. 02/2019 (Paramedical Categories): 1,937 vacancies advertised across 21 RRBs."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Indian Railways Railway Recruitment Board portals.",
+    "links": [
+      {
+        "label": "Ministry of Railways (RRB) Central Recruitment Portal",
+        "url": "https://indianrailways.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "RRB Secunderabad — CEN 04/2024 Paramedical Portal",
+        "url": "https://rrbsecunderabad.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Railway Recruitment Board Regional Information Hub",
+        "url": "https://rrb.indianrailways.gov.in/mumbai",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

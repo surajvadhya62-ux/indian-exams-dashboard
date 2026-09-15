@@ -1,0 +1,127 @@
+{
+  "id": "bcece",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted by the BCECE Board pursuant to the Bihar Combined Entrance Competitive Examination Act, 1995 as an offline pen-and-paper OMR test across 5 subject papers (Physics, Chemistry, Mathematics, Biology, Agriculture). Each paper carries 100 questions of 4 marks each (400 marks, 90 minutes) with a negative marking of 1 mark for incorrect answers. Candidates appear for relevant subject combinations (PCM, PCB, PCMB, or Agriculture groups CBA/MBA/MCA/PCA) depending on chosen degree courses in Agriculture, Horticulture, B.Pharm, B.Sc. Nursing, and Allied Health Sciences.",
+    "stages": [
+      {
+        "stage_name": "Single Stage: Combined Entrance Examination (OMR Offline)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-15",
+        "source_url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_BC26.pdf",
+        "source_label": "BCECE-2026 Official Prospectus (Sections 3 & 4: Examination Scheme & Marking Rules)",
+        "papers": [
+          {
+            "paper_name": "Physics (भौतिकी विज्ञान)",
+            "marks": 400,
+            "duration_minutes": 90,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 objective MCQs (Intermediate / 10+2 standard); bilingual Hindi and English"
+          },
+          {
+            "paper_name": "Chemistry (रसायन विज्ञान)",
+            "marks": 400,
+            "duration_minutes": 90,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 objective MCQs (Intermediate / 10+2 standard); bilingual Hindi and English"
+          },
+          {
+            "paper_name": "Mathematics (गणित)",
+            "marks": 400,
+            "duration_minutes": 90,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 objective MCQs for PCM/PCMB streams (Engineering & Pharmacy admission)"
+          },
+          {
+            "paper_name": "Biology / Botany & Zoology (जीव विज्ञान)",
+            "marks": 400,
+            "duration_minutes": 90,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 objective MCQs (50 Botany + 50 Zoology) for PCB/PCMB streams"
+          },
+          {
+            "paper_name": "Agriculture (कृषि विज्ञान)",
+            "marks": 400,
+            "duration_minutes": 90,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 objective MCQs for specialized Agriculture streams (CBA, MBA, MCA, PCA groups)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark statistics compiled from official BCECE Board counseling notifications, rank card releases, and admissions portal statistics across government agricultural, paramedical, pharmacy, and nursing colleges in Bihar.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 68500,
+        "shortlisted_for_mains": 4800,
+        "selectivity_ratio": "1 in 14 (registered candidates per allotted state seat)",
+        "confidence": "reported",
+        "as_of": "2026-06-24",
+        "source_url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_BCECE26_05.pdf",
+        "source_label": "BCECE-2026 Rank Card & Merit List Announcement (Adv. No. BCECEB(BCECE)-2026/05)"
+      },
+      {
+        "year": 2025,
+        "applicants": 64200,
+        "shortlisted_for_mains": 4650,
+        "selectivity_ratio": "1 in 14 (registered candidates per allotted seat)",
+        "confidence": "reported",
+        "as_of": "2025-07-15",
+        "source_url": "https://bceceboard.bihar.gov.in",
+        "source_label": "BCECE Board Annual Admissions Counseling Summary"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official prospectus, admission notices, and counseling notifications verified live on the BCECE Board portal.",
+    "links": [
+      {
+        "label": "BCECE-2026 Official Prospectus & Information Brochure",
+        "url": "https://bceceboard.bihar.gov.in/pdf_Pros/PROS_BC26.pdf",
+        "type": "syllabus",
+        "cycle_label": "BCECE 2026",
+        "confidence": "verified",
+        "as_of": "2026-04-15"
+      },
+      {
+        "label": "BCECE-2026 Online Application Details & Guidelines (Adv. No. 01/2026)",
+        "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_BCECE26_01.pdf",
+        "type": "notification",
+        "cycle_label": "BCECE 2026",
+        "confidence": "verified",
+        "as_of": "2026-04-14"
+      },
+      {
+        "label": "BCECE-2026 Rank Card & Result Notice (Adv. No. 05/2026)",
+        "url": "https://bceceboard.bihar.gov.in/pdf_Adv/ADV_BCECE26_05.pdf",
+        "type": "other",
+        "cycle_label": "BCECE 2026",
+        "confidence": "verified",
+        "as_of": "2026-06-24"
+      },
+      {
+        "label": "BCECE Board Official Examinations Index Portal",
+        "url": "https://bceceboard.bihar.gov.in/BCECEIndex.php",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

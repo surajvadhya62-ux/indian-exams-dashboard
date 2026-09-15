@@ -1,0 +1,134 @@
+{
+  "id": "tea-board-development-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Plantation development and inspection cadre in Tea Board of India (Ministry of Commerce & Industry), Kolkata.",
+    "steps": [
+      {
+        "designation": "Development Officer / Factory Advisory Officer",
+        "pay_level": "Level 6 (7th CPC ₹35,400 – ₹1,12,400)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-05-12",
+        "source_url": "https://www.teaboard.gov.in",
+        "source_label": "Tea Board Direct Recruitment Advt 2023"
+      },
+      {
+        "designation": "Senior Development Officer",
+        "pay_level": "Level 7 (7th CPC ₹44,900 – ₹1,42,400)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-05-12",
+        "source_url": "https://www.teaboard.gov.in",
+        "source_label": "Tea Board Service Regulations"
+      },
+      {
+        "designation": "Assistant Director of Tea Development",
+        "pay_level": "Level 10 (7th CPC ₹56,100 – ₹1,77,500)",
+        "years": "approx. 10+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-05-12",
+        "source_url": "https://www.teaboard.gov.in",
+        "source_label": "Tea Board Service Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is through a written competitive examination followed by document verification.",
+    "stages": [
+      {
+        "stage_name": "Written Competitive Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-12",
+        "source_url": "https://www.teaboard.gov.in",
+        "source_label": "Tea Board Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Tea Cultivation & Agricultural Sciences (60 MCQs) & General Aptitude, English, Reasoning (40 MCQs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark deduction",
+            "qualifying_only": false,
+            "qualifying_threshold": "General: 45%, Reserved: 35%"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by Central 7th CPC Matrix for Statutory Commodity Boards.",
+    "pay_level": "Level 6 (7th CPC Scale ₹35,400 – ₹1,12,400)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-05-12",
+    "pay_source_url": "https://www.teaboard.gov.in",
+    "pay_source_label": "Tea Board Recruitment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 61000,
+      "max": 68000
+    },
+    "in_hand_range_estimate": {
+      "min": 54000,
+      "max": 61000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic ₹35,400, 58% Central DA (₹20,532), HRA (₹3,186 to ₹9,558), and Transport Allowance.",
+    "official_perks": [
+      "Central Government DA revised bi-annually",
+      "House Rent Allowance (HRA) or staff quarters in regional offices",
+      "Field inspection and travel allowances across tea growing regions",
+      "National Pension System (NPS) and Gratuity",
+      "Medical reimbursement and Leave Travel Concession (LTC)"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Field recruitment vacancies advertised by Tea Board of India.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 22,
+        "confidence": "verified",
+        "as_of": "2023-05-12",
+        "source_url": "https://www.teaboard.gov.in",
+        "source_label": "Tea Board Notification 2023"
+      },
+      {
+        "year": 2020,
+        "vacancies": 18,
+        "confidence": "verified",
+        "as_of": "2020-02-20",
+        "source_url": "https://www.teaboard.gov.in",
+        "source_label": "Tea Board Notification 2020"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on Tea Board portal.",
+    "links": [
+      {
+        "label": "Tea Board Careers & Recruitment",
+        "url": "https://www.teaboard.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Tea Board of India Home Page",
+        "url": "https://www.teaboard.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

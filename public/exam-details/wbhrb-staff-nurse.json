@@ -1,0 +1,223 @@
+{
+  "id": "wbhrb-staff-nurse",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Governed by the West Bengal Nursing Service Rules and administrative orders of the Health & Family Welfare Department, Government of West Bengal. Staff Nurses Grade II enter into the state health cadre at Pay Level 9 and advance through promotional grades and administrative appointments across primary health centres, sub-divisional hospitals, district hospitals, and state medical college hospitals.",
+    "steps": [
+      {
+        "designation": "Staff Nurse, Grade-II (General Nursing & Midwifery / Basic B.Sc. Nursing / Post Basic B.Sc. Nursing)",
+        "pay_level": "ROPA 2019 Level 9 (₹28,900 – ₹74,500)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "WBHRB Advertisement No. R/Staff Nurses, Gr. II/GNM/7/2025 & West Bengal Services (ROPA) Rules 2019"
+      },
+      {
+        "designation": "Staff Nurse, Grade-I / Sister-in-Charge / Nursing Sister / Ward In-Charge",
+        "pay_level": "ROPA 2019 Level 12 (₹35,800 – ₹92,100)",
+        "years": "approx. 8–10 yrs",
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "West Bengal Nursing Service Cadre Regulations & Department of Health & Family Welfare G.O."
+      },
+      {
+        "designation": "Assistant Superintendent of Non-Medical / Assistant Nursing Superintendent",
+        "pay_level": "ROPA 2019 Level 14 (₹39,900 – ₹1,02,800)",
+        "years": "approx. 14–18 yrs",
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "West Bengal Nursing Service Cadre Regulations & Department of Health & Family Welfare G.O."
+      },
+      {
+        "designation": "Deputy Nursing Superintendent (DNS)",
+        "pay_level": "ROPA 2019 Level 15 (₹42,600 – ₹1,09,800)",
+        "years": "approx. 19–24 yrs",
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "West Bengal Nursing Service Cadre Regulations & Department of Health & Family Welfare G.O."
+      },
+      {
+        "designation": "Nursing Superintendent / Senior Nursing Superintendent",
+        "pay_level": "ROPA 2019 Level 16 (₹56,100 – ₹1,44,300)",
+        "years": "Selection (approx. 25+ yrs)",
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "West Bengal Nursing Service Cadre Regulations & Department of Health & Family Welfare G.O."
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Direct recruitment is conducted by the West Bengal Health Recruitment Board (WBHRB) following a 100-mark standardized selection framework comprising Academic Qualifications (75 marks), Professional Experience (10 marks), and Interview with Language Assessment (15 marks). Candidates must possess registration as Female/Male Nurse-Midwife with the West Bengal Nursing Council. The Board reserves statutory authority under Clause H of the advertisement to conduct a preliminary screening Written Examination / Computer Based Test (CBT) if the volume of applicants necessitates screening prior to interview.",
+    "stages": [
+      {
+        "stage_name": "Academic & Professional Credential Evaluation (75 Marks Qualification + 10 Marks Experience)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "WBHRB Advertisement No. R/Staff Nurses, Gr. II/GNM/7/2025 & No. R/Staff Nurses, Gr. II/Basic & Post Basic B.Sc. Nursing/8/2025 (Section H & I)",
+        "papers": [
+          {
+            "paper_name": "Higher Secondary (10+2) Examination or its equivalent (Academic Evaluation)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Professional Nursing Qualification: GNM or Basic B.Sc. Nursing / Post Basic B.Sc. Nursing from recognized Nursing School/College",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Additional / Higher Qualification (Post Basic B.Sc. / M.Sc. Nursing or relevant Diploma)",
+            "marks": 5,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Professional Healthcare Experience (Recognized Govt / Private Healthcare Institution: 2 marks per completed year up to max 10 marks)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview and Language Proficiency Dictation Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "WBHRB Advertisement No. R/Staff Nurses, Gr. II/GNM/7/2025 & No. R/Staff Nurses, Gr. II/Basic & Post Basic B.Sc. Nursing/8/2025 (Section H & I)",
+        "papers": [
+          {
+            "paper_name": "Structured Interview (Viva-Voce) conducted by WBHRB Selection Board, Kolkata",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Spoken & Written Bengali / Nepali Language Dictation Test (Mandatory qualifying assessment on interview date; failure disqualifies candidate from interview evaluation)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in dictation test is mandatory"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale for Staff Nurse Grade II is fixed under WBS (ROPA) Rules, 2019, Pay Level 9 with starting entry basic pay of ₹29,800. Minimum initial emoluments were officially notified at ₹39,500 in the recruitment notification (comprising basic pay ₹29,800, DA ₹5,364, HRA ₹3,576, Medical Allowance ₹500, and Uniform/Washing Allowance ₹260). Accounting for the repository standard 58% Dearness Allowance (effective 1 Jul 2025), monthly gross remuneration is estimated at approximately ₹51,400.",
+    "pay_level": "ROPA 2019 Pay Level 9 (₹28,900 – ₹74,500)",
+    "entry_basic_pay": 29800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-08-07",
+    "pay_source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+    "pay_source_label": "WBHRB Advertisement No. R/Staff Nurses, Gr. II/GNM/7/2025 & No. R/Staff Nurses, Gr. II/Basic & Post Basic B.Sc. Nursing/8/2025 (Section B: Scale of Pay)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 49000,
+      "max": 53500
+    },
+    "in_hand_range_estimate": {
+      "min": 44000,
+      "max": 48000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on ROPA 2019 Level 9 entry basic pay of ₹29,800 with project constant 58% Dearness Allowance (₹17,284), House Rent Allowance (12% of basic pay under ROPA 2019, ₹3,576), Medical Allowance (MA ₹500), and Uniform/Washing Allowance (₹260). Deductions include 10% NPS employee contribution (₹4,708) and West Bengal Professional Tax (PTax ₹150–₹200).",
+    "official_perks": [
+      "12% House Rent Allowance (HRA) or government staff nursing quarters in hospital premises",
+      "Monthly Medical Allowance (MA ₹500) or coverage under West Bengal Health Scheme (WBHS)",
+      "Uniform and Washing Allowance sanctioned per health service rules",
+      "Night shift duty allowance and emergency healthcare shift compensations",
+      "Contributory Pension Scheme (NPS) and General Provident Fund as per state service rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official vacancies advertised by the West Bengal Health Recruitment Board under the Health & Family Welfare Department, Government of West Bengal. In the 2025 recruitment drive, 5,018 total vacancies were advertised (2,436 GNM under Advt. No. R/Staff Nurses, Gr. II/GNM/7/2025 and 2,582 B.Sc. Nursing under Advt. No. R/Staff Nurses, Gr. II/Basic & Post Basic B.Sc. Nursing/8/2025). In the 2021 cycle (Advt. No. R/Staff Nurse, Gr-II/02/2021), 6,114 vacancies were advertised (3,974 GNM, 2,032 Basic B.Sc. Nursing, 108 Post Basic B.Sc. Nursing).",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 5018,
+        "confidence": "verified",
+        "as_of": "2025-08-07",
+        "source_url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "source_label": "WBHRB Advertisements No. R/Staff Nurses, Gr. II/GNM/7/2025 (2,436 vacancies) & No. R/Staff Nurses, Gr. II/Basic & Post Basic B.Sc. Nursing/8/2025 (2,582 vacancies)"
+      },
+      {
+        "year": 2021,
+        "vacancies": 6114,
+        "confidence": "verified",
+        "as_of": "2021-11-03",
+        "source_url": "https://www.hrb.wb.gov.in/",
+        "source_label": "WBHRB Advertisement No. R/Staff Nurse, Gr-II/02/2021 (3,974 GNM, 2,032 Basic B.Sc., 108 Post Basic B.Sc.)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official employment advertisements, guidelines, and application links published by the West Bengal Health Recruitment Board (WBHRB).",
+    "links": [
+      {
+        "label": "WBHRB — Advertisement for Staff Nurses, Grade-II (GNM) (Advt. No. R/Staff Nurses, Gr. II/GNM/7/2025)",
+        "url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a5ab94548.pdf",
+        "type": "notification",
+        "cycle_label": "WBHRB-2025",
+        "confidence": "verified",
+        "as_of": "2025-08-07"
+      },
+      {
+        "label": "WBHRB — Advertisement for Staff Nurses, Grade-II (Basic & Post Basic B.Sc. Nursing) (Advt. No. 8/2025)",
+        "url": "https://www.hrb.wb.gov.in/uploads/ads/ad_6894a764dc74d.pdf",
+        "type": "notification",
+        "cycle_label": "WBHRB-2025",
+        "confidence": "verified",
+        "as_of": "2025-08-07"
+      },
+      {
+        "label": "WBHRB Official Recruitment Portal",
+        "url": "https://www.hrb.wb.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Department of Health and Family Welfare, Government of West Bengal",
+        "url": "https://www.wbhealth.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

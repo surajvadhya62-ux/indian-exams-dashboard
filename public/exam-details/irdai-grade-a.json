@@ -1,0 +1,229 @@
+{
+  "id": "irdai-grade-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Insurance Regulatory and Development Authority of India (IRDAI) is the apex statutory regulatory body for the insurance and reinsurance sector in India, established under the Insurance Regulatory and Development Authority Act, 1999. Headquartered in Hyderabad with regional offices in New Delhi and Mumbai, Assistant Managers (Grade A) are recruited across Actuarial, Finance, Law, IT, Research, and Generalist streams. Promotion follows regulatory commission cadres benchmarked alongside RBI and SEBI.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Grade A)",
+        "pay_level": "Grade A (Scale ₹44,500 - 89,150)",
+        "years": "Entry level (probation 1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI — Notification for Recruitment of Assistant Manager (Grade 'A') / IRDAI (Conditions of Service of Officers) Regulations"
+      },
+      {
+        "designation": "Manager (Grade B)",
+        "pay_level": "Grade B (Scale ₹55,200 - 99,750)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI Officer Promotion Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (Grade C)",
+        "pay_level": "Grade C (Scale ₹73,600 - 1,17,050)",
+        "years": "approx. 8-11 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI Officer Promotion Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (Grade D) / General Manager (Grade E)",
+        "pay_level": "Grade D / E",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI Senior Regulatory Cadre Framework"
+      },
+      {
+        "designation": "Chief General Manager (Grade F)",
+        "pay_level": "Grade F / Top Executive",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI Senior Regulatory Cadre Framework"
+      },
+      {
+        "designation": "Executive Director (ED) / Whole-Time Member / Chairperson",
+        "pay_level": "Statutory Authority / Apex Grade",
+        "years": "Appointed by Government of India",
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "Insurance Regulatory and Development Authority Act, 1999 (Statutory Appointments)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Assistant Manager (Grade A) in IRDAI is conducted through a three-phase process: Phase I Online Preliminary Examination (Objective, 160 marks, 90 minutes), Phase II Descriptive Examination (3 Papers of 100 marks each, 60 minutes per paper = 300 marks total), followed by Phase III Interview. In Phase I, a negative marking deduction of 1/4th (0.25) mark applies for every wrong answer. Final merit ranking gives 85% weightage to Phase II and 15% weightage to the Interview.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Online Preliminary Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI — Recruitment of Assistant Manager Notification (Scheme of Phase-I Examination)",
+        "papers": [
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 40,
+            "duration_minutes": 22,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate qualifying cutoffs"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 40,
+            "duration_minutes": 22,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate qualifying cutoffs"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 40,
+            "duration_minutes": 23,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate qualifying cutoffs"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 40,
+            "duration_minutes": 23,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional and aggregate qualifying cutoffs"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Descriptive Examination (3 Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI — Recruitment of Assistant Manager Notification (Scheme of Phase-II Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: English Language (Descriptive — Essay, Precis & Business/Technical Draft)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Economic and Social Issues impacting Insurance",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: Insurance and Management",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI — Recruitment Notification (Interview Stage)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (IRDAI Head Office, Hyderabad)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Final selection weightage: Phase II marks (85%) and Interview marks (15%)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Managers (Grade A) in IRDAI receive starting basic pay of ₹44,500 per month in the scale of ₹44,500 - 2,500(4) - 54,500 - 2,850(7) - 74,450 - EB - 2,850(4) - 85,850 - 3,300(1) - 89,150. Total initial monthly gross emoluments are approximately ₹1,30,000 to ₹1,46,000 per month (inclusive of Grade Allowance, Special Allowance, Dearness Allowance, and House Rent Allowance).",
+    "pay_level": "Officer Grade A (Assistant Manager)",
+    "entry_basic_pay": 44500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-08-21",
+    "pay_source_url": "https://www.irdai.gov.in",
+    "pay_source_label": "IRDAI — Notification for Recruitment of Assistant Manager (Grade 'A') (Salary & Allowances)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 130000, "max": 146000 },
+    "in_hand_range_estimate": { "min": 110000, "max": 124000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Grade A entry basic pay of ₹44,500 with Dearness Allowance, Grade Allowance, Special Allowance, Local Compensatory Allowance, and House Rent Allowance (or Authority-leased accommodation in Hyderabad); net salary accounts for standard defined pension (NPS) and statutory deductions.",
+    "official_perks": [
+      "Authority-leased residential accommodation in Hyderabad / metropolitan posting centers",
+      "Comprehensive medical facility / full reimbursement of medical expenses for self and dependent family",
+      "Defined contribution pension benefits under National Pension System (NPS) and Gratuity",
+      "Leave Travel Concession (LTC) and leave encashment provisions",
+      "Official vehicle / transport allowance, book grant, briefcase allowance, and concessional loan facilities"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "IRDAI recruits Assistant Managers (Grade A) across multiple disciplines (Generalist, Actuarial, Finance, Law, IT, and Research). In the 2024 recruitment cycle, 49 vacancies were notified, following 45 vacancies notified in the 2023 cycle.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 49,
+        "confidence": "verified",
+        "as_of": "2024-08-21",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI — Notification for Recruitment of 49 Assistant Managers (Grade 'A') 2024"
+      },
+      {
+        "year": 2023,
+        "vacancies": 45,
+        "confidence": "reported",
+        "as_of": "2023-04-11",
+        "source_url": "https://www.irdai.gov.in",
+        "source_label": "IRDAI — Notification for Recruitment of 45 Assistant Managers (Grade 'A') 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment resources and notifications on the Insurance Regulatory and Development Authority of India portal.",
+    "links": [
+      {
+        "label": "IRDAI Official Portal",
+        "url": "https://www.irdai.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

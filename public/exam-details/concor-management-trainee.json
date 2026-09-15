@@ -1,0 +1,201 @@
+{
+  "id": "concor-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in Container Corporation of India (CONCOR) complete 1 year training and are absorbed as Assistant Manager in Grade E-1, advancing along the logistics and terminal management executive ladder.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Accounts / Operations / HR / Civil)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Management Trainee Recruitment Notification"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Absorption and Cadre Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Executive Service Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Middle Management Structure"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Terminal Management Hierarchy"
+      },
+      {
+        "designation": "Group General Manager (GGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Senior Executive Cadre"
+      },
+      {
+        "designation": "Executive Director",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Board and Top Management Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection comprises an Online Computer Based Test (CBT) followed by a Group Discussion and Personal Interview. The online test evaluates domain knowledge and cognitive aptitude.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR MT Examination Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Professional / Domain Knowledge (Accounts / Logistics & Operations / HR / Civil)",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for General/EWS, 40% for Reserved categories"
+          },
+          {
+            "paper_name": "Aptitude Section (Quantitative Aptitude: 20m, Reasoning: 20m, English: 20m, General Awareness: 10m)",
+            "marks": 70,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Group Discussion & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Interview and GD Scheme",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (10 marks) & Personal Interview (10 marks)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for General and 50% for SC/ST/OBC"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries are fixed in accordance with DPE 3rd PRC IDA pay scales. Management Trainees enter in E-1 Grade with ₹40,000 starting basic pay, mandatory 58% DA constant as of 2025-07-01, HRA, and terminal allowances.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://concorindia.co.in/careers",
+    "pay_source_label": "CONCOR Terms of Recruitment and Emoluments",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 72000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 63000,
+      "max": 76000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹40,000, 58% IDA (₹23,200), HRA (18%–27%), Cafeteria perks (32% = ₹12,800), less statutory deductions for PF (12% Basic+DA) and Group Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "House Rent Allowance (HRA) or Company Leased Residential Accommodation",
+      "Cafeteria Approach Allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on company audited profits and MoU parameters",
+      "Contributory Provident Fund, Gratuity, and Defined Pension Scheme",
+      "Comprehensive medical reimbursement for employee and eligible dependents"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from CONCOR Management Trainee examinations.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 35,
+        "applicants": 18200,
+        "shortlisted_for_mains": 210,
+        "selectivity_ratio": "approx. 1 in 520",
+        "confidence": "reported",
+        "as_of": "2024-08-25",
+        "source_url": "https://concorindia.co.in/careers",
+        "source_label": "CONCOR Recruitment Notification MT/2024: 35 vacancies in Accounts, Operations and Civil disciplines."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career, notification, and recruitment circulars hosted on the Container Corporation of India website.",
+    "links": [
+      {
+        "label": "CONCOR Official Careers Portal",
+        "url": "https://concorindia.co.in/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "CONCOR Corporate Web Portal",
+        "url": "https://concorindia.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

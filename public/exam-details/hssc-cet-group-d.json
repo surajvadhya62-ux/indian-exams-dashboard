@@ -1,0 +1,167 @@
+{
+  "id": "hssc-cet-group-d",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Common Eligibility Test (CET Group D) is the single-window recruitment gateway for all Group D posts (Peon, Beldar, Mali, Chowkidar, Field Attendant, Workshop Helper) across Haryana state departments, boards, and corporations. Career advancement is governed by the Haryana Group D Employees Service Rules.",
+    "steps": [
+      {
+        "designation": "Group D Attendant / Peon / Beldar / Field Worker",
+        "pay_level": "Level DL (FPL-DL)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-08-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt No. 01/2023 (Group D Recruitment) & Haryana Civil Services (Revised Pay) Rules"
+      },
+      {
+        "designation": "Senior Peon / Jamadar / Daftri / Head Mali",
+        "pay_level": "Level 1 (FPL-1)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-08-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Group D Employees Promotion Cadre Rules"
+      },
+      {
+        "designation": "Junior Clerk / Store Munshi / Bill Distributor",
+        "pay_level": "Level 2 (FPL-2)",
+        "years": "approx. 12-18 yrs (subject to 10+2 qualification & departmental typing test)",
+        "confidence": "verified",
+        "as_of": "2023-08-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Subordinate Ministerial Service Rules (20% promotion quota from Group D to Group C)"
+      },
+      {
+        "designation": "Assistant",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2023-08-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana State Ministerial Promotion Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Group D posts under HSSC is governed entirely by a single-tier Common Eligibility Test (CET Group D). Unlike Group C, there is no second written test; final appointment and department allocation are directly made from the CET score merit list.",
+    "stages": [
+      {
+        "stage_name": "Common Eligibility Test (CET Group D Written Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-08-01",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Advt 01/2023 CET Group D Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Awareness, General Science, Reasoning, Quantitative Ability, English Language & Hindi Language (75% weightage)",
+            "marks": 70.5,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.94 deducted if all 5 options left blank",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit (40% minimum score for reserved categories, 50% for unreserved)"
+          },
+          {
+            "paper_name": "General Knowledge of Haryana — History, Geography, Civics, Economy, Culture, Customs & Current Affairs (25% weightage)",
+            "marks": 23.5,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.94 deducted if all 5 options left blank",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit as part of composite 94-mark paper"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Group D personnel in Haryana are placed in Functional Pay Level DL (FPL-DL) under the Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹16,900.",
+    "pay_level": "Level DL (FPL-DL)",
+    "entry_basic_pay": 16900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-08-01",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016, Notification No. 1/20/2016-5PR(FD)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 30000,
+      "max": 35000
+    },
+    "in_hand_range_estimate": {
+      "min": 26000,
+      "max": 30000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic pay of ₹16,900 with 58% Dearness Allowance (₹9,802), House Rent Allowance (8% to 24% by city tier, ₹1,800 to ₹4,056), and fixed medical allowance (₹1,000), minus standard employee NPS and insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at prevailing state rates (58% effective 1 Jul 2025)",
+      "House Rent Allowance (HRA) or government staff accommodation",
+      "Fixed Medical Allowance (FMA) of ₹1,000 per month / medical reimbursement",
+      "Uniform and washing allowance for designated field posts",
+      "Defined Contributory Pension Scheme (NPS) with employer contribution",
+      "Leave Travel Concession (LTC) as per Haryana Civil Services Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "HSSC CET Group D is among the highest-volume mass examinations in the country, witnessing over 1.3 million applicants competing for permanent state subordinate positions.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 1375151,
+        "vacancies": 14036,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 98 (calculated: registered candidates ÷ appointed vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 01/2023 CET Group D Examination: 13,75,151 applicants registered; 8,55,135 appeared across 17 districts on 21-22 Oct 2023; 14,036 vacancies filled."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, CET Group D syllabus, answer keys, and final allocation lists are hosted on HSSC's recruitment portal.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advt No. 01/2023 — CET Group D Recruitment Notice",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "CET-Group-D-2023",
+        "confidence": "verified",
+        "as_of": "2023-08-01"
+      },
+      {
+        "label": "HSSC Examination Syllabus Portal",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-08-01"
+      },
+      {
+        "label": "HSSC CET Group D Result & Recommendation Lists",
+        "url": "https://hssc.gov.in/result",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

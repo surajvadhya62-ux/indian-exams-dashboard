@@ -1,0 +1,248 @@
+{
+  "id": "tnpsc-group-1",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression outlined for Deputy Collector (Tamil Nadu Civil Service), the premier executive cadre recruited via Group-I. Officers are inducted into the Indian Administrative Service (IAS) under the state civil service quota as per DoPT / UPSC promotion regulations, typically after 12–16 years of meritorious state service.",
+    "steps": [
+      {
+        "designation": "Deputy Collector / Revenue Divisional Officer (RDO) / Sub-Collector",
+        "pay_level": "Level 22",
+        "years": "Entry (approx. 0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "TNPSC Notification No. 04/2024, Combined Civil Services Examination-I (Group-I Services), Table 3: Posts and Vacancies (Level 22, Rs. 56,100 - 2,05,700)"
+      },
+      {
+        "designation": "District Revenue Officer (DRO) / Additional District Magistrate (ADM)",
+        "pay_level": "Level 26",
+        "years": "approx. 6-12 yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "Tamil Nadu Revised Pay Rules 2017 & Tamil Nadu Civil Service (Executive Branch) Rules"
+      },
+      {
+        "designation": "Conferred IAS / Joint Secretary to Government / District Collector",
+        "pay_level": "Level 11-13 (7th CPC)",
+        "years": "approx. 12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations, 1955 (State Civil Service Quota)"
+      },
+      {
+        "designation": "Special Secretary / Secretary to State Government",
+        "pay_level": "Level 14 (7th CPC)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "DoPT IAS Cadre Rules & Promotion Norms"
+      },
+      {
+        "designation": "Principal Secretary / Additional Chief Secretary to State Government",
+        "pay_level": "Level 15-16 (7th CPC)",
+        "years": "approx. 25-30+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "Tamil Nadu IAS Cadre Allocation and Super Time Scale Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Combined Civil Services Examination-I comprises a Preliminary screening test, followed by a Written Main Examination (consisting of 1 qualifying Tamil paper and 3 descriptive General Studies papers) and an Interview/Oral Test. Paper I of Mains is compulsory qualifying; marks in Papers II, III, IV and the Interview determine final merit ranking.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type - Single Paper)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "TNPSC Notification No. 04/2024, Section 6.1: Scheme of Preliminary Examination",
+        "papers": [
+          {
+            "paper_name": "General Studies (Degree Standard, 175 Qs) & Aptitude and Mental Ability (SSLC Standard, 25 Qs)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "90 marks (SCs, STs, MBCs, BCs) / 120 marks (Others)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive Type)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "TNPSC Notification No. 04/2024, Section 6.2: Scheme of Main Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I — Tamil Eligibility Test (SSLC Standard)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40%"
+          },
+          {
+            "paper_name": "Paper II — General Studies (Degree Standard: Modern History & Indian Culture, Social Issues in India & TN, General Aptitude)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III — General Studies (Degree Standard: Indian Polity, Science & Technology, Tamil Society & Heritage)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper IV — General Studies (Degree Standard: Geography of India & TN, Environment & Biodiversity, Indian Economy)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview and Oral Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "TNPSC Notification No. 04/2024, Section 6.2: Oral Test / Interview (100 Marks)",
+        "papers": [
+          {
+            "paper_name": "Oral Test / Interview (TNPSC Headquarters, Chennai)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for Tamil Nadu Group-I officers are governed by the Tamil Nadu Revised Pay Rules 2017 (Level 22 of the State Pay Matrix: ₹56,100 - ₹2,05,700). State government DA and HRA slabs apply as notified by Finance (Pay Cell) Department, Government of Tamil Nadu.",
+    "pay_level": "Level 22",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-28",
+    "pay_source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+    "pay_source_label": "TNPSC Notification No. 04/2024, Section 3: Posts and Vacancies (Level 22, Rs. 56,100 - 2,05,700 under TN Revised Pay Rules 2017)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 94000, "max": 108000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 94000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes Level 22 entry basic pay ₹56,100 with 58% DA plus Tamil Nadu Grade I-A/Grade I HRA (approx. ₹5,000 - ₹8,000) and City Compensatory Allowance. Net pay accounts for Contributory Pension Scheme (CPS/NPS 10% of Basic+DA), NHIS, and state professional tax.",
+    "official_perks": [
+      "Official government vehicle with driver for duty (Deputy Collector / DSP)",
+      "Designated government residential bungalow / camp office accommodation",
+      "Medical insurance coverage under New Health Insurance Scheme (NHIS) for state employees and dependents",
+      "Field inspection allowances and Camp / Travelling Allowance",
+      "Subsidized electricity and official telephone / internet connectivity allowance",
+      "Leave Travel Concession (LTC) and surrender leave encashment benefits"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TNPSC Group 1 vacancies are notified tentatively in the advertisement and often revised before final results. Applicant figures are reported from official TNPSC press updates for the respective recruitment cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 315000,
+        "vacancies": 90,
+        "shortlisted_for_mains": 1800,
+        "selectivity_ratio": "approx. 1 in 3500 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-07-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "source_label": "TNPSC Notification No. 04/2024 (90 vacancies) and TNPSC press releases on Preliminary examination participation"
+      },
+      {
+        "year": 2022,
+        "applicants": 322415,
+        "vacancies": 92,
+        "shortlisted_for_mains": 1840,
+        "selectivity_ratio": "approx. 1 in 3504 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-07-21",
+        "source_url": "https://www.tnpsc.gov.in/English/Notification.aspx",
+        "source_label": "TNPSC Notification No. 19/2022 (Combined Civil Services Examination-I, 92 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and syllabi are hosted directly on the Tamil Nadu Public Service Commission portal. Links are verified against the official TNPSC domain.",
+    "links": [
+      {
+        "label": "Combined Civil Services Examination-I (Group-I Services) 2024 — Official Notification",
+        "url": "https://www.tnpsc.gov.in/Document/english/04_2024_GRP1_ENG_.pdf",
+        "type": "notification",
+        "cycle_label": "CCSE-I 2024",
+        "confidence": "verified",
+        "as_of": "2024-03-28"
+      },
+      {
+        "label": "CCSE-I (Group-I Services) 2024 — Addendum on Vacancy Distribution",
+        "url": "https://www.tnpsc.gov.in/Document/English/ADDENDUM_4A.pdf",
+        "type": "notification",
+        "cycle_label": "CCSE-I 2024",
+        "confidence": "verified",
+        "as_of": "2024-04-15"
+      },
+      {
+        "label": "Group-I Services Preliminary Examination Syllabus",
+        "url": "https://tnpsc.gov.in/static_pdf/syllabus/26022025/20122024_Group_I_Preliminary_Syllabus_english.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-12-20"
+      },
+      {
+        "label": "Group-I Services Main Written Examination Detailed Syllabus",
+        "url": "https://tnpsc.gov.in/static_pdf/syllabus/498_group%201%20mains%20syllabus.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-03-28"
+      },
+      {
+        "label": "TNPSC Official Syllabus Hub (All Examinations)",
+        "url": "https://www.tnpsc.gov.in/English/syllabus.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "TNPSC Official Notifications Archive",
+        "url": "https://www.tnpsc.gov.in/English/Notification.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

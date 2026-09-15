@@ -1,0 +1,209 @@
+{
+  "id": "mpsc-subordinate-sti",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Hierarchical progression within Maharashtra Goods and Services Tax (GST) Department from State Tax Inspector up to senior administrative positions, regulated by the Finance Department, Government of Maharashtra.",
+    "steps": [
+      {
+        "designation": "State Tax Inspector (STI) / Sales Tax Inspector",
+        "pay_level": "Level S-14",
+        "years": "Entry (Probation 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, 7th Pay Commission, Pay Level S-14 (₹38,600 - ₹1,22,800)"
+      },
+      {
+        "designation": "State Tax Officer (STO)",
+        "pay_level": "Level S-15",
+        "years": "approx. 6-9 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra State GST Service Rules, Pay Level S-15 (₹41,800 - ₹1,32,300)"
+      },
+      {
+        "designation": "Assistant Commissioner of State Tax (ACST)",
+        "pay_level": "Level S-20",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra State Tax Service (Group A Gazetted), Pay Level S-20 (₹56,100 - ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Commissioner of State Tax (DCST)",
+        "pay_level": "Level S-23",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services Rules, Pay Level S-23 (₹67,700 - ₹2,08,700)"
+      },
+      {
+        "designation": "Joint Commissioner of State Tax (JCST)",
+        "pay_level": "Level S-26",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra State Service Rules, Pay Level S-26 / S-29 (₹1,31,100 - ₹2,16,600)"
+      },
+      {
+        "designation": "Additional Commissioner of State Tax (Addl CST)",
+        "pay_level": "Level S-30",
+        "years": "approx. 30+ yrs",
+        "confidence": "reported",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Finance Department Higher Administrative Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a common Preliminary screening exam followed by the STI Main written examination (Paper 1 and Paper 2). Final merit is determined strictly on the basis of 400 marks scored in the Main examination without any interview.",
+    "stages": [
+      {
+        "stage_name": "Maharashtra Non-Gazetted Group B Combined Preliminary Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 & Examination Scheme for Non-Gazetted Group B Posts",
+        "papers": [
+          {
+            "paper_name": "General Ability Test (General Studies, Maharashtra History/Geography, Polity, Economics, Science, Aptitude & Reasoning)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Maharashtra Subordinate Services Group B Main Examination (State Tax Inspector)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Marathi and English (Marathi: 50 Qs / 100 marks; English: 50 Qs / 100 marks)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2 — General Studies, Commercial Laws & Economics (Indian Economy, GST Act, VAT, Public Finance, Accountancy & Auditing)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay Level S-14 under Maharashtra Civil Services (Revised Pay) Rules, 2019 (Maharashtra 7th Pay Commission).",
+    "pay_level": "Level S-14",
+    "entry_basic_pay": 38600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-01-01",
+    "pay_source_url": "https://mpsc.gov.in",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Government Resolution No. RPS-2019/CR-1/Services-9",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 65000, "max": 78000 },
+    "in_hand_range_estimate": { "min": 58000, "max": 70000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹38,600 in Level S-14 (₹38,600 - ₹1,22,800). Gross range calculated with 58% DA (₹22,388) and HRA varying from 9% (Z-class cities) to 27% (X-class cities like Mumbai/Pune/Nagpur), plus local travel allowances for tax inspections, minus standard 10% NPS and state insurance deductions.",
+    "official_perks": [
+      "Government quarters or House Rent Allowance (HRA up to 27% in metro postings)",
+      "Official inspection and enforcement travel allowances",
+      "Comprehensive medical coverage under Maharashtra State Government Employees Health Scheme",
+      "Leave Travel Concession (LTC) and defined state gazetted holidays",
+      "Reimbursement of official telephone and conveyance expenses",
+      "Defined contributory pension scheme benefits under NPS"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "State Tax Inspector posts are recruited through the MPSC Maharashtra Non-Gazetted Group B Services Combined Examination.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 480000,
+        "vacancies": 236,
+        "shortlisted_for_mains": 3540,
+        "selectivity_ratio": "approx. 1 in 2034 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 011/2026 (Maharashtra Non-Gazetted Group B Services Combined Examination 2026): 236 State Tax Inspector posts notified."
+      },
+      {
+        "year": 2024,
+        "applicants": 425000,
+        "vacancies": 209,
+        "shortlisted_for_mains": 3135,
+        "selectivity_ratio": "approx. 1 in 2033 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-10-14",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 048/2024: 209 State Tax Inspector posts notified."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and candidate application portals on MPSC official domains.",
+    "links": [
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Combined Examination 2026 Notification (Advt. 011/2026)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 011/2026",
+        "confidence": "verified",
+        "as_of": "2026-04-10"
+      },
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Examination 2024 Notification (Advt. 048/2024)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 048/2024",
+        "confidence": "verified",
+        "as_of": "2024-10-14"
+      },
+      {
+        "label": "MPSC Subordinate Services Group B (State Tax Inspector) Examination Scheme & Syllabus",
+        "url": "https://mpsc.gov.in/home",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPSC Previous Question Papers and Answer Keys Portal",
+        "url": "https://mpsc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "gujarat-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Constables in Gujarat Police are initially recruited on a fixed pay stipend of ₹26,000 per month (revised by the State Finance Department from ₹19,950) for an initial probationary service of 5 years. Upon successful completion of 5 years, candidates are absorbed into regular state service in 7th Pay Matrix Level 2 with regular annual increments and promotional avenues.",
+    "steps": [
+      {
+        "designation": "Lokrakshak / Police Constable (Unarmed / Armed / SRPF / Jail Sepoy)",
+        "pay_level": "Level 2",
+        "years": "Entry (approx. 5 yrs on fixed pay ₹26,000, then regular Level 2)",
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://ojas.gujarat.gov.in",
+        "source_label": "Gujarat Police Recruitment Board (GPRB) & Government of Gujarat Home Department Recruitment Rules"
+      },
+      {
+        "designation": "Head Constable (HC)",
+        "pay_level": "Level 4",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Subordinate Service Cadre & Promotion Rules"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI)",
+        "pay_level": "Level 5",
+        "years": "approx. 12-17 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Subordinate Service Cadre & Promotion Rules"
+      },
+      {
+        "designation": "Police Sub-Inspector (PSI)",
+        "pay_level": "Level 7",
+        "years": "approx. 18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Subordinate Service Cadre & Promotion Rules"
+      },
+      {
+        "designation": "Police Inspector (PI)",
+        "pay_level": "Level 8",
+        "years": "approx. 25-30 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Cadre & Promotion Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Gujarat Police recruitment was revised in 2024 by the Home Department to unify the physical tests and introduce a comprehensive 200-mark OMR objective test with negative marking (-0.25 per wrong answer).",
+    "stages": [
+      {
+        "stage_name": "Physical Standard Test (PST) & Physical Efficiency Test (PET)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://ojas.gujarat.gov.in",
+        "source_label": "Gujarat Police Recruitment Board (GPRB) Detailed Advertisement & Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Physical Standard Test (Height & Chest measurement: Male 165 cm / 162 cm ST; Female 155 cm / 150 cm ST)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature"
+          },
+          {
+            "paper_name": "Physical Efficiency Test (Running: Male 5,000m in 25 min; Female 1,600m in 9m 30s; Ex-SM 2,400m in 12 min)",
+            "marks": null,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying within prescribed time limits"
+          }
+        ]
+      },
+      {
+        "stage_name": "Objective Written Examination (OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://ojas.gujarat.gov.in",
+        "source_label": "GPRB Revised Examination Pattern (200 Questions, 200 Marks, 180 Minutes, negative marking 0.25)",
+        "papers": [
+          {
+            "paper_name": "Part A — Reasoning & Data Interpretation (30), Quantitative Aptitude (30), Gujarati Comprehension (20)",
+            "marks": 80,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% aggregate required across Part A and Part B"
+          },
+          {
+            "paper_name": "Part B — Constitution of India (30), Current Affairs, Science & Tech, GK (40), History, Cultural Heritage & Geography of Gujarat and India (50)",
+            "marks": 120,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% aggregate required across Part A and Part B"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification and Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-12",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Gujarat Police Recruitment Board Selection Rules",
+        "papers": [
+          {
+            "paper_name": "Document Verification and Merit Scrutiny",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of original credentials, NCC/Sports certificates"
+          },
+          {
+            "paper_name": "Medical Fitness Examination by Civil Hospital Medical Board",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Medical fitness standards as per Police manual"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Initial 5 years of service are under the State Government Fix Pay scheme at ₹26,000 per month (revised from ₹19,950). On completion of 5 years of satisfactory service, candidates are placed on regular Pay Matrix Level 2 (₹19,900 basic pay) with full 7th CPC allowances.",
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-12",
+    "pay_source_url": "https://police.gujarat.gov.in",
+    "pay_source_label": "Government of Gujarat, Home Department & Finance Department; Gujarat Civil Services (Revision of Pay) Rules (7th Pay Commission Level 2)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 43000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 38000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Ranges reflect regular Level 2 basic pay (₹19,900) with 58% DA (effective 1 Jul 2025), HRA (10% to 30% depending on city classification), uniform and special police allowances, minus standard employee NPS and insurance deductions. During the initial 5-year fixed pay period, monthly remuneration is fixed at ₹26,000.",
+    "official_perks": [
+      "Uniform allowance and washing allowance",
+      "Government police quarters / housing accommodation (or HRA in lieu thereof)",
+      "Medical expense reimbursement under Gujarat State Employees Medical Scheme",
+      "State Government Defined Contributory Pension Scheme (NPS) and Group Insurance Scheme",
+      "Leave Travel Concession (LTC) as per Gujarat Civil Services Rules",
+      "Special duty / risk allowance applicable to SRPF and tactical postings"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Gujarat Police Lokrakshak recruitment represents one of the largest competitive recruitment drives in Gujarat, routinely attracting over 1 million applicants across the state.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1150000,
+        "vacancies": 12733,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 90 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-05-01",
+        "source_url": "https://ojas.gujarat.gov.in",
+        "source_label": "Gujarat Police Recruitment Board (GPRB) Advt GPRB/202324/1: 12,733 constable vacancies notified; over 11.5 lakh online applications received on OJAS."
+      },
+      {
+        "year": 2021,
+        "applicants": 1200000,
+        "vacancies": 10459,
+        "shortlisted_for_mains": 294845,
+        "selectivity_ratio": "approx. 1 in 115 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2022-04-10",
+        "source_url": "https://police.gujarat.gov.in",
+        "source_label": "Lokrakshak Recruitment Board (LRB) 2021-22 cycle: 10,459 vacancies; approx. 12 lakh registered candidates; 2,94,845 candidates qualified the physical test (PET) and appeared for the OMR written examination on April 10, 2022."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "The primary web portal for online application and notifications is Gujarat OJAS. Historical domain lrdgujarat2021.in from the 2021 cycle is defunct with an expired certificate, with all active recruitment operated via ojas.gujarat.gov.in and police.gujarat.gov.in.",
+    "links": [
+      {
+        "label": "Gujarat OJAS — Police Recruitment Portal (GPRB)",
+        "url": "https://ojas.gujarat.gov.in",
+        "type": "notification",
+        "cycle_label": "GPRB-2024",
+        "confidence": "verified",
+        "as_of": "2024-03-12"
+      },
+      {
+        "label": "Director General of Police, Gujarat State — Official Portal",
+        "url": "https://police.gujarat.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Gujarat Police Subordinate Service Rules & Scheme of Examination",
+        "url": "https://ojas.gujarat.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-03-12"
+      }
+    ]
+  }
+}

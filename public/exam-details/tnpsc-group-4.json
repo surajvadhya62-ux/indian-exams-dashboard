@@ -1,0 +1,188 @@
+{
+  "id": "tnpsc-group-4",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression outlined for Village Administrative Officer (VAO) and Junior Assistant in the Tamil Nadu Ministerial and Revenue Administration Subordinate Services. Promotion to higher executive tiers (Deputy Tahsildar, Tahsildar) requires passing prescribed departmental tests (Revenue Test Parts I-III, District Administration, Criminal Judicial Test).",
+    "steps": [
+      {
+        "designation": "Village Administrative Officer (VAO) / Junior Assistant",
+        "pay_level": "Level 8",
+        "years": "Entry (approx. 0-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-01-30",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "TNPSC Notification No. 01/2024, Combined Civil Services Examination-IV (Group-IV Services), Table 3: Posts and Vacancies (Level 8, Rs. 19,500 - 71,900)"
+      },
+      {
+        "designation": "Assistant / Firka Revenue Inspector (RI)",
+        "pay_level": "Level 10",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-30",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "Tamil Nadu Ministerial Service Rules & Tamil Nadu Revenue Subordinate Service Rules"
+      },
+      {
+        "designation": "Deputy Tahsildar (Taluk Office / District Revenue)",
+        "pay_level": "Level 16",
+        "years": "approx. 8-14 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-30",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "Tamil Nadu Revenue Subordinate Service Executive List"
+      },
+      {
+        "designation": "Tahsildar (Taluk Magistrate / Executive Officer)",
+        "pay_level": "Level 20",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-30",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "Tamil Nadu Revenue Service Special Rules"
+      },
+      {
+        "designation": "Deputy Collector / Revenue Divisional Officer (State Civil Service Quota)",
+        "pay_level": "Level 22",
+        "years": "approx. 20-25+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-30",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "Tamil Nadu Civil Service (Executive Branch) Rules for Appointment by Transfer"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Combined Civil Services Examination-IV is conducted as a single-stage objective OMR examination. Unlike other examinations where language tests are merely qualifying, Group-IV combines Part A (Tamil Eligibility-cum-Scoring Test) and Part B (General Studies & Aptitude) to determine the candidate's total ranking mark out of 300.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Single Paper, Objective Type - OMR Method)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-30",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "TNPSC Notification No. 01/2024, Section 4: Scheme of Examination (Single Paper, SSLC Standard)",
+        "papers": [
+          {
+            "paper_name": "Part A — Tamil Eligibility-cum-Scoring Test (SSLC Standard, 100 Qs)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (60 marks) required for evaluation of Part B; marks added for ranking"
+          },
+          {
+            "paper_name": "Part B — General Studies (75 Qs) & Aptitude and Mental Ability Test (25 Qs, SSLC Standard)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined minimum qualifying mark for selection (Part A + Part B) is 90 marks (all communities)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for Junior Assistants, VAOs, Typists, and Bill Collectors are based on Level 8 of the Tamil Nadu Revised Pay Matrix (₹19,500 - ₹71,900 under G.O. Ms. No. 303, Finance (Pay Cell) Department, dated 11.10.2017). Forest Guards and Watchers are mapped to Levels 7 and 5 respectively.",
+    "pay_level": "Level 8",
+    "entry_basic_pay": 19500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-30",
+    "pay_source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+    "pay_source_label": "TNPSC Notification No. 01/2024, Section 3: Posts and Vacancies (Scale of pay Rs. 19,500 - 71,900, Level 8 under TN Pay Matrix)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 32500, "max": 36500 },
+    "in_hand_range_estimate": { "min": 28000, "max": 32000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes Level 8 entry basic pay ₹19,500 with 58% DA plus Tamil Nadu Grade-classified HRA (₹1,500 - ₹3,000) and City Compensatory Allowance. Net pay accounts for Contributory Pension Scheme (CPS/NPS 10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under the New Health Insurance Scheme (NHIS) for state employees and eligible family members",
+      "Fixed travelling allowance / cycle allowance for village-level revenue inspections (VAO)",
+      "Quarters / house rent allowance based on posting station grade",
+      "Earned leave surrender and encashment benefits as per Tamil Nadu Leave Rules",
+      "Festival advance and special Pongal bonus as declared annually by the State Government"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TNPSC Group-IV is India's largest state recruitment exam by applicant volume, regularly surpassing 20 lakh registered candidates. Initial vacancies notified in advertisements are routinely enhanced through supplementary requisitions before counselling.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 2036774,
+        "vacancies": 6244,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 326 (calculated: applicants ÷ initial notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-06-09",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "source_label": "TNPSC Notification No. 01/2024 (6,244 vacancies notified; 20,36,774 applicants registered for examination on 09.06.2024)"
+      },
+      {
+        "year": 2022,
+        "applicants": 2185328,
+        "vacancies": 7301,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 299 (calculated: applicants ÷ initial notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-07-24",
+        "source_url": "https://www.tnpsc.gov.in/English/Notification.aspx",
+        "source_label": "TNPSC Notification No. 07/2022 (Combined Civil Services Examination-IV, 7,301 vacancies initially notified, later revised to 10,117)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, addendums, and syllabi from the Tamil Nadu Public Service Commission portal.",
+    "links": [
+      {
+        "label": "Combined Civil Services Examination-IV (Group-IV & VAO) 2024 — Notification",
+        "url": "https://www.tnpsc.gov.in/Document/english/1_2024-Eng.pdf",
+        "type": "notification",
+        "cycle_label": "CCSE-IV 2024",
+        "confidence": "verified",
+        "as_of": "2024-01-30"
+      },
+      {
+        "label": "CCSE-IV 2024 — Addendum 1A on Revised Vacancies and Posts",
+        "url": "https://www.tnpsc.gov.in/Document/English/Addendum%201A_English.pdf",
+        "type": "notification",
+        "cycle_label": "CCSE-IV 2024",
+        "confidence": "verified",
+        "as_of": "2024-03-20"
+      },
+      {
+        "label": "Group-IV Services Scheme and Detailed Syllabus",
+        "url": "https://tnpsc.gov.in/static_pdf/syllabus/496_Group%20IV%20Syllabus.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-01-30"
+      },
+      {
+        "label": "TNPSC Official Syllabus Portal",
+        "url": "https://www.tnpsc.gov.in/English/syllabus.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "TNPSC Notifications Portal",
+        "url": "https://www.tnpsc.gov.in/English/Notification.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

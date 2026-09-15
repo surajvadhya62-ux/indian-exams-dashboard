@@ -1,0 +1,224 @@
+{
+  "id": "chandigarh-admin-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "note": "Chandigarh Administration Department of Personnel manages the Common Cadre (Ministerial) for Group 'C' and Group 'B' non-gazetted and gazetted secretarial posts across Chandigarh UT administrative departments. Clerks enter at Pay Level 2 and progress through Junior Assistant (Level 5) to Senior Assistant (Level 6), followed by supervisory appointments as Superintendent Grade-II (Level 6/7) and Superintendent Grade-I (Level 8/9). Steno-Typists enter at Pay Level 3 and advance through Junior Scale and Senior Scale Stenographer posts.",
+    "steps": [
+      {
+        "designation": "Clerk (Group C) / Steno-Typist",
+        "pay_level": "Level 2 (Clerk: ₹19,900 - ₹63,200) / Level 3 (Steno-Typist: ₹21,700 - ₹69,100)",
+        "years": "Entry level (Group C Common Cadre Ministerial)",
+        "confidence": "verified",
+        "as_of": "2026-03-31",
+        "source_url": "https://chandigarh.gov.in/files/Updation26/dop26-73999-0404.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Public Appointment Notice No. 588537(E)-IH(11)-2026/73999"
+      },
+      {
+        "designation": "Junior Assistant",
+        "pay_level": "Level 5 (₹29,200 - ₹92,300)",
+        "years": "approx. 5 yrs regular service as Clerk",
+        "confidence": "verified",
+        "as_of": "2026-03-17",
+        "source_url": "https://chandigarh.gov.in/cadmin//uploads/1784198304_34eab8c0ef99027cfaba.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Common Cadre Recruitment Rules Minutes"
+      },
+      {
+        "designation": "Senior Assistant",
+        "pay_level": "Level 6 (₹35,400 - ₹1,12,400)",
+        "years": "10 yrs regular service as Clerk or 5 yrs combined service as Clerk & Junior Assistant",
+        "confidence": "verified",
+        "as_of": "2026-03-17",
+        "source_url": "https://chandigarh.gov.in/cadmin//uploads/1784198304_34eab8c0ef99027cfaba.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Common Cadre Recruitment Rules Minutes"
+      },
+      {
+        "designation": "Superintendent Grade-II",
+        "pay_level": "Level 6 / Level 7 (₹35,400 - ₹1,12,400 / ₹44,900 - ₹1,42,400)",
+        "years": "approx. 5 yrs regular service as Senior Assistant",
+        "confidence": "verified",
+        "as_of": "2026-03-17",
+        "source_url": "https://chandigarh.gov.in/cadmin//uploads/1784198304_34eab8c0ef99027cfaba.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Common Cadre Recruitment Rules Minutes"
+      },
+      {
+        "designation": "Superintendent Grade-I",
+        "pay_level": "Level 8 / Level 9 (₹47,600 - ₹1,51,100 / ₹53,100 - ₹1,67,800)",
+        "years": "approx. 5-8 yrs as Superintendent Grade-II (Gazetted Group B supervisory cadre)",
+        "confidence": "verified",
+        "as_of": "2026-03-17",
+        "source_url": "https://chandigarh.gov.in/cadmin//uploads/1784198304_34eab8c0ef99027cfaba.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Common Cadre Recruitment Rules Minutes"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Clerk and Steno-Typist posts in Chandigarh Administration consists of an objective Written Examination followed by a mandatory qualifying Skill Test (English Typing Test for Clerks; Stenography and Transcription Test for Steno-Typists) and Document Verification including verification of mandatory ICT/CCC 80-hour certification.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Objective Multiple Choice Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-31",
+        "source_url": "https://chandigarh.gov.in/public-notice",
+        "source_label": "Chandigarh Administration Group C Recruitment Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "English Language Proficiency & Comprehension",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness & Current Affairs",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning Ability & Mental Aptitude",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude & Numerical Ability",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Computer Proficiency & ICT Concepts",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Test (Typing Test / Stenography Test) (Qualifying Only)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-31",
+        "source_url": "https://chandigarh.gov.in/cadmin//uploads/1788349906_e28c62b2baf6092662eb.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Typing Test Standard Order",
+        "papers": [
+          {
+            "paper_name": "English Computer Typing Test (For Clerk Posts)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum net speed of 35 words per minute (wpm) on computer; speed below 35 wpm is disqualified"
+          },
+          {
+            "paper_name": "Stenography & Computer Transcription Test (For Steno-Typist Posts)",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Stenography dictation at 80 wpm for 10 minutes; computer transcription within 50 minutes (English) or 65 minutes (Hindi)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-03-31",
+    "pay_source_url": "https://chandigarh.gov.in/files/Updation26/dop26-73999-0404.pdf",
+    "pay_source_label": "Chandigarh Administration Public Appointment Notice No. 588537(E)-IH(11)-2026/73999 (Pay Level 2 as per 7th CPC for Clerk, Level 3 for Steno-Typist)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 43000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Clerk at Level 2 entry basic pay (₹19,900) with 58% Central DA, 18% HRA (Class Y city - Chandigarh UT), and Transport Allowance (₹1,350 + DA). Steno-Typists are appointed at Pay Level 3 (₹21,700 entry basic, gross ₹39,000 - ₹46,000). Deductions include 10% NPS contribution on Basic + DA and UT Group Insurance.",
+    "official_perks": [
+      "House Rent Allowance (18% in Chandigarh UT - Category Y city) or government accommodation",
+      "Transport Allowance (₹1,350 + 58% DA for Pay Level 1-2)",
+      "Medical reimbursement under Central Services (Medical Attendance) Rules / CGHS empanelled facilities",
+      "Leave Travel Concession (LTC) and defined contribution pension under NPS",
+      "Earned leave, casual leave, child care leave, and maternity/paternity entitlements"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Chandigarh Administration Group 'C' Clerk & Steno-Typist recruitment attracts substantial candidate participation across Chandigarh, Punjab, and Haryana due to central pay commission rules and administrative cadre stability. The 2026 cycle notified 257 total vacancies (234 Clerk, 23 Steno-Typist) under recruitment notice No. 588537(E)-IH(11)-2026/73999.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 257,
+        "confidence": "verified",
+        "as_of": "2026-03-31",
+        "source_url": "https://chandigarh.gov.in/files/Updation26/dop26-73999-0404.pdf",
+        "source_label": "Chandigarh Administration Department of Personnel Public Appointment Notice No. 588537(E)-IH(11)-2026/73999: 234 Clerk and 23 Steno-Typist posts."
+      },
+      {
+        "year": 2019,
+        "vacancies": 404,
+        "confidence": "verified",
+        "as_of": "2019-10-01",
+        "source_url": "https://chandigarh.gov.in",
+        "source_label": "Chandigarh Administration Department of Personnel 2019 Recruitment Cycle: 356 Clerk and 48 Steno-Typist posts."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Chandigarh Administration portals, recruitment circulars, and departmental orders.",
+    "links": [
+      {
+        "label": "Chandigarh Administration Department of Personnel — Public Appointment Notice (2026 Recruitment of Clerks & Steno-Typists)",
+        "url": "https://chandigarh.gov.in/files/Updation26/dop26-73999-0404.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-03-31"
+      },
+      {
+        "label": "Chandigarh Administration — Official Public Notices Portal",
+        "url": "https://chandigarh.gov.in/public-notice",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Chandigarh Administration — Department of Personnel Official Orders & Notifications",
+        "url": "https://chandigarh.gov.in/orders-notifications",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Chandigarh Administration — Official Government Portal",
+        "url": "https://chandigarh.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

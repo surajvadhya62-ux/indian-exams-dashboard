@@ -1,0 +1,83 @@
+{
+  "id": "mp-pat",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Pre Agriculture Test (PAT) Computer Based Examination",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Subject Stream Test: Science Group (Physics 50, Chemistry 50, Maths/Biology 100) or Agriculture Group (AG1 100, AG2 50, AG3 50)",
+            "paper_type": "objective",
+            "total_marks": 200,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PAT_2026_RULEBOOK_18032026.pdf",
+        "source_label": "MPESB Pre Agriculture Test (PAT) Rulebook 2026, Section 2"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Centralized State Counseling & College Seat Allocation",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Document Scrutiny, Choice Filling & Merit-Based Seat Allotment (JNKVV Jabalpur & RVSKVV Gwalior)",
+            "paper_type": "counseling",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PAT_2026_RULEBOOK_18032026.pdf",
+        "source_label": "MP State Agricultural Universities Joint Counseling Guidelines"
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 1220,
+        "applicants": 16725,
+        "appeared": 12550,
+        "cut_off_marks": {
+          "note": "16,725 admit cards issued; 12,550 candidates appeared (75.04% attendance); 4,175 absent. Examination conducted on 08/05/2026 across 4 shifts, result declared on 18/06/2026."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_26/PAT_RES26/PAT_2026_ResultNote.pdf",
+        "source_label": "MPESB Pre Agriculture Test (PAT) 2026 Result Press Note"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Pre Agriculture Test (PAT) 2026 Official Rulebook",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/PAT_2026_RULEBOOK_18032026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPESB Pre Agriculture Test (PAT) 2026 Result Press Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_26/PAT_RES26/PAT_2026_ResultNote.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

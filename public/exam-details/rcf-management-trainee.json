@@ -1,0 +1,201 @@
+{
+  "id": "rcf-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in Rashtriya Chemicals and Fertilizers Limited (RCF) complete 1 year training and probation before absorption as Officer in Grade E-1, progressing along the chemical manufacturing and executive management cadre.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Chemical / Mech / Elect / Inst / IT / HR)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Recruitment Notification for Management Trainees"
+      },
+      {
+        "designation": "Officer / Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Promotion & Absorption Regulations"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Executive Service Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Plant Management Structure"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Senior Management Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Corporate Hierarchy"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Board Level Executive Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment selection is based on an online Computer Based Test (CBT) followed by a Personal Interview. Final selection is based on consolidated merit with 80% weightage for Online CBT and 20% weightage for Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Online Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF MT Online Test Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Discipline Engineering Knowledge / Technical Subject Matter",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for Reserved"
+          },
+          {
+            "paper_name": "General Aptitude (General English, Quantitative Aptitude, Reasoning, General Awareness)",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Personal Interview before Selection Panel",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for General and 50% for Reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Executive remuneration in RCF adheres to DPE 3rd PRC IDA pattern. Management Trainees receive starting basic pay of ₹40,000, mandatory 58% DA constant as of 2025-07-01, Mumbai-tier HRA, and plant allowances.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+    "pay_source_label": "RCF Terms of Appointment and Compensation",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 75000,
+      "max": 92000
+    },
+    "in_hand_range_estimate": {
+      "min": 65000,
+      "max": 79000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹40,000, 58% IDA (₹23,200), Mumbai HRA (27% = ₹10,800) or Chembur/Trombay township quarters, and Cafeteria perks (34% = ₹13,600), less statutory PF (12%) and insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised on quarterly basis",
+      "Company Quarters in RCF Colony (Chembur / Trombay / Thal) or HRA @ 27%",
+      "Cafeteria Approach Allowances up to 34% of basic pay",
+      "Performance Related Pay (PRP) based on annual audited corporate profitability",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Pension Scheme",
+      "Comprehensive in-house hospital medical treatment for employee and dependent family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from recent RCF Limited recruitment drives.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 158,
+        "applicants": 38700,
+        "shortlisted_for_mains": 1100,
+        "selectivity_ratio": "approx. 1 in 245",
+        "confidence": "reported",
+        "as_of": "2024-06-20",
+        "source_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "source_label": "RCF Advt. No. 01062024: 158 Management Trainee vacancies across Chemical, Mechanical, Electrical, Instrumentation, Civil, CC Lab, IT and HR."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, selection lists, and candidate guidelines published on the Rashtriya Chemicals and Fertilizers portal.",
+    "links": [
+      {
+        "label": "RCF HR Recruitment Portal",
+        "url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "RCF Official Corporate Website",
+        "url": "https://www.rcfltd.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

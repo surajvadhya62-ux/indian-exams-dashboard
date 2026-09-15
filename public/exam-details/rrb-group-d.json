@@ -1,0 +1,196 @@
+{
+  "id": "rrb-group-d",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "RRB Level-1 (formerly Group 'D') represents the foundational operational workforce of Indian Railways across engineering, mechanical, electrical, signaling, and traffic wings. Through departmental quotas (General Departmental Competitive Examination - GDCE and Limited Departmental Competitive Examination - LDCE), Level-1 employees can advance into supervisory and junior engineering ranks.",
+    "steps": [
+      {
+        "designation": "Track Maintainer Gr IV / Pointsman / Assistant (Level 1)",
+        "pay_level": "Level 1",
+        "years": "Entry level (Group C / Level 1)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Track Maintainer Gr III / Senior Pointsman",
+        "pay_level": "Level 2",
+        "years": "approx. 3-5 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Track Maintainer Gr II / Shunting Master",
+        "pay_level": "Level 3 / Level 4",
+        "years": "approx. 8-10 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Junior Engineer (JE) - P-Way / Works / Mechanical",
+        "pay_level": "Level 6",
+        "years": "approx. 10-15 yrs (via LDCE/GDCE competitive departmental quota)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Senior Section Engineer (SSE)",
+        "pay_level": "Level 7",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "RRB Group D (Level-1) recruitment comprises a single-stage Computer Based Test (CBT, 100 marks, 90 minutes) followed by a mandatory qualifying Physical Efficiency Test (PET), Document Verification, and Comprehensive Railway Medical Examination. In CBT, one-third (1/3) of the marks allotted to each question is deducted for each incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT) — Single Stage Merit Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2019-02-23",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB/RRC) — Centralized Employment Notice RRC-01/2019 (Level-1 Posts), Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "General Science (10th Standard Physics, Chemistry, Life Sciences)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness and Current Affairs",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Efficiency Test (PET) — Qualifying",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2019-02-23",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB/RRC) — RRC-01/2019, PET Standards",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Events (Weight Carrying 35kg/20kg & 1000m Run)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male: 35kg carry for 100m in 2 min + 1000m run in 4 min 15 sec; Female: 20kg carry for 100m in 2 min + 1000m run in 5 min 40 sec"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 1",
+    "entry_basic_pay": 18000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 32000,
+      "max": 42000
+    },
+    "in_hand_range_estimate": {
+      "min": 27000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 1 entry basic pay (₹18,000) with 58% DA (₹10,440). Track Maintainers receive an additional Risk and Hardship Allowance of ₹2,700 per month (Matrix Level 1). Night Duty and Overtime allowances apply to operational yard staff.",
+    "official_perks": [
+      "Railway residential quarters or HRA (27%/18%/9%)",
+      "Free Railway Passes and Privilege Ticket Orders (PTO) across Indian Railways for employee and family",
+      "Full comprehensive medical care in Indian Railway Hospitals and Dispensaries",
+      "Risk & Hardship Allowance for track maintenance personnel",
+      "Dress/Uniform allowance and NPS retirement pension"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "RRB Group D (Level-1) represents the single largest recruitment drive in global civil employment history. The RRC-01/2019 cycle notified 1,03,769 vacancies, drawing over 1.15 crore registered applicants. The earlier CEN 02/2018 drive filled 62,907 vacancies with over 1.89 crore applicants.",
+    "years": [
+      {
+        "year": 2019,
+        "applicants": 11500000,
+        "vacancies": 103769,
+        "confidence": "verified",
+        "as_of": "2019-02-23",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB/RRC) — Centralized Employment Notice RRC-01/2019: 1,03,769 vacancies advertised."
+      },
+      {
+        "year": 2018,
+        "applicants": 18900000,
+        "vacancies": 62907,
+        "confidence": "verified",
+        "as_of": "2018-02-10",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB) — CEN 02/2018 (Level 1 Posts): 62,907 vacancies filled."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Indian Railways Railway Recruitment Board portal.",
+    "links": [
+      {
+        "label": "Railway Recruitment Board (RRB) — Centralised Portal",
+        "url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Indian Railways Official Recruitment Hub",
+        "url": "https://indianrailways.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

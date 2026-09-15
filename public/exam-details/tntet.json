@@ -1,0 +1,239 @@
+{
+  "id": "tntet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for school education teachers in the Tamil Nadu Elementary Educational Subordinate Service and Tamil Nadu School Educational Subordinate Service. TNTET certification (Paper-I or Paper-II) is the mandatory statutory eligibility benchmark under Section 23 of the Right of Children to Free and Compulsory Education Act (RTE), 2009 for direct recruitment and regular promotion.",
+    "steps": [
+      {
+        "designation": "Secondary Grade Teacher (SGT — Primary Classes I to V, Paper I)",
+        "pay_level": "Level 10",
+        "years": "Entry (approx. 0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "Tamil Nadu Revised Pay Rules, 2017 (G.O. Ms. No. 303, Level 10: Rs. 20,600 - 75,900 for SGT Cadre)"
+      },
+      {
+        "designation": "Graduate Teacher / B.T. Assistant (Middle & High School Classes VI to X, Paper II)",
+        "pay_level": "Level 16",
+        "years": "Entry (Direct recruitment or approx. 5-8 yrs promotion)",
+        "confidence": "verified",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "Tamil Nadu School Educational Subordinate Service Rules (Graduate Teacher, Level 16: Rs. 36,400 - 1,34,200)"
+      },
+      {
+        "designation": "Postgraduate Assistant (PG Assistant — Higher Secondary Classes XI & XII)",
+        "pay_level": "Level 18",
+        "years": "approx. 10-16 yrs (or direct recruitment via TRB PG TRB)",
+        "confidence": "reported",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "Tamil Nadu Higher Secondary Educational Service Rules (PG Assistant, Level 18: Rs. 36,900 - 1,36,600 / Rs. 44,900 - 1,65,400)"
+      },
+      {
+        "designation": "High School Headmaster / Higher Secondary Headmaster",
+        "pay_level": "Level 22 / Level 23",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "Tamil Nadu School Educational Service Rules (Headmaster Gazetted Cadre, Level 22: Rs. 56,100 - 2,05,700)"
+      },
+      {
+        "designation": "District Educational Officer (DEO) / Chief Educational Officer (CEO)",
+        "pay_level": "Level 25 / Level 26",
+        "years": "approx. 25-30+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "Tamil Nadu Educational Service (State Administrative Gazetted Cadre, Level 25: Rs. 59,300 - 2,17,600)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Tamil Nadu Teacher Eligibility Test (TNTET) is conducted by the Teachers Recruitment Board (TRB) in accordance with the statutory guidelines formulated by the National Council for Teacher Education (NCTE) and G.O. (Ms) No. 181, School Education (C2) Department. It comprises two distinct papers: Paper I (for teachers of Classes I to V) and Paper II (for teachers of Classes VI to VIII). Both papers contain 150 objective multiple-choice questions of 1 mark each with no negative marking.",
+    "stages": [
+      {
+        "stage_name": "TNTET Paper I (for Primary Stage Classes I to V Teachers)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "TRB Tamil Nadu TNTET Notification No. 01/2026 & Press Release dated 04.07.2026",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (relevant to age group 6-11 years)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I (Tamil / Telugu / Malayalam / Kannada / Urdu)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II (English)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall qualifying mark for Paper I: 60% (90 marks) for General/OC; 55% (82 marks) for BC, BCM, MBC/DNC, SC, SCA, ST, and PwD (total 150 marks)"
+          }
+        ]
+      },
+      {
+        "stage_name": "TNTET Paper II (for Upper Primary Stage Classes VI to VIII Teachers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-13",
+        "source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "source_label": "TRB Tamil Nadu TNTET Notification No. 01/2026 & Press Release dated 05.07.2026",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (relevant to age group 11-14 years)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I (Tamil / Telugu / Malayalam / Kannada / Urdu)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II (English)",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Subject Choice: Mathematics & Science OR Social Science (60 MCQs)",
+            "marks": 60,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall qualifying mark for Paper II: 60% (90 marks) for General/OC; 55% (82 marks) for BC, BCM, MBC/DNC, SC, SCA, ST, and PwD (total 150 marks)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "TNTET is an eligibility test qualifying candidates for recruitment as Secondary Grade Teachers (Level 10: ₹20,600 - ₹75,900) and Graduate Teachers / B.T. Assistants (Level 16: ₹36,400 - ₹1,34,200) under the Tamil Nadu Revised Pay Rules, 2017. Financial figures represent baseline entry emoluments for appointed Secondary Grade Teachers.",
+    "pay_level": "Level 10 (SGT) / Level 16 (Graduate Teacher)",
+    "entry_basic_pay": 20600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-02-13",
+    "pay_source_url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+    "pay_source_label": "Tamil Nadu Revised Pay Rules, 2017 & TRB Teacher Recruitment Notifications (Scale of Pay Level 10: Rs. 20,600 - 75,900)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 42000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes baseline Level 10 entry basic pay ₹20,600 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹1,200 to ₹3,000), Medical Allowance, and City Compensatory Allowance. Deductions include CPS (10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under New Health Insurance Scheme (NHIS) for school teachers and eligible family members",
+      "Earned leave, medical leave, and vacation leave as per Tamil Nadu School Education Leave Rules",
+      "Government accommodation / quarters or station HRA according to city/rural tier",
+      "Festival advance and annual Pongal bonus sanctioned for state teachers",
+      "Contributory Pension Scheme (CPS/NPS) with state government matching contribution"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TNTET witnesses substantial participation from D.El.Ed and B.Ed holders across Tamil Nadu. Benchmarks are verified directly from official TRB Tamil Nadu press releases certifying the candidate appearance statistics for Paper I and Paper II.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 229129,
+        "vacancies": null,
+        "shortlisted_for_mains": 220464,
+        "selectivity_ratio": "96.22% overall attendance (220,464 candidates appeared out of 229,129 registered across Paper I and Paper II)",
+        "confidence": "verified",
+        "as_of": "2026-07-07",
+        "source_url": "https://trb.tn.gov.in/admin/pdf/2643662506TET%20Press%20News.pdf",
+        "source_label": "TRB Tamil Nadu Press News dated 07.07.2026: Paper I (04.07.2026): 61,386 registered, 59,535 appeared across 222 centres (96.99%); Paper II (05.07.2026): 1,67,743 registered, 1,60,929 appeared across 613 centres (95.94%)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, scheme details, and candidate appearance press releases issued by the Teachers Recruitment Board (TRB), Government of Tamil Nadu.",
+    "links": [
+      {
+        "label": "TNTET Official Information and Archive Hub",
+        "url": "https://trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+        "type": "other",
+        "cycle_label": "TNTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "TNTET Paper I Examination Details — Official Press News (04.07.2026)",
+        "url": "https://trb.tn.gov.in/admin/pdf/4059189243TET1press%20news.pdf",
+        "type": "other",
+        "cycle_label": "TNTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-04"
+      },
+      {
+        "label": "TNTET Paper II Examination Details — Official Press News (05.07.2026)",
+        "url": "https://trb.tn.gov.in/admin/pdf/4801622470press%20news%20tet%20paper%20II.pdf",
+        "type": "other",
+        "cycle_label": "TNTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-05"
+      },
+      {
+        "label": "TNTET Consolidated Candidate Appearance & Syllabus Press Release (07.07.2026)",
+        "url": "https://trb.tn.gov.in/admin/pdf/2643662506TET%20Press%20News.pdf",
+        "type": "other",
+        "cycle_label": "TNTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-07"
+      }
+    ]
+  }
+}

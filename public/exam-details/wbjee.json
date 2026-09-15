@@ -1,0 +1,137 @@
+{
+  "id": "wbjee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "West Bengal Joint Entrance Examination (WBJEE) is conducted by the West Bengal Joint Entrance Examinations Board (WBJEEB), a statutory board established under West Bengal Act XIV of 2014. The examination is conducted for admission into undergraduate academic courses in Engineering & Technology, Pharmacy, and Architecture in universities, government colleges, and self-financing institutes across West Bengal. The examination is administered offline using optical machine-readable response (OMR) sheets across two sessions on a single day: Paper I (Mathematics: 75 questions, 100 marks, 2 hours) and Paper II (Physics & Chemistry: 80 questions, 100 marks, 2 hours). Questions are divided into three categories per subject: Category-1 (1 mark each, -0.25 negative marking), Category-2 (2 marks each, -0.50 negative marking), and Category-3 (2 marks each, multiple correct options, no negative marking, proportional marks for correct subsets). Candidates appearing in both papers receive a General Merit Rank (GMR) eligible for all engineering and pharmacy seats; candidates appearing in Paper II only receive a Pharmacy Merit Rank (PMR).",
+    "stages": [
+      {
+        "stage_name": "Written Entrance Examination (Offline OMR-Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-10",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf",
+        "source_label": "WBJEEB — Information Bulletin of WBJEE-2026 (Section 2.3: Pattern of Question Papers & Section 2.7: Scoring Methodology)",
+        "papers": [
+          {
+            "paper_name": "Paper I: Mathematics (75 MCQs: 50 in Cat-1 [1m, -1/4], 15 in Cat-2 [2m, -1/2], 10 in Cat-3 [2m, no negative])",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 for Cat-1, -0.50 for Cat-2, Nil for Cat-3",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Physics & Chemistry (80 MCQs: Physics 40 Qs [50m], Chemistry 40 Qs [50m] across Cat-1, Cat-2, Cat-3)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 for Cat-1, -0.50 for Cat-2, Nil for Cat-3",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Centralized Web-Based Counselling and Seat Allotment (e-Counselling)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-06-29",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/06/202606291700903463.pdf",
+        "source_label": "WBJEEB — Schedule & Guidelines of WBJEE-2026 Counselling",
+        "papers": [
+          {
+            "paper_name": "Online Choice Filling, Choice Locking, Document Verification & Centralized Seat Allocation Rounds (Round 1, Round 2, Mop-Up & Decentralized)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Rank allotment based on GMR / PMR"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official statistics compiled directly from WBJEEB press conferences and board announcements. In WBJEE 2024 (held on 28.04.2024, result declared on 06.06.2024), 1,42,694 candidates registered, 1,13,492 candidates appeared for the test across West Bengal and outstation centres, and 1,12,963 candidates qualified and were allotted ranks (pass rate: 99.53%). In WBJEE 2023 (held on 30.04.2023, result declared on 26.05.2023), 1,24,919 candidates registered, 97,524 appeared, and 96,913 qualified (pass rate: 99.37%).",
+    "years": [
+      {
+        "year": 2024,
+        "registered_candidates": 142694,
+        "appeared_candidates": 113492,
+        "qualified_candidates": 112963,
+        "pass_percentage": 99.53,
+        "confidence": "verified",
+        "as_of": "2024-06-06",
+        "source_url": "https://wbjeeb.in/wbjee-exam/",
+        "source_label": "WBJEEB — Official Press Conference on WBJEE 2024 Results (6 June 2024)"
+      },
+      {
+        "year": 2023,
+        "registered_candidates": 124919,
+        "appeared_candidates": 97524,
+        "qualified_candidates": 96913,
+        "pass_percentage": 99.37,
+        "confidence": "verified",
+        "as_of": "2023-05-26",
+        "source_url": "https://wbjeeb.in/wbjee-exam/",
+        "source_label": "WBJEEB — Official Press Conference on WBJEE 2023 Results (26 May 2023)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Information Bulletins, counselling schedules, and seat matrices published by the West Bengal Joint Entrance Examinations Board (WBJEEB).",
+    "links": [
+      {
+        "label": "WBJEEB — Information Bulletin of WBJEE-2026",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/03/202603101506582412.pdf",
+        "type": "notification",
+        "cycle_label": "WBJEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-10"
+      },
+      {
+        "label": "WBJEEB — Schedule of WBJEE-2026 Centralized Counselling",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/06/202606291700903463.pdf",
+        "type": "other",
+        "cycle_label": "WBJEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-29"
+      },
+      {
+        "label": "WBJEEB — Seat Matrix (Engineering & Pharmacy) for Decentralised Counselling",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3d2a27e83d429f0dcae6b937cf440aeb1/uploads/2026/09/202609061815337480.pdf",
+        "type": "other",
+        "cycle_label": "WBJEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-06"
+      },
+      {
+        "label": "WBJEEB Examination Hub (wbjee-exam)",
+        "url": "https://wbjeeb.in/wbjee-exam/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "WBJEEB Official Website",
+        "url": "https://wbjeeb.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "WBJEEB NIC Candidate Portal",
+        "url": "https://wbjeeb.nic.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

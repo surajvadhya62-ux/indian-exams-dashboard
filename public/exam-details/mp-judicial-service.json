@@ -1,0 +1,234 @@
+{
+  "id": "mp-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+        "promotion_criteria": "Direct recruitment conducted by High Court of Madhya Pradesh (Preliminary Exam, Main Written Exam and Viva-Voce), followed by 1-year institutional training at Madhya Pradesh State Judicial Academy (MPSJA), Jabalpur.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "Madhya Pradesh Judicial Service (Recruitment and Conditions of Service) Rules"
+      },
+      {
+        "step_order": 2,
+        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) / ACJM",
+        "pay_level": "SNJPC J-3 (₹1,11,000 – ₹1,63,030)",
+        "promotion_criteria": "Promotion on seniority-cum-merit by High Court of MP after 5 years of satisfactory judicial service as Civil Judge (Junior Division), based on disposal quotas and ACR scrutiny.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "MP Higher Judicial Service Regulations"
+      },
+      {
+        "step_order": 3,
+        "designation": "Additional District & Sessions Judge (ADJ / Additional District Judge)",
+        "pay_level": "SNJPC J-5 (₹1,44,840 – ₹1,94,660)",
+        "promotion_criteria": "Promotion to Higher Judicial Service cadre either through Limited Departmental Competitive Examination (LDCE 10% quota) after 5 years as Senior Civil Judge or through regular DPC quota (65% quota) based on merit-cum-seniority.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "Madhya Pradesh Higher Judicial Service Rules 2017"
+      },
+      {
+        "step_order": 4,
+        "designation": "Principal District & Sessions Judge (PDJ / District Judge)",
+        "pay_level": "SNJPC J-7 (₹1,99,100 – ₹2,24,100)",
+        "promotion_criteria": "Selection and posting as Head of District Judiciary by Full Court of High Court of Madhya Pradesh on seniority-cum-suitability.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "MP Higher Judicial Service Selection Guidelines"
+      },
+      {
+        "step_order": 5,
+        "designation": "Judge, High Court of Madhya Pradesh",
+        "pay_level": "Constitutional Post (₹2,25,000 fixed)",
+        "promotion_criteria": "Elevation to High Court Bench under Article 217(2)(a) of the Constitution of India via Supreme Court Collegium recommendation from state judicial service quota.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in",
+        "source_label": "Constitution of India, Article 217"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Online Preliminary Examination (Screening Test)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Law Subjects (110 marks: CPC, CrPC, IPC, Evidence, Contract, TPA, Specific Relief, Limitation, MP Accomodation, MP Land Revenue, NI Act, Constitution) + GK (20) + Computer (10) + English (10)",
+            "paper_type": "objective",
+            "total_marks": 150,
+            "duration_minutes": 120,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "High Court of MP Civil Judge Examination Scheme, Section 8"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Main Written Examination (Subjective / Descriptive)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Law & Procedure",
+            "paper_type": "descriptive",
+            "total_marks": 100,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper II: Writing Skill, Court Practice & Current Legal Knowledge",
+            "paper_type": "descriptive",
+            "total_marks": 100,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper III: Criminal Law & Procedure",
+            "paper_type": "descriptive",
+            "total_marks": 100,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper IV: Judgment Writing (Framing of Issues, Charges & Civil/Criminal Judgment)",
+            "paper_type": "descriptive",
+            "total_marks": 100,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "High Court of MP Civil Judge Mains Syllabus"
+      },
+      {
+        "stage_order": 3,
+        "stage_name": "Viva-Voce / Personal Interview",
+        "is_interview": true,
+        "papers": [
+          {
+            "paper_name": "Interview / Personality & Legal Knowledge Evaluation (Minimum 40% qualifying marks)",
+            "paper_type": "interview",
+            "total_marks": 50,
+            "duration_minutes": 30,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "High Court of MP Viva-Voce Regulations"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) Scale, MPHC Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 135000,
+      "max": 145000
+    },
+    "in_hand_range_estimate": {
+      "min": 115000,
+      "max": 125000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance at 58% of basic pay (₹45,147 per month at entry level) under SNJPC judicial pay scales.",
+        "confidence": "verified",
+        "source_label": "SNJPC Dearness Allowance Orders"
+      },
+      {
+        "perk_name": "Judicial Residential Bungalow / HRA",
+        "perk_description": "Official earmarked judicial residence with camp office facility or judicial HRA as per Supreme Court directions.",
+        "confidence": "reported",
+        "source_label": "Supreme Court of India (All India Judges Association Case) Directives"
+      },
+      {
+        "perk_name": "Sumptuary & Camp Office Allowance",
+        "perk_description": "Monthly sumptuary allowance and office orderly allowance for maintaining judicial decorum and residential office work.",
+        "confidence": "reported",
+        "source_label": "SNJPC Recommendations"
+      },
+      {
+        "perk_name": "Official Vehicle / Conveyance Allowance",
+        "perk_description": "Fuel reimbursement and conveyance allowance for judicial officers.",
+        "confidence": "reported",
+        "source_label": "MP Judicial Service Rules"
+      },
+      {
+        "perk_name": "Electricity, Water, Robe & Newspaper Allowances",
+        "perk_description": "Periodic robe allowance, monthly domestic helper/orderly allowance, electricity/water bill reimbursements.",
+        "confidence": "reported",
+        "source_label": "SNJPC Allowances Package"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 191,
+        "applicants": 18500,
+        "appeared": 1842,
+        "cut_off_marks": {
+          "prelims_unreserved": 113.0,
+          "prelims_obc": 105.0,
+          "prelims_sc": 88.0,
+          "prelims_st": 75.0,
+          "final_merit_rank_1": 279.5
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "source_label": "High Court of MP Civil Judge 2022 Final Result and Selection Notification dated 12/11/2025"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "High Court of MP Civil Judge 2022 Final Result and Notification",
+        "url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Final%20Result-2022%20along%20with%20notification.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "High Court of MP Civil Judge 2022 Online Preliminary Examination Result",
+        "url": "https://mphc.gov.in/storage/PDF/web_pdf/RC/CJ%20Pre%20Result-2022.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

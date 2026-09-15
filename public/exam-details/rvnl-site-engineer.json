@@ -1,0 +1,199 @@
+{
+  "id": "rvnl-site-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Site Engineers and Project Managers in Rail Vikas Nigam Limited (RVNL) advance through the project execution and railway infrastructure engineering hierarchy under DPE IDA scales.",
+    "steps": [
+      {
+        "designation": "Site Engineer / Executive (Civil / Electrical / S&T)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Recruitment Notifications for Project Engineers"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Promotion Policy for Railway Infrastructure Executives"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Cadre Regulations"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Engineering Management Rules"
+      },
+      {
+        "designation": "Joint General Manager (JGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Senior Management Norms"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Project Management Cadre"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Executive Directorate Cadre"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Site Engineers and Project Managers is carried out based on valid GATE scores or an online Computer Based Screening Test followed by Technical Document Verification and a Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Written Screening / GATE Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Selection Procedures and Written Exam Guidelines",
+        "papers": [
+          {
+            "paper_name": "Technical Domain Knowledge (Civil/Electrical/S&T) & Railway Engineering Concepts",
+            "marks": 70,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark per wrong response",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for SC/ST/OBC"
+          },
+          {
+            "paper_name": "General Aptitude, Reasoning, Quantitative Ability & General Awareness",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark per wrong response",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Technical & Behavioral Interview before Selection Committee",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for UR and 50% for Reserved"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Emoluments follow DPE 3rd PRC IDA pay pattern. Site Engineers enter in Grade E-1 with starting basic pay ₹40,000, mandatory 58% DA constant as of 2025-07-01, site allowances, and project perks.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://rvnl.org/career/current-openings",
+    "pay_source_label": "RVNL Emoluments & Terms of Appointment",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 72000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 63000,
+      "max": 77000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Entry Basic Pay of ₹40,000, 58% IDA (₹23,200), HRA (18%–27%), Cafeteria perks (30% = ₹12,000) and site allowance, less statutory PF (12%) and health scheme deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "Project Site Allowance / Hardship Allowance for remote railway line project postings",
+      "House Rent Allowance (HRA) or Project Quarter Accommodation",
+      "Cafeteria Approach Perks & Allowances up to 35% of basic pay",
+      "Contributory Provident Fund, Gratuity, and Group Insurance Coverage",
+      "Comprehensive medical reimbursement scheme for self and dependent family members"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from RVNL recruitment drives.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 85,
+        "applicants": 19800,
+        "shortlisted_for_mains": 350,
+        "selectivity_ratio": "approx. 1 in 232",
+        "confidence": "reported",
+        "as_of": "2024-09-30",
+        "source_url": "https://rvnl.org/career/current-openings",
+        "source_label": "RVNL Notification No. RVNL/2024/HR: 85 project vacancies across Civil, Electrical, and Signal & Telecommunication."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career and job vacancy notices published on the Rail Vikas Nigam Limited website.",
+    "links": [
+      {
+        "label": "RVNL Current Openings Portal",
+        "url": "https://rvnl.org/career/current-openings",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "RVNL Corporate Career Hub",
+        "url": "https://rvnl.org/career",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "RVNL Official Portal",
+        "url": "https://rvnl.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

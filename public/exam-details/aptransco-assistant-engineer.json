@@ -1,0 +1,200 @@
+{
+  "id": "aptransco-assistant-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Engineer (Electrical / Civil / Telecom) is the foundational executive engineering cadre in the Transmission Corporation of Andhra Pradesh Limited (APTRANSCO). Officers manage extra-high-voltage (EHV) grid substations (132 kV, 220 kV, 400 kV) and transmission line corridors. Promotions are governed by Regulation 14(a)(1) and Regulation 6(b) of the APSEB Service Regulations (Parts II & III) as adopted by APTRANSCO, requiring passing of prescribed departmental accounts tests.",
+    "steps": [
+      {
+        "designation": "Assistant Engineer (AE / AEE - Electrical / Civil)",
+        "pay_level": "AP Power Utilities Revised Scale (₹63,600 - ₹1,31,220)",
+        "years": "0-6 yrs",
+        "confidence": "verified",
+        "as_of": "2019-08-08",
+        "source_url": "https://aptransco.gov.in/old/employee/ae-to-ade.pdf",
+        "source_label": "APTRANSCO Engineering Service Regulations & T.O.O (CGM-HRD&Plng) Rt.No.1053"
+      },
+      {
+        "designation": "Deputy Executive Engineer (DEE / ADE - Substation / Line Maintenance)",
+        "pay_level": "AP Power Utilities Revised Scale (₹79,350 - ₹1,48,700)",
+        "years": "6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2019-08-08",
+        "source_url": "https://aptransco.gov.in/old/employee/ae-to-ade.pdf",
+        "source_label": "APTRANSCO T.O.O Rt.No.1053 (Promotion under Regulation 14(a)(1) of APSEB Service Regulations)"
+      },
+      {
+        "designation": "Executive Engineer (EE / DE - Division / Grid Operation)",
+        "pay_level": "AP Power Utilities Revised Scale (₹98,900 - ₹1,68,200)",
+        "years": "12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-08-08",
+        "source_url": "https://aptransco.gov.in/old/employee/ee-to-se-3.pdf",
+        "source_label": "APTRANSCO Executive Service Promotion Orders & Cadre Strength"
+      },
+      {
+        "designation": "Superintending Engineer (SE - Circle / O&M / TLC)",
+        "pay_level": "AP Power Utilities Revised Scale (₹1,20,500 - ₹1,88,400)",
+        "years": "18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2019-08-08",
+        "source_url": "https://aptransco.gov.in/old/employee/ee-to-se-3.pdf",
+        "source_label": "APTRANSCO Superintending Engineer Establishment Regulations"
+      },
+      {
+        "designation": "Chief Engineer (CE - Zone / SLDC / Transmission / HRD)",
+        "pay_level": "AP Power Utilities Revised Scale (₹1,42,000 - ₹2,08,500)",
+        "years": "24+ yrs",
+        "confidence": "reported",
+        "as_of": "2019-08-08",
+        "source_url": "https://aptransco.gov.in",
+        "source_label": "APTRANSCO Board Level Executive Service Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment examination for Assistant Engineers is conducted as a single-stage written test consisting of 100 objective multiple choice questions carrying 100 marks over a 2-hour duration (120 minutes). Section A tests core discipline engineering knowledge (70 marks) and Section B covers general aptitude and awareness (30 marks). There is no negative marking. Final selection is based 100% on written test merit, followed by original document verification.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Type Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2019-03-01",
+        "source_url": "https://aptransco.gov.in",
+        "source_label": "APTRANSCO Assistant Engineer Direct Recruitment Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Section A: Core Academic Curriculum (Electrical & Electronics / Civil Engineering)",
+            "marks": 70,
+            "duration_minutes": 84,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for OC, 35% for BC, 30% for SC/ST/PH"
+          },
+          {
+            "paper_name": "Section B: Analytical Aptitude, Reasoning, General Awareness & Numerical Ability",
+            "marks": 30,
+            "duration_minutes": 36,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% for OC, 35% for BC, 30% for SC/ST/PH"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2019-03-01",
+        "source_url": "https://aptransco.gov.in",
+        "source_label": "APTRANSCO Recruitment Guidelines (Merit List Verification)",
+        "papers": [
+          {
+            "paper_name": "Verification of Original Engineering Degree, Caste, and Residence Certificates",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Strictly qualifying / verification of authenticity"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Engineers are remunerated under the Andhra Pradesh Power Utilities Revised Pay Scales (agreed upon via bipartite wage settlements between power utilities management and employee unions). The revised entry pay scale for Assistant Engineer is ₹63,600 - ₹1,31,220 with an entry basic pay of ₹63,600 (replacing the pre-revised scale of ₹41,155 - ₹63,600).",
+    "pay_level": "AP Power Utilities Scale (₹63,600 - ₹1,31,220)",
+    "entry_basic_pay": 63600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-08-08",
+    "pay_source_url": "https://aptransco.gov.in/old/employee/ae-to-ade.pdf",
+    "pay_source_label": "APTRANSCO Wage Revision Orders & T.O.O Ms. No. 94 read with Power Utilities Pay Scales",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 108000,
+      "max": 124000
+    },
+    "in_hand_range_estimate": {
+      "min": 92000,
+      "max": 106000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on entry basic pay of ₹63,600 with standardized 58% Dearness Allowance plus HRA (ranging from 8% to 16% as adopted under T.O.O. Ms. No. 94) and substation shift allowances; in-hand estimate deducts 10% EPF/NPS, Professional Tax (₹200), and AP Power Utilities Group Insurance.",
+    "official_perks": [
+      "House Rent Allowance (HRA) adopted as per AP state rates (8% to 16% under T.O.O. Ms.No.94)",
+      "APTRANSCO Employees Medical Attendance Scheme and cashless hospital tie-ups",
+      "Contributory Pension Scheme (CPS/NPS) with 14% management contribution",
+      "Substation Shift Allowance and Extra-High-Voltage (EHV) Hazard Allowance",
+      "Leave Travel Concession (LTC) and leave encashment benefits as per APSEB Leave Regulations",
+      "Concessional electricity tariff for power utility employees"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics derived from APTRANSCO direct recruitment notifications and engineering cadre schedules.",
+    "years": [
+      {
+        "year": 2019,
+        "applicants": 48000,
+        "vacancies": 171,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 280 (calculated: ~48,000 applicants ÷ 171 notified vacancies across Electrical and Civil)",
+        "confidence": "reported",
+        "as_of": "2019-03-30",
+        "source_url": "https://aptransco.gov.in",
+        "source_label": "APTRANSCO Assistant Engineer Recruitment Notification No. 01/2019 (149 Electrical + 22 Civil vacancies)"
+      },
+      {
+        "year": 2017,
+        "applicants": 42500,
+        "vacancies": 146,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 291 (calculated: ~42,500 applicants ÷ 146 vacancies)",
+        "confidence": "reported",
+        "as_of": "2017-04-15",
+        "source_url": "https://aptransco.gov.in",
+        "source_label": "APTRANSCO AE Direct Recruitment Notification 2017 (131 Electrical + 15 Civil posts)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official corporate portal, engineering service regulations, and statutory allowance adoption orders published by APTRANSCO.",
+    "links": [
+      {
+        "label": "APTRANSCO Official Government Portal",
+        "url": "https://aptransco.gov.in",
+        "type": "notification",
+        "cycle_label": "APTRANSCO Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "APTRANSCO Engineering Service Regulations & Promotion Orders (PDF)",
+        "url": "https://aptransco.gov.in/old/employee/ae-to-ade.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2019-08-08"
+      },
+      {
+        "label": "APTRANSCO HRA Adoption Order T.O.O. Ms. No. 94 (PDF)",
+        "url": "https://aptransco.gov.in/old/employee/t-o-o-ms-no-94-dt-12-05-2015.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2015-05-12"
+      },
+      {
+        "label": "APTRANSCO Assistant Engineer Seniority List & Regulations (PDF)",
+        "url": "https://aptransco.gov.in/old/employee/ae.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

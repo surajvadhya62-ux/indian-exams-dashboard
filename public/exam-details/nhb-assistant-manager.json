@@ -1,0 +1,203 @@
+{
+  "id": "nhb-assistant-manager",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "National Housing Bank (NHB) is the apex statutory financial institution for housing finance in India, wholly owned by the Government of India (Ministry of Finance). Officers join at Junior Management Grade Scale I (JMGS-I) as Assistant Managers across Generalist, Hindi, and IT disciplines, progressing through Middle Management, Senior Management, and Top Executive cadres.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Scale I - JMGS-I)",
+        "pay_level": "JMGS-I (Scale ₹48,480 - 85,920)",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB — Recruitment of Officers in Various Scales Notification / Officer Service Regulations"
+      },
+      {
+        "designation": "Deputy Manager (Scale II - MMGS-II)",
+        "pay_level": "MMGS-II (Scale ₹64,820 - 93,960)",
+        "years": "approx. 3-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB Officer Promotion Regulations"
+      },
+      {
+        "designation": "Manager (Scale III - MMGS-III)",
+        "pay_level": "MMGS-III (Scale ₹85,920 - 1,05,280)",
+        "years": "approx. 8-11 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB Officer Promotion Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (Scale IV / V)",
+        "pay_level": "SMGS-IV / SMGS-V",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB Senior Executive Cadre Structure"
+      },
+      {
+        "designation": "General Manager (GM) / Chief General Manager (CGM)",
+        "pay_level": "TEGS-VI / Top Executive Grade",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB Senior Executive Cadre Structure"
+      },
+      {
+        "designation": "Executive Director (ED) / Managing Director (MD)",
+        "pay_level": "Board of Directors Scale",
+        "years": "approx. 27+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "Government of India Appointment / Statutory Authority"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Assistant Manager (Scale I) in National Housing Bank is conducted in two phases: Phase I Online Examination (Objective 200 marks + Descriptive English 25 marks = 225 marks total, duration 210 minutes) followed by Phase II Interview (50 marks). In the objective test, a negative marking deduction of 1/4th (0.25) mark applies for each incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Online Examination (Objective & Descriptive Tests)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB — Recruitment Notification (Selection Procedure & Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Reasoning & Computer Aptitude",
+            "marks": 60,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum qualifying cutoff"
+          },
+          {
+            "paper_name": "General Awareness (with special focus on Housing, Banking & Financial Sector)",
+            "marks": 50,
+            "duration_minutes": 40,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum qualifying cutoff"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 35,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum qualifying cutoff"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum qualifying cutoff"
+          },
+          {
+            "paper_name": "Descriptive English Test (Letter Writing & Essay)",
+            "marks": 25,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying score required (evaluated only if objective test cutoff is cleared)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB — Recruitment Notification (Interview Stage)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (NHB Head Office, New Delhi)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks in interview: 50% for UR/EWS, 45% for SC/ST/OBC/PwBD"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Managers (Scale I) in NHB receive compensation in Junior Management Grade Scale I (JMGS-I). Starting basic pay is ₹48,480 under revised banking/financial institution bipartite settlement scales (earlier ₹36,000 in scale ₹36000-1490/7-46430-1740/2-49910-1990/7-63840). Gross monthly emoluments are approximately ₹82,000 to ₹92,000 per month.",
+    "pay_level": "Junior Management Grade Scale I (JMGS-I)",
+    "entry_basic_pay": 48480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-06-28",
+    "pay_source_url": "https://www.nhb.org.in",
+    "pay_source_label": "NHB — Recruitment Notification (Emoluments & Perquisites of Assistant Manager)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 82000, "max": 92000 },
+    "in_hand_range_estimate": { "min": 70000, "max": 79000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic pay of ₹48,480 with applicable Dearness Allowance, House Rent Allowance (or Bank accommodation / leased housing), City Compensatory Allowance, Special Pay, and Special DA; net in-hand accounts for standard defined contribution pension and PF deductions.",
+    "official_perks": [
+      "Bank accommodation or leased residential facility in New Delhi / regional centers",
+      "Comprehensive medical facility / reimbursement of hospitalization expenses for self and family",
+      "Defined contribution pension scheme under National Pension System (NPS) and Gratuity",
+      "Leave Travel Concession (LTC) and leave encashment benefits",
+      "Concessional loan facilities for housing, car, and computers, plus newspaper and mobile allowances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "NHB recruits Assistant Managers and officers in various scales annually based on organizational requirements. In the 2024 recruitment cycle, 48 vacancies across various regular and contractual posts (including Assistant Managers) were notified.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 48,
+        "confidence": "verified",
+        "as_of": "2024-06-28",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB — Recruitment of Officers in Various Scales Notification 2024 (Total 48 Vacancies)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 43,
+        "confidence": "reported",
+        "as_of": "2023-09-29",
+        "source_url": "https://www.nhb.org.in",
+        "source_label": "NHB — Advt. No. NHB/HRMD/Recruitment/2023-24/03 (43 Vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment resources and career portals of the National Housing Bank (NHB).",
+    "links": [
+      {
+        "label": "National Housing Bank Official Website",
+        "url": "https://www.nhb.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

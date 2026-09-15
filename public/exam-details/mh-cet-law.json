@@ -1,0 +1,181 @@
+{
+  "id": "mh-cet-law",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "MAH-LL.B. Common Entrance Test is conducted annually by the State Common Entrance Test Cell, Maharashtra for admission into Government, Government-Aided, University Departments, and Unaided Law Colleges across Maharashtra (including Government Law College Mumbai and ILS Law College Pune). The examination is conducted separately for the 3-Year LL.B. course (post-graduation) and the 5-Year Integrated LL.B. course (B.A. LL.B., B.B.A. LL.B., B.L.S. LL.B. post-higher secondary). Effective Academic Year 2025-26 and confirmed for 2026-27 vide Public Notice No. HED-1124/C.R.32/Public Notice/141/2025 dated 28 Jan 2025, the total marks for both examinations were amended to 120 marks (120 objective MCQs) over 120 minutes instead of the earlier 150 marks. There is no negative marking, and the question paper is administered in English and Marathi.",
+    "stages": [
+      {
+        "stage_name": "MAH-LL.B. 3-Year CET Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-08",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET-IB-3-Years-LLB-_2026.pdf",
+        "source_label": "State CET Cell Maharashtra — Information Brochure MAH-LL.B. 3 Year CET-2026, Section 11 (Syllabus and Marking Scheme)",
+        "papers": [
+          {
+            "paper_name": "Legal Aptitude and Legal Reasoning",
+            "marks": 24,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge with Current Affairs",
+            "marks": 32,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Logical and Analytical Reasoning",
+            "marks": 24,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "MAH-LL.B. 5-Year Integrated CET Online Computer Based Test (CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-01-10",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Final_CET-IB-LLB-5-Yrs_2026.pdf",
+        "source_label": "State CET Cell Maharashtra — Information Brochure MAH-LL.B. 5 Year CET-2026, Section 11 (Syllabus and Marking Scheme)",
+        "papers": [
+          {
+            "paper_name": "Legal Aptitude and Legal Reasoning",
+            "marks": 32,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge with Current Affairs",
+            "marks": 24,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Logical and Analytical Reasoning",
+            "marks": 32,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English",
+            "marks": 24,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Basic Mathematics",
+            "marks": 8,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Combined annual applicant and attendance statistics across both 3-Year and 5-Year LL.B. examination streams verified directly from official CET Cell Maharashtra published annual reports.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 129580,
+        "vacancies": null,
+        "shortlisted_for_mains": 101993,
+        "selectivity_ratio": "1,01,993 appeared out of 1,29,580 registered (LLB 3-Yr: 74,621 present / 94,506 registered; LLB 5-Yr: 27,372 present / 35,074 registered; overall 78.71% attendance)",
+        "confidence": "verified",
+        "as_of": "2025-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Status: A.Y. 2025-26 (Sr. No. 14: MAH-LLB 5 Yr-CET 35,074 reg / 27,372 pres; Sr. No. 16: MAH-LLB 3 Yr-CET 94,506 reg / 74,621 pres)"
+      },
+      {
+        "year": 2024,
+        "applicants": 114891,
+        "vacancies": null,
+        "shortlisted_for_mains": 94898,
+        "selectivity_ratio": "94,898 appeared out of 1,14,891 registered (LLB 3-Yr: 68,144 appeared / 80,125 registered; LLB 5-Yr: 26,754 appeared / 34,766 registered; overall 82.60% attendance)",
+        "confidence": "verified",
+        "as_of": "2024-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Wise Status A.Y. 2024-25 (Sr. No. 11: LLB 5 Yr-CET 34,766 reg / 26,754 app; Sr. No. 13: LLB 3 Yr-CET 80,125 reg / 68,144 app)"
+      },
+      {
+        "year": 2023,
+        "applicants": 98951,
+        "vacancies": null,
+        "shortlisted_for_mains": 83433,
+        "selectivity_ratio": "83,433 appeared out of 98,951 registered (LLB 3-Yr: 64,138 appeared / 76,425 registered; LLB 5-Yr: 19,295 appeared / 22,526 registered; overall 84.32% attendance)",
+        "confidence": "verified",
+        "as_of": "2023-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Wise Status A.Y. 2023-24 (Sr. No. 5: L.L.B. 5 Yrs 22,526 reg / 19,295 app; Sr. No. 14: L.L.B. 3 Yrs 76,425 reg / 64,138 app)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official statutory information brochures, updated marking scheme public notices, and multi-year CET Cell statistics reports.",
+    "links": [
+      {
+        "label": "MAH-LL.B. 3-Year CET 2026 — Information Brochure",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET-IB-3-Years-LLB-_2026.pdf",
+        "type": "notification",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-08"
+      },
+      {
+        "label": "MAH-LL.B. 5-Year Integrated CET 2026 — Information Brochure",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Final_CET-IB-LLB-5-Yrs_2026.pdf",
+        "type": "notification",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-10"
+      },
+      {
+        "label": "Public Notice — Amendment in Marking Scheme for LLB 3-Yr & 5-Yr CET",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Public-Notice_Change-in-Marking-Scheme-LLB-3-5-_2025.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-01-28"
+      },
+      {
+        "label": "State CET Cell Official Multi-Year Examination Statistics Report",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-06-30"
+      }
+    ]
+  }
+}

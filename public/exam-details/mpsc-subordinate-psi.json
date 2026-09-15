@@ -1,0 +1,245 @@
+{
+  "id": "mpsc-subordinate-psi",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression in Maharashtra Police Service from direct-entry Police Sub-Inspector (PSI) through executive ranks to the Indian Police Service (IPS) cadre, governed by Maharashtra Police Act and Home Department promotion regulations.",
+    "steps": [
+      {
+        "designation": "Police Sub-Inspector (PSI) / Probationary Sub-Inspector",
+        "pay_level": "Level S-14",
+        "years": "Entry (Probation 1-2 yrs at Maharashtra Police Academy, Nashik)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, 7th Pay Commission, Pay Level S-14 (₹38,600 - ₹1,22,800)"
+      },
+      {
+        "designation": "Assistant Police Inspector (API)",
+        "pay_level": "Level S-15",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Pay Level S-15 (₹41,800 - ₹1,32,300)"
+      },
+      {
+        "designation": "Police Inspector (PI) / Senior Police Inspector (Sr. PI / Thana Incharge)",
+        "pay_level": "Level S-17",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Pay Level S-17 / S-20"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP) / Assistant Commissioner of Police (ACP)",
+        "pay_level": "Level S-20",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra State Police Service Rules (Group A Gazetted), Level S-20 (₹56,100 - ₹1,77,500)"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl SP) / Deputy Commissioner of Police (DCP)",
+        "pay_level": "Level S-23",
+        "years": "approx. 25-30 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services Rules, Pay Level S-23 (₹67,700 - ₹2,08,700)"
+      },
+      {
+        "designation": "Superintendent of Police (SP) / DCP (IPS Cadre Induction)",
+        "pay_level": "Level 12",
+        "years": "approx. 30+ yrs",
+        "confidence": "reported",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations, Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises a common Combined Preliminary screening examination, followed by the Main written examination (Paper 1 & Paper 2), a qualifying Physical Efficiency Test (PET), and a final Interview round.",
+    "stages": [
+      {
+        "stage_name": "Maharashtra Non-Gazetted Group B Combined Preliminary Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 & Revised Examination Scheme for Non-Gazetted Services",
+        "papers": [
+          {
+            "paper_name": "General Ability Test (Current Affairs, History, Geography, Polity, Economics, General Science, Aptitude & Reasoning)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Maharashtra Subordinate Services Group B Main Examination (Police Sub-Inspector)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Marathi and English (Marathi: 50 Qs / 100 marks; English: 50 Qs / 100 marks)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2 — General Studies and Police Subject Knowledge (Constitution, IPC, CrPC, Evidence Act, Maharashtra Police Act, IT, RTI)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Efficiency Test (PET - Field Endurance)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Police Sub-Inspector Physical Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Physical Fitness Test (Running, Pull-ups, Long Jump, Shot Put)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (60 marks out of 100 required to qualify for Interview)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test / Interview",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Police Sub-Inspector Interview Rules",
+        "papers": [
+          {
+            "paper_name": "Oral Interview Board",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay Level S-14 under Maharashtra Civil Services (Revised Pay) Rules, 2019 (Maharashtra 7th Pay Commission).",
+    "pay_level": "Level S-14",
+    "entry_basic_pay": 38600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-01-01",
+    "pay_source_url": "https://mpsc.gov.in",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Government Resolution No. RPS-2019/CR-1/Services-9",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 65000, "max": 78000 },
+    "in_hand_range_estimate": { "min": 58000, "max": 70000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹38,600 in Level S-14 (₹38,600 - ₹1,22,800). Gross range computed with 58% DA (₹22,388) and HRA from 9% (Z-class cities) to 27% (X-class cities like Mumbai/Pune), plus police uniform and conveyance allowance, minus standard 10% NPS and state insurance deductions.",
+    "official_perks": [
+      "Government accommodation or House Rent Allowance (HRA up to 27% in metro regions)",
+      "Police uniform and kit maintenance allowance",
+      "Special duty and investigation conveyance allowance",
+      "Medical facilities under Maharashtra State Government Employees Health Scheme",
+      "Leave Travel Concession (LTC) and 30 days annual earned leave",
+      "Subsidized police canteen and welfare association benefits"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for PSI are notified as part of the MPSC Maharashtra Non-Gazetted Group-B Services Combined Examination.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 480000,
+        "vacancies": 310,
+        "shortlisted_for_mains": 4650,
+        "selectivity_ratio": "approx. 1 in 1548 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 011/2026 (Maharashtra Non-Gazetted Group B Services Combined Preliminary Examination 2026): 310 Police Sub-Inspector posts notified."
+      },
+      {
+        "year": 2024,
+        "applicants": 425000,
+        "vacancies": 216,
+        "shortlisted_for_mains": 3240,
+        "selectivity_ratio": "approx. 1 in 1968 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-10-14",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 048/2024 (Maharashtra Non-Gazetted Group B Services Combined Preliminary Examination 2024): 216 Police Sub-Inspector posts notified."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and candidate application portals on MPSC official domains.",
+    "links": [
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Combined Examination 2026 Notification (Advt. 011/2026)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 011/2026",
+        "confidence": "verified",
+        "as_of": "2026-04-10"
+      },
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Examination 2024 Notification (Advt. 048/2024)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 048/2024",
+        "confidence": "verified",
+        "as_of": "2024-10-14"
+      },
+      {
+        "label": "MPSC Subordinate Services Group B (Police Sub-Inspector) Examination Scheme & Syllabus",
+        "url": "https://mpsc.gov.in/home",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPSC Previous Question Papers and Answer Keys Portal",
+        "url": "https://mpsc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

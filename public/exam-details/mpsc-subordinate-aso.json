@@ -1,0 +1,209 @@
+{
+  "id": "mpsc-subordinate-aso",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Secretariat administrative hierarchy at Mantralaya (Government of Maharashtra State Secretariat, Mumbai) and MPSC administrative cadre, governed by General Administration Department (GAD) service rules.",
+    "steps": [
+      {
+        "designation": "Assistant Section Officer (ASO) / Desk Assistant",
+        "pay_level": "Level S-14",
+        "years": "Entry (Mantralaya, Mumbai)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, 7th Pay Commission, Pay Level S-14 (₹38,600 - ₹1,22,800)"
+      },
+      {
+        "designation": "Section Officer (SO)",
+        "pay_level": "Level S-16",
+        "years": "approx. 6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Secretariat Service Rules (Gazetted Group B), Pay Level S-16 (₹44,900 - ₹1,42,400)"
+      },
+      {
+        "designation": "Under Secretary (US)",
+        "pay_level": "Level S-20",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Mantralaya Administrative Cadre (Group A Gazetted), Pay Level S-20 (₹56,100 - ₹1,77,500)"
+      },
+      {
+        "designation": "Deputy Secretary (DS)",
+        "pay_level": "Level S-23",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services Rules, Pay Level S-23 (₹67,700 - ₹2,08,700)"
+      },
+      {
+        "designation": "Joint Secretary (JS)",
+        "pay_level": "Level S-26",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Secretariat Service Senior Cadre, Pay Level S-26 / S-29 (₹1,31,100 - ₹2,16,600)"
+      },
+      {
+        "designation": "Special Secretary / Departmental Secretary",
+        "pay_level": "Level S-30",
+        "years": "approx. 30+ yrs",
+        "confidence": "reported",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra General Administration Department Apex Secretariat Postings"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of a common Combined Preliminary screening examination followed by the ASO Main written examination (Paper 1 and Paper 2). Final appointment is based purely on the aggregate marks of the 400-mark written Main examination; no interview is conducted.",
+    "stages": [
+      {
+        "stage_name": "Maharashtra Non-Gazetted Group B Combined Preliminary Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 & Examination Scheme for Non-Gazetted Services",
+        "papers": [
+          {
+            "paper_name": "General Ability Test (General Studies, Maharashtra History/Geography, Polity, Economics, General Science, Aptitude & Reasoning)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Maharashtra Subordinate Services Group B Main Examination (Assistant Section Officer)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Marathi and English (Marathi: 50 Qs / 100 marks; English: 50 Qs / 100 marks)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2 — General Studies, Constitutional Law, Public Administration & Secretariat Manual",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay Level S-14 under Maharashtra Civil Services (Revised Pay) Rules, 2019 (Maharashtra 7th Pay Commission).",
+    "pay_level": "Level S-14",
+    "entry_basic_pay": 38600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-01-01",
+    "pay_source_url": "https://mpsc.gov.in",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Government Resolution No. RPS-2019/CR-1/Services-9",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 72000, "max": 80000 },
+    "in_hand_range_estimate": { "min": 64000, "max": 72000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹38,600 in Level S-14. As ASO postings are exclusively at Mantralaya (State Secretariat in Mumbai, an X-category metropolis), officers draw 27% HRA (₹10,422) + 58% DA (₹22,388) + Transport Allowance (₹3,600 + DA), yielding an in-hand estimate of approximately ₹64,000 to ₹72,000 after standard deductions (NPS 10%, Professional Tax, GIS).",
+    "official_perks": [
+      "Government staff quarters eligibility in Mumbai or maximum metro HRA (27%)",
+      "Fixed 5-day working week at Mantralaya Secretariat",
+      "Comprehensive medical treatment reimbursement under Maharashtra Government Health Scheme",
+      "Leave Travel Concession (LTC) and gazetted holiday entitlements",
+      "Secretariat allowance / special duty allowances where authorized",
+      "Contributory pension scheme benefits under NPS"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Assistant Section Officer vacancies are notified as part of the MPSC Maharashtra Non-Gazetted Group-B Services Combined Examination.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 480000,
+        "vacancies": 6,
+        "shortlisted_for_mains": 90,
+        "selectivity_ratio": "approx. 1 in 80000 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 011/2026 (Maharashtra Non-Gazetted Group B Services Combined Examination 2026): 6 Assistant Section Officer posts notified."
+      },
+      {
+        "year": 2024,
+        "applicants": 425000,
+        "vacancies": 55,
+        "shortlisted_for_mains": 825,
+        "selectivity_ratio": "approx. 1 in 7727 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-10-14",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 048/2024: 55 Assistant Section Officer posts notified."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and candidate application portals on MPSC official domains.",
+    "links": [
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Combined Examination 2026 Notification (Advt. 011/2026)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 011/2026",
+        "confidence": "verified",
+        "as_of": "2026-04-10"
+      },
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Examination 2024 Notification (Advt. 048/2024)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 048/2024",
+        "confidence": "verified",
+        "as_of": "2024-10-14"
+      },
+      {
+        "label": "MPSC Subordinate Services Group B (Assistant Section Officer) Examination Scheme & Syllabus",
+        "url": "https://mpsc.gov.in/home",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPSC Previous Question Papers and Answer Keys Portal",
+        "url": "https://mpsc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

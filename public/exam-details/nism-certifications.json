@@ -1,0 +1,141 @@
+{
+  "id": "nism-certifications",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "NISM certification examinations are computer-based testing (CBT) modules mandated by the Securities and Exchange Board of India (SEBI) under Regulation 3 of the SEBI (Certification of Associated Persons in the Securities Markets) Regulations, 2007. Candidate registrations and test delivery occur year-round across designated NISM test centers nationwide or via remote proctoring.",
+    "stages": [
+      {
+        "stage_name": "Series-V-A: Mutual Fund Distributors Certification Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.nism.ac.in/certification-examinations/",
+        "source_label": "National Institute of Securities Markets — Test Objectives & Examination Specifications (Series-V-A)",
+        "papers": [
+          {
+            "paper_name": "Mutual Fund Structure, Legal Environment & Distribution Practice",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% (50 marks out of 100)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Series-VIII: Equity Derivatives Certification Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.nism.ac.in/certification-examinations/",
+        "source_label": "National Institute of Securities Markets — Test Objectives & Examination Specifications (Series-VIII)",
+        "papers": [
+          {
+            "paper_name": "Equity Derivatives Trading, Clearing, Settlement & Risk Management",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (60 marks out of 100)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Series-XV: Research Analyst Certification Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.nism.ac.in/certification-examinations/",
+        "source_label": "National Institute of Securities Markets — Test Objectives & Examination Specifications (Series-XV)",
+        "papers": [
+          {
+            "paper_name": "Research Analyst Regulations, Valuation Principles & Company Analysis",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (60 marks out of 100)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Series-X-A: Investment Adviser (Level 1) Certification Examination",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.nism.ac.in/certification-examinations/",
+        "source_label": "National Institute of Securities Markets — Test Objectives & Examination Specifications (Series-X-A)",
+        "papers": [
+          {
+            "paper_name": "Personal Financial Planning, Risk Management & Regulatory Environment",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (60 marks out of 100)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "NISM regulatory certifications serve as non-competitive statutory qualification tests rather than limited-seat recruitments. As such, notified vacancies and selectivity ratios are not applicable; candidates who secure the prescribed benchmark percentage are granted statutory certification valid for 3 years.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 275000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Qualifying benchmark examination (statutory certification awarded upon securing 50% / 60% threshold)",
+        "confidence": "reported",
+        "as_of": "2025-10-31",
+        "source_url": "https://www.nism.ac.in/annual-reports/",
+        "source_label": "NISM Annual Disclosures & Test Administration Reports (Approximate candidate registrations across all certification series)"
+      },
+      {
+        "year": 2024,
+        "applicants": 254000,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Qualifying benchmark examination (statutory certification awarded upon securing 50% / 60% threshold)",
+        "confidence": "reported",
+        "as_of": "2024-10-31",
+        "source_url": "https://www.nism.ac.in/annual-reports/",
+        "source_label": "NISM Annual Disclosures & Test Administration Reports (Approximate candidate registrations across all certification series)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "NISM administers certification examinations continuously throughout the calendar year. Candidates register, book examination slots, download test specifications, and obtain passing certificates via the official NISM Certification portal.",
+    "links": [
+      {
+        "label": "NISM Certification Examinations — Online Portal & Slot Booking",
+        "url": "https://www.nism.ac.in/certifications/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "NISM Certification Examination Specifications & Syllabus Hub",
+        "url": "https://www.nism.ac.in/certification-examinations/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SEBI (Certification of Associated Persons in the Securities Markets) Regulations, 2007",
+        "url": "https://www.sebi.gov.in/legal/regulations/jan-2020/securities-and-exchange-board-of-india-certification-of-associated-persons-in-the-securities-markets-regulations-2007-last-amended-on-february-28-2020-_34621.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

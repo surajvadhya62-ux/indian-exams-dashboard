@@ -1,0 +1,225 @@
+{
+  "id": "ssc-chsl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "SSC CHSL provides entry into clerical and data operations cadres across central government ministries, subordinate offices, and constitutional bodies. Staff enter as Lower Division Clerks (LDC), Junior Secretariat Assistants (JSA), or Data Entry Operators (DEO) and progress through the Central Secretariat Clerical Service (CSCS) or departmental administrative cadres.",
+    "steps": [
+      {
+        "designation": "Lower Division Clerk (LDC) / Junior Secretariat Assistant (JSA)",
+        "pay_level": "Level 2",
+        "years": "Entry level (Group C)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Upper Division Clerk (UDC) / Senior Secretariat Assistant (SSA)",
+        "pay_level": "Level 4",
+        "years": "approx. 5-8 yrs (faster via Limited Departmental Competitive Exam)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Section Officer (ASO) / Office Superintendent",
+        "pay_level": "Level 7",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Section Officer (SO)",
+        "pay_level": "Level 8 / Level 9",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Under Secretary (US)",
+        "pay_level": "Level 11",
+        "years": "Late career promotion (subject to cadre seniority)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "SSC CHSL operates in two computer-based tiers. Tier I is a qualifying screening examination of 100 questions (200 marks, 60 minutes) with 0.50 negative marking. Tier II is the merit-determining stage: Section I (Maths & Reasoning, 180 marks) and Section II (English & General Awareness, 180 marks) generate the 360-mark merit ranking, while Computer Knowledge and Skill/Typing tests are qualifying modules.",
+    "stages": [
+      {
+        "stage_name": "Tier I: Computer Based Screening Examination (Qualifying)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-04-08",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Higher Secondary (10+2) Level Examination 2024, Scheme of Examination (Tier-I)",
+        "papers": [
+          {
+            "paper_name": "English Language (Basic Knowledge)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized qualifying cutoff fixed by Commission"
+          },
+          {
+            "paper_name": "General Intelligence",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized qualifying cutoff fixed by Commission"
+          },
+          {
+            "paper_name": "Quantitative Aptitude (Basic Arithmetic Skill)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized qualifying cutoff fixed by Commission"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized qualifying cutoff fixed by Commission"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier II: Computer Based Examination & Skill Test (Merit & Qualifying)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-04-08",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Higher Secondary Level Examination 2024, Scheme of Examination (Tier-II)",
+        "papers": [
+          {
+            "paper_name": "Session I - Section I: Mathematical Abilities (30 Qs) & Reasoning and General Intelligence (30 Qs)",
+            "marks": 180,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Session I - Section II: English Language & Comprehension (40 Qs) & General Awareness (20 Qs)",
+            "marks": 180,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Session I - Section III: Computer Knowledge Module (15 Qs, Qualifying)",
+            "marks": 45,
+            "duration_minutes": 15,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "30% UR, 25% OBC/EWS, 20% SC/ST"
+          },
+          {
+            "paper_name": "Session II - Section III: Skill Test / Typing Test Module (Qualifying)",
+            "marks": 0,
+            "duration_minutes": 15,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35 wpm English / 30 wpm Hindi for LDC; 8000/15000 key depressions/hr for DEO"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 45000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 39000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 2 entry basic pay (₹19,900) for LDC/JSA with 58% DA. Data Entry Operators (DEO) are placed at Pay Level 4 (₹25,500 basic, gross ₹44,000 - ₹54,000) or Level 5 (₹29,200 basic).",
+    "official_perks": [
+      "Government accommodation / House Rent Allowance (27%/18%/9% by city category)",
+      "Transport Allowance (₹1,350 + 58% DA in Class X/Y, ₹900 + DA in Class Z)",
+      "Medical facilities under CGHS or CS(MA) rules",
+      "Leave Travel Concession (LTC) and defined contribution pension under NPS",
+      "Paid annual leave, casual leave, and medical leave entitlements"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SSC CHSL receives immense participation from 10+2 diploma and graduate holders across India, with 20-30 lakh candidates applying each year. The 2024 cycle notified approximately 3,712 vacancies across central departments, compared to 1,211 in 2023 and 4,522 in 2022.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 3712,
+        "confidence": "verified",
+        "as_of": "2024-04-08",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Higher Secondary (10+2) Level Examination 2024: Approx. 3,712 vacancies notified."
+      },
+      {
+        "year": 2023,
+        "vacancies": 1211,
+        "confidence": "verified",
+        "as_of": "2023-05-09",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Final Vacancies for CHSLE 2023: 1,211 posts confirmed."
+      },
+      {
+        "year": 2022,
+        "vacancies": 4522,
+        "confidence": "reported",
+        "as_of": "2023-08-11",
+        "source_label": "Staff Selection Commission — CHSLE 2022 Final Vacancies: 4,522 posts filled."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Staff Selection Commission portals and notices for CHSL Examination.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Portal",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SSC Tentative Vacancies & Official Notices Hub",
+        "url": "https://ssc.gov.in/for-candidates/tentative-vacancy",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

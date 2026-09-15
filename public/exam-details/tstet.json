@@ -1,0 +1,172 @@
+{
+  "id": "tstet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Telangana State Teacher Eligibility Test (TG TET) is conducted by the Department of School Education, Government of Telangana in accordance with NCTE guidelines and G.O. Ms. No. 36 (2015), G.O. Ms. No. 8 (2022), G.O. Ms. No. 18 (2024), and G.O. Ms. No. 28 (2025). The test is conducted as a Computer Based Test (CBT) across two sessions per day. Paper I is for candidates intending to teach Classes I to V (Primary), and Paper II is for Classes VI to VIII (Upper Primary/Elementary). Each paper consists of 150 multiple-choice questions (MCQs) carrying 1 mark each with no negative marking, and has a duration of 2 hours and 30 minutes (150 minutes). Qualifying mark is 60% (90/150) for General/EWS, 50% (75/150) for BCs, and 40% (60/150) for SC/ST/Differently-abled. A pass in TET carries a lifetime validity, and score weightage of 20% is assigned in Telangana Teacher Recruitment Tests (DSC / TRT).",
+    "stages": [
+      {
+        "stage_name": "TG TET Paper I (Primary Stage: Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-06-03",
+        "source_url": "https://tgtet.aptonline.in/Documents/InformationBulletinTGTET_In-ServiceTeachers2026.pdf",
+        "source_label": "Department of School Education Telangana — TG TET Information Bulletin & G.O. Ms. No. 36",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Relevant to Primary Level)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Language I (Choice of Telugu, Urdu, Hindi, Bengali, Kannada, Marathi, Tamil, or Gujarati)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Language II (English — Compulsory for all candidates)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Mathematics (24 Content MCQs + 6 Pedagogy MCQs)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Environmental Studies (24 Content MCQs + 6 Pedagogy MCQs)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          }
+        ]
+      },
+      {
+        "stage_name": "TG TET Paper II (Elementary Stage: Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-06-03",
+        "source_url": "https://tgtet.aptonline.in/Documents/InformationBulletinTGTET_In-ServiceTeachers2026.pdf",
+        "source_label": "Department of School Education Telangana — TG TET Information Bulletin & G.O. Ms. No. 36",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Relevant to Elementary Level)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Language I (Choice of Telugu, Urdu, Hindi, Kannada, Marathi, Tamil, or Sanskrit)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Language II (English — Compulsory for all candidates)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          },
+          {
+            "paper_name": "Subject Specialisation (Mathematics & Science [60 MCQs: 30 Maths, 30 Science] OR Social Studies [60 MCQs: 48 Content, 12 Pedagogy])",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% (90/150) for General/EWS, 50% (75/150) for BC, 40% (60/150) for SC/ST/Differently-abled"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official appearance and qualification statistics released by the Department of School Education, Government of Telangana across Paper I and Paper II examinations.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 286381,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,09,168 qualified out of 2,36,487 appeared across both papers (46.16% overall qualification rate; Paper 1: 57,725 qualified of 85,996 appeared [67.13%]; Paper 2: 51,443 qualified of 1,50,491 appeared [34.18%])",
+        "confidence": "reported",
+        "as_of": "2024-06-12",
+        "source_url": "https://schooledu.telangana.gov.in",
+        "source_label": "Department of School Education Telangana TG TET 2024 Official Result Declaration Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 269557,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "90,443 qualified out of 2,26,744 appeared across both papers (39.89% overall qualification rate; Paper 1: 54,328 qualified of 82,689 appeared [65.70%]; Paper 2: 36,115 qualified of 1,44,055 appeared [25.07%])",
+        "confidence": "reported",
+        "as_of": "2023-09-27",
+        "source_url": "https://schooledu.telangana.gov.in",
+        "source_label": "Department of School Education Telangana TG TET September 2023 Official Results Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Statutory rules, information bulletins, and online examination portals maintained by the Department of School Education, Government of Telangana.",
+    "links": [
+      {
+        "label": "TG TET Official Information Bulletin (PDF)",
+        "url": "https://tgtet.aptonline.in/Documents/InformationBulletinTGTET_In-ServiceTeachers2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG TET 2026",
+        "confidence": "verified",
+        "as_of": "2026-06-03"
+      },
+      {
+        "label": "TG TET Official Notification (PDF)",
+        "url": "https://tgtet.aptonline.in/Documents/NotificationTGTET-In-Service%20teachers2026.pdf",
+        "type": "notification",
+        "cycle_label": "TG TET 2026",
+        "confidence": "verified",
+        "as_of": "2026-06-03"
+      },
+      {
+        "label": "Official TG TET Portal",
+        "url": "https://tgtet.aptonline.in",
+        "type": "other",
+        "cycle_label": "TG TET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Department of School Education Telangana Portal",
+        "url": "https://schooledu.telangana.gov.in",
+        "type": "other",
+        "cycle_label": "Government Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

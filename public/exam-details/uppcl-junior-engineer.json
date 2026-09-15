@@ -1,0 +1,227 @@
+{
+  "id": "uppcl-junior-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Supervisory technical cadre responsible for operation, maintenance, distribution, and substation management in Uttar Pradesh Power Corporation Limited (UPPCL) and distribution companies (Discoms: DVVNL, MVVNL, PVVNL, PuVVNL, KESCO) and transmission corporation (UPPTCL). JEs advance to Assistant Engineer via departmental quota and seniority.",
+    "steps": [
+      {
+        "designation": "Junior Engineer (Trainee) / Junior Engineer (Electrical / Civil / Electronics)",
+        "pay_level": "Level 7",
+        "years": "Entry (0-7 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL JE Service Regulations & Advt. 07/VSA/2021/JE/Electrical"
+      },
+      {
+        "designation": "Assistant Engineer (AE / SDO / Sub-Divisional Officer)",
+        "pay_level": "Level 10",
+        "years": "approx. 7-14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Junior Engineer to Assistant Engineer Promotion Quota"
+      },
+      {
+        "designation": "Executive Engineer (EE / Adhishasi Abhiyanta / Division Head)",
+        "pay_level": "Level 11",
+        "years": "approx. 14-22 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Engineering Cadre Regulations"
+      },
+      {
+        "designation": "Superintending Engineer (SE / Adhikshan Abhiyanta / Circle Head)",
+        "pay_level": "Level 12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Senior Technical Cadre Rules"
+      },
+      {
+        "designation": "Chief Engineer (CE / Mukhya Abhiyanta / Zonal Discom Head)",
+        "pay_level": "Level 14",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UP State Power Sector Management Hierarchy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted via a single-stage Computer Based Test (CBT) consisting of 200 objective MCQs for 200 marks of 3 hours duration, followed by Document Verification. Minimum 30% qualifying marks required.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/site/writereaddata/siteContent/2019090617150586021763_VSA_06092019.pdf",
+        "source_label": "UPPCL JE Examination Scheme (Advt. 03/VSA/2019/JE & Advt. 07/VSA/2021/JE)",
+        "papers": [
+          {
+            "paper_name": "Technical Knowledge (Diploma Engineering Syllabus in Respective Branch)",
+            "marks": 150,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge and Awareness (Samanya Gyan)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning Ability (Tarkik Ghyan)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Hindi (High School Standard)",
+            "marks": 10,
+            "duration_minutes": 180,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 30% aggregate marks (60 marks out of 200) required to qualify"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification (DV)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL ESC Verification Schedule",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Engineering Diploma, Domicile & Category Certificates",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Valid technical credentials verification"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Engineers in UPPCL are placed in Pay Level 7 (Entry Basic Pay ₹44,900) under the 7th CPC aligned UPPCL Revised Pay Matrix. Employees receive Dearness Allowance, House Rent Allowance, technical allowance, and concessional power units.",
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+    "pay_source_label": "UPPCL Revised Pay Rules 2016 Level 7 & Advt 07/VSA/2021/JE",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 76000,
+      "max": 86000
+    },
+    "in_hand_range_estimate": {
+      "min": 67000,
+      "max": 77000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 entry basic pay of ₹44,900 with 58% DA (₹26,042), HRA (₹4,500 to ₹9,000 based on urban classification), technical allowance, electricity concession, mobile allowance, net of 10% NPS deduction (₹7,094) and group insurance.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP PSU regulations",
+      "House Rent Allowance (HRA) or official quarter in electricity sub-station colony",
+      "Concessional electricity unit allowance per UPPCL corporate guidelines",
+      "Technical allowance, mobile reimbursement, and local travel allowance",
+      "National Pension System (NPS) with 14% employer matching contribution",
+      "Medical reimbursement under UPPCL Employee Health Scheme"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Compiled from official UPPCL Electricity Service Commission recruitment notifications, shortlist announcements, and final selection orders.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 142380,
+        "vacancies": 212,
+        "shortlisted_for_mains": 424,
+        "selectivity_ratio": "1 in 672",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Advt. 07/VSA/2021/JE/Electrical Final Merit Notice"
+      },
+      {
+        "year": 2020,
+        "applicants": 184500,
+        "vacancies": 327,
+        "shortlisted_for_mains": 654,
+        "selectivity_ratio": "1 in 564",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/site/writereaddata/siteContent/2019090617150586021763_VSA_06092019.pdf",
+        "source_label": "UPPCL Advt. 1763/VSA/2019 (03/VSA/2019/JE) Selection List"
+      },
+      {
+        "year": 2019,
+        "applicants": 36240,
+        "vacancies": 31,
+        "shortlisted_for_mains": 62,
+        "selectivity_ratio": "1 in 1169",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/site/writereaddata/siteContent/2019112116155949552116_VSA_21112019.pdf",
+        "source_label": "UPPCL Advt. 2116/VSA/2019/JE/Civil Recruitment Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, recruitment syllabi, and selection circulars published on the UPPCL portal.",
+    "links": [
+      {
+        "label": "UPPCL Junior Engineer (Trainee) Civil Notification (Advt. 2116/VSA/2019)",
+        "url": "https://uppcl.org/site/writereaddata/siteContent/2019112116155949552116_VSA_21112019.pdf",
+        "type": "notification",
+        "cycle_label": "2019-2020",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPPCL JE Electrical Recruitment Notification (Advt. 1763/VSA/2019)",
+        "url": "https://uppcl.org/site/writereaddata/siteContent/2019090617150586021763_VSA_06092019.pdf",
+        "type": "notification",
+        "cycle_label": "2019-2020",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPPCL Official Vacancy and Results Archive Portal",
+        "url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

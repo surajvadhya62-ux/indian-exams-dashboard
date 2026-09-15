@@ -1,0 +1,216 @@
+{
+  "id": "rsmssb-sanganak",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Computors (Sanganak / Statistical Enumerators) form the grassroots statistical data collection and computational staff under the Directorate of Economics & Statistics (DES), Planning Department, Government of Rajasthan. Governed by the Rajasthan Statistical Subordinate Service Rules, 1971, they conduct field price surveys, state domestic product estimations, agricultural output censuses, and demographic statistical computations.",
+    "steps": [
+      {
+        "designation": "Computor (Sanganak / Statistical Enumerator)",
+        "pay_level": "Level L-8",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Statistical Subordinate Service Rules 1971 & Advt. 05/2023"
+      },
+      {
+        "designation": "Statistical Inspector / Assistant Statistical Officer (ASO)",
+        "pay_level": "Level L-11",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://statistics.rajasthan.gov.in",
+        "source_label": "Directorate of Economics & Statistics Subordinate Service Rules"
+      },
+      {
+        "designation": "Statistical Officer (SO / Rajasthan Economics & Statistical Service — Gazetted Class II)",
+        "pay_level": "Level L-12",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://statistics.rajasthan.gov.in",
+        "source_label": "Rajasthan Economics & Statistical Service (Gazetted) Rules"
+      },
+      {
+        "designation": "Assistant Director / Deputy Director of Statistics (District Statistical Head)",
+        "pay_level": "Level L-14",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "State Planning Department Senior Statistical Structure"
+      },
+      {
+        "designation": "Joint Director / Director (Directorate of Economics & Statistics)",
+        "pay_level": "Level L-15 to Level L-16",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Government of Rajasthan Higher Economic Planning Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Computor (Sanganak) Direct Recruitment Examination consists of a single-stage objective competitive written examination of 100 questions carrying 100 marks for a duration of 2 hours, followed by document verification of shortlisted candidates. For each correct response, 1 mark is awarded, and 1/3rd (0.33 marks) is deducted for each incorrect answer. Minimum qualifying threshold is 40% aggregate marks. There is no interview.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Computor Examination Scheme & Syllabus (Advt. 05/2023)",
+        "papers": [
+          {
+            "paper_name": "Part A — General Knowledge (Geography, Natural Resources, Socio-Economic Development of Rajasthan, History, Culture & Heritage of Rajasthan & Current Events)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd (0.33 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B — Statistics, Economics and Mathematics (Collection/Tabulation of Data, Central Tendency, Dispersion, Moments, Correlation/Regression, Index Numbers, Time Series, Vital Statistics, Statistical System, Economy of Rajasthan & Computer Basics)",
+            "marks": 70,
+            "duration_minutes": 120,
+            "negative_marking": "1/3rd (0.33 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Statistical Scrutiny)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Computor 2023 Document Verification Shortlist Order Dated 05.07.2024",
+        "papers": [
+          {
+            "paper_name": "Verification of Degree with Statistics/Economics/Mathematics, RS-CIT Computer Certificate & Domicile",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Computors (Sanganak) are placed in Pay Matrix Level L-8 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹2,800) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹18,500 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹26,300 is drawn in Level L-8.",
+    "pay_level": "Level L-8",
+    "entry_basic_pay": 26300,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule Level L-8",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 44000,
+      "max": 47500
+    },
+    "in_hand_range_estimate": {
+      "min": 38000,
+      "max": 41500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level L-8 entry basic pay of ₹26,300 at 58% DA (₹15,254 effective 01.07.2025), HRA (9% to 18%: ₹2,367 to ₹4,734), statistical field survey allowance, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting zone (Class Y and Z cities)",
+      "Statistical field survey conveyance allowance and census touring reimbursements",
+      "Cashless medical facility across government and empanelled private hospitals under RGHS",
+      "Defined pension coverage under restored Old Pension Scheme (OPS)",
+      "Leave Travel Concession (LTC) and annual privilege leave encashment benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official RSMSSB Computor (Sanganak) 2023 result notifications and final selection orders.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 181000,
+        "appeared": 98240,
+        "qualified_stage_1": 1166,
+        "recommended": 583,
+        "vacancies": 583,
+        "confidence": "verified",
+        "as_of": "2024-11-29",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Computor 2023 Final Selection & Recommendation Notice Dated 29.11.2024"
+      },
+      {
+        "year": 2021,
+        "applicants": 122000,
+        "appeared": 74000,
+        "qualified_stage_1": 500,
+        "recommended": 250,
+        "vacancies": 250,
+        "confidence": "reported",
+        "as_of": "2022-04-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Computor 2021 Recommendation Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory notifications, final result notices, and detailed advertisements published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Computor 2023 Final Recommendation & Cut-Off Marks Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/Computer23_Result_29112024.pdf",
+        "type": "other",
+        "cycle_label": "Computor-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Computor 2023 Roll Number List for Document Verification",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/Computer23_Result_05072024.pdf",
+        "type": "other",
+        "cycle_label": "Computor-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Computor 2023 Detailed Recruitment Advertisement",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/ADV_computer07072023.pdf",
+        "type": "notification",
+        "cycle_label": "Computor-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Computor Full Advertisement (Archive)",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/Computor_FullAdvt_1063_20022018_raj.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

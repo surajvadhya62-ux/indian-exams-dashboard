@@ -1,0 +1,207 @@
+{
+  "id": "appsc-group-4",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Assistant cum Computer Assistant is an entry-level ministerial appointment in the Andhra Pradesh Revenue Subordinate Service, organized into District Cadres. Promotion requires passing departmental tests (Revenue Tests Part I & II and Accounts Test for Subordinate Officers Part I) to advance to supervisory and gazetted revenue administrative posts.",
+    "steps": [
+      {
+        "designation": "Junior Assistant cum Computer Assistant (District Cadre)",
+        "pay_level": "AP PRC 2022 Scale 7 (₹25,220 - ₹80,910)",
+        "years": "0-4 yrs",
+        "confidence": "verified",
+        "as_of": "2022-01-17",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/23_2021.pdf",
+        "source_label": "APPSC Notification No. 23/2021 read with AP Revised Pay Scales 2022 (G.O.Ms.No.1 Finance)"
+      },
+      {
+        "designation": "Senior Assistant (Revenue Divisional Office / Collectorate)",
+        "pay_level": "AP PRC 2022 Scale 11 (₹34,580 - ₹1,07,210)",
+        "years": "4-9 yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "AP Ministerial Service Rules & AP Revenue Department Promotion Guidelines"
+      },
+      {
+        "designation": "Deputy Tahsildar (DT) — Mandal Revenue Administration",
+        "pay_level": "AP PRC 2022 Scale 14 (₹44,570 - ₹1,27,480)",
+        "years": "9-15 yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "AP Revenue Subordinate Service Rules (Deputy Tahsildar Cadre)"
+      },
+      {
+        "designation": "Tahsildar / Mandal Revenue Officer (MRO) — State Gazetted Executive",
+        "pay_level": "AP PRC 2022 Scale 18 (₹54,060 - ₹1,40,540)",
+        "years": "15-22 yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "AP Revenue Service Rules (State Gazetted Executive Cadre)"
+      },
+      {
+        "designation": "Revenue Divisional Officer (RDO) / Sub-Collector — AP Civil Service (Executive Branch)",
+        "pay_level": "AP PRC 2022 Scale 21 (₹61,960 - ₹1,51,370)",
+        "years": "22+ yrs",
+        "confidence": "reported",
+        "as_of": "2022-01-17",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "AP Civil Service (Executive Branch) Rules — Group-1 Equivalent Executive Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Examination scheme consists of a Screening Test (OMR-based offline, held when applicants exceed 200 times vacancies), a Main Examination (Computer Based Test), followed by a qualifying Computer Proficiency Test (CPT) for shortlisted candidates in a 1:2 ratio. Negative marking of 1/3rd (0.33) mark applies to each wrong answer in Screening and Mains as per G.O.Ms.No.235 Finance dated 06.12.2016.",
+    "stages": [
+      {
+        "stage_name": "Screening Test (Objective Type, OMR Based)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-12-28",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/23_2021.pdf",
+        "source_label": "APPSC Notification No. 23/2021, Annexure-II",
+        "papers": [
+          {
+            "paper_name": "Section-A: General Studies & Mental Ability",
+            "marks": 100,
+            "duration_minutes": 100,
+            "negative_marking": "1/3rd (0.33) of marks penalized per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit ranking for shortlisting to Mains Examination"
+          },
+          {
+            "paper_name": "Section-B: General English & General Telugu (SSC Standard, 25 marks each)",
+            "marks": 50,
+            "duration_minutes": 50,
+            "negative_marking": "1/3rd (0.33) of marks penalized per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit ranking for shortlisting to Mains Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Objective Type, Computer Based Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-12-28",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/23_2021.pdf",
+        "source_label": "APPSC Notification No. 23/2021, Annexure-II",
+        "papers": [
+          {
+            "paper_name": "Paper-I: General Studies & Mental Ability",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "1/3rd (0.33) of marks penalized per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-II: General English & General Telugu (SSC Standard, 75 marks each)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": "1/3rd (0.33) of marks penalized per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Proficiency Test (Practical Qualifying Test)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2021-12-28",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/23_2021.pdf",
+        "source_label": "APPSC Notification No. 23/2021, Annexure-II",
+        "papers": [
+          {
+            "paper_name": "Proficiency in Office Automation with usage of Computers and Associated Software",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying marks: 20 for OC, 17.5 for BC, 15 for SC/ST/PH"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Compensated under Andhra Pradesh Revised Pay Scales (RPS) 2022 (11th PRC, implemented via G.O.Ms.No.1 Finance Department dated 17.01.2022). Entry scale for Junior Assistant is Scale 7 (₹25,220 - ₹80,910) replacing the pre-revised 2015 scale of ₹16,400 - ₹49,870 cited in Notification No. 23/2021.",
+    "pay_level": "AP PRC 2022 Scale 7 (₹25,220 - ₹80,910)",
+    "entry_basic_pay": 25220,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-01-17",
+    "pay_source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/23_2021.pdf",
+    "pay_source_label": "APPSC Notification No. 23/2021 read with G.O.Ms.No.1 Finance (PC-TA) Dept dt 17.01.2022 (AP RPS 2022 Master Scale)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 42000, "max": 48000 },
+    "in_hand_range_estimate": { "min": 36000, "max": 42000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on AP PRC 2022 Scale 7 entry basic pay of ₹25,220 at standardized 58% DA plus HRA (8% to 16% depending on district/mandal category) and fixed medical allowance; in-hand estimate deducts 10% CPS/NPS, Professional Tax (₹200), and APGLI/GIS.",
+    "official_perks": [
+      "House Rent Allowance (HRA) as per AP PRC 2022 classification (8% to 16%)",
+      "Contributory Pension Scheme (CPS) / Andhra Pradesh Guaranteed Pension Scheme (APGPS)",
+      "Andhra Pradesh Employees Health Scheme (EHS) cashless medical coverage",
+      "Leave Travel Concession (LTC) within Andhra Pradesh and across India as per AP state rules",
+      "Earned leave and half-pay leave surrender encashment benefits"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Figures based on APPSC official records and press releases for Notification No. 23/2021 (Junior Assistant cum Computer Assistant in Revenue Department).",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 211341,
+        "vacancies": 670,
+        "shortlisted_for_mains": 11574,
+        "selectivity_ratio": "approx. 1 in 315 (calculated: 2,11,341 appearing candidates ÷ 670 notified vacancies across 13 districts)",
+        "confidence": "reported",
+        "as_of": "2022-10-12",
+        "source_url": "https://portal-psc.ap.gov.in/HomePages/JuniorAsst_Cum_ComputerAsst_232021_MarksList",
+        "source_label": "APPSC Press Release & District-wise Marks Lists for Notification No. 23/2021 (2,11,341 appeared for screening test on 31-07-2022; 11,574 qualified for Mains)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notification and district results hosted on the APPSC portal.",
+    "links": [
+      {
+        "label": "Notification No. 23/2021 — Junior Assistant Cum Computer Assistant (PDF)",
+        "url": "https://psc.ap.gov.in/Documents/NotificationDocuments/23_2021.pdf",
+        "type": "notification",
+        "cycle_label": "23/2021",
+        "confidence": "verified",
+        "as_of": "2021-12-28"
+      },
+      {
+        "label": "District-Wise Marks Lists & Results Hub",
+        "url": "https://portal-psc.ap.gov.in/HomePages/JuniorAsst_Cum_ComputerAsst_232021_MarksList",
+        "type": "other",
+        "cycle_label": "23/2021",
+        "confidence": "verified",
+        "as_of": "2023-05-11"
+      },
+      {
+        "label": "APPSC Direct Recruitment Portal",
+        "url": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

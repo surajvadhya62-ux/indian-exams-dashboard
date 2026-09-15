@@ -1,0 +1,279 @@
+{
+  "id": "ibps-po",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Public sector bank officer progression follows the Indian Banks' Association (IBA) cadre hierarchy from Junior Management Grade Scale I up to Board appointments.",
+    "steps": [
+      {
+        "designation": "Probationary Officer / Assistant Manager (Scale I)",
+        "pay_level": "JMG Scale I (₹48,480 basic)",
+        "years": "Entry (approx. 1-2 yrs probation)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024 and IBPS CRP PO/MT Notification"
+      },
+      {
+        "designation": "Manager (Scale II)",
+        "pay_level": "MMG Scale II (₹64,820 basic)",
+        "years": "approx. 2-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024"
+      },
+      {
+        "designation": "Senior Manager (Scale III)",
+        "pay_level": "MMG Scale III (₹85,920 basic)",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024"
+      },
+      {
+        "designation": "Chief Manager (Scale IV)",
+        "pay_level": "SMG Scale IV (₹1,02,300 basic)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Scale V)",
+        "pay_level": "SMG Scale V (₹1,20,940 basic)",
+        "years": "approx. 14-19 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Scale VI)",
+        "pay_level": "TEG Scale VI (₹1,40,500 basic)",
+        "years": "approx. 19-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024"
+      },
+      {
+        "designation": "General Manager (GM, Scale VII)",
+        "pay_level": "TEG Scale VII (₹1,56,500 basic)",
+        "years": "approx. 24+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBA 12th Bipartite Settlement Joint Note dated 08.03.2024"
+      },
+      {
+        "designation": "Executive Director (ED) / Managing Director & CEO (MD & CEO)",
+        "pay_level": "Board Level (FSIB selection / ACC appointment)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "Government of India Ministry of Finance / FSIB Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Common Recruitment Process (CRP PO/MT) consists of Online Preliminary Objective Examination, Online Main (Objective + Descriptive) Examination, Personality Profiling Test, and Common Interview.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Online Objective, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-06-30",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBPS CRP PO/MT-XVI Official Notification, Clause D(a)",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Cut-off marks decided by IBPS"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Cut-off marks decided by IBPS"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Cut-off marks decided by IBPS"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Online Objective and Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-06-30",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBPS CRP PO/MT-XVI Official Notification, Clause D(b)",
+        "papers": [
+          {
+            "paper_name": "Reasoning",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General/Economy/Banking Awareness",
+            "marks": 60,
+            "duration_minutes": 35,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 20,
+            "duration_minutes": 35,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Data Analysis & Interpretation",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Descriptive Paper (English Essay and Comprehension)",
+            "marks": 25,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying cut-off required for evaluation"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test & Common Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-06-30",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBPS CRP PO/MT-XVI Official Notification, Clause D(c) & J",
+        "papers": [
+          {
+            "paper_name": "Personality Profile Test (Proctored / Centre)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory attendance before interview panel"
+          },
+          {
+            "paper_name": "Personal Interview (Participating Banks & IBPS)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (35% for SC/ST/OBC/PwBD)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Junior Management Grade Scale I (JMGS-I)",
+    "entry_basic_pay": 48480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+    "pay_source_label": "12th Bipartite Settlement / Joint Note for Bank Officers dated 08.03.2024 (Scale: ₹48,480-85,920)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 75000, "max": 88000 },
+    "in_hand_range_estimate": { "min": 65000, "max": 76000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Salary governed by IBA 12th Bipartite Joint Note (JMGS-I: ₹48,480 - 2010/7 - 62,550 - 2220/2 - 66,990 - 2430/7 - 84,000). Total gross includes basic, DA (58% review baseline), Special Allowance, Learning Allowance, and Location Allowance. In-hand varies with bank quarters vs HRA and NPS/PF/tax deductions.",
+    "official_perks": [
+      "Bank Leased Residential Accommodation or House Rent Allowance (HRA)",
+      "Comprehensive Medical Aid and Hospitalization Insurance for self and family",
+      "Leave Fare Concession (LFC) / Home Travel Concession biennial block",
+      "Monthly Conveyance / Fuel Allowance according to bank norms",
+      "Newspaper, Mobile Phone, and Professional Updation Allowances",
+      "Defined Contributory Pension Scheme (NPS)",
+      "Concessional Staff Loans for Housing, Car, and Personal Needs"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for CRP PO/MT-XVI (2027-28 indent) are verified directly from Annexure I of the detailed notification dated 30.06.2026 across 11 participating public sector banks. Prior cycles reflect finalized allotment indent data.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 540000,
+        "vacancies": 6715,
+        "shortlisted_for_mains": 67150,
+        "selectivity_ratio": "approx. 1 in 80 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-06-30",
+        "source_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "source_label": "IBPS CRP PO/MT-XVI Detailed Notification, Annexure I (Total Vacancies: 6,715 across Bank of Baroda 1900, Canara Bank 1500, Bank of Maharashtra 1100, etc.)"
+      },
+      {
+        "year": 2024,
+        "applicants": 518000,
+        "vacancies": 4455,
+        "shortlisted_for_mains": 44550,
+        "selectivity_ratio": "approx. 1 in 116 (calculated: estimated applicants ÷ finalized vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-10-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS CRP PO/MT-XIV Final Allotment Summary and Press Announcements"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and information handouts are published by IBPS under the CRP PO/MT portal.",
+    "links": [
+      {
+        "label": "Common Recruitment Process (CRP PO/MT-XVI) — Detailed Notification",
+        "url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+        "type": "notification",
+        "cycle_label": "CRP-PO-XVI",
+        "confidence": "verified",
+        "as_of": "2026-06-30"
+      },
+      {
+        "label": "IBPS Official CRP PO/MT Information Portal",
+        "url": "https://www.ibps.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

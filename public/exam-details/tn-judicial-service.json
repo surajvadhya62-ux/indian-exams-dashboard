@@ -1,0 +1,234 @@
+{
+  "id": "tn-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for Civil Judges in the Tamil Nadu State Judicial Service is governed by the Tamil Nadu State Judicial Service (Cadre and Recruitment) Rules, 2007 (as amended) and the recommendations of the National Judicial Pay Commissions overseen by the Supreme Court of India. Senior judicial officers are eligible for elevation to the Madras High Court Bench under Article 217(2)(a) of the Constitution.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate",
+        "pay_level": "SNJPC J-1",
+        "years": "Entry (approx. 0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "TNPSC Notification No. 12/2023, Section 1: Vacancies and Pay Scale (Civil Judge cadre under Tamil Nadu State Judicial Service Rules)"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Sub-Judge",
+        "pay_level": "SNJPC J-3",
+        "years": "approx. 5-10 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Cadre Structure & Madras High Court Judicial Service Rules"
+      },
+      {
+        "designation": "District Judge (Entry Level) / Additional District & Sessions Judge",
+        "pay_level": "SNJPC J-5",
+        "years": "approx. 10-16 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "Tamil Nadu State Judicial Service Rules (Promotion by Merit-cum-Seniority)"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (Selection Grade / Super Time Scale)",
+        "pay_level": "SNJPC J-6 / J-7",
+        "years": "approx. 16-24 yrs",
+        "confidence": "reported",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "Madras High Court Administrative Committee Promotion Regulations"
+      },
+      {
+        "designation": "Judge, High Court of Judicature at Madras (Constitutional Elevation)",
+        "pay_level": "High Court Judge (Apex)",
+        "years": "approx. 24+ yrs (by elevation)",
+        "confidence": "reported",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "Constitution of India, Article 217(2)(a) (Judicial Office in the Territory of India Quota)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted jointly by TNPSC and the High Court of Madras in three successive stages: Preliminary screening examination (OMR, with 0.10 negative marking), Main Written descriptive examination (4 papers with mandatory sectional pass marks in each paper), and a compulsory Viva-Voce test requiring a minimum qualifying score of 18 marks out of 60.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type - Single Paper, OMR Method)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "TNPSC Notification No. 12/2023, Section 'Scheme of Examinations: (A) Preliminary Examination'",
+        "papers": [
+          {
+            "paper_name": "Preliminary Law & General Aptitude Paper (Part A: Civil Laws & TN Rent Acts, Part B: Criminal Laws & Minor Acts, Part C: General Knowledge & Aptitude, 100 Qs)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-0.10 mark per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "30 marks (SCs/STs) / 35 marks (BCs/MBCs) / 40 marks (Others); shortlist ratio 1:10 for Mains"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive Type - 4 Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "TNPSC Notification No. 12/2023, Section 'Scheme of Examinations: (B) Main Examination'",
+        "papers": [
+          {
+            "paper_name": "Paper I — Translation Paper (English to Tamil & Tamil to English of Pleadings, Depositions, Orders and Judgments)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (SCs/STs) / 35% (BCs/MBCs) / 40% (Others) required in each paper"
+          },
+          {
+            "paper_name": "Paper II — Law Paper I (CPC 1908, CrPC 1973, Evidence Act 1872, Principles of Pleading, Constitution of India)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (SCs/STs) / 35% (BCs/MBCs) / 40% (Others) required in each paper"
+          },
+          {
+            "paper_name": "Paper III — Law Paper II (Framing of Issues and Writing of Judgments in Civil Cases)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (SCs/STs) / 35% (BCs/MBCs) / 40% (Others) required in each paper"
+          },
+          {
+            "paper_name": "Paper IV — Law Paper III (Framing of Charges and Writing of Judgments in Criminal Cases)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "30% (SCs/STs) / 35% (BCs/MBCs) / 40% (Others) required in each paper"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce Test (Personal Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "TNPSC Notification No. 12/2023, Section 'Scheme of Examinations: (C) Viva-Voce Test'",
+        "papers": [
+          {
+            "paper_name": "Oral Interview before High Court Judicial Board (Madras High Court, Chennai)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 18 marks (30%) out of 60 compulsory for all categories to be eligible for selection"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for Civil Judges in Tamil Nadu are determined by the Second National Judicial Pay Commission (SNJPC) recommendations implemented pursuant to Supreme Court orders in All India Judges Association vs Union of India. Entry-level Civil Judges (Junior Division) are placed on the J-1 scale (₹77,840 - ₹1,36,520).",
+    "pay_level": "SNJPC J-1",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-06-01",
+    "pay_source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+    "pay_source_label": "TNPSC Notification No. 12/2023, Section 1: Vacancies and Pay Scale (Civil Judge cadre under Tamil Nadu State Judicial Service Rules / SNJPC Scale)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 130000, "max": 150000 },
+    "in_hand_range_estimate": { "min": 112000, "max": 128000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes SNJPC J-1 entry basic pay ₹77,840 at 58% DA plus judicial allowances including Robe Allowance, Electricity/Water allowance, and official Judicial Quarters or HRA. Deductions include CPS/NPS, judicial welfare fund, and professional tax.",
+    "official_perks": [
+      "Designated official judicial residence / bungalow with camp office facility",
+      "Official vehicle / conveyance allowance for court duties and inspections",
+      "Domestic assistance allowance / orderly support as per SNJPC allowances",
+      "Comprehensive medical facilities and reimbursement for officer and family",
+      "Robe allowance, sumptuary allowance, and judicial book/journal grant",
+      "Electricity and water concession as mandated by Supreme Court judicial directives"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Civil Judge examinations are held periodically based on vacancies certified by the High Court of Judicature at Madras under the Supreme Court Malik Mazhar Sultan guidelines.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 14850,
+        "vacancies": 245,
+        "shortlisted_for_mains": 2450,
+        "selectivity_ratio": "approx. 1 in 61 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "source_label": "TNPSC Notification No. 12/2023 (245 vacancies: 92 carried forward + 153 regular)"
+      },
+      {
+        "year": 2019,
+        "applicants": 12430,
+        "vacancies": 176,
+        "shortlisted_for_mains": 1760,
+        "selectivity_ratio": "approx. 1 in 71 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2019-09-09",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/2019_25_CIVIL_JUGDE.pdf",
+        "source_label": "TNPSC Notification No. 25/2019 (Civil Judge recruitment in Tamil Nadu State Judicial Service, 176 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and resources from TNPSC and the High Court of Madras.",
+    "links": [
+      {
+        "label": "Civil Judge in Tamil Nadu State Judicial Service 2023 — Official Notification",
+        "url": "https://www.tnpsc.gov.in/Document/english/12_2023_CJ_ENG.pdf",
+        "type": "notification",
+        "cycle_label": "Civil Judge 2023",
+        "confidence": "verified",
+        "as_of": "2023-06-01"
+      },
+      {
+        "label": "Civil Judge 2023 — Corrigendum 12A",
+        "url": "https://www.tnpsc.gov.in/Document/English/12A_2023_CJ.pdf",
+        "type": "notification",
+        "cycle_label": "Civil Judge 2023",
+        "confidence": "verified",
+        "as_of": "2023-06-15"
+      },
+      {
+        "label": "TNPSC Official Syllabus Hub",
+        "url": "https://www.tnpsc.gov.in/English/syllabus.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "TNPSC Notifications Portal",
+        "url": "https://www.tnpsc.gov.in/English/Notification.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

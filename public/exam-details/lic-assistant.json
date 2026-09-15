@@ -1,0 +1,211 @@
+{
+  "id": "lic-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "LIC Assistants belong to Class III cadre (clerical staff) performing customer service, underwriting support, policy claims processing, and cashiering across branch and divisional offices of the Life Insurance Corporation of India. Promotion to officer cadres occurs through both departmental merit examinations and seniority-cum-fitness quotas.",
+    "steps": [
+      {
+        "designation": "Assistant (Clerk / Cashier / Single Window Operator)",
+        "pay_level": "Class III (Assistant Scale)",
+        "years": "Entry level (probation 6 months)",
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC of India — Recruitment of Assistants Notification 2019 / Class III Staff Regulations"
+      },
+      {
+        "designation": "Senior Assistant / Higher Grade Assistant (HGA)",
+        "pay_level": "Class III (HGA Scale)",
+        "years": "approx. 4-6 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC Staff Regulations — Promotional Cadre Rules for Class III Employees"
+      },
+      {
+        "designation": "Assistant Administrative Officer (AAO)",
+        "pay_level": "Class I (Scale I Officer)",
+        "years": "approx. 8-10 yrs (via Limited Departmental Competitive Examination)",
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC Class I Officers Promotion Regulations"
+      },
+      {
+        "designation": "Administrative Officer (AO)",
+        "pay_level": "Class I (Scale II)",
+        "years": "approx. 13-16 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC Class I Officers Cadre Rules"
+      },
+      {
+        "designation": "Assistant Divisional Manager (ADM)",
+        "pay_level": "Class I (Scale III / Senior Management)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC Class I Officers Cadre Rules"
+      },
+      {
+        "designation": "Divisional Manager (DM) / Senior Divisional Manager (SDM)",
+        "pay_level": "Class I (Divisional Head Scale)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC Executive Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for LIC Assistant is conducted in two online objective phases: Preliminary Examination (Phase-I) and Main Examination (Phase-II), followed by Pre-Recruitment Medical Examination. In Preliminary Examination, the English/Hindi Language test is purely qualifying and its marks are not added for ranking. A negative marking penalty of 1/4th (0.25) mark applies for every incorrect answer in the Main Examination.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Preliminary Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC of India — Recruitment of Assistants Notification 2019 (Selection Procedure: Phase-I)",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks fixed category-wise (SC/ST/PwBD: 16 marks; Others: 18 marks)"
+          },
+          {
+            "paper_name": "Numerical Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks fixed category-wise (SC/ST/PwBD: 16 marks; Others: 18 marks)"
+          },
+          {
+            "paper_name": "English Language / Hindi Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only (SC/ST/PwBD: 11 marks; Others: 12 marks; marks not counted for shortlisting ranking)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Main Examination (Objective Type)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC of India — Recruitment of Assistants Notification 2019 (Selection Procedure: Phase-II)",
+        "papers": [
+          {
+            "paper_name": "General / Financial Awareness",
+            "marks": 50,
+            "duration_minutes": 35,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks category-wise (SC/ST: 18 marks; Others: 20 marks)"
+          },
+          {
+            "paper_name": "General English",
+            "marks": 40,
+            "duration_minutes": 35,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks category-wise (SC/ST: 14 marks; Others: 16 marks)"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 40,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks category-wise (SC/ST: 18 marks; Others: 20 marks)"
+          },
+          {
+            "paper_name": "Reasoning Ability & Computer Aptitude",
+            "marks": 60,
+            "duration_minutes": 40,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks category-wise (SC/ST: 22 marks; Others: 24 marks)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Class III Assistant salary is governed by LIC (Staff) Regulations and subsequent wage revisions (including the March 2024 bipartite wage hike of 17% for public sector insurance employees). Pre-revision basic pay started at ₹14,435 in scale ₹14435-840(1)-15275-915(2)-17105-1030(5)-22255-1195(2)-24645-1455(3)-29010-1510(2)-32030-1610(5)-40080; revised starting basic pay stands at approximately ₹27,840.",
+    "pay_level": "Class III (Assistant Scale)",
+    "entry_basic_pay": 27840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-15",
+    "pay_source_url": "https://licindia.in/web/guest/careers",
+    "pay_source_label": "Gazette Notification / LIC of India Wage Revision Settlement for Class III Employees",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 42000, "max": 48000 },
+    "in_hand_range_estimate": { "min": 36000, "max": 41000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on revised entry basic pay of ₹27,840 with applicable Dearness Allowance, House Rent Allowance (10% to 7% based on city tier), and City Compensatory Allowance; net in-hand factors in defined pension contribution and standard statutory deductions.",
+    "official_perks": [
+      "Defined contribution pension scheme under LIC of India Pension Rules",
+      "Comprehensive medical cover / Group Mediclaim Scheme for employee and dependents",
+      "Leave Travel Concession (LTC) and leave encashment benefits",
+      "Meal coupons / subsidized cafeteria facility in major divisional offices",
+      "Concessional housing loans and festival advances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "LIC conducts all-India recruitment for Assistants across 8 zonal divisions (Central, Eastern, East Central, Northern, North Central, Southern, South Central, and Western). In the 2019 pan-India recruitment, a total of 7,975 vacancies were notified and over 15 lakh applications were received nationwide.",
+    "years": [
+      {
+        "year": 2019,
+        "vacancies": 7975,
+        "applicants": 1500000,
+        "confidence": "reported",
+        "as_of": "2019-09-17",
+        "source_url": "https://licindia.in/web/guest/careers",
+        "source_label": "LIC of India — Assistant Recruitment Zonal Notifications 2019 (Combined 8 Zonal Division Vacancies: 7,975 posts)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment resources and career portals on the Life Insurance Corporation of India website.",
+    "links": [
+      {
+        "label": "LIC Official Careers Portal",
+        "url": "https://licindia.in/web/guest/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "LIC Main Portal",
+        "url": "https://licindia.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

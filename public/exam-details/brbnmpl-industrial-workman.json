@@ -1,0 +1,143 @@
+{
+  "id": "brbnmpl-industrial-workman",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for technical industrial workmen at BRBNMPL currency presses in Mysuru and Salboni.",
+    "steps": [
+      {
+        "designation": "Industrial Workman Grade-I (Trainee)",
+        "pay_level": "Pay Scale ₹18,050 – ₹67,410",
+        "years": "Training (1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Advt 01/2024"
+      },
+      {
+        "designation": "Industrial Workman Grade-I (Confirmed)",
+        "pay_level": "Pay Scale ₹18,050 – ₹67,410",
+        "years": "approx. 2-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Advt 01/2024"
+      },
+      {
+        "designation": "Industrial Workman Grade-II / Technician",
+        "pay_level": "Pay Scale ₹21,500 – ₹77,000",
+        "years": "approx. 5-9 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Service Rules"
+      },
+      {
+        "designation": "Assistant Manager (Technical)",
+        "pay_level": "Officer Cadre (RBI Pattern)",
+        "years": "approx. 9+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Nationwide competitive online objective test conducted through IBPS on behalf of BRBNMPL.",
+    "stages": [
+      {
+        "stage_name": "Online Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Handout Advt 01/2024",
+        "papers": [
+          {
+            "paper_name": "Online Objective Test (Reasoning, Quantitative Aptitude, General English, General Awareness)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 (1/4th mark deducted for each wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "General/EWS: 40%, OBC: 35%, SC/ST: 30%"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Industrial wage structure aligned with RBI subsidiary standards.",
+    "pay_level": "Scale of Pay ₹18,050 – ₹67,410",
+    "entry_basic_pay": 18050,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-10",
+    "pay_source_url": "https://www.brbnmpl.co.in/careers/",
+    "pay_source_label": "BRBNMPL Official Employment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33000,
+      "max": 38000
+    },
+    "in_hand_range_estimate": {
+      "min": 29000,
+      "max": 34000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Initial stipend is approx. ₹24,500/month; confirmed basic pay ₹18,050 with 58% DA (₹10,469) and press allowances.",
+    "official_perks": [
+      "Company quarter in BRBNMPL self-contained township (Mysuru / Salboni)",
+      "Provident Fund, Gratuity, and Pension Benefits",
+      "Free medical facilities in press dispensaries and empanelled hospitals",
+      "Leave Travel Concession and Productivity Linked Incentive",
+      "Subsidized canteen and club facilities"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment intake for Industrial Workman Grade-I (Trainee).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 96,
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Advt 01/2024"
+      },
+      {
+        "year": 2022,
+        "vacancies": 80,
+        "confidence": "verified",
+        "as_of": "2022-04-15",
+        "source_url": "https://www.brbnmpl.co.in/careers/",
+        "source_label": "BRBNMPL Advt 01/2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on BRBNMPL portal.",
+    "links": [
+      {
+        "label": "BRBNMPL Careers Portal",
+        "url": "https://www.brbnmpl.co.in/careers/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BRBNMPL Official Website",
+        "url": "https://www.brbnmpl.co.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "ies-ese",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Cadre designations and promotion timelines apply across Group 'A' Central Engineering Services (e.g. Central Power Engineering Service, CPWD, Indian Telecommunication Service, Indian Naval Armament Service, Military Engineer Services). Years in service are typical DOPT time-scale intervals and vary by department and vacancy committee timings.",
+    "steps": [
+      {
+        "designation": "Assistant Executive Engineer (AEE) / Assistant Director",
+        "pay_level": "Level 10",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Executive Engineer (EE) / Deputy Director",
+        "pay_level": "Level 11",
+        "years": "approx. 4-9 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Superintending Engineer (SE) / Director",
+        "pay_level": "Level 12",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Engineer (CE) / Senior Deputy Director General",
+        "pay_level": "Level 14",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Engineer-in-Chief / Director General / Senior Member",
+        "pay_level": "Level 16 / 17",
+        "years": "approx. 25-30 yrs (Apex / HAG+ scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Engineering Services Examination is conducted across four engineering disciplines: Civil Engineering, Mechanical Engineering, Electrical Engineering, and Electronics & Telecommunication Engineering. The selection process has three sequential stages: Preliminary (Objective, 500 marks), Main (Conventional / Descriptive, 600 marks), and Personality Test (Interview, 200 marks) for a total final merit evaluation out of 1300 marks. In Stage I objective papers, a penalty of one-third (0.33) marks applies for every incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme for Engineering Services Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies and Engineering Aptitude",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Engineering Discipline Specific (Civil / Mechanical / Electrical / E&T)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Main Examination (Conventional / Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme for Engineering Services Examination",
+        "papers": [
+          {
+            "paper_name": "Paper I: Engineering Discipline Specific — Conventional Paper I",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Engineering Discipline Specific — Conventional Paper II",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme for Engineering Services Examination",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 200,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 115000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 98000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Assumes Level 10 entry basic pay (₹56,100) at 58% DA across Class X/Y/Z posting stations; net in-hand reflects standard deductions for Tier-I NPS (10% of Basic + DA) and CGHS contribution.",
+    "official_perks": [
+      "Government residential quarters or House Rent Allowance (27%/18%/9% by city tier)",
+      "Official transport or monthly transport allowance with DA",
+      "Medical coverage under Central Government Health Scheme (CGHS)",
+      "Leave Travel Concession (LTC) and earned leave encashment",
+      "Defined employer pension contribution under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Data corresponds to the Engineering Services Examination across all four engineering disciplines combined (Civil, Mechanical, Electrical, and Electronics & Telecommunication). The 2026 Mains shortlist count (3,784 candidates) was counted directly from the official UPSC Preliminary Result roll number list (dated 26.02.2026). Vacancies for 2026 were notified under Examination Notice No. 02/2026 ENGG (dated 26.09.2025). The 2025 vacancy figure is from UPSC's official notice.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 474,
+        "shortlisted_for_mains": 3784,
+        "confidence": "verified",
+        "as_of": "2026-02-26",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/ESPE_2026_WR_RollList_Eng_26022026.pdf",
+        "source_label": "UPSC — Press Note & Written Result Roll Number List, Engineering Services (Preliminary) Examination 2026 (counted verbatim: 3,784 qualified candidates across all disciplines)."
+      },
+      {
+        "year": 2025,
+        "vacancies": 457,
+        "confidence": "reported",
+        "as_of": "2024-09-18",
+        "source_label": "UPSC — Examination Notice for Engineering Services Examination 2025: 457 vacancies across Civil, Mechanical, Electrical, and Electronics & Telecommunication engineering cadres."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official resources for Engineering Services Examination from UPSC. The Preliminary written result document is live and verified; evergreen scheme and previous question paper archives are hosted on upsc.gov.in.",
+    "links": [
+      {
+        "label": "Engineering Services (Preliminary) Examination 2026 — Written Result Roll Number List",
+        "url": "https://www.upsc.gov.in/sites/default/files/ESPE_2026_WR_RollList_Eng_26022026.pdf",
+        "type": "other",
+        "cycle_label": "ESE-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-26"
+      },
+      {
+        "label": "Revised Syllabus and Scheme — Engineering Services Examination",
+        "url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Previous Year Question Papers — Engineering Services",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Engineering+Services",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

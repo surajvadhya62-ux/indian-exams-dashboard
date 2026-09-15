@@ -1,0 +1,231 @@
+{
+  "id": "wbsedcl-junior-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "West Bengal State Electricity Distribution Company Limited (WBSEDCL), a wholly owned Government of West Bengal Enterprise, governs promotion avenues under Company Service Regulations and Departmental Promotion Committee (DPC) guidelines. Junior Engineers enter at Pay Level 6 and advance along the power distribution technical engineering cadre.",
+    "steps": [
+      {
+        "designation": "Junior Engineer (Electrical) Grade-II",
+        "pay_level": "ROPA-2020 Level 6 (₹36,800 – ₹1,06,700)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Notification No. MPP/2025/04 & Pay Matrix of ROPA-2020 (WBSEDCL)"
+      },
+      {
+        "designation": "Assistant Engineer (Electrical) / Assistant Manager (Technical)",
+        "pay_level": "ROPA-2020 Level 8 (₹56,100 – ₹1,60,500)",
+        "years": "approx. 5–8 yrs",
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Service Regulations & Departmental Promotion Scheme"
+      },
+      {
+        "designation": "Divisional Engineer (DE) / Executive Engineer (EE)",
+        "pay_level": "ROPA-2020 Level 10 (₹67,300 – ₹1,73,200)",
+        "years": "approx. 12–16 yrs",
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Service Regulations & Departmental Promotion Scheme"
+      },
+      {
+        "designation": "Superintending Engineer (SE)",
+        "pay_level": "ROPA-2020 Level 12 (₹1,23,100 – ₹1,91,800)",
+        "years": "approx. 18–22 yrs",
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Service Regulations & Departmental Promotion Scheme"
+      },
+      {
+        "designation": "Additional Chief Engineer (ACE) / Chief Engineer (CE)",
+        "pay_level": "ROPA-2020 Level 14 (₹1,38,600 – ₹2,11,800)",
+        "years": "Selection (approx. 24+ yrs)",
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Service Regulations & Departmental Promotion Scheme"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two phases: Phase 1 Computer Based Test (CBT) and Phase 2 Personal Interview, followed by Pre-Employment Medical Examination. The CBT consists of 85 objective MCQs (85 marks) for 90 minutes. For each incorrect response, 0.33 marks (1/3rd) are deducted. Sections comprise Domain Knowledge (50 MCQs, sectional qualifying mark: 20), General English (5 MCQs), Quantitative Aptitude (10 MCQs), Computer Proficiency in MS-Office (10 MCQs), and Test of Vernacular in Bengali/Nepali (10 MCQs, sectional qualifying mark: 4). Candidates are shortlisted for Personal Interview (15 marks) at Vidyut Bhavan, Kolkata in a 1:3 ratio based on normalized CBT merit.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT) (Objective Multiple Choice Question Pattern)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Notification No. MPP/2025/04 (Section: Detailed Test Matrix for Computer Based Test)",
+        "papers": [
+          {
+            "paper_name": "Domain Knowledge (Electrical Engineering Diploma Syllabus)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": "0.33 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional qualifying mark: 20 out of 50 marks"
+          },
+          {
+            "paper_name": "General English",
+            "marks": 5,
+            "duration_minutes": null,
+            "negative_marking": "0.33 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.33 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Computer Proficiency (MS-Office Applications)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.33 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Vernacular (Bengali / Nepali Language as opted by candidate)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.33 marks deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional qualifying mark: 4 out of 10 marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview (Viva-Voce)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Notification No. MPP/2025/04 (Section: Mode of Selection, 2nd Phase)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview conducted at WBSEDCL Corporate Office, Vidyut Bhavan, Kolkata (1:3 ratio based on CBT score)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale for Junior Engineer (Electrical) Grade-II is fixed in Level 6 of the Pay Matrix under Revision of Pay and Allowances (ROPA-2020), WBSEDCL. Entry basic pay is ₹36,800 (pay band ₹36,800 to ₹1,06,700). In addition to basic pay, employees receive Dearness Allowance (at standard project constant 58% effective 1 Jul 2025), House Rent Allowance (12% of basic pay), Medical Benefits, and utility electricity concessions, resulting in an estimated gross remuneration of approx. ₹64,800/month.",
+    "pay_level": "ROPA-2020 (WBSEDCL) Pay Level 6 (₹36,800 – ₹1,06,700)",
+    "entry_basic_pay": 36800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-11-24",
+    "pay_source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+    "pay_source_label": "WBSEDCL Notification No. MPP/2025/04 (Remuneration Section: Level 06 of Pay Matrix of ROPA-2020, WBSEDCL)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 62000,
+      "max": 67500
+    },
+    "in_hand_range_estimate": {
+      "min": 54000,
+      "max": 59000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on ROPA-2020 Level 6 entry basic pay of ₹36,800 with project constant 58% Dearness Allowance (₹21,344), House Rent Allowance (12% of basic pay, ₹4,416), Medical Allowance, and electricity allowance. Deductions include 10% Contributory Provident Fund (CPF ₹5,814) and West Bengal Professional Tax (PTax ₹200).",
+    "official_perks": [
+      "12% House Rent Allowance (HRA) or company residential quarters at operational sub-stations/divisional offices",
+      "Comprehensive medical facilities and mediclaim reimbursement for employee and recognized dependents",
+      "Subsidized electricity consumption concession as per WBSEDCL employee service regulations",
+      "Contributory Provident Fund (CPF), Gratuity, and Leave Encashment facilities",
+      "Performance Related Pay (PRP) and company annual ex-gratia as sanctioned by Board of Directors"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official vacancies published directly by WBSEDCL in employment notifications. In the 2025 recruitment cycle (Notification No. MPP/2025/04 dated 24.11.2025), 401 vacancies were advertised for Junior Engineer (Electrical) Gr.-II across UR (100), UR-EC (52), UR-ExSM (12), SC (52), SC-EC (28), SC-ExSM (4), ST (16), ST-EC (9), OBC-A (28), OBC-A-EC (13), OBC-B (20), OBC-B-EC (8), UR-PwBD (14), SC-PwBD (4), EWS (25), EWS-EC (12), and EWS-ExSM (4). In the 2021 cycle (Notification No. MPP/2021/03), 414 total Junior Engineer vacancies were advertised (390 JE Electrical and 24 JE Civil).",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 401,
+        "confidence": "verified",
+        "as_of": "2025-11-24",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "source_label": "WBSEDCL Notification No. MPP/2025/04 dated 24.11.2025 (401 Junior Engineer Electrical Gr.-II posts)"
+      },
+      {
+        "year": 2021,
+        "vacancies": 414,
+        "confidence": "verified",
+        "as_of": "2021-12-15",
+        "source_url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/careers.html",
+        "source_label": "WBSEDCL Notification No. MPP/2021/03 (390 JE Electrical and 24 JE Civil vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schedules, and objection link notices published by WBSEDCL on its central career portal.",
+    "links": [
+      {
+        "label": "WBSEDCL — Recruitment Notification for Junior Engineer (Electrical) Gr.-II (Notification No. MPP/2025/04)",
+        "url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website%20Notification%20w.r.t%20Notification%20No.%20MPP-2025-04%20Dt.%2024.11.2025_27_11.pdf",
+        "type": "notification",
+        "cycle_label": "MPP-2025-04",
+        "confidence": "verified",
+        "as_of": "2025-11-24"
+      },
+      {
+        "label": "WBSEDCL — Schedule of Computer Based Test for Junior Engineer (Electrical) Gr.-II (MPP/2025/04)",
+        "url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Intimation%20regarding%20Date%20&%20Schedule%20of%20Computer%20Based%20Test%20under%20Notification%20No%20MPP202504%20Dt.%2024112025_09_01.pdf",
+        "type": "other",
+        "cycle_label": "MPP-2025-04",
+        "confidence": "verified",
+        "as_of": "2026-01-09"
+      },
+      {
+        "label": "WBSEDCL — Notice for Objection Management Link w.r.t CBT Conducted on 27.01.2026",
+        "url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Notice%20for%20Go-Live%20of%20Objection%20Management%20Link%20w.r.t%20Computer%20Based%20Test%20conducted%20on%2027.01.2026.pdf",
+        "type": "other",
+        "cycle_label": "MPP-2025-04",
+        "confidence": "verified",
+        "as_of": "2026-01-27"
+      },
+      {
+        "label": "WBSEDCL Careers Portal",
+        "url": "https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/careers.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "WBSEDCL Official Corporate Website",
+        "url": "https://www.wbsedcl.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

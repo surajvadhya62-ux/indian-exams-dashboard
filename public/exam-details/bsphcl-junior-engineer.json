@@ -1,0 +1,172 @@
+{
+  "id": "bsphcl-junior-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for engineering cadres in Bihar State Power Holding Company Limited (BSPHCL) and its subsidiary companies (NBPDCL, SBPDCL, BSPTCL, BSPGCL). Junior Engineers advance through executive engineering hierarchies to Chief Engineer level based on merit, departmental examinations, and length of service.",
+    "steps": [
+      {
+        "designation": "Junior Electrical Engineer / JE Civil (कनीय विद्युत अभियंता / कनीय अभियंता)",
+        "pay_level": "Level 8 (BSPHCL 7th Pay Matrix)",
+        "years": "0–6 years (Entry grade)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bsphcl.co.in/Recruitment.aspx",
+        "source_label": "BSPHCL Employment Notice No. 02/2024 for Junior Electrical Engineer (GTO) & JE (Civil)"
+      },
+      {
+        "designation": "Assistant Electrical Engineer / AEE (सहायक विद्युत अभियंता)",
+        "pay_level": "Level 9 (BSPHCL 7th Pay Matrix)",
+        "years": "6–12 years",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://bsphcl.co.in",
+        "source_label": "BSPHCL Engineering Cadre Service Regulations (Promotion Quota)"
+      },
+      {
+        "designation": "Executive Engineer / EEE (कार्यपालक अभियंता)",
+        "pay_level": "Level 11 (BSPHCL 7th Pay Matrix)",
+        "years": "12–18 years",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://bsphcl.co.in",
+        "source_label": "BSPHCL Executive Cadre Promotion Regulations"
+      },
+      {
+        "designation": "Superintending Engineer / SE (अधीक्षण अभियंता)",
+        "pay_level": "Level 12 (BSPHCL 7th Pay Matrix)",
+        "years": "18–24 years",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://bsphcl.co.in",
+        "source_label": "BSPHCL Engineering Management Hierarchy"
+      },
+      {
+        "designation": "Chief Engineer / CE (मुख्य अभियंता)",
+        "pay_level": "Level 13 (BSPHCL 7th Pay Matrix)",
+        "years": "24+ years",
+        "confidence": "reported",
+        "as_of": "2024-03-08",
+        "source_url": "https://bsphcl.co.in",
+        "source_label": "BSPHCL Board of Directors Executive Appointment Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted through a single-stage Computer Based Test (CBT) comprising 100 objective questions (60 domain engineering questions + 40 non-technical questions across GK, Reasoning, Hindi, English, and Basic Computers) over 90 minutes. No interview is conducted; final selection is based strictly on CBT merit score.",
+    "stages": [
+      {
+        "stage_name": "Single Stage: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bsphcl.co.in/Recruitment.aspx",
+        "source_label": "BSPHCL Employment Notice No. 02/2024 Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Technical Engineering Syllabus (Diploma standard in Electrical or Civil Engineering)",
+            "marks": 60,
+            "duration_minutes": 90,
+            "negative_marking": "As per CBT notification rules; 1 mark per question",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying threshold: UR 40%, BC 36.5%, EBC 34%, SC/ST/Female 32%"
+          },
+          {
+            "paper_name": "Non-Technical Domain: General Knowledge (10), Reasoning (10), General Hindi (10), English (5), Computers (5)",
+            "marks": 40,
+            "duration_minutes": 90,
+            "negative_marking": "As per CBT notification rules; 1 mark per question",
+            "qualifying_only": false,
+            "qualifying_threshold": "Total aggregate marks (Technical + Non-Technical out of 100) determines final merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Candidates are placed on a consolidated monthly stipend (₹25,900 to ₹38,900) during the initial one-year training/probation period. Upon successful completion of probation, regular pay is fixed in Level 8 (Entry Basic ₹47,600, corresponding to pre-revised Grade Pay ₹4,800) with full state enterprise allowances.",
+    "pay_level": "Level 8 (BSPHCL 7th Pay Matrix)",
+    "entry_basic_pay": 47600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://bsphcl.co.in/Recruitment.aspx",
+    "pay_source_label": "BSPHCL Employment Notice No. 02/2024 for Junior Electrical Engineer (GTO) & JE (Civil)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 80000, "max": 92000 },
+    "in_hand_range_estimate": { "min": 68000, "max": 79000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 8 entry basic pay of ₹47,600 with standard 58% DA (₹27,608), HRA (8% to 16% depending on posting in Patna HQ, grid substations, or circle offices: ₹3,808 to ₹7,616), Medical Allowance (₹1,000), and special power corporation allowances. In-hand reflects statutory 10% EPF/NPS deduction on Basic+DA (₹7,521), electricity recovery, and professional tax.",
+    "official_perks": [
+      "Company designated quarters in thermal power stations / grid substation colonies or HRA up to 16%",
+      "Subsidized electricity allowance as per Bihar state power utility rules",
+      "Medical reimbursement and comprehensive health coverage for self and dependents",
+      "Contributory Provident Fund (CPF) / NPS with matching employer contribution",
+      "Technical field inspection allowance and mobile phone reimbursement",
+      "Gratuity and group accidental insurance cover for power station and line duty"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark statistics compiled from official BSPHCL employment notifications and recruitment announcements for Employment Notice No. 02/2024 and Employment Notice No. 03/2018.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 46500,
+        "vacancies": 153,
+        "selectivity_ratio": "1 in 304 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2024-07-20",
+        "source_url": "https://bsphcl.co.in/Recruitment.aspx",
+        "source_label": "BSPHCL Employment Notice No. 02/2024 (113 Junior Electrical Engineer GTO + 40 Junior Engineer Civil)"
+      },
+      {
+        "year": 2018,
+        "applicants": 48200,
+        "vacancies": 400,
+        "selectivity_ratio": "1 in 120 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2018-10-31",
+        "source_url": "https://bsphcl.co.in",
+        "source_label": "BSPHCL Employment Notice No. 03/2018 Selection Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official employment notifications and document verification schedules verified live on the Bihar State Power Holding Company Limited portal.",
+    "links": [
+      {
+        "label": "BSPHCL Recruitment Portal & Employment Notices Hub",
+        "url": "https://bsphcl.co.in/Recruitment.aspx",
+        "type": "other",
+        "cycle_label": "BSPHCL Recruitment",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "BSPHCL Official Notifications & Circulars Board",
+        "url": "https://bsphcl.co.in/Notification.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Bihar State Power Holding Company Limited (BSPHCL) — Official Website",
+        "url": "https://bsphcl.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

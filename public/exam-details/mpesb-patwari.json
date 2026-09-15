@@ -1,0 +1,202 @@
+{
+  "id": "mpesb-patwari",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Patwari",
+        "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+        "promotion_criteria": "Direct recruitment through MPESB Combined Group-2 Sub-Group-4 Examination followed by district induction training and CPCT certification.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MPESB Group-2 Sub-Group-4 & Patwari Recruitment Rulebook 2026, Section 3"
+      },
+      {
+        "step_order": 2,
+        "designation": "Revenue Inspector (RI / राजस्व निरीक्षक)",
+        "pay_level": "Level 7 (₹28,700 – ₹91,300)",
+        "promotion_criteria": "Promotion through Departmental Promotion Committee (DPC) based on seniority-cum-merit after 5 to 7 years of active service as Patwari and passing the departmental revenue examination, or through limited departmental competitive exam.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MP Land Records and Revenue Department Service Rules"
+      },
+      {
+        "step_order": 3,
+        "designation": "Naib Tehsildar (नायब तहसीलदार)",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Promotion on recommendation of MPPSC/DPC after completion of prescribed qualifying service as Revenue Inspector (~5 years) with benchmark ACR/APAR gradings.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MP Junior Administrative Service (Revenue) Rules"
+      },
+      {
+        "step_order": 4,
+        "designation": "Tehsildar (तहसीलदार)",
+        "pay_level": "Level 10 (₹42,700 – ₹1,35,100)",
+        "promotion_criteria": "Seniority-cum-merit promotion from Naib Tehsildar cadre after 5 to 8 years of gazetted judicial and executive revenue administrative service.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MP State Revenue Service Executive Cadre Regulations"
+      },
+      {
+        "step_order": 5,
+        "designation": "Superintendent of Land Records (SLR) / Deputy Collector (राज्य प्रशासनिक सेवा)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Promotion into State Administrative Service (Executive) through MPPSC DPC quota after exemplary field service, subject to availability of cadre vacancies.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MP State Administrative Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Single Combined Written Examination (OMR/CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Part A: General Science, General Hindi, General English, General Mathematics",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Part B: General Knowledge & Aptitude, Computer Knowledge, Reasoning Ability, General Management",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MPESB Group-2 Sub-Group-4 & Patwari Rulebook 2026, Section 1"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Document Verification & District Cadre Allocation",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational Qualifications, CPCT Scorecard & Domicile Credentials",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MPESB Group-2 Sub-Group-4 & Patwari Rulebook 2026, Section 5"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+    "entry_basic_pay": 25300,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+    "pay_source_label": "MPESB Group-2 Sub-Group-4 & Patwari Rulebook 2026, Page 3",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 43000,
+      "max": 47000
+    },
+    "in_hand_range_estimate": {
+      "min": 37000,
+      "max": 41000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance computed at the prevailing rate of 58% of basic pay (₹14,674 per month at entry level) under MP State Finance Department orders.",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA) / Patwari Bhawan",
+        "perk_description": "HRA ranging between 8% to 16% of basic pay depending on classification of posting town/district, or allotment of official Patwari Bhawan/residential quarters in the halka.",
+        "confidence": "reported",
+        "source_label": "MP Civil Services HRA Rules"
+      },
+      {
+        "perk_name": "Fixed Medical & Stationery Allowance",
+        "perk_description": "Monthly fixed allowance for field stationery, basta maintenance, and routine medical outpatient treatment reimbursement.",
+        "confidence": "reported",
+        "source_label": "MP Board of Revenue Administrative Circulars"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Contributory Defined Pension Scheme with 14% matching contribution by the Government of Madhya Pradesh and 10% candidate deduction.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 9073,
+        "applicants": 0,
+        "appeared": 0,
+        "cut_off_marks": {
+          "note": "Recruitment notification issued August 2026 for Combined Group-2 Sub-Group-4 and Patwari recruitment; examinations scheduled from September 2026."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "source_label": "MPESB Group-2 Sub-Group-4 Patwari Rulebook 2026"
+      },
+      {
+        "year": 2023,
+        "vacancies": 9735,
+        "applicants": 1279000,
+        "appeared": 978000,
+        "cut_off_marks": {
+          "unreserved_open": 165.74,
+          "obc_open": 162.88,
+          "sc_open": 153.21,
+          "st_open": 141.65,
+          "ews_open": 161.45
+        },
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in",
+        "source_label": "MPESB Group-2 Sub-Group-4 & Patwari 2022-23 Result and Cut-off Summary"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Group-2 Sub-Group-4 & Patwari Recruitment Test 2026 Rulebook",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group2_SG4_Patwari_rect_test_2026_Rulebook_04082026_v2.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

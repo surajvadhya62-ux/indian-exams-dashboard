@@ -1,0 +1,260 @@
+{
+  "id": "upsc-cse",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": null,
+    "steps": [
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / Assistant Secretary",
+        "pay_level": "Level 10",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Deputy Secretary",
+        "pay_level": "Level 11",
+        "years": "approx. 4-9 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "District Magistrate (DM) / Collector / Joint Secretary (state)",
+        "pay_level": "Level 12",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Divisional Commissioner / Secretary (state) — Selection Grade",
+        "pay_level": "Level 13",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Principal Secretary (state) / Additional Secretary (Centre)",
+        "pay_level": "Level 14",
+        "years": "approx. 18-25 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Additional Chief Secretary (state) — Above Super Time Scale",
+        "pay_level": "Level 15",
+        "years": "approx. 25-30 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Secretary (state) — Apex Scale",
+        "pay_level": "Level 17",
+        "years": "approx. 30-36 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Cabinet Secretary of India — one post nationally",
+        "pay_level": "Level 18 (fixed)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Officer-side pay levels above are Government-of-India-wide 7th CPC figures; the actual designation attached to each level, and the years taken to reach it, vary by cadre/state and promotion-committee timing, so treat the 'years' column as illustrative rather than guaranteed.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (objective, screening only)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "General Studies Paper I",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "CSAT (General Studies Paper II)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "33%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (written, descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper A — Indian Language (qualifying)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "25%"
+          },
+          {
+            "paper_name": "Paper B — English (qualifying)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "25%"
+          },
+          { "paper_name": "Essay", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null },
+          { "paper_name": "General Studies Paper I", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null },
+          { "paper_name": "General Studies Paper II", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null },
+          { "paper_name": "General Studies Paper III", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null },
+          { "paper_name": "General Studies Paper IV (Ethics, Integrity & Aptitude)", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null },
+          { "paper_name": "Optional Subject — Paper I", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null },
+          { "paper_name": "Optional Subject — Paper II", "marks": 250, "duration_minutes": 180, "negative_marking": null, "qualifying_only": false, "qualifying_threshold": null }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "source_label": "UPSC — Revised Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 275,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 115000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 98000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Range assumes Level 10 entry basic pay at 58% DA (effective 1 Jul 2025) across metro to non-metro postings; actual in-hand pay varies by posting city and individual deductions (NPS, insurance, etc).",
+    "official_perks": [
+      "Government accommodation (type and size vary by rank and posting)",
+      "Official vehicle with driver for duty use",
+      "Medical coverage under CGHS, continuing into retirement for officer and spouse",
+      "Household and security staff at senior postings",
+      "Leave Travel Concession (LTC)",
+      "Subsidized utilities (electricity/water/phone) at many postings"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies and Mains-shortlist counts for both years below were read directly by this dossier's author in UPSC's own Civil Services (Preliminary) Examination, 2026 press note, which states both that year's and the prior year's figures in one comparison sentence — quoted verbatim in each row's citation. Applicant counts are separate figures attributed to official UPSC/PIB releases this session could not independently re-open; they are believed accurate but do not carry their own source link for that reason. The selectivity ratio is this dossier's own calculation, not an official UPSC statistic.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 819732,
+        "vacancies": 1016,
+        "shortlisted_for_mains": 13343,
+        "selectivity_ratio": "approx. 1 in 807 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-06-18",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/WR-NameList-CSP-2026-Engl-18062026.pdf",
+        "source_label": "UPSC — Press Note, Result of Civil Services (Preliminary) Examination 2026: \"...against 1016 vacancies notified for the Civil Services Examination, 2026, a total of 13,343 candidates have been shortlisted...\" (read directly, quoted verbatim). Applicant count is reported by multiple outlets citing a separate PIB release this session could not independently open."
+      },
+      {
+        "year": 2025,
+        "applicants": 937876,
+        "vacancies": 1087,
+        "shortlisted_for_mains": 14161,
+        "selectivity_ratio": "approx. 1 in 863 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-06-18",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/WR-NameList-CSP-2026-Engl-18062026.pdf",
+        "source_label": "UPSC — Press Note, Result of Civil Services (Preliminary) Examination 2026: \"Last year, a total of 14,161 candidates were shortlisted for the Civil Services (Main) Examination, 2025 against 1087 vacancies notified for the Civil Services Examination, 2025.\" (read directly, quoted verbatim — this is the 2026 press note's own retrospective sentence; the separate 2025 result document only lists qualified roll numbers and does not itself state this figure). Applicant count is reported by multiple outlets citing a separate PIB release this session could not independently open."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "The notification link below is re-checked each cycle — UPSC removes the previous cycle's PDF once a new one is issued, so this link is replaced (not left to rot) each time a newer one is confirmed live.",
+    "links": [
+      {
+        "label": "Civil Services (Preliminary) Examination 2026 — Notification",
+        "url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+        "type": "notification",
+        "cycle_label": "CSP-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "Civil Services (Preliminary) Examination 2026 — Result & Mains Shortlist",
+        "url": "https://www.upsc.gov.in/sites/default/files/WR-NameList-CSP-2026-Engl-18062026.pdf",
+        "type": "other",
+        "cycle_label": "CSP-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-18"
+      },
+      {
+        "label": "Revised Syllabus and Scheme (evergreen reference)",
+        "url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Previous Year Question Papers (all years)",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

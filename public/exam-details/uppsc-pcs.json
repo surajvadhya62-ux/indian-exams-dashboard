@@ -1,0 +1,281 @@
+{
+  "id": "uppsc-pcs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Provincial Civil Service (Executive Branch) officers in Uttar Pradesh start as Sub-Divisional Magistrates (SDM) / Deputy Collectors and progress through state administrative postings before being inducted into the Indian Administrative Service (IAS) under the promotion quota (IAS Appointment by Promotion Regulations).",
+    "steps": [
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / Deputy Collector / DSP (Entry Scale)",
+        "pay_level": "UP Matrix Level 10 (PB-3 ₹15,600-39,100, GP 5400)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2016-12-22",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "UP Revised Pay Rules 2016, Finance Department, Government of Uttar Pradesh"
+      },
+      {
+        "designation": "City Magistrate / Additional District Magistrate (ADM) / Senior Scale",
+        "pay_level": "UP Matrix Level 11 (₹67,700 - ₹2,08,700)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "verified",
+        "as_of": "2016-12-22",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "UP Revised Pay Rules 2016, Finance Department, Government of Uttar Pradesh"
+      },
+      {
+        "designation": "Special Secretary (State) / Additional Commissioner / Chief Development Officer (CDO) — Junior Administrative Grade",
+        "pay_level": "UP Matrix Level 12 (₹78,800 - ₹2,09,200)",
+        "years": "approx. 8-14 yrs",
+        "confidence": "verified",
+        "as_of": "2016-12-22",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "UP Revised Pay Rules 2016, Finance Department, Government of Uttar Pradesh"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) / Selection Grade (State)",
+        "pay_level": "Level 13 (Selection Grade, ₹1,18,500 basic)",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT & UPSC"
+      },
+      {
+        "designation": "District Magistrate (DM) / Collector / Secretary (State Government)",
+        "pay_level": "Level 14 (Super Time Scale, ₹1,44,200 basic)",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      },
+      {
+        "designation": "Principal Secretary (Government of Uttar Pradesh)",
+        "pay_level": "Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Examination consists of three successive stages: Preliminary Examination (Objective screening), Main Examination (Conventional descriptive written across 8 compulsory papers; optional subjects were eliminated and replaced by UP Special GS Papers V & VI), and Interview / Personality Test (100 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus_PostWise.aspx?ID=4",
+        "source_label": "UPPSC Combined State / Upper Subordinate Services Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "General Studies Paper I",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.33 mark (1/3rd penalty for each wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit score in Paper I determines qualification for Mains Examination shortlist"
+          },
+          {
+            "paper_name": "General Studies Paper II (CSAT — Civil Services Aptitude Test)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.33 mark (1/3rd penalty for each wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "33% (minimum 66 marks out of 200 required to qualify)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus_PostWise.aspx?ID=4",
+        "source_label": "UPPSC Combined State / Upper Subordinate Services Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "General Hindi",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Essay (Three Sections: Literature/Culture, Science/Economy, National/International Events)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper I (Indian Heritage, History, Geography, Society)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper II (Governance, Constitution, Polity, Social Justice, International Relations)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper III (Technology, Economic Development, Biodiversity, Security, Disaster Management)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper IV (Ethics, Integrity and Aptitude)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper V (Uttar Pradesh Special I — History, Culture, Society, Polity, Governance & Administration of UP)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper VI (Uttar Pradesh Special II — Economy, Geography, Agriculture, Environment & Science of UP)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test / Interview (Viva-Voce)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus_PostWise.aspx?ID=4",
+        "source_label": "UPPSC Combined State / Upper Subordinate Services Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Interview / Personality Test (Board Interview at UPPSC Headquarters, Prayagraj)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Provincial Civil Service posts in Uttar Pradesh are compensated under the Uttar Pradesh Revised Pay Rules, 2016. The premier cadre posts (Deputy Collector / SDM and DSP) start at Pay Matrix Level 10 (Pay Band 3: ₹15,600 - 39,100, Grade Pay ₹5,400) with entry basic pay of ₹56,100.",
+    "pay_level": "UP Matrix Level 10 (₹56,100 - ₹1,77,500)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2016-12-22",
+    "pay_source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+    "pay_source_label": "Government of Uttar Pradesh, Finance Department — U.P. Revised Pay Rules 2016, Pay Matrix Level 10 (SDM/Deputy Collector Entry Scale)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 93000, "max": 112000 },
+    "in_hand_range_estimate": { "min": 80000, "max": 96000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on UP Pay Matrix Level 10 entry basic pay of ₹56,100 at 58% DA (effective 1 Jul 2025) across Class A/B/C districts of Uttar Pradesh (HRA 27%/18%/9% or 30%/20%/10% depending on municipal classification); net in-hand reflects standard deductions for NPS (10% on Basic+DA) and GIS.",
+    "official_perks": [
+      "Government residential accommodation (type according to seniority and district posting)",
+      "Official vehicle with driver for field duty and executive inspections",
+      "Armed security guard / police escort for SDM and DSP posts",
+      "Subsidized electricity, water, and telephone allowances",
+      "Leave Travel Concession (LTC) and earned leave encashment",
+      "Comprehensive government medical coverage under UP Government Health Scheme (UPGHS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, appearance, Mains shortlist, and final vacancy figures are compiled from official UPPSC press releases, result notifications, and annual recruitment statistics for Advt. No. A-1/E-1/2024 and Advt. No. A-1/E-1/2023.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 576154,
+        "vacancies": 947,
+        "shortlisted_for_mains": 13776,
+        "selectivity_ratio": "approx. 1 in 608 (calculated: applicants ÷ final vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-12-22",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "UPPSC Advt. No. A-1/E-1/2024: Combined State / Upper Subordinate Services Examination 2024 (947 final vacancies; 5.76 lakh registered candidates, 13,776 appeared in Mains, 932 recommended)."
+      },
+      {
+        "year": 2023,
+        "applicants": 565459,
+        "vacancies": 254,
+        "shortlisted_for_mains": 4047,
+        "selectivity_ratio": "approx. 1 in 2226 (calculated: applicants ÷ final vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-01-23",
+        "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "source_label": "UPPSC Advt. No. A-1/E-1/2023: Combined State / Upper Subordinate Services Examination 2023 (254 final vacancies, 5,65,459 applicants registered, 4,047 shortlisted for Mains, 251 recommended)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, post-wise syllabus, examination schedules, and previous cycle question documents are hosted on the UPPSC online portal.",
+    "links": [
+      {
+        "label": "UPPSC Official Notifications & Advertisements Portal",
+        "url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UPPSC Post-Wise Syllabus & Scheme of Examination",
+        "url": "https://uppsc.up.nic.in/CandidatePages/Syllabus/Syllabus_PostWise.aspx?ID=4",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UPPSC Annual Examination Calendar & Schedules",
+        "url": "https://uppsc.up.nic.in/PublicPages/Examinations_Details.aspx?ID=EC",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UPPSC Advertisement-Wise Document & Paper Downloads",
+        "url": "https://uppsc.up.nic.in/CandidatePages/Advertismentwise_DownloadDocument.aspx?inptprmtr=ac",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

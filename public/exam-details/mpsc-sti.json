@@ -1,0 +1,217 @@
+{
+  "id": "mpsc-sti",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Representative career progression across Maharashtra Subordinate Services Group B executive cadres (State Tax Inspector, Police Sub-Inspector, Assistant Section Officer, and Sub-Registrar) into senior departmental management.",
+    "steps": [
+      {
+        "designation": "Group B Executive Officer (STI / PSI / ASO / Sub-Registrar)",
+        "pay_level": "Level S-14",
+        "years": "Entry (Probation 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, 7th Pay Commission, Pay Level S-14 (₹38,600 - ₹1,22,800)"
+      },
+      {
+        "designation": "Group B Promotional Officer (State Tax Officer / Assistant Police Inspector / Section Officer)",
+        "pay_level": "Level S-15 / S-16",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra State Departmental Promotion Rules, Pay Level S-15 / S-16 (₹41,800 - ₹1,42,400)"
+      },
+      {
+        "designation": "Group A Entry Officer (Assistant Commissioner of State Tax / Police Inspector / Under Secretary)",
+        "pay_level": "Level S-20",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services Rules, Pay Level S-20 (₹56,100 - ₹1,77,500)"
+      },
+      {
+        "designation": "Senior Group A Officer (Deputy Commissioner of State Tax / DySP / Deputy Secretary)",
+        "pay_level": "Level S-23",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Civil Services Rules, Pay Level S-23 (₹67,700 - ₹2,08,700)"
+      },
+      {
+        "designation": "Joint Commissioner / Additional SP / Joint Secretary to Government",
+        "pay_level": "Level S-26",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra State Higher Administrative Cadre, Pay Level S-26 / S-29 (₹1,31,100 - ₹2,16,600)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Combined competitive examination structure comprising a common Preliminary screening test for all Non-Gazetted Group B posts, followed by cadre-specific Main written examination papers (Paper 1 common, Paper 2 specific), with an additional physical test and interview for the PSI cadre.",
+    "stages": [
+      {
+        "stage_name": "Maharashtra Non-Gazetted Group B Services Combined Preliminary Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 Scheme of Combined Preliminary Examination",
+        "papers": [
+          {
+            "paper_name": "General Ability Test (General Studies, Maharashtra History/Geography, Polity, Economics, General Science, Aptitude & Arithmetic)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Maharashtra Non-Gazetted Group B Services Main Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 011/2026 Main Examination Pattern",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Marathi and English (Common for all Group B Cadres: Marathi 50 Qs / 100 marks, English 50 Qs / 100 marks)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2 — General Studies and Cadre-Specific Subject (Tailored to STI / PSI / ASO / Sub-Registrar)",
+            "marks": 200,
+            "duration_minutes": 60,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Test & Interview (applicable to PSI Cadre only)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC PSI Examination Rules",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test (PET, 100 marks qualifying at 60%) & Oral Interview (40 marks for PSI only; no interview for STI/ASO)",
+            "marks": 140,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% on PET qualifying to reach interview stage (PSI only)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay Level S-14 under Maharashtra Civil Services (Revised Pay) Rules, 2019 (Maharashtra 7th Pay Commission) for Subordinate Services Group B posts.",
+    "pay_level": "Level S-14",
+    "entry_basic_pay": 38600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-01-01",
+    "pay_source_url": "https://mpsc.gov.in",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Government Resolution No. RPS-2019/CR-1/Services-9",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 65000, "max": 78000 },
+    "in_hand_range_estimate": { "min": 58000, "max": 70000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹38,600 in Level S-14 (₹38,600 - ₹1,22,800). Computed with 58% DA (₹22,388) and HRA ranging from 9% (Z-class towns) to 27% (X-class metro cities like Mumbai/Pune), plus post-specific conveyance and uniform allowances where applicable, minus mandatory deductions (NPS 10%, Professional Tax, GIS).",
+    "official_perks": [
+      "Government quarters or House Rent Allowance (HRA up to 27% in metro postings)",
+      "Cadre-specific field travel and inspection conveyance allowances",
+      "Medical facilities under Maharashtra State Government Employees Health Scheme",
+      "Leave Travel Concession (LTC) and defined annual leave entitlements",
+      "Contributory pension scheme benefits under NPS"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Consolidated vacancy benchmarks for the combined recruitment of STI, PSI, and ASO under Maharashtra Non-Gazetted Group B Services.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 480000,
+        "vacancies": 552,
+        "shortlisted_for_mains": 8280,
+        "selectivity_ratio": "approx. 1 in 870 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-04-10",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 011/2026 (Maharashtra Non-Gazetted Group B Services Combined Examination 2026): Total 552 posts across PSI, STI, and ASO."
+      },
+      {
+        "year": 2024,
+        "applicants": 425000,
+        "vacancies": 480,
+        "shortlisted_for_mains": 7200,
+        "selectivity_ratio": "approx. 1 in 885 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-10-14",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 048/2024 (Maharashtra Non-Gazetted Group B Services Examination 2024): Total 480 posts across PSI, STI, and ASO."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and candidate application portals on MPSC official domains.",
+    "links": [
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Combined Examination 2026 Notification (Advt. 011/2026)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 011/2026",
+        "confidence": "verified",
+        "as_of": "2026-04-10"
+      },
+      {
+        "label": "MPSC Maharashtra Non-Gazetted Group B Services Examination 2024 Notification (Advt. 048/2024)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 048/2024",
+        "confidence": "verified",
+        "as_of": "2024-10-14"
+      },
+      {
+        "label": "MPSC Scheme and Syllabus for Maharashtra Non-Gazetted Group B Combined Examination",
+        "url": "https://mpsc.gov.in/home",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPSC Previous Question Papers and Answer Keys Portal",
+        "url": "https://mpsc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

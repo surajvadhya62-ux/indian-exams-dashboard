@@ -1,0 +1,193 @@
+{
+  "id": "ssc-jht",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The Junior Hindi Translator Examination recruits linguistic specialists (Junior Translation Officer / Senior Translation Officer) for the Central Secretariat Official Language Service (CSOLS), Ministry of Defence, Ministry of Railways, and other Central Government Ministries and subordinate offices. Translators ensure compliance with official language policies, advancing to administrative directorships in the Official Language cadre.",
+    "steps": [
+      {
+        "designation": "Junior Translation Officer (JTO) / Junior Hindi Translator (JHT)",
+        "pay_level": "Level 6",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-08-02",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Junior Hindi Translator, Junior Translation Officer and Senior Hindi Translator Examination 2024"
+      },
+      {
+        "designation": "Senior Translation Officer (STO) / Senior Hindi Translator (SHT)",
+        "pay_level": "Level 7",
+        "years": "approx. 3-5 yrs (departmental promotion or direct entry)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Director (Official Language) / Rajbhasha Adhikari (Group A Gazetted)",
+        "pay_level": "Level 10",
+        "years": "approx. 8-12 yrs (induction into CSOLS Group A Cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Director (Official Language)",
+        "pay_level": "Level 11",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Joint Director (Official Language)",
+        "pay_level": "Level 12",
+        "years": "approx. 20-24 yrs (Junior Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two progressive stages: Paper I (Computer-Based Objective Examination, 200 marks, 120 minutes) testing General Hindi and General English proficiency; and Paper II (Descriptive Translation and Essay Paper, 200 marks, 120 minutes). Final ranking is determined by aggregate performance across Paper I and Paper II (400 marks total) followed by Document Verification.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Paper I (Computer-Based Examination - Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-02",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Examination for Junior Hindi Translator (Paper I)",
+        "papers": [
+          {
+            "paper_name": "General Hindi (100 objective multiple choice questions covering grammatical knowledge, usage, vocabulary, synonyms, antonyms, sentence correction)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, OBC/EWS: 25%, SC/ST: 20% (merit cut-off for Paper II)"
+          },
+          {
+            "paper_name": "General English (100 objective multiple choice questions covering correct use of words, phrases, idioms, comprehension passages, and grammatical accuracy)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, OBC/EWS: 25%, SC/ST: 20% (merit cut-off for Paper II)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Paper II (Descriptive Examination — Translation & Essay)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-08-02",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Examination for Junior Hindi Translator (Paper II)",
+        "papers": [
+          {
+            "paper_name": "Translation: One passage from Hindi to English (50 marks) and one passage from English to Hindi (50 marks)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined aggregate merit with Paper I"
+          },
+          {
+            "paper_name": "Essay: One Essay in Hindi (50 marks) and one Essay in English (50 marks)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined aggregate merit with Paper I"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Translation Officer / Junior Hindi Translator posts are placed in Pay Level 6 (₹35,400 – ₹1,12,400), while Senior Translation Officers are placed in Pay Level 7 (₹44,900 – ₹1,42,400) under the 7th Central Pay Commission. The majority of positions are stationed in Central Ministry headquarters in New Delhi and state capital directorates.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-08-02",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 74000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 67000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 basic pay of ₹35,400 with 58% DA (₹20,532), HRA (10% to 30% depending on city classification X/Y/Z), Transport Allowance (₹1,800 to ₹3,600 + DA on TA), and deducting 10% NPS contribution.",
+    "official_perks": [
+      "Central Government Employees Group Insurance Scheme (CGEGIS)",
+      "Central Government Health Scheme (CGHS) dispensary and empanelled hospital medical facilities",
+      "Government accommodation quarters allotment through Directorate of Estates pool in New Delhi and major cities",
+      "Children Education Allowance (CEA) and Annual Leave Travel Concession (LTC)",
+      "Book allowance and professional linguistic development training"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Junior Translation Officer, Junior Hindi Translator, and Senior Translation Officer across Central Government Ministries notified by the Staff Selection Commission.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 312,
+        "confidence": "verified",
+        "as_of": "2024-08-02",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Junior Hindi Translator, Junior Translation Officer and Senior Hindi Translator Examination 2024 (312 vacancies)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 307,
+        "confidence": "verified",
+        "as_of": "2023-08-22",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Junior Hindi Translator Examination 2023 (307 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and circulars published by the Staff Selection Commission.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Website Portal",
+        "url": "https://ssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Notice of Junior Hindi Translator Examination 2024 (Official Notification Archive)",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "cycle_label": "SSC-JHT-2024",
+        "confidence": "verified",
+        "as_of": "2024-08-02"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

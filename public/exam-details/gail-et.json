@@ -1,0 +1,152 @@
+{
+  "id": "gail-et",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive cadre career hierarchy at GAIL (India) Limited.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (E-2 Grade)",
+        "pay_level": "E-2 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "years": "Training (1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL ET Recruitment Advertisement"
+      },
+      {
+        "designation": "Senior Engineer / Senior Officer",
+        "pay_level": "E-2 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "years": "approx. 1-4 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "E-3 Grade (IDA ₹70,000 – ₹2,00,000)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL Executive Promotion Policy"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is based on GATE score followed by Group Discussion and Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "GATE Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL ET Recruitment Scheme",
+        "papers": [
+          {
+            "paper_name": "GATE Examination (Respective Discipline)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "As per GATE rules",
+            "qualifying_only": false,
+            "qualifying_threshold": "85% weightage in final merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Group Discussion & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL ET Recruitment Scheme",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (5%) & Personal Interview (10%)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% (General/OBC) in interview"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by Maharatna CPSE pay structure (3rd PRC IDA pattern).",
+    "pay_level": "E-2 Grade (IDA Scale ₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 60000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-14",
+    "pay_source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+    "pay_source_label": "GAIL ET Employment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 121000,
+      "max": 134000
+    },
+    "in_hand_range_estimate": {
+      "min": 106000,
+      "max": 118000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic ₹60,000, 58% IDA DA (₹34,800), HRA (₹5,400 to ₹16,200), and cafeteria perks at 35% of basic.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "Company leased accommodation or House Rent Allowance",
+      "Cafeteria approach perks and allowances up to 35% of basic",
+      "Performance Related Pay (PRP) as per DPE guidelines",
+      "Comprehensive medical cover, superannuation fund, and gratuity"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "GATE-based recruitment intake at GAIL.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 47,
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL/OPEN/ET/1/2024 Notification"
+      },
+      {
+        "year": 2023,
+        "vacancies": 120,
+        "confidence": "verified",
+        "as_of": "2023-01-20",
+        "source_url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "source_label": "GAIL/OPEN/ET/1/2023 Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on GAIL portal.",
+    "links": [
+      {
+        "label": "GAIL Applying to GAIL Careers Portal",
+        "url": "https://www.gailonline.com/CRApplyingGAIL.html",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "GAIL Official Home Page",
+        "url": "https://www.gailonline.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

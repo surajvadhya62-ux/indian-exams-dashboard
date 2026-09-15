@@ -1,7 +1,21 @@
+import { useState, useEffect } from 'react'
 import ExamCard from './ExamCard'
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 
 export default function ExamGrid({ exams, compareList, toggleCompare, onViewDetails, currentPage, totalPages, setCurrentPage }) {
+  const [isMobile, setIsMobile] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return window.matchMedia && window.matchMedia('(max-width: 600px)').matches
+  })
+
+  useEffect(() => {
+    if (!window.matchMedia) return
+    const mq = window.matchMedia('(max-width: 600px)')
+    const handler = (e) => setIsMobile(e.matches)
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
+
   if (exams.length === 0) {
     return (
       <div className="no-results">
@@ -13,7 +27,7 @@ export default function ExamGrid({ exams, compareList, toggleCompare, onViewDeta
   }
 
   const pageNumbers = []
-  const maxVisible = 5
+  const maxVisible = isMobile ? 3 : 5
   let start = Math.max(1, currentPage - Math.floor(maxVisible / 2))
   let end = Math.min(totalPages, start + maxVisible - 1)
   if (end - start + 1 < maxVisible) start = Math.max(1, end - maxVisible + 1)

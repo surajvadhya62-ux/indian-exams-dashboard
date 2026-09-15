@@ -1,0 +1,106 @@
+{
+  "id": "ap-ecet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "AP ECET is conducted as a Computer Based Test (CBT) by JNTU Anantapur on behalf of APSCHE for lateral entry admission into 2nd year B.E./B.Tech and B.Pharmacy courses for Diploma holders and B.Sc. (Mathematics) degree holders. Total marks: 200 with 200 objective-type multiple choice questions of 180 minutes duration. In the Engineering stream: Mathematics (50 marks), Physics (25 marks), Chemistry (25 marks), and Branch Engineering Subject (100 marks). Negative marking: None. Qualifying marks: 25% (50 out of 200) for general/BC candidates; no minimum qualifying mark is prescribed for SC/ST candidates.",
+    "stages": [
+      {
+        "stage_name": "AP ECET Engineering Stream CBT (Lateral Entry)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-04",
+        "source_url": "https://cets.apsche.ap.gov.in/ECET/PDF/APECET2026_InstructionBooklet_V6.pdf",
+        "source_label": "APSCHE & JNTUA — AP ECET 2026 Instruction Booklet",
+        "papers": [
+          {
+            "paper_name": "Mathematics (Common to all Engineering branches)",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Physics (Common to all Engineering branches)",
+            "marks": 25,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Chemistry (Common to all Engineering branches)",
+            "marks": 25,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Engineering Subject Paper (Civil / Electrical / Mechanical / ECE / CSE / Chemical etc. based on diploma branch)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) for General/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant appearance and registration statistics released by APSCHE and the convener university during result declarations.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 36369,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "36,369 candidates appeared for lateral entry admissions across university and private engineering colleges",
+        "confidence": "reported",
+        "as_of": "2024-05-30",
+        "source_url": "https://cets.apsche.ap.gov.in/ECET/",
+        "source_label": "APSCHE AP ECET 2024 Official Result Release Statistics"
+      },
+      {
+        "year": 2023,
+        "applicants": 38181,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "34,503 appeared out of 38,181 registered (90.37% attendance across AP lateral entry engineering seats)",
+        "confidence": "reported",
+        "as_of": "2023-07-02",
+        "source_url": "https://cets.apsche.ap.gov.in/ECET/",
+        "source_label": "APSCHE AP ECET 2023 Official Result Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official booklet and portal links maintained by APSCHE and JNTU Anantapur.",
+    "links": [
+      {
+        "label": "Instruction Booklet & Syllabus (PDF)",
+        "url": "https://cets.apsche.ap.gov.in/ECET/PDF/APECET2026_InstructionBooklet_V6.pdf",
+        "type": "syllabus",
+        "cycle_label": "ECET-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-04"
+      },
+      {
+        "label": "Official AP ECET Portal",
+        "url": "https://cets.apsche.ap.gov.in/ECET/",
+        "type": "notification",
+        "cycle_label": "ECET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

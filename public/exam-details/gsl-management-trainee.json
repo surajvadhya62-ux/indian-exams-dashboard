@@ -1,0 +1,152 @@
+{
+  "id": "gsl-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive cadre ladder in Goa Shipyard Limited, Vasco da Gama, Goa.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Mechanical / Electrical / Electronics / Naval Arch / HR / Finance)",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "Training (1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-03-20",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL Advt 02/2024"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "approx. 1-3 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-20",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL Advt 02/2024"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-7 yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-20",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL Promotion Policy"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of Online Computer Based Test (CBT: 85 marks) followed by Personal Interview (15 marks).",
+    "stages": [
+      {
+        "stage_name": "Online Computer-Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-20",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL MT Scheme of Selection",
+        "papers": [
+          {
+            "paper_name": "Technical Discipline (50 questions) & General Aptitude (35 questions)",
+            "marks": 85,
+            "duration_minutes": 90,
+            "negative_marking": "0.25 mark deduction",
+            "qualifying_only": false,
+            "qualifying_threshold": "General/EWS: 50%, SC/ST/OBC: 45%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-20",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL MT Scheme of Selection",
+        "papers": [
+          {
+            "paper_name": "Interview before GSL Selection Board",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisted in 1:5 ratio based on CBT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by CPSE 3rd Pay Revision guidelines.",
+    "pay_level": "E-1 Grade (IDA Scale ₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-20",
+    "pay_source_url": "https://goashipyard.in/Home.aspx",
+    "pay_source_label": "GSL Advt 02/2024",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 77000,
+      "max": 87000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic ₹40,000, 58% IDA DA (₹23,200), HRA (₹3,600 to ₹10,800), and shipyard allowances.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "Company quarter in Vasco da Gama or HRA",
+      "Cafeteria approach perks and allowances up to 35% of basic",
+      "Contributory Provident Fund, Gratuity, and Pension Scheme",
+      "Comprehensive medical insurance for employee and dependents"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Executive recruitment intake at Goa Shipyard.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 35,
+        "confidence": "verified",
+        "as_of": "2024-03-20",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL Advt 02/2024"
+      },
+      {
+        "year": 2022,
+        "vacancies": 28,
+        "confidence": "verified",
+        "as_of": "2022-04-10",
+        "source_url": "https://goashipyard.in/Home.aspx",
+        "source_label": "GSL Advt 01/2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on GSL portal.",
+    "links": [
+      {
+        "label": "Goa Shipyard Limited Careers Portal",
+        "url": "https://goashipyard.in/Home.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "GSL Official Corporate Website",
+        "url": "https://goashipyard.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

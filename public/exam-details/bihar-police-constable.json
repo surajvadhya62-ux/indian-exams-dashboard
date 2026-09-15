@@ -1,0 +1,219 @@
+{
+  "id": "bihar-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression in the Bihar Police Subordinate Executive cadre governed by the Bihar Police Act, 2007 and Bihar Police Manual. Constables advance to Head Constable, Assistant Sub-Inspector, and Sub-Inspector of Police through seniority, departmental qualifying training courses, and service evaluation.",
+    "steps": [
+      {
+        "designation": "Police Constable (सिपाही / आरक्षी)",
+        "pay_level": "Level 3 (Bihar 7th State Pay Matrix)",
+        "years": "0–7 years (Entry grade)",
+        "confidence": "verified",
+        "as_of": "2026-05-27",
+        "source_url": "https://csbc.bihar.gov.in/Advt/Results-01-2025-Final-27-05-2026.pdf",
+        "source_label": "CSBC Bihar Police Constable Final Selection Notice (Advt. No. 01/2025)"
+      },
+      {
+        "designation": "Head Constable / Havaldar (हवलदार)",
+        "pay_level": "Level 4 (Bihar 7th State Pay Matrix)",
+        "years": "7–14 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://csbc.bihar.gov.in",
+        "source_label": "Bihar Police Manual & Subordinate Police Promotion Rules"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI / सहायक अवर निरीक्षक)",
+        "pay_level": "Level 5 (Bihar 7th State Pay Matrix)",
+        "years": "14–20 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://csbc.bihar.gov.in",
+        "source_label": "Bihar Police Manual & Lower School Qualifying Training Regulations"
+      },
+      {
+        "designation": "Sub-Inspector of Police / SI (पुलिस अवर निरीक्षक / दारोगा)",
+        "pay_level": "Level 6 (Bihar 7th State Pay Matrix)",
+        "years": "20–26 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://csbc.bihar.gov.in",
+        "source_label": "Bihar Police Promotion Board Regulations (50% promotion quota from ASI)"
+      },
+      {
+        "designation": "Inspector of Police (पुलिस निरीक्षक)",
+        "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
+        "years": "26+ years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://csbc.bihar.gov.in",
+        "source_label": "Bihar Police Executive Subordinate Service Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two distinct stages under the Bihar Police Constable Recruitment Rules: (1) Written Examination (OMR objective, 100 marks, Class 10th standard) which is strictly QUALIFYING (min 30% marks) to shortlist candidates in a 1:5 ratio; and (2) Physical Efficiency Test (PET, 100 marks: 50 running, 25 shot put, 25 high jump). CRITICALLY, final merit is prepared EXCLUSIVELY on the basis of marks obtained in the PET (Stage 2), with written exam marks having zero weight in the final merit rank.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (OMR Objective — Qualifying Only)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-05-27",
+        "source_url": "https://csbc.bihar.gov.in/Advt/Results-01-2025-Final-27-05-2026.pdf",
+        "source_label": "CSBC Bihar Police Constable Recruitment Notice (Advt. No. 01/2025)",
+        "papers": [
+          {
+            "paper_name": "General Hindi, English, Mathematics, Social Studies, General Science, GK & Current Affairs",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking; 1 mark awarded per correct answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory minimum 30% marks; candidates shortlisted in 1:5 ratio for Stage 2 (marks not counted for final merit)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Efficiency Test (PET) & Physical Standard Test (PST) — Merit Determining",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-05-27",
+        "source_url": "https://csbc.bihar.gov.in/Advt/Results-01-2025-Final-27-05-2026.pdf",
+        "source_label": "CSBC Bihar Police Constable Final Selection Notice & PET Standard Regulations",
+        "papers": [
+          {
+            "paper_name": "Running / Daud (दौड़): Male 1.6 km (max 6 min); Female 1 km (max 5 min)",
+            "marks": 50,
+            "duration_minutes": 6,
+            "negative_marking": "Failure to complete within time limit results in immediate disqualification",
+            "qualifying_only": false,
+            "qualifying_threshold": "Graded from 20 marks to 50 marks based on time (e.g. <5 mins for male = 50 marks)"
+          },
+          {
+            "paper_name": "Shot Put / Gola Phek (गोला फेंक): Male 16 lb shot; Female 12 lb shot",
+            "marks": 25,
+            "duration_minutes": 5,
+            "negative_marking": "Throws below minimum threshold (16 ft male / 12 ft female) result in disqualification",
+            "qualifying_only": false,
+            "qualifying_threshold": "Graded from 9 to 25 marks based on distance (male >20 ft = 25 marks; female >16 ft = 25 marks)"
+          },
+          {
+            "paper_name": "High Jump / Oonchi Kood (ऊंची कूद): Male min 4 ft; Female min 3 ft",
+            "marks": 25,
+            "duration_minutes": 5,
+            "negative_marking": "Failure to clear minimum height results in disqualification",
+            "qualifying_only": false,
+            "qualifying_threshold": "Graded from 13 to 25 marks based on clearance height (male 5 ft = 25 marks; female 4 ft = 25 marks)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables in Bihar Police and Bihar Special Armed Police (BSAP) are placed in Pay Matrix Level 3 (Basic ₹21,700 – ₹69,100). Entitled to standard state allowances, special police allowances, diet/ration money, and uniform maintenance.",
+    "pay_level": "Level 3 (Bihar 7th State Pay Matrix)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-05-27",
+    "pay_source_url": "https://csbc.bihar.gov.in/Advt/Results-01-2025-Final-27-05-2026.pdf",
+    "pay_source_label": "CSBC Bihar Police Constable Final Selection Notice (Advt. No. 01/2025)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 40000, "max": 47000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 40000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 with standard 58% DA (₹12,586), HRA (8% to 16% depending on posting in Patna, district police lines, or rural police stations: ₹1,736 to ₹3,472), Ration Money Allowance / Diet Allowance (₹3,000/month), Uniform & Washing Allowance (~₹1,000/month), and Medical Allowance (₹1,000). In-hand reflects 10% NPS deduction on Basic+DA (₹3,429) and state police welfare fund contribution.",
+    "official_perks": [
+      "Government barracks or residential quarters in Police Lines, or HRA up to 16%",
+      "Monthly Ration Money Allowance / Diet Allowance (₹3,000)",
+      "Annual Uniform Allowance and kit maintenance kit",
+      "Medical reimbursement under Bihar State Government Health Scheme",
+      "Special risk / operational duty allowance when deployed in specialized anti-crime or armed battalions",
+      "Contributory Pension Scheme (NPS) with 14% government contribution"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark figures compiled from official Central Selection Board of Constable (CSBC) gazettes, final result publications, and press notifications for Advt. No. 01/2025 and Advt. No. 01/2023.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 1673586,
+        "vacancies": 19838,
+        "shortlisted_for_mains": 99690,
+        "selectivity_ratio": "1 in 84 (applicants per final vacancy; 79,932 appeared in PET, 45,611 passed all tests)",
+        "confidence": "verified",
+        "as_of": "2026-05-27",
+        "source_url": "https://csbc.bihar.gov.in/Advt/Results-01-2025-Final-27-05-2026.pdf",
+        "source_label": "CSBC Final Selection List of Candidates for the Post of Constable in Bihar Police (Advt. No. 01/2025)"
+      },
+      {
+        "year": 2023,
+        "applicants": 1787720,
+        "vacancies": 21391,
+        "shortlisted_for_mains": 107079,
+        "selectivity_ratio": "1 in 84 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2024-11-14",
+        "source_url": "https://csbc.bihar.gov.in",
+        "source_label": "CSBC Bihar Police Constable Written Result Notice (Advt. No. 01/2023)"
+      },
+      {
+        "year": 2019,
+        "applicants": 1265000,
+        "vacancies": 11880,
+        "shortlisted_for_mains": 59402,
+        "selectivity_ratio": "1 in 106 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2021-04-12",
+        "source_url": "https://csbc.bihar.gov.in",
+        "source_label": "CSBC Bihar Police Constable Advt. No. 02/2019 Final Results Declaration"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, final result lists, and recruitment orders verified live on the Central Selection Board of Constable (CSBC) official portal.",
+    "links": [
+      {
+        "label": "CSBC Bihar Police Constable Final Selection List (Advt. No. 01/2025)",
+        "url": "https://csbc.bihar.gov.in/Advt/Results-01-2025-Final-27-05-2026.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/2025",
+        "confidence": "verified",
+        "as_of": "2026-05-27"
+      },
+      {
+        "label": "CSBC Important Notice on Confirmation of Selected Candidates (Advt. No. 01/2025)",
+        "url": "https://csbc.bihar.gov.in/Advt/Notice-01-2025-Provisionally%20Selected-22-07-2026.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/2025",
+        "confidence": "verified",
+        "as_of": "2026-07-22"
+      },
+      {
+        "label": "CSBC Official Portal Transition Notice (csbcbih.bihar.gov.in & csbc.bihar.gov.in)",
+        "url": "https://csbc.bihar.gov.in/Advt/Notice-Address-New-Website-12-05-2026.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-05-12"
+      },
+      {
+        "label": "Central Selection Board of Constable (CSBC) Bihar — Official Portal",
+        "url": "https://csbc.bihar.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

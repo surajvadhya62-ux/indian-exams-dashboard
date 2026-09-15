@@ -1,0 +1,224 @@
+{
+  "id": "haryana-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Constables in Haryana Police are recruited for General Duty (Male & Female) and India Reserve Battalions (IRB). Promotions through non-gazetted and subordinate ranks are governed by the Punjab Police Rules (1934, as applicable to Haryana) and Haryana Police Act, 2007.",
+    "steps": [
+      {
+        "designation": "Constable (General Duty / IRB / HAP)",
+        "pay_level": "Level 3 (FPL-3)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt No. 01/2024 & 06/2024 (Recruitment of 6,000 Police Constables)"
+      },
+      {
+        "designation": "Head Constable (HC)",
+        "pay_level": "Level 4 (FPL-4)",
+        "years": "approx. 8-12 yrs (subject to Lower School Course examination & merit)",
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Non-Gazetted Ranks Promotion Rules"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI)",
+        "pay_level": "Level 5 (FPL-5)",
+        "years": "approx. 15-20 yrs (subject to Intermediate School Course)",
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Service Cadre Rules"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI)",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "approx. 22-26 yrs (subject to Upper School Course)",
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Service Cadre Rules"
+      },
+      {
+        "designation": "Inspector of Police",
+        "pay_level": "Level 7 (FPL-7)",
+        "years": "approx. 28-32 yrs",
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Promotion Rules"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP)",
+        "pay_level": "Level 10 (FPL-10)",
+        "years": "approx. 33+ yrs (gazetted rank selection)",
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Service (State Police Service Promotion Quota)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under revised recruitment rules, only CET Group C qualified candidates can apply. The recruitment entails Physical Measurement Test (PMT), Physical Screening Test (PST), followed by a 94.5-mark Knowledge Test and NCC bonus marks.",
+    "stages": [
+      {
+        "stage_name": "Physical Screening Test (PST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 01/2024 & Haryana Police Recruitment Rules",
+        "papers": [
+          {
+            "paper_name": "Running Endurance Test (Male: 2.5 km in 12 min; Female: 1.0 km in 6 min; Ex-Servicemen: 1.0 km in 5 min with RFID timing)",
+            "marks": null,
+            "duration_minutes": 12,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature within specified time limits"
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Measurement Test (PMT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Police Physical Standards (Height & Chest measurement)",
+        "papers": [
+          {
+            "paper_name": "Physical Standards (Male: Height 170 cm Gen / 168 cm Res, Chest 83 cm + 4 cm expansion; Female: Height 158 cm Gen / 156 cm Res)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying physical benchmarks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Knowledge Test (OMR Written Examination)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-02-12",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Knowledge Test Syllabus for Police Constable (100 Questions, 94.5 Marks, 105 Minutes)",
+        "papers": [
+          {
+            "paper_name": "Composite Knowledge Test — General Studies, Current Affairs, General Science, Reasoning, Mental Aptitude, Numerical Ability, Agriculture, Animal Husbandry, Basic Computer Knowledge (min. 10 questions), and Haryana GK",
+            "marks": 94.5,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.945 deducted if 5th bubble left blank",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit (plus up to 3 bonus marks for NCC certificates: C=3, B=2, A=1)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables in Haryana Police are remunerated in Functional Pay Level 3 (FPL-3) under the Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹21,700.",
+    "pay_level": "Level 3 (FPL-3)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-12",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "HSSC Advt 01/2024 & Haryana Civil Services (Revised Pay) Rules, 2016",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 45000
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 39000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry Level 3 basic pay of ₹21,700 with 58% Dearness Allowance (₹12,586), HRA (8% to 24% depending on posting location), conveyance allowance, uniform washing allowance, and ration subsidy, minus standard deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at 58% effective 1 Jul 2025",
+      "House Rent Allowance (HRA) or designated police lines barrack/quarter accommodation",
+      "Uniform and kit maintenance allowance",
+      "Ration subsidy / special dietary allowance",
+      "Haryana State Employees Cashless Medical Facility Scheme",
+      "Government Contribution to New Pension Scheme (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Haryana Police Constable recruitment generates massive participation across the state, with multi-stage screening filtering hundreds of thousands of candidates.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 200000,
+        "vacancies": 6000,
+        "shortlisted_for_mains": 60000,
+        "selectivity_ratio": "approx. 1 in 33 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-07-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 01/2024 & 06/2024: 6,000 vacancies (5,000 Male Constable GD, 1,000 Female Constable GD); approx. 2,00,000 CET Group C qualified candidates applied."
+      },
+      {
+        "year": 2021,
+        "applicants": 839000,
+        "vacancies": 7298,
+        "shortlisted_for_mains": 38500,
+        "selectivity_ratio": "approx. 1 in 115 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-12-15",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 04/2020: 7,298 Constable vacancies (5,500 Male GD, 1,100 Female GD, 698 Female HAP Durga-1); 8.39 lakh registered candidates."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Recruitment advertisements, PMT/PST admit cards, written test instructions, and final select lists are published by HSSC and Haryana Police.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Haryana Police Department — Official Portal",
+        "url": "https://haryanapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advt No. 06/2024 — Police Constable Recruitment Notification",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "Police-Constable-2024",
+        "confidence": "verified",
+        "as_of": "2024-06-28"
+      },
+      {
+        "label": "HSSC Knowledge Test Syllabus for Police Constable",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-02-12"
+      }
+    ]
+  }
+}

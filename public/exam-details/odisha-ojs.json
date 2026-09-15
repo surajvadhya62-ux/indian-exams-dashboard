@@ -1,0 +1,320 @@
+{
+  "id": "odisha-ojs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Odisha are governed by the Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (consolidated with amendments up to 2026) and the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Officers begin as Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC) and progress through Assured Career Progression (ACP) increments at 5-year and 10-year intervals and promotional cadres up to the High Court of Orissa.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) — Entry Grade / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 3) & SNJPC Law Department Resolution No. 11636/L"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — Grade-II (1st Stage ACP)",
+        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 3(4) & Rule 3(5))"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) — Entry Grade / Sub-Divisional Judicial Magistrate (SDJM) / CJM / ACJM",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 3(3))"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) — Grade-II (1st Stage ACP)",
+        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "years": "approx. 15-18 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 3(3))"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 3(2) & Rule 6)"
+      },
+      {
+        "designation": "District & Sessions Judge — Selection Grade (35% cadre quota)",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 4)"
+      },
+      {
+        "designation": "District & Sessions Judge — Super Time Scale (15% cadre quota) / Principal District Judge",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Rule 5)"
+      },
+      {
+        "designation": "Elevation to Judge, High Court of Orissa (Cuttack)",
+        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "years": "Constitutional Elevation",
+        "confidence": "verified",
+        "as_of": "2018-01-01",
+        "source_url": "https://orissahighcourt.nic.in/rules/OSJS_OJS_rules/",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Amendment Act; Article 217 Constitution of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Governed by Rule 15 and Appendix-D of the Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (consolidated with amendments up to 2026). The selection process comprises Preliminary Written Examination (100 objective questions, 100 marks, 90 minutes, 25% negative marking), Main Written Examination (2 compulsory papers of 150 marks each + 3 optional papers of 150 marks each selected from 5 law disciplines = 750 marks), and Interview / Viva-Voce (100 marks), yielding a grand total of 850 marks for final ranking.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Written Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Appendix-D & Rule 23-A)",
+        "papers": [
+          {
+            "paper_name": "Preliminary Written Examination in Law (Constitution of India, CPC 1908, CrPC 1973/BNSS 2023, Evidence Act 1872/BSA 2023, IPC 1860/BNS 2023, Limitation Act, Transfer of Property Act, Contract Act, Law of Succession, Specific Relief Act, DV Act 2005)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.25 marks (25%) deducted for each incorrect answer; computerized evaluation",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% marks for General/SEBC and minimum 35% marks for SC/ST/PwBD under Rule 23-A; marks not counted for final ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Conventional / Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Appendix-D)",
+        "papers": [
+          {
+            "paper_name": "Compulsory Paper 1 — General English (Translation & Retranslation of 10 lines each, Short Essay of 150 words, Précis Writing of 300 words, Passage of 500 words with 5 questions)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required under Rule 24"
+          },
+          {
+            "paper_name": "Compulsory Paper 2 — Procedural Laws (Code of Criminal Procedure 1973 & BNSS 2023, Code of Civil Procedure 1908, Indian Evidence Act 1872 & BSA 2023)",
+            "marks": 150,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required under Rule 24"
+          },
+          {
+            "paper_name": "Optional Paper (Choice 1 of 5) — Law of Crime & Law of Torts",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidate chooses any 3 of 5 optional disciplines; minimum 33% required per paper and 45% aggregate in Main written"
+          },
+          {
+            "paper_name": "Optional Paper (Choice 2 of 5) — Personal Laws (Hindu Law & Mohammedan Law)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidate chooses any 3 of 5 optional disciplines; minimum 33% required per paper and 45% aggregate in Main written"
+          },
+          {
+            "paper_name": "Optional Paper (Choice 3 of 5) — Law of Property (Transfer of Property Act 1882, Specific Relief Act 1963, Indian Limitation Act 1963)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidate chooses any 3 of 5 optional disciplines; minimum 33% required per paper and 45% aggregate in Main written"
+          },
+          {
+            "paper_name": "Optional Paper (Choice 4 of 5) — Law of Contract (Indian Contract Act 1872, Sale of Goods Act 1930, Partnership Act 1932, Negotiable Instruments Act 1881)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidate chooses any 3 of 5 optional disciplines; minimum 33% required per paper and 45% aggregate in Main written"
+          },
+          {
+            "paper_name": "Optional Paper (Choice 5 of 5) — Jurisprudence and The Constitution of India",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidate chooses any 3 of 5 optional disciplines; minimum 33% required per paper and 45% aggregate in Main written"
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview / Viva-Voce",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "source_label": "Odisha Superior Judicial Service and Odisha Judicial Service Rules, 2007 (Appendix-D Part III & Rule 24/25)",
+        "papers": [
+          {
+            "paper_name": "Interview / Viva-Voce (conducted in presence of Sitting Judge of High Court of Orissa)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% marks (40 marks out of 100) mandatory in viva-voce for inclusion in the final merit list under Appendix-D; candidates shortlisted in 1:3 ratio based on Main written marks"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Odisha receive compensation governed by the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India and implemented vide Government of Odisha Law Department Resolution No. 11636/L dated 26.10.2022. Level J-1 is ₹77,840 - ₹1,36,520 with judicial perks and allowances.",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2020-01-01",
+    "pay_source_url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) & Law Department Resolution No. 11636/L",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 128000,
+      "max": 152000
+    },
+    "in_hand_range_estimate": {
+      "min": 110000,
+      "max": 132000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Level J-1 entry basic ₹77,840 + 58% DA (₹45,147) + judicial HRA (8%–16% or designated official government judicial bungalow) + judicial sumptuary, robe, domestic help/home orderly, medical, and conveyance allowances. In-hand estimate reflects standard statutory deductions including 10% NPS (Basic + DA = ₹12,299), Group Insurance, and Professional Tax.",
+    "official_perks": [
+      "Designated official judicial bungalow / government judicial quarters in posting district",
+      "Home Orderly and Domestic Help Allowance per Finance Department Resolution No. 21451/F dated 30.07.2024 and High Court of Orissa Office Order",
+      "Comprehensive medical facilities and reimbursement under Odisha Judicial Officers (Medical Attendance) Order 2013 & Amendment Order 2025",
+      "Sumptuary allowance and robe allowance per Second National Judicial Pay Commission (SNJPC) recommendations",
+      "Conveyance allowance / official judicial vehicle with driver and fuel entitlement",
+      "Electricity and water charge reimbursement up to prescribed monthly units and mobile phone handset retention per High Court Guidelines 2026"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from OPSC advertisements, preliminary screening results, and High Court of Orissa select and appointment lists for Odisha Judicial Service (Civil Judge Junior Division).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 6200,
+        "vacancies": 34,
+        "shortlisted_for_mains": 340,
+        "selectivity_ratio": "1 in 182 (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-06-30",
+        "source_url": "https://orissahighcourt.nic.in/recruitment-corner/",
+        "source_label": "OPSC OJS Advt. No. 04 of 2024-25 & High Court of Orissa Notification"
+      },
+      {
+        "year": 2022,
+        "applicants": 5400,
+        "vacancies": 55,
+        "shortlisted_for_mains": 550,
+        "selectivity_ratio": "1 in 98 (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-05-21",
+        "source_url": "https://orissahighcourt.nic.in/recruitment-corner/",
+        "source_label": "OPSC OJS Advt. No. 19 of 2022-23 Preliminary Examination Notice & Result"
+      },
+      {
+        "year": 2021,
+        "applicants": 4950,
+        "vacancies": 53,
+        "shortlisted_for_mains": 530,
+        "selectivity_ratio": "1 in 93 (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-07-29",
+        "source_url": "https://orissahighcourt.nic.in/recruitment-corner-pdf-view/55/",
+        "source_label": "High Court of Orissa Notification regarding appointment of Civil Judges in Odisha Judicial Service"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment rules, service orders, and portal links published by the High Court of Orissa (Cuttack) and the Odisha Public Service Commission (OPSC).",
+    "links": [
+      {
+        "label": "High Court of Orissa Consolidated OSJS and OJS Rules PDF",
+        "url": "https://orissahighcourt.nic.in/uploads/rules/osjs/Consolidated.pdf",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "High Court of Orissa Official Recruitment Corner Portal",
+        "url": "https://orissahighcourt.nic.in/recruitment-corner/",
+        "type": "notification",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "High Court of Orissa OSJS & OJS Rules Repository",
+        "url": "https://orissahighcourt.nic.in/rules/OSJS_OJS_rules/",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "High Court of Orissa Home Orderly & Domestic Help Allowance Order PDF",
+        "url": "https://orissahighcourt.nic.in/drawal_homeorderly_05092024.pdf",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "High Court of Orissa Judicial Officers Medical Attendance Order 2025 PDF",
+        "url": "https://orissahighcourt.nic.in/medical.pdf",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Odisha Public Service Commission (OPSC) Official Portal",
+        "url": "https://opsc.gov.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

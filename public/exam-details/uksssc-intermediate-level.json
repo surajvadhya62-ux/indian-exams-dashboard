@@ -1,0 +1,230 @@
+{
+  "id": "uksssc-intermediate-level",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Recruitment through the UKSSSC Intermediate Level Examination feeds into Group 'C' ministerial, clerical, and revenue collection cadres across district collectorates, commissioner offices, and state government directorates in Uttarakhand. Hierarchical progression follows the Uttarakhand Clerical Cadre (Collectorate and Subordinate Offices) Service Rules up to administrative officership.",
+    "steps": [
+      {
+        "designation": "Junior Assistant (कनिष्ठ सहायक) / Data Entry Operator (DEO) / Tax Collector (कर संग्रहकर्ता)",
+        "pay_level": "Level 3 (₹21,700 - ₹69,100)",
+        "years": "Entry (approx. 0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "UKSSSC Intermediate Level Post Cadre & Pay Matrix Level 3 Specifications"
+      },
+      {
+        "designation": "Senior Assistant (वरिष्ठ सहायक)",
+        "pay_level": "Level 5 (₹29,200 - ₹92,300)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand Subordinate Offices Clerical Cadre Service Rules"
+      },
+      {
+        "designation": "Administrative Officer (प्रशासनिक अधिकारी) / Head Assistant (प्रधान सहायक)",
+        "pay_level": "Level 6 (₹35,400 - ₹1,12,400)",
+        "years": "approx. 10-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand Subordinate Offices Clerical Cadre Promotion Rules"
+      },
+      {
+        "designation": "Senior Administrative Officer (वरिष्ठ प्रशासनिक अधिकारी)",
+        "pay_level": "Level 7 (₹44,900 - ₹1,42,400)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand State Ministerial Executive Service Rules"
+      },
+      {
+        "designation": "Chief Administrative Officer (मुख्य प्रशासनिक अधिकारी)",
+        "pay_level": "Level 8 (₹47,600 - ₹1,51,100)",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand State Ministerial Apex Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The examination scheme for Junior Assistant and Intermediate Level posts is officially approved by the Government of Uttarakhand Personnel and Vigilance Department vide Order No. 426610/XXX(4)/2026-03(03)/26-E-94441 dated 25 August 2026. The selection process comprises a single 100-mark written test followed by a compulsory qualifying typing examination (minimum 4,000 key depressions per hour in Hindi) for candidates in a 4:1 vacancy ratio.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Multiple Choice OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-08-31",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/2026083162713751.pdf",
+        "source_label": "Uttarakhand Government Personnel Dept. Approval Order No. 426610/XXX(4)/2026 & UKSSSC Junior Assistant / Intermediate Level Syllabus Notification",
+        "papers": [
+          {
+            "paper_name": "General Hindi (सामान्य हिन्दी)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge & General Studies (General Intelligence, History, Geography, Polity, Economics, Current Affairs, Computer Fundamentals)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Uttarakhand Specific Knowledge (उत्तराखण्ड का सामान्य ज्ञान)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Typing Test (Compulsory Qualifying)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-31",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/2026083162713751.pdf",
+        "source_label": "UKSSSC Intermediate Level Examination Scheme — Typing Qualification Criteria",
+        "papers": [
+          {
+            "paper_name": "Hindi Computer Typing Test (4000 key depressions per hour)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; candidates must achieve minimum speed of 4,000 key depressions per hour in Hindi on computer; conducted for shortlisted candidates in 4x ratio of vacancies"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Scrutiny (अभिलेख सन्निरीक्षा)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-11-27",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2025/11/202511271791309891.pdf",
+        "source_label": "UKSSSC Scrutiny Notice Letter No. 193/2025-26",
+        "papers": [
+          {
+            "paper_name": "Biometric Verification & Scrutiny of Educational/Typing Credentials",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of 10+2 Intermediate certificates, typing eligibility, category/domicile certificates; conducted in 1.5x ratio of vacancies"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Assistants, Data Entry Operators, and Tax Collectors recruited through UKSSSC Intermediate Level examinations are placed in Pay Level 3 (₹21,700 - ₹69,100) under the Uttarakhand State Revised Pay Rules (adapting 7th Pay Commission). Entry basic pay is ₹21,700.",
+    "pay_level": "Level 3 (₹21,700 - ₹69,100)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+    "pay_source_label": "UKSSSC Intermediate Level Post Specifications & Uttarakhand State Pay Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 37200,
+      "max": 39500
+    },
+    "in_hand_range_estimate": {
+      "min": 33500,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary calculated on Level 3 Entry Basic Pay of ₹21,700 with Dearness Allowance at canonical 58% (₹12,586), House Rent Allowance between 9% (₹1,953 in rural/tehsil offices) to 18% (₹3,906 in Dehradun and major municipal stations), Fixed Medical Allowance (₹1,000/month), and admissible Hill Compensatory Allowance (HCA) for designated hill stations. Net in-hand estimate accounts for statutory NPS deduction of 10% on Basic + DA (₹3,429) and state group insurance (~₹200).",
+    "official_perks": [
+      "House Rent Allowance (HRA) ranging from 9% to 18% based on station classification, or government clerical housing",
+      "Hill Compensatory Allowance (HCA) admissible for notified mountain districts and border stations",
+      "Fixed Medical Allowance (FMA) of ₹1,000/month or comprehensive coverage under Uttarakhand State Health Schemes (USHS)",
+      "Contributory pension coverage under the National Pension System (NPS)",
+      "Annual increment of 3% as per Uttarakhand Revised Pay Rules",
+      "Standard state civil leave entitlements (Casual, Earned, Medical Leave)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "UKSSSC Intermediate Level examination statistics verified directly from official commission notifications, scrutiny notices, and recommendation lists published on sssc.uk.gov.in.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 105000,
+        "vacancies": 751,
+        "shortlisted_for_mains": 1141,
+        "selectivity_ratio": "approx. 1 in 140 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2025-11-27",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2025/11/202511271791309891.pdf",
+        "source_label": "UKSSSC Intermediate Level (Advt. No. 64/UKSSSC/2024) Document Scrutiny Notice Letter No. 193/2025-26. 1,141 candidates called for scrutiny in 1.5x ratio. Total applicants reported from commission press releases."
+      },
+      {
+        "year": 2020,
+        "applicants": 145210,
+        "vacancies": 746,
+        "shortlisted_for_mains": 2136,
+        "selectivity_ratio": "approx. 1 in 195 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-03-25",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/03/202603251599082180.pdf",
+        "source_label": "UKSSSC Intermediate Level (Advt. No. 25/UKSSSC/2020 for Junior Assistant / DEO / Tax Collector) Recommendation & Typing Shortlist. 2,136 candidates called for typing test; total applicants reported from official release."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, approved examination scheme and syllabus, and recommendation lists issued by Uttarakhand Subordinate Service Selection Commission (UKSSSC).",
+    "links": [
+      {
+        "label": "UKSSSC Junior Assistant / Intermediate Level Examination Scheme & Syllabus (Approved 25 Aug 2026)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/2026083162713751.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-08-31"
+      },
+      {
+        "label": "UKSSSC Intermediate Level (Junior Assistant/DEO) Document Scrutiny Notice & Merit List (Letter No. 193/2025-26)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2025/11/202511271791309891.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-11-27"
+      },
+      {
+        "label": "UKSSSC Intermediate Level Junior Assistant & DEO Final Selection Recommendation List (Letter No. 320/2025-26)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/03/202603251599082180.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-03-25"
+      },
+      {
+        "label": "UKSSSC Official Recruitment & Notifications Hub",
+        "url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

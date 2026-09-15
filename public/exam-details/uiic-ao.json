@@ -1,0 +1,234 @@
+{
+  "id": "uiic-ao",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Administrative Officers (Scale I) in United India Insurance Company Limited (UIIC), headquartered in Chennai, lead non-life insurance operations, underwriting, claim settlements, corporate reinsurance, and institutional marketing across regional and branch networks nationwide under General Insurance Public Sector Association (GIPSA) guidelines.",
+    "steps": [
+      {
+        "designation": "Administrative Officer (Scale I — Generalist / Specialist)",
+        "pay_level": "Scale I",
+        "years": "Entry level (probation 1 yr, guarantee bond 5 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "United India Insurance Co. Ltd. — Recruitment of Administrative Officers (Scale-I) Generalists Notification 2024"
+      },
+      {
+        "designation": "Assistant Manager (Scale II)",
+        "pay_level": "Scale II",
+        "years": "approx. 4-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "GIPSA General Insurance Officers' Promotion Rules"
+      },
+      {
+        "designation": "Manager (Scale III)",
+        "pay_level": "Scale III",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "GIPSA General Insurance Officers' Promotion Rules"
+      },
+      {
+        "designation": "Chief Manager (Scale IV / Divisional In-Charge)",
+        "pay_level": "Scale IV",
+        "years": "approx. 13-17 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "GIPSA General Insurance Officers' Promotion Rules"
+      },
+      {
+        "designation": "Assistant General Manager (Scale V)",
+        "pay_level": "Scale V",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "GIPSA Senior Management Promotion Rules"
+      },
+      {
+        "designation": "Deputy General Manager (Scale VI) / Regional In-Charge",
+        "pay_level": "Scale VI",
+        "years": "approx. 23-27 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "GIPSA Senior Management Promotion Rules"
+      },
+      {
+        "designation": "General Manager (Scale VII) / Chairman & Managing Director (CMD)",
+        "pay_level": "Top Executive (Apex)",
+        "years": "approx. 28+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "General Insurance Business (Nationalisation) Act, 1972"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for UIIC Administrative Officers (Scale-I) is conducted through an Online Objective Examination followed by a Personal Interview. Negative marking of 1/4th (0.25 marks) is deducted for each incorrect answer across all objective sections.",
+    "stages": [
+      {
+        "stage_name": "Online Examination (Objective, 200 Marks)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "UIIC — Scheme of Online Examination for Administrative Officers",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (50 questions)"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 40,
+            "duration_minutes": 25,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (40 questions)"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (50 questions)"
+          },
+          {
+            "paper_name": "General Awareness (with special reference to Financial Sector)",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (40 questions)"
+          },
+          {
+            "paper_name": "Computer Knowledge",
+            "marks": 20,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (20 questions; total composite time 120 minutes)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "UIIC — Selection Criteria & Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Online test score and interview marks are weighted for final merit selection)",
+            "marks": 50,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying marks: 40% (35% for SC/ST/OBC/PwBD)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Scale I Officer (GIPSA)",
+    "entry_basic_pay": 50925,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-08",
+    "pay_source_url": "https://uiic.co.in/web/careers/recruitment",
+    "pay_source_label": "General Insurance (Officers) Revision of Pay Rules, Scale I Pay Scale (₹50,925 - 2,500(14) - 85,925 - 2,710(4) - 96,765)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 78000, "max": 96000 },
+    "in_hand_range_estimate": { "min": 66000, "max": 82000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹50,925/month. Total monthly gross emoluments are approximately ₹85,000/month in metropolitan centers. Emoluments include Dearness Allowance, House Rent Allowance (where company accommodation is not provided), City Compensatory Allowance, and Transport Allowance. Deductions comprise NPS contribution and applicable taxes.",
+    "official_perks": [
+      "Company leased residential accommodation or House Rent Allowance per city classification",
+      "Comprehensive medical coverage and cashless hospitalization for officer and family dependents",
+      "Leave Travel Subsidy (LTS) / Home Town travel once in two years",
+      "Defined contribution benefits under National Pension System (NPS) and Group Life Insurance",
+      "Subsidized insurance policies, festival advance, and brief-case reimbursement",
+      "Conveyance / petrol reimbursement and official telephone/broadband expense coverage"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "UIIC is a leading public sector general insurance company in India with over 1,400 offices; its Administrative Officer recruitment attracts applicants nationwide seeking managerial careers in non-life insurance underwriting, risk, and corporate claims.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 182000,
+        "vacancies": 250,
+        "shortlisted_for_mains": 1250,
+        "selectivity_ratio": "approx. 1 in 728 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-01-08",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "United India Insurance Co. Ltd. — Recruitment of 250 Administrative Officers (Scale-I) Generalists 2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 110000,
+        "vacancies": 100,
+        "shortlisted_for_mains": 500,
+        "selectivity_ratio": "approx. 1 in 1100 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-08-15",
+        "source_url": "https://uiic.co.in/web/careers/recruitment",
+        "source_label": "United India Insurance Co. Ltd. — Recruitment of 100 Administrative Officers (Scale-I) Specialists 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schedules, admit cards, and shortlist notices are published on the UIIC recruitment portal.",
+    "links": [
+      {
+        "label": "United India Insurance Recruitment Portal",
+        "url": "https://uiic.co.in/web/careers/recruitment",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UIIC Administrative Officers (Scale-I) Notification 2024",
+        "url": "https://uiic.co.in/web/careers/recruitment",
+        "type": "notification",
+        "cycle_label": "UIIC-AO-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UIIC Examination Structure & Information Handout",
+        "url": "https://uiic.co.in/web/careers/recruitment",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

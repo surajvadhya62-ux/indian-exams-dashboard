@@ -1,0 +1,227 @@
+{
+  "id": "ibps-so",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Specialist Officers (Scale I) in Public Sector Banks serve in technical, legal, agricultural, IT, HR, and marketing verticals. As specialist domain leaders, officers manage corporate networks, farm credit schemes, statutory compliance, litigation, and branding across branches, zonal offices, and corporate headquarters.",
+    "steps": [
+      {
+        "designation": "Specialist Officer (Scale I — Assistant Manager / Technical Officer)",
+        "pay_level": "JMGS-I",
+        "years": "Entry level (probation 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "12th Bipartite Settlement & Joint Note on Bank Officer Scales (IBA), Junior Management Grade Scale I (₹48,480 - 2,000/7 - 62,480 - 2,340/2 - 67,160 - 2,680/7 - 85,920)"
+      },
+      {
+        "designation": "Manager (Scale II — Specialist / Domain Manager)",
+        "pay_level": "MMGS-II",
+        "years": "approx. 3-6 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Promotion Policy for Specialist Cadres"
+      },
+      {
+        "designation": "Senior Manager (Scale III — Chief Specialist / Department Head)",
+        "pay_level": "MMGS-III",
+        "years": "approx. 7-11 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Promotion Policy for Specialist Cadres"
+      },
+      {
+        "designation": "Chief Manager (Scale IV)",
+        "pay_level": "SMGS-IV",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Promotion Policy for Specialist Cadres"
+      },
+      {
+        "designation": "Assistant General Manager (Scale V)",
+        "pay_level": "SMGS-V",
+        "years": "approx. 17-21 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Senior Officer Promotion Policy"
+      },
+      {
+        "designation": "Deputy General Manager (Scale VI) / General Manager (Scale VII)",
+        "pay_level": "TEGS-VI / VII",
+        "years": "approx. 22+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Public Sector Banks Senior Officer Promotion Policy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The IBPS CRP for Specialist Officers (CRP SPL) follows a Three-Tier Selection Architecture: Preliminary Examination (Screening), Main Examination (Professional Knowledge evaluation in the relevant discipline), and Personal Interview conducted by participating public sector banks. Objective tests carry negative marking of 1/4th (0.25 marks) per incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Online Objective, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Specialist Officers XIV Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 25,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (50 questions of 0.5 marks each)"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 50,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (50 questions)"
+          },
+          {
+            "paper_name": "Quantitative Aptitude (for IT, AFO, HR, Marketing) or General Awareness with Special Reference to Banking (for Law & Rajbhasha)",
+            "marks": 50,
+            "duration_minutes": 40,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (50 questions)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Professional Knowledge in Respective Cadre)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Specialist Officers XIV Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "Professional Knowledge Test (IT, Agriculture, HR, Marketing, or Law: 60 Objective Qs; Rajbhasha: 45 Objective + 2 Descriptive Qs)",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-25% on objective questions",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — Selection Guidelines for Specialist Officers",
+        "papers": [
+          {
+            "paper_name": "Interview Board (Mains score 80% weightage + Interview 20% weightage)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% (35% for SC/ST/OBC/PwBD)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "JMGS-I (Officer Scale I)",
+    "entry_basic_pay": 48480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://www.ibps.in",
+    "pay_source_label": "12th Bipartite Settlement & Joint Note on Bank Officer Salaries (IBA), JMGS-I entry basic ₹48,480",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 68000, "max": 85000 },
+    "in_hand_range_estimate": { "min": 58000, "max": 74000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹48,480 per the 12th Bipartite Settlement. Allowances include Dearness Allowance, Special Allowance (with DA thereon), Learning Allowance, City Compensatory Allowance, and Bank leased accommodation or House Rent Allowance (ranging from 7% to 10% depending on city classification). Deductions comprise NPS contribution (10%) and applicable taxes.",
+    "official_perks": [
+      "Bank leased residential accommodation or House Rent Allowance in major centers",
+      "Special Allowance, Location Allowance, and Learning Allowance per Bipartite settlement",
+      "Concessional interest rate staff loans for housing, car, and personal needs",
+      "Comprehensive medical assistance and family hospitalization insurance",
+      "Leave Travel Concession (LTC) / Home Town travel once in two years with leave encashment",
+      "Reimbursement of monthly conveyance / petrol, newspaper, and mobile bill expenses"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "IBPS Specialist Officers recruitment selects specialized domain graduates across 11 public sector banks for IT Officer, Agricultural Field Officer, Rajbhasha Adhikari, Law Officer, HR/Personnel Officer, and Marketing Officer cadres.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 275000,
+        "vacancies": 896,
+        "shortlisted_for_mains": 8960,
+        "selectivity_ratio": "approx. 1 in 307 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Specialist Officers XIV Notification (AFO: 346, IT: 170, Marketing: 130, Law: 125, HR: 85, Rajbhasha: 40)"
+      },
+      {
+        "year": 2023,
+        "applicants": 310000,
+        "vacancies": 1402,
+        "shortlisted_for_mains": 14020,
+        "selectivity_ratio": "approx. 1 in 221 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-08-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP Specialist Officers XIII Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, discipline-wise eligibility criteria, test syllabi, and provisional allotment results are hosted on the IBPS portal under 'CRP Specialist Officers'.",
+    "links": [
+      {
+        "label": "IBPS Official Portal — CRP Specialist Officers Hub",
+        "url": "https://www.ibps.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "IBPS CRP SPL XIV Notification & Cadre Guidelines",
+        "url": "https://www.ibps.in",
+        "type": "notification",
+        "cycle_label": "CRP-SPL-XIV",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "IBPS Specialist Officers Examination Pattern & Syllabus Outline",
+        "url": "https://www.ibps.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

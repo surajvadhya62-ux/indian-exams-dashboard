@@ -1,0 +1,219 @@
+{
+  "id": "upsssc-pet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The Preliminary Eligibility Test (PET) is the mandatory statutory screening gateway established under the Uttar Pradesh Subordinate Services Selection Commission (Conduct of Examination) Rules for direct recruitment to all Group C non-gazetted ministerial, executive, and technical posts in Uttar Pradesh government departments. Recruits shortlisted through PET scorecards enter representative Group C cadres (such as Junior Assistant, Revenue Lekhpal, or Gram Panchayat Adhikari at Pay Level 3) and advance through departmental promotion committees.",
+    "steps": [
+      {
+        "designation": "Junior Assistant / Lekhpal / Gram Panchayat Adhikari (Group C Entry Post via PET)",
+        "pay_level": "Level 3",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Preliminary Eligibility Test Framework & UP Revised Pay Rules 2016"
+      },
+      {
+        "designation": "Senior Assistant / Revenue Inspector (Kanoongo) / Assistant Development Officer",
+        "pay_level": "Level 4 to Level 5",
+        "years": "approx. 5-10 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Departmental Service Rules & Subordinate Cadre Hierarchy"
+      },
+      {
+        "designation": "Head Assistant / Naib Tehsildar / Block Development Officer (Subordinate Gazetted / Section In-Charge)",
+        "pay_level": "Level 6 to Level 7",
+        "years": "approx. 10-18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Subordinate Services Promotion Regulations"
+      },
+      {
+        "designation": "Administrative Officer / Tehsildar / District Level Subordinate Head",
+        "pay_level": "Level 8 to Level 10",
+        "years": "approx. 18-25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Civil Services (Executive & Ministerial) Promotion Quota"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPSSSC conducts PET as an offline OMR-based single-paper screening test consisting of 100 multiple-choice questions carrying 100 marks across 15 syllabus domains. Negative marking of 0.25 (1/4th of the marks assigned to that question) applies for every wrong answer. PET normalized scorecards are valid for 1 year from the date of result declaration.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Eligibility Test (Objective OMR Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC PET Official Examination Scheme & Syllabus Notification",
+        "papers": [
+          {
+            "paper_name": "PET Composite Paper — Indian History & National Movement",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "PET Composite Paper — Geography, Indian Economy & Constitution / Public Administration",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "PET Composite Paper — General Science, Elementary Arithmetic & General Hindi",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "PET Composite Paper — General English, Logic & Reasoning",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "PET Composite Paper — Current Affairs & General Awareness",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "PET Composite Paper — Hindi Reading Comprehension (2 Unseen Passages), Graph & Table Interpretation",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "As a preliminary qualifying test, PET scorecards govern shortlisting for Group C subordinate posts spanning Pay Level 1 (Grade Pay ₹1,800, basic ₹18,000) up to Pay Level 6 (Grade Pay ₹4,200, basic ₹35,400). Financial figures below reflect the modal Group C entry appointment (Pay Level 3, Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://upsssc.gov.in/default.aspx",
+    "pay_source_label": "Uttar Pradesh Revised Pay Rules 2016 (7th CPC Pay Matrix Level 3)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 at 58% DA (effective 01.07.2025) plus UP house rent allowance (Class X cities such as Lucknow/Kanpur at ₹3,000–₹3,600 down to Class Z rural postings at ₹1,800) and city compensatory allowance, net of 10% NPS employee contribution (₹3,429) and group insurance scheme deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) as notified semi-annually by UP Finance Department",
+      "House Rent Allowance (HRA) categorized by posting city tier (Class X, Y, Z)",
+      "City Compensatory Allowance (CCA) and rural posting allowances where applicable",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules",
+      "National Pension System (NPS) with 14% state government matching contribution",
+      "Leave travel concession (LTC), earned leave accumulation, and festival advances"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registration, appearance, and scoring data compiled from official press statements and result disclosures issued by the Uttar Pradesh Subordinate Services Selection Commission for the annual PET cycles.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 2007533,
+        "appeared": 1258017,
+        "qualified_stage_1": 1258017,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": null,
+        "confidence": "verified",
+        "as_of": "2024-01-29",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC PET 2023 Result & Scorecard Notification (Advt. No. 07-Exam/2023)"
+      },
+      {
+        "year": 2022,
+        "applicants": 3758209,
+        "appeared": 2511962,
+        "qualified_stage_1": 2511962,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": null,
+        "confidence": "verified",
+        "as_of": "2023-01-25",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC PET 2022 Result Notification (Advt. No. 04-Exam/2022)"
+      },
+      {
+        "year": 2021,
+        "applicants": 2073540,
+        "appeared": 1799052,
+        "qualified_stage_1": 1799052,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": null,
+        "confidence": "verified",
+        "as_of": "2021-10-28",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC PET 2021 Inaugural Result Release (Advt. No. 04-Exam/2021)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination guidelines, syllabi, and model answer keys published on the UPSSSC portal.",
+    "links": [
+      {
+        "label": "UPSSSC Official Web Portal",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC PET Scheme of Examination & Comprehensive Syllabus",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC PET Examination General Advertisement & Eligibility Guidelines",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

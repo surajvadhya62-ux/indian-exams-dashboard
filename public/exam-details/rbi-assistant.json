@@ -1,0 +1,279 @@
+{
+  "id": "rbi-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Reserve Bank of India offers a structured promotional channel allowing Assistants in Class III to advance into the Officer cadre (Grade A and beyond) through departmental qualifying examinations and seniority-merit channels.",
+    "steps": [
+      {
+        "designation": "Assistant (Class III)",
+        "pay_level": "Class III (₹29,000 basic)",
+        "years": "Entry (approx. 2 yrs probation)",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Assistant Recruitment Notification and Staff Regulations"
+      },
+      {
+        "designation": "Special Assistant (Senior Class III)",
+        "pay_level": "Senior Class III (₹34,100+ basic)",
+        "years": "approx. 3-5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Assistant Manager (Grade 'A')",
+        "pay_level": "Officer Grade A (₹44,500 basic)",
+        "years": "approx. 5-8 yrs (internal promotional examination)",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Promotion Guidelines"
+      },
+      {
+        "designation": "Manager (Grade 'B')",
+        "pay_level": "Officer Grade B (₹78,450 basic)",
+        "years": "approx. 8-13 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Grade 'C')",
+        "pay_level": "Officer Grade C (₹1,05,250 basic)",
+        "years": "approx. 13-18 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Grade 'D')",
+        "pay_level": "Officer Grade D (₹1,26,100 basic)",
+        "years": "approx. 18-23 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "General Manager (GM, Grade 'E')",
+        "pay_level": "Officer Grade E",
+        "years": "approx. 23-28 yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Chief General Manager (CGM, Grade 'F')",
+        "pay_level": "Officer Grade F",
+        "years": "approx. 28+ yrs",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Executive Director (ED) / Deputy Governor",
+        "pay_level": "Central Bank Apex Leadership",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "Reserve Bank of India Act, 1934"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process involves Online Preliminary Examination, Online Main Examination, and a mandatory qualifying Language Proficiency Test (LPT) in the official local language of the recruitment zone.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Online Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "RBI Assistant Official Recruitment Advertisement",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Sectional and aggregate cut-off"
+          },
+          {
+            "paper_name": "Numerical Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Sectional and aggregate cut-off"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Sectional and aggregate cut-off"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Online Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "RBI Assistant Official Recruitment Advertisement",
+        "papers": [
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 40,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of English Language",
+            "marks": 40,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Numerical Ability",
+            "marks": 40,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of General Awareness",
+            "marks": 40,
+            "duration_minutes": 25,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Computer Knowledge",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Language Proficiency Test (LPT)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "RBI Assistant Official Recruitment Advertisement",
+        "papers": [
+          {
+            "paper_name": "Local Language Proficiency Test (Regional Office Jurisdiction)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying benchmark (non-proficient candidates disqualified)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Class III Clerical Cadre",
+    "entry_basic_pay": 29000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-09-13",
+    "pay_source_url": "https://www.rbi.org.in",
+    "pay_source_label": "Reserve Bank of India Assistant Recruitment Notification and Staff Regulations (Scale: ₹29,000-78,640)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 52000, "max": 62000 },
+    "in_hand_range_estimate": { "min": 45000, "max": 54000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹29,000 in the scale ₹29,000-1700(3)-34100-2040(4)-42260-2720(6)-58580-2950(2)-64480-3370(3)-74590-4050(1)-78640. Gross emoluments at Mumbai reach approx. ₹58,514 per month inclusive of DA (58% review baseline), House Rent Allowance (where bank quarters not availed), City Compensatory Allowance, Transport Allowance, and Special Prerequisite Allowance.",
+    "official_perks": [
+      "Bank Residential Quarters (subject to availability) or House Rent Allowance",
+      "Dispensary Facility and 100% medical expense reimbursement for self and eligible dependents",
+      "Leave Fare Concession (LFC) once in two years for self and family",
+      "Book Grant, Newspaper Allowance, and Spectacles Allowance",
+      "Furnishing of Residence Grant and Annual Briefcase Grant",
+      "Concessional Festival Advance, Housing Loan, and Personal Loan",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition benchmarks reflect official vacancy notifications across RBI's 17 regional office circles.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 380000,
+        "vacancies": 450,
+        "shortlisted_for_mains": 5400,
+        "selectivity_ratio": "approx. 1 in 844 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-09-13",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "RBI Assistant Recruitment Notification 2023 (450 vacancies across regional offices)"
+      },
+      {
+        "year": 2022,
+        "applicants": 510000,
+        "vacancies": 950,
+        "shortlisted_for_mains": 11400,
+        "selectivity_ratio": "approx. 1 in 537 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-02-17",
+        "source_url": "https://www.rbi.org.in",
+        "source_label": "RBI Assistant Recruitment Notification 2022 (950 vacancies across regional offices)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, admit cards, and recruitment notices are released on the RBI Opportunities portal.",
+    "links": [
+      {
+        "label": "Reserve Bank of India — Opportunities Portal",
+        "url": "https://opportunities.rbi.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Reserve Bank of India Main Official Website",
+        "url": "https://www.rbi.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

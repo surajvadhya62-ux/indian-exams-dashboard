@@ -1,0 +1,200 @@
+{
+  "id": "upsssc-anm",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Female Health Worker (Swasthya Karyakartri / Auxiliary Nurse Midwife - ANM) is the frontline healthcare provider in primary healthcare sub-centres and village health wellness centres across Uttar Pradesh under the Directorate of Family Welfare, Department of Medical, Health and Family Welfare. They deliver maternal and child health services, universal immunization, antenatal care, and family planning programs.",
+    "steps": [
+      {
+        "designation": "Female Health Worker (Swasthya Karyakartri / ANM)",
+        "pay_level": "Level 3",
+        "years": "Entry (0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Medical Health & Family Welfare Department Service Rules & Advt. 02-Exam/2021"
+      },
+      {
+        "designation": "Lady Health Visitor (LHV / Swasthya Paryavekshika)",
+        "pay_level": "Level 4 to Level 5",
+        "years": "approx. 6-14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Subordinate Health & Family Welfare Promotion Regulations"
+      },
+      {
+        "designation": "Public Health Nursing Officer / Block Public Health Nurse",
+        "pay_level": "Level 7",
+        "years": "approx. 14-22 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Public Health Nursing Cadre Hierarchy"
+      },
+      {
+        "designation": "District Public Health Nursing Officer (DPHNO)",
+        "pay_level": "Level 8",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Directorate of Family Welfare Gazetted Promotion Quota"
+      },
+      {
+        "designation": "Assistant Director (Nursing) / State Nursing Superintendent",
+        "pay_level": "Level 10",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "State Medical & Health Directorate Higher Administrative Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Female candidates possessing ANM diploma credentials registered with the Uttar Pradesh Nurses and Midwives Council are shortlisted through their UPSSSC PET normalized scores. The recruitment features a single-stage Main Written Examination of 100 marks covering core nursing, midwifery, and community healthcare curricula. Negative marking is 0.25 (1/4th) per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Main Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Swasthya Karyakartri Examination Scheme & Syllabus (Advt. 02-Exam/2021 & 09-Exam/2024)",
+        "papers": [
+          {
+            "paper_name": "Subject Technical Knowledge — Midwifery, Maternal & Child Healthcare, Immunization & Primary Health",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Abhilekh Pareekshan)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC ANM Document Verification Schedule & Council Registration Verification",
+        "papers": [
+          {
+            "paper_name": "Verification of 2-Year ANM Diploma, UP Nurses & Midwives Council Registration Certificate & Experience",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Female Health Worker (ANM) is placed in Pay Level 3 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016. In addition, ANMs receive uniform maintenance allowance and rural healthcare sub-centre allowances.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://upsssc.gov.in/default.aspx",
+    "pay_source_label": "Directorate of Family Welfare UP & UP Revised Pay Rules 2016 Level 3",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 at 58% DA (effective 01.07.2025), HRA (₹1,800 to ₹3,600 depending on rural/urban sub-centre location), uniform washing allowance, net of 10% NPS deduction (₹3,429) and group insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per UP Finance Department orders",
+      "House Rent Allowance (HRA) or government staff quarters at primary health centre",
+      "Annual uniform allowance and washing allowance",
+      "Mobility and travel allowance for pulse polio and village immunization rounds",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules",
+      "National Pension System (NPS) with 14% matching employer contribution"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official UPSSSC notifications and final recommendation orders for Female Health Worker examinations.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 35000,
+        "appeared": null,
+        "qualified_stage_1": null,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": 5272,
+        "confidence": "reported",
+        "as_of": "2024-10-18",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Swasthya Karyakartri Advt. 09-Exam/2024 Notification"
+      },
+      {
+        "year": 2021,
+        "applicants": 19057,
+        "appeared": 19057,
+        "qualified_stage_1": 17713,
+        "qualified_stage_2": 8831,
+        "recommended": 8831,
+        "vacancies": 9212,
+        "confidence": "verified",
+        "as_of": "2022-08-06",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Advt. 02-Exam/2021 Final Result & Recommendation Order"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabi, and selection orders issued by UPSSSC.",
+    "links": [
+      {
+        "label": "UPSSSC Official Web Portal",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Female Health Worker (ANM) Notification (Advt. 09-Exam/2024)",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Female Health Worker Subject Syllabus & Examination Scheme",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC ANM Advt. 02-Exam/2021 Final Selection Order & Recommendation List",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

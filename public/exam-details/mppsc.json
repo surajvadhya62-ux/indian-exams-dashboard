@@ -1,0 +1,292 @@
+{
+  "id": "mppsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Madhya Pradesh State Administrative Service (SAS) officers start as Sub-Divisional Magistrates (SDM) / Deputy Collectors and progress through district and state administrative positions before induction into the Indian Administrative Service (IAS - MP Cadre) under the promotion quota.",
+    "steps": [
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / Deputy Collector / City Magistrate (Junior Scale)",
+        "pay_level": "MP Matrix Level 10 (PB-3 ₹15,600 - ₹39,100, GP ₹5,400; ₹56,100 entry basic)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-12-31",
+        "source_url": "https://mppsc.mp.gov.in/uploads/advertisement/Advt_State_Service_Exam_2026_Dated_31_12_2025.pdf",
+        "source_label": "MPPSC Advt. No. 29/2025: State Service Examination 2026 Notification & MP Revised Pay Rules 2017"
+      },
+      {
+        "designation": "Senior Sub-Divisional Officer / Additional Collector / Joint Collector (Senior Scale)",
+        "pay_level": "MP Matrix Level 11 (PB-3 ₹15,600 - ₹39,100, GP ₹6,600; ₹67,700 entry basic)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "reported",
+        "as_of": "2017-07-20",
+        "source_url": "https://mppsc.mp.gov.in/Advertisement",
+        "source_label": "Madhya Pradesh Civil Services (Executive) Cadre & Pay Rules"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Chief Executive Officer, Zila Panchayat / Deputy Secretary (JAG)",
+        "pay_level": "MP Matrix Level 12 (PB-3 ₹15,600 - ₹39,100, GP ₹7,600; ₹78,800 entry basic)",
+        "years": "approx. 10-16 yrs",
+        "confidence": "reported",
+        "as_of": "2017-07-20",
+        "source_url": "https://mppsc.mp.gov.in/Advertisement",
+        "source_label": "Madhya Pradesh Civil Services (Executive) Cadre & Pay Rules"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS - MP Cadre) / Selection Grade (State)",
+        "pay_level": "Level 13 (Selection Grade, ₹1,18,500 basic)",
+        "years": "approx. 16-22 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://mppsc.mp.gov.in/Advertisement",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT & UPSC (MP State Civil Service Promotion Quota)"
+      },
+      {
+        "designation": "District Magistrate (Collector) / Head of Department / Special Secretary",
+        "pay_level": "Level 14 (Super Time Scale, ₹1,44,200 basic)",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://mppsc.mp.gov.in/Advertisement",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      },
+      {
+        "designation": "Secretary / Principal Secretary (Government of Madhya Pradesh)",
+        "pay_level": "Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://mppsc.mp.gov.in/Advertisement",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Examination consists of three successive stages: Preliminary Examination (Objective screening; under the revised 2026 pattern each paper carries 300 marks with 1/3rd negative marking), Main Examination (Conventional descriptive across 6 compulsory papers totaling 1500 marks), and Interview / Personality Test (185 marks; grand total 1685 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-21",
+        "source_url": "https://mppsc.mp.gov.in/uploads/syllabus/Vigyapti_Revised_Exam_Plan_and_Syllabus_State_Service_Examination_2026_Dated_21_01_2026.pdf",
+        "source_label": "MPPSC Vigyapti No. 05-01/2025/Chayan-9: Revised Exam Plan & Syllabus State Service Examination 2026",
+        "papers": [
+          {
+            "paper_name": "General Studies Paper I (सामान्य अध्ययन प्रथम प्रश्न-पत्र)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "1 mark deducted for each incorrect answer (1/3rd penalty; 100 questions of 3 marks each; formula: 3R - W)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit score in Paper I determines qualification for Mains Examination shortlist"
+          },
+          {
+            "paper_name": "General Aptitude Test Paper II (सामान्य अभिरुचि परीक्षण द्वितीय प्रश्न-पत्र - CSAT)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "1 mark deducted for each incorrect answer (1/3rd penalty; 100 questions of 3 marks each; formula: 3R - W)",
+            "qualifying_only": true,
+            "qualifying_threshold": "33% minimum qualifying marks for General/UR candidates (99 marks out of 300), and 30% (90 marks out of 300) for SC/ST/OBC/EWS/PwD candidates; marks not counted for State Service Exam merit ranking"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-01-21",
+        "source_url": "https://mppsc.mp.gov.in/uploads/syllabus/Vigyapti_Revised_Exam_Plan_and_Syllabus_State_Service_Examination_2026_Dated_21_01_2026.pdf",
+        "source_label": "MPPSC Vigyapti No. 05-01/2025/Chayan-9: Revised Exam Plan & Syllabus State Service Examination 2026",
+        "papers": [
+          {
+            "paper_name": "General Studies Paper I (Part A: History - 150 marks; Part B: Geography - 150 marks)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each Part (A and B) for General candidates (60 marks each); 30% for SC/ST/OBC/EWS/PwD (45 marks each)"
+          },
+          {
+            "paper_name": "General Studies Paper II (Part A: Constitution, Governance, Political & Administrative Structure - 150 marks; Part B: Social Structure, Education, Health - 150 marks)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each Part (A and B) for General candidates (60 marks each); 30% for SC/ST/OBC/EWS/PwD (45 marks each)"
+          },
+          {
+            "paper_name": "General Studies Paper III (Part A: Economics - Indian & MP Economy - 150 marks; Part B: Science, Technology & Public Health - 150 marks)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each Part (A and B) for General candidates (60 marks each); 30% for SC/ST/OBC/EWS/PwD (45 marks each)"
+          },
+          {
+            "paper_name": "General Studies Paper IV (Part A: Philosophy, Psychology & Public Administration - 150 marks; Part B: Entrepreneurship, Management & Personality Development - 150 marks)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% in each Part (A and B) for General candidates (60 marks each); 30% for SC/ST/OBC/EWS/PwD (45 marks each)"
+          },
+          {
+            "paper_name": "Paper V: General Hindi & Grammar (सामान्य हिन्दी एवं व्याकरण)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for General candidates (80 marks); 30% for SC/ST/OBC/EWS/PwD (60 marks)"
+          },
+          {
+            "paper_name": "Paper VI: Hindi Essay & Draft Writing (हिन्दी निबंध एवं प्रारूप लेखन — Essay 1: 50 marks; Essay 2: 20 marks; Draft 1: 15 marks; Report 2: 15 marks)",
+            "marks": 100,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for General candidates (40 marks); 30% for SC/ST/OBC/EWS/PwD (30 marks)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test / Interview (Viva-Voce)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-01-21",
+        "source_url": "https://mppsc.mp.gov.in/uploads/syllabus/Vigyapti_Revised_Exam_Plan_and_Syllabus_State_Service_Examination_2026_Dated_21_01_2026.pdf",
+        "source_label": "MPPSC Vigyapti No. 05-01/2025/Chayan-9: Revised Exam Plan & Syllabus State Service Examination 2026",
+        "papers": [
+          {
+            "paper_name": "Interview / Personality Test (Board Interview at MPPSC Headquarters, Indore)",
+            "marks": 185,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Posts recruited through MPPSC State Service Examination are compensated under the Madhya Pradesh Revised Pay Rules, 2017 (MP 7th CPC Pay Matrix). The premier state administrative posts (Deputy Collector / SDM and Deputy Superintendent of Police) start at MP Pay Matrix Level 10 (Pay Band 3: ₹15,600 - 39,100, Grade Pay ₹5,400) with entry basic pay of ₹56,100. Subordinate posts such as Naib Tehsildar start at Pay Matrix Level 9 (Grade Pay ₹3,600, entry basic ₹36,200).",
+    "pay_level": "MP Matrix Level 10 (PB-3 ₹15,600 - 39,100, GP ₹5,400; ₹56,100 - ₹1,77,500)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-12-31",
+    "pay_source_url": "https://mppsc.mp.gov.in/uploads/advertisement/Advt_State_Service_Exam_2026_Dated_31_12_2025.pdf",
+    "pay_source_label": "MPPSC Advt. No. 29/2025: State Service Examination 2026 Notification, General Administration Department Post Schedule & MP Revised Pay Rules 2017",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 94000, "max": 105000 },
+    "in_hand_range_estimate": { "min": 83000, "max": 93000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on MP Pay Matrix Level 10 entry basic pay of ₹56,100 at 58% DA (effective 1 Jul 2025) and municipal HRA ranging from 8% to 16% (Bhopal/Indore Class Y cities at 16%, other district headquarters at 8-10%); deductions include NPS (10% on Basic+DA = ₹8,864), Professional Tax (₹208), and state group insurance.",
+    "official_perks": [
+      "Government residential bungalow / accommodation allotted from district administrative pool",
+      "Official government vehicle with driver for administrative inspections and protocol duty",
+      "Armed police escort / security personnel for executive magistrate duties",
+      "Subsidized telephone, electricity, and official utilities reimbursement",
+      "Leave Travel Concession (LTC) and leave encashment under MP Civil Services Rules",
+      "Comprehensive medical reimbursement coverage under MP State Government Employees Scheme"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant numbers, appearance statistics, Mains shortlists, and final vacancies are compiled from official MPPSC notifications, recruitment advertisements, and commission press releases.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 155,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2025-12-31",
+        "source_url": "https://mppsc.mp.gov.in/uploads/advertisement/Advt_State_Service_Exam_2026_Dated_31_12_2025.pdf",
+        "source_label": "MPPSC Advt. No. 29/2025: State Service Examination 2026 Notification (155 total vacancies: 135 in 87% Main list, 20 in 13% Provisional list; including 17 Deputy Collector and 18 DSP posts)."
+      },
+      {
+        "year": 2024,
+        "applicants": 183000,
+        "vacancies": 110,
+        "shortlisted_for_mains": 2300,
+        "selectivity_ratio": "approx. 1 in 1664 (calculated: applicants ÷ final vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-06-23",
+        "source_url": "https://mppsc.mp.gov.in/Results",
+        "source_label": "MPPSC State Service Examination 2024 (110 vacancies; 1.83 lakh candidates appeared in Prelims held on 23 June 2024, approx 2,300 shortlisted for Mains)."
+      },
+      {
+        "year": 2023,
+        "applicants": 230000,
+        "vacancies": 229,
+        "shortlisted_for_mains": 4500,
+        "selectivity_ratio": "approx. 1 in 1004 (calculated: applicants ÷ final vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-12-30",
+        "source_url": "https://mppsc.mp.gov.in/Results",
+        "source_label": "MPPSC Advt. No. 31/2023: State Service Examination 2023 (229 total vacancies; approx 2.3 lakh registered applicants; 800 candidates cleared Mains and qualified for Interview)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, revised examination plan and syllabi, calendars, and previous question papers are hosted on the MPPSC official portal.",
+    "links": [
+      {
+        "label": "MPPSC State Service Examination 2026 Official Notification (Advt. No. 29/2025)",
+        "url": "https://mppsc.mp.gov.in/uploads/advertisement/Advt_State_Service_Exam_2026_Dated_31_12_2025.pdf",
+        "type": "notification",
+        "cycle_label": "SSE-2026",
+        "confidence": "verified",
+        "as_of": "2025-12-31"
+      },
+      {
+        "label": "MPPSC State Service Examination Revised Exam Scheme & Detailed Syllabus (Vigyapti Dated 21/01/2026)",
+        "url": "https://mppsc.mp.gov.in/uploads/syllabus/Vigyapti_Revised_Exam_Plan_and_Syllabus_State_Service_Examination_2026_Dated_21_01_2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "SSE-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-21"
+      },
+      {
+        "label": "MPPSC Official Recruitment Advertisements Portal",
+        "url": "https://mppsc.mp.gov.in/Advertisement",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPPSC Official Syllabus & Scheme of Examination Portal",
+        "url": "https://mppsc.mp.gov.in/Syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPPSC Annual Examination Calendar & Schedules",
+        "url": "https://mppsc.mp.gov.in/calendar",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPPSC Previous Year Question Papers & Sample Booklets Archive",
+        "url": "https://mppsc.mp.gov.in/Oldquestionpaper",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

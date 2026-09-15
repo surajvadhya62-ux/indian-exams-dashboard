@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "description": "One-time, human-reviewed rules mapping exams.json records to research batches. Applied in order, first match wins. Regenerate with scripts/data-sourcing/build-batch-map.mjs whenever exams.json gains new records — the generator never reassigns an id that batches.json already has a batch_id for.",
+  "rules": [
+    {
+      "batch_id": "batch-1-central-commissions",
+      "label": "Premier Central Commissions (UPSC & All-India Cadres)",
+      "match": { "conducting_body_in": ["UPSC"] }
+    },
+    {
+      "batch_id": "batch-2-ssc-railways",
+      "label": "Staff Selection Commission (SSC) & Indian Railways (RRB/RPF)",
+      "match": {
+        "conducting_body_in": [
+          "SSC", "Staff Selection Commission (SSC)",
+          "RRB", "Ministry of Railways",
+          "Border Security Force (MHA)", "CRPF", "CISF (MHA)", "ITBP (MHA)",
+          "Sashastra Seema Bal (MHA)", "Assam Rifles (MHA/MoD)"
+        ]
+      }
+    },
+    {
+      "batch_id": "batch-3-banking-insurance",
+      "label": "Banking, Insurance & Financial Regulators",
+      "match": {
+        "conducting_body_in": [
+          "RBI", "Reserve Bank of India Services Board", "SBI", "State Bank of India",
+          "IBPS", "NABARD", "LIC", "NIACL", "OICL", "UIIC", "GIC Re",
+          "SEBI", "NISM (SEBI)", "IRDAI", "PFRDA", "SIDBI", "EXIM Bank",
+          "ECGC Ltd", "Institute of Actuaries of India (IAI)", "NHB"
+        ]
+      }
+    },
+    {
+      "batch_id": "batch-6-central-psu-defence-institute",
+      "label": "Central PSUs, Defence Direct-Entry, Premier Institutes & National Entrance Tests (not in the user's original 5 batches — proposed addition, flag for confirmation)",
+      "match": {
+        "conducting_body_in": [
+          "NTA", "NTA (for CSIR)", "NTA (for ICAR)", "NTA (for IIFT)", "NTA (for JNU)",
+          "NTA (via CUET)", "NTA (via CUET-PG)", "NTA / ICAR", "NTA (Through JEE Main)",
+          "NTA / University of Delhi", "Council of Architecture", "TISS", "CMI",
+          "JBIMS / Mumbai University", "NIBM Pune (via CAT / XAT / CMAT)",
+          "Madras School of Economics (MSE / CUET PG)", "IGIDR / RBI",
+          "AAI", "Airports Authority of India", "Airports Authority of India (AAI)",
+          "BEL", "BEML Limited", "BHEL", "BPCL", "BRBNMPL", "CIL", "Coal India Limited",
+          "CONCOR", "DFCCIL", "ECIL", "Engineers India Limited", "FACT Limited", "FCI",
+          "GAIL", "GAIL (India) Limited", "GRSE Limited", "Goa Shipyard Limited", "HAL",
+          "Hindustan Aeronautics Limited", "HPCL", "IOCL", "Indian Oil Corporation Limited",
+          "IRCON International Limited", "IRFC Limited", "KIOCL Limited",
+          "Mazagon Dock Shipbuilders Limited", "MECL", "MIDHANI", "MOIL Limited",
+          "National Fertilizers Limited", "NALCO", "NHPC Limited", "NLC India Limited",
+          "NMDC Limited", "NPCIL", "NTPC", "NTPC Limited", "ONGC", "PGCIL",
+          "PGCIL (via GATE / CBT)", "RCF Limited", "RITES Limited", "RVNL", "SAIL",
+          "SJVN Limited", "SPMCIL", "THDC India Limited", "Bharat Dynamics Limited (BDL)", "Bharat Electronics Limited",
+          "Cochin Port Authority / Indian Ports Association", "Cochin Shipyard Limited",
+          "Central Silk Board", "Coffee Board of India", "Spices Board India", "Tea Board of India",
+          "Indian Army", "Indian Navy", "Indian Navy (MoD)", "Indian Air Force", "IAF",
+          "Indian Coast Guard", "Indian Coast Guard (MoD)", "AFMC / DGAFMS",
+          "Military Engineer Services (MoD)", "DRDO", "DRDO CEPTAM", "RAC / DRDO",
+          "ISRO", "ISRO / ICRB", "BARC", "NIA / MHA", "Ministry of Home Affairs",
+          "IIT (Rotating)", "IIT & IISc (Rotating)", "IIT Bombay", "NIT (Rotating)",
+          "IISc Bangalore", "IISc Bangalore (earlier), now DST INSPIRE",
+          "IIM (Rotating)", "Individual IIMs", "IISER (Rotating)", "NISER",
+          "TIFR", "TIFR / NCBS", "ISI Kolkata", "JEST Committee",
+          "HBCSE / IAPT", "HBCSE / NBHM", "NBHM / DAE", "C-DAC",
+          "AIIMS Delhi", "AIIMS New Delhi", "PGIMER Chandigarh", "JIPMER Puducherry",
+          "JIPMER / NTA (via NEET)", "CGHS MoHFW", "DGHS MoHFW", "NBE", "NBEMS",
+          "ESIC", "UPSC / ESIC", "NTA / EPFO", "EPFO",
+          "NCERT", "CBSE", "KVS", "Navodaya Vidyalaya Samiti",
+          "Department of Posts", "Comptroller and Auditor General of India",
+          "Supreme Court of India", "High Court of Delhi",
+          "Bar Council of India", "ICAI", "ICSI", "ICMAI",
+          "Bureau of Indian Standards", "FSSAI", "Geological Survey of India",
+          "ASRB New Delhi", "ICAR IARI", "ICFRE Dehradun",
+          "NID Ahmedabad", "NIFT", "FDDI", "NLU Delhi", "Consortium of NLUs",
+          "AMU", "JMI", "CUSAT", "IMU", "AIMA", "AIMS",
+          "NIELIT / MeitY", "IFSCA"
+        ]
+      }
+    },
+    {
+      "batch_id": "batch-5-subordinate-police-boards",
+      "label": "Subordinate Boards & State Police Recruitment Boards",
+      "match": {
+        "jurisdiction": "state",
+        "conducting_body_matches_any": [
+          "Police", "PRB", "SSSB", "Vyapam", "Staff Selection", "SSB",
+          "Subordinate Services Selection", "SSSC", "DSSSB"
+        ]
+      }
+    },
+    {
+      "batch_id": "batch-4-state-psc",
+      "label": "Major State Public Service Commissions (State Administrative Services)",
+      "match": {
+        "jurisdiction": "state",
+        "conducting_body_matches_any": ["Public Service Commission", "PSC", "RPSC", "MPSC", "KPSC", "TNPSC", "APPSC", "TGPSC", "WBPSC", "GPSC", "OPSC", "PPSC", "HPSC", "APSC"]
+      }
+    },
+    {
+      "batch_id": "batch-7-state-other",
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation)",
+      "match": { "jurisdiction": "state" }
+    },
+    {
+      "batch_id": "batch-8-central-other",
+      "label": "Any remaining unmatched central-jurisdiction exam (should be empty if the rules above are complete)",
+      "match": { "jurisdiction": "central" }
+    }
+  ]
+}

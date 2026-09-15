@@ -1,0 +1,236 @@
+{
+  "id": "rrb-je",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Engineer (JE) is the cornerstone technical supervisor role in Indian Railways across Civil, Mechanical, Electrical, Signal & Telecommunication, and Stores departments. JEs supervise track maintenance, bridge engineering, rolling stock workshops, loco sheds, and signaling infrastructure. Progression reaches Gazetted Group 'B' managerial roles (ADEN/AEE/ASTE/AMM) via Departmental Selection Examinations (LDCE/AISM).",
+    "steps": [
+      {
+        "designation": "Junior Engineer (JE) / Depot Material Superintendent (DMS) / CMA",
+        "pay_level": "Level 6",
+        "years": "Entry level (training period 52 weeks)",
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Railway Recruitment Boards — Detailed Centralised Employment Notice CEN 03/2024 (Junior Engineer)"
+      },
+      {
+        "designation": "Senior Section Engineer (SSE) / Senior Material Manager",
+        "pay_level": "Level 7",
+        "years": "approx. 4-6 yrs (departmental seniority-cum-suitability)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Assistant Divisional Engineer (ADEN) / Assistant Mechanical/Electrical Engineer (Group B Gazetted)",
+        "pay_level": "Level 8",
+        "years": "approx. 10-14 yrs (via 70% promotion quota or 30% LDCE quota into Gazetted Service)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Divisional Engineer (DEN) / Executive Engineer (XEN)",
+        "pay_level": "Level 11",
+        "years": "approx. 16-20 yrs (Senior Time Scale)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Senior Divisional Engineer (Sr. DEN) / Deputy Chief Engineer (Dy. CE)",
+        "pay_level": "Level 12",
+        "years": "approx. 22-26 yrs (Junior Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Junior Engineer (CEN 03/2024) is conducted in four sequential stages: First Stage CBT (CBT-1 screening of general aptitude); Second Stage CBT (CBT-2 evaluating technical engineering discipline and core science); Document Verification (DV); and Medical Examination in prescribed technical medical categories (A-3, B-1, or B-2).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: First Stage Computer-Based Test (CBT-1)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "RRB CEN 03/2024 — Examination Scheme for First Stage CBT",
+        "papers": [
+          {
+            "paper_name": "Mathematics (30 questions)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25% (shortlists 15x vacancies for CBT-2)"
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning (25 questions)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "General Awareness (15 questions)",
+            "marks": 15,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "General Science (Physics & Chemistry up to 10th standard, 30 questions)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Second Stage Computer-Based Test (CBT-2)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "RRB CEN 03/2024 — Examination Scheme for Second Stage CBT (Final Merit)",
+        "papers": [
+          {
+            "paper_name": "General Awareness (15 questions) & Physics and Chemistry (15 questions)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "Basics of Computers and Applications (10 questions) & Basics of Environment and Pollution Control (10 questions)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "Technical Abilities (Engineering Discipline: Civil, Mechanical, Electrical, Electronics, IT, Printing, 100 questions)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 40%, EWS: 40%, OBC: 30%, SC: 30%, ST: 25%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Document Verification & Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Indian Railway Medical Manual — Technical Standards (A-3, B-1, B-2)",
+        "papers": [
+          {
+            "paper_name": "Verification of Original Educational Testimonials and Medical Examination as per Post Category",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit in prescribed Medical Category"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Engineer is placed in Pay Level 6 (₹35,400 – ₹1,12,400) under the 7th Central Pay Commission. JEs receive technical and departmental allowances in addition to central pay entitlements.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-27",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 74000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 67000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 with 58% DA (₹20,532), HRA (10% to 30% depending on city classification X/Y/Z), Transport Allowance (₹1,800 to ₹3,600 + DA on TA), minus 10% NPS contribution.",
+    "official_perks": [
+      "All-India Railway Free Duty Pass, Privilege Pass, and Privilege Ticket Orders (PTO) for employee and family",
+      "Comprehensive free medical care for self and dependents in Railway Divisional & Zonal Hospitals",
+      "Railway residential colony quarters allocation or HRA",
+      "Daily Allowance / Travelling Allowance for inspection and field supervision duties",
+      "Children Education Allowance (CEA) and Hostel Subsidy",
+      "Holiday Home booking facilities at major tourist and pilgrimage destinations across Indian Railways"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Junior Engineer and allied technical posts across all Railway Recruitment Boards under Centralised Employment Notices.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 7951,
+        "confidence": "verified",
+        "as_of": "2024-07-27",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Railway Recruitment Boards — Detailed Centralised Employment Notice CEN 03/2024 (7,951 vacancies across JE, DMS, CMA & Chemical/Metallurgical Supervisors)"
+      },
+      {
+        "year": 2018,
+        "vacancies": 13487,
+        "confidence": "verified",
+        "as_of": "2018-12-29",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Railway Recruitment Boards — Detailed Centralised Employment Notice CEN 03/2018 (13,487 vacancies for Junior Engineer and allied posts)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and syllabus schedules published by Railway Recruitment Boards.",
+    "links": [
+      {
+        "label": "Railway Recruitment Board (RRB Chandigarh) — Official Portal",
+        "url": "https://www.rrbcdg.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CEN 03/2024 — Recruitment of Junior Engineer (Official Notification Archive)",
+        "url": "https://www.rrbcdg.gov.in",
+        "type": "notification",
+        "cycle_label": "CEN-03-2024",
+        "confidence": "verified",
+        "as_of": "2024-07-27"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

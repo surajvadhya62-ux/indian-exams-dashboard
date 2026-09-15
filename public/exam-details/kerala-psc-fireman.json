@@ -1,0 +1,281 @@
+{
+  "id": "kerala-psc-fireman",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Fire and Rescue Officers (Trainee) serve in the Kerala Fire and Rescue Services Department responding to urban and rural fires, floods, building collapses, and natural disasters. After completing 6 months mandatory basic training at the State Fire Academy (Viyyur, Thrissur), recruits advance through Leading Fireman, Station Officer, Assistant Divisional Officer, and Divisional Officer upon passing departmental technical examinations.",
+    "steps": [
+      {
+        "designation": "Fire and Rescue Officer (Trainee) — Kerala Fire and Rescue Services",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹27,900 - ₹63,700)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2021-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Gazette Notification (Category No. 714/2021: Fire and Rescue Officer Trainee) & Kerala Fire Force Act 1962"
+      },
+      {
+        "designation": "Leading Fireman / Senior Fire and Rescue Officer",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹35,600 - ₹75,400)",
+        "years": "approx. 6-9 yrs",
+        "confidence": "reported",
+        "as_of": "2021-12-30",
+        "source_url": "https://fire.kerala.gov.in",
+        "source_label": "Kerala Fire and Rescue Subordinate Service Rules & Fire Force Headquarters Promotion Guidelines"
+      },
+      {
+        "designation": "Station Officer (Fire Station Commander / Sub-Divisional In-Charge)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹43,400 - ₹91,200)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2021-12-30",
+        "source_url": "https://fire.kerala.gov.in",
+        "source_label": "Kerala Fire Subordinate Service Rules (upon passing Station Officers Course and Technical Exams)"
+      },
+      {
+        "designation": "Assistant Divisional Officer (ADO) — Gazetted Class I",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹51,400 - ₹1,10,300)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "reported",
+        "as_of": "2021-12-30",
+        "source_url": "https://fire.kerala.gov.in",
+        "source_label": "Kerala Fire and Rescue Service (Gazetted) Rules & Home Department"
+      },
+      {
+        "designation": "Divisional Officer / District Fire Officer (DFO)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹59,300 - ₹1,20,900 to ₹65,200 - ₹1,26,400)",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2021-12-30",
+        "source_url": "https://fire.kerala.gov.in",
+        "source_label": "Directorate of Kerala Fire and Rescue Services Seniority List"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection to Fire and Rescue Officer (Trainee) involves five progressive stages: Written OMR Examination (Objective type carrying 100 marks), Physical Measurement Test (PMT), Physical Efficiency Test (PET - National 1-star standard), Swimming Test (Compulsory 50-metre swimming test), and Medical Examination. Ranked lists are prepared on a statewide basis based strictly on marks obtained in the Written Examination among candidates who qualify all physical, swimming, and medical standards.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written OMR Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-12-30",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC Fire and Rescue Officer Examination Scheme & Syllabus (Advt. No. 714/2021)",
+        "papers": [
+          {
+            "paper_name": "General Knowledge, Current Affairs & Renaissance in Kerala",
+            "marks": 50,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Science (Physics, Chemistry & Disaster Management Basics)",
+            "marks": 20,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Simple Arithmetic & Mental Ability",
+            "marks": 20,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English & Regional Language (Malayalam / Tamil / Kannada)",
+            "marks": 10,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Measurement Test (PMT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Fireman Physical Measurement Standards",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement (Male: Height min 165 cm [160 cm for SC/ST], Chest min 81 cm with 5 cm expansion [76 cm with 5 cm expansion for SC/ST], Weight min 50 kg)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard; candidate must fulfill prescribed minimum height, chest, and weight measurements"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET — National 1-Star Standard)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2021-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Fire Force PET Guidelines",
+        "papers": [
+          {
+            "paper_name": "PET Events (Must qualify in min 5 of 8 standard events: 100m in 14.0s, High Jump 132.2cm, Long Jump 457.2cm, Shot Put 609.6cm, Cricket Ball Throw 6096cm, Rope Climbing 365.8cm, Pull-ups 8 times, 1500m in 5m 44s)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Must qualify in at least 5 out of 8 prescribed athletic events"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Swimming Test (Compulsory)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2021-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Fire and Rescue Services Swimming Qualification Standards",
+        "papers": [
+          {
+            "paper_name": "Swimming Assessment (Candidate must swim a distance of 50 metres without any aid or lifebuoy within prescribed time)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Compulsory qualification; failure in swimming test leads to immediate disqualification"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 5: Medical Examination & Document Verification",
+        "stage_order": 5,
+        "confidence": "verified",
+        "as_of": "2021-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Fire Force Medical Manual & Vision Standards",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness & Vision Assessment (Distant vision 6/6 each eye, near vision 0.5 without glasses, normal colour vision, free from respiratory and cardiac infirmities)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fitness certificate from authorized Government Medical Board"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Fire and Rescue Officers in Kerala Fire and Rescue Services are remunerated under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) at Pay Scale ₹27,900 - ₹63,700 with entry basic pay of ₹27,900.",
+    "pay_level": "Kerala 11th Pay Revision Scale (₹27,900 - ₹63,700)",
+    "entry_basic_pay": 27900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-12-30",
+    "pay_source_url": "https://www.keralapsc.gov.in/notifications",
+    "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 714/2021 & Kerala Fire and Rescue Services Department Pay Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 46500, "max": 50000 },
+    "in_hand_range_estimate": { "min": 41000, "max": 45000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹27,900 with standard 58% DA (effective 1 Jul 2025, ₹16,182) plus House Rent Allowance (Class A Corporation ₹2,790, Class B Municipalities ₹1,900, Class C Panchayats ₹1,300), Fire Hazard/Risk allowance (₹1,200/month), and Uniform maintenance grant; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹4,408), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), and Professional Tax.",
+    "official_perks": [
+      "Departmental fire station barracks accommodation or quarters allotment in municipal/corporation areas",
+      "Annual uniform maintenance allowance and firefighting protective equipment kit provided by department",
+      "Comprehensive cashless hospitalization coverage under the Kerala Government MEDISEP scheme",
+      "Hazard / special disaster response compensatory allowance during flood rescue and major emergencies",
+      "Onam festival bonus / special advance and Kerala Fire Force Benevolent Fund support"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, screening, physical test, and appointment statistics for Fire and Rescue Officer recruitment sourced from Kerala PSC examination releases and Fire Force annual reports.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 380000,
+        "vacancies": 950,
+        "shortlisted_for_mains": 28000,
+        "selectivity_ratio": "approx. 1 in 400 (calculated: 3.8 lakh applicants ÷ ~950 total advice made over 3-year ranked list validity; Category No. 714/2021; ~4,200 cleared PET & Swimming test)",
+        "confidence": "reported",
+        "as_of": "2023-08-20",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Fire and Rescue Officer (Cat. No. 714/2021) Statewide Ranked List Notification brought into force August 2023"
+      },
+      {
+        "year": 2019,
+        "applicants": 340000,
+        "vacancies": 820,
+        "shortlisted_for_mains": 22000,
+        "selectivity_ratio": "approx. 1 in 415 (calculated: 3.4 lakh applicants for Cat. No. 139/2019 ÷ 820 final advisees appointed over 3-year ranked list validity)",
+        "confidence": "verified",
+        "as_of": "2021-11-10",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Fireman (Trainee) (Category No. 139/2019) Ranked List Notifications"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, syllabi, physical standards, and swimming test regulations for Fire and Rescue Officer recruitment hosted on Kerala PSC and Fire Force official servers.",
+    "links": [
+      {
+        "label": "Kerala PSC Official Portal",
+        "url": "https://www.keralapsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala Fire and Rescue Services Official Portal",
+        "url": "https://fire.kerala.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Thulasi Application Portal",
+        "url": "https://thulasi.psc.kerala.gov.in/thulasi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Notifications Archive",
+        "url": "https://www.keralapsc.gov.in/notifications",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Fire and Rescue Officer Syllabus Archive",
+        "url": "https://www.keralapsc.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Previous Question Papers Archive",
+        "url": "https://www.keralapsc.gov.in/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

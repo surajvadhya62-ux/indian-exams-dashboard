@@ -1,0 +1,237 @@
+{
+  "id": "ecgc-po",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "ECGC Limited (a Premier Export Credit Agency of the Government of India under the Ministry of Commerce & Industry) provides an executive officer career path handling export credit insurance, sovereign trade underwriting, and overseas financial risk management.",
+    "steps": [
+      {
+        "designation": "Executive Officer (Probationary Officer)",
+        "pay_level": "Executive Officer Scale (₹88,635 basic)",
+        "years": "Entry (approx. 1 yr probation)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations and Direct Recruitment Advertisement"
+      },
+      {
+        "designation": "Assistant Manager (Scale I)",
+        "pay_level": "Scale I (₹88,635+ basic)",
+        "years": "approx. 1-3 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations"
+      },
+      {
+        "designation": "Manager (Scale II)",
+        "pay_level": "Scale II",
+        "years": "approx. 3-6 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations"
+      },
+      {
+        "designation": "Senior Manager (Scale III)",
+        "pay_level": "Scale III",
+        "years": "approx. 6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Scale IV)",
+        "pay_level": "Scale IV",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Scale V)",
+        "pay_level": "Scale V",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations"
+      },
+      {
+        "designation": "General Manager (GM, Scale VI)",
+        "pay_level": "Scale VI",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Officers' Service Regulations"
+      },
+      {
+        "designation": "Executive Director (ED) / Chairman-cum-Managing Director (CMD)",
+        "pay_level": "Board Level (Ministry of Commerce & Industry Appointment)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC Limited Corporate Governance Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "ECGC PO recruitment process consists of a single-stage composite Online Examination (Objective Multiple Choice + Descriptive English Paper) followed by an Interview for shortlisted candidates.",
+    "stages": [
+      {
+        "stage_name": "Online Examination (Objective and Descriptive)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC PO Official Recruitment Advertisement",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 50,
+            "duration_minutes": 40,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 40,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Computer Knowledge",
+            "marks": 20,
+            "duration_minutes": 10,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 40,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Descriptive Paper (Essay Writing and Precis Writing)",
+            "marks": 40,
+            "duration_minutes": 40,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated only if candidate qualifies in objective test"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC PO Official Recruitment Advertisement",
+        "papers": [
+          {
+            "paper_name": "Interview Assessment (ECGC Selection Board)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (35% for SC/ST/OBC/PwBD); 80:20 weightage with written exam"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Executive Officer Scale (ECGC)",
+    "entry_basic_pay": 88635,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-09-01",
+    "pay_source_url": "https://www.ecgc.in",
+    "pay_source_label": "ECGC Probationary Officer Recruitment Notification (Scale: ₹88,635-1,69,025)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 140000, "max": 170000 },
+    "in_hand_range_estimate": { "min": 115000, "max": 140000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹88,635 in the revised pay scale ₹88,635 - 4,385(14) - 1,50,025 - 4,750(4) - 1,69,025. Total annual CTC at Mumbai headquarters is approx. ₹20,00,000 per annum inclusive of basic, DA (58% review baseline), Leased Accommodation, Transport Allowance, Meal Vouchers, Medical benefits, and specialized insurance allowances.",
+    "official_perks": [
+      "Corporation Leased Residential Accommodation or House Rent Allowance (HRA)",
+      "Comprehensive Medical Coverage for self and dependent family members",
+      "Leave Travel Concession (LTC) once in two years with air travel entitlement",
+      "Monthly Fuel / Transport Allowance and Driver Allowance where admissible",
+      "Meal Vouchers, Newspaper Allowance, and Mobile Handset / Briefcase Allowance",
+      "Furniture and Household Help Allowance according to rank",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition benchmarks reflect all-India recruitment for Executive Officers at ECGC Limited.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 48000,
+        "vacancies": 66,
+        "shortlisted_for_mains": 330,
+        "selectivity_ratio": "approx. 1 in 727 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-09-01",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC PO Recruitment Advertisement 2024 (66 vacancies notified)"
+      },
+      {
+        "year": 2023,
+        "applicants": 32000,
+        "vacancies": 17,
+        "shortlisted_for_mains": 85,
+        "selectivity_ratio": "approx. 1 in 1882 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-04-19",
+        "source_url": "https://www.ecgc.in",
+        "source_label": "ECGC PO Recruitment Advertisement 2023 (17 vacancies notified)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications and updates are published on the ECGC Limited portal.",
+    "links": [
+      {
+        "label": "ECGC Official Portal — Careers & Notifications",
+        "url": "https://www.ecgc.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

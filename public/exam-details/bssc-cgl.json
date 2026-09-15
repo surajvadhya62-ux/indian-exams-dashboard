@@ -1,0 +1,197 @@
+{
+  "id": "bssc-cgl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for premier secretariat postings recruited through BSSC CGL: Bihar Secretariat Service (BSS / बिहार सचिवालय सेवा) Prashakha Padadhikari cadre, advancing from entry Assistant Section Officer up to Joint Secretary in the state administration.",
+    "steps": [
+      {
+        "designation": "Assistant Section Officer / Sahayak Prashakha Padadhikari (सहायक प्रशाखा पदाधिकारी)",
+        "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
+        "years": "0–5 years (Entry grade)",
+        "confidence": "verified",
+        "as_of": "2025-08-04",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+        "source_label": "BSSC 4th Graduate Level Combined Competitive Exam Advertisement No. 05/25"
+      },
+      {
+        "designation": "Section Officer / Prashakha Padadhikari (प्रशाखा पदाधिकारी)",
+        "pay_level": "Level 9 (Bihar 7th State Pay Matrix)",
+        "years": "5–10 years",
+        "confidence": "verified",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Secretariat Service Cadre Rules & Finance Dept Pay Resolution No. 3590"
+      },
+      {
+        "designation": "Under Secretary / Avar Sachiv (अवर सचिव)",
+        "pay_level": "Level 11 (Bihar 7th State Pay Matrix)",
+        "years": "10–16 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Secretariat Service Promotion Regulations"
+      },
+      {
+        "designation": "Deputy Secretary / Up Sachiv (उप सचिव)",
+        "pay_level": "Level 12 (Bihar 7th State Pay Matrix)",
+        "years": "16–22 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Secretariat Service Promotion Regulations"
+      },
+      {
+        "designation": "Joint Secretary / Sanyukt Sachiv (संयुक्त सचिव)",
+        "pay_level": "Level 13 (Bihar 7th State Pay Matrix)",
+        "years": "22+ years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "General Administration Department (GAD) Bihar Executive Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under the Bihar Staff Selection Commission Examination Conduct Rules, 2010, the selection process comprises a Preliminary Examination (OMR objective format, with an open-book rule allowing up to 3 textbooks) and a Main Examination (Paper 1 General Hindi qualifying, and Paper 2 General Studies/Maths/Reasoning for merit). Shortlisting for Mains is strictly 5 times the vacancies.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Examination (Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-04",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+        "source_label": "BSSC 4th CGL Advertisement No. 05/25 Notification Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Studies, General Science, Mathematics & Mental Ability (Open Book)",
+            "marks": 600,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Top candidates shortlisted in 1:5 ratio of vacancies; min qualifying: UR 40%, BC 36.5%, EBC 34%, SC/ST/Women 32%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Main Examination (Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-04",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+        "source_label": "BSSC 4th CGL Advertisement No. 05/25 Notification Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper 1: General Hindi (सामान्य हिन्दी)",
+            "marks": 400,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory 30% marks; Paper 2 evaluated only if candidate scores at least 30% in Paper 1"
+          },
+          {
+            "paper_name": "Paper 2: General Knowledge, General Science, Mathematics & Reasoning",
+            "marks": 600,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit list is prepared strictly based on aggregate marks obtained in Paper 2"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale shown for premier Secretariat Assistant / Assistant Section Officer and Planning Assistant posts in Level 7 (Basic ₹44,900). Subordinate cadres recruited through CGL span Level 6 (DEO Grade C: ₹35,400) and Level 5 (Auditor: ₹29,200).",
+    "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-08-04",
+    "pay_source_url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+    "pay_source_label": "BSSC 4th Graduate Level Combined Competitive Exam Advertisement No. 05/25",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 76000, "max": 88000 },
+    "in_hand_range_estimate": { "min": 64000, "max": 74000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 7 entry basic pay of ₹44,900 with 58% Dearness Allowance (₹26,042), House Rent Allowance (16% to 18% in Patna: ₹7,184 to ₹8,082; 8% in other districts), Medical Allowance (₹1,000), and Transport Allowance. In-hand reflects statutory 10% NPS deduction on Basic+DA (₹7,094), professional tax, and income tax.",
+    "official_perks": [
+      "Government accommodation in Patna or House Rent Allowance (HRA) up to 18%",
+      "Medical reimbursement under Bihar State Government Health Rules",
+      "Leave Travel Concession (LTC) and earned leave encashment benefits",
+      "Contributory Pension Scheme (NPS) with 14% state government matching contribution",
+      "Office internet, computer equipment, and stationery allowance"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark statistics compiled from official BSSC vacancy notifications, press statements, and result declarations for the 4th CGL (Advt. 05/25) and 3rd CGL (Advt. 01/22).",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 1481,
+        "confidence": "verified",
+        "as_of": "2025-08-04",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+        "source_label": "BSSC 4th CGL Advertisement No. 05/25 (1,064 ASO, 88 Planning Asst, 5 JSA, 1 DEO, 323 Auditor posts; 510 women reserved)"
+      },
+      {
+        "year": 2022,
+        "applicants": 912000,
+        "vacancies": 2248,
+        "shortlisted_for_mains": 11240,
+        "selectivity_ratio": "1 in 406 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2023-05-31",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "BSSC 3rd CGL Advt. No. 01/22 Prelims Result Declaration & Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, advertisements, and corrigenda verified live on the Bihar Staff Selection Commission portal.",
+    "links": [
+      {
+        "label": "BSSC 4th Graduate Level Combined Competitive Exam — Detailed Advertisement (Advt. No. 05/25)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT.pdf",
+        "type": "notification",
+        "cycle_label": "4th CGL 2025",
+        "confidence": "verified",
+        "as_of": "2025-08-04"
+      },
+      {
+        "label": "BSSC 4th CGL 2025 — Important Notice & Registration Dates (Advt. No. 05/25)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/0525_ADVT_NOTICE.pdf",
+        "type": "notification",
+        "cycle_label": "4th CGL 2025",
+        "confidence": "verified",
+        "as_of": "2025-08-04"
+      },
+      {
+        "label": "BSSC 4th CGL 2025 — Corrigendum Regarding Vacancies and Guidelines",
+        "url": "https://bssc.bihar.gov.in/Advertisement/3926_CGL_notice.pdf",
+        "type": "other",
+        "cycle_label": "4th CGL 2025",
+        "confidence": "verified",
+        "as_of": "2025-10-15"
+      },
+      {
+        "label": "Bihar Staff Selection Commission (BSSC) — Official Notice Board Portal",
+        "url": "https://bssc.bihar.gov.in/NoticeBoard.htm",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "id": "haryana-hcs-judicial",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Haryana are recruited as Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC) in the Haryana Civil Service (Judicial Branch) under the Punjab Civil Services (Judicial Branch) Rules, 1951 (as applicable to Haryana) and notification No. GSR 25/Const./Art.234 & 309/2023 dated 07.11.2023. Pay and progression follow the uniform pay matrix of the Second National Judicial Pay Commission (SNJPC) as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Officers advance through Assured Career Progression (ACP) scale increments at 5-year intervals and cadre promotions up to the High Court of Punjab and Haryana.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520; unrevised ₹27,700 - ₹44,770)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_01_2024_HCS_JD_01_01_2024_1.pdf",
+        "source_label": "HPSC Advt. No. 01/2024 & Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Additional Chief Judicial Magistrate (ACJM)",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Senior Civil Judge — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "years": "approx. 15 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade)",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "District & Sessions Judge (Super Time Scale / Principal District Judge)",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Punjab & Haryana"
+      },
+      {
+        "designation": "Elevation to High Court Judge (High Court of Punjab and Haryana, Chandigarh)",
+        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "years": "Constitutional Elevation",
+        "confidence": "verified",
+        "as_of": "2018-01-01",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Amendment Act; Article 217, Constitution of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Haryana Civil Service (Judicial Branch) Examination is conducted jointly by the Haryana Public Service Commission and the High Court of Punjab and Haryana in three stages: Preliminary Examination (Objective screening of 125 MCQs carrying 500 marks), Main Written Examination (5 conventional subjective papers of 3 hours duration each, 900 marks total), and Viva-Voce (200 marks). Final selection merit is prepared on the aggregate of Main written examination and Viva-Voce (out of 1,100 marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_01_2024_HCS_JD_01_01_2024_1.pdf",
+        "source_label": "HPSC Advt. No. 01/2024 (HCS Judicial Branch) Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Preliminary Entrance Examination (Objective Type Law, Current Affairs, Indian Legal & Constitutional History)",
+            "marks": 500,
+            "duration_minutes": 120,
+            "negative_marking": "0.8 mark (20% or one-fifth) deducted for each incorrect answer out of 4 marks per question (125 questions total). Mandatory 5th bubble rule: unattempted questions require darkening bubble 'E'; failure to darken any circle incurs 0.8 mark penalty; leaving more than 10% questions (13 questions) un-darkened causes immediate disqualification.",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying score of 150 marks for General / UR candidates (100 marks for all reserved categories of Haryana except EWS). Candidates equal to 10 times the number of advertised vacancies (plus bracketed candidates) qualify for the Main written examination. Marks do not count towards the final merit list."
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Subjective / Narrative)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_01_2024_HCS_JD_01_01_2024_1.pdf",
+        "source_label": "HPSC Advt. No. 01/2024 (HCS Judicial Branch) Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Law - I (CPC, Punjab Courts Act, Contract Act, Partnership Act, Sale of Goods Act, Specific Relief Act, Evidence Act, Haryana Urban Rent Control Act)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective/narrative written paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper II: Civil Law - II (Hindu Law, Mohammadan Law, Customary Law, Law of Registration and Limitation)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective/narrative written paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper III: Criminal Law (Indian Penal Code, Code of Criminal Procedure, Indian Evidence Act)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective/narrative written paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper IV: English (English Essay 100 marks, Precis 25 marks, Words & Phrases 25 marks, Comprehension 25 marks, Corrections 25 marks)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective/narrative written paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper"
+          },
+          {
+            "paper_name": "Paper V: Language - Hindi in Devnagri Script (Translation 20 marks, Explanation prose & poetry 30 marks, Composition essay/idioms/corrections 50 marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (subjective/narrative written paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in each individual written paper; minimum 50% qualifying marks in aggregate of all written papers (45% for SC, BC, PwBD, ESM) to qualify for Viva-Voce"
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Personality & Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_01_2024_HCS_JD_01_01_2024_1.pdf",
+        "source_label": "HPSC Advt. No. 01/2024 (HCS Judicial Branch) Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce Oral Interview",
+            "marks": 200,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Tests personal qualities, alertness, intelligence, and general outlook. Candidates equal to 3 times the advertised vacancies (plus bracketed candidates) are called for interview based on Main written marks. Appearance in viva-voce is mandatory. Candidates must secure at least 50% marks (45% for SC, BC, PwBD, ESM) in aggregate of Main written examination and Viva-Voce to be eligible for appointment."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Haryana receive remuneration governed by the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Recruits are placed in revised SNJPC Pay Scale Level J-1 (₹77,840–₹1,36,520; unrevised scale ₹27,700–₹44,770).",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520; unrevised ₹27,700 - ₹44,770)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-01",
+    "pay_source_url": "https://hpsc.gov.in/Portals/0/Advt_01_2024_HCS_JD_01_01_2024_1.pdf",
+    "pay_source_label": "HPSC Advt. No. 01/2024 & Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 128000,
+      "max": 155000
+    },
+    "in_hand_range_estimate": {
+      "min": 112000,
+      "max": 135000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from SNJPC Level J-1 entry basic ₹77,840 + 58% DA (₹45,147) + judicial House Rent Allowance (HRA 8% to 24% or designated official judicial bungalow) + judicial sumptuary, robe, medical, conveyance, and domestic help allowances. In-hand estimate accounts for statutory deductions including 10% NPS contribution (Basic + DA = ₹12,299), Group Insurance Scheme (GIS), and Haryana Professional Tax.",
+    "official_perks": [
+      "Designated independent judicial bungalow / official residence in the Judicial Officers' Colony of the posting district",
+      "Official staff car / conveyance facility with driver entitlement and monthly fuel allowance",
+      "Monthly sumptuary allowance and annual robe / dress maintenance allowance per SNJPC recommendations",
+      "Comprehensive cashless medical treatment and reimbursement for officer and dependent family members",
+      "Residential orderly / attendant allowance and reimbursement of domestic help charges",
+      "Reimbursement of electricity and water charges up to prescribed monthly units, plus official mobile and broadband facilities",
+      "Substantial judicial pension and gratuity entitlements under statutory judicial service rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official HPSC Advertisements, Screening Test result notifications, Main written declarations, and Final Recommendation lists published by the Haryana Public Service Commission and the High Court of Punjab & Haryana.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": 174,
+        "shortlisted_for_mains": 1150,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-10-16",
+        "source_url": "https://hpsc.gov.in/Portals/0/Final_Result_HCS_JD_16_10_2024.pdf",
+        "source_label": "HPSC Advt. No. 01/2024 (174 vacancies: 129 actual + 45 anticipated; Prelims held 03.03.2024, 1,150 candidates shortlisted for Mains; Mains held 12-14 July 2024, 153 shortlisted for Viva-Voce; Final result declared 16.10.2024 recommending 117 candidates plus 27 in sealed cover)"
+      },
+      {
+        "year": 2021,
+        "applicants": null,
+        "vacancies": 256,
+        "shortlisted_for_mains": 2500,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2022-10-21",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advertisement_HCS_Judicial_01_2021.PDF",
+        "source_label": "HPSC Advt. No. 01/2021 (256 vacancies: 239 actual + 17 anticipated; Prelims held 13.11.2021, General cutoff 356.20/500 with 1,993 General and over 2,500 total candidates qualified; Mains held 20-22 May 2022, 230 qualified for Viva-Voce; Final result declared 21.10.2022 recommending 102 candidates)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination syllabi, and selection result lists verified directly on the Haryana Public Service Commission (HPSC) server.",
+    "links": [
+      {
+        "label": "HPSC HCS (Judicial Branch) 2024 Notification (Advt. No. 01/2024)",
+        "url": "https://hpsc.gov.in/Portals/0/Advt_01_2024_HCS_JD_01_01_2024_1.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 01/2024",
+        "confidence": "verified",
+        "as_of": "2024-01-01"
+      },
+      {
+        "label": "HPSC HCS (Judicial Branch) 2024 Final Recommendation List",
+        "url": "https://hpsc.gov.in/Portals/0/Final_Result_HCS_JD_16_10_2024.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/2024",
+        "confidence": "verified",
+        "as_of": "2024-10-16"
+      },
+      {
+        "label": "HPSC HCS (Judicial Branch) 2024 Main Examination Result",
+        "url": "https://hpsc.gov.in/Portals/0/Result_Mains_HCS_JD_24_08_2024.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/2024",
+        "confidence": "verified",
+        "as_of": "2024-08-24"
+      },
+      {
+        "label": "HPSC HCS (Judicial Branch) 2024 Preliminary Screening Result",
+        "url": "https://hpsc.gov.in/Portals/0/Screening_Result_HCS_JD_2023_09_04_2024.pdf",
+        "type": "other",
+        "cycle_label": "Advt 01/2024",
+        "confidence": "verified",
+        "as_of": "2024-04-09"
+      },
+      {
+        "label": "HPSC Official Examination Results Archive",
+        "url": "https://hpsc.gov.in/en-us/Examination/Results",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HPSC Official Advertisements & Instructions Portal",
+        "url": "https://hpsc.gov.in/en-us/Instructions",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

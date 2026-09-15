@@ -1,0 +1,200 @@
+{
+  "id": "mpesb-mahila-supervisor",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Mahila Paryavekshak (Women Supervisor / महिला पर्यवेक्षक)",
+        "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+        "promotion_criteria": "Direct recruitment through MPESB Mahila Paryavekshak Examination for female graduates, followed by sectoral induction training in ICDS and Poshan Abhiyaan guidelines.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MP Directorate of Women and Child Development Subordinate Service Rules"
+      },
+      {
+        "step_order": 2,
+        "designation": "Child Development Project Officer (CDPO / बाल विकास परियोजना अधिकारी)",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Promotion on seniority-cum-merit through Departmental Promotion Committee (DPC) after 6 to 8 years of service as Sector Supervisor and passing departmental evaluation exams.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MP Women and Child Development Gazetted Service Rules"
+      },
+      {
+        "step_order": 3,
+        "designation": "District Programme Officer (DPO / जिला कार्यक्रम अधिकारी)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Promotion to district-level leadership via MPPSC DPC screening after 5 to 7 years of administrative experience as CDPO.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MP State WCD Cadre Regulations"
+      },
+      {
+        "step_order": 4,
+        "designation": "Joint Director / Deputy Director (WCD Directorate)",
+        "pay_level": "Level 13 (₹67,300 – ₹2,06,900)",
+        "promotion_criteria": "Seniority-cum-merit selection to state directorate leadership overseeing state-wide women empowerment and child welfare schemes.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MP Civil Services Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Single Stage Written Examination (CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Khand 1: Nutrition & Health (पोषण एवं स्वास्थ्य)",
+            "paper_type": "objective",
+            "total_marks": 50,
+            "duration_minutes": 45,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Khand 2: General Knowledge & Reasoning (सामान्य ज्ञान एवं तर्कशक्ति)",
+            "paper_type": "objective",
+            "total_marks": 50,
+            "duration_minutes": 45,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Khand 3: Management Skills (प्रबंधकीय गुण)",
+            "paper_type": "objective",
+            "total_marks": 50,
+            "duration_minutes": 45,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Khand 4: Infant Care & Education (शिशु की प्रारंभिक देखभाल एवं शिक्षा)",
+            "paper_type": "objective",
+            "total_marks": 50,
+            "duration_minutes": 45,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MPESB Mahila Paryavekshak Examination Syllabus Structure"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Document Verification & Merit Allotment",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Verification of Degree Certificates, MP Domicile, Category and Anganwadi Worker Experience",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MP Directorate of WCD Verification Guidelines"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+    "entry_basic_pay": 25300,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+    "pay_source_label": "MP Directorate of Women and Child Development Service Rules, Level 6 Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 43000,
+      "max": 47000
+    },
+    "in_hand_range_estimate": {
+      "min": 37000,
+      "max": 41000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance at 58% of basic pay (₹14,674 per month at entry level).",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "perk_description": "HRA between 8% to 16% of basic pay depending on municipal classification of posting station.",
+        "confidence": "reported",
+        "source_label": "MP Civil Services HRA Rules"
+      },
+      {
+        "perk_name": "Sector Inspection & Travel Allowance",
+        "perk_description": "Monthly fixed travel allowance and mobile communication allowance for monitoring village Anganwadi centers.",
+        "confidence": "reported",
+        "source_label": "MP ICDS Operational Guidelines"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Defined Contributory Pension Scheme with 14% matching employer contribution.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 457,
+        "applicants": 182400,
+        "appeared": 138000,
+        "cut_off_marks": {
+          "unreserved_open": 158.34,
+          "obc_open": 154.21,
+          "sc_open": 142.18,
+          "st_open": 131.45,
+          "ews_open": 152.06
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "source_label": "MPESB Mahila Paryavekshak 2024 Result Press Note & Cut-Off"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Mahila Paryavekshak 2024 Result Press Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshsk_2024_Resultnote.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPESB Mahila Paryavekshak 2024 Cut-Off Marks Summary",
+        "url": "https://esb.mp.gov.in/results/RESULT_24/Parvekshak_MBV_RES24/Parvekshak_2024_cutoff.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

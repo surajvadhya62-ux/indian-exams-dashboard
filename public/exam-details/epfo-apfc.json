@@ -1,0 +1,168 @@
+{
+  "id": "epfo-apfc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Provident Fund Commissioners serve in the Employees' Provident Fund Organisation (EPFO), a statutory social security body under the Ministry of Labour and Employment, Government of India. Officers function as quasi-judicial authorities under the EPF & MP Act, 1952, determining provident fund compliances and supervising regional offices.",
+    "steps": [
+      {
+        "designation": "Assistant Provident Fund Commissioner (APFC)",
+        "pay_level": "Level 10",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Regional Provident Fund Commissioner-II (RPFC-II)",
+        "pay_level": "Level 11",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Regional Provident Fund Commissioner-I (RPFC-I) / Officer-in-Charge",
+        "pay_level": "Level 12",
+        "years": "approx. 10-12 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Additional Central Provident Fund Commissioner (Addl. CPFC) / Zonal Head",
+        "pay_level": "Level 13A / 14",
+        "years": "approx. 18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Central Provident Fund Commissioner (CPFC) — Head of Organisation",
+        "pay_level": "Level 16 / 17",
+        "years": "Apex / Additional Secretary scale",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPSC conducts selection for Assistant Provident Fund Commissioner through a two-tier process: a pen-and-paper Recruitment Test (RT, objective type, 300 marks) followed by an Interview (100 marks). The final merit list is drawn giving 75:25 weightage to the marks obtained in the Recruitment Test and the Interview. In the objective Recruitment Test, each incorrect answer carries a penalty of one-third (0.33) marks.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Recruitment Test (RT) — Objective Type",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-02-25",
+        "source_url": "https://www.upsc.gov.in/recruitment/recruitment-test/question-papers/archives",
+        "source_label": "UPSC — Special Advertisement No. 51/2023, Vacancy No. 23025102725 (Scheme & Syllabus of Recruitment Test for APFC in EPFO)",
+        "papers": [
+          {
+            "paper_name": "General Studies, English, Labour Laws, Auditing & Social Security in India",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Interview / Personality Assessment",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-02-25",
+        "source_url": "https://www.upsc.gov.in/recruitment/recruitment-test/question-papers/archives",
+        "source_label": "UPSC — Special Advertisement No. 51/2023, Vacancy No. 23025102725 (Interview for APFC)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (UPSC Headquarters, New Delhi)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Category-wise minimum benchmark: UR 50%, OBC 45%, SC/ST 40%"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 115000 },
+    "in_hand_range_estimate": { "min": 82000, "max": 98000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 10 entry basic pay (₹56,100) with 58% Dearness Allowance across major regional office cities (X/Y tiers); net in-hand factors in standard 10% NPS Tier-I contribution and central employee welfare deductions.",
+    "official_perks": [
+      "Leased accommodation / House Rent Allowance (27%/18%/9% by city category)",
+      "Official transport or monthly transport allowance with applicable DA",
+      "Comprehensive medical coverage under CGHS / EPFO Medical Benefit Scheme",
+      "Defined contribution pension benefits under National Pension System (NPS)",
+      "Annual Leave Travel Concession (LTC) and earned leave encashment provisions"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "APFC is recruited periodically through UPSC Special Advertisements. The most recent recruitment was notified under UPSC Special Advertisement No. 51/2023 (Vacancy No. 23025102725) for 159 posts across categories (UR: 68, EWS: 16, OBC: 38, SC: 25, ST: 12). Over 4.5 lakh applications were reported across combined EPFO exams (EO/AO and APFC).",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 159,
+        "confidence": "verified",
+        "as_of": "2023-02-25",
+        "source_url": "https://www.upsc.gov.in/recruitment/recruitment-test/question-papers/archives",
+        "source_label": "UPSC — Special Advertisement No. 51/2023, Vacancy No. 23025102725: 159 posts of Assistant Provident Fund Commissioner in EPFO (UR: 68, EWS: 16, OBC: 38, SC: 25, ST: 12) — verified from official advertisement notice."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official UPSC and EPFO resources for Assistant Provident Fund Commissioner. Direct archives and portal links verified live on upsc.gov.in and epfindia.gov.in.",
+    "links": [
+      {
+        "label": "UPSC Recruitment Test Question Papers & Syllabus Archives",
+        "url": "https://www.upsc.gov.in/recruitment/recruitment-test/question-papers/archives",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UPSC Recruitment Test Results Portal",
+        "url": "https://www.upsc.gov.in/recruitment/recruitment-test-result",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Employees' Provident Fund Organisation (EPFO) Official Portal",
+        "url": "https://www.epfindia.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

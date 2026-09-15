@@ -1,0 +1,161 @@
+{
+  "id": "cochin-port-pilot",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Marine pilotage and navigation department cadre in Cochin Port Authority and Major Port Authorities.",
+    "steps": [
+      {
+        "designation": "Pilot (Marine Department) / Class I Officer",
+        "pay_level": "Class I Officer Scale (₹70,000 – ₹2,00,000)",
+        "years": "Entry (0-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Cochin Port Authority Pilot Recruitment Advt"
+      },
+      {
+        "designation": "Senior Pilot",
+        "pay_level": "Class I Officer Scale (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Major Port Authorities Service Regulations"
+      },
+      {
+        "designation": "Harbour Master",
+        "pay_level": "Class I Officer Scale (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 8-14 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Major Port Authorities Service Regulations"
+      },
+      {
+        "designation": "Deputy Conservator (Head of Marine Department)",
+        "pay_level": "Head of Department Scale (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 14+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Major Port Authorities Act, 2021"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection based on DG Shipping Master Mariner certificate, professional marine assessment, and Personal Interview before Port Selection Committee.",
+    "stages": [
+      {
+        "stage_name": "Professional Marine Competency Assessment",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Cochin Port Pilot Selection Process",
+        "papers": [
+          {
+            "paper_name": "Master Mariner (Foreign Going) Nautical Competency & Sea Service Scrutiny",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Valid Certificate of Competency (COC) as Master of a Foreign Going Ship"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Cochin Port Pilot Selection Process",
+        "papers": [
+          {
+            "paper_name": "Interview before Cochin Port Selection Board",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Technical and Navigational Competency clearance"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by Major Port Authority Class I Officer Scale with specialized Marine Pilotage Allowances.",
+    "pay_level": "Class I Officer Scale (Scale ₹70,000 – ₹2,00,000)",
+    "entry_basic_pay": 70000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-05",
+    "pay_source_url": "https://cochinport.gov.in",
+    "pay_source_label": "Cochin Port Pilot Recruitment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 140000,
+      "max": 165000
+    },
+    "in_hand_range_estimate": {
+      "min": 120000,
+      "max": 145000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic ₹70,000, 58% IDA DA (₹40,600), Pilotage allowance, Navigation risk allowance, HRA, and specialized marine perks.",
+    "official_perks": [
+      "Specialized Marine Pilotage Allowance and Risk Allowance",
+      "Port residential quarters at Willingdon Island or Kochi HRA",
+      "Free medical treatment at Cochin Port Trust Hospital",
+      "Port Contributory Provident Fund, Gratuity, and Pension",
+      "Leave Travel Concession and Marine uniform allowance"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment vacancies for Marine Pilot Class I at Cochin Port Authority.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 6,
+        "confidence": "verified",
+        "as_of": "2024-01-05",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Cochin Port Pilot Advt 2024"
+      },
+      {
+        "year": 2022,
+        "vacancies": 4,
+        "confidence": "verified",
+        "as_of": "2022-03-10",
+        "source_url": "https://cochinport.gov.in",
+        "source_label": "Cochin Port Pilot Advt 2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on Cochin Port Authority website.",
+    "links": [
+      {
+        "label": "Cochin Port Authority Careers & Vacancies",
+        "url": "https://cochinport.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "Cochin Port Authority Official Portal",
+        "url": "https://cochinport.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

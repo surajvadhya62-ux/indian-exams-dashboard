@@ -1,0 +1,204 @@
+{
+  "id": "hssc-cet-group-c",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "HSSC Common Eligibility Test (CET) Group C serves as the mandatory qualifying gateway for all Group C ministerial, executive, and technical posts across Haryana Government departments, statutory boards, and universities. Promotions follow respective departmental service rules under the Haryana Civil Services framework.",
+    "steps": [
+      {
+        "designation": "Junior Assistant / Clerk / Subordinate Group C Post",
+        "pay_level": "Level 2 (FPL-2)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Staff Selection Commission (HSSC) Group C CET Notification & Haryana Civil Services (Revised Pay) Rules"
+      },
+      {
+        "designation": "Assistant / Senior Assistant / Inspector Subordinate",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Government Ministerial & Subordinate Services Cadre Rules"
+      },
+      {
+        "designation": "Deputy Superintendent",
+        "pay_level": "Level 7 (FPL-7)",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Civil Secretariat / Departmental Promotion Rules"
+      },
+      {
+        "designation": "Superintendent / Administrative Officer",
+        "pay_level": "Level 8 (FPL-8)",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Subordinate Services Promotion Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Group C posts in Haryana operates through a two-tier mechanism: the Common Eligibility Test (CET Group C) screening examination followed by post-group specific Mains written/skill examinations for shortlisted candidates.",
+    "stages": [
+      {
+        "stage_name": "Common Eligibility Test (CET Group C Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC CET Group C Policy Notification No. 42/119/2019-5GS-I & Examination Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Awareness, Reasoning, Quantitative Aptitude, English, Hindi, and Computer Fundamentals (75% weightage)",
+            "marks": 71.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.95 deducted if fifth bubble left unshaded",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% marks for General Category (47.5 marks out of 95), 40% for Reserved Categories"
+          },
+          {
+            "paper_name": "Haryana General Knowledge — History, Civics, Geography, Literature, Environment, and Culture of Haryana (25% weightage)",
+            "marks": 23.75,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.95 deducted if fifth bubble left unshaded",
+            "qualifying_only": true,
+            "qualifying_threshold": "Combined aggregate qualifying cutoff with general section"
+          }
+        ]
+      },
+      {
+        "stage_name": "Group C Category-Specific Mains Written Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Advt No. 03/2023 & Syllabus for Group C Posts (Groups 1 to 63)",
+        "papers": [
+          {
+            "paper_name": "Post-Relevant Domain & Subject Knowledge (70% weightage: e.g. Commerce/Engineering/Land Revenue/Secretariat Administration)",
+            "marks": 68.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; fifth bubble mandatory",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-based selection within category-shortlisted candidates"
+          },
+          {
+            "paper_name": "General Awareness, Reasoning, Computer Literacy & Haryana History/Culture (30% weightage)",
+            "marks": 29.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; fifth bubble mandatory",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-based selection"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Remuneration for Group C posts in Haryana spans Functional Pay Levels FPL-2 (₹19,900) for Clerks up to FPL-6 (₹35,400) for specialized posts, governed by Haryana Civil Services (Revised Pay) Rules, 2016.",
+    "pay_level": "Level 2 (FPL-2) to Level 6 (FPL-6)",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-01",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016, Finance Department, Government of Haryana",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 62000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 54000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Lower boundary calculated on entry Level 2 basic pay (₹19,900) with 58% DA (₹11,542), HRA (8% to 24% by city tier), and standard deductions. Upper boundary calculated on entry Level 6 basic pay (₹35,400) with 58% DA and Class X/Y city HRA.",
+    "official_perks": [
+      "Dearness Allowance (DA) as sanctioned by Finance Department Haryana",
+      "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
+      "Medical allowance / reimbursement under Haryana Government Medical Scheme",
+      "Children Education Allowance (CEA)",
+      "Leave Travel Concession (LTC) once in a block of four years",
+      "New Pension Scheme (NPS) with state government matching contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "HSSC CET Group C represents one of the largest competitive recruitment examinations in Northern India, regulating appointment across all Group C cadres in Haryana.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 357562,
+        "vacancies": 31529,
+        "shortlisted_for_mains": 126000,
+        "selectivity_ratio": "approx. 1 in 11 (calculated: CET qualified candidates ÷ Group C vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Group C Recruitment Drive 2023-2024 across 63 job groups with 31,529 advertised vacancies"
+      },
+      {
+        "year": 2022,
+        "applicants": 1122000,
+        "vacancies": 32000,
+        "shortlisted_for_mains": 357562,
+        "selectivity_ratio": "approx. 1 in 35 (calculated: registered applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-01-10",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "National Testing Agency (NTA) & HSSC CET Group C Examination held November 5-6, 2022: 11.22 lakh registered, 7,73,572 appeared, 3,57,562 qualified."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, CET registration guidelines, exam syllabi, and group-wise recruitment notices are published directly on the HSSC portal.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advertisements & Recruitment Notifications Hub",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "CET-Group-C-2024",
+        "confidence": "verified",
+        "as_of": "2024-03-01"
+      },
+      {
+        "label": "HSSC Examination Syllabus Portal",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-03-01"
+      },
+      {
+        "label": "HSSC Results & Qualified Candidates Merit List",
+        "url": "https://hssc.gov.in/result",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

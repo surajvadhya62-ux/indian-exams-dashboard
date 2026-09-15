@@ -1,0 +1,306 @@
+{
+  "id": "ukpsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Uttarakhand Combined State Civil / Upper Subordinate Services Examination (Uttarakhand PCS) into administrative cadre posts like Deputy Collector enter the Uttarakhand Civil Service (Executive Branch). Career progression follows state administrative pay levels up to induction into the Indian Administrative Service (IAS — Uttarakhand Cadre) under the IAS (Appointment by Promotion) Regulations.",
+    "steps": [
+      {
+        "designation": "Deputy Collector / Sub-Divisional Magistrate (SDM) / Assistant Collector",
+        "pay_level": "Level-10 (₹56,100 - ₹1,77,500)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "UKPSC Advt. No. A-1/E-1/2026-27 & Uttarakhand State Pay Rules"
+      },
+      {
+        "designation": "Senior Scale Officer / Under Secretary to State Government",
+        "pay_level": "Level-11 (₹67,700 - ₹2,08,700)",
+        "years": "approx. 4-9 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "Uttarakhand Department of Personnel & Executive Cadre Rules"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Joint Secretary / Chief Development Officer (CDO)",
+        "pay_level": "Level-12 (₹78,800 - ₹2,09,200)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "Uttarakhand Department of Personnel & Executive Cadre Rules"
+      },
+      {
+        "designation": "Special Secretary / Additional Secretary to Government of Uttarakhand",
+        "pay_level": "Level-13 (₹1,18,500 - ₹2,14,100)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "Uttarakhand Department of Personnel & Executive Cadre Rules"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS — Uttarakhand Cadre) / District Magistrate (DM) / Collector",
+        "pay_level": "Level 11 / 12 / 13 (IAS Cadre Scale)",
+        "years": "approx. 18-24 yrs (Promotion Quota)",
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations, 1955 & DoPT"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Uttarakhand Combined State Civil / Upper Subordinate Services Examination (UKPSC PCS) is conducted in three successive stages: Preliminary Examination (Objective screening test), Main Examination (Written descriptive examination of 8 compulsory papers totaling 1,500 marks), and Personality Test / Interview (150 marks). Final selection merit is determined out of 1,650 marks.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "UKPSC PCS Advt. No. A-1/E-1/2026-27 Appendix-2 Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies (Indian History, Polity, Economy, Geography, Environment, and Uttarakhand GK)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th penalty for each wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit determining; marks determine the shortlist for Main examination. Minimum 1/3 (50 questions) mandatorily based on Uttarakhand state."
+          },
+          {
+            "paper_name": "Paper II: General Aptitude Test (Comprehension, Interpersonal Skills, Logical Reasoning, Decision Making, Basic Numeracy)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": "0.375 mark (1/4th penalty for each wrong answer, 1.5 marks per question)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 33% marks (49.5 out of 150) required to qualify; marks are not counted for Mains shortlisting merit."
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "UKPSC PCS Advt. No. A-1/E-1/2026-27 Appendix-2 Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper 1: General Hindi (Compulsory Language)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper; minimum 35% marks required to qualify"
+          },
+          {
+            "paper_name": "Paper 2: Essay",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper; evaluated on structure, coherence, and depth of analysis"
+          },
+          {
+            "paper_name": "Paper 3: General Studies - I (Indian Heritage and Culture, World History, Geography and Society)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper"
+          },
+          {
+            "paper_name": "Paper 4: General Studies - II (Governance, Constitution, Polity, Social Justice and International Relations)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper"
+          },
+          {
+            "paper_name": "Paper 5: General Studies - III (Technology, Economic Development, Biodiversity, Environment, Security and Disaster Management)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper"
+          },
+          {
+            "paper_name": "Paper 6: General Studies - IV (Ethics, Integrity and Aptitude)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper"
+          },
+          {
+            "paper_name": "Paper 7: General Studies - V (Knowledge of Uttarakhand State — History, Geography, Economy, Governance)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper; dedicated state-specific syllabus"
+          },
+          {
+            "paper_name": "Paper 8: General Studies - VI (Knowledge of Uttarakhand State — Society, Culture, Flora, Fauna, Disaster Profile)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit paper; dedicated state-specific syllabus"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "UKPSC PCS Advt. No. A-1/E-1/2026-27 Appendix-2 Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "Interview / Personality Test",
+            "marks": 150,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Comprehensive personality assessment; marks added to Mains written total (1,500 + 150 = 1,650 marks) for final ranking"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Officers recruited to administrative posts (Deputy Collector, DSP, Finance Officer, BDO, ARTO) under Uttarakhand Combined State Civil / Upper Subordinate Services are placed at Level-10 (Pay Scale ₹56,100 - ₹1,77,500) under the Uttarakhand State 7th Pay Commission pay rules.",
+    "pay_level": "Level-10 (₹56,100 - ₹1,77,500)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-09",
+    "pay_source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+    "pay_source_label": "UKPSC Advt. No. A-1/E-1/2026-27 (Post Code 1 to 14, Level-10)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 94687,
+      "max": 101736
+    },
+    "in_hand_range_estimate": {
+      "min": 83000,
+      "max": 91000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Level-10 Entry Basic Pay (₹56,100), Dearness Allowance at 58% (₹32,538), House Rent Allowance (9% in rural/smaller district stations to 18% in Dehradun / Tier-Y urban areas, or government residential accommodation), Hill Compensatory Allowance (for designated high-altitude mountain postings), and Medical Allowance (₹1,000/month flat). In-hand estimate accounts for statutory National Pension System (NPS) deduction of 10% on Basic + DA (₹8,864) and state group insurance.",
+    "official_perks": [
+      "Government designated residential accommodation or House Rent Allowance (HRA) up to 18%",
+      "Official government transport / vehicle with driver entitlement for administrative field postings",
+      "Hill Compensatory Allowance (HCA) admissible for designated mountain district postings",
+      "Comprehensive medical treatment reimbursement under Uttarakhand State Health Schemes",
+      "Official mobile, broadband, and communication expense reimbursement",
+      "Leave travel concession (LTC) as per Uttarakhand Civil Services Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Uttarakhand PCS historical candidate and vacancy data verified from official UKPSC notifications, advertisements, and examination calendars.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 67,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-09-09",
+        "source_url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "source_label": "UKPSC Advt. No. A-1/E-1/2026-27 dated 09-09-2026"
+      },
+      {
+        "year": 2024,
+        "applicants": 142000,
+        "vacancies": 189,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1 in 751",
+        "confidence": "reported",
+        "as_of": "2026-07-03",
+        "source_url": "https://psc.uk.gov.in/public/uploads/results/1098088520.pdf",
+        "source_label": "UKPSC Advt. No. A-2/E-1/PCS/2023-24 & Notice No. 19/28/PCS-2024/G-1/2025-26"
+      },
+      {
+        "year": 2021,
+        "applicants": 256923,
+        "vacancies": 318,
+        "shortlisted_for_mains": 5268,
+        "selectivity_ratio": "1 in 808",
+        "confidence": "reported",
+        "as_of": "2023-08-30",
+        "source_url": "https://psc.uk.gov.in/public/uploads/pdf/1714154668.pdf",
+        "source_label": "UKPSC Advt. No. A-1/E-1/2021-22 & Final Selection Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official advertisement, examination calendar, result notifications, and online application portal links provided by Uttarakhand Public Service Commission (UKPSC).",
+    "links": [
+      {
+        "label": "Uttarakhand Combined State Civil / Upper Subordinate Services Exam-2026 — Official Advertisement",
+        "url": "https://pscuk.net.in/public/advertisements/1788950135_6aa1367703eefPCS%20Advertisement%202026%20real.pdf",
+        "type": "notification",
+        "cycle_label": "PCS-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-09"
+      },
+      {
+        "label": "UKPSC Annual Examination Calendar (All Examinations Schedule)",
+        "url": "https://psc.uk.gov.in/public/uploads/pdf/1714154668.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2024-04-26"
+      },
+      {
+        "label": "Combined State Civil / Upper Subordinate Services Exam-2024 — Marks Release Notice",
+        "url": "https://psc.uk.gov.in/public/uploads/results/1098088520.pdf",
+        "type": "other",
+        "cycle_label": "PCS-2024",
+        "confidence": "verified",
+        "as_of": "2026-07-03"
+      },
+      {
+        "label": "Combined State Civil Lower Subordinate Services Exam-2024 — Notice",
+        "url": "https://psc.uk.gov.in/public/uploads/recruitment/581827454.pdf",
+        "type": "other",
+        "cycle_label": "Lower-PCS-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-09"
+      },
+      {
+        "label": "UKPSC Official Online Application Portal",
+        "url": "https://pscuk.net.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Uttarakhand Public Service Commission Official Website",
+        "url": "https://psc.uk.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

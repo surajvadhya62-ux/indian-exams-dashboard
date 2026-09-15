@@ -1,0 +1,205 @@
+{
+  "id": "oicl-ao",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The Oriental Insurance Company Limited (OICL) is a leading public sector general insurance company wholly owned by the Government of India. Administrative Officers (Scale I) are recruited in Generalist and Specialist cadres (Accounts, Legal, Engineering, Medical, IT, Actuarial). Career progression is regulated by the General Insurance (Rationalisation of Pay Scales and Other Conditions of Service of Officers) Scheme.",
+    "steps": [
+      {
+        "designation": "Administrative Officer (AO - Scale I)",
+        "pay_level": "Scale I (₹50,925 - 96,765)",
+        "years": "Entry level (probation 1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL — Recruitment of Administrative Officers (Scale I) Notification / Public Sector General Insurance Cadre Scheme"
+      },
+      {
+        "designation": "Assistant Manager (Scale II)",
+        "pay_level": "Scale II (₹64,820 - 93,960)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL Officer Promotion Policy"
+      },
+      {
+        "designation": "Manager (Scale III)",
+        "pay_level": "Scale III (₹85,920 - 1,05,280)",
+        "years": "approx. 8-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL Officer Promotion Policy"
+      },
+      {
+        "designation": "Deputy Manager / Chief Manager (Scale IV)",
+        "pay_level": "Scale IV",
+        "years": "approx. 13-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL Officer Promotion Policy"
+      },
+      {
+        "designation": "Assistant General Manager (AGM - Scale V) / Deputy General Manager (DGM - Scale VI)",
+        "pay_level": "Scale V / VI",
+        "years": "approx. 18-23 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "Public Sector General Insurance Executive Cadre"
+      },
+      {
+        "designation": "General Manager (GM - Scale VII) / Chairman-cum-Managing Director (CMD)",
+        "pay_level": "Scale VII / Board of Directors",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "Government of India Appointment / Board Level"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Administrative Officer (Scale I) in OICL comprises a three-tier process: Phase I Preliminary Examination (Objective, 100 marks), Phase II Main Examination (Objective 200 marks + Descriptive English 30 marks = 230 marks total), followed by Phase III Interview. In objective papers of both Phase I and Phase II, a penalty of 1/4th (0.25) mark is deducted for each incorrect response.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Preliminary Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL — Recruitment of Administrative Officers (Scale I) Notification (Phase-I Scheme)",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum sectional cutoff"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum sectional cutoff"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum sectional cutoff"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Main Examination (Objective & Descriptive Tests)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL — Recruitment of Administrative Officers (Scale I) Notification (Phase-II Scheme)",
+        "papers": [
+          {
+            "paper_name": "Objective Test: Reasoning, English Language, General Awareness, Quantitative Aptitude & Professional Knowledge",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional and aggregate qualifying marks apply"
+          },
+          {
+            "paper_name": "Descriptive Test: English Language (Letter Writing - 10 marks & Essay - 20 marks)",
+            "marks": 30,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying score required (evaluated only if objective cutoff is cleared)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL — Recruitment of Administrative Officers (Scale I) Notification (Interview Stage)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Designated OICL centers across India)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Final selection based on combined scores of Phase II (Mains) and Interview"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Scale I Administrative Officers in OICL receive basic pay starting at ₹50,925 in the scale of ₹50,925 - 2,500(14) - 85,925 - 2,710(4) - 96,765 under the General Insurance rationalised pay scale. Total initial monthly gross emoluments are approximately ₹85,000 to ₹88,000 in metro cities.",
+    "pay_level": "Officer Scale I (Administrative Officer)",
+    "entry_basic_pay": 50925,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://orientalinsurance.org.in",
+    "pay_source_label": "OICL — Recruitment of Administrative Officers (Scale I) Notification (Emoluments & Benefits)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 82000, "max": 90000 },
+    "in_hand_range_estimate": { "min": 70000, "max": 78000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic pay of ₹50,925 plus applicable Dearness Allowance, House Rent Allowance (10% to 7% based on posting tier), and City Compensatory Allowance; net in-hand factors in defined pension contribution and standard tax deductions.",
+    "official_perks": [
+      "Company-provided accommodation or House Rent Allowance as per rules",
+      "Comprehensive medical coverage and Group Hospitalisation Insurance for officer and dependents",
+      "Defined contribution pension scheme and Gratuity benefits",
+      "Leave Travel Subsidy / Concession and leave encashment",
+      "Concessional staff loans for housing, vehicles, and consumer durables"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "OICL conducts recruitment for Administrative Officers (Scale I) for Generalist and Specialist cadres. In the 2024 recruitment cycle, a total of 100 vacancies were notified across Disciplines (Accounts, Actuarial, Engineering, Legal, and Medical).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 100,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://orientalinsurance.org.in",
+        "source_label": "OICL — Recruitment of 100 Administrative Officers (Scale I) Notification 2024"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment resources and portal links on The Oriental Insurance Company Limited website.",
+    "links": [
+      {
+        "label": "OICL Official Careers Portal",
+        "url": "https://orientalinsurance.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

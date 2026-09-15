@@ -1,0 +1,225 @@
+{
+  "id": "ts-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Civil Judge (Junior Division) / Judicial Magistrate of First Class (JMFC) is the foundational judicial cadre in the Telangana State Judicial Service, governed by the Telangana State Judicial (Service & Cadre) Rules, 2023. Promotional progression across subordinate judiciary ranks follows the recommendations of the Second National Judicial Pay Commission (SNJPC) approved by the Supreme Court of India, with career elevation regulated by the High Court of Telangana under Article 233 and Article 235 of the Constitution.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate of First Class (JMFC)",
+        "pay_level": "SNJPC J-1 Scale (₹77,840 - ₹1,36,520)",
+        "years": "0-5 yrs",
+        "confidence": "verified",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "High Court for the State of Telangana Notification No. 45/2025-RC & Telangana State Judicial Rules 2023"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Assistant Sessions Judge",
+        "pay_level": "SNJPC J-3 Scale (₹1,11,000 - ₹1,63,030)",
+        "years": "5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "Telangana Judicial Service Rules 2023 (Category-2 Cadre Promotion on merit-cum-seniority)"
+      },
+      {
+        "designation": "District & Sessions Judge (Entry Level) / Additional District Judge (ADJ)",
+        "pay_level": "SNJPC J-5 Scale (₹1,44,840 - ₹1,94,660)",
+        "years": "10-15 yrs",
+        "confidence": "reported",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "Telangana State Judicial Rules 2023 (65% promotion by seniority-cum-merit & 10% Limited Departmental Competitive Examination)"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade)",
+        "pay_level": "SNJPC J-6 Scale (₹1,63,030 - ₹2,19,090)",
+        "years": "15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "SNJPC Selection Grade Scale Structure & High Court Administration"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (PDJ) / Super Time Scale District Judge",
+        "pay_level": "SNJPC J-7 Scale (₹1,99,100 - ₹2,24,100)",
+        "years": "20+ yrs",
+        "confidence": "reported",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "SNJPC Super Time Scale Guidelines & High Court Administration"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process conducted by the High Court for the State of Telangana comprises three successive stages: Stage 1 Screening Test (Computer Based Test of 100 objective questions for shortlisting candidates in a 1:10 ratio with 40% qualifying threshold); Stage 2 Written Examination of three descriptive papers (Paper I: Civil Law, Paper II: Criminal Law, Paper III: English Translation & Judgment Writing / Legal Essay, each 100 marks and 3 hours duration); followed by Stage 3 Viva-Voce / Oral Interview (50 marks). Aggregate qualifying percentage in Written Examination and Viva-Voce combined is 60% for OC/EWS, 55% for BC, and 50% for SC/ST.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Screening Test (Computer Based Objective Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "High Court for the State of Telangana Notification No. 45/2025-RC (Clause on Screening Test)",
+        "papers": [
+          {
+            "paper_name": "Screening Test: Civil Laws, Criminal Laws, and English Comprehension",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% marks for shortlisting for Written Examination in 1:10 ratio of notified vacancies"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Examination (Descriptive Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "High Court for the State of Telangana Notification No. 45/2025-RC (Clause on Written Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Law (Substantive & Procedural Law)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "55% for OC/EWS, 50% for BC, 45% for SC/ST per paper"
+          },
+          {
+            "paper_name": "Paper II: Criminal Law (Indian Penal Code, CrPC, Evidence Act & Special Acts)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "55% for OC/EWS, 50% for BC, 45% for SC/ST per paper"
+          },
+          {
+            "paper_name": "Paper III: English Translation (Telugu to English & English to Telugu) and Judgment Writing / Legal Essay",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "55% for OC/EWS, 50% for BC, 45% for SC/ST per paper"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Viva-Voce (Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "High Court for the State of Telangana Notification No. 45/2025-RC (Clause on Viva-Voce)",
+        "papers": [
+          {
+            "paper_name": "Oral Interview & Legal Acumen Assessment",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Final aggregate (Written + Viva): 60% for OC/EWS, 55% for BC, 50% for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Civil Judges (Junior Division) in Telangana are compensated under the Second National Judicial Pay Commission (SNJPC) revised scale of ₹77,840 – ₹1,36,520 with an entry basic pay of ₹77,840. Allowances include Dearness Allowance (DA), House Rent Allowance (HRA) ranging between 10% and 27% (or government residential bungalow), sumptuary allowance, robe allowance, medical allowance, and judicial telephone/book reimbursements.",
+    "pay_level": "SNJPC J-1 Scale (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-12-01",
+    "pay_source_url": "https://tshc.gov.in",
+    "pay_source_label": "High Court for the State of Telangana Notification No. 45/2025-RC read with SNJPC Pay Matrix",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 135800,
+      "max": 154000
+    },
+    "in_hand_range_estimate": {
+      "min": 122800,
+      "max": 140500
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      "Official rent-free residential bungalow or HRA (10% to 27%)",
+      "Dearness Allowance (indexed per judicial commission rulings)",
+      "Sumptuary allowance & Robe allowance",
+      "Free medical facilities for self and family members",
+      "Conveyance / official vehicle or vehicle maintenance allowance",
+      "New Pension Scheme (NPS) with 14% government contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment notifications and vacancy statistics issued by the High Court for the State of Telangana for the cadre of Civil Judges (Junior Division).",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 94,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "94 vacancies notified (66 Direct Recruitment + 28 Recruitment by Transfer); candidates shortlisted in 1:10 ratio for Written Examination",
+        "confidence": "verified",
+        "as_of": "2025-12-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "High Court for the State of Telangana Notification No. 45/2025-RC dated 01.12.2025 & R.O.C. No. 45/2025-RC dated 28.03.2026"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 42,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "42 vacancies notified under Direct Recruitment and Recruitment by Transfer",
+        "confidence": "reported",
+        "as_of": "2023-02-01",
+        "source_url": "https://tshc.gov.in",
+        "source_label": "High Court for the State of Telangana Notification No. 1/2023-RC"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schedules, and recruitment portals maintained by the High Court for the State of Telangana.",
+    "links": [
+      {
+        "label": "High Court of Telangana Civil Judge Screening Test Result & Written Notice (PDF)",
+        "url": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_03_28T17_14_36.pdf",
+        "type": "notification",
+        "cycle_label": "JCJ 2025-26",
+        "confidence": "verified",
+        "as_of": "2026-03-28"
+      },
+      {
+        "label": "High Court of Telangana Civil Judge Written Exam Hall Ticket Notification (PDF)",
+        "url": "https://tshc.gov.in/documents/NORMAL_Recruitment_2026_06_10T15_06_41.pdf",
+        "type": "notification",
+        "cycle_label": "JCJ 2025-26",
+        "confidence": "verified",
+        "as_of": "2026-06-10"
+      },
+      {
+        "label": "High Court for the State of Telangana Recruitment Portal",
+        "url": "https://tshc.gov.in/showChildDocTypes?id=95",
+        "type": "other",
+        "cycle_label": "High Court Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

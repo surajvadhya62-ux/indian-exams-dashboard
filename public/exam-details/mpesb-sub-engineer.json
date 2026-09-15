@@ -1,0 +1,207 @@
+{
+  "id": "mpesb-sub-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Sub-Engineer (Up-Yantri / उपयंत्री - Civil/Electrical/Mechanical)",
+        "pay_level": "Level 8 (₹32,800 – ₹1,03,600)",
+        "promotion_criteria": "Direct recruitment through MPESB Combined Group-3 Recruitment Test for diploma and degree holders in Civil, Electrical and Mechanical Engineering.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MPESB Group-3 Sub-Engineer Rulebook 2026, Post Specifications"
+      },
+      {
+        "step_order": 2,
+        "designation": "Assistant Engineer / Sub-Divisional Officer (SDO / सहायक यंत्री)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Promotion through MPPSC DPC based on seniority-cum-merit after 7 to 10 years of service as Sub-Engineer and qualifying the prescribed departmental professional engineering examination.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MP Public Works / Water Resources Department Engineering Service Rules"
+      },
+      {
+        "step_order": 3,
+        "designation": "Executive Engineer (EE / कार्यपालन यंत्री)",
+        "pay_level": "Level 13 (₹67,300 – ₹2,06,900)",
+        "promotion_criteria": "Seniority-cum-merit promotion from Assistant Engineer cadre after 5 to 7 years in sub-divisional engineering administration.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MP State Engineering Gazetted Service Regulations"
+      },
+      {
+        "step_order": 4,
+        "designation": "Superintending Engineer (SE / अधीक्षण यंत्री)",
+        "pay_level": "Level 14 (₹1,18,500 – ₹2,14,100)",
+        "promotion_criteria": "Promotion on merit-cum-seniority to circle administrative leadership based on exceptional project delivery and ACR benchmarks.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MP Engineering Cadre Rules"
+      },
+      {
+        "step_order": 5,
+        "designation": "Chief Engineer (CE / मुख्य अभियंता) / Engineer-in-Chief (E-in-C)",
+        "pay_level": "Level 15 / 16 (₹1,44,200 – ₹2,18,200)",
+        "promotion_criteria": "Apex technical administrative leadership of department (PWD/WRD/PHE) selected on merit by state cabinet screening committee.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MP State Engineering Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Single Stage Written Examination (CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Khand A: General Knowledge, General Hindi, General English, General Mathematics, Reasoning Ability, General Science, Computer Knowledge",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Khand B: Relevant Technical Engineering Discipline (Civil / Electrical / Mechanical)",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 90,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MPESB Group-3 Sub-Engineer Rulebook 2026, Chapter 4, Page 113"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Document Verification & Department Allocation",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Engineering Diploma/Degree Credentials and Category Certificates",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MPESB Group-3 Sub-Engineer DV Guidelines"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 8 (₹32,800 – ₹1,03,600)",
+    "entry_basic_pay": 32800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+    "pay_source_label": "MPESB Group-3 Sub-Engineer Rulebook 2026, Post Code Details",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 55000,
+      "max": 60000
+    },
+    "in_hand_range_estimate": {
+      "min": 48000,
+      "max": 52000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance calculated at 58% of basic pay (₹19,024 per month at entry basic).",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "perk_description": "HRA ranging from 8% to 16% of basic pay depending on class of station/city.",
+        "confidence": "reported",
+        "source_label": "MP Civil Services HRA Rules"
+      },
+      {
+        "perk_name": "Field Conveyance & Project Allowance",
+        "perk_description": "Monthly travelling allowance and conveyance reimbursement for site supervision, canal inspections and project works.",
+        "confidence": "reported",
+        "source_label": "MP Engineering Works Manual"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Defined Contributory Pension Scheme with 14% matching employer contribution.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 850,
+        "applicants": 0,
+        "appeared": 0,
+        "cut_off_marks": {
+          "note": "Combined Group-3 Sub-Engineer recruitment test scheduled from 07/10/2026 across MP testing centers."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "source_label": "MPESB Group-3 Sub-Engineer Rulebook 2026"
+      },
+      {
+        "year": 2024,
+        "vacancies": 483,
+        "applicants": 25022,
+        "appeared": 18310,
+        "cut_off_marks": {
+          "civil_unreserved_open": 138.42,
+          "electrical_unreserved_open": 144.15,
+          "mechanical_unreserved_open": 141.28
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group3_SUBENG_RES24/G3_2024_ResultNote.pdf",
+        "source_label": "MPESB Group-3 Sub-Engineer 2024 Result Press Note dated 05/12/2024"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Group-3 Sub-Engineer Recruitment Test 2026 Rulebook",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/Group03_2026_Updated_27082026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPESB Group-3 Sub-Engineer 2024 Result Press Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_24/Group3_SUBENG_RES24/G3_2024_ResultNote.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "id": "tancet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "exam_scheme": {
+    "status": "available",
+    "note": "Tamil Nadu Common Entrance Test (TANCET) and Common Engineering Entrance Test and Admissions (CEETA-PG) are conducted annually by Anna University, Chennai on behalf of the Government of Tamil Nadu for admission into post-graduate professional degree programmes (M.B.A., M.C.A., and M.E./M.Tech./M.Arch./M.Plan.). All tests are administered as 2-hour offline pen-and-paper OMR examinations with negative marking of 1/4 mark per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Entrance Test (Single Paper, Offline OMR Method)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-10",
+        "source_url": "https://tancet.annauniv.edu/tancet/Information%20Brochure%202026.pdf",
+        "source_label": "Anna University TANCET/CEETA-PG 2026 Information to Candidates, Section 8: Guidelines and Syllabi for the Entrance Test",
+        "papers": [
+          {
+            "paper_name": "TANCET — M.B.A. Paper (Data Analysis, Reading Comprehension, Quantitative Aptitude, Data Sufficiency, English Usage)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/4 mark (0.25) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "TANCET — M.C.A. Paper (Quantitative Ability, Analytical Ability, Logical Reasoning, Computer Awareness)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/4 mark (0.25) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "CEETA-PG — M.E. / M.Tech. / M.Arch. / M.Plan. (Part I Engg Mathematics, Part II Basic Engineering & Sciences, Part III Technical Specialization)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/4 mark (0.25) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TANCET is the single-window gateway for thousands of state quota seats across University departments, Government, Government-aided, and affiliated self-financing colleges in Tamil Nadu. Candidate numbers reflect official registration and appearance statistics certified by Anna University.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 30919,
+        "vacancies": null,
+        "shortlisted_for_mains": 27468,
+        "selectivity_ratio": "88.84% attendance rate (27,468 appeared out of 30,919 registered across 35 centres in 15 cities)",
+        "confidence": "verified",
+        "as_of": "2026-05-22",
+        "source_url": "https://tancet.annauniv.edu/tancet/Press.pdf",
+        "source_label": "Anna University Press Release dated 22.05.2026 by Prof. Dr. D. Sridharan, Secretary, TANCET: 30,919 total registered, 27,468 appeared (TANCET MBA: 17,060 reg / 15,050 app; TANCET MCA: 7,982 reg / 7,281 app; CEETA-PG: 5,877 reg / 5,137 app)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Information Brochure, Press Releases, and examination portal maintained by the Centre for Entrance Examinations, Anna University, Chennai.",
+    "links": [
+      {
+        "label": "TANCET / CEETA-PG Official Examination Portal",
+        "url": "https://tancet.annauniv.edu/tancet/index.html",
+        "type": "other",
+        "cycle_label": "TANCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "TANCET / CEETA-PG 2026 — Information to Candidates Brochure",
+        "url": "https://tancet.annauniv.edu/tancet/Information%20Brochure%202026.pdf",
+        "type": "syllabus",
+        "cycle_label": "TANCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-10"
+      },
+      {
+        "label": "TANCET / CEETA-PG 2026 — Declaration of Results & Candidate Statistics Press Release",
+        "url": "https://tancet.annauniv.edu/tancet/Press.pdf",
+        "type": "other",
+        "cycle_label": "TANCET-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-22"
+      }
+    ]
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": "apsc-cce",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assam Civil Service (Junior Grade) officers start as Assistant Commissioner / Sub-Divisional Officer (Civil) / Circle Officer under Pay Band 4 (PB-4) and progress through state administrative grades (Senior Grade-II, Senior Grade-I, and Selection Grade) before being inducted into the Indian Administrative Service (IAS) under the Assam-Meghalaya joint cadre promotion quota (IAS Appointment by Promotion Regulations).",
+    "steps": [
+      {
+        "designation": "Assistant Commissioner / Sub-Divisional Officer (Civil) / Circle Officer — Assam Civil Service (Junior Grade)",
+        "pay_level": "Assam PB-4 (₹30,000 - ₹1,10,000 with Grade Pay ₹13,300)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/advt_2025/cce_2024_12_2025.pdf",
+        "source_label": "Assam Public Service Commission Advt. No. 12/2025 (CCE 2024) & Assam Services (ROP) Rules 2017"
+      },
+      {
+        "designation": "Sub-Divisional Officer (Civil, Independent Charge) / Additional Deputy Commissioner (ADC) — Senior Grade-II",
+        "pay_level": "Assam PB-4 (₹30,000 - ₹1,10,000 with Grade Pay ₹14,500)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Assam Civil Service (Cadre) Rules & Personnel (A) Department Guidelines, Government of Assam"
+      },
+      {
+        "designation": "Joint Secretary to Government of Assam / District Development Commissioner (DDC) / Additional Commissioner — Senior Grade-I",
+        "pay_level": "Assam PB-4 (₹30,000 - ₹1,10,000 with Grade Pay ₹15,700)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Assam Civil Service (Cadre) Rules, Personnel Department, Government of Assam"
+      },
+      {
+        "designation": "Additional Secretary / Special Secretary to Government of Assam / Director of State Department — Selection Grade",
+        "pay_level": "Assam PB-5 / Selection Grade (₹1,18,500 basic level equivalent)",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Assam Civil Service (Cadre) Rules, Personnel (A) Department, Government of Assam"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) — Assam-Meghalaya Joint Cadre",
+        "pay_level": "IAS Selection Grade (Level 13, ₹1,18,500 basic) / Super Time Scale (Level 14, ₹1,44,200 basic)",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations, DoPT & UPSC"
+      },
+      {
+        "designation": "District Commissioner (DC) / Secretary / Commissioner & Secretary to Government of Assam",
+        "pay_level": "Level 14 (Super Time Scale, ₹1,44,200 basic) to Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Indian Administrative Service (Pay) Rules & Department of Personnel and Training"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Examination consists of two successive stages in accordance with the Assam Public Services Combined Competitive Examination Rules, 1989 (as amended till 2023): Preliminary Examination (Objective type screening test carrying 400 marks with 30%-35% Assam-related questions in Paper I and 33% qualifying threshold in Paper II), and Main Examination (6 conventional written descriptive papers carrying 1,500 marks plus 180 marks Interview/Personality Test, totaling 1,680 marks for ranking. Optional papers were abolished under the 2022 amendment).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Assam Public Service Commission Combined Competitive Examination Scheme & Advt. No. 12/2025",
+        "papers": [
+          {
+            "paper_name": "General Studies I",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.50 mark (one-fourth of the 2 marks assigned per question deducted for incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit score in Paper I determines qualification for Main Examination shortlist (11 to 12 times the number of vacancies); 30%-35% questions compulsorily related to Assam"
+          },
+          {
+            "paper_name": "General Studies II (CSAT — Civil Services Aptitude Test)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.625 mark (one-fourth of the 2.5 marks assigned per question deducted for incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "33% (minimum 66 marks out of 200 required to qualify)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive & Interview/Personality Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "Assam Public Service Commission Combined Competitive Examination Scheme & Advt. No. 12/2025",
+        "papers": [
+          {
+            "paper_name": "Paper 1: Essay",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2: General Studies I (Indian History, Heritage, Culture, Geography of India & World, Society)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 3: General Studies II (Governance, Constitution, Polity, Social Justice, International Relations)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 4: General Studies III (Technology, Economic Development, Bio-diversity, Environment, Security, Disaster Management)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 5: General Studies IV (Ethics, Integrity and Aptitude)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 6: General Subject Paper on Assam (General Studies V — History, Heritage, Culture, Geography, Polity, Economy, Environment of Assam)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Interview / Personality Test (Board Interview at APSC Headquarters, Khanapara, Guwahati)",
+            "marks": 180,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Recruited cadres under APSC CCE are compensated under the Assam Services (Revision of Pay) Rules, 2017 (Assam ROP Rules 2017). Executive cadre posts such as Assam Civil Service (Jr. Grade) and Assam Police Service (Jr. Grade) are placed in Pay Band 4 (PB-4: ₹30,000 - ₹1,10,000) with Grade Pay of ₹13,300, establishing an entry basic pay of ₹43,300.",
+    "pay_level": "Assam PB-4 (₹30,000 - ₹1,10,000, Grade Pay ₹13,300)",
+    "entry_basic_pay": 43300,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-03-23",
+    "pay_source_url": "https://apsc.nic.in/advt_2025/cce_2024_12_2025.pdf",
+    "pay_source_label": "Assam Public Service Commission Advt. No. 12/2025 (CCE 2024), Clause 3: Pay Scale Admissible for Each Cadre/Post & Assam Services (ROP) Rules 2017",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 72000, "max": 82000 },
+    "in_hand_range_estimate": { "min": 62000, "max": 71000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated based on Assam PB-4 entry basic pay of ₹43,300 at project standard 58% DA (effective 1 Jul 2025) plus House Rent Allowance (10% in Guwahati/urban capital area, 8% or 7% in district headquarters and rural sub-divisions) and medical allowance (₹600–₹1,000/month); net in-hand reflects standard statutory deductions for New Pension Scheme (NPS, 10% on Basic+DA) and Group Insurance Scheme (GIS).",
+    "official_perks": [
+      "Government residential accommodation or designated quarters as per district entitlement",
+      "Official vehicle with driver for field inspections and executive duties (ACS/APS officers)",
+      "Personal armed security / police escort for SDM and DSP executive field postings",
+      "Medical reimbursement under the Assam Medical Attendance Rules / State Employee Health Scheme",
+      "Leave Travel Concession (LTC) and earned leave encashment benefits",
+      "Subsidized electricity, mobile, and broadband allowances for administrative officers"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, preliminary appearance, Mains qualification, and vacancy benchmarks are sourced from official APSC press releases, result notifications, and Commission advertisements for CCE 2024, CCE 2023, and CCE 2022.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": 262,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Recruitment cycle ongoing (262 vacancies across ACS, APS, Labour Officer, DTO, BDO, and allied services advertised under Advt. No. 12/2025)",
+        "confidence": "verified",
+        "as_of": "2025-03-23",
+        "source_url": "https://apsc.nic.in/advt_2025/cce_2024_12_2025.pdf",
+        "source_label": "APSC Advt. No. 12/2025: Combined Competitive (Preliminary) Examination 2024 (262 total vacancies notified across 16 state services)"
+      },
+      {
+        "year": 2023,
+        "applicants": 67251,
+        "vacancies": 235,
+        "shortlisted_for_mains": 2898,
+        "selectivity_ratio": "approx. 1 in 286 (calculated: registered applicants ÷ total vacancies; 50,750 candidates appeared in Prelims, 2,898 qualified for Mains)",
+        "confidence": "verified",
+        "as_of": "2024-05-09",
+        "source_url": "https://apsc.nic.in/advt_2024/Advt_No_02_2024_CCE-2023_12012024.pdf",
+        "source_label": "APSC Advt. No. 02/2024 (CCE 2023) & Official Preliminary Result Notification dated 9 May 2024 (235 vacancies, 67,251 applied, 50,750 appeared, 2,898 shortlisted for Mains)"
+      },
+      {
+        "year": 2022,
+        "applicants": null,
+        "vacancies": 913,
+        "shortlisted_for_mains": 10148,
+        "selectivity_ratio": "approx. 1 in 11 (Mains shortlist ÷ final vacancies; 10,148 shortlisted for Mains from Prelims, 2,736 called for Interview, 913 recommended on 17 Jan 2024)",
+        "confidence": "verified",
+        "as_of": "2024-01-17",
+        "source_url": "https://apsc.nic.in/cce.html",
+        "source_label": "APSC Advt. No. 26/2022 & Final Selection Notification dated 17 January 2024 (913 final vacancies, 10,148 shortlisted from Prelims on 12 April 2023, 2,736 interviewed, 913 recommended)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, syllabi, amendment rules, and recruitment portals are hosted by the Assam Public Service Commission on its official web servers.",
+    "links": [
+      {
+        "label": "APSC Official Commission Portal",
+        "url": "https://apsc.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "APSC CCE Dedicated Examination Hub (Scheme, Syllabus & PYQ Archive)",
+        "url": "https://apsc.nic.in/cce.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "APSC Online Recruitment & Application Portal",
+        "url": "https://apscrecruitment.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "APSC CCE 2024 Official Notification (Advt. No. 12/2025)",
+        "url": "https://apsc.nic.in/advt_2025/cce_2024_12_2025.pdf",
+        "type": "notification",
+        "cycle_label": "CCE-2024",
+        "confidence": "verified",
+        "as_of": "2025-03-23"
+      },
+      {
+        "label": "APSC CCE 2023 Official Notification (Advt. No. 02/2024)",
+        "url": "https://apsc.nic.in/advt_2024/Advt_No_02_2024_CCE-2023_12012024.pdf",
+        "type": "notification",
+        "cycle_label": "CCE-2023",
+        "confidence": "verified",
+        "as_of": "2024-01-12"
+      },
+      {
+        "label": "Assam Public Services CCE Consolidated Amendment Rules (Rules 1989 through 2023)",
+        "url": "https://apsc.nic.in/misc_2025/CCE_Amendment_Rules_ALL.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-03-23"
+      }
+    ]
+  }
+}

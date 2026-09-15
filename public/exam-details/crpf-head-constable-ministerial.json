@@ -1,0 +1,238 @@
+{
+  "id": "crpf-head-constable-ministerial",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Head Constable (Ministerial) is the foundational clerical and administrative rank in the Central Reserve Police Force (CRPF) under the Ministry of Home Affairs. Personnel manage office records, personnel files, finance/accounts, and logistical documentation in Group Centres, Battalions, and Directorate General offices. Progression through ministerial ranks culminates in induction into Group 'A' Gazetted status.",
+    "steps": [
+      {
+        "designation": "Head Constable (Ministerial)",
+        "pay_level": "Level 4",
+        "years": "Entry level (probation & clerical training 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Recruitment Notice for Assistant Sub-Inspector (Steno) and Head Constable (Ministerial) 2022"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (Ministerial)",
+        "pay_level": "Level 5",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Sub-Inspector (Ministerial)",
+        "pay_level": "Level 6",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Inspector (Ministerial)",
+        "pay_level": "Level 7",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Assistant Commandant (Ministerial)",
+        "pay_level": "Level 10",
+        "years": "approx. 24-28 yrs (induction into Group A Gazetted cadre)",
+        "confidence": "reported",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Directorate General Ministerial Cadre Structure and Service Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment is conducted across four sequential stages: Stage 1 Computer Based Test (CBT) of 100 objective questions across 4 sections (90 minutes); Stage 2 Skill Test (Typing test on computer for HC Ministerial); Stage 3 Physical Standard Test (PST) and Document Verification (DV); Stage 4 Detailed Medical Examination (DME) and Review Medical Examination (RME).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Scheme of Examination for Head Constable (Ministerial) 2022-23",
+        "papers": [
+          {
+            "paper_name": "Section A: Hindi Language Or English Language (Optional)",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for General; 35% for EWS/OBC/SC/ST"
+          },
+          {
+            "paper_name": "Section B: General Intelligence",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for General; 35% for EWS/OBC/SC/ST"
+          },
+          {
+            "paper_name": "Section C: Numerical Aptitude",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for General; 35% for EWS/OBC/SC/ST"
+          },
+          {
+            "paper_name": "Section D: Clerical Aptitude / General Aptitude",
+            "marks": 25,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% for General; 35% for EWS/OBC/SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Test (Typing Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Scheme of Skill Test for HC (Ministerial)",
+        "papers": [
+          {
+            "paper_name": "English Typing (minimum speed 35 wpm on computer) OR Hindi Typing (minimum speed 30 wpm on computer)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35 wpm English or 30 wpm Hindi with max 5% error allowance"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Standard Test (PST) & Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Physical Standards and Verification Rules",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement (Height: 165 cm male, 155 cm female; Chest: 77-82 cm male) and Verification of Original Testimonials",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Detailed Medical Examination (DME)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "MHA Guidelines for Medical Examination in CAPFs",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness (Vision: Better eye 6/6, Worse eye 6/9 without glasses; normal colour vision)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Medical Fit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Head Constable (Ministerial) in CRPF is placed in Pay Level 4 (₹25,500 – ₹81,100) under the 7th Central Pay Commission. Being ministerial staff, personnel are primarily deployed in administrative headquarters and establishments.",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-01-04",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 44000, "max": 55000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 48000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 with 58% DA (₹14,790), HRA (10% to 30%), Transport Allowance (₹900 to ₹1,350 + DA on TA), plus Ration Money Allowance (~₹3,965/month) where admissible, minus NPS deduction.",
+    "official_perks": [
+      "Ration Money Allowance (RMA) / messing facilities across CRPF establishments",
+      "Hair Cutting / Soap / Toilet allowance and Annual Dress Allowance (₹10,000 per annum)",
+      "Free medical care for employee and eligible family members through CRPF Composite Hospitals",
+      "Subsidized consumer goods purchasing through Central Police Canteen (CPC) facilities",
+      "Leave Travel Concession (LTC) and Children Education Allowance (CEA)",
+      "Government quarter allocation in CRPF Group Centres and family residential quarters"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Head Constable (Ministerial) in CRPF across direct recruitment drives conducted under the Ministry of Home Affairs.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 1315,
+        "confidence": "verified",
+        "as_of": "2023-01-04",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Recruitment for the post of ASI (Steno) and Head Constable (Ministerial) 2022-23 (HC Ministerial: 1,315 vacancies)"
+      },
+      {
+        "year": 2016,
+        "vacancies": 686,
+        "confidence": "verified",
+        "as_of": "2016-03-15",
+        "source_url": "https://rect.crpf.gov.in",
+        "source_label": "CRPF — Direct Recruitment for the Post of Head Constable (Ministerial) in CRPF 2015-16 (686 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and recruitment portals on CRPF's dedicated recruitment platform.",
+    "links": [
+      {
+        "label": "CRPF Recruitment Portal — Official Portal",
+        "url": "https://rect.crpf.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CRPF ASI (Steno) & Head Constable (Ministerial) 2022-23 Notification Archive",
+        "url": "https://rect.crpf.gov.in",
+        "type": "notification",
+        "cycle_label": "CRPF-HCM-2022",
+        "confidence": "verified",
+        "as_of": "2023-01-04"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

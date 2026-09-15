@@ -1,0 +1,284 @@
+{
+  "id": "cg-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Chhattisgarh are governed by the Chhattisgarh Lower Judicial Service (Recruitment and Conditions of Service) Rules, 2006 and the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Officers progress through Assured Career Progression (ACP) increments at 5-year intervals and promotional cadres up to the High Court.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Entry Level) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge (Entry Level) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) / ACJM",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "years": "approx. 15 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "District & Sessions Judge — Selection Grade",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "District & Sessions Judge — Super Time Scale / Principal District Judge",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2020-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur in WP(C) 643/2015"
+      },
+      {
+        "designation": "Elevation to High Court Judge (High Court of Chhattisgarh Bilaspur)",
+        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "years": "Constitutional Elevation",
+        "confidence": "verified",
+        "as_of": "2018-01-01",
+        "source_url": "https://highcourt.cg.gov.in/information/rule/rule.php",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Amendment Act; Article 217 Constitution of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Chhattisgarh Judicial Service (Civil Judge Entry Level) Examination is conducted in three stages: Preliminary Examination (Online/Offline Objective screening test), Main Examination (Conventional descriptive written paper focusing on Judgment Writing and Translation), and Viva-Voce (Personality Test).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC Civil Judge (Entry Level) Examination Advertisement & Scheme",
+        "papers": [
+          {
+            "paper_name": "Online Preliminary Examination (Objective Type Legal Studies)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening only; shortlists candidates for Main Examination in the ratio of 1:10 of the advertised vacancies"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC Civil Judge (Entry Level) Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Framing of Issues and Judgment Writing (Civil Cases)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Framing of Charges and Judgment Writing (Criminal Cases)",
+            "marks": 40,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Translation: English to Hindi",
+            "marks": 10,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Translation: Hindi to English",
+            "marks": 10,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Personality Test)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC Civil Judge (Entry Level) Examination Viva-Voce Rules",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce (Interview)",
+            "marks": 15,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% (approx. 5 marks) for Unreserved candidates; minimum 25% (approx. 3.75 marks) for SC/ST/OBC candidates; candidates shortlisted in 1:3 ratio of vacancies"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Chhattisgarh receive remuneration governed by the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Pay Scale Level J-1 is ₹77,840 - ₹1,36,520 with judicial perks and allowances.",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2020-01-01",
+    "pay_source_url": "https://psc.cg.gov.in/Advertisement.php",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) & High Court of Chhattisgarh Bilaspur",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 125000,
+      "max": 150000
+    },
+    "in_hand_range_estimate": {
+      "min": 108000,
+      "max": 130000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Level J-1 entry basic ₹77,840 + 58% DA (₹45,147) + judicial HRA (8%–16% or official government judicial bungalow) + judicial sumptuary, robe, medical, conveyance, and domestic help allowances. In-hand estimate reflects standard statutory deductions including 10% NPS (Basic + DA), GIS, and Professional Tax.",
+    "official_perks": [
+      "Official designated judicial residence / government bungalow in posting district",
+      "Sumptuary allowance and robe allowance per SNJPC recommendations",
+      "Conveyance allowance / official vehicle with driver and fuel entitlement",
+      "Medical facilities and reimbursement for officer and dependent family members",
+      "Electricity and water charge reimbursement up to prescribed monthly units",
+      "Residential orderly / attendant allowance and telephone/broadband reimbursement"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from CGPSC advertisements, preliminary screening results, and final select lists issued in coordination with the High Court of Chhattisgarh Bilaspur.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 18500,
+        "vacancies": 57,
+        "shortlisted_for_mains": 570,
+        "selectivity_ratio": "1 in 325 (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-12-26",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC Civil Judge (Entry Level) Advt. No. 04/2024/Exam"
+      },
+      {
+        "year": 2023,
+        "applicants": 16200,
+        "vacancies": 49,
+        "shortlisted_for_mains": 490,
+        "selectivity_ratio": "1 in 330 (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-06-05",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC Civil Judge (Entry Level) Advt. No. 08/2023/Exam"
+      },
+      {
+        "year": 2022,
+        "applicants": 15400,
+        "vacancies": 48,
+        "shortlisted_for_mains": 480,
+        "selectivity_ratio": "1 in 321 (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-12-14",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC Civil Judge (Entry Level) Advt. No. 20/2022/Exam"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, model answer keys, and service rules published by CGPSC and the High Court of Chhattisgarh Bilaspur.",
+    "links": [
+      {
+        "label": "CGPSC Official Recruitment Advertisements Portal",
+        "url": "https://psc.cg.gov.in/Advertisement.php",
+        "type": "notification",
+        "cycle_label": "Advt-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CGPSC Official Examination Notifications & Press Releases",
+        "url": "https://psc.cg.gov.in/Notifications.php",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CGPSC Official Model Answer Keys & Question Paper Archive",
+        "url": "https://psc.cg.gov.in/Modelanswer.php",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "High Court of Chhattisgarh Bilaspur — Rules & Service Regulations Portal",
+        "url": "https://highcourt.cg.gov.in/information/rule/rule.php",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "High Court of Chhattisgarh Bilaspur — Subordinate Judiciary Recruitment Portal",
+        "url": "https://highcourt.cg.gov.in/recruit/recruitdc.php",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

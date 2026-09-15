@@ -1,0 +1,201 @@
+{
+  "id": "beml-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in BEML Limited undergo 1 year training and probation before absorption into permanent executive cadre as Assistant Manager in Grade E-1, advancing across defence, mining & construction, and rail & metro manufacturing divisions.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Mechanical / Electrical / Metallurgy / HR / Finance)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Recruitment Advertisement for Management Trainees"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Executive Cadre Rules (Absorption upon training completion)"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Engineering Cadre Structure"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Middle Management Hierarchy"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Senior Executive Rules"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Executive Cadre Norms"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Top Management and Board Cadre"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection comprises a Computer Based Written Examination (CBT) followed by an Assessment Center / Personal Interview. Final selection is based on 85% weightage for Written Test and 15% weightage for Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Written Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML MT Examination Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: Discipline Specific Subject Domain Knowledge",
+            "marks": 60,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for SC/ST/OBC/PwD"
+          },
+          {
+            "paper_name": "Part II: General Awareness, English Language, Quantitative Aptitude & Reasoning",
+            "marks": 40,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Personal Interview before Selection Panel",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for General and 50% for Reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Pay package conforms to DPE 3rd PRC IDA executive pattern. Management Trainees enter in Grade E-1 with ₹40,000 starting basic pay, mandatory 58% DA constant as of 2025-07-01, Bengaluru HRA (27%), and industrial perks.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://www.bemlindia.in/careers",
+    "pay_source_label": "BEML Terms of Recruitment and Pay Structure",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 74000,
+      "max": 90000
+    },
+    "in_hand_range_estimate": {
+      "min": 64000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹40,000, 58% IDA (₹23,200), Bengaluru HRA (27% = ₹10,800) or Company Township housing (KGF / Mysuru), Cafeteria perks (31% = ₹12,400), less statutory PF (12%) and medical deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised on quarterly basis",
+      "Company Quarters in BEML Township (Bengaluru / KGF / Mysuru) or HRA @ 27%",
+      "Cafeteria Approach Allowances up to 31% of basic pay",
+      "Performance Related Pay (PRP) based on annual company profitability and division MoU rating",
+      "Contributory Provident Fund, Gratuity, and Defined Superannuation Pension Scheme",
+      "Comprehensive medical facilities at BEML Medical Centres / empanelled specialty hospitals"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from BEML Management Trainee notifications.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 68,
+        "applicants": 29400,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 432",
+        "confidence": "reported",
+        "as_of": "2023-11-15",
+        "source_url": "https://www.bemlindia.in/careers",
+        "source_label": "BEML Advt. No. KP/S/03/2023: 68 Management Trainee vacancies across Mechanical, Electrical, and Metallurgy."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, test patterns, and interview results published on the BEML Limited portal.",
+    "links": [
+      {
+        "label": "BEML Official Careers Portal",
+        "url": "https://www.bemlindia.in/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BEML Corporate Website",
+        "url": "https://www.bemlindia.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

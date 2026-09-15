@@ -1,0 +1,242 @@
+{
+  "id": "ibps-rrb",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Regional Rural Banks (RRBs) operate under the sponsorship of nationalized commercial banks and NABARD supervision to provide institutional rural credit, agricultural financing, and priority sector banking across rural and semi-urban districts. Officers progress from Scale I through Scale III and senior management executive roles.",
+    "steps": [
+      {
+        "designation": "Officer Scale I (Assistant Manager / Branch Manager in rural branches)",
+        "pay_level": "Scale I",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "12th Bipartite Settlement alignment per Department of Financial Services (DFS) orders, Officer Scale I entry basic ₹48,480"
+      },
+      {
+        "designation": "Officer Scale II (Manager / Specialist Officer)",
+        "pay_level": "Scale II",
+        "years": "approx. 4-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Regional Rural Banks (Appointment and Promotion of Officers and Employees) Rules"
+      },
+      {
+        "designation": "Officer Scale III (Senior Manager / Regional Manager)",
+        "pay_level": "Scale III",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Regional Rural Banks (Appointment and Promotion of Officers and Employees) Rules"
+      },
+      {
+        "designation": "Chief Manager / General Manager (Scale IV / V)",
+        "pay_level": "Scale IV / V",
+        "years": "approx. 13-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Regional Rural Banks Promotion Rules & Sponsor Bank Deputation"
+      },
+      {
+        "designation": "Chairman (on deputation from Sponsor Nationalized Bank)",
+        "pay_level": "Top Executive (Sponsor Bank)",
+        "years": "Appointed by Sponsor Bank / GOI",
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "Regional Rural Banks Act, 1976"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The IBPS CRP for RRBs recruits for both Group 'A' Officers (Scale I, II & III) and Group 'B' Office Assistants (Multipurpose). For Officer Scale I, selection consists of Preliminary, Main Examination, and Personal Interview. For Office Assistant (Multipurpose), there is no interview; selection is determined 100% on Main Examination merit. Objective tests carry 1/4th (0.25 marks) negative marking.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination — Officer Scale I & Office Assistant (Objective Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP RRBs XIII Notification & Detailed Scheme",
+        "papers": [
+          {
+            "paper_name": "Reasoning",
+            "marks": 40,
+            "duration_minutes": 22,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (40 questions)"
+          },
+          {
+            "paper_name": "Quantitative Aptitude (Officer Scale I) / Numerical Ability (Office Assistant)",
+            "marks": 40,
+            "duration_minutes": 23,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable (40 questions; composite time 45 minutes)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination — Officer Scale I (Scored for Interview Shortlisting)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP RRBs XIII Scheme of Main Examination",
+        "papers": [
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "-25% (40 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Computer Knowledge",
+            "marks": 20,
+            "duration_minutes": 15,
+            "negative_marking": "-25% (40 questions of 0.5 marks each)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 40,
+            "duration_minutes": 20,
+            "negative_marking": "-25% (40 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language or Hindi Language (Optional)",
+            "marks": 40,
+            "duration_minutes": 25,
+            "negative_marking": "-25% (40 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "-25% (40 questions; total composite time 120 minutes)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview (Officer Scale I)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP RRBs Selection Guidelines",
+        "papers": [
+          {
+            "paper_name": "Interview Board (Mains score 80% weightage + Interview 20% weightage = 100 aggregate merit)",
+            "marks": 100,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying marks: 40% (35% for SC/ST/OBC/PwBD)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Officer Scale I (RRB)",
+    "entry_basic_pay": 48480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-06-01",
+    "pay_source_url": "https://www.ibps.in",
+    "pay_source_label": "12th Bipartite Settlement parity for Regional Rural Banks per DFS / NABARD guidelines (Officer Scale I entry basic ₹48,480)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 65000, "max": 82000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 71000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹48,480 for Officer Scale I (and ₹24,050 for Office Assistant Multipurpose). Initial gross monthly pay for Scale I officers ranges from ₹65,000 to ₹82,000 depending on rural/semi-urban allowances, House Rent Allowance (7% to 9%), Special Allowance, and Dearness Allowance. Deductions include NPS and professional tax.",
+    "official_perks": [
+      "House Rent Allowance or Bank leased accommodation in district headquarters / rural centers",
+      "Special Allowance and Dearness Allowance per Bipartite settlement terms",
+      "Medical aid and hospitalization coverage for officer and family per RRB regulations",
+      "Leave Travel Concession (LTC) / Home Town travel benefits",
+      "Concessional staff loans for housing and vehicle purchase per RRB rules",
+      "Contributory Pension benefits under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "IBPS CRP RRBs is one of the highest-volume rural recruitments in India, filling thousands of officer and office assistant vacancies across 43 Regional Rural Banks nationwide.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1320000,
+        "vacancies": 10313,
+        "shortlisted_for_mains": 103130,
+        "selectivity_ratio": "approx. 1 in 128 (calculated: applicants ÷ notified vacancies across all posts)",
+        "confidence": "reported",
+        "as_of": "2024-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP RRBs XIII Detailed Notification (Officer Scale I: 3,583; Office Assistant: 5,585; Scale II/III: 1,145)"
+      },
+      {
+        "year": 2023,
+        "applicants": 1410000,
+        "vacancies": 8612,
+        "shortlisted_for_mains": 86120,
+        "selectivity_ratio": "approx. 1 in 164 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-06-01",
+        "source_url": "https://www.ibps.in",
+        "source_label": "IBPS — CRP RRBs XII Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official advertisements, participating RRB lists, state-wise language options, and cut-off marks are published on the IBPS portal under 'CRP RRBs'.",
+    "links": [
+      {
+        "label": "IBPS Official Web Portal — CRP RRBs Hub",
+        "url": "https://www.ibps.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "IBPS CRP RRBs XIII Detailed Notification & Instructions",
+        "url": "https://www.ibps.in",
+        "type": "notification",
+        "cycle_label": "CRP-RRBs-XIII",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "IBPS RRBs Examination Structure & Regional Language List",
+        "url": "https://www.ibps.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

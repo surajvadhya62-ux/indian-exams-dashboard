@@ -1,0 +1,290 @@
+{
+  "id": "kerala-psc-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police (Trainee) enter the General Executive Branch of Kerala Police at Pay Scale ₹45,600 - ₹95,600 as Station House Officers (SHO) and frontline supervising officers. The career ladder advances through Inspector of Police, Deputy Superintendent of Police (DySP) / Assistant Commissioner of Police (ACP), Superintendent of Police (Non-Cadre), and culminates in induction into the Indian Police Service (IPS) Kerala Cadre under the IPS (Appointment by Promotion) Regulations, 1955.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (Trainee) / Station House Officer (SHO)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹45,600 - ₹95,600)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-12-31",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Gazette Notification (Category No. 669/2022: Sub Inspector of Police Trainee, General Executive Branch) & Kerala Police Act 2011"
+      },
+      {
+        "designation": "Inspector of Police (Circle Inspector / IP / Station SHO)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹55,200 - ₹1,15,300)",
+        "years": "approx. 6-8 yrs",
+        "confidence": "reported",
+        "as_of": "2022-12-31",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala Police Executive Subordinate Service Rules & Home Department, Government of Kerala"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP) / Assistant Commissioner of Police (ACP) — Gazetted Class I",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹65,200 - ₹1,26,400)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2022-12-31",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala Police Service (KPS) Rules & State Police Chief Promotion Guidelines"
+      },
+      {
+        "designation": "Superintendent of Police (Non-Cadre / SP State Police Service)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹85,000 - ₹1,43,600)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "reported",
+        "as_of": "2022-12-31",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala State Police Service Seniority Lists, Home Department"
+      },
+      {
+        "designation": "Induction into Indian Police Service (IPS) — Kerala Cadre",
+        "pay_level": "IPS Selection Grade (Level 13, ₹1,18,500 basic) to Super Time Scale (Level 14, ₹1,44,200 basic)",
+        "years": "approx. 22-26+ yrs",
+        "confidence": "reported",
+        "as_of": "2022-12-31",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations, Ministry of Home Affairs & UPSC"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Sub-Inspector of Police (Trainee) involves a multi-tier selection process: Common Degree Level Preliminary Examination (Objective OMR screening test carrying 100 marks), Degree Level Main Written Examination (Objective OMR carrying 100 marks), Physical Measurement Test (PMT), Physical Efficiency Test (PET - National Physical Efficiency 1-star standard), and Medical Examination. Final rank list is prepared strictly based on the marks obtained in the Main Written Examination among candidates qualifying all physical and medical standards.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Common Degree Level Preliminary Examination (Objective OMR Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2022-12-31",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC Common Degree Level Preliminary Examination Scheme & Syllabus (Advt. No. 669/2022)",
+        "papers": [
+          {
+            "paper_name": "General Knowledge, Indian Constitution, Current Affairs, Science, Simple Arithmetic, Mental Ability, General English & Regional Language",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; statewide cut-off determines shortlist for Degree Level Main Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Degree Level Main Written Examination (Objective OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2022-12-31",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC Sub-Inspector Main Examination Scheme & Detailed Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: History, Geography, Economics, Civics & Indian Constitution",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II: Criminal Laws Overview (IPC, CrPC, Indian Evidence Act & Kerala Police Act)",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III: Simple Arithmetic, Mental Ability & Reasoning",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part IV: General English",
+            "marks": 15,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part V: Regional Language (Malayalam / Tamil / Kannada)",
+            "marks": 15,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Measurement Test (PMT)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2022-12-31",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Sub-Inspector Physical Standards Specification",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement (Male: Height min 167 cm [160 cm for SC/ST], Chest min 81 cm with 5 cm expansion [76 cm with 5 cm expansion for SC/ST]; Female: Height min 160 cm [155 cm for SC/ST])",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard; candidate must fulfill prescribed minimum height and chest measurements"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Physical Efficiency Test (PET — National 1-Star Standard)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2022-12-31",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Sub-Inspector Physical Efficiency Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "PET Events (Male: Must qualify in min 5 of 8 events: 100m in 14.0s, High Jump 132.2cm, Long Jump 457.2cm, Shot Put 609.6cm, Cricket Ball Throw 6096cm, Rope Climbing 365.8cm, Pull-ups 8 times, 1500m in 5m 44s; Female: min 5 of 8 events)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Must qualify in at least 5 out of 8 prescribed athletic events"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 5: Medical Examination & Document Verification",
+        "stage_order": 5,
+        "confidence": "verified",
+        "as_of": "2022-12-31",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Police Academy & Medical Board Standards",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness & Vision Assessment (Distant vision 6/6 each eye, near vision 0.5 without glasses, normal colour vision, absence of flat foot, knock knees)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fitness certificate from authorized Government Medical Board"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police in Kerala Police are remunerated under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) at Pay Scale ₹45,600 - ₹95,600 with entry basic pay of ₹45,600.",
+    "pay_level": "Kerala 11th Pay Revision Scale (₹45,600 - ₹95,600)",
+    "entry_basic_pay": 45600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2022-12-31",
+    "pay_source_url": "https://www.keralapsc.gov.in/notifications",
+    "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 669/2022 & Kerala Police Headquarters Pay Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 76000, "max": 81000 },
+    "in_hand_range_estimate": { "min": 67000, "max": 73000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹45,600 with standard 58% DA (effective 1 Jul 2025, ₹26,448) plus House Rent Allowance (Class A Corporation ₹4,560, Class B ₹3,200, Class C ₹2,500), Police Special Duty/Investigation allowance (₹1,500/month), and Uniform allowance; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹7,205), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), Police Welfare Fund, and Professional Tax.",
+    "official_perks": [
+      "Government designated police residential quarters at station / circle headquarters",
+      "Official department vehicle (patrol jeep / motorcycle) for station and investigation duties",
+      "Comprehensive medical coverage under the Kerala Government MEDISEP scheme",
+      "Investigation allowance, mobile phone allowance, and uniform kit maintenance grants",
+      "Subsidized police canteen facility (KPSC/CAPF pattern)",
+      "Police Department Welfare and Benevolent Fund coverage for officer and family"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, preliminary appearance, Mains qualification, and final advice statistics for Sub-Inspector of Police (Trainee) recruitment sourced from Kerala PSC annual reports, gazette notifications, and police recruitment press notes.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 480000,
+        "vacancies": 220,
+        "shortlisted_for_mains": 18500,
+        "selectivity_ratio": "approx. 1 in 2,180 (calculated: 4.8 lakh degree-level applicants ÷ ~220 final vacancies; Category No. 669/2022; ~18,500 shortlisted for Mains, 2,800 cleared PET)",
+        "confidence": "reported",
+        "as_of": "2024-04-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Degree Level Preliminary & Sub-Inspector Selection Statistics (Cat. No. 669/2022)"
+      },
+      {
+        "year": 2019,
+        "applicants": 420000,
+        "vacancies": 214,
+        "shortlisted_for_mains": 15200,
+        "selectivity_ratio": "approx. 1 in 1,960 (calculated: 4.2 lakh applicants for Cat. No. 386/2019 ÷ 214 final advisees appointed; 1,940 candidates cleared PET; ranked list brought into force in 2023)",
+        "confidence": "verified",
+        "as_of": "2023-04-19",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Sub Inspector of Police (Trainee) Ranked List Notification No. 251/2023/SS VII dated 19 April 2023"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, syllabi, and physical standards guidelines for Sub-Inspector of Police (Trainee) recruitment hosted on Kerala PSC official servers.",
+    "links": [
+      {
+        "label": "Kerala PSC Official Portal",
+        "url": "https://www.keralapsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala Police Department Official Portal",
+        "url": "https://keralapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Thulasi Application Portal",
+        "url": "https://thulasi.psc.kerala.gov.in/thulasi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Notifications Archive",
+        "url": "https://www.keralapsc.gov.in/notifications",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Degree Level & Sub-Inspector Syllabus Archive",
+        "url": "https://www.keralapsc.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Previous Question Papers Archive",
+        "url": "https://www.keralapsc.gov.in/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

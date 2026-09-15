@@ -1,0 +1,221 @@
+{
+  "id": "rsmssb-patwari",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Revenue Patwaris are the foundational grassroots revenue and land records administration officials under the Board of Revenue (राजस्व मंडल), Ajmer, Government of Rajasthan. They maintain village land titles (Jamabandi), conduct crop inspections (Girdawari), certify mutation entries (Namantaran), and assist district administration in disaster relief and land acquisition.",
+    "steps": [
+      {
+        "designation": "Revenue Patwari (Halka Patwari)",
+        "pay_level": "Level L-5",
+        "years": "Entry (0-7 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Land Revenue (Land Records) Rules & Advt. 03/2019"
+      },
+      {
+        "designation": "Land Records Inspector / Revenue Inspector (Girdawar / Kanoongo)",
+        "pay_level": "Level L-8",
+        "years": "approx. 7-15 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://landrevenue.rajasthan.gov.in",
+        "source_label": "Board of Revenue Rajasthan Inspector Cadre Regulations"
+      },
+      {
+        "designation": "Naib Tehsildar (State Revenue Service / Executive Magistrate)",
+        "pay_level": "Level L-10",
+        "years": "approx. 15-22 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://landrevenue.rajasthan.gov.in",
+        "source_label": "Rajasthan Tehsildar Service Rules (Promotional Quota)"
+      },
+      {
+        "designation": "Tehsildar (Executive Magistrate / Sub-Registrar)",
+        "pay_level": "Level L-11 to Level L-12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Rajasthan Tehsildar Service (Gazetted) Hierarchy"
+      },
+      {
+        "designation": "Assistant Collector / Sub-Divisional Magistrate (RAS Senior Scale)",
+        "pay_level": "Level L-14",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Rajasthan Administrative Service Promotion Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Rajasthan Patwari Direct Recruitment Examination consists of a single-stage objective competitive written examination of 150 questions carrying 300 marks for a duration of 3 hours, followed by document verification of shortlisted candidates. For every incorrect response, 1/3rd of the marks assigned to that question (0.67 marks) is deducted as negative marking.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Patwari Examination Scheme & Detailed Syllabus (Advt. 03/2019)",
+        "papers": [
+          {
+            "paper_name": "General Science, History, Polity & Geography of India, General Knowledge & Current Affairs",
+            "marks": 76,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd (0.67 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Geography, History, Culture and Polity of Rajasthan",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd (0.67 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English and General Hindi",
+            "marks": 44,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd (0.67 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mental Ability and Reasoning, Basic Numerical Efficiency",
+            "marks": 90,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd (0.67 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Basic Computer",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "1/3rd (0.67 marks) deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Patwar Scrutiny)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Patwari Document Verification & Certificate Scrutiny Notice",
+        "papers": [
+          {
+            "paper_name": "Verification of Graduation Degree, RS-CIT / Computer Certificate & Domicile Credentials",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Revenue Patwaris are placed in Pay Matrix Level L-5 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,400) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period, a fixed trainee remuneration of ₹14,600 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹20,800 is drawn.",
+    "pay_level": "Level L-5",
+    "entry_basic_pay": 20800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule I Level L-5",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 38000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 33000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level L-5 entry basic pay of ₹20,800 at 58% DA (₹12,064 effective 01.07.2025), HRA (9% to 18%: ₹1,872 to ₹3,744), fixed rural field allowance / patwar baste allowance, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
+      "House Rent Allowance (HRA) categorized by district and posting classification",
+      "Patwar baste allowance and field travel reimbursement for revenue survey duties",
+      "Cashless medical facility across empanelled hospitals under RGHS",
+      "Defined pension coverage under restored Old Pension Scheme (OPS)",
+      "Privilege leave, causal leave, and annual leave travel concession benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official application, attendance, and recommendation figures compiled from RSMSSB Patwari selection orders and result notifications.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 1562995,
+        "appeared": 1044228,
+        "qualified_stage_1": 11339,
+        "recommended": 5610,
+        "vacancies": 5610,
+        "confidence": "verified",
+        "as_of": "2024-01-11",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Patwar 2021 Final Selection List-V (Notice Dated 11.01.2024)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Statutory advertisement, final selection orders, and result notifications published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Patwar 2021 Final Selection Recommendation Order (List-V)",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/Patwar2021_result11012024.pdf",
+        "type": "other",
+        "cycle_label": "Patwari-2021",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Patwar 2021 Final Selection Recommendation Order (List-III)",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/patwar2021_finalresultlist_III26082022.pdf",
+        "type": "other",
+        "cycle_label": "Patwari-2021",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Patwar 2019 Amended Detailed Advertisement",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/Patwar2019_Ammended_Adv_08072021.pdf",
+        "type": "notification",
+        "cycle_label": "Patwari-2019",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

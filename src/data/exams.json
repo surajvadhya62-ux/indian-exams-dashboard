@@ -1,8 +1,8 @@
 [
   {
     "id": "jee-main",
-    "name": "Joint Entrance Examination Main",
-    "acronym": "JEE Main",
+    "name": "Joint Entrance Examination Main (Paper 1 — B.E. / B.Tech)",
+    "acronym": "JEE Main Paper 1",
     "description": "National level entrance exam for admission to NITs, IIITs, CFTIs and other engineering institutions across India.",
     "domain": "Engineering",
     "field": [
@@ -21,7 +21,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "entrance",
-    "target_role": "B.Tech / B.E. / B.Arch / B.Planning",
+    "target_role": "B.Tech / B.E. at NITs, IIITs & Centrally Funded Technical Institutes (CFTIs)",
     "conducting_body": "NTA",
     "frequency": "Biannual",
     "exam_mode": "Online",
@@ -289,9 +289,9 @@
   },
   {
     "id": "nda",
-    "name": "National Defence Academy Examination",
-    "acronym": "NDA",
-    "description": "Entrance exam for admission to Army, Navy, and Air Force wings of the National Defence Academy and Naval Academy.",
+    "name": "National Defence Academy & Naval Academy Examination",
+    "acronym": "NDA & NA",
+    "description": "Conducted twice yearly (NDA I & II) by UPSC for admission to the Army, Navy and Air Force wings of the NDA and the Indian Naval Academy Course (INAC).",
     "domain": "Defence",
     "field": [
       "Defence Studies",
@@ -304,9 +304,9 @@
     ],
     "level": "Undergraduate",
     "exam_type": "entrance",
-    "target_role": "NDA Cadet / Naval Academy",
+    "target_role": "Cadet in Army, Navy, Air Force wings of NDA & 10+2 Cadet Entry Scheme of INA",
     "conducting_body": "UPSC",
-    "frequency": "Biannual",
+    "frequency": "Twice a year",
     "exam_mode": "Offline",
     "min_qualification": "Class 12 / Appearing (10+2 for Air Force & Navy with Physics & Maths)",
     "age_limit": "16.5 - 19.5 years",
@@ -839,7 +839,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "job",
-    "target_role": "Group B & C Central Government Posts",
+    "target_role": "Assistant Section Officer, Inspector & Group B/C Officers in Central Government",
     "conducting_body": "SSC",
     "frequency": "Annual",
     "exam_mode": "Online",
@@ -1580,37 +1580,6 @@
     "cadre": "Officer / Managerial"
   },
   {
-    "id": "upsc-nda-na",
-    "name": "UPSC NDA & Naval Academy Examination",
-    "acronym": "NDA & NA",
-    "description": "National Defence Academy and Naval Academy Examination for admission to Army, Navy and Air Force wings.",
-    "domain": "Defence",
-    "field": [
-      "Defence",
-      "Military"
-    ],
-    "specializations": [
-      "Army",
-      "Navy",
-      "Air Force"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "entrance",
-    "target_role": "NDA Cadet",
-    "conducting_body": "UPSC",
-    "frequency": "Biannual",
-    "exam_mode": "Offline",
-    "min_qualification": "Class 12 pass / appearing",
-    "age_limit": "16.5 - 19.5 years",
-    "official_website": "https://upsc.gov.in",
-    "application_period": "January & June",
-    "exam_month": "April & September",
-    "popularity": "high",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Entrance / Admission"
-  },
-  {
     "id": "capf-ac",
     "name": "Central Armed Police Forces Assistant Commandant",
     "acronym": "CAPF AC",
@@ -1959,42 +1928,6 @@
     "cadre": "Entrance / Admission"
   },
   {
-    "id": "ongc-gt",
-    "name": "ONGC Graduate Trainee Exam",
-    "acronym": "ONGC GT",
-    "description": "Recruitment exam for Graduate Trainee engineers and geoscientists through GATE score at ONGC.",
-    "domain": "Engineering",
-    "field": [
-      "Petroleum Engineering",
-      "Geology",
-      "Geophysics",
-      "Chemistry"
-    ],
-    "specializations": [
-      "Petroleum Engineering",
-      "Geology",
-      "Geophysics",
-      "Chemistry",
-      "Mechanical",
-      "Electrical"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Graduate Trainee at ONGC",
-    "conducting_body": "ONGC",
-    "frequency": "Annual",
-    "exam_mode": "Through GATE Score",
-    "min_qualification": "B.E. / B.Tech / M.Sc in relevant discipline",
-    "age_limit": "30 years",
-    "official_website": "https://www.ongcindia.com",
-    "application_period": "As notified (usually post-GATE)",
-    "exam_month": "Based on GATE score",
-    "popularity": "high",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
-  },
-  {
     "id": "ntpc-et",
     "name": "NTPC Executive Trainee Through GATE",
     "acronym": "NTPC ET",
@@ -2032,7 +1965,7 @@
   {
     "id": "iocl-apprentice",
     "name": "IOCL Apprentice / Engineer Recruitment",
-    "acronym": "IOCL",
+    "acronym": "IOCL Apprentice",
     "description": "Recruitment exam for engineers and officers at Indian Oil Corporation Limited through GATE and other modes.",
     "domain": "Engineering",
     "field": [
@@ -2063,40 +1996,6 @@
     "jurisdiction": "central",
     "state": "All India",
     "cadre": "Officer / Managerial"
-  },
-  {
-    "id": "bhel-et",
-    "name": "BHEL Engineer Trainee",
-    "acronym": "BHEL ET",
-    "description": "Recruitment of Engineer Trainees at Bharat Heavy Electricals Limited through GATE score.",
-    "domain": "Engineering",
-    "field": [
-      "Mechanical",
-      "Electrical",
-      "Electronics",
-      "Civil"
-    ],
-    "specializations": [
-      "Mechanical",
-      "Electrical",
-      "Electronics",
-      "Civil"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Engineer Trainee at BHEL",
-    "conducting_body": "BHEL",
-    "frequency": "Annual",
-    "exam_mode": "Through GATE Score",
-    "min_qualification": "B.E. / B.Tech in relevant discipline",
-    "age_limit": "29 years",
-    "official_website": "https://www.bhel.com",
-    "application_period": "As notified",
-    "exam_month": "Based on GATE score",
-    "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "isro-scientist",
@@ -2451,7 +2350,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "job",
-    "target_role": "Teacher in UP Schools",
+    "target_role": "UP Primary & Upper Primary School Teaching Eligibility (TET Qualification)",
     "conducting_body": "UP Basic Education Board",
     "frequency": "Annual",
     "exam_mode": "Offline",
@@ -2463,41 +2362,6 @@
     "popularity": "high",
     "jurisdiction": "state",
     "state": "Uttar Pradesh",
-    "cadre": "Teaching & Education"
-  },
-  {
-    "id": "dsssb",
-    "name": "Delhi Subordinate Services Selection Board",
-    "acronym": "DSSSB",
-    "description": "Recruitment exam for various posts including teaching, technical, and clerical in Delhi government departments.",
-    "domain": "Government Services",
-    "field": [
-      "Teaching",
-      "Administration",
-      "Technical"
-    ],
-    "specializations": [
-      "PGT",
-      "TGT",
-      "PRT",
-      "Clerk",
-      "Junior Engineer",
-      "Pharmacist"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Delhi Government Posts",
-    "conducting_body": "DSSSB",
-    "frequency": "Irregular",
-    "exam_mode": "Online",
-    "min_qualification": "Varies by post",
-    "age_limit": "Varies by post",
-    "official_website": "https://dsssb.delhi.gov.in",
-    "application_period": "As notified",
-    "exam_month": "As notified",
-    "popularity": "high",
-    "jurisdiction": "state",
-    "state": "Delhi",
     "cadre": "Teaching & Education"
   },
   {
@@ -2536,8 +2400,8 @@
   },
   {
     "id": "mpsc",
-    "name": "Maharashtra Public Service Commission State Services Exam",
-    "acronym": "MPSC",
+    "name": "Maharashtra Public Service Commission State Services (Rajyaseva) Examination",
+    "acronym": "MPSC Rajyaseva",
     "description": "State civil services exam for Group A and B posts in Maharashtra government.",
     "domain": "Government Services",
     "field": [
@@ -2552,7 +2416,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "job",
-    "target_role": "Maharashtra State Services",
+    "target_role": "Deputy Collector / DSP / Tehsildar (Class 1 & Class 2 Maharashtra State Services)",
     "conducting_body": "MPSC",
     "frequency": "Annual",
     "exam_mode": "Online",
@@ -2633,8 +2497,8 @@
   },
   {
     "id": "appsc",
-    "name": "Andhra Pradesh Public Service Commission Group I",
-    "acronym": "APPSC",
+    "name": "Andhra Pradesh Public Service Commission Group-1 Services Examination",
+    "acronym": "APPSC Group 1",
     "description": "State services exam for Group I posts in Andhra Pradesh government.",
     "domain": "Government Services",
     "field": [
@@ -2649,7 +2513,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "job",
-    "target_role": "AP State Services Group I",
+    "target_role": "Deputy Collector, DSP, Commercial Tax Officer (AP State Services Group 1)",
     "conducting_body": "APPSC",
     "frequency": "Annual",
     "exam_mode": "Online",
@@ -2665,8 +2529,8 @@
   },
   {
     "id": "tspsc",
-    "name": "Telangana State Public Service Commission Group I",
-    "acronym": "TSPSC",
+    "name": "Telangana State Public Service Commission Group-1 Services Examination",
+    "acronym": "TSPSC Group 1",
     "description": "State services exam for Group I posts in Telangana government.",
     "domain": "Government Services",
     "field": [
@@ -2680,7 +2544,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "job",
-    "target_role": "Telangana State Services",
+    "target_role": "RDO, DSP, Commercial Tax Officer (Telangana State Services Group 1)",
     "conducting_body": "TSPSC",
     "frequency": "Annual",
     "exam_mode": "Online",
@@ -3267,36 +3131,6 @@
     "cadre": "Entrance / Admission"
   },
   {
-    "id": "indian-navy-ssr-aa",
-    "name": "Indian Navy SSR / AA Recruitment",
-    "acronym": "Navy SSR/AA",
-    "description": "Recruitment for Senior Secondary Recruit and Artificer Apprentice in Indian Navy.",
-    "domain": "Defence",
-    "field": [
-      "Navy",
-      "Technical"
-    ],
-    "specializations": [
-      "SSR (Senior Secondary Recruit)",
-      "AA (Artificer Apprentice)"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Indian Navy Sailor",
-    "conducting_body": "Indian Navy",
-    "frequency": "Biannual",
-    "exam_mode": "Online",
-    "min_qualification": "Class 12 with PCM (60%)",
-    "age_limit": "17-20 years",
-    "official_website": "https://www.joinindiannavy.gov.in",
-    "application_period": "As notified",
-    "exam_month": "As notified",
-    "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
-  },
-  {
     "id": "indian-army-agniveer",
     "name": "Indian Army Agniveer Recruitment",
     "acronym": "Agniveer (Army)",
@@ -3397,7 +3231,7 @@
   },
   {
     "id": "ssc-cpo",
-    "name": "SSC Central Police Organisation",
+    "name": "Staff Selection Commission Central Police Organisation (SI in Delhi Police & CAPFs)",
     "acronym": "SSC CPO",
     "description": "Exam for recruitment of Sub-Inspectors in Delhi Police, CAPFs and ASI in CISF.",
     "domain": "Government Services",
@@ -3412,7 +3246,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "job",
-    "target_role": "Sub-Inspector in Delhi Police / CAPFs",
+    "target_role": "Sub-Inspector in Delhi Police & Central Armed Police Forces (CAPFs)",
     "conducting_body": "SSC",
     "frequency": "Annual",
     "exam_mode": "Online + Physical",
@@ -3493,7 +3327,7 @@
   {
     "id": "jee-main-arch",
     "name": "JEE Main Paper 2 (B.Arch / B.Planning)",
-    "acronym": "JEE Main B.Arch",
+    "acronym": "JEE Main Paper 2",
     "description": "Paper 2 of JEE Main for admission to B.Arch and B.Planning programs at NITs, SPAs and other institutions.",
     "domain": "Architecture",
     "field": [
@@ -3507,7 +3341,7 @@
     ],
     "level": "Undergraduate",
     "exam_type": "entrance",
-    "target_role": "B.Arch / B.Planning at NITs / SPAs",
+    "target_role": "B.Arch / B.Planning at SPAs, NITs & Architecture Institutes",
     "conducting_body": "NTA",
     "frequency": "Annual",
     "exam_mode": "Online + Drawing",
@@ -3924,77 +3758,6 @@
     "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
-    "id": "hpcl-et",
-    "name": "HPCL Engineer / Officer Recruitment",
-    "acronym": "HPCL",
-    "description": "Recruitment of Engineers and Officers at Hindustan Petroleum Corporation Limited through GATE score.",
-    "domain": "Engineering",
-    "field": [
-      "Chemical",
-      "Mechanical",
-      "Electrical",
-      "Civil",
-      "Instrumentation"
-    ],
-    "specializations": [
-      "Chemical",
-      "Mechanical",
-      "Electrical",
-      "Civil",
-      "Instrumentation"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Engineer / Officer at HPCL",
-    "conducting_body": "HPCL",
-    "frequency": "Annual",
-    "exam_mode": "Through GATE Score",
-    "min_qualification": "B.E. / B.Tech (60%)",
-    "age_limit": "25 years",
-    "official_website": "https://hindustanpetroleum.com",
-    "application_period": "As notified",
-    "exam_month": "Based on GATE score",
-    "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Officer / Managerial"
-  },
-  {
-    "id": "bpcl-et",
-    "name": "BPCL Management Trainee Recruitment",
-    "acronym": "BPCL MT",
-    "description": "Recruitment of Management Trainees at Bharat Petroleum Corporation Limited through GATE score.",
-    "domain": "Engineering",
-    "field": [
-      "Chemical",
-      "Mechanical",
-      "Electrical",
-      "Civil"
-    ],
-    "specializations": [
-      "Chemical",
-      "Mechanical",
-      "Electrical",
-      "Civil",
-      "Instrumentation"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Management Trainee at BPCL",
-    "conducting_body": "BPCL",
-    "frequency": "Annual",
-    "exam_mode": "Through GATE Score",
-    "min_qualification": "B.E. / B.Tech (60%)",
-    "age_limit": "28 years",
-    "official_website": "https://bharatpetroleum.in",
-    "application_period": "As notified",
-    "exam_month": "Based on GATE score",
-    "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
-  },
-  {
     "id": "ibps-so",
     "name": "IBPS Specialist Officer",
     "acronym": "IBPS SO",
@@ -4156,37 +3919,6 @@
     "cadre": "Entrance / Admission"
   },
   {
-    "id": "nda-na-ii",
-    "name": "NDA & NA Examination II",
-    "acronym": "NDA II",
-    "description": "Second NDA examination conducted in September for January course at NDA.",
-    "domain": "Defence",
-    "field": [
-      "Defence",
-      "Military"
-    ],
-    "specializations": [
-      "Army",
-      "Navy",
-      "Air Force"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "entrance",
-    "target_role": "NDA Cadet (January Course)",
-    "conducting_body": "UPSC",
-    "frequency": "Annual",
-    "exam_mode": "Offline",
-    "min_qualification": "Class 12 pass / appearing",
-    "age_limit": "16.5 - 19.5 years",
-    "official_website": "https://upsc.gov.in",
-    "application_period": "June",
-    "exam_month": "September",
-    "popularity": "high",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Entrance / Admission"
-  },
-  {
     "id": "lic-assistant",
     "name": "LIC Assistant Recruitment",
     "acronym": "LIC Assistant",
@@ -4277,40 +4009,6 @@
     "application_period": "As notified",
     "exam_month": "As notified",
     "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
-  },
-  {
-    "id": "ecil-et",
-    "name": "ECIL Graduate Engineer Trainee",
-    "acronym": "ECIL GET",
-    "description": "Recruitment of Graduate Engineer Trainees at Electronics Corporation of India Limited through GATE score.",
-    "domain": "Engineering",
-    "field": [
-      "Electronics",
-      "Computer Science",
-      "Mechanical",
-      "Civil"
-    ],
-    "specializations": [
-      "ECE",
-      "CSE",
-      "Mechanical",
-      "Civil"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "GET at ECIL",
-    "conducting_body": "ECIL",
-    "frequency": "Annual",
-    "exam_mode": "Through GATE Score",
-    "min_qualification": "B.E. / B.Tech in relevant discipline (60%)",
-    "age_limit": "30 years",
-    "official_website": "https://ecil.co.in",
-    "application_period": "As notified",
-    "exam_month": "Based on GATE score",
-    "popularity": "low",
     "jurisdiction": "central",
     "state": "All India",
     "cadre": "Group A & B (Gazetted / Officer)"
@@ -5326,38 +5024,6 @@
     "cadre": "Officer / Managerial"
   },
   {
-    "id": "ssc-delhi-police-si",
-    "name": "SSC Sub-Inspector in Delhi Police and CAPFs",
-    "acronym": "SSC CPO SI",
-    "description": "National recruitment drive for appointing Sub-Inspectors in Delhi Police, BSF, CRPF, CISF, ITBP, and SSB.",
-    "domain": "Defence",
-    "field": [
-      "Law Enforcement",
-      "Border Security",
-      "Armed Police"
-    ],
-    "specializations": [
-      "Crime Investigation",
-      "Traffic Regulation",
-      "Border Surveillance"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Sub-Inspector (Group 'B' Non-Gazetted)",
-    "conducting_body": "SSC",
-    "frequency": "Annual",
-    "exam_mode": "Online",
-    "min_qualification": "Bachelor's degree in any discipline",
-    "age_limit": "20 to 25 years",
-    "official_website": "https://ssc.gov.in",
-    "application_period": "February - March",
-    "exam_month": "May & June",
-    "popularity": "very_high",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Officer / Managerial"
-  },
-  {
     "id": "aai-atc",
     "name": "Airports Authority of India Junior Executive (Air Traffic Control)",
     "acronym": "AAI ATC",
@@ -5745,37 +5411,6 @@
     "jurisdiction": "central",
     "state": "All India",
     "cadre": "Group C & D (Subordinate / Technical)"
-  },
-  {
-    "id": "nabard-da",
-    "name": "NABARD Development Assistant Examination",
-    "acronym": "NABARD DA",
-    "description": "Recruitment exam conducted by National Bank for Agriculture and Rural Development for Development Assistants in regional state offices.",
-    "domain": "Banking",
-    "field": [
-      "Rural Banking",
-      "Agricultural Finance",
-      "Microfinance"
-    ],
-    "specializations": [
-      "General Development",
-      "Hindi Development Assistant"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Development Assistant in NABARD",
-    "conducting_body": "NABARD",
-    "frequency": "Annual",
-    "exam_mode": "Online",
-    "min_qualification": "Bachelor's degree with min 50%",
-    "age_limit": "21 to 35 years",
-    "official_website": "https://www.nabard.org",
-    "application_period": "September - October",
-    "exam_month": "November & December",
-    "popularity": "high",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "sidbi-grade-a",
@@ -6662,7 +6297,7 @@
   {
     "id": "bhel-finance-executive",
     "name": "Bharat Heavy Electricals Limited Executive Trainee (Finance)",
-    "acronym": "BHEL ET Finance",
+    "acronym": "BHEL Finance",
     "description": "All-India computer-based examination conducted by BHEL for selecting Executive Trainees in the Finance discipline across its manufacturing divisions.",
     "domain": "Finance",
     "field": [
@@ -6770,7 +6405,7 @@
     "specializations": [],
     "level": "Graduate",
     "exam_type": "job",
-    "target_role": "Various Group B & C Posts in Central Government",
+    "target_role": "Selection Posts (Matric, Higher Secondary & Graduation Level) in Central Ministries",
     "conducting_body": "SSC",
     "frequency": "Annual",
     "exam_mode": "Online",
@@ -7530,7 +7165,7 @@
     ],
     "level": "Graduate",
     "exam_type": "job",
-    "target_role": "Assistant Teacher / Principal in UP Government Schools",
+    "target_role": "Assistant Teacher in UP Parishadiya Primary Schools (Direct Recruitment)",
     "conducting_body": "UP Basic Education Board",
     "frequency": "As notified",
     "exam_mode": "Offline",
@@ -11591,7 +11226,7 @@
     "exam_mode": "Offline",
     "min_qualification": "Senior Secondary with D.El.Ed. / Graduation with B.Ed. + Certificate of Identification (COI)",
     "age_limit": "No upper age limit",
-    "official_website": "https://sikkimhrdd.org",
+    "official_website": "https://education.sikkim.gov.in",
     "application_period": "January - February",
     "exam_month": "April",
     "popularity": "medium",
@@ -15054,7 +14689,7 @@
     ],
     "level": "Graduate",
     "exam_type": "job",
-    "target_role": "Assistant Engineer (Pay Scale ₹41,155 - 63,600)",
+    "target_role": "Assistant Engineer (Pay Scale ₹63,600 - 1,31,220)",
     "conducting_body": "APTRANSCO",
     "frequency": "Annual",
     "exam_mode": "Offline",

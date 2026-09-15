@@ -1,0 +1,152 @@
+{
+  "id": "sail-act-oct",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Technician and operative tradesmen ladder at SAIL plants under NJCS agreement.",
+    "steps": [
+      {
+        "designation": "Attendant-cum-Technician (Trainee) [ACTT]",
+        "pay_level": "S-1 Grade (Scale ₹25,070 – ₹35,070)",
+        "years": "Training (2 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-11-04",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL ACTT Recruitment Notification"
+      },
+      {
+        "designation": "Attendant-cum-Technician (Confirmed)",
+        "pay_level": "S-1 Grade (Scale ₹25,070 – ₹35,070)",
+        "years": "approx. 2-5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-04",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL ACTT Recruitment Notification"
+      },
+      {
+        "designation": "Senior Technician / Operative",
+        "pay_level": "S-2 to S-3 Grade (Scale ₹26,600 – ₹38,920)",
+        "years": "approx. 5-10 yrs",
+        "confidence": "reported",
+        "as_of": "2023-11-04",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL NJCS Non-Executive Agreement"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection via Computer Based Test (CBT) followed by Trade Test.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-11-04",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL ACTT Examination Notification",
+        "papers": [
+          {
+            "paper_name": "Technical Trade Knowledge (50 questions) & General Aptitude (50 questions)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.25 (1/4th mark deduction)",
+            "qualifying_only": false,
+            "qualifying_threshold": "General/EWS: 50 percentile, Reserved: 40 percentile"
+          }
+        ]
+      },
+      {
+        "stage_name": "Trade Test / Skill Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-11-04",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL ACTT Examination Notification",
+        "papers": [
+          {
+            "paper_name": "Practical Trade / Tool Handling Evaluation",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying in nature (1:3 ratio shortlist)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by the NJCS wage structure for matriculation + ITI trade operatives.",
+    "pay_level": "S-1 Grade (Scale ₹25,070 – ₹35,070)",
+    "entry_basic_pay": 25070,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-11-04",
+    "pay_source_url": "https://sail.co.in/en/careers",
+    "pay_source_label": "SAIL ACTT Employment Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 45000,
+      "max": 50000
+    },
+    "in_hand_range_estimate": {
+      "min": 39000,
+      "max": 44000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Consolidated monthly stipend of ₹12,900 in 1st year and ₹15,000 in 2nd year. Confirmed basic ₹25,070 with 58% DA (₹14,541) and perks.",
+    "official_perks": [
+      "Company quarter in plant township or HRA",
+      "Free medical treatment in plant hospitals",
+      "Provident Fund, Gratuity, and Pension Coverage",
+      "Uniform, safety gear, and canteen subsidies",
+      "Annual performance incentive / festive ex-gratia"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Operative vacancy figures across SAIL plants.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 85,
+        "confidence": "verified",
+        "as_of": "2023-11-04",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL Rourkela Steel Plant Advt 08/2023"
+      },
+      {
+        "year": 2022,
+        "vacancies": 146,
+        "confidence": "verified",
+        "as_of": "2022-09-06",
+        "source_url": "https://sail.co.in/en/careers",
+        "source_label": "SAIL Bokaro Steel Plant Advt BSL/R/2022-01"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on SAIL portal.",
+    "links": [
+      {
+        "label": "SAIL Careers Portal",
+        "url": "https://sail.co.in/en/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "SAIL Corporate Home",
+        "url": "https://sail.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

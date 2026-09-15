@@ -1,0 +1,246 @@
+{
+  "id": "kerala-psc-kas",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The Kerala Administrative Service (KAS) was constituted under the Kerala Administrative Service Rules, 2018 as the premier middle-management administrative cadre of Kerala. Recruits enter as KAS Officer (Junior Time Scale) Trainees and advance through Senior Time Scale, Selection Grade, and Super Time Scale before promotion into the Indian Administrative Service (IAS) Kerala Cadre under the IAS (Appointment by Promotion) Regulations, 1955.",
+    "steps": [
+      {
+        "designation": "KAS Officer (Junior Time Scale) Trainee / Assistant Director / Under Secretary / RDO",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹77,200 - ₹1,40,500)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala PSC KAS Gazette Notification (Category Nos. 001/2025 - 003/2025) & Kerala Administrative Service Rules 2018"
+      },
+      {
+        "designation": "KAS Officer (Senior Time Scale) / Deputy Secretary / Deputy Collector / Joint Director",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹85,000 - ₹1,43,600)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala Administrative Service Special Rules 2018 & General Administration Department, Government of Kerala"
+      },
+      {
+        "designation": "KAS Officer (Selection Grade) / Joint Secretary / Additional District Magistrate (ADM)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹95,600 - ₹1,53,200)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala Administrative Service Rules 2018, Personnel & Administrative Reforms Department"
+      },
+      {
+        "designation": "KAS Officer (Super Time Scale) / Additional Secretary / Special Secretary / Director of State Department",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹1,18,100 - ₹1,63,400)",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala Administrative Service Special Rules 2018, GAD Government of Kerala"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) — Kerala Cadre",
+        "pay_level": "IAS Selection Grade (Level 13, ₹1,18,500 basic) to Super Time Scale (Level 14, ₹1,44,200 basic)",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations, DoPT & UPSC"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Examination is conducted in three successive stages in accordance with the Kerala Administrative Service Rules, 2018: Preliminary Examination (Objective OMR screening test comprising Paper I and Paper II carrying 100 marks each, 200 marks total), Main Examination (3 conventional descriptive papers carrying 100 marks each, 300 marks total), and Interview / Personality Test (50 marks). Final merit list is prepared out of 350 marks (Main Examination + Interview).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective OMR, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala PSC KAS Examination Scheme & Syllabus (Category Nos. 001/2025, 002/2025, 003/2025)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies (History, Geography, Economics, Indian Constitution, Current Affairs)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; combined score of Paper I and Paper II determines shortlist for Main Examination"
+          },
+          {
+            "paper_name": "Paper II: General Studies, Language Proficiency (Malayalam/Tamil/Kannada 50 marks, English 30 marks) & Mental Ability (20 marks)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; combined score with Paper I determines shortlist for Main Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala PSC KAS Main Examination Syllabus & Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies I (History, Culture & Heritage of India and Kerala, Public Administration & Kerala Administrative System)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: General Studies II (Indian Constitution & Political System, International Relations, Science & Technology)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: General Studies III (Economy & Planning of India and Kerala, Environment & Biodiversity, Disaster Management)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview / Personality Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-03-07",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala PSC KAS Interview Scheme (350 marks total ranking)",
+        "papers": [
+          {
+            "paper_name": "Interview / Viva-Voce (Board Interview evaluating administrative capability, leadership, and personality)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "KAS Officer (Junior Time Scale) Trainees are appointed under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin dated 10/02/2021) in the pay scale of ₹77,200 - ₹1,40,500 with entry basic pay of ₹77,200.",
+    "pay_level": "Kerala 11th Pay Revision Scale (₹77,200 - ₹1,40,500)",
+    "entry_basic_pay": 77200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-03-07",
+    "pay_source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+    "pay_source_label": "Kerala PSC Gazette Notification (Category Nos. 001/2025, 002/2025, 003/2025) & Finance Department, Government of Kerala",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 126000, "max": 134000 },
+    "in_hand_range_estimate": { "min": 110000, "max": 119000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹77,200 at standard 58% DA (effective 1 Jul 2025, ₹44,776) plus House Rent Allowance (Class A Corporation 10% or ₹7,720, Class B Municipalities 6-8%, Class C 4% or minimum slabs) and executive allowances; net in-hand reflects statutory deductions including National Pension System (NPS, 10% on Basic+DA = ₹12,198), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), and Professional Tax.",
+    "official_perks": [
+      "Government earmarked official residential accommodation or designated quarters in district headquarters",
+      "Official staff car / vehicle with driver for official duties and field inspections",
+      "Comprehensive medical coverage under the Kerala Government MEDISEP cashless insurance scheme",
+      "Mobile phone, broadband, and office administrative expense reimbursement",
+      "Earned leave encashment and Leave Travel Concession (LTC) benefits as per Kerala Service Rules (KSR)",
+      "Deputation opportunities to central ministries, statutory boards, and international development agencies"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, screening, and appointment statistics for KAS recruitment across Stream 1 (Direct Open), Stream 2 (Non-Gazetted Government Staff), and Stream 3 (Gazetted Officers) sourced from Kerala PSC releases, official Gazette notifications, and court filings.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 105,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Recruitment cycle ongoing (Category Nos. 001/2025, 002/2025, 003/2025 notified by Kerala PSC; Stream 1 Ranked List No. 71/2026/SS VII brought into force from 30 Jan 2026)",
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala PSC KAS Notification 2025 & Ranked List Notification No. 71/2026/SS VII dated 30 January 2026"
+      },
+      {
+        "year": 2019,
+        "applicants": 577444,
+        "vacancies": 105,
+        "shortlisted_for_mains": 3220,
+        "selectivity_ratio": "approx. 1 in 5,500 (calculated: 5,77,444 total applicants across Streams 1, 2, and 3 ÷ 105 cadre vacancies; ~3.8 lakh appeared in Prelims on 22 Feb 2020; final ranked list published on 8 Oct 2021)",
+        "confidence": "verified",
+        "as_of": "2021-10-08",
+        "source_url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "source_label": "Kerala PSC KAS Inaugural Recruitment (Category Nos. 186/2019, 187/2019, 188/2019) & Final Ranked List dated 08/10/2021"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination syllabi, and ranked lists for Kerala Administrative Service recruitment published on Kerala PSC official servers.",
+    "links": [
+      {
+        "label": "Kerala PSC Official Portal",
+        "url": "https://www.keralapsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala Administrative Service (KAS) Dedicated Commission Hub",
+        "url": "https://www.keralapsc.gov.in/kerala-administrative-service",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Thulasi One Time Registration (OTR) Portal",
+        "url": "https://thulasi.psc.kerala.gov.in/thulasi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Official Notifications Archive",
+        "url": "https://www.keralapsc.gov.in/notifications",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Official Syllabus Archive",
+        "url": "https://www.keralapsc.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Previous Question Papers Archive",
+        "url": "https://www.keralapsc.gov.in/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

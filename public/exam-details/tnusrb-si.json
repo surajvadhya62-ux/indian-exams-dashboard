@@ -1,0 +1,255 @@
+{
+  "id": "tnusrb-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Hierarchical career ladder for executive police officers in the Tamil Nadu Police Subordinate Service and Tamil Nadu Police Service. Direct-entry Sub-Inspectors are gazetted upon promotion to Deputy Superintendent of Police (DSP) and are eligible for induction into the Indian Police Service (IPS) via state quota.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (Taluk / Armed Reserve / TSP)",
+        "pay_level": "Level 13",
+        "years": "Entry (approx. 0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "TNUSRB Notification No. 01/2025, Section 4: Scale of Pay (Rs. 36,900 - 1,16,600, Level 13 under Tamil Nadu Revised Pay Rules, 2017)"
+      },
+      {
+        "designation": "Inspector of Police (Circle Inspector / Station House Officer)",
+        "pay_level": "Level 16",
+        "years": "approx. 6-12 yrs",
+        "confidence": "reported",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "Tamil Nadu Police Subordinate Service Rules (Promotion to Inspector Cadre, Level 16: Rs. 56,100 - 2,05,700)"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP) / Assistant Commissioner of Police (ACP)",
+        "pay_level": "Level 22",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "Tamil Nadu Police Service Rules (State Gazetted Police Service, Level 22: Rs. 56,100 - 2,05,700)"
+      },
+      {
+        "designation": "Additional Superintendent of Police (ADSP)",
+        "pay_level": "Level 25",
+        "years": "approx. 20-26 yrs",
+        "confidence": "reported",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "Tamil Nadu Police Service Rules (Selection Grade / Senior Scale, Level 25: Rs. 59,300 - 2,17,600)"
+      },
+      {
+        "designation": "Superintendent of Police (SP) / Deputy Commissioner of Police (DCP) — IPS Induction",
+        "pay_level": "Level 11 / Level 12 (Central 7th CPC Matrix)",
+        "years": "approx. 26-30+ yrs",
+        "confidence": "reported",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations, Ministry of Home Affairs (IPS State Quota)"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment of Sub-Inspectors of Police by TNUSRB features a comprehensive four-stage selection process: Stage 1 Written Examination (Part I Tamil Language Eligibility Test & Part II Main Written Examination), Stage 2 Certificate Verification, Physical Measurement Test (PMT), Endurance Test (ET), and Physical Efficiency Test (PET), Stage 3 Viva-Voce (Interview), and Stage 4 Special Marks (NCC, NSS & Sports). Final merit is compiled out of 100 marks (70 Written + 15 PET + 10 Viva-Voce + 5 Special Marks).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Part I Tamil Eligibility & Part II Main Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "TNUSRB Notification No. 01/2025, Section 15 & 16: Marks Allocation and Scheme of Written Examination",
+        "papers": [
+          {
+            "paper_name": "Part I — Tamil Language Eligibility Test (10th Standard Standard, 100 MCQs)",
+            "marks": 100,
+            "duration_minutes": 100,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (40 marks); mandatory qualifying test, marks not counted for ranking or provisional selection"
+          },
+          {
+            "paper_name": "Part II — Main Written Examination: Part A General Knowledge (80 MCQs / 40 Marks) & Part B Logical/Psychology (60 MCQs / 30 Marks)",
+            "marks": 70,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "35% (25 marks) minimum qualifying mark; candidates shortlisted in 1:5 ratio for CV-PMT-ET-PET"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Examination (CV, PMT, ET & PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "TNUSRB Notification No. 01/2025, Section 16-B: Physical Measurement, Endurance & Efficiency Tests",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT) & Endurance Test (ET)",
+            "marks": 0,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only. Height: Men (170 cm OC/BC/MBC, 167 cm SC/ST), Women (159 cm OC/BC/MBC, 157 cm SC/ST). Chest (Men): 81 cm with 5 cm expansion. Endurance: Men 1500m in 7 mins; Women 400m in 2m 30s"
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET: 3 Events, One Star = 2 Marks, Two Stars = 5 Marks)",
+            "marks": 15,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Total 15 marks. Men: Rope Climbing (5.0m=2mks, 6.0m=5mks), Long Jump (3.80m=2mks, 4.50m=5mks) or High Jump (1.20m=2mks, 1.40m=5mks), 100m (15.0s=2mks, 13.5s=5mks) or 400m run (80.0s=2mks, 70.0s=5mks)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Viva-Voce (Personal Interview) & Special Marks",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "TNUSRB Notification No. 01/2025, Section 16-C & Section 21: Viva-Voce and Special Marks",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce (Interview)",
+            "marks": 10,
+            "duration_minutes": 20,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisted in 1:2 ratio based on combined marks of Main Written Examination and Physical Efficiency Test"
+          },
+          {
+            "paper_name": "Special Marks (NCC, NSS & Sports / Games Certificates)",
+            "marks": 5,
+            "duration_minutes": 0,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Maximum 5 marks: NCC certificates up to 2 marks, NSS certificates up to 1 mark, and approved Sports/Games participation up to 2 marks"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police in Tamil Nadu are paid under Level 13 of the Tamil Nadu Revised Pay Matrix (₹36,900 - ₹1,16,600 under G.O. Ms. No. 303, Finance (Pay Cell) Department, dated 11.10.2017). Executive police personnel receive Risk Allowance, City Compensatory Allowance, Kit Maintenance Allowance, and Station Grade HRA.",
+    "pay_level": "Level 13",
+    "entry_basic_pay": 36900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-04-04",
+    "pay_source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+    "pay_source_label": "TNUSRB SI Notification No. 01/2025, Section 4: Scale of Pay (Rs. 36,900 - 1,16,600, Level 13 under Tamil Nadu Revised Pay Matrix)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 62000,
+      "max": 70000
+    },
+    "in_hand_range_estimate": {
+      "min": 54000,
+      "max": 61000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes Level 13 entry basic pay ₹36,900 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹1,600 to ₹4,800), City Compensatory Allowance (₹600 to ₹1,200), Police Uniform/Kit Allowance, and Risk Allowance. Deductions account for Contributory Pension Scheme (CPS 10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under New Health Insurance Scheme (NHIS) for police officers and eligible family members",
+      "Police Risk Allowance and Executive Uniform / Kit Maintenance Allowance",
+      "Government quarters / official police housing or HRA as per station classification",
+      "Subsidized provisions and grocery supplies via Tamil Nadu Police Canteens",
+      "Festival advance and special Pongal bonus as sanctioned by the State Government"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TNUSRB Sub-Inspector of Police is among the most sought-after state executive recruitments in Tamil Nadu, drawing over 1.5 lakh graduate applicants per cycle for both Open and 20% Departmental quotas.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 1352,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2025-04-04",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "source_label": "TNUSRB Notification No. 01/2025: Total 1,352 vacancies (1,299 regular: 933 Taluk SI, 366 Armed Reserve SI + 53 SC/ST shortfall vacancies)"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 621,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-05-05",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_en.pdf",
+        "source_label": "TNUSRB Notification No. 01/2023: Total 621 vacancies (615 regular: 364 Taluk SI, 141 Armed Reserve SI, 110 TSP SI + 6 Backlog vacancies)"
+      },
+      {
+        "year": 2022,
+        "applicants": 148870,
+        "vacancies": 969,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 154 (calculated: written exam attendees ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-03-08",
+        "source_url": "https://www.tnusrb.tn.gov.in/pdfs/siadvertisement.pdf",
+        "source_label": "TNUSRB Notification No. 01/2022 (969 vacancies: 444 Taluk SI, 445 Armed Reserve SI, 80 TSP SI); over 1,48,870 candidates evaluated in written examination across district centres as verified from TNUSRB 2022 Selection Archives"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabi, and departmental instructions published by TNUSRB.",
+    "links": [
+      {
+        "label": "Sub-Inspector of Police (Taluk & AR) 2025 — Official Notification (Advt. No. 01/2025)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/SI(TK,%20AR)%202025%20Notification_n.pdf",
+        "type": "notification",
+        "cycle_label": "SI-2025",
+        "confidence": "verified",
+        "as_of": "2025-04-04"
+      },
+      {
+        "label": "Sub-Inspector of Police 2025 — Scheme & Syllabus (Tamil Eligibility & Main Written)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/SI_2025_Syllabus.pdf",
+        "type": "syllabus",
+        "cycle_label": "SI-2025",
+        "confidence": "verified",
+        "as_of": "2025-04-04"
+      },
+      {
+        "label": "Instructions for Candidates (General & Departmental Quotas)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/Instructions_for_candidates_English.pdf",
+        "type": "other",
+        "cycle_label": "SI-2025",
+        "confidence": "verified",
+        "as_of": "2025-09-26"
+      },
+      {
+        "label": "Joint Recruitment of Sub-Inspectors of Police 2023 — Notification Archive (Advt. No. 01/2023)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/Notification_en.pdf",
+        "type": "notification",
+        "cycle_label": "SI-2023",
+        "confidence": "verified",
+        "as_of": "2023-05-05"
+      },
+      {
+        "label": "Sub-Inspector of Police (Taluk & AR) 2022 — Notification Archive (Advt. No. 01/2022)",
+        "url": "https://www.tnusrb.tn.gov.in/pdfs/siadvertisement.pdf",
+        "type": "notification",
+        "cycle_label": "SI-2022",
+        "confidence": "verified",
+        "as_of": "2022-03-08"
+      }
+    ]
+  }
+}

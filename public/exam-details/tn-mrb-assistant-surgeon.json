@@ -1,0 +1,175 @@
+{
+  "id": "tn-mrb-assistant-surgeon",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Clinical and administrative career progression for medical doctors in the Tamil Nadu Medical Service across government medical college hospitals, district headquarters hospitals, and primary health centres. Promotion through the surgeon grades is accelerated by Dynamic Assured Career Progression (DACP) based on length of service, with avenues into hospital superintendency and state directorates.",
+    "steps": [
+      {
+        "designation": "Assistant Surgeon (General) / Civil Assistant Surgeon",
+        "pay_level": "Level 22",
+        "years": "Entry (approx. 0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "TN MRB Notification No. 17/MRB/2025, Section 4: Scale of Pay (Level 22: Rs. 56,100 - 2,05,700 under Tamil Nadu Revised Pay Rules, 2017)"
+      },
+      {
+        "designation": "Senior Assistant Surgeon",
+        "pay_level": "Level 23 / Level 24",
+        "years": "approx. 5-9 yrs (via DACP Scheme)",
+        "confidence": "reported",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "Tamil Nadu Medical Service Rules & DACP Guidelines (Scale of Pay Level 23: Rs. 59,300 - 2,17,600)"
+      },
+      {
+        "designation": "Civil Surgeon / Senior Civil Surgeon",
+        "pay_level": "Level 25 / Level 26",
+        "years": "approx. 9-15 yrs (via DACP Scheme)",
+        "confidence": "reported",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "Tamil Nadu Medical Service Rules (Scale of Pay Level 25: Rs. 61,900 - 2,27,000 / Level 26: Rs. 1,23,100 - 2,15,900)"
+      },
+      {
+        "designation": "Chief Civil Surgeon / Medical Superintendent / Deputy Director of Health Services (DDHS)",
+        "pay_level": "Level 27 / Level 28",
+        "years": "approx. 15-22 yrs",
+        "confidence": "reported",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "Tamil Nadu Medical Service Rules (Administrative Medical Officers Cadre)"
+      },
+      {
+        "designation": "Director of Public Health (DPH) / Director of Medical Services (DMS) / Director of Medical Education (DME)",
+        "pay_level": "Level 30 (Apex Scale)",
+        "years": "approx. 22-28+ yrs",
+        "confidence": "reported",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "Health and Family Welfare Department, Government of Tamil Nadu Directorate Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment of Assistant Surgeons (General) by the Medical Services Recruitment Board (MRB) is conducted through a single-stage Computer-Based Examination (CBT) of undergraduate MBBS standard, alongside a mandatory qualifying Tamil Language Eligibility Test. No interview or oral test is conducted; selection is determined entirely by CBT merit (normalized across sessions), COVID duty incentive marks where applicable, and the statutory communal reservation roster.",
+    "stages": [
+      {
+        "stage_name": "Computer-Based Examination (CBT — Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "TN MRB Notification No. 17/MRB/2025, Section 7: Scheme of Examination (Objective Type)",
+        "papers": [
+          {
+            "paper_name": "Mandatory Tamil Eligibility Test (10th Standard Standard, 50 Questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (20 marks); mandatory qualifying paper, marks not included for ranking"
+          },
+          {
+            "paper_name": "Medical Science Core Paper (MBBS Under Graduate Standard, 100 Objective MCQs)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying mark: 35% (35 marks) for SC, SCA, and ST; 40% (40 marks) for Others (normalized for multi-session examinations)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Surgeons (General) in the Tamil Nadu Medical Service are appointed under Level 22 of the Tamil Nadu Revised Pay Matrix (₹56,100 - ₹2,05,700 under G.O. Ms. No. 303, Finance (Pay Cell) Department, dated 11.10.2017). Medical officers receive Non-Practicing Allowance / Special Allowance, Hill Station Allowance where applicable, and government residential quarters.",
+    "pay_level": "Level 22",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-11-21",
+    "pay_source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+    "pay_source_label": "TN MRB Notification No. 17/MRB/2025, Section 4: Scale of Pay (Level 22: Rs. 56,100 - 2,05,700 under Tamil Nadu Revised Pay Matrix)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 95000,
+      "max": 115000
+    },
+    "in_hand_range_estimate": {
+      "min": 82000,
+      "max": 99000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes Level 22 entry basic pay ₹56,100 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹3,600 to ₹7,200), Medical Allowance, and Special Duty / Non-Practicing Allowance. Deductions include CPS/NPS (10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under New Health Insurance Scheme (NHIS) for medical officers and dependents",
+      "Residential medical quarters within PHC / District Hospital campus or Grade HRA",
+      "Non-Practicing Allowance (NPA) / Medical Special Allowance as sanctioned by the State Government",
+      "Study leave and sponsorship for postgraduate medical (MD/MS/DNB) studies under service quota",
+      "Leave Travel Concession (LTC) and annual Pongal bonus as per Tamil Nadu Government Servants rules"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TN MRB Assistant Surgeon (General) recruitment is the premier public medical cadre entry test in Tamil Nadu, filling essential clinical vacancies across primary, secondary, and tertiary government healthcare facilities.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 1100,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2025-11-21",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "source_label": "TN MRB Notification No. 17/MRB/2025: Total 1,100 vacancies (GT: 320, BC: 278, BCM: 35, MBC/DNC: 212, SC: 174, SCA: 33, ST: 48 + 53 shortfall vacancies)"
+      },
+      {
+        "year": 2024,
+        "applicants": 25000,
+        "vacancies": 2553,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 10 (calculated: registered medical practitioners ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/AS_Notification_150324.pdf",
+        "source_label": "TN MRB Notification No. 01/MRB/2024: 2,553 vacancies of Assistant Surgeon (General); candidate application volume reported across state health media"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and guidelines published by the Medical Services Recruitment Board (MRB), Government of Tamil Nadu.",
+    "links": [
+      {
+        "label": "Medical Services Recruitment Board (TN MRB) Official Website",
+        "url": "https://www.mrb.tn.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Direct Recruitment for the Post of Assistant Surgeon (General) 2025 — Notification (Advt. No. 17/MRB/2025)",
+        "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/ASGNotification2025.pdf",
+        "type": "notification",
+        "cycle_label": "MRB-ASG-2025",
+        "confidence": "verified",
+        "as_of": "2025-11-21"
+      },
+      {
+        "label": "Direct Recruitment for Assistant Surgeon (General) 2024 — Notification Archive (Advt. No. 01/MRB/2024)",
+        "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/AS_Notification_150324.pdf",
+        "type": "notification",
+        "cycle_label": "MRB-ASG-2024",
+        "confidence": "verified",
+        "as_of": "2024-03-15"
+      }
+    ]
+  }
+}

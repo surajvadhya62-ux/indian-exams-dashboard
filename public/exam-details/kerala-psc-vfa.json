@@ -1,0 +1,220 @@
+{
+  "id": "kerala-psc-vfa",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Village Field Assistants (VFA) work in the Land Revenue Department of the Government of Kerala at the grass-root village office level, assisting the Village Officer in land records maintenance, basic tax collection, field inspections, and revenue certificates. The career progression advances through Senior VFA / Village Assistant, Village Officer / Revenue Inspector, Deputy Tahsildar, and Tahsildar upon passing the Revenue Test and Account Tests conducted by Kerala PSC.",
+    "steps": [
+      {
+        "designation": "Village Field Assistant (VFA) — Land Revenue Department",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹23,000 - ₹50,200)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Gazette Notification (Category No. 368/2021: Village Field Assistant, Land Revenue Department) & Kerala Service Rules"
+      },
+      {
+        "designation": "Senior Village Field Assistant / Village Assistant",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹26,500 - ₹60,700)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Revenue Subordinate Service Rules & Land Revenue Commissionerate Guidelines"
+      },
+      {
+        "designation": "Village Officer / Special Revenue Inspector",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹37,400 - ₹79,000)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Land Revenue Subordinate Service Rules (upon passing Revenue Test and Account Test Lower)"
+      },
+      {
+        "designation": "Deputy Tahsildar (Executive Magistrate / Taluk Office)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹43,400 - ₹91,200)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "reported",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Revenue Department, Government of Kerala Seniority List & Promotion Orders"
+      },
+      {
+        "designation": "Tahsildar / Taluk Executive Magistrate (Gazetted)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹51,400 - ₹1,10,300)",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala State Revenue Service (Gazetted) Promotion Rosters"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Village Field Assistant is conducted on a district-wise basis across all 14 revenue districts in Kerala through a two-stage examination process: Common Tenth Level Preliminary Examination (Objective OMR screening test carrying 100 marks) followed by the District-wise Main Written Examination (Objective OMR carrying 100 marks). Final district-wise ranked lists are prepared strictly on the basis of marks scored in the Main Examination.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Common Tenth Level Preliminary Examination (Objective OMR Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC Common Tenth Level Preliminary Examination Scheme (Advt. No. 368/2021)",
+        "papers": [
+          {
+            "paper_name": "Common Preliminary OMR Test (General Knowledge, Renaissance in Kerala, Science, Simple Arithmetic, Mental Ability, General English & Regional Language)",
+            "marks": 100,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; district-wise cut-offs determine shortlist for District Main Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: District-wise Main Written Examination (Objective OMR)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-09-30",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC VFA District-wise Main Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: General Knowledge, Current Affairs, Indian Constitution & Kerala Geography/Renaissance",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II: Simple Arithmetic & Mental Ability",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III: General English",
+            "marks": 10,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part IV: Regional Language (Malayalam / Tamil / Kannada)",
+            "marks": 20,
+            "duration_minutes": 90,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Village Field Assistants in the Kerala Land Revenue Department are paid under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) at Pay Scale ₹23,000 - ₹50,200 with entry basic pay of ₹23,000.",
+    "pay_level": "Kerala 11th Pay Revision Scale (₹23,000 - ₹50,200)",
+    "entry_basic_pay": 23000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-09-30",
+    "pay_source_url": "https://www.keralapsc.gov.in/notifications",
+    "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 368/2021 & Kerala Government 11th Pay Revision Order",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 37500, "max": 40000 },
+    "in_hand_range_estimate": { "min": 33000, "max": 36000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹23,000 with standard 58% DA (effective 1 Jul 2025, ₹13,340) plus House Rent Allowance (Class A Corporation ₹2,300, Class B Municipalities ₹1,500, Class C Panchayats ₹1,000) and medical allowance (₹500/month); net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹3,634), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), and Professional Tax.",
+    "official_perks": [
+      "Government quarters allotment or House Rent Allowance based on district posting",
+      "Cashless hospitalization coverage under the Kerala Government MEDISEP scheme",
+      "Field duty travel allowance (TA) and survey inspection allowances under KSR",
+      "Onam festival bonus / special advance as per annual government orders",
+      "Departmental welfare fund and credit cooperative society benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, screening, and appointment statistics for Village Field Assistant across all 14 revenue districts sourced from Kerala PSC annual examination releases and district ranked lists.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 1120000,
+        "vacancies": 1650,
+        "shortlisted_for_mains": 85000,
+        "selectivity_ratio": "approx. 1 in 680 (calculated: 11.2 lakh common applicants ÷ ~1,650 anticipated advice across 14 districts over 3-year ranked list validity; Category No. 368/2021)",
+        "confidence": "reported",
+        "as_of": "2023-05-15",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Tenth Level Preliminary & VFA District-wise Selection Statistics (Cat. No. 368/2021)"
+      },
+      {
+        "year": 2017,
+        "applicants": 890000,
+        "vacancies": 1450,
+        "shortlisted_for_mains": 72000,
+        "selectivity_ratio": "approx. 1 in 610 (calculated: 8.9 lakh applicants for Cat. No. 123/2017 ÷ 1,450 total candidates advised over 3-year ranked list validity)",
+        "confidence": "verified",
+        "as_of": "2020-03-20",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC VFA 2017 (Category No. 123/2017) Ranked Lists published across all 14 Revenue Districts"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, syllabi, and ranked lists for Village Field Assistant recruitment hosted on Kerala PSC official servers.",
+    "links": [
+      {
+        "label": "Kerala PSC Official Portal",
+        "url": "https://www.keralapsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Thulasi Application Portal",
+        "url": "https://thulasi.psc.kerala.gov.in/thulasi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Notifications Archive",
+        "url": "https://www.keralapsc.gov.in/notifications",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Tenth Level & VFA Syllabus Archive",
+        "url": "https://www.keralapsc.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Previous Question Papers Archive",
+        "url": "https://www.keralapsc.gov.in/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

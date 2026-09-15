@@ -1,0 +1,248 @@
+{
+  "id": "ap-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Civil Judge (Junior Division) / Judicial Magistrate of First Class is the foundational cadre of the Andhra Pradesh State Judicial Service governed by the Andhra Pradesh State Judicial (Service & Cadre) Rules, 2007. Progression across the judicial hierarchy is regulated by High Court administrative rules and constitutional provisions under Article 233 and Article 217, adhering to Second National Judicial Pay Commission (SNJPC) scales.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate of First Class (JMFC)",
+        "pay_level": "SNJPC J-1 Scale (₹77,840 - ₹1,36,520)",
+        "years": "0-5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://aphc.gov.in/docs/JCJ_2023%20notification_07-03-2023.pdf",
+        "source_label": "High Court of AP Notification No. 03/2023-RC dt 07.03.2023 & AP State Judicial Rules 2007"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Assistant Sessions Judge",
+        "pay_level": "SNJPC J-3 Scale (₹1,11,000 - ₹1,63,030)",
+        "years": "5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-05-08",
+        "source_url": "https://aphc.gov.in",
+        "source_label": "AP State Judicial (Service & Cadre) Rules, 2007 (Category-2 Cadre Promotion)"
+      },
+      {
+        "designation": "District & Sessions Judge (Entry Level) / Additional District Judge (ADJ)",
+        "pay_level": "SNJPC J-5 Scale (₹1,44,840 - ₹1,94,660)",
+        "years": "10-15 yrs",
+        "confidence": "reported",
+        "as_of": "2026-05-08",
+        "source_url": "https://aphc.gov.in",
+        "source_label": "AP State Judicial Rules, 2007 (Promotion under 65% merit-cum-seniority & 10% LDCE quota)"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade)",
+        "pay_level": "SNJPC J-6 Scale (₹1,63,030 - ₹2,19,090)",
+        "years": "15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-05-08",
+        "source_url": "https://aphc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Selection Grade Structure"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (PDJ) / Super Time Scale District Judge",
+        "pay_level": "SNJPC J-7 Scale (₹1,99,100 - ₹2,24,100)",
+        "years": "20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-05-08",
+        "source_url": "https://aphc.gov.in",
+        "source_label": "SNJPC Super Time Scale Cadre Guidelines & High Court Administration"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process conducted by the High Court of Andhra Pradesh comprises three successive stages: a Screening Test (Computer Based Test of 100 objective questions for shortlisting in a 1:10 ratio), a Written Examination of 3 descriptive papers (Civil Laws, Criminal Laws, English Translation & Essay Writing, each 100 marks), followed by a Viva-Voce test (50 marks). Final merit is compiled from aggregate marks scored in the Written Examination and Viva-Voce.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Screening Test (Computer Based Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://aphc.gov.in/docs/JCJ_2023%20notification_07-03-2023.pdf",
+        "source_label": "High Court of AP Notification No. 03/2023-RC, Clause VI(a)",
+        "papers": [
+          {
+            "paper_name": "Objective Law Screening Test (Civil Laws, Criminal Laws & Subordinate Court Practice)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 40% qualifying marks; candidates shortlisted in 1:10 ratio for Written Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Written Examination (Descriptive Law Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://aphc.gov.in/docs/JCJ_2023%20notification_07-03-2023.pdf",
+        "source_label": "High Court of AP Notification No. 03/2023-RC, Clause VI(b)",
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Laws (CPC, Contracts, Transfer of Property, Specific Relief, Evidence, Stamp & Registration)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "55% for OC/EWS, 50% for BC, 45% for SC/ST"
+          },
+          {
+            "paper_name": "Paper II: Criminal Laws (CrPC, IPC, Indian Evidence Act, NI Act, Domestic Violence Act, Juvenile Justice)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "55% for OC/EWS, 50% for BC, 45% for SC/ST"
+          },
+          {
+            "paper_name": "Paper III: English Translation (25 marks) and Legal Essay Writing (75 marks)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "55% for OC/EWS, 50% for BC, 45% for SC/ST (Overall aggregate: 60% for OC/EWS, 55% for BC, 50% for SC/ST to qualify for Viva-Voce)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Viva-Voce (Oral Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://aphc.gov.in/docs/JCJ_2023%20notification_07-03-2023.pdf",
+        "source_label": "High Court of AP Notification No. 03/2023-RC, Clause VIII & Clause X",
+        "papers": [
+          {
+            "paper_name": "Interview & Legal Personality Evaluation",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisting in 1:3 ratio. Minimum aggregate marks in Written + Viva: 60% for OC/EWS, 55% for BC, 50% for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Civil Judges (Junior Division) are remunerated under the Second National Judicial Pay Commission (SNJPC) revised pay scales implemented nationwide pursuant to Supreme Court directives in All India Judges Association v. Union of India. The entry pay scale is ₹77,840 - ₹1,36,520 with an entry basic pay of ₹77,840.",
+    "pay_level": "SNJPC J-1 Scale (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-03-07",
+    "pay_source_url": "https://aphc.gov.in/docs/JCJ_2023%20notification_07-03-2023.pdf",
+    "pay_source_label": "High Court of Andhra Pradesh Notification No. 03/2023-RC dated 07.03.2023 read with SNJPC Recommendations",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 135000,
+      "max": 155000
+    },
+    "in_hand_range_estimate": {
+      "min": 115000,
+      "max": 135000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on SNJPC J-1 entry basic pay of ₹77,840 with standardized 58% Dearness Allowance plus HRA / designated judicial bungalow allowance and fixed judicial allowances (sumptuary, robe, medical, conveyance); in-hand estimate deducts 10% NPS/pension contribution, APGLI/GIS, and Professional Tax.",
+    "official_perks": [
+      "Designated government residential bungalow / judicial accommodation or HRA",
+      "Conveyance Allowance / official vehicle with driver fuel reimbursement as per SNJPC norms",
+      "Sumptuary Allowance for entertaining official judicial visitors",
+      "Robe and uniform allowance granted triennially",
+      "Telephone, mobile, and high-speed broadband internet reimbursements",
+      "Cashless medical coverage under the State Judicial Employees Health Scheme",
+      "Leave Travel Concession (LTC) and home travel benefits"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Verified from primary notifications, candidate marks lists, and provisional selection orders issued by the Recruitment Cell of the High Court of Andhra Pradesh.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 119,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "119 vacancies (96 Direct Recruitment + 23 Recruitment by Transfer)",
+        "confidence": "verified",
+        "as_of": "2026-05-08",
+        "source_url": "https://aphc.gov.in/docs/notification_1778246743_0.pdf",
+        "source_label": "High Court of AP Notification ROC.No.118/2026-RC dt 08.05.2026 (Revised vacancies increased to 119)"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 50,
+        "shortlisted_for_mains": 41,
+        "selectivity_ratio": "41 provisionally selected (40 DR + 1 RT) out of 50 notified posts",
+        "confidence": "verified",
+        "as_of": "2026-04-02",
+        "source_url": "https://aphc.gov.in/docs/notification_1775135270_0.pdf",
+        "source_label": "High Court of AP Notification ROC.No.5/2025-RC dt 02.04.2026 (Provisional selection list for Notification No. 5/2025)"
+      },
+      {
+        "year": 2022,
+        "applicants": 3124,
+        "vacancies": 31,
+        "shortlisted_for_mains": 279,
+        "selectivity_ratio": "approx. 1 in 100 overall (calculated: 3,124 direct recruitment candidates appeared in screening test ÷ 31 total notified posts)",
+        "confidence": "verified",
+        "as_of": "2023-02-04",
+        "source_url": "https://aphc.gov.in/docs/04_03_2023_JCJ-2022-Screening_Test_results.pdf",
+        "source_label": "High Court of AP Notification No. 1/2022-RC dt 04.02.2023 & Screening Test Marks List (3,124 candidates in docs/dr-jcj-2022.pdf; 279 qualified for written examination)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory notifications, vacancy revisions, results, and marks lists published on the High Court of Andhra Pradesh portal.",
+    "links": [
+      {
+        "label": "Notification No. 03/2023-RC — Civil Judge (Junior Division) (PDF)",
+        "url": "https://aphc.gov.in/docs/JCJ_2023%20notification_07-03-2023.pdf",
+        "type": "notification",
+        "cycle_label": "03/2023-RC",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      },
+      {
+        "label": "Revised Vacancies Notification ROC.No. 118/2026-RC (PDF)",
+        "url": "https://aphc.gov.in/docs/notification_1778246743_0.pdf",
+        "type": "notification",
+        "cycle_label": "118/2026-RC",
+        "confidence": "verified",
+        "as_of": "2026-05-08"
+      },
+      {
+        "label": "Provisional Selection List Notification ROC.No. 5/2025-RC (PDF)",
+        "url": "https://aphc.gov.in/docs/notification_1775135270_0.pdf",
+        "type": "other",
+        "cycle_label": "5/2025-RC",
+        "confidence": "verified",
+        "as_of": "2026-04-02"
+      },
+      {
+        "label": "Screening Test Qualified Candidates Notification No. 1/2022-RC (PDF)",
+        "url": "https://aphc.gov.in/docs/04_03_2023_JCJ-2022-Screening_Test_results.pdf",
+        "type": "other",
+        "cycle_label": "1/2022-RC",
+        "confidence": "verified",
+        "as_of": "2023-02-04"
+      },
+      {
+        "label": "High Court of Andhra Pradesh Official Portal",
+        "url": "https://aphc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

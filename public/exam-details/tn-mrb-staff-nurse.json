@@ -1,0 +1,164 @@
+{
+  "id": "tn-mrb-staff-nurse",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Nursing service career hierarchy in the Tamil Nadu Medical Subordinate Service across government hospitals, medical college hospitals, and primary health centres (PHCs). Per G.O. (Ms) No. 232, nurses are initially appointed on consolidated contract pay and absorbed into the regular time scale of pay (Level 10) after two years of service based on seniority.",
+    "steps": [
+      {
+        "designation": "Staff Nurse",
+        "pay_level": "Level 10 (Regular) / Consolidated Rs. 14,000 (Initial 2 yrs)",
+        "years": "Entry (approx. 0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "TN MRB Notification No. 02/MRB/2019, Section 4: Scale of Pay (Level 10: Rs. 20,600 - 75,900 upon regular time-scale absorption)"
+      },
+      {
+        "designation": "Nursing Tutor Grade-II / Senior Staff Nurse",
+        "pay_level": "Level 11 / Level 12",
+        "years": "approx. 6-12 yrs",
+        "confidence": "reported",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "Tamil Nadu Medical Subordinate Service Rules (Scale of Pay Level 11: Rs. 35,400 - 1,30,400)"
+      },
+      {
+        "designation": "Nursing Superintendent Grade-II",
+        "pay_level": "Level 13",
+        "years": "approx. 12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "Tamil Nadu Medical Subordinate Service Rules (Scale of Pay Level 13: Rs. 36,900 - 1,36,600)"
+      },
+      {
+        "designation": "Nursing Superintendent Grade-I",
+        "pay_level": "Level 16",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "Tamil Nadu Medical Subordinate Service Rules (Scale of Pay Level 16: Rs. 56,100 - 2,05,700)"
+      },
+      {
+        "designation": "Deputy Director of Nursing / Chief Nursing Officer (CNO)",
+        "pay_level": "Level 18 / Level 22",
+        "years": "approx. 24-30+ yrs",
+        "confidence": "reported",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "Directorate of Medical and Rural Health Services (DMS) Apex Nursing Cadre Structure"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Direct recruitment examination for Staff Nurses conducted by the Medical Services Recruitment Board (MRB) consists of a single objective written paper in Nursing subjects along with a mandatory qualifying Tamil Language Eligibility Test. No viva-voce or interview is conducted; selections are based strictly on written examination merit and the statutory communal reservation roster.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Type OMR / CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "TN MRB Notification No. 02/MRB/2019, Section 7: Scheme of Examination (Objective Type)",
+        "papers": [
+          {
+            "paper_name": "Mandatory Tamil Eligibility Test (SSLC Standard, 50 Questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (20 marks); mandatory qualifying examination as per G.O. Ms. No. 133, Human Resources Management Department"
+          },
+          {
+            "paper_name": "Core Nursing Subject Paper (Diploma / Degree in Nursing Standard, 200 MCQs)",
+            "marks": 100,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying mark: 30% (30 marks) for SC, SCA, and ST; 35% (35 marks) for Other categories (each question carries 0.5 mark)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Nurses recruited through MRB are initially placed on a consolidated contractual pay of ₹14,000 per month (with annual increments of ₹500 under G.O. Ms. No. 232, Health and Family Welfare Department). Following completion of two years of satisfactory service, candidates are absorbed into the regular time-scale under Level 10 of the Tamil Nadu Revised Pay Matrix (₹20,600 - ₹75,900).",
+    "pay_level": "Level 10 (Regular) / Consolidated Rs. 14,000 (Initial 2 yrs)",
+    "entry_basic_pay": 20600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-02-07",
+    "pay_source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+    "pay_source_label": "TN MRB Notification No. 02/MRB/2019, Section 4: Scale of Pay & G.O. (Ms). No. 232, Health and Family Welfare Department",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 42000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate reflects regular time-scale emoluments post-absorption at Level 10 entry basic pay ₹20,600 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹1,200 to ₹3,000), Medical Allowance, Uniform Allowance, and Night Shift Duty Allowance. Deductions include CPS (10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under New Health Insurance Scheme (NHIS) for nurses and dependent family members",
+      "Uniform Allowance, Washing Allowance, and Night Duty Special Allowance",
+      "Staff quarters inside government hospital campuses or station HRA",
+      "Earned leave, maternity leave, and medical leave benefits under Tamil Nadu Fundamental Rules",
+      "Absorption into permanent government service with Contributory Pension Scheme benefits"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "The TN MRB Staff Nurse Examination is the primary recruitment mechanism for clinical nursing posts across hundreds of government medical institutions in Tamil Nadu, drawing tens of thousands of GNM and B.Sc. Nursing registered candidates per cycle.",
+    "years": [
+      {
+        "year": 2019,
+        "applicants": 40000,
+        "vacancies": 2345,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 17 (calculated: registered nursing candidates ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2019-02-07",
+        "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "source_label": "TN MRB Notification No. 02/MRB/2019: Total 2,345 vacancies (GT: 730, BC: 620, BCM: 83, MBC/DNC: 471, SC: 352, SCA: 68, ST: 21); applicant volume reported across state healthcare publications from Board records"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and guidelines published by the Medical Services Recruitment Board (MRB), Government of Tamil Nadu.",
+    "links": [
+      {
+        "label": "Medical Services Recruitment Board (TN MRB) Official Website",
+        "url": "https://www.mrb.tn.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Direct Recruitment for the Post of Nurses — Official Notification (Advt. No. 02/MRB/2019)",
+        "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
+        "type": "notification",
+        "cycle_label": "MRB-Nurses-2019",
+        "confidence": "verified",
+        "as_of": "2019-02-07"
+      },
+      {
+        "label": "Notification for Nurses for Differently Abled Persons Category (Advt. No. 02/MRB/2022)",
+        "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/notification_Nurses_DAP_020322.pdf",
+        "type": "notification",
+        "cycle_label": "MRB-Nurses-DAP-2022",
+        "confidence": "verified",
+        "as_of": "2022-03-02"
+      }
+    ]
+  }
+}

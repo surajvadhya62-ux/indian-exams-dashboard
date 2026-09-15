@@ -1,0 +1,178 @@
+{
+  "id": "hssc-canal-patwari",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Canal Patwaris in the Irrigation & Water Resources Department and Revenue Patwaris in the Land Records Department of Haryana are vital field functionaries. Career advancement is regulated by the Haryana Irrigation Department Subordinate Services Rules and Haryana Land Revenue Rules.",
+    "steps": [
+      {
+        "designation": "Patwari / Canal Patwari",
+        "pay_level": "Level 4 (FPL-4)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt No. 03/2023 (Group C Group 56 Graduate Level Posts) & Haryana Civil Services (Revised Pay) Rules"
+      },
+      {
+        "designation": "Kanungo / Canal Zilladar",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "approx. 8-12 yrs (subject to Departmental Examination & merit)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Land Revenue Subordinate Services Cadre Rules"
+      },
+      {
+        "designation": "Naib Tehsildar / Sub-Divisional Revenue Officer",
+        "pay_level": "Level 7 (FPL-7)",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Revenue Department Promotion Rules"
+      },
+      {
+        "designation": "Tehsildar",
+        "pay_level": "Level 8 (FPL-8) to Level 9 (FPL-9)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Civil Services Executive/Revenue Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Patwari and Canal Patwari recruitments have been integrated into HSSC Group C CET under Group 56 (Graduate Level Posts). Shortlisted candidates from CET appear for the specialized Group 56 Mains Examination.",
+    "stages": [
+      {
+        "stage_name": "Common Eligibility Test (CET Group C Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC CET Group C Notification & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Common Screening Examination (General Knowledge, Aptitude, Reasoning, Language & Haryana GK)",
+            "marks": 95,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.95 deducted if fifth bubble unshaded",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff to be shortlisted for Group 56 Mains"
+          }
+        ]
+      },
+      {
+        "stage_name": "HSSC Group 56 Mains Written Examination (Graduate Level Posts)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Advt 03/2023 Syllabus for Group 56 (100 Questions, 97.5 Marks, 105 Minutes)",
+        "papers": [
+          {
+            "paper_name": "Subject-Specific Domain Knowledge (70% weightage: Land Revenue Administration, Canal & Drainage Act 1974, Irrigation Billing, Girdawari, Jamabandi, Disaster Management, Rural Governance)",
+            "marks": 68.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; mandatory fifth bubble",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-based competitive selection"
+          },
+          {
+            "paper_name": "General Awareness, Reasoning, Computer Literacy & Haryana History/Culture (30% weightage)",
+            "marks": 29.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; mandatory fifth bubble",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-based selection"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Patwaris and Canal Patwaris are remunerated in Functional Pay Level 4 (FPL-4) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹25,500.",
+    "pay_level": "Level 4 (FPL-4)",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-03-07",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-4 scale ₹25,500 – ₹81,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 44000,
+      "max": 52000
+    },
+    "in_hand_range_estimate": {
+      "min": 38000,
+      "max": 45000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry Level 4 basic pay of ₹25,500 with 58% Dearness Allowance (₹14,790), House Rent Allowance (8% to 24%), Patwari Basta/Stationery allowance, and fixed medical allowance, minus standard employee NPS and insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at prevailing state rates (58% effective 1 Jul 2025)",
+      "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
+      "Stationery / Basta allowance for maintenance of land and canal records",
+      "Cashless Medical Facility under Haryana State Employees Scheme",
+      "New Pension Scheme (NPS) with state government matching contribution",
+      "Leave Travel Concession (LTC) as per Haryana Civil Services Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Patwari and Canal Patwari positions are among the most sought-after field revenue appointments under HSSC Group C recruitment.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 37600,
+        "vacancies": 1213,
+        "shortlisted_for_mains": 37600,
+        "selectivity_ratio": "approx. 1 in 31 (calculated: shortlisted CET candidates ÷ Group 56 revenue vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-08-06",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 03/2023 Group 56 (Graduate Level): 1,213 Patwari and Canal Patwari vacancies; 37,600 CET-qualified candidates called for Mains."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, group-wise vacancies, and Group 56 Mains syllabus are hosted on the HSSC recruitment website.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advertisements & Detailed Recruitment Hub",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "Advt-03/2023-Group-56",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      },
+      {
+        "label": "HSSC Group 56 Syllabus (Patwari & Canal Patwari)",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      }
+    ]
+  }
+}

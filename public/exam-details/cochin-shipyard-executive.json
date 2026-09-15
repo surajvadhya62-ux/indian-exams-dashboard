@@ -1,0 +1,201 @@
+{
+  "id": "cochin-shipyard-executive",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive Trainees and Ship Draftsman trainees at Cochin Shipyard Limited (CSL) progress through the technical shipbuilding hierarchy through annual performance evaluations, departmental proficiency reviews, and seniority.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (E-1 / Technical & Commercial)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Executive Trainee Selection Notification"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Cadre & Promotion Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Executive Management Regulations"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Promotion Policy"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Shipbuilding Division Rules"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Senior Management Cadre"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Executive Cadre Hierarchy"
+      },
+      {
+        "designation": "General Manager / Chief General Manager",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Board Level Senior Cadre"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the post of Executive Trainee consists of two phases: Phase-I Online Test (Objective Type) and Phase-II Group Discussion, Writing Skills, and Personal Interview. Final selection is based on combined marks.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Objective Type Online Test",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Selection Process for Executive Trainees Notification",
+        "papers": [
+          {
+            "paper_name": "Part A: General Awareness, English Language, Numerical Ability & Reasoning Ability",
+            "marks": 20,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined 50% for General/EWS, 40% for SC/ST/OBC/PwD"
+          },
+          {
+            "paper_name": "Part B: Discipline Specific Technical Subject Knowledge",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: GD, Writing Skills & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Phase II Interview Regulations",
+        "papers": [
+          {
+            "paper_name": "Group Discussion (GD: 10 marks), Writing Skills (10 marks) & Personal Interview (20 marks)",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% in Interview for General/EWS, 40% for Reserved"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Executive Trainees are placed in DPE IDA pay scale E-1 (₹40,000–₹1,40,000). During 1-year training, stipend equals basic pay ₹40,000 with mandatory 58% DA constant as of 2025-07-01, Kochi HRA, and cafeteria perks.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://cochinshipyard.in/career",
+    "pay_source_label": "CSL Terms of Training and Service Conditions",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 71000,
+      "max": 86000
+    },
+    "in_hand_range_estimate": {
+      "min": 62000,
+      "max": 75000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on Entry Basic Pay of ₹40,000, 58% IDA (₹23,200), Kochi Class Y HRA (18% = ₹7,200), and Cafeteria allowances (30% = ₹12,000), less statutory Contributory Provident Fund (12%) and medical scheme deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) with quarterly revision",
+      "House Rent Allowance (HRA) @ 18% in Kochi or company quarters",
+      "Cafeteria Approach Perks & Allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on CSL annual corporate targets",
+      "Contributory Pension Scheme, Gratuity, and Group Insurance Scheme",
+      "Full medical coverage for self and eligible dependents at CSL Medical Centre"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from Cochin Shipyard Executive Trainee selection cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 70,
+        "applicants": 24500,
+        "shortlisted_for_mains": 420,
+        "selectivity_ratio": "approx. 1 in 350",
+        "confidence": "reported",
+        "as_of": "2024-07-15",
+        "source_url": "https://cochinshipyard.in/career",
+        "source_label": "CSL Notification P&A/2(263)/2024: 70 Executive Trainee vacancies across Naval Architecture, Mechanical, Electrical, Electronics, Civil, and Instrumentation."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career and recruitment notices published on the Cochin Shipyard Limited portal.",
+    "links": [
+      {
+        "label": "CSL Official Career Hub",
+        "url": "https://cochinshipyard.in/career",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "CSL Corporate Portal",
+        "url": "https://cochinshipyard.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "id": "goa-psc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Goa Public Service Commission for the Goa Civil Service (Junior Scale) begin their career as Junior Scale Officers (Mamlatdar / Joint Mamlatdar / Block Development Officer / Under Secretary) and progress through the state civil service hierarchy before being considered for induction into the Indian Administrative Service (IAS) under the AGMUT cadre state promotion quota.",
+    "steps": [
+      {
+        "designation": "Junior Scale Officer (JSO) / Mamlatdar / Joint Mamlatdar / BDO / Under Secretary",
+        "pay_level": "Level 10 (₹56,100 - ₹1,77,500)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2016-01-01",
+        "source_url": "https://gpsc.goa.gov.in/advertisements/",
+        "source_label": "Goa Civil Service Rules & Central Civil Services (Revised Pay) Rules 2016 as adopted by Government of Goa, Pay Matrix Level 10"
+      },
+      {
+        "designation": "Senior Scale Officer / Deputy Collector & Sub-Divisional Magistrate (SDM) / Additional Director",
+        "pay_level": "Level 11 (₹67,700 - ₹2,08,700)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2016-01-01",
+        "source_url": "https://gpsc.goa.gov.in/advertisements/",
+        "source_label": "Goa Civil Service (Senior Scale) Rules & CCS (Revised Pay) Rules, 2016"
+      },
+      {
+        "designation": "Junior Administrative Grade (JAG) / Additional Collector / Director of State Departments",
+        "pay_level": "Level 12 (₹78,800 - ₹2,09,200)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2016-01-01",
+        "source_url": "https://gpsc.goa.gov.in/advertisements/",
+        "source_label": "Goa Civil Service Rules & CCS (Revised Pay) Rules, 2016"
+      },
+      {
+        "designation": "Selection Grade / Special Secretary / Additional Secretary to Government",
+        "pay_level": "Level 13 (₹1,23,100 - ₹2,15,900)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2016-01-01",
+        "source_url": "https://gpsc.goa.gov.in/advertisements/",
+        "source_label": "Goa Civil Service Rules & CCS (Revised Pay) Rules, 2016"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) / AGMUT Cadre (State Quota) / Super Time Scale",
+        "pay_level": "Level 14 (₹1,44,200 basic)",
+        "years": "approx. 18+ yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://gpsc.goa.gov.in/advertisements/",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT & UPSC AGMUT Cadre Allocation"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to the Junior Scale Officer of Goa Civil Service is conducted by the Goa Public Service Commission (GPSC) through a multi-tier selection process consisting of a Pre-Screening Computer Based Recruitment Test (CBRT), a Competitive Written Examination (250 marks), and an Oral Interview / Personality Test (40 marks). Final selection merit is determined strictly on the aggregate of the Written Examination and Interview (total 290 marks).",
+    "stages": [
+      {
+        "stage_name": "Pre-Screening / Screening Test (CBRT, Qualifying Only)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-07-15",
+        "source_url": "https://gpsc.goa.gov.in/wp-content/uploads/2025/07/NEWSCHEMEEXAMINATION_2025.pdf",
+        "source_label": "GPSC Notice Ref. COM/I/154(3)/2025/561 dated 15/07/2025 & CBRT Scheme",
+        "papers": [
+          {
+            "paper_name": "Pre-Screening Computer Based Recruitment Test (CBRT)",
+            "marks": 60,
+            "duration_minutes": 75,
+            "negative_marking": "No negative marking in Pre-Screening Test",
+            "qualifying_only": true,
+            "qualifying_threshold": "50% (30/60 marks) for General/EWS; 45% (27/60 marks) for OBC/PwD/CFF; 40% (24/60 marks) for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Competitive Written Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gpsc.goa.gov.in/syllabus/",
+        "source_label": "GPSC Scheme of Competitive Written Examination for Junior Scale Officer",
+        "papers": [
+          {
+            "paper_name": "Paper I — General Intelligence, Indian Constitution, Governance & Current Affairs",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-0.5 marks deduction for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II — English Comprehension",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "-0.5 marks deduction for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Oral Interview / Personality Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://gpsc.goa.gov.in/syllabus/",
+        "source_label": "GPSC Interview & Personality Assessment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Oral Interview / Viva-Voce",
+            "marks": 40,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Called in ratio of 1:5 of vacancies based on written/CBRT shortlist; candidates must demonstrate knowledge of Konkani"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Scale Officers in the Goa Civil Service are compensated under the 7th Central Pay Commission Pay Matrix as adopted by the Government of Goa under Central Civil Services (Revised Pay) Rules, 2016 at Pay Matrix Level 10 (entry basic pay ₹56,100). Allowances include central-parity Dearness Allowance, House Rent Allowance (10% to 20%), Transport Allowance, and state executive perks.",
+    "pay_level": "Level 10 (PB-3 ₹15,600-39,100, GP ₹5,400)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2016-01-01",
+    "pay_source_url": "https://gpsc.goa.gov.in/advertisements/",
+    "pay_source_label": "Government of Goa Notification on CCS (Revised Pay) Rules 2016 & GPSC Advertisement No. 09/2025",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 95000,
+      "max": 112000
+    },
+    "in_hand_range_estimate": {
+      "min": 85000,
+      "max": 101000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross calculated from Level 10 entry basic ₹56,100 + 58% DA (₹32,538) + HRA (10% to 20% depending on municipal classification such as Panaji/Margao or rural talukas) + Transport Allowance (₹3,600 + DA = ₹5,688). In-hand estimate accounts for statutory deductions including 10% NPS (Basic + DA = ₹8,864), Goa Professional Tax, and Group Insurance.",
+    "official_perks": [
+      "Designated government executive accommodation / Type-V residential quarters in Panaji or district headquarters",
+      "Official staff car / vehicle with driver entitlement for administrative and field inspections",
+      "Statutory executive magisterial powers under Code of Criminal Procedure (CrPC/BNSS)",
+      "Comprehensive medical coverage for officer and dependent family members under Goa State Employees Health Scheme",
+      "Mobile phone and high-speed broadband internet reimbursement",
+      "Eligibility for career induction into the Indian Administrative Service (IAS) under AGMUT cadre promotion quota"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical competition data from official Goa Public Service Commission recruitment notifications, CBRT result announcements, and screening statistics for Junior Scale Officers of the Goa Civil Service.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "vacancies": 38,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "Notified cycle (Advt No. 09/2025 for 38 posts)",
+        "confidence": "verified",
+        "as_of": "2025-09-05",
+        "source_url": "https://gpsc.goa.gov.in/advertisements/",
+        "source_label": "GPSC Advertisement No. 09/2025 for Junior Scale Officer of Goa Civil Service (38 vacancies: 16 UR, 11 OBC, 6 ST, 5 EWS)"
+      },
+      {
+        "year": 2022,
+        "applicants": 3000,
+        "vacancies": 24,
+        "shortlisted_for_mains": 55,
+        "selectivity_ratio": "approx. 1 in 125 (applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-07-15",
+        "source_url": "https://gpsc.goa.gov.in/results/",
+        "source_label": "GPSC Advt No. 07/2022 Junior Scale Officer: 3,000 applicants, 141 cleared pre-screening, 55 candidates qualified screening CBRT for written test"
+      },
+      {
+        "year": 2020,
+        "applicants": 3700,
+        "vacancies": 22,
+        "shortlisted_for_mains": 79,
+        "selectivity_ratio": "approx. 1 in 168 (applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2020-02-28",
+        "source_url": "https://gpsc.goa.gov.in/results/",
+        "source_label": "GPSC Advt No. 01/2020 Junior Scale Officer: 3,700 applicants, 2,723 appeared in screening CBRT, 79 qualified"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, scheme documents, syllabus guides, and portal links from the Goa Public Service Commission (GPSC).",
+    "links": [
+      {
+        "label": "GPSC New Scheme of Examination (CBRT Revision Notice 2025)",
+        "url": "https://gpsc.goa.gov.in/wp-content/uploads/2025/07/NEWSCHEMEEXAMINATION_2025.pdf",
+        "type": "syllabus",
+        "cycle_label": "2025-Scheme",
+        "confidence": "verified",
+        "as_of": "2025-07-15"
+      },
+      {
+        "label": "GPSC General Instructions for Candidates (September 2026 Revision)",
+        "url": "https://gpsc.goa.gov.in/wp-content/uploads/2026/09/gpsc-gen-instructionsV04092026.pdf",
+        "type": "other",
+        "cycle_label": "2026-Instructions",
+        "confidence": "verified",
+        "as_of": "2026-09-04"
+      },
+      {
+        "label": "GPSC Advertisements & Recruitment Notifications Portal",
+        "url": "https://gpsc.goa.gov.in/advertisements/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "GPSC Examination Syllabus & CBRT Structure Hub",
+        "url": "https://gpsc.goa.gov.in/syllabus/",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "GPSC Previous Question Papers & Answer Keys Archive",
+        "url": "https://gpsc.goa.gov.in/question-paper/",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "GPSC Screening & Interview Results Portal",
+        "url": "https://gpsc.goa.gov.in/results/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

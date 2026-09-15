@@ -1,0 +1,255 @@
+{
+  "id": "upprpb-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Frontline police executive cadre under the Uttar Pradesh Police (Home Department, Government of Uttar Pradesh). Personnel enter as Police Constable (Civil Police / PAC) at Level 3 and advance through departmental promotion examinations, seniority, and qualifying service training.",
+    "steps": [
+      {
+        "designation": "Police Constable (Civil Police / Provincial Armed Constabulary - PAC)",
+        "pay_level": "Level 3",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Constable Service Rules 2015 & Advt. No. PRPB-एक-1(150)/2023"
+      },
+      {
+        "designation": "Head Constable (Mukhya Arakshi)",
+        "pay_level": "Level 4",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Head Constable Service Regulations"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI / Up-Nirikshak Lipik/Lekha)",
+        "pay_level": "Level 5",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Subordinate Rank Promotion Regulations"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI / Daroga / Chauki Incharge)",
+        "pay_level": "Level 6",
+        "years": "approx. 16-23 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Sub-Inspector and Inspector (Civil Police) Service Rules 2015"
+      },
+      {
+        "designation": "Inspector of Police (Nirikshak / Station House Officer - SHO)",
+        "pay_level": "Level 7",
+        "years": "approx. 23-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Inspector Cadre Regulations"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP / Circle Officer - CO)",
+        "pay_level": "Level 10",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "Uttar Pradesh Provincial Police Service (PPS) Promotion Quota"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection comprises an Objective Written Examination of 300 marks (150 MCQs of 2 marks each with 0.5 marks negative penalty), followed by Document Verification & Physical Standard Test (DV/PST) and Physical Efficiency Test (PET). Merit is drawn strictly from written test scores.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (OMR Objective Mode)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/vig1_31072026f114aeea-ffe0-4cb8-b793-0c624293c7a0.pdf",
+        "source_label": "UPPRPB Constable Examination Scheme & Official Notice",
+        "papers": [
+          {
+            "paper_name": "General Knowledge (Samanya Gyan)",
+            "marks": 76,
+            "duration_minutes": null,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Hindi (Samanya Hindi)",
+            "marks": 74,
+            "duration_minutes": null,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Numerical and Mental Ability (Sankhyatmak Evam Mansik Yogyata)",
+            "marks": 76,
+            "duration_minutes": null,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mental Aptitude, IQ and Reasoning Ability (Mansik Abhiruchi, Buddhilabdhi Evam Tarkik Kshamta)",
+            "marks": 74,
+            "duration_minutes": 120,
+            "negative_marking": "0.5 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Physical Standard Test (DV/PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/DVPST%20DATE%20AND%20INSTRUCTION8728d36f-f7fc-479f-98b7-8d59b3466acf.pdf",
+        "source_label": "UPPRPB DV/PST Standards & Guidelines",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Documents & Physical Standards (Height: Male 168 cm, Female 152 cm; Chest: Male 79-84 cm)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical standards prescribed by UPPRPB"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET / Running)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/vig1_31072026f114aeea-ffe0-4cb8-b793-0c624293c7a0.pdf",
+        "source_label": "UPPRPB Physical Efficiency Standards",
+        "papers": [
+          {
+            "paper_name": "Endurance Race (Male: 4.8 km in 25 mins; Female: 2.4 km in 14 mins)",
+            "marks": null,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Completion of endurance race within prescribed time"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables in Uttar Pradesh Police are placed in Pay Level 3 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016. In addition to basic salary and standard allowances, personnel receive police ration subsidy, kit maintenance, and washing allowance.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://uppbpb.gov.in/Home/Manual",
+    "pay_source_label": "UP Revised Pay Rules 2016 Level 3 & UP Police Departmental Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36500,
+      "max": 41000
+    },
+    "in_hand_range_estimate": {
+      "min": 32500,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 with 58% DA (₹12,586), HRA (₹1,200 to ₹3,600 depending on district class), uniform maintenance allowance, diet allowance, net of 10% NPS contribution (₹3,429) and group insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP Government finance orders",
+      "House Rent Allowance (HRA) categorized by district posting (Class X/Y/Z)",
+      "Diet Allowance / Ration Subsidy for executive field personnel",
+      "Annual Uniform and Kit Maintenance Allowance",
+      "Washing Allowance and Conveyance Allowance",
+      "National Pension System (NPS) with 14% government matching contribution",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Data compiled from official UPPRPB recruitment notifications, admit card releases, and DV/PST shortlisting lists for Constable Civil Police and PAC recruitment cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 4817441,
+        "vacancies": 60244,
+        "shortlisted_for_mains": 76184,
+        "selectivity_ratio": "1 in 80",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/FilesUploaded/Notice/vig1_31072026f114aeea-ffe0-4cb8-b793-0c624293c7a0.pdf",
+        "source_label": "UPPRPB Civil Constable Mega-Recruitment DV/PST Shortlisting Notice"
+      },
+      {
+        "year": 2019,
+        "applicants": 1938363,
+        "vacancies": 49568,
+        "shortlisted_for_mains": 123921,
+        "selectivity_ratio": "1 in 39",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/DirectRecruitment",
+        "source_label": "UPPRPB Advt. PRPB-1(33)/2018 Constable 49,568 Vacancies Notice"
+      },
+      {
+        "year": 2018,
+        "applicants": 2276600,
+        "vacancies": 41520,
+        "shortlisted_for_mains": 62280,
+        "selectivity_ratio": "1 in 55",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/DirectRecruitment",
+        "source_label": "UPPRPB Advt. PRPB-1(138)/2017 Constable 41,520 Posts"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and DV/PST instructions published on the UPPRPB official portal.",
+    "links": [
+      {
+        "label": "UP Police Constable Direct Recruitment Written Result & DV/PST Notice",
+        "url": "https://uppbpb.gov.in/FilesUploaded/Notice/vig1_31072026f114aeea-ffe0-4cb8-b793-0c624293c7a0.pdf",
+        "type": "notification",
+        "cycle_label": "2024-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPPRPB Constable DV/PST Date & Instructions Bulletin",
+        "url": "https://uppbpb.gov.in/FilesUploaded/Notice/DVPST%20DATE%20AND%20INSTRUCTION8728d36f-f7fc-479f-98b7-8d59b3466acf.pdf",
+        "type": "other",
+        "cycle_label": "2024-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPPRPB Official Notices & Syllabus Hub",
+        "url": "https://uppbpb.gov.in/Home/Notice",
+        "type": "syllabus",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

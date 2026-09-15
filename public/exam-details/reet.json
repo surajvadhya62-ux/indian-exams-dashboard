@@ -1,0 +1,276 @@
+{
+  "id": "reet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Qualifying the Rajasthan Eligibility Examination for Teachers (REET) conducted by the Board of Secondary Education Rajasthan (BSER), Ajmer is the statutory prerequisite under Section 23(1) of the Right to Education (RTE) Act, 2009 for recruitment as Primary and Upper Primary Teachers in Rajasthan Government schools. Direct recruitment to the post of Grade III Teacher is conducted under the Rajasthan Educational (State and Subordinate) Service Rules, 2021, following which teachers advance through the State education cadre.",
+    "steps": [
+      {
+        "designation": "Grade III Teacher (Primary / Upper Primary School Teacher, Level 1 & Level 2)",
+        "pay_level": "Level L-10",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/pressvigyapti/PressVighyapti2022.pdf",
+        "source_label": "BSER REET 2022 Detailed Notification & Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule I"
+      },
+      {
+        "designation": "Senior Teacher / Grade II Teacher (वरिष्ठ अध्यापक - Secondary Schools)",
+        "pay_level": "Level L-11",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
+        "source_label": "Rajasthan Educational (Subordinate) Service Rules Cadre Hierarchy"
+      },
+      {
+        "designation": "School Lecturer / Grade I Teacher (प्राध्यापक - Senior Secondary Schools)",
+        "pay_level": "Level L-12",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
+        "source_label": "Rajasthan Educational Service Rules Promotion Quota"
+      },
+      {
+        "designation": "Vice Principal (उप प्रधानाचार्य - Senior Secondary Schools)",
+        "pay_level": "Level L-14",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
+        "source_label": "Rajasthan Education Department Cadre Restructuring Order"
+      },
+      {
+        "designation": "Principal / Equivalent Administrative Officer (प्रधानाचार्य / Chief Block Education Officer / DEO)",
+        "pay_level": "Level L-16",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
+        "source_label": "Rajasthan State Educational Service Gazetted Selection Grade"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "REET is conducted in pen-and-paper offline OMR format across two distinct levels: Level 1 (Classes I to V, Primary) and Level 2 (Classes VI to VIII, Upper Primary). Candidates possessing requisite qualifications may appear in either or both levels. Each test comprises 150 multiple-choice questions carrying 150 marks for a duration of 150 minutes (2 hours 30 minutes). There is strictly no negative marking. Under Rajasthan Primary Education Department Order dated 16-03-2022, the REET certificate carries lifetime validity. Qualifying marks are 60% for General (55% for SC/ST/OBC/MBC/EWS, 50% for Widows/Ex-Servicemen, 40% for PwBD, 36% for TSP ST / Sahariya).",
+    "stages": [
+      {
+        "stage_name": "REET Level 1 (Primary Teacher, Classes I-V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/pressvigyapti/PressVighyapti2022.pdf",
+        "source_label": "BSER REET 2022 Detailed Notification Section 4-1",
+        "papers": [
+          {
+            "paper_name": "Section I: Child Development & Pedagogy (बाल विकास एवं शिक्षण विधियाँ)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section II: Language I (Hindi / English / Sanskrit / Urdu / Sindhi / Punjabi / Gujarati)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section III: Language II (Distinct language selected from approved list)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section IV: Mathematics (गणित)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section V: Environmental Studies (पर्यावरण अध्ययन)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "REET Level 2 (Upper Primary Teacher, Classes VI-VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/pressvigyapti/PressVighyapti2022.pdf",
+        "source_label": "BSER REET 2022 Detailed Notification Section 4-2",
+        "papers": [
+          {
+            "paper_name": "Section I: Child Development & Pedagogy (बाल विकास एवं शिक्षण विधियाँ)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section II: Language I (Hindi / English / Sanskrit / Urdu / Sindhi / Punjabi / Gujarati)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section III: Language II (Distinct language selected from approved list)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Section IV: Mathematics & Science OR Social Studies / Social Science (Subject Specific)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Grade III Teachers recruited on the basis of REET eligibility certification are placed in Pay Matrix Level L-10 (corresponding to 6th CPC Grade Pay ₹3,600 in Pay Band ₹9,300–₹34,800) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. As per Rajasthan Government finance rules, appointees serve a mandatory two-year probation period during which a fixed trainee remuneration of ₹23,700 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹33,800 is drawn.",
+    "pay_level": "Level L-10",
+    "entry_basic_pay": 33800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/pressvigyapti/PressVighyapti2022.pdf",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule I Level L-10 & BSER REET Guidelines",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 55000,
+      "max": 62500
+    },
+    "in_hand_range_estimate": {
+      "min": 48000,
+      "max": 55500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary reflects post-probation regular pay comprising Entry Basic Pay ₹33,800 + 58% DA (₹19,604) + HRA ranging from 10% (₹3,380 in rural/Z-class stations) to 20% (₹6,760 in Y-class cities like Jaipur, Jodhpur, Kota). In-hand salary accounts for standard deductions under the National Pension System (NPS 10% on Basic+DA = ₹5,340), Rajasthan Government Health Scheme (RGHS), and State Insurance (SI). During the 2-year probation period, fixed remuneration is ₹23,700 per month.",
+    "official_perks": [
+      "Cashless medical treatment for employee and dependents under Rajasthan Government Health Scheme (RGHS)",
+      "House Rent Allowance (10% to 20% based on city tier) or Government staff quarters where available",
+      "Summer and winter school vacation entitlements along with casual leave (15 days) and earned/half-pay leave",
+      "Maternity leave (180 days) and Paternity leave (15 days) as per Rajasthan Service Rules",
+      "Defined contribution pension under NPS and statutory State Insurance (SI) coverage"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "REET is Rajasthan's largest public competitive eligibility examination, attracting 15 to 16 lakh candidates across Level 1 and Level 2. In 2022, 14,71,310 candidates appeared out of 15,66,992 registered applicants, and 8,07,145 candidates qualified (6,03,536 in Level 2 and 2,03,609 in Level 1) for recruitment against 48,000 Grade III Teacher vacancies advertised by the State Elementary Education Department.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 1566992,
+        "vacancies": 48000,
+        "shortlisted_for_mains": 807145,
+        "selectivity_ratio": "1 in 33 (against 48,000 Grade 3 Teacher vacancies; 8,07,145 candidates qualified the eligibility threshold)",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/REETRES2022/roll_input.htm",
+        "source_label": "BSER REET 2022 Official Result Portal & Elementary Education Department 48,000 Teacher Notification"
+      },
+      {
+        "year": 2021,
+        "applicants": 1651887,
+        "vacancies": 31000,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1 in 53 (16.51 lakh applicants for 31,000 Grade III Teacher vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
+        "source_label": "BSER REET 2021 Candidate Registration Press Release"
+      },
+      {
+        "year": 2012,
+        "applicants": 525546,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET2012-states.pdf",
+        "source_label": "BSER RTET 2012 District & Gender-wise Registered Candidates Statistical Compendium"
+      },
+      {
+        "year": 2011,
+        "applicants": 608576,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET2011-states.pdf",
+        "source_label": "BSER RTET 2011 Category & District-wise Registration Statistical Report"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination guidelines, syllabi, and statistical reports published by the Board of Secondary Education Rajasthan (BSER), Ajmer for REET.",
+    "links": [
+      {
+        "label": "REET 2022 Detailed Examination Guidelines, Rules & Syllabus Notification",
+        "url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/pressvigyapti/PressVighyapti2022.pdf",
+        "type": "notification",
+        "cycle_label": "REET-2022",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BSER REET Official Examination Portal & Information Bulletin Archives",
+        "url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "REET 2022 Official Result & Scorecard Verification System",
+        "url": "https://rajeduboard.rajasthan.gov.in/REETRES2022/roll_input.htm",
+        "type": "other",
+        "cycle_label": "REET-2022",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "RTET 2012 State-wide District and Category Candidate Statistics Report",
+        "url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET2012-states.pdf",
+        "type": "other",
+        "cycle_label": "RTET-2012",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

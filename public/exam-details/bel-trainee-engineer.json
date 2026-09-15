@@ -1,0 +1,152 @@
+{
+  "id": "bel-trainee-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Fixed-term contractual engineering cadre at Bharat Electronics Limited.",
+    "steps": [
+      {
+        "designation": "Trainee Engineer-I",
+        "pay_level": "Consolidated Remuneration ₹30,000 – ₹40,000/month",
+        "years": "Contract (1-3 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Trainee Engineer Recruitment Advertisement"
+      },
+      {
+        "designation": "Project Engineer-I",
+        "pay_level": "Consolidated Remuneration ₹40,000 – ₹55,000/month",
+        "years": "Contract (approx. 2-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Project Engineer Advertisement"
+      },
+      {
+        "designation": "Deputy Engineer (Regular)",
+        "pay_level": "E-2 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "Internal Selection (approx. 4+ yrs)",
+        "confidence": "reported",
+        "as_of": "2024-01-20",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Lateral Executive Absorption Guidelines"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted through written test (85% weightage) followed by interview (15% weightage).",
+    "stages": [
+      {
+        "stage_name": "Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Recruitment Scheme",
+        "papers": [
+          {
+            "paper_name": "Technical Engineering Discipline (60 marks) & General Aptitude (25 marks)",
+            "marks": 85,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% for General/OBC and 30% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Recruitment Scheme",
+        "papers": [
+          {
+            "paper_name": "Technical and Personal Interview",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% in Interview"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Consolidated monthly compensation for contract engineers across BEL units.",
+    "pay_level": "Consolidated Pay ₹30,000 – ₹40,000/month",
+    "entry_basic_pay": 30000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-20",
+    "pay_source_url": "https://bel-india.in/careers/",
+    "pay_source_label": "BEL Official Trainee Engineer Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 30000,
+      "max": 35000
+    },
+    "in_hand_range_estimate": {
+      "min": 27000,
+      "max": 32000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Consolidated pay: 1st year ₹30,000/mo, 2nd year ₹35,000/mo, 3rd year ₹40,000/mo, plus ₹12,000/year annual attire and medical reimbursement allowance.",
+    "official_perks": [
+      "Annual reimbursement of ₹12,000 per year towards attire and footwear",
+      "Medical insurance coverage up to ₹2,00,000 for self",
+      "Provident fund contribution as per statutory rules",
+      "Paid casual leave and medical leave as per company contract terms",
+      "Preference in permanent Deputy Engineer lateral recruitment"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment vacancy numbers across BEL units (Bengaluru, Ghaziabad, Hyderabad, Pune, Chennai).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 229,
+        "confidence": "verified",
+        "as_of": "2024-02-15",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Bengaluru Unit Advt 2024"
+      },
+      {
+        "year": 2023,
+        "vacancies": 180,
+        "confidence": "verified",
+        "as_of": "2023-08-10",
+        "source_url": "https://bel-india.in/careers/",
+        "source_label": "BEL Military Radar SBU Advt 2023"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on BEL portal.",
+    "links": [
+      {
+        "label": "BEL Official Careers Portal",
+        "url": "https://bel-india.in/careers/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BEL Corporate Home Page",
+        "url": "https://bel-india.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

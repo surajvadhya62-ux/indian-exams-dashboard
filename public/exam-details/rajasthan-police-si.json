@@ -1,0 +1,232 @@
+{
+  "id": "rajasthan-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Promotion from Sub-Inspector to Police Inspector (Circle Inspector / CI) is based on seniority-cum-merit and departmental qualifying criteria under the Rajasthan Police Subordinate Service Rules, 1989. Subsequent promotions into the Rajasthan Police Service (RPS) cadre (Deputy SP to Additional SP) are conducted through Departmental Promotion Committees (DPC) convened by RPSC. Meritorious RPS officers are eligible for induction into the Indian Police Service (IPS) cadre under the IPS (Appointment by Promotion) Regulations.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI) / Platoon Commander (RAC)",
+        "pay_level": "Level L-11",
+        "years": "Entry (Probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2021-02-03",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "RPSC Detailed Advertisement 08/EXAM/SI-PC/EP-I/2020-21 & Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule-I"
+      },
+      {
+        "designation": "Police Inspector / Circle Inspector (CI) / Company Commander (RAC)",
+        "pay_level": "Level L-12",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2021-02-03",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "Rajasthan Police Subordinate Service Rules 1989 & RCS (Revised Pay) Rules 2017 Schedule-I"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (Dy.SP) / Assistant Commissioner of Police (ACP) / Assistant Commandant",
+        "pay_level": "Level L-14",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2021-02-03",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "Rajasthan Police Service (RPS) Rules 1954 & RCS (Revised Pay) Rules 2017 Schedule-I"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP) / Additional Deputy Commissioner of Police (ADCP)",
+        "pay_level": "Level L-15 / L-16",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2021-02-03",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "Rajasthan Police Service Rules 1954 (Senior / Selection Scale) & RCS (Revised Pay) Rules 2017"
+      },
+      {
+        "designation": "Superintendent of Police (SP) / Deputy Commissioner of Police (DCP) — IPS Inductee",
+        "pay_level": "Level 12 / 13 (IPS Matrix)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2021-02-03",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations & 7th CPC IPS Pay Matrix Table 6"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment comprises three consecutive stages: Written Competitive Examination (400 marks), Physical Efficiency Test (100 marks, qualifying with min. 50%), and Aptitude Test & Interview (50 marks). Final recommendation is made on aggregate marks of Written Examination and Interview (450 marks total), subject to securing min. 36% in interview and 45% in aggregate (relaxed to 30% and 40% for reserved categories).",
+    "stages": [
+      {
+        "stage_name": "Written Competitive Examination (Offline/Online, Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-10-27",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/B1186D1E-D4A8-4699-8D06-608E930CEECE.pdf",
+        "source_label": "RPSC Scheme of Examination and Syllabus for Sub Inspector/Platoon Commander Competitive Examination",
+        "papers": [
+          {
+            "paper_name": "Paper-I: General Hindi (सामान्य हिन्दी)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "1/3 mark deducted per wrong answer (0.66 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "36% in paper (relaxed by up to 5 marks for SC/ST)"
+          },
+          {
+            "paper_name": "Paper-II: General Knowledge & General Science (सामान्य ज्ञान एवं सामान्य विज्ञान)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "1/3 mark deducted per wrong answer (0.66 marks)",
+            "qualifying_only": false,
+            "qualifying_threshold": "36% in paper and 40% in aggregate across both papers (relaxed by up to 5 marks for SC/ST)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-10-27",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/C9AFDB5C-42AB-43D2-9C5D-9218DD00BBED.pdf",
+        "source_label": "RPSC Scheme of Physical Test for Sub Inspector Competitive Examination",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Events (100m Race, Long Jump, Chinning Up / Putting the Shot)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 50% marks (50/100). Marks added to written score only for interview shortlisting (restricted to 3x vacancies)."
+          }
+        ]
+      },
+      {
+        "stage_name": "Aptitude Test and Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2021-02-03",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "RPSC Detailed Advertisement 08/EXAM/SI-PC/EP-I/2020-21 & Rajasthan Police Subordinate Service Rules 1989",
+        "papers": [
+          {
+            "paper_name": "Recruitment Board Personality & Aptitude Interview",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 36% marks in interview (30% for SC/ST/OBC/MBC/Women)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "State-jurisdiction cadre under Rajasthan Civil Services (Revised Pay) Rules, 2017. As per Rajasthan state service conditions, direct recruits undergo 2 years of probation trainee service on a fixed monthly stipend of ₹26,500. Upon successful completion of probation, regular pay in Pay Matrix Level L-11 is drawn with entry basic pay of ₹37,800 plus DA, HRA, and police duty allowances.",
+    "pay_level": "Level L-11",
+    "entry_basic_pay": 37800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-02-03",
+    "pay_source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+    "pay_source_label": "RPSC Notification 08/EXAM/SI-PC/EP-I/2020-21 & Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule I",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 68000, "max": 73000 },
+    "in_hand_range_estimate": { "min": 58000, "max": 64000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Regular monthly salary after 2-year probation (during probation fixed pay is ₹26,500/month). Calculated at Level L-11 entry basic pay of ₹37,800 with standard 58% DA (effective 1 Jul 2025), state HRA of 9% (Z-class towns) to 18% (Jaipur/Jodhpur/Kota/Ajmer/Bikaner Y-class cities), washing and police conveyance allowances. In-hand reflects deductions for GPF/NPS, State Insurance (SI), and Rajasthan Government Health Scheme (RGHS).",
+    "official_perks": [
+      "Cashless medical coverage across Rajasthan government and empanelled private hospitals under RGHS (Rajasthan Government Health Scheme)",
+      "Uniform and kit maintenance allowance for executive policing duty",
+      "Government police residential quarters / barrack accommodation subject to departmental pool availability",
+      "Conveyance / travel allowance for field investigations and official court appearances",
+      "Subsidized police canteen and mess facilities in police lines and battalion headquarters",
+      "Pension coverage under Rajasthan Civil Services Pension Rules (restored Old Pension Scheme benefits)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, appearance, and vacancy statistics for the RPSC Sub-Inspector / Platoon Commander Combined Competitive Examination. For the 2021 recruitment cycle (Advt. 08/2020-21), 859 vacancies were notified across AP, IB, RAC, and MBC branches. A total of 3,83,097 candidates appeared in the written examination out of approximately 7.97 lakh registered applicants. 20,240 candidates qualified for the Physical Efficiency Test (PET), and 3,291 qualified for the final interview stage.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 797000,
+        "vacancies": 859,
+        "shortlisted_for_mains": 20240,
+        "selectivity_ratio": "approx. 1 in 928 (calculated: registered applicants ÷ notified vacancies; approx. 1 in 446 for appeared candidates)",
+        "confidence": "reported",
+        "as_of": "2022-04-11",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "source_label": "RPSC Advt 08/2020-21 (859 notified vacancies) & RPSC Official Result Preamble dated 11-04-2022 (3,291 candidates qualified for interview after PET; 20,240 cleared written for PET; 3,83,097 examinees appeared as recorded in official commission proceedings)"
+      },
+      {
+        "year": 2016,
+        "applicants": 469000,
+        "vacancies": 511,
+        "shortlisted_for_mains": 11346,
+        "selectivity_ratio": "approx. 1 in 918 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2018-10-07",
+        "source_url": "https://rpsc.rajasthan.gov.in/advertisements",
+        "source_label": "RPSC Detailed Advt 05/SI-PC/EXAM/2016-17 (511 vacancies, later revised to 825) & RPSC Written Examination Result Preamble"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Direct official documents sourced from the Rajasthan Public Service Commission (rpsc.rajasthan.gov.in). Links verified live via HTTP GET.",
+    "links": [
+      {
+        "label": "Sub Inspector / Platoon Commander Exam 2025 — Recruitment Advertisement",
+        "url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/B87284F000614D55999928D873BD8B3E.pdf",
+        "type": "notification",
+        "cycle_label": "SI-PC-2025",
+        "confidence": "verified",
+        "as_of": "2025-07-17"
+      },
+      {
+        "label": "Sub Inspector / Platoon Commander Exam 2021 — Detailed Advertisement (Advt 08/2020-21)",
+        "url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/7107054E6CEB463D854E675DFDAACF82.pdf",
+        "type": "notification",
+        "cycle_label": "SI-PC-2021",
+        "confidence": "verified",
+        "as_of": "2021-02-03"
+      },
+      {
+        "label": "Paper-I General Hindi — Scheme of Examination and Official Syllabus",
+        "url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/B1186D1E-D4A8-4699-8D06-608E930CEECE.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-10-27"
+      },
+      {
+        "label": "Paper-II General Knowledge and General Science — Scheme of Examination and Official Syllabus",
+        "url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/A1E1781F-8C6F-44BD-9DF2-E75D3D258617.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-10-27"
+      },
+      {
+        "label": "Physical Efficiency Test (PET) — Standards and Marks Allocation Scheme",
+        "url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/C9AFDB5C-42AB-43D2-9C5D-9218DD00BBED.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-10-27"
+      },
+      {
+        "label": "RPSC Official Examination Dashboard & Syllabus Archive",
+        "url": "https://rpsc.rajasthan.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

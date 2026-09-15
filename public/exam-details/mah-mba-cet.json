@@ -1,0 +1,124 @@
+{
+  "id": "mah-mba-cet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "MAH-MBA/MMS CET is conducted online as a Computer Based Test (CBT) by the State Common Entrance Test Cell, Maharashtra for admission to First Year of Full Time Post Graduate Degree Courses in Management (MBA/MMS) in government, university-managed, and unaided institutes across Maharashtra. The examination comprises 200 multiple choice objective questions with five options, carrying 1 mark each, for a total of 200 marks over a duration of 150 minutes (2 hours 30 minutes). There is no negative marking. Tests are administered across multiple shifts and raw scores are normalized into percentile scores.",
+    "stages": [
+      {
+        "stage_name": "MAH-MBA/MMS CET Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-10",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MAH-MBA-MMS-CET-2026-Information-Brochure.pdf",
+        "source_label": "State CET Cell Maharashtra — Information Brochure MAH-MBA/MMS-CET 2026, Section 9.0 (Syllabus and Marking Scheme)",
+        "papers": [
+          {
+            "paper_name": "Logical Reasoning",
+            "marks": 75,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Abstract Reasoning",
+            "marks": 25,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Verbal Ability / Reading Comprehension",
+            "marks": 50,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and attendance figures compiled directly from the official CET Wise Status reports published by the State Common Entrance Test Cell, Maharashtra.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 157281,
+        "vacancies": null,
+        "shortlisted_for_mains": 129131,
+        "selectivity_ratio": "1,29,131 candidates appeared out of 1,57,281 registered (82.10% appearance rate across participating MBA/MMS colleges)",
+        "confidence": "verified",
+        "as_of": "2025-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Status: A.Y. 2025-26 (Sr. No. 9: MBA/MMS-CET, 1,57,281 registered, 1,29,131 present)"
+      },
+      {
+        "year": 2024,
+        "applicants": 152911,
+        "vacancies": null,
+        "shortlisted_for_mains": 138683,
+        "selectivity_ratio": "1,38,683 candidates appeared out of 1,52,911 registered (90.69% appearance rate across CAP admission rounds)",
+        "confidence": "verified",
+        "as_of": "2024-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Wise Status A.Y. 2024-25 (Sr. No. 16: MBA/MMS-CET, 1,52,911 registered, 1,38,683 appeared)"
+      },
+      {
+        "year": 2023,
+        "applicants": 130927,
+        "vacancies": null,
+        "shortlisted_for_mains": 112209,
+        "selectivity_ratio": "1,12,209 candidates appeared out of 1,30,927 registered (85.70% appearance rate across CAP admission rounds)",
+        "confidence": "verified",
+        "as_of": "2023-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Wise Status A.Y. 2023-24 (Sr. No. 1: MBA/MMS-CET, 1,30,927 registered, 1,12,209 appeared)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information brochures and statutory examination notices published by State Common Entrance Test Cell, Maharashtra.",
+    "links": [
+      {
+        "label": "MAH-MBA/MMS CET 2026 — Information Brochure",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MAH-MBA-MMS-CET-2026-Information-Brochure.pdf",
+        "type": "notification",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-10"
+      },
+      {
+        "label": "MAH-MBA/MMS CET 2026 — Syllabus & Marking Scheme",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Syllabus-Technical-2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2025-11-20"
+      },
+      {
+        "label": "State CET Cell Official Multi-Year Examination Statistics Report",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-06-30"
+      }
+    ]
+  }
+}

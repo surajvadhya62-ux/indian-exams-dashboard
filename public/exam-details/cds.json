@@ -1,0 +1,115 @@
+{
+  "id": "cds",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPSC conducts two Combined Defence Services cycles per calendar year (CDS I and CDS II). Candidates applying for Indian Military Academy (IMA), Indian Naval Academy (INA), and Air Force Academy (AFA) appear for three objective papers (English, General Knowledge, and Elementary Mathematics — 100 marks each, 300 marks total). Candidates applying for Officers' Training Academy (OTA) appear only for English and General Knowledge (200 marks total, Mathematics is not applicable). Candidates qualifying the written stage proceed to the Services Selection Board (SSB) Interview and Personality Test (300 marks for IMA/INA/AFA, 200 marks for OTA). Penalty of one-third (0.33) marks applies for each wrong answer in all objective papers.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-05-20",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+        "source_label": "UPSC — Examination Notice No.11/2026-CDS-II, Combined Defence Services Examination (II), 2026, Appendix-I (Scheme of Examination)",
+        "papers": [
+          {
+            "paper_name": "English",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Elementary Mathematics (IMA, INA, AFA only; not required for OTA)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "SSB Interview — Intelligence and Personality Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-05-20",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+        "source_label": "UPSC — Examination Notice No.11/2026-CDS-II, Appendix-I (Intelligence and Personality Test)",
+        "papers": [
+          {
+            "paper_name": "Services Selection Board (SSB) Interview / Personality Test (two-stage: screening + psychological/GTO/interview)",
+            "marks": 300,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "UPSC conducts two CDS cycles per calendar year (CDS I and CDS II). Vacancy counts below are specifically for the CDS (II) cycles across all academies (IMA, INA, AFA, OTA Men, and OTA Women) so that figures are comparable year-over-year. The 2026 vacancy figure (451 total across IMA: 100, INA: 26, AFA: 32, OTA SSC Men: 275, OTA SSC Women: 18) was read directly in UPSC's official Notice No.11/2026-CDS-II. The 2025 figure (459 total across IMA: 100, INA: 32, AFA: 32, OTA Men: 275, OTA Women: 20) is consistently reported across official notices. Specific national total-applicant numbers are not broken down in single press releases and are declined rather than guessed.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 451,
+        "confidence": "verified",
+        "as_of": "2026-05-20",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+        "source_label": "UPSC — Examination Notice No.11/2026-CDS-II: vacancy table totals 451 across IMA (100), INA (26), AFA (32), OTA SSC Men (275), OTA SSC Women (18) — read directly from notice table."
+      },
+      {
+        "year": 2025,
+        "vacancies": 459,
+        "confidence": "reported",
+        "as_of": "2025-05-28",
+        "source_label": "UPSC — Examination Notice No.11/2025-CDS-II: 459 vacancies across IMA (100), INA (32), AFA (32), OTA Men (275), OTA Women (20)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "The notification link below is cycle-specific and will be superseded once UPSC releases the subsequent cycle's notice. The syllabus and scheme is contained in Appendix-I of the notification document. The previous question papers link points to the evergreen UPSC portal archive.",
+    "links": [
+      {
+        "label": "Combined Defence Services Examination (II), 2026 — Notification",
+        "url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+        "type": "notification",
+        "cycle_label": "CDS-II-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-20"
+      },
+      {
+        "label": "Previous Year Question Papers — Combined Defence Services",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Combined+Defence+Services",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "UPSC Examination Results Portal",
+        "url": "https://upsc.gov.in/examinations/examination-results",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

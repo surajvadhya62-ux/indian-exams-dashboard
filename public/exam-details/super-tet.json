@@ -1,0 +1,243 @@
+{
+  "id": "super-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "note": "Super TET (Assistant Teacher Recruitment Examination / ATRE / Sahayak Adhyapak Bharti Pariksha) recruits primary school educators under the Uttar Pradesh Basic Education Board (Basic Shiksha Parishad). Recruits enter at Level 6 and advance through academic hierarchy and educational administration.",
+    "steps": [
+      {
+        "designation": "Assistant Teacher (Primary School / Classes 1-5 / Sahayak Adhyapak)",
+        "pay_level": "Level 6",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Education (Teachers) Service Rules 1981 (22nd Amendment)"
+      },
+      {
+        "designation": "Head Master (Primary School) / Assistant Teacher (Upper Primary School / Classes 6-8)",
+        "pay_level": "Level 7",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Shiksha Parishad Promotion Regulations"
+      },
+      {
+        "designation": "Head Master (Upper Primary School / Junior High School)",
+        "pay_level": "Level 8",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Junior Basic Education Hierarchy"
+      },
+      {
+        "designation": "Block Education Officer (BEO / Khand Shiksha Adhikari)",
+        "pay_level": "Level 8",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Educational Subordinate Service Rules"
+      },
+      {
+        "designation": "Basic Shiksha Adhikari (BSA) / DIET Senior Lecturer",
+        "pay_level": "Level 10",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Educational Service Gazetted Cadre Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Super TET is a single-stage objective OMR written examination of 150 questions (150 marks, 150 minutes duration) across 10 subject domains. There is no negative marking. Final selection combines 60% written exam marks with 40% academic weightage.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Assistant Teacher Written Examination (OMR Mode)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "Examination Regulatory Authority (PNP Prayagraj) ATRE Scheme",
+        "papers": [
+          {
+            "paper_name": "Language (Hindi, English, Sanskrit)",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Ganit)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Science (Vigyan)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environment and Social Studies (Paryavaran Evam Samajik Adhyayan)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Teaching Methodology (Shikshan Kaushal)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Child Psychology (Bal Manovigyan)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge and Current Affairs (Samanya Gyan Evam Sam-Samyiki)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Logical Knowledge / Reasoning (Tarkik Ghyan)",
+            "marks": 5,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Information Technology (Suchana Takneeki)",
+            "marks": 5,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Life Skills, Management and Aptitude (Jeevan Kaushal, Prabandhan Evam Abhivrutti)",
+            "marks": 10,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 65% (97/150) for General; 60% (90/150) for Reserved categories"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Merit Weightage & District Counseling",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Shiksha Parishad ATRE Merit Formulation Rules",
+        "papers": [
+          {
+            "paper_name": "Composite Merit: 60% Super TET Written Score + 40% Academic Weightage (10% each: 10th, 12th, Graduation, B.Ed/D.El.Ed)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "District-wise state merit quota counseling"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Teachers in Parishadiya Primary Schools under the Uttar Pradesh Basic Shiksha Parishad are placed in Pay Level 6 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹4,200) under the Uttar Pradesh Revised Pay Rules, 2016. Teachers receive DA, HRA, and statutory allowances.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://updeled.gov.in",
+    "pay_source_label": "UP Revised Pay Rules 2016 Level 6 (Basic Shiksha Parishad Primary Teachers)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 57000,
+      "max": 64000
+    },
+    "in_hand_range_estimate": {
+      "min": 51000,
+      "max": 57000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 with 58% DA (₹20,532), rural/semi-urban HRA (₹1,500 to ₹4,000 depending on school location), net of 10% NPS deduction (₹5,593) and GIS.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP government finance orders",
+      "House Rent Allowance (HRA) based on rural/semi-urban school categorization",
+      "National Pension System (NPS) with 14% state government matching contribution",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules",
+      "Vacation pay during summer and winter school recesses",
+      "Teacher development allowances and training benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Compiled from official examination declarations and merit notification orders issued by the Examination Regulatory Authority (PNP Prayagraj) for Assistant Teacher Recruitment Examinations.",
+    "years": [
+      {
+        "year": 2019,
+        "applicants": 431466,
+        "vacancies": 69000,
+        "shortlisted_for_mains": 146060,
+        "selectivity_ratio": "1 in 6",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "PNP Prayagraj 69,000 Sahayak Adhyapak Bharti Final Result Declaration"
+      },
+      {
+        "year": 2018,
+        "applicants": 125746,
+        "vacancies": 68500,
+        "shortlisted_for_mains": 41556,
+        "selectivity_ratio": "1 in 3",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Education Board 68,500 ATRE Result Notification"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, and merit circulars hosted on the UP DELEd / PNP Prayagraj domain.",
+    "links": [
+      {
+        "label": "UP Basic Education Board / DELEd Official Examination Portal",
+        "url": "https://updeled.gov.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

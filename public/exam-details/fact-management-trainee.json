@@ -1,0 +1,152 @@
+{
+  "id": "fact-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive cadre progression at The Fertilisers and Chemicals Travancore Limited (FACT), Udyogamandal, Kochi.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Technical / Non-Technical)",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "Training (1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-04-18",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT Recruitment Notification Advt 03/2024"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "approx. 1-4 yrs",
+        "confidence": "verified",
+        "as_of": "2024-04-18",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT Recruitment Notification Advt 03/2024"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "E-3 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2024-04-18",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT Executive Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is via Computer Based Online Test (CBT) followed by Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Online Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-04-18",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT MT Examination Pattern",
+        "papers": [
+          {
+            "paper_name": "Part I: General Aptitude (30 MCQs) & Part II: Discipline Technical Subject (90 MCQs)",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "0.33 (1/3rd mark deduction)",
+            "qualifying_only": false,
+            "qualifying_threshold": "General: 50%, SC/ST/OBC: 40%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-04-18",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT MT Examination Pattern",
+        "papers": [
+          {
+            "paper_name": "Personal Interview at FACT Corporate Office, Kochi",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "85% CBT + 15% Interview weightage"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by CPSE IDA wage structure.",
+    "pay_level": "E-2 Grade (IDA Scale ₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-04-18",
+    "pay_source_url": "https://fact.co.in",
+    "pay_source_label": "FACT Employment Notification Advt 03/2024",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 94000,
+      "max": 105000
+    },
+    "in_hand_range_estimate": {
+      "min": 83000,
+      "max": 93000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Consolidated stipend of ₹40,000/month during 1st year training; regularized at basic ₹50,000 with 58% DA (₹29,000) and cafeteria allowances.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "Township accommodation at Udyogamandal / Kochi or HRA",
+      "Cafeteria approach perks and allowances up to 30% of basic",
+      "Provident Fund, Gratuity, and Contributory Pension Scheme",
+      "Medical facilities for self and dependent family members"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Officer recruitment vacancies at FACT Kochi.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 60,
+        "confidence": "verified",
+        "as_of": "2024-04-18",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT Recruitment Notification 03/2024"
+      },
+      {
+        "year": 2023,
+        "vacancies": 74,
+        "confidence": "verified",
+        "as_of": "2023-05-15",
+        "source_url": "https://fact.co.in",
+        "source_label": "FACT Recruitment Notification 04/2023"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on FACT portal.",
+    "links": [
+      {
+        "label": "FACT Official Careers & Recruitment Portal",
+        "url": "https://fact.co.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "FACT Corporate Profile",
+        "url": "https://fact.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

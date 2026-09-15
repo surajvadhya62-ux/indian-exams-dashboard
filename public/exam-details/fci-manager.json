@@ -1,0 +1,170 @@
+{
+  "id": "fci-manager",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Category II Officer Cadre progression in Food Corporation of India.",
+    "steps": [
+      {
+        "designation": "Manager (General / Depot / Movement / Accounts / Technical)",
+        "pay_level": "IDA Scale E-1 (₹40,000 – ₹1,40,000)",
+        "years": "Entry (0-4 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Recruitment Advertisement Category-II"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Scale E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4-9 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Staff Regulations, 1971"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Scale E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "reported",
+        "as_of": "2023-01-15",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Staff Regulations, 1971"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises Phase-I Online Preliminary Exam, Phase-II Online Mains Exam, and Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Phase-I Online Preliminary Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Category-II Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Preliminary Test (English, Reasoning, Numerical Aptitude, General Studies)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "0.25 (1/4th mark deduction)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Shortlist 1:15 ratio for Phase-II"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II Online Mains Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Category-II Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Aptitude & Current Affairs",
+            "marks": 120,
+            "duration_minutes": 90,
+            "negative_marking": "0.25 (1/4th mark deduction)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-01-15",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Category-II Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Personal Interview",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "10% weightage in final composite merit"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by 3rd Pay Revision for CPSEs under IDA pay pattern.",
+    "pay_level": "E-1 Grade (IDA Scale ₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-01-15",
+    "pay_source_url": "https://fci.gov.in/page.php?id=38",
+    "pay_source_label": "FCI Employment Notification Category II",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 79000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 70000,
+      "max": 79000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Based on entry basic ₹40,000, 58% IDA DA (₹23,200), HRA (₹3,600 to ₹10,800), and cafeteria allowances of 32%.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "House Rent Allowance (HRA) or leased accommodation",
+      "Cafeteria approach perks and allowances up to 32% of basic",
+      "Contributory Provident Fund, Gratuity, and Pension Scheme",
+      "Medical coverage for employee and dependents"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment vacancy figures for Category II Managerial posts.",
+    "years": [
+      {
+        "year": 2022,
+        "vacancies": 113,
+        "confidence": "verified",
+        "as_of": "2022-08-27",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Advt No. 02/2022-FCI Category-II"
+      },
+      {
+        "year": 2019,
+        "vacancies": 330,
+        "confidence": "verified",
+        "as_of": "2019-09-28",
+        "source_url": "https://fci.gov.in/page.php?id=38",
+        "source_label": "FCI Advt No. 02/2019-FCI Category-II"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on FCI portal.",
+    "links": [
+      {
+        "label": "FCI Official Recruitment Hub",
+        "url": "https://fci.gov.in/page.php?id=38",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "FCI Official Website",
+        "url": "https://fci.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

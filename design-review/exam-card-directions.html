@@ -1,0 +1,379 @@
+<meta charset="utf-8">
+<title>Exam Card Directions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0c10;
+    --ink-2: #11151c;
+    --panel: #141922;
+    --panel-h: #181e29;
+    --hairline: #232a33;
+    --hairline-2: #2e3846;
+    --amber: #c8862a;
+    --amber-bright: #e8a33d;
+    --fg: #e8eaed;
+    --muted: #8a93a0;
+    --subtle: #565f6c;
+
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Source Serif 4', Georgia, serif;
+    --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ink);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding-block: 3.5rem 5rem;
+  }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* -- page header -- */
+  .page-head { max-width: 62ch; margin-bottom: 3.5rem; }
+  .page-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber-bright);
+    margin: 0 0 0.75rem;
+  }
+  .page-title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.6rem, 3.2vw, 2.1rem);
+    font-weight: 600;
+    margin: 0 0 0.9rem;
+    text-wrap: balance;
+  }
+  .page-sub { margin: 0; color: var(--muted); font-size: 0.98rem; line-height: 1.65; }
+  .page-sub code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    background: var(--panel);
+    border: 1px solid var(--hairline);
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+    color: var(--fg);
+  }
+
+  /* -- columns -- */
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--hairline);
+    border: 1px solid var(--hairline);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .col { background: var(--ink); padding: 1.75rem 1.5rem 2.25rem; display: flex; flex-direction: column; gap: 1.5rem; }
+  .col-head { display: flex; flex-direction: column; gap: 0.6rem; }
+  .col-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--panel);
+    border: 1px solid var(--hairline-2);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--amber-bright);
+  }
+  .col-name { font-size: 1.05rem; font-weight: 600; color: var(--fg); margin: 0.4rem 0 0; }
+  .col-rationale { font-size: 0.86rem; line-height: 1.6; color: var(--muted); margin: 0; }
+
+  .cards { display: flex; flex-direction: column; gap: 1rem; }
+
+  /* ============ shared card bones ============ */
+  .xcard {
+    background: var(--panel);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    padding: 1.1rem 1.1rem 1rem;
+    position: relative;
+  }
+  .xcard-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.6rem; }
+  .xcard-title { font-size: 0.92rem; font-weight: 600; color: var(--fg); margin: 0; line-height: 1.35; }
+  .xcard-acronym {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: var(--subtle);
+    background: var(--ink-2);
+    border: 1px solid var(--hairline);
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .xcard-desc { font-size: 0.78rem; line-height: 1.55; color: var(--muted); margin: 0.6rem 0 0.85rem; }
+
+  /* ============ VARIANT A — amber-only, one accent ============ */
+  .v-a .a-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--subtle);
+    margin-bottom: 0.85rem;
+  }
+  .a-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .a-sep { color: var(--hairline-2); }
+  .v-a .xcard-footer { display: flex; align-items: center; justify-content: space-between; }
+  .a-primary {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--amber-bright);
+    border: none;
+    border-radius: 999px;
+    padding: 0.4rem 0.9rem;
+  }
+  .a-ghosts { display: flex; gap: 0.5rem; }
+  .a-ghost {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--subtle);
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+  }
+
+  /* ============ VARIANT B — color-coded, tidied ============ */
+  .v-b .xcard { border-left: 3px solid var(--b-color, var(--amber)); padding-left: 1rem; }
+  .v-b .b-chip {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-sans);
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--b-color, var(--amber)) 16%, transparent);
+    color: var(--b-color, var(--amber));
+    margin-bottom: 0.6rem;
+  }
+  .v-b .b-juris {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    color: var(--muted);
+    margin-left: 0.5rem;
+  }
+  .v-b .xcard-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+  .b-primary { color: var(--ink); background: var(--amber-bright); border: none; border-radius: 5px; padding: 0.35rem 0.7rem; }
+  .b-link { color: var(--fg); display: inline-flex; align-items: center; gap: 0.3rem; }
+  .b-divider { color: var(--hairline-2); }
+
+  /* ============ VARIANT C — compact, whole-card click ============ */
+  .v-c .xcard { cursor: pointer; transition: transform 0.2s ease, border-color 0.2s ease; }
+  .v-c .xcard:hover { transform: translateY(-2px); border-color: var(--hairline-2); }
+  .v-c .c-meta {
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--subtle);
+    margin: 0.5rem 0 0.85rem;
+  }
+  .v-c .xcard-footer { display: flex; align-items: center; justify-content: space-between; }
+  .c-chevron { color: var(--amber-bright); font-size: 0.85rem; opacity: 0; transition: opacity 0.2s ease; }
+  .v-c .xcard:hover .c-chevron { opacity: 1; }
+  .c-compare {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    color: var(--subtle);
+    border: 1px solid var(--hairline);
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+  }
+
+  @media (max-width: 860px) {
+    .columns { grid-template-columns: 1fr; }
+    .col { border-bottom: 1px solid var(--hairline); }
+  }
+</style>
+
+<div class="wrap">
+  <div class="page-head">
+    <p class="page-eyebrow">IndiaExams &middot; dashboard card review</p>
+    <h1 class="page-title">Three ways to quiet the exam card</h1>
+    <p class="page-sub">
+      Same two exams, same dark/amber tokens as the live dashboard
+      (<code>--ink</code>, <code>--panel</code>, <code>--amber-bright</code>),
+      three different answers to: how many accent colors and how many
+      buttons does one card actually need?
+    </p>
+  </div>
+
+  <div class="columns">
+
+    <!-- ===================== VARIANT A ===================== -->
+    <div class="col v-a">
+      <div class="col-head">
+        <span class="col-letter">A</span>
+        <h2 class="col-name">Amber-only</h2>
+        <p class="col-rationale">
+          One accent color for the whole product — amber. Domain becomes a
+          small dot, not a stripe or a chip. One primary action; the other
+          two demote to icon-only ghosts.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="xcard">
+          <div class="xcard-top">
+            <h3 class="xcard-title">UPSC Civil Services Examination</h3>
+            <span class="xcard-acronym">UPSC CSE</span>
+          </div>
+          <p class="xcard-desc">India's premier examination for recruitment to IAS, IPS, IFS and other All India Services and Central Services.</p>
+          <div class="a-meta">
+            <span class="a-dot" style="background:#06b6d4"></span>
+            <span>Government Services</span>
+            <span class="a-sep">&middot;</span>
+            <span>Central</span>
+            <span class="a-sep">&middot;</span>
+            <span>Annual</span>
+          </div>
+          <div class="xcard-footer">
+            <button class="a-primary">View details &rarr;</button>
+            <div class="a-ghosts">
+              <span class="a-ghost" title="Compare">&#8646;</span>
+              <span class="a-ghost" title="Official website">&#8599;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="xcard">
+          <div class="xcard-top">
+            <h3 class="xcard-title">West Bengal Joint Entrance Examination</h3>
+            <span class="xcard-acronym">WBJEE</span>
+          </div>
+          <p class="xcard-desc">State level entrance exam for admission to engineering, technology, pharmacy and architecture courses in West Bengal.</p>
+          <div class="a-meta">
+            <span class="a-dot" style="background:#3b82f6"></span>
+            <span>Engineering</span>
+            <span class="a-sep">&middot;</span>
+            <span>West Bengal</span>
+            <span class="a-sep">&middot;</span>
+            <span>Annual</span>
+          </div>
+          <div class="xcard-footer">
+            <button class="a-primary">View details &rarr;</button>
+            <div class="a-ghosts">
+              <span class="a-ghost" title="Compare">&#8646;</span>
+              <span class="a-ghost" title="Official website">&#8599;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== VARIANT B ===================== -->
+    <div class="col v-b">
+      <div class="col-head">
+        <span class="col-letter">B</span>
+        <h2 class="col-name">Color-coded, tidied</h2>
+        <p class="col-rationale">
+          Keeps domain color — useful when scanning a grid of 500+ exams —
+          but drops the separate central/state color pair, and gives all
+          three actions the same weight instead of mixing outline and solid.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="xcard" style="--b-color:#06b6d4">
+          <div class="xcard-top">
+            <h3 class="xcard-title">UPSC Civil Services Examination</h3>
+            <span class="xcard-acronym">UPSC CSE</span>
+          </div>
+          <span class="b-chip">Government Services<span class="b-juris">Central</span></span>
+          <p class="xcard-desc">India's premier examination for recruitment to IAS, IPS, IFS and other All India Services and Central Services.</p>
+          <div class="xcard-footer">
+            <button class="b-primary">Details</button>
+            <span class="b-divider">&middot;</span>
+            <a class="b-link">&#8646; Compare</a>
+            <span class="b-divider">&middot;</span>
+            <a class="b-link">&#8599; Website</a>
+          </div>
+        </div>
+
+        <div class="xcard" style="--b-color:#3b82f6">
+          <div class="xcard-top">
+            <h3 class="xcard-title">West Bengal Joint Entrance Examination</h3>
+            <span class="xcard-acronym">WBJEE</span>
+          </div>
+          <span class="b-chip">Engineering<span class="b-juris">West Bengal</span></span>
+          <p class="xcard-desc">State level entrance exam for admission to engineering, technology, pharmacy and architecture courses in West Bengal.</p>
+          <div class="xcard-footer">
+            <button class="b-primary">Details</button>
+            <span class="b-divider">&middot;</span>
+            <a class="b-link">&#8646; Compare</a>
+            <span class="b-divider">&middot;</span>
+            <a class="b-link">&#8599; Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== VARIANT C ===================== -->
+    <div class="col v-c">
+      <div class="col-head">
+        <span class="col-letter">C</span>
+        <h2 class="col-name">Compact, one click</h2>
+        <p class="col-rationale">
+          No stripe, no chips — a single mono meta line instead. The whole
+          card opens details on click (a chevron confirms it on hover);
+          Compare is a small corner toggle so it doesn't compete for
+          attention.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="xcard">
+          <div class="xcard-top">
+            <h3 class="xcard-title">UPSC Civil Services Examination</h3>
+            <span class="xcard-acronym">UPSC CSE &#8599;</span>
+          </div>
+          <p class="c-meta">Government Services &middot; Central &middot; Annual &middot; Offline</p>
+          <p class="xcard-desc">India's premier examination for recruitment to IAS, IPS, IFS and other All India Services and Central Services.</p>
+          <div class="xcard-footer">
+            <span class="c-compare">&#8646; Compare</span>
+            <span class="c-chevron">View details &rarr;</span>
+          </div>
+        </div>
+
+        <div class="xcard">
+          <div class="xcard-top">
+            <h3 class="xcard-title">West Bengal Joint Entrance Examination</h3>
+            <span class="xcard-acronym">WBJEE &#8599;</span>
+          </div>
+          <p class="c-meta">Engineering &middot; West Bengal &middot; Annual &middot; Offline</p>
+          <p class="xcard-desc">State level entrance exam for admission to engineering, technology, pharmacy and architecture courses in West Bengal.</p>
+          <div class="xcard-footer">
+            <span class="c-compare">&#8646; Compare</span>
+            <span class="c-chevron">View details &rarr;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

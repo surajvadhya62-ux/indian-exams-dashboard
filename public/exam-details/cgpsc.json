@@ -1,0 +1,298 @@
+{
+  "id": "cgpsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the CGPSC State Service Examination for executive administrative posts begin as Deputy Collectors / Sub-Divisional Magistrates (SDM) and progress through the state administrative hierarchy before being inducted into the Indian Administrative Service (IAS) under the state promotion quota.",
+    "steps": [
+      {
+        "designation": "Deputy Collector / Sub-Divisional Magistrate (SDM) / Assistant Collector",
+        "pay_level": "Chhattisgarh Matrix Level 12 (PB-3 ₹15,600-39,100, GP 5400)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2017-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Chhattisgarh Civil Services (Revised Pay) Rules, 2017, Finance Department, Government of Chhattisgarh"
+      },
+      {
+        "designation": "Senior Deputy Collector / Under Secretary / Additional Collector (Junior Scale)",
+        "pay_level": "Chhattisgarh Matrix Level 13 (₹67,300 - ₹2,13,100)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "verified",
+        "as_of": "2017-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Chhattisgarh Civil Services (Revised Pay) Rules, 2017, Finance Department, Government of Chhattisgarh"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Deputy Secretary / CEO Zila Panchayat",
+        "pay_level": "Chhattisgarh Matrix Level 14 (₹79,900 - ₹2,13,600)",
+        "years": "approx. 8-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-01-01",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Chhattisgarh Civil Services (Revised Pay) Rules, 2017, Finance Department, Government of Chhattisgarh"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) / Selection Grade (State Quota)",
+        "pay_level": "Level 13 (Selection Grade, ₹1,18,500 basic)",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT & UPSC"
+      },
+      {
+        "designation": "District Magistrate (DM) / Collector / Joint Secretary / Special Secretary",
+        "pay_level": "Level 14 (Super Time Scale, ₹1,44,200 basic)",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      },
+      {
+        "designation": "Secretary / Commissioner / Principal Secretary (Government of Chhattisgarh)",
+        "pay_level": "Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The CGPSC State Service Examination comprises three stages: Preliminary Examination (2 objective papers of 200 marks each, with 1/3 negative marking), Main Examination (7 compulsory descriptive conventional papers of 200 marks each, 1,400 marks total), and Interview / Personality Test (150 marks), leading to a final merit list out of 1,550 marks.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC State Service Examination Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "General Studies (Paper I — Part 1: India GS, Part 2: Chhattisgarh GK)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.66 mark penalty (1/3rd deduction for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit score in Paper I determines qualification for Mains shortlist in the ratio of 1:15 of vacancies"
+          },
+          {
+            "paper_name": "Aptitude Test (Paper II — CSAT, Reasoning, Mental Ability, Hindi & Chhattisgarhi Language)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.66 mark penalty (1/3rd deduction for each incorrect answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "33% minimum qualifying marks (66 out of 200) for unreserved; 23% (46 out of 200) for reserved categories"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC State Service Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper I: Language (General Hindi 100 marks, General English 50 marks, Chhattisgarhi Language 50 marks)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Essay (Section 1: National/International Level Issues, Section 2: Chhattisgarh State Issues)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: History, Constitution and Public Administration (History of India & CG, Constitution, Public Administration)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper IV: Science, Technology and Environment (Physics, Chemistry, Biology, Technology & Environment)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper V: Economics and Geography (Economics of India & CG, Geography of India & CG)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper VI: Mathematical Reasoning, Philosophy and Sociology (Philosophy, Sociology, Social Scenario of CG)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper VII: Welfare, Development Programmes & Laws (Indian & State Welfare Legislations, Sports & International Bodies)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview / Personality Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC State Service Examination Interview Guidelines",
+        "papers": [
+          {
+            "paper_name": "Interview / Personality Test",
+            "marks": 150,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidates shortlisted in 1:3 ratio of vacancies based on Mains aggregate score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "State Administrative Service officers (Deputy Collectors) in Chhattisgarh are remunerated under the Chhattisgarh Civil Services (Revised Pay) Rules, 2017 at Pay Matrix Level 12 (entry basic pay ₹56,100) with state dearness allowance, house rent allowance, and executive service allowances.",
+    "pay_level": "Chhattisgarh Pay Matrix Level 12 (PB-3 ₹15,600-39,100, GP 5400)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-01-01",
+    "pay_source_url": "https://psc.cg.gov.in/Advertisement.php",
+    "pay_source_label": "Chhattisgarh Civil Services (Revised Pay) Rules, 2017 & CGPSC SSE Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 94000,
+      "max": 112000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 101000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary calculated from Level 12 entry basic ₹56,100 + 58% DA (₹32,538) + HRA (8%–16% depending on city tier such as Raipur or district headquarters) + vehicle/fuel allowance, medical, and administrative perks. In-hand estimate factors in standard statutory deductions including 10% NPS (Basic + DA = ₹8,864), GIS, and Professional Tax.",
+    "official_perks": [
+      "Official designated residential bungalow / Type-V executive accommodation",
+      "Official government vehicle with dedicated driver and POL fuel entitlement for administrative field visits",
+      "Statutory executive magisterial powers and administrative authority under CrPC/BNSS",
+      "Comprehensive medical coverage for officer and family under Chhattisgarh State Employees Health Scheme",
+      "Mobile telephone, broadband internet reimbursement, and camp office facilities",
+      "Induction into Indian Administrative Service (IAS) cadre under State Civil Service promotion quota"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical competition statistics from official CGPSC notifications, preliminary result notices, and final recommendation lists for the State Service Examination.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 135000,
+        "vacancies": 246,
+        "shortlisted_for_mains": 3690,
+        "selectivity_ratio": "1 in 548 (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-11-26",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC State Service Examination Advt. No. 03/2024/Exam"
+      },
+      {
+        "year": 2023,
+        "applicants": 142000,
+        "vacancies": 242,
+        "shortlisted_for_mains": 3597,
+        "selectivity_ratio": "1 in 586 (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-11-26",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC State Service Examination Advt. No. 02/2023/Exam"
+      },
+      {
+        "year": 2022,
+        "applicants": 128000,
+        "vacancies": 210,
+        "shortlisted_for_mains": 3095,
+        "selectivity_ratio": "1 in 609 (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-11-26",
+        "source_url": "https://psc.cg.gov.in/Advertisement.php",
+        "source_label": "CGPSC State Service Examination Advt. No. 01/2022/Exam"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, syllabi, previous year questions, and rules issued by the Chhattisgarh Public Service Commission.",
+    "links": [
+      {
+        "label": "CGPSC State Service Examination Advertisement & Notification Portal",
+        "url": "https://psc.cg.gov.in/Advertisement.php",
+        "type": "notification",
+        "cycle_label": "SSE-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CGPSC Examination Announcements & Press Notes",
+        "url": "https://psc.cg.gov.in/Notifications.php",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CGPSC Model Answer Keys & Question Paper Archive",
+        "url": "https://psc.cg.gov.in/Modelanswer.php",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CGPSC Rules of Procedure & Examination Viniyam",
+        "url": "https://psc.cg.gov.in/ROP.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CGPSC Final Results & Selection Lists Archive",
+        "url": "https://psc.cg.gov.in/Result.php",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

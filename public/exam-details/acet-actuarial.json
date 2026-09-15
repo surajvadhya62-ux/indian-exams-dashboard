@@ -1,0 +1,91 @@
+{
+  "id": "acet-actuarial",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Actuarial Common Entrance Test (ACET) is an entrance examination conducted by the Institute of Actuaries of India (IAI) for admission as student members. The test is administered in an online, home-based remotely proctored computer-based format. It comprises 70 multiple-choice questions for 100 marks over a duration of 3 hours (180 minutes). There is no negative marking, and the qualifying benchmark is 50% aggregate marks.",
+    "stages": [
+      {
+        "stage_name": "Actuarial Common Entrance Test (ACET) — Online Home-Based Proctored",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-05-01",
+        "source_url": "https://www.actuariesindia.org",
+        "source_label": "Institute of Actuaries of India (IAI) — ACET Examination Structure & Guidelines",
+        "papers": [
+          {
+            "paper_name": "Mathematics",
+            "marks": 30,
+            "duration_minutes": 55,
+            "negative_marking": "No negative marking (0 marks deducted for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall aggregate passing mark is 50%"
+          },
+          {
+            "paper_name": "Statistics",
+            "marks": 30,
+            "duration_minutes": 55,
+            "negative_marking": "No negative marking (0 marks deducted for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall aggregate passing mark is 50%"
+          },
+          {
+            "paper_name": "Data Interpretation",
+            "marks": 15,
+            "duration_minutes": 25,
+            "negative_marking": "No negative marking (0 marks deducted for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall aggregate passing mark is 50%"
+          },
+          {
+            "paper_name": "English",
+            "marks": 15,
+            "duration_minutes": 25,
+            "negative_marking": "No negative marking (0 marks deducted for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall aggregate passing mark is 50%"
+          },
+          {
+            "paper_name": "Logical Reasoning",
+            "marks": 10,
+            "duration_minutes": 20,
+            "negative_marking": "No negative marking (0 marks deducted for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Overall aggregate passing mark is 50%"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "ACET is conducted multiple times a year (typically in June and December cycles) by the Institute of Actuaries of India. Passing ACET grants eligibility to register as a student member of IAI and pursue core actuarial examinations (Core Mathematics, Core Statistics, and Core Business). Over 3,000 to 5,000 candidates take the test annually across cycles with an average pass percentage of approximately 45% to 55%.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 4200,
+        "confidence": "reported",
+        "as_of": "2023-12-31",
+        "source_url": "https://www.actuariesindia.org",
+        "source_label": "Institute of Actuaries of India (IAI) — Annual Examination Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official resources, syllabus guidelines, and student portal of the Institute of Actuaries of India (IAI).",
+    "links": [
+      {
+        "label": "Institute of Actuaries of India (IAI) Official Website",
+        "url": "https://www.actuariesindia.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

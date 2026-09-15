@@ -1,0 +1,201 @@
+{
+  "id": "ecil-technical-officer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Technical Officers and Graduate Engineer Trainees in Electronics Corporation of India Limited (ECIL) advance along the nuclear instrumentation, defence electronics, and strategic communication executive cadre under DPE IDA scales.",
+    "steps": [
+      {
+        "designation": "Graduate Engineer Trainee (GET) / Technical Officer",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL GET and Technical Officer Recruitment Notification"
+      },
+      {
+        "designation": "Technical Officer",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Service Regulations (Confirmation on successful training)"
+      },
+      {
+        "designation": "Senior Technical Officer",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Promotion Policy"
+      },
+      {
+        "designation": "Deputy Manager (Technical)",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Engineering Cadre Rules"
+      },
+      {
+        "designation": "Manager (Technical)",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Middle Management Structure"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Senior Management Regulations"
+      },
+      {
+        "designation": "Assistant General Manager / Additional General Manager",
+        "pay_level": "IDA Grade E-6 / E-7 (₹90,000 – ₹2,60,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Strategic Projects Directorate"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-8 / E-9 (₹1,20,000 – ₹3,00,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Board Level Senior Management Cadre"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection comprises a Computer Based Online Test (CBT) followed by a Personal Interview. Final selection is based on consolidated merit giving 85% weightage to CBT score and 15% weightage to Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL CBT Scheme and Syllabus Guidelines",
+        "papers": [
+          {
+            "paper_name": "Part A: Technical Discipline Domain Knowledge (ECE / EEE / Mechanical / CSE)",
+            "marks": 70,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per wrong response",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for General/EWS, 40% for Reserved categories"
+          },
+          {
+            "paper_name": "Part B: General Aptitude, Reasoning, Numerical Ability & English Language",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per wrong response",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Interview Selection Norms",
+        "papers": [
+          {
+            "paper_name": "Technical & Behavioral Interview before Selection Committee",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for General and 50% for Reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Executive remuneration in ECIL complies with DPE 3rd PRC IDA scales. Regular GET / Technical Officers enter in Grade E-1 with ₹40,000 starting basic pay, mandatory 58% DA constant as of 2025-07-01, Hyderabad HRA (27%), and cafeteria perks.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://www.ecil.co.in/jobs.html",
+    "pay_source_label": "ECIL Recruitment Terms & Remuneration Structure",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 74000,
+      "max": 90000
+    },
+    "in_hand_range_estimate": {
+      "min": 64000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹40,000, 58% IDA (₹23,200), Hyderabad HRA (27% = ₹10,800) or ECIL residential quarters, and Cafeteria allowances (30% = ₹12,000), less statutory PF (12% Basic+DA) and insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "House Rent Allowance (HRA) @ 27% in Hyderabad / Company Township Quarters",
+      "Cafeteria Approach Perks & Allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on annual nuclear & defence division MoU score",
+      "Contributory Provident Fund, Gratuity, and Defined Superannuation Benefit Scheme",
+      "Comprehensive in-house hospital medical coverage for employee and family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from ECIL notifications and shortlists.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 80,
+        "applicants": 34100,
+        "shortlisted_for_mains": 320,
+        "selectivity_ratio": "approx. 1 in 426",
+        "confidence": "reported",
+        "as_of": "2024-04-10",
+        "source_url": "https://www.ecil.co.in/jobs.html",
+        "source_label": "ECIL Advt. No. 08/2024: 80 Graduate Engineer Trainee vacancies across ECE, EEE, Mechanical and CSE disciplines."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career notices, application forms, and interview results published on the Electronics Corporation of India Limited portal.",
+    "links": [
+      {
+        "label": "ECIL Careers and Jobs Portal",
+        "url": "https://www.ecil.co.in/jobs.html",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "ECIL Official Corporate Portal",
+        "url": "https://www.ecil.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

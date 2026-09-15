@@ -1,0 +1,161 @@
+{
+  "id": "spmcil-junior-office-associate",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for clerical and secretarial support staff across SPMCIL Corporate Office and units (Mints at Mumbai, Kolkata, Hyderabad, Noida; Currency Presses at Nashik, Dewas; Security Paper Mill at Hoshangabad).",
+    "steps": [
+      {
+        "designation": "Junior Office Associate (JOA)",
+        "pay_level": "W-3 Level (IDA ₹21,540 – ₹77,160)",
+        "years": "Entry (0-3 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL Recruitment Advertisement W-3 Scale"
+      },
+      {
+        "designation": "Senior Office Associate",
+        "pay_level": "W-4 Level (IDA ₹23,910 – ₹85,640)",
+        "years": "approx. 3-6 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL Non-Executive Wage Rules"
+      },
+      {
+        "designation": "Supervisor (Office Support / Secretarial)",
+        "pay_level": "S-1 Level (IDA ₹27,600 – ₹95,590)",
+        "years": "approx. 6-10 yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL Supervisory Promotion Policy"
+      },
+      {
+        "designation": "Assistant Manager (HR / Admn)",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "approx. 10+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL Executive Cadre Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is through an online objective examination followed by a mandatory qualifying computer typing test.",
+    "stages": [
+      {
+        "stage_name": "Online Computer-Based Written Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL JOA Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Online Objective Test (Logical Reasoning, General Awareness, English Language, Quantitative Aptitude)",
+            "marks": 120,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "General/EWS: 55%, OBC: 50%, SC/ST: 45%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Typing Skill Test",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-15",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL JOA Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Typing Test (English 40 wpm or Hindi 30 wpm on computer)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40 wpm in English or 30 wpm in Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by DPE 3rd Pay Revision guidelines under the IDA pattern for Miniratna CPSEs.",
+    "pay_level": "W-3 Level (IDA Scale ₹21,540 – ₹77,160)",
+    "entry_basic_pay": 21540,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-15",
+    "pay_source_url": "https://www.spmcil.com/en/careers/",
+    "pay_source_label": "SPMCIL Official W-3 Notification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 40000,
+      "max": 45000
+    },
+    "in_hand_range_estimate": {
+      "min": 35000,
+      "max": 40000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic ₹21,540, 58% IDA DA (₹12,493), HRA (₹1,939 to ₹5,816), and cafeteria allowances.",
+    "official_perks": [
+      "Quarterly revised Industrial Dearness Allowance (IDA)",
+      "House Rent Allowance (HRA) or leased accommodation",
+      "Cafeteria approach perks and allowances up to 20%-25% of basic",
+      "Contributory Provident Fund, Gratuity, and Medical Benefits",
+      "Leave Encashment and LTC"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment vacancies advertised periodically across SPMCIL units.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 86,
+        "confidence": "verified",
+        "as_of": "2023-11-20",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL Unit Composite Notification 2023"
+      },
+      {
+        "year": 2022,
+        "vacancies": 65,
+        "confidence": "verified",
+        "as_of": "2022-10-10",
+        "source_url": "https://www.spmcil.com/en/careers/",
+        "source_label": "SPMCIL Notification 2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment links on SPMCIL portal.",
+    "links": [
+      {
+        "label": "SPMCIL Official Careers Portal",
+        "url": "https://www.spmcil.com/en/careers/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "SPMCIL Official Website",
+        "url": "https://www.spmcil.com/en/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

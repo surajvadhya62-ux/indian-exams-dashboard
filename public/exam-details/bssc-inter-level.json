@@ -1,0 +1,208 @@
+{
+  "id": "bssc-inter-level",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career ladders for premier cadres recruited through BSSC Inter Level (10+2): (1) Rajasva Karamchari (Revenue Employee) under Revenue & Land Reforms Department advancing to Circle Officer, and (2) Panchayat Sachiv (Panchayat Secretary) under Panchayati Raj Department advancing to District Panchayat Raj Officer.",
+    "steps": [
+      {
+        "designation": "Panchayat Secretary / Panchayat Sachiv (पंचायत सचिव) / Rajasva Karamchari (राजस्व कर्मचारी)",
+        "pay_level": "Level 3 / Level 2 (Bihar 7th State Pay Matrix)",
+        "years": "0–8 years (Entry grade)",
+        "confidence": "verified",
+        "as_of": "2023-09-19",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
+        "source_label": "BSSC 2nd Inter Level Combined Competitive Examination Advertisement No. 02/23(A)"
+      },
+      {
+        "designation": "Revenue Circle Inspector / Kanoongo (राजस्व अंचल निरीक्षक / कानूनगो)",
+        "pay_level": "Level 6 (Bihar 7th State Pay Matrix)",
+        "years": "8–15 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Revenue Service Subordinate Cadre Recruitment & Promotion Rules"
+      },
+      {
+        "designation": "Block Panchayat Raj Officer (BPRO) / Revenue Officer (RO)",
+        "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
+        "years": "15–22 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Panchayati Raj Service & Land Reforms Executive Cadre Rules"
+      },
+      {
+        "designation": "Circle Officer (CO) / District Panchayat Raj Officer (DPRO)",
+        "pay_level": "Level 9 (Bihar 7th State Pay Matrix)",
+        "years": "22+ years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "Bihar Administrative Service (Promotion from Subordinate Cadres)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two stages: (1) Preliminary Examination comprising 150 objective questions across General Studies, General Science/Math, and Mental Ability (+4, -1 marking) for shortlisting in 1:5 ratio; (2) Main Examination comprising Paper 1 Hindi (qualifying, 30% threshold) and Paper 2 General Knowledge/Science/Maths/Reasoning (600 marks, determining final merit); plus practical typing tests for clerical posts.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Examination (Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-09-19",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
+        "source_label": "BSSC 2nd Inter Level Advt. No. 02/23(A) Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Studies, General Science, Mathematics & Mental Ability Test",
+            "marks": 600,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Top candidates shortlisted in 1:5 ratio; minimum qualifying threshold: General 40%, BC 36.5%, EBC 34%, SC/ST/Women/PwD 32%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Main Examination (Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-09-19",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
+        "source_label": "BSSC 2nd Inter Level Advt. No. 02/23(A) Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper 1: General Hindi (सामान्य हिन्दी)",
+            "marks": 400,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory 30% marks; Paper 2 evaluated only for candidates obtaining qualifying marks in Paper 1"
+          },
+          {
+            "paper_name": "Paper 2: General Studies, General Science, Mathematics & Reasoning",
+            "marks": 600,
+            "duration_minutes": 135,
+            "negative_marking": "1 mark deducted per wrong answer; 4 marks awarded per correct answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit rank is computed strictly on marks obtained in Paper 2"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Typing / Skill Test & Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-09-19",
+        "source_url": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
+        "source_label": "BSSC 2nd Inter Level Advt. No. 02/23(A) Skill Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Hindi Typing Test (30 wpm in Mangal font / Remington) & English Typing (35 wpm) for LDC posts",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": "Max permissible error 1.5%",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard prescribed by BSSC for clerical/stenographer posts"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay scale shown for Panchayat Secretary (Level 3, Basic ₹21,700). Other major posts like Rajasva Karamchari and Lower Division Clerk (LDC) are placed in Level 2 (Basic ₹19,900).",
+    "pay_level": "Level 3 (Bihar 7th State Pay Matrix)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-09-19",
+    "pay_source_url": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
+    "pay_source_label": "BSSC 2nd Inter Level Advt. No. 02/23(A) Vacancy & Pay Matrix Details",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 37000, "max": 43000 },
+    "in_hand_range_estimate": { "min": 31000, "max": 36000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 with standard 58% DA (₹12,586), HRA (8% to 16% depending on block/district headquarters posting: ₹1,736 to ₹3,472), Medical Allowance (₹1,000), and Transport Allowance. In-hand reflects 10% NPS employee deduction on Basic+DA (₹3,429) and professional tax.",
+    "official_perks": [
+      "House Rent Allowance (HRA) or government staff quarters in block/subdivision headquarters",
+      "Medical allowance (₹1,000/month) and treatment reimbursement under state rules",
+      "National Pension System (NPS) with 14% matching employer contribution",
+      "Paid casual, medical, and earned leaves with leave encashment provision"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark statistics compiled from official BSSC advertisements, press announcements, and results for the 2nd Inter Level (Advt. 02/23) and 1st Inter Level (Advt. 06060114) examinations.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 2500000,
+        "vacancies": 12199,
+        "shortlisted_for_mains": 60995,
+        "selectivity_ratio": "1 in 205 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2024-01-15",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "BSSC 2nd Inter Level Advt. No. 02/23(A) (increased from 11,098 to 12,199 vacancies: 3,559 Rajasva Karamchari, 3,532 Panchayat Sachiv)"
+      },
+      {
+        "year": 2014,
+        "applicants": 1850000,
+        "vacancies": 13120,
+        "shortlisted_for_mains": 63739,
+        "selectivity_ratio": "1 in 141 (applicants per final vacancy)",
+        "confidence": "reported",
+        "as_of": "2022-06-27",
+        "source_url": "https://bssc.bihar.gov.in",
+        "source_label": "BSSC 1st Inter Level (Advt. No. 06060114) Final Result Declaration & Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, vacancy addenda, and corrigenda verified live on the BSSC official portal.",
+    "links": [
+      {
+        "label": "BSSC 2nd Inter Level Combined Competitive Exam — Detailed Advertisement (Advt. No. 02/23A)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/02_23A_Advt.pdf",
+        "type": "notification",
+        "cycle_label": "2nd Inter Level 2023-2026",
+        "confidence": "verified",
+        "as_of": "2023-09-19"
+      },
+      {
+        "label": "BSSC 2nd Inter Level 2023-2026 — Corrigendum Regarding Examination (Notice No. 766)",
+        "url": "https://bssc.bihar.gov.in/Advertisement/766_13_02_2026.pdf",
+        "type": "other",
+        "cycle_label": "2nd Inter Level",
+        "confidence": "verified",
+        "as_of": "2026-02-13"
+      },
+      {
+        "label": "BSSC 2nd Inter Level — Important Notice on Application Dates & Scrutiny",
+        "url": "https://bssc.bihar.gov.in/Advertisement/3924_02_23A_notice.pdf",
+        "type": "other",
+        "cycle_label": "2nd Inter Level",
+        "confidence": "verified",
+        "as_of": "2025-10-15"
+      },
+      {
+        "label": "BSSC Official Notice Board Portal",
+        "url": "https://bssc.bihar.gov.in/NoticeBoard.htm",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

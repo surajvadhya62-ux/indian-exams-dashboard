@@ -1,0 +1,236 @@
+{
+  "id": "rajasthan-police-constable",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Constables form the core frontline law enforcement personnel of Rajasthan Police under the Rajasthan Police Subordinate Service Rules, 1989. They serve across District Executive Police, Rajasthan Armed Constabulary (RAC), State Special Branch (CID), Police Telecommunications, and the Mewar Bhil Corps (MBC).",
+    "steps": [
+      {
+        "designation": "Police Constable (General Duty / Driver / Telecom / RAC / Band)",
+        "pay_level": "Level L-5",
+        "years": "Entry (0-7 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Subordinate Service Rules & Notification No. 2305"
+      },
+      {
+        "designation": "Head Constable (HC / Mukhya Aarakshak)",
+        "pay_level": "Level L-8",
+        "years": "approx. 7-14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Promotion Regulations & Revised Pay Rules 2017"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI / Sahayak Up-Nirakshak)",
+        "pay_level": "Level L-9",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Police Headquarters Rajasthan Non-Gazetted Executive Cadre Structure"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI / Up-Nirakshak — Police Station In-charge / SHO)",
+        "pay_level": "Level L-10",
+        "years": "approx. 20-26 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Subordinate Service Rules (Promotion Quota)"
+      },
+      {
+        "designation": "Police Inspector (PI / Police Nirakshak / Circle Inspector)",
+        "pay_level": "Level L-11 to Level L-12",
+        "years": "approx. 26+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Headquarters Senior Executive Cadre Hierarchy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under the Rajasthan Police Subordinate Service Rules 1989 and Standing Order No. 2305, selection comprises four sequential stages: Physical Efficiency Test (PET) & Physical Standard Test (PST), Computer Based Written Examination (CBT), Skill / Proficiency Test (for Driver, Band, and Mounted roles), and Document Verification & Medical Examination. The CBT carries 150 marks with 0.25 (1/4th) negative marking per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Physical Efficiency Test (PET) & Physical Standard Test (PST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Constable Standing Order & Recruitment Guidelines",
+        "papers": [
+          {
+            "paper_name": "Physical Endurance Running (Male: 5 km in 25 mins; Female: 5 km in 35 mins; Ex-Servicemen: 5 km in 30 mins) & Height/Chest/Weight Measurement",
+            "marks": null,
+            "duration_minutes": 25,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying physical standards (Height: Male 168 cm, Female 152 cm; Chest: Male 81-86 cm; Weight: Female 47.5 kg)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Based Written Test (CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Constable CBT Examination Scheme & Marks Distribution",
+        "papers": [
+          {
+            "paper_name": "Part A — Reasoning, Logic and Basic Computer Literacy",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B — General Knowledge, General Science, Current Affairs and Laws & Special Rights for Women and Children",
+            "marks": 45,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C — History, Geography, Economy, Culture and Art of Rajasthan",
+            "marks": 45,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4th penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate for General/OBC/EWS, 36% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Proficiency Test (Driver / Band / Mounted / Dog Squad Only)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Trade Proficiency Test Directives",
+        "papers": [
+          {
+            "paper_name": "Practical Vehicle Driving / Band Instrument Playing / Horse Riding Evaluation",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 30% marks in trade evaluation"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification and Medical Examination",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Police Headquarters Document Scrutiny & Medical Fitness Guidelines",
+        "papers": [
+          {
+            "paper_name": "Verification of Class 12 Certificate, RSMSSB CET 12th Scorecard, Domicile & Character Clearance",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Constables are placed in Pay Matrix Level L-5 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,400) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹14,600 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹20,800 is drawn in Level L-5.",
+    "pay_level": "Level L-5",
+    "entry_basic_pay": 20800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule Level L-5",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 38000
+    },
+    "in_hand_range_estimate": {
+      "min": 30500,
+      "max": 33500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level L-5 entry basic pay of ₹20,800 at 58% DA (₹12,064 effective 01.07.2025), HRA (9% to 18%: ₹1,872 to ₹3,744), uniform maintenance allowance, washing allowance, ration money subsidy, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting zone (Class Y and Z cities)",
+      "Uniform washing allowance, equipment maintenance grant, and annual kit replacement",
+      "Subsidized police mess facilities, ration money allowance, and police welfare funds",
+      "Cashless medical facility under Rajasthan Government Health Scheme (RGHS)",
+      "Defined pension coverage under restored Old Pension Scheme (OPS)"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official Rajasthan Police Headquarters recruitment notifications and examination schedules.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 272000,
+        "appeared": 53670,
+        "qualified_stage_1": 53670,
+        "recommended": 3578,
+        "vacancies": 3578,
+        "confidence": "verified",
+        "as_of": "2024-06-14",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Headquarters Constable Recruitment-2023 Standing Order & Examination Schedule"
+      },
+      {
+        "year": 2021,
+        "applicants": 1883000,
+        "appeared": 1425000,
+        "qualified_stage_1": 67000,
+        "recommended": 4438,
+        "vacancies": 4438,
+        "confidence": "reported",
+        "as_of": "2022-08-24",
+        "source_url": "https://police.rajasthan.gov.in",
+        "source_label": "Rajasthan Police Constable Direct Recruitment-2021 Selection Announcement"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination directives, and directives issued by Rajasthan Police Headquarters.",
+    "links": [
+      {
+        "label": "Rajasthan Police Official Web Portal",
+        "url": "https://police.rajasthan.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Rajasthan State Recruitment Portal (Direct Recruitment Portal)",
+        "url": "https://recruitment.rajasthan.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

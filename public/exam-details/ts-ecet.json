@@ -1,0 +1,122 @@
+{
+  "id": "ts-ecet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Telangana State Engineering Common Entrance Test (TG ECET) is conducted as a Computer Based Test (CBT) by Osmania University on behalf of the Telangana Council of Higher Education (TGCHE) for Diploma holders in Engineering/Technology/Pharmacy and B.Sc. (Mathematics) degree holders for lateral entry admission into the 2nd year regular B.E. / B.Tech. and B.Pharmacy courses in AICTE/PCI approved institutions. For Engineering Diploma candidates, the test consists of 200 objective multiple-choice questions carrying 200 marks of 180 minutes (3 hours) duration: Mathematics (50 marks), Physics (25 marks), Chemistry (25 marks), and the relevant Engineering paper (100 marks). Each question carries 1 mark with no negative marking. The qualifying mark is 25% of the aggregate marks (50 out of 200) for General and BC candidates; no minimum qualifying mark is prescribed for SC and ST candidates.",
+    "stages": [
+      {
+        "stage_name": "TG ECET Computer Based Test (Lateral Entry Engineering)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-14",
+        "source_url": "https://ecet.tgche.ac.in/UI/Documents/Pattern%20of%20Examination.pdf",
+        "source_label": "TGCHE & Osmania University — TG ECET 2026 Official Pattern of Examination & Instruction Booklet",
+        "papers": [
+          {
+            "paper_name": "Mathematics (Diploma Standard, Common to all Engineering Branches)",
+            "marks": 50,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all four subjects for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Physics (Diploma Standard, Common to all Engineering Branches)",
+            "marks": 25,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all four subjects for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Chemistry (Diploma Standard, Common to all Engineering Branches)",
+            "marks": 25,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all four subjects for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Engineering Subject Paper (Branch Specific: Civil / EEE / Mechanical / ECE / CSE / Chemical / Metallurgical / Mining / EIE)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all four subjects for General/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual lateral entry registration and qualification statistics officially published by Osmania University and TGCHE for admissions into 2nd-year B.E. and B.Tech seats across engineering colleges in Telangana.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 24244,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "22,014 qualified out of 23,059 appeared (95.47% qualification rate across diploma lateral entry seats)",
+        "confidence": "reported",
+        "as_of": "2024-05-20",
+        "source_url": "https://ecet.tgche.ac.in",
+        "source_label": "TGCHE & Osmania University TG ECET 2024 Official Results Declaration Press Note"
+      },
+      {
+        "year": 2023,
+        "applicants": 22508,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "19,890 qualified out of 21,342 appeared (93.20% qualification rate across diploma lateral entry engineering seats)",
+        "confidence": "reported",
+        "as_of": "2023-06-13",
+        "source_url": "https://ecet.tgche.ac.in",
+        "source_label": "TSCHE & Osmania University TS ECET 2023 Official Results Declaration"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official booklets, syllabus schemes, and portals issued by TGCHE and Osmania University.",
+    "links": [
+      {
+        "label": "TG ECET Pattern of Examination (PDF)",
+        "url": "https://ecet.tgche.ac.in/UI/Documents/Pattern%20of%20Examination.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG ECET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-14"
+      },
+      {
+        "label": "TG ECET Instruction Booklet (PDF)",
+        "url": "https://ecet.tgche.ac.in/UI/Documents/Instruction%20Booklet.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG ECET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-14"
+      },
+      {
+        "label": "TG ECET Detailed Notification (PDF)",
+        "url": "https://ecet.tgche.ac.in/UI/Documents/Detailed%20Notification.pdf",
+        "type": "notification",
+        "cycle_label": "TG ECET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-14"
+      },
+      {
+        "label": "TG ECET Official Web Portal",
+        "url": "https://ecet.tgche.ac.in",
+        "type": "other",
+        "cycle_label": "TG ECET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

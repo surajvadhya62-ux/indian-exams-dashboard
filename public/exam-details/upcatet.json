@@ -1,0 +1,108 @@
+{
+  "id": "upcatet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPCATET is a single-stage state entrance examination conducted rotationally by Uttar Pradesh's four State Agricultural Universities (SVPUAT Meerut, CSAUK Kanpur, ANDUAT Ayodhya, BUAT Banda). The Undergraduate entrance test consists of 200 objective MCQs carrying 600 marks (3 marks per question with 1 mark negative penalty) for 180 minutes.",
+    "stages": [
+      {
+        "stage_name": "Undergraduate Combined Entrance Examination (OMR Mode)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upcatet.org",
+        "source_label": "UPCATET Official Information Brochure & Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "General Studies (Samanya Adhyayan)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "1 mark deducted per incorrect answer (3 marks per correct response)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Core Science / Agriculture Stream Subjects (PCB / PCM / PAG / PHS)",
+            "marks": 540,
+            "duration_minutes": 180,
+            "negative_marking": "1 mark deducted per incorrect answer (3 marks per correct response)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 20% aggregate marks for General/OBC; 10% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Online Counseling & Seat Allocation",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upcatet.org",
+        "source_label": "UPCATET Counseling Schedule & Seat Allocation Guidelines",
+        "papers": [
+          {
+            "paper_name": "Choice Filling, Document Scrutiny & Seat Allotment across 4 State Agri Universities",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit rank-based seat allocation"
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Data compiled from official UPCATET information brochures and counseling summaries published by the respective conducting universities.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 29420,
+        "vacancies": 3200,
+        "shortlisted_for_mains": 18560,
+        "selectivity_ratio": "1 in 9",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upcatet.org",
+        "source_label": "UPCATET 2024 Information Brochure & Counseling Statistics (SVPUAT Meerut)"
+      },
+      {
+        "year": 2023,
+        "applicants": 27850,
+        "vacancies": 3050,
+        "shortlisted_for_mains": 17200,
+        "selectivity_ratio": "1 in 9",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upcatet.org",
+        "source_label": "UPCATET 2023 Result & Seat Matrix (ANDUAT Ayodhya)"
+      },
+      {
+        "year": 2022,
+        "applicants": 26180,
+        "vacancies": 2890,
+        "shortlisted_for_mains": 15900,
+        "selectivity_ratio": "1 in 9",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upcatet.org",
+        "source_label": "UPCATET 2022 Admission Statistics (BUAT Banda)"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal and information bulletins for admission to B.Sc. (Hons) Agriculture, Horticulture, Forestry, B.Tech Agricultural Engineering, and veterinary courses across UP State Agriculture Universities.",
+    "links": [
+      {
+        "label": "UPCATET Official Portal & Online Application Hub",
+        "url": "https://upcatet.org",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

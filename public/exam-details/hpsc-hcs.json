@@ -1,0 +1,335 @@
+{
+  "id": "hpsc-hcs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Haryana Civil Services (Executive Branch) examination are appointed under the Haryana Civil Service (Executive Branch) Rules, 2008. They commence as Sub-Divisional Magistrates (SDM) / City Magistrates / Assistant Commissioners and advance through state administrative echelons before induction into the Indian Administrative Service (IAS) Haryana Cadre under the IAS (Appointment by Promotion) Regulations, 1955.",
+    "steps": [
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / City Magistrate / Assistant Commissioner / Under Secretary",
+        "pay_level": "Haryana FPL-10 (₹56,100 basic, PB-3 ₹15,600-39,100 + GP ₹5,400)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+        "source_label": "HPSC Advt. No. 22/2026 & Haryana Civil Services (Revised Pay) Rules, 2016 FPL-10"
+      },
+      {
+        "designation": "Additional Deputy Commissioner (ADC) / Additional District Magistrate (ADM) / Senior Scale",
+        "pay_level": "Haryana FPL-11 (₹67,700 basic, PB-3 ₹15,600-39,100 + GP ₹6,000 / ₹6,600)",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2016-10-28",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Haryana Civil Services (Revised Pay) Rules, 2016, Finance Department, Government of Haryana"
+      },
+      {
+        "designation": "Special Secretary to Government / Director of State Directorate / Administrator HSVP (HUDA)",
+        "pay_level": "Haryana FPL-12 / FPL-13 (₹78,800 - ₹1,18,500 basic)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2016-10-28",
+        "source_url": "https://hpsc.gov.in/en-us/",
+        "source_label": "Haryana Civil Services (Revised Pay) Rules, 2016, Finance Department, Government of Haryana"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) (Haryana Cadre) / Selection Grade",
+        "pay_level": "Level 13 (Selection Grade, ₹1,18,500 basic)",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-01-01",
+        "source_url": "https://csharyana.gov.in",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT & UPSC / Chief Secretary Haryana"
+      },
+      {
+        "designation": "Deputy Commissioner (DC) & District Magistrate (DM) / Secretary to Government of Haryana",
+        "pay_level": "Level 14 (Super Time Scale, ₹1,44,200 basic)",
+        "years": "approx. 20-26 yrs",
+        "confidence": "reported",
+        "as_of": "2026-01-01",
+        "source_url": "https://csharyana.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules, 2016 & Chief Secretary Haryana"
+      },
+      {
+        "designation": "Principal Secretary to Government of Haryana / Financial Commissioner",
+        "pay_level": "Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "reported",
+        "as_of": "2026-01-01",
+        "source_url": "https://csharyana.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules, 2016 & Chief Secretary Haryana"
+      },
+      {
+        "designation": "Additional Chief Secretary (ACS) to Government of Haryana",
+        "pay_level": "Level 17 (Apex Scale, ₹2,25,000 fixed)",
+        "years": "approx. 30+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-01-01",
+        "source_url": "https://csharyana.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules, 2016 & Chief Secretary Haryana"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The HCS (Executive Branch) and Allied Services examination comprises three successive stages: Preliminary Examination (Objective screening of 200 marks across 2 papers), Main Written Examination (Conventional descriptive across 6 compulsory papers of 100 marks each, 600 marks total; optional subjects eliminated vide Haryana Government Gazette Notification No. 42/1/2018-5SII dated 07.01.2026 and Advt. No. 22/2026), and Personality Test / Viva-Voce (75 marks). Final selection merit is prepared out of 675 marks.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+        "source_label": "HPSC Advt. No. 22/2026 & Gazette Notification No. 42/1/2018-5SII dated 07.01.2026",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks (one-fourth) deducted for each incorrect response. Mandatory 5th bubble rule: if question is unattempted, candidate must darken circle 'E'; failing to darken any of the five circles incurs 0.25 mark deduction; leaving circles unattempted in more than 10% questions leads to disqualification.",
+            "qualifying_only": false,
+            "qualifying_threshold": "Screening paper only; marks determine qualification for Mains examination (subject to scoring 33% in Paper II)"
+          },
+          {
+            "paper_name": "Paper II: Civil Services Aptitude Test (CSAT)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks (one-fourth) deducted for each incorrect response. Fifth option circle rule applies identically.",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying score fixed at 33% (33 marks out of 100). Marks are qualifying only and not counted towards the Preliminary ranking list."
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Conventional Essay / Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+        "source_label": "HPSC Advt. No. 22/2026 & Gazette Notification No. 42/1/2018-5SII dated 07.01.2026",
+        "papers": [
+          {
+            "paper_name": "Paper I: English (including English Essay)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in English and Hindi individually, and minimum 45% marks in aggregate of all written papers to qualify for Personality Test"
+          },
+          {
+            "paper_name": "Paper II: Hindi (including Hindi Essay in Devnagri Script)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 33% marks required in English and Hindi individually, and minimum 45% marks in aggregate of all written papers to qualify for Personality Test"
+          },
+          {
+            "paper_name": "Paper III: General Studies - I (Art & Culture, Indian & World History, Geography, Indian Society, Haryana specific issues)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          },
+          {
+            "paper_name": "Paper IV: General Studies - II (Constitution, Polity, Governance, Social Justice, International Relations, Haryana governance)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          },
+          {
+            "paper_name": "Paper V: General Studies - III (Economy, Agriculture, Science & Technology, Environment & Disaster Management, Internal Security, Haryana economy)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          },
+          {
+            "paper_name": "Paper VI: General Studies - IV (Ethics, Integrity and Aptitude, Case Studies)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Compulsory paper counted in merit list"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test / Viva-Voce",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+        "source_label": "HPSC Advt. No. 22/2026 & Haryana Civil Service (Ex. Br.) Rules, 2008",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Viva-Voce Interview",
+            "marks": 75,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Interview board evaluates mental alertness, critical powers of assimilation, clear exposition, balance of judgment, leadership, intellectual integrity, and suitability for public service. Candidates equal to 3 times the number of vacancies are summoned based on Main written exam marks."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Officers in the Haryana Civil Services (Executive Branch) and Haryana Police Service (DSP) are remunerated under the Haryana Civil Services (Revised Pay) Rules, 2016 at Functional Pay Level FPL-10 (pre-revised PB-3 ₹15,600–39,100 + Grade Pay ₹5,400) with entry basic pay of ₹56,100. Allied service cadres (e.g. AETO, TM, Naib Tehsildar) are placed in Functional Pay Levels FPL-9 (₹53,100) or FPL-7/8.",
+    "pay_level": "Haryana Functional Pay Level FPL-10 (Pre-revised PB-3 ₹15,600 - ₹39,100 + Grade Pay ₹5,400)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-01-30",
+    "pay_source_url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+    "pay_source_label": "HPSC Advt. No. 22/2026 & Haryana Civil Services (Revised Pay) Rules, 2016 FPL-10",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 95000,
+      "max": 120000
+    },
+    "in_hand_range_estimate": {
+      "min": 85000,
+      "max": 108000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Haryana Functional Pay Level FPL-10 entry basic ₹56,100 + 58% DA (₹32,538) + House Rent Allowance (HRA 9% to 27-30% depending on city classification: Gurugram/Faridabad Category X at 27-30%, Panchkula/Ambala/Rohtak Category Y at 18-20%, rural/small towns Category Z at 9-10%) + fixed medical allowance (₹1,000). In-hand estimate accounts for statutory deductions including 10% NPS contribution (Basic + DA = ₹8,864), Group Insurance Scheme (GIS), and Haryana Professional Tax.",
+    "official_perks": [
+      "Designated official government accommodation or entitled House Rent Allowance (HRA up to 27-30% in Gurugram/Faridabad, 18-20% in Panchkula and major district headquarters)",
+      "Official vehicle with driver and monthly fuel quota for field inspections and executive duties (SDM, DSP, ETO)",
+      "Government telephone, mobile reimbursement, and broadband allowances as per Haryana Finance Department norms",
+      "Comprehensive medical coverage and cashless hospitalization for self and family under Haryana Government health schemes",
+      "Encashment of earned leave and leave travel concession (LTC) once in a block of 4 years",
+      "Security detail and residential guard for sensitive field executive postings (SDM, City Magistrate, DSP)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official HPSC Advertisements, Preliminary Screening declarations, Mains written results, and Final Recommendation lists published by the Haryana Public Service Commission.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 102,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+        "source_label": "HPSC Advt. No. 22/2026 published 30.01.2026 (102 vacancies: 24 HCS Ex. Br., 8 DSP, 27 ETO, 2 DFSC, 3 ARCS, 1 DFSO, 22 AETO, 7 TM, 3 'A' Class Tehsildar, 5 'A' Class Naib Tehsildar; Prelims scheduled 26.04.2026)"
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 121,
+        "shortlisted_for_mains": 1234,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-06-18",
+        "source_url": "https://hpsc.gov.in/Portals/0/Final_Cadre_HCS_18_06_24.pdf",
+        "source_label": "HPSC Advt. No. 58/2023 & Final Cadre Allocation Notice dated 18.06.2024 (121 advertised vacancies; Prelims held 11.02.2024; 1,234+ shortlisted for Mains; 264 qualified for Viva-Voce; 112 candidates recommended for appointment)"
+      },
+      {
+        "year": 2022,
+        "applicants": null,
+        "vacancies": 95,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-10-11",
+        "source_url": "https://hpsc.gov.in/Portals/0/Final_Result_HCS_2022_11_10_2023.pdf",
+        "source_label": "HPSC Advt. No. 11/2023 & Final Result dated 11.10.2023 (95 advertised vacancies; Mains held 12-13 August 2023; 61 candidates finally recommended)"
+      },
+      {
+        "year": 2021,
+        "applicants": null,
+        "vacancies": 156,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2023-02-06",
+        "source_url": "https://hpsc.gov.in/Portals/0/Final_result_HCS_2021_06_02_2023.pdf",
+        "source_label": "HPSC Advt. No. 03/2021 & Final Result dated 06.02.2023 (156 vacancies; 155 candidates finally recommended for appointment)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination syllabi, and result portals verified directly on the Haryana Public Service Commission (HPSC) server.",
+    "links": [
+      {
+        "label": "HPSC HCS (Ex. Br.) & Allied Services 2026 Notification (Advt. No. 22/2026)",
+        "url": "https://hpsc.gov.in/Portals/0/Advt_22_2026_HCS_Ex_Br_30_01_2026_1.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 22/2026",
+        "confidence": "verified",
+        "as_of": "2026-01-30"
+      },
+      {
+        "label": "HPSC HCS Revised Examination Scheme & Syllabi (Gazette Notification 07.01.2026)",
+        "url": "https://hpsc.gov.in/Portals/0/Syllabus_HCS_2025_28_01_2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "2026 Scheme",
+        "confidence": "verified",
+        "as_of": "2026-01-28"
+      },
+      {
+        "label": "HPSC HCS Advt. No. 22/2026 Official Corrigendum",
+        "url": "https://hpsc.gov.in/Portals/0/Corr_HCS_Ex_Br_2025_05_02_2026.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 22/2026",
+        "confidence": "verified",
+        "as_of": "2026-02-05"
+      },
+      {
+        "label": "HPSC HCS Advt. No. 22/2026 Online Application Portal Announcement",
+        "url": "https://hpsc.gov.in/Portals/0/Ann_HCS_2025_23_02_2026.pdf",
+        "type": "other",
+        "cycle_label": "Advt 22/2026",
+        "confidence": "verified",
+        "as_of": "2026-02-23"
+      },
+      {
+        "label": "HPSC HCS (Ex. Br.) 2023 Final Recommendation & Cadre Allocation List",
+        "url": "https://hpsc.gov.in/Portals/0/Final_Cadre_HCS_18_06_24.pdf",
+        "type": "other",
+        "cycle_label": "2023 Cycle",
+        "confidence": "verified",
+        "as_of": "2024-06-18"
+      },
+      {
+        "label": "HPSC Official Examination Results Archive",
+        "url": "https://hpsc.gov.in/en-us/Examination/Results",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HPSC Official Examination Syllabi Archive",
+        "url": "https://hpsc.gov.in/en-us/Examination/Syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HPSC Official Advertisements & Instructions Portal",
+        "url": "https://hpsc.gov.in/en-us/Instructions",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

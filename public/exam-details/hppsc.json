@@ -1,0 +1,294 @@
+{
+  "id": "hppsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Himachal Pradesh Administrative Service (HPAS) Combined Competitive Examination are governed by the Himachal Pradesh Administrative Service Rules and the Himachal Pradesh Civil Services (Revised Pay) Rules, 2022. Officers enter as Sub-Divisional Magistrates (SDMs) / Assistant Commissioners and advance through state administrative grades before induction into the Indian Administrative Service (IAS — Himachal Pradesh Cadre).",
+    "steps": [
+      {
+        "designation": "HPAS (Junior Scale) / Sub-Divisional Magistrate (SDM) / Assistant Commissioner",
+        "pay_level": "HP Pay Matrix Level 18 (₹56,100 - ₹1,77,500)",
+        "years": "0-4 yrs",
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Advt. No. 59/8-2026 & HP Civil Services (Revised Pay) Rules 2022"
+      },
+      {
+        "designation": "HPAS (Senior Scale) / Joint Director / Deputy Secretary to Government of HP",
+        "pay_level": "HP Pay Matrix Level 19 / Level 20 (₹67,400 - ₹2,01,200)",
+        "years": "approx. 4-9 yrs",
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HP Department of Personnel & Administrative Service Rules"
+      },
+      {
+        "designation": "HPAS (Selection Grade) / Additional District Magistrate (ADM) / Additional Deputy Commissioner (ADC)",
+        "pay_level": "HP Pay Matrix Level 21 / Level 22 (₹78,800 - ₹2,09,200)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HP Department of Personnel & Administrative Service Rules"
+      },
+      {
+        "designation": "HPAS (Super Time Scale) / Special Secretary / Director / Head of Department",
+        "pay_level": "HP Pay Matrix Level 23 / Level 24 (₹1,18,500 - ₹2,14,100)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HP Department of Personnel & Administrative Service Rules"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS — Himachal Pradesh Cadre) / Deputy Commissioner (DC) / District Magistrate",
+        "pay_level": "7th CPC Pay Matrix Level 11 / Level 12 (₹67,700 - ₹2,09,200)",
+        "years": "approx. 18-24 yrs (Promotion Cadre)",
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations & DoPT"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Himachal Pradesh Administrative Service (HPAS) Combined Competitive Examination is conducted in three successive stages: Preliminary Examination (Objective screening test), Main Examination (Conventional descriptive written papers), and Personality Test (Interview).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Combined Competitive Examination Notification & Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.33 (1/3rd penalty for each incorrect response)",
+            "qualifying_only": false,
+            "qualifying_threshold": "100 objective questions (2 marks each); marks count toward merit list to determine shortlist for Main Examination in ratio of 1:20 of vacancies"
+          },
+          {
+            "paper_name": "Paper II: Aptitude Test",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.33 (1/3rd penalty for each incorrect response)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 33% (66 out of 200 marks) required to qualify; marks are not counted for merit shortlisting"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Main Written Examination Syllabus & Regulations",
+        "papers": [
+          {
+            "paper_name": "Paper I: English",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; minimum 40% (40 out of 100 marks) required; marks not included in final merit ranking"
+          },
+          {
+            "paper_name": "Paper II: Hindi",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; minimum 40% (40 out of 100 marks) required; marks not included in final merit ranking"
+          },
+          {
+            "paper_name": "Paper III: Essay",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper IV: General Studies I",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper V: General Studies II",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper VI: General Studies III",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper VII: Optional Subject — Paper I",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidate selects one optional subject from the prescribed list of disciplines"
+          },
+          {
+            "paper_name": "Paper VII: Optional Subject — Paper II",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Second paper of chosen optional discipline; total written merit prepared out of 900 marks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Personality Test Regulations",
+        "papers": [
+          {
+            "paper_name": "Personality Test (Interview)",
+            "marks": 150,
+            "duration_minutes": 35,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Candidates shortlisted in ratio of approximately 1:3 of vacancies based on written marks; final merit prepared out of 1,050 marks (900 Written + 150 Interview)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for Himachal Pradesh Administrative Service officers are governed by the Himachal Pradesh Civil Services (Revised Pay) Rules, 2022 notified by the Finance Department, Government of Himachal Pradesh. Entry-level HPAS Junior Scale / Sub-Divisional Magistrate posts are assigned Pay Matrix Level 18 with entry basic pay of ₹56,100.",
+    "pay_level": "HP Pay Matrix Level 18 (₹56,100 - ₹1,77,500)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-08-26",
+    "pay_source_url": "https://hppsc.hp.gov.in",
+    "pay_source_label": "HPPSC Advt. No. 59/8-2026 & HP Civil Services (Revised Pay) Rules 2022",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 95000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 82000,
+      "max": 102000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from HP Pay Matrix Level 18 entry basic ₹56,100 + 58% DA (₹32,538) + HP HRA (8%–16% or government accommodation) + hill compensatory allowance / winter allowance (where applicable in notified tribal/hill districts) + conveyance, mobile, and medical allowances. In-hand estimate reflects 10% NPS deduction (Basic + DA), GIS, and professional tax.",
+    "official_perks": [
+      "Designated government accommodation / residential bungalow at sub-division or district headquarters",
+      "Official staff car / vehicle with driver and fuel allotment for administrative and protocol duties",
+      "Medical reimbursement for self and dependents under HP State Services Medical Attendance Rules",
+      "Hill Compensatory Allowance (HCA) and winter heating allowance in designated hill postings",
+      "Official mobile handset, broadband connectivity, and telephone reimbursement",
+      "Leave Travel Concession (LTC) and travel allowances for field inspections"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official HPPSC recruitment advertisements, preliminary examination attendance releases, and final merit lists published for the Combined Competitive Examination.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 46000,
+        "vacancies": 22,
+        "shortlisted_for_mains": 440,
+        "selectivity_ratio": "1 in 2,090 (approx.)",
+        "confidence": "verified",
+        "as_of": "2026-08-26",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Combined Competitive Examination Advt. No. 59/8-2026"
+      },
+      {
+        "year": 2024,
+        "applicants": 48000,
+        "vacancies": 28,
+        "shortlisted_for_mains": 560,
+        "selectivity_ratio": "1 in 1,714 (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-04-05",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Combined Competitive Examination Advt. No. 7/4-2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 42000,
+        "vacancies": 11,
+        "shortlisted_for_mains": 220,
+        "selectivity_ratio": "1 in 3,818 (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-05-18",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Combined Competitive Examination 2023 Notification"
+      },
+      {
+        "year": 2021,
+        "applicants": 48500,
+        "vacancies": 29,
+        "shortlisted_for_mains": 580,
+        "selectivity_ratio": "1 in 1,672 (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-06-17",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC HPAS Combined Competitive Examination Advt. No. 42/6-2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, syllabi, and question paper repositories published by the Himachal Pradesh Public Service Commission.",
+    "links": [
+      {
+        "label": "HPPSC Official Web Portal & Recruitment Notifications",
+        "url": "https://hppsc.hp.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt-59/8-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "HPPSC HPAS Combined Competitive Examination Scheme & Syllabus Archive",
+        "url": "https://hppsc.hp.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "HPPSC Previous Year Question Papers & Answer Keys Repository",
+        "url": "https://hppsc.hp.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

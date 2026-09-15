@@ -1,0 +1,235 @@
+{
+  "id": "upsc-ies-iss",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "The Indian Economic Service (IES) operates under the Department of Economic Affairs (Ministry of Finance), while the Indian Statistical Service (ISS) operates under the Ministry of Statistics and Programme Implementation (MoSPI). Both are premier Organized Central Group 'A' Specialist Services providing economic analysis, policy formulation, and statistical administration across central ministries and NITI Aayog.",
+    "steps": [
+      {
+        "designation": "Assistant Director / Research Officer (Junior Time Scale)",
+        "pay_level": "Level 10",
+        "years": "Entry level (Group A Gazetted)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Director / Senior Research Officer (Senior Time Scale)",
+        "pay_level": "Level 11",
+        "years": "approx. 4-5 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Joint Director (Junior Administrative Grade)",
+        "pay_level": "Level 12",
+        "years": "approx. 9-10 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Director / Additional Economic Adviser (Selection Grade)",
+        "pay_level": "Level 13",
+        "years": "approx. 13-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Senior Economic Adviser / Adviser / Deputy Director General (Senior Administrative Grade)",
+        "pay_level": "Level 14",
+        "years": "approx. 17-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Principal Economic Adviser / Additional Director General (Higher Administrative Grade)",
+        "pay_level": "Level 15",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Economic Adviser (IES) / Chief Statistician of India & Secretary MoSPI (ISS)",
+        "pay_level": "Level 17",
+        "years": "Apex Scale / Top Executive",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPSC conducts the IES/ISS Examination in two parts: Part I Written Examination (1000 marks across 6 papers) and Part II Viva Voce / Personality Test (200 marks). Final merit is compiled out of 1200 marks aggregate. For IES, all 6 papers are conventional/subjective. For ISS, Statistics I & II are objective (80 questions each, 200 marks, 120 minutes, 1/3 negative marking), while Statistics III & IV are descriptive.",
+    "stages": [
+      {
+        "stage_name": "Part I: Written Examination (1000 Marks Total)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-11",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf",
+        "source_label": "UPSC — Examination Notice No. 07/2026-IES/ISS, Appendix-I (Scheme of Examination)",
+        "papers": [
+          {
+            "paper_name": "General English (Common to IES & ISS)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies (Common to IES & ISS)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Economics I (IES) / Statistics I Objective (ISS)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-1/3 (0.33) marks per wrong question in ISS Statistics I",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Economics II (IES) / Statistics II Objective (ISS)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-1/3 (0.33) marks per wrong question in ISS Statistics II",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Economics III (IES) / Statistics III Descriptive (ISS)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Indian Economics (IES) / Statistics IV Descriptive (ISS)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Part II: Viva Voce (Personality Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-11",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf",
+        "source_label": "UPSC — Examination Notice No. 07/2026-IES/ISS, Appendix-I (Viva Voce)",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Board Interview (UPSC Headquarters, New Delhi)",
+            "marks": 200,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 10",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 95000,
+      "max": 115000
+    },
+    "in_hand_range_estimate": {
+      "min": 82000,
+      "max": 98000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 10 entry basic pay (₹56,100) for Junior Time Scale officers with 58% DA. Officers posted in New Delhi ministries receive Category X HRA (27% or ₹15,147) and higher transport allowances.",
+    "official_perks": [
+      "Central Government accommodation (General Pool Residential Accommodation - GPRA) / HRA (27%/18%/9%)",
+      "Official transport allowance (₹7,200 + 58% DA in Class X cities)",
+      "Central Government Health Scheme (CGHS) comprehensive family medical coverage",
+      "Annual Leave Travel Concession (LTC) and defined contribution pension under NPS",
+      "Deputation opportunities to multilateral economic institutions (IMF, World Bank, ADB) and regulatory commissions"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for 2026 cycle were read directly from UPSC Examination Notice No. 07/2026-IES/ISS (dated 11.02.2026: 44 total vacancies across IES: 16 and ISS: 28). The 2025 recruitment notified 51 vacancies (IES: 18, ISS: 33).",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 44,
+        "confidence": "verified",
+        "as_of": "2026-02-11",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf",
+        "source_label": "UPSC — Examination Notice No. 07/2026-IES/ISS: 44 total vacancies in Junior Time Scale (Indian Economic Service: 16, Indian Statistical Service: 28) — read directly, figures quoted verbatim."
+      },
+      {
+        "year": 2025,
+        "vacancies": 51,
+        "confidence": "reported",
+        "as_of": "2025-02-12",
+        "source_label": "UPSC — Examination Notice for IES/ISS 2025: 51 total vacancies (IES: 18, ISS: 33) across central cadres."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official UPSC downloads for Indian Economic Service / Indian Statistical Service Examination. Direct notification PDF verified live; evergreen scheme and previous question paper archives hosted on upsc.gov.in.",
+    "links": [
+      {
+        "label": "Indian Economic Service/Indian Statistical Service Examination, 2026 — Official Notification",
+        "url": "https://www.upsc.gov.in/sites/default/files/Exam_Notification_IES_ISS_Eng_11022026.pdf",
+        "type": "notification",
+        "cycle_label": "IES-ISS-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-11"
+      },
+      {
+        "label": "Previous Year Question Papers — Indian Economic Service",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=Indian+Economic+Service",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Revised Syllabus and Scheme (evergreen reference)",
+        "url": "https://www.upsc.gov.in/examinations/revised-syllabus-scheme",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

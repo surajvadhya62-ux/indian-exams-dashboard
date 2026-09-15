@@ -1,0 +1,201 @@
+{
+  "id": "mdl-executive-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive Trainees at Mazagon Dock Shipbuilders Limited (MDL) undergo 1 year training and probation before absorption into permanent executive management cadre in Grade E-1, advancing via internal merit-cum-seniority promotions.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (Technical / Finance / HR)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Recruitment Advertisement for Executive Trainees"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Executive Service Regulations"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Promotion Norms"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Executive Promotion Policy"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Cadre Structure"
+      },
+      {
+        "designation": "Chief Manager",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Senior Executive Rules"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Corporate Hierarchy"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Board and Director Cadre"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection of Executive Trainees is either through normalized GATE scores or a Computer Based Online Test (CBT) followed by a Personal Interview. For non-GATE technical and non-technical disciplines, an objective CBT is administered.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT) / GATE Score Screening",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Executive Trainee Detailed Selection Framework",
+        "papers": [
+          {
+            "paper_name": "Part A: Discipline Engineering Domain / Professional Knowledge",
+            "marks": 60,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for General/OBC/EWS, 40% for SC/ST/PwD"
+          },
+          {
+            "paper_name": "Part B: General Awareness, English, Quantitative Aptitude & Reasoning",
+            "marks": 40,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 mark deduction per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Interview Evaluation Scheme",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical competence, Leadership & Communication)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for UR/EWS and 50% for SC/ST/OBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Pay package conforms to DPE 3rd PRC guidelines for CPSE executives. Executive Trainees enter in E-1 Grade with ₹40,000 basic pay, mandatory 58% DA constant as of 2025-07-01, Mumbai-tier HRA, and industrial perks.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://mazagondock.in/Career-Executive.aspx",
+    "pay_source_label": "MDL Executive Trainee Terms of Employment & Pay Scales",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 75000,
+      "max": 92000
+    },
+    "in_hand_range_estimate": {
+      "min": 65000,
+      "max": 79000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹40,000, 58% IDA (₹23,200), Mumbai HRA (27% of Basic = ₹10,800), Cafeteria perks (32% = ₹12,800), less statutory deductions for PF (12% of Basic+DA) and Group Insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) indexed to quarterly AICPI",
+      "House Rent Allowance (HRA) @ 27% in Mumbai / Company Accommodation",
+      "Cafeteria Perks & Allowances up to 32% of basic pay",
+      "Performance Related Pay (PRP) based on audited annual profitability and MoU score",
+      "Comprehensive medical treatment at MDL Hospital / empanelled hospitals for self and family",
+      "Post-retirement Medical Benefit Scheme (PRMBS) and Superannuation Pension Scheme"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from recent MDL Executive Trainee recruitment notifications.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 60,
+        "applicants": 31200,
+        "shortlisted_for_mains": 480,
+        "selectivity_ratio": "approx. 1 in 520",
+        "confidence": "reported",
+        "as_of": "2024-11-20",
+        "source_url": "https://mazagondock.in/Career-Executive.aspx",
+        "source_label": "MDL Recruitment Notification MDL/HR-REC/ET/2024: 60 vacancies across Shipbuilding, Mechanical, Electrical and Naval Architecture."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal, circulars, and application downloads hosted on the Mazagon Dock Shipbuilders Limited website.",
+    "links": [
+      {
+        "label": "MDL Executive Career Portal",
+        "url": "https://mazagondock.in/Career-Executive.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MDL Official Corporate Website",
+        "url": "https://mazagondock.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

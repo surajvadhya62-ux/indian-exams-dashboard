@@ -1,0 +1,230 @@
+{
+  "id": "bihar-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression for Police Sub-Inspectors (Daroga) under the Home (Police) Department, Government of Bihar. Direct recruit Sub-Inspectors form the operational core of police stations and supervisory investigation units, advancing to Inspector, Deputy Superintendent of Police (BPS cadre), and eventual induction into the Indian Police Service (IPS).",
+    "steps": [
+      {
+        "designation": "Police Sub-Inspector / Daroga (पुलिस अवर निरीक्षक)",
+        "pay_level": "Level 6 (Bihar 7th State Pay Matrix)",
+        "years": "0–8 years (Entry grade)",
+        "confidence": "verified",
+        "as_of": "2026-03-16",
+        "source_url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+        "source_label": "BPSSC Police Sub-Inspector Advt. No. 05/2025 Preliminary Exam Result & Cadre Details"
+      },
+      {
+        "designation": "Police Inspector / Station House Officer (पुलिस निरीक्षक)",
+        "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
+        "years": "8–15 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpssc.bihar.gov.in",
+        "source_label": "Bihar Police Manual (Rules on Upper School Course & Promotion to Inspector)"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DySP / पुलिस उपाधीक्षक)",
+        "pay_level": "Level 9 (Bihar 7th State Pay Matrix)",
+        "years": "15–22 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpssc.bihar.gov.in",
+        "source_label": "Bihar Police Service Cadre Rules (50% promotion quota from Inspector cadre)"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP / अपर पुलिस अधीक्षक)",
+        "pay_level": "Level 11 (Bihar 7th State Pay Matrix)",
+        "years": "22–28 years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpssc.bihar.gov.in",
+        "source_label": "Bihar Police Service Senior Scale Promotion Rules"
+      },
+      {
+        "designation": "Superintendent of Police / Senior SP (IPS Bihar Cadre Induction)",
+        "pay_level": "Level 12 / Level 13 (Central 7th CPC Matrix)",
+        "years": "28+ years",
+        "confidence": "reported",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpssc.bihar.gov.in",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations, Bihar State Service Quota"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process conducted by BPSSC comprises three stages: (1) Preliminary Written Examination (100 MCQs, 200 marks, GK & Current Affairs, 0.2 negative marking) shortlisting candidates in a 1:20 ratio; (2) Main Written Examination comprising Paper 1 Hindi (qualifying, 30%) and Paper 2 General Studies (200 marks, determining merit for PET in 1:6 ratio); and (3) Physical Efficiency & Standard Test (PET/PST, qualifying only). Final merit rank is prepared strictly on marks obtained in Mains Paper 2.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Written Examination (Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-16",
+        "source_url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+        "source_label": "BPSSC Police Sub-Inspector Advt. No. 05/2025 Preliminary Exam Result & Scheme",
+        "papers": [
+          {
+            "paper_name": "General Knowledge & Current Affairs (सामान्य ज्ञान एवं समसामयिक मुद्दे)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.2 marks deducted per wrong answer (2 marks per correct answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 30% marks; candidates shortlisted in 1:20 ratio of vacancies (equipercentile normalization applied for multi-shift exams)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Main Written Examination (Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-03-16",
+        "source_url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+        "source_label": "BPSSC Police Sub-Inspector Advt. No. 05/2025 Exam Regulations",
+        "papers": [
+          {
+            "paper_name": "Paper 1: General Hindi (सामान्य हिन्दी)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.2 marks deducted per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory 30% marks; marks not counted in final merit; Paper 2 evaluated only if candidate passes Paper 1"
+          },
+          {
+            "paper_name": "Paper 2: General Studies, Science, Civics, Indian History, Geography, Maths & Mental Ability",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "0.2 marks deducted per wrong answer (2 marks per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit rank is computed strictly on marks obtained in Paper 2; candidates shortlisted for PET in 1:6 ratio"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET) & Physical Standards (PST)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-03-16",
+        "source_url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+        "source_label": "BPSSC Police Sub-Inspector Physical Standards Regulations",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test: Running (1.6 km in 6.5 min male / 1 km in 6 min female), High Jump (4 ft male / 3 ft female), Long Jump (12 ft male / 9 ft female), Shot Put (16 lb min 16 ft male / 12 lb min 10 ft female)",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": "Strictly qualifying; failure in any single event leads to disqualification",
+            "qualifying_only": true,
+            "qualifying_threshold": "PST: Height 165 cm (UR/BC), 160 cm (EBC/SC/ST), 155 cm (Female); Chest 81-86 cm"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Police Sub-Inspectors are appointed in Pay Matrix Level 6 (Basic ₹35,400 – ₹1,12,400). In addition to standard state pay and DA, personnel receive special police duty allowance, ration money, investigation grant, and uniform allowance.",
+    "pay_level": "Level 6 (Bihar 7th State Pay Matrix)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-03-16",
+    "pay_source_url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+    "pay_source_label": "BPSSC Police Sub-Inspector Advt. No. 05/2025 Preliminary Exam Result & Cadre Details",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 74000 },
+    "in_hand_range_estimate": { "min": 53000, "max": 63000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 with 58% DA (₹20,532), HRA (8% to 16% depending on posting: ₹2,832 to ₹5,664), monthly Ration Money Allowance (₹3,000), Medical Allowance (₹1,000), Special Police Duty Allowance, and Transport Allowance. In-hand reflects 10% NPS deduction on Basic+DA (₹5,593), professional tax, and police welfare deductions.",
+    "official_perks": [
+      "Government earmarked official residential quarters or HRA up to 16%",
+      "Monthly Ration Money Allowance and special investigation expense imprest",
+      "Annual uniform allowance and official kit equipment",
+      "Medical reimbursement under Bihar State Government Health Scheme",
+      "Official mobile phone allowance and CUG SIM facility",
+      "Contributory Pension Scheme (NPS) with 14% state contribution"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark statistics compiled from official BPSSC preliminary result declarations, final appointment notifications, and press releases for Advt. No. 05/2025, Advt. No. 02/2023, and Advt. No. 03/2020.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 1036702,
+        "vacancies": 1799,
+        "shortlisted_for_mains": 35980,
+        "selectivity_ratio": "1 in 576 (applicants per vacancy; 726,231 appeared in Prelims; 35,980 qualified in 1:20 ratio)",
+        "confidence": "verified",
+        "as_of": "2026-03-16",
+        "source_url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+        "source_label": "BPSSC Police Sub-Inspector Preliminary Result Notification (Advt. No. 05/2025, 1,799 vacancies including 614 women)"
+      },
+      {
+        "year": 2023,
+        "applicants": 660537,
+        "vacancies": 1275,
+        "shortlisted_for_mains": 25405,
+        "selectivity_ratio": "1 in 518 (applicants per vacancy; 536,754 appeared in Prelims; 7,623 qualified for PET)",
+        "confidence": "reported",
+        "as_of": "2024-07-09",
+        "source_url": "https://bpssc.bihar.gov.in",
+        "source_label": "BPSSC Police Sub-Inspector Final Selection List (Advt. No. 02/2023)"
+      },
+      {
+        "year": 2020,
+        "applicants": 608736,
+        "vacancies": 2213,
+        "shortlisted_for_mains": 47900,
+        "selectivity_ratio": "1 in 275 (applicants per vacancy; 15,231 qualified for PET; 2,213 final appointments)",
+        "confidence": "reported",
+        "as_of": "2022-07-14",
+        "source_url": "https://bpssc.bihar.gov.in",
+        "source_label": "BPSSC Advt. No. 03/2020 Final Results (1,998 SI + 215 Sergeant)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, preliminary results, and vacancy notices verified live on the Bihar Police Sub-ordinate Services Commission portal.",
+    "links": [
+      {
+        "label": "BPSSC Police Sub-Inspector Preliminary Exam Result Notice (Advt. No. 05/2025)",
+        "url": "https://bpssc.bihar.gov.in/Notices/Advt.%20No.%20052025%20PSI_prelims%20result%2016032026_upload.pdf",
+        "type": "other",
+        "cycle_label": "Advt 05/2025",
+        "confidence": "verified",
+        "as_of": "2026-03-16"
+      },
+      {
+        "label": "BPSSC Police Sub-Inspector Detailed Recruitment Advertisement (Advt. No. 05/2025)",
+        "url": "https://bpssc.bihar.gov.in/Notices/Advt.%2005-2025.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 05/2025",
+        "confidence": "verified",
+        "as_of": "2025-09-23"
+      },
+      {
+        "label": "BPSSC Assistant Sub-Inspector (Wireless Operation) Advertisement (Advt. No. 04/2026)",
+        "url": "https://bpssc.bihar.gov.in/Notices/Advt.-04-2026.pdf",
+        "type": "notification",
+        "cycle_label": "Advt 04/2026",
+        "confidence": "verified",
+        "as_of": "2026-04-15"
+      },
+      {
+        "label": "Bihar Police Sub-ordinate Services Commission (BPSSC) — Official Portal",
+        "url": "https://bpssc.bihar.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

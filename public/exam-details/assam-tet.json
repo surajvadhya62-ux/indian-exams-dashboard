@@ -1,0 +1,218 @@
+{
+  "id": "assam-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted by the Department of School Education, Government of Assam, in provision of Section 23 of the Right of Children to Free and Compulsory Education (RTE) Act, 2009, in strict conformity with National Council for Teacher Education (NCTE) norms. The examination consists of two objective papers: Paper-I for Lower Primary (Classes I to V) and Paper-II for Upper Primary (Classes VI to VIII). Each paper comprises 150 multiple choice questions (MCQs) for 150 marks with a duration of 150 minutes (2 hours 30 minutes). There is no negative marking. Qualifying standard is 60% aggregate (90 out of 150 marks) and minimum 60% (18 out of 30 marks) in Language-I for General category candidates; a 5% aggregate relaxation to 55% (83 out of 150 marks) and 10% relaxation in Language-I to 50% (15 out of 30 marks) is granted to SC, ST(P), ST(H), OBC, MOBC, and PwD candidates. TET qualification certificates carry lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Paper-I (Lower Primary Level — Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-01-06",
+        "source_url": "https://sebamis.sebaonline.org/spltet2026/uploads/STET_06012026_Advertisement.pdf",
+        "source_label": "Government of Assam Department of School Education Notification No. 740235/1562055",
+        "papers": [
+          {
+            "paper_name": "Child Development & Pedagogy (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Language I (Assamese / Bengali / Bodo / Hindi / Garo / Manipuri / Hmar / Nepali — any one)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 60% (18/30 marks) for General; minimum 50% (15/30 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Language II — English (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Mathematics (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Environmental Studies (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper-II (Upper Primary Level — Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-01-06",
+        "source_url": "https://sebamis.sebaonline.org/spltet2026/uploads/STET_06012026_Advertisement.pdf",
+        "source_label": "Government of Assam Department of School Education Notification No. 740235/1562055",
+        "papers": [
+          {
+            "paper_name": "Child Development & Pedagogy (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Language I (Assamese / Bengali / Bodo / Hindi / Garo / Manipuri / Hmar / Nepali — any one)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 60% (18/30 marks) for General; minimum 50% (15/30 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Language II — English (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          },
+          {
+            "paper_name": "Mathematics & Science (for Math/Science teachers) OR Social Science / Studies (for Social Studies teachers)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Part of 60% aggregate (90/150 marks) for General; 55% aggregate (83/150 marks) for SC/ST/OBC/MOBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics sourced from official examination result declarations by the Empowered Committee for TET, Samagra Shiksha Assam (SSA), and teacher recruitment advertisements by the Directorate of Elementary Education (DEE), Assam. In subsequent direct teacher recruitments, TET scores carry an 85% merit weightage.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 4500,
+        "shortlisted_for_mains": 4500,
+        "selectivity_ratio": "4,500 regular Assistant Teachers appointed across LP and UP schools under DEE Assam (final select list issued March 2026)",
+        "confidence": "verified",
+        "as_of": "2026-03-10",
+        "source_url": "https://dee.assam.gov.in/sites/default/files/swf_utility_folder/departments/dee_medhassu_in_oid_4/portlet/level_1/files/notice_regarding_final_result_4500_0.pdf",
+        "source_label": "DEE Assam Notice No. E-573006/697 regarding Final Results of 4,500 Teachers"
+      },
+      {
+        "year": 2024,
+        "vacancies": 5550,
+        "shortlisted_for_mains": 5550,
+        "selectivity_ratio": "5,550 vacancies advertised (3,800 Lower Primary + 1,750 Upper Primary) requiring ATET/CTET qualification",
+        "confidence": "verified",
+        "as_of": "2023-12-26",
+        "source_url": "https://dee.assam.gov.in/sites/default/files/swf_utility_folder/departments/dee_medhassu_in_oid_4/portlet/level_1/files/advertisement-a_3800_26_12_2023__0.pdf",
+        "source_label": "Directorate of Elementary Education Assam Advertisement-A (3,800 LP) and Advertisement-B (1,750 UP)"
+      },
+      {
+        "year": 2021,
+        "applicants": 374656,
+        "shortlisted_for_mains": 66907,
+        "selectivity_ratio": "66,907 qualified out of 3,74,656 appeared across LP & UP (Paper-I: 52,895 qualified / 2,18,464 appeared; Paper-II: 14,012 qualified / 1,56,192 appeared)",
+        "confidence": "reported",
+        "as_of": "2021-12-15",
+        "source_url": "https://ssa.assam.gov.in",
+        "source_label": "Empowered Committee TET Assam Official Result Press Note & Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, syllabi, previous question papers, and teacher recruitment orders verified live on SEBA, SSA, and DEE Assam portals.",
+    "links": [
+      {
+        "label": "Special Assam TET 2026 Official Advertisement (Advt No. 740235/1562055 PDF)",
+        "url": "https://sebamis.sebaonline.org/spltet2026/uploads/STET_06012026_Advertisement.pdf",
+        "type": "notification",
+        "cycle_label": "STET-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-06"
+      },
+      {
+        "label": "Special Assam TET 2026 Paper-I Child Development & Pedagogy Syllabus (PDF)",
+        "url": "https://sebamis.sebaonline.org/spltet2026/uploads/1_08012026_Paper_I_Child_Development_and_Pedagogy.pdf",
+        "type": "syllabus",
+        "cycle_label": "STET-2026",
+        "confidence": "verified",
+        "as_of": "2026-01-08"
+      },
+      {
+        "label": "Special Assam TET 2026 Paper-I Question Paper Set A (PYQ PDF)",
+        "url": "https://sebamis.sebaonline.org/spltet2026/Paper_I_LPT/Paper_I_LPT_SET_A.pdf",
+        "type": "pyq",
+        "cycle_label": "STET-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-25"
+      },
+      {
+        "label": "Special Assam TET 2026 Paper-II Question Paper Set A (PYQ PDF)",
+        "url": "https://sebamis.sebaonline.org/spltet2026/Paper_II_UPT/Paper_II_UPT_SET_A.pdf",
+        "type": "pyq",
+        "cycle_label": "STET-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-25"
+      },
+      {
+        "label": "Special Assam TET 2026 Final Answer Key Paper-I (PDF)",
+        "url": "https://sebamis.sebaonline.org/spltet2026/uploads/STET_25082026_Final_Answer_Key_LPT_Paper_I.pdf",
+        "type": "other",
+        "cycle_label": "STET-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-25"
+      },
+      {
+        "label": "DEE Assam Regular Assistant Teacher (LP Schools) 3,800 Vacancies Advertisement (PDF)",
+        "url": "https://dee.assam.gov.in/sites/default/files/swf_utility_folder/departments/dee_medhassu_in_oid_4/portlet/level_1/files/advertisement-a_3800_26_12_2023__0.pdf",
+        "type": "notification",
+        "cycle_label": "DEE-2024",
+        "confidence": "verified",
+        "as_of": "2023-12-26"
+      },
+      {
+        "label": "DEE Assam 4,500 Teachers Final District-wise Cut-off Marks (LPS PDF)",
+        "url": "https://dee.assam.gov.in/sites/default/files/swf_utility_folder/departments/dee_medhassu_in_oid_4/portlet/level_1/files/final_cut-off_lps_4500.pdf",
+        "type": "other",
+        "cycle_label": "DEE-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-10"
+      },
+      {
+        "label": "Samagra Shiksha Assam (SSA) Official State Portal",
+        "url": "https://ssa.assam.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Board of Secondary Education Assam (SEBA) Official Portal",
+        "url": "https://site.sebaonline.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

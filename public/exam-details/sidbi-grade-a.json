@@ -1,0 +1,227 @@
+{
+  "id": "sidbi-grade-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Small Industries Development Bank of India (SIDBI) provides an all-India financial institution cadre hierarchy with promotion avenues from Grade A up to the Executive Board.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Grade 'A')",
+        "pay_level": "Grade A (₹44,500 basic)",
+        "years": "Entry (approx. 2 yrs probation)",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Officers' Service Regulations and Direct Recruitment Advertisement"
+      },
+      {
+        "designation": "Manager (Grade 'B')",
+        "pay_level": "Grade B (₹55,200+ basic)",
+        "years": "approx. 3-6 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Officers' Service Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Grade 'C')",
+        "pay_level": "Grade C (₹74,450+ basic)",
+        "years": "approx. 6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Officers' Service Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Grade 'D')",
+        "pay_level": "Grade D (₹89,150+ basic)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Officers' Service Regulations"
+      },
+      {
+        "designation": "General Manager (GM, Grade 'E')",
+        "pay_level": "Grade E",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Officers' Service Regulations"
+      },
+      {
+        "designation": "Chief General Manager (CGM, Grade 'F')",
+        "pay_level": "Grade F",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Officers' Service Regulations"
+      },
+      {
+        "designation": "Executive Director (ED) / Deputy Managing Director (DMD) / CMD",
+        "pay_level": "Board Level (Central Government / FSIB Selection)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "Small Industries Development Bank of India Act, 1989"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Direct recruitment for Officers in Grade 'A' involves a single-window composite Online Examination (Objective Tests + Descriptive English Test) followed by Personal Interview for shortlisted candidates.",
+    "stages": [
+      {
+        "stage_name": "Online Examination (Objective and Descriptive)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Grade A Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Reasoning Aptitude",
+            "marks": 60,
+            "duration_minutes": 40,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 60,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness (Banking, Financial Sector & MSMEs)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Descriptive Test (English - 2 Essays on Financial/MSME Topics + 1 Business Letter)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated only if candidate qualifies in objective test"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Grade A Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Interview Board Assessment",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "50% (45% for SC/ST)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Officer Grade 'A' (Assistant Manager)",
+    "entry_basic_pay": 44500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-11-08",
+    "pay_source_url": "https://www.sidbi.in/en/careers",
+    "pay_source_label": "SIDBI Grade A Recruitment Notification (Scale: ₹44,500-89,150)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 90000, "max": 110000 },
+    "in_hand_range_estimate": { "min": 78000, "max": 94000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹44,500 in the scale ₹44,500 - 2,500(4) - 54,500 - 2,850(7) - 74,450 - EB - 2,850(4) - 85,850 - 3,300(1) - 89,150 (17 years). Total gross emoluments at metro postings reach approx. ₹1,00,000 to ₹1,10,000 per month inclusive of DA (58% review baseline), Special Allowance, Grade Allowance, Local Compensatory Allowance, and Bank Leased Quarters / HRA.",
+    "official_perks": [
+      "Bank Leased Residential Accommodation or House Rent Allowance (HRA)",
+      "Comprehensive Medical Coverage and 100% reimbursement of medical bills for self and dependents",
+      "Leave Travel Concession (LTC) for officer and eligible family members",
+      "Monthly Conveyance Expenses / Petrol Allowance according to entitlement",
+      "Newspaper Allowance, Book Grant, and Briefcase Grant",
+      "Subsidized Staff Housing Loan, Car Loan, and Personal Loan schemes",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition benchmarks reflect direct recruitment drives by SIDBI for development banking specialists.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 65000,
+        "vacancies": 50,
+        "shortlisted_for_mains": 1500,
+        "selectivity_ratio": "approx. 1 in 1300 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-11-08",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Grade A Recruitment Notification (50 vacancies in General Stream)"
+      },
+      {
+        "year": 2022,
+        "applicants": 95000,
+        "vacancies": 100,
+        "shortlisted_for_mains": 3000,
+        "selectivity_ratio": "approx. 1 in 950 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-03-04",
+        "source_url": "https://www.sidbi.in/en/careers",
+        "source_label": "SIDBI Grade A Recruitment Notification (100 vacancies in General Stream)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications and information handouts are issued on the SIDBI official website.",
+    "links": [
+      {
+        "label": "SIDBI Careers & Recruitment Portal",
+        "url": "https://www.sidbi.in/en/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Small Industries Development Bank of India Official Website",
+        "url": "https://www.sidbi.in/en/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "id": "ssc-cgl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "SSC Combined Graduate Level recruits Group 'B' (Gazetted & Non-Gazetted) and Group 'C' personnel across central ministries, departments, and constitutional bodies (CAG, CGA, Central Secretariat, CBDT, CBIC, Enforcement Directorate, CBI, IB). Career progression follows Central Secretariat Service (CSS), Central Excise/Income Tax Executive cadres, and Indian Audit & Accounts Department promotional hierarchies.",
+    "steps": [
+      {
+        "designation": "Inspector (CGST / IT / PO / Examiner) / Assistant Section Officer (ASO)",
+        "pay_level": "Level 7",
+        "years": "Entry level (Group B)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Superintendent / Section Officer (SO)",
+        "pay_level": "Level 8 / Level 9",
+        "years": "approx. 5-7 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Commissioner / Under Secretary (US)",
+        "pay_level": "Level 11",
+        "years": "approx. 10-13 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Commissioner / Deputy Secretary (DS)",
+        "pay_level": "Level 12",
+        "years": "approx. 16-18 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Joint Commissioner / Director",
+        "pay_level": "Level 13",
+        "years": "approx. 22-25 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Commissioner / Joint Secretary (SAG equivalent)",
+        "pay_level": "Level 14",
+        "years": "approx. 28+ yrs (subject to cadre review and vacancy)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "SSC CGL is conducted in two computer-based tiers. Tier I is a qualifying screening examination consisting of 100 questions (200 marks, 60 minutes) with 0.50 negative marking per wrong answer. Tier II determines the final merit ranking: Paper I (Compulsory for all posts, 390 merit marks across Mathematical Abilities, Reasoning, English, and General Awareness, plus qualifying Computer Knowledge and DEST modules), and Paper II (200 marks Statistics, exclusively for Junior Statistical Officer candidates). In Tier II, 1 mark is deducted for each incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Tier I: Computer Based Screening Examination (Qualifying)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Graduate Level Examination 2024, Scheme of Examination (Tier-I)",
+        "papers": [
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff determined by Commission per category"
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff determined by Commission per category"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff determined by Commission per category"
+          },
+          {
+            "paper_name": "English Comprehension",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff determined by Commission per category"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier II: Computer Based Examination (Merit Evaluation)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Graduate Level Examination 2024, Scheme of Examination (Tier-II)",
+        "papers": [
+          {
+            "paper_name": "Paper I - Section I: Mathematical Abilities (30 Qs) & Reasoning and General Intelligence (30 Qs)",
+            "marks": 180,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper I - Section II: English Language & Comprehension (45 Qs) & General Awareness (25 Qs)",
+            "marks": 210,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper I - Section III Module I: Computer Knowledge Test (20 Qs, Qualifying)",
+            "marks": 60,
+            "duration_minutes": 15,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "30% UR, 25% OBC/EWS, 20% SC/ST"
+          },
+          {
+            "paper_name": "Paper I - Section III Module II: Data Entry Speed Test (DEST) - 2000 key depressions",
+            "marks": 0,
+            "duration_minutes": 15,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Max permissible error: 20% UR, 25% OBC/EWS, 30% SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 7",
+    "entry_basic_pay": 44900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 75000,
+      "max": 95000
+    },
+    "in_hand_range_estimate": {
+      "min": 65000,
+      "max": 82000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 7 entry basic pay (₹44,900) representative of premier Group 'B' posts (Inspectors & Assistant Section Officers) with 58% DA. Other posts in SSC CGL span Pay Level 4 (₹25,500 basic), Level 5 (₹29,200 basic), Level 6 (₹35,400 basic), and Level 8 (₹47,600 basic for Assistant Audit/Accounts Officers).",
+    "official_perks": [
+      "Government residential quarters (GPRA) or House Rent Allowance (27% Class X / 18% Class Y / 9% Class Z)",
+      "Transport Allowance (₹3,600 + 58% DA in Class X/Y, ₹1,800 + DA in Class Z)",
+      "Central Government Health Scheme (CGHS) family medical coverage",
+      "Annual Leave Travel Concession (LTC) and Children Education Allowance (CEA)",
+      "Uniform and equipment allowance for executive field inspector posts"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SSC CGL is one of India's largest mass graduate recruitment drives with over 25-30 lakh registered applicants annually. The 2024 recruitment cycle announced approximately 17,727 vacancies across central departments, compared to 8,415 in 2023 and 36,012 in 2022.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 17727,
+        "confidence": "verified",
+        "as_of": "2024-06-24",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Graduate Level Examination 2024: Tentative vacancies announced as approx. 17,727."
+      },
+      {
+        "year": 2023,
+        "vacancies": 8415,
+        "confidence": "verified",
+        "as_of": "2023-11-18",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Final Vacancy Notice for CGLE 2023: 8,415 posts confirmed across ministries."
+      },
+      {
+        "year": 2022,
+        "vacancies": 36012,
+        "confidence": "reported",
+        "as_of": "2023-05-13",
+        "source_label": "Staff Selection Commission — CGLE 2022 Final Vacancies: 36,012 posts filled."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Staff Selection Commission web resources and portals for Combined Graduate Level Examination.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Portal",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SSC Tentative Vacancies & Official Notices Hub",
+        "url": "https://ssc.gov.in/for-candidates/tentative-vacancy",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

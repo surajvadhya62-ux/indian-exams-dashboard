@@ -1,0 +1,190 @@
+{
+  "id": "tsspdcl-junior-lineman",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Lineman (JLM) is the frontline technical operational cadre in Southern Power Distribution Company of Telangana Limited (TSSPDCL / TGSPDCL). Governed by Andhra Pradesh / Telangana State Electricity Board (APSEB/TSEB) Service Regulations and bipartite wage settlements, progression follows a time-bound and departmental trade testing hierarchy leading up to operational engineering grades.",
+    "steps": [
+      {
+        "designation": "Junior Lineman (JLM)",
+        "pay_level": "Revised Scale (₹24,340 - ₹39,405)",
+        "years": "0-3 yrs",
+        "confidence": "verified",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Notification No. 02/2023 dated 02.02.2023"
+      },
+      {
+        "designation": "Lineman (LM)",
+        "pay_level": "Power Utility Scale (₹28,320 - ₹45,455)",
+        "years": "3-8 yrs",
+        "confidence": "reported",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Technical Staff Service Regulations & Promotion Policy"
+      },
+      {
+        "designation": "Line Inspector (LI)",
+        "pay_level": "Power Utility Scale (₹34,165 - ₹55,100)",
+        "years": "8-14 yrs",
+        "confidence": "reported",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Distribution Operations Hierarchy"
+      },
+      {
+        "designation": "Sub-Engineer (Electrical)",
+        "pay_level": "Power Utility Scale (₹42,280 - ₹71,940)",
+        "years": "14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Subordinate Engineering Cadre Rules (Promotion upon acquiring Diploma/qualifying departmental exam)"
+      },
+      {
+        "designation": "Assistant Engineer (Electrical)",
+        "pay_level": "Power Utility Scale (₹64,295 - ₹99,345)",
+        "years": "20+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Engineering Cadre Service Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process for Junior Lineman in TSSPDCL comprises an 80-mark Written Examination (Computer Based Test / OMR) of 120 minutes duration containing 80 multiple choice questions (Section A: 65 questions on ITI Electrical/Wireman syllabus; Section B: 15 questions on General Knowledge), followed by up to 20 marks in-service experience weightage for eligible contract artisans/outsourced workers, and a mandatory qualifying 8-metre Pole Climbing Test conducted for shortlisted candidates in a 1:2 ratio.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written Examination (Objective MCQ)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Notification No. 02/2023, Section IV (Scheme of Examination)",
+        "papers": [
+          {
+            "paper_name": "Section A: Core ITI Electrical / Wireman Trade",
+            "marks": 65,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "OC/EWS 40%, BC 35%, SC/ST 30% aggregate across Written Test"
+          },
+          {
+            "paper_name": "Section B: General Knowledge & General Awareness",
+            "marks": 15,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "OC/EWS 40%, BC 35%, SC/ST 30% aggregate across Written Test"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Pole Climbing Test (Practical Skill Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Notification No. 02/2023, Section V (Procedure of Selection)",
+        "papers": [
+          {
+            "paper_name": "8-Metre Electric Pole Climbing Test",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying test (pass/fail). Candidates who fail to climb 8-metre pole are disqualified irrespective of written score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Linemen are remunerated under the Telangana Power Utilities (TSSPDCL) revised bipartite pay scale of ₹24,340 – ₹39,405 per month with entry basic pay of ₹24,340, revised upwards from the previous base of ₹22,955. Allowances include Dearness Allowance (DA), House Rent Allowance (HRA) ranging between 10% and 24% depending on location (GHMC/Hyderabad vs district towns), medical allowances, electricity concessions, and EPF/CPF superannuation benefits.",
+    "pay_level": "Revised Scale (₹24,340 - ₹39,405)",
+    "entry_basic_pay": 24340,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-02-02",
+    "pay_source_url": "https://www.tssouthernpower.com",
+    "pay_source_label": "TSSPDCL Notification No. 02/2023 dated 02.02.2023, Clause 1.4",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 41900,
+      "max": 46300
+    },
+    "in_hand_range_estimate": {
+      "min": 37100,
+      "max": 41400
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      "House Rent Allowance (10% to 24% depending on posting classification)",
+      "Dearness Allowance (indexed per power utility wage revision)",
+      "Concessional electricity consumption quota",
+      "EPF / Contributory Pension Scheme & Gratuity",
+      "Medical reimbursement & Group Personal Accident Insurance"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Direct recruitment vacancy and participation metrics for Junior Lineman posts across Southern Power Distribution Company of Telangana Limited.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 1553,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "1,553 vacancies (1,000 General Vacancies + 553 Limited Vacancies) notified across 15 operation circles in Telangana",
+        "confidence": "verified",
+        "as_of": "2023-02-02",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Direct Recruitment Notification No. 02/2023"
+      },
+      {
+        "year": 2019,
+        "applicants": null,
+        "vacancies": 2500,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "2,500 Junior Lineman posts notified under direct recruitment cycle",
+        "confidence": "reported",
+        "as_of": "2019-10-10",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL Direct Recruitment Notification No. 01/2019"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, syllabus documents, and portals issued by Southern Power Distribution Company of Telangana Limited.",
+    "links": [
+      {
+        "label": "TSSPDCL JLM Detailed Notification 02/2023 (Web Archive / Official Portal)",
+        "url": "https://www.tssouthernpower.com",
+        "type": "notification",
+        "cycle_label": "Recruitment 02/2023",
+        "confidence": "verified",
+        "as_of": "2023-02-02"
+      },
+      {
+        "label": "TSSPDCL Official Web Portal",
+        "url": "https://www.tssouthernpower.com",
+        "type": "other",
+        "cycle_label": "Corporate Portal",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

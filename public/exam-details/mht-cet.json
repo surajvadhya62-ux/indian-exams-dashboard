@@ -1,0 +1,151 @@
+{
+  "id": "mht-cet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "MHT-CET (Maharashtra Common Entrance Test) is conducted as an online Computer Based Test (CBT) by the State Common Entrance Test Cell, Maharashtra for admission to First Year of Engineering & Technology (B.E. / B.Tech), Pharmacy (B.Pharm / Pharm.D), and Agricultural Education Professional Degree Courses. The examination curriculum comprises 20% weightage from Maharashtra State Board Class XI syllabus and 80% weightage from Class XII syllabus. The test has no negative marking. Candidates opt for either PCM group (Paper I Mathematics + Paper II Physics & Chemistry, 200 marks, 180 minutes) or PCB group (Paper II Physics & Chemistry + Paper III Biology, 200 marks, 180 minutes) or both.",
+    "stages": [
+      {
+        "stage_name": "MHT-CET Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-04-11",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MHT-CET-2026-Information-Brochure-Updated-on-11.04.2026.pdf",
+        "source_label": "State CET Cell Maharashtra — Information Brochure MHT-CET 2026 (Updated on 11.04.2026) & Technical Education Syllabus 2026",
+        "papers": [
+          {
+            "paper_name": "Paper I: Mathematics (PCM Group)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: Physics & Chemistry (Common to PCM & PCB Groups)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: Biology — Botany & Zoology (PCB Group)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official registered and appeared candidate statistics verified directly from the State CET Cell Maharashtra press notifications and multi-year CET status reports.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 595872,
+        "vacancies": null,
+        "shortlisted_for_mains": 549700,
+        "selectivity_ratio": "PCM Group 1st Attempt: 4,54,069 appeared / 4,79,332 registered (94.73%); PCB Group 2nd Attempt: 95,631 appeared / 1,16,540 registered (82.06%)",
+        "confidence": "verified",
+        "as_of": "2026-06-16",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2026/06/Press-Note-MHT-CET-PCM-Group-1st-Attempt_-2026.pdf",
+        "source_label": "State CET Cell Maharashtra — Notification No. TED-1226/C.No.05/PCM Result/CET/2026/1399 dated 16/06/2026 (4,79,332 registered, 4,54,069 appeared, 26 candidates scored 100 percentile) and PCB Result Notification No. 1441 dated 18/06/2026"
+      },
+      {
+        "year": 2025,
+        "applicants": 765335,
+        "vacancies": null,
+        "shortlisted_for_mains": 705600,
+        "selectivity_ratio": "7,05,600 appeared out of 7,65,335 registered across PCM & PCB streams (PCM: 4,22,863 appeared / 4,64,263 registered; PCB: 2,82,737 appeared / 3,01,072 registered; 92.19% attendance)",
+        "confidence": "verified",
+        "as_of": "2025-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Status: A.Y. 2025-26 (Sr. No. 12: MHT-CET-PCB 3,01,072 reg / 2,82,737 pres; Sr. No. 13: MHT-CET-PCM 4,64,263 reg / 4,22,863 pres)"
+      },
+      {
+        "year": 2024,
+        "applicants": 725773,
+        "vacancies": null,
+        "shortlisted_for_mains": 675445,
+        "selectivity_ratio": "6,75,445 appeared out of 7,25,773 registered across PCM and PCB groups (93.07% attendance across engineering and pharmacy seats)",
+        "confidence": "verified",
+        "as_of": "2024-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Wise Status A.Y. 2024-25 (Sr. No. 15: MHT-CET 7,25,773 registered, 6,75,445 appeared)"
+      },
+      {
+        "year": 2023,
+        "applicants": 636804,
+        "vacancies": null,
+        "shortlisted_for_mains": 591135,
+        "selectivity_ratio": "5,91,135 appeared out of 6,36,804 registered (92.83% attendance rate)",
+        "confidence": "verified",
+        "as_of": "2023-06-30",
+        "source_url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "source_label": "State CET Cell Maharashtra — CET Wise Status A.Y. 2023-24 (Sr. No. 16: MHTCET 6,36,804 registered, 5,91,135 appeared)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official information brochures, syllabus notifications, and result press notes published by State Common Entrance Test Cell, Maharashtra.",
+    "links": [
+      {
+        "label": "MHT-CET 2026 — Engineering & Technology / Pharmacy Information Brochure",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/MHT-CET-2026-Information-Brochure-Updated-on-11.04.2026.pdf",
+        "type": "notification",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-04-11"
+      },
+      {
+        "label": "MHT-CET 2026 — Agricultural Education Courses Information Brochure",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/AGRI_MHT_CET_2026_IB.pdf",
+        "type": "notification",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-04-11"
+      },
+      {
+        "label": "MHT-CET 2026 — Technical Education Syllabus & Marking Scheme",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/Syllabus-Technical-2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2025-11-20"
+      },
+      {
+        "label": "MHT-CET 2026 PCM Group 1st Attempt — Official Result Declaration Press Note",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2026/06/Press-Note-MHT-CET-PCM-Group-1st-Attempt_-2026.pdf",
+        "type": "other",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-16"
+      },
+      {
+        "label": "MHT-CET 2026 PCB Group 2nd Attempt — Official Result Declaration Press Note",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2026/06/Press-Note-MHT-CET-PCB-Group-2nd-Attempt-2026.pdf",
+        "type": "other",
+        "cycle_label": "CET-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-18"
+      },
+      {
+        "label": "State CET Cell Official Multi-Year Examination Statistics Report",
+        "url": "https://cetcell.mahacet.org/wp-content/uploads/2023/12/CET_Stat2026.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-06-30"
+      }
+    ]
+  }
+}

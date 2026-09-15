@@ -1,0 +1,212 @@
+{
+  "id": "kpsc-fda",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Pay scales follow the Karnataka Civil Services (Revised Pay) Rules under the Karnataka State Pay Commission. Progression from First Division Assistant (Group C) to supervisory Gazetted cadre in Secretariat and Executive departments is based on seniority-cum-merit and departmental qualifying exams.",
+    "steps": [
+      {
+        "designation": "First Division Assistant (FDA) / Prathama Darje Sahayaka",
+        "pay_level": "Pay Scale ₹27,650 - ₹52,650",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/Syllabus%20Group-C%20Degree%20Level%20Posts%20KCSR%202021.pdf",
+        "source_label": "KPSC Notification and Syllabus for Group-C Degree Level Posts under KCSR Rules; Karnataka Civil Services Revised Pay Rules (Scale ₹27,650–₹52,650)"
+      },
+      {
+        "designation": "Section Officer / Office Superintendent",
+        "pay_level": "Pay Scale ₹43,100 - ₹83,900",
+        "years": "approx. 5-8 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "Karnataka State Government Secretariat Ministerial Service Cadre and Recruitment (C&R) Rules"
+      },
+      {
+        "designation": "Assistant Secretary / Under Secretary (Group B Gazetted / Group A Junior)",
+        "pay_level": "Pay Scale ₹52,650 - ₹97,100",
+        "years": "approx. 12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "Karnataka Secretariat Service Cadre & Recruitment Rules; Department of Personnel and Administrative Reforms (DPAR)"
+      },
+      {
+        "designation": "Deputy Secretary (State Secretariat / Directorate)",
+        "pay_level": "Pay Scale ₹67,550 - ₹1,04,600",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "Government of Karnataka DPAR Cadre Register"
+      },
+      {
+        "designation": "Joint Secretary / Additional Director (Secretariat)",
+        "pay_level": "Pay Scale ₹74,400 - ₹1,12,800",
+        "years": "approx. 25-30 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "Government of Karnataka DPAR Seniority & Promotion Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The KPSC First Division Assistant (FDA) recruitment examination comprises 3 papers: Paper 1 is a qualifying Kannada language paper (SSLC standard); Papers 2 and 3 are competitive objective papers evaluated to formulate the final merit and selection list.",
+    "stages": [
+      {
+        "stage_name": "Written Competitive Examination (Offline OMR / Descriptive)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/Syllabus%20Group-C%20Degree%20Level%20Posts%20KCSR%202021.pdf",
+        "source_label": "KPSC Group-C Degree Level Syllabus & Examination Scheme (KCSR Rules 2021)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: Compulsory Kannada (Kaddaya Kannada)",
+            "marks": 150,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35% (50 marks out of 150; exempted for candidates having studied Kannada in SSLC or higher)"
+          },
+          {
+            "paper_name": "Paper 2: General English OR General Kannada (Samanya Kannada / Samanya English)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 3: General Knowledge (Samanya Jnana — Constitution, Indian & Karnataka History, Geography, State Schemes)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification & Selection",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "KPSC Recruitment Procedures and Document Verification Guidelines",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Original Academic and Reservation Documents",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of 1:1 or 1:2 merit shortlist candidates"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per Karnataka Civil Services Revised Pay Rules under Karnataka State Pay Commission matrix (Scale ₹27,650–₹52,650; Entry Basic Pay ₹27,650). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru/Zone A at 27%, Class B at 18%, Class C at 9%).",
+    "pay_level": "Pay Scale ₹27,650 - ₹52,650 (Group C Degree Level)",
+    "entry_basic_pay": 27650,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-11",
+    "pay_source_url": "https://kpsc.kar.nic.in/Syllabus%20Group-C%20Degree%20Level%20Posts%20KCSR%202021.pdf",
+    "pay_source_label": "Karnataka Civil Services (Revised Pay) Rules and KPSC FDA Recruitment Specification",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 46000,
+      "max": 54000
+    },
+    "in_hand_range_estimate": {
+      "min": 41000,
+      "max": 48000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹27,650 at mandatory 58% DA (₹16,037) plus HRA ranging from 9% (₹2,489) in non-metro taluk centers to 27% (₹7,466) in Bengaluru Bruhat Mahanagara Palike (BBMP) areas, less statutory NPS (10% Basic+DA), Group Insurance (KGID), and professional tax deductions.",
+    "official_perks": [
+      "Karnataka Government Employees Insurance Scheme (KGID) cover",
+      "Medical reimbursement under Karnataka Government Servants Medical Attendance Rules",
+      "House Rent Allowance (HRA) indexed to posting city tier",
+      "Leave Travel Concession (LTC) within Karnataka and across India as per State Service rules",
+      "Contributory Pension Scheme (NPS) with full State Government matching contribution",
+      "Earned leave accumulation and encashment benefits as per KCSR"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment milestones compiled from official KPSC notifications, candidate application statistics, and final selection list press releases for FDA recruitment cycles across Karnataka State Government departments.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 325450,
+        "vacancies": 1114,
+        "shortlisted_for_mains": 325450,
+        "selectivity_ratio": "approx. 1 in 292 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-02-28",
+        "source_url": "https://kpsc.kar.nic.in/keyanswers.html",
+        "source_label": "KPSC Advt. No. PSC 01 RTB/2019-20: FDA Written Examination conducted in February 2021 across 1,114 vacancies (Residual Parent Cadre and Kalyana Karnataka / HK Cadre); 3.25 lakh registered applicants appeared."
+      },
+      {
+        "year": 2019,
+        "applicants": 210800,
+        "vacancies": 507,
+        "shortlisted_for_mains": 210800,
+        "selectivity_ratio": "approx. 1 in 416 (calculated: applicants ÷ total notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2019-06-30",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "KPSC First Division Assistant Recruitment Cycle 2017-19 (507 posts across state treasury, secretariat, and municipal departments)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, answer keys, and syllabus documents hosted on the Karnataka Public Service Commission (KPSC) state portal.",
+    "links": [
+      {
+        "label": "KPSC Group-C Degree Level Syllabus & Examination Scheme (KCSR Rules)",
+        "url": "https://kpsc.kar.nic.in/Syllabus%20Group-C%20Degree%20Level%20Posts%20KCSR%202021.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "KPSC Official Notifications & Recruitment Archive Portal",
+        "url": "https://kpsc.kar.nic.in/notification.html",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "KPSC Syllabus Repository Hub",
+        "url": "https://kpsc.kar.nic.in/syllabus.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "KPSC Key Answers & Question Papers Archive",
+        "url": "https://kpsc.kar.nic.in/keyanswers.html",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

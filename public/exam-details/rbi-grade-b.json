@@ -1,0 +1,260 @@
+{
+  "id": "rbi-grade-b",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Reserve Bank of India Grade B Officers (Direct Recruits) form the central leadership pipeline of India's monetary authority. Officers handle monetary policy transmission, banking supervision, financial stability, payment systems, and foreign exchange reserves management. Promotions through senior management and executive grades are governed by merit appraisal and interview boards.",
+    "steps": [
+      {
+        "designation": "Manager (Grade B Officer)",
+        "pay_level": "Grade B",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Services Board — Recruitment for the Post of Officers in Grade 'B' (Direct Recruit - DR)"
+      },
+      {
+        "designation": "Assistant General Manager (AGM — Grade C)",
+        "pay_level": "Grade C",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Staff Regulations & Promotion Policy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM — Grade D)",
+        "pay_level": "Grade D",
+        "years": "approx. 10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Staff Regulations & Promotion Policy"
+      },
+      {
+        "designation": "General Manager (GM — Grade E)",
+        "pay_level": "Grade E",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Staff Regulations & Promotion Policy"
+      },
+      {
+        "designation": "Chief General Manager (CGM — Grade F) / Department Head",
+        "pay_level": "Grade F",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Staff Regulations & Promotion Policy"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "Executive Grade",
+        "years": "approx. 28+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Staff Regulations & Senior Management Appointments"
+      },
+      {
+        "designation": "Deputy Governor (Statutory Appointment)",
+        "pay_level": "Apex Statutory",
+        "years": "Apex Selection",
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Act, 1934"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in three successive phases: Phase-I Online Examination (Objective screening), Phase-II Online Examination (Descriptive & Objective papers on Economic & Social Issues, English Writing Skills, and Finance & Management), followed by Phase-III Interview. Negative marking of 1/4th of marks assigned to the question applies in objective tests.",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Online Examination (Objective Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board — Officers in Grade 'B' (General) Examination Scheme",
+        "papers": [
+          {
+            "paper_name": "General Awareness",
+            "marks": 80,
+            "duration_minutes": 25,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 25,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 30,
+            "duration_minutes": 25,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          },
+          {
+            "paper_name": "Reasoning",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Sectional cut-off applicable"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II: Online Examination (Descriptive & Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board — Officers in Grade 'B' Phase-II Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper-I: Economic and Social Issues (50% Objective + 50% Descriptive)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-25% on objective portion",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-II: English (Writing Skills — Essay, Précis, Comprehension / Business Drafting)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-III: Finance and Management (50% Objective + 50% Descriptive)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-25% on objective portion",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board — Interview Guidelines & Final Aggregate Weightage",
+        "papers": [
+          {
+            "paper_name": "Board Interview (Aggregate merit: Phase-II 300 marks + Interview 75 marks = 375 marks)",
+            "marks": 75,
+            "duration_minutes": 35,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Grade B (Officer)",
+    "entry_basic_pay": 55200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-18",
+    "pay_source_url": "https://opportunities.rbi.org.in",
+    "pay_source_label": "RBI Officers' Pay Regulations (Scale: ₹55,200 - 2,850(9) - 80,850 - EB - 2,850(2) - 86,550 - 3,300(4) - 99,750)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 110000, "max": 140000 },
+    "in_hand_range_estimate": { "min": 92000, "max": 118000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Officers in Grade B draw starting basic pay of ₹55,200/month. Total initial monthly gross emoluments are approximately ₹1,16,684 (without bank accommodation) or ₹95,000+ (with accommodation). Allowances include Dearness Allowance, Local Compensatory Allowance, Special Allowance, Grade Allowance, and Family Allowance. Actual in-hand varies by city posting tier and NPS/tax deductions.",
+    "official_perks": [
+      "Bank residential quarters in prime metropolitan locations or House Rent Allowance (15% of basic)",
+      "Reimbursement of expenses for maintenance of vehicle for official purpose / petrol allowance",
+      "Newspaper, book grant, telephone charges, and brief case allowances",
+      "Dispensary facilities and comprehensive hospitalization insurance coverage for officer and family",
+      "Leave Fare Concession (LFC) once in two years for self and eligible dependents",
+      "Interest-free or concessional rate loans for housing, car, and education"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "RBI Grade B is widely regarded as the most competitive central banking recruitment in Asia, attracting top-tier engineering, economics, and finance graduates across India.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 268000,
+        "vacancies": 94,
+        "shortlisted_for_mains": 1410,
+        "selectivity_ratio": "approx. 1 in 2851 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-07-18",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board — Advt No. 1/2024-25, Officers in Grade 'B' (General: 66, DEPR: 21, DSIM: 7)"
+      },
+      {
+        "year": 2023,
+        "applicants": 322000,
+        "vacancies": 291,
+        "shortlisted_for_mains": 4365,
+        "selectivity_ratio": "approx. 1 in 1106 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-05-09",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board — Advt No. 1/2023-24, Officers in Grade 'B' (General: 222, DEPR: 38, DSIM: 31)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official vacancy notices, scheme outlines, previous cut-offs, and result declarations are published on the official RBI Opportunities website.",
+    "links": [
+      {
+        "label": "Reserve Bank of India Opportunities & Vacancies Hub",
+        "url": "https://opportunities.rbi.org.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "RBI Grade B Officers (Direct Recruit) Notification 2024",
+        "url": "https://opportunities.rbi.org.in/scripts/vacancies.aspx",
+        "type": "notification",
+        "cycle_label": "RBI-Grade-B-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "RBI Grade B Detailed Syllabus & Scheme of Examination",
+        "url": "https://opportunities.rbi.org.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

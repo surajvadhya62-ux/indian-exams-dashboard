@@ -1,0 +1,308 @@
+{
+  "id": "wbcs",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "West Bengal Civil Service (Executive) officers are recruited into Group 'A' of the state administration. Promotion avenues are governed by the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019) and IAS (Appointment by Promotion) Regulations.",
+    "steps": [
+      {
+        "designation": "Deputy Magistrate & Deputy Collector (DMDC) / Block Development Officer (BDO) / Assistant Secretary",
+        "pay_level": "ROPA 2019 Level 16 (₹56,100 – ₹1,44,300)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+        "source_label": "WBPSC WBCS Advertisement (Advt. No. 01/2023) and West Bengal Services (Revision of Pay and Allowances) Rules, 2019"
+      },
+      {
+        "designation": "Sub-Divisional Officer (SDO) / Senior Deputy Collector",
+        "pay_level": "ROPA 2019 Level 17 (₹67,300 – ₹1,73,200)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+        "source_label": "WBPSC WBCS Advertisement (Advt. No. 01/2023) and West Bengal Services (Revision of Pay and Allowances) Rules, 2019"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Joint Secretary to State Government",
+        "pay_level": "ROPA 2019 Level 19 / 21 (₹1,23,100 – ₹1,91,800)",
+        "years": "approx. 9-15 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+        "source_label": "WBPSC WBCS Advertisement (Advt. No. 01/2023) and West Bengal Services (Revision of Pay and Allowances) Rules, 2019"
+      },
+      {
+        "designation": "Special Secretary / Additional Secretary to State Government",
+        "pay_level": "ROPA 2019 Level 22 / 24 (₹1,38,600 – ₹2,11,800)",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+        "source_label": "WBPSC WBCS Advertisement (Advt. No. 01/2023) and West Bengal Services (Revision of Pay and Allowances) Rules, 2019"
+      },
+      {
+        "designation": "Indian Administrative Service (IAS) (West Bengal Cadre, State Civil Service Promotion Quota)",
+        "pay_level": "7th CPC Level 12 / 13 / 14",
+        "years": "Selection (approx. 18-25 yrs)",
+        "confidence": "verified",
+        "as_of": "2019-09-25",
+        "source_url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations & DoPT Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The examination is conducted in accordance with the official Scheme and Syllabus published by WBPSC (Advt. No. 08/2024 & Advt. No. 01/2023). The Preliminary Examination consists of 200 objective MCQs (200 marks) as a screening test. The Main Examination comprises 6 Compulsory papers of 200 marks each (four MCQ papers on OMR and two conventional written language papers) plus one optional subject (two conventional papers of 200 marks each) for Groups A & B. Personality Test carries 200 marks for Groups A & B, 150 marks for Group C, and 100 marks for Group D.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-11-14",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement",
+        "source_label": "WBPSC — Scheme and Syllabus for West Bengal Civil Service (Executive) etc. Examination, 2024 (Advt. No. 08/2024)",
+        "papers": [
+          {
+            "paper_name": "General Studies (200 MCQs covering English Composition [25m], General Science [25m], National & International Current Events [25m], History of India [25m], Geography of India with special reference to West Bengal [25m], Indian Polity and Economy [25m], Indian National Movement [25m], General Mental Ability [25m])",
+            "marks": 200,
+            "duration_minutes": 150,
+            "negative_marking": "Negative marking for each wrong answer as notified by the Commission",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Both Objective MCQ & Conventional Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-11-14",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement",
+        "source_label": "WBPSC — Scheme and Syllabus for West Bengal Civil Service (Executive) etc. Examination, 2024 (Advt. No. 08/2024)",
+        "papers": [
+          {
+            "paper_name": "Compulsory Paper I: Bengali / Hindi / Urdu / Nepali / Santali (Letter writing, Report drafting, Précis, Composition & Translation from English)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper II: English (Letter writing, Report drafting, Précis, Composition & Translation into English)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper III: General Studies-I (Indian History with special emphasis on National Movement & Geography of India with special reference to West Bengal)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Negative marking for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper IV: General Studies-II (Science & Scientific/Technological Advancement, Environment, General Knowledge & Current Affairs)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Negative marking for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper V: The Constitution of India & Indian Economy including role and functions of Reserve Bank of India",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Negative marking for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Compulsory Paper VI: Arithmetic & Test of Reasoning",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Negative marking for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Subject — Paper I (Conventional descriptive, for Group A & Group B candidates only)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Subject — Paper II (Conventional descriptive, for Group A & Group B candidates only)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-11-14",
+        "source_url": "https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement",
+        "source_label": "WBPSC — Scheme and Syllabus for West Bengal Civil Service (Executive) etc. Examination, 2024 (Advt. No. 08/2024)",
+        "papers": [
+          {
+            "paper_name": "Personality Test (Viva-Voce) — Board Interview at WBPSC Office, Kolkata (200 marks for Groups A & B; 150 marks for Group C; 100 marks for Group D)",
+            "marks": 200,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary package for Group A and Group B officers is fixed under Pay Level 16 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019). Starting basic pay is ₹56,100.",
+    "pay_level": "ROPA 2019 Pay Level 16 (₹56,100 – ₹1,44,300)",
+    "entry_basic_pay": 56100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-09-25",
+    "pay_source_url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+    "pay_source_label": "WBPSC WBCS Advertisement (Advt. No. 01/2023) and West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), Level 16",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 95000, "max": 108000 },
+    "in_hand_range_estimate": { "min": 84000, "max": 96000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on WBS (ROPA) 2019 Pay Level 16 entry basic pay of ₹56,100 with project constant 58% Dearness Allowance (effective 1 Jul 2025), House Rent Allowance (12% of basic pay under ROPA 2019), and Medical Allowance (MA ₹500/month). Deductions include West Bengal Professional Tax (PTax ₹200) and General Provident Fund / NPS contributions.",
+    "official_perks": [
+      "State government executive residential accommodation or 12% House Rent Allowance (HRA)",
+      "Official vehicle with driver provided for official field inspection and administrative duty",
+      "Coverage under the West Bengal Health Scheme (WBHS) for cashless medical treatment of officer and eligible dependents",
+      "Leave Travel Concession (LTC) as per West Bengal Service Rules",
+      "Subsidized mobile and telephone allowances for executive officers"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official statistics compiled directly from WBPSC announcements and merit lists. In the 2023 cycle (Advt. No. 01/2023), 244 total vacancies were reported (115 in Group A, 18 in Group B, 99 in Group C, 12 in Group D); 368 candidates qualified for Group A Personality Test, 57 for Group B, and 257 for Group C. In the 2022 cycle (Advt. No. 02/2022), 5,498 candidates qualified for the Main Examination, 128 candidates were recommended for Group C posts against 128 vacancies, and 713 candidates were called for the Group D Personality Test.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 244,
+        "shortlisted_for_mains": 682,
+        "confidence": "verified",
+        "as_of": "2026-02-27",
+        "source_url": "https://psc.wb.gov.in/Download?param1=An_20260227180512_Vacancy-WBCS-23-GR-C-AND-GR-D.pdf&param2=advertisement",
+        "source_label": "WBPSC — Vacancy Notification for WBCS 2023 (Corrigendum No. 272 PSC/Con. dated 27.02.2026) reporting 99 Group C and 12 Group D vacancies, alongside Announcements No. A-V and A-9 dated January 2026 confirming 115 Group A (115 recommended) and 18 Group B vacancies (15 recommended). Personality Test shortlists: Group A: 368 candidates (No. 151-PSC/CON), Group B: 57 candidates (No. 152-PSC/CON), Group C: 257 candidates (No. 263-PSC/CON)."
+      },
+      {
+        "year": 2022,
+        "shortlisted_for_mains": 5498,
+        "confidence": "verified",
+        "as_of": "2026-05-07",
+        "source_url": "https://psc.wb.gov.in/Download?param1=An_20260507162519_WBCS_22_Marks.pdf&param2=advertisement",
+        "source_label": "WBPSC — Compilation of Marks of Candidates Qualified for Main Examination in WBCS 2022 (Advt. No. 02/2022, published 07.05.2026), listing 5,498 qualified candidates. In Group C, 128 candidates were recommended against 128 reported vacancies (Announcement No. A-88-P.S.C.(A) dated 24.09.2025). In Group D, 713 candidates were called to Personality Test (No. 168 PSC/CON dated 16.10.2025)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All official downloads have been independently verified live with HTTP 200 status codes on psc.wb.gov.in during the research session.",
+    "links": [
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2024 — Scheme and Syllabus (Advt. No. 08/2024)",
+        "url": "https://psc.wb.gov.in/Download?param1=20251114121739_SCHEME_SYLLABUS-2024_Final.pdf&param2=advertisement",
+        "type": "syllabus",
+        "cycle_label": "WBCS-2024",
+        "confidence": "verified",
+        "as_of": "2025-11-14"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2024 — Preliminary Examination Final Answer Key",
+        "url": "https://psc.wb.gov.in/Download?param1=202608271742_FINAL_ANSWER_KEY_WBCS_2024_PRELI.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBCS-2024",
+        "confidence": "verified",
+        "as_of": "2026-08-27"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2023 — Detailed Advertisement (Advt. No. 01/2023)",
+        "url": "https://psc.wb.gov.in/Download?param1=Cur_20230225140434_Advt.pdf&param2=advertisement",
+        "type": "notification",
+        "cycle_label": "WBCS-2023",
+        "confidence": "verified",
+        "as_of": "2023-02-25"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2023 — Final Recommendations for Group A Services",
+        "url": "https://psc.wb.gov.in/Download?param1=20260127135319_PDF_0002_compressed.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBCS-2023",
+        "confidence": "verified",
+        "as_of": "2026-01-27"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2023 — Final Recommendations for Group B (WBPS)",
+        "url": "https://psc.wb.gov.in/Download?param1=20260127134502_PDF_0001.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBCS-2023",
+        "confidence": "verified",
+        "as_of": "2026-01-27"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2023 — Vacancy Corrigendum for Group C & Group D",
+        "url": "https://psc.wb.gov.in/Download?param1=An_20260227180512_Vacancy-WBCS-23-GR-C-AND-GR-D.pdf&param2=advertisement",
+        "type": "notification",
+        "cycle_label": "WBCS-2023",
+        "confidence": "verified",
+        "as_of": "2026-02-27"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2022 — Marks of Qualified Candidates (Prelims, Mains, PT)",
+        "url": "https://psc.wb.gov.in/Download?param1=An_20260507162519_WBCS_22_Marks.pdf&param2=advertisement",
+        "type": "other",
+        "cycle_label": "WBCS-2022",
+        "confidence": "verified",
+        "as_of": "2026-05-07"
+      },
+      {
+        "label": "West Bengal Civil Service (Executive) etc. Examination 2025 — Indicative Advertisement (Advt. No. 03/2025)",
+        "url": "https://psc.wb.gov.in/Download?param1=An_20251129151248_Indwbcs25.pdf&param2=advertisement",
+        "type": "notification",
+        "cycle_label": "WBCS-2025",
+        "confidence": "verified",
+        "as_of": "2025-11-29"
+      },
+      {
+        "label": "WBPSC Official Examination Scheme and Syllabus Hub",
+        "url": "https://psc.wb.gov.in/syllabus.jsp",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "WBPSC Official Website Home",
+        "url": "https://psc.wb.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "ssc-cpo",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The SSC CPO examination recruits Sub-Inspectors in Delhi Police (Executive) and Sub-Inspectors (General Duty) across the Central Armed Police Forces (BSF, CRPF, CISF, ITBP, and SSB). Officers lead platoons and police stations, advancing to company/circle commands (Inspector) and entering the Group 'A' Gazetted officer cadre (Assistant Commandant / ACP) through departmental promotion committees and service examinations.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector (Executive in Delhi Police / GD in CAPFs)",
+        "pay_level": "Level 6",
+        "years": "Entry level (basic academy training 1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-03-04",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Sub-Inspector in Delhi Police and Central Armed Police Forces Examination 2024"
+      },
+      {
+        "designation": "Inspector (Delhi Police / CAPF)",
+        "pay_level": "Level 7",
+        "years": "approx. 5-8 yrs (SHO / Company Second-in-Command)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      },
+      {
+        "designation": "Assistant Commissioner of Police (ACP) / Assistant Commandant (AC)",
+        "pay_level": "Level 10",
+        "years": "approx. 12-16 yrs (induction into Group A Gazetted Service / DANIPS / CAPF Cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      },
+      {
+        "designation": "Additional Deputy Commissioner of Police (Addl. DCP) / Deputy Commandant (DC)",
+        "pay_level": "Level 11",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      },
+      {
+        "designation": "Deputy Commissioner of Police (DCP) / Second-in-Command (2I/C)",
+        "pay_level": "Level 12",
+        "years": "approx. 24-28 yrs (Junior Administrative Grade)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection consists of four progressive stages: Paper I (Computer-Based Objective Examination, 200 marks); Physical Standard Test (PST) and Physical Endurance Test (PET) (qualifying nature); Paper II (English Language and Comprehension, 200 marks); and Detailed Medical Examination (DME). Final ranking is based on aggregate marks secured in Paper I and Paper II (400 marks total).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Paper I (Computer-Based Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-04",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Examination for Sub-Inspector in Delhi Police and CAPFs (Paper I)",
+        "papers": [
+          {
+            "paper_name": "Part A: General Intelligence and Reasoning",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category cut-off for shortlisting to PET/PST"
+          },
+          {
+            "paper_name": "Part B: General Knowledge and General Awareness",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category cut-off for shortlisting to PET/PST"
+          },
+          {
+            "paper_name": "Part C: Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category cut-off for shortlisting to PET/PST"
+          },
+          {
+            "paper_name": "Part D: English Comprehension",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Category cut-off for shortlisting to PET/PST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Standard Test (PST) & Physical Endurance Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-04",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Standards of PET/PST for Sub-Inspector in Delhi Police and CAPFs",
+        "papers": [
+          {
+            "paper_name": "Male PET: 100m sprint in 16s, 1.6 km run in 6.5 mins, Long Jump 3.65m, High Jump 1.2m, Shot Put (16 lbs) 4.5m",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Pass all 5 physical endurance events (3 chances for jumps/shot put)"
+          },
+          {
+            "paper_name": "Female PET: 100m sprint in 18s, 800m run in 4 mins, Long Jump 2.7m, High Jump 0.9m",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Pass all 4 physical endurance events (3 chances for jumps)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Paper II (English Language & Comprehension)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-04",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Examination for Sub-Inspector in Delhi Police and CAPFs (Paper II)",
+        "papers": [
+          {
+            "paper_name": "English Language & Comprehension (200 objective questions covering vocabulary, spelling, grammar, sentence structure, idioms, and comprehension passages)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined merit with Paper I"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Detailed Medical Examination (DME)",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2024-03-04",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "MHA Uniform Guidelines for Medical Examination in CAPFs & Delhi Police",
+        "papers": [
+          {
+            "paper_name": "Medical Standard: Minimum distant vision 6/6 and 6/9 of two eyes without glasses, no color blindness, free from knock knees, flat foot, or varicose veins",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Declared Medically Fit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors in Delhi Police and CAPFs are placed in Pay Level 6 (₹35,400 – ₹1,12,400) under the 7th Central Pay Commission. Delhi Police personnel receive Class 'X' metro allowances and 13-month salary compensation for extended duty hours; CAPF SIs receive Ration Money Allowance and operational Risk & Hardship Allowances in field locations.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-04",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 62000, "max": 78000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 69000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 basic pay of ₹35,400 with 58% DA (₹20,532), HRA (10% to 30% depending on city tier; Delhi Police receives 30%), Transport Allowance (₹1,800 to ₹3,600 + DA on TA), plus Ration Money Allowance (~₹3,965/month for CAPFs) or Extra Duty Allowance (1 month extra basic pay per year for Delhi Police), minus NPS contribution.",
+    "official_perks": [
+      "Ration Money Allowance (RMA) / free field mess facilities for CAPF personnel",
+      "One month extra basic pay (13-month salary benefit) for Delhi Police personnel for round-the-clock law-and-order duties",
+      "Special Risk & Hardship Allowance for operational deployment in sensitive border and LWE sectors",
+      "Annual Uniform Allowance (₹10,000 per annum)",
+      "Free medical care for self and dependents in Central Police / CGHS hospitals",
+      "Subsidized purchasing through Central Police Canteen (CPC) network"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Sub-Inspectors in Delhi Police and CAPFs (BSF, CRPF, CISF, ITBP, SSB) notified by the Staff Selection Commission.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 4187,
+        "confidence": "verified",
+        "as_of": "2024-03-04",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Sub-Inspector in Delhi Police and CAPFs Examination 2024 (Delhi Police: 186, CAPFs: 4,001; Total: 4,187 vacancies)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 1876,
+        "confidence": "verified",
+        "as_of": "2023-07-22",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Sub-Inspector in Delhi Police and CAPFs Examination 2023 (Delhi Police: 162, CAPFs: 1,714; Total: 1,876 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications and examination circulars published by SSC.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Website Portal",
+        "url": "https://ssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Notice of Sub-Inspector in Delhi Police and CAPFs Examination 2024 Archive",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "cycle_label": "SSC-CPO-2024",
+        "confidence": "verified",
+        "as_of": "2024-03-04"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

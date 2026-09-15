@@ -1,0 +1,121 @@
+{
+  "id": "gujcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Gujarat Common Entrance Test (GUJCET) is conducted by the Gujarat Secondary and Higher Secondary Education Board (GSEB) for admissions into Degree Engineering (B.E./B.Tech) and Degree/Diploma Pharmacy (B.Pharm/D.Pharm) across universities and colleges in Gujarat.",
+    "stages": [
+      {
+        "stage_name": "GUJCET Objective Examination (OMR Based)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-31",
+        "source_url": "http://website.gseb.org/",
+        "source_label": "Gujarat Secondary and Higher Secondary Education Board (GSEB) GUJCET Information Brochure & Scheme",
+        "papers": [
+          {
+            "paper_name": "Physics & Chemistry (Combined Paper: 40 questions Physics + 40 questions Chemistry)",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Group A — Engineering Candidates: 40 questions)",
+            "marks": 40,
+            "duration_minutes": 50,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Biology (Group B — Pharmacy Candidates: 40 questions)",
+            "marks": 40,
+            "duration_minutes": 50,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "ACPC Centralized Counseling & Seat Allotment",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-05-15",
+        "source_url": "https://acpc.gujarat.gov.in/",
+        "source_label": "Admission Committee for Professional Courses (ACPC) Gujarat Guidelines",
+        "papers": [
+          {
+            "paper_name": "Combined Merit List Preparation (50% weightage to Class 12 Board theory percentile + 50% weightage to GUJCET percentile)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit rank based allocation across government, grant-in-aid, and private engineering/pharmacy colleges"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and attendance figures reported by GSEB and the Admission Committee for Professional Courses (ACPC).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 137799,
+        "vacancies": null,
+        "shortlisted_for_mains": 131000,
+        "selectivity_ratio": "Statewide common entrance test for over 65,000 engineering and pharmacy seats in Gujarat",
+        "confidence": "reported",
+        "as_of": "2024-03-31",
+        "source_url": "http://website.gseb.org/",
+        "source_label": "GSEB official press release: 1,37,799 candidates registered and over 1,31,000 candidates appeared across 34 district examination centres on March 31, 2024."
+      },
+      {
+        "year": 2023,
+        "applicants": 130000,
+        "vacancies": null,
+        "shortlisted_for_mains": 126000,
+        "selectivity_ratio": "Statewide common entrance test for engineering and pharmacy seats in Gujarat",
+        "confidence": "reported",
+        "as_of": "2023-04-03",
+        "source_url": "http://website.gseb.org/",
+        "source_label": "GSEB official release: approx. 1.30 lakh candidates registered for GUJCET 2023 conducted on April 3, 2023."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals for exam conduction and centralized professional admissions in Gujarat.",
+    "links": [
+      {
+        "label": "GSEB — Gujarat Secondary and Higher Secondary Education Board Website",
+        "url": "http://website.gseb.org/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Admission Committee for Professional Courses (ACPC) Gujarat — Official Admissions Portal",
+        "url": "https://acpc.gujarat.gov.in/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "GUJCET Official Examination Portal (GSEB)",
+        "url": "https://gujcet.gseb.org/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

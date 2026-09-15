@@ -1,0 +1,206 @@
+{
+  "id": "mpesb-group-4",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Assistant Grade-3 / Steno-Typist (सहायक ग्रेड-3 / शीघ्रलेखक)",
+        "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+        "promotion_criteria": "Direct recruitment through MPESB Combined Group-4 Examination for candidates with 10+2, CPCT scorecard and recognized computer diploma.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MP Ministerial (Clerical and Stenographer) Service Rules"
+      },
+      {
+        "step_order": 2,
+        "designation": "Assistant Grade-2 (सहायक ग्रेड-2)",
+        "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+        "promotion_criteria": "Promotion on seniority-cum-fitness basis after 5 to 7 years of service as Assistant Grade-3, subject to passing departmental ministerial examinations and typing proficiency.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MP General Administration Department Ministerial Promotion Regulations"
+      },
+      {
+        "step_order": 3,
+        "designation": "Assistant Grade-1 / Assistant Section Officer (ASO / सहायक ग्रेड-1)",
+        "pay_level": "Level 7 (₹28,700 – ₹91,300)",
+        "promotion_criteria": "Promotion through Departmental Promotion Committee (DPC) after ~5 years as Assistant Grade-2 with unblemished APAR benchmarks.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MP Secretariat and Directorate Cadre Rules"
+      },
+      {
+        "step_order": 4,
+        "designation": "Section Officer (SO / अनुभाग अधिकारी)",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Seniority-cum-merit promotion from Assistant Grade-1 cadre after 5 to 7 years in section supervision and file management.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MP Mantralaya Service Rules"
+      },
+      {
+        "step_order": 5,
+        "designation": "Under Secretary (Avar Sachiv / अवर सचिव)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Induction into Gazetted State Secretariat Service via MPPSC DPC screening committee.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MP Secretariat Gazetted Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Single Stage Written Examination (CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Combined Test: General Knowledge, General Hindi, General English, General Mathematics, General Computer Knowledge, General Aptitude/Reasoning",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MPESB Group-4 Combined Recruitment Test Scheme"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Skill Test (Typing & Stenography Practical Test)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Computer Proficiency & Certification Test (CPCT) Scorecard Verification / Stenography Dictation & Transcription",
+            "paper_type": "practical",
+            "total_marks": 0,
+            "duration_minutes": 30,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MPESB Group-4 Skill Evaluation Standards"
+      },
+      {
+        "stage_order": 3,
+        "stage_name": "Document Verification & Department Allocation",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational Qualifications, CPCT Diploma and MP Domicile",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MP General Administration Department Verification Guidelines"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+    "entry_basic_pay": 19500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+    "pay_source_label": "MP Revision of Pay Rules, Level 4 (PB-1 ₹5,200–₹20,200 + GP ₹1,900)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33000,
+      "max": 36000
+    },
+    "in_hand_range_estimate": {
+      "min": 28000,
+      "max": 31000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance at 58% of basic pay (₹11,310 per month at entry basic).",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "House Rent Allowance (HRA)",
+        "perk_description": "HRA from 8% to 16% of basic pay according to town classification.",
+        "confidence": "reported",
+        "source_label": "MP Civil Services HRA Rules"
+      },
+      {
+        "perk_name": "Secretariat Special Allowance (for Mantralaya Postings)",
+        "perk_description": "Special clerical allowance for staff posted in Vallabh Bhawan (MP Secretariat).",
+        "confidence": "reported",
+        "source_label": "MP GAD Secretariat Allowance Circular"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Defined Contributory Pension Scheme with 14% matching employer contribution.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 3047,
+        "applicants": 52874,
+        "appeared": 33540,
+        "cut_off_marks": {
+          "assistant_grade_3_ur_open": 74.28,
+          "assistant_grade_3_obc_open": 71.85,
+          "assistant_grade_3_sc_open": 67.42,
+          "assistant_grade_3_st_open": 59.8
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "source_label": "MPESB Group-4 Assistant Grade-3 2024 Result Press Note dated 25/11/2025"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Group-4 Assistant Grade-3 2024 Result Press Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_Resultnote.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPESB Group-4 Assistant Grade-3 2024 Post-wise Cut-Off Marks",
+        "url": "https://esb.mp.gov.in/results/RESULT_24/Group4_AG3_Res24/Group4_AG3_2024_cutoff.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

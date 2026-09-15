@@ -1,0 +1,201 @@
+{
+  "id": "ssc-gd",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "SSC Constable (General Duty) recruits the frontline armed security personnel for the Central Armed Police Forces (BSF, CISF, CRPF, ITBP, SSB), Secretariat Security Force (SSF), and Assam Rifles under the Ministry of Home Affairs. Personnel advance through the subordinate combatised executive cadre.",
+    "steps": [
+      {
+        "designation": "Constable (General Duty)",
+        "pay_level": "Level 3",
+        "years": "Entry level (Group C Combatised)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian/CAPF Employees), Government of India"
+      },
+      {
+        "designation": "Head Constable (GD)",
+        "pay_level": "Level 4",
+        "years": "approx. 6-9 yrs (seniority or Limited Departmental Competitive Exam)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian/CAPF Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (ASI / GD)",
+        "pay_level": "Level 5",
+        "years": "approx. 14-17 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian/CAPF Employees), Government of India"
+      },
+      {
+        "designation": "Sub-Inspector (SI / GD)",
+        "pay_level": "Level 6",
+        "years": "approx. 20-24 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian/CAPF Employees), Government of India"
+      },
+      {
+        "designation": "Inspector (GD)",
+        "pay_level": "Level 7",
+        "years": "approx. 27+ yrs (Subordinate Officer apex)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian/CAPF Employees), Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "SSC GD Constable recruitment consists of a Computer Based Examination (CBE, 80 questions, 160 marks, 60 minutes, 0.25 negative marking per incorrect answer), followed by mandatory qualifying Physical Standard Test (PST), Physical Efficiency Test (PET: 5 km run in 24 min for male, 1.6 km in 8.5 min for female), and Detailed Medical Examination (DME/RME).",
+    "stages": [
+      {
+        "stage_name": "Computer Based Examination (CBE) — Merit Stage",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-05",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Constable (GD) in CAPFs, SSF and Rifleman (GD) in Assam Rifles Examination 2025, Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Part A: General Intelligence and Reasoning",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B: General Knowledge and General Awareness",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C: Elementary Mathematics",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part D: English / Hindi",
+            "marks": 40,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Efficiency Test (PET) & Physical Standard Test (PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-05",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Constable (GD) Examination 2025, PST & PET Regulations",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Race & Standard Measurements",
+            "marks": 0,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Male: 5 km run in 24 mins, Height 170 cm, Chest 80 cm (+5 cm expansion); Female: 1.6 km run in 8.5 mins, Height 157 cm"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian/CAPF Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 52000
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 45000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 3 entry basic pay (₹21,700) with 58% DA (₹12,586). Troops deployed in high-risk operational sectors (J&K border, North East counter-insurgency, and Left Wing Extremism theatres) receive Risk and Hardship Allowance ranging from ₹6,000 up to ₹17,300 per month.",
+    "official_perks": [
+      "Subsidised CAPF family residential accommodation or HRA",
+      "Central Police Canteen (CLPK) grocery and consumer goods concessions",
+      "Risk & Hardship Allowance based on operational posting matrix",
+      "Free ration money allowance / mess allowance (approx. ₹3,900/month)",
+      "Uniform washing/maintenance allowance and defined NPS retirement coverage"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SSC Constable (GD) is the largest uniformed security recruitment drive in the nation, drawing 40-50 lakh candidates. The 2025 examination cycle notified 39,481 vacancies across BSF, CISF, CRPF, SSB, ITBP, AR, and SSF. The 2024 cycle concluded with 46,617 vacancies, while 2022 filled 50,187 vacancies.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 39481,
+        "confidence": "verified",
+        "as_of": "2024-09-05",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Constable (GD) Examination 2025: 39,481 vacancies advertised across CAPFs."
+      },
+      {
+        "year": 2024,
+        "vacancies": 46617,
+        "confidence": "verified",
+        "as_of": "2024-06-13",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Constable (GD) 2024 Revised Vacancy List: 46,617 posts confirmed."
+      },
+      {
+        "year": 2022,
+        "vacancies": 50187,
+        "confidence": "reported",
+        "as_of": "2023-03-24",
+        "source_label": "Staff Selection Commission — Final Vacancies for Constable (GD) 2022: 50,187 posts."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Staff Selection Commission portals and notices for GD Constable Examination.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Portal",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SSC Tentative Vacancies & Official Notices Hub",
+        "url": "https://ssc.gov.in/for-candidates/tentative-vacancy",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

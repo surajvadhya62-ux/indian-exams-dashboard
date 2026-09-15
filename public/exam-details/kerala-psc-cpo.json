@@ -1,0 +1,264 @@
+{
+  "id": "kerala-psc-cpo",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Civil Police Officers (CPO) / Police Constables are recruited battalion-wise (Armed Police Battalions: SAP, KAP I, KAP II, KAP III, KAP IV, KAP V, MSP) and in District Armed Reserve / Local Police units under Kerala Police. Officers advance from Civil Police Officer to Senior Civil Police Officer (Head Constable), Assistant Sub-Inspector, Sub-Inspector, and Inspector of Police based on seniority, qualifying service, and departmental promotion tests.",
+    "steps": [
+      {
+        "designation": "Civil Police Officer (CPO) / Police Constable (Battalion / District Police)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹31,100 - ₹66,800)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Gazette Notification (Category No. 593/2023: Civil Police Officer, Police Department) & Kerala Police Act 2011"
+      },
+      {
+        "designation": "Senior Civil Police Officer (SCPO) / Head Constable",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹39,300 - ₹83,000)",
+        "years": "approx. 7-10 yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-30",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala Police Subordinate Service Rules & Home Department, Government of Kerala"
+      },
+      {
+        "designation": "Assistant Sub-Inspector of Police (ASI)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹43,400 - ₹91,200)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-30",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala Police Executive Subordinate Service Rules"
+      },
+      {
+        "designation": "Sub-Inspector of Police (SI / Station House Officer)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹45,600 - ₹95,600)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-30",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala Police Service Promotion Rosters & Police Headquarters, Thiruvananthapuram"
+      },
+      {
+        "designation": "Inspector of Police (IP / Circle Inspector)",
+        "pay_level": "Kerala 11th Pay Revision Scale (₹55,200 - ₹1,15,300)",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-30",
+        "source_url": "https://keralapolice.gov.in",
+        "source_label": "Kerala Police Department Gazetted Cadre Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection to Civil Police Officer (Police Constable) involves four sequential stages: Written OMR Examination (Objective type carrying 100 marks), Physical Measurement Test (PMT), Physical Efficiency Test (PET - National Physical Efficiency 1-star standard), and Medical Examination. Ranked lists are prepared battalion-wise based strictly on marks obtained in the Written OMR Examination among candidates who qualify the physical and medical stages.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Written OMR Examination (Objective Type)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://www.keralapsc.gov.in/syllabus",
+        "source_label": "Kerala PSC Civil Police Officer Examination Scheme & Syllabus (Advt. No. 593/2023)",
+        "papers": [
+          {
+            "paper_name": "General Knowledge, Renaissance in Kerala & Current Affairs",
+            "marks": 50,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark (one-third mark deducted for each incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Science (Physics, Chemistry & Life Sciences)",
+            "marks": 15,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Simple Arithmetic, Mental Ability & Reasoning",
+            "marks": 20,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Special Topics (Kerala Police Act, POCSO Act, Cyber Crimes & Women Safety)",
+            "marks": 15,
+            "duration_minutes": 75,
+            "negative_marking": "0.33 mark deducted for each wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Measurement Test (PMT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Civil Police Officer Physical Standards Specification",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement (Male: Height min 168 cm [160 cm for SC/ST], Chest min 81 cm with 5 cm expansion [76 cm with 5 cm expansion for SC/ST]; Female: Height min 157 cm [150 cm for SC/ST])",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard; candidate must fulfill prescribed minimum height and chest measurements"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET — National 1-Star Standard)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC PET Standards for Police Constable Recruitment",
+        "papers": [
+          {
+            "paper_name": "PET Events (Male must qualify in min 5 of 8 events: 100m in 14.0s, High Jump 132.2cm, Long Jump 457.2cm, Shot Put 609.6cm, Cricket Ball Throw 6096cm, Rope Climbing 365.8cm, Pull-ups 8 times, 1500m in 5m 44s)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Must qualify in at least 5 out of 8 prescribed athletic events"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Medical Examination & Document Verification",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala Police Medical Manual & Kerala PSC Verification Guidelines",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness & Vision Assessment (Distant vision 6/6 each eye, near vision 0.5, absence of colour blindness, squint or morbid conditions)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fitness certificate from authorized Government Medical Board"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Civil Police Officers in Kerala Police are paid under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) in the pay scale of ₹31,100 - ₹66,800 with entry basic pay of ₹31,100.",
+    "pay_level": "Kerala 11th Pay Revision Scale (₹31,100 - ₹66,800)",
+    "entry_basic_pay": 31100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-12-30",
+    "pay_source_url": "https://www.keralapsc.gov.in/notifications",
+    "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 593/2023 & Kerala Police Headquarters Pay Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 51500, "max": 55000 },
+    "in_hand_range_estimate": { "min": 45000, "max": 49000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹31,100 with standard 58% DA (effective 1 Jul 2025, ₹18,038) plus House Rent Allowance (Class A ₹3,110, Class B ₹2,100, Class C ₹1,500), Police Uniform Allowance (₹1,000/month), and Risk/Washing allowance; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹4,914), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), Police Welfare Fund, and Professional Tax.",
+    "official_perks": [
+      "Government police barracks accommodation or designated police quarters in armed battalions and district camps",
+      "Annual uniform maintenance allowance and kit supply by Kerala Police Department",
+      "Comprehensive medical coverage under the Kerala Government MEDISEP scheme",
+      "Risk allowance and special duty compensatory allowances during VIP security, law & order, and festival duties",
+      "Subsidized police canteen facilities (Kerala Police Subsidized Canteen - KPSC/CAPF pattern)",
+      "Police Department Welfare and Benevolent Fund coverage for personnel and families"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, written test qualification, PET qualification, and advice statistics for Civil Police Officer recruitment across Armed Police Battalions (SAP, MSP, KAP I–V) sourced from Kerala PSC releases and police recruitment reports.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 650000,
+        "vacancies": 4200,
+        "shortlisted_for_mains": 45000,
+        "selectivity_ratio": "approx. 1 in 155 (calculated: 6.5 lakh applications across 7 Armed Police Battalions ÷ ~4,200 anticipated advice; Category No. 593/2023; ~45,000 shortlisted for PMT/PET)",
+        "confidence": "reported",
+        "as_of": "2024-06-15",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC CPO Advt. No. 593/2023 & Armed Police Battalion Selection Statistics"
+      },
+      {
+        "year": 2019,
+        "applicants": 720000,
+        "vacancies": 4850,
+        "shortlisted_for_mains": 52000,
+        "selectivity_ratio": "approx. 1 in 148 (calculated: 7.2 lakh applicants for Cat. No. 530/2019 ÷ 4,850 final appointments made across battalion ranked lists; 18,500 cleared PET)",
+        "confidence": "verified",
+        "as_of": "2021-12-15",
+        "source_url": "https://www.keralapsc.gov.in/notifications",
+        "source_label": "Kerala PSC Civil Police Officer (Cat. No. 530/2019) Battalion Ranked Lists brought into force December 2021"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination syllabi, and physical standards guidelines for Civil Police Officer recruitment published by Kerala PSC and Kerala Police.",
+    "links": [
+      {
+        "label": "Kerala PSC Official Portal",
+        "url": "https://www.keralapsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala Police Official Departmental Portal",
+        "url": "https://keralapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Thulasi Application Portal",
+        "url": "https://thulasi.psc.kerala.gov.in/thulasi/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Notifications Archive",
+        "url": "https://www.keralapsc.gov.in/notifications",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Civil Police Officer Syllabus Archive",
+        "url": "https://www.keralapsc.gov.in/syllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Kerala PSC Previous Question Papers Archive",
+        "url": "https://www.keralapsc.gov.in/previous-question-papers",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "sbi-so-credit-analyst",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "State Bank of India Specialist Cadre Officers (SCO) enter as lateral domain specialists in Corporate Credit, SME Credit, and Credit Risk Management. Officers advance through Middle Management, Senior Management, and Top Executive Grades subject to minimum residency, performance appraisal, and promotion committee review.",
+    "steps": [
+      {
+        "designation": "Manager (Credit Analyst) / Senior Manager",
+        "pay_level": "MMGS-III",
+        "years": "Entry level (probation 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "12th Bipartite Settlement & Joint Note on Officer Salaries, Indian Banks' Association (IBA) / State Bank of India"
+      },
+      {
+        "designation": "Chief Manager (Credit & Risk)",
+        "pay_level": "SMGS-IV",
+        "years": "approx. 4-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "State Bank of India Officer Service Rules & Promotion Policy"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "SMGS-V",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "State Bank of India Officer Service Rules & Promotion Policy"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "TEGS-VI",
+        "years": "approx. 13-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "State Bank of India Officer Service Rules & Promotion Policy"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "TEGS-VII",
+        "years": "approx. 19-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "State Bank of India Officer Service Rules & Promotion Policy"
+      },
+      {
+        "designation": "Chief General Manager (CGM) / Circle Head",
+        "pay_level": "TEGS-VIII",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "State Bank of India Officer Service Rules & Promotion Policy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for SBI Specialist Cadre Officers (Credit Analyst) is conducted through an Online Written Test followed by a Personal Interview. In cycles where applicant volumes are limited relative to notified posts, SBI exercises its statutory prerogative to shortlist candidates directly based on qualifications and post-qualification experience for the Interview.",
+    "stages": [
+      {
+        "stage_name": "Online Written Test — General Aptitude (Qualifying)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "SBI Central Recruitment & Promotion Department (CRPD) — Specialist Cadre Recruitment Notice",
+        "papers": [
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying sectional cut-off fixed by the Bank"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 35,
+            "duration_minutes": 45,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying sectional cut-off fixed by the Bank"
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 35,
+            "duration_minutes": 35,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum qualifying sectional cut-off fixed by the Bank"
+          }
+        ]
+      },
+      {
+        "stage_name": "Online Written Test — Professional Knowledge (Scored for Merit)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "SBI CRPD — Specialist Cadre Recruitment Notice, Professional Knowledge Scheme",
+        "papers": [
+          {
+            "paper_name": "Professional Knowledge (Financial Analysis, Credit Appraisal, Working Capital & Balance Sheet Analysis, RBI Prudential Norms)",
+            "marks": 100,
+            "duration_minutes": 45,
+            "negative_marking": "-25% (0.25 marks per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview & Interaction",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "SBI CRPD — Selection Guidelines for Specialist Cadre Officers",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Credit Appraisal, NPA Resolution & Financial Domain Evaluation)",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying marks: 40% for General/EWS, 35% for reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "MMGS-III",
+    "entry_basic_pay": 85920,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://bank.sbi/careers",
+    "pay_source_label": "12th Bipartite Settlement & Joint Note on Bank Officer Scales (IBA & SBI), Middle Management Grade Scale III (₹85,920 - 2,680/5 - 99,320 - 2,980/2 - 1,05,280)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 138000, "max": 172000 },
+    "in_hand_range_estimate": { "min": 115000, "max": 142000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay is set per the 12th Bipartite Settlement (Scale III entry basic ₹85,920). Dearness Allowance is adjusted quarterly per CPI-IW; in addition, bank officers receive Special Allowance (with DA thereon), Learning Allowance, City Compensatory Allowance, and Bank leased accommodation (or HRA). Deductions include Contributory Pension Scheme (NPS) and income tax.",
+    "official_perks": [
+      "Bank leased residential accommodation or House Rent Allowance across major commercial centers",
+      "Special Allowance and Learning Allowance per Bipartite settlement",
+      "Concessional housing loan, car loan, and personal loans as per SBI Staff Rules",
+      "Comprehensive medical insurance and cashless treatment in empanelled multi-specialty hospitals",
+      "Leave Travel Concession (LTC) / Home Travel Concession with leave encashment benefits",
+      "Monthly reimbursements for official conveyance / petrol, telephone / broadband, and newspapers"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SBI Specialist Cadre Officer recruitments require mandatory professional credentials (Chartered Accountant, MBA Finance, CFA, or FRM) along with documented post-qualification experience in corporate credit appraisal and risk evaluation, resulting in targeted applicant pools compared to general banking exams.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 18500,
+        "vacancies": 85,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 218 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-06-30",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "SBI CRPD — Advertisement No. CRPD/SCO/2024-25/08, Specialized Credit & Risk Cadre"
+      },
+      {
+        "year": 2023,
+        "applicants": 16200,
+        "vacancies": 70,
+        "shortlisted_for_mains": 380,
+        "selectivity_ratio": "approx. 1 in 231 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-09-15",
+        "source_url": "https://bank.sbi/careers",
+        "source_label": "SBI CRPD — Advertisement No. CRPD/SCO/2023-24/14, Specialized Credit & Risk Cadre"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Specialist Cadre notifications and result lists are published on the official State Bank of India career portal under 'Current Openings'.",
+    "links": [
+      {
+        "label": "SBI Careers — Official Portal & Current Openings",
+        "url": "https://bank.sbi/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SBI SCO Recruitment Notice (Credit Analyst Cadre)",
+        "url": "https://bank.sbi/web/careers/current-openings",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SBI Specialist Cadre Officers Selection Guidelines & Syllabus",
+        "url": "https://bank.sbi/web/careers",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

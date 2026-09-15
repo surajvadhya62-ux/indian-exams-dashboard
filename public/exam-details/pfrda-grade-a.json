@@ -1,0 +1,231 @@
+{
+  "id": "pfrda-grade-a",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Pension Fund Regulatory and Development Authority (PFRDA) is the statutory regulator for the Indian pension sector, structured on the financial regulators' cadre hierarchy (parallel to SEBI and RBI) with progression from Grade A to executive and statutory board appointments.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Grade 'A')",
+        "pay_level": "Grade A (₹62,500 basic)",
+        "years": "Entry (approx. 1 yr probation)",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA (Salary and Allowances) Regulations and Grade A Recruitment Notification"
+      },
+      {
+        "designation": "Manager (Grade 'B')",
+        "pay_level": "Grade B (₹76,900+ basic)",
+        "years": "approx. 3-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Staff Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Grade 'C')",
+        "pay_level": "Grade C (₹1,05,250+ basic)",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Staff Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Grade 'D')",
+        "pay_level": "Grade D (₹1,21,450+ basic)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Staff Regulations"
+      },
+      {
+        "designation": "General Manager (GM, Grade 'E')",
+        "pay_level": "Grade E (₹1,26,100+ basic)",
+        "years": "approx. 14-19 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Staff Regulations"
+      },
+      {
+        "designation": "Chief General Manager (CGM, Grade 'F')",
+        "pay_level": "Grade F",
+        "years": "approx. 19-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Staff Regulations"
+      },
+      {
+        "designation": "Executive Director (ED)",
+        "pay_level": "Executive Management Scale",
+        "years": "approx. 24+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Act, 2013"
+      },
+      {
+        "designation": "Whole-Time Member (WTM) / Chairperson",
+        "pay_level": "Statutory Apex Scale (Appointments Committee of the Cabinet)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Act, 2013 and Ministry of Finance Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process for PFRDA Grade 'A' Assistant Managers consists of Phase I (Online Screening Test), Phase II (Online Test with Descriptive English and Professional Knowledge), and Phase III (Personal Interview).",
+    "stages": [
+      {
+        "stage_name": "Phase I: Online Screening Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Grade A Official Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Paper 1: GA (Financial Sector), English, Quantitative Aptitude & Reasoning",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "30% sectional cut-off"
+          },
+          {
+            "paper_name": "Paper 2: Commerce, Accountancy, Finance, Management, Costing, Companies Act, Economics & Pension Sector",
+            "marks": 100,
+            "duration_minutes": 40,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "40% sectional cut-off and 40% aggregate"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Online Main Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Grade A Official Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Paper 1: English (Descriptive Test - Essay, Precis & Comprehension)",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "30% cut-off (1/3rd weightage)"
+          },
+          {
+            "paper_name": "Paper 2: Specialized Professional Knowledge (Commerce, Finance, Economics & Pension Sector)",
+            "marks": 100,
+            "duration_minutes": 40,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": "40% cut-off and 50% aggregate (2/3rd weightage)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Grade A Official Recruitment Notification",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Authority Selection Board)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit: Phase II (85% weightage) + Interview (15% weightage)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Grade 'A' Assistant Manager",
+    "entry_basic_pay": 62500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-08-01",
+    "pay_source_url": "https://www.pfrda.org.in",
+    "pay_source_label": "PFRDA Grade A Recruitment Notification (Scale: ₹62,500-1,26,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 175000, "max": 215000 },
+    "in_hand_range_estimate": { "min": 145000, "max": 180000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹62,500 in the scale ₹62,500 - 3,600(4) - 76,900 - 4,050(7) - 1,05,250 - EB - 4,050(4) - 1,21,450 - 4,650(1) - 1,26,100 (17 years). Total gross emoluments at New Delhi reach approx. ₹2,05,000 per month inclusive of DA (58% review baseline), Grade Allowance, Special Allowance, Housing Allowance / leased accommodation, Learning Allowance, and employer contribution to National Pension System.",
+    "official_perks": [
+      "Authority Leased Residential Accommodation or Housing Allowance",
+      "Medical Expenses reimbursement for self and dependent family (hospitalization and OPD coverage)",
+      "Leave Fare Concession (LFC) biennial block entitlement",
+      "Education Allowance and Knowledge Updation Allowance",
+      "Monthly Conveyance Expense Reimbursement and Staff Furnishing Scheme",
+      "Computer / Laptop / Mobile Handset purchase scheme and monthly telephone reimbursement",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition benchmarks reflect statutory regulatory recruitment by PFRDA at its New Delhi headquarters.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 28000,
+        "vacancies": 16,
+        "shortlisted_for_mains": 160,
+        "selectivity_ratio": "approx. 1 in 1750 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-08-01",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Grade A Recruitment Notification 2024 (16 vacancies across General, Finance and Legal streams)"
+      },
+      {
+        "year": 2022,
+        "applicants": 34000,
+        "vacancies": 22,
+        "shortlisted_for_mains": 220,
+        "selectivity_ratio": "approx. 1 in 1545 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-09-09",
+        "source_url": "https://www.pfrda.org.in",
+        "source_label": "PFRDA Grade A Recruitment Notification 2022 (22 vacancies across streams)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination handouts and shortlisted candidate rosters are issued on the PFRDA website.",
+    "links": [
+      {
+        "label": "PFRDA Official Portal — Careers and Notifications",
+        "url": "https://www.pfrda.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "id": "haryana-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Sub-Inspectors (SI) in Haryana Police are recruited directly for both Male and Female cadres as investigation officers and station house officers. Promotions through the executive police cadre are governed by the Punjab Police Rules (1934, as applicable to Haryana) and Haryana Police Act, 2007.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI)",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt No. 03/2021 (Recruitment of 465 Sub-Inspectors) & Haryana Civil Services Rules"
+      },
+      {
+        "designation": "Inspector of Police",
+        "pay_level": "Level 7 (FPL-7)",
+        "years": "approx. 6-10 yrs (subject to Upper School Course and state merit list)",
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Service Cadre & Promotion Rules"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP)",
+        "pay_level": "Level 10 (FPL-10)",
+        "years": "approx. 14-18 yrs (induction into Haryana Police Service - State Gazetted Rank)",
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Haryana Police Service (HPS) Rules"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP)",
+        "pay_level": "Level 11 (FPL-11)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "State Police Service Senior Scale Promotion Rules"
+      },
+      {
+        "designation": "Superintendent of Police (Selection Grade / IPS Conferred)",
+        "pay_level": "Level 12 (FPL-12) to Level 13 (FPL-13)",
+        "years": "approx. 28+ yrs",
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://haryanapolice.gov.in",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Haryana Police Sub-Inspector comprises a Knowledge Test (80 marks), Physical Screening Test (PST - qualifying), Physical Measurement Test (PMT - qualifying), followed by Scrutiny of Documents with additional qualification weightage (up to 20 marks).",
+    "stages": [
+      {
+        "stage_name": "Knowledge Test (OMR Written Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Advt 03/2021 Scheme of Examination for Sub-Inspector (Male & Female)",
+        "papers": [
+          {
+            "paper_name": "Objective Knowledge Test — General Studies, Current Affairs, General Science, Reasoning, Mental Aptitude, Numerical Ability, Agriculture, Animal Husbandry, Basic Computer Knowledge (min. 10 questions), and Basic Criminal Law",
+            "marks": 80,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (100 questions of 0.80 marks each)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit threshold to qualify for PST/PMT (approx. 7 times vacancies)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Screening Test (PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Police Physical Screening Test Criteria",
+        "papers": [
+          {
+            "paper_name": "Running Endurance Test (Male: 2.5 km in 12 min; Female: 1.0 km in 6 min; Ex-Servicemen: 1.0 km in 5 min with RFID chip)",
+            "marks": null,
+            "duration_minutes": 12,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying in nature"
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Measurement Test (PMT)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Police Physical Measurement Test Criteria",
+        "papers": [
+          {
+            "paper_name": "Physical Standards (Male: Height 170 cm Gen / 168 cm Res, Chest 83 cm + 4 cm expansion; Female: Height 158 cm Gen / 156 cm Res)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Mandatory qualifying physical benchmarks"
+          }
+        ]
+      },
+      {
+        "stage_name": "Additional Qualification & Socio-Economic Scrutiny",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2021-06-15",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Sub-Inspector Selection Weightage Rules",
+        "papers": [
+          {
+            "paper_name": "Weightage for Higher Education (Degree in Law / MCA / M.Sc. CS / Post Graduation: max 7 marks) and NCC Certification (max 3 marks: C=3, B=2, A=1)",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Award of additional marks contributing to final merit list"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors in Haryana Police are remunerated in Functional Pay Level 6 (FPL-6) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹35,400.",
+    "pay_level": "Level 6 (FPL-6)",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2021-06-15",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "HSSC Advt 03/2021 & Haryana Civil Services (Revised Pay) Rules, 2016 (Scale ₹35,400 – ₹1,12,400)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 60000,
+      "max": 72000
+    },
+    "in_hand_range_estimate": {
+      "min": 53000,
+      "max": 63000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry Level 6 basic pay of ₹35,400 with 58% Dearness Allowance (₹20,532), House Rent Allowance (8% to 24%), uniform allowance, special police conveyance allowance, and ration subsidy, minus standard deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at 58% effective 1 Jul 2025",
+      "House Rent Allowance (HRA) or designated official police quarter accommodation",
+      "Special Police Investigation & Conveyance Allowance",
+      "Uniform maintenance allowance and kit allowance",
+      "Cashless Medical Scheme under Government of Haryana",
+      "New Pension Scheme (NPS) with state government matching contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Sub-Inspector recruitment in Haryana Police is highly selective, attracting graduates, post-graduates, and law professionals from across Haryana and neighboring states.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 152000,
+        "vacancies": 465,
+        "shortlisted_for_mains": 3500,
+        "selectivity_ratio": "approx. 1 in 326 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-10-31",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 03/2021: 465 vacancies (400 Male SI, 65 Female SI); over 1.52 lakh registered applicants; 1.10 lakh appeared in written exam on September 26, 2021."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schedules, admit cards, and selection lists are published on HSSC and Haryana Police web portals.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Haryana Police Department — Official Portal",
+        "url": "https://haryanapolice.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advt No. 03/2021 — Police Sub-Inspector Recruitment Notification",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "Police-SI-2021",
+        "confidence": "verified",
+        "as_of": "2021-06-15"
+      },
+      {
+        "label": "HSSC Knowledge Test Syllabus for Police Sub-Inspector",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2021-06-15"
+      }
+    ]
+  }
+}

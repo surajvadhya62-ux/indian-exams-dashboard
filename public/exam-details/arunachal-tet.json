@@ -1,0 +1,153 @@
+{
+  "id": "arunachal-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted in accordance with the National Council for Teacher Education (NCTE) statutory guidelines under Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009. The examination comprises two separate objective papers: Paper-I for Primary Teachers (Classes I to V) and Paper-II for Upper Primary / Elementary Teachers (Classes VI to VIII). Each paper consists of 150 multiple-choice questions (150 marks) of 150 minutes duration with no negative marking. Minimum qualifying standard is 60% (90 out of 150 marks) for General category candidates, with a 5% relaxation to 55% (82 out of 150 marks) for Arunachal Pradesh Scheduled Tribe (APST) and reserved category candidates. Qualified candidates receive a Teacher Eligibility Test certificate with lifetime validity.",
+    "stages": [
+      {
+        "stage_name": "Paper-I (Primary Stage — Classes I to V)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-03-23",
+        "source_url": "https://ctet.nic.in",
+        "source_label": "NCTE Statutory TET Framework & Arunachal Pradesh Directorate of Elementary Education Guidelines",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Language I — English / Regional Medium (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Language II — Hindi / Alternative Language (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Mathematics (Elementary)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Environmental Studies (EVS)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper-II (Upper Primary Stage — Classes VI to VIII)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-03-23",
+        "source_url": "https://ctet.nic.in",
+        "source_label": "NCTE Statutory TET Framework & Arunachal Pradesh Directorate of Elementary Education Guidelines",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Language I — English / Regional Medium (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Language II — Hindi / Alternative Language (Compulsory)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          },
+          {
+            "paper_name": "Mathematics & Science (for Math/Science teachers) OR Social Studies/Social Science (for Social Studies teachers)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "not_available",
+    "note": "The Directorate of Elementary Education, Government of Arunachal Pradesh does not publish centralized applicant, appearance, or qualification statistical datasets for APTET online. Direct recruitment for regular Primary Teachers (PRT) has not been advertised since 2014, with state candidates qualifying either via APTET or the Central Teacher Eligibility Test (CTET) for contractual and secondary teaching vacancies."
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, statutory portals, and examination downloads for teaching recruitment in Arunachal Pradesh.",
+    "links": [
+      {
+        "label": "APPSC Trained Graduate Teacher (TGT) Recruitment Advertisement (Advt 02/2026 PDF)",
+        "url": "https://appsc.gov.in/upload/files/RECINS001/ADVT_Trained_Graduate_TeacherTGT2026_20260323_175628.pdf",
+        "type": "notification",
+        "cycle_label": "TGT-2026",
+        "confidence": "verified",
+        "as_of": "2026-03-23"
+      },
+      {
+        "label": "Central Teacher Eligibility Test (CTET) Official Portal (Accepted Gateway under NCTE Guidelines)",
+        "url": "https://ctet.nic.in",
+        "type": "notification",
+        "cycle_label": "CTET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Arunachal Pradesh Public Service Commission (APPSC) Official Recruitment Portal",
+        "url": "https://appsc.gov.in/Index/institute_home/ins/RECINS001",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Government of Arunachal Pradesh Official State Portal",
+        "url": "https://arunachalpradesh.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Directorate of Information & Public Relations (DIPR) Arunachal Pradesh Portal",
+        "url": "https://arunachalipr.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

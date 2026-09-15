@@ -1,0 +1,313 @@
+{
+  "id": "kpsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the KPSC Gazetted Probationers Examination enter the Karnataka Administrative Service (Junior Scale) or Karnataka Police Service (DySP). Progression to IAS is governed by the Indian Administrative Service (Appointment by Promotion) Regulations through the Karnataka State Cadre induction quota.",
+    "steps": [
+      {
+        "designation": "Assistant Commissioner (Junior Scale) / KAS Junior Scale / Sub-Divisional Magistrate",
+        "pay_level": "Pay Scale ₹52,650 - ₹97,100 (Group A Junior Scale)",
+        "years": "Entry level",
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf",
+        "source_label": "KPSC Notification for Gazetted Probationers 2026-27 (Group A Assistant Commissioner Pay Scale ₹52,650–₹97,100)"
+      },
+      {
+        "designation": "Assistant Commissioner (Senior Scale) / Headquarters Assistant",
+        "pay_level": "Pay Scale ₹67,550 - ₹1,04,600",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/KAS1.html",
+        "source_label": "Karnataka Administrative Service (Cadre and Recruitment) Rules and DPAR Cadre Review"
+      },
+      {
+        "designation": "Additional Deputy Commissioner (ADC) / Selection Grade KAS",
+        "pay_level": "Pay Scale ₹74,400 - ₹1,12,800",
+        "years": "approx. 8-15 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/KAS1.html",
+        "source_label": "Government of Karnataka Department of Personnel and Administrative Reforms (DPAR)"
+      },
+      {
+        "designation": "Joint Secretary to State Government / Super Time Scale KAS",
+        "pay_level": "Pay Scale ₹83,500 - ₹1,20,500",
+        "years": "approx. 15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/KAS1.html",
+        "source_label": "Karnataka Administrative Service Super Time Scale Postings Register"
+      },
+      {
+        "designation": "Deputy Commissioner & District Magistrate / Induction into Indian Administrative Service (IAS — Karnataka Cadre)",
+        "pay_level": "7th CPC Level 12 / Level 13 (IAS Pay Matrix)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/KAS1.html",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT / UPSC State Cadre Promotion Quota"
+      },
+      {
+        "designation": "Secretary / Principal Secretary to State Government (IAS Selection / Super Time Grade)",
+        "pay_level": "7th CPC Level 14 / Level 15",
+        "years": "approx. 25-32 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/KAS1.html",
+        "source_label": "Government of Karnataka Chief Secretariat Executive Cadre Schedule"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The KPSC Gazetted Probationers Examination comprises three successive stages: Preliminary Examination (Objective screening, 400 marks), Main Examination (Descriptive written, 2 qualifying papers + 5 compulsory papers totaling 1250 marks), and Personality Test (Interview, 50 marks).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Examination (Objective MCQ Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/syll_GP.pdf",
+        "source_label": "KPSC Gazetted Probationers Rules & Preliminary Examination Plan (syll_GP.pdf)",
+        "papers": [
+          {
+            "paper_name": "Paper 1: General Studies (National & International Current Events, Humanities — Indian History, Indian & World Geography, Indian Polity & Economy)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2: General Studies (State Significance & Karnataka Schemes, General Science & Tech, Environment & Ecology, General Mental Ability — Class 10th level basic numeracy & logical reasoning)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Main Examination (Descriptive Written Papers)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/GP%20RULES%2024-11-2014.pdf",
+        "source_label": "Karnataka Recruitment of Gazetted Probationers (Appointment by Competitive Examination) Rules (GP RULES 24-11-2014.pdf)",
+        "papers": [
+          {
+            "paper_name": "Qualifying Paper: Kannada (SSLC Standard)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35% (minimum 50 marks required for merit evaluation)"
+          },
+          {
+            "paper_name": "Qualifying Paper: English (SSLC Standard)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "35% (minimum 50 marks required for merit evaluation)"
+          },
+          {
+            "paper_name": "Paper I: Essay (Two essays in Kannada or English — 125 marks each)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: General Studies 1 (History & Cultural Heritage of India & Karnataka, Social & Political Perspective, Indian & Karnataka Economy)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: General Studies 2 (Physical Features & Natural Resources, Constitution of India, Public Administration & Governance, International Relations)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper IV: General Studies 3 (Role & Impact of Science and Technology in Development of India & Karnataka, Modern Trends in S&T, Environment & Ecology, Mental Ability)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper V: General Studies 4 (Ethics, Integrity and Aptitude — Case Studies, Moral Philosophies, Public Service Values)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://kpsc.kar.nic.in/GPRULES%204-6-2020.pdf",
+        "source_label": "Karnataka Gazetted Probationers (Appointment by Competitive Examination) Amendment Rules (Interview marks revised from 200 to 50)",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Viva-Voce (KPSC Board, Udyoga Soudha, Bengaluru)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salary computed as per Karnataka Civil Services (Revised Pay) Rules under Karnataka State Pay Commission matrix (Scale ₹52,650–₹97,100 for Group A KAS Junior Scale; Entry Basic Pay ₹52,650). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru Zone A at 27%, Class B at 18%, Class C taluk centers at 9%).",
+    "pay_level": "Pay Scale ₹52,650 - ₹97,100 (Group A Junior Scale)",
+    "entry_basic_pay": 52650,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-11",
+    "pay_source_url": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf",
+    "pay_source_label": "KPSC Gazetted Probationers 2026-27 Official Notification and Karnataka Civil Services (Revised Pay) Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 88000,
+      "max": 108000
+    },
+    "in_hand_range_estimate": {
+      "min": 76000,
+      "max": 92000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹52,650 at mandatory 58% DA (₹30,537) plus HRA ranging from 9% (₹4,739) in taluk sub-divisions to 27% (₹14,216) in Bengaluru urban limits, less statutory NPS (10% Basic+DA), KGID insurance, and professional tax deductions.",
+    "official_perks": [
+      "Designated official vehicle with driver for official duty and field inspections",
+      "Executive government residential quarters or leased accommodation reimbursement",
+      "Comprehensive medical coverage for officer and family under Karnataka Government Servants Medical Attendance Rules",
+      "Executive mobile telephone and office telephone allowance",
+      "Leave Travel Concession (LTC) as per Karnataka State Civil Services rules",
+      "National Pension System (NPS) with full 14% matching employer contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment data compiled from official KPSC Gazetted Probationers recruitment notifications, preliminary result press releases, and mains merit lists published by the Commission.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 298400,
+        "vacancies": 319,
+        "shortlisted_for_mains": 6380,
+        "selectivity_ratio": "approx. 1 in 935 (calculated: registered applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-07-31",
+        "source_url": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf",
+        "source_label": "KPSC Notification No. PSC 01 RTB-1/2026-27 dated 31-07-2026 for Gazetted Probationers 2026-27 (319 Group A & B posts; application window extended till 07-09-2026; preliminary shortlist ratio 1:20)."
+      },
+      {
+        "year": 2024,
+        "applicants": 275000,
+        "vacancies": 384,
+        "shortlisted_for_mains": 7680,
+        "selectivity_ratio": "approx. 1 in 716 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-02-26",
+        "source_url": "https://kpsc.kar.nic.in/2023-24%20GP%20Mains%20corrigendum%20notification.pdf",
+        "source_label": "KPSC Advt. No. PSC 504 RTB(2)/2023-24 dated 26-02-2024 / Corrigendum dated 13-02-2025: Gazetted Probationers Examination 2023-24 for 384 Group A & B posts across Karnataka."
+      },
+      {
+        "year": 2018,
+        "applicants": 185000,
+        "vacancies": 106,
+        "shortlisted_for_mains": 401,
+        "selectivity_ratio": "approx. 1 in 1745 (calculated: registered applicants ÷ final recommended vacancies)",
+        "confidence": "reported",
+        "as_of": "2018-09-15",
+        "source_url": "https://kpsc.kar.nic.in/notification.html",
+        "source_label": "KPSC Gazetted Probationers Recruitment Cycle 2017-18 for 106 Group A & B posts (401 candidates qualified for Personality Test)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, rules, scheme documents, and syllabus archives hosted on the Karnataka Public Service Commission (KPSC) state portal.",
+    "links": [
+      {
+        "label": "KPSC Gazetted Probationers 2026-27 Notification (319 Group A & B Posts)",
+        "url": "https://kpsc.kar.nic.in/GP%202026-27%20Final%20Notification%20with%20PH%20Schedules%20HOSTED%20ON%2031-07-2026.pdf",
+        "type": "notification",
+        "cycle_label": "GP-2026-27",
+        "confidence": "verified",
+        "as_of": "2026-07-31"
+      },
+      {
+        "label": "KPSC Gazetted Probationers 2026-27 Date Extension Corrigendum",
+        "url": "https://kpsc.kar.nic.in/corrigendum%20notification%20GP-2026.pdf",
+        "type": "notification",
+        "cycle_label": "GP-2026-27",
+        "confidence": "verified",
+        "as_of": "2026-08-31"
+      },
+      {
+        "label": "KPSC Gazetted Probationers Examination Scheme & Syllabus",
+        "url": "https://kpsc.kar.nic.in/syll_GP.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Karnataka Gazetted Probationers Main Exam Rules & Syllabus (2014 Amendment)",
+        "url": "https://kpsc.kar.nic.in/GP%20RULES%2024-11-2014.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Karnataka Gazetted Probationers Amendment Rules 2020 (Personality Test Marks)",
+        "url": "https://kpsc.kar.nic.in/GPRULES%204-6-2020.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "KPSC Gazetted Probationers Rules & Archive Repository",
+        "url": "https://kpsc.kar.nic.in/KAS1.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "KPSC Question Papers & Key Answers Archive",
+        "url": "https://kpsc.kar.nic.in/keyanswers.html",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

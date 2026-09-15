@@ -1,0 +1,247 @@
+{
+  "id": "appsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "APPSC Group-I Services is the premier state civil services examination in Andhra Pradesh. Officers enter as Deputy Collector (Executive Branch), Assistant Commissioner of State Tax, or Deputy Superintendent of Police (AP Police Service) and advance to senior state administration and induction into All India Services (IAS/IPS).",
+    "steps": [
+      {
+        "designation": "Deputy Collector / Commercial Tax Officer / DSP",
+        "pay_level": "AP PRC 2022 Scale 21 (₹61,960 - ₹1,51,370)",
+        "years": "0-6 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Details_for_Group_1_Notfn_2023_122023_27122023.pdf",
+        "source_label": "APPSC Notification No. 12/2023 Post Codes 01-03 Scale of Pay"
+      },
+      {
+        "designation": "Special Grade Deputy Collector / Joint Collector / ADM",
+        "pay_level": "AP PRC 2022 Scale 25 (₹78,270 - ₹1,70,580)",
+        "years": "6-12 yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "AP Civil Services Executive Branch Special Grade Rules"
+      },
+      {
+        "designation": "District Collector & District Magistrate (Induction into IAS)",
+        "pay_level": "IAS Senior Time Scale / Selection Grade (Level 12 / Level 13)",
+        "years": "12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "IAS (Appointment by Promotion) Regulations, Andhra Pradesh Cadre"
+      },
+      {
+        "designation": "Joint Secretary / Special Secretary to Government / Head of Department",
+        "pay_level": "IAS Super Time Scale (Level 14)",
+        "years": "18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "IAS Cadre Schedule, Government of Andhra Pradesh"
+      },
+      {
+        "designation": "Principal Secretary / Special Chief Secretary to Government",
+        "pay_level": "IAS Higher Administrative Grade+ / Apex Scale (Level 15 - 17)",
+        "years": "25+ yrs",
+        "confidence": "reported",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "Government of Andhra Pradesh Secretariat Administration Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Group-I Services recruitment comprises three stages: Preliminary Screening Test (Objective OMR, 2 papers of 120 marks each with 1/3rd negative marking), Main Examination (Descriptive written, 2 qualifying language papers + 5 scored papers of 150 marks each = 750 marks), and Interview / Viva-Voce (75 marks). Total merit marks = 825.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Notfn_Group_I_2023%20with%20Syllabus_122023_08122023.pdf",
+        "source_label": "APPSC Notification No. 12/2023 Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Paper-I: General Studies (History & Culture, Polity & Constitution, Economy, Geography)",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "1/3rd (0.33) of marks penalized per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit score for shortlisting to Mains Examination"
+          },
+          {
+            "paper_name": "Paper-II: General Aptitude (Mental Ability, Administrative Abilities, Science & Tech, Current Events)",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "1/3rd (0.33) of marks penalized per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit score for shortlisting to Mains Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Notfn_Group_I_2023%20with%20Syllabus_122023_08122023.pdf",
+        "source_label": "APPSC Notification No. 12/2023 Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Paper in Telugu (SSC Standard, Qualifying Nature)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard as prescribed by Commission"
+          },
+          {
+            "paper_name": "Paper in English (SSC Standard, Qualifying Nature)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard as prescribed by Commission"
+          },
+          {
+            "paper_name": "Paper-I: General Essay (Contemporary Themes of Regional, National & International Importance)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-II: History, Culture and Geography of India and Andhra Pradesh",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-III: Polity, Constitution, Governance, Law and Ethics",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-IV: Economy and Development of India and Andhra Pradesh",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper-V: Science, Technology and Environmental Issues",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview / Personality Test (Viva-Voce)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-12-08",
+        "source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Notfn_Group_I_2023%20with%20Syllabus_122023_08122023.pdf",
+        "source_label": "APPSC Notification No. 12/2023 Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Interview / Personality Test (Board Interview at APPSC Headquarters, Vijayawada)",
+            "marks": 75,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Compensated under Andhra Pradesh Revised Pay Scales 2022 (PRC 2022, G.O.Ms.No.1 Finance Department dated 17.01.2022). Entry scale for premier posts (Deputy Collector, Assistant Commissioner of State Tax, DSP) is Scale 21: ₹61,960 - ₹1,51,370 with entry basic pay of ₹61,960.",
+    "pay_level": "AP PRC 2022 Scale 21 (₹61,960 - ₹1,51,370)",
+    "entry_basic_pay": 61960,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-12-08",
+    "pay_source_url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Details_for_Group_1_Notfn_2023_122023_27122023.pdf",
+    "pay_source_label": "APPSC Notification No. 12/2023, Details Document, Page 1 Post Codes 01-03",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 108000, "max": 120000 },
+    "in_hand_range_estimate": { "min": 92000, "max": 105000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Computed on AP PRC 2022 Scale 21 entry basic of ₹61,960 with project constant 58% DA plus HRA (12% to 24% depending on posting tier); in-hand net deducts 10% CPS/NPS, Professional Tax, and APGLI/GIS.",
+    "official_perks": [
+      "Government executive quarters / residential accommodation in district headquarters",
+      "Official vehicle with driver for field inspections and executive duties",
+      "Security guard / orderly support for executive revenue and police postings",
+      "Andhra Pradesh Employees Health Scheme (EHS) cashless medical coverage",
+      "Leave Travel Concession (LTC) and official travel allowances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official statistics released by APPSC for Group-I Services recruitments.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 148881,
+        "vacancies": 81,
+        "shortlisted_for_mains": 4496,
+        "selectivity_ratio": "approx. 1 in 1,838 (calculated: 1,48,881 registered applicants ÷ 81 notified vacancies; 91,463 candidates appeared in Prelims on 17-03-2024)",
+        "confidence": "reported",
+        "as_of": "2024-03-17",
+        "source_url": "https://psc.ap.gov.in",
+        "source_label": "APPSC Official Press Note for Group-I Services Notification No. 12/2023 (1,48,881 registered, 91,463 appeared, 4,496 shortlisted for Mains)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notification and syllabus documents on the APPSC portal.",
+    "links": [
+      {
+        "label": "Group-I Services Notification No. 12/2023 with Syllabus (PDF)",
+        "url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Notfn_Group_I_2023%20with%20Syllabus_122023_08122023.pdf",
+        "type": "notification",
+        "cycle_label": "12/2023",
+        "confidence": "verified",
+        "as_of": "2023-12-08"
+      },
+      {
+        "label": "Details of Breakup of Vacancies and Scale of Pay (PDF)",
+        "url": "https://psc.ap.gov.in/Documents/NotificationDocuments/Details_for_Group_1_Notfn_2023_122023_27122023.pdf",
+        "type": "other",
+        "cycle_label": "12/2023",
+        "confidence": "verified",
+        "as_of": "2023-12-27"
+      },
+      {
+        "label": "APPSC Direct Recruitment Portal",
+        "url": "https://portal-psc.ap.gov.in/HomePages/RecruitmentNotifications",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "ssc-je",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "SSC Junior Engineer recruits technical engineering personnel (Civil, Electrical, Mechanical, Quantity Surveying & Contracts) for premier central infrastructure agencies including Central Public Works Department (CPWD), Military Engineer Services (MES), Central Water Commission (CWC), Border Roads Organisation (BRO), and National Technical Research Organisation (NTRO). Engineers progress into gazetted administrative ranks through departmental quotas and DPC reviews.",
+    "steps": [
+      {
+        "designation": "Junior Engineer (Civil / Mechanical / Electrical)",
+        "pay_level": "Level 6",
+        "years": "Entry level (Group B Non-Gazetted)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Engineer (AE) / Assistant Executive Engineer",
+        "pay_level": "Level 7 / Level 10 (Group B Gazetted / Group A)",
+        "years": "approx. 5-8 yrs (faster via departmental competitive exam)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Executive Engineer (EE)",
+        "pay_level": "Level 11 (Senior Time Scale)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Superintending Engineer (SE)",
+        "pay_level": "Level 12 (Junior Administrative Grade)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Chief Engineer (CE)",
+        "pay_level": "Level 14 (Senior Administrative Grade)",
+        "years": "approx. 25+ yrs (cadre apex)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "SSC Junior Engineer examination is conducted in two computer-based objective stages. Paper I consists of 200 questions (200 marks, 120 minutes) covering Reasoning (50 marks), General Awareness (50 marks), and General Engineering (100 marks), with 0.25 negative marking. Paper II is an advanced technical Computer Based Test consisting of 100 objective questions (300 marks, 120 minutes) with 1 mark deducted per wrong answer (one-third penalty). Final merit ranking is based on total aggregate score across Paper I and Paper II (500 marks).",
+    "stages": [
+      {
+        "stage_name": "Paper I: Computer Based Screening Examination (Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Junior Engineer (Civil, Mechanical & Electrical) Examination 2024, Scheme of Examination (Paper-I)",
+        "papers": [
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part A/B/C: General Engineering (Civil & Structural, Electrical, or Mechanical)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper II: Computer Based Technical Examination (Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Junior Engineer Examination 2024, Scheme of Examination (Paper-II)",
+        "papers": [
+          {
+            "paper_name": "Discipline Engineering (Civil & Structural, Electrical, or Mechanical)",
+            "marks": 300,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 60000,
+      "max": 75000
+    },
+    "in_hand_range_estimate": {
+      "min": 52000,
+      "max": 65000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 6 entry basic pay (₹35,400) with 58% DA (₹20,532) and applicable HRA (27%/18%/9%). Engineers posted with Border Roads Organisation (BRO) in high altitude and remote border zones receive Special Compensatory Remote Locality Allowance and free rations.",
+    "official_perks": [
+      "Departmental residential accommodation or House Rent Allowance (27%/18%/9%)",
+      "Transport Allowance (₹3,600 + 58% DA in Class X/Y, ₹1,800 + DA in Class Z)",
+      "Comprehensive medical coverage under CGHS",
+      "Leave Travel Concession (LTC) and defined contribution pension under NPS",
+      "Special project and border allowance for field infrastructure postings"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SSC Junior Engineer attracts 5-8 lakh diploma and degree engineering candidates across India. The 2024 examination notified 1,765 vacancies across CPWD, MES, CWC, and BRO. The 2023 drive filled 1,324 vacancies, while 2022 filled 2,798 posts.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 1765,
+        "confidence": "verified",
+        "as_of": "2024-03-28",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Junior Engineer Examination 2024: 1,765 vacancies notified across departments."
+      },
+      {
+        "year": 2023,
+        "vacancies": 1324,
+        "confidence": "verified",
+        "as_of": "2023-07-26",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Final Vacancies for JE Examination 2023: 1,324 posts filled."
+      },
+      {
+        "year": 2022,
+        "vacancies": 2798,
+        "confidence": "reported",
+        "as_of": "2023-05-24",
+        "source_label": "Staff Selection Commission — JE Examination 2022 Final Vacancies: 2,798 posts."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Staff Selection Commission portals and notices for Junior Engineer Examination.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Portal",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "SSC Tentative Vacancies & Official Notices Hub",
+        "url": "https://ssc.gov.in/for-candidates/tentative-vacancy",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

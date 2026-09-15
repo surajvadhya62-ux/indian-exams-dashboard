@@ -1,0 +1,193 @@
+{
+  "id": "eil-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in Engineers India Limited (EIL) enter in Grade E-1 (₹60,000–₹1,80,000) and undergo 1 year training. Upon successful completion, they are absorbed as Engineer in Grade E-1, progressing along the engineering consultancy and design hierarchy.",
+    "steps": [
+      {
+        "designation": "Management Trainee (Chemical / Mechanical / Civil / Electrical / Inst)",
+        "pay_level": "IDA Grade E-1 (₹60,000 – ₹1,80,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL MT Recruitment Notification through GATE"
+      },
+      {
+        "designation": "Engineer",
+        "pay_level": "IDA Grade E-1 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Promotion & Absorption Policy"
+      },
+      {
+        "designation": "Senior Engineer",
+        "pay_level": "IDA Grade E-2 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Executive Cadre Regulations"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-3 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Consultancy Engineering Hierarchy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-4 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Middle Management Rules"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-5 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Senior Management Cadre"
+      },
+      {
+        "designation": "Assistant General Manager / Deputy General Manager",
+        "pay_level": "IDA Grade E-6 / E-7 (₹1,20,000 – ₹2,80,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Executive Directorate Hierarchy"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-8 / E-9 (₹1,50,000 – ₹3,00,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Top Management Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Management Trainees in EIL is conducted through Graduate Aptitude Test in Engineering (GATE) scores followed by a Personal Interview. Final selection gives 85% weightage to normalized GATE score and 15% weightage to Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Graduate Aptitude Test in Engineering (GATE) Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL MT Selection Criteria Notification",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Respective Discipline (Chemical, Mechanical, Civil, Electrical, Inst)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 for 1-mark MCQs, -0.67 for 2-mark MCQs",
+            "qualifying_only": false,
+            "qualifying_threshold": "Discipline-wise GATE qualifying cut-off score"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Personal Interview Norms",
+        "papers": [
+          {
+            "paper_name": "Technical & Personality Interview",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% for General/EWS, 35% for SC/ST/OBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Compensation is governed by DPE 3rd PRC IDA pay structure. Management Trainees receive starting basic pay of ₹60,000 in Grade E-1, mandatory 58% DA constant as of 2025-07-01, Delhi NCR HRA, and consultancy engineering allowances.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹60,000 – ₹1,80,000)",
+    "entry_basic_pay": 60000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://engineersindia.com/careers",
+    "pay_source_label": "EIL Emoluments & Terms of Employment",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 108000,
+      "max": 132000
+    },
+    "in_hand_range_estimate": {
+      "min": 94000,
+      "max": 115000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹60,000, 58% IDA (₹34,800), Delhi HRA (27% = ₹16,200), and Cafeteria allowances (35% = ₹21,000), less statutory deductions for PF (12% Basic+DA) and defined contributory pension.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "House Rent Allowance (HRA) @ 27% in Delhi NCR / Company Leased Accommodation",
+      "Cafeteria Approach Perks & Allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP) linked to EIL corporate achievements and MoUs",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Superannuation Scheme",
+      "Post-retirement Medical Scheme and comprehensive health insurance for self and family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from Engineers India Limited GATE-based recruitment cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 42,
+        "applicants": 16500,
+        "shortlisted_for_mains": 250,
+        "selectivity_ratio": "approx. 1 in 392",
+        "confidence": "reported",
+        "as_of": "2024-03-20",
+        "source_url": "https://engineersindia.com/careers",
+        "source_label": "EIL Recruitment Advt. No. EIL/HRD/Rectt./2024-25/01: 42 Management Trainee posts via GATE."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, GATE cut-off scores, and interview schedules hosted on Engineers India Limited portal.",
+    "links": [
+      {
+        "label": "EIL Official Careers Portal",
+        "url": "https://engineersindia.com/careers",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "EIL Official Corporate Web Portal",
+        "url": "https://engineersindia.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

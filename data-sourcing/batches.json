@@ -1,0 +1,980 @@
+{
+  "generated_at": "2026-09-11",
+  "source_description": "One-time, human-reviewed rules mapping exams.json records to research batches. Applied in order, first match wins. Regenerate with scripts/data-sourcing/build-batch-map.mjs whenever exams.json gains new records — the generator never reassigns an id that batches.json already has a batch_id for.",
+  "totals": {
+    "exams": 504,
+    "assigned": 504,
+    "unassigned": 0
+  },
+  "batches": {
+    "batch-1-central-commissions": {
+      "label": "Premier Central Commissions (UPSC & All-India Cadres)",
+      "exam_ids": [
+        "upsc-cse",
+        "nda",
+        "cds",
+        "ies-ese",
+        "upsc-ifs",
+        "capf-ac",
+        "epfo-apfc",
+        "upsc-cms",
+        "upsc-geo-scientist",
+        "upsc-ies-iss"
+      ]
+    },
+    "batch-2-ssc-railways": {
+      "label": "Staff Selection Commission (SSC) & Indian Railways (RRB/RPF)",
+      "exam_ids": [
+        "ssc-cgl",
+        "ssc-chsl",
+        "rrb-ntpc",
+        "rrb-group-d",
+        "rrb-alp",
+        "rrb-je",
+        "ssc-mts",
+        "ssc-gd",
+        "ssc-cpo",
+        "ssc-je",
+        "ssc-steno",
+        "ssc-cgl-aao",
+        "ssc-selection-posts",
+        "ssc-jht",
+        "rrb-technician",
+        "rrb-sse",
+        "rrb-paramedical",
+        "rpf-si-constable",
+        "bsf-head-constable-ro",
+        "crpf-head-constable-ministerial",
+        "itbp-sub-inspector-telecom",
+        "ssb-head-constable-tradesman",
+        "cisf-head-constable-ministerial",
+        "assam-rifles-technical-tradesmen"
+      ]
+    },
+    "batch-3-banking-insurance": {
+      "label": "Banking, Insurance & Financial Regulators",
+      "exam_ids": [
+        "ibps-po",
+        "ibps-clerk",
+        "sbi-po",
+        "rbi-grade-b",
+        "nabard-grade-a",
+        "sebi-grade-a",
+        "lic-aao",
+        "ibps-so",
+        "ibps-rrb",
+        "niacl-ao",
+        "uiic-ao",
+        "lic-assistant",
+        "rbi-assistant",
+        "sbi-clerk",
+        "sidbi-grade-a",
+        "exim-bank-mt",
+        "gic-re-am",
+        "oicl-ao",
+        "acet-actuarial",
+        "pfrda-grade-a",
+        "nhb-assistant-manager",
+        "ecgc-po",
+        "rbi-grade-b-depr",
+        "nism-certifications",
+        "sbi-so-credit-analyst",
+        "rbi-office-attendant",
+        "sbi-so",
+        "lic-ado",
+        "irdai-grade-a",
+        "nabard-development-assistant"
+      ]
+    },
+    "batch-6-central-psu-defence-institute": {
+      "label": "Central PSUs, Defence Direct-Entry, Premier Institutes & National Entrance Tests (not in the user's original 5 batches — proposed addition, flag for confirmation)",
+      "exam_ids": [
+        "jee-main",
+        "jee-advanced",
+        "neet-ug",
+        "neet-pg",
+        "cat",
+        "gate",
+        "clat",
+        "nid-dat",
+        "nift",
+        "uceed",
+        "ceed",
+        "ailet",
+        "afcat",
+        "ugc-net",
+        "csir-net",
+        "mat",
+        "cmat",
+        "icar-aieea",
+        "cuet-ug",
+        "cuet-pg",
+        "iift",
+        "ca",
+        "cs",
+        "cma",
+        "ctet",
+        "kvs-pgt-tgt",
+        "jam",
+        "tifr-gs",
+        "jest",
+        "isi-admission",
+        "cmi-entrance",
+        "nimcet",
+        "nata",
+        "gpat",
+        "ntpc-et",
+        "iocl-apprentice",
+        "isro-scientist",
+        "drdo-ceptam",
+        "drdo-set",
+        "barc-oces",
+        "imu-cet",
+        "tissnet",
+        "jnu-entrance",
+        "du-entrance",
+        "pet-bhu",
+        "neet-ss",
+        "fmge",
+        "ini-cet",
+        "jipmer",
+        "afmc-mbbs",
+        "kvpy",
+        "ntse",
+        "olympiad-science",
+        "imo",
+        "iiser-aptitude",
+        "iisc-ug",
+        "nchm-jee",
+        "indian-army-agniveer",
+        "fci-manager",
+        "jee-main-arch",
+        "amu-entrance",
+        "jamia-entrance",
+        "nest",
+        "iim-cat-fellowship",
+        "gail-et",
+        "sail-octt",
+        "iiit-allahabad",
+        "neet-mds",
+        "sail-act-oct",
+        "cusat-cat",
+        "atma",
+        "aiims-nursing",
+        "aiapget",
+        "dnb-pdcet",
+        "nbe-fet",
+        "jgeebils",
+        "nbhm-phd",
+        "icar-aice-jrf-srf",
+        "ib-acio",
+        "aai-atc",
+        "pgcil-et",
+        "bis-scientist-b",
+        "bel-trainee-engineer",
+        "hal-management-trainee",
+        "epfo-ssa",
+        "esic-sso",
+        "fddi-aist",
+        "jbims-msc-finance",
+        "nibm-pgdm",
+        "mse-msc-finance",
+        "igidr-msc-economics-finance",
+        "dse-mcom",
+        "ifsca-grade-a",
+        "cag-sas",
+        "ongc-finance-officer",
+        "iocl-finance-officer",
+        "bhel-finance-executive",
+        "nta-ncet",
+        "isro-technical-assistant",
+        "npcil-st",
+        "cil-mt",
+        "india-post-gds",
+        "india-post-mts-postman",
+        "agniveer-navy",
+        "agniveer-air-force",
+        "nvs-tgt-pgt",
+        "aibe",
+        "barc-stipendiary-trainee",
+        "nia-si-inspector",
+        "delhi-djs",
+        "delhi-dhjs",
+        "sci-law-clerk",
+        "sci-jca",
+        "delhi-hc-sja",
+        "nhpc-trainee-engineer",
+        "sjvn-field-engineer",
+        "thdc-engineer-trainee",
+        "pgcil-diploma-trainee",
+        "nalco-mt",
+        "midhani-management-trainee",
+        "bdl-management-trainee",
+        "mdl-executive-trainee",
+        "grse-management-trainee",
+        "gsl-management-trainee",
+        "cochin-shipyard-executive",
+        "rvnl-site-engineer",
+        "ircon-executive-trainee",
+        "concor-management-trainee",
+        "dfccil-executive",
+        "nfl-management-trainee",
+        "rcf-management-trainee",
+        "fact-management-trainee",
+        "mecl-geologist-engineer",
+        "moil-management-trainee",
+        "kiocl-get",
+        "nmdc-maintenance-assistant",
+        "nlc-get",
+        "eil-management-trainee",
+        "beml-management-trainee",
+        "hal-design-trainee",
+        "bel-probationary-engineer",
+        "ecil-technical-officer",
+        "bpcl-management-trainee",
+        "hpcl-officer-engineer",
+        "gail-executive-trainee",
+        "ongc-graduate-trainee",
+        "iocl-non-executive",
+        "cil-management-trainee",
+        "sail-mtt",
+        "ntpc-eet",
+        "bhel-engineer-trainee",
+        "rites-engineer",
+        "bhel-artisan",
+        "irfc-executive",
+        "aiims-norcet",
+        "esic-nursing-officer",
+        "esic-paramedical",
+        "pgimer-nursing-officer",
+        "jipmer-nursing-officer",
+        "dghs-safdarjung-nurse",
+        "cghs-pharmacist",
+        "icg-navik-gd",
+        "icg-navik-db",
+        "icg-yantrik",
+        "icg-assistant-commandant",
+        "mes-supervisor-barrack-store",
+        "drdo-ceptam-sta-b",
+        "drdo-ceptam-tech-a",
+        "indian-navy-incet-tradesman",
+        "indian-navy-chargeman",
+        "iaf-civilian-group-c",
+        "aai-atc-junior-executive",
+        "aai-junior-executive-common",
+        "spmcil-junior-office-associate",
+        "brbnmpl-industrial-workman",
+        "nielit-scientist-b",
+        "cdac-project-engineer",
+        "fssai-cfso",
+        "fssai-technical-officer",
+        "bis-technical-assistant",
+        "central-silk-board-scientist",
+        "spices-board-field-officer",
+        "tea-board-development-officer",
+        "coffee-board-extension-officer",
+        "asrb-icar-administrative-officer",
+        "icar-iari-technician",
+        "icfre-technical-assistant",
+        "gsi-driver-mechanic",
+        "cochin-port-pilot"
+      ]
+    },
+    "batch-8-central-other": {
+      "label": "Any remaining unmatched central-jurisdiction exam (should be empty if the rules above are complete)",
+      "exam_ids": []
+    },
+    "batch-7-state-other--west-bengal": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — West Bengal",
+      "exam_ids": [
+        "wbjee",
+        "wbhrb-staff-nurse",
+        "wbtet",
+        "wbsedcl-junior-engineer"
+      ]
+    },
+    "batch-7-state-other--maharashtra": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Maharashtra",
+      "exam_ids": [
+        "mht-cet",
+        "mah-mba-cet",
+        "mh-cet-law",
+        "maha-tet",
+        "maha-talathi",
+        "maha-vanrakshak",
+        "maha-krishi-sevak",
+        "msedcl-junior-engineer",
+        "mahatransco-assistant-engineer"
+      ]
+    },
+    "batch-7-state-other--karnataka": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Karnataka",
+      "exam_ids": [
+        "kcet",
+        "kea-vao",
+        "karnataka-forest-guard",
+        "karnataka-judicial-service",
+        "kptcl-junior-engineer",
+        "bescom-assistant-engineer"
+      ]
+    },
+    "batch-4-state-psc--andhra-pradesh": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Andhra Pradesh",
+      "exam_ids": [
+        "ap-eamcet",
+        "appsc",
+        "ap-icet",
+        "ap-ecet",
+        "ap-lawcet",
+        "appsc-group-4"
+      ]
+    },
+    "batch-7-state-other--telangana": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Telangana",
+      "exam_ids": [
+        "ts-eamcet",
+        "ts-icet",
+        "ts-ecet",
+        "ts-lawcet",
+        "tstet",
+        "ts-judicial-service",
+        "tsspdcl-junior-lineman"
+      ]
+    },
+    "batch-7-state-other--kerala": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Kerala",
+      "exam_ids": [
+        "keam",
+        "klee",
+        "ktet",
+        "kerala-judicial-service"
+      ]
+    },
+    "batch-7-state-other--uttar-pradesh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Uttar Pradesh",
+      "exam_ids": [
+        "upcet",
+        "uptet",
+        "upcatet",
+        "super-tet",
+        "upprpb-constable",
+        "upprpb-si",
+        "upprpb-radio-operator",
+        "upprpb-jail-warder",
+        "uppcl-assistant-engineer",
+        "uppcl-junior-engineer",
+        "uppcl-executive-assistant"
+      ]
+    },
+    "batch-7-state-other--gujarat": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Gujarat",
+      "exam_ids": [
+        "gujcet",
+        "gujarat-police-constable",
+        "gujarat-tet",
+        "gujarat-judicial-service"
+      ]
+    },
+    "batch-7-state-other--haryana": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Haryana",
+      "exam_ids": [
+        "htet",
+        "hssc-cet-group-c",
+        "hssc-cet-group-d",
+        "hssc-canal-patwari",
+        "hssc-gram-sachiv",
+        "hssc-clerk",
+        "haryana-police-constable",
+        "haryana-police-si",
+        "hvpn-assistant-engineer"
+      ]
+    },
+    "batch-4-state-psc--uttar-pradesh": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Uttar Pradesh",
+      "exam_ids": [
+        "uppsc-pcs",
+        "up-pcs-j"
+      ]
+    },
+    "batch-4-state-psc--maharashtra": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Maharashtra",
+      "exam_ids": [
+        "mpsc",
+        "mpsc-sti",
+        "mpsc-subordinate-psi",
+        "mpsc-subordinate-sti",
+        "mpsc-subordinate-aso",
+        "maha-jmfc"
+      ]
+    },
+    "batch-4-state-psc--bihar": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Bihar",
+      "exam_ids": [
+        "bpsc",
+        "bihar-pcs-j"
+      ]
+    },
+    "batch-4-state-psc--rajasthan": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Rajasthan",
+      "exam_ids": [
+        "rpsc-ras",
+        "rajasthan-police-si"
+      ]
+    },
+    "batch-4-state-psc--telangana": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Telangana",
+      "exam_ids": [
+        "tspsc",
+        "tspsc-group-4",
+        "telangana-forest-fbo"
+      ]
+    },
+    "batch-4-state-psc--karnataka": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Karnataka",
+      "exam_ids": [
+        "kpsc",
+        "kpsc-fda",
+        "kpsc-sda"
+      ]
+    },
+    "batch-4-state-psc--west-bengal": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — West Bengal",
+      "exam_ids": [
+        "wbcs",
+        "wb-wbjs"
+      ]
+    },
+    "batch-4-state-psc--chhattisgarh": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Chhattisgarh",
+      "exam_ids": [
+        "cgpsc",
+        "cg-judicial-service"
+      ]
+    },
+    "batch-4-state-psc--jharkhand": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Jharkhand",
+      "exam_ids": [
+        "jharkhand-jpsc",
+        "jharkhand-judicial-service"
+      ]
+    },
+    "batch-4-state-psc--madhya-pradesh": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Madhya Pradesh",
+      "exam_ids": [
+        "mppsc"
+      ]
+    },
+    "batch-4-state-psc--himachal-pradesh": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Himachal Pradesh",
+      "exam_ids": [
+        "hppsc",
+        "hp-judicial-service"
+      ]
+    },
+    "batch-4-state-psc--uttarakhand": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Uttarakhand",
+      "exam_ids": [
+        "ukpsc",
+        "uk-judicial-service"
+      ]
+    },
+    "batch-7-state-other--tamil-nadu": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Tamil Nadu",
+      "exam_ids": [
+        "tancet",
+        "tntet",
+        "tnusrb-constable",
+        "tnusrb-si",
+        "tn-mrb-staff-nurse",
+        "tn-mrb-assistant-surgeon",
+        "tangedco-assistant-engineer"
+      ]
+    },
+    "batch-7-state-other--odisha": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Odisha",
+      "exam_ids": [
+        "ojee",
+        "otet"
+      ]
+    },
+    "batch-5-subordinate-police-boards--chhattisgarh": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Chhattisgarh",
+      "exam_ids": [
+        "cg-pet",
+        "cg-pat",
+        "cgtet"
+      ]
+    },
+    "batch-7-state-other--bihar": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Bihar",
+      "exam_ids": [
+        "bcece",
+        "bssc-cgl",
+        "bssc-inter-level",
+        "bssc-stenographer",
+        "bihar-police-constable",
+        "bihar-police-si",
+        "bsphcl-junior-engineer"
+      ]
+    },
+    "batch-7-state-other--jammu-kashmir": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Jammu & Kashmir",
+      "exam_ids": [
+        "jkcet"
+      ]
+    },
+    "batch-7-state-other--assam": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Assam",
+      "exam_ids": [
+        "assam-cee",
+        "assam-tet",
+        "assam-gauhati-judicial"
+      ]
+    },
+    "batch-7-state-other--madhya-pradesh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Madhya Pradesh",
+      "exam_ids": [
+        "mp-pat",
+        "mpesb-patwari",
+        "mpesb-van-rakshak",
+        "mpesb-jail-prahari",
+        "mpesb-sub-engineer",
+        "mpesb-mahila-supervisor",
+        "mpesb-group-4",
+        "mp-police-constable",
+        "mp-police-si",
+        "mp-judicial-service",
+        "mppgcl-junior-engineer"
+      ]
+    },
+    "batch-4-state-psc--assam": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Assam",
+      "exam_ids": [
+        "apsc-cce"
+      ]
+    },
+    "batch-4-state-psc--kerala": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Kerala",
+      "exam_ids": [
+        "kerala-psc-kas",
+        "kerala-psc-ldc",
+        "kerala-psc-cpo",
+        "kerala-psc-si",
+        "kerala-psc-vfa",
+        "kerala-psc-civil-excise",
+        "kerala-psc-fireman"
+      ]
+    },
+    "batch-4-state-psc--odisha": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Odisha",
+      "exam_ids": [
+        "opsc-oas",
+        "odisha-ojs"
+      ]
+    },
+    "batch-4-state-psc--punjab": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Punjab",
+      "exam_ids": [
+        "ppsc-pcs",
+        "punjab-judicial-service"
+      ]
+    },
+    "batch-4-state-psc--haryana": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Haryana",
+      "exam_ids": [
+        "hpsc-hcs",
+        "haryana-hcs-judicial"
+      ]
+    },
+    "batch-7-state-other--rajasthan": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Rajasthan",
+      "exam_ids": [
+        "reet",
+        "rajasthan-rjs",
+        "rvunl-junior-engineer"
+      ]
+    },
+    "batch-4-state-psc--tamil-nadu": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Tamil Nadu",
+      "exam_ids": [
+        "tnpsc-group-1",
+        "tnpsc-group-4",
+        "tnpsc-combined-technical",
+        "tn-judicial-service"
+      ]
+    },
+    "batch-4-state-psc--gujarat": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Gujarat",
+      "exam_ids": [
+        "gpsc-class-1-2"
+      ]
+    },
+    "batch-4-state-psc--jammu-kashmir": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Jammu & Kashmir",
+      "exam_ids": [
+        "jkpsc-kas",
+        "jk-judicial-service"
+      ]
+    },
+    "batch-4-state-psc--goa": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Goa",
+      "exam_ids": [
+        "goa-psc"
+      ]
+    },
+    "batch-4-state-psc--tripura": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Tripura",
+      "exam_ids": [
+        "tpsc-tcs",
+        "tpsc-cce"
+      ]
+    },
+    "batch-7-state-other--delhi": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Delhi",
+      "exam_ids": [
+        "dmrc-je-sc"
+      ]
+    },
+    "batch-5-subordinate-police-boards--uttar-pradesh": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Uttar Pradesh",
+      "exam_ids": [
+        "upsssc-pet",
+        "upsssc-lekhpal",
+        "upsssc-vdo",
+        "upsssc-junior-assistant",
+        "upsssc-tubewell-operator",
+        "upsssc-forest-guard",
+        "upsssc-je",
+        "upsssc-anm",
+        "upsssc-supply-inspector",
+        "upsssc-aso"
+      ]
+    },
+    "batch-5-subordinate-police-boards--rajasthan": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Rajasthan",
+      "exam_ids": [
+        "rsmssb-cet-12th",
+        "rsmssb-cet-graduate",
+        "rsmssb-patwari",
+        "rsmssb-vdo",
+        "rsmssb-junior-accountant",
+        "rsmssb-informatics-assistant",
+        "rsmssb-lab-assistant",
+        "rsmssb-sanganak",
+        "rsmssb-agriculture-supervisor",
+        "rajasthan-police-constable"
+      ]
+    },
+    "batch-5-subordinate-police-boards--delhi": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Delhi",
+      "exam_ids": [
+        "dsssb-dass-grade-2",
+        "dsssb-prt-tgt",
+        "dsssb-nursing-officer",
+        "dsssb-warder",
+        "dsssb-special-educator"
+      ]
+    },
+    "batch-5-subordinate-police-boards--odisha": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Odisha",
+      "exam_ids": [
+        "osssc-cre-ri-amin",
+        "osssc-peo",
+        "osssc-forest-guard",
+        "osssc-mphw",
+        "oprb-police-constable",
+        "oprb-police-si"
+      ]
+    },
+    "batch-5-subordinate-police-boards--west-bengal": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — West Bengal",
+      "exam_ids": [
+        "wbprb-police-constable",
+        "wbprb-police-si",
+        "wbprb-kolkata-constable",
+        "wbprb-kolkata-si",
+        "wbprb-excise-constable"
+      ]
+    },
+    "batch-5-subordinate-police-boards--karnataka": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Karnataka",
+      "exam_ids": [
+        "ksp-police-constable",
+        "ksp-psi"
+      ]
+    },
+    "batch-5-subordinate-police-boards--andhra-pradesh": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Andhra Pradesh",
+      "exam_ids": [
+        "ap-slprb-constable",
+        "ap-slprb-si"
+      ]
+    },
+    "batch-7-state-other--andhra-pradesh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Andhra Pradesh",
+      "exam_ids": [
+        "ap-grama-sachivalayam",
+        "aptet",
+        "ap-judicial-service",
+        "aptransco-assistant-engineer"
+      ]
+    },
+    "batch-5-subordinate-police-boards--telangana": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Telangana",
+      "exam_ids": [
+        "tslprb-constable",
+        "tslprb-si"
+      ]
+    },
+    "batch-5-subordinate-police-boards--maharashtra": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Maharashtra",
+      "exam_ids": [
+        "maha-police-constable"
+      ]
+    },
+    "batch-5-subordinate-police-boards--punjab": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Punjab",
+      "exam_ids": [
+        "punjab-police-constable",
+        "punjab-police-si",
+        "psssb-clerk",
+        "psssb-patwari"
+      ]
+    },
+    "batch-5-subordinate-police-boards--gujarat": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Gujarat",
+      "exam_ids": [
+        "gujarat-police-psi",
+        "gsssb-cce-clerk",
+        "gsssb-talati-mantri"
+      ]
+    },
+    "batch-7-state-other--jharkhand": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Jharkhand",
+      "exam_ids": [
+        "jssc-cgl",
+        "jssc-excise-constable",
+        "jtet"
+      ]
+    },
+    "batch-5-subordinate-police-boards--uttarakhand": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Uttarakhand",
+      "exam_ids": [
+        "uksssc-graduate-level",
+        "uksssc-intermediate-level"
+      ]
+    },
+    "batch-5-subordinate-police-boards--jammu-kashmir": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Jammu & Kashmir",
+      "exam_ids": [
+        "jkssb-panchayat-secretary",
+        "jkssb-accounts-assistant",
+        "jkssb-junior-assistant"
+      ]
+    },
+    "batch-7-state-other--punjab": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Punjab",
+      "exam_ids": [
+        "pstet",
+        "pspcl-junior-engineer",
+        "pspcl-assistant-lineman"
+      ]
+    },
+    "batch-7-state-other--uttarakhand": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Uttarakhand",
+      "exam_ids": [
+        "utet"
+      ]
+    },
+    "batch-7-state-other--himachal-pradesh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Himachal Pradesh",
+      "exam_ids": [
+        "hptet"
+      ]
+    },
+    "batch-7-state-other--tripura": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Tripura",
+      "exam_ids": [
+        "tripura-tet"
+      ]
+    },
+    "batch-7-state-other--meghalaya": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Meghalaya",
+      "exam_ids": [
+        "meghalaya-tet"
+      ]
+    },
+    "batch-7-state-other--mizoram": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Mizoram",
+      "exam_ids": [
+        "mizoram-tet"
+      ]
+    },
+    "batch-7-state-other--nagaland": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Nagaland",
+      "exam_ids": [
+        "nagaland-tet"
+      ]
+    },
+    "batch-7-state-other--sikkim": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Sikkim",
+      "exam_ids": [
+        "sikkim-tet"
+      ]
+    },
+    "batch-7-state-other--arunachal-pradesh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Arunachal Pradesh",
+      "exam_ids": [
+        "arunachal-tet"
+      ]
+    },
+    "batch-7-state-other--manipur": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Manipur",
+      "exam_ids": [
+        "manipur-tet"
+      ]
+    },
+    "batch-4-state-psc--sikkim": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Sikkim",
+      "exam_ids": [
+        "spsc-cce",
+        "spsc-sub-inspector"
+      ]
+    },
+    "batch-4-state-psc--nagaland": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Nagaland",
+      "exam_ids": [
+        "npsc-cce"
+      ]
+    },
+    "batch-5-subordinate-police-boards--nagaland": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Nagaland",
+      "exam_ids": [
+        "nssb-csee"
+      ]
+    },
+    "batch-4-state-psc--mizoram": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Mizoram",
+      "exam_ids": [
+        "mpsc-mizoram-mcs"
+      ]
+    },
+    "batch-5-subordinate-police-boards--mizoram": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Mizoram",
+      "exam_ids": [
+        "msssb-group-c"
+      ]
+    },
+    "batch-4-state-psc--manipur": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Manipur",
+      "exam_ids": [
+        "mpsc-manipur-cce"
+      ]
+    },
+    "batch-5-subordinate-police-boards--manipur": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Manipur",
+      "exam_ids": [
+        "manipur-police-si"
+      ]
+    },
+    "batch-4-state-psc--meghalaya": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Meghalaya",
+      "exam_ids": [
+        "mpsc-meghalaya-cce"
+      ]
+    },
+    "batch-5-subordinate-police-boards--meghalaya": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Meghalaya",
+      "exam_ids": [
+        "meghalaya-police-mlp"
+      ]
+    },
+    "batch-4-state-psc--arunachal-pradesh": {
+      "label": "Major State Public Service Commissions (State Administrative Services) — Arunachal Pradesh",
+      "exam_ids": [
+        "appsc-cce"
+      ]
+    },
+    "batch-5-subordinate-police-boards--arunachal-pradesh": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Arunachal Pradesh",
+      "exam_ids": [
+        "apssb-cgl",
+        "apssb-csl"
+      ]
+    },
+    "batch-5-subordinate-police-boards--tripura": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Tripura",
+      "exam_ids": [
+        "tripura-police-constable"
+      ]
+    },
+    "batch-7-state-other--ladakh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Ladakh",
+      "exam_ids": [
+        "ladakh-ssrb-matric",
+        "ladakh-ssrb-graduate"
+      ]
+    },
+    "batch-7-state-other--puducherry": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Puducherry",
+      "exam_ids": [
+        "puducherry-udc"
+      ]
+    },
+    "batch-5-subordinate-police-boards--puducherry": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Puducherry",
+      "exam_ids": [
+        "puducherry-police-constable"
+      ]
+    },
+    "batch-7-state-other--andaman-nicobar-islands": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Andaman & Nicobar Islands",
+      "exam_ids": [
+        "andaman-administration-cgl"
+      ]
+    },
+    "batch-5-subordinate-police-boards--andaman-nicobar-islands": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Andaman & Nicobar Islands",
+      "exam_ids": [
+        "andaman-police-constable"
+      ]
+    },
+    "batch-5-subordinate-police-boards--chandigarh": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Chandigarh",
+      "exam_ids": [
+        "chandigarh-police-constable"
+      ]
+    },
+    "batch-7-state-other--chandigarh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Chandigarh",
+      "exam_ids": [
+        "chandigarh-admin-clerk"
+      ]
+    },
+    "batch-5-subordinate-police-boards--dadra-nagar-haveli-and-daman-diu": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Dadra & Nagar Haveli and Daman & Diu",
+      "exam_ids": [
+        "ssb-dnhdd-clerk"
+      ]
+    },
+    "batch-5-subordinate-police-boards--goa": {
+      "label": "Subordinate Boards & State Police Recruitment Boards — Goa",
+      "exam_ids": [
+        "goa-ssc-cgl"
+      ]
+    },
+    "batch-7-state-other--lakshadweep": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Lakshadweep",
+      "exam_ids": [
+        "lakshadweep-admin-staff"
+      ]
+    },
+    "batch-7-state-other--chhattisgarh": {
+      "label": "Other state-jurisdiction recruiters not matched above (universities, boards, CET cells, PSUs, high courts — proposed addition, flag for confirmation) — Chhattisgarh",
+      "exam_ids": [
+        "csphcl-line-attendant"
+      ]
+    }
+  },
+  "unassigned": []
+}

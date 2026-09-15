@@ -1,0 +1,244 @@
+{
+  "id": "ssc-cgl-aao",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Audit Officer (AAO) and Assistant Accounts Officer (AAO) are the premier Group 'B' Gazetted (Non-Ministerial) posts recruited through the SSC CGL examination under the Comptroller and Auditor General of India (CAG / IA&AD). Promotion from AAO to Audit Officer / Accounts Officer (AO) requires passing the Subordinate Audit/Accounts Service (SAS) examination and completing mandatory residency.",
+    "steps": [
+      {
+        "designation": "Assistant Audit Officer (AAO) / Assistant Accounts Officer (AAO)",
+        "pay_level": "Level 8",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-04-03",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Combined Graduate Level Examination 2023, Annexure-I (Group B Gazetted, Level 8)"
+      },
+      {
+        "designation": "Audit Officer (AO) / Accounts Officer (AO)",
+        "pay_level": "Level 9",
+        "years": "approx. 4-6 yrs (upon qualifying SAS and seniority)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Senior Audit Officer (Sr. AO) / Senior Accounts Officer (Sr. AO)",
+        "pay_level": "Level 10",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Accountant General (DAG) / Deputy Director (Induction into IA&AS cadre)",
+        "pay_level": "Level 11",
+        "years": "approx. 15-20 yrs (via departmental promotion quota into Indian Audit & Accounts Service)",
+        "confidence": "reported",
+        "as_of": "2023-04-03",
+        "source_url": "https://cag.gov.in",
+        "source_label": "Comptroller and Auditor General of India — Recruitment Regulations for IA&AS and Departmental Promotion Quotas"
+      },
+      {
+        "designation": "Senior Deputy Accountant General (Sr. DAG) / Director",
+        "pay_level": "Level 12",
+        "years": "approx. 22-26 yrs",
+        "confidence": "reported",
+        "as_of": "2023-04-03",
+        "source_url": "https://cag.gov.in",
+        "source_label": "Comptroller and Auditor General of India — Cadre Restructuring and Service Profile"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The examination is conducted as part of the Combined Graduate Level (CGL) Examination by SSC. Candidates must clear Tier I (computer-based objective screening, 200 marks) to qualify for Tier II. In Tier II, all candidates appear for Paper I (Mathematical Abilities, Reasoning, English, General Awareness, and Computer Knowledge Module + DEST typing test). For AAO posts, an additional specialized Paper III (General Studies — Finance and Economics, 100 questions, 200 marks) was traditionally required; in cycles where AAO posts are notified, final merit incorporates Paper I and Paper III scores.",
+    "stages": [
+      {
+        "stage_name": "Tier I: Computer-Based Examination (Screening / Qualifying for Tier II)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-04-03",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Combined Graduate Level Examination (Tier I)",
+        "papers": [
+          {
+            "paper_name": "General Intelligence and Reasoning (25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Category-wise normalized cut-off"
+          },
+          {
+            "paper_name": "General Awareness (25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Category-wise normalized cut-off"
+          },
+          {
+            "paper_name": "Quantitative Aptitude (25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Category-wise normalized cut-off"
+          },
+          {
+            "paper_name": "English Comprehension (25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Category-wise normalized cut-off"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier II: Paper I — Compulsory Core & Modules",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-04-03",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Combined Graduate Level Examination (Tier II Paper I)",
+        "papers": [
+          {
+            "paper_name": "Session I, Section I: Module-I (Mathematical Abilities, 30 Qs) & Module-II (Reasoning & General Intelligence, 30 Qs)",
+            "marks": 180,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer (3 marks per question)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Session I, Section II: Module-I (English Language & Comprehension, 45 Qs) & Module-II (General Awareness, 25 Qs)",
+            "marks": 210,
+            "duration_minutes": 60,
+            "negative_marking": "-1 mark per wrong answer (3 marks per question)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Session I, Section III: Computer Knowledge Module (20 Qs, qualifying)",
+            "marks": 60,
+            "duration_minutes": 15,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Higher qualifying standards prescribed for AAO/specific posts"
+          },
+          {
+            "paper_name": "Session II: Data Entry Speed Test (DEST) Module (2000 key depressions)",
+            "marks": null,
+            "duration_minutes": 15,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Error percentage threshold (5% UR, relaxed for reserved)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Tier II: Paper III — General Studies (Finance and Economics)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-04-03",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Combined Graduate Level Examination Scheme (Paper III for Assistant Audit Officer / Assistant Accounts Officer)",
+        "papers": [
+          {
+            "paper_name": "Part A: Financial Accounting (80 marks, 40 Qs) & Part B: Economics and Governance (120 marks, 60 Qs)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Audit Officer and Assistant Accounts Officer are the highest-paying posts in SSC CGL, placed in Pay Level 8 (₹47,600 – ₹1,51,100) under the 7th CPC. They are the only Group 'B' Gazetted positions offered through the examination.",
+    "pay_level": "Level 8",
+    "entry_basic_pay": 47600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-04-03",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 82000, "max": 96000 },
+    "in_hand_range_estimate": { "min": 75000, "max": 88000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 8 entry basic pay of ₹47,600 with 58% DA (₹27,608), HRA (10% to 30% depending on city classification X/Y/Z), Transport Allowance (₹1,800 to ₹3,600 + DA on TA), and deducting 10% NPS contribution.",
+    "official_perks": [
+      "Group 'B' Gazetted Officer status under the Comptroller & Auditor General of India",
+      "Central Government Employees Group Insurance Scheme (CGEGIS)",
+      "Central Government Health Scheme (CGHS) medical coverage for officer and family",
+      "Daily Allowance and Travelling Allowance (TA/DA) for field audit tours across government departments and PSUs",
+      "Children Education Allowance (CEA) and Annual Leave Travel Concession (LTC)",
+      "Government residential quarters allocation through Directorate of Estates / CAG pool"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Assistant Audit Officer (A01) and Assistant Accounts Officer (A02) in the Indian Audit and Accounts Department under CAG. In CGLE 2024, no AAO vacancies were requisitioned by CAG in the initial notification. In CGLE 2023, 225 vacancies were finalized for AAO (Audit). In CGLE 2022, a bumper recruitment of 1,462 vacancies (1,260 Audit + 202 Accounts) was conducted.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 225,
+        "confidence": "verified",
+        "as_of": "2023-11-16",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Final Vacancies for Combined Graduate Level Examination 2023 (Post Code A01: Assistant Audit Officer in C&AG: 225 vacancies)"
+      },
+      {
+        "year": 2022,
+        "vacancies": 1462,
+        "confidence": "verified",
+        "as_of": "2023-05-08",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Final Vacancies for Combined Graduate Level Examination 2022 (A01 Assistant Audit Officer: 1,260; A02 Assistant Accounts Officer: 202)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, final vacancy breakdowns, and syllabus references published by the Staff Selection Commission.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Website Portal",
+        "url": "https://ssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Notice of Combined Graduate Level Examination 2023 (Archived Official Notice)",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "cycle_label": "CGL-2023",
+        "confidence": "verified",
+        "as_of": "2023-04-03"
+      },
+      {
+        "label": "7th CPC Civilian Pay Matrix (Government Gazette Order)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ap-icet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "AP ICET is conducted as a single-stage Computer Based Test (CBT) of 150 minutes duration comprising 200 multiple-choice questions across three sections: Analytical Ability, Communication Ability, and Mathematical Ability. Each question carries 1 mark with no negative marking. Qualifying mark is 25% (50 out of 200) for OC/BC candidates; no minimum qualifying mark for SC/ST.",
+    "stages": [
+      {
+        "stage_name": "AP ICET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-04",
+        "source_url": "https://cets.apsche.ap.gov.in/ICET/PDF/APICET2026_InstructionBooklet_V2.pdf",
+        "source_label": "APSCHE & Andhra University — AP ICET 2026 Instruction Booklet & Test Pattern",
+        "papers": [
+          {
+            "paper_name": "Section-A: Analytical Ability (Data Sufficiency 20, Problem Solving 55)",
+            "marks": 75,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marks are awarded for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate across all sections (50 out of 200) for OC/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Section-B: Communication Ability (Vocabulary 15, Functional Grammar 20, Business & Computer Terminology 15, Reading Comprehension 20)",
+            "marks": 70,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marks are awarded for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate across all sections (50 out of 200) for OC/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Section-C: Mathematical Ability (Arithmetical Ability 35, Algebraical & Geometrical Ability 10, Statistical Ability 10)",
+            "marks": 55,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marks are awarded for wrong answers)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate across all sections (50 out of 200) for OC/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registration and appearance counts are released officially by APSCHE and the convener university following result declarations. As a university admission entrance exam for MBA and MCA courses, seats are allocated based on college counseling rather than civil vacancies; selectivity reflects the qualified-to-appeared candidate ratio.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 48828,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "42,984 qualified out of 44,446 appeared (96.71% qualification rate across AP MBA/MCA college seats)",
+        "confidence": "reported",
+        "as_of": "2024-05-30",
+        "source_url": "https://cets.apsche.ap.gov.in/ICET/",
+        "source_label": "APSCHE AP ICET 2024 Official Result Declaration and Press Statistics (48,828 registered, 44,446 appeared, 42,984 qualified)"
+      },
+      {
+        "year": 2023,
+        "applicants": 49162,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "37,326 qualified out of 44,343 appeared (84.18% qualification rate across AP MBA/MCA college seats)",
+        "confidence": "reported",
+        "as_of": "2023-06-15",
+        "source_url": "https://cets.apsche.ap.gov.in/ICET/",
+        "source_label": "APSCHE AP ICET 2023 Official Result Declaration Press Statistics (49,162 registered, 44,343 appeared, 37,326 qualified)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notification and instruction booklet links hosted on the APSCHE CETs portal.",
+    "links": [
+      {
+        "label": "AP ICET 2026 Instruction Booklet & Syllabus (PDF)",
+        "url": "https://cets.apsche.ap.gov.in/ICET/PDF/APICET2026_InstructionBooklet_V2.pdf",
+        "type": "syllabus",
+        "cycle_label": "ICET-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-04"
+      },
+      {
+        "label": "AP ICET Official Portal (APSCHE)",
+        "url": "https://cets.apsche.ap.gov.in/ICET/ICET/ICET_HomePage.aspx",
+        "type": "notification",
+        "cycle_label": "ICET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Master Question Papers with Preliminary Keys",
+        "url": "https://cets.apsche.ap.gov.in/ICET/ICET/ICET_ExamPapersKeys.aspx",
+        "type": "pyq",
+        "cycle_label": "ICET-2026",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

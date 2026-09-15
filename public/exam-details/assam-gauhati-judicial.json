@@ -1,0 +1,273 @@
+{
+  "id": "assam-gauhati-judicial",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Civil Judge (Junior Division) cum Judicial Magistrate First Class (JMFC) is the entry cadre (Grade-III) of the Assam Judicial Service, administered under the Assam Judicial Service Rules and High Court of Assam, Nagaland, Mizoram & Arunachal Pradesh (Gauhati High Court) regulations. Upward progression to senior subordinate and higher judicial cadres follows merit-cum-seniority and Limited Departmental Competitive Examination (LDCE) quotas in accordance with Second National Judicial Pay Commission (SNJPC) scales and Supreme Court mandates.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC) — Grade-III",
+        "pay_level": "SNJPC J-1 Scale (₹77,840 - ₹1,36,520)",
+        "years": "0-5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-02-06",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+        "source_label": "Gauhati High Court Notification No. HC.XXXVII-03/2023/39/R.Cell & Assam Judicial Service Rules"
+      },
+      {
+        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) / Assistant Sessions Judge — Grade-II",
+        "pay_level": "SNJPC J-3 Scale (₹1,11,000 - ₹1,63,030)",
+        "years": "5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-06-25",
+        "source_url": "https://ghconline.gov.in",
+        "source_label": "Assam Judicial Service Rules (Promotion to Grade-II Cadre on Merit-cum-Seniority)"
+      },
+      {
+        "designation": "District & Sessions Judge (Entry Level) / Additional District & Sessions Judge (ADJ) — Grade-I",
+        "pay_level": "SNJPC J-5 Scale (₹1,44,840 - ₹1,94,660)",
+        "years": "10-15 yrs",
+        "confidence": "reported",
+        "as_of": "2026-06-25",
+        "source_url": "https://ghconline.gov.in",
+        "source_label": "Assam Judicial Service Rules (Grade-I Promotion under 65% seniority-cum-merit & 10% LDCE quota)"
+      },
+      {
+        "designation": "District & Sessions Judge (Selection Grade) — Grade-I",
+        "pay_level": "SNJPC J-6 Scale (₹1,63,030 - ₹2,19,090)",
+        "years": "15-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-06-25",
+        "source_url": "https://ghconline.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Selection Grade Norms"
+      },
+      {
+        "designation": "Principal District & Sessions Judge / District Judge (Super Time Scale)",
+        "pay_level": "SNJPC J-7 Scale (₹1,99,100 - ₹2,24,100)",
+        "years": "20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-06-25",
+        "source_url": "https://ghconline.gov.in",
+        "source_label": "SNJPC Super Time Scale Guidelines & High Court Administration"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The direct recruitment examination for Grade-III of Assam Judicial Service is conducted by the Gauhati High Court in three successive stages: Preliminary Examination (Screening Test of 100 objective marks for shortlisting in a 1:10 ratio), Main Written Examination consisting of 5 papers (4 core papers of 100 marks each + 1 qualifying official language paper of 50 marks, with 1:3 shortlisting ratio for interview), followed by Viva-Voce / Interview (50 marks). Final merit list is prepared on the aggregate marks secured in the Main Written Examination (Papers I to IV, 400 marks) and Interview (50 marks), totaling 450 marks.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Examination (Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-02-06",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+        "source_label": "Gauhati High Court Advt dated 06.02.2023, Clause 3(a)-(b) & Preliminary Syllabus",
+        "papers": [
+          {
+            "paper_name": "Objective Law Screening Test (90 marks: GK, Aptitude, English, Constitution, CPC, CrPC, Transfer of Property, Contract Act, IPC, Evidence Act, Law of Torts + 10 marks: Assamese Proficiency)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 60% qualifying marks; candidates shortlisted in 1:10 ratio for Main Written Examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Main Written Examination",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-02-06",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+        "source_label": "Gauhati High Court Advt dated 06.02.2023, Clause 3(c)-(d) & Main Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper I: English (Essay Writing, Precis Writing, Grammar etc.)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks in individual paper (40% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper II: General Knowledge (Objective Type & Aptitude Test)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks in individual paper (40% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper III: Law Paper I (Constitution of India, Code of Civil Procedure, Transfer of Property Act, Indian Contract Act)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks in individual paper (40% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper IV: Law Paper II (Indian Penal Code, Criminal Procedure Code, Indian Evidence Act, Law of Torts)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks in individual paper (40% for SC/ST). Overall aggregate across Papers I-IV: 60% (50% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper V: Proficiency in the Official Language(s) of the State of Assam (Assamese)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 35% marks required (qualifying in nature; marks not added to final aggregate)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Viva-Voce / Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-02-06",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+        "source_label": "Gauhati High Court Advt dated 06.02.2023, Clause 3(e) & Final Evaluation Norms",
+        "papers": [
+          {
+            "paper_name": "Oral Interview & Judicial Personality Evaluation",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 60% marks (30 out of 50 marks) required in the interview for inclusion in final merit list"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Civil Judges (Junior Division) / JMFC in Assam are remunerated in accordance with the Second National Judicial Pay Commission (SNJPC) revised scales implemented nationwide pursuant to Supreme Court directives in All India Judges Association v. Union of India. The entry pay scale is SNJPC J-1 (₹77,840 – ₹1,36,520) with an entry basic pay of ₹77,840 per month.",
+    "pay_level": "SNJPC J-1 Scale (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-02-06",
+    "pay_source_url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+    "pay_source_label": "Gauhati High Court Notification No. HC.XXXVII-03/2023/39/R.Cell read with SNJPC Revised Judicial Scales",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 135000, "max": 155000 },
+    "in_hand_range_estimate": { "min": 115000, "max": 135000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on SNJPC J-1 entry basic pay of ₹77,840 with standardized 58% Dearness Allowance plus HRA / designated judicial residential accommodation and fixed judicial allowances (sumptuary, robe, medical, conveyance); in-hand estimate deducts 10% NPS pension contribution, GIS, and professional tax.",
+    "official_perks": [
+      "Designated government residential bungalow / judicial quarters or admissible HRA",
+      "Official vehicle / conveyance allowance with driver and fuel reimbursement as per SNJPC norms",
+      "Sumptuary allowance for official judicial entertainment and protocol",
+      "Robe and uniform allowance provided periodically",
+      "Telephone, mobile, and high-speed broadband internet reimbursements",
+      "Comprehensive medical facilities and reimbursement under State Judicial Service Health Scheme",
+      "Leave Travel Concession (LTC) and home town travel concessions"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics verified from official selection notifications, interview schedules, and final result declarations issued by the Recruitment Cell of the Gauhati High Court.",
+    "years": [
+      {
+        "year": 2026,
+        "shortlisted_for_mains": 46,
+        "selectivity_ratio": "46 candidates qualified in Main Written Examination and called for Interview/Viva-Voce in August 2026 (Advt dated 07-02-2025)",
+        "confidence": "verified",
+        "as_of": "2026-06-25",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-25-06-2026.pdf",
+        "source_label": "Gauhati High Court Notification No. HC.XXXVII-30/2025/219/R.Cell dated 25.06.2026"
+      },
+      {
+        "year": 2023,
+        "vacancies": 33,
+        "selectivity_ratio": "33 vacancies advertised (18 UR, 4 SC, 3 ST-P, 8 ST-H) with 1:10 shortlisting for mains and 1:3 for interview",
+        "confidence": "verified",
+        "as_of": "2023-02-06",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+        "source_label": "Gauhati High Court Advertisement No. HC.XXXVII-03/2023/39/R.Cell dated 06.02.2023"
+      },
+      {
+        "year": 2022,
+        "vacancies": 22,
+        "shortlisted_for_mains": 22,
+        "selectivity_ratio": "22 candidates recommended in final merit list for appointment in Grade-III of Assam Judicial Service (Advt dated 02-06-2021)",
+        "confidence": "verified",
+        "as_of": "2022-12-21",
+        "source_url": "https://ghconline.gov.in/Recruitment/Notification-21-12-2022.pdf",
+        "source_label": "Gauhati High Court Notification No. HC.XXXVII-15/2021/511/R.Cell dated 21.12.2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, addendums, main examination results, and merit lists verified live on the Gauhati High Court portal.",
+    "links": [
+      {
+        "label": "Assam Judicial Service Grade-III Direct Recruitment Advertisement (Advt 06.02.2023 PDF)",
+        "url": "https://ghconline.gov.in/Recruitment/Notification-06-02-2023-1.pdf",
+        "type": "notification",
+        "cycle_label": "AJS-2023",
+        "confidence": "verified",
+        "as_of": "2023-02-06"
+      },
+      {
+        "label": "Assam Judicial Service Grade-III Addendum to Advertisement (Notification 14.03.2023 PDF)",
+        "url": "https://ghconline.gov.in/Recruitment/Notification-14-03-2023.pdf",
+        "type": "notification",
+        "cycle_label": "AJS-2023",
+        "confidence": "verified",
+        "as_of": "2023-03-14"
+      },
+      {
+        "label": "Assam Judicial Service Grade-III Main Written Result & Interview Schedule (Notification 25.06.2026 PDF)",
+        "url": "https://ghconline.gov.in/Recruitment/Notification-25-06-2026.pdf",
+        "type": "other",
+        "cycle_label": "AJS-2025",
+        "confidence": "verified",
+        "as_of": "2026-06-25"
+      },
+      {
+        "label": "Assam Judicial Service Grade-III Final Result & Merit Recommendation (Notification 21.12.2022 PDF)",
+        "url": "https://ghconline.gov.in/Recruitment/Notification-21-12-2022.pdf",
+        "type": "other",
+        "cycle_label": "AJS-2021",
+        "confidence": "verified",
+        "as_of": "2022-12-21"
+      },
+      {
+        "label": "Assam Judicial Service Grade-III Final Marks List (Notification 21.12.2022-Mark PDF)",
+        "url": "https://ghconline.gov.in/Recruitment/Notification-21-12-2022-Mark.pdf",
+        "type": "other",
+        "cycle_label": "AJS-2021",
+        "confidence": "verified",
+        "as_of": "2022-12-21"
+      },
+      {
+        "label": "Gauhati High Court Official Portal",
+        "url": "https://ghconline.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Gauhati High Court Judicial Officers Recruitment Portal",
+        "url": "https://ghconline.gov.in/index.php/recruitment-judicial-officer/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

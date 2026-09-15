@@ -1,0 +1,180 @@
+{
+  "id": "rsmssb-cet-graduate",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The RSMSSB Common Eligibility Test (Graduation Level) is a statutory gateway examination under the Rajasthan Subordinate and Ministerial Services (Common Eligibility Test) Rules, 2022. It governs recruitment to graduate-level executive and supervisory posts listed in Schedule I of the Rules, including Junior Accountant & Tehsil Revenue Accountant (Level L-10), Platoon Commander (Level L-10), Sub-Jailor (Level L-10), Supervisor - Women Empowerment (Level L-10), Village Development Officer (Level L-6), and Patwari (Level L-5). The career progression outlined below reflects the premier financial executive cadre recruited through this gateway (Junior Accountant / TRA in the Rajasthan Subordinate Accounts Service).",
+    "steps": [
+      {
+        "designation": "Junior Accountant / Tehsil Revenue Accountant (TRA)",
+        "pay_level": "Level L-10",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Subordinate Accounts Service Rules & Advt. 02/2023"
+      },
+      {
+        "designation": "Assistant Accounts Officer Grade-II (AAO-II)",
+        "pay_level": "Level L-11",
+        "years": "approx. 5-11 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://finance.rajasthan.gov.in",
+        "source_label": "Rajasthan Subordinate Accounts Service Rules & RCS Pay Matrix"
+      },
+      {
+        "designation": "Assistant Accounts Officer Grade-I (AAO-I, Gazetted)",
+        "pay_level": "Level L-12",
+        "years": "approx. 11-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://finance.rajasthan.gov.in",
+        "source_label": "Treasury & Accounts Department Gazetted Reorganization Regulations"
+      },
+      {
+        "designation": "Accounts Officer (AO / Rajasthan Accounts Service - State Civil Cadre)",
+        "pay_level": "Level L-14",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Rajasthan Accounts Service Rules (Promotional Quota)"
+      },
+      {
+        "designation": "Senior Accounts Officer / Chief Accounts Officer (CAO)",
+        "pay_level": "Level L-15 to Level L-16",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Finance Department Senior Financial Administrative Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under Rule 7 of the Rajasthan Subordinate and Ministerial Services (CET) Rules 2022, the Graduate Level CET consists of a single-stage objective written examination of 150 questions carrying 300 marks for a duration of 3 hours. There is no negative marking. Performance generates a scorecard valid for qualifying candidates for 15-times category-wise shortlisting in subsequent post-specific recruitment examinations.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR / CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB CET Graduate Level Detailed Advertisement & Syllabus (Advt. 09/2024)",
+        "papers": [
+          {
+            "paper_name": "Composite Paper — Indian National Movement & History of India/Rajasthan, Geography, Polity, Economy, Science & Technology, Reasoning & Mental Ability, General Hindi, General English, Computer Knowledge & Current Affairs",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking in Common Eligibility Test",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit scorecard generated; candidates scoring top 15x category vacancies or 40% aggregate eligible for departmental mains examinations"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Package computed for the primary graduate-level benchmark post recruited through CET (Junior Accountant / Tehsil Revenue Accountant, Level L-10) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹23,700 per month is paid without allowances. Upon successful completion of probation, regular entry basic pay of ₹33,800 is drawn in Level L-10.",
+    "pay_level": "Level L-10",
+    "entry_basic_pay": 33800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Level L-10 Matrix",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 56000,
+      "max": 61000
+    },
+    "in_hand_range_estimate": {
+      "min": 49000,
+      "max": 54000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on Level L-10 entry basic pay of ₹33,800 at 58% DA (₹19,604 effective 01.07.2025), HRA (9% to 18% depending on city classification: ₹3,042 to ₹6,084), city compensatory allowance where applicable, net of State Insurance & General Provident Fund / RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per Rajasthan Finance Department notifications",
+      "House Rent Allowance (HRA) at 9% (Y/Z areas) or 18% (Jaipur and major cities)",
+      "Comprehensive cashless medical coverage under Rajasthan Government Health Scheme (RGHS)",
+      "Pension coverage under Rajasthan Civil Services Pension Rules (Old Pension Scheme restored in 2022)",
+      "Leave Travel Concession (LTC) and annual privilege leave encashment benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant and candidate statistics compiled from official RSMSSB examination press releases and press notes for the Common Eligibility Test (Graduation Level).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1330000,
+        "appeared": 980000,
+        "qualified_stage_1": 980000,
+        "vacancies": 1,
+        "confidence": "verified",
+        "as_of": "2024-10-01",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB CET Graduate Level 2024 Examination Attendance Press Note"
+      },
+      {
+        "year": 2022,
+        "applicants": 1127659,
+        "appeared": 822600,
+        "qualified_stage_1": 822600,
+        "vacancies": 2996,
+        "confidence": "verified",
+        "as_of": "2023-04-28",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB CET Graduate Level 2022 Result Press Note & Scorecard Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Statutory notifications, exam center updates, and examination objection documents published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Graduation Level) 2024 Examination Center Update Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET(Grudt)2024_CenterChng25092024.pdf",
+        "type": "notification",
+        "cycle_label": "CET-Grad-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Graduation Level) 2024 Question Paper Objection Press Note",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET_Grd_2024_QuesObj_PN_20112024.pdf",
+        "type": "pyq",
+        "cycle_label": "CET-Grad-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Graduation Level) 2024 Online Application Editing Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET24_Edit_21102024.pdf",
+        "type": "notification",
+        "cycle_label": "CET-Grad-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

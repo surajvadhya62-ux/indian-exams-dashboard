@@ -1,0 +1,196 @@
+{
+  "id": "rsmssb-junior-accountant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Junior Accountants in the Directorate of Treasuries & Accounts and Tehsil Revenue Accountants (TRA) in the Board of Revenue are the key financial, accounting, and internal audit officers in Rajasthan state administration. They manage treasury bills, ensure compliance with the General Financial & Accounting Rules (GF&AR), audit departmental expenditures, and manage sub-treasury accounts.",
+    "steps": [
+      {
+        "designation": "Junior Accountant / Tehsil Revenue Accountant (TRA)",
+        "pay_level": "Level L-10",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Subordinate Accounts Service Rules 1963 & Advt. 02/2023"
+      },
+      {
+        "designation": "Assistant Accounts Officer Grade-II (AAO-II)",
+        "pay_level": "Level L-11",
+        "years": "approx. 5-11 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://finance.rajasthan.gov.in",
+        "source_label": "Rajasthan Subordinate Accounts Service Promotion Regulations"
+      },
+      {
+        "designation": "Assistant Accounts Officer Grade-I (AAO-I, Gazetted)",
+        "pay_level": "Level L-12",
+        "years": "approx. 11-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://finance.rajasthan.gov.in",
+        "source_label": "Treasury & Accounts Department Gazetted Cadre Hierarchy"
+      },
+      {
+        "designation": "Accounts Officer (AO / Rajasthan Accounts Service — State Civil Cadre)",
+        "pay_level": "Level L-14",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Rajasthan Accounts Service Rules (Promotional Quota)"
+      },
+      {
+        "designation": "Senior Accounts Officer / Chief Accounts Officer (CAO / Financial Advisor)",
+        "pay_level": "Level L-15 to Level L-16",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Finance Department Senior Financial Administrative Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Junior Accountant and Tehsil Revenue Accountant Joint Direct Recruitment comprises a single-stage written competitive examination with two objective papers (Paper-I and Paper-II) carrying 450 marks each (total 900 marks), followed by document verification. For each correct response, 3 marks are awarded, and 1 mark is deducted for each incorrect answer (1/3rd negative marking). Minimum qualifying marks are 35% in each paper and 40% aggregate (5% relaxation for SC/ST). There is no interview / viva-voce test.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Jr. Accountant & TRA Detailed Advertisement No. 02/2023",
+        "papers": [
+          {
+            "paper_name": "Paper I — General Hindi (75 marks), General English (75 marks), GK with reference to Rajasthan (75 marks), General Science (75 marks), Mathematics (75 marks) & Basics of Computer (75 marks)",
+            "marks": 450,
+            "duration_minutes": 150,
+            "negative_marking": "1 mark deducted per incorrect answer (3 marks per correct question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% in paper (30% for SC/ST)"
+          },
+          {
+            "paper_name": "Paper II — Book-keeping & Accountancy (75 marks), Business Methods (75 marks), Auditing (75 marks), Indian Economics (75 marks), Rajasthan Civil Services Rules & Joining Time Rules (75 marks) & GF&AR Part-I (75 marks)",
+            "marks": 450,
+            "duration_minutes": 150,
+            "negative_marking": "1 mark deducted per incorrect answer (3 marks per correct question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 35% in paper and 40% aggregate (5% relaxation for SC/ST)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Scrutiny)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Jr. Accountant & TRA Document Verification Order Dated 27.06.2024",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Bachelor Degree in Commerce/Arts/Science, RS-CIT Certificate & CET Graduate Scorecard",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Junior Accountants and Tehsil Revenue Accountants are placed in Pay Matrix Level L-10 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹3,600) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹23,700 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹33,800 is drawn.",
+    "pay_level": "Level L-10",
+    "entry_basic_pay": 33800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Schedule Level L-10",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 56000,
+      "max": 61000
+    },
+    "in_hand_range_estimate": {
+      "min": 49000,
+      "max": 54000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level L-10 entry basic pay of ₹33,800 at 58% DA (₹19,604 effective 01.07.2025), HRA (9% to 18%: ₹3,042 to ₹6,084), special accounting allowances, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting zone (Class Y and Z cities)",
+      "Cashless medical facility across government and empanelled private hospitals under RGHS",
+      "Pension coverage under Rajasthan Civil Services Pension Rules (Old Pension Scheme restored in 2022)",
+      "Leave Travel Concession (LTC), annual privilege leave encashment, and festival advances"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official RSMSSB Junior Accountant & TRA 2023 result notifications and recommendation lists.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 192000,
+        "appeared": 67429,
+        "qualified_stage_1": 10776,
+        "recommended": 5388,
+        "vacancies": 5388,
+        "confidence": "verified",
+        "as_of": "2024-11-29",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Jr. Accountant & TRA 2023 Final Selection & Medical Examination Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory notifications, amendment advertisements, and selection orders published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Junior Accountant & TRA 2023 Full Detailed Advertisement",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/JrAccntntNTRA_Adrtzmnt_20062023.pdf",
+        "type": "notification",
+        "cycle_label": "Jr-Accountant-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Junior Accountant & TRA 2023 Amended Advertisement Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/JrActntNdTRA_AmndedAdrtzmnt_23062023.pdf",
+        "type": "notification",
+        "cycle_label": "Jr-Accountant-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Junior Accountant & TRA 2023 Medical Examination & Recommendation Order",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/JRA23_ME_29112024.pdf",
+        "type": "other",
+        "cycle_label": "Jr-Accountant-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

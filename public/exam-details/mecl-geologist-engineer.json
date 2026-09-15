@@ -1,0 +1,152 @@
+{
+  "id": "mecl-geologist-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive exploration and engineering cadre at Mineral Exploration and Consultancy Limited (MECL), Nagpur.",
+    "steps": [
+      {
+        "designation": "Executive (Geologist / Geophysicist / Mechanical / Mining)",
+        "pay_level": "E-1 Grade (IDA ₹40,000 – ₹1,40,000)",
+        "years": "Entry (0-3 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-08-25",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Advt No. 02/Rectt./2023"
+      },
+      {
+        "designation": "Assistant Manager (Exploration / Engineering)",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "approx. 3-6 yrs",
+        "confidence": "verified",
+        "as_of": "2023-08-25",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Executive Cadre Rules"
+      },
+      {
+        "designation": "Manager (Geology / Drilling / Mining)",
+        "pay_level": "E-3 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "years": "approx. 6-10 yrs",
+        "confidence": "reported",
+        "as_of": "2023-08-25",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Executive Cadre Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection based on GATE Score shortlisting followed by Document Verification and Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "GATE / Academic Score Shortlisting",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-08-25",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Selection Procedure",
+        "papers": [
+          {
+            "paper_name": "GATE Examination in Geology / Geophysics / Mining / Mechanical",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "As per GATE rules",
+            "qualifying_only": false,
+            "qualifying_threshold": "85% weightage in final selection"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-08-25",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Selection Procedure",
+        "papers": [
+          {
+            "paper_name": "Personal Interview at MECL Corporate Office, Nagpur",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "15% weightage (shortlisted 1:5 ratio)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by 3rd Pay Revision IDA pattern for Miniratna Category-I CPSEs.",
+    "pay_level": "E-1 Grade (IDA Scale ₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-08-25",
+    "pay_source_url": "https://www.mecl.co.in/Careers.aspx",
+    "pay_source_label": "MECL Advt No. 02/Rectt./2023",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 77000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 68000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry basic ₹40,000, 58% IDA DA (₹23,200), HRA (₹3,600 to ₹10,800), and exploration field allowances.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "House Rent Allowance (HRA) or leased housing",
+      "Field hardship and mining project allowances",
+      "Contributory Provident Fund, Gratuity, and Pension",
+      "Medical reimbursement for employee and family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment vacancies in geological and engineering cadres.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 36,
+        "confidence": "verified",
+        "as_of": "2023-08-25",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Advt No. 02/Rectt./2023"
+      },
+      {
+        "year": 2021,
+        "vacancies": 48,
+        "confidence": "verified",
+        "as_of": "2021-07-12",
+        "source_url": "https://www.mecl.co.in/Careers.aspx",
+        "source_label": "MECL Recruitment Advt 2021"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on MECL portal.",
+    "links": [
+      {
+        "label": "MECL Careers & Recruitment Portal",
+        "url": "https://www.mecl.co.in/Careers.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MECL Official Corporate Website",
+        "url": "https://www.mecl.co.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

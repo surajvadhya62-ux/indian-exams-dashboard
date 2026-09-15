@@ -1,0 +1,188 @@
+{
+  "id": "rsmssb-cet-12th",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The RSMSSB Common Eligibility Test (Senior Secondary Level) is a statutory qualifying gateway examination under the Rajasthan Subordinate and Ministerial Services (Common Eligibility Test) Rules, 2022. It governs recruitment to Class 12-level subordinate posts across Rajasthan Government departments, primarily Junior Assistant / Clerk Grade-II (Level L-5), Rajasthan Police Constable (Level L-5), Forest Guard (Level L-4), Hostel Superintendent (Level L-5), and Jamadar Grade-II (Level L-5). The career progression outlined below reflects the flagship benchmark clerical posting (Junior Assistant / Clerk Grade-II).",
+    "steps": [
+      {
+        "designation": "Junior Assistant / Clerk Grade-II (Kanishth Sahayak / Lipik Grade-II)",
+        "pay_level": "Level L-5",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Subordinate & Ministerial Services Rules & Advt. 10/2024"
+      },
+      {
+        "designation": "Assistant / Clerk Grade-I (Sahayak / Lipik Grade-I)",
+        "pay_level": "Level L-8",
+        "years": "approx. 5-11 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://finance.rajasthan.gov.in",
+        "source_label": "Rajasthan Ministerial Service Rules & RCS (Revised Pay) Rules 2017"
+      },
+      {
+        "designation": "Assistant Administrative Officer (AAO / Sahayak Prashasnik Adhikari)",
+        "pay_level": "Level L-10",
+        "years": "approx. 11-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://finance.rajasthan.gov.in",
+        "source_label": "Rajasthan Administrative Subordinate Service Regulations"
+      },
+      {
+        "designation": "Additional Administrative Officer (Adrikta Prashasnik Adhikari)",
+        "pay_level": "Level L-11",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Department of Personnel Rajasthan Ministerial Cadre Restructuring Order"
+      },
+      {
+        "designation": "Administrative Officer (Prashasnik Adhikari / Institutional Head)",
+        "pay_level": "Level L-12",
+        "years": "approx. 24+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Government Secretariat & Subordinate Office Administrative Cadre Hierarchy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Under Rule 7 of the Rajasthan Subordinate & Ministerial Services (CET) Rules 2022, the Senior Secondary CET consists of a single-stage objective written examination of 150 questions carrying 300 marks for a duration of 3 hours. There is no negative marking. The score card is valid for qualifying candidates for 15-times category-wise shortlisting in subsequent post-specific recruitment examinations.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR / CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB CET Senior Secondary Level Detailed Advertisement & Scheme",
+        "papers": [
+          {
+            "paper_name": "Composite Paper — Rajasthan History, Art, Culture, Indian & Rajasthan Geography, Polity, Economy, General Science, Reasoning, General Hindi, General English, Basic Computer & Current Affairs",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking in Common Eligibility Test",
+            "qualifying_only": true,
+            "qualifying_threshold": "Merit scorecard generated; candidates scoring top 15x vacancies or 40% aggregate eligible for departmental recruitment"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Package computed for the primary Class 12-level benchmark post recruited through CET (Junior Assistant / Clerk Grade-II, Level L-5) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹14,600 per month is paid without allowances. Upon successful completion of probation, regular entry basic pay of ₹20,800 is drawn.",
+    "pay_level": "Level L-5",
+    "entry_basic_pay": 20800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Level L-5 Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 38000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 33000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated on Level L-5 entry basic pay of ₹20,800 at 58% DA (₹12,064 effective 01.07.2025), HRA (9% to 18% depending on city classification: ₹1,872 to ₹3,744), city compensatory allowance where applicable, net of State Insurance & General Provident Fund / Rajasthan Government Health Scheme (RGHS) deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per Rajasthan Finance Department notifications",
+      "House Rent Allowance (HRA) at 9% (Y/Z areas) or 18% (Jaipur and major cities)",
+      "Comprehensive cashless medical treatment under Rajasthan Government Health Scheme (RGHS)",
+      "Pension coverage under Rajasthan Civil Services Pension Rules (Old Pension Scheme restored in 2022)",
+      "Leave Travel Concession (LTC) and privilege leave encashment benefits per state rules"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant and qualifying statistics compiled from official RSMSSB examination press releases and press notes for the Common Eligibility Test (Senior Secondary Level).",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 1860000,
+        "appeared": 1520000,
+        "qualified_stage_1": 1520000,
+        "vacancies": 1,
+        "confidence": "verified",
+        "as_of": "2024-10-25",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB CET Senior Secondary Level 2024 Exam Conduct Press Release"
+      },
+      {
+        "year": 2022,
+        "applicants": 1750000,
+        "appeared": 1633000,
+        "qualified_stage_1": 1633000,
+        "vacancies": 1,
+        "confidence": "verified",
+        "as_of": "2023-05-16",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB CET Sr. Sec. 2022 Result Press Note & Scorecard Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Primary statutory notifications, examination schedule, and syllabus orders published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Senior Secondary Level) 2024 Exam Schedule Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET_Sr_Sec2024_Examschedule27092024.pdf",
+        "type": "notification",
+        "cycle_label": "CET-12th-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Senior Secondary Level) 2024 Admit Card & Guidelines Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET(12TH)_aDV_14102024.pdf",
+        "type": "notification",
+        "cycle_label": "CET-12th-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Senior Secondary Level) 2024 Master Question Paper Objection Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET_Sr_Sec2024_Qest_Objct06122024.pdf",
+        "type": "pyq",
+        "cycle_label": "CET-12th-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB CET (Senior Secondary Level) 2022 Detailed Advertisement & Syllabi",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/CET%20Sr%20New.pdf",
+        "type": "syllabus",
+        "cycle_label": "CET-12th-2022",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

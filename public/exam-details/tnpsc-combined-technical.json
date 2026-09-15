@@ -1,0 +1,207 @@
+{
+  "id": "tnpsc-combined-technical",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression outlined for engineering and technical cadres recruited via Combined Technical Services (such as Junior Draughting Officer and Assistant Engineer in Public Works Department, Highways Department, and Rural Development). Direct recruitment occurs at both Diploma (Level 11) and Degree (Level 16/20) tiers.",
+    "steps": [
+      {
+        "designation": "Junior Draughting Officer (JDO) / Draughtsman Grade-III / Overseer",
+        "pay_level": "Level 11",
+        "years": "Entry (Diploma stream, approx. 0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "TNPSC Notification No. 11/2024, Combined Technical Services Examination (Diploma/ITI Level), Section 3: Posts and Vacancies (Level 11, Rs. 35,400 - 1,30,400)"
+      },
+      {
+        "designation": "Assistant Engineer (AE) / Technical Officer",
+        "pay_level": "Level 16 / 20",
+        "years": "approx. 5-10 yrs (or direct entry for Degree holders)",
+        "confidence": "verified",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNPSC Notification No. 09/2024, Combined Technical Services Examination (Non-Interview Degree Posts) (Level 16/20, Rs. 36,400 - 1,34,200)"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE) / Sub-Divisional Officer",
+        "pay_level": "Level 22",
+        "years": "approx. 10-16 yrs",
+        "confidence": "reported",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "Tamil Nadu Engineering Service Rules & PWD / Highways Engineering Service Special Rules"
+      },
+      {
+        "designation": "Executive Engineer (EE) / Divisional Engineer",
+        "pay_level": "Level 26",
+        "years": "approx. 16-22 yrs",
+        "confidence": "reported",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "Tamil Nadu Engineering Service Rules (Gazetted Executive Cadre)"
+      },
+      {
+        "designation": "Superintending Engineer (SE) / Chief Engineer (CE)",
+        "pay_level": "Level 28",
+        "years": "approx. 22-28+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "Tamil Nadu Engineering Service Apex Structure Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Combined Technical Services Examination features a unified examination structure across diploma and degree recruitments: Paper I (OMR objective test covering Tamil eligibility and General Studies) and Paper II (Computer-Based Test in the relevant engineering or technical subject). For interview posts, a 60-mark viva-voce is added.",
+    "stages": [
+      {
+        "stage_name": "Paper I — Tamil Eligibility & General Studies (Objective Type - OMR Method)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "TNPSC Notification No. 11/2024, Section 6.1: Scheme of Examination (Paper I)",
+        "papers": [
+          {
+            "paper_name": "Part A — Tamil Eligibility Test (SSLC Standard, 100 Qs)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% (60 marks) required for evaluation of Part B and Paper II; marks not added to ranking"
+          },
+          {
+            "paper_name": "Part B — General Studies (75 Qs) & Aptitude and Mental Ability Test (25 Qs)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper II — Technical Subject Paper (Computer Based Test - CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "TNPSC Notification No. 11/2024, Section 6.1: Scheme of Examination (Paper II Subject Paper)",
+        "papers": [
+          {
+            "paper_name": "Technical Discipline Subject Paper (Civil / Mechanical / Electrical / Architecture / Surveying / etc. at Diploma or Degree standard, 200 Qs)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined minimum qualifying marks (Part B of Paper I + Paper II): 135 marks (SCs, STs, MBCs, BCs) / 180 marks (Others)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries for Technical Services personnel are established under the Tamil Nadu Revised Pay Rules 2017. Junior Draughting Officers and Draughtsmen enter at Level 11 (₹35,400 - ₹1,30,400), while degree-level Assistant Engineers enter at Level 16 (₹36,400 - ₹1,34,200) or Level 20.",
+    "pay_level": "Level 11",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-08-13",
+    "pay_source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+    "pay_source_label": "TNPSC Notification No. 11/2024, Section 3: Posts and Vacancies (Level 11, Rs. 35,400 - 1,30,400 under TN Revised Pay Matrix)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 59000, "max": 66000 },
+    "in_hand_range_estimate": { "min": 51000, "max": 58000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes Level 11 entry basic pay ₹35,400 at 58% DA plus Tamil Nadu Grade-classified HRA (approx. ₹3,000 - ₹5,000) and City Compensatory Allowance. Deductions include CPS (10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "New Health Insurance Scheme (NHIS) comprehensive medical coverage for state employees and dependents",
+      "Field inspection and conveyance allowances for site engineers (PWD, Highways, TWAD)",
+      "Government quarters or standard Grade HRA according to posting district",
+      "Special technical allowance / equipment handling allowance where applicable",
+      "Leave Travel Concession (LTC) and annual Pongal festive advance"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "The Combined Technical Services Examination was introduced by TNPSC to streamline multiple departmental engineering and technical recruitments into unified diploma-level and degree-level cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 185000,
+        "vacancies": 1466,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 126 (calculated: applicants ÷ total combined technical vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-08-13",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "source_label": "TNPSC Notifications 07/2024, 09/2024, and 11/2024 (Combined Technical Services across Degree and Diploma/ITI levels)"
+      },
+      {
+        "year": 2023,
+        "applicants": 142300,
+        "vacancies": 1083,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 131 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-02-03",
+        "source_url": "https://www.tnpsc.gov.in/English/Notification.aspx",
+        "source_label": "TNPSC Combined Engineering Subordinate Services Examination (CESSE 2023, Notification No. 05/2023)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official technical recruitment notifications and syllabi on the TNPSC website.",
+    "links": [
+      {
+        "label": "Combined Technical Services Examination (Diploma/ITI Level) 2024 — Notification",
+        "url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "type": "notification",
+        "cycle_label": "CTSE Diploma 2024",
+        "confidence": "verified",
+        "as_of": "2024-08-13"
+      },
+      {
+        "label": "Combined Technical Services Examination (Non-Interview Degree Posts) 2024 — Notification",
+        "url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "type": "notification",
+        "cycle_label": "CTSE Degree 2024",
+        "confidence": "verified",
+        "as_of": "2024-07-26"
+      },
+      {
+        "label": "Combined Technical Services Examination (Interview Posts) 2024 — Notification",
+        "url": "https://www.tnpsc.gov.in/Document/english/07_2024_CTS_English_.pdf",
+        "type": "notification",
+        "cycle_label": "CTSE Interview 2024",
+        "confidence": "verified",
+        "as_of": "2024-05-15"
+      },
+      {
+        "label": "CTSE Diploma / ITI Level Detailed Syllabus",
+        "url": "https://tnpsc.gov.in/static_pdf/syllabus/ITI%20Diploma%20English.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-08-13"
+      },
+      {
+        "label": "TNPSC Official Syllabus Portal",
+        "url": "https://www.tnpsc.gov.in/English/syllabus.html",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

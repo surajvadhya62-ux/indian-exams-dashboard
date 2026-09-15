@@ -1,0 +1,294 @@
+{
+  "id": "bihar-pcs-j",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in the State of Bihar are governed by the Bihar Judicial Service Rules and the Second National Judicial Pay Commission (SNJPC) framework instituted under the directions of the Hon'ble Supreme Court of India in All India Judges Association v. Union of India (WP (C) No. 643/2015). Pay progression combines Assured Career Progression (ACP) time-scales and cadre promotional vacancies to Senior Civil Judge and District Judge cadres.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate — Entry Level",
+        "pay_level": "Level J-1",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — Stage-I ACP",
+        "pay_level": "Level J-2",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — Stage-II ACP / Senior Civil Judge (Entry Level)",
+        "pay_level": "Level J-3",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Sub-Judge — Stage-I ACP",
+        "pay_level": "Level J-4",
+        "years": "approx. 15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "Senior Civil Judge — Stage-II ACP / District Judge (Entry Level)",
+        "pay_level": "Level J-5",
+        "years": "approx. 20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "District & Sessions Judge — Selection Grade",
+        "pay_level": "Level J-6",
+        "years": "approx. 23-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "District & Sessions Judge / Principal District Judge — Super Time Scale",
+        "pay_level": "Level J-7",
+        "years": "approx. 27+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Orders in WP(C) 643/2015"
+      },
+      {
+        "designation": "Elevation to High Court Judge (Patna High Court / Constitutional Courts)",
+        "pay_level": "High Court Judge (Constitutional)",
+        "years": "Apex Selection",
+        "confidence": "verified",
+        "as_of": "2024-01-10",
+        "source_url": "https://www.doj.gov.in/",
+        "source_label": "Constitution of India, Article 217 (Judicial Service elevation quota to High Court bench)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "BPSC conducts the Bihar Judicial Service Competitive Examination in three successive stages: Preliminary Examination (Objective screening, 250 marks), Main Written Examination (Descriptive, 1050 marks across 5 compulsory and 3 optional papers), and Viva-Voce (Interview, 100 marks with a mandatory 35% qualifying threshold).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective OMR Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — Bihar Judicial Services Competitive Examination Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper I — General Knowledge (सामान्य ज्ञान)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II — Law (विधि)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — Bihar Judicial Services Competitive Examination Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Knowledge including Current Affairs (Compulsory)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Elementary General Science (Compulsory)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Hindi (Compulsory Qualifying)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "30%"
+          },
+          {
+            "paper_name": "General English (Compulsory Qualifying)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "30%"
+          },
+          {
+            "paper_name": "Law of Evidence and Procedure (Compulsory)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Subject 1 (Selected from 5 prescribed law subjects)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Subject 2 (Selected from 5 prescribed law subjects)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Subject 3 (Selected from 5 prescribed law subjects)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce (Personality Test / Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — Bihar Judicial Services Competitive Examination Scheme and Rules (Minimum 35% in interview required to qualify for merit list)",
+        "papers": [
+          {
+            "paper_name": "Interview Board (BPSC, Patna)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "35% (mandatory minimum)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "State judicial officers in Bihar do not draw central 7th CPC civil salaries; they are governed by the Second National Judicial Pay Commission (SNJPC) Pay Matrix Level J-1 implemented pursuant to Supreme Court orders in All India Judges Association v. Union of India.",
+    "pay_level": "Level J-1 (SNJPC)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-10",
+    "pay_source_url": "https://www.doj.gov.in/",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) Pay Matrix Table for Subordinate Judicial Officers",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 132000, "max": 155000 },
+    "in_hand_range_estimate": { "min": 108000, "max": 128000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Range assumes Level J-1 entry basic pay of ₹77,840 at project standard 58% DA (effective 1 Jul 2025). Emoluments include judicial allowance, HRA (8% to 18% based on Patna or district posting), sumptuary allowance, and medical benefits. In-hand estimates reflect standard deductions including 10% NPS contribution and applicable income tax.",
+    "official_perks": [
+      "Official rent-free government bungalow / judicial quarters or designated leased housing",
+      "Official staff vehicle with fuel allowance and designated official driver",
+      "Judicial allowance and sumptuary allowance",
+      "Comprehensive medical coverage for officer, spouse, and dependent family members",
+      "Robe allowance, library/book grant, and residential telephone/broadband allowance",
+      "Armed security guard and orderlies at official residence and courtroom"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant, preliminary attendance, vacancy, and interview shortlisting figures compiled from official BPSC notifications, result declarations, and press releases for the 32nd (Advt. No. 23/2023) and 31st (Advt. No. 04/2020) Bihar Judicial Services Competitive Examinations. Selectivity ratios calculated as total examinees appeared divided by final notified vacancies.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 17819,
+        "vacancies": 155,
+        "shortlisted_for_mains": 1675,
+        "selectivity_ratio": "approx. 1 in 115 (calculated: 17,819 appeared in Prelims ÷ 155 vacancies; 463 qualified for interview)",
+        "confidence": "verified",
+        "as_of": "2024-11-28",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — 32nd Bihar Judicial Services (Advt. No. 23/2023) Prelims Result (1,675 qualified of 17,819 appeared), Mains Result (463 qualified), and Final Result"
+      },
+      {
+        "year": 2020,
+        "applicants": 15369,
+        "vacancies": 221,
+        "shortlisted_for_mains": 2379,
+        "selectivity_ratio": "approx. 1 in 70 (calculated: 15,369 appeared in Prelims ÷ 221 vacancies; 693 qualified for interview)",
+        "confidence": "verified",
+        "as_of": "2022-10-10",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — 31st Bihar Judicial Services (Advt. No. 04/2020) Prelims Result (2,379 qualified of 15,369 appeared), Mains Result (693 qualified), and Final Result"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All document links verified live on the official Bihar Public Service Commission (bpsc.bihar.gov.in) portal.",
+    "links": [
+      {
+        "label": "33rd Bihar Judicial Services (Preliminary) Competitive Examination — Postponement Notice (Advt. No. 12/2026)",
+        "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Important-Notice-33rd-BJSE-Pre-Exam.-Postponed_BPSC-20260525-3avosd.pdf",
+        "type": "notification",
+        "cycle_label": "33rd-BJS-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-25"
+      },
+      {
+        "label": "33rd Bihar Judicial Services Examination Program Notice (Advt. No. 12/2026)",
+        "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Important-Notice-cum-Examination-Program-33rd-BJSE-Pre-Exam.-122026_BPSC-20260513-itz27v.pdf",
+        "type": "other",
+        "cycle_label": "33rd-BJS-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-13"
+      },
+      {
+        "label": "Bihar Public Service Commission — Official Portal & Judicial Recruitment Archive",
+        "url": "https://bpsc.bihar.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

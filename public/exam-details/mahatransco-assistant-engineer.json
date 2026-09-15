@@ -1,0 +1,182 @@
+{
+  "id": "mahatransco-assistant-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive engineering hierarchy within Maharashtra State Electricity Transmission Company Limited (MSETCL / Mahatransco), the state-owned transmission utility managing over 50,000 circuit km of high-voltage transmission lines, 400kV/220kV/132kV substations, and the State Load Dispatch Centre (SLDC) at Kalwa. Promotion from Assistant Engineer up to Executive Director is governed by MSETCL Employees' Service Regulations based on Departmental Promotion Committee (DPC) reviews, seniority-cum-merit, and departmental qualifications.",
+    "steps": [
+      {
+        "designation": "Assistant Engineer (Transmission / Telecom / Civil) (सहाय्यक अभियंता) — Pay Group II",
+        "pay_level": "Pay Scale ₹49,210 – ₹1,19,315",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Direct Recruitment Advertisement No. 07/2023, Section 2 (Compensation and Scales of Pay)"
+      },
+      {
+        "designation": "Executive Engineer (Transmission Division / Substation / SLDC In-Charge) — Pay Group I",
+        "pay_level": "Pay Scale ₹70,660 – ₹1,48,220",
+        "years": "approx. 7-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Officers' Service Regulations (Promotion quota for Assistant Engineers)"
+      },
+      {
+        "designation": "Superintending Engineer (Transmission Circle In-Charge / अधीक्षक अभियंता) — Pay Group I",
+        "pay_level": "Pay Scale ₹92,305 – ₹1,78,415",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Senior Technical Management Regulations"
+      },
+      {
+        "designation": "Chief Engineer (Transmission Zone Head / मुख्य अभियंता) — Pay Group I Apex",
+        "pay_level": "Pay Scale ₹1,18,500 – ₹2,14,100",
+        "years": "approx. 22-27 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Executive Service Regulations (Head of Transmission Zone)"
+      },
+      {
+        "designation": "Executive Director (Operations / Projects / Commercial / HR) — Board Level Management",
+        "pay_level": "Pay Scale ₹1,33,000 – ₹2,28,000",
+        "years": "approx. 27+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Top Management Service Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted as an online Computer Based Test (CBT) by the Institute of Banking Personnel Selection (IBPS) on behalf of MSETCL. The test consists of 130 objective multiple-choice questions carrying a total of 150 marks over 120 minutes. Negative marking is applicable at 0.25 (1/4th) of the marks assigned to each specific question for incorrect answers. There is no personal interview for Assistant Engineer posts; final merit ranking and selection are determined solely by CBT performance followed by document verification.",
+    "stages": [
+      {
+        "stage_name": "Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-12-15",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Employment Advertisement No. 07/2023, Clause 5 (Method of Selection & Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Test of Professional Knowledge (Electrical / Telecommunication / Civil Engineering)",
+            "marks": 110,
+            "duration_minutes": 120,
+            "negative_marking": "-0.55 marks per wrong answer (1/4th of 2.2 marks per question; 50 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.125 marks per wrong answer (1/4th of 0.5 marks per question; 40 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Quantitative Aptitude",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "-0.125 marks per wrong answer (1/4th of 0.5 marks per question; 20 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Marathi Language",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "-0.125 marks per wrong answer (1/4th of 0.5 marks per question; 20 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "MSETCL is an unbundled state power transmission utility operating under MSEB Holding Company Ltd., wholly owned by the Government of Maharashtra. Pay scales are established under tripartite utility wage agreements, strictly independent of Central 7th CPC structures.",
+    "pay_level": "Pay Group II (Scale ₹49,210 – ₹1,19,315)",
+    "entry_basic_pay": 49210,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-01",
+    "pay_source_url": "https://www.mahatransco.in",
+    "pay_source_label": "MSETCL Direct Recruitment Advt. No. 07/2023, Section 2 (Assistant Engineer Scale ₹49,210 – ₹1,19,315)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 84000, "max": 95000 },
+    "in_hand_range_estimate": { "min": 72000, "max": 82000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Pay Group II entry basic pay of ₹49,210 with 58% DA (₹28,542 effective 01.07.2025), HRA (9% to 27% based on city tier: ₹4,429 to ₹13,287), Substation Duty / Grid Technical Allowance, net of Contributory Provident Fund (12% of basic + DA = ₹9,330), profession tax (₹200), and contributory medical insurance deductions.",
+    "official_perks": [
+      "Substation colony residential quarters or House Rent Allowance (HRA)",
+      "Contributory Provident Fund (CPF) and Gratuity under MSETCL Rules",
+      "Comprehensive medical scheme covering employee and family dependents",
+      "Concessional electricity facility under MSEB successor entity staff rules",
+      "Shift allowance and High Voltage Risk Allowance for transmission grid engineers",
+      "Leave Encashment and Leave Travel Assistance (LTA)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment notifications and applicant figures across MSETCL Assistant Engineer direct recruitments.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 75000,
+        "vacancies": 388,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 193 (approx. 75,000 engineering applicants for 388 Assistant Engineer posts: AE Transmission 280, AE Telecommunication 76, AE Civil 32 under Advt. No. 07/2023)",
+        "confidence": "reported",
+        "as_of": "2023-12-31",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Direct Recruitment Advertisement No. 07/2023 and Selection Result Announcements"
+      },
+      {
+        "year": 2022,
+        "applicants": 58000,
+        "vacancies": 223,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 260 (calculated: approx. 58,000 applicants for 223 Assistant Engineer vacancies: AE Transmission 170, AE Telecom 25, AE Civil 28 under Advt. No. 04/2022)",
+        "confidence": "reported",
+        "as_of": "2022-06-30",
+        "source_url": "https://www.mahatransco.in",
+        "source_label": "MSETCL Recruitment Advertisement No. 04/2022 and Selection Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official corporate website and recruitment portal of Maharashtra State Electricity Transmission Company Limited.",
+    "links": [
+      {
+        "label": "MSETCL Official Corporate Website",
+        "url": "https://www.mahatransco.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MSETCL Career & Recruitment Portal",
+        "url": "https://www.mahatransco.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

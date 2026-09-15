@@ -1,0 +1,253 @@
+{
+  "id": "spsc-sub-inspector",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Direct recruitment through the Sikkim Public Service Commission (SPSC) inducts officers as Sub-Inspectors of Police in the Sikkim Police, Government of Sikkim. Governed by statutory service rules and recruitment regulations notified under Notification No. 238/DIGP/PHQ/2025 dated 29.04.2025. Entry is at Pay Matrix Level 12 (₹37,500 entry basic pay under the Sikkim Services (Revised Pay) Rules, 2018; pre-revised PB-2 ₹9,300 - ₹34,800 + Grade Pay ₹3,800). Sub-Inspectors serve as investigating officers, border checkpoint commanders, and station house officers, advancing through the gazetted ranks of Sikkim Police and the Sikkim State Police Service (SSPS) up to Indian Police Service (IPS) induction.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector of Police (SI / Station House Officer / Investigating Officer / Border Outpost Officer)",
+        "pay_level": "Level 12 in the Sikkim State Pay Matrix (₹37,500 entry basic pay, scale ₹37,500 - ₹88,500 under Sikkim Services (Revised Pay) Rules, 2018)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Advertisements/Sub_Inspector_Police_Adv_20_05_2025.pdf",
+        "source_label": "SPSC Sub-Inspector of Police Recruitment Advertisement (Advt. No. 14/SPSC/EXAM/2025 dated 20.05.2025)"
+      },
+      {
+        "designation": "Inspector of Police (PI / Circle Inspector / SHO of Major Police Stations / Special Branch Inspector)",
+        "pay_level": "Level 14 / Level 15 in the Sikkim State Pay Matrix (Entry Basic ₹43,000 - ₹45,600)",
+        "years": "approx. 6-10 yrs",
+        "confidence": "reported",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Sub_Inspector_Police_Notification_20_05_2025.pdf",
+        "source_label": "Sikkim Police Subordinate Service Rules & Police Headquarters Cadre Schedule"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / Sub-Divisional Police Officer (SDPO) / Assistant Commandant IRBn / SAP)",
+        "pay_level": "Level 16 in the Sikkim State Pay Matrix (Entry Basic ₹49,100; Sikkim State Police Service Gazetted Cadre)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "reported",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Sub_Inspector_Police_Notification_20_05_2025.pdf",
+        "source_label": "Sikkim State Police Service Rules & Department of Personnel Promotion Regulations"
+      },
+      {
+        "designation": "Additional Superintendent of Police (Addl. SP / Second-in-Command IRBn / Addl. SP District)",
+        "pay_level": "Level 17 / Level 18 in the Sikkim State Pay Matrix (Entry Basic ₹53,500 - ₹62,900)",
+        "years": "approx. 20-24 yrs",
+        "confidence": "reported",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Sub_Inspector_Police_Notification_20_05_2025.pdf",
+        "source_label": "Sikkim Police Executive Cadre Regulations"
+      },
+      {
+        "designation": "Superintendent of Police (SP / Commandant / District Police Chief / Induction into IPS)",
+        "pay_level": "Central Pay Matrix Level 11 (₹67,700) to Level 13 (Selection Grade ₹1,23,100) on IPS Induction",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Sub_Inspector_Police_Notification_20_05_2025.pdf",
+        "source_label": "Indian Police Service (Appointment by Promotion) Regulations & MHA Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Governed by statutory recruitment rules notified vide Notification No. 238/DIGP/PHQ/2025 dated 29.04.2025 and SPSC Advertisement No. 14/SPSC/EXAM/2025 dated 20.05.2025. The selection process consists of three successive stages: Stage 1 Preliminary Examination (Objective Type Screening Test of 300 marks across 2 papers, each 2 hours duration; shortlists candidates at 12 to 15 times the vacancies for physical tests); Stage 2 Physical Measurement Test (PMT, qualifying) & Physical Efficiency Test (PET, 50 marks across 5 events: 100m run, 1500m run, high jump, long jump, shot-put); and Stage 3 Main Written Examination (500 marks across 3 papers: Paper I English 100 marks, Paper II General Studies I 200 marks, Paper III General Studies II 200 marks). Notice: Under the revised 2025 police recruitment framework, there is no viva-voce / interview stage; final merit is determined strictly on the aggregate of Stage 2 (PET 50 marks) and Stage 3 (Main Written 500 marks), totaling 550 marks.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Preliminary Examination (Objective Type Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Syllabus/Sub_Inspector_Police_Syllabus_20_05_2025.pdf",
+        "source_label": "SPSC Sub-Inspector Scheme of Examination & Syllabus (Advt. No. 14/SPSC/EXAM/2025)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies (General Science, Current Events of State, National & International Importance, History of India & Indian National Movement, India and World Geography, Indian Polity and Governance, Economic and Social Development)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": "Penalty for wrong answers as per SPSC instructions (standard deduction applies for each incorrect MCQ answer; unanswered questions attract no penalty)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; marks not counted in final merit ranking. Shortlists approximately 12 to 15 times the number of vacancies for Stage 2 (PMT/PET)."
+          },
+          {
+            "paper_name": "Paper II: Reasoning, Aptitude & Mental Ability (Reading Comprehension, Interpersonal Skills including Communication, Logical Reasoning & Analytical Ability, Decision Making & Problem Solving, General Mental Ability, Basic Numeracy of Class X level, Data Interpretation)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": "Penalty for wrong answers as per SPSC instructions (standard deduction applies for each incorrect MCQ answer; unanswered questions attract no penalty)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; marks not counted in final merit ranking."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Measurement Test (PMT) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Sub_Inspector_Police_Notification_20_05_2025.pdf",
+        "source_label": "Sikkim Police Notification No. 238/DIGP/PHQ/2025 dated 29.04.2025 & Advt. No. 14/SPSC/EXAM/2025",
+        "papers": [
+          {
+            "paper_name": "Physical Measurement Test (PMT: Minimum Height: Male 5'3\", Female 5'0\"; Chest for Male: 32\" unexpanded with min 2\" expansion; Weight: Male 50 kg, Female 45 kg)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard; failure to meet physical measurement parameters results in immediate disqualification prior to PET."
+          },
+          {
+            "paper_name": "Physical Efficiency Test (PET - 50 Marks Total across 5 Events: 100 Metres Sprint [10 marks], 1500 Metres Run [10 marks], High Jump [10 marks], Long Jump [10 marks], Shot-Put [16 lbs for Male, 8 lbs for Female - 10 marks])",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Main Written Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Syllabus/Sub_Inspector_Police_Syllabus_20_05_2025.pdf",
+        "source_label": "SPSC Sub-Inspector Scheme of Examination & Syllabus (Advt. No. 14/SPSC/EXAM/2025)",
+        "papers": [
+          {
+            "paper_name": "Paper I: English (Descriptive & Objective: English Essay, Précis Writing, Comprehension of Unseen Passages, English Grammar and Composition)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper II: General Studies I (Objective MCQ: History of India & Indian National Movement, History and Culture of Sikkim, Geography of India & Sikkim, Indian Polity and Constitution, State Administration)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Penalty for incorrect responses as specified in SPSC examination instructions",
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper III: General Studies II (Objective MCQ: Indian Economy & Development, Science & Technology, Environment & Ecology, Disaster Management, General Mental Ability & Reasoning, Current National & International Affairs)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "Penalty for incorrect responses as specified in SPSC examination instructions",
+            "qualifying_only": false
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Sub-Inspectors of Police in Sikkim Police are appointed in Pay Matrix Level 12 with an entry basic pay of ₹37,500 (scale ₹37,500 - ₹88,500) under the Sikkim Services (Revised Pay) Rules, 2018 (corresponding to pre-revised PB-2 ₹9,300 - ₹34,800 + Grade Pay ₹3,800 under Sikkim ROP 2010). Note that under Government Notification No. 489/GEN/DOP dated 31.10.2011, direct recruits receive fixed stipendiary/basic pay during the initial training/probation period before standard allowances become fully operative.",
+    "pay_level": "Level 12 in the Sikkim State Pay Matrix (Entry Basic ₹37,500; pre-revised PB-2 ₹9,300 - ₹34,800 + Grade Pay ₹3,800 under Sikkim Services (Revised Pay) Rules, 2018)",
+    "entry_basic_pay": 37500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-05-20",
+    "pay_source_url": "https://spsc.sikkim.gov.in/Advertisements/Sub_Inspector_Police_Adv_20_05_2025.pdf",
+    "pay_source_label": "SPSC Advt. No. 14/SPSC/EXAM/2025 & Sikkim Services (Revised Pay) Rules, 2018 Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 64500, "max": 70500 },
+    "in_hand_range_estimate": { "min": 57500, "max": 63500 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 12 entry basic pay of ₹37,500 at project standard 58% Dearness Allowance (effective 1 Jul 2025; ₹21,750), plus House Rent Allowance (8% in Gangtok urban police stations = ₹3,000; 4% to 7% in other district outposts and border locations = ₹1,500 to ₹2,625), Uniform Maintenance & Kit Allowance (₹1,000 - ₹1,500/month), Special Hill / High-Altitude Compensatory Allowance (₹1,500 - ₹2,000/month for border and mountainous checkposts), and Medical Allowance (₹500/month). Net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic + DA = ₹5,925), Sikkim State Government Employees Group Insurance Scheme (SGEGIS, ₹300), and Professional Tax (₹200). Note that during initial basic training at the Police Training Centre under Notification No. 489/GEN/DOP dated 31.10.2011, recruits draw fixed stipendiary pay.",
+    "official_perks": [
+      "Government designated police family housing quarters or barracks accommodation at district police stations or reserve lines",
+      "Official wireless-fitted patrol vehicle / motorcycle entitlement for operational investigation and beat patrolling duties",
+      "Uniform grant and monthly uniform kit maintenance allowance under Sikkim Police regulations",
+      "Special border area, high-altitude, and hazardous duty allowances when posted at Nathula, Kupup, or high-altitude checkposts",
+      "Comprehensive medical coverage under the Sikkim State Medical Attendance Rules for self and family dependents",
+      "Leave Travel Concession (LTC), Earned Leave encashment, and police welfare loan facilities"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics, vacancies, and recommendation tallies compiled directly from primary Sikkim Public Service Commission advertisements and final merit recommendation notices.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 39,
+        "selectivity_ratio": "Recruitment initiated (39 vacancies of Sub-Inspector of Police in Level 12 advertised under Advt. No. 14/SPSC/EXAM/2025 dated 20.05.2025; governed by revised Sikkim Police Notification No. 238/DIGP/PHQ/2025 dated 29.04.2025 with 3-stage scheme comprising 300 marks Prelims, 50 marks PET, and 500 marks Mains written test with no viva-voce)",
+        "confidence": "verified",
+        "as_of": "2025-05-20",
+        "source_url": "https://spsc.sikkim.gov.in/Advertisements/Sub_Inspector_Police_Adv_20_05_2025.pdf",
+        "source_label": "SPSC Advt. No. 14/SPSC/EXAM/2025 dated 20.05.2025 & Police Notification No. 238/DIGP/PHQ/2025"
+      },
+      {
+        "year": 2018,
+        "vacancies": 10,
+        "selectivity_ratio": "approx. 1 in 150+ (10 vacancies advertised under Advt. No. 03/SPSC/EXAM/2018 in PB-2 ₹9,300 - ₹34,800 + GP ₹3,800; selection completed through written examination, physical tests, and viva-voce; exactly 10 candidates recommended in final merit list declared on 23.03.2020 vide Notice Ref No: 23/EXAM/SPSC/2020: Tashi Wangchuk Bhutia, Tshering Dorjee Bhutia, Sonam Palzor Bhutia, Karma Thinlay Bhutia, Passang Norbu Lepcha, Abhishek Rai, Prayash Sharma, Bishal Sharma, Pempa Tshering Tamang, and Mingma Sherpa)",
+        "confidence": "verified",
+        "as_of": "2020-03-23",
+        "source_url": "https://spsc.sikkim.gov.in/Results/Final_Notice_for_Sub_Inspector_Sikkim_Police.pdf",
+        "source_label": "SPSC Final Recommendation Notice Ref No: 23/EXAM/SPSC/2020 dated 23.03.2020"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, statutory police department rules, examination syllabi, and final recommendation notices published on the Sikkim Public Service Commission portal.",
+    "links": [
+      {
+        "label": "SPSC Official Commission Portal",
+        "url": "https://spsc.sikkim.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Advertisements Archive",
+        "url": "https://spsc.sikkim.gov.in/Advertisements.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Results and Recommendation Notices Archive",
+        "url": "https://spsc.sikkim.gov.in/Results.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Sub-Inspector of Police Official Recruitment Advertisement (Advt. No. 14/SPSC/EXAM/2025 for 39 posts)",
+        "url": "https://spsc.sikkim.gov.in/Advertisements/Sub_Inspector_Police_Adv_20_05_2025.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Sikkim Police Sub-Inspector Statutory Recruitment Notification (Notification No. 238/DIGP/PHQ/2025 dated 29.04.2025)",
+        "url": "https://spsc.sikkim.gov.in/Notices/Sub_Inspector_Police_Notification_20_05_2025.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Sub-Inspector Scheme of Examination and Detailed Syllabus (Advt. No. 14/SPSC/EXAM/2025)",
+        "url": "https://spsc.sikkim.gov.in/Syllabus/Sub_Inspector_Police_Syllabus_20_05_2025.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Sub-Inspector of Police Final Recommendation Notice (Ref No: 23/EXAM/SPSC/2020 dated 23.03.2020 for 10 posts)",
+        "url": "https://spsc.sikkim.gov.in/Results/Final_Notice_for_Sub_Inspector_Sikkim_Police.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

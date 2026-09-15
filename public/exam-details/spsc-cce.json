@@ -1,0 +1,304 @@
+{
+  "id": "spsc-cce",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Recruitment through the Sikkim Public Service Commission Combined Competitive Examination (CCE) inducts officers into the Sikkim State Civil Service (SSCS - Under Secretary), Sikkim State Police Service (SSPS - Deputy Superintendent of Police), and Sikkim State Finance & Accounts Service (SSF&AS - Accounts Officer). Governed by the Sikkim State Civil Service Rules, Sikkim State Police Service Rules, and Sikkim State Finance & Accounts Service Rules under the Department of Personnel (DOP), Government of Sikkim. Under the Sikkim Services (Revised Pay) Rules, 2018, Under Secretary and Accounts Officer enter at Pay Matrix Level 15 (₹45,600 entry basic pay), while Deputy Superintendent of Police enters at Pay Matrix Level 16 (₹49,100 entry basic pay). Note: Stipendiary / fixed pay during initial probation/training is regulated by Notification No. 489/GEN/DOP dated 31.10.2011.",
+    "steps": [
+      {
+        "designation": "Under Secretary (Sikkim State Civil Service) / Accounts Officer (Sikkim State Finance & Accounts Service)",
+        "pay_level": "Level 15 in the Sikkim State Pay Matrix (₹45,600 entry basic pay, scale ₹45,600 - ₹1,07,500 under Sikkim Services (Revised Pay) Rules, 2018)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "source_label": "The Sikkim State Civil Service (Direct Recruitment) Examination Rules, 2026 (Notification No. 186/GEN/DOP) & SPSC Advt. No. 11/SPSC/EXAM/2022"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP / Sub-Divisional Police Officer (SDPO) - Sikkim State Police Service)",
+        "pay_level": "Level 16 in the Sikkim State Pay Matrix (₹49,100 entry basic pay, scale ₹49,100 - ₹1,15,500 under Sikkim Services (Revised Pay) Rules, 2018)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2022-09-29",
+        "source_url": "https://spsc.sikkim.gov.in/Advertisements/Combinned_US_AO_DSP_ADD_29_09_2022.pdf",
+        "source_label": "SPSC Combined Recruitment Advertisement (Advt. No. 11/SPSC/EXAM/2022 dated 29.09.2022)"
+      },
+      {
+        "designation": "Deputy Secretary to Government of Sikkim / Senior Accounts Officer / Additional Superintendent of Police (Addl. SP)",
+        "pay_level": "Level 17 / Level 18 in the Sikkim State Pay Matrix (Entry Basic ₹53,500 - ₹62,900)",
+        "years": "approx. 6-9 yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "source_label": "Sikkim Department of Personnel (DOP) Cadre Management & Sikkim Services (Revised Pay) Rules, 2018"
+      },
+      {
+        "designation": "Joint Secretary / Chief Accounts Officer / Director / Superintendent of Police (District SP)",
+        "pay_level": "Level 19 / Level 20 in the Sikkim State Pay Matrix (Entry Basic ₹65,200 - ₹73,800)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "source_label": "Sikkim State Civil Service Rules & Sikkim Police Service Cadre Schedule"
+      },
+      {
+        "designation": "Additional Secretary / Director of State Directorate / Senior SP (Selection Grade)",
+        "pay_level": "Level 21 in the Sikkim State Pay Matrix (Entry Basic ₹78,800 - ₹1,77,500)",
+        "years": "approx. 17-21 yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "source_label": "Sikkim Department of Personnel Cadre Management"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) / Indian Police Service (IPS) (Sikkim Cadre) / Special Secretary to Government",
+        "pay_level": "Central Pay Matrix Level 13 (₹1,23,100) to Level 14 (Super Time Scale ₹1,44,200)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "source_label": "IAS/IPS (Appointment by Promotion) Regulations & Sikkim DOP Promotion Committee"
+      },
+      {
+        "designation": "District Magistrate & Collector (DM) / Commissioner-cum-Secretary / Principal Secretary / Additional Chief Secretary",
+        "pay_level": "Super Time Scale (Level 14, ₹1,44,200) to Higher Administrative Grade (Level 15, ₹1,82,200) / Apex Scale",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "source_label": "Sikkim State Administrative Hierarchy & DOP Service Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Governed by the statutory recruitment rules notified by the Department of Personnel, Government of Sikkim, notably The Sikkim State Civil Service (Direct Recruitment) Examination Rules, 2026 (notified vide Notification No. 186/GEN/DOP dated 10.02.2026 and published under SPSC Notice No. 96/SPSC/EXAM/2026 dated 23.02.2026), as well as earlier combined multi-cadre notifications (Advt. No. 11/SPSC/EXAM/2022). Direct recruitment comprises three successive stages: Stage I Preliminary Examination (Objective Type Screening Test of 400 marks, consisting of two papers with 1/3rd negative marking; shortlisting candidates at a ratio of 20 times the vacancies for Mains); Stage II Main Examination (Written examination of 4 papers totaling 1,000 marks merit basis, where Paper I English is qualifying and Papers II, III, IV General Studies carry 300 marks each); and Stage III Personality Test / Interview (100 marks; candidates shortlisted at 5 times the vacancies). Total merit ranking is computed out of 1,000 marks (900 marks from GS Papers II, III, IV + 100 marks Personality Test).",
+    "stages": [
+      {
+        "stage_name": "Stage I: Preliminary Examination (Objective Type Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Plan%20of%20Examination_23_02_2026.pdf",
+        "source_label": "The Sikkim State Civil Service Examination Rules, 2026 (Appendix I: Plan of Examination)",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies (Indian History & Culture, Geography of India & World, Indian Polity & Governance, Economic & Social Development, General Science & Technology, Environmental Ecology & Climate Change, Current Events of State, National & International Importance)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "One-third (0.33) of the marks assigned to that question deducted as penalty for each incorrect answer; unanswered questions attract no deduction",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; marks not counted for final merit. Shortlists candidates at a ratio of 20 times the number of advertised vacancies for the Main Examination."
+          },
+          {
+            "paper_name": "Paper II: Aptitude Test (Comprehension & Interpersonal Skills, Logical Reasoning & Analytical Ability, Decision Making & Problem Solving, General Mental Ability, Basic Numeracy & Data Interpretation of Class X level)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "One-third (0.33) of the marks assigned to that question deducted as penalty for each incorrect answer; unanswered questions attract no deduction",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test only; marks not counted for final merit ranking."
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Main Examination (Written Examination)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Schemes_&_Syllabus_23_02_2026.pdf",
+        "source_label": "The Sikkim State Civil Service Examination Rules, 2026 (Appendix II & III: Scheme & Syllabus)",
+        "papers": [
+          {
+            "paper_name": "Paper I: English (Comprehension of given passages, Précis writing, Usage & Vocabulary, Short Essay)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying paper of matriculation standard; marks not counted in final merit ranking, but candidates must attain the minimum qualifying standard to have their scoring papers evaluated."
+          },
+          {
+            "paper_name": "Paper II: General Studies I (Section A: History, Geography and Culture of Sikkim [60 marks MCQ]; Section B: History of India and Indian National Movement, World History [120 marks MCQ + Subjective/Analytical]; Section C: Indian Society, Social Issues & Social Justice [120 marks MCQ + Subjective/Analytical])",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper III: General Studies II (Section A: Ethics, Integrity and Aptitude [60 marks]; Section B: Science & Technology, IT, Space, Biotechnology, Emerging Technologies [120 marks]; Section C: Geography of India and the World, Physical, Economic & Human Geography [120 marks])",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper IV: General Studies III (Section A: Environment, Ecology, Biodiversity & Disaster Management [60 marks]; Section B: Indian Polity, Governance, Constitution & International Relations [120 marks]; Section C: Indian Economy, Economic Development & Fiscal Management [120 marks])",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage III: Personality Test / Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Plan%20of%20Examination_23_02_2026.pdf",
+        "source_label": "The Sikkim State Civil Service Examination Rules, 2026 (Appendix I, Clause 6)",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Interview (Board interview assessing intellectual caliber, social traits, awareness of socio-economic problems, mental alertness, balance of judgment, clear and logical exposition, and administrative leadership suitability; summoned at a 1:5 ratio of vacancies)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Under Secretary (Sikkim State Civil Service) and Accounts Officer (Sikkim State Finance & Accounts Service) are inducted at Pay Matrix Level 15 with an entry basic pay of ₹45,600 (scale ₹45,600 - ₹1,07,500), while Deputy Superintendent of Police (Sikkim State Police Service) is inducted at Pay Matrix Level 16 with an entry basic pay of ₹49,100 (scale ₹49,100 - ₹1,15,500) under the Sikkim Services (Revised Pay) Rules, 2018. Note that under Government Notification No. 489/GEN/DOP dated 31.10.2011, direct recruits receive fixed stipendiary/basic pay during the initial probation/training period before regular full allowances commence.",
+    "pay_level": "Level 15 in the Sikkim State Pay Matrix (Entry Basic ₹45,600; pre-revised PB-3 ₹9,300 - ₹34,800 + Grade Pay ₹5,400 under Sikkim Services (Revised Pay) Rules, 2018; Level 16 ₹49,100 for DSP)",
+    "entry_basic_pay": 45600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-02-23",
+    "pay_source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+    "pay_source_label": "The Sikkim State Civil Service (Direct Recruitment) Examination Rules, 2026 & SPSC Advt. 11/SPSC/EXAM/2022",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 77500, "max": 83500 },
+    "in_hand_range_estimate": { "min": 69000, "max": 75000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 15 entry basic pay of ₹45,600 at project standard 58% Dearness Allowance (effective 1 Jul 2025; ₹26,448), plus House Rent Allowance (8% in Gangtok municipal area = ₹3,648; 4% to 7% in other district subdivisions = ₹1,824 to ₹3,192), Special Compensatory / Hill Allowance (₹1,500 - ₹2,000/month), and Medical Allowance (₹500/month). For Level 16 (DSP, basic ₹49,100), gross pay is approximately ₹83,000 - ₹89,500. Net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic + DA = ₹7,205), Sikkim State Government Employees Group Insurance Scheme (SGEGIS, ₹300 - ₹500), and Sikkim Professional Tax (₹200). Note that during the initial probationary period under Notification No. 489/GEN/DOP dated 31.10.2011, candidates draw fixed stipend/basic pay.",
+    "official_perks": [
+      "Designated government residential quarters / executive accommodation at Gangtok or district administrative subdivisions",
+      "Official staff vehicle with dedicated government driver for Sub-Divisional Magistrates (SDM), Block Development Officers (BDO), and DSPs during magisterial, protocol, and field inspections",
+      "Armed security escort and personal security officer (PSO) during sensitive executive law-and-order and border zone assignments",
+      "Comprehensive medical reimbursement coverage for self and dependent family members under Sikkim State Medical Attendance Rules",
+      "Leave Travel Concession (LTC), Earned Leave encashment, and high-altitude compensatory concessions",
+      "Monthly mobile phone, office telephone, and official broadband reimbursement entitlements"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics, vacancies, and recommendation tallies compiled directly from primary Sikkim Public Service Commission advertisements, examination notices, and final merit recommendation notifications.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 25,
+        "selectivity_ratio": "Recruitment ongoing (25 vacancies of Under Secretary in Sikkim State Civil Service under Advt. No. 17/SPSC/EXAM/2025 dated 05.12.2025; Preliminary Written Examination scheduled for May 2026 under Notice No. 96/SPSC/EXAM/2026 dated 23.02.2026; governed by newly overhauled Sikkim State Civil Service Examination Rules, 2026)",
+        "confidence": "verified",
+        "as_of": "2026-02-23",
+        "source_url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Written%20Examination_23_02_2026.pdf",
+        "source_label": "SPSC Notice No. 96/SPSC/EXAM/2026 dated 23.02.2026 & Advt. No. 17/SPSC/EXAM/2025"
+      },
+      {
+        "year": 2024,
+        "vacancies": 47,
+        "shortlisted_for_interview": 94,
+        "selectivity_ratio": "approx. 1 in 100+ (47 total vacancies: 22 Under Secretary under Advt. 09/SPSC/EXAM/2024 and 25 Accounts Officer under Advt. 10/SPSC/EXAM/2024; exactly 22 Under Secretary and 25 Accounts Officer recommended in final merit list declared on 29.05.2026 vide Ref No: 105/EXAM/SPSC/2026 after Mains written examination and viva-voce conducted on 27-28 May 2026)",
+        "confidence": "verified",
+        "as_of": "2026-05-29",
+        "source_url": "https://spsc.sikkim.gov.in/Results/Final_Notice_Under_Secretary_Accounts_Officer_29_09_2026.pdf",
+        "source_label": "SPSC Final Recommendation Notice Ref No: 105/EXAM/SPSC/2026 dated 29.05.2026"
+      },
+      {
+        "year": 2022,
+        "vacancies": 62,
+        "shortlisted_for_mains": 1240,
+        "shortlisted_for_interview": 186,
+        "selectivity_ratio": "approx. 1 in 120+ (62 total vacancies: 18 Under Secretary, 14 Deputy Superintendent of Police, and 30 Accounts Officer advertised under Advt. No. 11/SPSC/EXAM/2022 dated 29.09.2022; Prelims held 16.01.2023; Mains held 23-25 Feb 2024; Viva-voce held Oct-Nov 2024; exactly 62 candidates recommended on 05.12.2024 vide Notice No. 50/SPSC/EXAMS/2024: 18 Under Secretary, 14 DSP, and 30 Accounts Officer)",
+        "confidence": "verified",
+        "as_of": "2024-12-05",
+        "source_url": "https://spsc.sikkim.gov.in/Results/Combined%20Recruitment_Final%20Notice_05_12_2024.pdf",
+        "source_label": "SPSC Combined Recruitment Final Merit Notice No. 50/SPSC/EXAMS/2024 dated 05.12.2024 & Advt. No. 11/SPSC/EXAM/2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, statutory examination rules, syllabi, exam schedules, and merit recommendation lists published on the Sikkim Public Service Commission portal.",
+    "links": [
+      {
+        "label": "SPSC Official Commission Portal",
+        "url": "https://spsc.sikkim.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Advertisements Archive",
+        "url": "https://spsc.sikkim.gov.in/Advertisements.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Results and Recommendation Notices Archive",
+        "url": "https://spsc.sikkim.gov.in/Results.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Combined CCE Official Recruitment Advertisement (Advt. No. 11/SPSC/EXAM/2022 for US, DSP, AO - 62 posts)",
+        "url": "https://spsc.sikkim.gov.in/Advertisements/Combinned_US_AO_DSP_ADD_29_09_2022.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Combined CCE Final Recommendation Merit Notice (62 Posts: 18 US, 14 DSP, 30 AO - Notice No. 50/SPSC/EXAMS/2024)",
+        "url": "https://spsc.sikkim.gov.in/Results/Combined%20Recruitment_Final%20Notice_05_12_2024.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "The Sikkim State Civil Service (Direct Recruitment) Examination Rules, 2026 (Notification No. 186/GEN/DOP)",
+        "url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Examination%20Rules_23_02_2026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Under Secretary CCE 2026 Plan of Examination (Appendix I: Prelims, Mains & Interview Scheme)",
+        "url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Plan%20of%20Examination_23_02_2026.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Under Secretary CCE 2026 Schemes & Syllabus (Appendix II & III: Detailed Subject Syllabi for Papers I to IV)",
+        "url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Schemes_&_Syllabus_23_02_2026.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Under Secretary Written Examination Schedule Notice (Notice No. 96/SPSC/EXAM/2026 for Advt. 17/2025)",
+        "url": "https://spsc.sikkim.gov.in/Notices/Under%20Secretary_2026_Written%20Examination_23_02_2026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "SPSC Under Secretary & Accounts Officer Final Recommendation Notice (Ref No: 105/EXAM/SPSC/2026)",
+        "url": "https://spsc.sikkim.gov.in/Results/Final_Notice_Under_Secretary_Accounts_Officer_29_09_2026.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

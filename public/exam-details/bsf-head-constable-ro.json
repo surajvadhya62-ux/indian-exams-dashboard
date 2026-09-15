@@ -1,0 +1,236 @@
+{
+  "id": "bsf-head-constable-ro",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Head Constable (Radio Operator) and Head Constable (Radio Mechanic) serve in the Communication Wing of the Border Security Force (BSF) under the Ministry of Home Affairs. Personnel maintain tactical high-frequency (HF), very-high-frequency (VHF), and satellite communication networks across international borders. Promotion to Sub-Inspector and Inspector is based on departmental promotion committees and qualifying specialized technical courses.",
+    "steps": [
+      {
+        "designation": "Head Constable (Radio Operator / Radio Mechanic)",
+        "pay_level": "Level 4",
+        "years": "Entry level (basic recruit & technical training 1-2 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "Border Security Force — Recruitment Notification for HC(RO) and HC(RM) in BSF Communication Set-up"
+      },
+      {
+        "designation": "Assistant Sub-Inspector (RM / RO)",
+        "pay_level": "Level 5",
+        "years": "approx. 5-7 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Sub-Inspector (Communication / Technical)",
+        "pay_level": "Level 6",
+        "years": "approx. 10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Inspector (Communication)",
+        "pay_level": "Level 7",
+        "years": "approx. 16-20 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India"
+      },
+      {
+        "designation": "Assistant Commandant (Communication)",
+        "pay_level": "Level 10",
+        "years": "approx. 22-26 yrs (induction into Group A Gazetted cadre)",
+        "confidence": "reported",
+        "as_of": "2023-04-22",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "Ministry of Home Affairs — BSF Technical / Signal Cadre Service Regulations"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Head Constable (RO) and Head Constable (RM) is conducted through a three-phase selection procedure: Phase I Written Examination (OMR / Computer-Based Test of 200 marks, 100 questions); Phase II Physical Standard Test (PST), Physical Efficiency Test (PET), Documentation, and Dictation/Reading Test for HC(RO); Phase III Detailed Medical Examination (DME) and Review Medical Examination (RME).",
+    "stages": [
+      {
+        "stage_name": "Phase I: Written Examination (OMR / CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "BSF — Detailed Recruitment Notice for HC (RO/RM), Scheme of Written Examination",
+        "papers": [
+          {
+            "paper_name": "Physics (40 questions, 10+2 CBSE standard)",
+            "marks": 80,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "38% for General/EWS/OBC; 33% for SC/ST"
+          },
+          {
+            "paper_name": "Mathematics (20 questions, 10+2 CBSE standard)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "38% for General/EWS/OBC; 33% for SC/ST"
+          },
+          {
+            "paper_name": "Chemistry (20 questions, 10+2 CBSE standard)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "38% for General/EWS/OBC; 33% for SC/ST"
+          },
+          {
+            "paper_name": "English & General Knowledge (20 questions — 10 Qs English, 10 Qs Current Affairs & History/Geography/Science)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 marks per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "38% for General/EWS/OBC; 33% for SC/ST"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: PST, PET, Documentation & Dictation Test (for HC RO)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "BSF — Detailed Recruitment Notice for HC (RO/RM), Phase II Regulations",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test (1.6 km run in 6.5 mins male / 800m in 4 mins female, Long Jump, High Jump)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying pass/fail"
+          },
+          {
+            "paper_name": "Dictation Test in English (approx. 100 words, HC RO candidates only)",
+            "marks": 50,
+            "duration_minutes": 15,
+            "negative_marking": "-0.50 marks per spelling mistake, -1 mark per missing word",
+            "qualifying_only": false,
+            "qualifying_threshold": "38% for General/OBC/EWS; 33% for SC/ST"
+          },
+          {
+            "paper_name": "Paragraph Reading Test (to test pronunciation and reading fluency in English, HC RO only)",
+            "marks": null,
+            "duration_minutes": 5,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Pass/Fail"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Detailed Medical Examination (DME)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "MHA Guidelines for Recruitment Medical Examination in CAPFs and AR",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness and Visual Acuity Standards (Visual standard: 6/6 and 6/9, CP III colour vision)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit in all respects"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Head Constable (RO/RM) posts are in Pay Level 4 (₹25,500 – ₹81,100) under the 7th CPC. Personnel are deployed across international borders and receive border allowances and ration entitlements.",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-04-22",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 44000, "max": 56000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 49000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 with 58% DA (₹14,790), HRA (10% to 30%), Transport Allowance (₹900 to ₹1,350 + DA on TA), plus Ration Money Allowance (~₹3,965/month) and Risk/Hardship Allowance applicable for border postings.",
+    "official_perks": [
+      "Ration Money Allowance (RMA) / free field ration in border and operational locations",
+      "Special Compensatory / Risk & Hardship Allowance for postings in difficult and high-altitude border outposts",
+      "Hair Cutting / Soap / Toilet allowance and Annual Dress Allowance (₹10,000 per annum)",
+      "Free medical treatment for personnel and dependents in BSF Composite Hospitals",
+      "Subsidized purchasing through Central Police Canteen (CPC) network",
+      "Government accommodation / barracks with messing facilities"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Head Constable (Radio Operator) and Head Constable (Radio Mechanic) across recent BSF recruitment cycles under the Ministry of Home Affairs.",
+    "years": [
+      {
+        "year": 2023,
+        "vacancies": 247,
+        "confidence": "verified",
+        "as_of": "2023-04-22",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "BSF — Advertisement for Recruitment to the post of HC (RO) and HC (RM) 2023 (RO: 217, RM: 30; Total: 247 vacancies)"
+      },
+      {
+        "year": 2022,
+        "vacancies": 1312,
+        "confidence": "verified",
+        "as_of": "2022-08-20",
+        "source_url": "https://rectt.bsf.gov.in",
+        "source_label": "BSF — Advertisement for Direct Recruitment to the post of HC (RO) and HC (RM) 2022 (RO: 982, RM: 330; Total: 1,312 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and recruitment portals hosted on BSF's official recruitment domain.",
+    "links": [
+      {
+        "label": "BSF Recruitment Portal — Official Portal",
+        "url": "https://rectt.bsf.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "BSF HC (RO) & HC (RM) Recruitment Notification Archive",
+        "url": "https://rectt.bsf.gov.in",
+        "type": "notification",
+        "cycle_label": "BSF-RO-RM-2023",
+        "confidence": "verified",
+        "as_of": "2023-04-22"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

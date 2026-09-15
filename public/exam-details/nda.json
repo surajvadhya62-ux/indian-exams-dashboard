@@ -1,0 +1,118 @@
+{
+  "id": "nda",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Commission retains discretion to fix qualifying/cut-off marks in the Written Examination 'at their discretion' rather than publishing a fixed percentage threshold (unlike, e.g., UPSC CSE's published 33% CSAT cut-off) — this notification explicitly states qualifying marks are fixed by the Commission and, separately for the SSB stage, by the Services Selection Board, both at their own discretion. Scheme read directly from the National Defence Academy & Naval Academy Examination (II), 2026 notification (Examination Notice No.10/2026-NDA-II); this same two-part structure (Written Examination + SSB Interview, 300+600+900 marks) repeats every NDA/NA cycle.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (objective, two papers)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-05-20",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
+        "source_label": "UPSC — Examination Notice No.10/2026-NDA-II, National Defence Academy & Naval Academy Examination (II), 2026, Appendix-I (Scheme and Syllabus of Examination)",
+        "papers": [
+          {
+            "paper_name": "Mathematics",
+            "marks": 300,
+            "duration_minutes": 150,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Ability Test (Part A: English — 200 marks; Part B: General Knowledge — 400 marks)",
+            "marks": 600,
+            "duration_minutes": 150,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "SSB Interview — Intelligence and Personality Test (two-stage: Stage I screening, Stage II Psychological/GTO/Interview; Air Force aspirants also undergo CPSS/Pilot Aptitude Battery)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-05-20",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
+        "source_label": "UPSC — Examination Notice No.10/2026-NDA-II, National Defence Academy & Naval Academy Examination (II), 2026, Appendix-I and Notice §10 (Two-Stage Selection Procedure)",
+        "papers": [
+          {
+            "paper_name": "SSB Test/Interview (Services Selection Board)",
+            "marks": 900,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "UPSC conducts two NDA/NA cycles per calendar year (NDA & NA I, and NDA & NA II); the two rows below are both for the NDA & NA (II) cycle specifically, so the vacancy counts are comparable year-over-year. The 2026 vacancy figure was read directly by this dossier's author in that cycle's own notification (Appendix table, reproduced verbatim below). The 2025 vacancy figure (406) is reported consistently by numerous outlets citing UPSC's Examination Notice No.10/2025-NDA-II dated 28.05.2025; that notification is no longer live on upsc.gov.in (UPSC removes each cycle's notice once superseded) and this session could not independently re-open it, so it is tagged 'reported', not 'verified'. Total-applicant / total-appeared figures are not included here: no official UPSC or PIB release stating a specific applicant count for a recent NDA/NA cycle could be found this session — only vague, non-attributed ranges ('5-6 lakh applicants') repeated across coaching/aggregator sites, which this dossier declines to present as fact. Separately, UPSC's official Final Result press note for NDA & NA (II), 2025 (read directly this session) states that 742 candidates were finally recommended, in order of merit, after SSB interviews and medical examination — a post-SSB final-selection count, not a pre-SSB shortlist, so it is not entered in the 'shortlisted_for_mains' field below (that field denotes an intermediate shortlist stage this exam's structure does not have an exact equivalent for) and is instead noted here for context.",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 394,
+        "confidence": "verified",
+        "as_of": "2026-05-20",
+        "source_url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
+        "source_label": "UPSC — Examination Notice No.10/2026-NDA-II, National Defence Academy & Naval Academy Examination (II), 2026: vacancy table totals 394 (370 Male + 24 Female) across Army (208), Navy (42), Air Force (120) and Naval Academy 10+2 Cadet Entry Scheme (24) — read directly, figures reproduced verbatim."
+      },
+      {
+        "year": 2025,
+        "vacancies": 406,
+        "confidence": "reported",
+        "as_of": "2025-05-28",
+        "source_label": "UPSC — Examination Notice No.10/2025-NDA-II dated 28.05.2025 (National Defence Academy & Naval Academy Examination (II), 2025), as consistently reported by multiple outlets citing that notification; this dossier's author could not independently re-open the original notification this session because UPSC has since removed it from upsc.gov.in."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "The notification link below is cycle-specific and will be replaced by UPSC once the NDA & NA (II), 2026 cycle concludes and a newer notice is issued — re-check before reuse. There is no separate evergreen 'syllabus' page for NDA on upsc.gov.in (unlike UPSC CSE's dedicated 'Revised Syllabus and Scheme' page); the full Scheme and Syllabus of Examination is published as Appendix-I inside each cycle's own notification, which is why the same notification PDF is the source for both the exam_scheme section above and the 'notification' link below.",
+    "links": [
+      {
+        "label": "National Defence Academy & Naval Academy Examination (II), 2026 — Notification (includes Appendix-I Scheme & Syllabus)",
+        "url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-II-2026-Engl-200526.pdf",
+        "type": "notification",
+        "cycle_label": "NDA-II-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-20"
+      },
+      {
+        "label": "National Defence Academy & Naval Academy Examination (II), 2026 — Time Table",
+        "url": "https://www.upsc.gov.in/sites/default/files/TimeTable-NDA-%20NA-Exam-II-2026-Engl-120826.pdf",
+        "type": "other",
+        "cycle_label": "NDA-II-2026",
+        "confidence": "verified",
+        "as_of": "2026-08-12"
+      },
+      {
+        "label": "National Defence Academy & Naval Academy Examination (II), 2025 — Final Result",
+        "url": "https://www.upsc.gov.in/sites/default/files/FR-NDA-NA-II-2025-Engl-08042026.pdf",
+        "type": "other",
+        "cycle_label": "NDA-II-2025",
+        "confidence": "verified",
+        "as_of": "2026-04-08"
+      },
+      {
+        "label": "Previous Year Question Papers — National Defence Academy (filtered hub)",
+        "url": "https://www.upsc.gov.in/examinations/previous-question-papers?field_exam_name_value=National+Defence+Academy",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

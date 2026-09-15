@@ -1,0 +1,250 @@
+{
+  "id": "upsssc-forest-guard",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Forest Guard (Van Rakshak) and Wildlife Guard (Vanya Jeev Rakshak) are frontline uniformed protection personnel under the Department of Environment, Forest and Climate Change, Government of Uttar Pradesh. They protect reserve forests, sanctuaries, and national parks from encroachment, illegal logging, and poaching, advancing through seniority and departmental promotion examinations.",
+    "steps": [
+      {
+        "designation": "Forest Guard (Van Rakshak) / Wildlife Guard (Vanya Jeev Rakshak)",
+        "pay_level": "Level 2",
+        "years": "Entry (0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Forest Subordinate Service Rules & Advt. 10-Exam/2023"
+      },
+      {
+        "designation": "Forester (Van Darogha)",
+        "pay_level": "Level 5",
+        "years": "approx. 6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Subordinate Forest (Executive) Service Regulations"
+      },
+      {
+        "designation": "Deputy Ranger (Up-Van Kshetriyadhikari)",
+        "pay_level": "Level 6",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Forest Department Executive Cadre Rules"
+      },
+      {
+        "designation": "Forest Range Officer (FRO — Van Kshetriyadhikari, Gazetted Class II)",
+        "pay_level": "Level 8",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh State Forest Service (Executive) Regulations"
+      },
+      {
+        "designation": "Assistant Conservator of Forests (ACF — State Forest Service)",
+        "pay_level": "Level 10",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP State Forest Service Promotion Quota Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The recruitment process consists of PET shortlisting, a written examination, rigorous physical standard and endurance tests, and a medical examination. The written examination carries 200 marks with 1/4th negative marking (0.25 marks deducted per wrong answer).",
+    "stages": [
+      {
+        "stage_name": "Main Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Forest Guard Examination Scheme & Syllabus (Advt. 05-Exam/2019 & 10-Exam/2023)",
+        "papers": [
+          {
+            "paper_name": "Hindi Insight and Writing Ability (Hindi Parigyan Evam Lekhan Yogyata)",
+            "marks": 80,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge (Samanya Jankari & Environmental Awareness)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Intelligence Test (Samanya Buddhi Parikshan / Reasoning)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Physical Standard Test (PST) & Physical Efficiency Test (PET)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Forest Guard PST/PET Regulations & Physical Standards Notice",
+        "papers": [
+          {
+            "paper_name": "Male Physical Endurance Test — 25 km walk/run carrying 10 kg weight within 4 hours",
+            "marks": null,
+            "duration_minutes": 240,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Complete 25 km carrying 10 kg load in 4 hours"
+          },
+          {
+            "paper_name": "Female Physical Endurance Test — 14 km walk/run within 4 hours",
+            "marks": null,
+            "duration_minutes": 240,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Complete 14 km in 4 hours"
+          },
+          {
+            "paper_name": "Physical Standard Measurement (Height: Male 168 cm, Female 152 cm; Chest: Male 84 cm)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Meet prescribed physical measurements"
+          }
+        ]
+      },
+      {
+        "stage_name": "Medical Examination & Document Verification",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Forest Guard Medical Board Guidelines",
+        "papers": [
+          {
+            "paper_name": "Medical Fitness (Vision, Color Blindness, Hearing & Physical Endurance Scrutiny)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Certified fit by State Medical Board"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Forest Guard and Wildlife Guard are positioned at Pay Level 2 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹1,900) under the Uttar Pradesh Revised Pay Rules, 2016. Recruits are eligible for special uniform allowances and remote beat duty allowances.",
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://upsssc.gov.in/default.aspx",
+    "pay_source_label": "UP Forest Department & UP Revised Pay Rules 2016 Level 2",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33000,
+      "max": 36000
+    },
+    "in_hand_range_estimate": {
+      "min": 29000,
+      "max": 32000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 2 entry basic pay of ₹19,900 at 58% DA (effective 01.07.2025), HRA (₹1,600 to ₹3,200), forest remote beat duty allowance, net of 10% NPS deduction (₹3,144) and group insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per UP Finance Department orders",
+      "House Rent Allowance (HRA) or government forest colony barracks accommodation",
+      "Annual uniform maintenance and kit allowance",
+      "Washing allowance and forest beat duty allowance",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules",
+      "National Pension System (NPS) with 14% matching employer contribution"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official UPSSSC notifications, answer key releases, and final appointment lists for Forest Guard & Wildlife Guard cycles.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 141844,
+        "appeared": null,
+        "qualified_stage_1": 141844,
+        "qualified_stage_2": null,
+        "recommended": null,
+        "vacancies": 709,
+        "confidence": "verified",
+        "as_of": "2024-03-05",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Van Rakshak Advt. 10-Exam/2023 Shortlisting Notice"
+      },
+      {
+        "year": 2019,
+        "applicants": 481000,
+        "appeared": 241000,
+        "qualified_stage_1": 5197,
+        "qualified_stage_2": 655,
+        "recommended": 655,
+        "vacancies": 655,
+        "confidence": "verified",
+        "as_of": "2024-02-14",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Advt. 05-Exam/2019 Final Selection & Recommendation List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schedules, physical standards guidelines, and final selection orders issued by UPSSSC.",
+    "links": [
+      {
+        "label": "UPSSSC Official Web Portal",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Forest Guard & Wildlife Guard Notification (Advt. 10-Exam/2023)",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Forest Guard Scheme of Examination & Physical Test Notice",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Forest Guard Final Result & Selection Recommendation List",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

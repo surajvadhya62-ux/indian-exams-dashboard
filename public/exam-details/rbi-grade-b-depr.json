@@ -1,0 +1,221 @@
+{
+  "id": "rbi-grade-b-depr",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Department of Economic and Policy Research (DEPR) specialize in monetary policy analysis, macroeconomic forecasting, and financial regulation research, advancing through the central bank's elite economic research hierarchy up to Deputy Governor in charge of monetary policy.",
+    "steps": [
+      {
+        "designation": "Research Officer / Manager (Grade 'B')",
+        "pay_level": "Officer Grade B (₹78,450 basic)",
+        "years": "Entry (approx. 2 yrs probation)",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Services Board Regulations and Recruitment Advertisement"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Grade 'C')",
+        "pay_level": "Officer Grade C (₹1,05,250 basic)",
+        "years": "approx. 5-7 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Grade 'D')",
+        "pay_level": "Officer Grade D (₹1,21,450 basic)",
+        "years": "approx. 10-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "General Manager (GM, Grade 'E')",
+        "pay_level": "Officer Grade E (₹1,26,100 basic)",
+        "years": "approx. 15-19 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Chief General Manager (CGM, Grade 'F')",
+        "pay_level": "Officer Grade F",
+        "years": "approx. 20-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Staff Regulations"
+      },
+      {
+        "designation": "Principal Chief General Manager (PCGM) / Executive Director (ED)",
+        "pay_level": "Central Bank Executive Leadership",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Corporate Governance Rules"
+      },
+      {
+        "designation": "Deputy Governor (Monetary Policy & Research) / Governor",
+        "pay_level": "Statutory Apex (Appointments Committee of the Cabinet)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "Reserve Bank of India Act, 1934"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "RBI Grade 'B' (DEPR) selection involves Phase I (Objective Economics), Phase II (Descriptive Economics & English), and Phase III (Personal Interview). Unlike the General stream, Paper I marks are added to the final merit score.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Paper I (Online Objective - Economics)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board DEPR Advertisement",
+        "papers": [
+          {
+            "paper_name": "Paper I: Objective Type (Economics)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Cut-off marks for Phase II shortlisting; marks counted for final selection"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Written Examination (Descriptive Economics and English)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board DEPR Advertisement",
+        "papers": [
+          {
+            "paper_name": "Paper II: Economics (Descriptive - Macroeconomics, Monetary Economics & Indian Economy)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: English (Descriptive - Essay, Precis Writing & Comprehension)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Personal Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board DEPR Advertisement",
+        "papers": [
+          {
+            "paper_name": "Interview (RBI Services Board)",
+            "marks": 75,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Final merit based on aggregate of Paper I (100) + Paper II (100) + Paper III (100) + Interview (75) = 375 marks"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Officer Grade 'B' (Research Officer / DEPR)",
+    "entry_basic_pay": 78450,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-25",
+    "pay_source_url": "https://opportunities.rbi.org.in",
+    "pay_source_label": "RBI Services Board Recruitment Advertisement (Scale: ₹78,450-1,41,600)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 116000, "max": 145000 },
+    "in_hand_range_estimate": { "min": 98000, "max": 125000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹78,450 in the scale ₹78,450 - 4050(9) - 114,900 - EB - 4050(2) - 123,000 - 4650(4) - 141,600 (16 years). Total monthly gross emoluments at Mumbai reach approx. ₹1,16,000 to ₹1,45,000 inclusive of basic, DA (58% review baseline), Grade Allowance, Special Allowance, Local Compensatory Allowance, Learning Allowance, and Bank Residential Quarters / HRA.",
+    "official_perks": [
+      "Bank Leased Residential Accommodation (in central bank officer colonies in Mumbai and regional centres) or HRA",
+      "Dispensary facilities and 100% medical expense reimbursement for self and eligible dependents",
+      "Leave Fare Concession (LFC) once in two years for officer and family",
+      "Monthly Fuel / Petrol Allowance (up to 150-180 litres per month depending on posting)",
+      "Book Grant, Newspaper Allowance, and Briefcase Grant",
+      "Concessional Staff Housing Loan, Car Loan, and Education Loan schemes",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition benchmarks reflect specialist recruitment by the Reserve Bank of India Services Board for postgraduate economists.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 18500,
+        "vacancies": 66,
+        "shortlisted_for_mains": 660,
+        "selectivity_ratio": "approx. 1 in 280 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board Advertisement No. 2A/2024-25 (66 vacancies for DEPR)"
+      },
+      {
+        "year": 2023,
+        "applicants": 14200,
+        "vacancies": 38,
+        "shortlisted_for_mains": 380,
+        "selectivity_ratio": "approx. 1 in 373 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-04-26",
+        "source_url": "https://opportunities.rbi.org.in",
+        "source_label": "RBI Services Board Advertisement No. 1A/2023-24 (38 vacancies for DEPR)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, syllabi and shortlisted candidate results are published on the RBI Opportunities website.",
+    "links": [
+      {
+        "label": "Reserve Bank of India Opportunities Portal",
+        "url": "https://opportunities.rbi.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Reserve Bank of India Official Portal",
+        "url": "https://www.rbi.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

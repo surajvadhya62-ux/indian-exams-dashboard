@@ -1,0 +1,202 @@
+{
+  "id": "exim-bank-mt",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Export-Import Bank of India (Exim Bank) is India's premier export finance institution, established by an Act of Parliament (The Export-Import Bank of India Act, 1981). Management Trainees (MTs) undergo 1 year of intensive training, after which they are absorbed as Deputy Managers in Junior Management Grade (JM-I). Progression follows statutory financial institution scales through Middle Management, Senior Management, and Executive Cadres.",
+    "steps": [
+      {
+        "designation": "Management Trainee (MT)",
+        "pay_level": "Trainee Scale (Stipendiary ₹65,000/month)",
+        "years": "1 year training period",
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank — Recruitment of Management Trainees Advt. No. HRM/MT/2024-25/01"
+      },
+      {
+        "designation": "Deputy Manager (DM)",
+        "pay_level": "Grade JM-I (Scale ₹48,480 - 85,920)",
+        "years": "Entry officer grade on absorption",
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank Officer Service Regulations — Scale I absorption framework"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "Grade MM-II (Scale ₹64,820 - 93,960)",
+        "years": "approx. 3-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank Officer Service Regulations"
+      },
+      {
+        "designation": "Assistant General Manager (AGM)",
+        "pay_level": "Grade MM-III (Scale ₹85,920 - 1,05,280)",
+        "years": "approx. 8-11 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank Officer Service Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "Grade SM-IV (Senior Management)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank Executive Structure"
+      },
+      {
+        "designation": "General Manager (GM) / Chief General Manager (CGM)",
+        "pay_level": "Grade TEGS-V / Top Executive Grade",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank Executive Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted through a two-stage process: an Online Examination (comprising both Objective and Descriptive tests in a single sitting) followed by a Personal Interview for shortlisted candidates. Objective test carries a negative marking penalty of 1/4th (0.25) mark per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Online Examination (Objective & Descriptive Tests)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank — Recruitment of Management Trainees Advt. No. HRM/MT/2024-25/01 (Selection Process)",
+        "papers": [
+          {
+            "paper_name": "Objective Test: Reasoning & Computer Aptitude, English Language, Quantitative Aptitude & Financial Awareness",
+            "marks": 80,
+            "duration_minutes": 80,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to sectional cut-off scores"
+          },
+          {
+            "paper_name": "Objective Test: Professional Knowledge (Banking Operations / Specialization)",
+            "marks": 20,
+            "duration_minutes": 20,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Descriptive Test: English Essay & Letter Writing",
+            "marks": 25,
+            "duration_minutes": 35,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Descriptive Test: Professional Knowledge in Banking & Trade Finance",
+            "marks": 75,
+            "duration_minutes": 45,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank — Advt. No. HRM/MT/2024-25/01 (Personal Interview Stage)",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Exim Bank Headquarters, Mumbai / Regional Centers)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Qualifying minimum percentage category-wise (General: 40%, SC/ST/OBC: 35%)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "During the 1-year training period, Management Trainees are paid a consolidated monthly stipend of ₹65,000. On successful completion of training and absorption as Deputy Manager (JM-I), officers are placed in the Grade JM-I scale (₹48,480 - 2,000/7 - 62,480 - 2,340/2 - 67,160 - 2,680/7 - 85,920) with standard banking/financial institution DA and allowances.",
+    "pay_level": "Junior Management Grade Scale I (JM-I)",
+    "entry_basic_pay": 48480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-09-18",
+    "pay_source_url": "https://www.eximbankindia.in/careers",
+    "pay_source_label": "Exim Bank — Advt. No. HRM/MT/2024-25/01 (Emoluments & Service Conditions)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 85000, "max": 95000 },
+    "in_hand_range_estimate": { "min": 72000, "max": 82000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on post-absorption entry basic pay of ₹48,480 plus applicable Dearness Allowance, House Rent Allowance (or leased accommodation up to institutional limits), Special Allowance, and City Compensatory Allowance; net salary accounts for standard pension/PF deduction.",
+    "official_perks": [
+      "Fixed stipend of ₹65,000/month during 1-year Management Trainee period",
+      "Bank leased residential accommodation or House Rent Allowance upon absorption",
+      "Comprehensive medical facility / reimbursement for self and dependent family",
+      "Defined contribution pension and provident fund benefits",
+      "Concessional loan facilities, briefcase allowance, and book grant provisions"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment of Management Trainees in Exim Bank is conducted annually based on institutional requirements. In the 2024-25 cycle (Advt. No. HRM/MT/2024-25/01), 50 vacancies were notified for Management Trainees (Banking Operations).",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 50,
+        "confidence": "verified",
+        "as_of": "2024-09-18",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank — Advt. No. HRM/MT/2024-25/01: 50 Vacancies for Management Trainees (Banking Operations)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 45,
+        "confidence": "reported",
+        "as_of": "2023-10-14",
+        "source_url": "https://www.eximbankindia.in/careers",
+        "source_label": "Exim Bank — Advt. No. HRM/MT/2023-24/01: 45 Vacancies for Management Trainees"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and announcements on the Export-Import Bank of India website.",
+    "links": [
+      {
+        "label": "Exim Bank Official Careers Page",
+        "url": "https://www.eximbankindia.in/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Export-Import Bank of India Main Portal",
+        "url": "https://www.eximbankindia.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

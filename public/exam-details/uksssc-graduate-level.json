@@ -1,0 +1,230 @@
+{
+  "id": "uksssc-graduate-level",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-14",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Recruitment through the UKSSSC Graduate Level Examination feeds into Group 'C' executive, administrative, and developmental positions across Uttarakhand state government departments, primarily the Rural Development Department (Village Development Officer / VDO), Panchayati Raj Department (Village Panchayat Development Officer / VPDO), Social Welfare Department, and Commission subordinate offices. Career progression in rural development and panchayati raj ascends to block and district executive ranks under Uttarakhand state cadre service rules.",
+    "steps": [
+      {
+        "designation": "Village Development Officer (VDO) / Village Panchayat Development Officer (VPDO)",
+        "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+        "years": "Entry (approx. 0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "UKSSSC Graduate Level Recruitment Cadre & Pay Specifications"
+      },
+      {
+        "designation": "Assistant Development Officer (ADO - Panchayat / Rural Development) / Senior VDO",
+        "pay_level": "Level 6 (₹35,400 - ₹1,12,400)",
+        "years": "approx. 6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand Rural Development and Panchayati Raj Subordinate Service Rules"
+      },
+      {
+        "designation": "Block Development Officer (BDO - Subordinate/State Cadre) / District Panchayat Raj Officer (Junior Grade)",
+        "pay_level": "Level 7 (₹44,900 - ₹1,42,400)",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand Rural Development and Panchayati Raj Executive Service Rules"
+      },
+      {
+        "designation": "Senior Block Development Officer / Deputy Director (Panchayati Raj / Rural Development)",
+        "pay_level": "Level 10 (₹56,100 - ₹1,77,500)",
+        "years": "approx. 18-25 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand State Civil Services Executive Cadre Rules"
+      },
+      {
+        "designation": "Joint Director / Additional Director (Directorate of Panchayati Raj / Rural Development)",
+        "pay_level": "Level 11 (₹67,700 - ₹2,08,700)",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-14",
+        "source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "source_label": "Uttarakhand State Civil Services Higher Executive Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The UKSSSC Graduate Level Service Examination scheme is formally approved by the Government of Uttarakhand Personnel and Vigilance Department vide Order No. 426609/XXX(4)/2026-03(03)/26-E-94441 dated 25 August 2026. The examination comprises a single 100-mark objective written test followed by a qualifying computer typing test for posts where typing is prescribed.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective Multiple Choice OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-08-31",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311926073039.pdf",
+        "source_label": "Uttarakhand Government Personnel Dept. Approval Order No. 426609/XXX(4)/2026 & UKSSSC Graduate Level Syllabus Notification",
+        "papers": [
+          {
+            "paper_name": "General Hindi (सामान्य हिन्दी)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge & General Studies (Reasoning, History, Geography, Polity, Economics, Current Affairs, Computer Fundamentals)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Uttarakhand Specific General Knowledge (उत्तराखण्ड का सामान्य ज्ञान)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Typing Skill Test (Qualifying for Prescribed Posts)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-08-31",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311926073039.pdf",
+        "source_label": "UKSSSC Graduate Level Examination Scheme — Typing Qualification Criteria",
+        "papers": [
+          {
+            "paper_name": "Computer Typing Test (Hindi minimum 4000 key depressions per hour)",
+            "marks": 0,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying only; minimum speed of 4,000 key depressions per hour on computer in Hindi for posts requiring typing skills (such as Assistant Review Officer / Office Assistant III)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Scrutiny (अभिलेख सन्निरीक्षा)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-01-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/01/202601162124697263.pdf",
+        "source_label": "UKSSSC Document Scrutiny Notification Letter No. 242/2025-26",
+        "papers": [
+          {
+            "paper_name": "Biometric Verification & Document Scrutiny",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of original academic degrees, CCC computer certificates, category/domicile certificates; conducted in 1.5x ratio of vacancies"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Graduate level recruits are appointed into Group 'C' posts across Pay Level 4 (₹25,500 - ₹81,100) for Village Development Officers (VDO) and Village Panchayat Development Officers (VPDO), and Pay Level 5 (₹29,200 - ₹92,300) for Assistant Social Welfare Officers under the Uttarakhand State Revised Pay Rules (adapting 7th Pay Commission). Entry basic pay corresponds to Level 4 benchmark ₹25,500.",
+    "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-14",
+    "pay_source_url": "https://sssc.uk.gov.in/recruitment-notification/",
+    "pay_source_label": "UKSSSC Graduate Level Official Post Specifications & Uttarakhand State Pay Rules",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 43500,
+      "max": 47500
+    },
+    "in_hand_range_estimate": {
+      "min": 39000,
+      "max": 43500
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross remuneration computed on Level 4 Entry Basic Pay of ₹25,500 with Dearness Allowance at canonical 58% (₹14,790), House Rent Allowance ranging from 9% (₹2,295 in rural blocks/remote mountain stations) to 18% (₹4,590 in urban headquarters such as Dehradun), Fixed Medical Allowance (₹1,000/month), and admissible Hill Compensatory Allowance (HCA) for designated high-altitude mountain blocks. In-hand estimate accounts for statutory National Pension System (NPS) deduction of 10% of Basic + DA (₹4,029) and Uttarakhand State Employees GIS (~₹200).",
+    "official_perks": [
+      "House Rent Allowance (HRA) at 9% to 18% based on posting classification, or government quarter allotment",
+      "Hill Compensatory Allowance (HCA) admissible for notified mountain districts and remote hill postings",
+      "Fixed Medical Allowance (FMA) of ₹1,000/month or coverage under Uttarakhand State Health Schemes (USHS)",
+      "Traveling Allowance (TA) and Daily Allowance (DA) for official field tours within gram panchayat circles",
+      "Contributory pension coverage under National Pension System (NPS)",
+      "Earned leave, casual leave, and medical leave benefits under Uttarakhand Leave Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "UKSSSC Graduate Level examination participation and selection figures verified directly from official commission notifications, merit lists, and recommendation releases published on sssc.uk.gov.in.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 155200,
+        "vacancies": 229,
+        "shortlisted_for_mains": 1540,
+        "selectivity_ratio": "approx. 1 in 678 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-02-02",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/02/20260202866586309.pdf",
+        "source_label": "UKSSSC Graduate Level Final Recommendation List & Scrutiny Notice (Exam Date 31.12.2023, Advt. 49/UKSSSC/2023). Applicant count reported from official commission press releases."
+      },
+      {
+        "year": 2020,
+        "applicants": 216519,
+        "vacancies": 854,
+        "shortlisted_for_mains": 1424,
+        "selectivity_ratio": "approx. 1 in 254 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2025-08-27",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2025/08/202508272136422806.pdf",
+        "source_label": "UKSSSC Graduate Level Advt. No. 29/UKSSSC/2020 (854 vacancies including 216 VDO, 292 VPDO; re-conducted 09.07.2023). 1,424 candidates shortlisted for document verification."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, approved syllabus frameworks, and recommendation lists issued directly by Uttarakhand Subordinate Service Selection Commission (UKSSSC).",
+    "links": [
+      {
+        "label": "UKSSSC Graduate Level Examination Scheme & Syllabus (Approved 25 Aug 2026)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311926073039.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-08-31"
+      },
+      {
+        "label": "UKSSSC Graduate Level Final Selection Recommendation List (Exam Date 31.12.2023)",
+        "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/02/20260202866586309.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-02-02"
+      },
+      {
+        "label": "UKSSSC Graduate Level Document Scrutiny & Biometric Schedule Notification",
+        "url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/01/202601162124697263.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-01-16"
+      },
+      {
+        "label": "UKSSSC Official Recruitment & Notification Hub",
+        "url": "https://sssc.uk.gov.in/recruitment-notification/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-14"
+      }
+    ]
+  }
+}

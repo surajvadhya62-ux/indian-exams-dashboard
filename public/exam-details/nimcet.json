@@ -1,0 +1,97 @@
+{
+  "id": "nimcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "exam_scheme": {
+    "status": "available",
+    "note": "National Level Common Entrance Test for admission into Master of Computer Applications (MCA) programme at participating NITs.",
+    "stages": [
+      {
+        "stage_name": "NIMCET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://nimcet.admissions.nic.in",
+        "source_label": "NIMCET Official Information Brochure",
+        "papers": [
+          {
+            "paper_name": "Mathematics (50 questions, weighted 600 marks)",
+            "marks": 600,
+            "duration_minutes": 120,
+            "negative_marking": "-1.5 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Analytical Ability & Logical Reasoning (40 questions, weighted 240 marks)",
+            "marks": 240,
+            "duration_minutes": 120,
+            "negative_marking": "-1.5 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Computer Awareness (20 questions, weighted 120 marks)",
+            "marks": 120,
+            "duration_minutes": 120,
+            "negative_marking": "-1.5 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English (10 questions, weighted 40 marks)",
+            "marks": 40,
+            "duration_minutes": 120,
+            "negative_marking": "-1 mark per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual candidate registrations and MCA seat availability across participating NITs.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 25000,
+        "vacancies": 821,
+        "confidence": "reported",
+        "as_of": "2024-06-25",
+        "source_url": "https://nimcet.admissions.nic.in",
+        "source_label": "NIMCET Seat Matrix & Counseling Bulletin"
+      },
+      {
+        "year": 2023,
+        "applicants": 24000,
+        "vacancies": 805,
+        "confidence": "reported",
+        "as_of": "2023-06-20",
+        "source_url": "https://nimcet.admissions.nic.in",
+        "source_label": "NIMCET Seat Matrix Bulletin"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official entrance examination brochures and counseling portal.",
+    "links": [
+      {
+        "label": "NIMCET Admissions Portal",
+        "url": "https://nimcet.admissions.nic.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "NIMCET Information Brochure & Syllabus",
+        "url": "https://nimcet.admissions.nic.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

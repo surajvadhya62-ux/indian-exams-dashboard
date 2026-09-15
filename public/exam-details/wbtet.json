@@ -1,0 +1,143 @@
+{
+  "id": "wbtet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "West Bengal Primary Teacher Eligibility Test (WBTET) is conducted by the West Bengal Board of Primary Education (WBBPE), an autonomous statutory body established under the West Bengal Primary Education Act, 1973, in adherence to National Council for Teacher Education (NCTE) guidelines. WBTET establishes statutory eligibility for appointment as Assistant Teachers in Government-Aided, Government-Sponsored, and Junior Basic Primary Schools (Classes I to V) across West Bengal. The examination comprises a single paper of 150 objective Multiple Choice Questions (MCQs) carrying 150 marks for a duration of 150 minutes (2 hours 30 minutes). All questions in non-language sections are bilingual in Bengali and English. There is no negative marking. In adherence to Supreme Court guidelines, professional qualification mandates a 2-year D.El.Ed., 4-year B.El.Ed., or 2-year D.Ed. (Special Education); B.Ed. is not eligible for Primary TET.",
+    "stages": [
+      {
+        "stage_name": "Teacher Eligibility Test (Classes I to V, Primary)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://wbbpeonline.com/ImageHandler.ashx?ID=24&Type=NoticeDoc&FileExt=.pdf",
+        "source_label": "WBBPE — Information and Guidelines for Teacher Eligibility Test-2022 & Notification No. 1945/WBBPE/2023",
+        "papers": [
+          {
+            "paper_name": "Part A: Child Development and Pedagogy",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part B: Language I (Bengali / Hindi / Odia / Telugu / Nepali / Santhali / Urdu)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part C: Language II (English for all candidates)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part D: Mathematics (Content & Pedagogic Content Knowledge)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part E: Environmental Studies (Content & Pedagogic Content Knowledge)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking (1 mark per correct answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official statistics compiled directly from WBBPE statutory declarations, official result summaries, and Board event records. In TET-2023 (held on 24.12.2023, result published on 24.09.2025 vide Memo No. 2121/WBBPE/2025/13T-08/2023), 3,09,054 candidates registered, 2,73,147 candidates appeared across West Bengal examination centres, and 6,754 candidates qualified (pass rate: 2.47%), with 64 candidates securing positions within Ranks 1 to 10. In TET-2022 (held on 11.12.2022, result published on 10.02.2023), 6,19,102 candidates appeared and 1,50,492 qualified (pass rate: 24.31%). Qualifying standard is 60% (90/150 marks) for General/Unreserved category and 55% (82/150 marks) for SC, ST, OBC-A, OBC-B, Differently Abled, Exempted Category, Ex-Servicemen, and Die-in-harness (DH) candidates. Certificate validity is for lifetime.",
+    "years": [
+      {
+        "year": 2023,
+        "registered_candidates": 309054,
+        "appeared_candidates": 273147,
+        "qualified_candidates": 6754,
+        "pass_percentage": 2.47,
+        "confidence": "verified",
+        "as_of": "2025-09-24",
+        "source_url": "https://wbbpe.wb.gov.in/file/cacc827f-a3f0-4d2f-ac24-0d60c9c0101b.pdf",
+        "source_label": "WBBPE — Summary Statement of Result for TET-2023 (Classes I to V, Primary) declared on 24.09.2025 vide Memo No. 2121/WBBPE/2025/13T-08/2023"
+      },
+      {
+        "year": 2022,
+        "appeared_candidates": 619102,
+        "qualified_candidates": 150492,
+        "pass_percentage": 24.31,
+        "confidence": "verified",
+        "as_of": "2023-02-10",
+        "source_url": "https://wbbpe.wb.gov.in/pages/event_details.html",
+        "source_label": "WBBPE Official Portal — Event Archive: Conducted successfully Teacher Eligibility Test (TET) (for Classes I to V), 2022"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, information guidelines, syllabus structures, and result announcements published by the West Bengal Board of Primary Education (WBBPE) on its official state and examination web portals.",
+    "links": [
+      {
+        "label": "WBBPE — Information and Guidelines for Teacher Eligibility Test (TET-2022)",
+        "url": "https://wbbpeonline.com/ImageHandler.ashx?ID=24&Type=NoticeDoc&FileExt=.pdf",
+        "type": "syllabus",
+        "cycle_label": "TET-2022",
+        "confidence": "verified",
+        "as_of": "2022-10-26"
+      },
+      {
+        "label": "WBBPE — Notification Pertaining to Holding TET-2023 in Adherence to NCTE Guidelines (No. 1945/WBBPE/2023)",
+        "url": "https://wbbpeonline.com/ImageHandler.ashx?ID=55&Type=NoticeDoc&FileExt=.pdf",
+        "type": "notification",
+        "cycle_label": "TET-2023",
+        "confidence": "verified",
+        "as_of": "2023-09-14"
+      },
+      {
+        "label": "WBBPE — Summary Statement of Result for TET-2023 (Notice No. 2121/WBBPE/2025/13T-08/2023)",
+        "url": "https://wbbpe.wb.gov.in/file/cacc827f-a3f0-4d2f-ac24-0d60c9c0101b.pdf",
+        "type": "other",
+        "cycle_label": "TET-2023",
+        "confidence": "verified",
+        "as_of": "2025-09-24"
+      },
+      {
+        "label": "WBBPE — Model Questions and Structure for Teacher Eligibility Test (Primary)",
+        "url": "https://wbbpeonline.com/ImageHandler.ashx?ID=58&Type=NoticeDoc&FileExt=.pdf",
+        "type": "syllabus",
+        "cycle_label": "TET-2023",
+        "confidence": "verified",
+        "as_of": "2023-10-18"
+      },
+      {
+        "label": "WBBPE Official State Portal (Event Details & Announcements)",
+        "url": "https://wbbpe.wb.gov.in/pages/event_details.html",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "WBBPE Online Application & Certification Portal",
+        "url": "https://wbbpeonline.com/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

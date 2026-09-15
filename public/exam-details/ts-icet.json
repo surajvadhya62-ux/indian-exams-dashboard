@@ -1,0 +1,114 @@
+{
+  "id": "ts-icet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Telangana State Integrated Common Entrance Test (TG ICET) is conducted as a Computer Based Test (CBT) by Mahatma Gandhi University, Nalgonda on behalf of the Telangana Council of Higher Education (TGCHE) for admission into Master of Business Administration (MBA) and Master of Computer Applications (MCA) postgraduate professional degree programmes. The test comprises 200 multiple-choice questions carrying 200 marks of 150 minutes (2 hours 30 minutes) duration across three sections: Section A Analytical Ability (75 marks), Section B Mathematical Ability (75 marks), and Section C Communication Ability (50 marks). Each question carries 1 mark with no negative marking. The qualifying mark is 25% (50 marks out of 200) for General and BC candidates; no minimum qualifying mark is prescribed for candidates belonging to SC and ST categories. Merit ranks are allotted based on normalized marks across test sessions.",
+    "stages": [
+      {
+        "stage_name": "TG ICET Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-06",
+        "source_url": "https://icet.tgche.ac.in/Documents/2026Docs/TG%20ICET%20-%202026%20Syllabus.pdf",
+        "source_label": "TGCHE & Mahatma Gandhi University — TG ICET 2026 Official Syllabus and Examination Pattern",
+        "papers": [
+          {
+            "paper_name": "Section A: Analytical Ability (Data Sufficiency: 20 Qs; Problem Solving: 55 Qs [Series 25, Data Analysis 10, Coding-Decoding 10, Date/Time/Arrangement 10])",
+            "marks": 75,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all three sections for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Section B: Mathematical Ability (Arithmetical Ability: 35 Qs; Algebraical & Geometrical Ability: 30 Qs; Statistical Ability: 10 Qs)",
+            "marks": 75,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all three sections for General/BC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Section C: Communication Ability (Vocabulary, Functional Grammar, Computer & Business Terminology, Comprehension Passages)",
+            "marks": 50,
+            "duration_minutes": 150,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "25% aggregate marks (50 out of 200) across all three sections for General/BC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Candidate registration and qualification metrics officially released by TGCHE and the Convener, TG ICET for admission into MBA and MCA programmes across state universities and affiliated colleges.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 86156,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "71,647 qualified out of 77,942 appeared (91.92% qualification rate across state MBA and MCA university quotas)",
+        "confidence": "reported",
+        "as_of": "2024-06-14",
+        "source_url": "https://icet.tgche.ac.in",
+        "source_label": "TGCHE & Kakatiya University / Mahatma Gandhi University TG ICET 2024 Official Results Declaration"
+      },
+      {
+        "year": 2023,
+        "applicants": 75932,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "61,092 qualified out of 70,362 appeared (86.82% qualification rate across state MBA/MCA seats)",
+        "confidence": "reported",
+        "as_of": "2023-06-29",
+        "source_url": "https://icet.tgche.ac.in",
+        "source_label": "TGCHE TG ICET 2023 Official Results Declaration Press Release"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, information booklets, and syllabi issued by TGCHE and Mahatma Gandhi University, Nalgonda.",
+    "links": [
+      {
+        "label": "TG ICET Official Syllabus & Structure (PDF)",
+        "url": "https://icet.tgche.ac.in/Documents/2026Docs/TG%20ICET%20-%202026%20Syllabus.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG ICET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "TG ICET Instructions to Candidates (PDF)",
+        "url": "https://icet.tgche.ac.in/Documents/2026Docs/TG%20ICET%202026%20-%20Instructions%20to%20Candidate.pdf",
+        "type": "other",
+        "cycle_label": "TG ICET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "TG ICET Detailed Notification (PDF)",
+        "url": "https://icet.tgche.ac.in/Documents/2026Docs/TG%20ICET%202026%20-%20Notification.pdf",
+        "type": "notification",
+        "cycle_label": "TG ICET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-06"
+      },
+      {
+        "label": "TG ICET Official Portal",
+        "url": "https://icet.tgche.ac.in",
+        "type": "other",
+        "cycle_label": "TG ICET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

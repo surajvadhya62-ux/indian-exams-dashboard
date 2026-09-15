@@ -1,0 +1,246 @@
+{
+  "id": "maha-jmfc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial career progression within the Subordinate Judiciary of Maharashtra and the High Court of Judicature at Bombay, governed by the Maharashtra Judicial Service Rules and recommendations of the Second National Judicial Pay Commission (SNJPC).",
+    "steps": [
+      {
+        "designation": "Civil Judge Junior Division & Judicial Magistrate First Class (CJJD & JMFC)",
+        "pay_level": "Pay Scale J-1",
+        "years": "Entry (Probation 2 yrs including training at Maharashtra Judicial Academy, Uttan)",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) Pay Matrix J-1 (₹77,840 - ₹1,36,520), Supreme Court WP(C) 643/2015"
+      },
+      {
+        "designation": "Civil Judge Junior Division (ACP Scale 1)",
+        "pay_level": "Pay Scale J-2",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "SNJPC Pay Scale J-2 (₹92,960 - ₹1,36,520)"
+      },
+      {
+        "designation": "Civil Judge Junior Division (ACP Scale 2)",
+        "pay_level": "Pay Scale J-3",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "SNJPC Pay Scale J-3 (₹1,11,000 - ₹1,63,030)"
+      },
+      {
+        "designation": "Civil Judge Senior Division (CJSD) / Chief Judicial Magistrate (CJM)",
+        "pay_level": "Pay Scale J-4 / J-5",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Maharashtra Judicial Service Rules, Senior Scale J-5 (₹1,44,840 - ₹1,94,660)"
+      },
+      {
+        "designation": "District Judge (Entry Level) / Additional District & Sessions Judge (ADJ)",
+        "pay_level": "Pay Scale J-6",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "SNJPC Pay Scale J-6 (₹1,44,840 - ₹1,94,660)"
+      },
+      {
+        "designation": "District Judge (Selection Grade)",
+        "pay_level": "Pay Scale J-7",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "SNJPC Pay Scale J-7 (₹1,63,030 - ₹2,19,090)"
+      },
+      {
+        "designation": "Principal District & Sessions Judge (Super Time Scale)",
+        "pay_level": "Pay Scale J-8",
+        "years": "approx. 25-30 yrs",
+        "confidence": "verified",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "SNJPC Pay Scale J-8 (₹1,99,100 - ₹2,24,100)"
+      },
+      {
+        "designation": "Judge, High Court of Judicature at Bombay (Elevation)",
+        "pay_level": "High Court Judge Scale",
+        "years": "Seniority / Merit Elevation",
+        "confidence": "reported",
+        "as_of": "2023-01-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Constitution of India, Article 217; High Court Judges (Salaries and Conditions of Service) Act (₹2,25,000 fixed)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Examination conducted by MPSC in coordination with the Bombay High Court comprising a Preliminary objective screening test, a Main written descriptive test (Paper 1 and Paper 2), and a Viva-Voce interview round.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-05-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 013/2026 Scheme of Civil Judge Junior Division & JMFC Examination",
+        "papers": [
+          {
+            "paper_name": "Law Paper (IPC, CrPC, CPC, Evidence Act, Contract Act, Specific Relief Act, Transfer of Property Act, Constitution, Rent Control Act, Limitation Act)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-1/4 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Written Examination (Descriptive / Conventional)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-05-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advt. No. 013/2026 Syllabus and Scheme",
+        "papers": [
+          {
+            "paper_name": "Paper 1 — Civil Law (CPC, Transfer of Property Act, Specific Relief Act, Law of Contracts, Sale of Goods Act, Partnership Act)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper 2 — Criminal Law (CrPC, IPC, Indian Evidence Act, SC/ST Act, Protection of Civil Rights Act, Essay on Legal Topic)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Viva-Voce / Oral Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-05-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "Bombay High Court Judicial Service Examination Rules",
+        "papers": [
+          {
+            "paper_name": "Interview Board (High Court Committee)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "40% (Minimum 20 marks out of 50 required to qualify for appointment)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay Scale J-1 under Second National Judicial Pay Commission (SNJPC) implemented by Government of Maharashtra Law & Judiciary Department per Supreme Court judgment in All India Judges Association v. Union of India.",
+    "pay_level": "Pay Scale J-1 (SNJPC)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-01-01",
+    "pay_source_url": "https://mpsc.gov.in",
+    "pay_source_label": "Second National Judicial Pay Commission (SNJPC) Pay Matrix J-1 (₹77,840 - ₹1,36,520), Supreme Court WP(C) No. 643/2015",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 130000, "max": 155000 },
+    "in_hand_range_estimate": { "min": 115000, "max": 138000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Basic pay ₹77,840 in Scale J-1. Gross calculated with 58% DA (₹45,147) plus judicial HRA (up to 27% in municipal corporation areas or earmarked judicial quarters), Sumptuary allowance, Robe allowance, Electricity & Water allowance, minus judicial pension contributions and professional tax.",
+    "official_perks": [
+      "Official earmarked judicial residential bungalow / quarters or full judicial HRA",
+      "Official judicial staff support (Orderly/Peon, Judicial Stenographer, Bench Clerk)",
+      "Conveyance allowance / staff car facility or fuel reimbursement for official duty",
+      "Sumptuary allowance and robe allowance per SNJPC recommendations",
+      "Law library book allowance, legal database subscription, and official laptop provision",
+      "Comprehensive medical facilities for judge, spouse, and dependent family members",
+      "Subsidized telephone, broadband internet, electricity, and water allowances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Notified vacancies and recruitment data from MPSC and Bombay High Court official announcements for Civil Judge Junior Division & JMFC posts.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": 32000,
+        "vacancies": 286,
+        "shortlisted_for_mains": 4290,
+        "selectivity_ratio": "approx. 1 in 112 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2026-05-01",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 013/2026 (Civil Judge Junior Division and Judicial Magistrate First Class Preliminary Examination 2026): 286 posts notified."
+      },
+      {
+        "year": 2023,
+        "applicants": 28000,
+        "vacancies": 114,
+        "shortlisted_for_mains": 1710,
+        "selectivity_ratio": "approx. 1 in 246 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-03-20",
+        "source_url": "https://mpsc.gov.in",
+        "source_label": "MPSC Advertisement No. 026/2023 (Civil Judge Junior Division & JMFC Preliminary Examination 2023): 114 posts notified."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and candidate application portals on MPSC official domains.",
+    "links": [
+      {
+        "label": "MPSC Civil Judge (Junior Division) and JMFC Preliminary Examination 2026 Notification (Advt. 013/2026)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 013/2026",
+        "confidence": "verified",
+        "as_of": "2026-05-01"
+      },
+      {
+        "label": "MPSC Civil Judge (Junior Division) and JMFC Preliminary Examination 2023 Notification (Advt. 026/2023)",
+        "url": "https://mpsc.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt. 026/2023",
+        "confidence": "verified",
+        "as_of": "2023-03-20"
+      },
+      {
+        "label": "MPSC Civil Judge (Junior Division) and JMFC Examination Scheme & Syllabus",
+        "url": "https://mpsc.gov.in/home",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "MPSC Previous Question Papers and Answer Keys Portal",
+        "url": "https://mpsc.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

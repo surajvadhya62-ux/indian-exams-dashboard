@@ -1,0 +1,172 @@
+{
+  "id": "gujarat-tet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Gujarat Teacher Eligibility Test (TET) is conducted by the State Examination Board (SEB), Gandhinagar under the Right to Education Act and NCTE regulations. It comprises TET-1 for Primary Classes (1-5), TET-2 for Upper Primary Classes (6-8), and TAT for Secondary/Higher Secondary schools.",
+    "stages": [
+      {
+        "stage_name": "TET-1: Primary Teacher Eligibility Test (Classes 1 to 5)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-10-08",
+        "source_url": "https://sebexam.org/AdvertiseFiles/2025/pre-1111-711-k001_102025.pdf",
+        "source_label": "Education Department Government of Gujarat Resolution No. PRE/1111/711/K dated 08/10/2025 and SEB Notification",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Reasoning, Logical Ability, Teacher Aptitude, Data Interpretation)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          },
+          {
+            "paper_name": "Language 1 (Gujarati Grammar, Comprehension, Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          },
+          {
+            "paper_name": "Language 2 (English Language Proficiency & Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          },
+          {
+            "paper_name": "Mathematics (Concepts, Problem Solving, Applied Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          },
+          {
+            "paper_name": "Environmental Studies (Science, Social Studies, Local Environment, Pedagogy)",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          }
+        ]
+      },
+      {
+        "stage_name": "TET-2: Upper Primary Teacher Eligibility Test (Classes 6 to 8)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-10-08",
+        "source_url": "https://sebexam.org/AdvertiseFiles/2025/pre-1111-711-k001_102025.pdf",
+        "source_label": "Education Department Government of Gujarat Resolution No. PRE/1111/711/K dated 08/10/2025 and SEB Notification",
+        "papers": [
+          {
+            "paper_name": "Section 1 (Common): Child Development & Pedagogy (25), Gujarati (25), English (25), General Knowledge & Current Affairs (25)",
+            "marks": 75,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          },
+          {
+            "paper_name": "Section 2 (Subject Elective): Mathematics & Science OR Social Science OR Languages (Gujarati/Hindi/English/Sanskrit)",
+            "marks": 75,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90/150) for General; 55% (82/150) for SC/ST/SEBC/EWS/PwD"
+          }
+        ]
+      },
+      {
+        "stage_name": "Teacher Aptitude Test (TAT - Secondary & Higher Secondary)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-02-12",
+        "source_url": "https://sebexam.org/AdvertiseFiles/2026/tat%20-%20s%202026%20notification_022026.pdf",
+        "source_label": "State Examination Board Gujarat Notification for TAT-Secondary (TAT-S) & TAT-Higher Secondary (TAT-HS)",
+        "papers": [
+          {
+            "paper_name": "Prelims Examination: Objective Paper (Part 1: General Studies 100 marks; Part 2: Subject Content & Pedagogy 100 marks)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "-0.25 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff for admission to Mains Descriptive examination"
+          },
+          {
+            "paper_name": "Mains Examination: Descriptive Papers (Paper 1: Language Ability 100 marks; Paper 2: Subject Content & Methodology 100 marks)",
+            "marks": 200,
+            "duration_minutes": 300,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% aggregate for General category; 55% for reserved categories"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official qualifying figures released by the State Examination Board Gandhinagar for Gujarat TET cycles.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 400000,
+        "vacancies": 24700,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 16 (calculated: estimated candidate pool ÷ announced vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-07-03",
+        "source_url": "https://sebexam.org",
+        "source_label": "Government of Gujarat Cabinet Resolution: Statewide teacher recruitment calendar announcing 24,700 positions across Government & Granted schools (7,600 for TET-2, 6,200 for TET-1, 7,500 for TAT-S/HS, 3,400 for Principals/Senior Teachers)."
+      },
+      {
+        "year": 2023,
+        "applicants": 275000,
+        "vacancies": null,
+        "shortlisted_for_mains": 37450,
+        "selectivity_ratio": "approx. 15.76% pass rate (37,450 qualified out of 2,37,700 appeared)",
+        "confidence": "reported",
+        "as_of": "2023-06-15",
+        "source_url": "https://sebexam.org",
+        "source_label": "State Examination Board (SEB) official result release for TET-2 (Upper Primary) held on 23/04/2023: 2,37,700 candidates appeared; 37,450 candidates (15.76%) declared qualified."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and syllabi are hosted directly by the State Examination Board (SEB), Gandhinagar on sebexam.org.",
+    "links": [
+      {
+        "label": "Education Department Government Resolution — TET-I & TET-II Scheme & Syllabus",
+        "url": "https://sebexam.org/AdvertiseFiles/2025/pre-1111-711-k001_102025.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2025-10-08"
+      },
+      {
+        "label": "Teacher Aptitude Test (Secondary - TAT-S) 2026 Notification",
+        "url": "https://sebexam.org/AdvertiseFiles/2026/tat%20-%20s%202026%20notification_022026.pdf",
+        "type": "notification",
+        "cycle_label": "TAT-S-2026",
+        "confidence": "verified",
+        "as_of": "2026-02-12"
+      },
+      {
+        "label": "State Examination Board (SEB) Gujarat — Official Examination Portal",
+        "url": "https://sebexam.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

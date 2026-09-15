@@ -1,0 +1,266 @@
+{
+  "id": "andaman-administration-cgl",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Cadre progression for ministerial and field staff in the Andaman & Nicobar Administration is governed by the Andaman & Nicobar Administration Subordinate Ministerial Service Rules and department-specific recruitment rules. For the clerical stream, entry is at Lower Grade Clerk / Lower Division Clerk (Pay Level 2), advancing through regular promotion or departmental examinations to Higher Grade Clerk / Upper Division Clerk (Pay Level 4), Assistant Section Officer / Head Clerk (Pay Level 6), and Section Officer / Office Superintendent (Pay Level 7 / Level 8), with senior promotional avenues into the Assistant Secretary cadre (Pay Level 10). For the Revenue cadre, Patwaris (Pay Level 3) advance to Revenue Inspector / Kanungo (Pay Level 5) and Tehsildar / Naib Tehsildar (Pay Level 6/7).",
+    "steps": [
+      {
+        "designation": "Lower Grade Clerk (LGC) / Lower Division Clerk (LDC)",
+        "pay_level": "Level 2",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2026-06-04",
+        "source_url": "https://erecruitment.andamannicobar.gov.in/Notice/108_5f61dec1-c025-40f9-8cfa-3099684618cd.pdf",
+        "source_label": "A&N Administration Secretariat — Combined Higher Secondary Level Recruitment Notice (Advt. No. 02/HSL/2026, Post Code 227/26: Level 2, scale ₹19,900 - ₹63,200)"
+      },
+      {
+        "designation": "Higher Grade Clerk (HGC) / Upper Division Clerk (UDC)",
+        "pay_level": "Level 4",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2026-06-04",
+        "source_url": "https://erecruitment.andamannicobar.gov.in/Notice/109_cec1d971-54bc-470a-befa-43187519a9b4.pdf",
+        "source_label": "A&N Administration — Common Higher Secondary / Graduate Cadre Rules (Promotion from LDC with 5-8 years regular service or departmental qualifying examination; Level 4 scale ₹25,500 - ₹81,100)"
+      },
+      {
+        "designation": "Assistant Section Officer (ASO) / Head Clerk / Assistant",
+        "pay_level": "Level 6",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2026-06-04",
+        "source_url": "https://erecruitment.andamannicobar.gov.in/Notice/67_f0581b64-b355-4fa9-8b20-3d4776112e35.pdf",
+        "source_label": "A&N Administration Common Graduate Level Cadre Scheme — Group B Non-Gazetted Ministerial Posts (Pay Level 6 scale ₹35,400 - ₹1,12,400)"
+      },
+      {
+        "designation": "Section Officer / Office Superintendent",
+        "pay_level": "Level 7",
+        "years": "approx. 18-23 yrs",
+        "confidence": "reported",
+        "as_of": "2026-06-04",
+        "source_url": "https://karmic.andamannicobar.gov.in/personnel/index.php",
+        "source_label": "A&N Administration Secretariat Service Cadre Regulations (Promotion from ASO with 5 years regular service; Pay Level 7 scale ₹44,900 - ₹1,42,400)"
+      },
+      {
+        "designation": "Assistant Secretary / Under Secretary (Secretariat Cadre)",
+        "pay_level": "Level 10",
+        "years": "approx. 25-30 yrs",
+        "confidence": "reported",
+        "as_of": "2026-06-04",
+        "source_url": "https://karmic.andamannicobar.gov.in/personnel/index.php",
+        "source_label": "A&N Administration Secretariat Group 'A' Gazetted Service Rules (Pay Level 10 scale ₹56,100 - ₹1,77,500)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The examination scheme for the Combined Higher Secondary Level Recruitment Examination (CHSLRE) is prescribed in Advertisement No. 02/HSL/2026 (File No. 4-12/2026-R&E Cell/214 dated 04/06/2026). The selection comprises two stages: Stage 1 is an Online Tablet Based Test (TBT) / Computer Based Test of 200 multiple-choice questions for 200 marks lasting 120 minutes (2 hours). Questions are bilingual (English and Hindi) except for General English. There is negative marking of 0.25 marks per wrong answer. Candidates qualifying the TBT in order of merit appear for Stage 2, which consists of post-specific Trade / Skill / Physical tests (e.g. 35 w.p.m. English / 30 w.p.m. Hindi computer typing test for Lower Grade Clerks, 80 w.p.m. shorthand and 40/45 w.p.m. typing for Stenographers, physical endurance for Foresters), which are strictly qualifying in nature.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Online Tablet Based Test (TBT Objective Examination)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-06-04",
+        "source_url": "https://erecruitment.andamannicobar.gov.in/Notice/108_5f61dec1-c025-40f9-8cfa-3099684618cd.pdf",
+        "source_label": "Andaman & Nicobar Administration Secretariat — Advt. No. 02/HSL/2026, Section 8 (Indicative Syllabus / Duration / Marks / Negative Marks)",
+        "papers": [
+          {
+            "paper_name": "English Language (General English)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Trade Test / Skill Test / Physical Endurance Test (Qualifying)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-06-04",
+        "source_url": "https://erecruitment.andamannicobar.gov.in/Notice/108_5f61dec1-c025-40f9-8cfa-3099684618cd.pdf",
+        "source_label": "Andaman & Nicobar Administration Secretariat — Advt. No. 02/HSL/2026, Section 9 & Annexure-I",
+        "papers": [
+          {
+            "paper_name": "Computer Typing Speed Test (For Lower Grade Clerk / LDC & Typist Posts)",
+            "marks": null,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (35 words per minute in English on Computer [10,500 KDPH] or 30 words per minute in Hindi on Computer [9,000 KDPH], based on an average of 5 key depressions per word)"
+          },
+          {
+            "paper_name": "Shorthand & Typewriting Skill Test (For Stenographer Posts)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Shorthand speed of 80 words per minute and typing speed of 40 w.p.m. on manual typewriter or 45 w.p.m. on Computer [13,500 KDPH])"
+          },
+          {
+            "paper_name": "Physical Standard / Physical Endurance Test (For Forester & Field Posts)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Physical measurement standards and endurance tests as prescribed under respective Departmental Recruitment Rules)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Andaman & Nicobar Islands is a Union Territory directly administered by the Central Government (Ministry of Home Affairs); administration staff are Central Civil Services employees governed under the Central 7th CPC Pay Matrix. The foundational clerical entry post of Lower Grade Clerk / Lower Division Clerk is positioned at Pay Level 2 (entry basic pay ₹19,900; scale ₹19,900 - ₹63,200). Patwari and Village Level Worker posts are positioned at Pay Level 3 (entry basic pay ₹21,700; scale ₹21,700 - ₹69,100), and Stenographers / UDCs are positioned at Pay Level 4 (entry basic pay ₹25,500; scale ₹25,500 - ₹81,100). In addition to 58% Central DA and standard HRA/Transport Allowance, personnel serving in the islands are entitled to Island Special Duty Allowance (ISDA) under Ministry of Finance orders ranging from 10% (Port Blair / South Andaman) up to 20% (difficult / remote Nicobar group of islands).",
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-06-04",
+    "pay_source_url": "https://erecruitment.andamannicobar.gov.in/Notice/108_5f61dec1-c025-40f9-8cfa-3099684618cd.pdf",
+    "pay_source_label": "A&N Administration Secretariat — Advt. No. 02/HSL/2026, Post Code 227/26 (Pay Scale: Pay Matrix Level 2, ₹19,900 - ₹63,200 for Lower Grade Clerk)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36500,
+      "max": 42000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 37000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated for Level 2 (Lower Grade Clerk) at Entry Basic Pay of ₹19,900 with DA at 58% (₹11,542). Includes House Rent Allowance (9% / ₹1,791 for island towns, or government quarter allotment), Transport Allowance (₹1,350 + DA ₹783 = ₹2,133, or ₹900 + DA ₹522 = ₹1,422), and Island Special Duty Allowance (ISDA) at 10% (₹1,990) to 20% (₹3,980) of Basic Pay depending on island posting zone. Deductions include mandatory NPS employee contribution (10% of Basic + DA = ₹3,144) and CGEGIS/insurance, yielding estimated in-hand pay of ₹32,000 to ₹37,000. (For Level 3 Patwari at basic ₹21,700, estimated in-hand is ₹34,500 - ₹40,000; for Level 4 Stenographer at basic ₹25,500, estimated in-hand is ₹39,000 - ₹46,000).",
+    "official_perks": [
+      "Island Special Duty Allowance (ISDA) of 10% to 20% of Basic Pay depending on island posting zone (Port Blair vs remote Nicobar Islands)",
+      "Government departmental residential quarters or House Rent Allowance (HRA)",
+      "Transport Allowance (TPTA) with Dearness Allowance",
+      "Leave Travel Concession (LTC) including sea/air passage between mainland India (Kolkata/Chennai) and Port Blair per Central Government Island LTC rules",
+      "Central Government Employees Group Insurance Scheme (CGEGIS) and Central Civil Services Medical Attendance (CS(MA)) rules",
+      "Defined contribution pension under the National Pension System (NPS) with 14% Central Government employer contribution"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancy numbers and selection statistics are sourced directly from Andaman & Nicobar Administration recruitment notices and published press notes. In the 2026 Combined Higher Secondary Level (CHSLRE) recruitment cycle (Advt. No. 02/HSL/2026), 716 total vacancies were notified across Group B(NG) and Group C posts (including 426 Lower Grade Clerks in Secretariat, 33 Stenographers, 36 Foresters, and 8 Patwaris). In the 2023 cycle (Notification No. 4-12/2023/R&E/462 conducted with SSC assistance), 488 vacancies were notified, 478 candidates were recommended for selection, and 472 appointment offers were issued at the 3rd Rozgar Mela at Netaji Stadium, Port Blair, followed by an additional select list for 90 resultant vacancies in October 2024. In the 2022 recruitment cycle (F.No. 1-3/2022-R&E Cell), 565 vacancies were notified (including 453 LGCs in Secretariat, 37 Stenographers, 8 Patwaris, and 19 Tally Clerks).",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 716,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-06-04",
+        "source_url": "https://erecruitment.andamannicobar.gov.in/Notice/108_5f61dec1-c025-40f9-8cfa-3099684618cd.pdf",
+        "source_label": "A&N Administration Secretariat — Combined Higher Secondary Level Recruitment Notice (Advt. No. 02/HSL/2026): 716 total vacancies across 38 post codes (UR: 334, ST: 42, OBC: 280, EWS: 60, PwDs: 25, ESM: 2)."
+      },
+      {
+        "year": 2023,
+        "applicants": null,
+        "vacancies": 488,
+        "shortlisted_for_mains": 478,
+        "selectivity_ratio": "approx. 1 in 1.02 of shortlisted (478 candidates recommended against 488 vacancies; 472 offers issued on 12/02/2024 at Netaji Stadium Rozgar Mela)",
+        "confidence": "verified",
+        "as_of": "2024-10-18",
+        "source_url": "https://karmic.andamannicobar.gov.in/personnel/docs/pr-chsl102024.pdf",
+        "source_label": "A&N Administration Secretariat — Press Note dated 18/10/2024 (Additional Select List Common Higher Secondary Level 2023): 488 vacancies notified (UR: 244, ST: 14, OBC: 191, EWS: 39, PWD: 02, MSP: 15, ESM: 03); 478 recommended for selection; 472 appointed."
+      },
+      {
+        "year": 2022,
+        "applicants": null,
+        "vacancies": 565,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2022-08-26",
+        "source_url": "https://karmic.andamannicobar.gov.in/personnel/docs/Vacancy-revised.pdf",
+        "source_label": "A&N Administration Secretariat — Revised Vacancy Position Notice F.No. 1-3/2022-R&E Cell dated 26/08/2022: 565 total vacancies notified (UR: 274, ST: 54, OBC: 186, EWS: 53, PwD: 12, MSP: 27, ESM: 09; including 453 LGC Secretariat, 37 Stenographer, 8 Patwari)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, annexures, syllabus schemes, and historical select lists published by the Andaman & Nicobar Administration on its official recruitment portals (erecruitment.andamannicobar.gov.in and karmic.andamannicobar.gov.in).",
+    "links": [
+      {
+        "label": "Combined Higher Secondary Level Recruitment Notice 2026 (Advt. No. 02/HSL/2026)",
+        "url": "https://erecruitment.andamannicobar.gov.in/Notice/108_5f61dec1-c025-40f9-8cfa-3099684618cd.pdf",
+        "type": "notification",
+        "cycle_label": "CHSLRE-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-04"
+      },
+      {
+        "label": "Annexure - Post-Wise Qualifications & Trade/Skill Test Requirements 2026",
+        "url": "https://erecruitment.andamannicobar.gov.in/Notice/109_cec1d971-54bc-470a-befa-43187519a9b4.pdf",
+        "type": "syllabus",
+        "cycle_label": "CHSLRE-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-04"
+      },
+      {
+        "label": "Notice for Extension of Last Date for Submission of Online Applications",
+        "url": "https://erecruitment.andamannicobar.gov.in/Notice/114_4be28db3-a235-45d0-83ae-1618688696b4.pdf",
+        "type": "notification",
+        "cycle_label": "CHSLRE-2026",
+        "confidence": "verified",
+        "as_of": "2026-06-25"
+      },
+      {
+        "label": "Common Graduate Level (CGL) Examination Scheme & Syllabus",
+        "url": "https://erecruitment.andamannicobar.gov.in/Notice/67_f0581b64-b355-4fa9-8b20-3d4776112e35.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2024-03-15"
+      },
+      {
+        "label": "Press Note on Selection List & Vacancy Allocations (CHSL 2023 Cycle)",
+        "url": "https://karmic.andamannicobar.gov.in/personnel/docs/pr-chsl102024.pdf",
+        "type": "other",
+        "cycle_label": "CHSL-2023",
+        "confidence": "verified",
+        "as_of": "2024-10-18"
+      },
+      {
+        "label": "Revised Vacancy Position Notice for Common Group C Posts (2022 Cycle)",
+        "url": "https://karmic.andamannicobar.gov.in/personnel/docs/Vacancy-revised.pdf",
+        "type": "notification",
+        "cycle_label": "Group-C-2022",
+        "confidence": "verified",
+        "as_of": "2022-08-26"
+      }
+    ]
+  }
+}

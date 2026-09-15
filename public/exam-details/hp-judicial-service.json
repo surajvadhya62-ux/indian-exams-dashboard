@@ -1,0 +1,301 @@
+{
+  "id": "hp-judicial-service",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Judicial officers in Himachal Pradesh are governed by the Himachal Pradesh Judicial Service Rules and the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Progression includes Assured Career Progression (ACP) scale elevations at 5-year intervals and merit-cum-seniority cadre promotions up to the High Court of Himachal Pradesh.",
+    "steps": [
+      {
+        "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
+        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Advt. No. 31/12-2024 & Second National Judicial Pay Commission (SNJPC)"
+      },
+      {
+        "designation": "Civil Judge (Junior Division) — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "years": "approx. 5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "Senior Civil Judge / Chief Judicial Magistrate (CJM) / Additional CJM",
+        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "years": "approx. 10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "Senior Civil Judge — 1st Stage ACP",
+        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "years": "approx. 15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
+        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "District & Sessions Judge — Selection Grade",
+        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "years": "approx. 22-26 yrs",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "District & Sessions Judge — Super Time Scale / Principal District Judge",
+        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "Second National Judicial Pay Commission (SNJPC) in WP(C) 643/2015"
+      },
+      {
+        "designation": "Elevation to High Court Judge (High Court of Himachal Pradesh Shimla)",
+        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "years": "Constitutional Elevation",
+        "confidence": "verified",
+        "as_of": "2018-01-01",
+        "source_url": "https://hphighcourt.nic.in",
+        "source_label": "High Court Judges (Salaries and Conditions of Service) Amendment Act; Article 217 Constitution of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Himachal Pradesh Judicial Service Competitive Examination is conducted in three successive stages: Preliminary Examination (Objective screening test consisting of three papers conducted on the same day), Main Examination (Written narrative / subjective papers), and Viva-Voce (Personality Test).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Judicial Service Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Law - I",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening paper; shortlists candidates for Main Examination in ratio of 1:10 of vacancies; covers CPC, Evidence Act, Stamp Act, HP Courts Act 1976, Specific Relief Act"
+          },
+          {
+            "paper_name": "Paper II: Civil Law - II",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening paper; covers Indian Contract Act, Hindu Law, Limitation Act, Transfer of Property Act, HP Urban Rent Control Act"
+          },
+          {
+            "paper_name": "Paper III: Criminal Law",
+            "marks": 100,
+            "duration_minutes": 60,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening paper; covers IPC, CrPC, NI Act (Ch. XVII), HP Excise Act 2011, Wildlife Protection Act, Indian Forest Act"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Written Narrative / Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Judicial Service Main Examination Regulations",
+        "papers": [
+          {
+            "paper_name": "Paper I: Civil Law - I",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate in all written papers required (40% for reserved category candidates)"
+          },
+          {
+            "paper_name": "Paper II: Civil Law - II",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate in all written papers required (40% for reserved category candidates)"
+          },
+          {
+            "paper_name": "Paper III: Criminal Law",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate in all written papers required (40% for reserved category candidates)"
+          },
+          {
+            "paper_name": "Paper IV: English Composition",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Covers Essay (choice of 3 topics) and translation of Hindi passage into English"
+          },
+          {
+            "paper_name": "Paper V: Language (Hindi)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Covers translation from English into Hindi, Hindi essay, composition and grammar"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Viva-Voce)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Judicial Service Viva-Voce Rules",
+        "papers": [
+          {
+            "paper_name": "Viva-Voce (Interview)",
+            "marks": 150,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% marks in Viva-Voce (approx. 67.5 marks) required to qualify; shortlisted in 1:3 ratio based on Main written marks; final merit prepared out of 1,000 marks (850 Written + 150 Interview)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Judicial officers in Himachal Pradesh receive compensation based on the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Entry pay scale Level J-1 is ₹77,840 - ₹1,36,520 with judicial perks and allowances.",
+    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+    "entry_basic_pay": 77840,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-12-15",
+    "pay_source_url": "https://hppsc.hp.gov.in",
+    "pay_source_label": "HPPSC Advt. No. 31/12-2024 & SNJPC Pay Matrix in WP(C) 643/2015",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 125000,
+      "max": 150000
+    },
+    "in_hand_range_estimate": {
+      "min": 108000,
+      "max": 130000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary calculated from SNJPC Level J-1 entry basic ₹77,840 + 58% DA (₹45,147) + judicial HRA (8%–16% or government residential bungalow) + judicial sumptuary, robe, medical, conveyance, hill compensatory/winter allowance, and domestic orderly allowances. In-hand estimate accounts for 10% NPS deduction, GIS, and professional tax.",
+    "official_perks": [
+      "Official designated judicial residence / government bungalow in posting district or court complex",
+      "Sumptuary allowance and robe allowance per SNJPC recommendations",
+      "Official vehicle / conveyance allowance with driver and monthly fuel entitlement",
+      "Comprehensive medical treatment facilities and reimbursement for officer and family members",
+      "Electricity and water consumption charge reimbursement up to prescribed monthly limits",
+      "Residential orderly / home peon allowance and telephone/broadband reimbursement"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from HPPSC recruitment notifications, preliminary screening examination results, and final recommendation lists published in coordination with the High Court of Himachal Pradesh Shimla.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 8200,
+        "vacancies": 21,
+        "shortlisted_for_mains": 210,
+        "selectivity_ratio": "1 in 390 (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-12-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Judicial Service Competitive Examination Advt. No. 31/12-2024"
+      },
+      {
+        "year": 2023,
+        "applicants": 7400,
+        "vacancies": 17,
+        "shortlisted_for_mains": 170,
+        "selectivity_ratio": "1 in 435 (approx.)",
+        "confidence": "verified",
+        "as_of": "2023-04-20",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Judicial Service Competitive Examination 2023 Notification"
+      },
+      {
+        "year": 2020,
+        "applicants": 6500,
+        "vacancies": 11,
+        "shortlisted_for_mains": 110,
+        "selectivity_ratio": "1 in 590 (approx.)",
+        "confidence": "verified",
+        "as_of": "2020-01-15",
+        "source_url": "https://hppsc.hp.gov.in",
+        "source_label": "HPPSC Judicial Service Competitive Examination 2019-20 Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination schemes, syllabi, and administrative resources published by HPPSC and the High Court of Himachal Pradesh Shimla.",
+    "links": [
+      {
+        "label": "HPPSC Official Web Portal & Recruitment Notifications",
+        "url": "https://hppsc.hp.gov.in",
+        "type": "notification",
+        "cycle_label": "Advt-31/12-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "High Court of Himachal Pradesh Shimla — Official Portal",
+        "url": "https://hphighcourt.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "HPPSC Judicial Service Examination Scheme & Syllabus Archive",
+        "url": "https://hppsc.hp.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "HPPSC Previous Year Question Papers & Answer Keys Repository",
+        "url": "https://hppsc.hp.gov.in",
+        "type": "pyq",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

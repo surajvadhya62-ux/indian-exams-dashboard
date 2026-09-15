@@ -1,0 +1,232 @@
+{
+  "id": "rsmssb-agriculture-supervisor",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Agriculture Supervisors (Krishi Paryavekshak) are the grassroots agricultural extension and advisory officials in the Department of Agriculture, Government of Rajasthan. Governed by the Rajasthan Agriculture Subordinate Service Rules, 1978, they guide farmers on crop production techniques, high-yielding seed varieties, micro-irrigation systems, fertilizer dosages, soil health testing, and government subsidy schemes.",
+    "steps": [
+      {
+        "designation": "Agriculture Supervisor (Krishi Paryavekshak)",
+        "pay_level": "Level L-5",
+        "years": "Entry (0-7 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Agriculture Subordinate Service Rules 1978 & Advt. 06/2023"
+      },
+      {
+        "designation": "Assistant Agriculture Officer (AAO / Sahayak Krishi Adhikari)",
+        "pay_level": "Level L-11",
+        "years": "approx. 7-15 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://krishi.rajasthan.gov.in",
+        "source_label": "Department of Agriculture Subordinate Service Promotion Rules"
+      },
+      {
+        "designation": "Agriculture Officer (AO / Krishi Adhikari — State Agriculture Service)",
+        "pay_level": "Level L-14",
+        "years": "approx. 15-22 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://krishi.rajasthan.gov.in",
+        "source_label": "Rajasthan Agriculture Service (Gazetted Class I) Rules"
+      },
+      {
+        "designation": "Assistant Director of Agriculture (ADA / Sub-Divisional Head)",
+        "pay_level": "Level L-15",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "State Agriculture Senior Directorate Hierarchy"
+      },
+      {
+        "designation": "Deputy Director / Joint Director of Agriculture",
+        "pay_level": "Level L-16",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Department of Agriculture Higher Administrative Structure"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Agriculture Supervisor recruitment examination is a single-stage competitive objective written examination of 100 questions carrying 300 marks for a duration of 2 hours, followed by document verification of shortlisted candidates. For each correct response, 3 marks are awarded, and 1 mark is deducted for each incorrect answer (1/3rd negative marking). Minimum qualifying threshold is 40% aggregate marks (35% for SC/ST).",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Agriculture Supervisor Examination Scheme & Syllabus (Advt. 06/2023)",
+        "papers": [
+          {
+            "paper_name": "Part I — General Hindi (Samanya Hindi)",
+            "marks": 45,
+            "duration_minutes": null,
+            "negative_marking": "1 mark deducted per incorrect answer (1/3rd penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II — Rajasthan General Knowledge, History and Culture",
+            "marks": 75,
+            "duration_minutes": null,
+            "negative_marking": "1 mark deducted per incorrect answer (1/3rd penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III — Agronomy (Shasya Vigyan)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "1 mark deducted per incorrect answer (1/3rd penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part IV — Horticulture (Udyaniki)",
+            "marks": 60,
+            "duration_minutes": null,
+            "negative_marking": "1 mark deducted per incorrect answer (1/3rd penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part V — Animal Husbandry (Pashupalan)",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "1 mark deducted per incorrect answer (1/3rd penalty)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 40% aggregate (35% for SC/ST)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Agriculture Scrutiny)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Agriculture Supervisor Final Selection Order Dated 28.11.2024",
+        "papers": [
+          {
+            "paper_name": "Verification of B.Sc. Agriculture / Class 12 with Agriculture Subject & Domicile",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Agriculture Supervisors are placed in Pay Matrix Level L-5 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,400) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹14,600 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹20,800 is drawn in Level L-5.",
+    "pay_level": "Level L-5",
+    "entry_basic_pay": 20800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Level L-5 Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 35000,
+      "max": 38000
+    },
+    "in_hand_range_estimate": {
+      "min": 30000,
+      "max": 33000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level L-5 entry basic pay of ₹20,800 at 58% DA (₹12,064 effective 01.07.2025), HRA (9% to 18%: ₹1,872 to ₹3,744), agricultural field touring allowance, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
+      "House Rent Allowance (HRA) categorized by district and rural posting classification",
+      "Agricultural field conveyance allowance and farmer demonstration touring grants",
+      "Cashless medical facility across empanelled hospitals under RGHS",
+      "Defined pension coverage under restored Old Pension Scheme (OPS)",
+      "Privilege leave, causal leave, and annual leave travel concession (LTC)"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official RSMSSB Agriculture Supervisor 2023 result notifications and final recommendation orders.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 146500,
+        "appeared": 109842,
+        "qualified_stage_1": 860,
+        "recommended": 430,
+        "vacancies": 430,
+        "confidence": "verified",
+        "as_of": "2024-11-28",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Agriculture Supervisor 2023 Final Selection & Cut-off Order Dated 28.11.2024"
+      },
+      {
+        "year": 2021,
+        "applicants": 167000,
+        "appeared": 139000,
+        "qualified_stage_1": 4508,
+        "recommended": 2254,
+        "vacancies": 2254,
+        "confidence": "reported",
+        "as_of": "2022-03-07",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB Agriculture Supervisor 2021 Recommendation Notification"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Statutory advertisement, selection orders, and recommendation lists published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Agriculture Supervisor 2023 Final Recommendation Order",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/AgriSup23_Result_28112024.pdf",
+        "type": "other",
+        "cycle_label": "Agri-Supervisor-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Agriculture Supervisor 2023 Detailed Recruitment Advertisement",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/Agriculture_Supervisor_2023.pdf",
+        "type": "notification",
+        "cycle_label": "Agri-Supervisor-2023",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB Agriculture Supervisor Full Advertisement (Archive)",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/FullAdvt_AgriSupervisor2018_2776_250518.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

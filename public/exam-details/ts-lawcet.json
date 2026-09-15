@@ -1,0 +1,114 @@
+{
+  "id": "ts-lawcet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Telangana State Law Common Entrance Test (TG LAWCET) is conducted as a Computer Based Test (CBT) by Osmania University on behalf of the Telangana Council of Higher Education (TGCHE) for admission into 3-Year and 5-Year Integrated LL.B. regular law degree programmes in universities and affiliated law colleges across Telangana. The examination consists of 120 multiple-choice questions carrying 120 marks with a duration of 90 minutes. The paper comprises three parts: Part A General Knowledge and Mental Ability (30 questions, 30 marks), Part B Current Affairs (30 questions, 30 marks), and Part C Aptitude for the Study of Law (60 questions, 60 marks, including 10 questions evaluating legal comprehension passages). Each question carries 1 mark with no negative marking. The qualifying mark is 35% (42 marks out of 120) for General and OBC candidates; no minimum qualifying mark is prescribed for SC and ST candidates.",
+    "stages": [
+      {
+        "stage_name": "TG LAWCET Computer Based Test (LL.B. 3YDC / 5YDC)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-02-28",
+        "source_url": "https://lawcet.tgche.ac.in/Documents/Lawcet%20Syllabus%202026.pdf",
+        "source_label": "TGCHE & Osmania University — TG LAWCET 2026 Official Syllabus & Instruction Booklet",
+        "papers": [
+          {
+            "paper_name": "Part A: General Knowledge and Mental Ability",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% aggregate marks (42 out of 120) for General/OBC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Part B: Current Affairs",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% aggregate marks (42 out of 120) for General/OBC candidates; no minimum for SC/ST"
+          },
+          {
+            "paper_name": "Part C: Aptitude for the Study of Law (Elementary Principles of Law, Constitution of India, and 10 Legal Comprehension Passage Questions)",
+            "marks": 60,
+            "duration_minutes": 90,
+            "negative_marking": "None (no negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": "35% aggregate marks (42 out of 120) for General/OBC candidates; no minimum for SC/ST"
+          }
+        ]
+      }
+    ]
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Annual candidate registration and qualification data officially released by Osmania University and TGCHE for admissions into 3-year and 5-year LL.B. programmes across Telangana law colleges.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 40268,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "24,846 qualified out of 34,732 appeared across 3-year and 5-year LL.B. streams (71.54% overall qualification rate)",
+        "confidence": "reported",
+        "as_of": "2024-06-13",
+        "source_url": "https://lawcet.tgche.ac.in",
+        "source_label": "TGCHE & Osmania University TG LAWCET 2024 Official Results Declaration Press Release"
+      },
+      {
+        "year": 2023,
+        "applicants": 36214,
+        "vacancies": null,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "21,791 qualified out of 30,594 appeared (71.23% overall qualification rate)",
+        "confidence": "reported",
+        "as_of": "2023-06-15",
+        "source_url": "https://lawcet.tgche.ac.in",
+        "source_label": "TSCHE & Osmania University TS LAWCET 2023 Official Results Announcement"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official booklets, syllabus guidelines, and portals maintained by TGCHE and Osmania University.",
+    "links": [
+      {
+        "label": "TG LAWCET Instruction Booklet (PDF)",
+        "url": "https://lawcet.tgche.ac.in/Documents/LAWCET%20Instruction%20Booklet%20_2026.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG LAWCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-28"
+      },
+      {
+        "label": "TG LAWCET Official Syllabus (PDF)",
+        "url": "https://lawcet.tgche.ac.in/Documents/Lawcet%20Syllabus%202026.pdf",
+        "type": "syllabus",
+        "cycle_label": "TG LAWCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-28"
+      },
+      {
+        "label": "TG LAWCET Detailed Notification (PDF)",
+        "url": "https://lawcet.tgche.ac.in/Documents/Detailed%20Notification.pdf",
+        "type": "notification",
+        "cycle_label": "TG LAWCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-02-28"
+      },
+      {
+        "label": "TG LAWCET Official Web Portal",
+        "url": "https://lawcet.tgche.ac.in",
+        "type": "other",
+        "cycle_label": "TG LAWCET 2026",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

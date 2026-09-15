@@ -1,0 +1,296 @@
+{
+  "id": "sbi-po",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Probationary Officers at State Bank of India undergo a 2-year probation period followed by continuous merit-linked fast-track promotion paths reaching top executive and board management.",
+    "steps": [
+      {
+        "designation": "Assistant Manager / Probationary Officer (Scale I)",
+        "pay_level": "JMG Scale I (₹48,480 basic with 4 advance increments = ₹56,480)",
+        "years": "Entry (approx. 2 yrs probation)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules and PO Recruitment Advertisement"
+      },
+      {
+        "designation": "Deputy Manager (Scale II)",
+        "pay_level": "MMG Scale II (₹64,820 basic)",
+        "years": "approx. 2-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Manager (Scale III)",
+        "pay_level": "MMG Scale III (₹85,920 basic)",
+        "years": "approx. 5-9 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Chief Manager (Scale IV)",
+        "pay_level": "SMG Scale IV (₹1,02,300 basic)",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Scale V)",
+        "pay_level": "SMG Scale V (₹1,20,940 basic)",
+        "years": "approx. 14-19 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Deputy General Manager (DGM, Scale VI)",
+        "pay_level": "TEG Scale VI (₹1,40,500 basic)",
+        "years": "approx. 19-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "General Manager (GM, Scale VII)",
+        "pay_level": "TEG Scale VII (₹1,56,500 basic)",
+        "years": "approx. 24+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Chief General Manager (CGM)",
+        "pay_level": "Top Executive Management Scale",
+        "years": "approx. 27+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Corporate Governance Rules"
+      },
+      {
+        "designation": "Deputy Managing Director (DMD) / Managing Director (MD) / Chairman",
+        "pay_level": "Statutory Board Level (Appointments Committee of the Cabinet)",
+        "years": "Apex",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI Act, 1955 and Government of India Ministry of Finance Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "SBI PO examination is a 3-tier national selection process comprising Preliminary Exam (no sectional cut-off), Main Exam (Objective + Descriptive), and Phase III (Psychometric Profiling, Group Exercise and Personal Interview).",
+    "stages": [
+      {
+        "stage_name": "Phase I: Preliminary Examination (Online Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-12-27",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI PO Official Advertisement (CRPD/PO)",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall aggregate cut-off (no sectional cut-off)"
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall aggregate cut-off (no sectional cut-off)"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall aggregate cut-off (no sectional cut-off)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Main Examination (Objective and Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-12-27",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI PO Official Advertisement (CRPD/PO)",
+        "papers": [
+          {
+            "paper_name": "Reasoning & Computer Aptitude",
+            "marks": 50,
+            "duration_minutes": 50,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Data Analysis & Interpretation",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General / Economy / Banking Awareness",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language",
+            "marks": 40,
+            "duration_minutes": 40,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Descriptive Paper (English Language - Letter & Essay)",
+            "marks": 50,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated only if candidate qualifies in objective test"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase III: Psychometric Test, Group Exercise & Interview",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-12-27",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI PO Official Advertisement (CRPD/PO)",
+        "papers": [
+          {
+            "paper_name": "Psychometric Profiling Test",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Non-scored personality profiling shared with interview board"
+          },
+          {
+            "paper_name": "Group Exercise",
+            "marks": 20,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Personal Interview",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Combined Phase III minimum qualifying score"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Junior Management Grade Scale I (JMGS-I with 4 advance increments)",
+    "entry_basic_pay": 56480,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://bank.sbi/web/careers",
+    "pay_source_label": "SBI PO Official Recruitment Advertisement & 12th Bipartite Joint Note (Scale: ₹48,480-85,920 with entry basic ₹56,480 via 4 advance increments)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 82000, "max": 98000 },
+    "in_hand_range_estimate": { "min": 70000, "max": 84000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹56,480 (scale ₹48,480 + 4 advance increments of ₹2,000 each in JMGS-I). Total CTC at Mumbai reaches approx. ₹21.97 Lakhs per annum inclusive of leased residential accommodation, DA at 58% review baseline, CCA, and bank-specific learning and special allowances.",
+    "official_perks": [
+      "Bank Leased Residential Accommodation (up to ₹35,000 - ₹50,000/month in Tier-1 metros)",
+      "100% Medical Expense Reimbursement for employee and 75% for dependent family members",
+      "Leave Travel Concession (LTC) / Home Travel Concession with air fare entitlement",
+      "Monthly Petrol / Fuel Allowance (up to 45-55 litres per month)",
+      "Furniture & Fixtures Grant, Briefcase and Book Allowance",
+      "Newspaper and Mobile Handset / Telephone Bill Reimbursement",
+      "Concessional Staff Loans for Housing, Vehicle, and Personal Needs",
+      "Defined Contributory Pension Scheme under NPS with employer matching"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SBI PO is one of the most competitive examinations in India, with hundreds of thousands of graduates competing for a select number of Probationary Officer vacancies.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 650000,
+        "vacancies": 600,
+        "shortlisted_for_mains": 6000,
+        "selectivity_ratio": "approx. 1 in 1083 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2024-12-27",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI PO Advertisement CRPD/PO/2024-25/22 (600 Probationary Officer vacancies notified)"
+      },
+      {
+        "year": 2023,
+        "applicants": 820000,
+        "vacancies": 2000,
+        "shortlisted_for_mains": 20000,
+        "selectivity_ratio": "approx. 1 in 410 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-09-07",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI PO Advertisement CRPD/PO/2023-24/19 (2000 Probationary Officer vacancies notified)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, exam schedules and scorecards are published on the State Bank of India careers portal.",
+    "links": [
+      {
+        "label": "SBI Careers — Official Current Openings Portal",
+        "url": "https://bank.sbi/web/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "State Bank of India Corporate Careers Hub",
+        "url": "https://sbi.co.in/web/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

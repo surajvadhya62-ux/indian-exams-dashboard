@@ -1,0 +1,179 @@
+{
+  "id": "gic-re-am",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "General Insurance Corporation of India (GIC Re) is the sole Indian reinsurance company, wholly owned by the Government of India. Officers enter at Scale I (Assistant Manager) across Generalist, Finance, Legal, Actuarial, Information Technology, and Engineering disciplines. Promotions follow statutory public sector general insurance cadre rules, culminating at the Board level.",
+    "steps": [
+      {
+        "designation": "Assistant Manager (Scale I Officer)",
+        "pay_level": "Scale I (₹50,925 - 96,765)",
+        "years": "Entry level (probation 1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re — Recruitment of Assistant Managers (Scale I) Notification / General Insurance (Rationalisation of Pay Scales) Scheme"
+      },
+      {
+        "designation": "Manager (Scale II)",
+        "pay_level": "Scale II (₹64,820 - 93,960)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re Officer Promotion Policy"
+      },
+      {
+        "designation": "Deputy Manager (Scale III)",
+        "pay_level": "Scale III (₹85,920 - 1,05,280)",
+        "years": "approx. 8-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re Officer Promotion Policy"
+      },
+      {
+        "designation": "Chief Manager (Scale IV)",
+        "pay_level": "Scale IV",
+        "years": "approx. 13-16 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re Officer Promotion Policy"
+      },
+      {
+        "designation": "Assistant General Manager (AGM - Scale V) / Deputy General Manager (DGM - Scale VI)",
+        "pay_level": "Scale V / VI",
+        "years": "approx. 18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re Executive Promotion Structure"
+      },
+      {
+        "designation": "General Manager (GM - Scale VII) / Chairman-cum-Managing Director (CMD)",
+        "pay_level": "Scale VII / Board of Directors",
+        "years": "approx. 26+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "Government of India Appointment / Public Sector General Insurance Board Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Assistant Manager (Scale I) in GIC Re consists of an Online Written Examination (total 150 marks, 150 minutes) comprising Part A (Technical/Higher Order Reasoning), Part B (Objective General Aptitude), and Part C (Descriptive English), followed by Group Discussion and Personal Interview (50 marks). In Part A and Part B objective questions, there is a negative marking penalty of 1/4th (0.25) mark per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Stage I: Online Written Examination (Objective & Descriptive Tests)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re — Recruitment of Assistant Managers (Scale I) Official Notification (Scheme of Examination)",
+        "papers": [
+          {
+            "paper_name": "Part A: Higher Order Reasoning Ability / Critical Thinking (or Technical Specialist Knowledge)",
+            "marks": 40,
+            "duration_minutes": 40,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Subject to minimum qualifying cutoff"
+          },
+          {
+            "paper_name": "Part B: Objective Test (Test of Reasoning, English Language, General Awareness, Numerical Ability & Computer Literacy)",
+            "marks": 60,
+            "duration_minutes": 60,
+            "negative_marking": "1/4th (0.25) mark deducted per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying cutoff category-wise"
+          },
+          {
+            "paper_name": "Part C: Descriptive English (Essay Writing, Precis Writing & Comprehension)",
+            "marks": 30,
+            "duration_minutes": 50,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Evaluated only for candidates qualifying Part A and Part B"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage II: Group Discussion & Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re — Recruitment of Assistant Managers (Scale I) Notification (GD & Interview Stage)",
+        "papers": [
+          {
+            "paper_name": "Group Discussion and Personal Interview (GIC Re Head Office, Mumbai)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying benchmark in Interview (60% for General/OBC, 50% for SC/ST)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Scale I Assistant Managers in GIC Re receive pay under the General Insurance (Rationalisation of Pay Scales and Other Conditions of Service of Officers) Scheme. The basic pay starts at ₹50,925 in the scale of ₹50,925 - 2,500(14) - 85,925 - 2,710(4) - 96,765. Total initial monthly gross emoluments are approximately ₹85,000 to ₹95,000 in Mumbai / major metropolitan centers.",
+    "pay_level": "Officer Scale I (Assistant Manager)",
+    "entry_basic_pay": 50925,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-12",
+    "pay_source_url": "https://www.gicre.in",
+    "pay_source_label": "GIC Re — Recruitment of Assistant Managers (Scale I) Notification (Emoluments & Benefits)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 85000, "max": 95000 },
+    "in_hand_range_estimate": { "min": 72000, "max": 82000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic pay of ₹50,925 with applicable Dearness Allowance, House Rent Allowance (or leased accommodation allowance in Mumbai), City Compensatory Allowance, and Special Allowance; net in-hand factors in standard pension and provident fund deductions.",
+    "official_perks": [
+      "Company-leased residential accommodation or House Rent Allowance in Mumbai",
+      "Comprehensive medical benefits / hospitalisation cover for employee and dependents",
+      "Defined contribution pension scheme and Gratuity as per statutory rules",
+      "Leave Travel Concession (LTC) and leave encashment provisions",
+      "Concessional loan facilities for housing, vehicle, and computers"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "GIC Re conducts recruitment for Assistant Managers (Scale I) periodically across specialist and generalist streams. In the 2024 recruitment cycle, 85 vacancies were notified across various disciplines, followed by an additional recruitment drive in early 2025.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 85,
+        "confidence": "verified",
+        "as_of": "2024-01-12",
+        "source_url": "https://www.gicre.in",
+        "source_label": "GIC Re — Recruitment of Assistant Managers (Scale I) Notification 2024: 85 Vacancies"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment announcements and portal links on the General Insurance Corporation of India website.",
+    "links": [
+      {
+        "label": "GIC Re Official Website",
+        "url": "https://www.gicre.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "id": "ircon-executive-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive Trainees in IRCON International Limited receive 1 year induction and technical training before confirmation as Assistant Manager (E-1), advancing under DPE IDA scales through regular promotional reviews.",
+    "steps": [
+      {
+        "designation": "Executive Trainee (Civil / Electrical / S&T / Finance / HR)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Employment Notification for Executive Trainees"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Cadre and Promotion Regulations"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Promotion Rules"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Engineering Cadre Hierarchy"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Middle Management Structure"
+      },
+      {
+        "designation": "Joint General Manager (JGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Senior Management Rules"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Project Executive Norms"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Board and Top Management Cadre"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Executive Trainees is conducted via a Computer Based Test (CBT) followed by an Interview, or via GATE score shortlisting followed by Personal Interview. Final selection gives 85% weightage to CBT/GATE and 15% to Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Examination Pattern and Syllabus Document",
+        "papers": [
+          {
+            "paper_name": "Technical / Professional Domain Knowledge",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for Reserved categories"
+          },
+          {
+            "paper_name": "General Awareness, Reasoning Ability, Quantitative Aptitude & General English",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Interview Procedure",
+        "papers": [
+          {
+            "paper_name": "Personal Interview (Technical Competence, Project Suitability, Communication)",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for UR and 50% for SC/ST/OBC"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Executive Trainees receive DPE 3rd PRC IDA pay scale E-1 (₹40,000–₹1,40,000). Starting basic pay is ₹40,000 with mandatory 58% DA constant as of 2025-07-01, HRA, cafeteria perks, and medical benefits.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://www.ircon.org/hr-career",
+    "pay_source_label": "IRCON Service Regulations and Recruitment Notice",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 72000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 63000,
+      "max": 76000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on Entry Basic Pay ₹40,000, 58% IDA (₹23,200), HRA (18%–27%), and Cafeteria allowances (32% = ₹12,800), less statutory deductions for PF (12% of Basic+DA) and medical contributions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "House Rent Allowance (HRA) / Company Leased Accommodation",
+      "Cafeteria Approach Allowances up to 32% of basic pay",
+      "Performance Related Pay (PRP) based on annual company profit & individual performance",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Superannuation Pension Scheme",
+      "Post-retirement and in-service medical benefits for executive and eligible dependents"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment statistics compiled from IRCON International recruitment notifications.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 50,
+        "applicants": 22100,
+        "shortlisted_for_mains": 300,
+        "selectivity_ratio": "approx. 1 in 442",
+        "confidence": "reported",
+        "as_of": "2024-10-10",
+        "source_url": "https://www.ircon.org/hr-career",
+        "source_label": "IRCON Advt. No. 04/2024: 50 Executive Trainee vacancies across Civil, Electrical, S&T and Finance."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career and recruitment notices published on the IRCON International Limited portal.",
+    "links": [
+      {
+        "label": "IRCON HR Career Portal",
+        "url": "https://www.ircon.org/hr-career",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "IRCON International Official Website",
+        "url": "https://www.ircon.org",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

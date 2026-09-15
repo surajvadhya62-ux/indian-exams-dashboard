@@ -1,0 +1,152 @@
+{
+  "id": "moil-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Executive mining and technical cadre progression in MOIL Limited (Manganese Ore India).",
+    "steps": [
+      {
+        "designation": "Management Trainee (Geology / Mining / Mechanical / Electrical / Finance)",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "Training (1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL MT Recruitment Advt 2024"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "years": "approx. 1-4 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL MT Recruitment Advt 2024"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "E-3 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2024-03-01",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL Executive Promotion Guidelines"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process consists of Computer Based Online Test (CBT: 85 marks) followed by Personal Interview (15 marks).",
+    "stages": [
+      {
+        "stage_name": "Computer Based Online Examination",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Domain Technical Knowledge (60 MCQs) & General Aptitude / Reasoning / English (25 MCQs)",
+            "marks": 85,
+            "duration_minutes": 90,
+            "negative_marking": "No negative marking (or 0.25 as notified)",
+            "qualifying_only": false,
+            "qualifying_threshold": "General/EWS: 50%, Reserved: 40%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Interview before MOIL Selection Board, Nagpur",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Shortlisted in 1:5 ratio based on CBT"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Governed by 3rd CPSE Pay Revision IDA Scale for Schedule A Miniratna CPSE.",
+    "pay_level": "E-2 Grade (IDA Scale ₹50,000 – ₹1,60,000)",
+    "entry_basic_pay": 50000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-01",
+    "pay_source_url": "https://www.moil.nic.in/recruitment",
+    "pay_source_label": "MOIL MT Recruitment Advt 2024",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 95000,
+      "max": 106000
+    },
+    "in_hand_range_estimate": {
+      "min": 84000,
+      "max": 94000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on basic ₹50,000, 58% IDA DA (₹29,000), HRA (₹4,500 to ₹13,500), and underground/mining cafeteria allowances.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "Company accommodation in mine colonies / Nagpur or HRA",
+      "Cafeteria allowances up to 32% of basic pay",
+      "Underground mining allowance for mine posted engineers",
+      "Provident Fund, Gratuity, Pension, and Group Medical Insurance"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Management Trainee vacancies at MOIL.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 44,
+        "confidence": "verified",
+        "as_of": "2024-03-01",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL Recruitment Notification 2024"
+      },
+      {
+        "year": 2022,
+        "vacancies": 32,
+        "confidence": "verified",
+        "as_of": "2022-06-15",
+        "source_url": "https://www.moil.nic.in/recruitment",
+        "source_label": "MOIL Notification 2022"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official career links on MOIL portal.",
+    "links": [
+      {
+        "label": "MOIL Recruitment Portal",
+        "url": "https://www.moil.nic.in/recruitment",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "MOIL Official Website",
+        "url": "https://www.moil.nic.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

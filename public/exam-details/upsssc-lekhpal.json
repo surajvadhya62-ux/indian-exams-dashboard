@@ -1,0 +1,224 @@
+{
+  "id": "upsssc-lekhpal",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Rajasva Lekhpal is the frontline village-level revenue official under the Board of Revenue (Rajasva Parishad), Government of Uttar Pradesh, responsible for maintaining rural cadastral maps (Shajra), village khasra/khatauni land records, crop surveys, and disaster relief enumeration. Direct recruits enter at Pay Level 3 and advance through departmental promotion exams and seniority.",
+    "steps": [
+      {
+        "designation": "Rajasva Lekhpal / Chakbandi Lekhpal",
+        "pay_level": "Level 3",
+        "years": "Entry (0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Rajasva Lekhpal Service Rules & Advt. No. 01-Exam/2022"
+      },
+      {
+        "designation": "Revenue Inspector (Rajasva Nirikshak / Kanoongo)",
+        "pay_level": "Level 5",
+        "years": "approx. 6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Board of Revenue Service Regulations"
+      },
+      {
+        "designation": "Naib Tehsildar (Sub-Divisional Revenue Officer, Gazetted Class II)",
+        "pay_level": "Level 9",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Subordinate Revenue Executive (Naib Tehsildar) Service Rules"
+      },
+      {
+        "designation": "Tehsildar / Assistant Collector First Class",
+        "pay_level": "Level 10",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Revenue Executive Cadre Hierarchy"
+      },
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / Deputy Collector (State Civil Service Quota)",
+        "pay_level": "Level 11",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Civil Service (Executive Branch) Rules — Promotion from Tehsildar"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection to Rajasva Lekhpal comprises preliminary shortlisting of candidates through their normalized UPSSSC PET score, followed by a single-stage Main Written Examination consisting of 100 objective MCQs across four subjects. There is no interview (Group C interviews were abolished by UP Government). Negative marking is 0.25 marks (1/4th) per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Main Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Rajasva Lekhpal Mains Examination Scheme (Advt. No. 01-Exam/2022)",
+        "papers": [
+          {
+            "paper_name": "General Hindi (Samanya Hindi)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Ganit — Arithmetic, Algebra & Geometry)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge (Samanya Gyan & Current Affairs)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Village Society and Development (Gramya Samaj Evam Vikas)",
+            "marks": 25,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Abhilekh Pareekshan)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Lekhpal DV Notification & Verification Schedule",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational, Domicile & Category Credentials",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Rajasva Lekhpal is assigned Pay Level 3 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016. In addition to basic salary, Lekhpals receive specific field stationery allowances and cycle/travel maintenance allowances.",
+    "pay_level": "Level 3",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://upsssc.gov.in/default.aspx",
+    "pay_source_label": "Board of Revenue Uttar Pradesh & UP Revised Pay Rules 2016 Level 3",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 40000
+    },
+    "in_hand_range_estimate": {
+      "min": 32000,
+      "max": 36000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 at 58% DA (effective 01.07.2025), HRA (₹1,800 to ₹3,600 based on district classification), field maintenance allowance, net of 10% NPS deduction (₹3,429) and group insurance scheme deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised twice annually",
+      "House Rent Allowance (HRA) based on tehsil / district headquarters posting",
+      "Stationery & map maintenance allowance (Basta Allowance) for revenue records",
+      "Field traveling / cycle maintenance allowance",
+      "Medical facility under UP Government Servants Medical Rules",
+      "National Pension System (NPS) with 14% matching employer contribution"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official UPSSSC notifications and final recommendation orders for Rajasva Lekhpal cycles.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 247667,
+        "appeared": 212863,
+        "qualified_stage_1": 27455,
+        "qualified_stage_2": 7897,
+        "recommended": 7897,
+        "vacancies": 8085,
+        "confidence": "verified",
+        "as_of": "2023-12-30",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Advt. No. 01-Exam/2022 Final Result & Recommendation Notification"
+      },
+      {
+        "year": 2015,
+        "applicants": 1250000,
+        "appeared": 1050000,
+        "qualified_stage_1": 15000,
+        "qualified_stage_2": null,
+        "recommended": 2831,
+        "vacancies": 2831,
+        "confidence": "reported",
+        "as_of": "2016-03-15",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC Chakbandi Lekhpal Recruitment 2015 Result Order"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, syllabi, master question papers, and final selection orders issued by UPSSSC.",
+    "links": [
+      {
+        "label": "UPSSSC Official Web Portal",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Rajasva Lekhpal Main Exam Notification (Advt 01-Exam/2022)",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Rajasva Lekhpal Official Detailed Syllabus & Exam Scheme",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC Rajasva Lekhpal Final Recommendation & Cutoff List",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

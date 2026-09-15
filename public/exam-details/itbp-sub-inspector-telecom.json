@@ -1,0 +1,242 @@
+{
+  "id": "itbp-sub-inspector-telecom",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Indo-Tibetan Border Police (ITBP) Force, a premier Central Armed Police Force under the Ministry of Home Affairs, guards the high-altitude Indo-China border from Ladakh to Arunachal Pradesh. The Telecommunication cadre manages tactical wireless networks, satellite communications, and IT infrastructure. Sub-Inspectors and Head Constables advance through subordinate officer ranks to Group 'A' Gazetted combatised leadership.",
+    "steps": [
+      {
+        "designation": "Sub-Inspector (Telecommunication) / Head Constable (Telecom)",
+        "pay_level": "Level 6 (SI) / Level 4 (HC)",
+        "years": "Entry level (basic recruit training + telecom specialist course 1 yr)",
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://recruitment.itbpolice.nic.in",
+        "source_label": "ITBP — Recruitment Notice for Sub-Inspector, Head Constable and Constable (Telecommunication) 2024"
+      },
+      {
+        "designation": "Inspector (Telecommunication)",
+        "pay_level": "Level 7",
+        "years": "approx. 5-7 yrs (from Sub-Inspector rank)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      },
+      {
+        "designation": "Assistant Commandant (Telecommunication)",
+        "pay_level": "Level 10 (Group A Gazetted)",
+        "years": "approx. 11-15 yrs (induction into Gazetted Officer Cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      },
+      {
+        "designation": "Deputy Commandant (Telecommunication)",
+        "pay_level": "Level 11 (Senior Time Scale)",
+        "years": "approx. 17-21 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      },
+      {
+        "designation": "Second-in-Command / Commandant (Telecommunication)",
+        "pay_level": "Level 12 / Level 13 (Junior Administrative Grade / Selection Grade)",
+        "years": "approx. 23-28 yrs (Heads Communication Directorate / Sector HQ Telecom)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian & Police Personnel), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in three phases: Phase-I comprises the Physical Efficiency Test (PET) and Physical Standard Test (PST) (qualifying nature); Phase-II comprises the Written Examination (100 multiple choice questions, 100 marks, 120 minutes) covering general aptitude and 50% technical/domain knowledge; Phase-III comprises Original Document Verification, Detailed Medical Examination (DME), and Review Medical Examination (RME).",
+    "stages": [
+      {
+        "stage_name": "Phase-I: Physical Efficiency Test (PET) & Physical Standard Test (PST)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://recruitment.itbpolice.nic.in",
+        "source_label": "ITBP — Recruitment Scheme: Phase-I PET/PST Standards",
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Test (1.6 km run male, 800m run female, Long Jump, High Jump)",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Male: 1.6 km in 7m30s, 11 ft long jump, 3.5 ft high jump; Female: 800m in 4m45s, 9 ft long jump, 3 ft high jump)"
+          },
+          {
+            "paper_name": "Physical Standard Test (Height and Chest Measurement)",
+            "marks": 0,
+            "duration_minutes": 30,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying (Height 170 cm male, 157 cm female; Chest 80-85 cm male, with regional relaxations)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-II: Written Examination (OMR / Computer-Based Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://recruitment.itbpolice.nic.in",
+        "source_label": "ITBP — Recruitment Scheme: Phase-II Written Examination Pattern for SI/HC Telecom",
+        "papers": [
+          {
+            "paper_name": "General English",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying aggregate: UR/EWS/OBC 35%, SC/ST 33%"
+          },
+          {
+            "paper_name": "General Hindi",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Awareness",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Professional Subject (Physics, Electronics, Telecommunication & Computers)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase-III: Document Verification and Detailed Medical Examination",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://recruitment.itbpolice.nic.in",
+        "source_label": "ITBP — Document Verification & Detailed Medical Examination Guidelines",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Educational/Technical Certificates & Medical Fitness Examination",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "SHAPE-I Medical Category / MHA Uniform Medical Standards for CAPFs"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-25",
+    "pay_source_url": "https://recruitment.itbpolice.nic.in",
+    "pay_source_label": "ITBP — Recruitment Notice 2024, Pay Scale for Sub-Inspector (Telecom) Level 6",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 65000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 58000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 6 entry basic pay (₹35,400) for Sub-Inspector (Telecom) with 58% DA (₹20,532), Ration Money Allowance (RMA, ₹3,900/mo), Transport Allowance, and Special High Altitude / Difficult Area Allowance (₹10,500 to ₹17,300/mo when deployed at forward Himalayan border posts). For Head Constable (Telecom) recruits at Level 4 (₹25,500 basic), initial monthly gross salary ranges from ₹48,000 to ₹67,000 with in-hand earnings between ₹42,000 and ₹59,000.",
+    "official_perks": [
+      "Special High Altitude Allowance / Border Outpost Allowance (₹10,500 to ₹17,300/month at Himalayan forward posts)",
+      "Ration Money Allowance (RMA) / Free Government Messing (approx. ₹3,900/month)",
+      "Annual Uniform & Kit Maintenance Allowance (₹10,000/year)",
+      "Free medical treatment in ITBP and Central Armed Police Forces Composite Hospitals",
+      "Subsidized Central Police Canteen (CPC) purchasing privileges across India",
+      "Defined contribution retirement benefits under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "ITBP recruits technical personnel for high-altitude communications and border surveillance networks. In the 2024 recruitment cycle, 526 vacancies were notified across the Telecommunication cadre (17 Sub-Inspectors, 383 Head Constables, and 126 Constables). In the 2022 recruitment drive, 293 vacancies (126 Head Constables and 167 Constables) were advertised.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 526,
+        "confidence": "verified",
+        "as_of": "2024-07-25",
+        "source_url": "https://recruitment.itbpolice.nic.in",
+        "source_label": "ITBP — Advertisement No. DAVP 19112/11/0014/2425: Recruitment for Sub-Inspector (17), Head Constable (383), and Constable (126) in Telecommunication Cadre."
+      },
+      {
+        "year": 2022,
+        "vacancies": 293,
+        "confidence": "reported",
+        "as_of": "2022-10-15",
+        "source_url": "https://recruitment.itbpolice.nic.in",
+        "source_label": "ITBP — Recruitment Notice 2022: 293 vacancies (HC Telecom: 126, Constable Telecom: 167)."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Indo-Tibetan Border Police recruitment portals.",
+    "links": [
+      {
+        "label": "ITBP Official Recruitment Portal",
+        "url": "https://recruitment.itbpolice.nic.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Ministry of Home Affairs Central Police Portal",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

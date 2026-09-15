@@ -1,0 +1,200 @@
+{
+  "id": "maha-vanrakshak",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Field executive hierarchy within the Maharashtra Forest Department (वन विभाग, महाराष्ट्र शासन). Forest Guards (Vanrakshak) are responsible for beat patrolling, wildlife protection, prevention of timber smuggling, anti-poaching operations, and forest fire control across territorial circles and tiger reserves (Tadoba-Andhari, Melghat, Pench, Sahyadri, Navegaon-Nagzira). Promotion to Forester and Range Forest Officer is regulated under Maharashtra Forest Subordinate Service Rules based on seniority-cum-merit and departmental qualifying tests.",
+    "steps": [
+      {
+        "designation": "Vanrakshak / Forest Guard (वनरक्षक) — Group C Subordinate Executive",
+        "pay_level": "Level S-7 (₹21,700 – ₹69,100)",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Department Direct Recruitment Notification Advt. No. 01/2023, Clause 1 (Post & Pay Scale)"
+      },
+      {
+        "designation": "Vanpal / Forester (वनपाल — Round Officer)",
+        "pay_level": "Level S-10 (₹29,200 – ₹92,300)",
+        "years": "approx. 6-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Subordinate Service Cadre Rules (Promotion from Forest Guard to Forester)"
+      },
+      {
+        "designation": "Range Forest Officer / RFO (परिक्षेत्र वन अधिकारी) — Group B Gazetted",
+        "pay_level": "Level S-15 (₹41,800 – ₹1,32,300)",
+        "years": "approx. 14-18 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Service Rules (Promotion quota for Foresters with qualifying departmental exam)"
+      },
+      {
+        "designation": "Assistant Conservator of Forests / ACF (सहाय्यक वनसंरक्षक) — Group A Junior",
+        "pay_level": "Level S-20 (₹56,100 – ₹1,77,500)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Service (Class I) Rules (Sub-Divisional Forest Officer)"
+      },
+      {
+        "designation": "Deputy Conservator of Forests / DCF (उपवनसंरक्षक) — Territorial Division In-Charge",
+        "pay_level": "Level S-23 (₹67,700 – ₹2,08,700)",
+        "years": "approx. 25+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Indian Forest Service Induction / State Forest Service Senior Scale Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is conducted in two stages carrying a combined total of 200 marks. Stage 1 is an online Computer Based Test (CBT) of 60 questions carrying 120 marks (2 marks per question) over 120 minutes conducted by TCS iON. Candidates scoring a minimum of 45% marks (54/120) in the CBT qualify for the Stage 2 Physical Efficiency Test carrying 80 marks. There is no negative marking in the CBT. Final selection is strictly based on aggregate marks in CBT (120) and Physical Test (80).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-06-08",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Department Recruitment Advt. No. 01/2023, Clause 6 (Scheme of Online Examination)",
+        "papers": [
+          {
+            "paper_name": "Marathi Language (मराठी भाषा)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (2 marks per question; 15 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "English Language (इंग्रजी भाषा)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (2 marks per question; 15 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Knowledge & Forest/Environment (सामान्य ज्ञान: भूगोल, इतिहास, वन, पर्यावरण, हवामान व जैवविविधता)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (2 marks per question; 15 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Intellectual Test & Reasoning (बौद्धिक चाचणी)",
+            "marks": 30,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (2 marks per question; 15 questions)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Physical Efficiency Test (शारीरिक चाचणी)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-06-08",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Department Recruitment Advt. No. 01/2023, Clause 7 (Physical Measurement and Running Test)",
+        "papers": [
+          {
+            "paper_name": "Running Endurance Test (Male: 5 km run in max 17 mins for 80 marks / Female: 3 km run in max 12 mins for 80 marks)",
+            "marks": 80,
+            "duration_minutes": 30,
+            "negative_marking": "Graded marks allocation based on completion time; disqualification if completion time exceeds 30 minutes for males or 25 minutes for females",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Forest Guards in the Government of Maharashtra Forest Department are remunerated under Maharashtra Civil Services (Revised Pay) Rules, 2019, strictly separate from Central 7th CPC structures.",
+    "pay_level": "Level S-7 (Scale ₹21,700 – ₹69,100)",
+    "entry_basic_pay": 21700,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-01",
+    "pay_source_url": "https://mahaforest.gov.in",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019, Schedule (Forest Guard Scale S-7)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 38000, "max": 45000 },
+    "in_hand_range_estimate": { "min": 34000, "max": 40000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level S-7 entry basic pay of ₹21,700 with 58% DA (₹12,586 effective 01.07.2025), HRA (9% to 27% depending on posting circle: ₹1,953 in forest field postings to ₹5,859 in urban division headquarters), Forest Duty Allowance / Naxal Area Special Allowance (for Gadchiroli/Chandrapur divisions), net of NPS/DCPS deduction (10% of Basic + DA = ₹3,429) and profession tax (₹200).",
+    "official_perks": [
+      "Government uniform allowance and washing allowance",
+      "Special Naxal Area Incentive Allowance for sensitive postings in Gadchiroli and Chandrapur circles",
+      "Subsidized departmental accommodation / Forest Chowki quarters",
+      "Medical reimbursement facility for employee and dependent family under Maharashtra Government Rules",
+      "Retirement benefits under Defined Contributory Pension Scheme (DCPS/NPS) and Death-cum-Retirement Gratuity",
+      "Group Personal Accident Insurance and compensatory leave for field duties"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Direct recruitment applicant and vacancy statistics across forest territorial circles in Maharashtra.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 550000,
+        "vacancies": 2417,
+        "shortlisted_for_mains": 72510,
+        "selectivity_ratio": "approx. 1 in 227 (over 5,50,000 applicants for 2,417 Forest Guard posts across 11 forest circles: Nagpur 277, Chandrapur 111, Gadchiroli 151, Amravati 250, Yavatmal 89, Chhatrapati Sambhajinagar 73, Nashik 41, Dhule 45, Pune 64, Thane 266, Kolhapur 249; 72,510 candidates shortlisted for Stage 2 physical test based on minimum 45% CBT cutoff)",
+        "confidence": "reported",
+        "as_of": "2023-10-31",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Department Recruitment Advt. No. 01/2023 and CBT Result Notifications"
+      },
+      {
+        "year": 2019,
+        "applicants": 380000,
+        "vacancies": 900,
+        "shortlisted_for_mains": 27000,
+        "selectivity_ratio": "approx. 1 in 422 (calculated: 3,80,000 applicants ÷ 900 Vanrakshak vacancies across state forest circles)",
+        "confidence": "reported",
+        "as_of": "2019-06-30",
+        "source_url": "https://mahaforest.gov.in",
+        "source_label": "Maharashtra Forest Department Recruitment 2019 Selection Statistics"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portal and information resources published by the Maharashtra Forest Department.",
+    "links": [
+      {
+        "label": "Maharashtra Forest Department Official Website",
+        "url": "https://mahaforest.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Mahaforest Direct Recruitment Portal",
+        "url": "https://mahaforest.gov.in",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

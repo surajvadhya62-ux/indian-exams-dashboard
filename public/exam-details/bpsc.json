@@ -1,0 +1,235 @@
+{
+  "id": "bpsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Career progression shown for the premier cadre recruited through BPSC CCE: Bihar Administrative Service (BAS / बिहार प्रशासनिक सेवा), from entry Sub-Divisional Magistrate / Deputy Collector to induction into the Indian Administrative Service (IAS) under the state promotion quota.",
+    "steps": [
+      {
+        "designation": "Sub-Divisional Magistrate (SDM) / Deputy Collector / Under Secretary",
+        "pay_level": "Level 9",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "Bihar 7th State Pay Matrix Level 9 (Grade Pay ₹5,400) adopted by Govt. of Bihar Finance Dept Resolution"
+      },
+      {
+        "designation": "Senior Deputy Collector / Deputy Secretary / Executive Magistrate",
+        "pay_level": "Level 11",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "Bihar 7th State Pay Matrix Level 11 (Grade Pay ₹6,600)"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Joint Secretary / District Transport Officer (DTO)",
+        "pay_level": "Level 12",
+        "years": "approx. 10-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "Bihar 7th State Pay Matrix Level 12 (Grade Pay ₹7,600)"
+      },
+      {
+        "designation": "Special Secretary / Additional Executive Officer / Director",
+        "pay_level": "Level 13",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "Bihar 7th State Pay Matrix Level 13 (Grade Pay ₹8,700)"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS - Bihar Cadre) — District Magistrate / Special Secretary",
+        "pay_level": "Level 13 / 14 (IAS)",
+        "years": "approx. 20-25+ yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-23",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations, Bihar State Service Quota"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "BPSC Combined Competitive Examination follows a revised pattern implemented from the 69th CCE onwards: single Prelims General Studies paper with 1/3 negative marking, descriptive Mains with qualifying General Hindi and qualifying MCQ Optional paper, and 120-mark Interview. Final merit is computed out of 1,020 marks (GS1: 300 + GS2: 300 + Essay: 300 + Interview: 120).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective OMR Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — Combined Competitive Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Studies (सामान्य अध्ययन)",
+            "marks": 150,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Written Descriptive)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — Combined Competitive Examination Scheme & Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Hindi (सामान्य हिन्दी — Qualifying)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "30%"
+          },
+          {
+            "paper_name": "General Studies Paper I (सामान्य अध्ययन प्रथम पत्र)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Studies Paper II (सामान्य अध्ययन द्वितीय पत्र)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Essay (निबंध)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Optional Subject (ऐच्छिक विषय — MCQ Qualifying)",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "40% General / 36.5% BC / 34% EBC / 32% SC/ST/Women"
+          }
+        ]
+      },
+      {
+        "stage_name": "Personality Test (Interview)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-11",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — Combined Competitive Examination Personality Test (Interview Board, Patna)",
+        "papers": [
+          {
+            "paper_name": "Board Interview",
+            "marks": 120,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay figures shown for premier Level 9 postings (Bihar Administrative Service SDM, Bihar Police Service DSP). Subordinate posts recruited through CCE (e.g. Revenue Officer, Supply Inspector, Block Panchayat Raj Officer) are placed in Level 7 (basic ₹44,900).",
+    "pay_level": "Level 9 (Bihar 7th Pay Matrix)",
+    "entry_basic_pay": 53100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-23",
+    "pay_source_url": "https://bpsc.bihar.gov.in",
+    "pay_source_label": "Bihar 7th State Pay Matrix Level 9 (Grade Pay ₹5,400) adopted by Govt. of Bihar Finance Dept Resolution",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 88000, "max": 105000 },
+    "in_hand_range_estimate": { "min": 74000, "max": 88000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Range assumes Level 9 entry basic pay of ₹53,100 at standard 58% DA (effective 1 Jul 2025). Includes state HRA (8% to 18% depending on posting location in Patna or district headquarters), medical allowance (₹1,000), and transport/vehicle allowance. In-hand reflects deductions of 10% NPS (₹8,390), professional tax, and income tax.",
+    "official_perks": [
+      "Government designated residential bungalow or leased official quarters",
+      "Official vehicle with driver and fuel quota for administrative field duty",
+      "Medical reimbursement under Bihar State Government Health Scheme",
+      "Leave Travel Concession (LTC) and earned leave encashment",
+      "Security escorts and administrative staff for executive magistrate postings",
+      "Subsidized utility allowances (electricity, telephone, official mobile internet)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Benchmark statistics compiled from official BPSC announcements and result declarations for the 70th Integrated CCE (Advt. 2024/2025) and 69th Integrated CCE (Advt. 2023). Total examinees appeared and qualified figures reflect official commission releases.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 328990,
+        "vacancies": 2035,
+        "shortlisted_for_mains": 21581,
+        "selectivity_ratio": "approx. 1 in 162 (calculated: 3,28,990 appeared in Prelims ÷ 2,035 notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2025-01-20",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — 70th Integrated Combined Competitive Examination Result and Shortlist Notice"
+      },
+      {
+        "year": 2023,
+        "applicants": 270000,
+        "vacancies": 475,
+        "shortlisted_for_mains": 4037,
+        "selectivity_ratio": "approx. 1 in 568 (calculated: approx. 2,70,000 appeared in Prelims ÷ 475 vacancies; 1,295 qualified for interview)",
+        "confidence": "verified",
+        "as_of": "2024-11-26",
+        "source_url": "https://bpsc.bihar.gov.in",
+        "source_label": "BPSC — 69th Integrated Combined Competitive Examination Prelims Result (4,037 qualified) and Final Result Notice"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "All links verified live on official Bihar Public Service Commission (bpsc.bihar.gov.in) portal.",
+    "links": [
+      {
+        "label": "72nd Combined (Preliminary) Competitive Examination — Postponement Notice",
+        "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Regarding_postpone_72nd_BPSC_BPSC-20260720-u768lx.pdf",
+        "type": "notification",
+        "cycle_label": "72nd-CCE-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-20"
+      },
+      {
+        "label": "Integrated 72nd Combined (Preliminary) Competitive Examination — Corrigendum Notice",
+        "url": "https://bpsc.bihar.gov.in/wp-content/uploads/BPSC_content/Notices/Corrigendum-Integrated-72nd-CCE-Pre-Advt.-44-vacancies-of-Sugarcane-Officer-deleted_BPSC-20260506-0jupsy.pdf",
+        "type": "other",
+        "cycle_label": "72nd-CCE-2026",
+        "confidence": "verified",
+        "as_of": "2026-05-06"
+      },
+      {
+        "label": "BPSC Combined Competitive Examination — Official Portal and Syllabus Hub",
+        "url": "https://bpsc.bihar.gov.in",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

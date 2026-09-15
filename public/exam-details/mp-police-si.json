@@ -1,0 +1,247 @@
+{
+  "id": "mp-police-si",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Sub-Inspector / Subedar / Platoon Commander",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Direct recruitment through MPESB Police Sub-Inspector Examination (Prelims, Mains, Physical Proficiency Test and Interview), followed by 1-year basic institutional training at MP Police Academy (MPPA) Bhauri, Bhopal.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MP Police Sub-Inspector Rulebook 2026, Section 5"
+      },
+      {
+        "step_order": 2,
+        "designation": "Inspector of Police (TI / Circle Inspector / Subedar Major)",
+        "pay_level": "Level 10 (₹42,700 – ₹1,35,100)",
+        "promotion_criteria": "Promotion on merit-cum-seniority basis after 6 to 8 years of gazetted investigation service as SI, passing mandatory departmental law examinations, and possessing unblemished ACR gradings.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "Madhya Pradesh Police Executive (Gazetted/Non-Gazetted) Service Rules"
+      },
+      {
+        "step_order": 3,
+        "designation": "Deputy Superintendent of Police (DSP / Assistant Commissioner of Police)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Promotion into State Police Service (Gazetted Class I) through MPPSC Departmental Promotion Committee after 6 to 10 years of service as Inspector.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MP State Police Service Rules"
+      },
+      {
+        "step_order": 4,
+        "designation": "Additional Superintendent of Police (Addl. SP / Additional DCP)",
+        "pay_level": "Level 13 (₹67,300 – ₹2,06,900)",
+        "promotion_criteria": "Seniority-cum-merit promotion from DSP rank after 5 to 7 years in senior executive policing assignments.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MP Police Service Cadre Regulations"
+      },
+      {
+        "step_order": 5,
+        "designation": "Superintendent of Police (SP / SSP / IPS Induction)",
+        "pay_level": "Level 13A / 14 (₹1,18,500 – ₹2,18,200)",
+        "promotion_criteria": "Induction into Indian Police Service (IPS) via state promotion quota under Union Public Service Commission (UPSC) and Ministry of Home Affairs regulations.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "IPS (Appointment by Promotion) Regulations"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "Preliminary Examination (Screening CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "General Knowledge, Aptitude & Analytical Reasoning",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MPESB Police Sub-Inspector Rulebook 2026, Section 11"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Main Written Examination (CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies & Science",
+            "paper_type": "objective",
+            "total_marks": 300,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          },
+          {
+            "paper_name": "Paper II: Language Proficiency (Hindi & English) and Analytical Reasoning",
+            "paper_type": "objective",
+            "total_marks": 300,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MPESB Police Sub-Inspector Rulebook 2026, Main Exam Structure"
+      },
+      {
+        "stage_order": 3,
+        "stage_name": "Physical Proficiency Test (PPT / शारीरिक दक्षता परीक्षण)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Physical Efficiency Events: 800m Run, Long Jump, Shot Put (Graded Scoring)",
+            "paper_type": "physical",
+            "total_marks": 100,
+            "duration_minutes": 180,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MPESB Police Sub-Inspector Rulebook 2026, PPT Scheme"
+      },
+      {
+        "stage_order": 4,
+        "stage_name": "Personal Interview (साक्षात्कार)",
+        "is_interview": true,
+        "papers": [
+          {
+            "paper_name": "Personality Assessment, Leadership Aptitude & Law Enforcement Suitability",
+            "paper_type": "interview",
+            "total_marks": 50,
+            "duration_minutes": 30,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MPESB Police Sub-Inspector Rulebook 2026, Interview Norms"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+    "entry_basic_pay": 36200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+    "pay_source_label": "MPESB Police Sub-Inspector Rulebook 2026, Page 7, Clause 5",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 61000,
+      "max": 66000
+    },
+    "in_hand_range_estimate": {
+      "min": 53000,
+      "max": 57000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance at 58% of basic pay (₹20,996 per month at entry basic) as sanctioned by MP Finance Department.",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "Police Special Duty Pay & Investigation Allowance",
+        "perk_description": "Special police allowances for field investigations, intelligence operations, and one additional month salary per annum in lieu of holidays.",
+        "confidence": "reported",
+        "source_label": "MP Police Headquarters Special Pay Regulations"
+      },
+      {
+        "perk_name": "Government Housing / HRA",
+        "perk_description": "Designated officer quarters in police colonies or HRA between 8% and 16% of basic pay depending on city tier.",
+        "confidence": "reported",
+        "source_label": "MP Police Housing Corporation Norms"
+      },
+      {
+        "perk_name": "Uniform, Kit & Conveyance Allowance",
+        "perk_description": "Annual uniform upkeep allowance and monthly mobile/fuel conveyance allowance for official investigations.",
+        "confidence": "reported",
+        "source_label": "MP Police Service Rules"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Defined Contributory Pension Scheme with 14% matching employer contribution by the Government of Madhya Pradesh.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 507,
+        "applicants": 0,
+        "appeared": 0,
+        "cut_off_marks": {
+          "note": "Recruitment notification issued September 2026 for 507 vacancies across Subedar (81), SI SAF (69), SI DEF (312), and Technical SI (45)."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "source_label": "MPESB Police Sub-Inspector Rulebook 2026"
+      },
+      {
+        "year": 2025,
+        "vacancies": 480,
+        "applicants": 215000,
+        "appeared": 5113,
+        "cut_off_marks": {
+          "note": "5,113 candidates appeared in Main Examination; 1,692 candidates qualified for Physical Proficiency Test and Personal Interview."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_25/SI_SUBEDAR_RES25/FINAL_RESULT/SI_Subedar_2025_ResultNote_Final.pdf",
+        "source_label": "MPESB SI & Subedar 2025 Final Result Note"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Police Sub-Inspector & Subedar Recruitment Test 2026 Rulebook",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/SI_Rulebook-2026_updated_09092026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MP Police Sub-Inspector & Subedar 2025 Final Result Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_25/SI_SUBEDAR_RES25/FINAL_RESULT/SI_Subedar_2025_ResultNote_Final.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

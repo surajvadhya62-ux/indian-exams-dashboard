@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback, useRef } from 'react'
 import './index.css'
 import examsData from './data/exams.json'
 import Header from './components/Header'
@@ -11,6 +11,24 @@ import CalendarView from './components/CalendarView'
 import ExamDetail from './components/ExamDetail'
 import GovtGradesGuide from './components/GovtGradesGuide'
 import HowToUse from './components/HowToUse'
+import ColdBootIntro from './components/ColdBootIntro'
+import StoryGate from './components/StoryGate'
+
+/* The opening sequence plays on every load, except for visitors who
+   have asked for reduced motion — ?intro=1 forces it to play even
+   then, so it stays reviewable. matchMedia can throw in odd
+   environments, so the check is guarded. */
+function shouldSkipIntro() {
+  try {
+    if (new URLSearchParams(window.location.search).get('intro') === '1') return false
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return true
+    }
+  } catch {
+    /* matchMedia blocked — fall through and play the intro */
+  }
+  return false
+}
 
 function App() {
   const [activeView, setActiveView] = useState('explore')
@@ -28,6 +46,51 @@ function App() {
   const [selectedExam, setSelectedExam] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
   const itemsPerPage = 12
+
+  /* introMounted keeps the overlay alive through its own exit;
+     pageReleased is flipped earlier, so the page rises while the
+     iris is still closing instead of after it. dashboardEntered
+     gates the story gate vs. the real dashboard content — it's only
+     ever pre-set true for reduced-motion visitors, who skip both. */
+  const [introMounted, setIntroMounted] = useState(() => !shouldSkipIntro())
+  const [pageReleased, setPageReleased] = useState(() => shouldSkipIntro())
+  const [dashboardEntered, setDashboardEntered] = useState(() => shouldSkipIntro())
+
+  /* Used to give ColdBootIntro a fresh key so React fully remounts it on replay */
+  const introKeyRef = useRef(0)
+  const [introKey, setIntroKey] = useState(0)
+
+  const handleIntroRelease = useCallback(() => {
+    setPageReleased(true)
+  }, [])
+
+  const handleIntroComplete = useCallback(() => setIntroMounted(false), [])
+
+  const handleDashboardEnter = useCallback(() => {
+    setDashboardEntered(true)
+  }, [])
+
+  /* All views dismiss the StoryGate and enter the requested dashboard view */
+  const DASHBOARD_VIEWS = ['explore', 'analytics', 'dashboard', 'guide', 'cadres', 'compare', 'calendar']
+
+  const goToView = useCallback((id) => {
+    /* If the StoryGate is still showing, dismiss it for any view navigation */
+    if (DASHBOARD_VIEWS.includes(id)) {
+      handleDashboardEnter()
+    }
+    setActiveView(id)
+  }, [handleDashboardEnter])
+
+  /* Clicking the IndiaExams logo replays the cold-boot intro and re-shows StoryGate */
+  const handleLogoClick = useCallback(() => {
+    introKeyRef.current += 1
+    setIntroKey(introKeyRef.current)
+    setIntroMounted(true)
+    setPageReleased(false)
+    setDashboardEntered(false)
+    setActiveView('explore')
+    window.scrollTo(0, 0)
+  }, [])
 
   const filteredExams = useMemo(() => {
     return examsData.filter(exam => {
@@ -118,14 +181,26 @@ function App() {
 
   return (
     <>
+      {introMounted && (
+        <ColdBootIntro
+          key={introKey}
+          onRelease={handleIntroRelease}
+          onComplete={handleIntroComplete}
+        />
+      )}
       <Header
         activeView={activeView}
-        setActiveView={setActiveView}
+        setActiveView={goToView}
         totalExams={examsData.length}
         compareCount={compareList.length}
+        onLogoClick={handleLogoClick}
       />
 
-      <main className="main-content">
+      <main className={`main-content${pageReleased ? '' : ' app-waiting'}`}>
+        {!dashboardEntered ? (
+          <StoryGate exams={examsData} onEnter={handleDashboardEnter} />
+        ) : (
+        <>
         {activeView === 'guide' && (
           <div className="fade-in">
             <HowToUse
@@ -136,16 +211,9 @@ function App() {
           </div>
         )}
 
-        {activeView === 'dashboard' && (
-          <div className="fade-in">
-            <StatsOverview exams={examsData} />
-            <Analytics exams={examsData} onApplyFilter={handleApplyAnalyticsFilter} />
-          </div>
-        )}
-
         {activeView === 'explore' && (
           <div className="fade-in">
-            <StatsOverview exams={examsData} />
+            <StatsOverview exams={examsData} countUp={pageReleased} />
             <SearchFilter
               searchQuery={searchQuery}
               setSearchQuery={(q) => { setSearchQuery(q); setCurrentPage(1) }}
@@ -174,9 +242,10 @@ function App() {
           </div>
         )}
 
-        {activeView === 'analytics' && (
+        {(activeView === 'analytics' || activeView === 'dashboard') && (
           <div className="fade-in">
-            <Analytics exams={examsData} fullView onApplyFilter={handleApplyAnalyticsFilter} />
+            <StatsOverview exams={examsData} countUp={pageReleased} />
+            <Analytics exams={examsData} onApplyFilter={handleApplyAnalyticsFilter} />
           </div>
         )}
 
@@ -202,6 +271,8 @@ function App() {
           <div className="fade-in">
             <CalendarView exams={examsData} onViewDetails={setSelectedExam} />
           </div>
+        )}
+        </>
         )}
       </main>
 

@@ -1,0 +1,203 @@
+{
+  "id": "upsssc-aso",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Statistical Officer (Sahayak Sankhyiki Adhikari) and Assistant Research Officer - Statistics (Sahayak Shodh Adhikari) conduct macroeconomic data collection, agricultural census surveys, state income estimations, and socio-economic evaluations across the Economics and Statistics Division (State Planning Institute), Department of Agriculture, and Family Welfare Directorate, Government of Uttar Pradesh.",
+    "steps": [
+      {
+        "designation": "Assistant Statistical Officer (ASO) / Assistant Research Officer (ARO - Statistics)",
+        "pay_level": "Level 6",
+        "years": "Entry (0-7 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP Economics & Statistics Subordinate Service Rules & Advt. 07-Exam/2019"
+      },
+      {
+        "designation": "Statistical Officer / Research Officer (SO/RO, Gazetted Class II)",
+        "pay_level": "Level 8 to Level 10",
+        "years": "approx. 7-14 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UP State Planning Institute Gazetted Promotion Regulations"
+      },
+      {
+        "designation": "Deputy Director (Economics and Statistics — District / Divisional Head)",
+        "pay_level": "Level 11",
+        "years": "approx. 14-22 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Uttar Pradesh Economics and Statistics Service (Executive) Rules"
+      },
+      {
+        "designation": "Joint Director (Economics and Statistics / Planning)",
+        "pay_level": "Level 12",
+        "years": "approx. 22-28 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "State Planning Institute Senior Directorate Hierarchy"
+      },
+      {
+        "designation": "Director (Economics and Statistics / State Planning Institute)",
+        "pay_level": "Level 13 to Level 14",
+        "years": "approx. 28+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "Government of Uttar Pradesh Higher Planning Administrative Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection is made through a competitive objective written examination of 120 marks testing General Hindi, General Knowledge, and specialized postgraduate subject knowledge (Commerce, Economics, Mathematics, Statistics, or Mathematical Statistics), followed by document verification of postgraduate degrees and NIELIT 'O' Level computer certifications. Negative marking is 0.25 (1/4th) per wrong answer.",
+    "stages": [
+      {
+        "stage_name": "Written Examination (Objective OMR)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC ASO/ARO Examination Scheme & Syllabus (Advt. 07-Exam/2019)",
+        "papers": [
+          {
+            "paper_name": "Part I — General Hindi (Samanya Hindi)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II — General Knowledge & General Intelligence Test (Reasoning)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III — Specialized Technical Subject (Commerce / Economics / Mathematics / Statistics)",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Abhilekh Pareekshan)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC ASO Document Verification Schedule & Certificate Scrutiny Notice",
+        "papers": [
+          {
+            "paper_name": "Verification of Postgraduate Degree, NIELIT 'O' Level Computer Certificate & Domicile",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Statistical Officer and Assistant Research Officer are remunerated at Pay Level 6 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹4,200) under the Uttar Pradesh Revised Pay Rules, 2016.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://upsssc.gov.in/default.aspx",
+    "pay_source_label": "UP Economics & Statistics Division & UP Revised Pay Rules 2016 Level 6",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 59000,
+      "max": 65000
+    },
+    "in_hand_range_estimate": {
+      "min": 51000,
+      "max": 57000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 at 58% DA (effective 01.07.2025), HRA (₹3,200 to ₹6,500 depending on district or state planning institute headquarters posting in Lucknow), field statistical survey allowance, net of 10% NPS deduction (₹5,593), professional tax, and group insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per UP Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting city tier (Class X, Y, Z)",
+      "Statistical survey conveyance and touring reimbursement for census operations",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules",
+      "National Pension System (NPS) with 14% matching employer contribution",
+      "Leave travel concession (LTC) and annual earned leave encashment benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks compiled from official UPSSSC notifications and final recommendation lists for Assistant Statistical Officer examinations.",
+    "years": [
+      {
+        "year": 2019,
+        "applicants": 45000,
+        "appeared": 10144,
+        "qualified_stage_1": 2248,
+        "qualified_stage_2": 896,
+        "recommended": 896,
+        "vacancies": 904,
+        "confidence": "verified",
+        "as_of": "2023-02-15",
+        "source_url": "https://upsssc.gov.in/default.aspx",
+        "source_label": "UPSSSC ASO/ARO Advt. 07-Exam/2019 Final Selection Order & Recommendation List"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabi, and selection orders issued by UPSSSC.",
+    "links": [
+      {
+        "label": "UPSSSC Official Web Portal",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC ASO / ARO Notification (Advt. 07-Exam/2019)",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC ASO / ARO Examination Scheme & Specialized Subjects Syllabus",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPSSSC ASO / ARO Final Recommendation Order & Cutoff Marks Notice",
+        "url": "https://upsssc.gov.in/default.aspx",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

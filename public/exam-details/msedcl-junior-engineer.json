@@ -1,0 +1,191 @@
+{
+  "id": "msedcl-junior-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Technical cadre hierarchy within Maharashtra State Electricity Distribution Company Limited (MSEDCL / Mahavitaran), the largest state power distribution utility in India. Promotion from Junior Engineer up to Chief Engineer is governed by MSEDCL Employees' Service Regulations and Departmental Promotion Committee (DPC) criteria based on seniority, annual confidential performance reports, and departmental examinations.",
+    "steps": [
+      {
+        "designation": "Junior Engineer (Dist / Civil) (कनिष्ठ अभियंता) — Pay Group III",
+        "pay_level": "Pay Scale ₹37,340 – ₹1,03,775",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Recruitment Advertisement No. 05/2023, Section 2 (Compensation and Scales of Pay)"
+      },
+      {
+        "designation": "Assistant Engineer (Dist / Civil) (सहाय्यक अभियंता) — Pay Group II",
+        "pay_level": "Pay Scale ₹49,210 – ₹1,19,315",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Service Regulations (Promotion quota for Junior Engineers with degree/diploma and qualifying departmental service)"
+      },
+      {
+        "designation": "Additional Executive Engineer (अतिरिक्त कार्यकारी अभियंता)",
+        "pay_level": "Pay Scale ₹63,770 – ₹1,36,775",
+        "years": "approx. 9-14 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Officers Service Regulations (DPC promotion based on merit-cum-seniority)"
+      },
+      {
+        "designation": "Executive Engineer (Division In-Charge / कार्यकारी अभियंता) — Pay Group I",
+        "pay_level": "Pay Scale ₹70,660 – ₹1,48,220",
+        "years": "approx. 14-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Technical Cadre Rules (O&M Division In-Charge)"
+      },
+      {
+        "designation": "Superintending Engineer (Circle In-Charge / अधीक्षक अभियंता) — Pay Group I",
+        "pay_level": "Pay Scale ₹92,305 – ₹1,78,415",
+        "years": "approx. 20-26 yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Senior Management Service Regulations"
+      },
+      {
+        "designation": "Chief Engineer (Zonal Head / मुख्य अभियंता) — Apex Technical Leadership",
+        "pay_level": "Pay Scale ₹1,18,500 – ₹2,14,100",
+        "years": "approx. 26+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Executive Management Regulations (Head of Distribution Zone)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted as an online Computer Based Test (CBT) by the Institute of Banking Personnel Selection (IBPS) on behalf of MSEDCL. The test comprises 130 objective questions carrying a total of 150 marks over 120 minutes. Negative marking is applicable at 0.25 (1/4th) of the marks assigned to each specific question for wrong answers. There is no interview for the post of Junior Engineer; selection is determined entirely by CBT merit.",
+    "stages": [
+      {
+        "stage_name": "Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-01",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Direct Recruitment Advertisement No. 05/2023, Clause 6 (Method of Selection & Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Test of Professional Knowledge (Electrical / Civil Engineering)",
+            "marks": 110,
+            "duration_minutes": 120,
+            "negative_marking": "-0.55 marks per wrong answer (1/4th of 2.2 marks per question; 50 Qs)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Reasoning",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-0.125 marks per wrong answer (1/4th of 0.5 marks per question; 40 Qs)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Quantitative Aptitude",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "-0.125 marks per wrong answer (1/4th of 0.5 marks per question; 20 Qs)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Test of Marathi Language",
+            "marks": 10,
+            "duration_minutes": 120,
+            "negative_marking": "-0.125 marks per wrong answer (1/4th of 0.5 marks per question; 20 Qs)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "MSEDCL is a state power distribution public sector undertaking owned by the Government of Maharashtra under MSEB Holding Company Ltd. Pay scales are established under tripartite wage revision settlements, strictly distinct from the Central 7th CPC matrix.",
+    "pay_level": "Pay Group III (Scale ₹37,340 – ₹1,03,775)",
+    "entry_basic_pay": 37340,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-01",
+    "pay_source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+    "pay_source_label": "MSEDCL Recruitment Advertisement No. 05/2023, Section 2 (Junior Engineer Dist/Civil: ₹37,340 – ₹1,03,775)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 64000, "max": 72000 },
+    "in_hand_range_estimate": { "min": 55000, "max": 63000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Pay Group III entry basic pay of ₹37,340 with 58% DA (₹21,657 effective 01.07.2025), HRA (9% to 27% based on city tier: ₹3,361 to ₹10,082), technical duty allowance, net of Contributory Provident Fund (12% of basic + DA = ₹7,080), profession tax (₹200), and contributory medical insurance deductions.",
+    "official_perks": [
+      "Residential accommodation in company substation colonies or House Rent Allowance (HRA)",
+      "Contributory Provident Fund (CPF) and Gratuity under MSEDCL Rules",
+      "Comprehensive Medical Benefit Scheme covering employee and dependent family",
+      "Concessional electricity facility under MSEDCL staff regulations",
+      "Shift Duty Allowance and Technical Risk Allowance for field engineers",
+      "Leave Encashment and Leave Travel Assistance (LTA)"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment notifications and applicant figures across MSEDCL junior engineering direct recruitments.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": 120000,
+        "vacancies": 549,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 218 (1,20,000 applicants for 549 Junior Engineer posts: 464 JE Distribution + 85 JE Civil under Advt. No. 05/2023; conducted alongside 5,347 Vidyut Sahayak posts under Advt. No. 06/2023)",
+        "confidence": "reported",
+        "as_of": "2024-03-31",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Direct Recruitment Notification Advt. No. 05/2023 and Press Announcements"
+      },
+      {
+        "year": 2019,
+        "applicants": 95000,
+        "vacancies": 438,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 216 (calculated: 95,000 applicants ÷ 438 Junior Engineer Distribution vacancies under Advt. No. 06/2019)",
+        "confidence": "reported",
+        "as_of": "2019-08-31",
+        "source_url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "source_label": "MSEDCL Recruitment Advertisement No. 06/2019 and Selection Results"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment portals and notices published by Maharashtra State Electricity Distribution Company Limited (MSEDCL).",
+    "links": [
+      {
+        "label": "MSEDCL Official Recruitment & Career Options Portal",
+        "url": "https://www.mahadiscom.in/en/recruitment-career-options/",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MSEDCL Official Corporate Website",
+        "url": "https://www.mahadiscom.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

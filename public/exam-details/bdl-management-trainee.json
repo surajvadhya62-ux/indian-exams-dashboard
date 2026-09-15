@@ -1,0 +1,215 @@
+{
+  "id": "bdl-management-trainee",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Management Trainees in Bharat Dynamics Limited (BDL) enter in Grade-II (E-1) and advance through executive management cadres based on departmental promotion committees (DPC), minimum qualifying residency periods, and annual performance appraisal ratings.",
+    "steps": [
+      {
+        "designation": "Management Trainee (MT / Technical & Non-Technical)",
+        "pay_level": "IDA Grade-II / E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Recruitment Rules and Employment Notification Advt. No. 2025-4 / 2026-1"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade-II / E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3-4 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Promotion Policy (Absorption upon successful training completion)"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade-III / E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Executive Cadre Promotion Hierarchy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade-IV / E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Executive Cadre Promotion Hierarchy"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade-V / E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Middle Management Regulations"
+      },
+      {
+        "designation": "Deputy General Manager (DGM)",
+        "pay_level": "IDA Grade-VI / E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4-5 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Senior Management Cadre Rules"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade-VII / E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Executive Directorate Rules"
+      },
+      {
+        "designation": "General Manager (GM)",
+        "pay_level": "IDA Grade-VIII / E-7 (₹1,00,000 – ₹2,60,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Top Management Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment selection is conducted through a Computer Based Online Test (CBoT) followed by a Personal Interview. Final selection merit is drawn based on 85% weightage for the Online Test and 15% weightage for the Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Computer Based Online Test (CBoT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Management Trainee Official Examination Scheme and Syllabus",
+        "papers": [
+          {
+            "paper_name": "Part I: Subject / Discipline Engineering & Professional Knowledge",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 60% for UR/EWS and 50% for SC/ST/OBC/PwD across combined test"
+          },
+          {
+            "paper_name": "Part II: General Aptitude (Quantitative Aptitude, Reasoning, General English, General Awareness)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL MT Selection Process Norms",
+        "papers": [
+          {
+            "paper_name": "Personal Interview & Document Verification",
+            "marks": 15,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for UR/EWS and 50% for SC/ST/OBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Salaries in Bharat Dynamics Limited are regulated by DPE 3rd Pay Revision Committee guidelines on IDA pay scales. Management Trainees receive starting basic pay of ₹40,000 with mandatory 58% DA constant as of 2025-07-01 and 33% cafeteria perks.",
+    "pay_level": "IDA Pay Scale Grade-II / E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://bdl-india.in/recruitments",
+    "pay_source_label": "BDL Notification Advt. No. 2025-4 and DPE 3rd PRC IDA Scale",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 72000,
+      "max": 88000
+    },
+    "in_hand_range_estimate": {
+      "min": 63000,
+      "max": 76000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated based on Entry Basic Pay of ₹40,000 with 58% IDA (₹23,200), House Rent Allowance (18% to 27% based on posting in Hyderabad/Bhanur), Cafeteria perks allowance (33% of Basic = ₹13,200), less statutory Provident Fund (12% of Basic+DA) and medical insurance deductions.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
+      "House Rent Allowance (HRA) or Company Leased Accommodation / Quarters",
+      "Perks and Allowances under Cafeteria Approach up to 33% of basic pay",
+      "Performance Related Pay (PRP) based on company performance and individual MoU ratings",
+      "Contributory Provident Fund, Gratuity, and Defined Contributory Pension Scheme (PRMB)",
+      "Comprehensive indoor and outdoor medical coverage for self and dependent family members"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Competition statistics compiled from official BDL recruitment releases and shortlisted candidates lists.",
+    "years": [
+      {
+        "year": 2025,
+        "vacancies": 45,
+        "applicants": 28400,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 630",
+        "confidence": "reported",
+        "as_of": "2026-02-12",
+        "source_url": "https://bdl-india.in/recruitments",
+        "source_label": "BDL Advt. No. 2025-4: 45 MT vacancies across Mechanical, Electrical, Electronics, CS, Finance and HR; 450 candidates shortlisted for Interview."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment notifications, examination syllabus, and candidate interview schedules published on the Bharat Dynamics Limited official web portal.",
+    "links": [
+      {
+        "label": "BDL Official Recruitment Portal",
+        "url": "https://bdl-india.in/recruitments",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BDL MT Recruitment Notification (Advt. No. 2026-1 / 2025-4)",
+        "url": "https://bdl-india.in/sites/default/files/BDL_Advt_2026-1_27052026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BDL Recruitment Addendum Regulations",
+        "url": "https://bdl-india.in/sites/default/files/Addendum_Para-8.3_Advt.No_.BDL%2CC-HR%28TACP%292026-1.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "BDL Corporate Governance Portal",
+        "url": "https://bdl-india.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "id": "tangedco-assistant-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Technical executive career progression within Tamil Nadu Generation and Distribution Corporation (TANGEDCO) and Tamil Nadu Transmission Corporation (TANTRANSCO), governed by TNEB Service Regulations. Direct-recruitment Assistant Engineers enter at Class-II (Officer cadre) and advance through Class-I managerial engineering positions up to Chief Engineer and Board Director.",
+    "steps": [
+      {
+        "designation": "Assistant Engineer (AE — Electrical / Mechanical / Civil)",
+        "pay_level": "Level 1 (Officer Cadre) / Level 16",
+        "years": "Entry (approx. 0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNEB Revised Pay Regulations & TNPSC Notification No. 09/2024, Section 3: Engineering Posts (Scale of pay Rs. 39,800 - 1,26,500)"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE)",
+        "pay_level": "Level 2 (Officer Cadre) / Level 22",
+        "years": "approx. 6-12 yrs",
+        "confidence": "reported",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNEB Service Regulations for Engineering Cadre (Scale of pay Rs. 56,100 - 1,77,500)"
+      },
+      {
+        "designation": "Executive Engineer (EE) / Divisional Engineer",
+        "pay_level": "Level 3 (Officer Cadre) / Level 26",
+        "years": "approx. 12-18 yrs",
+        "confidence": "reported",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNEB Service Regulations for Senior Engineering Cadre (Scale of pay Rs. 61,900 - 1,96,700)"
+      },
+      {
+        "designation": "Superintending Engineer (SE) / Circle Head",
+        "pay_level": "Level 4 (Officer Cadre)",
+        "years": "approx. 18-24 yrs",
+        "confidence": "reported",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNEB Service Regulations for Superintending Engineers (Scale of pay Rs. 78,800 - 2,09,200)"
+      },
+      {
+        "designation": "Chief Engineer (CE) / Regional Executive Director",
+        "pay_level": "Level 5 (Officer Cadre)",
+        "years": "approx. 24-30+ yrs",
+        "confidence": "reported",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNEB Apex Cadre Regulations (Scale of pay Rs. 1,23,100 - 2,15,900)"
+      },
+      {
+        "designation": "Director (Generation / Distribution / Transmission / Projects)",
+        "pay_level": "Apex Scale (Board Level)",
+        "years": "Apex (Selection by State Government)",
+        "confidence": "reported",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNEB Ltd Board of Directors Appointment Guidelines, Energy Department, Government of Tamil Nadu"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Technical recruitment for Assistant Engineers in TANGEDCO utilizes a standardized Computer-Based Test (CBT) objective examination format covering Engineering Mathematics, Basic Engineering & Sciences, and Core Discipline Engineering. Per state policy reforms, technical engineer recruitments across statutory undertakings are conducted under unified frameworks coordinated with the state recruiting authorities.",
+    "stages": [
+      {
+        "stage_name": "Computer-Based Test (Online CBT — 100 Objective Questions)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TANGEDCO Recruitment Regulations & TNPSC Combined Technical Services Degree Level Scheme of Examination",
+        "papers": [
+          {
+            "paper_name": "Part I — Engineering Mathematics (Common to all disciplines: Matrices, Calculus, Transforms, Numerical Methods)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 mark (0.33) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II — Basic Engineering & Sciences (Physics, Material Science, Civil & Mech Principles, Electrical Circuits, Computer Programming)",
+            "marks": 20,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 mark (0.33) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III — Technical Core Engineering Discipline (Electrical & Electronics / Mechanical / Civil Engineering Degree Standard)",
+            "marks": 60,
+            "duration_minutes": 120,
+            "negative_marking": "-1/3 mark (0.33) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum qualifying mark: 40% (OC), 35% (BC/BCM/MBC), 30% (SC/SCA/ST)"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Engineers in TANGEDCO/TANTRANSCO are appointed in Officer Level 1 (₹39,800 - ₹1,26,500 under TNEB Revised Pay Regulations, mapped to Level 16 of the Tamil Nadu Revised Pay Matrix). Employees in thermal power stations and hydel generation circles receive Thermal/Generation Duty Allowance, Shift Allowance, and subsidized electricity benefits.",
+    "pay_level": "Level 1 (Officer Cadre) / Level 16",
+    "entry_basic_pay": 39800,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-07-26",
+    "pay_source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+    "pay_source_label": "TNEB Revised Pay Scale Regulations & TNPSC Notification No. 09/2024 (Scale of Pay Rs. 39,800 - 1,26,500 / Level 16: Rs. 36,400 - 1,34,200)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 68000,
+      "max": 78000
+    },
+    "in_hand_range_estimate": {
+      "min": 60000,
+      "max": 69000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimate assumes entry basic pay ₹39,800 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹2,400 to ₹4,800), City Compensatory Allowance, and Generation/Shift Allowance for plant engineers. Deductions account for Contributory Pension Scheme (CPS/EPF 10% of Basic+DA), NHIS, and professional tax.",
+    "official_perks": [
+      "Medical insurance coverage under TNEB Employees New Health Insurance Scheme (NHIS)",
+      "Generation / Thermal Power Station Special Duty Allowance for field engineers",
+      "Residential staff quarters inside thermal / hydel project townships or station HRA",
+      "Subsidized electricity allowance as per TANGEDCO staff service regulations",
+      "Leave Travel Concession (LTC) and annual festival bonus as declared by the Board"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "TANGEDCO Assistant Engineer recruitments attract massive competition from graduate engineers across Tamil Nadu, with candidate application volumes exceeding 1.5 lakh across Electrical, Mechanical, and Civil branches.",
+    "years": [
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": 105,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-07-26",
+        "source_url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "source_label": "TNPSC Notification No. 09/2024, Combined Technical Services Examination (Degree Level), Section 3: Engineering Cadres in State Public Sector Undertakings & Boards"
+      },
+      {
+        "year": 2020,
+        "applicants": 150000,
+        "vacancies": 600,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 250 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2020-01-08",
+        "source_url": "https://www.tnebltd.gov.in",
+        "source_label": "TANGEDCO Direct Recruitment Notification No. 01/2020: 600 vacancies (400 AE Electrical, 125 AE Mechanical, 75 AE Civil); applicant volume reported across state media from Board registration statistics"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and recruitment notifications for engineering positions in TANGEDCO/TANTRANSCO and state statutory technical services.",
+    "links": [
+      {
+        "label": "TNEB / TANGEDCO Official Corporate Portal",
+        "url": "https://www.tnebltd.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "TNPSC Combined Technical Services (Degree Level Non-Interview Posts) — Notification No. 09/2024",
+        "url": "https://www.tnpsc.gov.in/Document/english/09_2024_CTS_NONOT_ENGLISH_.pdf",
+        "type": "notification",
+        "cycle_label": "CTS-Degree-2024",
+        "confidence": "verified",
+        "as_of": "2024-07-26"
+      },
+      {
+        "label": "TNPSC Combined Technical Services (Diploma Level) — Notification No. 11/2024",
+        "url": "https://www.tnpsc.gov.in/Document/english/CTSE_DIP_Eng_13.08.2024_.pdf",
+        "type": "notification",
+        "cycle_label": "CTS-Dip-2024",
+        "confidence": "verified",
+        "as_of": "2024-08-13"
+      }
+    ]
+  }
+}

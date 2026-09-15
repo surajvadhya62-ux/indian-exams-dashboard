@@ -1,0 +1,201 @@
+{
+  "id": "rites-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-13",
+  "career_ladder": {
+    "status": "available",
+    "note": "Graduate Engineer Trainees (GET) and Assistant Managers in RITES Limited progress through the multi-disciplinary transport infrastructure, railway engineering, and project management hierarchy under DPE IDA scales.",
+    "steps": [
+      {
+        "designation": "Graduate Engineer Trainee (GET / Civil / Electrical / Mech)",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "1 yr training",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Recruitment Notification for Graduate Engineer Trainees"
+      },
+      {
+        "designation": "Assistant Manager",
+        "pay_level": "IDA Grade E-1 (₹40,000 – ₹1,40,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Promotion & Cadre Absorption Rules"
+      },
+      {
+        "designation": "Deputy Manager",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
+        "years": "approx. 3 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Executive Promotion Policy"
+      },
+      {
+        "designation": "Manager",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Engineering Cadre Regulations"
+      },
+      {
+        "designation": "Senior Manager",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Project Management Structure"
+      },
+      {
+        "designation": "Joint General Manager (JGM)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
+        "years": "approx. 4 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Senior Management Cadre"
+      },
+      {
+        "designation": "Additional General Manager (AGM)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
+        "years": "approx. 20+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Executive Directorate Rules"
+      },
+      {
+        "designation": "General Manager / Executive Director",
+        "pay_level": "IDA Grade E-7 / E-8 (₹1,00,000 – ₹2,80,000)",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Board Level Senior Management"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection of Graduate Engineer Trainees is either through valid GATE marks (75% weightage for GATE Score, 10% for Technical Presentation & 15% for Interview) or through a Computer Based Written Examination followed by a Personal Interview.",
+    "stages": [
+      {
+        "stage_name": "Written Test (CBT) / GATE Score Evaluation",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Selection Scheme and Syllabus for GETs",
+        "papers": [
+          {
+            "paper_name": "Technical Discipline Domain (Civil / Electrical / Mechanical Engineering)",
+            "marks": 100,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "50% for UR/EWS, 40% for SC/ST/OBC/PwD"
+          },
+          {
+            "paper_name": "General Aptitude (English, Reasoning, Quantitative Aptitude & General Knowledge)",
+            "marks": 25,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Personal Interview & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-13",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Interview Evaluation Procedure",
+        "papers": [
+          {
+            "paper_name": "Technical Competence & Personal Interview",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "60% for UR and 50% for Reserved"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Emoluments are structured under DPE 3rd PRC IDA pay scales. Graduate Engineer Trainees receive starting basic pay of ₹40,000 in Grade E-1, mandatory 58% DA constant as of 2025-07-01, Gurugram/NCR HRA (27%), and transport engineering perks.",
+    "pay_level": "IDA Pay Scale Grade E-1 (₹40,000 – ₹1,40,000)",
+    "entry_basic_pay": 40000,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-13",
+    "pay_source_url": "https://recruit.rites.com/frmRegistration.aspx",
+    "pay_source_label": "RITES Compensation Package and Terms of Engagement",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 74000,
+      "max": 90000
+    },
+    "in_hand_range_estimate": {
+      "min": 64000,
+      "max": 78000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated with Entry Basic Pay ₹40,000, 58% IDA (₹23,200), Gurugram HRA (27% = ₹10,800), and Cafeteria allowances (32% = ₹12,800), less statutory deductions for PF (12% Basic+DA) and medical insurance.",
+    "official_perks": [
+      "Industrial Dearness Allowance (IDA) revised quarterly",
+      "House Rent Allowance (HRA) @ 27% in Delhi NCR / Gurugram or leased accommodation",
+      "Cafeteria Approach Perks & Allowances up to 35% of basic pay",
+      "Performance Related Pay (PRP) based on audited annual profitability and MoU score",
+      "Contributory Provident Fund, Gratuity, and Defined Superannuation Pension Scheme",
+      "Comprehensive in-service medical cover for self and eligible dependent family"
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment benchmarks from RITES Limited engineer recruitment drives.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 65,
+        "applicants": 21300,
+        "shortlisted_for_mains": 390,
+        "selectivity_ratio": "approx. 1 in 327",
+        "confidence": "reported",
+        "as_of": "2024-05-25",
+        "source_url": "https://recruit.rites.com/frmRegistration.aspx",
+        "source_label": "RITES Vacancy Circular VC No. 120-125/24: 65 Graduate Engineer Trainee vacancies across Civil, Electrical, and Mechanical."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official recruitment advertisements, online application portals, and merit lists published on RITES recruitment portal.",
+    "links": [
+      {
+        "label": "RITES Online Recruitment Portal",
+        "url": "https://recruit.rites.com/frmRegistration.aspx",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      },
+      {
+        "label": "RITES Corporate Web Portal",
+        "url": "https://www.rites.com",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-13"
+      }
+    ]
+  }
+}

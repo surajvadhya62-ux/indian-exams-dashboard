@@ -1,0 +1,186 @@
+{
+  "id": "hvpn-assistant-engineer",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Engineers (AE) in Haryana Power Utilities (HVPNL, UHBVNL, DHBVNL, and HPGCL) represent the premier Group A technical engineering executive cadre. Promotions are governed by the Haryana Power Utilities Engineering Service Regulations.",
+    "steps": [
+      {
+        "designation": "Assistant Engineer (AE - Electrical / Mechanical / Civil / IT)",
+        "pay_level": "Level 9 (FPL-9)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "Haryana Power Utilities Joint Recruitment Notification for Assistant Engineers & Haryana Civil Services Rules"
+      },
+      {
+        "designation": "Assistant Executive Engineer (AEE)",
+        "pay_level": "Level 10 (FPL-10)",
+        "years": "approx. 5-8 yrs (subject to Departmental Accounts Examination for Engineers)",
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "HPUs Engineering Service Cadre & Promotion Regulations"
+      },
+      {
+        "designation": "Executive Engineer (XEN / Divisional Engineer)",
+        "pay_level": "Level 11 (FPL-11)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "Haryana Power Utilities Executive Cadre Rules"
+      },
+      {
+        "designation": "Superintending Engineer (SE / Circle Head)",
+        "pay_level": "Level 12 (FPL-12)",
+        "years": "approx. 18-24 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "Haryana Power Utilities Senior Management Regulations"
+      },
+      {
+        "designation": "Chief Engineer (CE)",
+        "pay_level": "Level 14 (FPL-14)",
+        "years": "approx. 26-30 yrs",
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "Haryana Power Utilities Top Management Selection Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection for Assistant Engineers across Haryana Power Utilities is conducted centrally via HVPNL based on normalized Graduate Aptitude Test in Engineering (GATE) scores followed by socio-economic/experience scrutiny and document verification.",
+    "stages": [
+      {
+        "stage_name": "National GATE Examination (Graduate Aptitude Test in Engineering)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "HPUs Joint Recruitment Advertisement & Selection Criteria",
+        "papers": [
+          {
+            "paper_name": "GATE Paper in Respective Engineering Discipline (Electrical Engineering EE / Civil Engineering CE / Mechanical Engineering ME / Computer Science CS)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "-0.33 for 1-mark MCQs; -0.67 for 2-mark MCQs; no negative marking for NAT/MSQ",
+            "qualifying_only": false,
+            "qualifying_threshold": "Valid GATE qualifying score in respective engineering stream"
+          }
+        ]
+      },
+      {
+        "stage_name": "Merit Compilation & Document Verification",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-12-20",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "HPUs Final Selection Criteria (GATE normalized marks + verification)",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Engineering Credentials, Biometric Verification, and Reservation/Socio-economic Verification",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of full-time B.E./B.Tech degree (min. 60% marks) and Hindi/Sanskrit up to Matric"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Engineers in Haryana Power Utilities are remunerated at Functional Pay Level 9 (FPL-9) under the Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹53,100.",
+    "pay_level": "Level 9 (FPL-9)",
+    "entry_basic_pay": 53100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-12-20",
+    "pay_source_url": "https://www.hvpn.org.in",
+    "pay_source_label": "Haryana Power Utilities Recruitment Notice & Revised Pay Matrix Level 9 (₹53,100 – ₹1,67,800)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 90000,
+      "max": 105000
+    },
+    "in_hand_range_estimate": {
+      "min": 78000,
+      "max": 92000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry Level 9 basic pay of ₹53,100 with 58% Dearness Allowance (₹30,798), House Rent Allowance (8% to 24% depending on location, e.g. Gurugram/Panchkula/Faridabad at 24% = ₹12,744), power utility technical allowance, and medical reimbursement, minus standard NPS contributions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at 58% effective 1 Jul 2025",
+      "House Rent Allowance (HRA) or utility executive residential township colony housing",
+      "Subsidized electricity allowance as per Haryana Power Utilities policy",
+      "Cashless Medical Scheme and medical reimbursement for self and dependents",
+      "Defined Contributory Pension Scheme (NPS) with employer contribution",
+      "Vehicle conveyance / petrol reimbursement for field and substation inspections"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Recruitment to Assistant Engineer cadres across Haryana Power Utilities is highly competitive among top-percentile GATE engineering graduates.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 8500,
+        "vacancies": 143,
+        "shortlisted_for_mains": 450,
+        "selectivity_ratio": "approx. 1 in 59 (calculated: applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2024-03-31",
+        "source_url": "https://www.hvpn.org.in",
+        "source_label": "HPUs Joint Recruitment 2023-2024: 143 Assistant Engineer posts across HVPNL, UHBVNL, DHBVNL, and HPGCL; over 8,500 GATE-qualified applicants."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Recruitment advertisements, GATE cutoff lists, and appointment orders are hosted on the HVPNL coordinating portal and distribution company websites.",
+    "links": [
+      {
+        "label": "Haryana Vidyut Prasaran Nigam Limited (HVPNL) — Official Portal",
+        "url": "https://www.hvpn.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Uttar Haryana Bijli Vitran Nigam (UHBVNL) — Official Portal",
+        "url": "https://uhbvn.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Dakshin Haryana Bijli Vitran Nigam (DHBVNL) — Official Portal",
+        "url": "https://dhbvn.org.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HPUs Assistant Engineer Recruitment Guidelines & Vacancy Notice",
+        "url": "https://www.hvpn.org.in",
+        "type": "notification",
+        "cycle_label": "HPUs-AE-2023",
+        "confidence": "verified",
+        "as_of": "2023-12-20"
+      }
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": "upprpb-radio-operator",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Technical telecommunications and wireless operations branch of the Uttar Pradesh Police (Radio Headquarters, Mahanagar, Lucknow). Personnel operate VHF/UHF wireless networks, digital communication repeaters, cyber telematics, and encryption systems, advancing through technical cadres and promotion quotas.",
+    "steps": [
+      {
+        "designation": "Assistant Radio Operator (Sahayak Parichalak / Level 4) / Workshop Staff (Level 3)",
+        "pay_level": "Level 4",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Radio Subordinate Service Rules & Advt. PRPB-एक(Radio)-2022"
+      },
+      {
+        "designation": "Head Radio Operator / Head Operator Mechanic (Pradhan Parichalak)",
+        "pay_level": "Level 6",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Radio Cadre Service Regulations"
+      },
+      {
+        "designation": "Radio Inspector (Doot Sanchar Nirikshak)",
+        "pay_level": "Level 7",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Telecommunication Inspector Rules"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (Radio / Telecom - DySP Radio)",
+        "pay_level": "Level 10",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Radio Gazetted Officers Cadre Rules"
+      },
+      {
+        "designation": "Superintendent of Police (Radio / Telecom - SP Radio)",
+        "pay_level": "Level 11",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Manual",
+        "source_label": "UP Police Radio Directorate Hierarchy"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises an Online Written Examination (CBT) of 400 marks (160 questions, 150 minutes) with a strict requirement of obtaining minimum 50% qualifying marks in each of the four subject sections, followed by DV/PST and Physical Efficiency Test (PET).",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Online Written Examination (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Radio Cadre Exam Scheme (Advt. PRPB-एक(Radio)-2022)",
+        "papers": [
+          {
+            "paper_name": "General Hindi (Samanya Hindi)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% qualifying marks required in this subject"
+          },
+          {
+            "paper_name": "Science and General Knowledge (Vigyan Evam Samanya Gyan — Physics & Electro-technology emphasis)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% qualifying marks required in this subject"
+          },
+          {
+            "paper_name": "Numerical and Mental Ability Test (Sankhyatmak Evam Mansik Yogyata)",
+            "marks": 100,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% qualifying marks required in this subject"
+          },
+          {
+            "paper_name": "Mental Aptitude, IQ and Reasoning Ability (Mansik Abhiruchi, Buddhilabdhi Evam Tarkik Pariksha)",
+            "marks": 100,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 50% marks in each subject to qualify"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Document Verification & Physical Standard Test (DV/PST)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Radio Cadre DV/PST Rules",
+        "papers": [
+          {
+            "paper_name": "Physical Standards Measurement (Height: Male 168 cm, Female 152 cm; Chest: Male 79-84 cm)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying standard prescribed in rules"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Physical Efficiency Test (PET / Running)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Radio PET Criteria",
+        "papers": [
+          {
+            "paper_name": "Endurance Running (Male: 4.8 km in 28 mins; Female: 2.4 km in 16 mins)",
+            "marks": null,
+            "duration_minutes": 28,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Completion of endurance race within prescribed time"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Radio Operators (the largest group in the recruitment) are placed in Pay Level 4 (Entry Basic Pay ₹25,500) under the Uttar Pradesh Revised Pay Rules, 2016. Head Radio Operators are placed in Level 6 (₹35,400) and Workshop Staff in Level 3 (₹21,700). Technical personnel receive communication allowance, diet subsidy, and kit allowances.",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://uppbpb.gov.in/Home/Manual",
+    "pay_source_label": "UP Revised Pay Rules 2016 Level 4 (Assistant Operator Cadre) & Advt. PRPB-एक(Radio)-2022",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 43000,
+      "max": 49000
+    },
+    "in_hand_range_estimate": {
+      "min": 38500,
+      "max": 44000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 (Assistant Operator post) with 58% DA (₹14,790), technical maintenance allowance, HRA (₹1,800 to ₹4,500), kit allowance, net of 10% NPS deduction (₹4,029) and GIS.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP government finance orders",
+      "House Rent Allowance (HRA) categorized by district class",
+      "Technical Equipment & Communication Handling Allowance",
+      "Diet Allowance / Ration Subsidy for police telecommunication personnel",
+      "Annual Uniform and Kit Maintenance Allowance",
+      "National Pension System (NPS) with 14% matching contribution",
+      "Medical reimbursement under UP Government Servants Medical Attendance Rules"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Data compiled from official UPPRPB notifications and result declarations for the UP Police Radio Cadre recruitment.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 539841,
+        "vacancies": 2430,
+        "shortlisted_for_mains": 7290,
+        "selectivity_ratio": "1 in 222",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppbpb.gov.in/Home/Notice",
+        "source_label": "UPPRPB Radio Cadre Result Announcement & DV/PST Schedule"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination schemes, and recruitment updates published on the UPPRPB portal.",
+    "links": [
+      {
+        "label": "UPPRPB Radio Cadre Official Notice & Information Hub",
+        "url": "https://uppbpb.gov.in/Home/Notice",
+        "type": "notification",
+        "cycle_label": "2022-2024",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UP Police Recruitment Rules & Manuals",
+        "url": "https://uppbpb.gov.in/Home/Manual",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

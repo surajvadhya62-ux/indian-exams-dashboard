@@ -1,0 +1,255 @@
+{
+  "id": "rrb-alp",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Assistant Loco Pilot (ALP) is the entry-level running staff position in Indian Railways operating electric and diesel locomotives. Promotion through the loco running cadre is determined by operational running experience, safety records, locomotive conversion courses, and trade tests. Running staff transition from assisting goods trains to piloting high-speed Express and Vande Bharat trains, with opportunities to advance to supervisory management as Chief Loco Inspector.",
+    "steps": [
+      {
+        "designation": "Assistant Loco Pilot (ALP)",
+        "pay_level": "Level 2",
+        "years": "Entry level (training period 17 weeks)",
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Railway Recruitment Boards — Detailed Centralised Employment Notice CEN 01/2024 (Recruitment of Assistant Loco Pilot)"
+      },
+      {
+        "designation": "Senior Assistant Loco Pilot (Sr. ALP)",
+        "pay_level": "Level 4",
+        "years": "approx. 2-3 yrs (upon required kilometerage and safety clearance)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Loco Pilot (Shunting)",
+        "pay_level": "Level 4",
+        "years": "approx. 4-6 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Loco Pilot (Goods)",
+        "pay_level": "Level 6",
+        "years": "approx. 7-10 yrs (independent freight train driving)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Loco Pilot (Passenger) / Loco Pilot (Mail/Express)",
+        "pay_level": "Level 6",
+        "years": "approx. 12-16 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      },
+      {
+        "designation": "Chief Loco Inspector (CLI) / Power Controller",
+        "pay_level": "Level 7",
+        "years": "approx. 18-22 yrs (supervisory running cadre)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Recruitment to Assistant Loco Pilot (CEN 01/2024) is conducted in five sequential stages: First Stage CBT (CBT-1 screening); Second Stage CBT (CBT-2 consisting of Part A for merit and Part B for qualifying trade test); Computer Based Aptitude Test (CBAT / Psycho test); Document Verification (DV); and Medical Examination under strict A-1 medical category standards.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: First Stage Computer-Based Test (CBT-1)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "RRB CEN 01/2024 — Examination Scheme for First Stage CBT",
+        "papers": [
+          {
+            "paper_name": "Mathematics (20 questions)",
+            "marks": 20,
+            "duration_minutes": 60,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR/EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "General Intelligence & Reasoning (25 questions)",
+            "marks": 25,
+            "duration_minutes": 60,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR/EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "General Science (Physics, Chemistry & Life Sciences of 10th standard, 20 questions)",
+            "marks": 20,
+            "duration_minutes": 60,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR/EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%"
+          },
+          {
+            "paper_name": "General Awareness on Current Affairs (Science, Technology, Sports, Culture, Personalities, Economics, Politics, 10 questions)",
+            "marks": 10,
+            "duration_minutes": 60,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "UR/EWS: 40%, OBC(NCL): 30%, SC: 30%, ST: 25%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Second Stage Computer-Based Test (CBT-2)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "RRB CEN 01/2024 — Examination Scheme for Second Stage CBT",
+        "papers": [
+          {
+            "paper_name": "Part A: Mathematics, Reasoning, Basic Science and Engineering (drawing, units, mechanics, electricity, heat), General Awareness (100 questions)",
+            "marks": 100,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR/EWS: 40%, OBC: 30%, SC: 30%, ST: 25% (70% weightage in final merit)"
+          },
+          {
+            "paper_name": "Part B: Relevant Technical Trade Syllabus prescribed by DGET / NCVT (75 questions)",
+            "marks": 75,
+            "duration_minutes": 60,
+            "negative_marking": "-1/3rd (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying mark: 35% for all candidates (no relaxation)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 3: Computer-Based Aptitude Test (CBAT / Psycho Test)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "RDSO Guidelines for Computer-Based Aptitude Testing for ALP",
+        "papers": [
+          {
+            "paper_name": "5 Battery Test (Memory, Direction, Depth Perception, Concentration, Perceptual Speed)",
+            "marks": null,
+            "duration_minutes": 71,
+            "negative_marking": "No negative marking in CBAT",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum T-Score of 42 in each of the 5 test batteries (30% weightage in final merit)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 4: Document Verification (DV) & Medical Examination",
+        "stage_order": 4,
+        "confidence": "verified",
+        "as_of": "2024-01-20",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Indian Railway Medical Manual (IRMM) — Medical Standard A-1",
+        "papers": [
+          {
+            "paper_name": "A-1 Medical Examination: Distant vision 6/6, 6/6 without glasses (no fogging test), near vision Sn 0.6, 0.6 without glasses, must pass tests for colour vision, binocular vision, field of vision, and night vision",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Fit in A-1 Medical Category"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Assistant Loco Pilot is placed in Pay Level 2 (₹19,900 – ₹63,200) under the 7th CPC. In addition to basic pay and DA, ALPs earn substantial Running Allowance (Kilometerage Allowance — KMA) based on the distance run during duty, significantly raising their in-hand earnings compared to stationary Level 2 employees.",
+    "pay_level": "Level 2",
+    "entry_basic_pay": 19900,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-20",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 42000, "max": 65000 },
+    "in_hand_range_estimate": { "min": 36000, "max": 57000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level 2 basic pay of ₹19,900 with 58% DA (₹11,542), HRA (10% to 30%), Transport Allowance (₹900 to ₹1,350 + DA on TA), plus Running Allowance (KMA approx ₹4.30 to ₹5.50 per km, generating an estimated ₹12,000 to ₹25,000/month), Night Duty Allowance (NDA), and National Holiday Allowance (NHA).",
+    "official_perks": [
+      "Running Allowance (Kilometerage Allowance / KMA) for distance travelled on duty",
+      "Night Duty Allowance (NDA) and National Holiday Allowance (NHA)",
+      "Free Railway Pass and Privilege Ticket Orders (PTO) for family rail travel across India",
+      "Comprehensive medical treatment in Railway Hospitals and health units for employee and dependents",
+      "Railway residential colony quarters allocation or HRA",
+      "Rest room and running room facilities equipped with air-conditioned cubicles and subsidized meals"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Assistant Loco Pilot in Indian Railways under Centralised Employment Notices issued by the Railway Recruitment Boards.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 18799,
+        "confidence": "verified",
+        "as_of": "2024-06-19",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Railway Recruitment Boards — Notice on Enhancement of Vacancies for CEN 01/2024 (ALP) from 5,696 to 18,799 posts across 16 Zonal Railways"
+      },
+      {
+        "year": 2018,
+        "vacancies": 27795,
+        "confidence": "verified",
+        "as_of": "2018-09-20",
+        "source_url": "https://www.rrbcdg.gov.in",
+        "source_label": "Railway Recruitment Boards — Revised Vacancy Table for CEN 01/2018 (Assistant Loco Pilot: 27,795 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and web portals hosted by Railway Recruitment Boards.",
+    "links": [
+      {
+        "label": "Railway Recruitment Board (RRB Chandigarh) — Official Portal",
+        "url": "https://www.rrbcdg.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "CEN 01/2024 — Recruitment of Assistant Loco Pilot (Official Notification Archive)",
+        "url": "https://www.rrbcdg.gov.in",
+        "type": "notification",
+        "cycle_label": "CEN-01-2024",
+        "confidence": "verified",
+        "as_of": "2024-01-20"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

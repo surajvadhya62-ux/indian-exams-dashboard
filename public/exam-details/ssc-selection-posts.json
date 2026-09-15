@@ -1,0 +1,209 @@
+{
+  "id": "ssc-selection-posts",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "SSC Selection Posts recruit specialized, technical, and isolated posts across Central Government Ministries, attached/subordinate offices, and autonomous statutory commissions. The posts are classified under three educational tiers (Matriculation, Higher Secondary, and Graduation & Above). Career ladders follow the recruitment rules of the user Ministry/Department, advancing from technical assistants to supervisory and directorship roles.",
+    "steps": [
+      {
+        "designation": "Junior Technical Assistant / Field Assistant / Laboratory Attendant (Core Level 4 Post)",
+        "pay_level": "Level 4",
+        "years": "Entry level (probation 2 yrs)",
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Phase-XII/2024/Selection Posts, Annexure-III Post Details"
+      },
+      {
+        "designation": "Senior Technical Assistant / Senior Scientific Assistant",
+        "pay_level": "Level 6",
+        "years": "approx. 5-8 yrs (departmental promotion / qualification)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Assistant Director / Technical Officer (Group B Gazetted)",
+        "pay_level": "Level 7",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Deputy Director / Senior Scientific Officer (Group A Gazetted)",
+        "pay_level": "Level 11",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      },
+      {
+        "designation": "Director / Joint Commissioner",
+        "pay_level": "Level 12",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "SSC conducts three separate Computer-Based Examinations (CBE) consisting of objective Multiple Choice Questions for posts with minimum educational qualification of Matriculation, Higher Secondary (10+2), and Graduation & Above levels. Candidates who apply for multiple levels appear once for each applicable examination level. Selection involves the Computer Based Examination followed by Skill Tests (Typing/CPT/Data Entry where prescribed) and Scrutiny of physical documents by regional SSC offices.",
+    "stages": [
+      {
+        "stage_name": "Stage 1: Computer Based Examination (CBE)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Scheme of Examination for Phase-XII Selection Posts",
+        "papers": [
+          {
+            "paper_name": "Part A: General Intelligence (25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, OBC/EWS: 25%, Other categories: 20%"
+          },
+          {
+            "paper_name": "Part B: General Awareness (25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, OBC/EWS: 25%, Other categories: 20%"
+          },
+          {
+            "paper_name": "Part C: Quantitative Aptitude (Basic Arithmetic Skills / Maths, 25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, OBC/EWS: 25%, Other categories: 20%"
+          },
+          {
+            "paper_name": "Part D: English Language (Basic Knowledge, 25 questions)",
+            "marks": 50,
+            "duration_minutes": 60,
+            "negative_marking": "-0.50 marks per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "UR: 30%, OBC/EWS: 25%, Other categories: 20%"
+          }
+        ]
+      },
+      {
+        "stage_name": "Stage 2: Skill Test (where prescribed) & Document Scrutiny",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "SSC — Guidelines for Skill Testing & Scrutiny of Selection Posts",
+        "papers": [
+          {
+            "paper_name": "Skill Test (Typing / Data Entry / Computer Proficiency Test / Trade Test as applicable for specific Post Category)",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Prescribed typing speed / error standards (Pass/Fail)"
+          },
+          {
+            "paper_name": "Scrutiny of hard copies of application along with certificates submitted to concerned Regional Office",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Verification of essential qualifications and experience"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Posts recruited under SSC Selection Posts span Pay Level 1 (₹18,000) to Pay Level 7 (₹44,900) under the 7th CPC. The modal technical representative post is Level 4 (₹25,500 – ₹81,100), with salary packages computed under central civilian rules.",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-02-26",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian Employees), Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 44000, "max": 55000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 48000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on modal Level 4 entry basic pay of ₹25,500 with 58% DA (₹14,790), HRA (10% to 30% depending on posting station city tier), Transport Allowance (₹900 to ₹1,350 + DA on TA), and 10% NPS deduction.",
+    "official_perks": [
+      "Central Government Employees Group Insurance Scheme (CGEGIS)",
+      "Central Government Health Scheme (CGHS) medical coverage for self and family",
+      "Government accommodation quarters allotment through Directorate of Estates / User Ministry pool",
+      "Children Education Allowance (CEA) and Annual Leave Travel Concession (LTC)",
+      "General Provident Fund / National Pension System (NPS) superannuation benefits"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Vacancies for Selection Posts advertised across 9 SSC Regional Offices under Phase examination notifications.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 2049,
+        "confidence": "verified",
+        "as_of": "2024-02-26",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Phase-XII/2024/Selection Posts (2,049 vacancies across 489 categories of posts)"
+      },
+      {
+        "year": 2023,
+        "vacancies": 5369,
+        "confidence": "verified",
+        "as_of": "2023-03-06",
+        "source_url": "https://ssc.gov.in",
+        "source_label": "Staff Selection Commission — Notice of Phase-XI/2023/Selection Posts (5,369 vacancies across 549 categories of posts)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications and post-category portals published by the Staff Selection Commission.",
+    "links": [
+      {
+        "label": "Staff Selection Commission — Official Website Portal",
+        "url": "https://ssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Notice of Phase-XII/2024/Selection Posts (Official Notification Archive)",
+        "url": "https://ssc.gov.in",
+        "type": "notification",
+        "cycle_label": "Phase-XII-2024",
+        "confidence": "verified",
+        "as_of": "2024-02-26"
+      },
+      {
+        "label": "7th CPC Pay Matrix Official Order",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2017-05-16"
+      }
+    ]
+  }
+}

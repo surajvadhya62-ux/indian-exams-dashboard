@@ -1,0 +1,271 @@
+{
+  "id": "sbi-clerk",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "State Bank of India Junior Associates (Customer Support & Sales) have direct career progression avenues within the clerical cadre as well as fast-track internal promotional channels into the Officer cadre (Scale I Trainee Officer / Assistant Manager) after qualifying minimum service periods and competitive departmental examinations.",
+    "steps": [
+      {
+        "designation": "Junior Associate (Customer Support & Sales)",
+        "pay_level": "Clerical Cadre (₹24,050 basic, ₹26,730 with graduate increments)",
+        "years": "Entry (approx. 6 months probation)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Clerical Cadre Service Rules and 12th Bipartite Settlement"
+      },
+      {
+        "designation": "Senior Associate",
+        "pay_level": "Senior Clerical Scale (₹33,020+ basic)",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Clerical Cadre Service Rules"
+      },
+      {
+        "designation": "Special Associate",
+        "pay_level": "Special Clerical Scale (₹41,020+ basic)",
+        "years": "approx. 8-12 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Clerical Cadre Service Rules"
+      },
+      {
+        "designation": "Chief Associate",
+        "pay_level": "Apex Clerical Scale (₹57,400+ basic)",
+        "years": "approx. 12-15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Clerical Cadre Service Rules"
+      },
+      {
+        "designation": "Trainee Officer (TO) / Assistant Manager (Scale I)",
+        "pay_level": "JMG Scale I (₹48,480 basic)",
+        "years": "approx. 3-6 yrs (via internal promotion competitive exam)",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Promotion Policy for Clerical Staff"
+      },
+      {
+        "designation": "Deputy Manager (Scale II)",
+        "pay_level": "MMG Scale II (₹64,820 basic)",
+        "years": "approx. 7-10 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Manager (Scale III)",
+        "pay_level": "MMG Scale III (₹85,920 basic)",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Chief Manager (Scale IV)",
+        "pay_level": "SMG Scale IV (₹1,02,300 basic)",
+        "years": "approx. 15-20 yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Officers' Service Rules"
+      },
+      {
+        "designation": "Assistant General Manager (AGM, Scale V) and above",
+        "pay_level": "Senior Executive Scale",
+        "years": "approx. 20+ yrs",
+        "confidence": "verified",
+        "as_of": "2024-03-08",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "State Bank of India Corporate Promotion Guidelines"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "SBI Junior Associates recruitment is a 2-stage competitive online examination followed by a qualifying Local Language Test for candidates without local language credentials in 10th/12th standard. There is no interview for clerical recruitment.",
+    "stages": [
+      {
+        "stage_name": "Phase I: Preliminary Examination (Online Objective)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-11-17",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI Junior Associates Official Advertisement (CRPD/CR)",
+        "papers": [
+          {
+            "paper_name": "English Language",
+            "marks": 30,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall aggregate cut-off (no sectional cut-off)"
+          },
+          {
+            "paper_name": "Numerical Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall aggregate cut-off (no sectional cut-off)"
+          },
+          {
+            "paper_name": "Reasoning Ability",
+            "marks": 35,
+            "duration_minutes": 20,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Overall aggregate cut-off (no sectional cut-off)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Phase II: Main Examination (Online Objective)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-11-17",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI Junior Associates Official Advertisement (CRPD/CR)",
+        "papers": [
+          {
+            "paper_name": "General / Financial Awareness",
+            "marks": 50,
+            "duration_minutes": 35,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English",
+            "marks": 40,
+            "duration_minutes": 35,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Quantitative Aptitude",
+            "marks": 50,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Reasoning Ability & Computer Aptitude",
+            "marks": 60,
+            "duration_minutes": 45,
+            "negative_marking": "-0.25 (1/4th mark)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Specified Opted Local Language Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2023-11-17",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI Junior Associates Official Advertisement (CRPD/CR)",
+        "papers": [
+          {
+            "paper_name": "Test of Specified Opted Local Language (Reading, Writing, Speaking)",
+            "marks": 0,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Exempt if 10th/12th mark sheet indicates local language studied; otherwise mandatory qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Clerical Cadre (Junior Associate)",
+    "entry_basic_pay": 24050,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-03-08",
+    "pay_source_url": "https://bank.sbi/web/careers",
+    "pay_source_label": "SBI Junior Associates Recruitment Advertisement and 12th Bipartite Settlement (Scale: ₹24,050-64,480)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 42000, "max": 48000 },
+    "in_hand_range_estimate": { "min": 36000, "max": 42000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Starting basic pay is ₹24,050 in the scale ₹24,050 - 1340/3 - 28,070 - 1650/3 - 33,020 - 2000/4 - 41,020 - 2340/7 - 57,400 - 4400/1 - 61,800 - 2680/1 - 64,480 under the 12th Bipartite Settlement. Candidates with graduation join with two advance increments (effective basic pay of ₹26,730). Total gross emoluments at metro centres reach approx. ₹46,000 per month inclusive of DA at 58% review baseline, HRA, Transport Allowance, and Special Allowance.",
+    "official_perks": [
+      "House Rent Allowance (HRA) or leased residential quarters where applicable",
+      "Medical aid and hospitalization coverage for self and eligible dependent family members",
+      "Leave Fare Concession (LFC) / Home Travel Concession once in two years",
+      "Monthly Conveyance Allowance / Local Travel Reimbursement",
+      "Newspaper Allowance and Washing Allowance",
+      "Concessional Staff Loans for Housing, Car/Two-Wheeler, and Personal Loans",
+      "Defined Contributory Pension Scheme under National Pension System (NPS)"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "SBI Clerk attracts among the largest applicant pools nationally for public sector clerical employment.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 1450000,
+        "vacancies": 8283,
+        "shortlisted_for_mains": 82830,
+        "selectivity_ratio": "approx. 1 in 175 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2023-11-17",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI Junior Associates Advertisement CRPD/CR/2023-24/27 (8,283 vacancies across circles)"
+      },
+      {
+        "year": 2022,
+        "applicants": 1200000,
+        "vacancies": 5008,
+        "shortlisted_for_mains": 50080,
+        "selectivity_ratio": "approx. 1 in 240 (calculated: estimated applicants ÷ notified vacancies)",
+        "confidence": "verified",
+        "as_of": "2022-09-06",
+        "source_url": "https://bank.sbi/web/careers",
+        "source_label": "SBI Junior Associates Advertisement CRPD/CR/2022-23/15 (5,008 vacancies across circles)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, vacancy distributions by circle, and examination results are published on the SBI Careers portal.",
+    "links": [
+      {
+        "label": "SBI Careers — Official Recruitment Portal",
+        "url": "https://bank.sbi/web/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "State Bank of India Corporate Careers Hub",
+        "url": "https://sbi.co.in/web/careers",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

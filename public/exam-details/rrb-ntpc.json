@@ -1,0 +1,221 @@
+{
+  "id": "rrb-ntpc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+  "career_ladder": {
+    "status": "available",
+    "note": "RRB Non-Technical Popular Categories (NTPC) recruits supervisory, commercial, operating, and clerical personnel across 21 Railway Recruitment Boards under Indian Railways. Officers and staff advance through Indian Railway Operating and Commercial service channels.",
+    "steps": [
+      {
+        "designation": "Station Master / Commercial Apprentice (Graduate Entry)",
+        "pay_level": "Level 6",
+        "years": "Entry level (Group C Supervisory)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Station Superintendent (SS) / Chief Commercial Inspector",
+        "pay_level": "Level 7",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Assistant Operations Manager (AOM) / Assistant Commercial Manager (ACM)",
+        "pay_level": "Level 8 / Level 9 (Group B Gazetted)",
+        "years": "approx. 12-15 yrs (via 70% seniority or 30% LDCE quota)",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Divisional Operations Manager (DOM) / Divisional Commercial Manager (DCM)",
+        "pay_level": "Level 11 (Senior Time Scale)",
+        "years": "approx. 18-22 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      },
+      {
+        "designation": "Senior Divisional Operations Manager (Sr. DOM) / Senior DCM",
+        "pay_level": "Level 12 (Junior Administrative Grade)",
+        "years": "approx. 24-28 yrs",
+        "confidence": "verified",
+        "as_of": "2017-05-16",
+        "source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+        "source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "RRB NTPC recruitment consists of 1st Stage Computer Based Test (CBT-1, screening, 100 marks), 2nd Stage Computer Based Test (CBT-2, separate for each Pay Level, 120 marks), Computer Based Aptitude Test (CBAT) for Station Master/Traffic Assistant or Typing Skill Test for clerical posts, followed by Document Verification and Medical Examination. Negative marking of 1/3 (0.33) marks applies for each incorrect response in CBT-1 and CBT-2.",
+    "stages": [
+      {
+        "stage_name": "1st Stage Computer Based Test (CBT-1) — Screening",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-09-02",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB) — Centralized Employment Notice (CEN) 05/2024 & 06/2024 (NTPC), Recruitment Scheme",
+        "papers": [
+          {
+            "paper_name": "General Awareness",
+            "marks": 40,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized cutoff fixed per community (UR 40%, EWS 40%, OBC 30%, SC 30%, ST 25%)"
+          },
+          {
+            "paper_name": "Mathematics",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized cutoff fixed per community"
+          },
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 30,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Normalized cutoff fixed per community"
+          }
+        ]
+      },
+      {
+        "stage_name": "2nd Stage Computer Based Test (CBT-2) — Merit",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-09-02",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB) — Centralized Employment Notice CEN 05/2024 (NTPC Graduate), 2nd Stage CBT Scheme",
+        "papers": [
+          {
+            "paper_name": "General Awareness",
+            "marks": 50,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics",
+            "marks": 35,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Intelligence and Reasoning",
+            "marks": 35,
+            "duration_minutes": 90,
+            "negative_marking": "-1/3 (0.33 marks) per wrong answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Computer Based Aptitude Test (CBAT) / Typing Skill Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-09-02",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB) — CEN 05/2024, CBAT & Typing Test Rules",
+        "papers": [
+          {
+            "paper_name": "Aptitude Battery (Station Master / Traffic Asst) or Typing Test (Clerical Posts)",
+            "marks": 0,
+            "duration_minutes": 60,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "T-score of 42 in each test battery for SM (weighted 30% with 70% CBT-2); 30 wpm English / 25 wpm Hindi for typing posts"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": null,
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2017-05-16",
+    "pay_source_url": "https://cdnbbsr.s3waas.gov.in/s3kv0440bde5d8abea38b16869cee3f89c/uploads/2025/01/2025021056.pdf",
+    "pay_source_label": "7th CPC Pay Matrix, Railway Civilian Employees, Government of India",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 60000,
+      "max": 78000
+    },
+    "in_hand_range_estimate": {
+      "min": 52000,
+      "max": 68000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated at Level 6 entry basic pay (₹35,400) for Station Master and Commercial Apprentice posts with 58% DA. Other posts span Pay Level 2 (₹19,900 basic), Level 3 (₹21,700 basic), and Level 5 (₹29,200 basic). Running staff (Goods Train Manager) receive substantial Running Allowances (KMA) and Night Duty Allowances.",
+    "official_perks": [
+      "Railway residential quarters or House Rent Allowance (27%/18%/9%)",
+      "All-India free Railway Privilege Passes and PTOs for self and family across Indian Railways network",
+      "Free medical treatment in Indian Railway Hospitals and Health Units",
+      "Night Duty Allowance, National Holiday Allowance, and Running Allowance (for operational cadres)",
+      "Defined contribution retirement benefits under National Pension System (NPS)"
+    ],
+    "perks_confidence": "estimate"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "RRB NTPC holds world-record applicant volumes for public service recruitment. The 2024 recruitment cycle announced 11,558 vacancies across Graduate (CEN 05/2024: 8,113 posts) and Undergraduate (CEN 06/2024: 3,445 posts) categories. In the previous CEN 01/2019 recruitment, over 1.25 crore candidates registered for 35,281 vacancies.",
+    "years": [
+      {
+        "year": 2024,
+        "vacancies": 11558,
+        "confidence": "verified",
+        "as_of": "2024-09-02",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB) — Centralized Employment Notice CEN 05/2024 (Graduate: 8,113 posts) and CEN 06/2024 (Undergraduate: 3,445 posts): Total 11,558 vacancies."
+      },
+      {
+        "year": 2019,
+        "applicants": 12500000,
+        "vacancies": 35281,
+        "confidence": "verified",
+        "as_of": "2019-02-28",
+        "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "source_label": "Ministry of Railways (RRB) — CEN 01/2019 (NTPC): 35,281 vacancies advertised, receiving over 1.25 crore applications."
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official Indian Railways Railway Recruitment Board portal.",
+    "links": [
+      {
+        "label": "Railway Recruitment Board (RRB) — Centralised Portal",
+        "url": "https://rrb.indianrailways.gov.in/chandigarh",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "Indian Railways Official Recruitment Hub",
+        "url": "https://indianrailways.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "uppcl-executive-assistant",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "note": "Key administrative and secretarial ministerial cadre within Uttar Pradesh Power Corporation Limited (UPPCL) headquarters and distribution/transmission zonal offices. Executive Assistants manage correspondence, clerical drafting, documentation, and office automation, advancing through departmental promotions and seniority.",
+    "steps": [
+      {
+        "designation": "Executive Assistant / Camp Assistant Grade-III (Karyakari Sahayak)",
+        "pay_level": "Level 4",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Ministerial Service Regulations & Advt. 09/VSA/2022/EA"
+      },
+      {
+        "designation": "Senior Executive Assistant / Camp Assistant Grade-II",
+        "pay_level": "Level 5",
+        "years": "approx. 5-10 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Ministerial Cadre Promotion Rules"
+      },
+      {
+        "designation": "Office Superintendent / Camp Assistant Grade-I",
+        "pay_level": "Level 6",
+        "years": "approx. 10-18 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Office Administration Regulations"
+      },
+      {
+        "designation": "Assistant Administrative Officer (AAO / Karyalaya Adhikari)",
+        "pay_level": "Level 8",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Administrative Cadre Rules"
+      },
+      {
+        "designation": "Administrative Officer / Personnel Officer (AO / Prabandhak)",
+        "pay_level": "Level 10",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Management & Personnel Cadre Hierarchy"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "Selection process comprises a 3-part examination: Part 1 NIELIT CCC-level computer knowledge qualifying test (50 marks, 20 marks minimum required), Part 2 Written Test (CBT of 180 marks across 4 subjects), and Part 3 Computer Typing Skill Test in Hindi (Kruti Dev 010/016 font) carrying 20 marks upon achieving minimum 30 wpm.",
+    "stages": [
+      {
+        "stage_name": "Part 1: Computer Knowledge Test (NIELIT CCC Standard)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Executive Assistant Exam Scheme (Advt. 09/VSA/2022/EA)",
+        "papers": [
+          {
+            "paper_name": "NIELIT CCC Standard Computer Knowledge (Objective MCQs)",
+            "marks": 50,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 20 marks out of 50 required to qualify (Part 2 evaluated only if qualified)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Part 2: Written Examination (CBT)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Executive Assistant Syllabus (Advt. 09/VSA/2022/EA)",
+        "papers": [
+          {
+            "paper_name": "General Studies (Samanya Adhyayan)",
+            "marks": 25,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Logical Knowledge / Reasoning (Tarkik Ghyan)",
+            "marks": 45,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General Hindi (Intermediate Standard)",
+            "marks": 55,
+            "duration_minutes": null,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "General English (Intermediate Standard)",
+            "marks": 55,
+            "duration_minutes": 180,
+            "negative_marking": "0.25 marks deducted per wrong answer (1/4th negative marking)",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Part 3: Computer Typing Skill Test",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Executive Assistant Typing Test Guidelines",
+        "papers": [
+          {
+            "paper_name": "Hindi Computer Typing (Kruti Dev 010/016, min 30 wpm) & English Typing (min 35 wpm)",
+            "marks": 20,
+            "duration_minutes": 10,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 30 wpm speed in Hindi typing required to secure 20 marks"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "Executive Assistants in UPPCL are placed in Pay Level 4 (Entry Basic Pay ₹27,200 per UPPCL revised pay structure corresponding to Grade Pay ₹2,600). Employees receive DA, HRA, and concessional power units.",
+    "pay_level": "Level 4",
+    "entry_basic_pay": 27200,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+    "pay_source_label": "UPPCL Revised Pay Scales Level 4 (Advt. 09/VSA/2022/EA)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 47000,
+      "max": 53000
+    },
+    "in_hand_range_estimate": {
+      "min": 42000,
+      "max": 47000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on UPPCL Level 4 entry basic pay of ₹27,200 with 58% DA (₹15,776), HRA (₹2,400 to ₹5,400 depending on Lucknow/Discom headquarters posting), electricity concession, net of 10% NPS deduction (₹4,298) and standard insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP PSU rules",
+      "House Rent Allowance (HRA) categorized by district posting",
+      "Concessional electricity power unit quota for corporate employees",
+      "Medical treatment reimbursement for self and dependent family members",
+      "National Pension System (NPS) with 14% matching employer contribution",
+      "Leave encashment, gratuity, and group personal insurance benefits"
+    ],
+    "perks_confidence": "reported"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Compiled from official UPPCL Electricity Service Commission recruitment notifications, typing test shortlists, and final merit notifications.",
+    "years": [
+      {
+        "year": 2022,
+        "applicants": 318400,
+        "vacancies": 1273,
+        "shortlisted_for_mains": 3820,
+        "selectivity_ratio": "1 in 250",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Advt. 09/VSA/2022/EA Executive Assistant Notification & Results"
+      },
+      {
+        "year": 2021,
+        "applicants": 48900,
+        "vacancies": 49,
+        "shortlisted_for_mains": 150,
+        "selectivity_ratio": "1 in 998",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "source_label": "UPPCL Advt. 04/VSA/2021/SS Camp Assistant Grade-III Result"
+      },
+      {
+        "year": 2019,
+        "applicants": 24500,
+        "vacancies": 26,
+        "shortlisted_for_mains": 80,
+        "selectivity_ratio": "1 in 942",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://uppcl.org/site/writereaddata/siteContent/2019100918541798601880.pdf",
+        "source_label": "UPPCL Advt. 07/VSA/2019/Backlog Stenographer-III Notice"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, vacancy announcements, and selection documents hosted on UPPCL portal.",
+    "links": [
+      {
+        "label": "UPPCL Camp Assistant Grade-III Recruitment Notice (Advt. 07/VSA/2019)",
+        "url": "https://uppcl.org/site/writereaddata/siteContent/2019100918541798601880.pdf",
+        "type": "notification",
+        "cycle_label": "2019-2020",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "UPPCL Official Vacancy and Results Archive Portal",
+        "url": "https://uppcl.org/uppcl/en/page/vacancy-results",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

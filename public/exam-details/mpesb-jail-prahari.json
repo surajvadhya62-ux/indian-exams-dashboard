@@ -1,0 +1,226 @@
+{
+  "id": "mpesb-jail-prahari",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "steps": [
+      {
+        "step_order": 1,
+        "designation": "Jail Prahari (Prison Warder / प्रहरी - कार्यपालिक)",
+        "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+        "promotion_criteria": "Direct recruitment through MPESB Written Examination (CBT) and Physical Efficiency Test (PET), followed by 6 months prison administration and security training at Jail Training School, Sagar.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Jail Prahari Recruitment Rulebook 2026, Section 1"
+      },
+      {
+        "step_order": 2,
+        "designation": "Head Warder (Mukhya Prahari / मुख्य प्रहरी)",
+        "pay_level": "Level 6 (₹25,300 – ₹80,500)",
+        "promotion_criteria": "Promotion on seniority-cum-merit basis after 8 to 10 years of service as Jail Prahari and successful completion of Head Warder promotional course.",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "Madhya Pradesh Jail Executive Subordinate Service Rules"
+      },
+      {
+        "step_order": 3,
+        "designation": "Assistant Jailor (सहायक जेलर)",
+        "pay_level": "Level 7 (₹28,700 – ₹91,300)",
+        "promotion_criteria": "Promotion through Departmental Promotion Committee (DPC) after ~5 years service as Head Warder, with clean service record and passing departmental law examinations.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP Jail Department Service Regulations"
+      },
+      {
+        "step_order": 4,
+        "designation": "Deputy Jailor (उप जेलर)",
+        "pay_level": "Level 9 (₹36,200 – ₹1,14,800)",
+        "promotion_criteria": "Seniority-cum-merit promotion from Assistant Jailor cadre after 5 to 7 years in sub-jail and central jail administration.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP Jail Executive Cadre Rules"
+      },
+      {
+        "step_order": 5,
+        "designation": "Superintendent of District Jail / Central Jail (जेल अधीक्षक)",
+        "pay_level": "Level 12 (₹56,100 – ₹1,77,500)",
+        "promotion_criteria": "Induction into Gazetted Class I State Jail Service via MPPSC DPC quota after distinguished executive correctional administration.",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP State Jail Service Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "stages": [
+      {
+        "stage_order": 1,
+        "stage_name": "First Stage Written Examination (CBT)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "General Knowledge, General Hindi, General English, General Mathematics, General Science (High School Level)",
+            "paper_type": "objective",
+            "total_marks": 100,
+            "duration_minutes": 120,
+            "qualifying_only": false
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Jail Prahari Rulebook 2026, Section 2"
+      },
+      {
+        "stage_order": 2,
+        "stage_name": "Second Stage Physical Efficiency Test (PET / शारीरिक प्रवीणता परीक्षा)",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "800m Run (Men: 2m 50s, Women: 3m 58s) and Shot Put / गोला फेंक (Men: 20 ft with 7.26 kg ball, Women: 16 ft with 4 kg ball)",
+            "paper_type": "physical",
+            "total_marks": 0,
+            "duration_minutes": 120,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Jail Prahari Rulebook 2026, Physical Standards"
+      },
+      {
+        "stage_order": 3,
+        "stage_name": "Document Verification & Medical Fitness Test",
+        "is_interview": false,
+        "papers": [
+          {
+            "paper_name": "Verification of High School Certificates, Domicile, Category and Standard Jail Medical Board Examination",
+            "paper_type": "verification",
+            "total_marks": 0,
+            "duration_minutes": 0,
+            "qualifying_only": true
+          }
+        ],
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MP Jail Headquarters Medical Guidelines"
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "pay_level": "Level 4 (₹19,500 – ₹62,000)",
+    "entry_basic_pay": 19500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+    "pay_source_label": "MPESB Jail Prahari Rulebook 2026, Page 3, Clause 4",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 33000,
+      "max": 36000
+    },
+    "in_hand_range_estimate": {
+      "min": 28000,
+      "max": 31000
+    },
+    "estimate_confidence": "estimate",
+    "official_perks": [
+      {
+        "perk_name": "Dearness Allowance (DA)",
+        "perk_description": "Dearness Allowance calculated at 58% of basic pay (₹11,310 per month at entry level).",
+        "confidence": "verified",
+        "source_label": "MP Finance Department DA Orders"
+      },
+      {
+        "perk_name": "Jail Special Risk Allowance",
+        "perk_description": "Special duty allowance for custodial security, emergency riot response, and high-security prison watch duties.",
+        "confidence": "reported",
+        "source_label": "MP Jail Department Special Pay Regulations"
+      },
+      {
+        "perk_name": "Free Jail Campus Quarter / HRA",
+        "perk_description": "Rent-free departmental residential quarter inside jail staff lines or HRA between 8% to 16% of basic pay.",
+        "confidence": "reported",
+        "source_label": "MP Jail Housing Rules"
+      },
+      {
+        "perk_name": "Uniform & Kit Allowance",
+        "perk_description": "Annual uniform upkeep allowance and kit maintenance for ceremonial and security duties.",
+        "confidence": "reported",
+        "source_label": "MP Jail Manual"
+      },
+      {
+        "perk_name": "National Pension System (NPS)",
+        "perk_description": "Defined Contributory Pension Scheme with 14% matching contribution by the state government.",
+        "confidence": "verified",
+        "source_label": "MP Civil Services Pension Rules 2005"
+      }
+    ],
+    "perks_confidence": "verified"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "years": [
+      {
+        "year": 2026,
+        "vacancies": 200,
+        "applicants": 0,
+        "appeared": 0,
+        "cut_off_marks": {
+          "note": "Combined Jail Prahari and Forest Guard recruitment test announced by MPESB for 2026 cycle."
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "source_label": "MPESB Combined Jail & Van Rulebook 2026"
+      },
+      {
+        "year": 2023,
+        "vacancies": 200,
+        "applicants": 384000,
+        "appeared": 275000,
+        "cut_off_marks": {
+          "unreserved_open": 81.34,
+          "obc_open": 79.52,
+          "sc_open": 75.18,
+          "st_open": 68.9,
+          "ews_open": 78.45
+        },
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://esb.mp.gov.in/results/RESULT_23/JAIL_VAN_RES23/FINAL_RESULT/Jail_van_2023_REsultNote_Final.pdf",
+        "source_label": "MPESB Jail Prahari 2023 Final Result Note"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "links": [
+      {
+        "label": "MPESB Jail Prahari, Van Rakshak & Kshetra Rakshak Recruitment Rulebook 2026",
+        "url": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_05032026.pdf",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPESB Jail Prahari & Van Rakshak 2023 Final Result Note",
+        "url": "https://esb.mp.gov.in/results/RESULT_23/JAIL_VAN_RES23/FINAL_RESULT/Jail_van_2023_REsultNote_Final.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "id": "maha-talathi",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Cadre progression from the grassroots revenue village officer (Talathi) up to the Sub-Divisional Officer governed by the Maharashtra Land Revenue Code, 1966 and the Maharashtra Revenue and Forest Department Recruitment Rules. Promotions require clearing prescribed departmental qualifying examinations and minimum qualifying years of continuous regular service.",
+    "steps": [
+      {
+        "designation": "Talathi (तलाठी / Village Revenue Saza Officer)",
+        "pay_level": "Level S-8",
+        "years": "Entry",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://rfd.maharashtra.gov.in",
+        "source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019 (Pay Matrix Level S-8: ₹25,500 – ₹81,100)"
+      },
+      {
+        "designation": "Circle Officer / Mandal Adhikari (मंडळ अधिकारी)",
+        "pay_level": "Level S-13",
+        "years": "approx. 5-8 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://rfd.maharashtra.gov.in",
+        "source_label": "Revenue and Forest Department Recruitment Rules (Promotion on seniority-cum-merit upon passing Circle Officer Qualifying Examination, Scale ₹35,400 – ₹1,12,400)"
+      },
+      {
+        "designation": "Naib Tahsildar (नायब तहसीलदार) — Group B Gazetted",
+        "pay_level": "Level S-14",
+        "years": "approx. 10-15 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://rfd.maharashtra.gov.in",
+        "source_label": "Maharashtra State Subordinate Revenue Service Rules (Promotion via Departmental Promotion Committee or MPSC Limited Departmental Competitive Examination, Scale ₹38,600 – ₹1,22,800)"
+      },
+      {
+        "designation": "Tahsildar (तहसीलदार / Taluka Executive Magistrate) — Group A Junior",
+        "pay_level": "Level S-15",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://rfd.maharashtra.gov.in",
+        "source_label": "Maharashtra State Civil Services Revised Pay Rules (Scale ₹41,800 – ₹1,32,300)"
+      },
+      {
+        "designation": "Sub-Divisional Officer / Deputy Collector (उप विभागीय अधिकारी / उप जिल्हाधिकारी) — Group A Senior",
+        "pay_level": "Level S-20",
+        "years": "approx. 22-28 yrs",
+        "confidence": "verified",
+        "as_of": "2019-01-01",
+        "source_url": "https://rfd.maharashtra.gov.in",
+        "source_label": "Maharashtra State Civil Services Revised Pay Rules (Scale ₹56,100 – ₹1,77,500)"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Conducted as a single-stage online Computer Based Test (CBT) across multiple shifts by TCS iON on behalf of the Revenue and Forest Department, Government of Maharashtra. The examination comprises 100 multiple choice objective questions carrying 2 marks each, for a total of 200 marks over a duration of 120 minutes (2 hours). There is no negative marking. Under official examination rules, candidates must score at least 45% marks (90 out of 200) to qualify for consideration in the category-wise and district-wise selection list.",
+    "stages": [
+      {
+        "stage_name": "Online Computer Based Test (CBT)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-06-23",
+        "source_url": "https://mahabhumi.gov.in",
+        "source_label": "Office of the State Coordinator, Talathi Bharti & Settlement Commissioner, Maharashtra State — Talathi Direct Recruitment Notification 2023, Clause 5 (Examination Scheme)",
+        "papers": [
+          {
+            "paper_name": "Marathi Language (मराठी भाषा)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking; 2 marks per question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate (90/200 marks) across CBT"
+          },
+          {
+            "paper_name": "English Language (इंग्रजी भाषा)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking; 2 marks per question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate (90/200 marks) across CBT"
+          },
+          {
+            "paper_name": "General Knowledge (सामान्य ज्ञान)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking; 2 marks per question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate (90/200 marks) across CBT"
+          },
+          {
+            "paper_name": "Intellectual Test & Numerical Ability (बौद्धिक चाचणी व अंकगणित)",
+            "marks": 50,
+            "duration_minutes": 120,
+            "negative_marking": "None (no negative marking; 2 marks per question)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Minimum 45% aggregate (90/200 marks) across CBT"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Talathi is a Group C post under the Revenue Department, Government of Maharashtra, governed by the Maharashtra Civil Services (Revised Pay) Rules, 2019. Pay scale is strictly distinct from Central 7th CPC.",
+    "pay_level": "Level S-8",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2019-01-01",
+    "pay_source_url": "https://rfd.maharashtra.gov.in",
+    "pay_source_label": "Maharashtra Civil Services (Revised Pay) Rules, 2019 (Finance Department GR No. RPS-2019/CR-1/Services-9 dated 01 January 2019, Pay Matrix Level S-8: ₹25,500 – ₹81,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 44000, "max": 51000 },
+    "in_hand_range_estimate": { "min": 38000, "max": 45000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level S-8 entry basic pay of ₹25,500 with 58% DA (₹14,790 effective 01.07.2025), HRA (9% to 27% based on posting classification: ₹2,295 to ₹6,885), village traveling/saza allowance, net of National Pension System (10% basic + DA = ₹4,029), profession tax (₹200), and state insurance deductions.",
+    "official_perks": [
+      "Government sajha / office accommodation or House Rent Allowance (HRA)",
+      "Village Conveyance / Traveling Allowance for field surveys and crop inspections",
+      "National Pension System (NPS) with 14% Government employer contribution",
+      "Medical expense reimbursement under Maharashtra State Government Medical Rules",
+      "Stationery and Village Record Maintenance Allowance",
+      "Leave Travel Concession (LTC) and defined festival advances"
+    ],
+    "perks_confidence": "estimate"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official recruitment statistics published by the State Coordinator for Talathi Bharti and the Land Records Department, Government of Maharashtra.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 1041713,
+        "vacancies": 4644,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 224 (8,64,960 candidates appeared across 57 shifts conducted by TCS iON from 17 August to 14 September 2023 against 4,644 notified vacancies across 36 districts)",
+        "confidence": "verified",
+        "as_of": "2024-01-25",
+        "source_url": "https://mahabhumi.gov.in",
+        "source_label": "Office of the State Coordinator, Talathi Bharti-2023, Pune — Official Press Release and Normalization Declaration (10,41,713 registered applicants, 8,64,960 appeared, 4,644 vacancies finalized)"
+      },
+      {
+        "year": 2019,
+        "applicants": 850000,
+        "vacancies": 1809,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 470 (calculated: 8,50,000 applicants ÷ 1,809 notified vacancies across 26 district collectorates)",
+        "confidence": "reported",
+        "as_of": "2019-12-31",
+        "source_url": "https://mahabhumi.gov.in",
+        "source_label": "Mahapariksha Portal / Revenue Department Maharashtra — Talathi Recruitment Examination 2019 Final Results and Vacancy Schedule"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portals and statutory recruitment notifications for the Maharashtra Talathi Examination.",
+    "links": [
+      {
+        "label": "Mahabhumi Official Land Records & Talathi Portal",
+        "url": "https://mahabhumi.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Revenue Department Government of Maharashtra Official Portal",
+        "url": "https://rfd.maharashtra.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "Government of Maharashtra Official Government Resolutions (GR) Portal",
+        "url": "https://gr.maharashtra.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "id": "uptet",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+  "career_ladder": {
+    "status": "available",
+    "note": "UPTET is the statutory qualifying benchmark mandated by the National Council for Teacher Education (NCTE) and Government of Uttar Pradesh for appointment as primary and upper-primary teachers in state government schools (Parishadiya Vidyalayas). Successful candidates become eligible to appear for the Assistant Teacher Recruitment Examination (Super TET/ATRE) and advance through the Basic Education cadre.",
+    "steps": [
+      {
+        "designation": "Assistant Teacher (Primary School / Classes 1-5 / Sahayak Adhyapak)",
+        "pay_level": "Level 6",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Education (Teachers) Service Rules 1981"
+      },
+      {
+        "designation": "Head Master (Primary School) / Assistant Teacher (Upper Primary / Classes 6-8)",
+        "pay_level": "Level 7",
+        "years": "approx. 5-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Shiksha Parishad Promotion Rules"
+      },
+      {
+        "designation": "Head Master (Upper Primary School / Junior High School)",
+        "pay_level": "Level 8",
+        "years": "approx. 12-20 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Junior Basic Education Hierarchy"
+      },
+      {
+        "designation": "Block Education Officer (BEO / Khand Shiksha Adhikari)",
+        "pay_level": "Level 8",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Educational Subordinate Service Rules"
+      },
+      {
+        "designation": "Basic Shiksha Adhikari (BSA) / Senior Lecturer DIET",
+        "pay_level": "Level 10",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Educational Service Gazetted Rules"
+      }
+    ]
+  },
+  "exam_scheme": {
+    "status": "available",
+    "note": "UPTET consists of two objective OMR-based papers of 150 questions (150 marks, 150 minutes) each: Paper 1 for Primary Stage (Classes 1 to 5) and Paper 2 for Upper Primary Stage (Classes 6 to 8). There is no negative marking. Qualifying threshold is 60% (90/150) for General and 55% (82/150) for reserved categories.",
+    "stages": [
+      {
+        "stage_name": "Paper 1: Primary Level (Classes 1 to 5)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Education Board / PNP Prayagraj UPTET Scheme",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Bal Vikas Evam Shikshan Vidhi)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I (Hindi — Compulsory)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II (English / Urdu / Sanskrit — Any One)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Mathematics (Ganit)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Environmental Studies (Paryavaran Adhyayan)",
+            "marks": 30,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90 marks) for General category; 55% (82 marks) for SC/ST/OBC/PwD"
+          }
+        ]
+      },
+      {
+        "stage_name": "Paper 2: Upper Primary Level (Classes 6 to 8)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Education Board / PNP Prayagraj UPTET Scheme",
+        "papers": [
+          {
+            "paper_name": "Child Development and Pedagogy (Bal Vikas)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language I (Hindi — Compulsory)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Language II (English / Urdu / Sanskrit — Any One)",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Science and Mathematics (for Science/Math Teacher) OR Social Studies (for Social Studies Teacher)",
+            "marks": 60,
+            "duration_minutes": 150,
+            "negative_marking": "No negative marking",
+            "qualifying_only": true,
+            "qualifying_threshold": "60% (90 marks) for General category; 55% (82 marks) for SC/ST/OBC/PwD"
+          }
+        ]
+      }
+    ]
+  },
+  "financial_package": {
+    "status": "available",
+    "note": "UPTET is an eligibility certification examination and does not directly recruit personnel. Upon subsequent recruitment as Assistant Teacher in Parishadiya Primary Schools through Super TET/ATRE, candidates enter Pay Level 6 (Grade Pay ₹4,200) under the Uttar Pradesh Revised Pay Rules, 2016.",
+    "pay_level": "Level 6",
+    "entry_basic_pay": 35400,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://updeled.gov.in",
+    "pay_source_label": "UP Revised Pay Rules 2016 Level 6 (Basic Shiksha Parishad Teacher Cadre)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 57000,
+      "max": 64000
+    },
+    "in_hand_range_estimate": {
+      "min": 51000,
+      "max": 57000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Reflects the statutory financial package upon subsequent appointment as Assistant Teacher. Calculated on Level 6 entry basic pay of ₹35,400 with 58% DA (₹20,532), rural/semi-urban HRA (₹1,500 to ₹4,000), net of 10% NPS deduction (₹5,593) and GIS.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised bi-annually per UP finance department orders",
+      "House Rent Allowance (HRA) based on rural/semi-urban school classification",
+      "National Pension System (NPS) with 14% state government matching contribution",
+      "Medical treatment reimbursement under UP state employee medical rules",
+      "Lifetime validity of UPTET qualifying certificate (per NCTE & UP Government gazette notification)",
+      "Teacher training allowances and educational leave entitlements"
+    ],
+    "perks_confidence": "reported"
+  },
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Statistics compiled from official press releases and result declarations of the Examination Regulatory Authority (PNP Prayagraj) for UPTET cycles. As a teacher eligibility test, there are no fixed vacancies; the benchmark measures candidates qualified against total registered applicants.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 2165179,
+        "vacancies": null,
+        "shortlisted_for_mains": 660592,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "PNP Prayagraj UPTET 2021 Final Result Statistics & Press Note"
+      },
+      {
+        "year": 2019,
+        "applicants": 1656338,
+        "vacancies": null,
+        "shortlisted_for_mains": 354703,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "UP Basic Education Board UPTET 2019 Official Press Release"
+      },
+      {
+        "year": 2018,
+        "applicants": 1783716,
+        "vacancies": null,
+        "shortlisted_for_mains": 556608,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://updeled.gov.in",
+        "source_label": "PNP Prayagraj UPTET 2018 Candidate Pass Record"
+      }
+    ]
+  },
+  "official_downloads": {
+    "status": "available",
+    "note": "Official portal, guidelines, and candidate information bulletin hosted on the UP DELEd / PNP Prayagraj domain.",
+    "links": [
+      {
+        "label": "UP DELEd / Examination Regulatory Authority Official Portal",
+        "url": "https://updeled.gov.in",
+        "type": "other",
+        "cycle_label": "Evergreen",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}

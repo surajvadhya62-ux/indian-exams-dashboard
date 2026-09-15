@@ -1,0 +1,189 @@
+{
+  "id": "hssc-gram-sachiv",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Gram Sachivs (Panchayat Secretaries) serve in the Development and Panchayats Department, Haryana, functioning as the chief executive officer and accounting secretary for Gram Panchayats. Promotion rules are governed by the Haryana Development and Panchayats Department (Group C) Service Rules.",
+    "steps": [
+      {
+        "designation": "Gram Sachiv (Panchayat Secretary)",
+        "pay_level": "Level 4 (FPL-4)",
+        "years": "Entry (0-5 yrs)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt No. 03/2023 (Group 56 Graduate Level Posts) & Haryana Development and Panchayats Rules"
+      },
+      {
+        "designation": "Social Education and Panchayat Officer (SEPO) / Sub-Inspector Panchayats",
+        "pay_level": "Level 6 (FPL-6)",
+        "years": "approx. 8-12 yrs (subject to departmental qualifying examination)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Development and Panchayats Subordinate Services Promotion Rules"
+      },
+      {
+        "designation": "Block Development and Panchayat Officer (BDPO)",
+        "pay_level": "Level 7 (FPL-7) to Level 9 (FPL-9)",
+        "years": "approx. 16-22 yrs",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Rural Development Cadre Promotion Rules"
+      },
+      {
+        "designation": "District Development and Panchayat Officer (DDPO)",
+        "pay_level": "Level 10 (FPL-10)",
+        "years": "approx. 24-28 yrs (gazetted rank selection)",
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "Haryana Civil Services State Executive Cadre Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "Gram Sachiv recruitment is integrated under HSSC Group C Common Eligibility Test as part of Group 56 (Graduate Level Posts), requiring CET qualification followed by the Group 56 Mains Examination.",
+    "stages": [
+      {
+        "stage_name": "Common Eligibility Test (CET Group C Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC CET Group C Notification & Syllabus",
+        "papers": [
+          {
+            "paper_name": "Screening Examination (General Awareness, Reasoning, Maths, Science, Languages & Haryana GK)",
+            "marks": 95,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; 0.95 deducted if fifth bubble left blank",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying cutoff for shortlisting to Group 56 Mains"
+          }
+        ]
+      },
+      {
+        "stage_name": "HSSC Group 56 Mains Written Examination (Graduate Level Posts)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2023-03-07",
+        "source_url": "https://hssc.gov.in/examsyllabus",
+        "source_label": "HSSC Group 56 Mains Examination Scheme & Detailed Syllabus",
+        "papers": [
+          {
+            "paper_name": "Subject-Specific Domain Knowledge (70% weightage: Haryana Panchayati Raj Act 1994, 73rd Constitutional Amendment, Gram Sabha Administration, Panchayat Accounting, Rural Development Schemes, SVAMITVA, PMAY-G, MGNREGA)",
+            "marks": 68.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; mandatory fifth bubble",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit selection"
+          },
+          {
+            "paper_name": "General Knowledge, Reasoning, Computer Literacy & Haryana History/Culture (30% weightage)",
+            "marks": 29.25,
+            "duration_minutes": 105,
+            "negative_marking": "No negative marking; mandatory fifth bubble",
+            "qualifying_only": false,
+            "qualifying_threshold": "Competitive merit"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Gram Sachivs in Haryana are placed in Functional Pay Level 4 (FPL-4) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹25,500.",
+    "pay_level": "Level 4 (FPL-4)",
+    "entry_basic_pay": 25500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2023-03-07",
+    "pay_source_url": "https://hssc.gov.in",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-4 scale ₹25,500 – ₹81,100)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 44000,
+      "max": 52000
+    },
+    "in_hand_range_estimate": {
+      "min": 38000,
+      "max": 45000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on entry Level 4 basic pay of ₹25,500 with 58% Dearness Allowance (₹14,790), House Rent Allowance (8% to 24%), fixed medical allowance, and traveling conveyance allowance, minus standard employee NPS and insurance deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) at prevailing state rates (58% effective 1 Jul 2025)",
+      "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
+      "Fixed traveling and conveyance allowance for village inspections",
+      "Cashless Medical Facility Scheme under Government of Haryana",
+      "New Pension Scheme (NPS) with employer matching contribution",
+      "Leave Travel Concession (LTC) as per Haryana Civil Services Rules"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Gram Sachiv is one of the most competitive rural administration recruitments in Haryana, attracting graduates from across the state.",
+    "years": [
+      {
+        "year": 2023,
+        "applicants": 37600,
+        "vacancies": 852,
+        "shortlisted_for_mains": 37600,
+        "selectivity_ratio": "approx. 1 in 44 (calculated: shortlisted CET candidates ÷ Gram Sachiv vacancies)",
+        "confidence": "reported",
+        "as_of": "2023-08-06",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 03/2023 Group 56 (Graduate Level): 852 Gram Sachiv vacancies in Development and Panchayats Department; 37,600 CET-qualified candidates called for Mains."
+      },
+      {
+        "year": 2021,
+        "applicants": 671000,
+        "vacancies": 697,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": "approx. 1 in 962 (calculated: registered applicants ÷ notified vacancies)",
+        "confidence": "reported",
+        "as_of": "2021-01-10",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC Advt 09/2019 (Gram Sachiv stand-alone recruitment): 697 vacancies; over 6.71 lakh candidates registered."
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Advertisements, syllabus details, and result notices for Gram Sachiv recruitment are published on HSSC's portal.",
+    "links": [
+      {
+        "label": "Haryana Staff Selection Commission — Official Website",
+        "url": "https://hssc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "HSSC Advertisements & Recruitment Notifications Hub",
+        "url": "https://hssc.gov.in/advertisement",
+        "type": "notification",
+        "cycle_label": "Advt-03/2023-Group-56",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      },
+      {
+        "label": "HSSC Group 56 Examination Syllabus (Gram Sachiv)",
+        "url": "https://hssc.gov.in/examsyllabus",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2023-03-07"
+      }
+    ]
+  }
+}

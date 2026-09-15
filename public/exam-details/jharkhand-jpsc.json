@@ -1,0 +1,307 @@
+{
+  "id": "jharkhand-jpsc",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-11",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Officers recruited through the Jharkhand Combined Civil Services Examination begin in administrative, police, and finance cadres as Deputy Collectors / Sub-Divisional Magistrates (SDM), Deputy Superintendents of Police (DSP), or State Tax Officers. Administrative officers progress through state executive hierarchy before being inducted into the Indian Administrative Service (IAS) or Indian Police Service (IPS) under the state promotion quota.",
+    "steps": [
+      {
+        "designation": "Deputy Collector / Sub-Divisional Magistrate (SDM) / Executive Magistrate / Assistant Collector",
+        "pay_level": "Jharkhand Pay Matrix Level 9 (PB-2 ₹9,300–34,800, GP 5400, entry basic ₹53,100)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+        "source_label": "JPSC Combined Civil Services Advt. No. 01/2024 & Jharkhand Revised Pay Rules"
+      },
+      {
+        "designation": "Senior Deputy Collector / Under Secretary / SDO (Senior Scale)",
+        "pay_level": "Jharkhand Pay Matrix Level 11 (PB-3 ₹15,600–39,100, GP 6600, ₹67,700 basic)",
+        "years": "approx. 4-8 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/The_Jharkhand_Combined_civil_Services_Examination_2021.pdf",
+        "source_label": "Jharkhand Administrative Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Additional District Magistrate (ADM) / Deputy Secretary / SDO (Selection Grade)",
+        "pay_level": "Jharkhand Pay Matrix Level 12 (PB-3 ₹15,600–39,100, GP 7600, ₹78,800 basic)",
+        "years": "approx. 8-14 yrs",
+        "confidence": "reported",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/The_Jharkhand_Combined_civil_Services_Examination_2021.pdf",
+        "source_label": "Jharkhand Administrative Service Rules & Cadre Structure"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) / State Promotion Quota",
+        "pay_level": "7th CPC Matrix Level 13 (Selection Grade, ₹1,18,500 basic)",
+        "years": "approx. 14-20 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://www.jpsc.gov.in",
+        "source_label": "IAS (Appointment by Promotion) Regulations, DoPT & UPSC"
+      },
+      {
+        "designation": "District Magistrate (DM) / Deputy Commissioner / Joint Secretary / Special Secretary",
+        "pay_level": "7th CPC Matrix Level 14 (Super Time Scale, ₹1,44,200 basic)",
+        "years": "approx. 20-27 yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://www.jpsc.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      },
+      {
+        "designation": "Divisional Commissioner / Secretary / Principal Secretary (Government of Jharkhand)",
+        "pay_level": "7th CPC Matrix Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 27+ yrs",
+        "confidence": "reported",
+        "as_of": "2017-05-16",
+        "source_url": "https://www.jpsc.gov.in",
+        "source_label": "Indian Administrative Service (Pay) Rules"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Jharkhand Combined Civil Services Examination is conducted under The Jharkhand Combined Civil Services Examination Rules, 2021 (with 1st Amendment 2021 and 2nd Amendment 2023) in three successive stages: Preliminary Examination (2 objective papers of 200 marks each, 400 marks total), Main Examination (6 compulsory conventional descriptive papers totaling 1,050 marks; Paper I is qualifying 100 marks, leaving 950 marks for merit), and Personality Test / Interview (100 marks), leading to a grand total merit out of 1,050 marks.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Type, Screening)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+        "source_label": "JPSC Combined Civil Services Examination Advt. No. 01/2024 & CCSE Syllabus",
+        "papers": [
+          {
+            "paper_name": "General Studies Paper-I (History, Geography, Polity, Economy, Science & Tech, Jharkhand Awareness, Current Events)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (100 questions of 2 marks each; no penalty for wrong answers)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening test to shortlist candidates 15 times the total number of vacancies category-wise. Marks do not count for final merit."
+          },
+          {
+            "paper_name": "General Studies Paper-II (Jharkhand Specific History, Culture, Land Laws CNT/SPT, Geography, Economy, Policies & Schemes)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking (100 questions of 2 marks each; no penalty for wrong answers)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Combined aggregate of Paper I and Paper II (out of 400) determines qualification for Mains shortlist in the ratio of 1:15 of vacancies."
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Descriptive Written)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+        "source_label": "JPSC Combined Civil Services Examination Advt. No. 01/2024 & CCSE Rules",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Hindi & General English (50 marks Hindi + 50 marks English)",
+            "marks": 100,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": true,
+            "qualifying_threshold": "Qualifying paper only; minimum 30 marks out of 100 required. Marks are NOT added to aggregate marks for Interview or Final Merit List."
+          },
+          {
+            "paper_name": "Paper II: Language and Literature (One selected from 15 approved regional/tribal/classical languages)",
+            "marks": 150,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Counted in merit list (descriptive paper)"
+          },
+          {
+            "paper_name": "Paper III: Social Sciences (History & Geography, equal weightage)",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Counted in merit list (descriptive paper)"
+          },
+          {
+            "paper_name": "Paper IV: Indian Constitution & Polity, Public Administration & Good Governance",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Counted in merit list (descriptive paper)"
+          },
+          {
+            "paper_name": "Paper V: Indian Economy, Globalization and Sustainable Development",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Counted in merit list (descriptive paper)"
+          },
+          {
+            "paper_name": "Paper VI: General Sciences, Environment & Technology Development",
+            "marks": 200,
+            "duration_minutes": 180,
+            "negative_marking": "No negative marking (conventional descriptive paper)",
+            "qualifying_only": false,
+            "qualifying_threshold": "Counted in merit list (descriptive paper)"
+          }
+        ]
+      },
+      {
+        "stage_name": "Interview Test (Personality Test)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+        "source_label": "JPSC Combined Civil Services Advt. No. 01/2024 & CCSE Rules 2021",
+        "papers": [
+          {
+            "paper_name": "Personality Test / Interview",
+            "marks": 100,
+            "duration_minutes": 30,
+            "negative_marking": "No negative marking",
+            "qualifying_only": false,
+            "qualifying_threshold": "No minimum qualifying marks in interview (rule amended by Jharkhand Combined Civil Services Examination Rules 2021). Marks are added to written merit score (950) for final ranking out of 1,050 marks."
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Pay figures shown for premier Level 9 administrative postings (Jharkhand Administrative Service Deputy Collector, Jharkhand Police Service DSP, Jharkhand Finance Service State Tax Officer). Placement follows the Jharkhand State Revised Pay Rules Level 9 (PB-2 ₹9,300–34,800 with Grade Pay ₹5,400, entry basic pay ₹53,100).",
+    "pay_level": "Jharkhand Pay Matrix Level 9 (PB-2 ₹9,300 - 34,800, GP 5400)",
+    "entry_basic_pay": 53100,
+    "pay_confidence": "verified",
+    "pay_as_of": "2024-01-27",
+    "pay_source_url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+    "pay_source_label": "JPSC Advt. No. 01/2024 & Jharkhand State Revised Pay Rules Level 9",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 88000,
+      "max": 105000
+    },
+    "in_hand_range_estimate": {
+      "min": 74000,
+      "max": 88000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Gross salary computed from Level 9 entry basic ₹53,100 + 58% DA (₹30,798) + state HRA (8%–18% depending on posting location in Ranchi/Jamshedpur/Dhanbad or district headquarters) + medical allowance (₹1,000) + transport allowance. In-hand estimate accounts for statutory deductions of 10% NPS on Basic + DA (₹8,390), professional tax, and GIS.",
+    "official_perks": [
+      "Government designated residential accommodation / official quarters in district posting",
+      "Official vehicle with driver and fuel quota for administrative field duty",
+      "Medical reimbursement facilities under Jharkhand State Health Scheme",
+      "Leave Travel Concession (LTC) and earned leave encashment benefits",
+      "Security protection personnel and administrative office support staff",
+      "Subsidized electricity, telephone, and official communication allowances"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Historical vacancy and candidate progression figures documented from official JPSC advertisements, press releases, and notifications.",
+    "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 103,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-01-29",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_01_26_dated_29_01_2026-1.pdf",
+        "source_label": "JPSC Combined Civil Services Examination Advt. No. 01/2026 Notification (103 vacancies across 9 services; Mains 25-27 July 2026)"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "vacancies": 342,
+        "shortlisted_for_mains": 4975,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2024-01-27",
+        "source_url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+        "source_label": "JPSC Combined Civil Services Examination Advt. No. 01/2024 Notification (342 vacancies across 10 cadres: Deputy Collector 207, DSP 35, State Tax Officer 56; Prelims 17 March 2024)"
+      },
+      {
+        "year": 2021,
+        "applicants": null,
+        "vacancies": 252,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2021-02-15",
+        "source_url": "https://www.jpsc.gov.in",
+        "source_label": "JPSC 7th to 10th Combined Civil Services Examination (Advt. No. 01/2021, 252 vacancies)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official notifications, examination syllabus, statutory rules, calendar, and official commission links for JPSC Combined Civil Services.",
+    "links": [
+      {
+        "label": "JPSC Combined Civil Services Examination Advt. No. 01/2026 Notification PDF",
+        "url": "https://www.jpsc.gov.in/data/Advertisement_01_26_dated_29_01_2026-1.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-01/2026",
+        "confidence": "verified",
+        "as_of": "2026-01-29"
+      },
+      {
+        "label": "JPSC Combined Civil Services Examination Advt. No. 01/2024 Notification PDF",
+        "url": "https://www.jpsc.gov.in/data/Advertisement_01_24_dated_27_01_2024.pdf",
+        "type": "notification",
+        "cycle_label": "Advt-01/2024",
+        "confidence": "verified",
+        "as_of": "2024-01-27"
+      },
+      {
+        "label": "JPSC Combined Civil Services Examination Detailed Syllabus PDF",
+        "url": "https://www.jpsc.gov.in/data/CCSE%20Syllabus.pdf",
+        "type": "syllabus",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      },
+      {
+        "label": "The Jharkhand Combined Civil Services Examination Rules 2021 PDF",
+        "url": "https://www.jpsc.gov.in/data/The_Jharkhand_Combined_civil_Services_Examination_2021.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2021-01-05"
+      },
+      {
+        "label": "JPSC 2026 Examination Calendar (Mains Schedule for Advt. No. 01/2026)",
+        "url": "https://www.jpsc.gov.in/data/Exam_Calendar_2026_dtd_09_07_2026.pdf",
+        "type": "other",
+        "cycle_label": "Calendar-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-09"
+      },
+      {
+        "label": "JPSC Press Release on Combined Civil Services Mains 2025 Schedule",
+        "url": "https://www.jpsc.gov.in/data/Press_Release_01_26_dated_14_07_2026.pdf",
+        "type": "other",
+        "cycle_label": "Mains-2026",
+        "confidence": "verified",
+        "as_of": "2026-07-14"
+      },
+      {
+        "label": "JPSC Official Website Portal",
+        "url": "https://www.jpsc.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-11"
+      }
+    ]
+  }
+}

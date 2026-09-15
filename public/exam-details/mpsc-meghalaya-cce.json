@@ -1,0 +1,328 @@
+{
+  "id": "mpsc-meghalaya-cce",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "The Meghalaya Civil Service (MCS) and Meghalaya Police Service (MPS) are the premier state civil services under the Government of Meghalaya, constituted under the Meghalaya Civil Service Rules, 1975 (notified vide No. PER.240/75/43 dated 5 August 1975) and Meghalaya Police Service Rules, 1996. Direct recruitment occurs at Junior Grade (Group 'A' Gazetted, Level 15 in the state pay matrix). Officers advance to Senior Grade (Level 17) upon completion of a statutory minimum of 7 years of service in Junior Grade under Rule 22, followed by Selection Grade (Level 19) and subsequent induction into the Indian Administrative Service (IAS) or Indian Police Service (IPS) under the Assam-Meghalaya Joint Cadre via the All India Services Promotion Regulations.",
+    "steps": [
+      {
+        "designation": "Extra Assistant Commissioner (EAC) / Under Secretary / Block Development Officer (BDO) — Meghalaya Civil Service (Junior Grade)",
+        "pay_level": "Level 15 (Scale ₹45,600 - ₹1,07,500, Entry Basic ₹45,600 under Meghalaya Services Revision of Pay Rules, 2018; pre-revised PB-4 ₹17,000 - ₹33,690 under ROP 2009)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2025-10-10",
+        "source_url": "https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf",
+        "source_label": "MPSC Advt. No. 18/2025 & Meghalaya Services (Revision of Pay) Rules, 2018"
+      },
+      {
+        "designation": "Deputy Superintendent of Police (DSP) / Assistant Commandant (MLP Battalions) — Meghalaya Police Service (Junior Grade)",
+        "pay_level": "Level 15 (Scale ₹45,600 - ₹1,07,500, Entry Basic ₹45,600 under Meghalaya Services Revision of Pay Rules, 2018; pre-revised PB-4 ₹17,000 - ₹33,690 under ROP 2009)",
+        "years": "Entry (approx.)",
+        "confidence": "verified",
+        "as_of": "2025-10-10",
+        "source_url": "https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf",
+        "source_label": "MPSC Advt. No. 18/2025 & Meghalaya Police Service Rules"
+      },
+      {
+        "designation": "Sub-Divisional Officer (Civil, SDO) / Under Secretary / Deputy Secretary — Meghalaya Civil Service (Senior Grade)",
+        "pay_level": "Level 17 (Scale ₹55,500 - ₹1,23,100, Entry Basic ₹55,500 under Meghalaya Services Revision of Pay Rules, 2018; Senior Grade time-scale under Rule 22)",
+        "years": "approx. 7-10 yrs",
+        "confidence": "verified",
+        "as_of": "2025-08-11",
+        "source_url": "http://meglaw.gov.in/rules/The_Meghalaya_Civil_Service_Rules_1975.pdf",
+        "source_label": "Meghalaya Civil Service Rules, 1975 (Rule 22: Promotion to Senior Grade after minimum 7 years) & Meghalaya Services ROP Rules 2018"
+      },
+      {
+        "designation": "Additional Deputy Commissioner (ADC) / Joint Secretary / Director of State Directorate — Selection Grade",
+        "pay_level": "Level 19 (Scale ₹71,600 - ₹1,34,800, Entry Basic ₹71,600 under Meghalaya Services Revision of Pay Rules, 2018)",
+        "years": "approx. 12-16 yrs",
+        "confidence": "reported",
+        "as_of": "2025-08-11",
+        "source_url": "http://meglaw.gov.in/rules/The_Meghalaya_Civil_Service_Rules_1975.pdf",
+        "source_label": "Personnel & A.R. (A) Department, Government of Meghalaya & Meghalaya Civil Service Cadre Rules"
+      },
+      {
+        "designation": "Induction into Indian Administrative Service (IAS) / Indian Police Service (IPS) — Assam-Meghalaya Joint Cadre",
+        "pay_level": "IAS/IPS Selection Grade (Level 13, ₹1,18,500 basic) to Super Time Scale (Level 14, ₹1,44,200 basic)",
+        "years": "approx. 16-22 yrs",
+        "confidence": "reported",
+        "as_of": "2025-08-11",
+        "source_url": "http://meglaw.gov.in/rules/The_Meghalaya_Civil_Service_Rules_1975.pdf",
+        "source_label": "Indian Administrative Service (Appointment by Promotion) Regulations & DoPT Guidelines"
+      },
+      {
+        "designation": "Deputy Commissioner (District Magistrate / Collector) / Secretary / Commissioner & Secretary to the Government of Meghalaya",
+        "pay_level": "Level 14 (Super Time Scale, ₹1,44,200 basic) to Level 15 (HAG Scale, ₹1,82,200 basic)",
+        "years": "approx. 22+ yrs",
+        "confidence": "reported",
+        "as_of": "2025-08-11",
+        "source_url": "http://meglaw.gov.in/rules/The_Meghalaya_Civil_Service_Rules_1975.pdf",
+        "source_label": "Indian Administrative Service (Pay) Rules & Government of Meghalaya Personnel Division"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The examination scheme was thoroughly reformed and modernized pursuant to Government of Meghalaya Personnel & A.R. (A) Department Notification Memo No. PER.6/97/225-A dated 11 August 2025, published in the Meghalaya Gazette and implemented by MPSC from Advt. No. 18/2025. The revised scheme completely eliminates optional subjects, replacing them with UPSC-pattern General Studies Papers I-IV, an Essay paper, and a dedicated 250-mark paper exclusively on Meghalaya. The examination comprises two successive stages: Preliminary Examination (Objective screening of 400 marks with 1/3 negative marking penalty; Paper II CSAT qualifying at 33%; 1:15 candidate-to-vacancy shortlist ratio to Mains) and Main Examination (Conventional essay descriptive written test of 6 merit papers totaling 1,500 marks plus 300-mark qualifying English at 33%, followed by a 150-mark Interview/Personality Test called at a 1:1.5 ratio to vacancies, yielding a grand total of 1,650 merit marks).",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Objective Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2025-08-11",
+        "source_url": "https://mpsc.meghalaya.gov.in/syllabus/MCS_Syllabus2025.pdf",
+        "source_label": "Government of Meghalaya Personnel & A.R. (A) Department Notification Memo No. PER.6/97/225-A & MPSC Advt. No. 18/2025",
+        "papers": [
+          {
+            "paper_name": "Paper I: General Studies (Current events, History of India & Indian National Movement, Indian & World Geography, Indian Polity & Governance, Economic & Social Development, Environmental Ecology/Bio-diversity/Climate Change, General Science, and General Knowledge and Current Affairs of the State of Meghalaya)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "1/3rd (0.33) marks deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": "Merit-determining paper for shortlisting to Main Examination; ratio maintained from Preliminary to Main Examination is 1:15 (Advt. No. 18/2025 Para 6.2)"
+          },
+          {
+            "paper_name": "Paper II: Civil Services Aptitude Test / CSAT (Comprehension, Interpersonal skills including communication skills, Logical reasoning & analytical ability, Decision making & problem solving, General Mental Ability, Basic Numeracy of Class X level, and Data Interpretation of Class X level)",
+            "marks": 200,
+            "duration_minutes": 120,
+            "negative_marking": "1/3rd (0.33) marks deducted per incorrect answer",
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 33% qualifying threshold; marks not counted for ranking or shortlisting merit"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Conventional Essay Written Examination & Interview/Personality Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2025-08-11",
+        "source_url": "https://mpsc.meghalaya.gov.in/syllabus/MCS_Syllabus2025.pdf",
+        "source_label": "Government of Meghalaya Personnel & A.R. (A) Department Notification Memo No. PER.6/97/225-A & MPSC Advt. No. 18/2025",
+        "papers": [
+          {
+            "paper_name": "Qualifying Paper: English (Matriculation or equivalent standard; testing comprehension, precis writing, usage, vocabulary, and short essay)",
+            "marks": 300,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Minimum 33% qualifying threshold; marks not counted for merit ranking"
+          },
+          {
+            "paper_name": "Paper I: Essay (Conventional essay on multiple socio-economic, political, cultural, or administrative themes)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper II: General Studies-I (Indian Heritage and Culture, History and Geography of the World and Society)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper III: General Studies-II (Governance, Constitution, Polity, Social Justice and International Relations)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper IV: General Studies-III (Technology, Economic Development, Biodiversity, Environment, Security and Disaster Management)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper V: General Studies-IV (Ethics, Integrity and Aptitude; case studies on ethical dilemmas, public administration values, emotional intelligence)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Paper VI: Meghalaya (History, Polity, Socio-Economic Issues, Culture and Heritage, Literature, Geography, Customary Laws, Tribal Administration of Meghalaya)",
+            "marks": 250,
+            "duration_minutes": 180,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Interview / Personality Test (Commission Board interview assessing mental alertness, critical assimilation, clear exposition, balance of judgment, social cohesion, and leadership potential)",
+            "marks": 150,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": false,
+            "qualifying_threshold": "No minimum qualifying marks; candidates summoned at 1:1.5 times the number of vacancies (Advt. No. 18/2025 Para 6.2)"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Recruited officers of the Meghalaya Civil Service (Junior Grade) are governed by the Meghalaya Services (Revision of Pay) Rules, 2018 (notified vide Finance Department Notification No. F(PR)-77/2017/117 dated 1 March 2018, effective 1 January 2017). The entry post is placed in Pay Matrix Level 15 (Scale ₹45,600 - ₹1,07,500; corresponding to pre-revised PB-4 ₹17,000 - ₹33,690 under ROP 2009), establishing an entry basic pay of ₹45,600. Under Office Memorandum No. F(PR)-52/2017/30 dated 19 December 2017, Level 15 is the statutory threshold for Group 'A' Gazetted classification in Meghalaya. Pre-revision portal stubs quoting central 7th CPC Level 9/10 rates (₹53,100) are obsolete; state Level 15 starts at ₹45,600.",
+    "pay_level": "Level 15 (Scale ₹45,600 - ₹1,07,500 under Meghalaya Services Revision of Pay Rules, 2018 / 5th Meghalaya Pay Commission)",
+    "entry_basic_pay": 45600,
+    "pay_confidence": "verified",
+    "pay_as_of": "2025-10-10",
+    "pay_source_url": "https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf",
+    "pay_source_label": "Meghalaya Public Service Commission Advt. No. 18/2025 & Meghalaya Services (Revision of Pay) Rules, 2018 (First Schedule)",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": { "min": 78000, "max": 81000 },
+    "in_hand_range_estimate": { "min": 70000, "max": 73000 },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Estimated based on Meghalaya Level 15 entry basic pay of ₹45,600 at project standard 58% Dearness Allowance (effective 1 Jul 2025) plus House Rent Allowance (15% in Greater Shillong Area up to max ₹8,000, 12.5% in District Headquarters up to max ₹6,000, 10% in other areas up to max ₹5,000 pursuant to OM No. F(PR)-54/2017/18), Hill Compensatory Allowance (₹500/month flat across the state under OM No. F(PR)-56/2017/18), and Medical Allowance (₹1,000/month under OM No. F(PR)-55/2017/18). Net in-hand reflects statutory monthly deductions for National Pension System (NPS, 10% of Basic + DA = ₹7,205), Professional Tax (₹200/month), and State Group Insurance Scheme (GIS, ~₹150/month).",
+    "official_perks": [
+      "Designated government residential accommodation in Shillong or district headquarters, or House Rent Allowance as admissible (10% - 15%)",
+      "Official government vehicle with driver for executive duties (SDO / EAC / BDO field postings)",
+      "Armed personal security guard / police escort for administrative duties in sensitive sub-divisions",
+      "Hill Compensatory Allowance of ₹500/month for all postings across Meghalaya",
+      "Fixed monthly medical allowance of ₹1,000/month plus medical reimbursement under the Meghalaya Medical Attendance Rules",
+      "Leave Travel Concession (LTC) and earned leave encashment benefits as per Meghalaya State Service Rules",
+      "Winter Allowance admissible during winter season in designated higher altitude hill stations"
+    ],
+    "perks_confidence": "verified"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Applicant registrations, preliminary candidate appearances, Mains examination shortlists, and final recommendation orders are verified directly from Meghalaya Public Service Commission official notifications, result orders, and examination programmes.",
+    "years": [
+      {
+        "year": 2025,
+        "applicants": 15156,
+        "vacancies": 36,
+        "shortlisted_for_mains": 540,
+        "selectivity_ratio": "approx. 1 in 421 (15,156 total capacity across 33 examination venues ÷ 36 advertised vacancies under Advt. No. 18/2025; 540 candidates to be shortlisted for Mains per statutory 1:15 ratio; 54 candidates to be called for Interview per 1:1.5 ratio)",
+        "confidence": "verified",
+        "as_of": "2026-08-14",
+        "source_url": "https://mpsc.meghalaya.gov.in/programme/Notice14Aug2026a.pdf",
+        "source_label": "MPSC Advt. No. 18/2025 (36 vacancies) and MPSC Programme Notice No. MPSC/EX-C/25/2026/27 dated 14/08/2026 confirming Prelims on 26/09/2026 across 33 venues with 15,156 capacity"
+      },
+      {
+        "year": 2022,
+        "applicants": 13435,
+        "vacancies": 35,
+        "shortlisted_for_mains": 525,
+        "selectivity_ratio": "approx. 1 in 384 (13,435 appearing candidates evaluated in Prelims Paper I ÷ 35 recommended vacancies; 35 recommended on 17 Jan 2025; roll numbers spanned up to 24,943)",
+        "confidence": "verified",
+        "as_of": "2025-01-17",
+        "source_url": "https://mpsc.meghalaya.gov.in/results/Result17Jan2025a.pdf",
+        "source_label": "MPSC Notification No. MPSC/Ex-C/50/2021-2022/171 dated 17/01/2025 (35 recommended vacancies) and MPSC Prelims Marks Publication Notice dated 09/08/2024 (13,435 appearing candidates evaluated)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Official advertisements, revised examination scheme and syllabi, preliminary exam programme schedules, previous year question papers, and final recommendation lists are published on the Meghalaya Public Service Commission portal and online recruitment application portal.",
+    "links": [
+      {
+        "label": "MPSC Official Commission Portal",
+        "url": "https://mpsc.meghalaya.gov.in",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPSC Online Recruitment Processing Application (RPA) Portal",
+        "url": "https://rpa.meghalaya.gov.in/",
+        "type": "notification",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "MPSC MCS Recruitment Advertisement (Advt. No. 18/2025)",
+        "url": "https://mpsc.meghalaya.gov.in/advt/Advt10Oct2025a.pdf",
+        "type": "notification",
+        "cycle_label": "MCS-2025",
+        "confidence": "verified",
+        "as_of": "2025-10-10"
+      },
+      {
+        "label": "MPSC MCS Revised Examination Scheme & Syllabi (2025 Overhaul)",
+        "url": "https://mpsc.meghalaya.gov.in/syllabus/MCS_Syllabus2025.pdf",
+        "type": "syllabus",
+        "cycle_label": "2025-Overhaul",
+        "confidence": "verified",
+        "as_of": "2025-08-11"
+      },
+      {
+        "label": "MPSC MCS Preliminary Examination Programme & Venue Notice (26 Sept 2026)",
+        "url": "https://mpsc.meghalaya.gov.in/programme/Notice14Aug2026a.pdf",
+        "type": "notification",
+        "cycle_label": "MCS-2025",
+        "confidence": "verified",
+        "as_of": "2026-08-14"
+      },
+      {
+        "label": "MPSC MCS Junior Grade Final Recommendation Result Order (35 Candidates)",
+        "url": "https://mpsc.meghalaya.gov.in/results/Result17Jan2025a.pdf",
+        "type": "other",
+        "cycle_label": "MCS-2022",
+        "confidence": "verified",
+        "as_of": "2025-01-17"
+      },
+      {
+        "label": "MPSC MCS Prelims Candidate Marks Publication Notice (13,435 Candidates)",
+        "url": "https://mpsc.meghalaya.gov.in/notify/Notice09Aug2024d.pdf",
+        "type": "other",
+        "cycle_label": "MCS-2022",
+        "confidence": "verified",
+        "as_of": "2024-08-09"
+      },
+      {
+        "label": "MPSC MCS Mains 2024 Question Papers Compilation",
+        "url": "https://mpsc.meghalaya.gov.in/misc/MEGHALAYA%20CIVIL%20SERVICE%202024.pdf",
+        "type": "pyq",
+        "cycle_label": "Mains-2024",
+        "confidence": "verified",
+        "as_of": "2024-10-16"
+      },
+      {
+        "label": "MPSC MCS Preliminary Examination 2023 Question Paper",
+        "url": "https://mpsc.meghalaya.gov.in/misc/04112023MCSPRELIMS.pdf",
+        "type": "pyq",
+        "cycle_label": "Prelims-2023",
+        "confidence": "verified",
+        "as_of": "2023-11-04"
+      },
+      {
+        "label": "MPSC MPS Preliminary Examination Question Paper",
+        "url": "https://mpsc.meghalaya.gov.in/misc/17122022MPSPRELIMS.pdf",
+        "type": "pyq",
+        "cycle_label": "Prelims-2022",
+        "confidence": "verified",
+        "as_of": "2022-12-17"
+      },
+      {
+        "label": "Meghalaya Civil Service Rules, 1975 (Gazette)",
+        "url": "http://meglaw.gov.in/rules/The_Meghalaya_Civil_Service_Rules_1975.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2025-08-11"
+      },
+      {
+        "label": "Meghalaya Services (Revision of Pay) Rules, 2018 (Finance Department Notification)",
+        "url": "https://megfinance.gov.in/files/notifications/Meghalaya_Services_Revision_of_Pay_Rules_2018.pdf",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2018-03-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "id": "rsmssb-vdo",
+  "schema_version": 1,
+  "last_reviewed": "2026-09-12",
+
+  "career_ladder": {
+    "status": "available",
+    "note": "Village Development Officers (Gram Vikas Adhikari, formerly Gram Sevak) serve as the ex-officio Secretary to Gram Panchayats under the Rural Development & Panchayati Raj Department, Government of Rajasthan. They administer grassroots development schemes, implement MGNREGA works, manage Panchayat budgets, and maintain village birth, death, and asset registries.",
+    "steps": [
+      {
+        "designation": "Village Development Officer (Gram Vikas Adhikari / Panchayat Secretary)",
+        "pay_level": "Level L-6",
+        "years": "Entry (0-6 yrs)",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "Rajasthan Panchayati Raj Rules & Advt. 04/2021"
+      },
+      {
+        "designation": "Senior Village Development Officer / Panchayat Extension Officer (PEO)",
+        "pay_level": "Level L-8",
+        "years": "approx. 6-12 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rajpanchayat.rajasthan.gov.in",
+        "source_label": "Rajasthan Panchayati Raj Subordinate Service Promotion Rules"
+      },
+      {
+        "designation": "Assistant Block Development Officer (ABDO / Sahayak Vikas Adhikari)",
+        "pay_level": "Level L-10",
+        "years": "approx. 12-18 yrs",
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rajpanchayat.rajasthan.gov.in",
+        "source_label": "Panchayati Raj Department Block Administration Structure"
+      },
+      {
+        "designation": "Block Development Officer (BDO / Vikas Adhikari — State Rural Service)",
+        "pay_level": "Level L-12",
+        "years": "approx. 18-25 yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Rajasthan Rural Development State Service (Gazetted) Rules"
+      },
+      {
+        "designation": "Chief Executive Officer (CEO, Zila Parishad) / Joint Director (Panchayati Raj)",
+        "pay_level": "Level L-14",
+        "years": "approx. 25+ yrs",
+        "confidence": "reported",
+        "as_of": "2026-09-12",
+        "source_url": "https://dop.rajasthan.gov.in",
+        "source_label": "Department of Rural Development Higher Administrative Cadre"
+      }
+    ]
+  },
+
+  "exam_scheme": {
+    "status": "available",
+    "note": "The Village Development Officer recruitment comprises a two-stage examination: a Preliminary screening test followed by a Main competitive written examination and document verification. In the Main examination, 1/3rd mark is deducted for each incorrect answer.",
+    "stages": [
+      {
+        "stage_name": "Preliminary Examination (Screening Test)",
+        "stage_order": 1,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB VDO Examination Scheme & Syllabus (Advt. 04/2021)",
+        "papers": [
+          {
+            "paper_name": "Composite Screening Paper — Current Affairs, World/India/Rajasthan Geography, Agriculture & Economic Development, History & Culture, Reasoning & Mental Ability, English, Hindi, Mathematics, District/Panchayat Administration & Basic Computer",
+            "marks": 100,
+            "duration_minutes": 120,
+            "negative_marking": "No negative marking in Preliminary screening stage",
+            "qualifying_only": true,
+            "qualifying_threshold": "Screening cutoff set by Commission to qualify candidates for Main examination"
+          }
+        ]
+      },
+      {
+        "stage_name": "Main Examination (Merit Written Test)",
+        "stage_order": 2,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB VDO Main Examination Scheme & Marks Distribution Order",
+        "papers": [
+          {
+            "paper_name": "Part I — Language Knowledge (General Hindi: 50 marks, General English: 20 marks)",
+            "marks": 70,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd of the question value deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part II — Mathematics",
+            "marks": 40,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd of the question value deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part III — General Knowledge (Current Affairs, General Science)",
+            "marks": 10,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd of the question value deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part IV — Geography and Natural Resources",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd of the question value deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part V — Agriculture and Economic Resources of Rajasthan",
+            "marks": 30,
+            "duration_minutes": null,
+            "negative_marking": "1/3rd of the question value deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          },
+          {
+            "paper_name": "Part VI — History and Culture of Rajasthan",
+            "marks": 30,
+            "duration_minutes": 180,
+            "negative_marking": "1/3rd of the question value deducted per incorrect answer",
+            "qualifying_only": false,
+            "qualifying_threshold": null
+          }
+        ]
+      },
+      {
+        "stage_name": "Document Verification (Panchayat Scrutiny)",
+        "stage_order": 3,
+        "confidence": "verified",
+        "as_of": "2026-09-12",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB VDO Document Verification Schedule & Certificate Notice",
+        "papers": [
+          {
+            "paper_name": "Scrutiny of Bachelor Degree, RS-CIT / Computer Qualification & Category Documents",
+            "marks": null,
+            "duration_minutes": null,
+            "negative_marking": null,
+            "qualifying_only": true,
+            "qualifying_threshold": "Document verification qualifying"
+          }
+        ]
+      }
+    ]
+  },
+
+  "financial_package": {
+    "status": "available",
+    "note": "Village Development Officers are remunerated in Pay Matrix Level L-6 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,800) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹15,100 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹21,500 is drawn.",
+    "pay_level": "Level L-6",
+    "entry_basic_pay": 21500,
+    "pay_confidence": "verified",
+    "pay_as_of": "2026-09-12",
+    "pay_source_url": "https://finance.rajasthan.gov.in",
+    "pay_source_label": "Rajasthan Civil Services (Revised Pay) Rules 2017 Level L-6 Schedule",
+    "da_percent_as_of_review": 58,
+    "da_as_of": "2025-07-01",
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 39000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 34000
+    },
+    "estimate_confidence": "estimate",
+    "estimate_note": "Calculated on Level L-6 entry basic pay of ₹21,500 at 58% DA (₹12,470 effective 01.07.2025), HRA (9% to 18%: ₹1,935 to ₹3,870), rural panchayat touring allowance, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "official_perks": [
+      "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
+      "House Rent Allowance (HRA) categorized by posting classification",
+      "Rural travel allowance and official inspection conveyance reimbursement",
+      "Cashless medical facility under Rajasthan Government Health Scheme (RGHS)",
+      "Defined pension coverage under restored Old Pension Scheme (OPS)",
+      "Annual earned leave, casual leave, and leave travel concession (LTC)"
+    ],
+    "perks_confidence": "reported"
+  },
+
+  "competition_benchmarks": {
+    "status": "available",
+    "note": "Official application, preliminary screening, and final selection figures compiled from RSMSSB VDO result notifications and recommendation orders.",
+    "years": [
+      {
+        "year": 2021,
+        "applicants": 1492168,
+        "appeared": 1075000,
+        "qualified_stage_1": 175757,
+        "recommended": 5396,
+        "vacancies": 5396,
+        "confidence": "verified",
+        "as_of": "2023-05-18",
+        "source_url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "source_label": "RSMSSB VDO 2021 Final Selection Recommendation Order (Notice Dated 18.05.2023)"
+      }
+    ]
+  },
+
+  "official_downloads": {
+    "status": "available",
+    "note": "Statutory advertisement, final selection recommendation orders, and result notifications published on the RSMSSB portal.",
+    "links": [
+      {
+        "label": "RSMSSB Official Commission Web Portal",
+        "url": "https://rsmssb.rajasthan.gov.in/page?menuName=Home",
+        "type": "other",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB VDO 2021 Final Recommendation & Cut-off Marks Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/VDO2021_Results_18052023.pdf",
+        "type": "other",
+        "cycle_label": "VDO-2021",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB VDO 2021 Revised Detailed Advertisement & District-wise Posts",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/VDO2021_Distwisepost.pdf",
+        "type": "notification",
+        "cycle_label": "VDO-2021",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      },
+      {
+        "label": "RSMSSB VDO 2021 Amended Advertisement Notice",
+        "url": "https://rsmssb.rajasthan.gov.in/Static/files/VDO_Amendedadvt_28102021.pdf",
+        "type": "notification",
+        "cycle_label": "VDO-2021",
+        "confidence": "verified",
+        "as_of": "2026-09-12"
+      }
+    ]
+  }
+}
