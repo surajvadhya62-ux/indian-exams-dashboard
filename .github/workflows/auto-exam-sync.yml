@@ -2,8 +2,10 @@ name: Automated Exam Registry Sync
 
 on:
   schedule:
-    # Runs daily at 02:00 UTC (07:30 AM IST)
-    - cron: '0 2 * * *'
+    # Runs twice daily at off-peak minutes to avoid GitHub Actions queue saturation:
+    # 02:20 UTC (07:50 AM IST) & 14:20 UTC (07:50 PM IST)
+    - cron: '20 2 * * *'
+    - cron: '20 14 * * *'
   workflow_dispatch:
 
 permissions:
