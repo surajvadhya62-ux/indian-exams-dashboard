@@ -1,112 +1,169 @@
+import { useState } from 'react'
 import { getDomainColor } from '../utils/helpers'
+import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import {
   HiOutlineBookmark, HiBookmark,
-  HiOutlineOfficeBuilding, HiOutlineArrowRight
+  HiOutlineOfficeBuilding, HiOutlineArrowRight,
+  HiOutlineDocumentDownload, HiOutlineCheckCircle,
+  HiOutlineScale, HiCheck
 } from 'react-icons/hi'
 
 export default function ExamCard({
   exam,
-  isComparing,
+  isComparing = false,
   onToggleCompare,
   onViewDetails,
-  isBookmarked,
+  isBookmarked = false,
   onToggleBookmark,
-  delay
+  delay = 0
 }) {
+  const [isExportingPdf, setIsExportingPdf] = useState(false)
   const color = getDomainColor(exam.domain)
   const isPopular = exam.popularity === 'very_high'
+  const isJob = exam.exam_type === 'job'
 
-  const jurisdictionLabel = exam.jurisdiction === 'central' ? 'Central' : (exam.state || 'State')
-  const typeLabel = exam.exam_type === 'entrance' ? 'Entrance' : 'Job'
+  // Compensation / Seat allocation label
+  const payLevelLabel = exam.pay_matrix_level
+    ? `Level ${exam.pay_matrix_level}`
+    : (isJob ? 'Group A / Gazetted' : 'Seat Allocation Track')
+
+  const handleDownloadPdf = async (e) => {
+    e.stopPropagation()
+    if (isExportingPdf) return
+    try {
+      setIsExportingPdf(true)
+      await exportExamDossierPdf(exam)
+    } catch (err) {
+      console.error('Failed to export PDF dossier:', err)
+    } finally {
+      setIsExportingPdf(false)
+    }
+  }
 
   return (
     <div
-      className="exam-card panel slide-up"
+      className="dossier-card"
       style={{
         animationDelay: `${delay}s`,
-        '--domain-color': color,
-        borderLeft: `3.5px solid ${color}`
+        '--card-accent': color
       }}
       onClick={onViewDetails}
     >
-      <div className="exam-card-header">
-        <div className="exam-card-title-group">
-          <h3 className="exam-card-title">{exam.name}</h3>
-          <div className="exam-card-badges-row">
-            <span className="exam-card-acronym mono-badge">
-              {exam.acronym}
-            </span>
-            {isPopular && (
-              <span className="exam-card-pop-badge" title="High National Volume & Interest">
-                🔥 Popular
-              </span>
-            )}
-          </div>
+      {/* Top Telemetry Header */}
+      <div className="dossier-card-header">
+        <div className="dossier-authority-chip" title={exam.conducting_body}>
+          <HiOutlineOfficeBuilding className="authority-icon" />
+          <span className="authority-text truncate-text">{exam.conducting_body}</span>
         </div>
 
-        {onToggleBookmark && (
-          <button
-            className={`exam-bookmark-btn ${isBookmarked ? 'bookmarked' : ''}`}
-            onClick={(e) => {
-              e.stopPropagation()
-              onToggleBookmark()
+        <div className="dossier-header-actions" onClick={(e) => e.stopPropagation()}>
+          <span className="dossier-verified-badge" title="Verified statutory registry entry">
+            <HiOutlineCheckCircle className="verified-icon" />
+            <span>VERIFIED</span>
+          </span>
+
+          {onToggleBookmark && (
+            <button
+              type="button"
+              className={`dossier-radar-btn ${isBookmarked ? 'active' : ''}`}
+              onClick={onToggleBookmark}
+              title={isBookmarked ? 'Pinned to Active Radar (Click to unpin)' : 'Pin to Active Radar'}
+              aria-label={isBookmarked ? 'Unpin from Active Radar' : 'Pin to Active Radar'}
+            >
+              {isBookmarked ? (
+                <HiBookmark className="radar-icon-active" />
+              ) : (
+                <HiOutlineBookmark className="radar-icon" />
+              )}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Main Examination Identity */}
+      <div className="dossier-title-block">
+        <div className="dossier-badge-row">
+          <span className="dossier-acronym-badge font-mono">{exam.acronym}</span>
+          <span
+            className="dossier-domain-badge"
+            style={{
+              background: `${color}18`,
+              borderColor: `${color}40`,
+              color
             }}
-            title={isBookmarked ? 'Remove from Saved' : 'Save Exam'}
-            aria-label={isBookmarked ? 'Remove from Saved' : 'Save Exam'}
           >
-            {isBookmarked ? <HiBookmark className="bookmark-icon active" /> : <HiOutlineBookmark className="bookmark-icon" />}
-          </button>
-        )}
+            {exam.domain}
+          </span>
+          {isPopular && (
+            <span className="dossier-hot-badge" title="High national volume and candidate tracking">
+              🔥 TOP TIER
+            </span>
+          )}
+        </div>
+
+        <h3 className="dossier-name">{exam.name}</h3>
       </div>
 
-      <p className="exam-card-desc">{exam.description}</p>
+      {/* Description */}
+      <p className="dossier-desc">{exam.description}</p>
 
-      {/* Primary Domain Tag + Ghost Metadata Line */}
-      <div className="exam-card-meta-line">
-        <span
-          className="exam-tag domain-tag primary-domain-tag"
-          style={{ background: `${color}18`, borderColor: `${color}44`, color }}
-        >
-          {exam.domain}
-        </span>
-        <span className="ghost-meta-string">
-          <span>{exam.level}</span>
-          <span className="ghost-dot">·</span>
-          <span>{typeLabel}</span>
-          <span className="ghost-dot">·</span>
-          <span>{jurisdictionLabel}</span>
-        </span>
+      {/* Forensic Specs Strip */}
+      <div className="dossier-specs-grid">
+        <div className="spec-item">
+          <span className="spec-label">LEVEL // SCOPE</span>
+          <span className="spec-value">
+            {exam.level} · {exam.jurisdiction === 'central' ? 'Central' : (exam.state || 'State')}
+          </span>
+        </div>
+
+        <div className="spec-item">
+          <span className="spec-label">{isJob ? '7TH CPC CADRE' : 'ACADEMIC PATH'}</span>
+          <span className="spec-value highlight-accent">
+            {payLevelLabel}
+          </span>
+        </div>
       </div>
 
-      <div className="exam-card-secondary-meta">
-        <span className="exam-meta-item conducting-body-pill" title={exam.conducting_body}>
-          <HiOutlineOfficeBuilding className="exam-meta-icon" />
-          <span className="meta-val truncate-text">{exam.conducting_body}</span>
-        </span>
-        {exam.frequency && (
-          <span className="meta-sub-pill">{exam.frequency}</span>
-        )}
-      </div>
-
-      <div className="exam-card-footer">
+      {/* Quick Action Footer */}
+      <div className="dossier-card-footer" onClick={(e) => e.stopPropagation()}>
         <button
-          className={`exam-action-btn compare ${isComparing ? 'selected' : ''}`}
-          onClick={(e) => {
-            e.stopPropagation()
-            onToggleCompare()
-          }}
+          type="button"
+          className={`dossier-action-btn compare-btn ${isComparing ? 'active' : ''}`}
+          onClick={onToggleCompare}
+          title={isComparing ? 'Remove from comparison stack' : 'Add to side-by-side comparison stack'}
         >
-          {isComparing ? '✓ Comparing' : '⇔ Compare'}
+          {isComparing ? (
+            <>
+              <HiCheck className="btn-icon" />
+              <span>Comparing</span>
+            </>
+          ) : (
+            <>
+              <HiOutlineScale className="btn-icon" />
+              <span>Compare</span>
+            </>
+          )}
         </button>
 
         <button
-          className="exam-action-btn details"
-          onClick={(e) => {
-            e.stopPropagation()
-            onViewDetails()
-          }}
+          type="button"
+          className={`dossier-action-btn pdf-btn ${isExportingPdf ? 'loading' : ''}`}
+          onClick={handleDownloadPdf}
+          title="Download 4-page Vector Research Dossier PDF"
+          disabled={isExportingPdf}
         >
-          Details <HiOutlineArrowRight className="btn-arrow" />
+          <HiOutlineDocumentDownload className="btn-icon" />
+          <span>{isExportingPdf ? 'Compiling...' : 'Dossier PDF'}</span>
+        </button>
+
+        <button
+          type="button"
+          className="dossier-action-btn details-btn"
+          onClick={onViewDetails}
+          title="Open comprehensive examination intelligence modal"
+        >
+          <span>Inspect</span>
+          <HiOutlineArrowRight className="btn-arrow" />
         </button>
       </div>
     </div>

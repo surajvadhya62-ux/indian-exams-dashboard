@@ -1,8 +1,22 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import {
   HiOutlineSearch, HiOutlineViewGrid, HiOutlineViewList,
-  HiOutlineSortDescending, HiOutlineBookmark, HiOutlineX
+  HiOutlineSortDescending, HiOutlineBookmark, HiOutlineX,
+  HiOutlineFilter, HiOutlineAdjustments
 } from 'react-icons/hi'
+
+const QUICK_DOMAINS = [
+  'All Domains',
+  'Civil Services',
+  'Defence',
+  'Engineering',
+  'Medical',
+  'Banking',
+  'State PSC',
+  'Law',
+  'Teaching',
+  'Railways'
+]
 
 export default function SearchFilter({
   searchQuery,
@@ -11,21 +25,21 @@ export default function SearchFilter({
   onFilterChange,
   clearFilters,
   activeFilters,
-  domains,
-  levels,
-  frequencies,
-  states,
-  centralCount,
-  stateCount,
-  resultCount,
-  totalCount,
+  domains = [],
+  levels = [],
+  frequencies = [],
+  states = [],
+  centralCount = 0,
+  stateCount = 0,
+  resultCount = 0,
+  totalCount = 0,
   sortBy,
   setSortBy,
-  viewMode,
+  viewMode = 'grid',
   setViewMode,
   showOnlySaved,
   setShowOnlySaved,
-  savedCount,
+  savedCount = 0,
   allExams = [],
   onSelectExam,
   screenerActive = false,
@@ -35,11 +49,11 @@ export default function SearchFilter({
   const isCentralScope = filters.jurisdiction === 'central'
   const searchInputRef = useRef(null)
   const [showSuggestions, setShowSuggestions] = useState(false)
+  const [showFilterDrawer, setShowFilterDrawer] = useState(false)
 
-  // Global keyboard shortcut: press '/' to focus search, 'Escape' to blur/clear
+  // Keyboard shortcut: '/' focuses search input, 'Escape' blurs
   useEffect(() => {
     const handleKeyDown = (e) => {
-      // Avoid stealing keypress when user is already typing in an input or select
       if (['INPUT', 'SELECT', 'TEXTAREA'].includes(e.target.tagName)) {
         if (e.key === 'Escape') {
           e.target.blur()
@@ -57,13 +71,14 @@ export default function SearchFilter({
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [])
 
-  // Quick Autocomplete suggestions
-  const suggestions = searchQuery.trim().length >= 2
-    ? allExams.filter(exam =>
-        exam.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        exam.acronym.toLowerCase().includes(searchQuery.toLowerCase())
-      ).slice(0, 5)
-    : []
+  // Autocomplete suggestions
+  const suggestions = useMemo(() => {
+    if (!searchQuery || searchQuery.trim().length < 2) return []
+    const q = searchQuery.toLowerCase().trim()
+    return allExams
+      .filter(e => e.name.toLowerCase().includes(q) || e.acronym.toLowerCase().includes(q))
+      .slice(0, 6)
+  }, [searchQuery, allExams])
 
   const handleScopeSelect = (scope) => {
     onFilterChange('jurisdiction', scope)
@@ -72,66 +87,84 @@ export default function SearchFilter({
     }
   }
 
+  const handleQuickDomain = (domainName) => {
+    if (domainName === 'All Domains') {
+      onFilterChange('domain', '')
+    } else {
+      // Find matching domain from full list
+      const match = domains.find(d => d.toLowerCase().includes(domainName.toLowerCase())) || domainName
+      onFilterChange('domain', match)
+    }
+  }
+
+  const isQuickDomainActive = (d) => {
+    if (d === 'All Domains') return !filters.domain
+    return filters.domain?.toLowerCase().includes(d.toLowerCase())
+  }
+
   return (
-    <div className="search-filter-section">
-      {/* Scope Selector: Central vs State vs All + Saved Quick Filter */}
-      <div className="scope-selector-wrapper">
-        <div className="scope-pills">
+    <div className="precision-query-hud" aria-label="Search and Registry Filters">
+      {/* 1. Scope & Primary Segment Bar */}
+      <div className="query-hud-top">
+        <div className="query-scope-segments">
           <button
-            id="scope-all"
-            className={`scope-pill ${!filters.jurisdiction && !showOnlySaved ? 'active' : ''}`}
+            type="button"
+            className={`query-scope-pill ${!filters.jurisdiction && !showOnlySaved ? 'active' : ''}`}
             onClick={() => {
               setShowOnlySaved(false)
               handleScopeSelect('')
             }}
           >
-            🌐 All Examinations
-            <span className="scope-pill-count">{totalCount}</span>
+            <span className="query-scope-icon">🌐</span>
+            <span className="query-scope-text">All Examinations</span>
+            <span className="query-scope-count">{totalCount}</span>
           </button>
 
           <button
-            id="scope-central"
-            className={`scope-pill ${isCentralScope && !showOnlySaved ? 'active' : ''}`}
+            type="button"
+            className={`query-scope-pill ${isCentralScope && !showOnlySaved ? 'active' : ''}`}
             onClick={() => {
               setShowOnlySaved(false)
               handleScopeSelect('central')
             }}
           >
-            🇮🇳 Central & All-India
-            <span className="scope-pill-count">{centralCount}</span>
+            <span className="query-scope-icon">🏛️</span>
+            <span className="query-scope-text">Central & All-India</span>
+            <span className="query-scope-count">{centralCount}</span>
           </button>
 
           <button
-            id="scope-state"
-            className={`scope-pill ${isStateScope && !showOnlySaved ? 'active state-active' : ''}`}
+            type="button"
+            className={`query-scope-pill ${isStateScope && !showOnlySaved ? 'active' : ''}`}
             onClick={() => {
               setShowOnlySaved(false)
               handleScopeSelect('state')
             }}
           >
-            🏛️ State Government
-            <span className="scope-pill-count">{stateCount}</span>
+            <span className="query-scope-icon">🗺️</span>
+            <span className="query-scope-text">State Government</span>
+            <span className="query-scope-count">{stateCount}</span>
           </button>
 
           {savedCount > 0 && (
             <button
-              id="scope-saved"
-              className={`scope-pill saved-pill ${showOnlySaved ? 'active saved-active' : ''}`}
+              type="button"
+              className={`query-scope-pill radar-scope ${showOnlySaved ? 'active' : ''}`}
               onClick={() => setShowOnlySaved(!showOnlySaved)}
-              title="View your saved / bookmarked exams"
+              title="Filter to examinations pinned on your Active Radar"
             >
-              <HiOutlineBookmark /> Saved
-              <span className="scope-pill-count">{savedCount}</span>
+              <HiOutlineBookmark className="query-scope-icon text-amber" />
+              <span className="query-scope-text">Active Radar</span>
+              <span className="query-scope-count highlight-amber">{savedCount}</span>
             </button>
           )}
         </div>
 
-        {/* Quick State Selector when in State scope or when browsing */}
+        {/* State Commission Filter if State scope selected */}
         {(isStateScope || states?.length > 0) && (
-          <div className="scope-state-filter">
+          <div className="query-state-select-wrapper">
             <select
-              id="filter-state-select"
-              className="state-select"
+              className="query-select-pill"
               value={filters.state}
               onChange={(e) => {
                 const val = e.target.value
@@ -141,7 +174,7 @@ export default function SearchFilter({
                 }
               }}
             >
-              <option value="">🏛️ {isStateScope ? 'All States & UTs' : 'Filter by State / UT'}</option>
+              <option value="">🏛️ {isStateScope ? 'All 28 States & 8 UTs' : 'Filter State / UT'}</option>
               {states?.map(s => (
                 <option key={s} value={s}>{s}</option>
               ))}
@@ -150,42 +183,44 @@ export default function SearchFilter({
         )}
       </div>
 
-      {/* Hero Search Bar with Shortcut hint and Autocomplete */}
-      <div className="search-bar-wrapper">
-        <HiOutlineSearch className="search-icon" />
-        <input
-          ref={searchInputRef}
-          id="exam-search"
-          type="text"
-          className="search-bar"
-          placeholder="Search 500 exams by title, acronym, domain, conducting commission, or role..."
-          value={searchQuery}
-          onChange={(e) => {
-            setSearchQuery(e.target.value)
-            setShowSuggestions(true)
-          }}
-          onFocus={() => setShowSuggestions(true)}
-        />
-        {searchQuery ? (
-          <button
-            className="search-clear-btn"
-            onClick={() => setSearchQuery('')}
-            title="Clear search"
-          >
-            <HiOutlineX />
-          </button>
-        ) : (
-          <div className="search-kbd-hint" title="Press / anywhere to search">/</div>
-        )}
+      {/* 2. Precision Search Bar with Keyboard Hotkey */}
+      <div className="query-search-container">
+        <div className="query-search-box">
+          <HiOutlineSearch className="query-search-icon" />
+          <input
+            ref={searchInputRef}
+            type="text"
+            className="query-search-input"
+            placeholder="Search 500 targets by acronym, name, conducting commission (UPSC, NTA, SSC, BPSC), or cadre..."
+            value={searchQuery}
+            onChange={(e) => {
+              setSearchQuery(e.target.value)
+              setShowSuggestions(true)
+            }}
+            onFocus={() => setShowSuggestions(true)}
+          />
+          {searchQuery ? (
+            <button
+              type="button"
+              className="query-search-clear-btn"
+              onClick={() => setSearchQuery('')}
+              title="Clear search query"
+            >
+              <HiOutlineX />
+            </button>
+          ) : (
+            <span className="query-search-kbd" title="Press / anywhere to search">/</span>
+          )}
+        </div>
 
-        {/* Autocomplete Suggestions Dropdown */}
+        {/* Autocomplete Dropdown */}
         {showSuggestions && suggestions.length > 0 && (
-          <div className="search-suggestions-dropdown slide-up">
-            <div className="suggestions-header">Quick Matches</div>
+          <div className="query-suggestions-menu">
+            <div className="suggestions-header">Quick Registry Matches</div>
             {suggestions.map(exam => (
               <div
                 key={exam.id}
-                className="suggestion-item"
+                className="suggestion-row"
                 onClick={() => {
                   setShowSuggestions(false)
                   if (onSelectExam) {
@@ -195,111 +230,142 @@ export default function SearchFilter({
                   }
                 }}
               >
-                <span className="suggestion-name">{exam.name}</span>
                 <span className="suggestion-acronym">{exam.acronym}</span>
-                <span className="suggestion-domain">{exam.domain}</span>
+                <span className="suggestion-name">{exam.name}</span>
+                <span className="suggestion-body">{exam.conducting_body}</span>
+                <span className="suggestion-domain-tag">{exam.domain}</span>
               </div>
             ))}
           </div>
         )}
       </div>
 
-      {/* Secondary Filters Bar + Sort Controls + View Toggle */}
-      <div className="filter-bar">
-        <select
-          id="filter-domain"
-          className="filter-select"
-          value={filters.domain}
-          onChange={(e) => onFilterChange('domain', e.target.value)}
-        >
-          <option value="">All Domains</option>
-          {domains.map(d => <option key={d} value={d}>{d}</option>)}
-        </select>
+      {/* 3. Quick Domain Segmented Chips */}
+      <div className="query-quick-domains">
+        <div className="quick-domains-label">DISCIPLINE //</div>
+        <div className="quick-domains-scroll">
+          {QUICK_DOMAINS.map(d => {
+            const active = isQuickDomainActive(d)
+            return (
+              <button
+                key={d}
+                type="button"
+                className={`quick-domain-chip ${active ? 'active' : ''}`}
+                onClick={() => handleQuickDomain(d)}
+              >
+                {d}
+              </button>
+            )
+          })}
+        </div>
+      </div>
 
-        <select
-          id="filter-level"
-          className="filter-select"
-          value={filters.level}
-          onChange={(e) => onFilterChange('level', e.target.value)}
-        >
-          <option value="">All Entry Levels</option>
-          {levels.map(l => <option key={l} value={l}>{l}</option>)}
-        </select>
-
-        <select
-          id="filter-type"
-          className="filter-select"
-          value={filters.exam_type}
-          onChange={(e) => onFilterChange('exam_type', e.target.value)}
-        >
-          <option value="">All Types</option>
-          <option value="entrance">🎓 Entrance Exams</option>
-          <option value="job">💼 Job / Recruitment</option>
-        </select>
-
-        <select
-          id="filter-frequency"
-          className="filter-select"
-          value={filters.frequency}
-          onChange={(e) => onFilterChange('frequency', e.target.value)}
-        >
-          <option value="">All Frequencies</option>
-          {frequencies.map(f => <option key={f} value={f}>{f}</option>)}
-        </select>
-
-        {/* Sort Controls */}
-        <div className="sort-wrapper">
-          <HiOutlineSortDescending className="sort-icon" />
+      {/* 4. Secondary Filter Bar & View Controls */}
+      <div className="query-controls-strip">
+        <div className="controls-left">
+          {/* Level Filter */}
           <select
-            id="sort-by-select"
-            className="filter-select sort-select"
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
+            className="hud-select"
+            value={filters.level}
+            onChange={(e) => onFilterChange('level', e.target.value)}
           >
-            <option value="popularity">Sort: High Popularity</option>
-            <option value="name_asc">Sort: Name (A to Z)</option>
-            <option value="name_desc">Sort: Name (Z to A)</option>
-            <option value="domain">Sort: Domain</option>
-            <option value="state">Sort: State / Region</option>
+            <option value="">Entry Level: All</option>
+            {levels.map(l => <option key={l} value={l}>{l}</option>)}
           </select>
+
+          {/* Type Filter */}
+          <select
+            className="hud-select"
+            value={filters.exam_type}
+            onChange={(e) => onFilterChange('exam_type', e.target.value)}
+          >
+            <option value="">Type: All Types</option>
+            <option value="entrance">🎓 Entrance Examination</option>
+            <option value="job">💼 Job Recruitment</option>
+          </select>
+
+          {/* Frequency Filter */}
+          <select
+            className="hud-select"
+            value={filters.frequency}
+            onChange={(e) => onFilterChange('frequency', e.target.value)}
+          >
+            <option value="">Frequency: All</option>
+            {frequencies.map(f => <option key={f} value={f}>{f}</option>)}
+          </select>
+
+          {/* Sort Selector */}
+          <div className="hud-sort-group">
+            <HiOutlineSortDescending className="hud-sort-icon" />
+            <select
+              className="hud-select sort-select"
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+            >
+              <option value="popularity">Sort: High Popularity</option>
+              <option value="name_asc">Sort: Title (A to Z)</option>
+              <option value="name_desc">Sort: Title (Z to A)</option>
+              <option value="domain">Sort: Domain</option>
+              <option value="state">Sort: State / Region</option>
+            </select>
+          </div>
         </div>
 
-        {/* Grid vs List View Switcher */}
-        {setViewMode && (
-          <div className="view-mode-toggle" role="group" aria-label="View layout">
+        <div className="controls-right">
+          {/* Active Screener Badge */}
+          {screenerActive && (
             <button
-              className={`view-btn ${viewMode === 'grid' ? 'active' : ''}`}
-              onClick={() => setViewMode('grid')}
-              title="Card Grid View"
-              aria-label="Grid view"
+              type="button"
+              className="hud-active-filter-pill screener-pill"
+              onClick={onClearScreener}
+              title="Clear Screener Eligibility Filter"
             >
-              <HiOutlineViewGrid />
+              🎯 Screener Active ✕
             </button>
+          )}
+
+          {/* Clear All Filters */}
+          {activeFilters?.length > 0 && (
             <button
-              className={`view-btn ${viewMode === 'list' ? 'active' : ''}`}
-              onClick={() => setViewMode('list')}
-              title="Dense List View"
-              aria-label="List view"
+              type="button"
+              className="hud-clear-all-btn"
+              onClick={clearFilters}
             >
-              <HiOutlineViewList />
+              ✕ Reset Filters
             </button>
+          )}
+
+          {/* Result Count Metric */}
+          <div className="hud-result-counter">
+            <span className="count-bold">{resultCount}</span>
+            <span className="count-total">/ {totalCount} Targets</span>
           </div>
-        )}
 
-        {screenerActive && (
-          <button className="clear-filters-btn highlight-amber" onClick={onClearScreener} title="Clear Screener Eligibility Filter">
-            🎯 Screener Filter Active ✕
-          </button>
-        )}
-
-        {activeFilters.length > 0 && (
-          <button className="clear-filters-btn" onClick={clearFilters}>
-            ✕ Clear All
-          </button>
-        )}
-
-        <div className="results-count">
-          <span>{resultCount}</span> of {totalCount} exams
+          {/* View Mode Toggle: Grid vs Data Matrix Table */}
+          {setViewMode && (
+            <div className="hud-view-switcher" role="group" aria-label="Workstation View Layout">
+              <button
+                type="button"
+                className={`view-switch-btn ${viewMode === 'grid' ? 'active' : ''}`}
+                onClick={() => setViewMode('grid')}
+                title="Dossier Grid View"
+                aria-label="Grid View"
+              >
+                <HiOutlineViewGrid />
+                <span className="view-switch-text">Grid</span>
+              </button>
+              <button
+                type="button"
+                className={`view-switch-btn ${viewMode === 'table' || viewMode === 'list' ? 'active' : ''}`}
+                onClick={() => setViewMode('table')}
+                title="High-Density Data Matrix Table"
+                aria-label="Matrix Table View"
+              >
+                <HiOutlineViewList />
+                <span className="view-switch-text">Table</span>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -2,21 +2,24 @@ import { useState, useEffect } from 'react'
 import ExamCard from './ExamCard'
 import {
   HiChevronLeft, HiChevronRight, HiOutlineArrowUp,
-  HiOutlineBookmark, HiBookmark, HiOutlineOfficeBuilding
+  HiOutlineBookmark, HiBookmark, HiOutlineOfficeBuilding,
+  HiOutlineCheckCircle, HiOutlineDocumentDownload,
+  HiOutlineScale, HiCheck, HiOutlineArrowRight
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
+import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import { SkeletonGrid } from './Skeletons'
 
 export default function ExamGrid({
-  exams,
-  compareList,
+  exams = [],
+  compareList = [],
   toggleCompare,
   onViewDetails,
-  currentPage,
-  totalPages,
+  currentPage = 1,
+  totalPages = 1,
   setCurrentPage,
   viewMode = 'grid',
-  itemsPerPage,
+  itemsPerPage = 12,
   setItemsPerPage,
   bookmarks = [],
   onToggleBookmark,
@@ -28,6 +31,7 @@ export default function ExamGrid({
   })
 
   const [showBackToTop, setShowBackToTop] = useState(false)
+  const [exportingPdfId, setExportingPdfId] = useState(null)
 
   useEffect(() => {
     if (!window.matchMedia) return
@@ -49,16 +53,31 @@ export default function ExamGrid({
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  const handleRowPdf = async (e, exam) => {
+    e.stopPropagation()
+    if (exportingPdfId) return
+    try {
+      setExportingPdfId(exam.id)
+      await exportExamDossierPdf(exam)
+    } catch (err) {
+      console.error('Failed to export row PDF:', err)
+    } finally {
+      setExportingPdfId(null)
+    }
+  }
+
   if (isLoading) {
-    return <SkeletonGrid count={itemsPerPage || 8} />
+    return <SkeletonGrid count={itemsPerPage || 12} />
   }
 
   if (exams.length === 0) {
     return (
-      <div className="no-results">
-        <div className="no-results-icon">🔍</div>
-        <h3>No examinations matched</h3>
-        <p>Try resetting filters or adjusting search keywords</p>
+      <div className="terminal-no-results">
+        <div className="no-results-glyph">🔍</div>
+        <h3 className="no-results-title">No Examinations Matched Query</h3>
+        <p className="no-results-desc">
+          Try clearing active discipline filters, adjusting keywords, or switching scopes.
+        </p>
       </div>
     )
   }
@@ -70,11 +89,13 @@ export default function ExamGrid({
   if (end - start + 1 < maxVisible) start = Math.max(1, end - maxVisible + 1)
   for (let i = start; i <= end; i++) pageNumbers.push(i)
 
+  const isTableView = viewMode === 'table' || viewMode === 'list'
+
   return (
-    <>
-      {/* Grid View */}
-      {viewMode === 'grid' ? (
-        <div className="exam-grid">
+    <div className="terminal-workstation-content">
+      {/* 1. Dossier Grid View */}
+      {!isTableView ? (
+        <div className="dossier-grid">
           {exams.map((exam, i) => (
             <ExamCard
               key={exam.id}
@@ -89,99 +110,155 @@ export default function ExamGrid({
           ))}
         </div>
       ) : (
-        /* Dense List View */
-        <div className="exam-list-container">
-          <div className="exam-list-header">
-            <span className="col-exam">EXAMINATION</span>
-            <span className="col-domain">DOMAIN</span>
-            <span className="col-level">LEVEL</span>
-            <span className="col-scope">SCOPE</span>
-            <span className="col-actions">ACTIONS</span>
-          </div>
+        /* 2. High-Density Institutional Data Matrix Table (Bloomberg / M-Terminal Style) */
+        <div className="matrix-table-card">
+          <div className="matrix-table-responsive">
+            <table className="matrix-table">
+              <thead>
+                <tr>
+                  <th className="th-code">CODE</th>
+                  <th className="th-target">EXAMINATION TARGET & COMMISSION</th>
+                  <th className="th-domain">DISCIPLINE</th>
+                  <th className="th-scope">LEVEL // SCOPE</th>
+                  <th className="th-cadre">CADRE / SEATS</th>
+                  <th className="th-status">INTEGRITY</th>
+                  <th className="th-actions">ACTIONS</th>
+                </tr>
+              </thead>
+              <tbody>
+                {exams.map((exam) => {
+                  const color = getDomainColor(exam.domain)
+                  const isComparing = compareList.some(e => e.id === exam.id)
+                  const isBookmarked = bookmarks.includes(exam.id)
+                  const isPopular = exam.popularity === 'very_high'
+                  const isJob = exam.exam_type === 'job'
+                  const payLabel = exam.pay_matrix_level
+                    ? `Level ${exam.pay_matrix_level}`
+                    : (isJob ? 'Group A / Gazetted' : 'Seat Allocation Track')
 
-          <div className="exam-list-rows">
-            {exams.map((exam) => {
-              const color = getDomainColor(exam.domain)
-              const isComparing = compareList.some(e => e.id === exam.id)
-              const isBookmarked = bookmarks.includes(exam.id)
-              const isPopular = exam.popularity === 'very_high'
-
-              return (
-                <div
-                  key={exam.id}
-                  className="exam-list-row"
-                  style={{ borderLeft: `3px solid ${color}` }}
-                  onClick={() => onViewDetails(exam)}
-                >
-                  <div className="col-exam">
-                    <div className="list-title-row">
-                      <span className="list-exam-title">{exam.name}</span>
-                      <span className="list-exam-acronym">{exam.acronym}</span>
-                      {isPopular && <span className="list-pop-pill">🔥</span>}
-                    </div>
-                    <div className="list-exam-sub">
-                      <HiOutlineOfficeBuilding className="list-meta-icon" />
-                      <span>{exam.conducting_body}</span>
-                    </div>
-                  </div>
-
-                  <div className="col-domain">
-                    <span
-                      className="list-domain-pill"
-                      style={{ background: `${color}18`, color, borderColor: `${color}44` }}
-                    >
-                      {exam.domain}
-                    </span>
-                  </div>
-
-                  <div className="col-level">
-                    <span className="list-text-muted">{exam.level}</span>
-                  </div>
-
-                  <div className="col-scope">
-                    <span className="list-scope-pill">
-                      {exam.jurisdiction === 'central' ? '🇮🇳 Central' : `🏛️ ${exam.state || 'State'}`}
-                    </span>
-                  </div>
-
-                  <div className="col-actions" onClick={(e) => e.stopPropagation()}>
-                    <button
-                      className={`list-action-btn bookmark ${isBookmarked ? 'active' : ''}`}
-                      onClick={() => onToggleBookmark(exam.id)}
-                      title={isBookmarked ? 'Remove' : 'Save'}
-                    >
-                      {isBookmarked ? <HiBookmark /> : <HiOutlineBookmark />}
-                    </button>
-                    <button
-                      className={`list-action-btn compare ${isComparing ? 'active' : ''}`}
-                      onClick={() => toggleCompare(exam)}
-                      title={isComparing ? 'In compare tray' : 'Compare'}
-                    >
-                      {isComparing ? '✓' : '⇔'}
-                    </button>
-                    <button
-                      className="list-action-btn view"
+                  return (
+                    <tr
+                      key={exam.id}
+                      className="matrix-row"
                       onClick={() => onViewDetails(exam)}
                     >
-                      View →
-                    </button>
-                  </div>
-                </div>
-              )
-            })}
+                      {/* Code / Acronym */}
+                      <td className="td-code">
+                        <span className="matrix-acronym-badge font-mono">{exam.acronym}</span>
+                        {isPopular && <span className="matrix-pop-icon" title="Popular National Target">🔥</span>}
+                      </td>
+
+                      {/* Examination Name & Body */}
+                      <td className="td-target">
+                        <div className="matrix-target-name">{exam.name}</div>
+                        <div className="matrix-target-body">
+                          <HiOutlineOfficeBuilding className="body-icon" />
+                          <span>{exam.conducting_body}</span>
+                        </div>
+                      </td>
+
+                      {/* Domain */}
+                      <td className="td-domain">
+                        <span
+                          className="matrix-domain-pill"
+                          style={{
+                            background: `${color}18`,
+                            borderColor: `${color}40`,
+                            color
+                          }}
+                        >
+                          {exam.domain}
+                        </span>
+                      </td>
+
+                      {/* Level & Scope */}
+                      <td className="td-scope">
+                        <div className="scope-level">{exam.level}</div>
+                        <div className="scope-jurisdiction">
+                          {exam.jurisdiction === 'central' ? 'Central Government' : (exam.state || 'State Commission')}
+                        </div>
+                      </td>
+
+                      {/* Cadre / Admissions */}
+                      <td className="td-cadre">
+                        <span className="matrix-cadre-tag">
+                          {payLabel}
+                        </span>
+                      </td>
+
+                      {/* Evidentiary Integrity */}
+                      <td className="td-status">
+                        <span className="matrix-status-badge">
+                          <HiOutlineCheckCircle className="status-icon text-emerald" />
+                          <span>Tier 1</span>
+                        </span>
+                      </td>
+
+                      {/* Quick Action Buttons */}
+                      <td className="td-actions" onClick={(e) => e.stopPropagation()}>
+                        <div className="matrix-actions-group">
+                          {/* Pin to Radar */}
+                          <button
+                            type="button"
+                            className={`matrix-icon-btn ${isBookmarked ? 'active' : ''}`}
+                            onClick={() => onToggleBookmark(exam.id)}
+                            title={isBookmarked ? 'Pinned on Active Radar' : 'Pin to Active Radar'}
+                          >
+                            {isBookmarked ? <HiBookmark className="icon-gold" /> : <HiOutlineBookmark />}
+                          </button>
+
+                          {/* Compare */}
+                          <button
+                            type="button"
+                            className={`matrix-icon-btn ${isComparing ? 'active' : ''}`}
+                            onClick={() => toggleCompare(exam)}
+                            title={isComparing ? 'In comparison stack' : 'Add to compare'}
+                          >
+                            {isComparing ? <HiCheck className="icon-emerald" /> : <HiOutlineScale />}
+                          </button>
+
+                          {/* PDF Dossier */}
+                          <button
+                            type="button"
+                            className={`matrix-icon-btn pdf-icon-btn ${exportingPdfId === exam.id ? 'loading' : ''}`}
+                            onClick={(e) => handleRowPdf(e, exam)}
+                            title="Download Vector Research Dossier PDF"
+                            disabled={exportingPdfId === exam.id}
+                          >
+                            <HiOutlineDocumentDownload />
+                          </button>
+
+                          {/* Inspect Details */}
+                          <button
+                            type="button"
+                            className="matrix-inspect-btn"
+                            onClick={() => onViewDetails(exam)}
+                            title="Inspect full details"
+                          >
+                            <span>Inspect</span>
+                            <HiOutlineArrowRight />
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
           </div>
         </div>
       )}
 
-      {/* Pagination & Page Size Control Bar */}
-      <div className="pagination-bar">
+      {/* Pagination Bar */}
+      <div className="terminal-pagination-strip">
         {setItemsPerPage && (
-          <div className="page-size-selector">
-            <span className="page-size-label">Per page:</span>
+          <div className="matrix-page-size">
+            <span className="page-size-kicker">PAGE DENSITY:</span>
             {[12, 24, 48].map(size => (
               <button
                 key={size}
-                className={`page-size-btn ${itemsPerPage === size ? 'active' : ''}`}
+                type="button"
+                className={`density-pill ${itemsPerPage === size ? 'active' : ''}`}
                 onClick={() => {
                   setItemsPerPage(size)
                   setCurrentPage(1)
@@ -194,9 +271,10 @@ export default function ExamGrid({
         )}
 
         {totalPages > 1 && (
-          <div className="pagination">
+          <div className="matrix-pagination-controls">
             <button
-              className="page-btn"
+              type="button"
+              className="matrix-page-arrow"
               onClick={() => {
                 setCurrentPage(p => Math.max(1, p - 1))
                 scrollToTop()
@@ -206,16 +284,25 @@ export default function ExamGrid({
             >
               <HiChevronLeft />
             </button>
+
             {start > 1 && (
               <>
-                <button className="page-btn" onClick={() => { setCurrentPage(1); scrollToTop() }}>1</button>
-                {start > 2 && <span className="page-ellipsis">…</span>}
+                <button
+                  type="button"
+                  className="matrix-page-num"
+                  onClick={() => { setCurrentPage(1); scrollToTop() }}
+                >
+                  1
+                </button>
+                {start > 2 && <span className="matrix-page-ellipsis">…</span>}
               </>
             )}
+
             {pageNumbers.map(n => (
               <button
                 key={n}
-                className={`page-btn ${currentPage === n ? 'active' : ''}`}
+                type="button"
+                className={`matrix-page-num ${currentPage === n ? 'active' : ''}`}
                 onClick={() => {
                   setCurrentPage(n)
                   scrollToTop()
@@ -224,14 +311,23 @@ export default function ExamGrid({
                 {n}
               </button>
             ))}
+
             {end < totalPages && (
               <>
-                {end < totalPages - 1 && <span className="page-ellipsis">…</span>}
-                <button className="page-btn" onClick={() => { setCurrentPage(totalPages); scrollToTop() }}>{totalPages}</button>
+                {end < totalPages - 1 && <span className="matrix-page-ellipsis">…</span>}
+                <button
+                  type="button"
+                  className="matrix-page-num"
+                  onClick={() => { setCurrentPage(totalPages); scrollToTop() }}
+                >
+                  {totalPages}
+                </button>
               </>
             )}
+
             <button
-              className="page-btn"
+              type="button"
+              className="matrix-page-arrow"
               onClick={() => {
                 setCurrentPage(p => Math.min(totalPages, p + 1))
                 scrollToTop()
@@ -248,14 +344,15 @@ export default function ExamGrid({
       {/* Floating Back to Top Button */}
       {showBackToTop && (
         <button
-          className="back-to-top-btn slide-up"
+          type="button"
+          className="matrix-back-to-top-btn"
           onClick={scrollToTop}
-          title="Back to Top"
-          aria-label="Back to Top"
+          title="Return to top"
+          aria-label="Return to top"
         >
           <HiOutlineArrowUp />
         </button>
       )}
-    </>
+    </div>
   )
 }
