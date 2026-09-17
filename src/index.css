@@ -10418,3 +10418,130 @@ input, select {
   }
 }
 
+/* Tab 3: Institutional Vector PDF Dossier & Comparison Styles */
+.modal-pdf-dossier-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(200, 134, 42, 0.12);
+  border: 1px solid rgba(200, 134, 42, 0.45);
+  color: #e8a33d;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-mono, monospace);
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-pdf-dossier-btn:hover:not(:disabled) {
+  background: rgba(200, 134, 42, 0.25);
+  border-color: #e8a33d;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.modal-pdf-dossier-btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+[data-theme='light'] .modal-pdf-dossier-btn {
+  background: rgba(200, 134, 42, 0.12);
+  color: #b45309;
+  border-color: rgba(200, 134, 42, 0.35);
+}
+
+[data-theme='light'] .modal-pdf-dossier-btn:hover:not(:disabled) {
+  background: rgba(200, 134, 42, 0.22);
+  color: #78350f;
+}
+
+.modal-dossier-download-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(200, 134, 42, 0.06);
+  border: 1px solid rgba(200, 134, 42, 0.28);
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin: 20px 0 10px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+[data-theme='light'] .modal-dossier-download-banner {
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+
+.dossier-download-text {
+  flex: 1;
+  min-width: 260px;
+}
+
+.dossier-download-title {
+  display: block;
+  font-family: var(--font-mono, monospace);
+  font-size: 13px;
+  font-weight: 700;
+  color: #e8a33d;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+[data-theme='light'] .dossier-download-title {
+  color: #b45309;
+}
+
+.dossier-download-desc {
+  font-size: 12px;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+[data-theme='light'] .dossier-download-desc {
+  color: #64748b;
+}
+
+.dossier-download-cta {
+  white-space: nowrap;
+  padding: 8px 18px !important;
+}
+
+.comparison-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(200, 134, 42, 0.15);
+  border: 1px solid rgba(200, 134, 42, 0.45);
+  color: #e8a33d;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-family: var(--font-mono, monospace);
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.comparison-pdf-btn:hover:not(:disabled) {
+  background: rgba(200, 134, 42, 0.28);
+  border-color: #e8a33d;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.comparison-pdf-btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+[data-theme='light'] .comparison-pdf-btn {
+  background: rgba(200, 134, 42, 0.15);
+  color: #b45309;
+  border-color: rgba(200, 134, 42, 0.35);
+}
+
+

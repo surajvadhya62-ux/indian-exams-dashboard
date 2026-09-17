@@ -1,9 +1,25 @@
-import { HiOutlineScale, HiOutlineTrash, HiOutlineExternalLink, HiOutlinePrinter } from 'react-icons/hi'
+import { useState } from 'react'
+import { HiOutlineScale, HiOutlineTrash, HiOutlineExternalLink, HiOutlinePrinter, HiOutlineDownload } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
+import { exportComparisonMatrixPdf } from '../utils/pdfGenerator'
 
 export default function ComparisonTool({ compareList, removeFromCompare }) {
+  const [isExportingPdf, setIsExportingPdf] = useState(false)
+
   const handlePrint = () => {
     window.print()
+  }
+
+  const handleExportPdf = () => {
+    if (isExportingPdf) return
+    setIsExportingPdf(true)
+    try {
+      exportComparisonMatrixPdf(compareList)
+    } catch (err) {
+      console.error('Failed to export comparison matrix PDF:', err)
+    } finally {
+      setIsExportingPdf(false)
+    }
   }
 
   if (!compareList || compareList.length === 0) {
@@ -120,16 +136,25 @@ export default function ComparisonTool({ compareList, removeFromCompare }) {
           <h2 className="comparison-title">⚖️ Comparing {compareList.length} Examination{compareList.length > 1 ? 's' : ''}</h2>
           <p className="section-subtitle">Comparative assessment side-by-side (up to 4 exams simultaneously)</p>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
+          <button
+            onClick={handleExportPdf}
+            disabled={isExportingPdf}
+            className="comparison-pdf-btn"
+            title="Export institutional multi-column comparative assessment matrix (PDF)"
+          >
+            <HiOutlineDownload />
+            <span>{isExportingPdf ? 'Compiling Matrix...' : 'Export Comparison PDF'}</span>
+          </button>
           <button
             onClick={handlePrint}
             className="print-btn"
             style={{
               padding: '6px 14px',
-              background: 'rgba(59, 130, 246, 0.1)',
-              border: '1px solid rgba(59, 130, 246, 0.3)',
-              borderRadius: '8px',
-              color: 'var(--blue, #3b82f6)',
+              background: 'rgba(255, 255, 255, 0.05)',
+              border: '1px solid rgba(255, 255, 255, 0.15)',
+              borderRadius: '6px',
+              color: '#94a3b8',
               fontSize: '0.8rem',
               fontWeight: 500,
               cursor: 'pointer',
@@ -139,7 +164,7 @@ export default function ComparisonTool({ compareList, removeFromCompare }) {
             }}
             title="Print or Save Comparison Table as PDF"
           >
-            <HiOutlinePrinter /> Print / Export PDF
+            <HiOutlinePrinter /> Print
           </button>
           <button
             onClick={() => compareList.forEach(e => removeFromCompare(e.id))}

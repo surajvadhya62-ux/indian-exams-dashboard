@@ -4,8 +4,9 @@ import {
   HiOutlineShieldCheck, HiOutlineSparkles, HiOutlineDocumentText,
   HiOutlineScale, HiOutlineExternalLink, HiOutlineTrash,
   HiOutlinePlus, HiOutlineTrendingUp, HiOutlineCalendar,
-  HiOutlineBriefcase, HiOutlineAcademicCap
+  HiOutlineBriefcase, HiOutlineAcademicCap, HiOutlineDownload
 } from 'react-icons/hi'
+import { exportExamDossierPdf } from '../utils/pdfGenerator'
 
 // Helper to calculate approximate countdown days from exam_month
 function calculateEstimatedDays(examMonthStr = '') {
@@ -477,11 +478,20 @@ export default function MyDashboard({
                   <div className="dossier-card-actions">
                     <button
                       className="mterminal-action-btn primary-action"
+                      onClick={() => exportExamDossierPdf(exam)}
+                      title={`Download complete 4-page official research dossier (PDF) for ${exam.name}`}
+                    >
+                      <HiOutlineDownload className="mterminal-btn-icon" />
+                      <span>PDF DOSSIER</span>
+                    </button>
+
+                    <button
+                      className="mterminal-action-btn secondary-action"
                       onClick={() => onViewDetails && onViewDetails(exam)}
                       title={`Open full research dossier for ${exam.name}`}
                     >
                       <HiOutlineDocumentText className="mterminal-btn-icon" />
-                      <span>OPEN EXAM DOSSIER</span>
+                      <span>OPEN DOSSIER</span>
                     </button>
 
                     <button

@@ -7,6 +7,7 @@ import {
   HiOutlineShare, HiOutlineClipboardCopy, HiCheck, HiOutlineMail
 } from 'react-icons/hi'
 import { downloadExamIcs, getGoogleCalendarUrl } from '../utils/calendarSync'
+import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import CareerLadder from './exam-detail/CareerLadder'
 import ExamSchemeTable from './exam-detail/ExamSchemeTable'
 import SalaryCalculator from './exam-detail/SalaryCalculator'
@@ -39,7 +40,20 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
   const [activeTab, setActiveTab] = useState('overview')
   const [showShareModal, setShowShareModal] = useState(false)
   const [copiedLink, setCopiedLink] = useState(false)
+  const [isGeneratingPdf, setIsGeneratingPdf] = useState(false)
   const { status: detailStatus, detail } = useExamDetail(exam.id)
+
+  const handleDownloadPdf = async () => {
+    if (isGeneratingPdf) return
+    setIsGeneratingPdf(true)
+    try {
+      await exportExamDossierPdf(exam, detail)
+    } catch (err) {
+      console.error('Failed to generate PDF dossier:', err)
+    } finally {
+      setIsGeneratingPdf(false)
+    }
+  }
 
   // Escape key listener to close modal
   useEffect(() => {
@@ -135,6 +149,18 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
           )}
 
           <div className="modal-top-right-group">
+            {/* One-Stop PDF Dossier Download */}
+            <button
+              className="modal-pdf-dossier-btn"
+              onClick={handleDownloadPdf}
+              disabled={isGeneratingPdf}
+              title="Download 4-page official research dossier (PDF)"
+              aria-label="Download 4-page official research dossier (PDF)"
+            >
+              <HiOutlineDownload />
+              <span>{isGeneratingPdf ? 'Compiling PDF...' : 'Dossier PDF'}</span>
+            </button>
+
             {/* Share Trigger */}
             <button
               className={`modal-share-trigger-btn ${showShareModal ? 'active' : ''}`}
@@ -394,6 +420,24 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
                 </div>
               </div>
             )}
+
+            {/* One-Stop Institutional Dossier Download Banner */}
+            <div className="modal-dossier-download-banner">
+              <div className="dossier-download-text">
+                <span className="dossier-download-title">STATUTORY ONE-STOP RESEARCH DOSSIER (PDF)</span>
+                <span className="dossier-download-desc">
+                  Download the complete 4-page institutional vector PDF containing statutory mandates, 7th CPC compensation matrices across X/Y/Z cities, complete marking schemes, and official gazette citations.
+                </span>
+              </div>
+              <button
+                className="modal-pdf-dossier-btn dossier-download-cta"
+                onClick={handleDownloadPdf}
+                disabled={isGeneratingPdf}
+              >
+                <HiOutlineDownload />
+                <span>{isGeneratingPdf ? 'Compiling Vector Dossier...' : 'DOWNLOAD 4-PAGE DOSSIER (PDF)'}</span>
+              </button>
+            </div>
           </div>
         )}
 
