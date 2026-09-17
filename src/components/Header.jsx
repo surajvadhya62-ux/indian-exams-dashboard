@@ -22,7 +22,7 @@ export default function Header({
     { id: 'updates', label: 'Gazette Wire', icon: <HiOutlineNewspaper className="nav-icon text-amber" /> },
     { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles className="nav-icon text-amber" /> },
     { id: 'screener', label: 'Eligible?', icon: <HiOutlineBadgeCheck className="nav-icon text-emerald" /> },
-    { id: 'saved', label: `Saved${bookmarkCount > 0 ? ` (${bookmarkCount})` : ''}`, icon: <HiOutlineBookmark className="nav-icon" /> },
+    { id: 'my-exams', label: `My Exams${bookmarkCount > 0 ? ` (${bookmarkCount})` : ''}`, icon: <HiOutlineBookmark className="nav-icon text-amber" /> },
     { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar className="nav-icon" /> },
     { id: 'cadres', label: 'Govt Grades Guide', icon: <HiOutlineShieldCheck className="nav-icon" /> },
     { id: 'compare', label: `Compare${compareCount > 0 ? ` (${compareCount})` : ''}`, icon: <HiOutlineScale className="nav-icon" /> },
@@ -98,7 +98,9 @@ export default function Header({
 
         <nav className="header-nav modern-nav-tabs ttabs" aria-label="Main Navigation">
           {views.map(v => {
-            const isActive = v.id === 'analytics' ? isAnalyticsActive : activeView === v.id
+            const isActive = v.id === 'my-exams'
+              ? (activeView === 'my-exams' || activeView === 'saved')
+              : (v.id === 'analytics' ? isAnalyticsActive : activeView === v.id)
             return (
               <button
                 key={v.id}

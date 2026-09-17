@@ -11,7 +11,7 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
     { id: 'updates', label: 'Wire', icon: <HiOutlineNewspaper /> },
     { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles /> },
     { id: 'screener', label: 'Eligible?', icon: <HiOutlineBadgeCheck /> },
-    { id: 'saved', label: 'Saved', icon: <HiOutlineBookmark />, count: bookmarkCount },
+    { id: 'my-exams', label: 'My Exams', icon: <HiOutlineBookmark />, count: bookmarkCount },
     { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar /> },
     { id: 'cadres', label: 'Grades', icon: <HiOutlineShieldCheck /> },
     { id: 'compare', label: 'Compare', icon: <HiOutlineScale />, count: compareCount },
@@ -22,7 +22,9 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
   return (
     <nav className="mobile-bottom-nav" aria-label="Mobile Navigation">
       {items.map(item => {
-        const isActive = activeView === item.id || (item.id === 'analytics' && activeView === 'dashboard')
+        const isActive = item.id === 'my-exams'
+          ? (activeView === 'my-exams' || activeView === 'saved')
+          : (activeView === item.id || (item.id === 'analytics' && activeView === 'dashboard'))
         return (
           <button
             key={item.id}

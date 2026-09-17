@@ -21,6 +21,7 @@ import Feedback from './components/Feedback'
 import CommandPalette from './components/CommandPalette'
 import UpdatesFeed from './components/UpdatesFeed'
 import NewsTicker from './components/NewsTicker'
+import MyDashboard from './components/MyDashboard'
 
 /* Session-gated intro check:
    Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
@@ -175,14 +176,14 @@ function App() {
         return
       }
 
-      if (hash === 'saved') {
-        setActiveView('explore')
-        setShowOnlySaved(true)
+      if (hash === 'saved' || hash === 'my-exams') {
+        setActiveView('my-exams')
+        setShowOnlySaved(false)
         setDashboardEntered(true)
         return
       }
 
-      const validViews = ['explore', 'updates', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
+      const validViews = ['explore', 'updates', 'my-exams', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
       if (validViews.includes(hash)) {
         setActiveView(hash)
         setShowOnlySaved(false)
@@ -197,10 +198,10 @@ function App() {
 
   const goToView = useCallback((id) => {
     handleDashboardEnter()
-    if (id === 'saved') {
-      setActiveView('explore')
-      setShowOnlySaved(true)
-      window.location.hash = '#saved'
+    if (id === 'saved' || id === 'my-exams') {
+      setActiveView('my-exams')
+      setShowOnlySaved(false)
+      window.location.hash = '#my-exams'
       return
     }
     setShowOnlySaved(false)
@@ -386,6 +387,21 @@ function App() {
                 <UpdatesFeed
                   exams={examsData}
                   onViewDetails={openExamDetail}
+                />
+              </div>
+            )}
+
+            {/* Tab 2: Candidate Command Center & Active Radar */}
+            {(activeView === 'my-exams' || activeView === 'saved') && (
+              <div className="fade-in">
+                <MyDashboard
+                  exams={examsData}
+                  bookmarks={bookmarks}
+                  onToggleBookmark={toggleBookmark}
+                  onViewDetails={openExamDetail}
+                  onToggleCompare={toggleCompare}
+                  compareList={compareList}
+                  setActiveView={goToView}
                 />
               </div>
             )}
