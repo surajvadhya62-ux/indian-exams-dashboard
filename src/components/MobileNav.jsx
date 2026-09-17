@@ -1,13 +1,14 @@
 import {
   HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineShieldCheck, HiOutlineSparkles,
-  HiOutlineBookmark
+  HiOutlineBookmark, HiOutlineBadgeCheck
 } from 'react-icons/hi'
 
 export default function MobileNav({ activeView, setActiveView, compareCount, bookmarkCount }) {
   const items = [
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt /> },
     { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles /> },
+    { id: 'screener', label: 'Eligible?', icon: <HiOutlineBadgeCheck /> },
     { id: 'saved', label: 'Saved', icon: <HiOutlineBookmark />, count: bookmarkCount },
     { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar /> },
     { id: 'cadres', label: 'Grades', icon: <HiOutlineShieldCheck /> },

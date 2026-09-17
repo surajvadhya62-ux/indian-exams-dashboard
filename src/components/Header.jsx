@@ -1,7 +1,8 @@
 import {
   HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck,
-  HiOutlineSparkles, HiOutlineBookmark, HiOutlineQuestionMarkCircle
+  HiOutlineSparkles, HiOutlineBookmark, HiOutlineQuestionMarkCircle,
+  HiOutlineBadgeCheck, HiOutlineColorSwatch
 } from 'react-icons/hi'
 
 export default function Header({
@@ -11,11 +12,14 @@ export default function Header({
   compareCount,
   bookmarkCount = 0,
   onLogoClick,
-  onOpenGuide
+  onOpenGuide,
+  theme = 'slate',
+  setTheme
 }) {
   const views = [
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt className="nav-icon" /> },
     { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles className="nav-icon text-amber" /> },
+    { id: 'screener', label: 'Eligible?', icon: <HiOutlineBadgeCheck className="nav-icon text-emerald" /> },
     { id: 'saved', label: `Saved${bookmarkCount > 0 ? ` (${bookmarkCount})` : ''}`, icon: <HiOutlineBookmark className="nav-icon" /> },
     { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar className="nav-icon" /> },
     { id: 'cadres', label: 'Govt Grades Guide', icon: <HiOutlineShieldCheck className="nav-icon" /> },
@@ -48,6 +52,25 @@ export default function Header({
               <span className="live-text">{totalExams} EXAMS VERIFIED · SEP 2026</span>
             </div>
 
+            {/* Terminal Theme Switcher */}
+            {setTheme && (
+              <div className="theme-switcher-container">
+                <button
+                  className="theme-switch-btn"
+                  onClick={() => {
+                    const next = theme === 'slate' ? 'amber' : theme === 'amber' ? 'gazette' : 'slate'
+                    setTheme(next)
+                  }}
+                  title={`Switch Terminal Aesthetic (Current: ${theme.toUpperCase()})`}
+                >
+                  <HiOutlineColorSwatch className="theme-icon" />
+                  <span className="theme-label">
+                    {theme === 'slate' ? 'Slate' : theme === 'amber' ? 'Amber' : 'Gazette'}
+                  </span>
+                </button>
+              </div>
+            )}
+
             {onOpenGuide && (
               <button
                 className="guide-help-btn"
@@ -70,8 +93,7 @@ export default function Header({
                 onClick={() => setActiveView(v.id)}
               >
                 {v.icon}
-                <span className="nav-label">{v.label}</span>
-                {isActive && <span className="tab-active-indicator" />}
+                {v.label}
               </button>
             )
           })}

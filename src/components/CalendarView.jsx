@@ -1,6 +1,11 @@
 import { useState, useMemo } from 'react'
 import { getMonthExams, getDomainColor } from '../utils/helpers'
-import { HiOutlineCalendar, HiOutlineViewGrid, HiOutlineChevronLeft, HiOutlineChevronRight, HiOutlineArrowRight } from 'react-icons/hi'
+import {
+  HiOutlineCalendar, HiOutlineViewGrid, HiOutlineChevronLeft,
+  HiOutlineChevronRight, HiOutlineArrowRight, HiOutlineDownload,
+  HiOutlineExternalLink
+} from 'react-icons/hi'
+import { downloadExamIcs, getGoogleCalendarUrl, downloadMonthScheduleIcs } from '../utils/calendarSync'
 
 const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',
@@ -193,6 +198,21 @@ export default function CalendarView({ exams, onViewDetails }) {
                 <span className="meta-subitem">
                   <strong style={{ color: '#fbbf24' }}>{monthCounts[selectedMonth]?.applications || 0}</strong> registration windows
                 </span>
+                {(currentMonthData.exams.length > 0 || currentMonthData.applications.length > 0) && (
+                  <>
+                    <span className="meta-divider">·</span>
+                    <button
+                      className="stepper-export-ics-btn"
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        downloadMonthScheduleIcs(selectedMonth, [...currentMonthData.exams, ...currentMonthData.applications])
+                      }}
+                      title={`Export all ${selectedMonth} schedules to iCal (.ics)`}
+                    >
+                      <HiOutlineDownload /> Export Month (.ics)
+                    </button>
+                  </>
+                )}
               </div>
             </div>
 
@@ -239,6 +259,25 @@ export default function CalendarView({ exams, onViewDetails }) {
                       <span className="card-meta-pill authority-pill">{exam.conducting_body}</span>
                       <span className="card-meta-pill domain-pill" style={{ color }}>{exam.domain}</span>
                       <span className="card-meta-date">📅 {exam.exam_month}</span>
+
+                      <div className="card-cal-quick-actions" onClick={e => e.stopPropagation()}>
+                        <a
+                          href={getGoogleCalendarUrl(exam)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cal-action-btn gcal-btn"
+                          title="Add exam to Google Calendar"
+                        >
+                          + G-Cal
+                        </a>
+                        <button
+                          className="cal-action-btn ics-btn"
+                          onClick={() => downloadExamIcs(exam)}
+                          title="Download .ics event file for Apple Calendar / Outlook"
+                        >
+                          <HiOutlineDownload /> .ics
+                        </button>
+                      </div>
                     </div>
                   </div>
                 )
@@ -272,6 +311,25 @@ export default function CalendarView({ exams, onViewDetails }) {
                       <span className="card-meta-pill authority-pill">{exam.conducting_body}</span>
                       <span className="card-meta-pill domain-pill" style={{ color: getDomainColor(exam.domain) }}>{exam.domain}</span>
                       <span className="card-meta-date" style={{ color: '#fef08a' }}>📝 Window: {exam.application_period}</span>
+
+                      <div className="card-cal-quick-actions" onClick={e => e.stopPropagation()}>
+                        <a
+                          href={getGoogleCalendarUrl(exam)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cal-action-btn gcal-btn"
+                          title="Add registration deadline to Google Calendar"
+                        >
+                          + G-Cal
+                        </a>
+                        <button
+                          className="cal-action-btn ics-btn"
+                          onClick={() => downloadExamIcs(exam)}
+                          title="Download .ics event file"
+                        >
+                          <HiOutlineDownload /> .ics
+                        </button>
+                      </div>
                     </div>
                   </div>
                 )

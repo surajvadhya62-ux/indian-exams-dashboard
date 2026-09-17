@@ -14,6 +14,7 @@ import HowToUse from './components/HowToUse'
 import ColdBootIntro from './components/ColdBootIntro'
 import StoryGate from './components/StoryGate'
 import ExamWizard from './components/ExamWizard'
+import EligibilityScreener from './components/EligibilityScreener'
 import MobileNav from './components/MobileNav'
 import ErrorBoundary from './components/ErrorBoundary'
 
@@ -52,6 +53,23 @@ function App() {
   const [itemsPerPage, setItemsPerPage] = useState(12)
   const [showOnlySaved, setShowOnlySaved] = useState(false)
   const [isGuideOpen, setIsGuideOpen] = useState(false)
+  const [screenerFilteredIds, setScreenerFilteredIds] = useState(null)
+
+  // Terminal Theme state (slate, amber, gazette)
+  const [theme, setTheme] = useState(() => {
+    try {
+      return localStorage.getItem('indiaexams_theme') || 'slate'
+    } catch {
+      return 'slate'
+    }
+  })
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+    try {
+      localStorage.setItem('indiaexams_theme', theme)
+    } catch {}
+  }, [theme])
 
   // Bookmarks (Saved Exams) stored in localStorage
   const [bookmarks, setBookmarks] = useState(() => {
@@ -134,7 +152,7 @@ function App() {
         return
       }
 
-      const validViews = ['explore', 'wizard', 'analytics', 'cadres', 'compare', 'calendar', 'guide']
+      const validViews = ['explore', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide']
       if (validViews.includes(hash)) {
         setActiveView(hash)
         setShowOnlySaved(false)
@@ -203,6 +221,7 @@ function App() {
   const filteredExams = useMemo(() => {
     const result = examsData.filter(exam => {
       if (showOnlySaved && !bookmarks.includes(exam.id)) return false
+      if (screenerFilteredIds && !screenerFilteredIds.includes(exam.id)) return false
 
       const q = searchQuery.toLowerCase().trim()
       const matchSearch = !q ||
@@ -241,7 +260,7 @@ function App() {
     }
 
     return result
-  }, [searchQuery, filters, sortBy, showOnlySaved, bookmarks])
+  }, [searchQuery, filters, sortBy, showOnlySaved, bookmarks, screenerFilteredIds])
 
   const paginatedExams = useMemo(() => {
     const start = (currentPage - 1) * itemsPerPage
@@ -256,7 +275,16 @@ function App() {
   }
 
   const clearFilters = () => {
-    setFilters({ domain: '', level: '', exam_mode: '', frequency: '', exam_type: '', jurisdiction: '', state: '' })
+    setFilters({
+      domain: '',
+      level: '',
+      exam_mode: '',
+      frequency: '',
+      exam_type: '',
+      jurisdiction: '',
+      state: '',
+    })
+    setScreenerFilteredIds(null)
     setSearchQuery('')
     setShowOnlySaved(false)
     setCurrentPage(1)
@@ -310,6 +338,8 @@ function App() {
         bookmarkCount={bookmarks.length}
         onLogoClick={handleLogoClick}
         onOpenGuide={() => setIsGuideOpen(true)}
+        theme={theme}
+        setTheme={setTheme}
       />
 
       <main className={`main-content${pageReleased ? '' : ' app-waiting'}`}>
@@ -328,6 +358,20 @@ function App() {
                   compareList={compareList}
                   bookmarks={bookmarks}
                   onToggleBookmark={toggleBookmark}
+                />
+              </div>
+            )}
+
+            {/* Eligibility Screener */}
+            {activeView === 'screener' && (
+              <div className="fade-in">
+                <EligibilityScreener
+                  exams={examsData}
+                  onViewDetails={openExamDetail}
+                  onApplyFilter={(eligibleIds) => {
+                    setScreenerFilteredIds(eligibleIds)
+                    goToView('explore')
+                  }}
                 />
               </div>
             )}
@@ -360,6 +404,8 @@ function App() {
                   savedCount={bookmarks.length}
                   allExams={examsData}
                   onSelectExam={openExamDetail}
+                  screenerActive={!!screenerFilteredIds}
+                  onClearScreener={() => setScreenerFilteredIds(null)}
                 />
                 <ExamGrid
                   exams={paginatedExams}

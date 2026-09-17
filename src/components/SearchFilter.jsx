@@ -27,7 +27,9 @@ export default function SearchFilter({
   setShowOnlySaved,
   savedCount,
   allExams = [],
-  onSelectExam
+  onSelectExam,
+  screenerActive = false,
+  onClearScreener
 }) {
   const isStateScope = filters.jurisdiction === 'state'
   const isCentralScope = filters.jurisdiction === 'central'
@@ -282,6 +284,12 @@ export default function SearchFilter({
               <HiOutlineViewList />
             </button>
           </div>
+        )}
+
+        {screenerActive && (
+          <button className="clear-filters-btn highlight-amber" onClick={onClearScreener} title="Clear Screener Eligibility Filter">
+            🎯 Screener Filter Active ✕
+          </button>
         )}
 
         {activeFilters.length > 0 && (

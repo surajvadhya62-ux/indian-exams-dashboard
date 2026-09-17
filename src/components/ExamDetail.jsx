@@ -3,8 +3,9 @@ import { getDomainColor } from '../utils/helpers'
 import { useExamDetail } from '../hooks/useExamDetail'
 import {
   HiOutlineExternalLink, HiX, HiChevronLeft, HiChevronRight,
-  HiOutlineArrowRight
+  HiOutlineArrowRight, HiOutlineCalendar, HiOutlineDownload
 } from 'react-icons/hi'
+import { downloadExamIcs, getGoogleCalendarUrl } from '../utils/calendarSync'
 import CareerLadder from './exam-detail/CareerLadder'
 import ExamSchemeTable from './exam-detail/ExamSchemeTable'
 import SalaryCalculator from './exam-detail/SalaryCalculator'
@@ -187,6 +188,28 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
                   <div className="modal-detail-label">Age Limit</div>
                   <div className="modal-detail-value">{exam.age_limit}</div>
                 </div>
+              </div>
+            </div>
+
+            <div className="modal-section modal-cal-sync-section">
+              <h4 className="modal-section-title">Schedule & Calendar Sync</h4>
+              <div className="modal-cal-actions">
+                <a
+                  href={getGoogleCalendarUrl(exam)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="modal-sync-btn gcal"
+                  title="Add this exam schedule to Google Calendar"
+                >
+                  <HiOutlineCalendar /> Add to Google Calendar
+                </a>
+                <button
+                  className="modal-sync-btn ics"
+                  onClick={() => downloadExamIcs(exam)}
+                  title="Download .ics calendar event file"
+                >
+                  <HiOutlineDownload /> Download iCal (.ics)
+                </button>
               </div>
             </div>
 
