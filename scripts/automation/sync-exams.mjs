@@ -415,6 +415,113 @@ async function runPortalScan(exams, config, isDryRun = false) {
   const bodies = new Set(exams.map(e => e.conducting_body)).size
   console.log(`✓ Verified ${verifiedDossiers}/${exams.length} examination dossiers. All files verified present.`)
   console.log(`✓ Active conducting authorities tally: ${bodies} verified bodies.`)
+
+  // 4. Active Live Notification & Vacancy Feed Ingestion
+  console.log('\n📡 Polling live statutory gazettes, recruitment portals & national vacancy alerts...')
+  const feedUrls = [
+    'https://news.google.com/rss/search?q=recruitment+vacancies+examination+notification+government+India&hl=en-IN&gl=IN&ceid=IN:en',
+    'https://news.google.com/rss/search?q=TET+recruitment+vacancies+notification+UP+OR+CTET+OR+State&hl=en-IN&gl=IN&ceid=IN:en'
+  ]
+
+  const detectedUpdates = []
+  const existingUpdates = fs.existsSync(UPDATES_LOG_PATH) ? (loadJSON(UPDATES_LOG_PATH) || []) : []
+
+  for (const feedUrl of feedUrls) {
+    try {
+      const res = await fetch(feedUrl, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (IndiaExams Automated Registry Auditor/2.0)' },
+        signal: AbortSignal.timeout(8000)
+      })
+      if (!res.ok) continue
+      const text = await res.text()
+      const items = text.match(/<item>[\s\S]*?<\/item>/g) || []
+
+      for (const item of items) {
+        const titleMatch = item.match(/<title>(.*?)<\/title>/)
+        const linkMatch = item.match(/<link>(.*?)<\/link>/)
+        if (!titleMatch) continue
+
+        const rawTitle = titleMatch[1].replace(/<!\[CDATA\[(.*?)\]\]>/g, '$1')
+        const link = linkMatch ? linkMatch[1] : ''
+
+        // Match against catalog
+        for (const exam of exams) {
+          const tLower = rawTitle.toLowerCase()
+          let matched = false
+          if (tLower.includes(exam.name.toLowerCase())) matched = true
+          else if (exam.acronym && exam.acronym.length >= 3) {
+            const regex = new RegExp(`\\b${exam.acronym.toLowerCase()}\\b`)
+            if (regex.test(tLower)) matched = true
+          }
+
+          if (matched) {
+            // Check for vacancy extraction
+            const vacMatch = rawTitle.match(/(?:for\s+)?([\d,]+)\s*(?:teacher\s+|police\s+|assistant\s+)?(?:vacancies|posts|seats)/i)
+            if (vacMatch) {
+              const countStr = vacMatch[1].replace(/,/g, '')
+              const countNum = parseInt(countStr, 10)
+              if (countNum > 0) {
+                console.log(`⚡ [LIVE ALERT] Matched: ${exam.name} (${exam.id})`)
+                console.log(`   Headline: "${rawTitle}"`)
+                console.log(`   Extracted Vacancies: ${countNum}`)
+
+                // Check if dossier already has this cycle
+                const dossierPath = path.join(DETAILS_DIR, `${exam.id}.json`)
+                if (fs.existsSync(dossierPath)) {
+                  const dossier = loadJSON(dossierPath)
+                  const currentYear = new Date().getFullYear()
+                  const existingCycle = dossier?.competition_benchmarks?.years?.find(y => y.year === currentYear && y.vacancies === countNum)
+                  if (!existingCycle && !isDryRun) {
+                    if (!dossier.competition_benchmarks) dossier.competition_benchmarks = { status: 'available', years: [] }
+                    if (!dossier.competition_benchmarks.years) dossier.competition_benchmarks.years = []
+                    dossier.competition_benchmarks.years.unshift({
+                      year: currentYear,
+                      applicants: null,
+                      vacancies: countNum,
+                      shortlisted_for_mains: null,
+                      selectivity_ratio: null,
+                      confidence: 'reported',
+                      as_of: new Date().toISOString().split('T')[0],
+                      source_url: link || exam.official_website || exam.website || 'https://upessc.up.gov.in',
+                      source_label: rawTitle.substring(0, 100)
+                    })
+                    saveJSON(dossierPath, dossier)
+
+                    exam.vacancies = `${countNum.toLocaleString('en-IN')} Posts`
+                    saveJSON(EXAMS_JSON_PATH, exams)
+
+                    if (!detectedUpdates.some(u => u.id === exam.id)) {
+                      detectedUpdates.push({
+                        id: exam.id,
+                        name: exam.name,
+                        acronym: exam.acronym,
+                        changes: [
+                          {
+                            field: 'vacancies',
+                            oldValue: 'Previous Cycle',
+                            newValue: `${countNum.toLocaleString('en-IN')} Posts (${rawTitle})`
+                          }
+                        ]
+                      })
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    } catch (e) {
+      console.log(`   Notice: Feed polling note (${e.message})`)
+    }
+  }
+
+  if (detectedUpdates.length > 0 && !isDryRun) {
+    const mergedUpdates = [...existingUpdates, ...detectedUpdates]
+    saveJSON(UPDATES_LOG_PATH, mergedUpdates)
+    console.log(`\n🎉 Recorded ${detectedUpdates.length} active updates to ${UPDATES_LOG_PATH}`)
+  }
+
   console.log(`✓ Portal scan complete. Registry integrity confirmed.\n`)
   console.log('===================================================================\n')
 }

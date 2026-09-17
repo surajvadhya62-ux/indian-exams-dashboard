@@ -203,6 +203,28 @@
     "note": "Compiled from official examination declarations and merit notification orders issued by the Examination Regulatory Authority (PNP Prayagraj) for Assistant Teacher Recruitment Examinations.",
     "years": [
       {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 12405,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-17",
+        "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaUdxemE3QU5YMFZZWE11aW03QWNjbXJMc2llVlBiX3JwUVUzS2J0bzkwa0FOTjI3ZmVXWC11SUl6VGl3LTdFYVYySTA4dGdfVkdnd1B3b2EyRzdaemJwek10SERxeS02WlowLUxtY21ISkt6OWFFVktmZ1JLNzEta2lqM0hqem10WU9wN3pvS0tKb0dzcnRvWUVCay1mbExsSkhkOVlXODBBZHV6VW15X3ZQWm5wRF9jM1FrN3VEY045VE5TYmstZE1TcHN4c2RuTTNpTHBjNVdiQ0JwSUdj0gHmAUFVX3lxTFBHWWZiQmwxbldHSXpVUG4yZ0h4TVBGR3RrZmlldXptU0VqdldOTGFJTVh1YzQyQ3BJeWViXzJ2a2F3RmNRZWdwcVAyREstNXdyZlpMaXFmVGRJTkEzaVQ4d2pubUJlWGVoeVhGRW8zVkJuMXluUmUyU1docFhHeERzeS1lSXdKNUJmTG9EQ21XWTZWLWRhVHV6V2E0VGdxd1dIeWdQV1MwQWNaS0VpWmRoMEoxRjBpN2JORFRvQWoyUnNzd0hDWENzYm04bURBMlEwdmZGLXJ4eGE1dUMtcWFPMG9rNG1B?oc=5",
+        "source_label": "UP Super TET 2026: Applications begin for 12,405 teacher vacancies - indianexpress.com"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 15012,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "verified",
+        "as_of": "2026-09-17",
+        "source_url": "https://upessc.up.gov.in",
+        "source_label": "UPESSC Notification Advt 01/2026 (12,405 Assistant Teachers + 2,607 PGT/Lecturers)"
+      },
+      {
         "year": 2019,
         "applicants": 431466,
         "vacancies": 69000,
@@ -228,10 +250,18 @@
   },
   "official_downloads": {
     "status": "available",
-    "note": "Official recruitment notifications, examination schemes, and merit circulars hosted on the UP DELEd / PNP Prayagraj domain.",
+    "note": "Official recruitment notifications, examination schemes, and application portal hosted on UPESSC domain.",
     "links": [
       {
-        "label": "UP Basic Education Board / DELEd Official Examination Portal",
+        "label": "UPESSC Official Recruitment Portal & Application Form",
+        "url": "https://upessc.up.gov.in",
+        "type": "notification",
+        "cycle_label": "2026 Cycle (15,012 Vacancies)",
+        "confidence": "verified",
+        "as_of": "2026-09-17"
+      },
+      {
+        "label": "UP Basic Education Board / DELEd Historical Examination Portal",
         "url": "https://updeled.gov.in",
         "type": "other",
         "cycle_label": "Evergreen",

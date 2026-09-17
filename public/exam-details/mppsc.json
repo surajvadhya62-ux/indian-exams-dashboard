@@ -2,7 +2,6 @@
   "id": "mppsc",
   "schema_version": 1,
   "last_reviewed": "2026-09-11",
-
   "career_ladder": {
     "status": "available",
     "note": "Madhya Pradesh State Administrative Service (SAS) officers start as Sub-Divisional Magistrates (SDM) / Deputy Collectors and progress through district and state administrative positions before induction into the Indian Administrative Service (IAS - MP Cadre) under the promotion quota.",
@@ -63,7 +62,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Examination consists of three successive stages: Preliminary Examination (Objective screening; under the revised 2026 pattern each paper carries 300 marks with 1/3rd negative marking), Main Examination (Conventional descriptive across 6 compulsory papers totaling 1500 marks), and Interview / Personality Test (185 marks; grand total 1685 marks).",
@@ -172,7 +170,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": "Posts recruited through MPPSC State Service Examination are compensated under the Madhya Pradesh Revised Pay Rules, 2017 (MP 7th CPC Pay Matrix). The premier state administrative posts (Deputy Collector / SDM and Deputy Superintendent of Police) start at MP Pay Matrix Level 10 (Pay Band 3: ₹15,600 - 39,100, Grade Pay ₹5,400) with entry basic pay of ₹56,100. Subordinate posts such as Naib Tehsildar start at Pay Matrix Level 9 (Grade Pay ₹3,600, entry basic ₹36,200).",
@@ -184,8 +181,14 @@
     "pay_source_label": "MPPSC Advt. No. 29/2025: State Service Examination 2026 Notification, General Administration Department Post Schedule & MP Revised Pay Rules 2017",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 94000, "max": 105000 },
-    "in_hand_range_estimate": { "min": 83000, "max": 93000 },
+    "gross_range_estimate": {
+      "min": 94000,
+      "max": 105000
+    },
+    "in_hand_range_estimate": {
+      "min": 83000,
+      "max": 93000
+    },
     "estimate_confidence": "estimate",
     "estimate_note": "Calculated based on MP Pay Matrix Level 10 entry basic pay of ₹56,100 at 58% DA (effective 1 Jul 2025) and municipal HRA ranging from 8% to 16% (Bhopal/Indore Class Y cities at 16%, other district headquarters at 8-10%); deductions include NPS (10% on Basic+DA = ₹8,864), Professional Tax (₹208), and state group insurance.",
     "official_perks": [
@@ -198,11 +201,21 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Applicant numbers, appearance statistics, Mains shortlists, and final vacancies are compiled from official MPPSC notifications, recruitment advertisements, and commission press releases.",
     "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 949,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-17",
+        "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaFR3LVFlWi0tM0JJRFdGcGZsQlVHeUFyWkMyeHNhY3ZuU3VLdGNQWFAtUlBPWWRHSXByUXBMMTUtTFVEM0ppU0JCUkg3NWdHYWxEN19KdVkyTzMxb3NuNTdLRjA5MExTc01NUTBRcThyd2hhS1F1bERBREtBOXpkYU5pODc1UzlNa25LeFowZw?oc=5",
+        "source_label": "MPPSC Assistant Professor Recruitment 2026 Notification Out for 949 Posts, Check Eligibility and App"
+      },
       {
         "year": 2026,
         "applicants": null,
@@ -238,7 +251,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, revised examination plan and syllabi, calendars, and previous question papers are hosted on the MPPSC official portal.",

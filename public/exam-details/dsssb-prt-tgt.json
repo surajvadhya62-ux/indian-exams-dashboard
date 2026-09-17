@@ -2,7 +2,6 @@
   "id": "dsssb-prt-tgt",
   "schema_version": 1,
   "last_reviewed": "2026-09-14",
-
   "career_ladder": {
     "status": "available",
     "note": null,
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "DSSSB conducts teacher recruitment under One-Tier Teaching (I-T-T) examination scheme comprising a single 2-hour CBT paper of 200 MCQs (200 marks). Candidates must qualify in Section B (domain pedagogical and subject paper) with prescribed category-wise minimum qualifying marks, while final selection is strictly prepared on aggregate marks of Section A and Section B combined.",
@@ -119,7 +117,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": "Government school teachers in Delhi are placed under 7th CPC Central Pay Scales: Trained Graduate Teachers commence at Pay Level 7 (entry basic ₹44,900) while Assistant Teachers (Primary / PRT) commence at Pay Level 6 (entry basic ₹35,400). Both cadres receive Delhi Class 'X' metro allowances and central benefits.",
@@ -131,8 +128,14 @@
     "pay_source_label": "DSSSB Advt No. 02/2024 — Pay Scale for TGTs (₹44,900 – ₹1,42,400, Pay Level 7)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 70000, "max": 95000 },
-    "in_hand_range_estimate": { "min": 62000, "max": 84000 },
+    "gross_range_estimate": {
+      "min": 70000,
+      "max": 95000
+    },
+    "in_hand_range_estimate": {
+      "min": 62000,
+      "max": 84000
+    },
     "estimate_confidence": "estimate",
     "estimate_note": "Spans entry PRT at Level 6 basic ₹35,400 (gross ~₹72,240, in-hand ~₹66,600) to TGT at Level 7 basic ₹44,900 (gross ~₹90,100, in-hand ~₹83,000) with 58% DA, 30% Delhi HRA, ₹3,600 + DA on TA, less 10% NPS and DGEHS deduction.",
     "official_perks": [
@@ -145,11 +148,21 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "DSSSB teacher examinations are among Delhi's most competitive government recruitments. In the 2024 Combined Examination for TGTs (Advt No. 02/2024), 5,118 vacancies were advertised across disciplines. In TGT Mathematics alone (Post Code 803/24), 25,276 candidates appeared in CBT for 1,119 vacancies, and in TGT Social Science (Post Code 805/24), 26,945 candidates appeared for 310 vacancies, verified directly from DSSSB's official marks notices.",
     "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 1417,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-17",
+        "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBQ3ByeDY3ZkJxbTFZSjMyYWo0MklhR3FJckFtYlA0bVBhdFdLTHhlM2l4bmZ2X1l0VGlCcGdhVFVsR2NzZnh1d1BfcFE4TmtMRzdwT3JVazZ4Q3FVYzV3alBOOU5NTU5MMXI3WjNzZkN5ME9ERExreUlB?oc=5",
+        "source_label": "DSSSB Teacher Vacancy 2026 Out for 1417 Posts (TGT, PRT, Computer Science Special Educator), Apply O"
+      },
       {
         "year": 2024,
         "vacancies": 5118,
@@ -185,7 +198,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "All official download links verified live on dsssb.delhi.gov.in.",

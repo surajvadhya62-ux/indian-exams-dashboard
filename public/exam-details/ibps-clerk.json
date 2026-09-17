@@ -2,7 +2,6 @@
   "id": "ibps-clerk",
   "schema_version": 1,
   "last_reviewed": "2026-09-11",
-
   "career_ladder": {
     "status": "available",
     "note": "Clerical Cadre employees (Customer Service Associates) in Public Sector Banks serve at branches handling customer transactions, account services, front-office operations, and credit documentation. Clerks advance into officer scales through fast-track promotional channels (departmental tests and interviews) or seniority quotas.",
@@ -63,7 +62,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The IBPS Common Recruitment Process (CRP) for Clerical Cadre consists of a Two-Tier Computer Based Examination: Preliminary and Main Examination. There is no interview stage for clerical posts in public sector banks per Government of India directives; final allotment is made strictly on the basis of Mains examination performance.",
@@ -146,7 +144,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": null,
@@ -158,8 +155,14 @@
     "pay_source_label": "12th Bipartite Settlement on Bank Clerical Wages (IBA), entry basic pay ₹24,050",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 38000, "max": 48000 },
-    "in_hand_range_estimate": { "min": 34000, "max": 42000 },
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 48000
+    },
+    "in_hand_range_estimate": {
+      "min": 34000,
+      "max": 42000
+    },
     "estimate_confidence": "estimate",
     "estimate_note": "Pay scale reflects the revised 12th Bipartite Settlement scale starting at ₹24,050. Monthly salary includes Dearness Allowance, Special Allowance (26.5% of basic pay with DA thereon), House Rent Allowance (10.25% in metros), Transport Allowance, and City Compensatory Allowance. Deductions include 10% NPS contribution and professional tax.",
     "official_perks": [
@@ -172,11 +175,21 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "IBPS CRP Clerks is one of India's largest banking examinations by applicant volume, selecting clerical staff across 11 nationalized public sector banks (including Punjab National Bank, Canara Bank, Bank of Baroda, and Union Bank of India).",
     "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 11403,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-17",
+        "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzQktjbG5va2stZkVIdXVzTEJ5dzNlamlDdHN5UEpqUDdZbHh4VWVDWUV5THJFYVN2NW5PNTBXTVliRVpxRXlBVHIzaWs3dWVxVmpXS2JYLTlnc1ExYVU3bThxMEhUQl9MLWs1M3ZmSDAwUQ?oc=5",
+        "source_label": "IBPS Clerk Exam Date 2026 Out For 11,403 Vacancies, Check Prelims Exam Date and Shifts - Adda247"
+      },
       {
         "year": 2024,
         "applicants": 1180000,
@@ -201,7 +214,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, examination schedules, state-wise vacancies, and scorecards are published on the official IBPS portal under 'CRP Clerical'.",

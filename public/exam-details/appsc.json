@@ -2,7 +2,6 @@
   "id": "appsc",
   "schema_version": 1,
   "last_reviewed": "2026-09-11",
-
   "career_ladder": {
     "status": "available",
     "note": "APPSC Group-I Services is the premier state civil services examination in Andhra Pradesh. Officers enter as Deputy Collector (Executive Branch), Assistant Commissioner of State Tax, or Deputy Superintendent of Police (AP Police Service) and advance to senior state administration and induction into All India Services (IAS/IPS).",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Group-I Services recruitment comprises three stages: Preliminary Screening Test (Objective OMR, 2 papers of 120 marks each with 1/3rd negative marking), Main Examination (Descriptive written, 2 qualifying language papers + 5 scored papers of 150 marks each = 750 marks), and Interview / Viva-Voce (75 marks). Total merit marks = 825.",
@@ -171,7 +169,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": "Compensated under Andhra Pradesh Revised Pay Scales 2022 (PRC 2022, G.O.Ms.No.1 Finance Department dated 17.01.2022). Entry scale for premier posts (Deputy Collector, Assistant Commissioner of State Tax, DSP) is Scale 21: ₹61,960 - ₹1,51,370 with entry basic pay of ₹61,960.",
@@ -183,8 +180,14 @@
     "pay_source_label": "APPSC Notification No. 12/2023, Details Document, Page 1 Post Codes 01-03",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 108000, "max": 120000 },
-    "in_hand_range_estimate": { "min": 92000, "max": 105000 },
+    "gross_range_estimate": {
+      "min": 108000,
+      "max": 120000
+    },
+    "in_hand_range_estimate": {
+      "min": 92000,
+      "max": 105000
+    },
     "estimate_confidence": "estimate",
     "estimate_note": "Computed on AP PRC 2022 Scale 21 entry basic of ₹61,960 with project constant 58% DA plus HRA (12% to 24% depending on posting tier); in-hand net deducts 10% CPS/NPS, Professional Tax, and APGLI/GIS.",
     "official_perks": [
@@ -196,11 +199,21 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Official statistics released by APPSC for Group-I Services recruitments.",
     "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 163,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-17",
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVF6OEs1SHdvNG9tdXJ2WElvMGh5ZUV2REo3Z1dRcE40QVpXWWxBTVRxLVJnM2JkVERSMGVwQTJ5am56YUxfcndJNUc4bm83Z1BtYkRfVmFvWWxIMjc2bW5xTEI0NWpUNVZSbW1oNG1UdGRKcGFjcVVTb3BKSHlUSWRRTQ?oc=5",
+        "source_label": "APPSC Group 1 Notification 2026 Out For 163 Vacancies, Apply Online, Eligibility, Salary - Adda247"
+      },
       {
         "year": 2024,
         "applicants": 148881,
@@ -214,7 +227,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notification and syllabus documents on the APPSC portal.",
