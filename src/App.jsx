@@ -19,6 +19,8 @@ import MobileNav from './components/MobileNav'
 import ErrorBoundary from './components/ErrorBoundary'
 import Feedback from './components/Feedback'
 import CommandPalette from './components/CommandPalette'
+import UpdatesFeed from './components/UpdatesFeed'
+import NewsTicker from './components/NewsTicker'
 
 /* Session-gated intro check:
    Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
@@ -180,7 +182,7 @@ function App() {
         return
       }
 
-      const validViews = ['explore', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
+      const validViews = ['explore', 'updates', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
       if (validViews.includes(hash)) {
         setActiveView(hash)
         setShowOnlySaved(false)
@@ -370,11 +372,24 @@ function App() {
         onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
       />
 
+      {/* M-Terminal Live Gazette Ticker Strip */}
+      <NewsTicker setActiveView={goToView} />
+
       <main className={`main-content${pageReleased ? '' : ' app-waiting'}`}>
         {!dashboardEntered ? (
           <StoryGate exams={examsData} onEnter={handleDashboardEnter} />
         ) : (
           <>
+            {/* Tab 1: Statutory Gazette & Examination Wire */}
+            {activeView === 'updates' && (
+              <div className="fade-in">
+                <UpdatesFeed
+                  exams={examsData}
+                  onViewDetails={openExamDetail}
+                />
+              </div>
+            )}
+
             {/* Recommendation Wizard */}
             {activeView === 'wizard' && (
               <div className="fade-in">
