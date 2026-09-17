@@ -26,8 +26,11 @@ export default function CalendarView({ exams, onViewDetails }) {
   const [filterMode, setFilterMode] = useState('both') // 'exams', 'applications', 'both'
   const [selectedDomain, setSelectedDomain] = useState('All')
   
-  // Default to January for immediate readability on mobile, or user can toggle to any month or All Year
-  const [selectedMonth, setSelectedMonth] = useState('January')
+  // Default to current calendar month so users see upcoming exams
+  const currentMonthName = useMemo(() => {
+    return MONTH_NAMES[new Date().getMonth()] || 'January'
+  }, [])
+  const [selectedMonth, setSelectedMonth] = useState(currentMonthName)
 
   const domains = useMemo(() => {
     return ['All', ...new Set(exams.map(e => e.domain))].sort()

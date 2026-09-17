@@ -1,8 +1,9 @@
 import { useMemo, useState, useEffect } from 'react'
+import {
+  HiOutlineGlobeAlt, HiOutlineOfficeBuilding, HiOutlineLocationMarker,
+  HiOutlineAcademicCap, HiOutlineBriefcase
+} from 'react-icons/hi'
 
-/* Module-scoped so the count-up runs once per page load. StatsOverview
-   remounts every time the user switches between Explore and Analytics,
-   and the numbers must not re-roll on a tab change. */
 let hasCountedUp = false
 
 const INDIAN_STATES = new Set([
@@ -40,9 +41,6 @@ export default function StatsOverview({ exams, countUp = true }) {
     }
   }, [exams])
 
-  /* One animation frame loop drives all five figures from a single
-     progress value, so the component re-renders once per frame rather
-     than five times. */
   const [progress, setProgress] = useState(() => (hasCountedUp ? 1 : 0))
 
   useEffect(() => {
@@ -69,50 +67,50 @@ export default function StatsOverview({ exams, countUp = true }) {
   const roll = (v) => Math.round(v * progress)
 
   return (
-    <div className="stats-overview terminal-tape">
-      <div className="stat-card tape-cell slide-up">
-        <div className="tape-header">
-          <span className="stat-card-label">TOTAL EXAMINATIONS</span>
-          <span className="tape-indicator">SYS·01</span>
+    <div className="stats-overview modern-metrics-grid">
+      <div className="stat-card modern-metric-cell slide-up">
+        <div className="metric-header">
+          <span className="stat-card-label">TOTAL REGISTRY</span>
+          <HiOutlineGlobeAlt className="metric-icon" />
         </div>
-        <div className="stat-card-value">{roll(stats.total)}</div>
-        <div className="stat-card-sub">Active Indexed Registry</div>
+        <div className="stat-card-value font-display">{roll(stats.total)}</div>
+        <div className="stat-card-sub">Verified Active Examinations</div>
       </div>
 
-      <div className="stat-card tape-cell slide-up" style={{ animationDelay: '0.04s' }}>
-        <div className="tape-header">
+      <div className="stat-card modern-metric-cell slide-up" style={{ animationDelay: '0.04s' }}>
+        <div className="metric-header">
           <span className="stat-card-label">CENTRAL & ALL-INDIA</span>
-          <span className="tape-indicator highlight-blue">UNION</span>
+          <HiOutlineOfficeBuilding className="metric-icon accent-blue" />
         </div>
-        <div className="stat-card-value">{roll(stats.central)}</div>
+        <div className="stat-card-value font-display text-blue">{roll(stats.central)}</div>
         <div className="stat-card-sub">UPSC · SSC · RRB · Def · Banks</div>
       </div>
 
-      <div className="stat-card tape-cell slide-up" style={{ animationDelay: '0.08s' }}>
-        <div className="tape-header">
-          <span className="stat-card-label">STATE GOVT ({stats.statesCount} STATES & {stats.utsCount} UTS)</span>
-          <span className="tape-indicator highlight-purple">STATE</span>
+      <div className="stat-card modern-metric-cell slide-up" style={{ animationDelay: '0.08s' }}>
+        <div className="metric-header">
+          <span className="stat-card-label">STATE & UT COMMISSIONS</span>
+          <HiOutlineLocationMarker className="metric-icon accent-purple" />
         </div>
-        <div className="stat-card-value">{roll(stats.state)}</div>
-        <div className="stat-card-sub">State PSCs & Subordinate Boards</div>
+        <div className="stat-card-value font-display text-purple">{roll(stats.state)}</div>
+        <div className="stat-card-sub">Covering {stats.statesCount} States & {stats.utsCount} UTs</div>
       </div>
 
-      <div className="stat-card tape-cell slide-up" style={{ animationDelay: '0.12s' }}>
-        <div className="tape-header">
+      <div className="stat-card modern-metric-cell slide-up" style={{ animationDelay: '0.12s' }}>
+        <div className="metric-header">
           <span className="stat-card-label">ENTRANCE EXAMS</span>
-          <span className="tape-indicator highlight-amber">ADMISSION</span>
+          <HiOutlineAcademicCap className="metric-icon accent-amber" />
         </div>
-        <div className="stat-card-value">{roll(stats.entrance)}</div>
-        <div className="stat-card-sub">National & State Academic Tests</div>
+        <div className="stat-card-value font-display text-amber">{roll(stats.entrance)}</div>
+        <div className="stat-card-sub">Higher Ed Admissions (UG/PG)</div>
       </div>
 
-      <div className="stat-card tape-cell slide-up" style={{ animationDelay: '0.16s' }}>
-        <div className="tape-header">
-          <span className="stat-card-label">JOB / RECRUITMENT</span>
-          <span className="tape-indicator highlight-green">CAREER</span>
+      <div className="stat-card modern-metric-cell slide-up" style={{ animationDelay: '0.16s' }}>
+        <div className="metric-header">
+          <span className="stat-card-label">JOB RECRUITMENT</span>
+          <HiOutlineBriefcase className="metric-icon accent-green" />
         </div>
-        <div className="stat-card-value">{roll(stats.job)}</div>
-        <div className="stat-card-sub">Direct Gazetted & Subordinate Posts</div>
+        <div className="stat-card-value font-display text-green">{roll(stats.job)}</div>
+        <div className="stat-card-sub">Gazetted & Subordinate Posts</div>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useRef } from 'react'
+import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
 import './index.css'
 import examsData from './data/exams.json'
 import Header from './components/Header'
@@ -13,19 +13,24 @@ import GovtGradesGuide from './components/GovtGradesGuide'
 import HowToUse from './components/HowToUse'
 import ColdBootIntro from './components/ColdBootIntro'
 import StoryGate from './components/StoryGate'
+import ExamWizard from './components/ExamWizard'
+import MobileNav from './components/MobileNav'
+import ErrorBoundary from './components/ErrorBoundary'
 
-/* The opening sequence plays on every load, except for visitors who
-   have asked for reduced motion — ?intro=1 forces it to play even
-   then, so it stays reviewable. matchMedia can throw in odd
-   environments, so the check is guarded. */
+/* Session-gated intro check:
+   Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
 function shouldSkipIntro() {
   try {
     if (new URLSearchParams(window.location.search).get('intro') === '1') return false
+    if (new URLSearchParams(window.location.search).get('intro') === '0') return true
+    if (typeof window !== 'undefined' && window.sessionStorage?.getItem('indiaexams_intro_seen') === 'true') {
+      return true
+    }
     if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       return true
     }
   } catch {
-    /* matchMedia blocked — fall through and play the intro */
+    // Fall back to playing
   }
   return false
 }
@@ -42,46 +47,131 @@ function App() {
     jurisdiction: '',
     state: '',
   })
+  const [sortBy, setSortBy] = useState('popularity')
+  const [viewMode, setViewMode] = useState('grid')
+  const [itemsPerPage, setItemsPerPage] = useState(12)
+  const [showOnlySaved, setShowOnlySaved] = useState(false)
+  const [isGuideOpen, setIsGuideOpen] = useState(false)
+
+  // Bookmarks (Saved Exams) stored in localStorage
+  const [bookmarks, setBookmarks] = useState(() => {
+    try {
+      const saved = localStorage.getItem('indiaexams_bookmarks')
+      return saved ? JSON.parse(saved) : []
+    } catch {
+      return []
+    }
+  })
+
+  const toggleBookmark = useCallback((examId) => {
+    setBookmarks(prev => {
+      const updated = prev.includes(examId)
+        ? prev.filter(id => id !== examId)
+        : [...prev, examId]
+      try {
+        localStorage.setItem('indiaexams_bookmarks', JSON.stringify(updated))
+      } catch (err) {
+        console.error('Failed to save bookmark:', err)
+      }
+      return updated
+    })
+  }, [])
+
   const [compareList, setCompareList] = useState([])
   const [selectedExam, setSelectedExam] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
-  const itemsPerPage = 12
 
-  /* introMounted keeps the overlay alive through its own exit;
-     pageReleased is flipped earlier, so the page rises while the
-     iris is still closing instead of after it. dashboardEntered
-     gates the story gate vs. the real dashboard content — it's only
-     ever pre-set true for reduced-motion visitors, who skip both. */
   const [introMounted, setIntroMounted] = useState(() => !shouldSkipIntro())
   const [pageReleased, setPageReleased] = useState(() => shouldSkipIntro())
   const [dashboardEntered, setDashboardEntered] = useState(() => shouldSkipIntro())
 
-  /* Used to give ColdBootIntro a fresh key so React fully remounts it on replay */
   const introKeyRef = useRef(0)
   const [introKey, setIntroKey] = useState(0)
 
-  const handleIntroRelease = useCallback(() => {
-    setPageReleased(true)
+  const markIntroSeen = useCallback(() => {
+    try {
+      sessionStorage.setItem('indiaexams_intro_seen', 'true')
+    } catch {}
   }, [])
 
-  const handleIntroComplete = useCallback(() => setIntroMounted(false), [])
+  const handleIntroRelease = useCallback(() => {
+    setPageReleased(true)
+    markIntroSeen()
+  }, [markIntroSeen])
+
+  const handleIntroComplete = useCallback(() => {
+    setIntroMounted(false)
+    markIntroSeen()
+  }, [markIntroSeen])
 
   const handleDashboardEnter = useCallback(() => {
     setDashboardEntered(true)
+    markIntroSeen()
+  }, [markIntroSeen])
+
+  // URL Hash Routing
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace(/^#\/?/, '')
+      if (!hash) return
+
+      if (hash.startsWith('exam/')) {
+        const examId = hash.replace('exam/', '')
+        const found = examsData.find(e => e.id === examId)
+        if (found) {
+          setSelectedExam(found)
+          setDashboardEntered(true)
+          setPageReleased(true)
+          setIntroMounted(false)
+        }
+        return
+      }
+
+      if (hash === 'saved') {
+        setActiveView('explore')
+        setShowOnlySaved(true)
+        setDashboardEntered(true)
+        return
+      }
+
+      const validViews = ['explore', 'wizard', 'analytics', 'cadres', 'compare', 'calendar', 'guide']
+      if (validViews.includes(hash)) {
+        setActiveView(hash)
+        setShowOnlySaved(false)
+        setDashboardEntered(true)
+      }
+    }
+
+    handleHashChange()
+    window.addEventListener('hashchange', handleHashChange)
+    return () => window.removeEventListener('hashchange', handleHashChange)
   }, [])
 
-  /* All views dismiss the StoryGate and enter the requested dashboard view */
-  const DASHBOARD_VIEWS = ['explore', 'analytics', 'dashboard', 'guide', 'cadres', 'compare', 'calendar']
-
   const goToView = useCallback((id) => {
-    /* If the StoryGate is still showing, dismiss it for any view navigation */
-    if (DASHBOARD_VIEWS.includes(id)) {
-      handleDashboardEnter()
+    handleDashboardEnter()
+    if (id === 'saved') {
+      setActiveView('explore')
+      setShowOnlySaved(true)
+      window.location.hash = '#saved'
+      return
     }
+    setShowOnlySaved(false)
     setActiveView(id)
+    window.location.hash = `#${id}`
   }, [handleDashboardEnter])
 
-  /* Clicking the IndiaExams logo replays the cold-boot intro and re-shows StoryGate */
+  const openExamDetail = useCallback((exam) => {
+    setSelectedExam(exam)
+    if (exam?.id) {
+      window.location.hash = `#exam/${exam.id}`
+    }
+  }, [])
+
+  const closeExamDetail = useCallback(() => {
+    setSelectedExam(null)
+    window.location.hash = `#${activeView}`
+  }, [activeView])
+
   const handleLogoClick = useCallback(() => {
     introKeyRef.current += 1
     setIntroKey(introKeyRef.current)
@@ -89,12 +179,32 @@ function App() {
     setPageReleased(false)
     setDashboardEntered(false)
     setActiveView('explore')
+    window.location.hash = '#explore'
     window.scrollTo(0, 0)
   }, [])
 
+  // Memoized Filter Options
+  const domains = useMemo(() => [...new Set(examsData.map(e => e.domain))].sort(), [])
+  const levels = useMemo(() => [...new Set(examsData.map(e => e.level))].sort(), [])
+  const frequencies = useMemo(() => [...new Set(examsData.map(e => e.frequency))].sort(), [])
+  const states = useMemo(() => {
+    const s = new Set(
+      examsData
+        .filter(e => e.jurisdiction === 'state' && e.state && e.state !== 'All India')
+        .map(e => e.state)
+    )
+    return [...s].sort()
+  }, [])
+
+  const centralCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'central').length, [])
+  const stateCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'state').length, [])
+
+  // Filtered & Sorted Exams
   const filteredExams = useMemo(() => {
-    return examsData.filter(exam => {
-      const q = searchQuery.toLowerCase()
+    const result = examsData.filter(exam => {
+      if (showOnlySaved && !bookmarks.includes(exam.id)) return false
+
+      const q = searchQuery.toLowerCase().trim()
       const matchSearch = !q ||
         exam.name.toLowerCase().includes(q) ||
         exam.acronym.toLowerCase().includes(q) ||
@@ -114,12 +224,29 @@ function App() {
 
       return matchSearch && matchDomain && matchLevel && matchMode && matchFreq && matchType && matchJurisdiction && matchState
     })
-  }, [searchQuery, filters])
+
+    // Sort result
+    if (sortBy === 'name_asc') {
+      result.sort((a, b) => a.name.localeCompare(b.name))
+    } else if (sortBy === 'name_desc') {
+      result.sort((a, b) => b.name.localeCompare(a.name))
+    } else if (sortBy === 'domain') {
+      result.sort((a, b) => a.domain.localeCompare(b.domain))
+    } else if (sortBy === 'state') {
+      result.sort((a, b) => (a.state || '').localeCompare(b.state || ''))
+    } else {
+      // Popularity default
+      const popRank = { very_high: 3, high: 2, medium: 1, low: 0 }
+      result.sort((a, b) => (popRank[b.popularity] || 0) - (popRank[a.popularity] || 0))
+    }
+
+    return result
+  }, [searchQuery, filters, sortBy, showOnlySaved, bookmarks])
 
   const paginatedExams = useMemo(() => {
     const start = (currentPage - 1) * itemsPerPage
     return filteredExams.slice(start, start + itemsPerPage)
-  }, [filteredExams, currentPage])
+  }, [filteredExams, currentPage, itemsPerPage])
 
   const totalPages = Math.ceil(filteredExams.length / itemsPerPage)
 
@@ -131,6 +258,7 @@ function App() {
   const clearFilters = () => {
     setFilters({ domain: '', level: '', exam_mode: '', frequency: '', exam_type: '', jurisdiction: '', state: '' })
     setSearchQuery('')
+    setShowOnlySaved(false)
     setCurrentPage(1)
   }
 
@@ -145,7 +273,7 @@ function App() {
       setFilters(prev => ({ ...prev, [key]: value }))
     }
     setCurrentPage(1)
-    setActiveView('explore')
+    goToView('explore')
   }
 
   const toggleCompare = (exam) => {
@@ -162,25 +290,10 @@ function App() {
     setCompareList(prev => prev.filter(e => e.id !== examId))
   }
 
-  const getDomains = () => [...new Set(examsData.map(e => e.domain))].sort()
-  const getLevels = () => [...new Set(examsData.map(e => e.level))].sort()
-  const getFrequencies = () => [...new Set(examsData.map(e => e.frequency))].sort()
-  const getStates = () => {
-    const s = new Set(
-      examsData
-        .filter(e => e.jurisdiction === 'state' && e.state && e.state !== 'All India')
-        .map(e => e.state)
-    )
-    return [...s].sort()
-  }
-
-  const centralCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'central').length, [])
-  const stateCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'state').length, [])
-
   const activeFilters = Object.entries(filters).filter(([, v]) => v)
 
   return (
-    <>
+    <ErrorBoundary>
       {introMounted && (
         <ColdBootIntro
           key={introKey}
@@ -188,102 +301,166 @@ function App() {
           onComplete={handleIntroComplete}
         />
       )}
+
       <Header
         activeView={activeView}
         setActiveView={goToView}
         totalExams={examsData.length}
         compareCount={compareList.length}
+        bookmarkCount={bookmarks.length}
         onLogoClick={handleLogoClick}
+        onOpenGuide={() => setIsGuideOpen(true)}
       />
 
       <main className={`main-content${pageReleased ? '' : ' app-waiting'}`}>
         {!dashboardEntered ? (
           <StoryGate exams={examsData} onEnter={handleDashboardEnter} />
         ) : (
-        <>
-        {activeView === 'guide' && (
-          <div className="fade-in">
+          <>
+            {/* Recommendation Wizard */}
+            {activeView === 'wizard' && (
+              <div className="fade-in">
+                <ExamWizard
+                  exams={examsData}
+                  states={states}
+                  onSelectExam={openExamDetail}
+                  onToggleCompare={toggleCompare}
+                  compareList={compareList}
+                  bookmarks={bookmarks}
+                  onToggleBookmark={toggleBookmark}
+                />
+              </div>
+            )}
+
+            {/* Explore View (Cards / List / Search / Filters) */}
+            {activeView === 'explore' && (
+              <div className="fade-in">
+                <StatsOverview exams={examsData} countUp={pageReleased} />
+                <SearchFilter
+                  searchQuery={searchQuery}
+                  setSearchQuery={(q) => { setSearchQuery(q); setCurrentPage(1) }}
+                  filters={filters}
+                  onFilterChange={handleFilterChange}
+                  clearFilters={clearFilters}
+                  activeFilters={activeFilters}
+                  domains={domains}
+                  levels={levels}
+                  frequencies={frequencies}
+                  states={states}
+                  centralCount={centralCount}
+                  stateCount={stateCount}
+                  resultCount={filteredExams.length}
+                  totalCount={examsData.length}
+                  sortBy={sortBy}
+                  setSortBy={setSortBy}
+                  viewMode={viewMode}
+                  setViewMode={setViewMode}
+                  showOnlySaved={showOnlySaved}
+                  setShowOnlySaved={setShowOnlySaved}
+                  savedCount={bookmarks.length}
+                  allExams={examsData}
+                  onSelectExam={openExamDetail}
+                />
+                <ExamGrid
+                  exams={paginatedExams}
+                  compareList={compareList}
+                  toggleCompare={toggleCompare}
+                  onViewDetails={openExamDetail}
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  setCurrentPage={setCurrentPage}
+                  viewMode={viewMode}
+                  itemsPerPage={itemsPerPage}
+                  setItemsPerPage={setItemsPerPage}
+                  bookmarks={bookmarks}
+                  onToggleBookmark={toggleBookmark}
+                />
+              </div>
+            )}
+
+            {/* Analytics Dashboard */}
+            {(activeView === 'analytics' || activeView === 'dashboard') && (
+              <div className="fade-in">
+                <StatsOverview exams={examsData} countUp={pageReleased} />
+                <Analytics exams={examsData} onApplyFilter={handleApplyAnalyticsFilter} />
+              </div>
+            )}
+
+            {/* Govt Grades Guide */}
+            {activeView === 'cadres' && (
+              <div className="fade-in">
+                <GovtGradesGuide
+                  setActiveView={goToView}
+                  setSearchQuery={setSearchQuery}
+                />
+              </div>
+            )}
+
+            {/* Comparison Tool */}
+            {activeView === 'compare' && (
+              <div className="fade-in">
+                <ComparisonTool
+                  compareList={compareList}
+                  removeFromCompare={removeFromCompare}
+                />
+              </div>
+            )}
+
+            {/* Annual Calendar */}
+            {activeView === 'calendar' && (
+              <div className="fade-in">
+                <CalendarView exams={examsData} onViewDetails={openExamDetail} />
+              </div>
+            )}
+
+            {/* How to Use Full Page */}
+            {activeView === 'guide' && (
+              <div className="fade-in">
+                <HowToUse
+                  setActiveView={goToView}
+                  setFilters={setFilters}
+                  setSearchQuery={setSearchQuery}
+                  totalExams={examsData.length}
+                />
+              </div>
+            )}
+          </>
+        )}
+      </main>
+
+      {/* Guide Modal when opened from header 'Guide' button */}
+      {isGuideOpen && (
+        <div className="modal-overlay" onClick={() => setIsGuideOpen(false)}>
+          <div className="modal-content guide-modal-content" onClick={e => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setIsGuideOpen(false)} aria-label="Close guide">✕</button>
             <HowToUse
-              setActiveView={setActiveView}
+              setActiveView={(v) => { setIsGuideOpen(false); goToView(v) }}
               setFilters={setFilters}
               setSearchQuery={setSearchQuery}
               totalExams={examsData.length}
             />
           </div>
-        )}
+        </div>
+      )}
 
-        {activeView === 'explore' && (
-          <div className="fade-in">
-            <StatsOverview exams={examsData} countUp={pageReleased} />
-            <SearchFilter
-              searchQuery={searchQuery}
-              setSearchQuery={(q) => { setSearchQuery(q); setCurrentPage(1) }}
-              filters={filters}
-              onFilterChange={handleFilterChange}
-              clearFilters={clearFilters}
-              activeFilters={activeFilters}
-              domains={getDomains()}
-              levels={getLevels()}
-              frequencies={getFrequencies()}
-              states={getStates()}
-              centralCount={centralCount}
-              stateCount={stateCount}
-              resultCount={filteredExams.length}
-              totalCount={examsData.length}
-            />
-            <ExamGrid
-              exams={paginatedExams}
-              compareList={compareList}
-              toggleCompare={toggleCompare}
-              onViewDetails={setSelectedExam}
-              currentPage={currentPage}
-              totalPages={totalPages}
-              setCurrentPage={setCurrentPage}
-            />
-          </div>
-        )}
-
-        {(activeView === 'analytics' || activeView === 'dashboard') && (
-          <div className="fade-in">
-            <StatsOverview exams={examsData} countUp={pageReleased} />
-            <Analytics exams={examsData} onApplyFilter={handleApplyAnalyticsFilter} />
-          </div>
-        )}
-
-        {activeView === 'cadres' && (
-          <div className="fade-in">
-            <GovtGradesGuide
-              setActiveView={setActiveView}
-              setSearchQuery={setSearchQuery}
-            />
-          </div>
-        )}
-
-        {activeView === 'compare' && (
-          <div className="fade-in">
-            <ComparisonTool
-              compareList={compareList}
-              removeFromCompare={removeFromCompare}
-            />
-          </div>
-        )}
-
-        {activeView === 'calendar' && (
-          <div className="fade-in">
-            <CalendarView exams={examsData} onViewDetails={setSelectedExam} />
-          </div>
-        )}
-        </>
-        )}
-      </main>
-
+      {/* Exam Detail Modal */}
       {selectedExam && (
         <ExamDetail
           exam={selectedExam}
-          onClose={() => setSelectedExam(null)}
+          allExams={examsData}
+          onSelectExam={openExamDetail}
+          onClose={closeExamDetail}
         />
       )}
-    </>
+
+      {/* Mobile Bottom Navigation */}
+      <MobileNav
+        activeView={showOnlySaved ? 'saved' : activeView}
+        setActiveView={goToView}
+        compareCount={compareList.length}
+        bookmarkCount={bookmarks.length}
+      />
+    </ErrorBoundary>
   )
 }
 

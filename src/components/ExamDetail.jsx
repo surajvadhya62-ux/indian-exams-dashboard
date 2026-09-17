@@ -1,7 +1,10 @@
-import { useState } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { getDomainColor } from '../utils/helpers'
 import { useExamDetail } from '../hooks/useExamDetail'
-import { HiOutlineExternalLink, HiX } from 'react-icons/hi'
+import {
+  HiOutlineExternalLink, HiX, HiChevronLeft, HiChevronRight,
+  HiOutlineArrowRight
+} from 'react-icons/hi'
 import CareerLadder from './exam-detail/CareerLadder'
 import ExamSchemeTable from './exam-detail/ExamSchemeTable'
 import SalaryCalculator from './exam-detail/SalaryCalculator'
@@ -9,27 +12,84 @@ import CompetitionBenchmarks from './exam-detail/CompetitionBenchmarks'
 import ResourceLinks from './exam-detail/ResourceLinks'
 import SectionStatusBadge from './exam-detail/SectionStatusBadge'
 
-const TABS = [
-  { id: 'overview', label: 'Overview & Scope' },
-  { id: 'career', label: 'Career Progression' },
-  { id: 'scheme', label: 'Exam Pattern & Scheme' },
-  { id: 'salary', label: '7th CPC Salary & Perks' },
-  { id: 'competition', label: 'Cut-offs & Vacancies' },
-  { id: 'resources', label: 'Official Resources' },
-]
-
-export default function ExamDetail({ exam, onClose }) {
+export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam }) {
   const color = getDomainColor(exam.domain)
+  const isJob = exam.exam_type === 'job'
+
+  const tabs = useMemo(() => {
+    const list = [
+      { id: 'overview', label: 'Overview & Scope' },
+      { id: 'career', label: 'Career Progression' },
+      { id: 'scheme', label: 'Exam Pattern & Scheme' },
+    ]
+    // Only show 7th CPC Salary tab for job recruitment exams
+    if (isJob) {
+      list.push({ id: 'salary', label: '7th CPC Salary & Perks' })
+    }
+    list.push(
+      { id: 'competition', label: 'Cut-offs & Vacancies' },
+      { id: 'resources', label: 'Official Resources' }
+    )
+    return list
+  }, [isJob])
+
   const [activeTab, setActiveTab] = useState('overview')
   const { status: detailStatus, detail } = useExamDetail(exam.id)
 
+  // Escape key listener to close modal
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') onClose()
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [onClose])
+
+  // Prev / Next Exam navigation
+  const currentIndex = useMemo(() => {
+    return allExams.findIndex(e => e.id === exam.id)
+  }, [allExams, exam.id])
+
+  const prevExam = currentIndex > 0 ? allExams[currentIndex - 1] : null
+  const nextExam = currentIndex >= 0 && currentIndex < allExams.length - 1 ? allExams[currentIndex + 1] : null
+
+  // Similar exams (same domain or level, excluding current)
+  const similarExams = useMemo(() => {
+    if (!allExams.length) return []
+    return allExams
+      .filter(e => e.id !== exam.id && (e.domain === exam.domain || e.level === exam.level))
+      .slice(0, 3)
+  }, [allExams, exam.id, exam.domain, exam.level])
+
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={e => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}><HiX /></button>
+      <div className="modal-content slide-up" onClick={e => e.stopPropagation()}>
+        <div className="modal-top-actions">
+          {allExams.length > 0 && onSelectExam && (
+            <div className="modal-nav-pair">
+              <button
+                className="modal-nav-arrow"
+                disabled={!prevExam}
+                onClick={() => prevExam && onSelectExam(prevExam)}
+                title={prevExam ? `Previous: ${prevExam.acronym || prevExam.name}` : 'No previous exam'}
+              >
+                <HiChevronLeft /> Prev
+              </button>
+              <button
+                className="modal-nav-arrow"
+                disabled={!nextExam}
+                onClick={() => nextExam && onSelectExam(nextExam)}
+                title={nextExam ? `Next: ${nextExam.acronym || nextExam.name}` : 'No next exam'}
+              >
+                Next <HiChevronRight />
+              </button>
+            </div>
+          )}
+          <button className="modal-close" onClick={onClose} aria-label="Close modal"><HiX /></button>
+        </div>
 
         <div className="modal-header">
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 8, flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8, flexWrap: 'wrap' }}>
             <span className="domain-badge" style={{
               background: `${color}20`, color, border: `1px solid ${color}40`
             }}>
@@ -39,7 +99,7 @@ export default function ExamDetail({ exam, onClose }) {
               background: 'rgba(255,255,255,0.05)', color: 'var(--text-secondary)',
               border: '1px solid rgba(255,255,255,0.1)'
             }}>
-              {exam.exam_type === 'entrance' ? '🎓 Entrance' : '💼 Job/Recruitment'}
+              {isJob ? '💼 Job / Recruitment' : '🎓 Entrance Exam'}
             </span>
             <span className="domain-badge" style={{
               background: exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.15)' : 'rgba(168, 85, 247, 0.15)',
@@ -54,7 +114,7 @@ export default function ExamDetail({ exam, onClose }) {
         </div>
 
         <div className="dossier-tab-bar">
-          {TABS.map(tab => (
+          {tabs.map(tab => (
             <button
               key={tab.id}
               className={`dossier-tab-btn ${activeTab === tab.id ? 'active' : ''}`}
@@ -69,13 +129,13 @@ export default function ExamDetail({ exam, onClose }) {
         {activeTab === 'overview' && (
           <div className="dossier-tab-content fade-in">
             <div className="modal-section">
-              <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: 1.7 }}>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: 1.7 }}>
                 {exam.description}
               </p>
             </div>
 
             <div className="modal-section">
-              <h4 className="modal-section-title">Key Details</h4>
+              <h4 className="modal-section-title">Key Parameters</h4>
               <div className="modal-detail-grid">
                 <div className="modal-detail-item">
                   <div className="modal-detail-label">Scope & Jurisdiction</div>
@@ -90,7 +150,7 @@ export default function ExamDetail({ exam, onClose }) {
                   </div>
                 )}
                 <div className="modal-detail-item">
-                  <div className="modal-detail-label">Conducting Body</div>
+                  <div className="modal-detail-label">Conducting Commission</div>
                   <div className="modal-detail-value">{exam.conducting_body}</div>
                 </div>
                 <div className="modal-detail-item">
@@ -117,10 +177,10 @@ export default function ExamDetail({ exam, onClose }) {
             </div>
 
             <div className="modal-section">
-              <h4 className="modal-section-title">Eligibility</h4>
+              <h4 className="modal-section-title">Eligibility Requirements</h4>
               <div className="modal-detail-grid">
                 <div className="modal-detail-item">
-                  <div className="modal-detail-label">Min. Qualification</div>
+                  <div className="modal-detail-label">Minimum Qualification</div>
                   <div className="modal-detail-value">{exam.min_qualification}</div>
                 </div>
                 <div className="modal-detail-item">
@@ -130,48 +190,47 @@ export default function ExamDetail({ exam, onClose }) {
               </div>
             </div>
 
-            <div className="modal-section">
-              <h4 className="modal-section-title">Target Role</h4>
-              <div className="modal-detail-item" style={{ background: 'var(--bg-glass)', border: '1px solid var(--border-glass)', borderRadius: 12, padding: 12 }}>
-                <div className="modal-detail-value">{exam.target_role}</div>
-              </div>
-            </div>
-
-            {exam.field && exam.field.length > 0 && (
-              <div className="modal-section">
-                <h4 className="modal-section-title">Fields</h4>
-                <div className="modal-field-list">
-                  {exam.field.map(f => <span key={f} className="modal-field-tag">{f}</span>)}
-                </div>
-              </div>
-            )}
-
-            {exam.specializations && exam.specializations.length > 0 && (
-              <div className="modal-section">
-                <h4 className="modal-section-title">Specializations</h4>
-                <div className="modal-field-list">
-                  {exam.specializations.map(s => (
-                    <span key={s} className="modal-field-tag" style={{
-                      background: 'rgba(20, 184, 166, 0.1)',
-                      borderColor: 'rgba(20, 184, 166, 0.2)',
-                      color: '#14b8a6',
-                    }}>{s}</span>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {exam.official_website && exam.official_website !== '#' && (
-              <div className="modal-section" style={{ marginTop: '1.5rem' }}>
+              <div className="modal-section" style={{ display: 'flex', justifyContent: 'flex-start' }}>
                 <a
                   href={exam.official_website}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="modal-website-btn"
+                  className="modal-official-portal-btn"
                 >
-                  <HiOutlineExternalLink />
-                  Visit Official Website
+                  Visit Official Examination Portal <HiOutlineExternalLink />
                 </a>
+              </div>
+            )}
+
+            {/* Similar Examinations */}
+            {similarExams.length > 0 && (
+              <div className="modal-section similar-exams-section">
+                <h4 className="modal-section-title">Similar Examinations You May Consider</h4>
+                <div className="similar-exams-grid">
+                  {similarExams.map(sim => {
+                    const simColor = getDomainColor(sim.domain)
+                    return (
+                      <div
+                        key={sim.id}
+                        className="similar-exam-card"
+                        style={{ borderLeft: `3px solid ${simColor}` }}
+                        onClick={() => onSelectExam && onSelectExam(sim)}
+                      >
+                        <div className="sim-header">
+                          <span className="sim-title">{sim.name}</span>
+                          <span className="sim-acronym">{sim.acronym}</span>
+                        </div>
+                        <div className="sim-meta">
+                          <span>{sim.domain}</span> · <span>{sim.level}</span>
+                        </div>
+                        <div className="sim-action">
+                          Switch to this dossier <HiOutlineArrowRight />
+                        </div>
+                      </div>
+                    )
+                  })}
+                </div>
               </div>
             )}
           </div>
@@ -200,7 +259,7 @@ export default function ExamDetail({ exam, onClose }) {
           </div>
         )}
 
-        {activeTab === 'salary' && (
+        {activeTab === 'salary' && isJob && (
           <div className="dossier-tab-content fade-in">
             <div style={{ marginBottom: '1rem' }}>
               <SectionStatusBadge section={detail?.financial_package} />
@@ -236,7 +295,7 @@ export default function ExamDetail({ exam, onClose }) {
         )}
 
         {detail?.last_reviewed && activeTab !== 'overview' && (
-          <p className="dossier-review-stamp">Dossier last reviewed {detail.last_reviewed}</p>
+          <p className="dossier-review-stamp">Dossier verified & sourced {detail.last_reviewed}</p>
         )}
       </div>
     </div>

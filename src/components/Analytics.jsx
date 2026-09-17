@@ -7,26 +7,19 @@ import { getDomainColor } from '../utils/helpers'
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
+    const title = label || payload[0].name
+    const leadColor = payload[0].payload?.fill || payload[0].color || 'var(--amber-bright, #e8a33d)'
+
     return (
-      <div className="terminal-tooltip" style={{
-        background: '#11151c',
-        border: '1px solid #2e3846',
-        borderRadius: '4px',
-        padding: '8px 12px',
-        boxShadow: '0 8px 24px rgba(0,0,0,0.6)',
-        color: '#e8eaed',
-        fontSize: '0.8rem',
-        fontFamily: 'var(--font-sans)',
-        minWidth: '160px'
-      }}>
-        <p style={{ fontWeight: 600, marginBottom: '4px', color: payload[0].fill || '#e8a33d', fontFamily: 'var(--font-mono)' }}>
-          {label || payload[0].name}
-        </p>
+      <div className="analytics-custom-tooltip">
+        <div className="tooltip-title" style={{ color: leadColor }}>
+          {title}
+        </div>
         {payload.map((entry, i) => (
-          <p key={i} style={{ margin: '2px 0', color: '#8a93a0', fontSize: '0.76rem', display: 'flex', justifyContent: 'space-between', gap: '12px' }}>
-            <span>{entry.name || 'Count'}:</span>
-            <strong style={{ color: '#e8eaed', fontFamily: 'var(--font-mono)' }}>{entry.value} exams</strong>
-          </p>
+          <div key={i} className="tooltip-row">
+            <span className="tooltip-label">{entry.name || 'Count'}:</span>
+            <span className="tooltip-val">{entry.value} exams</span>
+          </div>
         ))}
       </div>
     )
@@ -50,20 +43,84 @@ export default function Analytics({ exams, onApplyFilter }) {
     return () => mq.removeEventListener('change', handler)
   }, [])
 
-  // Domain distribution
+  // Dynamic Telemetry KPIs (100% computed from real data)
+  const kpis = useMemo(() => {
+    const total = exams.length
+    if (!total) {
+      return {
+        total: 0, central: 0, state: 0, centralPct: '0', statePct: '0',
+        jobs: 0, entrance: 0, jobsPct: '0',
+        cbt: 0, offline: 0, cbtPct: '0',
+        degree: 0, degreePct: '0'
+      }
+    }
+    const central = exams.filter(e => e.jurisdiction === 'central').length
+    const state = exams.filter(e => e.jurisdiction === 'state').length
+    const jobs = exams.filter(e => e.exam_type === 'job').length
+    const entrance = exams.filter(e => e.exam_type === 'entrance').length
+
+    let cbt = 0
+    let offline = 0
+    exams.forEach(e => {
+      const m = (e.exam_mode || '').toLowerCase()
+      if (m.includes('online') || m.includes('cbt')) cbt++
+      else if (m.includes('offline') || m.includes('omr') || m.includes('pen')) offline++
+    })
+
+    let degree = 0
+    exams.forEach(e => {
+      const q = (e.min_qualification || '').toLowerCase()
+      if (
+        q.includes('bachelor') || q.includes('graduate') || q.includes('degree') ||
+        q.includes('mbbs') || q.includes('b.tech') || q.includes('llb') ||
+        q.includes('master') || q.includes('post graduate') || q.includes('pg')
+      ) {
+        degree++
+      }
+    })
+
+    return {
+      total,
+      central,
+      state,
+      centralPct: ((central / total) * 100).toFixed(1),
+      statePct: ((state / total) * 100).toFixed(1),
+      jobs,
+      entrance,
+      jobsPct: ((jobs / total) * 100).toFixed(1),
+      cbt,
+      offline,
+      cbtPct: ((cbt / total) * 100).toFixed(1),
+      degree,
+      degreePct: ((degree / total) * 100).toFixed(1)
+    }
+  }, [exams])
+
+  // Grouped Domain Distribution (Top 7 + 'Other' to prevent 18-slice unreadable clutter)
   const domainData = useMemo(() => {
     const counts = {}
     exams.forEach(e => {
       const d = e.domain || 'Other'
       counts[d] = (counts[d] || 0) + 1
     })
-    return Object.entries(counts)
+    const sorted = Object.entries(counts)
       .map(([name, value]) => ({
         name,
         value,
         color: getDomainColor(name)
       }))
       .sort((a, b) => b.value - a.value)
+
+    if (sorted.length <= 8) return sorted
+    const top7 = sorted.slice(0, 7)
+    const remaining = sorted.slice(7)
+    const otherCount = remaining.reduce((acc, curr) => acc + curr.value, 0)
+    top7.push({
+      name: `Other (${remaining.length} Domains)`,
+      value: otherCount,
+      color: '#64748b'
+    })
+    return top7
   }, [exams])
 
   // Top conducting bodies
@@ -79,7 +136,7 @@ export default function Analytics({ exams, onApplyFilter }) {
       .slice(0, 8)
   }, [exams])
 
-  // Comparative Data 1: Central vs State by Purpose (Grouped comparison)
+  // Comparative Data 1: Central vs State by Purpose
   const jurisdictionPurposeData = useMemo(() => {
     const centralJobs = exams.filter(e => e.jurisdiction === 'central' && e.exam_type === 'job').length
     const centralEnt = exams.filter(e => e.jurisdiction === 'central' && e.exam_type === 'entrance').length
@@ -126,7 +183,7 @@ export default function Analytics({ exams, onApplyFilter }) {
       .sort((a, b) => b.value - a.value)
   }, [exams])
 
-  // Comparative Data 3: Minimum Educational Eligibility Breakdown
+  // Comparative Data 3: Minimum Educational Eligibility (PG tested FIRST)
   const qualificationData = useMemo(() => {
     const counts = {
       'Bachelor’s Degree': 0,
@@ -138,15 +195,16 @@ export default function Analytics({ exams, onApplyFilter }) {
     }
     exams.forEach(e => {
       const q = (e.min_qualification || '').toLowerCase()
-      if (q.includes('bachelor') || q.includes('graduate') || q.includes('degree') || q.includes('any graduate')) {
+      // Test Post-Graduate before Bachelor / Graduate
+      if (q.includes('master') || q.includes('post graduate') || q.includes('postgraduate') || q.includes('pg') || q.includes('m.')) {
+        counts['Post-Graduate / Masters']++
+      } else if (q.includes('bachelor') || q.includes('graduate') || q.includes('degree') || q.includes('any graduate')) {
         counts['Bachelor’s Degree']++
       } else if (q.includes('12th') || q.includes('10+2') || q.includes('intermediate') || q.includes('higher secondary')) {
         counts['10+2 / Intermediate']++
       } else if (q.includes('10th') || q.includes('matric') || q.includes('sslc')) {
         counts['10th / Matriculation']++
-      } else if (q.includes('master') || q.includes('post graduate') || q.includes('pg') || q.includes('m.')) {
-        counts['Post-Graduate / Masters']++
-      } else if (q.includes('diploma')) {
+      } else if (q.includes('diploma') || q.includes('polytechnic')) {
         counts['Technical Diploma']++
       } else {
         counts['Professional Degree (Eng/Med/Law)']++
@@ -157,7 +215,7 @@ export default function Analytics({ exams, onApplyFilter }) {
       .sort((a, b) => b.value - a.value)
   }, [exams])
 
-  // Comparative Data 4: Delivery Modernization (CBT vs Offline)
+  // Comparative Data 4: Delivery Modernization
   const modeData = useMemo(() => {
     let cbt = 0
     let offline = 0
@@ -179,7 +237,7 @@ export default function Analytics({ exams, onApplyFilter }) {
     ]
   }, [exams])
 
-  // Comparative Data 5: Annual Seasonality / Month-by-Month Examination Pressure
+  // Comparative Data 5: Annual Seasonality
   const seasonalityData = useMemo(() => {
     const monthsOrder = [
       'January', 'February', 'March', 'April', 'May', 'June',
@@ -198,68 +256,85 @@ export default function Analytics({ exams, onApplyFilter }) {
     })
 
     return monthsOrder.map(m => ({
-      month: m.slice(0, 3),
+      month: m.substring(0, 3),
       fullName: m,
       exams: counts[m]
     }))
   }, [exams])
 
-  // Top states distribution
+  // Dynamic Strategic Highlights
+  const strategicInsights = useMemo(() => {
+    const mayExams = seasonalityData.find(s => s.fullName === 'May')?.exams || 0
+    const juneExams = seasonalityData.find(s => s.fullName === 'June')?.exams || 0
+    const mayJunePct = kpis.total ? (((mayExams + juneExams) / kpis.total) * 100).toFixed(1) : '25.0'
+
+    const topCadre = cadreData[0] || { name: 'Frontline & Subordinate Cadres', value: 0 }
+    const gazettedCadre = cadreData.find(c => c.name.includes('Group A')) || { value: 0 }
+
+    return {
+      mayJunePct,
+      topCadreName: topCadre.name,
+      topCadreCount: topCadre.value,
+      gazettedCount: gazettedCadre.value
+    }
+  }, [seasonalityData, kpis, cadreData])
+
+  // State-wise distribution
   const stateData = useMemo(() => {
     const counts = {}
-    exams.filter(e => e.jurisdiction === 'state' && e.state && e.state !== 'All India').forEach(e => {
+    exams.filter(e => e.jurisdiction === 'state' && e.state).forEach(e => {
       counts[e.state] = (counts[e.state] || 0) + 1
     })
     return Object.entries(counts)
-      .map(([name, value]) => ({ name, value }))
-      .sort((a, b) => b.value - a.value)
+      .map(([state, count]) => ({ state, count }))
+      .sort((a, b) => b.count - a.count)
       .slice(0, 10)
   }, [exams])
 
   return (
     <section className="analytics-section">
-      {/* Intelligence Telemetry Overview Bar */}
+      {/* 100% Dynamic Telemetry Bar */}
       <div className="analytics-kpi-tape">
         <div className="analytics-kpi-cell">
           <div className="kpi-tag">JURISDICTION BALANCE</div>
-          <div className="kpi-val">260 <span className="kpi-dim">/ 255</span></div>
-          <div className="kpi-sub">50.5% Central · 49.5% State</div>
+          <div className="kpi-val">{kpis.central} <span className="kpi-dim">/ {kpis.state}</span></div>
+          <div className="kpi-sub">{kpis.centralPct}% Central · {kpis.statePct}% State</div>
         </div>
 
         <div className="analytics-kpi-cell">
           <div className="kpi-tag">PURPOSE DOMINANCE</div>
-          <div className="kpi-val highlight-amber">76.1%</div>
-          <div className="kpi-sub">392 Jobs · 123 Entrance</div>
+          <div className="kpi-val highlight-amber">{kpis.jobsPct}%</div>
+          <div className="kpi-sub">{kpis.jobs} Jobs · {kpis.entrance} Entrance</div>
         </div>
 
         <div className="analytics-kpi-cell">
           <div className="kpi-tag">CBT DIGITAL ADOPTION</div>
-          <div className="kpi-val highlight-teal">53.6%</div>
-          <div className="kpi-sub">276 CBT vs 224 Offline</div>
+          <div className="kpi-val highlight-teal">{kpis.cbtPct}%</div>
+          <div className="kpi-sub">{kpis.cbt} CBT vs {kpis.offline} Offline</div>
         </div>
 
         <div className="analytics-kpi-cell">
           <div className="kpi-tag">DEGREE THRESHOLD</div>
-          <div className="kpi-val highlight-blue">62.3%</div>
-          <div className="kpi-sub">321 require Bachelor's Degree</div>
+          <div className="kpi-val highlight-blue">{kpis.degreePct}%</div>
+          <div className="kpi-sub">{kpis.degree} require Degree or higher</div>
         </div>
       </div>
 
       {/* Section Header */}
       <div className="section-header" style={{ marginBottom: '1.25rem' }}>
         <div>
-          <h2 className="section-title" style={{ fontSize: '1.4rem' }}>
+          <h2 className="section-title">
             📊 National Examinations Intelligence & Comparative Analytics
           </h2>
-          <p className="section-subtitle" style={{ color: 'var(--muted)', fontSize: '0.86rem' }}>
-            Multi-dimensional comparative telemetry across conducting commissions, administrative cadres, eligibility gateways, and seasonal density.
+          <p className="section-subtitle">
+            Multi-dimensional telemetry across conducting commissions, administrative cadres, eligibility gateways, and seasonal density ({kpis.total} exams verified).
           </p>
         </div>
       </div>
 
       {onApplyFilter && (
         <div className="analytics-interactive-banner">
-          <span>👆 <strong>Terminal Interactive Filter:</strong> Click any bar, chart slice, or authority name to immediately jump to matching examinations in the registry.</span>
+          <span>👆 <strong>Interactive Filter:</strong> Click any bar, chart slice, or authority name to immediately jump to matching examinations in the registry.</span>
         </div>
       )}
 
@@ -292,7 +367,7 @@ export default function Analytics({ exams, onApplyFilter }) {
       </div>
 
       <div className="analytics-grid">
-        {/* Comparison 1: Central vs State Purpose (Job vs Entrance) */}
+        {/* Comparison 1: Central vs State Purpose */}
         {(filterModule === 'all' || filterModule === 'comparisons') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
@@ -307,15 +382,11 @@ export default function Analytics({ exams, onApplyFilter }) {
                   data={jurisdictionPurposeData}
                   margin={{ top: 20, right: 30, left: 10, bottom: 5 }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#232a33" vertical={false} />
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
                   <XAxis dataKey="jurisdiction" stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 11 }} />
                   <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
                   <Tooltip content={<CustomTooltip />} />
-                  <Legend
-                    verticalAlign="top"
-                    align="right"
-                    wrapperStyle={{ fontSize: '0.78rem', paddingBottom: '10px' }}
-                  />
+                  <Legend verticalAlign="top" align="right" wrapperStyle={{ fontSize: '0.78rem', paddingBottom: '10px' }} />
                   <Bar
                     dataKey="Job / Career Recruitment"
                     fill="#2e9e6b"
@@ -336,7 +407,7 @@ export default function Analytics({ exams, onApplyFilter }) {
           </div>
         )}
 
-        {/* Comparison 2: Government Service Cadres & Pay Hierarchy */}
+        {/* Comparison 2: Government Service Cadres */}
         {(filterModule === 'all' || filterModule === 'comparisons') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
@@ -350,24 +421,28 @@ export default function Analytics({ exams, onApplyFilter }) {
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart
                   data={cadreData}
-                  layout="vertical"
-                  margin={{ top: 10, right: isMobile ? 15 : 30, left: isMobile ? 0 : 10, bottom: 5 }}
+                  layout={isMobile ? 'vertical' : 'horizontal'}
+                  margin={{ top: 20, right: 30, left: 10, bottom: isMobile ? 5 : 45 }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#232a33" horizontal={false} />
-                  <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                  <YAxis
-                    type="category"
-                    dataKey="name"
-                    stroke="#64748b"
-                    tick={{ fill: '#cbd5e1', fontSize: isMobile ? 8.5 : 10 }}
-                    width={isMobile ? 90 : 140}
-                  />
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
+                  {isMobile ? (
+                    <>
+                      <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 10 }} />
+                      <YAxis type="category" dataKey="name" width={110} stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 10 }} />
+                    </>
+                  ) : (
+                    <>
+                      <XAxis dataKey="name" stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 10 }} angle={-20} textAnchor="end" height={60} />
+                      <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                    </>
+                  )}
                   <Tooltip content={<CustomTooltip />} />
                   <Bar
                     dataKey="value"
-                    radius={[0, 4, 4, 0]}
+                    name="Examinations"
+                    radius={[4, 4, 0, 0]}
                     cursor={onApplyFilter ? 'pointer' : 'default'}
-                    onClick={(entry) => onApplyFilter && onApplyFilter('conducting_body', entry.name)}
+                    onClick={(entry) => onApplyFilter && onApplyFilter('cadre', entry.name)}
                   >
                     {cadreData.map((entry, index) => (
                       <Cell key={`cadre-${index}`} fill={entry.fill} />
@@ -379,13 +454,13 @@ export default function Analytics({ exams, onApplyFilter }) {
           </div>
         )}
 
-        {/* Comparison 3: Minimum Educational Qualification Gateways */}
+        {/* Comparison 3: Minimum Educational Eligibility */}
         {(filterModule === 'all' || filterModule === 'comparisons') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
               <div>
-                <h3 className="chart-card-title">Educational Eligibility Gateways</h3>
-                <span className="chart-card-subtitle">Minimum qualification threshold across {exams.length} examinations</span>
+                <h3 className="chart-card-title">Minimum Educational Eligibility Gateways</h3>
+                <span className="chart-card-subtitle">Distribution by base entry credential</span>
               </div>
             </div>
             <div style={{ width: '100%', height: 320 }}>
@@ -393,159 +468,95 @@ export default function Analytics({ exams, onApplyFilter }) {
                 <BarChart
                   data={qualificationData}
                   layout="vertical"
-                  margin={{ top: 10, right: isMobile ? 15 : 30, left: isMobile ? 0 : 10, bottom: 5 }}
+                  margin={{ top: 15, right: 30, left: isMobile ? 10 : 30, bottom: 5 }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#232a33" horizontal={false} />
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" horizontal={false} />
                   <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                  <YAxis
-                    type="category"
-                    dataKey="name"
-                    stroke="#64748b"
-                    tick={{ fill: '#cbd5e1', fontSize: isMobile ? 8.5 : 10.5 }}
-                    width={isMobile ? 95 : 150}
-                  />
+                  <YAxis type="category" dataKey="name" width={isMobile ? 110 : 160} stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 10 }} />
                   <Tooltip content={<CustomTooltip />} />
-                  <Bar
-                    dataKey="value"
-                    fill="#3b82f6"
-                    radius={[0, 4, 4, 0]}
-                  />
+                  <Bar dataKey="value" name="Exams Requiring Level" fill="#3b82f6" radius={[0, 4, 4, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
         )}
 
-        {/* Comparison 4: Exam Delivery Mode Modernization */}
+        {/* Comparison 4: Delivery Modernization */}
         {(filterModule === 'all' || filterModule === 'comparisons') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
               <div>
-                <h3 className="chart-card-title">Delivery Mode Modernization Index</h3>
-                <span className="chart-card-subtitle">Computer Based Testing (CBT) vs Traditional Pen & Paper (OMR)</span>
+                <h3 className="chart-card-title">Delivery Mode Modernization</h3>
+                <span className="chart-card-subtitle">Adoption of Computer-Based (CBT) vs Traditional Paper</span>
               </div>
-              {onApplyFilter && <span className="chart-clickable-tag">Click slice</span>}
             </div>
             <div style={{ width: '100%', height: 320 }}>
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie
                     data={modeData}
-                    dataKey="value"
-                    nameKey="name"
                     cx="50%"
-                    cy="45%"
-                    innerRadius={isMobile ? 45 : 60}
-                    outerRadius={isMobile ? 75 : 95}
+                    cy="50%"
+                    innerRadius={70}
+                    outerRadius={105}
                     paddingAngle={4}
-                    cursor={onApplyFilter ? 'pointer' : 'default'}
-                    onClick={(entry) => onApplyFilter && onApplyFilter('exam_mode', entry.name.includes('CBT') ? 'Online' : 'Offline')}
+                    dataKey="value"
                   >
                     {modeData.map((entry, index) => (
-                      <Cell key={`mode-${index}`} fill={entry.fill} stroke="rgba(0,0,0,0.5)" strokeWidth={1} />
+                      <Cell key={`mode-${index}`} fill={entry.fill} stroke="var(--ink, #080a0f)" strokeWidth={2} />
                     ))}
                   </Pie>
                   <Tooltip content={<CustomTooltip />} />
-                  <Legend
-                    verticalAlign="bottom"
-                    align="center"
-                    wrapperStyle={{ fontSize: isMobile ? '0.72rem' : '0.78rem', paddingTop: '10px' }}
-                  />
+                  <Legend verticalAlign="bottom" wrapperStyle={{ fontSize: '0.78rem', paddingTop: '10px' }} />
                 </PieChart>
               </ResponsiveContainer>
             </div>
           </div>
         )}
 
-        {/* Comparison 5: Month-by-Month Annual Examination Pressure Curve */}
-        {(filterModule === 'all' || filterModule === 'calendar') && (
-          <div className="chart-card panel chart-full-width">
-            <div className="chart-header-row">
-              <div>
-                <h3 className="chart-card-title">Annual Examination Density & Peak Seasonality</h3>
-                <span className="chart-card-subtitle">Month-by-month examination frequency showing the May-June-July peak crunch</span>
-              </div>
-            </div>
-            <div style={{ width: '100%', height: 300 }}>
-              <ResponsiveContainer width="100%" height="100%">
-                <AreaChart
-                  data={seasonalityData}
-                  margin={{ top: 15, right: isMobile ? 15 : 30, left: isMobile ? -10 : 10, bottom: 5 }}
-                >
-                  <defs>
-                    <linearGradient id="monthGradient" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="5%" stopColor="#e8a33d" stopOpacity={0.4} />
-                      <stop offset="95%" stopColor="#e8a33d" stopOpacity={0.0} />
-                    </linearGradient>
-                  </defs>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#232a33" />
-                  <XAxis dataKey="month" stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 11 }} />
-                  <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                  <Tooltip content={<CustomTooltip />} />
-                  <Area
-                    type="monotone"
-                    dataKey="exams"
-                    name="Scheduled Examinations"
-                    stroke="#e8a33d"
-                    strokeWidth={2}
-                    fillOpacity={1}
-                    fill="url(#monthGradient)"
-                  />
-                </AreaChart>
-              </ResponsiveContainer>
-            </div>
-          </div>
-        )}
-
-        {/* Distribution 1: Domain Distribution Donut */}
+        {/* Domain Distribution */}
         {(filterModule === 'all' || filterModule === 'distributions') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
               <div>
-                <h3 className="chart-card-title">Distribution by Professional Domain</h3>
-                <span className="chart-card-subtitle">Representation across 20 distinct professional disciplines</span>
+                <h3 className="chart-card-title">Examinations by Professional Domain</h3>
+                <span className="chart-card-subtitle">Major career sector distribution (Top 7 + Grouped Other)</span>
               </div>
-              {onApplyFilter && <span className="chart-clickable-tag">Click slice</span>}
+              {onApplyFilter && <span className="chart-clickable-tag">Click to filter</span>}
             </div>
             <div style={{ width: '100%', height: 320 }}>
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie
                     data={domainData}
-                    dataKey="value"
-                    nameKey="name"
                     cx="50%"
-                    cy="45%"
-                    innerRadius={isMobile ? 42 : 55}
-                    outerRadius={isMobile ? 75 : 95}
-                    paddingAngle={2}
+                    cy="50%"
+                    innerRadius={65}
+                    outerRadius={105}
+                    paddingAngle={3}
+                    dataKey="value"
                     cursor={onApplyFilter ? 'pointer' : 'default'}
-                    onClick={(entry) => onApplyFilter && onApplyFilter('domain', entry.name)}
+                    onClick={(entry) => onApplyFilter && !entry.name.includes('Other') && onApplyFilter('domain', entry.name)}
                   >
                     {domainData.map((entry, index) => (
-                      <Cell key={`domain-${index}`} fill={entry.color} stroke="rgba(0,0,0,0.4)" strokeWidth={1} />
+                      <Cell key={`domain-${index}`} fill={entry.color} stroke="var(--ink, #080a0f)" strokeWidth={2} />
                     ))}
                   </Pie>
                   <Tooltip content={<CustomTooltip />} />
-                  <Legend
-                    layout="horizontal"
-                    verticalAlign="bottom"
-                    align="center"
-                    wrapperStyle={{ fontSize: isMobile ? '0.65rem' : '0.7rem', paddingTop: '8px' }}
-                  />
+                  <Legend verticalAlign="bottom" wrapperStyle={{ fontSize: '0.74rem', paddingTop: '8px' }} />
                 </PieChart>
               </ResponsiveContainer>
             </div>
           </div>
         )}
 
-        {/* Distribution 2: Top Conducting Authorities */}
+        {/* Top Authorities */}
         {(filterModule === 'all' || filterModule === 'distributions') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
               <div>
-                <h3 className="chart-card-title">Top Conducting Commissions & Bodies</h3>
-                <span className="chart-card-subtitle">Major examination boards by number of conducted tests</span>
+                <h3 className="chart-card-title">Top Conducting Commissions & Boards</h3>
+                <span className="chart-card-subtitle">Bodies administering the highest volume of national exams</span>
               </div>
               {onApplyFilter && <span className="chart-clickable-tag">Click bar</span>}
             </div>
@@ -554,21 +565,16 @@ export default function Analytics({ exams, onApplyFilter }) {
                 <BarChart
                   data={conductingBodyData}
                   layout="vertical"
-                  margin={{ top: 10, right: isMobile ? 15 : 30, left: isMobile ? 0 : 10, bottom: 5 }}
+                  margin={{ top: 10, right: 30, left: 10, bottom: 5 }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#232a33" horizontal={false} />
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" horizontal={false} />
                   <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                  <YAxis
-                    type="category"
-                    dataKey="name"
-                    stroke="#64748b"
-                    tick={{ fill: '#cbd5e1', fontSize: isMobile ? 8.5 : 11 }}
-                    width={isMobile ? 80 : 110}
-                  />
+                  <YAxis type="category" dataKey="name" width={isMobile ? 100 : 130} stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 10 }} />
                   <Tooltip content={<CustomTooltip />} />
                   <Bar
                     dataKey="value"
-                    fill="#3b82f6"
+                    name="Conducted Exams"
+                    fill="#e8a33d"
                     radius={[0, 4, 4, 0]}
                     cursor={onApplyFilter ? 'pointer' : 'default'}
                     onClick={(entry) => onApplyFilter && onApplyFilter('conducting_body', entry.name)}
@@ -579,39 +585,73 @@ export default function Analytics({ exams, onApplyFilter }) {
           </div>
         )}
 
-        {/* Distribution 3: State Government Exams (Top 10 States) */}
+        {/* Seasonality */}
         {(filterModule === 'all' || filterModule === 'calendar') && (
           <div className="chart-card panel">
             <div className="chart-header-row">
               <div>
-                <h3 className="chart-card-title">State Public Service Commission Volume</h3>
-                <span className="chart-card-subtitle">Top 10 State Governments by indexed competitive exams</span>
+                <h3 className="chart-card-title">Annual Examination Pressure Curve</h3>
+                <span className="chart-card-subtitle">Month-by-month distribution of major examination dates</span>
               </div>
-              {onApplyFilter && <span className="chart-clickable-tag">Click bar</span>}
+            </div>
+            <div style={{ width: '100%', height: 320 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart
+                  data={seasonalityData}
+                  margin={{ top: 20, right: 20, left: 0, bottom: 10 }}
+                >
+                  <defs>
+                    <linearGradient id="colorExams" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#e8a33d" stopOpacity={0.4} />
+                      <stop offset="95%" stopColor="#e8a33d" stopOpacity={0.0} />
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
+                  <XAxis dataKey="month" stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 11 }} />
+                  <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                  <Tooltip content={<CustomTooltip />} />
+                  <Area
+                    type="monotone"
+                    dataKey="exams"
+                    name="Scheduled Exams"
+                    stroke="#e8a33d"
+                    strokeWidth={2.5}
+                    fillOpacity={1}
+                    fill="url(#colorExams)"
+                  />
+                </AreaChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+        )}
+
+        {/* State PSC Density */}
+        {(filterModule === 'all' || filterModule === 'calendar') && (
+          <div className="chart-card panel">
+            <div className="chart-header-row">
+              <div>
+                <h3 className="chart-card-title">State Public Service Commission Density</h3>
+                <span className="chart-card-subtitle">Indexed state-level examinations across top 10 regions</span>
+              </div>
+              {onApplyFilter && <span className="chart-clickable-tag">Click to filter</span>}
             </div>
             <div style={{ width: '100%', height: 320 }}>
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart
                   data={stateData}
-                  layout="vertical"
-                  margin={{ top: 10, right: isMobile ? 15 : 30, left: isMobile ? 0 : 15, bottom: 5 }}
+                  margin={{ top: 20, right: 20, left: 0, bottom: 40 }}
                 >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#232a33" horizontal={false} />
-                  <XAxis type="number" stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                  <YAxis
-                    type="category"
-                    dataKey="name"
-                    stroke="#64748b"
-                    tick={{ fill: '#cbd5e1', fontSize: isMobile ? 8.5 : 11 }}
-                    width={isMobile ? 90 : 130}
-                  />
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
+                  <XAxis dataKey="state" stroke="#64748b" tick={{ fill: '#cbd5e1', fontSize: 10 }} angle={-30} textAnchor="end" height={50} />
+                  <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
                   <Tooltip content={<CustomTooltip />} />
                   <Bar
-                    dataKey="value"
-                    fill="#a855f7"
-                    radius={[0, 4, 4, 0]}
+                    dataKey="count"
+                    name="State Exams"
+                    fill="#8b5cf6"
+                    radius={[4, 4, 0, 0]}
                     cursor={onApplyFilter ? 'pointer' : 'default'}
-                    onClick={(entry) => onApplyFilter && onApplyFilter('state', entry.name)}
+                    onClick={(entry) => onApplyFilter && onApplyFilter('state', entry.state)}
                   />
                 </BarChart>
               </ResponsiveContainer>
@@ -619,7 +659,7 @@ export default function Analytics({ exams, onApplyFilter }) {
           </div>
         )}
 
-        {/* Intelligence Summary Box */}
+        {/* Dynamic Intelligence Summary Box */}
         {(filterModule === 'all' || filterModule === 'comparisons') && (
           <div className="chart-card panel" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <h3 className="chart-card-title" style={{ color: 'var(--amber-bright)', marginBottom: '0.75rem' }}>
@@ -628,19 +668,19 @@ export default function Analytics({ exams, onApplyFilter }) {
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '0.84rem', color: '#cbd5e1', lineHeight: '1.5' }}>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
                 <span style={{ color: '#2e9e6b', fontWeight: 'bold' }}>✓</span>
-                <span><strong>Central vs State Divergence:</strong> Central exams maintain a 70:30 job-to-entrance ratio due to national technical entrance gates (JEE/NEET/GATE), while State boards focus over 82% on direct public recruitment.</span>
+                <span><strong>Jurisdiction Dynamic:</strong> Central services account for {kpis.centralPct}% ({kpis.central} exams) featuring national technical entrance gates (JEE/NEET/GATE/UPSC), while State boards contribute {kpis.statePct}% ({kpis.state} exams) geared heavily towards regional governance.</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
                 <span style={{ color: '#e8a33d', fontWeight: 'bold' }}>✓</span>
-                <span><strong>Cadre Pyramidal Structure:</strong> Group C & D frontline positions comprise the largest volume (114 exams), followed by Group A & B Gazetted leadership tiers (100 exams).</span>
+                <span><strong>Cadre Pyramidal Structure:</strong> {strategicInsights.topCadreName} comprises {strategicInsights.topCadreCount} exams, while Gazetted leadership tiers account for {strategicInsights.gazettedCount} high-stakes avenues.</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
                 <span style={{ color: '#3b82f6', fontWeight: 'bold' }}>✓</span>
-                <span><strong>May-June Scheduling Bottleneck:</strong> More than 28% of all national examinations overlap in May and June, creating critical scheduling and preparation bottlenecks for aspirants.</span>
+                <span><strong>Seasonal Scheduling Density:</strong> May & June account for {strategicInsights.mayJunePct}% of annual examination sessions, creating critical preparation and travel concurrency for multi-exam aspirants.</span>
               </li>
               <li style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
                 <span style={{ color: '#a855f7', fontWeight: 'bold' }}>✓</span>
-                <span><strong>Accelerated CBT Adoption:</strong> 53.6% of exams now utilize computer-based testing, led by SSC, RRB, IBPS, and NTA.</span>
+                <span><strong>Accelerated CBT Adoption:</strong> {kpis.cbtPct}% of exams ({kpis.cbt} total) now utilize computer-based testing, led by SSC, RRB, IBPS, and NTA.</span>
               </li>
             </ul>
           </div>

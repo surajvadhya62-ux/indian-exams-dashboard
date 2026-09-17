@@ -1,7 +1,11 @@
-import { HiOutlineScale, HiOutlineTrash, HiOutlineExternalLink } from 'react-icons/hi'
+import { HiOutlineScale, HiOutlineTrash, HiOutlineExternalLink, HiOutlinePrinter } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
 
 export default function ComparisonTool({ compareList, removeFromCompare }) {
+  const handlePrint = () => {
+    window.print()
+  }
+
   if (!compareList || compareList.length === 0) {
     return (
       <section className="comparison-section">
@@ -116,7 +120,27 @@ export default function ComparisonTool({ compareList, removeFromCompare }) {
           <h2 className="comparison-title">⚖️ Comparing {compareList.length} Examination{compareList.length > 1 ? 's' : ''}</h2>
           <p className="section-subtitle">Comparative assessment side-by-side (up to 4 exams simultaneously)</p>
         </div>
-        <div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          <button
+            onClick={handlePrint}
+            className="print-btn"
+            style={{
+              padding: '6px 14px',
+              background: 'rgba(59, 130, 246, 0.1)',
+              border: '1px solid rgba(59, 130, 246, 0.3)',
+              borderRadius: '8px',
+              color: 'var(--blue, #3b82f6)',
+              fontSize: '0.8rem',
+              fontWeight: 500,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}
+            title="Print or Save Comparison Table as PDF"
+          >
+            <HiOutlinePrinter /> Print / Export PDF
+          </button>
           <button
             onClick={() => compareList.forEach(e => removeFromCompare(e.id))}
             style={{

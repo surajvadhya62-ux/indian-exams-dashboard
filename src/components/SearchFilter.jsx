@@ -1,12 +1,67 @@
-import { HiOutlineSearch } from 'react-icons/hi'
+import { useEffect, useRef, useState } from 'react'
+import {
+  HiOutlineSearch, HiOutlineViewGrid, HiOutlineViewList,
+  HiOutlineSortDescending, HiOutlineBookmark, HiOutlineX
+} from 'react-icons/hi'
 
 export default function SearchFilter({
-  searchQuery, setSearchQuery, filters, onFilterChange, clearFilters,
-  activeFilters, domains, levels, frequencies, states,
-  centralCount, stateCount, resultCount, totalCount
+  searchQuery,
+  setSearchQuery,
+  filters,
+  onFilterChange,
+  clearFilters,
+  activeFilters,
+  domains,
+  levels,
+  frequencies,
+  states,
+  centralCount,
+  stateCount,
+  resultCount,
+  totalCount,
+  sortBy,
+  setSortBy,
+  viewMode,
+  setViewMode,
+  showOnlySaved,
+  setShowOnlySaved,
+  savedCount,
+  allExams = [],
+  onSelectExam
 }) {
   const isStateScope = filters.jurisdiction === 'state'
   const isCentralScope = filters.jurisdiction === 'central'
+  const searchInputRef = useRef(null)
+  const [showSuggestions, setShowSuggestions] = useState(false)
+
+  // Global keyboard shortcut: press '/' to focus search, 'Escape' to blur/clear
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      // Avoid stealing keypress when user is already typing in an input or select
+      if (['INPUT', 'SELECT', 'TEXTAREA'].includes(e.target.tagName)) {
+        if (e.key === 'Escape') {
+          e.target.blur()
+          setShowSuggestions(false)
+        }
+        return
+      }
+
+      if (e.key === '/') {
+        e.preventDefault()
+        searchInputRef.current?.focus()
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [])
+
+  // Quick Autocomplete suggestions
+  const suggestions = searchQuery.trim().length >= 2
+    ? allExams.filter(exam =>
+        exam.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        exam.acronym.toLowerCase().includes(searchQuery.toLowerCase())
+      ).slice(0, 5)
+    : []
 
   const handleScopeSelect = (scope) => {
     onFilterChange('jurisdiction', scope)
@@ -17,33 +72,56 @@ export default function SearchFilter({
 
   return (
     <div className="search-filter-section">
-      {/* Scope Selector: Central vs State vs All */}
+      {/* Scope Selector: Central vs State vs All + Saved Quick Filter */}
       <div className="scope-selector-wrapper">
         <div className="scope-pills">
           <button
             id="scope-all"
-            className={`scope-pill ${!filters.jurisdiction ? 'active' : ''}`}
-            onClick={() => handleScopeSelect('')}
+            className={`scope-pill ${!filters.jurisdiction && !showOnlySaved ? 'active' : ''}`}
+            onClick={() => {
+              setShowOnlySaved(false)
+              handleScopeSelect('')
+            }}
           >
             🌐 All Examinations
             <span className="scope-pill-count">{totalCount}</span>
           </button>
+
           <button
             id="scope-central"
-            className={`scope-pill ${isCentralScope ? 'active' : ''}`}
-            onClick={() => handleScopeSelect('central')}
+            className={`scope-pill ${isCentralScope && !showOnlySaved ? 'active' : ''}`}
+            onClick={() => {
+              setShowOnlySaved(false)
+              handleScopeSelect('central')
+            }}
           >
             🇮🇳 Central & All-India
             <span className="scope-pill-count">{centralCount}</span>
           </button>
+
           <button
             id="scope-state"
-            className={`scope-pill ${isStateScope ? 'active state-active' : ''}`}
-            onClick={() => handleScopeSelect('state')}
+            className={`scope-pill ${isStateScope && !showOnlySaved ? 'active state-active' : ''}`}
+            onClick={() => {
+              setShowOnlySaved(false)
+              handleScopeSelect('state')
+            }}
           >
             🏛️ State Government
             <span className="scope-pill-count">{stateCount}</span>
           </button>
+
+          {savedCount > 0 && (
+            <button
+              id="scope-saved"
+              className={`scope-pill saved-pill ${showOnlySaved ? 'active saved-active' : ''}`}
+              onClick={() => setShowOnlySaved(!showOnlySaved)}
+              title="View your saved / bookmarked exams"
+            >
+              <HiOutlineBookmark /> Saved
+              <span className="scope-pill-count">{savedCount}</span>
+            </button>
+          )}
         </div>
 
         {/* Quick State Selector when in State scope or when browsing */}
@@ -70,20 +148,61 @@ export default function SearchFilter({
         )}
       </div>
 
-      {/* Search Input */}
+      {/* Hero Search Bar with Shortcut hint and Autocomplete */}
       <div className="search-bar-wrapper">
         <HiOutlineSearch className="search-icon" />
         <input
+          ref={searchInputRef}
           id="exam-search"
           type="text"
           className="search-bar"
-          placeholder="Search exams by name, acronym, domain, conducting body, role..."
+          placeholder="Search 504 exams by title, acronym, domain, conducting commission, or role..."
           value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
+          onChange={(e) => {
+            setSearchQuery(e.target.value)
+            setShowSuggestions(true)
+          }}
+          onFocus={() => setShowSuggestions(true)}
         />
+        {searchQuery ? (
+          <button
+            className="search-clear-btn"
+            onClick={() => setSearchQuery('')}
+            title="Clear search"
+          >
+            <HiOutlineX />
+          </button>
+        ) : (
+          <div className="search-kbd-hint" title="Press / anywhere to search">/</div>
+        )}
+
+        {/* Autocomplete Suggestions Dropdown */}
+        {showSuggestions && suggestions.length > 0 && (
+          <div className="search-suggestions-dropdown slide-up">
+            <div className="suggestions-header">Quick Matches</div>
+            {suggestions.map(exam => (
+              <div
+                key={exam.id}
+                className="suggestion-item"
+                onClick={() => {
+                  setShowSuggestions(false)
+                  if (onSelectExam) {
+                    onSelectExam(exam)
+                  } else {
+                    setSearchQuery(exam.name)
+                  }
+                }}
+              >
+                <span className="suggestion-name">{exam.name}</span>
+                <span className="suggestion-acronym">{exam.acronym}</span>
+                <span className="suggestion-domain">{exam.domain}</span>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
-      {/* Secondary Filters Bar */}
+      {/* Secondary Filters Bar + Sort Controls + View Toggle */}
       <div className="filter-bar">
         <select
           id="filter-domain"
@@ -101,7 +220,7 @@ export default function SearchFilter({
           value={filters.level}
           onChange={(e) => onFilterChange('level', e.target.value)}
         >
-          <option value="">All Levels</option>
+          <option value="">All Entry Levels</option>
           {levels.map(l => <option key={l} value={l}>{l}</option>)}
         </select>
 
@@ -126,6 +245,45 @@ export default function SearchFilter({
           {frequencies.map(f => <option key={f} value={f}>{f}</option>)}
         </select>
 
+        {/* Sort Controls */}
+        <div className="sort-wrapper">
+          <HiOutlineSortDescending className="sort-icon" />
+          <select
+            id="sort-by-select"
+            className="filter-select sort-select"
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+          >
+            <option value="popularity">Sort: High Popularity</option>
+            <option value="name_asc">Sort: Name (A to Z)</option>
+            <option value="name_desc">Sort: Name (Z to A)</option>
+            <option value="domain">Sort: Domain</option>
+            <option value="state">Sort: State / Region</option>
+          </select>
+        </div>
+
+        {/* Grid vs List View Switcher */}
+        {setViewMode && (
+          <div className="view-mode-toggle" role="group" aria-label="View layout">
+            <button
+              className={`view-btn ${viewMode === 'grid' ? 'active' : ''}`}
+              onClick={() => setViewMode('grid')}
+              title="Card Grid View"
+              aria-label="Grid view"
+            >
+              <HiOutlineViewGrid />
+            </button>
+            <button
+              className={`view-btn ${viewMode === 'list' ? 'active' : ''}`}
+              onClick={() => setViewMode('list')}
+              title="Dense List View"
+              aria-label="List view"
+            >
+              <HiOutlineViewList />
+            </button>
+          </div>
+        )}
+
         {activeFilters.length > 0 && (
           <button className="clear-filters-btn" onClick={clearFilters}>
             ✕ Clear All
@@ -136,35 +294,6 @@ export default function SearchFilter({
           <span>{resultCount}</span> of {totalCount} exams
         </div>
       </div>
-
-      {/* Active Filter Chips */}
-      {activeFilters.length > 0 && (
-        <div className="filter-chips">
-          {activeFilters.map(([key, value]) => {
-            let label = value
-            if (key === 'jurisdiction') {
-              label = value === 'central' ? 'Scope: Central & All-India' : 'Scope: State Government'
-            } else if (key === 'state') {
-              label = `State: ${value}`
-            } else if (key === 'exam_type') {
-              label = value === 'entrance' ? 'Type: Entrance' : 'Type: Job'
-            } else if (key === 'domain') {
-              label = `Domain: ${value}`
-            } else if (key === 'level') {
-              label = `Level: ${value}`
-            } else if (key === 'frequency') {
-              label = `Frequency: ${value}`
-            }
-            return (
-              <span key={key} className="filter-chip">
-                {label}
-                <button onClick={() => onFilterChange(key, '')}>×</button>
-              </span>
-            )
-          })}
-        </div>
-      )}
     </div>
   )
 }
-
