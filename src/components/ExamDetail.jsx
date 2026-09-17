@@ -3,7 +3,8 @@ import { getDomainColor } from '../utils/helpers'
 import { useExamDetail } from '../hooks/useExamDetail'
 import {
   HiOutlineExternalLink, HiX, HiChevronLeft, HiChevronRight,
-  HiOutlineArrowRight, HiOutlineCalendar, HiOutlineDownload
+  HiOutlineArrowRight, HiOutlineCalendar, HiOutlineDownload,
+  HiOutlineShare, HiOutlineClipboardCopy, HiCheck, HiOutlineMail
 } from 'react-icons/hi'
 import { downloadExamIcs, getGoogleCalendarUrl } from '../utils/calendarSync'
 import CareerLadder from './exam-detail/CareerLadder'
@@ -12,6 +13,7 @@ import SalaryCalculator from './exam-detail/SalaryCalculator'
 import CompetitionBenchmarks from './exam-detail/CompetitionBenchmarks'
 import ResourceLinks from './exam-detail/ResourceLinks'
 import SectionStatusBadge from './exam-detail/SectionStatusBadge'
+import { SkeletonModal } from './Skeletons'
 
 export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam }) {
   const color = getDomainColor(exam.domain)
@@ -35,6 +37,8 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
   }, [isJob])
 
   const [activeTab, setActiveTab] = useState('overview')
+  const [showShareModal, setShowShareModal] = useState(false)
+  const [copiedLink, setCopiedLink] = useState(false)
   const { status: detailStatus, detail } = useExamDetail(exam.id)
 
   // Escape key listener to close modal
@@ -62,9 +66,52 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
       .slice(0, 3)
   }, [allExams, exam.id, exam.domain, exam.level])
 
+  // Deep-link share URL
+  const shareUrl = useMemo(() => {
+    if (typeof window === 'undefined') return `#exam/${exam.id}`
+    const base = window.location.origin + window.location.pathname
+    return `${base}#exam/${exam.id}`
+  }, [exam.id])
+
+  const shareTitle = `${exam.name} (${exam.acronym}) — IndiaExams`
+  const shareText = `Explore complete eligibility, syllabus pattern, career progression & 7th CPC salary for ${exam.name} (${exam.acronym}) on IndiaExams:`
+
+  const copyShareLink = () => {
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      setCopiedLink(true)
+      setTimeout(() => setCopiedLink(false), 2500)
+    })
+  }
+
+  const handleNativeShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl
+        })
+      } catch {
+        // User cancelled or share failed
+      }
+    } else {
+      copyShareLink()
+    }
+  }
+
+  // Social share URLs
+  const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(`${shareText} ${shareUrl}`)}`
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`
+  const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`
+  const telegramUrl = `https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`
+  const mailtoUrl = `mailto:?subject=${encodeURIComponent(shareTitle)}&body=${encodeURIComponent(`${shareText}\n\n${shareUrl}`)}`
+
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content slide-up" onClick={e => e.stopPropagation()}>
+        {/* Mobile Drag Handle Indicator */}
+        <div className="modal-drag-indicator" aria-hidden="true" />
+
         <div className="modal-top-actions">
           {allExams.length > 0 && onSelectExam && (
             <div className="modal-nav-pair">
@@ -74,7 +121,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
                 onClick={() => prevExam && onSelectExam(prevExam)}
                 title={prevExam ? `Previous: ${prevExam.acronym || prevExam.name}` : 'No previous exam'}
               >
-                <HiChevronLeft /> Prev
+                <HiChevronLeft /> <span className="modal-nav-text">Prev</span>
               </button>
               <button
                 className="modal-nav-arrow"
@@ -82,31 +129,113 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
                 onClick={() => nextExam && onSelectExam(nextExam)}
                 title={nextExam ? `Next: ${nextExam.acronym || nextExam.name}` : 'No next exam'}
               >
-                Next <HiChevronRight />
+                <span className="modal-nav-text">Next</span> <HiChevronRight />
               </button>
             </div>
           )}
-          <button className="modal-close" onClick={onClose} aria-label="Close modal"><HiX /></button>
+
+          <div className="modal-top-right-group">
+            {/* Share Trigger */}
+            <button
+              className={`modal-share-trigger-btn ${showShareModal ? 'active' : ''}`}
+              onClick={() => setShowShareModal(prev => !prev)}
+              title="Share this examination"
+              aria-label="Share this examination"
+            >
+              <HiOutlineShare /> <span className="modal-share-label">Share</span>
+            </button>
+
+            <button className="modal-close" onClick={onClose} aria-label="Close modal">
+              <HiX />
+            </button>
+          </div>
         </div>
+
+        {/* Share Dropdown / Popover */}
+        {showShareModal && (
+          <div className="modal-share-popover fade-in">
+            <div className="share-popover-header">
+              <span className="share-popover-title">Share Examination Dossier</span>
+              <button className="share-close-x" onClick={() => setShowShareModal(false)}>✕</button>
+            </div>
+
+            <div className="share-link-input-row">
+              <input
+                type="text"
+                readOnly
+                value={shareUrl}
+                className="share-link-input"
+                onClick={e => e.target.select()}
+              />
+              <button className="share-copy-btn" onClick={copyShareLink}>
+                {copiedLink ? <><HiCheck /> Copied</> : <><HiOutlineClipboardCopy /> Copy</>}
+              </button>
+            </div>
+
+            <div className="share-social-grid">
+              {typeof navigator !== 'undefined' && navigator.share && (
+                <button className="share-social-btn native-share" onClick={handleNativeShare}>
+                  <HiOutlineShare /> Device Share
+                </button>
+              )}
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="share-social-btn whatsapp"
+                title="Share on WhatsApp"
+              >
+                <span className="social-icon">💬</span> WhatsApp
+              </a>
+              <a
+                href={twitterUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="share-social-btn twitter"
+                title="Share on X (Twitter)"
+              >
+                <span className="social-icon">𝕏</span> X / Twitter
+              </a>
+              <a
+                href={linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="share-social-btn linkedin"
+                title="Share on LinkedIn"
+              >
+                <span className="social-icon">💼</span> LinkedIn
+              </a>
+              <a
+                href={telegramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="share-social-btn telegram"
+                title="Share on Telegram"
+              >
+                <span className="social-icon">✈️</span> Telegram
+              </a>
+              <a
+                href={mailtoUrl}
+                className="share-social-btn email"
+                title="Share via Email"
+              >
+                <HiOutlineMail /> Email
+              </a>
+            </div>
+          </div>
+        )}
 
         <div className="modal-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8, flexWrap: 'wrap' }}>
-            <span className="domain-badge" style={{
+            <span className="domain-badge domain-primary-badge" style={{
               background: `${color}20`, color, border: `1px solid ${color}40`
             }}>
               {exam.domain}
             </span>
-            <span className="domain-badge" style={{
-              background: 'rgba(255,255,255,0.05)', color: 'var(--text-secondary)',
-              border: '1px solid rgba(255,255,255,0.1)'
-            }}>
+            <span className="domain-badge domain-type-badge">
               {isJob ? '💼 Job / Recruitment' : '🎓 Entrance Exam'}
             </span>
-            <span className="domain-badge" style={{
-              background: exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.15)' : 'rgba(168, 85, 247, 0.15)',
-              color: exam.jurisdiction === 'central' ? '#60a5fa' : '#c084fc',
-              border: `1px solid ${exam.jurisdiction === 'central' ? 'rgba(59, 130, 246, 0.3)' : 'rgba(168, 85, 247, 0.3)'}`
-            }}>
+            <span className={`domain-badge domain-scope-badge ${exam.jurisdiction === 'central' ? 'scope-central-badge' : 'scope-state-badge'}`}>
               {exam.jurisdiction === 'central' ? '🇮🇳 Central & All-India' : `🏛️ State: ${exam.state}`}
             </span>
           </div>
@@ -127,6 +256,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
           ))}
         </div>
 
+        {/* Tab 1: Overview */}
         {activeTab === 'overview' && (
           <div className="dossier-tab-content fade-in">
             <div className="modal-section">
@@ -191,8 +321,9 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
               </div>
             </div>
 
+            {/* Schedule & Calendar Sync + Share Dossier */}
             <div className="modal-section modal-cal-sync-section">
-              <h4 className="modal-section-title">Schedule & Calendar Sync</h4>
+              <h4 className="modal-section-title">Schedule, Sync & Share</h4>
               <div className="modal-cal-actions">
                 <a
                   href={getGoogleCalendarUrl(exam)}
@@ -201,14 +332,21 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
                   className="modal-sync-btn gcal"
                   title="Add this exam schedule to Google Calendar"
                 >
-                  <HiOutlineCalendar /> Add to Google Calendar
+                  <HiOutlineCalendar /> Google Calendar
                 </a>
                 <button
                   className="modal-sync-btn ics"
                   onClick={() => downloadExamIcs(exam)}
                   title="Download .ics calendar event file"
                 >
-                  <HiOutlineDownload /> Download iCal (.ics)
+                  <HiOutlineDownload /> iCal (.ics)
+                </button>
+                <button
+                  className="modal-sync-btn share-btn"
+                  onClick={copyShareLink}
+                  title="Copy permanent shareable link"
+                >
+                  {copiedLink ? <><HiCheck /> Copied Link!</> : <><HiOutlineShare /> Copy Share URL</>}
                 </button>
               </div>
             </div>
@@ -259,61 +397,96 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
           </div>
         )}
 
+        {/* Tab 2: Career Ladder */}
         {activeTab === 'career' && (
           <div className="dossier-tab-content fade-in">
-            <div style={{ marginBottom: '1rem' }}>
-              <SectionStatusBadge section={detail?.career_ladder} />
-            </div>
-            <CareerLadder
-              section={detail?.career_ladder}
-              detailStatus={detailStatus}
-              examType={exam.exam_type}
-              domainColor={color}
-            />
+            {detailStatus === 'loading' ? (
+              <SkeletonModal />
+            ) : (
+              <>
+                <div style={{ marginBottom: '1rem' }}>
+                  <SectionStatusBadge section={detail?.career_ladder} />
+                </div>
+                <CareerLadder
+                  section={detail?.career_ladder}
+                  detailStatus={detailStatus}
+                  examType={exam.exam_type}
+                  domainColor={color}
+                />
+              </>
+            )}
           </div>
         )}
 
+        {/* Tab 3: Scheme & Pattern */}
         {activeTab === 'scheme' && (
           <div className="dossier-tab-content fade-in">
-            <div style={{ marginBottom: '1rem' }}>
-              <SectionStatusBadge section={detail?.exam_scheme} />
-            </div>
-            <ExamSchemeTable section={detail?.exam_scheme} detailStatus={detailStatus} />
+            {detailStatus === 'loading' ? (
+              <SkeletonModal />
+            ) : (
+              <>
+                <div style={{ marginBottom: '1rem' }}>
+                  <SectionStatusBadge section={detail?.exam_scheme} />
+                </div>
+                <ExamSchemeTable section={detail?.exam_scheme} detailStatus={detailStatus} />
+              </>
+            )}
           </div>
         )}
 
+        {/* Tab 4: Salary & Perks */}
         {activeTab === 'salary' && isJob && (
           <div className="dossier-tab-content fade-in">
-            <div style={{ marginBottom: '1rem' }}>
-              <SectionStatusBadge section={detail?.financial_package} />
-            </div>
-            <SalaryCalculator
-              section={detail?.financial_package}
-              detailStatus={detailStatus}
-              examType={exam.exam_type}
-            />
+            {detailStatus === 'loading' ? (
+              <SkeletonModal />
+            ) : (
+              <>
+                <div style={{ marginBottom: '1rem' }}>
+                  <SectionStatusBadge section={detail?.financial_package} />
+                </div>
+                <SalaryCalculator
+                  section={detail?.financial_package}
+                  detailStatus={detailStatus}
+                  examType={exam.exam_type}
+                />
+              </>
+            )}
           </div>
         )}
 
+        {/* Tab 5: Benchmarks */}
         {activeTab === 'competition' && (
           <div className="dossier-tab-content fade-in">
-            <div style={{ marginBottom: '1rem' }}>
-              <SectionStatusBadge section={detail?.competition_benchmarks} />
-            </div>
-            <CompetitionBenchmarks section={detail?.competition_benchmarks} detailStatus={detailStatus} />
+            {detailStatus === 'loading' ? (
+              <SkeletonModal />
+            ) : (
+              <>
+                <div style={{ marginBottom: '1rem' }}>
+                  <SectionStatusBadge section={detail?.competition_benchmarks} />
+                </div>
+                <CompetitionBenchmarks section={detail?.competition_benchmarks} detailStatus={detailStatus} />
+              </>
+            )}
           </div>
         )}
 
+        {/* Tab 6: Resources */}
         {activeTab === 'resources' && (
           <div className="dossier-tab-content fade-in">
-            <div style={{ marginBottom: '1rem' }}>
-              <SectionStatusBadge section={detail?.official_downloads} />
-            </div>
-            <ResourceLinks
-              section={detail?.official_downloads}
-              detailStatus={detailStatus}
-              fallbackUrl={exam.official_website}
-            />
+            {detailStatus === 'loading' ? (
+              <SkeletonModal />
+            ) : (
+              <>
+                <div style={{ marginBottom: '1rem' }}>
+                  <SectionStatusBadge section={detail?.official_downloads} />
+                </div>
+                <ResourceLinks
+                  section={detail?.official_downloads}
+                  detailStatus={detailStatus}
+                  fallbackUrl={exam.official_website}
+                />
+              </>
+            )}
           </div>
         )}
 

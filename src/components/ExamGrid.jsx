@@ -5,6 +5,7 @@ import {
   HiOutlineBookmark, HiBookmark, HiOutlineOfficeBuilding
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
+import { SkeletonGrid } from './Skeletons'
 
 export default function ExamGrid({
   exams,
@@ -18,7 +19,8 @@ export default function ExamGrid({
   itemsPerPage,
   setItemsPerPage,
   bookmarks = [],
-  onToggleBookmark
+  onToggleBookmark,
+  isLoading = false
 }) {
   const [isMobile, setIsMobile] = useState(() => {
     if (typeof window === 'undefined') return false
@@ -45,6 +47,10 @@ export default function ExamGrid({
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  if (isLoading) {
+    return <SkeletonGrid count={itemsPerPage || 8} />
   }
 
   if (exams.length === 0) {

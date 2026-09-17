@@ -4,6 +4,8 @@ import {
   ResponsiveContainer, Legend, AreaChart, Area, CartesianGrid
 } from 'recharts'
 import { getDomainColor } from '../utils/helpers'
+import IndiaMap from './IndiaMap'
+import { SkeletonChart } from './Skeletons'
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
@@ -364,9 +366,22 @@ export default function Analytics({ exams, onApplyFilter }) {
         >
           Seasonality & Geography
         </button>
+        <button
+          className={`module-tab ${filterModule === 'map' ? 'active' : ''}`}
+          onClick={() => setFilterModule('map')}
+        >
+          🗺️ Geospatial Map
+        </button>
       </div>
 
       <div className="analytics-grid">
+        {/* Geospatial India Map Module */}
+        {(filterModule === 'all' || filterModule === 'calendar' || filterModule === 'map') && (
+          <div style={{ gridColumn: '1 / -1' }}>
+            <IndiaMap exams={exams} onApplyFilter={onApplyFilter} />
+          </div>
+        )}
+
         {/* Comparison 1: Central vs State Purpose */}
         {(filterModule === 'all' || filterModule === 'comparisons') && (
           <div className="chart-card panel">

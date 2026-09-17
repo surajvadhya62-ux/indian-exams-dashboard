@@ -17,6 +17,8 @@ import ExamWizard from './components/ExamWizard'
 import EligibilityScreener from './components/EligibilityScreener'
 import MobileNav from './components/MobileNav'
 import ErrorBoundary from './components/ErrorBoundary'
+import Feedback from './components/Feedback'
+import CommandPalette from './components/CommandPalette'
 
 /* Session-gated intro check:
    Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
@@ -54,6 +56,29 @@ function App() {
   const [showOnlySaved, setShowOnlySaved] = useState(false)
   const [isGuideOpen, setIsGuideOpen] = useState(false)
   const [screenerFilteredIds, setScreenerFilteredIds] = useState(null)
+  const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false)
+
+  // Global Keyboard Shortcuts (Cmd+K / Ctrl+K & / for Command Palette)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      // Cmd+K or Ctrl+K
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
+        setIsCommandPaletteOpen(prev => !prev)
+        return
+      }
+      // Quick search '/' when not in input/textarea/select
+      if (e.key === '/' && !isCommandPaletteOpen) {
+        const tag = document.activeElement?.tagName?.toLowerCase()
+        if (tag !== 'input' && tag !== 'textarea' && tag !== 'select') {
+          e.preventDefault()
+          setIsCommandPaletteOpen(true)
+        }
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [isCommandPaletteOpen])
 
   // Theme state: only 'dark' and 'light'
   const [theme, setTheme] = useState(() => {
@@ -155,7 +180,7 @@ function App() {
         return
       }
 
-      const validViews = ['explore', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide']
+      const validViews = ['explore', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
       if (validViews.includes(hash)) {
         setActiveView(hash)
         setShowOnlySaved(false)
@@ -342,6 +367,7 @@ function App() {
         onLogoClick={handleLogoClick}
         theme={theme}
         setTheme={setTheme}
+        onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
       />
 
       <main className={`main-content${pageReleased ? '' : ' app-waiting'}`}>
@@ -472,6 +498,16 @@ function App() {
                 />
               </div>
             )}
+
+            {/* Feedback & Support Desk */}
+            {activeView === 'feedback' && (
+              <div className="fade-in">
+                <Feedback
+                  exams={examsData}
+                  onBackToExplore={() => goToView('explore')}
+                />
+              </div>
+            )}
           </>
         )}
       </main>
@@ -507,6 +543,18 @@ function App() {
         setActiveView={goToView}
         compareCount={compareList.length}
         bookmarkCount={bookmarks.length}
+      />
+
+      {/* Command Palette (Ctrl+K / ⌘K) */}
+      <CommandPalette
+        isOpen={isCommandPaletteOpen}
+        onClose={() => setIsCommandPaletteOpen(false)}
+        allExams={examsData}
+        onSelectExam={openExamDetail}
+        setActiveView={goToView}
+        theme={theme}
+        setTheme={setTheme}
+        clearFilters={clearFilters}
       />
     </ErrorBoundary>
   )

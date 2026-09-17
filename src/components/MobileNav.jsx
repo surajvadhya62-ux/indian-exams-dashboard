@@ -1,7 +1,7 @@
 import {
   HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineShieldCheck, HiOutlineSparkles,
-  HiOutlineBookmark, HiOutlineBadgeCheck
+  HiOutlineBookmark, HiOutlineBadgeCheck, HiOutlineChatAlt2
 } from 'react-icons/hi'
 
 export default function MobileNav({ activeView, setActiveView, compareCount, bookmarkCount }) {
@@ -14,6 +14,7 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
     { id: 'cadres', label: 'Grades', icon: <HiOutlineShieldCheck /> },
     { id: 'compare', label: 'Compare', icon: <HiOutlineScale />, count: compareCount },
     { id: 'calendar', label: 'Calendar', icon: <HiOutlineCalendar /> },
+    { id: 'feedback', label: 'Feedback', icon: <HiOutlineChatAlt2 /> },
   ]
 
   return (

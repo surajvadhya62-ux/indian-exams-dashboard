@@ -2,7 +2,8 @@ import {
   HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck,
   HiOutlineSparkles, HiOutlineBookmark,
-  HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon
+  HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon,
+  HiOutlineSearch, HiOutlineChatAlt2
 } from 'react-icons/hi'
 
 export default function Header({
@@ -13,7 +14,8 @@ export default function Header({
   bookmarkCount = 0,
   onLogoClick,
   theme = 'dark',
-  setTheme
+  setTheme,
+  onOpenCommandPalette
 }) {
   const views = [
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt className="nav-icon" /> },
@@ -24,6 +26,7 @@ export default function Header({
     { id: 'cadres', label: 'Govt Grades Guide', icon: <HiOutlineShieldCheck className="nav-icon" /> },
     { id: 'compare', label: `Compare${compareCount > 0 ? ` (${compareCount})` : ''}`, icon: <HiOutlineScale className="nav-icon" /> },
     { id: 'calendar', label: 'Calendar', icon: <HiOutlineCalendar className="nav-icon" /> },
+    { id: 'feedback', label: 'Feedback', icon: <HiOutlineChatAlt2 className="nav-icon text-teal" /> },
   ]
 
   const isAnalyticsActive = activeView === 'analytics' || activeView === 'dashboard'
@@ -51,6 +54,20 @@ export default function Header({
               <span className="live-dot" />
               <span className="live-text">{totalExams} EXAMS VERIFIED · SEP 2026</span>
             </div>
+
+            {/* Command Palette Trigger */}
+            {onOpenCommandPalette && (
+              <button
+                className="header-cmd-btn"
+                onClick={onOpenCommandPalette}
+                title="Search & Commands (⌘K or Ctrl+K)"
+                aria-label="Open Command Palette"
+              >
+                <HiOutlineSearch className="cmd-icon" />
+                <span className="cmd-label">Search / Command</span>
+                <kbd className="cmd-shortcut">⌘K</kbd>
+              </button>
+            )}
 
             {/* Dark / Light Mode Switcher */}
             {setTheme && (
