@@ -5,6 +5,15 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: './',
+  server: {
+    proxy: {
+      '/api/rss': {
+        target: 'https://news.google.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api\/rss/, '/rss')
+      }
+    }
+  },
   build: {
     rollupOptions: {
       output: {
