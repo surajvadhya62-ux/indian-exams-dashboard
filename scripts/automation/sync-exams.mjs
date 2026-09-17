@@ -470,7 +470,7 @@ async function main() {
   }
 
   if (args.includes('--validate')) {
-    console.log('Validating all 504+ dossiers...')
+    console.log('Validating all 500+ dossiers...')
     execSync(`node "${VALIDATE_SCRIPT_PATH}"`, { stdio: 'inherit' })
     return
   }

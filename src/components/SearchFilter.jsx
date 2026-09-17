@@ -156,7 +156,7 @@ export default function SearchFilter({
           id="exam-search"
           type="text"
           className="search-bar"
-          placeholder="Search 504 exams by title, acronym, domain, conducting commission, or role..."
+          placeholder="Search 500 exams by title, acronym, domain, conducting commission, or role..."
           value={searchQuery}
           onChange={(e) => {
             setSearchQuery(e.target.value)

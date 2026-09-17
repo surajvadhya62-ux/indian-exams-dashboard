@@ -3,6 +3,7 @@ import {
   HiOutlineSearch, HiOutlineScale, HiOutlineShieldCheck, HiOutlineCalendar,
   HiOutlineArrowRight, HiOutlineArrowDown, HiOutlineCheckCircle, HiOutlineMail
 } from 'react-icons/hi'
+import { INDIA_MAP_PATH, INDIA_MAP_VIEWBOX } from './IndiaMapPath'
 
 const FEEDBACK_EMAIL = 'sraujigdi@gmail.com'
 
@@ -304,19 +305,19 @@ export default function StoryGate({ exams, onEnter }) {
       <section className="sg-hero">
         {/* Subtle India Topographic Ambient Backdrop */}
         <div className="sg-hero-backdrop-graphic" aria-hidden="true">
-          <svg viewBox="0 0 600 600" className="sg-india-map-silhouette" opacity="0.07">
+          <svg viewBox={INDIA_MAP_VIEWBOX} className="sg-india-map-silhouette" opacity="0.08">
             <path
-              d="M 300,50 L 320,90 L 350,110 L 370,140 L 400,160 L 410,200 L 430,220 L 420,250 L 450,260 L 480,280 L 500,320 L 470,340 L 440,320 L 400,330 L 380,360 L 370,400 L 350,440 L 320,490 L 300,530 L 280,490 L 260,430 L 240,390 L 210,350 L 170,330 L 150,300 L 160,260 L 190,240 L 210,210 L 230,170 L 240,140 L 260,110 L 280,80 Z"
+              d={INDIA_MAP_PATH}
               fill="currentColor"
             />
-            <circle cx="300" cy="300" r="160" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="4 4" />
-            <circle cx="300" cy="300" r="240" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="8 8" />
+            <circle cx="300" cy="325" r="160" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="4 4" />
+            <circle cx="300" cy="325" r="240" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="8 8" />
           </svg>
         </div>
 
         <p className="sg-eyebrow">National Examinations Intelligence Registry</p>
         <h1 className="sg-headline">
-          {stats.total || 504} examinations.<br />
+          {stats.total || 500} examinations.<br />
           28 states, 8 UTs.<br />
           <span className="brand-accent">One single directory.</span>
         </h1>
@@ -360,7 +361,7 @@ export default function StoryGate({ exams, onEnter }) {
       <section className="sg-chapter" id="sg-numbers">
         <ChapterHead num="01" label="By the Numbers" meta="Live registry" />
         <div className="sg-stats-grid">
-          <StatTile value={stats.total || 504} label="Examinations tracked" sub="Central + State Registry" delay={0} />
+          <StatTile value={stats.total || 500} label="Examinations tracked" sub="Central + State Registry" delay={0} />
           <StatTile value={stats.central} label="Central & All-India" sub="UPSC · SSC · RRB · Banks" delay={70} />
           <StatTile value={stats.state} label="State & UT boards" sub="PSCs & subordinate boards" delay={140} />
           <StatTile value={stats.domains} label="Career domains" sub="Engineering to defence to law" delay={210} />

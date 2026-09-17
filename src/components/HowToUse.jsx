@@ -130,7 +130,7 @@ export default function HowToUse({ setActiveView, setFilters, setSearchQuery, to
           How to Navigate <span className="logo-highlight">IndiaExams</span>
         </h1>
         <p className="how-to-use-subtitle">
-          Your comprehensive guide to exploring over {totalExams || 504} statutory examinations,
+          Your comprehensive guide to exploring all {totalExams || 500} statutory examinations,
           using the smart recommendation wizard, comparing cadres, and tracking annual schedules.
         </p>
       </div>

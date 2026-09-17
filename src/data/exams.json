@@ -3499,38 +3499,6 @@
     "cadre": "Entrance / Admission"
   },
   {
-    "id": "mpsc-sti",
-    "name": "Maharashtra PSC STI/PSI/ASO Exam",
-    "acronym": "MPSC Combined",
-    "description": "Combined exam for Sales Tax Inspector, Police Sub-Inspector, and Assistant Section Officer in Maharashtra.",
-    "domain": "Government Services",
-    "field": [
-      "Tax",
-      "Police",
-      "Administration"
-    ],
-    "specializations": [
-      "STI",
-      "PSI",
-      "ASO"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "STI / PSI / ASO in Maharashtra",
-    "conducting_body": "MPSC",
-    "frequency": "Annual",
-    "exam_mode": "Online",
-    "min_qualification": "Bachelor's degree",
-    "age_limit": "19-38 years",
-    "official_website": "https://mpsc.gov.in",
-    "application_period": "As notified",
-    "exam_month": "As notified",
-    "popularity": "high",
-    "jurisdiction": "state",
-    "state": "Maharashtra",
-    "cadre": "Group B & C (Executive / Technical)"
-  },
-  {
     "id": "cgpsc",
     "name": "Chhattisgarh Public Service Commission State Service Exam",
     "acronym": "CGPSC",
@@ -3716,42 +3684,6 @@
     "official_website": "https://gailonline.com",
     "application_period": "February - March",
     "exam_month": "Based on GATE score",
-    "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
-  },
-  {
-    "id": "sail-octt",
-    "name": "SAIL Management Trainee / Operator Recruitment",
-    "acronym": "SAIL MT",
-    "description": "Recruitment for Management Trainees and other technical posts at Steel Authority of India Limited.",
-    "domain": "Engineering",
-    "field": [
-      "Metallurgy",
-      "Mechanical",
-      "Electrical",
-      "Civil"
-    ],
-    "specializations": [
-      "Metallurgy",
-      "Mechanical",
-      "Electrical",
-      "Civil",
-      "Mining",
-      "Chemical"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Management Trainee at SAIL",
-    "conducting_body": "SAIL",
-    "frequency": "Irregular",
-    "exam_mode": "Through GATE Score / Own Exam",
-    "min_qualification": "B.E. / B.Tech in relevant discipline",
-    "age_limit": "30 years",
-    "official_website": "https://sail.co.in",
-    "application_period": "As notified",
-    "exam_month": "As notified",
     "popularity": "medium",
     "jurisdiction": "central",
     "state": "All India",
@@ -5022,39 +4954,6 @@
     "jurisdiction": "central",
     "state": "All India",
     "cadre": "Officer / Managerial"
-  },
-  {
-    "id": "aai-atc",
-    "name": "Airports Authority of India Junior Executive (Air Traffic Control)",
-    "acronym": "AAI ATC",
-    "description": "National recruitment exam for hiring Junior Executives in Air Traffic Control responsible for managing civil airspace across Indian airports.",
-    "domain": "Government Services",
-    "field": [
-      "Aviation",
-      "Air Traffic Management",
-      "Physics",
-      "Mathematics"
-    ],
-    "specializations": [
-      "Air Traffic Control",
-      "Radar Navigation",
-      "Aerodrome Operations"
-    ],
-    "level": "Undergraduate",
-    "exam_type": "job",
-    "target_role": "Junior Executive (Air Traffic Control)",
-    "conducting_body": "AAI",
-    "frequency": "Annual",
-    "exam_mode": "Online",
-    "min_qualification": "B.Sc (Physics/Maths) or B.Tech with Physics/Maths",
-    "age_limit": "Max 27 years",
-    "official_website": "https://www.aai.aero",
-    "application_period": "November - December",
-    "exam_month": "December & January",
-    "popularity": "very_high",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
   },
   {
     "id": "pgcil-et",
@@ -6807,41 +6706,6 @@
     "application_period": "As notified",
     "exam_month": "As notified",
     "popularity": "medium",
-    "jurisdiction": "central",
-    "state": "All India",
-    "cadre": "Group A & B (Gazetted / Officer)"
-  },
-  {
-    "id": "cil-mt",
-    "name": "Coal India Limited Management Trainee Examination",
-    "acronym": "CIL MT",
-    "description": "Recruitment exam for Management Trainee posts in Coal India Limited and its subsidiaries across mining, engineering and management disciplines.",
-    "domain": "Engineering",
-    "field": [
-      "Mining",
-      "Engineering",
-      "Management"
-    ],
-    "specializations": [
-      "Mining",
-      "Mechanical",
-      "Electrical",
-      "Civil",
-      "Finance",
-      "HR"
-    ],
-    "level": "Graduate",
-    "exam_type": "job",
-    "target_role": "Management Trainee in Coal India Ltd",
-    "conducting_body": "CIL",
-    "frequency": "Annual",
-    "exam_mode": "Online",
-    "min_qualification": "B.E./B.Tech or MBA/CA (based on stream)",
-    "age_limit": "Up to 30 years",
-    "official_website": "https://www.coalindia.in",
-    "application_period": "As notified",
-    "exam_month": "As notified",
-    "popularity": "high",
     "jurisdiction": "central",
     "state": "All India",
     "cadre": "Group A & B (Gazetted / Officer)"
