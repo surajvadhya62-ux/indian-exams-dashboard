@@ -251,10 +251,10 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
                 <p>Track Maintainer Grade IV (Civil Engineering), Railway Pointsman, Helper / Khallasi (Mechanical, Electrical, Signal & Telecom workshops), Hospital Attendant, Peon / Daftary, Chowkidar / Watchman, Safaiwala, Gateman, Process Server, Messenger, Office Attendant.</p>
               </div>
 
-              <div style={{ marginTop: '10px', marginBottom: '14px', padding: '10px 14px', background: 'rgba(168, 85, 247, 0.08)', borderRadius: '8px', borderLeft: '3px solid #a855f7' }}>
-                <strong style={{ color: '#c084fc', fontSize: '0.82rem' }}>Note on SSC Stenographer Grade 'D':</strong>
-                <p style={{ margin: '4px 0 0 0', fontSize: '0.82rem', color: '#cbd5e1', lineHeight: '1.6' }}>
-                  Unlike Railway/Ministry Level 1 Group D, <strong>SSC Stenographer Grade &apos;D&apos;</strong> is a specialized ministerial transcription and personal secretarial post placed higher in <strong>7th CPC Pay Level 4 (Grade Pay ₹2,400)</strong> with an entry basic pay of ₹25,500/month (Gross ₹42,000–₹50,000).
+              <div className="cadre-note-box stenographer-note">
+                <strong className="cadre-note-title">Note on SSC Stenographer Grade 'D':</strong>
+                <p className="cadre-note-desc">
+                  Unlike Railway/Ministry Level 1 Group D, <strong>SSC Stenographer Grade 'D'</strong> is a specialized ministerial transcription and personal secretarial post placed higher in <strong>7th CPC Pay Level 4 (Grade Pay ₹2,400)</strong> with an entry basic pay of ₹25,500/month (Gross ₹42,000–₹50,000).
                 </p>
               </div>
 
@@ -296,14 +296,14 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
               </thead>
               <tbody>
                 <tr>
-                  <td><strong style={{ color: '#fbbf24' }}>RBI Grade B</strong></td>
+                  <td><strong className="table-highlight-gold">RBI Grade B</strong></td>
                   <td>Manager (Grade B)</td>
                   <td>Monetary policy, currency management, banking supervision</td>
                   <td>RBI Grade B (General / DEPR / DSIM)</td>
                   <td>₹1.25L – ₹1.40L / month + Accommodation</td>
                 </tr>
                 <tr>
-                  <td><strong style={{ color: '#60a5fa' }}>Grade A (Regulators)</strong></td>
+                  <td><strong className="table-highlight-blue">Grade A (Regulators)</strong></td>
                   <td>Assistant Manager (Grade A)</td>
                   <td>Securities regulation, MSME finance, pension regulation, trade credit</td>
                   <td>SEBI Grade A, NABARD Grade A, SIDBI Grade A, PFRDA, IFSCA, NHB</td>
@@ -380,7 +380,7 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
               </thead>
               <tbody>
                 <tr>
-                  <td><strong style={{ color: '#10b981' }}>Level 10 (₹56,100)</strong></td>
+                  <td><strong className="table-highlight-emerald">Level 10 (₹56,100)</strong></td>
                   <td>Lieutenant</td>
                   <td>Sub Lieutenant</td>
                   <td>Flying Officer</td>
@@ -408,7 +408,7 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
                   <td>Promotion after 13 years</td>
                 </tr>
                 <tr>
-                  <td><strong style={{ color: '#fbbf24' }}>Level 13 (₹1,30,600)</strong></td>
+                  <td><strong className="table-highlight-gold">Level 13 (₹1,30,600)</strong></td>
                   <td>Colonel (Selection)</td>
                   <td>Captain (Selection)</td>
                   <td>Group Captain</td>
@@ -436,7 +436,7 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
                   <td>Apex Selection</td>
                 </tr>
                 <tr>
-                  <td><strong style={{ color: '#f43f5e' }}>Level 17 (₹2,50,000)</strong></td>
+                  <td><strong className="table-highlight-rose">Level 17 (₹2,50,000)</strong></td>
                   <td>General (Chief of Army Staff)</td>
                   <td>Admiral (Chief of Naval Staff)</td>
                   <td>Air Chief Marshal (CAS)</td>
@@ -471,14 +471,14 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
               </thead>
               <tbody>
                 <tr>
-                  <td><strong style={{ color: '#3b82f6' }}>E1 Grade</strong></td>
+                  <td><strong className="table-highlight-blue">E1 Grade</strong></td>
                   <td>Executive Trainee / Assistant Engineer / Accounts Officer</td>
                   <td>₹40,000 – ₹1,40,000</td>
                   <td>GATE Score / Direct PSU CBT Exam</td>
                   <td>₹12 – ₹16 LPA</td>
                 </tr>
                 <tr>
-                  <td><strong style={{ color: '#60a5fa' }}>E2 Grade</strong></td>
+                  <td><strong className="table-highlight-cyan">E2 Grade</strong></td>
                   <td>Assistant Manager / Engineer</td>
                   <td>₹50,000 – ₹1,60,000</td>
                   <td>GATE / Campus / Experienced</td>
@@ -520,7 +520,7 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
                   <td>₹45 – ₹60+ LPA</td>
                 </tr>
                 <tr>
-                  <td><strong style={{ color: '#f43f5e' }}>Board Level</strong></td>
+                  <td><strong className="table-highlight-rose">Board Level</strong></td>
                   <td>Director / Chairman & Managing Director (CMD)</td>
                   <td>₹1,80,000 – ₹3,40,000</td>
                   <td>Public Enterprises Selection Board (PESB)</td>
@@ -537,15 +537,15 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
         <div className="grades-tab-content fade-in">
           <div className="grades-faq-grid">
             <div className="grades-faq-card">
-              <h3 style={{ color: '#fbbf24', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+              <h3 className="faq-card-title gazetted-title">
                 <HiOutlineCheckCircle /> What Does &quot;Gazetted Officer&quot; Mean?
               </h3>
-              <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontSize: '0.9rem' }}>
+              <p className="faq-card-desc">
                 A <strong>Gazetted Officer</strong> is an executive or judicial representative of the Government of India or a State Government whose appointment, transfer, or promotion is officially published in <em>The Gazette of India</em> (or the official State Government Gazette).
               </p>
-              <div style={{ marginTop: '12px', padding: '10px 14px', background: 'rgba(245, 158, 11, 0.08)', borderRadius: '8px', borderLeft: '3px solid #f59e0b' }}>
-                <strong style={{ color: '#fbbf24', fontSize: '0.85rem' }}>Key Privileges & Powers:</strong>
-                <ul style={{ margin: '6px 0 0 16px', fontSize: '0.83rem', color: '#cbd5e1' }}>
+              <div className="faq-privilege-box">
+                <strong className="faq-privilege-title">Key Privileges & Powers:</strong>
+                <ul className="faq-privilege-list">
                   <li>Authorized by law to verify and attest official documents, passport verification forms, and affidavits.</li>
                   <li>Holds executive, financial sanctioning, or administrative authority under the Constitution of India.</li>
                   <li>Can only be dismissed or suspended by order of the President of India or State Governor.</li>
@@ -554,16 +554,16 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
             </div>
 
             <div className="grades-faq-card">
-              <h3 style={{ color: '#38bdf8', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
+              <h3 className="faq-card-title pay-calc-title">
                 <HiOutlineCurrencyRupee /> How Does 7th CPC Pay Calculation Work?
               </h3>
-              <p style={{ color: '#cbd5e1', lineHeight: '1.7', fontSize: '0.9rem' }}>
+              <p className="faq-card-desc">
                 Monthly gross salary in central government service is computed using the following statutory formula:
               </p>
-              <div style={{ marginTop: '12px', background: 'rgba(0,0,0,0.3)', padding: '12px', borderRadius: '8px', fontFamily: 'monospace', fontSize: '0.85rem', color: '#60a5fa' }}>
+              <div className="faq-formula-box">
                 Gross Pay = Basic Pay + DA + HRA + TA + DA on TA
               </div>
-              <ul style={{ margin: '12px 0 0 16px', fontSize: '0.83rem', color: '#cbd5e1', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+              <ul className="faq-formula-list">
                 <li><strong>Basic Pay:</strong> As determined by the Pay Level matrix (e.g. Level 10 starts at ₹56,100).</li>
                 <li><strong>Dearness Allowance (DA):</strong> Inflation allowance revised every 6 months (January & July) linked to AICPI index.</li>
                 <li><strong>House Rent Allowance (HRA):</strong> Tiered by city: X Cities (Delhi, Mumbai, Bengaluru, etc.) = 30%, Y Cities = 20%, Z Cities = 10% of Basic Pay.</li>
@@ -587,7 +587,7 @@ export default function GovtGradesGuide({ setActiveView, setSearchQuery }) {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><strong style={{ color: '#c084fc' }}>Level 1</strong></td>
+                    <td><strong className="table-highlight-purple">Level 1</strong></td>
                     <td>₹18,000</td>
                     <td>GP 1800</td>
                     <td>Group 'D' / Level 1 (Erstwhile Grade D)</td>
