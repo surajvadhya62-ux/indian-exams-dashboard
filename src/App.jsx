@@ -55,12 +55,15 @@ function App() {
   const [isGuideOpen, setIsGuideOpen] = useState(false)
   const [screenerFilteredIds, setScreenerFilteredIds] = useState(null)
 
-  // Terminal Theme state (slate, amber, gazette)
+  // Theme state: only 'dark' and 'light'
   const [theme, setTheme] = useState(() => {
     try {
-      return localStorage.getItem('indiaexams_theme') || 'slate'
+      const saved = localStorage.getItem('indiaexams_theme')
+      if (saved === 'light' || saved === 'dark') return saved
+      if (saved === 'gazette') return 'light'
+      return 'dark'
     } catch {
-      return 'slate'
+      return 'dark'
     }
   })
 
@@ -337,7 +340,6 @@ function App() {
         compareCount={compareList.length}
         bookmarkCount={bookmarks.length}
         onLogoClick={handleLogoClick}
-        onOpenGuide={() => setIsGuideOpen(true)}
         theme={theme}
         setTheme={setTheme}
       />

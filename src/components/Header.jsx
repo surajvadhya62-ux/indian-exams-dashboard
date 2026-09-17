@@ -1,8 +1,8 @@
 import {
   HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck,
-  HiOutlineSparkles, HiOutlineBookmark, HiOutlineQuestionMarkCircle,
-  HiOutlineBadgeCheck, HiOutlineColorSwatch
+  HiOutlineSparkles, HiOutlineBookmark,
+  HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon
 } from 'react-icons/hi'
 
 export default function Header({
@@ -12,8 +12,7 @@ export default function Header({
   compareCount,
   bookmarkCount = 0,
   onLogoClick,
-  onOpenGuide,
-  theme = 'slate',
+  theme = 'dark',
   setTheme
 }) {
   const views = [
@@ -28,13 +27,14 @@ export default function Header({
   ]
 
   const isAnalyticsActive = activeView === 'analytics' || activeView === 'dashboard'
+  const isLight = theme === 'light' || theme === 'gazette'
 
   return (
-    <header className="header modern-header">
+    <header className="header modern-header tbar">
       <div className="header-inner">
         <div className="header-top-row">
           <div
-            className="header-logo"
+            className="header-logo tbar-brand"
             onClick={onLogoClick || (() => setActiveView('explore'))}
             style={{ cursor: 'pointer' }}
             title="IndiaExams - National Examinations Directory"
@@ -46,50 +46,45 @@ export default function Header({
             <span className="registry-version-badge">v2.4</span>
           </div>
 
-          <div className="header-stats">
+          <div className="header-stats tbar-status">
             <div className="live-status-badge">
               <span className="live-dot" />
               <span className="live-text">{totalExams} EXAMS VERIFIED · SEP 2026</span>
             </div>
 
-            {/* Terminal Theme Switcher */}
+            {/* Dark / Light Mode Switcher */}
             {setTheme && (
               <div className="theme-switcher-container">
                 <button
                   className="theme-switch-btn"
-                  onClick={() => {
-                    const next = theme === 'slate' ? 'amber' : theme === 'amber' ? 'gazette' : 'slate'
-                    setTheme(next)
-                  }}
-                  title={`Switch Terminal Aesthetic (Current: ${theme.toUpperCase()})`}
+                  onClick={() => setTheme(isLight ? 'dark' : 'light')}
+                  title={`Switch to ${isLight ? 'Dark' : 'Light'} Mode`}
+                  aria-label={`Switch to ${isLight ? 'Dark' : 'Light'} Mode`}
                 >
-                  <HiOutlineColorSwatch className="theme-icon" />
-                  <span className="theme-label">
-                    {theme === 'slate' ? 'Slate' : theme === 'amber' ? 'Amber' : 'Gazette'}
-                  </span>
+                  {isLight ? (
+                    <>
+                      <HiOutlineMoon className="theme-icon" />
+                      <span className="theme-label">Dark</span>
+                    </>
+                  ) : (
+                    <>
+                      <HiOutlineSun className="theme-icon text-amber" />
+                      <span className="theme-label">Light</span>
+                    </>
+                  )}
                 </button>
               </div>
-            )}
-
-            {onOpenGuide && (
-              <button
-                className="guide-help-btn"
-                onClick={onOpenGuide}
-                title="Open Quick Guide & Orientation"
-              >
-                <HiOutlineQuestionMarkCircle /> Guide
-              </button>
             )}
           </div>
         </div>
 
-        <nav className="header-nav modern-nav-tabs" aria-label="Main Navigation">
+        <nav className="header-nav modern-nav-tabs ttabs" aria-label="Main Navigation">
           {views.map(v => {
             const isActive = v.id === 'analytics' ? isAnalyticsActive : activeView === v.id
             return (
               <button
                 key={v.id}
-                className={`nav-btn modern-tab-btn ${isActive ? 'active' : ''}`}
+                className={`nav-btn modern-tab-btn ttab-btn ${isActive ? 'active' : ''}`}
                 onClick={() => setActiveView(v.id)}
               >
                 {v.icon}
