@@ -148,7 +148,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
         )}
         <div className="feedback-email-badge">
           <span className="live-signal-dot" />
-          <span>Direct Dispatch to: <strong>{RECIPIENT_EMAIL}</strong></span>
+          <span>Direct Dispatch: <strong>Official Editorial Desk</strong></span>
         </div>
         <h1 className="feedback-title">Share Your Feedback & Insights</h1>
         <p className="feedback-subtitle">
@@ -167,7 +167,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
               </div>
               <h3 className="success-title">Feedback Dispatched Successfully</h3>
               <p className="success-sub">
-                Thank you, <strong>{submissionReceipt?.fullName}</strong>. Your feedback has been registered and transmitted to <strong>{RECIPIENT_EMAIL}</strong>.
+                Thank you, <strong>{submissionReceipt?.fullName}</strong>. Your feedback has been registered and transmitted to our <strong>Official Editorial Review Desk</strong>.
               </p>
 
               <div className="receipt-box">
@@ -176,8 +176,8 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                   <span className="receipt-val mono-val">{submissionReceipt?.refNumber}</span>
                 </div>
                 <div className="receipt-row">
-                  <span className="receipt-label">Target Inbox:</span>
-                  <span className="receipt-val mono-val">{RECIPIENT_EMAIL}</span>
+                  <span className="receipt-label">Target Destination:</span>
+                  <span className="receipt-val mono-val">Editorial Review Registry (Direct Gateway)</span>
                 </div>
                 <div className="receipt-row">
                   <span className="receipt-label">Delivery Status:</span>
@@ -206,9 +206,9 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="email-client-chip"
-                    title={`Open in Gmail targeting ${RECIPIENT_EMAIL}`}
+                    title="Open in Gmail"
                   >
-                    <HiOutlineMail /> Open in Gmail ({RECIPIENT_EMAIL})
+                    <HiOutlineMail /> Open in Gmail
                   </a>
                   <a
                     href={mailtoUrl}
@@ -248,8 +248,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
               <div className="form-routing-banner">
                 <HiOutlineMail className="routing-icon" />
                 <div className="routing-text">
-                  <strong>Direct Email Ingestion:</strong> Form submissions are relayed automatically to{' '}
-                  <span className="mono-val">{RECIPIENT_EMAIL}</span>.
+                  <strong>Direct Email Ingestion:</strong> Form submissions are relayed automatically to our verified editorial review inbox.
                 </div>
               </div>
 
@@ -381,7 +380,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="email-client-chip"
-                    title={`Draft email in Gmail to ${RECIPIENT_EMAIL}`}
+                    title="Draft email in Gmail"
                   >
                     <HiOutlineMail /> Gmail
                   </a>
@@ -390,14 +389,14 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="email-client-chip"
-                    title={`Draft email in Outlook to ${RECIPIENT_EMAIL}`}
+                    title="Draft email in Outlook"
                   >
                     <HiOutlineMail /> Outlook
                   </a>
                   <a
                     href={mailtoUrl}
                     className="email-client-chip"
-                    title={`Open default mail client to ${RECIPIENT_EMAIL}`}
+                    title="Open default mail client"
                   >
                     <HiOutlineExternalLink /> Mail Client
                   </a>
@@ -417,7 +416,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             </div>
             <p className="trust-text">
               IndiaExams is an independent, non-commercial public interest directory for Indian aspirants.
-              All submissions are transmitted securely to <span className="mono-val">{RECIPIENT_EMAIL}</span> and verified against official commission notifications.
+              All submissions are transmitted securely via direct email gateway to our editorial desk and verified against official commission notifications.
             </p>
             <div className="trust-stats-row">
               <div className="trust-stat">
@@ -444,7 +443,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             <div className="faq-item">
               <h5 className="faq-q">Where does feedback go?</h5>
               <p className="faq-a">
-                Directly to the editor in-charge at <strong>{RECIPIENT_EMAIL}</strong> for review and ingestion into the national examination database.
+                Directly to the editor in-charge via direct encrypted email dispatch for review and ingestion into the national examination database.
               </p>
             </div>
 

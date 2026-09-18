@@ -4,7 +4,8 @@ import { useExamDetail } from '../hooks/useExamDetail'
 import {
   HiOutlineExternalLink, HiX, HiChevronLeft, HiChevronRight,
   HiOutlineArrowRight, HiOutlineCalendar, HiOutlineDownload,
-  HiOutlineShare, HiOutlineClipboardCopy, HiCheck, HiOutlineMail
+  HiOutlineShare, HiOutlineClipboardCopy, HiCheck, HiOutlineMail,
+  HiOutlineSwitchHorizontal
 } from 'react-icons/hi'
 import { downloadExamIcs, getGoogleCalendarUrl } from '../utils/calendarSync'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
@@ -16,7 +17,7 @@ import ResourceLinks from './exam-detail/ResourceLinks'
 import SectionStatusBadge from './exam-detail/SectionStatusBadge'
 import { SkeletonModal } from './Skeletons'
 
-export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam }) {
+export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam, onOpenOverlap }) {
   const color = getDomainColor(exam.domain)
   const isJob = exam.exam_type === 'job'
 
@@ -149,6 +150,31 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
           )}
 
           <div className="modal-top-right-group">
+            {/* Syllabus Overlap Radar Button */}
+            {onOpenOverlap && (
+              <button
+                className="modal-overlap-btn"
+                onClick={() => onOpenOverlap(exam)}
+                title={`Calculate syllabus overlap for ${exam.acronym || exam.name} against 500 exams`}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '5px',
+                  padding: '6px 12px',
+                  borderRadius: '6px',
+                  background: 'rgba(232, 163, 61, 0.12)',
+                  border: '1px solid rgba(232, 163, 61, 0.3)',
+                  color: 'var(--amber-bright, #e8a33d)',
+                  fontSize: '0.8rem',
+                  fontWeight: 600,
+                  cursor: 'pointer'
+                }}
+              >
+                <HiOutlineSwitchHorizontal />
+                <span>Syllabus Bridge</span>
+              </button>
+            )}
+
             {/* One-Stop PDF Dossier Download */}
             <button
               className="modal-pdf-dossier-btn"

@@ -4,7 +4,7 @@ import {
   HiOutlineBadgeCheck, HiOutlineBookmark, HiOutlineChartBar,
   HiOutlineShieldCheck, HiOutlineScale, HiOutlineCalendar,
   HiOutlineSun, HiOutlineMoon, HiOutlineRefresh, HiOutlineChatAlt2,
-  HiOutlineArrowRight, HiOutlineExternalLink
+  HiOutlineArrowRight, HiOutlineExternalLink, HiOutlineSwitchHorizontal
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
 
@@ -43,6 +43,14 @@ export default function CommandPalette({
       subtitle: 'Browse & filter 500+ national & state examinations',
       icon: <HiOutlineGlobeAlt className="cp-icon" />,
       action: () => setActiveView('explore')
+    },
+    {
+      id: 'nav-overlap',
+      type: 'view',
+      title: 'Syllabus Overlap & Cross-Exam Bridge',
+      subtitle: 'Quantified syllabus synergy and incremental delta analysis',
+      icon: <HiOutlineSwitchHorizontal className="cp-icon text-amber" />,
+      action: () => setActiveView('overlap')
     },
     {
       id: 'nav-wizard',

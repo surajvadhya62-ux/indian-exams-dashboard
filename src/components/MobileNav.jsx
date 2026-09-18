@@ -2,7 +2,7 @@ import {
   HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineShieldCheck, HiOutlineSparkles,
   HiOutlineBookmark, HiOutlineBadgeCheck, HiOutlineChatAlt2,
-  HiOutlineNewspaper
+  HiOutlineNewspaper, HiOutlineSwitchHorizontal
 } from 'react-icons/hi'
 
 export default function MobileNav({ activeView, setActiveView, compareCount, bookmarkCount }) {
@@ -10,6 +10,7 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt /> },
     { id: 'updates', label: 'Wire', icon: <HiOutlineNewspaper /> },
     { id: 'my-exams', label: 'Radar', icon: <HiOutlineBookmark />, count: bookmarkCount },
+    { id: 'overlap', label: 'Overlap', icon: <HiOutlineSwitchHorizontal /> },
     { id: 'calendar', label: 'Calendar', icon: <HiOutlineCalendar /> },
     { id: 'screener', label: 'Screener', icon: <HiOutlineBadgeCheck /> },
     { id: 'compare', label: 'Compare', icon: <HiOutlineScale />, count: compareCount },

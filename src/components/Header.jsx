@@ -4,7 +4,7 @@ import {
   HiOutlineSparkles, HiOutlineBookmark,
   HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon,
   HiOutlineSearch, HiOutlineChatAlt2, HiOutlineNewspaper,
-  HiOutlineUserCircle
+  HiOutlineUserCircle, HiOutlineSwitchHorizontal
 } from 'react-icons/hi'
 
 export default function Header({
@@ -25,13 +25,14 @@ export default function Header({
     { id: 'explore', num: '01', label: 'Explore', icon: <HiOutlineGlobeAlt className="hud-nav-icon" /> },
     { id: 'updates', num: '02', label: 'Gazette Wire', icon: <HiOutlineNewspaper className="hud-nav-icon text-amber" />, badge: 'LIVE' },
     { id: 'my-exams', num: '03', label: 'Radar', count: bookmarkCount, icon: <HiOutlineBookmark className="hud-nav-icon text-amber" /> },
-    { id: 'calendar', num: '04', label: 'Calendar', icon: <HiOutlineCalendar className="hud-nav-icon" /> },
-    { id: 'screener', num: '05', label: 'Screener', icon: <HiOutlineBadgeCheck className="hud-nav-icon text-emerald" /> },
-    { id: 'compare', num: '06', label: 'Compare', count: compareCount, icon: <HiOutlineScale className="hud-nav-icon" /> },
-    { id: 'cadres', num: '07', label: '7th CPC Cadres', icon: <HiOutlineShieldCheck className="hud-nav-icon" /> },
-    { id: 'analytics', num: '08', label: 'Analytics', icon: <HiOutlineChartBar className="hud-nav-icon" /> },
-    { id: 'wizard', num: '09', label: 'Wizard', icon: <HiOutlineSparkles className="hud-nav-icon text-amber" /> },
-    { id: 'feedback', num: '10', label: 'Feedback', icon: <HiOutlineChatAlt2 className="hud-nav-icon text-teal" /> },
+    { id: 'overlap', num: '04', label: 'Overlap', icon: <HiOutlineSwitchHorizontal className="hud-nav-icon text-amber" />, badge: 'NEW' },
+    { id: 'calendar', num: '05', label: 'Calendar', icon: <HiOutlineCalendar className="hud-nav-icon" /> },
+    { id: 'screener', num: '06', label: 'Screener', icon: <HiOutlineBadgeCheck className="hud-nav-icon text-emerald" /> },
+    { id: 'compare', num: '07', label: 'Compare', count: compareCount, icon: <HiOutlineScale className="hud-nav-icon" /> },
+    { id: 'cadres', num: '08', label: '7th CPC Cadres', icon: <HiOutlineShieldCheck className="hud-nav-icon" /> },
+    { id: 'analytics', num: '09', label: 'Analytics', icon: <HiOutlineChartBar className="hud-nav-icon" /> },
+    { id: 'wizard', num: '10', label: 'Wizard', icon: <HiOutlineSparkles className="hud-nav-icon text-amber" /> },
+    { id: 'feedback', num: '11', label: 'Feedback', icon: <HiOutlineChatAlt2 className="hud-nav-icon text-teal" /> },
   ]
 
   const isAnalyticsActive = activeView === 'analytics' || activeView === 'dashboard'
@@ -49,7 +50,8 @@ export default function Header({
             title="Return to IndiaExams Platform Gate"
           >
             <span className="hud-brand-symbol">▪</span>
-            <span className="hud-brand-text">I N D I A E X A M S</span>
+            <span className="hud-brand-text">INDIAEXAMS</span>
+            <span className="hud-brand-sub">TERMINAL</span>
             <span className="hud-version-chip">v2.5 PROD</span>
           </div>
 
@@ -72,7 +74,7 @@ export default function Header({
                 aria-label="Start Feature Tour"
               >
                 <HiOutlineSparkles className="hud-tour-icon text-amber" />
-                <span className="hud-tour-label">Guided Tour</span>
+                <span className="hud-tour-label hud-btn-text">Guided Tour</span>
               </button>
             )}
 
@@ -88,12 +90,12 @@ export default function Header({
                   <>
                     <span className="auth-avatar-dot" />
                     <span className="hud-auth-name">{currentUser.name.split(' ')[0]}</span>
-                    <span className="hud-auth-sub">Vault</span>
+                    <span className="hud-auth-sub hud-btn-text">Vault</span>
                   </>
                 ) : (
                   <>
                     <HiOutlineUserCircle className="hud-auth-icon" />
-                    <span className="hud-auth-label">Sign In</span>
+                    <span className="hud-auth-label hud-btn-text">Sign In</span>
                   </>
                 )}
               </button>
@@ -108,8 +110,8 @@ export default function Header({
                 aria-label="Open Command Palette"
               >
                 <HiOutlineSearch className="hud-cmd-icon" />
-                <span className="hud-cmd-label">Quick Search</span>
-                <kbd className="hud-cmd-kbd">⌘K</kbd>
+                <span className="hud-cmd-label hud-btn-text">Quick Search</span>
+                <kbd className="hud-cmd-kbd hud-btn-text">⌘K</kbd>
               </button>
             )}
 
@@ -124,12 +126,12 @@ export default function Header({
                 {isLight ? (
                   <>
                     <HiOutlineMoon className="hud-theme-icon" />
-                    <span className="hud-theme-text">Dark</span>
+                    <span className="hud-theme-text hud-btn-text">Dark</span>
                   </>
                 ) : (
                   <>
                     <HiOutlineSun className="hud-theme-icon text-amber" />
-                    <span className="hud-theme-text">Light</span>
+                    <span className="hud-theme-text hud-btn-text">Light</span>
                   </>
                 )}
               </button>
@@ -148,7 +150,7 @@ export default function Header({
               return (
                 <button
                   key={v.id}
-                  className={`hud-tab-item ${isActive ? 'active' : ''}`}
+                  className={`hud-tab-btn hud-tab-item ${isActive ? 'active' : ''}`}
                   onClick={() => setActiveView(v.id)}
                   aria-current={isActive ? 'page' : undefined}
                 >
@@ -157,14 +159,14 @@ export default function Header({
                   <span className="hud-tab-text">{v.label}</span>
 
                   {typeof v.count === 'number' && v.count > 0 && (
-                    <span className="hud-tab-counter">{v.count}</span>
+                    <span className="hud-tab-count-pill hud-tab-counter">{v.count}</span>
                   )}
 
                   {v.badge && (
                     <span className="hud-tab-live-badge">{v.badge}</span>
                   )}
 
-                  {isActive && <div className="hud-active-bar" />}
+                  {isActive && <div className="hud-active-underline hud-active-bar" />}
                 </button>
               )
             })}

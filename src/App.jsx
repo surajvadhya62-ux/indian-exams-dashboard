@@ -24,6 +24,7 @@ import NewsTicker from './components/NewsTicker'
 import MyDashboard from './components/MyDashboard'
 import WalkthroughTour from './components/WalkthroughTour'
 import AuthModal from './components/AuthModal'
+import SyllabusOverlapEngine from './components/SyllabusOverlapEngine'
 
 /* Session-gated intro check:
    Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
@@ -133,6 +134,8 @@ function App() {
   const [compareList, setCompareList] = useState([])
   const [selectedExam, setSelectedExam] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
+  const [overlapPrimaryId, setOverlapPrimaryId] = useState('upsc-cse')
+  const [overlapSecondaryId, setOverlapSecondaryId] = useState('uppsc-pcs')
 
   // Aspirant Auth & Vault State
   const [currentUser, setCurrentUser] = useState(() => {
@@ -140,8 +143,8 @@ function App() {
       if (new URLSearchParams(window.location.search).get('demoUser') === '1') {
         return {
           id: 'usr_lead',
-          name: 'Suraj Vadhya',
-          email: 'surajvadhya62@gmail.com',
+          name: 'Aspirant',
+          email: 'aspirant@indiaexams.gov.in',
           targetExam: 'UPSC Civil Services (CSE)',
           targetYear: '2025-2026',
           joinedAt: new Date().toISOString()
@@ -278,7 +281,24 @@ function App() {
         return
       }
 
-      const validViews = ['explore', 'updates', 'my-exams', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
+      if (hash.startsWith('overlap')) {
+        setActiveView('overlap')
+        setShowOnlySaved(false)
+        setDashboardEntered(true)
+        setPageReleased(true)
+        setIntroMounted(false)
+        try {
+          const queryPart = hash.includes('?') ? hash.split('?')[1] : ''
+          if (queryPart) {
+            const params = new URLSearchParams(queryPart)
+            if (params.get('primary')) setOverlapPrimaryId(params.get('primary'))
+            if (params.get('secondary')) setOverlapSecondaryId(params.get('secondary'))
+          }
+        } catch (e) {}
+        return
+      }
+
+      const validViews = ['explore', 'updates', 'my-exams', 'overlap', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
       if (validViews.includes(hash)) {
         setActiveView(hash)
         setShowOnlySaved(false)
@@ -303,6 +323,14 @@ function App() {
     setActiveView(id)
     window.location.hash = `#${id}`
   }, [handleDashboardEnter])
+
+  const openSyllabusOverlap = useCallback((examOrId, comparatorId) => {
+    const pId = typeof examOrId === 'string' ? examOrId : examOrId?.id
+    if (pId) setOverlapPrimaryId(pId)
+    if (comparatorId) setOverlapSecondaryId(comparatorId)
+    setSelectedExam(null)
+    goToView('overlap')
+  }, [goToView])
 
   const openExamDetail = useCallback((exam) => {
     setSelectedExam(exam)
@@ -528,6 +556,20 @@ function App() {
                   setTodoList={setTodoList}
                   currentUser={currentUser}
                   onOpenAuth={() => setIsAuthModalOpen(true)}
+                  onOpenOverlap={openSyllabusOverlap}
+                />
+              </div>
+            )}
+
+            {/* Tab 3: Syllabus Overlap & Cross-Exam Fungibility Engine */}
+            {activeView === 'overlap' && (
+              <div className="fade-in">
+                <SyllabusOverlapEngine
+                  exams={examsData}
+                  onViewDetails={openExamDetail}
+                  initialPrimaryId={overlapPrimaryId}
+                  initialSecondaryId={overlapSecondaryId}
+                  setActiveView={goToView}
                 />
               </div>
             )}
@@ -564,6 +606,16 @@ function App() {
             {/* Explore View (Cards / List / Search / Filters) */}
             {activeView === 'explore' && (
               <div className="fade-in">
+                <div className="workstation-header">
+                  <div className="workstation-kicker">
+                    <span className="live-pulse-dot" />
+                    <span>CENTRAL & STATE STATUTORY RECRUITMENT REGISTRY</span>
+                  </div>
+                  <h1 className="workstation-title">500 Indian Examinations Intelligence Terminal</h1>
+                  <p className="workstation-subtitle">
+                    Official statutory repository across 342 commissions, verified gazette cycles, 7th CPC cadres, and downloadable vector dossiers.
+                  </p>
+                </div>
                 <StatsOverview exams={examsData} countUp={pageReleased} />
                 <SearchFilter
                   searchQuery={searchQuery}
@@ -691,6 +743,7 @@ function App() {
           allExams={examsData}
           onSelectExam={openExamDetail}
           onClose={closeExamDetail}
+          onOpenOverlap={openSyllabusOverlap}
         />
       )}
 
@@ -712,6 +765,7 @@ function App() {
         theme={theme}
         setTheme={setTheme}
         clearFilters={clearFilters}
+        onOpenOverlap={openSyllabusOverlap}
       />
 
       {/* Interactive Feature Walkthrough Tour Overlay */}

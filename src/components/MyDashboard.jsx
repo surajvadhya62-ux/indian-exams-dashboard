@@ -6,9 +6,11 @@ import {
   HiOutlinePlus, HiOutlineTrendingUp, HiOutlineCalendar,
   HiOutlineBriefcase, HiOutlineAcademicCap, HiOutlineDownload,
   HiOutlineClipboardList, HiOutlineCheck, HiOutlineFire,
-  HiOutlineLightningBolt, HiOutlineTag, HiOutlineFilter
+  HiOutlineLightningBolt, HiOutlineTag, HiOutlineFilter,
+  HiOutlineSwitchHorizontal
 } from 'react-icons/hi'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
+import { calculateSyllabusOverlap } from '../utils/syllabusTaxonomy'
 
 // Helper to calculate approximate countdown days from exam_month
 function calculateEstimatedDays(examMonthStr = '') {
@@ -53,7 +55,8 @@ export default function MyDashboard({
   todoList = [],
   setTodoList,
   currentUser,
-  onOpenAuth
+  onOpenAuth,
+  onOpenOverlap
 }) {
   const [selectedAddExamId, setSelectedAddExamId] = useState('')
   const [targetFilter, setTargetFilter] = useState('all') // 'all' | 'primary' | 'watchlist'
@@ -95,6 +98,28 @@ export default function MyDashboard({
     const officer = bookmarkedExams.find(e => /officer|executive/i.test(e.cadre || e.target_role || ''))
     if (officer) return 'Executive / Officer Cadre'
     return bookmarkedExams[0]?.cadre || 'Standard National Cadre'
+  }, [bookmarkedExams])
+
+  // Pairwise Portfolio Synergy across bookmarked targets
+  const portfolioSynergy = useMemo(() => {
+    if (bookmarkedExams.length < 2) return null
+    const primary = bookmarkedExams[0]
+    let totalPct = 0
+    const comparisons = []
+    for (let i = 1; i < bookmarkedExams.length; i++) {
+      const target = bookmarkedExams[i]
+      const overlap = calculateSyllabusOverlap(primary, target)
+      if (overlap) {
+        totalPct += overlap.overlapPercentage
+        comparisons.push({ target, overlap })
+      }
+    }
+    const avgPct = comparisons.length > 0 ? Math.round(totalPct / comparisons.length) : 0
+    return {
+      primary,
+      avgPct,
+      comparisons
+    }
   }, [bookmarkedExams])
 
   // Combined Vacancy Pool & Application Windows across Target Pipeline
@@ -386,6 +411,123 @@ export default function MyDashboard({
             </p>
           </div>
         </div>
+
+        {/* Portfolio Synergy Banner */}
+        {portfolioSynergy && (
+          <div className="portfolio-synergy-banner" style={{
+            marginTop: '1.25rem',
+            padding: '1rem 1.25rem',
+            borderRadius: '10px',
+            background: 'linear-gradient(135deg, rgba(232, 163, 61, 0.12) 0%, rgba(16, 185, 129, 0.08) 100%)',
+            border: '1px solid rgba(232, 163, 61, 0.3)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '1.5rem',
+            flexWrap: 'wrap'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <div style={{
+                width: '46px',
+                height: '46px',
+                borderRadius: '50%',
+                background: 'var(--ink, #080a0f)',
+                border: '2px solid var(--amber-bright, #e8a33d)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'var(--amber-bright, #e8a33d)',
+                fontWeight: 800,
+                fontSize: '1rem',
+                fontFamily: 'Inter, sans-serif',
+                flexShrink: 0
+              }}>
+                {portfolioSynergy.avgPct}%
+              </div>
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '2px', flexWrap: 'wrap' }}>
+                  <span style={{
+                    fontSize: '0.68rem',
+                    fontFamily: 'IBM Plex Mono, monospace',
+                    fontWeight: 700,
+                    letterSpacing: '0.06em',
+                    color: '#10b981',
+                    background: 'rgba(16, 185, 129, 0.15)',
+                    padding: '2px 6px',
+                    borderRadius: '4px'
+                  }}>
+                    PORTFOLIO SYLLABUS SYNERGY
+                  </span>
+                  <span style={{ fontSize: '0.88rem', fontWeight: 600, color: 'var(--fg)' }}>
+                    Your saved targets have an average syllabus synergy of {portfolioSynergy.avgPct}%
+                  </span>
+                </div>
+                <p style={{ fontSize: '0.78rem', color: 'var(--muted)', margin: 0 }}>
+                  Anchor: <strong>{portfolioSynergy.primary.acronym || portfolioSynergy.primary.name}</strong> vs {portfolioSynergy.comparisons.length} secondary targets.
+                </p>
+              </div>
+            </div>
+
+            {onOpenOverlap && (
+              <button
+                className="btn-secondary"
+                onClick={() => onOpenOverlap(portfolioSynergy.primary, portfolioSynergy.comparisons[0]?.target)}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  fontSize: '0.82rem',
+                  fontWeight: 600,
+                  color: 'var(--amber-bright, #e8a33d)',
+                  borderColor: 'rgba(232, 163, 61, 0.4)',
+                  cursor: 'pointer'
+                }}
+              >
+                <HiOutlineSwitchHorizontal />
+                <span>Deep Dive Bridge</span>
+              </button>
+            )}
+          </div>
+        )}
+
+        {bookmarkedExams.length === 1 && onOpenOverlap && (
+          <div className="portfolio-synergy-banner" style={{
+            marginTop: '1.25rem',
+            padding: '0.9rem 1.25rem',
+            borderRadius: '10px',
+            background: 'rgba(255, 255, 255, 0.03)',
+            border: '1px dashed var(--hairline-2)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: '1rem',
+            flexWrap: 'wrap'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <HiOutlineSwitchHorizontal style={{ fontSize: '1.4rem', color: 'var(--amber-bright, #e8a33d)' }} />
+              <div>
+                <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--fg)' }}>
+                  Discover Compatible Dual Targets for {bookmarkedExams[0].acronym || bookmarkedExams[0].name}
+                </span>
+                <p style={{ fontSize: '0.76rem', color: 'var(--muted)', margin: 0 }}>
+                  Find high-overlap secondary exams you can write without diluting your primary prep.
+                </p>
+              </div>
+            </div>
+            <button
+              className="btn-secondary"
+              onClick={() => onOpenOverlap(bookmarkedExams[0])}
+              style={{
+                fontSize: '0.8rem',
+                fontWeight: 600,
+                color: 'var(--amber-bright, #e8a33d)',
+                cursor: 'pointer'
+              }}
+            >
+              Explore Overlap Radar →
+            </button>
+          </div>
+        )}
       </div>
 
       {/* ========================================================= */}

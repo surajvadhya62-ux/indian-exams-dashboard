@@ -63,8 +63,8 @@ export default function AuthModal({
   const handleGuestLogin = () => {
     const guestProfile = {
       id: `usr_guest_${Date.now()}`,
-      name: 'Aspirant Suraj',
-      email: 'surajvadhya62@gmail.com',
+      name: 'Candidate Aspirant',
+      email: 'aspirant@indiaexams.gov.in',
       targetExam: 'UPSC Civil Services Examination (UPSC CSE)',
       targetYear: '2025-2026',
       joinedAt: new Date().toISOString(),
@@ -305,7 +305,7 @@ export default function AuthModal({
                     type="email"
                     required
                     className="form-input"
-                    placeholder="e.g., surajvadhya62@gmail.com"
+                    placeholder="e.g., candidate@example.com"
                     value={formData.email}
                     onChange={e => handleChange('email', e.target.value)}
                   />
@@ -360,7 +360,7 @@ export default function AuthModal({
                   className="btn-secondary quick-guest-btn"
                   onClick={handleGuestLogin}
                 >
-                  <HiOutlineSparkles /> One-Click Access as Suraj (Lead Aspirant)
+                  <HiOutlineSparkles /> 1-Click Aspirant Demo Access
                 </button>
               </div>
             </div>
