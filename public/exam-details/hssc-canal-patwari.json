@@ -96,13 +96,13 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Patwaris and Canal Patwaris are remunerated in Functional Pay Level 4 (FPL-4) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of \u20b925,500.",
+    "note": "Patwaris and Canal Patwaris are remunerated in Functional Pay Level 4 (FPL-4) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹25,500.",
     "pay_level": "Level 4 (FPL-4)",
     "entry_basic_pay": 25500,
     "pay_confidence": "verified",
     "pay_as_of": "2023-03-07",
     "pay_source_url": "https://hssc.gov.in",
-    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-4 scale \u20b925,500 \u2013 \u20b981,100)",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-4 scale ₹25,500 – ₹81,100)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -114,7 +114,7 @@
       "max": 45000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on entry Level 4 basic pay of \u20b925,500 with 58% Dearness Allowance (\u20b914,790), House Rent Allowance (8% to 24%), Patwari Basta/Stationery allowance, and fixed medical allowance, minus standard employee NPS and insurance deductions.",
+    "estimate_note": "Calculated on entry Level 4 basic pay of ₹25,500 with 58% Dearness Allowance (₹14,790), House Rent Allowance (8% to 24%), Patwari Basta/Stationery allowance, and fixed medical allowance, minus standard employee NPS and insurance deductions.",
     "official_perks": [
       "Dearness Allowance (DA) at prevailing state rates (58% effective 1 Jul 2025)",
       "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
@@ -130,23 +130,11 @@
     "note": "Patwari and Canal Patwari positions are among the most sought-after field revenue appointments under HSSC Group C recruitment.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 120250,
-        "vacancies": 650,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://hssc.gov.in",
-        "source_label": "HSSC - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2023,
         "applicants": 37600,
         "vacancies": 1213,
         "shortlisted_for_mains": 37600,
-        "selectivity_ratio": "approx. 1 in 31 (calculated: shortlisted CET candidates \u00f7 Group 56 revenue vacancies)",
+        "selectivity_ratio": "approx. 1 in 31 (calculated: shortlisted CET candidates ÷ Group 56 revenue vacancies)",
         "confidence": "reported",
         "as_of": "2023-08-06",
         "source_url": "https://hssc.gov.in",
@@ -159,7 +147,7 @@
     "note": "Official notifications, group-wise vacancies, and Group 56 Mains syllabus are hosted on the HSSC recruitment website.",
     "links": [
       {
-        "label": "Haryana Staff Selection Commission \u2014 Official Website",
+        "label": "Haryana Staff Selection Commission — Official Website",
         "url": "https://hssc.gov.in",
         "type": "other",
         "confidence": "verified",

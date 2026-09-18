@@ -8,7 +8,7 @@
     "steps": [
       {
         "designation": "Assistant Manager (Grade 'A')",
-        "pay_level": "Grade A (\u20b944,500 basic)",
+        "pay_level": "Grade A (₹44,500 basic)",
         "years": "Entry (approx. 2 yrs probation)",
         "confidence": "verified",
         "as_of": "2023-11-08",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Manager (Grade 'B')",
-        "pay_level": "Grade B (\u20b955,200+ basic)",
+        "pay_level": "Grade B (₹55,200+ basic)",
         "years": "approx. 3-6 yrs",
         "confidence": "verified",
         "as_of": "2023-11-08",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Assistant General Manager (AGM, Grade 'C')",
-        "pay_level": "Grade C (\u20b974,450+ basic)",
+        "pay_level": "Grade C (₹74,450+ basic)",
         "years": "approx. 6-10 yrs",
         "confidence": "verified",
         "as_of": "2023-11-08",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Deputy General Manager (DGM, Grade 'D')",
-        "pay_level": "Grade D (\u20b989,150+ basic)",
+        "pay_level": "Grade D (₹89,150+ basic)",
         "years": "approx. 10-15 yrs",
         "confidence": "verified",
         "as_of": "2023-11-08",
@@ -153,7 +153,7 @@
     "pay_confidence": "verified",
     "pay_as_of": "2023-11-08",
     "pay_source_url": "https://www.sidbi.in/en/careers",
-    "pay_source_label": "SIDBI Grade A Recruitment Notification (Scale: \u20b944,500-89,150)",
+    "pay_source_label": "SIDBI Grade A Recruitment Notification (Scale: ₹44,500-89,150)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -165,7 +165,7 @@
       "max": 94000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Starting basic pay is \u20b944,500 in the scale \u20b944,500 - 2,500(4) - 54,500 - 2,850(7) - 74,450 - EB - 2,850(4) - 85,850 - 3,300(1) - 89,150 (17 years). Total gross emoluments at metro postings reach approx. \u20b91,00,000 to \u20b91,10,000 per month inclusive of DA (58% review baseline), Special Allowance, Grade Allowance, Local Compensatory Allowance, and Bank Leased Quarters / HRA.",
+    "estimate_note": "Starting basic pay is ₹44,500 in the scale ₹44,500 - 2,500(4) - 54,500 - 2,850(7) - 74,450 - EB - 2,850(4) - 85,850 - 3,300(1) - 89,150 (17 years). Total gross emoluments at metro postings reach approx. ₹1,00,000 to ₹1,10,000 per month inclusive of DA (58% review baseline), Special Allowance, Grade Allowance, Local Compensatory Allowance, and Bank Leased Quarters / HRA.",
     "official_perks": [
       "Bank Leased Residential Accommodation or House Rent Allowance (HRA)",
       "Comprehensive Medical Coverage and 100% reimbursement of medical bills for self and dependents",
@@ -182,23 +182,11 @@
     "note": "Competition benchmarks reflect direct recruitment drives by SIDBI for development banking specialists.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 175750,
-        "vacancies": 950,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://www.sidbi.in",
-        "source_label": "SIDBI - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2023,
         "applicants": 65000,
         "vacancies": 50,
         "shortlisted_for_mains": 1500,
-        "selectivity_ratio": "approx. 1 in 1300 (calculated: estimated applicants \u00f7 notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 1300 (calculated: estimated applicants ÷ notified vacancies)",
         "confidence": "verified",
         "as_of": "2023-11-08",
         "source_url": "https://www.sidbi.in/en/careers",
@@ -209,7 +197,7 @@
         "applicants": 95000,
         "vacancies": 100,
         "shortlisted_for_mains": 3000,
-        "selectivity_ratio": "approx. 1 in 950 (calculated: estimated applicants \u00f7 notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 950 (calculated: estimated applicants ÷ notified vacancies)",
         "confidence": "verified",
         "as_of": "2022-03-04",
         "source_url": "https://www.sidbi.in/en/careers",

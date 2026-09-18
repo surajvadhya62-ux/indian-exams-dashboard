@@ -8,7 +8,7 @@
     "steps": [
       {
         "designation": "Trainee Engineer / Trainee Officer",
-        "pay_level": "IDA Grade E-2 (\u20b950,000 \u2013 \u20b91,60,000)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
         "years": "1 yr training",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Engineer / Officer",
-        "pay_level": "IDA Grade E-2 (\u20b950,000 \u2013 \u20b91,60,000)",
+        "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
         "years": "approx. 3 yrs",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Assistant Manager",
-        "pay_level": "IDA Grade E-3 (\u20b960,000 \u2013 \u20b91,80,000)",
+        "pay_level": "IDA Grade E-3 (₹60,000 – ₹1,80,000)",
         "years": "approx. 3-4 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Deputy Manager",
-        "pay_level": "IDA Grade E-4 (\u20b970,000 \u2013 \u20b92,00,000)",
+        "pay_level": "IDA Grade E-4 (₹70,000 – ₹2,00,000)",
         "years": "approx. 4 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Manager",
-        "pay_level": "IDA Grade E-5 (\u20b980,000 \u2013 \u20b92,20,000)",
+        "pay_level": "IDA Grade E-5 (₹80,000 – ₹2,20,000)",
         "years": "approx. 4 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Senior Manager",
-        "pay_level": "IDA Grade E-6 (\u20b990,000 \u2013 \u20b92,40,000)",
+        "pay_level": "IDA Grade E-6 (₹90,000 – ₹2,40,000)",
         "years": "approx. 5 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -62,7 +62,7 @@
       },
       {
         "designation": "Chief Engineer / Additional General Manager (AGM)",
-        "pay_level": "IDA Grade E-7 (\u20b91,00,000 \u2013 \u20b92,60,000)",
+        "pay_level": "IDA Grade E-7 (₹1,00,000 – ₹2,60,000)",
         "years": "approx. 20 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -71,7 +71,7 @@
       },
       {
         "designation": "General Manager / Executive Director",
-        "pay_level": "IDA Grade E-8 / E-9 (\u20b91,20,000 \u2013 \u20b93,00,000)",
+        "pay_level": "IDA Grade E-8 / E-9 (₹1,20,000 – ₹3,00,000)",
         "years": "Apex Leadership",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -140,8 +140,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Trainee Engineers and Trainee Officers enter in IDA Grade E-2 with basic pay \u20b950,000 during training and upon regularisation. Compensation includes 58% IDA constant as of 2025-07-01, project/remote area allowances, cafeteria perks (35%), and HRA (up to 27%). Total CTC is approximately \u20b915 Lakhs per annum.",
-    "pay_level": "IDA Grade E-2 (\u20b950,000 \u2013 \u20b91,60,000)",
+    "note": "Trainee Engineers and Trainee Officers enter in IDA Grade E-2 with basic pay ₹50,000 during training and upon regularisation. Compensation includes 58% IDA constant as of 2025-07-01, project/remote area allowances, cafeteria perks (35%), and HRA (up to 27%). Total CTC is approximately ₹15 Lakhs per annum.",
+    "pay_level": "IDA Grade E-2 (₹50,000 – ₹1,60,000)",
     "entry_basic_pay": 50000,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-14",
@@ -158,7 +158,7 @@
       "max": 102000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated with Basic Pay \u20b950,000, 58% IDA (\u20b929,000), HRA (up to 27% = \u20b913,500), and Cafeteria Perks @ 35% (\u20b917,500), less statutory deductions for PF and Insurance.",
+    "estimate_note": "Calculated with Basic Pay ₹50,000, 58% IDA (₹29,000), HRA (up to 27% = ₹13,500), and Cafeteria Perks @ 35% (₹17,500), less statutory deductions for PF and Insurance.",
     "official_perks": [
       "Industrial Dearness Allowance (IDA) indexed to AICPI",
       "Power station township accommodation / leased housing or HRA up to 27%",
@@ -174,18 +174,6 @@
     "status": "available",
     "note": "Recruitment metrics from recent NHPC Trainee Engineer and Officer recruitment cycles.",
     "years": [
-      {
-        "year": 2025,
-        "applicants": 203500,
-        "vacancies": 1100,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://www.nhpcindia.com",
-        "source_label": "NHPC Limited - Statutory Recruitment Cycle Notification 2024-2025"
-      },
       {
         "year": 2023,
         "vacancies": 388,

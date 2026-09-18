@@ -8,16 +8,16 @@
     "steps": [
       {
         "designation": "First Division Assistant (FDA) / Prathama Darje Sahayaka",
-        "pay_level": "Pay Scale \u20b927,650 - \u20b952,650",
+        "pay_level": "Pay Scale ₹27,650 - ₹52,650",
         "years": "Entry level",
         "confidence": "verified",
         "as_of": "2026-09-11",
         "source_url": "https://kpsc.kar.nic.in/Syllabus%20Group-C%20Degree%20Level%20Posts%20KCSR%202021.pdf",
-        "source_label": "KPSC Notification and Syllabus for Group-C Degree Level Posts under KCSR Rules; Karnataka Civil Services Revised Pay Rules (Scale \u20b927,650\u2013\u20b952,650)"
+        "source_label": "KPSC Notification and Syllabus for Group-C Degree Level Posts under KCSR Rules; Karnataka Civil Services Revised Pay Rules (Scale ₹27,650–₹52,650)"
       },
       {
         "designation": "Section Officer / Office Superintendent",
-        "pay_level": "Pay Scale \u20b943,100 - \u20b983,900",
+        "pay_level": "Pay Scale ₹43,100 - ₹83,900",
         "years": "approx. 5-8 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Assistant Secretary / Under Secretary (Group B Gazetted / Group A Junior)",
-        "pay_level": "Pay Scale \u20b952,650 - \u20b997,100",
+        "pay_level": "Pay Scale ₹52,650 - ₹97,100",
         "years": "approx. 12-18 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Deputy Secretary (State Secretariat / Directorate)",
-        "pay_level": "Pay Scale \u20b967,550 - \u20b91,04,600",
+        "pay_level": "Pay Scale ₹67,550 - ₹1,04,600",
         "years": "approx. 20-25 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Joint Secretary / Additional Director (Secretariat)",
-        "pay_level": "Pay Scale \u20b974,400 - \u20b91,12,800",
+        "pay_level": "Pay Scale ₹74,400 - ₹1,12,800",
         "years": "approx. 25-30 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -82,7 +82,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper 3: General Knowledge (Samanya Jnana \u2014 Constitution, Indian & Karnataka History, Geography, State Schemes)",
+            "paper_name": "Paper 3: General Knowledge (Samanya Jnana — Constitution, Indian & Karnataka History, Geography, State Schemes)",
             "marks": 100,
             "duration_minutes": 90,
             "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
@@ -113,8 +113,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Salary computed as per Karnataka Civil Services Revised Pay Rules under Karnataka State Pay Commission matrix (Scale \u20b927,650\u2013\u20b952,650; Entry Basic Pay \u20b927,650). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru/Zone A at 27%, Class B at 18%, Class C at 9%).",
-    "pay_level": "Pay Scale \u20b927,650 - \u20b952,650 (Group C Degree Level)",
+    "note": "Salary computed as per Karnataka Civil Services Revised Pay Rules under Karnataka State Pay Commission matrix (Scale ₹27,650–₹52,650; Entry Basic Pay ₹27,650). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru/Zone A at 27%, Class B at 18%, Class C at 9%).",
+    "pay_level": "Pay Scale ₹27,650 - ₹52,650 (Group C Degree Level)",
     "entry_basic_pay": 27650,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-11",
@@ -131,7 +131,7 @@
       "max": 48000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated with Entry Basic Pay of \u20b927,650 at mandatory 58% DA (\u20b916,037) plus HRA ranging from 9% (\u20b92,489) in non-metro taluk centers to 27% (\u20b97,466) in Bengaluru Bruhat Mahanagara Palike (BBMP) areas, less statutory NPS (10% Basic+DA), Group Insurance (KGID), and professional tax deductions.",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹27,650 at mandatory 58% DA (₹16,037) plus HRA ranging from 9% (₹2,489) in non-metro taluk centers to 27% (₹7,466) in Bengaluru Bruhat Mahanagara Palike (BBMP) areas, less statutory NPS (10% Basic+DA), Group Insurance (KGID), and professional tax deductions.",
     "official_perks": [
       "Karnataka Government Employees Insurance Scheme (KGID) cover",
       "Medical reimbursement under Karnataka Government Servants Medical Attendance Rules",
@@ -147,23 +147,11 @@
     "note": "Recruitment milestones compiled from official KPSC notifications, candidate application statistics, and final selection list press releases for FDA recruitment cycles across Karnataka State Government departments.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 88800,
-        "vacancies": 480,
-        "shortlisted_for_mains": 5760,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://kpsc.kar.nic.in",
-        "source_label": "KPSC - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2021,
         "applicants": 325450,
         "vacancies": 1114,
         "shortlisted_for_mains": 325450,
-        "selectivity_ratio": "approx. 1 in 292 (calculated: applicants \u00f7 total notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 292 (calculated: applicants ÷ total notified vacancies)",
         "confidence": "reported",
         "as_of": "2021-02-28",
         "source_url": "https://kpsc.kar.nic.in/keyanswers.html",
@@ -174,7 +162,7 @@
         "applicants": 210800,
         "vacancies": 507,
         "shortlisted_for_mains": 210800,
-        "selectivity_ratio": "approx. 1 in 416 (calculated: applicants \u00f7 total notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 416 (calculated: applicants ÷ total notified vacancies)",
         "confidence": "reported",
         "as_of": "2019-06-30",
         "source_url": "https://kpsc.kar.nic.in/notification.html",

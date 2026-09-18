@@ -139,7 +139,7 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Executive Assistants in UPPCL are placed in Pay Level 4 (Entry Basic Pay \u20b927,200 per UPPCL revised pay structure corresponding to Grade Pay \u20b92,600). Employees receive DA, HRA, and concessional power units.",
+    "note": "Executive Assistants in UPPCL are placed in Pay Level 4 (Entry Basic Pay ₹27,200 per UPPCL revised pay structure corresponding to Grade Pay ₹2,600). Employees receive DA, HRA, and concessional power units.",
     "pay_level": "Level 4",
     "entry_basic_pay": 27200,
     "pay_confidence": "verified",
@@ -157,7 +157,7 @@
       "max": 47000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on UPPCL Level 4 entry basic pay of \u20b927,200 with 58% DA (\u20b915,776), HRA (\u20b92,400 to \u20b95,400 depending on Lucknow/Discom headquarters posting), electricity concession, net of 10% NPS deduction (\u20b94,298) and standard insurance deductions.",
+    "estimate_note": "Calculated on UPPCL Level 4 entry basic pay of ₹27,200 with 58% DA (₹15,776), HRA (₹2,400 to ₹5,400 depending on Lucknow/Discom headquarters posting), electricity concession, net of 10% NPS deduction (₹4,298) and standard insurance deductions.",
     "official_perks": [
       "Dearness Allowance (DA) revised bi-annually per UP PSU rules",
       "House Rent Allowance (HRA) categorized by district posting",
@@ -172,18 +172,6 @@
     "status": "available",
     "note": "Compiled from official UPPCL Electricity Service Commission recruitment notifications, typing test shortlists, and final merit notifications.",
     "years": [
-      {
-        "year": 2025,
-        "applicants": 175750,
-        "vacancies": 950,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://www.upenergy.in",
-        "source_label": "UPPCL ESC - Statutory Recruitment Cycle Notification 2024-2025"
-      },
       {
         "year": 2022,
         "applicants": 318400,

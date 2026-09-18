@@ -7,34 +7,34 @@
     "note": "Career progression for stenographer cadres across various Bihar state government departments and secretariats. Appointees advance to Personal Assistant and Private Secretary cadres based on departmental promotion regulations and stenographic speed grading.",
     "steps": [
       {
-        "designation": "Stenographer / Ashulipik (\u0906\u0936\u0941\u0932\u093f\u092a\u093f\u0915) & Instructor Stenographer",
+        "designation": "Stenographer / Ashulipik (आशुलिपिक) & Instructor Stenographer",
         "pay_level": "Level 4 (Bihar 7th State Pay Matrix)",
-        "years": "0\u20137 years (Entry grade)",
+        "years": "0–7 years (Entry grade)",
         "confidence": "verified",
         "as_of": "2023-05-15",
         "source_url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT.pdf",
         "source_label": "BSSC Stenographer & Steno Typist Grade-III Advertisement No. 07/25"
       },
       {
-        "designation": "Personal Assistant / PA (\u0928\u093f\u091c\u0940 \u0938\u0939\u093e\u092f\u0915)",
+        "designation": "Personal Assistant / PA (निजी सहायक)",
         "pay_level": "Level 7 (Bihar 7th State Pay Matrix)",
-        "years": "7\u201314 years",
+        "years": "7–14 years",
         "confidence": "reported",
         "as_of": "2017-05-23",
         "source_url": "https://bssc.bihar.gov.in",
         "source_label": "Bihar Secretariat Stenographer Service Cadre Rules"
       },
       {
-        "designation": "Private Secretary / PS (\u0928\u093f\u091c\u0940 \u0938\u091a\u093f\u0935)",
+        "designation": "Private Secretary / PS (निजी सचिव)",
         "pay_level": "Level 9 (Bihar 7th State Pay Matrix)",
-        "years": "14\u201322 years",
+        "years": "14–22 years",
         "confidence": "reported",
         "as_of": "2017-05-23",
         "source_url": "https://bssc.bihar.gov.in",
         "source_label": "Bihar Secretariat Stenographer Service Senior Cadre Promotion Rules"
       },
       {
-        "designation": "Senior Private Secretary (\u0935\u0930\u093f\u0937\u094d\u0920 \u0928\u093f\u091c\u0940 \u0938\u091a\u093f\u0935)",
+        "designation": "Senior Private Secretary (वरिष्ठ निजी सचिव)",
         "pay_level": "Level 11 (Bihar 7th State Pay Matrix)",
         "years": "22+ years",
         "confidence": "reported",
@@ -88,7 +88,7 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Stenographers and Instructor Stenographers are appointed in Pay Matrix Level 4 (Entry Basic \u20b925,500 \u2013 \u20b981,100). Entitled to state DA, HRA, medical allowance, and secretarial allowances.",
+    "note": "Stenographers and Instructor Stenographers are appointed in Pay Matrix Level 4 (Entry Basic ₹25,500 – ₹81,100). Entitled to state DA, HRA, medical allowance, and secretarial allowances.",
     "pay_level": "Level 4 (Bihar 7th State Pay Matrix)",
     "entry_basic_pay": 25500,
     "pay_confidence": "verified",
@@ -106,10 +106,10 @@
       "max": 42000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 4 entry basic pay of \u20b925,500 with standard 58% DA (\u20b914,790), HRA (8% to 16%: \u20b92,040 to \u20b94,080), Medical Allowance (\u20b91,000), and Transport Allowance. In-hand reflects statutory 10% NPS deduction on Basic+DA (\u20b94,029) and professional tax.",
+    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 with standard 58% DA (₹14,790), HRA (8% to 16%: ₹2,040 to ₹4,080), Medical Allowance (₹1,000), and Transport Allowance. In-hand reflects statutory 10% NPS deduction on Basic+DA (₹4,029) and professional tax.",
     "official_perks": [
       "Government accommodation or House Rent Allowance (HRA) up to 16%",
-      "Medical allowance (\u20b91,000/month) and treatment reimbursement under state rules",
+      "Medical allowance (₹1,000/month) and treatment reimbursement under state rules",
       "Contributory Pension Scheme (NPS) with 14% matching government contribution",
       "Paid casual, earned, and medical leave benefits with encashment provisions"
     ],
@@ -119,18 +119,6 @@
     "status": "available",
     "note": "Benchmark figures compiled from official BSSC advertisement notices, skill test shortlisting lists, and final result declarations for Advt. No. 01/2023 and Advt. No. 07/25.",
     "years": [
-      {
-        "year": 2025,
-        "applicants": 120250,
-        "vacancies": 650,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://bssc.bihar.gov.in",
-        "source_label": "BSSC - Statutory Recruitment Cycle Notification 2024-2025"
-      },
       {
         "year": 2023,
         "applicants": 68200,
@@ -168,7 +156,7 @@
         "as_of": "2025-09-10"
       },
       {
-        "label": "BSSC Stenographer Advt. No. 07/25 \u2014 Important Notice & Registration Dates",
+        "label": "BSSC Stenographer Advt. No. 07/25 — Important Notice & Registration Dates",
         "url": "https://bssc.bihar.gov.in/Advertisement/07_25_ADVT_NOTICE.pdf",
         "type": "notification",
         "cycle_label": "Advt 07/25",
@@ -176,7 +164,7 @@
         "as_of": "2025-09-10"
       },
       {
-        "label": "BSSC Stenographer Advt. No. 01/23 \u2014 Final Result Notice (Notice No. 2327)",
+        "label": "BSSC Stenographer Advt. No. 01/23 — Final Result Notice (Notice No. 2327)",
         "url": "https://bssc.bihar.gov.in/Advertisement/2327.pdf",
         "type": "other",
         "cycle_label": "Advt 01/23",
@@ -184,7 +172,7 @@
         "as_of": "2024-03-20"
       },
       {
-        "label": "BSSC Stenographer Advt. No. 01/23 \u2014 Revised Result Notice (Notice No. 3511)",
+        "label": "BSSC Stenographer Advt. No. 01/23 — Revised Result Notice (Notice No. 3511)",
         "url": "https://bssc.bihar.gov.in/Advertisement/3511.pdf",
         "type": "other",
         "cycle_label": "Advt 01/23",

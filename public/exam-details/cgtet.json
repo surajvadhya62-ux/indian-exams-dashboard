@@ -15,7 +15,7 @@
         "source_label": "CG Vyapam CGTET 2024 Official Examination Page (Post ID: TET24ONLINE)",
         "papers": [
           {
-            "paper_name": "Child Development and Pedagogy (\u092c\u093e\u0932 \u0935\u093f\u0915\u093e\u0938 \u090f\u0935\u0902 \u0936\u093f\u0915\u094d\u0937\u093e\u0936\u093e\u0938\u094d\u0924\u094d\u0930)",
+            "paper_name": "Child Development and Pedagogy (बाल विकास एवं शिक्षाशास्त्र)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -23,7 +23,7 @@
             "qualifying_threshold": "60% aggregate (90/150 marks) for General/Unreserved; 55% aggregate (82/150 marks) for OBC/SC/ST/PwD per NCTE and Chhattisgarh Government norms"
           },
           {
-            "paper_name": "Language I: Hindi (\u092d\u093e\u0937\u093e-I \u0939\u093f\u0902\u0926\u0940)",
+            "paper_name": "Language I: Hindi (भाषा-I हिंदी)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -31,7 +31,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Language II: English (\u092d\u093e\u0937\u093e-II \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940)",
+            "paper_name": "Language II: English (भाषा-II अंग्रेजी)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -39,7 +39,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Mathematics (\u0917\u0923\u093f\u0924)",
+            "paper_name": "Mathematics (गणित)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -47,7 +47,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Environmental Studies (\u092a\u0930\u094d\u092f\u093e\u0935\u0930\u0923 \u0905\u0927\u094d\u092f\u092f\u0928)",
+            "paper_name": "Environmental Studies (पर्यावरण अध्ययन)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -65,7 +65,7 @@
         "source_label": "CG Vyapam CGTET 2024 Official Examination Page (Post ID: TET24ONLINE)",
         "papers": [
           {
-            "paper_name": "Child Development and Pedagogy (\u092c\u093e\u0932 \u0935\u093f\u0915\u093e\u0938 \u090f\u0935\u0902 \u0936\u093f\u0915\u094d\u0937\u093e\u0936\u093e\u0938\u094d\u0924\u094d\u0930 \u2014 Compulsory)",
+            "paper_name": "Child Development and Pedagogy (बाल विकास एवं शिक्षाशास्त्र — Compulsory)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -73,7 +73,7 @@
             "qualifying_threshold": "60% aggregate (90/150 marks) for General/Unreserved; 55% aggregate (82/150 marks) for OBC/SC/ST/PwD per NCTE and Chhattisgarh Government norms"
           },
           {
-            "paper_name": "Language I: Hindi (\u092d\u093e\u0937\u093e-I \u0939\u093f\u0902\u0926\u0940 \u2014 Compulsory)",
+            "paper_name": "Language I: Hindi (भाषा-I हिंदी — Compulsory)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -81,7 +81,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Language II: English (\u092d\u093e\u0937\u093e-II \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 \u2014 Compulsory)",
+            "paper_name": "Language II: English (भाषा-II अंग्रेजी — Compulsory)",
             "marks": 30,
             "duration_minutes": 30,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -89,7 +89,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Subject Specialization: Mathematics & Science (\u0917\u0923\u093f\u0924 \u090f\u0935\u0902 \u0935\u093f\u091c\u094d\u091e\u093e\u0928) OR Social Studies / Social Science (\u0938\u093e\u092e\u093e\u091c\u093f\u0915 \u0935\u093f\u091c\u094d\u091e\u093e\u0928) \u2014 Candidate's Choice",
+            "paper_name": "Subject Specialization: Mathematics & Science (गणित एवं विज्ञान) OR Social Studies / Social Science (सामाजिक विज्ञान) — Candidate's Choice",
             "marks": 60,
             "duration_minutes": 60,
             "negative_marking": "No negative marking (0 marks deducted for incorrect responses)",
@@ -101,22 +101,9 @@
     ]
   },
   "competition_benchmarks": {
-    "status": "available",
-    "note": "CG Vyapam does not publish consolidated result statistics (total registered, appeared, qualified, and pass percentage) in a machine-readable official press release on its portal. The vyapamcg.cgstate.gov.in domain was unreachable during this session. Available news reports (coaching aggregators, Dainik Bhaskar) cite candidate figures for CGTET 2024 and 2022, but these are sourced from news media \u2014 not from CG Vyapam's own official announcements \u2014 and therefore cannot be marked verified or reported per project citation policy. Section left not_available to avoid fabricating figures from unofficial sources.",
-    "years": [
-      {
-        "year": 2025,
-        "applicants": 1572500,
-        "vacancies": 8500,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://vyapam.cgstate.gov.in",
-        "source_label": "CG Vyapam - Statutory Recruitment Cycle Notification 2024-2025"
-      }
-    ]
+    "status": "not_available",
+    "note": "No competition data currently held. The figures previously shown here were removed on 2026-09-18: they had been generated from a fixed applicants-to-vacancies ratio rather than taken from any notification, while being marked as verified. Awaiting figures from a primary source.",
+    "years": []
   },
   "official_downloads": {
     "status": "available",
@@ -131,7 +118,7 @@
         "as_of": "2024-09-23"
       },
       {
-        "label": "CGTET Syllabus (Hindi Medium) \u2014 CG Vyapam Official PDF",
+        "label": "CGTET Syllabus (Hindi Medium) — CG Vyapam Official PDF",
         "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/b3d603e5-e0cf-44ee-96ec-e21a83060836.pdf",
         "type": "syllabus",
         "cycle_label": "CGTET Syllabus",
@@ -139,7 +126,7 @@
         "as_of": "2024-09-23"
       },
       {
-        "label": "CGTET Syllabus (English Medium) \u2014 CG Vyapam Official PDF",
+        "label": "CGTET Syllabus (English Medium) — CG Vyapam Official PDF",
         "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/d6c2e64b-72c0-4874-9c49-e287d1e1fc22.pdf",
         "type": "syllabus",
         "cycle_label": "CGTET Syllabus",
@@ -147,7 +134,7 @@
         "as_of": "2024-09-23"
       },
       {
-        "label": "SCERT Chhattisgarh TET Guidelines (Hindi) \u2014 CG Vyapam Official PDF",
+        "label": "SCERT Chhattisgarh TET Guidelines (Hindi) — CG Vyapam Official PDF",
         "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/1ff886a4-8d85-4a8f-9900-120fbf7be89f.pdf",
         "type": "other",
         "cycle_label": "SCERT Guidelines",
@@ -155,7 +142,7 @@
         "as_of": "2024-09-23"
       },
       {
-        "label": "SCERT Chhattisgarh TET Guidelines (English) \u2014 CG Vyapam Official PDF",
+        "label": "SCERT Chhattisgarh TET Guidelines (English) — CG Vyapam Official PDF",
         "url": "https://vyapamcg.cgstate.gov.in/uploads/pdfs/1954ea2e-88c2-4922-995f-e9aa8d6e6082.pdf",
         "type": "other",
         "cycle_label": "SCERT Guidelines",
@@ -163,7 +150,7 @@
         "as_of": "2024-09-23"
       },
       {
-        "label": "CG Vyapam Official Portal \u2014 Chhattisgarh Professional Examination Board",
+        "label": "CG Vyapam Official Portal — Chhattisgarh Professional Examination Board",
         "url": "https://vyapamcg.cgstate.gov.in",
         "type": "other",
         "confidence": "reported",

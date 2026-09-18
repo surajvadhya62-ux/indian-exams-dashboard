@@ -8,7 +8,7 @@
     "steps": [
       {
         "designation": "Junior Engineer (JE / Electrical & Civil)",
-        "pay_level": "Pay Scale \u20b926,270 - \u20b965,020",
+        "pay_level": "Pay Scale ₹26,270 - ₹65,020",
         "years": "Entry level",
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Assistant Engineer (AE / Electrical & Civil)",
-        "pay_level": "Pay Scale \u20b941,130 - \u20b972,920",
+        "pay_level": "Pay Scale ₹41,130 - ₹72,920",
         "years": "approx. 5-8 yrs",
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Assistant Executive Engineer (AEE / Sub-Station & Grid In-charge)",
-        "pay_level": "Pay Scale \u20b957,120 - \u20b91,06,860",
+        "pay_level": "Pay Scale ₹57,120 - ₹1,06,860",
         "years": "approx. 12-15 yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Executive Engineer (EE / Transmission Division Head)",
-        "pay_level": "Pay Scale \u20b974,400 - \u20b91,12,800",
+        "pay_level": "Pay Scale ₹74,400 - ₹1,12,800",
         "years": "approx. 18-22 yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Superintending Engineer (SE / Transmission Circle Head)",
-        "pay_level": "Pay Scale \u20b990,500 - \u20b91,23,300",
+        "pay_level": "Pay Scale ₹90,500 - ₹1,23,300",
         "years": "approx. 24-28 yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Chief Engineer (CE / Electricity - State Load Despatch Centre / Zonal Grid)",
-        "pay_level": "Pay Scale \u20b91,04,600 - \u20b91,41,300",
+        "pay_level": "Pay Scale ₹1,04,600 - ₹1,41,300",
         "years": "approx. 28-32 yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -132,8 +132,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Salary computed as per KPTCL Board Revised Pay Scales (Scale \u20b926,270\u2013\u20b965,020; Entry Basic Pay \u20b926,270). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru/Zone A at 27%, Class B at 18%, Class C at 9%).",
-    "pay_level": "Pay Scale \u20b926,270 - \u20b965,020 (Supervisory Engineering Cadre)",
+    "note": "Salary computed as per KPTCL Board Revised Pay Scales (Scale ₹26,270–₹65,020; Entry Basic Pay ₹26,270). In-hand estimate applies mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru/Zone A at 27%, Class B at 18%, Class C at 9%).",
+    "pay_level": "Pay Scale ₹26,270 - ₹65,020 (Supervisory Engineering Cadre)",
     "entry_basic_pay": 26270,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-12",
@@ -150,7 +150,7 @@
       "max": 46000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated with Entry Basic Pay of \u20b926,270 at mandatory 58% DA (\u20b915,237) plus HRA ranging from 9% (\u20b92,364) in rural grid substations to 27% (\u20b97,093) in Bengaluru BBMP jurisdiction, less statutory Contributory Pension/NPS (10% Basic+DA), Group Insurance, and professional tax deductions.",
+    "estimate_note": "Calculated with Entry Basic Pay of ₹26,270 at mandatory 58% DA (₹15,237) plus HRA ranging from 9% (₹2,364) in rural grid substations to 27% (₹7,093) in Bengaluru BBMP jurisdiction, less statutory Contributory Pension/NPS (10% Basic+DA), Group Insurance, and professional tax deductions.",
     "official_perks": [
       "Substation and transmission risk allowances",
       "Medical reimbursement under KPTCL Medical Attendance Regulations",
@@ -166,23 +166,11 @@
     "note": "Applicant and vacancy figures verified directly from KPTCL Employment Notifications, Provisional Selection Lists, and Official Cut-off Marks Releases.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 203500,
-        "vacancies": 1100,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://kptcl.karnataka.gov.in",
-        "source_label": "KPTCL - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2022,
         "applicants": 142850,
         "vacancies": 599,
         "shortlisted_for_mains": 142850,
-        "selectivity_ratio": "approx. 1 in 238 (calculated: applicants \u00f7 total notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 238 (calculated: applicants ÷ total notified vacancies)",
         "confidence": "verified",
         "as_of": "2024-01-17",
         "source_url": "https://kptcl.karnataka.gov.in/storage/pdf-files/Recruitment-2022/Cut-offMarks&FinalSelectionList_JE_Elec_NKK.pdf",

@@ -7,7 +7,7 @@
     "note": "Conducted in accordance with the National Council for Teacher Education (NCTE) statutory guidelines under Section 23(1) of the Right of Children to Free and Compulsory Education (RTE) Act, 2009. The examination comprises two separate objective papers: Paper-I for Primary Teachers (Classes I to V) and Paper-II for Upper Primary / Elementary Teachers (Classes VI to VIII). Each paper consists of 150 multiple-choice questions (150 marks) of 150 minutes duration with no negative marking. Minimum qualifying standard is 60% (90 out of 150 marks) for General category candidates, with a 5% relaxation to 55% (82 out of 150 marks) for Arunachal Pradesh Scheduled Tribe (APST) and reserved category candidates. Qualified candidates receive a Teacher Eligibility Test certificate with lifetime validity.",
     "stages": [
       {
-        "stage_name": "Paper-I (Primary Stage \u2014 Classes I to V)",
+        "stage_name": "Paper-I (Primary Stage — Classes I to V)",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2026-03-23",
@@ -23,7 +23,7 @@
             "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
           },
           {
-            "paper_name": "Language I \u2014 English / Regional Medium (Compulsory)",
+            "paper_name": "Language I — English / Regional Medium (Compulsory)",
             "marks": 30,
             "duration_minutes": 150,
             "negative_marking": "None (no negative marking)",
@@ -31,7 +31,7 @@
             "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
           },
           {
-            "paper_name": "Language II \u2014 Hindi / Alternative Language (Compulsory)",
+            "paper_name": "Language II — Hindi / Alternative Language (Compulsory)",
             "marks": 30,
             "duration_minutes": 150,
             "negative_marking": "None (no negative marking)",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "stage_name": "Paper-II (Upper Primary Stage \u2014 Classes VI to VIII)",
+        "stage_name": "Paper-II (Upper Primary Stage — Classes VI to VIII)",
         "stage_order": 2,
         "confidence": "verified",
         "as_of": "2026-03-23",
@@ -73,7 +73,7 @@
             "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
           },
           {
-            "paper_name": "Language I \u2014 English / Regional Medium (Compulsory)",
+            "paper_name": "Language I — English / Regional Medium (Compulsory)",
             "marks": 30,
             "duration_minutes": 150,
             "negative_marking": "None (no negative marking)",
@@ -81,7 +81,7 @@
             "qualifying_threshold": "60% aggregate (90/150 marks) for General; 55% (82/150 marks) for APST and reserved categories across all sections"
           },
           {
-            "paper_name": "Language II \u2014 Hindi / Alternative Language (Compulsory)",
+            "paper_name": "Language II — Hindi / Alternative Language (Compulsory)",
             "marks": 30,
             "duration_minutes": 150,
             "negative_marking": "None (no negative marking)",
@@ -101,22 +101,9 @@
     ]
   },
   "competition_benchmarks": {
-    "status": "available",
-    "note": "The Directorate of Elementary Education, Government of Arunachal Pradesh does not publish centralized applicant, appearance, or qualification statistical datasets for APTET online. Direct recruitment for regular Primary Teachers (PRT) has not been advertised since 2014, with state candidates qualifying either via APTET or the Central Teacher Eligibility Test (CTET) for contractual and secondary teaching vacancies.",
-    "years": [
-      {
-        "year": 2025,
-        "applicants": 1572500,
-        "vacancies": 8500,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://arpedu.in",
-        "source_label": "Directorate of Elementary Education Arunachal Pradesh - Statutory Recruitment Cycle Notification 2024-2025"
-      }
-    ]
+    "status": "not_available",
+    "note": "No competition data currently held. The figures previously shown here were removed on 2026-09-18: they had been generated from a fixed applicants-to-vacancies ratio rather than taken from any notification, while being marked as verified. Awaiting figures from a primary source.",
+    "years": []
   },
   "official_downloads": {
     "status": "available",

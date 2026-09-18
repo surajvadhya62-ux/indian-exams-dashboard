@@ -58,12 +58,12 @@
     "note": "RRB Group D (Level-1) recruitment comprises a single-stage Computer Based Test (CBT, 100 marks, 90 minutes) followed by a mandatory qualifying Physical Efficiency Test (PET), Document Verification, and Comprehensive Railway Medical Examination. In CBT, one-third (1/3) of the marks allotted to each question is deducted for each incorrect answer.",
     "stages": [
       {
-        "stage_name": "Computer Based Test (CBT) \u2014 Single Stage Merit Examination",
+        "stage_name": "Computer Based Test (CBT) — Single Stage Merit Examination",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2019-02-23",
         "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
-        "source_label": "Ministry of Railways (RRB/RRC) \u2014 Centralized Employment Notice RRC-01/2019 (Level-1 Posts), Scheme of Examination",
+        "source_label": "Ministry of Railways (RRB/RRC) — Centralized Employment Notice RRC-01/2019 (Level-1 Posts), Scheme of Examination",
         "papers": [
           {
             "paper_name": "General Science (10th Standard Physics, Chemistry, Life Sciences)",
@@ -100,12 +100,12 @@
         ]
       },
       {
-        "stage_name": "Physical Efficiency Test (PET) \u2014 Qualifying",
+        "stage_name": "Physical Efficiency Test (PET) — Qualifying",
         "stage_order": 2,
         "confidence": "verified",
         "as_of": "2019-02-23",
         "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
-        "source_label": "Ministry of Railways (RRB/RRC) \u2014 RRC-01/2019, PET Standards",
+        "source_label": "Ministry of Railways (RRB/RRC) — RRC-01/2019, PET Standards",
         "papers": [
           {
             "paper_name": "Physical Efficiency Events (Weight Carrying 35kg/20kg & 1000m Run)",
@@ -139,7 +139,7 @@
       "max": 36000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated at Level 1 entry basic pay (\u20b918,000) with 58% DA (\u20b910,440). Track Maintainers receive an additional Risk and Hardship Allowance of \u20b92,700 per month (Matrix Level 1). Night Duty and Overtime allowances apply to operational yard staff.",
+    "estimate_note": "Calculated at Level 1 entry basic pay (₹18,000) with 58% DA (₹10,440). Track Maintainers receive an additional Risk and Hardship Allowance of ₹2,700 per month (Matrix Level 1). Night Duty and Overtime allowances apply to operational yard staff.",
     "official_perks": [
       "Railway residential quarters or HRA (27%/18%/9%)",
       "Free Railway Passes and Privilege Ticket Orders (PTO) across Indian Railways for employee and family",
@@ -154,25 +154,13 @@
     "note": "RRB Group D (Level-1) represents the single largest recruitment drive in global civil employment history. The RRC-01/2019 cycle notified 1,03,769 vacancies, drawing over 1.15 crore registered applicants. The earlier CEN 02/2018 drive filled 62,907 vacancies with over 1.89 crore applicants.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 120250,
-        "vacancies": 650,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://www.rrbcdg.gov.in",
-        "source_label": "RRB - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2019,
         "applicants": 11500000,
         "vacancies": 103769,
         "confidence": "verified",
         "as_of": "2019-02-23",
         "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
-        "source_label": "Ministry of Railways (RRB/RRC) \u2014 Centralized Employment Notice RRC-01/2019: 1,03,769 vacancies advertised."
+        "source_label": "Ministry of Railways (RRB/RRC) — Centralized Employment Notice RRC-01/2019: 1,03,769 vacancies advertised."
       },
       {
         "year": 2018,
@@ -181,7 +169,7 @@
         "confidence": "verified",
         "as_of": "2018-02-10",
         "source_url": "https://rrb.indianrailways.gov.in/chandigarh",
-        "source_label": "Ministry of Railways (RRB) \u2014 CEN 02/2018 (Level 1 Posts): 62,907 vacancies filled."
+        "source_label": "Ministry of Railways (RRB) — CEN 02/2018 (Level 1 Posts): 62,907 vacancies filled."
       }
     ]
   },
@@ -190,7 +178,7 @@
     "note": "Official Indian Railways Railway Recruitment Board portal.",
     "links": [
       {
-        "label": "Railway Recruitment Board (RRB) \u2014 Centralised Portal",
+        "label": "Railway Recruitment Board (RRB) — Centralised Portal",
         "url": "https://rrb.indianrailways.gov.in/chandigarh",
         "type": "notification",
         "confidence": "verified",

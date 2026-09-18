@@ -34,7 +34,7 @@
         "source_label": "Rajasthan Administrative Service Rules 1954 (Selection Scale) & RCS (Revised Pay) Rules 2017"
       },
       {
-        "designation": "District Collector & Magistrate / Special Secretary / Divisional Commissioner \u2014 Super Time Scale (STS)",
+        "designation": "District Collector & Magistrate / Special Secretary / Divisional Commissioner — Super Time Scale (STS)",
         "pay_level": "Level L-17",
         "years": "approx. 18-22 yrs",
         "confidence": "verified",
@@ -43,7 +43,7 @@
         "source_label": "Rajasthan Administrative Service Rules 1954 (Super Time Scale) & RCS (Revised Pay) Rules 2017"
       },
       {
-        "designation": "Joint Secretary / Secretary to Government / Principal Secretary \u2014 Inducted into IAS",
+        "designation": "Joint Secretary / Secretary to Government / Principal Secretary — Inducted into IAS",
         "pay_level": "Level 13 / 14 (IAS Central Pay Matrix)",
         "years": "approx. 20-26 yrs",
         "confidence": "verified",
@@ -66,7 +66,7 @@
         "source_label": "RPSC Scheme and Syllabus for Rajasthan State and Subordinate Services Comb. Comp. (Preliminary) Examination",
         "papers": [
           {
-            "paper_name": "General Knowledge and General Science (\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u091c\u094d\u091e\u093e\u0928 \u090f\u0935\u0902 \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0935\u093f\u091c\u094d\u091e\u093e\u0928)",
+            "paper_name": "General Knowledge and General Science (सामान्य ज्ञान एवं सामान्य विज्ञान)",
             "marks": 200,
             "duration_minutes": 180,
             "negative_marking": "1/3 mark deducted per wrong answer (0.44 marks)",
@@ -108,7 +108,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper-IV: General Hindi and General English (\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0939\u093f\u0928\u094d\u0926\u0940 120 \u0905\u0902\u0915 \u090f\u0935\u0902 \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 80 \u0905\u0902\u0915)",
+            "paper_name": "Paper-IV: General Hindi and General English (सामान्य हिन्दी 120 अंक एवं सामान्य अंग्रेजी 80 अंक)",
             "marks": 200,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -139,7 +139,7 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "State-jurisdiction cadre under Rajasthan Civil Services (Revised Pay) Rules, 2017. Direct recruits to the Rajasthan Administrative Service (RAS) Junior Scale and Rajasthan Police Service (RPS) enter at Pay Matrix Level L-14 (pre-revised Grade Pay \u20b95,400). Trainees undergo 2 years of probation on a fixed remuneration of \u20b939,300 per month. On confirmation, regular basic pay starts at \u20b956,100 plus DA, HRA, and state executive allowances.",
+    "note": "State-jurisdiction cadre under Rajasthan Civil Services (Revised Pay) Rules, 2017. Direct recruits to the Rajasthan Administrative Service (RAS) Junior Scale and Rajasthan Police Service (RPS) enter at Pay Matrix Level L-14 (pre-revised Grade Pay ₹5,400). Trainees undergo 2 years of probation on a fixed remuneration of ₹39,300 per month. On confirmation, regular basic pay starts at ₹56,100 plus DA, HRA, and state executive allowances.",
     "pay_level": "Level L-14",
     "entry_basic_pay": 56100,
     "pay_confidence": "verified",
@@ -157,7 +157,7 @@
       "max": 94000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Regular monthly pay following 2-year probation (probation fixed stipend is \u20b939,300/month). Computed at Level L-14 entry basic pay \u20b956,100 with standard 58% DA (effective 1 Jul 2025), HRA of 9% (Z-class locations) to 18% (Jaipur/Jodhpur/Kota/Ajmer/Bikaner Y-class cities), conveyance and telephone allowances. In-hand reflects statutory deductions including GPF/NPS, State Insurance (SI), and Rajasthan Government Health Scheme (RGHS).",
+    "estimate_note": "Regular monthly pay following 2-year probation (probation fixed stipend is ₹39,300/month). Computed at Level L-14 entry basic pay ₹56,100 with standard 58% DA (effective 1 Jul 2025), HRA of 9% (Z-class locations) to 18% (Jaipur/Jodhpur/Kota/Ajmer/Bikaner Y-class cities), conveyance and telephone allowances. In-hand reflects statutory deductions including GPF/NPS, State Insurance (SI), and Rajasthan Government Health Scheme (RGHS).",
     "official_perks": [
       "Government executive bungalow / residential quarters (Type IV/Type V) at sub-divisional and district headquarters",
       "Official government vehicle with dedicated driver for field inspections and executive duties",
@@ -173,23 +173,11 @@
     "note": "Applicant, appearance, and vacancy statistics for the Rajasthan State and Subordinate Services Combined Competitive Examination (RAS/RTS). Figures are compiled from official RPSC notifications, examination preambles, and result press notes.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 88800,
-        "vacancies": 480,
-        "shortlisted_for_mains": 5760,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://rpsc.rajasthan.gov.in",
-        "source_label": "RPSC - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2023,
         "applicants": 697000,
         "vacancies": 905,
         "shortlisted_for_mains": 19355,
-        "selectivity_ratio": "approx. 1 in 770 (calculated: registered applicants \u00f7 notified vacancies; approx. 1 in 505 for appeared candidates)",
+        "selectivity_ratio": "approx. 1 in 770 (calculated: registered applicants ÷ notified vacancies; approx. 1 in 505 for appeared candidates)",
         "confidence": "reported",
         "as_of": "2023-10-20",
         "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/0AE4D1AE3F2848BD9BA5E4C490098CC0.pdf",
@@ -200,7 +188,7 @@
         "applicants": 648000,
         "vacancies": 988,
         "shortlisted_for_mains": 20102,
-        "selectivity_ratio": "approx. 1 in 656 (calculated: registered applicants \u00f7 notified vacancies; approx. 1 in 324 for appeared candidates)",
+        "selectivity_ratio": "approx. 1 in 656 (calculated: registered applicants ÷ notified vacancies; approx. 1 in 324 for appeared candidates)",
         "confidence": "reported",
         "as_of": "2021-11-19",
         "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/6C6BF3AD89A8422CB927291EA68B913A.pdf",
@@ -213,7 +201,7 @@
     "note": "Direct official documents from the Rajasthan Public Service Commission (rpsc.rajasthan.gov.in). Links checked live via HTTP GET.",
     "links": [
       {
-        "label": "RAS/RTS Combined Competitive Examination 2024 \u2014 Detailed Advertisement (Advt 13/2024-25)",
+        "label": "RAS/RTS Combined Competitive Examination 2024 — Detailed Advertisement (Advt 13/2024-25)",
         "url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/A6C5484FAD24491EB33EEC4BBCDF4470.pdf",
         "type": "notification",
         "cycle_label": "RAS-2024",
@@ -221,7 +209,7 @@
         "as_of": "2024-09-02"
       },
       {
-        "label": "RAS/RTS Combined Competitive Examination 2023 \u2014 Detailed Advertisement (Advt 02/2023-24)",
+        "label": "RAS/RTS Combined Competitive Examination 2023 — Detailed Advertisement (Advt 02/2023-24)",
         "url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/0AE4D1AE3F2848BD9BA5E4C490098CC0.pdf",
         "type": "notification",
         "cycle_label": "RAS-2023",
@@ -229,7 +217,7 @@
         "as_of": "2023-06-28"
       },
       {
-        "label": "RAS/RTS Combined Competitive Examination 2021 \u2014 Detailed Advertisement (Advt 03/2021-22)",
+        "label": "RAS/RTS Combined Competitive Examination 2021 — Detailed Advertisement (Advt 03/2021-22)",
         "url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/6C6BF3AD89A8422CB927291EA68B913A.pdf",
         "type": "notification",
         "cycle_label": "RAS-2021",
@@ -237,7 +225,7 @@
         "as_of": "2021-07-20"
       },
       {
-        "label": "Preliminary Examination 2023 \u2014 Scheme and Syllabus (English Version)",
+        "label": "Preliminary Examination 2023 — Scheme and Syllabus (English Version)",
         "url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/CDD32E18-BF75-42FF-B4CA-71AD8267C371.pdf",
         "type": "syllabus",
         "cycle_label": "RAS-2023",
@@ -245,7 +233,7 @@
         "as_of": "2023-06-30"
       },
       {
-        "label": "Main Examination 2023 \u2014 Scheme of Examination and Question Paper Pattern",
+        "label": "Main Examination 2023 — Scheme of Examination and Question Paper Pattern",
         "url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/D8681157-9EBC-4A47-B35F-54333F99BB65.pdf",
         "type": "syllabus",
         "cycle_label": "RAS-2023",
@@ -253,7 +241,7 @@
         "as_of": "2023-06-30"
       },
       {
-        "label": "Main Examination 2021 \u2014 Detailed Syllabus (English Version)",
+        "label": "Main Examination 2021 — Detailed Syllabus (English Version)",
         "url": "https://rpsc.rajasthan.gov.in/Static/Syllabus/0FA5BD78-5D4A-411B-BA64-2314FF1EF1EF.pdf",
         "type": "syllabus",
         "cycle_label": "RAS-2021",

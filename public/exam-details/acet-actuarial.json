@@ -7,12 +7,12 @@
     "note": "The Actuarial Common Entrance Test (ACET) is an entrance examination conducted by the Institute of Actuaries of India (IAI) for admission as student members. The test is administered in an online, home-based remotely proctored computer-based format. It comprises 70 multiple-choice questions for 100 marks over a duration of 3 hours (180 minutes). There is no negative marking, and the qualifying benchmark is 50% aggregate marks.",
     "stages": [
       {
-        "stage_name": "Actuarial Common Entrance Test (ACET) \u2014 Online Home-Based Proctored",
+        "stage_name": "Actuarial Common Entrance Test (ACET) — Online Home-Based Proctored",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2024-05-01",
         "source_url": "https://www.actuariesindia.org",
-        "source_label": "Institute of Actuaries of India (IAI) \u2014 ACET Examination Structure & Guidelines",
+        "source_label": "Institute of Actuaries of India (IAI) — ACET Examination Structure & Guidelines",
         "papers": [
           {
             "paper_name": "Mathematics",
@@ -63,24 +63,12 @@
     "note": "ACET is conducted multiple times a year (typically in June and December cycles) by the Institute of Actuaries of India. Passing ACET grants eligibility to register as a student member of IAI and pursue core actuarial examinations (Core Mathematics, Core Statistics, and Core Business). Over 3,000 to 5,000 candidates take the test annually across cycles with an average pass percentage of approximately 45% to 55%.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 120250,
-        "vacancies": 650,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://www.actuariesindia.org",
-        "source_label": "Institute of Actuaries of India (IAI) - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2023,
         "applicants": 4200,
         "confidence": "reported",
         "as_of": "2023-12-31",
         "source_url": "https://www.actuariesindia.org",
-        "source_label": "Institute of Actuaries of India (IAI) \u2014 Annual Examination Statistics"
+        "source_label": "Institute of Actuaries of India (IAI) — Annual Examination Statistics"
       }
     ]
   },

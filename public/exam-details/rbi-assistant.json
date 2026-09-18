@@ -8,7 +8,7 @@
     "steps": [
       {
         "designation": "Assistant (Class III)",
-        "pay_level": "Class III (\u20b929,000 basic)",
+        "pay_level": "Class III (₹29,000 basic)",
         "years": "Entry (approx. 2 yrs probation)",
         "confidence": "verified",
         "as_of": "2023-09-13",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Special Assistant (Senior Class III)",
-        "pay_level": "Senior Class III (\u20b934,100+ basic)",
+        "pay_level": "Senior Class III (₹34,100+ basic)",
         "years": "approx. 3-5 yrs",
         "confidence": "verified",
         "as_of": "2023-09-13",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Assistant Manager (Grade 'A')",
-        "pay_level": "Officer Grade A (\u20b944,500 basic)",
+        "pay_level": "Officer Grade A (₹44,500 basic)",
         "years": "approx. 5-8 yrs (internal promotional examination)",
         "confidence": "verified",
         "as_of": "2023-09-13",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Manager (Grade 'B')",
-        "pay_level": "Officer Grade B (\u20b978,450 basic)",
+        "pay_level": "Officer Grade B (₹78,450 basic)",
         "years": "approx. 8-13 yrs",
         "confidence": "verified",
         "as_of": "2023-09-13",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Assistant General Manager (AGM, Grade 'C')",
-        "pay_level": "Officer Grade C (\u20b91,05,250 basic)",
+        "pay_level": "Officer Grade C (₹1,05,250 basic)",
         "years": "approx. 13-18 yrs",
         "confidence": "verified",
         "as_of": "2023-09-13",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Deputy General Manager (DGM, Grade 'D')",
-        "pay_level": "Officer Grade D (\u20b91,26,100 basic)",
+        "pay_level": "Officer Grade D (₹1,26,100 basic)",
         "years": "approx. 18-23 yrs",
         "confidence": "verified",
         "as_of": "2023-09-13",
@@ -205,7 +205,7 @@
     "pay_confidence": "verified",
     "pay_as_of": "2023-09-13",
     "pay_source_url": "https://www.rbi.org.in",
-    "pay_source_label": "Reserve Bank of India Assistant Recruitment Notification and Staff Regulations (Scale: \u20b929,000-78,640)",
+    "pay_source_label": "Reserve Bank of India Assistant Recruitment Notification and Staff Regulations (Scale: ₹29,000-78,640)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -217,7 +217,7 @@
       "max": 54000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Starting basic pay is \u20b929,000 in the scale \u20b929,000-1700(3)-34100-2040(4)-42260-2720(6)-58580-2950(2)-64480-3370(3)-74590-4050(1)-78640. Gross emoluments at Mumbai reach approx. \u20b958,514 per month inclusive of DA (58% review baseline), House Rent Allowance (where bank quarters not availed), City Compensatory Allowance, Transport Allowance, and Special Prerequisite Allowance.",
+    "estimate_note": "Starting basic pay is ₹29,000 in the scale ₹29,000-1700(3)-34100-2040(4)-42260-2720(6)-58580-2950(2)-64480-3370(3)-74590-4050(1)-78640. Gross emoluments at Mumbai reach approx. ₹58,514 per month inclusive of DA (58% review baseline), House Rent Allowance (where bank quarters not availed), City Compensatory Allowance, Transport Allowance, and Special Prerequisite Allowance.",
     "official_perks": [
       "Bank Residential Quarters (subject to availability) or House Rent Allowance",
       "Dispensary Facility and 100% medical expense reimbursement for self and eligible dependents",
@@ -234,23 +234,11 @@
     "note": "Competition benchmarks reflect official vacancy notifications across RBI's 17 regional office circles.",
     "years": [
       {
-        "year": 2025,
-        "applicants": 175750,
-        "vacancies": 950,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://www.rbi.org.in",
-        "source_label": "RBI - Statutory Recruitment Cycle Notification 2024-2025"
-      },
-      {
         "year": 2023,
         "applicants": 380000,
         "vacancies": 450,
         "shortlisted_for_mains": 5400,
-        "selectivity_ratio": "approx. 1 in 844 (calculated: estimated applicants \u00f7 notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 844 (calculated: estimated applicants ÷ notified vacancies)",
         "confidence": "verified",
         "as_of": "2023-09-13",
         "source_url": "https://www.rbi.org.in",
@@ -261,7 +249,7 @@
         "applicants": 510000,
         "vacancies": 950,
         "shortlisted_for_mains": 11400,
-        "selectivity_ratio": "approx. 1 in 537 (calculated: estimated applicants \u00f7 notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 537 (calculated: estimated applicants ÷ notified vacancies)",
         "confidence": "verified",
         "as_of": "2022-02-17",
         "source_url": "https://www.rbi.org.in",
@@ -274,7 +262,7 @@
     "note": "Official notifications, admit cards, and recruitment notices are released on the RBI Opportunities portal.",
     "links": [
       {
-        "label": "Reserve Bank of India \u2014 Opportunities Portal",
+        "label": "Reserve Bank of India — Opportunities Portal",
         "url": "https://opportunities.rbi.org.in",
         "type": "other",
         "confidence": "verified",

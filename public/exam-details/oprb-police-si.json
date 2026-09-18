@@ -8,7 +8,7 @@
     "steps": [
       {
         "designation": "Sub-Inspector of Police (SI)",
-        "pay_level": "ORSP 2017 Level 9 (Scale \u20b935,400 - \u20b91,12,400)",
+        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://odishapolice.gov.in",
@@ -16,7 +16,7 @@
       },
       {
         "designation": "Inspector of Police (Inspector In-Charge / IIC)",
-        "pay_level": "ORSP 2017 Level 10 (Scale \u20b944,900 - \u20b91,42,400)",
+        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://odishapolice.gov.in",
@@ -24,7 +24,7 @@
       },
       {
         "designation": "Deputy Superintendent of Police (DSP / ACP, OPS Group A)",
-        "pay_level": "ORSP 2017 Level 12 (Scale \u20b956,100 - \u20b91,77,500)",
+        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://odishapolice.gov.in",
@@ -32,7 +32,7 @@
       },
       {
         "designation": "Additional Superintendent of Police (Addl. SP)",
-        "pay_level": "ORSP 2017 Level 13 (Scale \u20b967,700 - \u20b92,08,700)",
+        "pay_level": "ORSP 2017 Level 13 (Scale ₹67,700 - ₹2,08,700)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://odishapolice.gov.in",
@@ -40,7 +40,7 @@
       },
       {
         "designation": "Superintendent of Police (SP / DCP, IPS Selection / State Senior Scale)",
-        "pay_level": "ORSP 2017 Level 13A/14 (Scale \u20b91,31,100 - \u20b92,16,600)",
+        "pay_level": "ORSP 2017 Level 13A/14 (Scale ₹1,31,100 - ₹2,16,600)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://odishapolice.gov.in",
@@ -118,8 +118,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Sub-Inspectors of Police in Odisha are appointed at Pay Matrix Level 9 under the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale \u20b935,400 - \u20b91,12,400 with entry basic pay of \u20b935,400). SIs are entitled to dedicated police service allowances including ration allowance, uniform allowance, investigation kit allowance, and government quarter accommodation.",
-    "pay_level": "ORSP Rules 2017 Level 9 (Scale \u20b935,400 - \u20b91,12,400)",
+    "note": "Sub-Inspectors of Police in Odisha are appointed at Pay Matrix Level 9 under the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹35,400 - ₹1,12,400 with entry basic pay of ₹35,400). SIs are entitled to dedicated police service allowances including ration allowance, uniform allowance, investigation kit allowance, and government quarter accommodation.",
+    "pay_level": "ORSP Rules 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
     "entry_basic_pay": 35400,
     "pay_confidence": "verified",
     "pay_as_of": "2017-09-09",
@@ -136,7 +136,7 @@
       "max": 60000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimated on entry basic pay of \u20b935,400 + 58% Dearness Allowance (\u20b920,532) + House Rent Allowance (9% to 18%: \u20b93,186 to \u20b96,372 depending on posting in rural police station vs Bhubaneswar-Cuttack Police Commissionerate) + Monthly Police Ration Allowance (~\u20b92,000) + Kit Maintenance / Uniform Allowance (~\u20b91,200) + Medical Allowance (\u20b9500). Statutory deductions include 10% NPS (Basic + DA = \u20b95,593), Professional Tax (\u20b9200), and Police Benevolent Fund / GIS (~\u20b9350).",
+    "estimate_note": "Estimated on entry basic pay of ₹35,400 + 58% Dearness Allowance (₹20,532) + House Rent Allowance (9% to 18%: ₹3,186 to ₹6,372 depending on posting in rural police station vs Bhubaneswar-Cuttack Police Commissionerate) + Monthly Police Ration Allowance (~₹2,000) + Kit Maintenance / Uniform Allowance (~₹1,200) + Medical Allowance (₹500). Statutory deductions include 10% NPS (Basic + DA = ₹5,593), Professional Tax (₹200), and Police Benevolent Fund / GIS (~₹350).",
     "official_perks": [
       "Designated officer accommodation / police quarters at Thana / Sub-Division campus, or House Rent Allowance (9% to 18%)",
       "Monthly Police Ration Allowance / Diet Allowance sanctioned by Home Department",
@@ -152,18 +152,6 @@
     "status": "available",
     "note": "Applicant registration, test attendance, and cutoff benchmarks compiled from official Odisha Police Recruitment Board press notices and final merit results.",
     "years": [
-      {
-        "year": 2025,
-        "applicants": 777000,
-        "vacancies": 4200,
-        "shortlisted_for_mains": null,
-        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
-        "selectivity_ratio": "approx. 1 in 185",
-        "confidence": "verified",
-        "as_of": "2025-09-01",
-        "source_url": "https://odishapolice.gov.in",
-        "source_label": "Odisha Police OPRB - Statutory Recruitment Cycle Notification 2024-2025"
-      },
       {
         "year": 2023,
         "applicants": 156000,
