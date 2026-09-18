@@ -250,9 +250,12 @@ available for its vacancy figure:
 No data was deleted except the "Posts" counts on the 121 admission and qualification exams,
 where the unit itself was wrong. The 379 recruitment figures are retained and marked.
 
-Point 3 (the track Q reclassification) is **still outstanding** — `exam_type` still reads
-`entrance` for CA, CS, CMA and AIBE. It was left alone because site filters read that field
-and the change needs its own check.
+**Point 3 remediated 2026-09-18.** A new `track` field (`R` / `A` / `Q`, per §1) was added to
+all 500 records: 379 `R`, 117 `A`, 4 `Q` (CA, CS, CMA, AIBE). `exam_type` was left untouched —
+ten site files read it as a strict two-way switch (`=== 'job'` / `=== 'entrance'`) with no
+branch for a third value, so repurposing it would be a UI redesign, not a data fix. `track`
+sits alongside it, unread by the UI for now. Surfacing it on the site (filters, badges) and
+retiring `exam_type` in its favour is separate, larger work, not yet started.
 
 **The sequencing consequence is the important part.** Adding exams before this existed would
 have meant every new exam inheriting the same defect, with the cost of retrofitting sources
