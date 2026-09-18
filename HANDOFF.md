@@ -1,224 +1,295 @@
 # Handoff — India Exams Dashboard
 
-**Date:** 2026-09-18
+**Date:** 2026-09-18 (supersedes the earlier handoff of the same date)
 **Owner:** Suraj (chartered accountant, **not a developer** — explain in plain language, use
 audit/accounting framing where it helps, avoid engineering jargon)
-**Purpose:** everything a fresh session needs to continue without re-investigating. Facts below were
-measured this session, not assumed.
+**Purpose:** everything a fresh session needs. Facts below were measured, not assumed.
 
 ---
 
-## 0. Read this first — things that will waste your time if you don't know them
+## 0. Read this first
 
-1. **The project moved.** It is now at `/Users/surajvadhya/Projects/indian-exams-dashboard`.
-   It used to be at `Documents/kimi/workspace/indian-exams-dashboard`. **Do not move it back into
-   `Documents`** — macOS blocks scheduled background jobs from reading `Documents`/`Desktop`/
-   `Downloads` ("Operation not permitted", exit 126). That is why it was moved.
-2. **`data-sourcing/HANDOVER.md` (dated 2026-09-14) is stale on two points.** It says no git remote
-   is configured and that deployment is a manual zip upload to Vercel. Both are now wrong — see §2.
-3. **Do not run portal fetching on GitHub Actions.** Indian government portals refuse US traffic.
-   Measured: 22/38 readable from India, 12/38 from GitHub's San Jose runner. Evidence is committed
-   at `connectivity-report.md`.
-4. **Nothing from this session's main build is committed yet.** See §6.
+1. **The project lives at `/Users/surajvadhya/Projects/indian-exams-dashboard`.**
+   `Documents/kimi/workspace/indian-exams-dashboard` is a **symlink** to it, so an edit through
+   either path hits the same file. **Do not move it into `Documents`** — macOS blocks scheduled
+   background jobs from reading `Documents`/`Desktop`/`Downloads` (exit 126).
+2. **`data-sourcing/HANDOVER.md` (2026-09-14) is stale.** It predates the git remote and the
+   GitHub Pages deployment.
+3. **Do not run portal fetching on GitHub Actions.** Indian government portals refuse US traffic:
+   22/38 readable from India, 12/38 from GitHub's San Jose runner. Evidence in
+   `connectivity-report.md`.
+4. **There are two separate data layers, and it is easy to edit the wrong one.** See §2. This has
+   already caused one wasted cycle.
+5. **`gh` CLI is not installed.** Check GitHub state with `git fetch` + `git log origin/main`.
+6. Node is at `/opt/homebrew/bin/node`. Deployment is automatic on push to `main`
+   (`.github/workflows/deploy.yml` → GitHub Pages).
 
 ---
 
 ## 1. What the project is
 
-A React/Vite site cataloguing Indian government and competitive exams, with a deep-dive "dossier"
-per exam (career ladder, salary, exam scheme, cutoffs/vacancies, official links).
+A React/Vite site cataloguing Indian government and competitive exams, with a deep-dive
+"dossier" per exam (career ladder, salary, exam scheme, cutoffs/vacancies, official links).
 
 | Measure | Value |
 |---|---|
-| Exams in `src/data/exams.json` | **500** |
-| Entries in `src/data/authorities.json` | **342** |
-| Distinct conducting bodies across exams | **342** |
-| Dossiers in `public/exam-details/` | 500, all passing schema validation |
-| `npm run validate` | **500 checked, 0 errors, 0 warnings** (verified 2026-09-18) |
+| Exams in `src/data/exams.json` | 500 |
+| Dossiers in `public/exam-details/` | 500 |
+| `npm run validate` | 500 checked, 0 errors, 0 warnings |
+| Tracks (see §3) | 379 R (recruitment), 117 A (admission), 4 Q (qualification) |
 
 ---
 
-## 2. Infrastructure facts (verified, correcting the old handover)
+## 2. ⚠️ The two data layers — read before editing any exam data
 
-- **Git remote:** `https://github.com/surajvadhya62-ux/indian-exams-dashboard.git`, branch `main`
-- **Deployment:** `.github/workflows/deploy.yml` publishes to **GitHub Pages on every push to main**.
-  Committed data changes therefore reach the live site automatically. (The old handover's "manual
-  zip upload to Vercel" is obsolete.)
-- `gh` CLI is **not installed** on this machine — check GitHub state via `git fetch` + `git log
-  origin/main` rather than the Actions UI.
-- Node is at `/opt/homebrew/bin/node` (v26.3.1).
+This is the single most important structural fact about the repo.
 
----
+| | `src/data/exams.json` | `public/exam-details/<id>.json` |
+|---|---|---|
+| Holds | one flat record per exam | the deep dossier per exam |
+| Vacancy shape | a single `vacancies` string | `competition_benchmarks.years[]`, one row per cycle |
+| Provenance | `provenance.vacancies{}` (added 2026-09-18) | `confidence`/`source_url`/`as_of` per row (pre-existing) |
+| Shown on the exam page? | **No** | **Yes** — the "Cut-offs & Vacancies" tab |
+| Read by | `Analytics.jsx`, `pdfGenerator.js` | `CompetitionBenchmarks.jsx` |
 
-## 3. The pre-existing automation, and what it actually does
+**Consequence:** updating `exams.json.vacancies` changes nothing a visitor sees. A session
+already made this mistake — verified a figure, wrote it to `exams.json`, and the owner correctly
+reported that nothing changed on the site.
 
-`.github/workflows/auto-exam-sync.yml` — runs **twice daily** (02:20 and 14:20 UTC), added
-2026-09-16, calls `scripts/automation/sync-exams.mjs --scan`.
+**Also:** the flat `exams.json.vacancies` field is structurally inadequate. SBI Clerk currently
+has two live cycles (a general one and an SC/ST/OBC backlog drive) with different figures; one
+string cannot express which cycle it means. The dossier's year-array can.
 
-**What `--scan` genuinely does, from reading the code:**
-- Prints the authority list from `sources-config.json`. It does **not** visit those sites. Cosmetic.
-- Fetches **two Google News RSS queries**, regex-matches headlines against existing exam
-  names/acronyms, and if a headline contains a vacancy figure, writes it into that exam's record.
-- **It cannot add a new exam.** `addNewExam()` is only reachable via a manual `--add` CLI call. The
-  workflow's "new exam found → GitHub issue" step reads `new-exams-found.json`, which the automated
-  scan never writes to. That step is dead code.
-
-**Evidence of actual output:** exactly one auto-commit exists (`034d5c1`), which added
-`"vacancies": "1,538 Posts"` to `sbi-clerk`.
-
-**⚠️ Standing control weakness:** that figure came from a news headline, went straight into the
-database, and published live with no verification against the SBI notification and no review step.
-Owner (a CA) considers unvouched figures reaching a site students rely on a real problem.
-**Fix this before scaling exam volume.**
+**Unresolved design question, deliberately left open for the owner:** whether
+`exams.json.vacancies` should be retired, derived from the dossier, or kept as a separate
+headline figure for the Analytics rollups (which need one number per exam to chart). Do not
+quietly pick one — ask.
 
 ---
 
-## 4. What was built this session: the portal watcher
+## 3. The inclusion policy (in force)
 
-**Design principle: version 1 uses no AI at all.** It does deterministic change detection — records
-the set of notice links on each authority's notice board, diffs against the previous run, reports
-additions. No API key, no quota, nothing to break when a model is retired. An interpretation layer
-can sit on top later.
+`data-sourcing/INCLUSION-POLICY.md`. Written and ratified 2026-09-18. Defines the population so
+"exhaustive" is measurable. Three tracks (R recruitment / A admission / Q qualification), a
+six-condition inclusion test, a unit-of-record rule separating a distinct exam from an edition of
+one, and a two-tier registry/dossier model.
 
-### Files
+Owner's settled rulings (§8 of that document): PG/doctoral admission tests in scope; state CET
+cells in scope; **autonomous bodies in scope, government-*aided* private institutions out** —
+the test is creation and funding, not the word "autonomous"; rejected candidates recorded in
+`data-sourcing/EXCLUSIONS.md`.
+
+A `track` field (R/A/Q) exists on all 500 records. **`exam_type` was left alone deliberately** —
+ten files read it as a strict two-way switch (`=== 'job'` / `=== 'entrance'`) with no branch for a
+third value, so changing it is a UI redesign, not a data fix. `track` is not yet read by any UI.
+
+---
+
+## 4. ⚠️ Data integrity — the defining issue of this project
+
+Three separate fabrication defects have been found. Assume more exist.
+
+### 4a. `exams.json` placeholder vacancies (found, marked, suppressed)
+500 records carried a vacancy figure; only 242 distinct values; 92 read "650 Posts". Every record
+now carries `provenance.vacancies.confidence`:
+
+| Confidence | Count | Meaning |
+|---|---|---|
+| `not_applicable` | 121 | admission/qualification exam; figure removed |
+| `placeholder` | 228 | value shared with another exam, never researched |
+| `unverified` | 150 | unique but uncited |
+| `verified` | 1 | SBI Clerk, checked against the notification PDF |
+
+`src/utils/provenance.js` enforces the rule: **only `verified` reaches a student.**
+
+### 4b. Invented display data (fixed)
+- `Analytics.jsx` assigned **450 posts** to any exam with no parseable figure, then summed the
+  result into a chart headed "Estimated Vacancy Volume".
+- `pdfGenerator.js` fabricated a two-year competition table when a dossier had none — 500,000
+  applicants and "1,000+" vacancies for the current year, 480,000 and "950+" for a prior year
+  that never happened — beneath a footnote asserting the figures came from official
+  notifications.
+
+Both now withhold instead of inventing.
+
+### 4c. Fabricated dossier benchmarks (found 2026-09-18, 170 rows removed)
+**170 of 500 exams** carried a `competition_benchmarks` row marked `confidence: "verified"` whose
+numbers were generated from a fixed ratio. All 170 matched simultaneously:
+`applicants === vacancies * 185`, `selectivity_ratio === "approx. 1 in 185"`,
+`as_of === "2025-09-01"`, source_url = the body's homepage. Ten vacancy values covered all 170;
+92 shared 650 — the same default as 4a, so the defect was written into **both** layers.
+AIBE (a pass/fail bar exam with no vacancies) and ACET were among them.
+
+Full record: `data-sourcing/AUDIT-2026-09-18-fabricated-benchmarks.md`.
+
+Rows were **removed**, not downgraded: the schema's confidence enum
+(`verified` | `reported` | `estimate`) has no value weak enough, and a downgraded row would still
+display the number.
+
+**Verified dossier rows: 628 before → 459 after.**
+
+### The standing lesson
+Every fabrication so far shared one tell: **a value repeated across exams that should not share
+one.** When touching any data field, run that test first — group by value, count distinct exams.
+It has caught all three defects.
+
+---
+
+## 5. What is trusted right now
+
+| Layer | Status |
+|---|---|
+| 459 dossier rows marked `verified` | **Analytical assurance only.** No generation pattern found (scattered dates, no constant ratio, specific working notes). This rules out *generated* data; it does **not** confirm any individual figure. Nobody has opened their sources. |
+| 544 dossier rows marked `reported` | Uncited or secondary-sourced. Not shown with a badge. |
+| 1 `exams.json` verified figure | SBI Clerk, checked against the primary PDF. |
+
+**Do not describe the 459 as verified-and-checked.** Sampling them substantively is the natural
+follow-up once §6 is done.
+
+---
+
+## 6. Current work in progress — re-sourcing the 170
+
+- `data-sourcing/VERIFICATION-QUEUE.md` — the 170 exams, popularity-ordered
+  (60 very_high, 80 high, 29 medium, 1 low).
+- `data-sourcing/ANTIGRAVITY-BATCHES.md` — 34 ready-to-paste batches of 5, with the research
+  prompt. The owner runs these in **Google Antigravity** (agentic IDE, runs on his Mac from an
+  Indian IP, so it reaches portals that scripts and US-hosted tools cannot, and it captures
+  screenshots as evidence).
+
+**The workflow, and the rule that matters:**
+1. Owner runs a batch in Antigravity; it returns figures plus screenshots.
+2. Owner opens the screenshot and confirms the number is actually there.
+3. Only that human check makes it `verified`. Unchecked extraction is `reported` and stays off
+   the page.
+4. Results come back to Claude, which writes them into the **dossier** (not `exams.json` — see §2).
+
+**The prompt's critical instruction:** `applicants` must be null unless a document states it.
+The entire 4c defect was derived applicant counts. A null is worth more than a plausible figure.
+
+**Never give Antigravity write access to this repo.** Data entered without a checkable source
+trail is indistinguishable from data that was invented.
+
+---
+
+## 7. The portal watcher
+
+Deterministic change detection over authority notice boards. **No AI dependency** — no API key,
+no quota, nothing to break when a model is retired. Reports; never writes to `exams.json`.
+
 | Path | Purpose |
 |---|---|
-| `scripts/automation/portal-watch.mjs` | The watcher |
-| `scripts/automation/run-portal-watch.sh` | Wrapper: runs it, logs, alerts on failure |
-| `~/Library/LaunchAgents/com.indiaexams.portal-watch.plist` | Daily schedule, **09:00** |
-| `data-sourcing/PORTAL-CHANGE-LOG.md` | **Review queue** — newest run first (tracked in git) |
-| `data-sourcing/portal-snapshots/` | Working state, 24 files (**gitignored**, regenerable) |
-| `data-sourcing/portal-watch.log` | Run log (gitignored) |
-| `scripts/automation/connectivity-probe.mjs` | One-off diagnostic, already run |
+| `scripts/automation/portal-watch.mjs` | the watcher |
+| `scripts/automation/run-portal-watch.sh` | wrapper: logs, alerts on failure |
+| `~/Library/LaunchAgents/com.indiaexams.portal-watch.plist` | daily, 09:00 |
+| `data-sourcing/PORTAL-CHANGE-LOG.md` | review queue, newest first (tracked) |
+| `data-sourcing/portal-snapshots/` | working state (gitignored) |
 
-Run by hand: `npm run watch-portals` — takes about **40 seconds**.
+`npm run watch-portals`, ~40s. Reach: **24 of 38** authorities readable, ~1,150 notices watched.
+That is 24 of 342 authorities (7.0%), covering 97 of 500 exams (19.4%) — state this honestly.
 
-### Verified working
-Scheduled run completed 2026-09-18 16:35 IST, exit code 0, no errors.
+JS-rendered, needs a browser engine: SSC, UPPSC, Andhra PSC, Maharashtra PSC. Unreachable: SBI,
+Bihar, Karnataka, Punjab, Telangana, West Bengal, J&K, Himachal, Manipur, Meghalaya.
 
-### Reach
-- **24 of 38** configured authorities readable, **~1,150 notices** under watch
-- Certificate workaround (`CERT_RELAXED_HOSTS` in the script) recovered IBPS and Assam PSC
-- **JavaScript-rendered, needs a browser engine:** SSC, UPPSC, Andhra PSC, Maharashtra PSC
-- **Unreachable:** SBI, Bihar, Karnataka, Punjab, Telangana, West Bengal, J&K, Himachal, Manipur,
-  Meghalaya
+**UPPSC is a trap:** it serves a full-looking page whose notices are unrendered template
+placeholders. The script detects this (`JS_RENDERED`) rather than recording rubbish.
 
-⚠️ **UPPSC is a trap worth remembering:** it returns a full-looking page whose notices are
-unrendered template placeholders (`{{'AllNoticeAdvert_HM' | translate }}`). The script now detects
-this (`JS_RENDERED`) instead of silently recording rubbish. Expect the same pattern elsewhere.
-
-### The coverage reality — state this honestly, don't let it get lost
-- **24 of 342 authorities = 7.0%**
-- Those bodies conduct **97 of 500 exams = 19.4%**
-
-The 38-authority config was a pre-existing shortlist, never the full 342.
+Controls: `launchctl load|unload ~/Library/LaunchAgents/com.indiaexams.portal-watch.plist`,
+`launchctl kickstart gui/$(id -u)/com.indiaexams.portal-watch`.
 
 ---
 
-## 5. Cost and vendor findings (don't re-research these)
+## 8. The vacancy intake pipeline
 
-- **Google AI Pro (₹1,950/mo consumer subscription) grants no API quota.** The Gemini Developer API
-  is billed separately with its own free tier.
-- **`gemini-2.0-flash` and `-flash-lite` were shut down 2026-06-01.** The widely-quoted 1,500
-  requests/day free tier belongs to those dead models.
-- **`gemini-2.5-flash` retires 2026-10-16.** Surviving free tier is 3.x Flash-Lite at roughly
-  **20-500 requests/day** — confirm the exact figure for the specific model ID before relying on it.
-- Model retirement recurs every 6-12 months. Any LLM-dependent job must fail loudly, and expect to
-  bump the model ID about twice a year. **This is why v1 avoids the dependency entirely.**
-- Indian VPS if ever needed: ~₹450-700/month (Vultr/DigitalOcean/Linode Mumbai-Bangalore), or
-  ~₹180+ from Indian providers billing in INR with a GST invoice. **Not currently needed** — it runs
-  free on the Mac. Advice given: don't incur the cost until the process proves its worth.
+`npm run apply-vacancy-updates` (`--dry-run` supported) reads
+`data-sourcing/vacancy-updates.csv` → writes `exams.json` provenance → logs to
+`data-sourcing/vacancy-update-log.md` → removes applied rows, leaves rejected ones with reasons.
+
+Rejects: unknown id, track ≠ R, confidence not `verified`/`reported`, missing source, bad date,
+**and any attempt to downgrade an existing `verified` figure without an explicit checked decision.**
+
+⚠️ **This writes to `exams.json`, which the exam page does not display (§2).** It needs a dossier
+equivalent, or retiring, once the §2 design question is settled.
 
 ---
 
-## 6. Git state as at handoff
+## 9. The pre-existing auto-sync, and its standing weakness
 
-**Nothing from the watcher build is committed.** Working tree:
+`.github/workflows/auto-exam-sync.yml` runs `sync-exams.mjs --scan` twice daily. It fetches two
+Google News RSS queries, regex-matches headlines against exam names, and writes vacancy figures
+found in headlines straight into the database. It **cannot** add a new exam (`addNewExam()` is
+only reachable via a manual `--add`); the workflow's "new exam → GitHub issue" step is dead code.
+
+**It is still live and still unvouched.** It produced the "1,538 Posts" figure on `sbi-clerk`
+from a headline. That figure later turned out to be *correct* — it was a real SC/ST/OBC backlog
+drive (Advt. CRPD/CR/SPLDRIVE/2026-27/16) — but it reached the database with no verification,
+which is luck, not control. **Consider gating or disabling it.**
+
+---
+
+## 10. Owner's strategic priorities
+
+1. **Exhaustive coverage** is the differentiator — well beyond 500 exams.
+2. **Only cutoffs and vacancies change materially year to year.** Concentrate update effort
+   there; spend the rest on adding exams.
+
+Criticism put to the owner, which they accepted and acted on: cutoffs/vacancies are the hardest
+and most dangerous data to automate; breadth dilutes quality unless tiered; "exhaustive" needs an
+inclusion policy (now written); discovery should come from aggregators (Employment News, National
+Career Service, Sarkari Result) rather than crawling 342 authority sites; the moat is structure
+and permanence, not raw coverage.
+
+**Recommended sequence from here:**
+1. Finish re-sourcing the 170 (§6)
+2. Sample the 459 analytically-clean rows substantively (§5)
+3. Settle the two-layer design question (§2)
+4. Gate or disable the unvouched auto-sync (§9)
+5. Then aggregator-based discovery, with the two-tier registry/dossier model
+
+---
+
+## 11. Working with this owner
+
+- Chartered accountant, not a developer. Plain language; audit framing lands well.
+- **Wants to be told which model to use per task.** Haiku for mechanical; Sonnet for ordinary
+  coding where the design is settled; Opus for judgement, data-integrity review, and anything
+  where the premise may be wrong; external tools for bulk document reading. Say when switching
+  is not worth the overhead.
+- **Asks for criticism directly and acts on it.** Give it straight. Items 4b and 4c surfaced
+  because he asked "where did I go wrong" and "why are we doing the same thing again and again."
+- He keeps his own work in the tree (`src/utils/syllabusTaxonomy.js`, `StoryGate.jsx` and
+  similar). **Never bundle his uncommitted files into an automation commit.** Check
+  `git status` before staging.
+- Ask before committing when the change is substantial.
+
+---
+
+## 12. Git state at handoff
+
+Clean and pushed; local level with `origin/main`. This session's commits:
 
 ```
- M .gitignore          (added portal-snapshots/ ignore)
- M package.json        (added "watch-portals" script)
- M src/App.jsx                    ┐
- M src/components/CommandPalette.jsx │  Owner's own earlier work —
- M src/components/Header.jsx        │  NOT this session's. Do not
- M src/components/MobileNav.jsx     │  bundle into an automation commit.
- M src/index.css                    │
- M src/utils/syllabusTaxonomy.js   ┘
-?? data-sourcing/PORTAL-CHANGE-LOG.md
-?? scripts/automation/portal-watch.mjs
-?? scripts/automation/run-portal-watch.sh
+8c0fff7 docs(data): verification queue for the 170 exams with removed benchmarks
+d969df8 fix(data): remove 170 fabricated competition benchmark rows
+bb3dfd7 data(vacancies): verify SBI Clerk 2025 against the official notification
+f5bb266 feat(automation): vacancy update intake script and CSV
+3e222bc feat(data): add track field, correcting CA/CS/CMA/AIBE classification
+f50b27f feat(data): record provenance for every vacancy figure and suppress the unverified
+6ec1017 docs(data): settle inclusion policy scope questions; add exclusions register
+fef07fb docs(data): inclusion policy defining what belongs in the exam database
+557e054 feat(automation): daily portal notice watcher with deterministic change detection
 ```
 
-Local and `origin/main` are level. Two commits were pushed this session (`799392a`, `eee7aa8`) —
-the connectivity probe and its report. **Owner has not asked for a commit of the watcher work yet;
-ask before committing.**
+Uncommitted: the owner's own `src/utils/syllabusTaxonomy.js` — leave it alone.
 
 ---
 
-## 7. Strategic direction — the owner's stated priorities
+## 13. Open questions
 
-From discussion at the end of the session:
-
-1. **The exam universe is too small.** There are well over 500 government exams; expanding coverage
-   is the main goal. The thesis: no dashboard exhaustively covers Indian government exams at this
-   scale, and that exhaustiveness is the differentiator.
-2. **Only cutoffs and vacancies change materially year-to-year.** Eligibility, age limits, exam
-   patterns and selection processes change once in several years. So update effort should
-   concentrate on cutoffs and vacancies, and the rest of the effort should go into adding exams.
-
-This is a sound prioritisation. It reduces "keep 500 exams current" to roughly two data events per
-exam per year — about **three events a day** across the database.
-
-### Criticism put to the owner (they asked for it; they have not yet responded)
-
-1. **Cutoffs/vacancies are the hardest and most dangerous data to automate** — scanned PDFs,
-   category-wise breakdowns, provisional figures revised by corrigendum, and the numbers students
-   actually decide on. See the "1,538 Posts" incident in §3.
-2. **Breadth will dilute quality unless tiered.** Recommend two explicit tiers: a cheap *registry*
-   entry (name, authority, qualification, frequency, official link) versus a full *dossier*, and
-   label on the site which an exam is. Better than 1,500 half-empty dossiers.
-3. **"Exhaustive" is unbounded without an inclusion policy.** Recommend writing one first —
-   e.g. recurring, open to public application, competitive written examination, government or
-   statutory body. Makes the claim bounded and defensible.
-4. **The discovery method is pointed at the wrong place.** Authorities already in the database
-   mostly conduct exams already held, so authority sweeps have diminishing returns for *discovery*
-   (they remain good for *updates*). Qualification and discipline are student-facing filters, not
-   discovery instruments. **Recommend discovery via aggregators** — Employment News / Rozgar
-   Samachar, National Career Service portal, and the Sarkari Result / FreeJobAlert category. Three
-   aggregators beat crawling 342 authority sites.
-5. **The moat is structure and permanence, not raw coverage.** Aggregator sites are already
-   comprehensive on breadth; what they lack is structure, comparability and history. Coverage alone
-   is not the differentiator.
-
-### Recommended sequence given to the owner
-1. Write the inclusion policy
-2. Fix the unverified-figure pipeline **before** scaling volume
-3. Build aggregator-based discovery (this is what grows 500 into the real universe)
-4. Introduce the two-tier model on the site
-5. Build the cutoff/vacancy pipeline properly: detect free → verify against primary source → publish
-   with citation, date and confidence
-6. Authority sweeps continue in background for the major commissions
-
----
-
-## 8. Open question awaiting the owner's answer
-
-**Where to start: the inclusion policy, or aggregator-based discovery?**
-
-Also outstanding, lower priority:
-- Whether to commit the watcher work (and separately from the owner's own 8 modified files)
-- Expanding the authority list beyond the 38-entry shortfile toward 342
-- Linking detected notices to specific exams in `exams.json` — currently the watcher says
-  "a notice appeared", not "exam X changed". **This half of the original requirement is unmet.**
-- The 14 unreadable portals (browser engine for the JS-rendered ones)
-- `sources-config.json` has missing `psc` fields for Delhi and Ladakh
-
----
-
-## 9. Operating notes
-
-- Turn the schedule off: `launchctl unload ~/Library/LaunchAgents/com.indiaexams.portal-watch.plist`
-- Turn it on: `launchctl load ~/Library/LaunchAgents/com.indiaexams.portal-watch.plist`
-- Run now: `launchctl kickstart gui/$(id -u)/com.indiaexams.portal-watch`
-- Failures raise a macOS notification and are recorded in `data-sourcing/portal-watch.log`
-- The watcher **never writes to `exams.json`**. That is deliberate — it reports, a human decides.
+- **§2 — the two-layer design.** Blocks §8 from being genuinely useful. Needs the owner's call.
+- Surfacing `track` in the UI (filters, badges) and retiring `exam_type`.
+- The 14 unreachable portals; a browser engine for the JS-rendered ones. Antigravity may solve
+  this incidentally — it drives a real browser from an Indian IP.
+- Linking detected notices to specific exams. The watcher says "a notice appeared", not "exam X
+  changed". **This half of the original requirement is still unmet.**
+- `sources-config.json` has missing `psc` fields for Delhi and Ladakh.
