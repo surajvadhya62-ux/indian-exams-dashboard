@@ -4,7 +4,9 @@ import {
   HiOutlineShieldCheck, HiOutlineSparkles, HiOutlineDocumentText,
   HiOutlineScale, HiOutlineExternalLink, HiOutlineTrash,
   HiOutlinePlus, HiOutlineTrendingUp, HiOutlineCalendar,
-  HiOutlineBriefcase, HiOutlineAcademicCap, HiOutlineDownload
+  HiOutlineBriefcase, HiOutlineAcademicCap, HiOutlineDownload,
+  HiOutlineClipboardList, HiOutlineCheck, HiOutlineFire,
+  HiOutlineLightningBolt, HiOutlineTag, HiOutlineFilter
 } from 'react-icons/hi'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
 
@@ -47,34 +49,21 @@ export default function MyDashboard({
   onViewDetails,
   onToggleCompare,
   compareList = [],
-  setActiveView
+  setActiveView,
+  todoList = [],
+  setTodoList,
+  currentUser,
+  onOpenAuth
 }) {
   const [selectedAddExamId, setSelectedAddExamId] = useState('')
   const [targetFilter, setTargetFilter] = useState('all') // 'all' | 'primary' | 'watchlist'
-  const [examMilestones, setExamMilestones] = useState(() => {
-    try {
-      const saved = localStorage.getItem('indiaexams_candidate_milestones')
-      return saved ? JSON.parse(saved) : {}
-    } catch {
-      return {}
-    }
-  })
+  const [todoFilter, setTodoFilter] = useState('all') // 'all' | 'pending' | 'completed'
 
-  // Persist milestone checkpoints
-  const toggleMilestone = (examId, stepIndex) => {
-    setExamMilestones(prev => {
-      const current = prev[examId] || [false, false, false, false]
-      const updatedExamSteps = [...current]
-      updatedExamSteps[stepIndex] = !updatedExamSteps[stepIndex]
-      const nextState = { ...prev, [examId]: updatedExamSteps }
-      try {
-        localStorage.setItem('indiaexams_candidate_milestones', JSON.stringify(nextState))
-      } catch (e) {
-        console.error('Failed to save milestones', e)
-      }
-      return nextState
-    })
-  }
+  // New task form state
+  const [newTaskText, setNewTaskText] = useState('')
+  const [newTaskExamId, setNewTaskExamId] = useState('general')
+  const [newTaskPriority, setNewTaskPriority] = useState('high') // 'high' | 'medium' | 'low'
+  const [newTaskDuration, setNewTaskDuration] = useState('60m')
 
   // Filtered list of bookmarked exam objects
   const bookmarkedExams = useMemo(() => {
@@ -118,241 +107,543 @@ export default function MyDashboard({
     let openWindows = 0
     const currentMonthNum = new Date().getMonth()
     const monthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
-    const curMonth = monthNames[currentMonthNum]
 
     bookmarkedExams.forEach(e => {
-      let vac = 0
-      if (e.vacancies) {
-        const numStr = e.vacancies.replace(/[^0-9]/g, '')
-        if (numStr) vac = parseInt(numStr, 10)
+      const seats = parseInt(String(e.total_seats || '').replace(/[^0-9]/g, ''), 10)
+      if (!isNaN(seats) && seats > 0) {
+        totalVacancies += seats
+      } else {
+        totalVacancies += 850
       }
-      if (!vac || isNaN(vac)) {
-        if (e.domain === 'Defence') vac = 350
-        else if (e.domain === 'Banking') vac = 2500
-        else if (e.domain === 'Government Services') vac = 850
-        else if (e.domain === 'Engineering') vac = 1200
-        else if (e.domain === 'Medical') vac = 1500
-        else vac = 450
-      }
-      totalVacancies += vac
 
       const appPeriod = (e.application_period || '').toLowerCase()
-      if (appPeriod.includes(curMonth)) {
-        openWindows++
+      const currentMonthName = monthNames[currentMonthNum]
+      if (appPeriod.includes(currentMonthName) || appPeriod.includes('ongoing') || appPeriod.includes('active')) {
+        openWindows += 1
       }
     })
 
-    return {
-      totalVacancies,
-      vacancyFormatted: totalVacancies.toLocaleString('en-IN'),
-      openWindows
-    }
+    const vacancyFormatted = totalVacancies.toLocaleString('en-IN')
+    return { totalVacancies, vacancyFormatted, openWindows }
   }, [bookmarkedExams])
 
-  // Quick Add Action
-  const handleEnlistExam = (e) => {
-    e.preventDefault()
-    if (!selectedAddExamId) return
-    if (!bookmarks.includes(selectedAddExamId)) {
-      onToggleBookmark(selectedAddExamId)
+  // To-Do Actions
+  const handleAddTodo = (e) => {
+    if (e) e.preventDefault()
+    if (!newTaskText.trim()) return
+
+    const examObj = bookmarkedExams.find(ex => ex.id === newTaskExamId)
+    const examName = newTaskExamId === 'general' ? 'General Foundation' : (examObj?.acronym || examObj?.name || 'Target Exam')
+
+    const newTodo = {
+      id: `td_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+      text: newTaskText.trim(),
+      examId: newTaskExamId,
+      examName,
+      priority: newTaskPriority,
+      duration: newTaskDuration,
+      completed: false,
+      date: new Date().toISOString().slice(0, 10),
+      createdAt: new Date().toISOString()
     }
-    setSelectedAddExamId('')
+
+    const updated = [newTodo, ...todoList]
+    setTodoList(updated)
+    try {
+      localStorage.setItem('indiaexams_daily_todos', JSON.stringify(updated))
+    } catch (err) {}
+    setNewTaskText('')
   }
 
+  const handleToggleTodo = (id) => {
+    const updated = todoList.map(t => {
+      if (t.id === id) {
+        return { ...t, completed: !t.completed, completedAt: !t.completed ? new Date().toISOString() : null }
+      }
+      return t
+    })
+    setTodoList(updated)
+    try {
+      localStorage.setItem('indiaexams_daily_todos', JSON.stringify(updated))
+    } catch (err) {}
+  }
+
+  const handleDeleteTodo = (id) => {
+    const updated = todoList.filter(t => t.id !== id)
+    setTodoList(updated)
+    try {
+      localStorage.setItem('indiaexams_daily_todos', JSON.stringify(updated))
+    } catch (err) {}
+  }
+
+  const handleClearCompleted = () => {
+    const updated = todoList.filter(t => !t.completed)
+    setTodoList(updated)
+    try {
+      localStorage.setItem('indiaexams_daily_todos', JSON.stringify(updated))
+    } catch (err) {}
+  }
+
+  // Quick Preset Add
+  const handleAddPreset = (text, duration, priority, examId = 'general') => {
+    const examObj = bookmarkedExams.find(ex => ex.id === examId)
+    const examName = examId === 'general' ? 'General Foundation' : (examObj?.acronym || examObj?.name || 'Target Exam')
+
+    const newTodo = {
+      id: `td_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+      text,
+      examId,
+      examName,
+      priority,
+      duration,
+      completed: false,
+      date: new Date().toISOString().slice(0, 10),
+      createdAt: new Date().toISOString()
+    }
+
+    const updated = [newTodo, ...todoList]
+    setTodoList(updated)
+    try {
+      localStorage.setItem('indiaexams_daily_todos', JSON.stringify(updated))
+    } catch (err) {}
+  }
+
+  // Quick add from card level
+  const handleAddCardTask = (examId, taskDescription) => {
+    if (!taskDescription.trim()) return
+    const examObj = bookmarkedExams.find(ex => ex.id === examId)
+    const examName = examObj?.acronym || examObj?.name || 'Target Exam'
+
+    const newTodo = {
+      id: `td_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+      text: taskDescription.trim(),
+      examId,
+      examName,
+      priority: 'high',
+      duration: '60m',
+      completed: false,
+      date: new Date().toISOString().slice(0, 10),
+      createdAt: new Date().toISOString()
+    }
+
+    const updated = [newTodo, ...todoList]
+    setTodoList(updated)
+    try {
+      localStorage.setItem('indiaexams_daily_todos', JSON.stringify(updated))
+    } catch (err) {}
+  }
+
+  // To-Do Statistics
+  const completedCount = todoList.filter(t => t.completed).length
+  const totalCount = todoList.length
+  const completionPct = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0
+
+  const filteredTodos = useMemo(() => {
+    if (todoFilter === 'pending') return todoList.filter(t => !t.completed)
+    if (todoFilter === 'completed') return todoList.filter(t => t.completed)
+    return todoList
+  }, [todoList, todoFilter])
+
+  // Format today's date
+  const todayFormatted = useMemo(() => {
+    return new Date().toLocaleDateString('en-IN', {
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })
+  }, [])
+
   return (
-    <div className="candidate-workstation-wrapper fade-in">
-      {/* Top Header Control Strip */}
-      <div className="workstation-top-strip">
-        <div className="workstation-title-group">
-          <span className="mterminal-amber-label">CANDIDATE COMMAND CENTER & ACTIVE RADAR</span>
-          <span className="workstation-status-badge">
-            <span className="mterminal-pulse-dot" />
-            <span>{bookmarkedExams.length} TARGETS MONITORED</span>
-          </span>
+    <div className="workstation-container fade-in">
+      {/* Workstation Command Header */}
+      <div className="workstation-header">
+        <div className="workstation-header-main">
+          <div className="workstation-title-group">
+            <div className="workstation-kicker">
+              <span className="live-signal-dot" />
+              <span>CANDIDATE COMMAND CENTER // ACTIVE RADAR</span>
+            </div>
+            <h1 className="workstation-title">Target Pipeline & Daily Study Planner</h1>
+            <p className="workstation-subtitle">
+              Forensic tracking of your pinned examinations, aggregate vacancy pool, and custom daily study schedule.
+            </p>
+          </div>
+
+          <div className="workstation-quick-add">
+            {currentUser ? (
+              <div className="radar-user-badge" onClick={onOpenAuth}>
+                <span className="radar-user-dot" />
+                <span>Vault Active: <strong>{currentUser.name}</strong></span>
+              </div>
+            ) : (
+              <button className="btn-secondary radar-signin-btn" onClick={onOpenAuth}>
+                <HiOutlineBookmark /> Save Progress in Vault
+              </button>
+            )}
+
+            <div className="quick-add-wrap">
+              <select
+                className="workstation-select"
+                value={selectedAddExamId}
+                onChange={(e) => {
+                  if (e.target.value) {
+                    onToggleBookmark(e.target.value)
+                    setSelectedAddExamId('')
+                  }
+                }}
+              >
+                <option value="">+ Pin Examination to Radar...</option>
+                {exams
+                  .filter(e => !bookmarks.includes(e.id))
+                  .slice(0, 100)
+                  .map(e => (
+                    <option key={e.id} value={e.id}>
+                      {e.name} ({e.conducting_body})
+                    </option>
+                  ))}
+              </select>
+            </div>
+          </div>
         </div>
 
-        {/* Quick Enlist Dropdown */}
-        <form onSubmit={handleEnlistExam} className="workstation-quick-enlist-form">
-          <div className="workstation-select-wrapper">
-            <select
-              className="mterminal-select workstation-exam-select"
-              value={selectedAddExamId}
-              onChange={(e) => setSelectedAddExamId(e.target.value)}
-              aria-label="Enlist exam to radar"
+        {/* 4-Card Forensic Telemetry Strip */}
+        <div className="workstation-telemetry-grid">
+          {/* Metric 1: Pinned Targets */}
+          <div className="telemetry-card panel">
+            <div className="telemetry-card-top">
+              <span className="telemetry-index">TARGETS // 01</span>
+              <HiOutlineBookmark className="telemetry-icon text-amber" />
+            </div>
+            <div className="telemetry-value-row">
+              <span className="telemetry-main-val">{bookmarkedExams.length}</span>
+              <span className="telemetry-sub-badge">ACTIVE RADAR</span>
+            </div>
+            <p className="telemetry-footer-text">
+              {bookmarkedExams.length === 0
+                ? 'No examinations pinned yet'
+                : `${bookmarkedExams.filter(e => e.jurisdiction === 'central').length} Central · ${bookmarkedExams.filter(e => e.jurisdiction === 'state').length} State`}
+            </p>
+          </div>
+
+          {/* Metric 2: Nearest Examination Window */}
+          <div className="telemetry-card panel">
+            <div className="telemetry-card-top">
+              <span className="telemetry-index">COUNTDOWN // 02</span>
+              <HiOutlineClock className="telemetry-icon text-rose" />
+            </div>
+            <div className="telemetry-value-row">
+              <span className="telemetry-main-val">
+                {nearestExam ? `~${nearestExam.days}d` : '--'}
+              </span>
+              <span className="telemetry-sub-badge text-rose">
+                {nearestExam ? nearestExam.exam.acronym || 'NEXT WINDOW' : 'NO TARGETS'}
+              </span>
+            </div>
+            <p className="telemetry-footer-text truncate-text">
+              {nearestExam
+                ? `${nearestExam.exam.name} (${nearestExam.exam.exam_month || 'TBD'})`
+                : 'Pin an exam to track timeline'}
+            </p>
+          </div>
+
+          {/* Metric 3: Highest Target Cadre */}
+          <div className="telemetry-card panel">
+            <div className="telemetry-card-top">
+              <span className="telemetry-index">MAX CADRE // 03</span>
+              <HiOutlineShieldCheck className="telemetry-icon text-blue" />
+            </div>
+            <div className="telemetry-value-row">
+              <span className="telemetry-main-val truncate-text" style={{ fontSize: '1.25rem' }}>
+                {highestCadre}
+              </span>
+            </div>
+            <p className="telemetry-footer-text">
+              {bookmarkedExams.some(e => /gazetted/i.test(e.cadre || ''))
+                ? 'Constitutional Gazetted Authority'
+                : 'Executive / Technical Hierarchy'}
+            </p>
+          </div>
+
+          {/* Metric 4: Combined Vacancy Pool */}
+          <div className="telemetry-card panel">
+            <div className="telemetry-card-top">
+              <span className="telemetry-index">VACANCY POOL // 04</span>
+              <HiOutlineBriefcase className="telemetry-icon text-emerald" />
+            </div>
+            <div className="telemetry-value-row">
+              <span className="telemetry-main-val text-emerald">
+                {targetTelemetry.vacancyFormatted}
+              </span>
+              <span className="telemetry-sub-badge text-emerald">
+                {targetTelemetry.openWindows > 0 ? `${targetTelemetry.openWindows} OPEN NOW` : 'ANNUAL POOL'}
+              </span>
+            </div>
+            <p className="telemetry-footer-text">
+              {targetTelemetry.openWindows > 0
+                ? `${targetTelemetry.openWindows} active application window(s) right now`
+                : 'Aggregate recruitment seats across pinned targets'}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ========================================================= */}
+      {/* 🗓️ DAILY ASPIRANT ACTION BOARD & TO-DO LIST DESIGNER     */}
+      {/* ========================================================= */}
+      <div className="daily-todo-board panel">
+        <div className="todo-board-header">
+          <div className="todo-header-left">
+            <div className="todo-kicker">
+              <HiOutlineFire className="todo-fire-icon text-amber" />
+              <span>DAILY STUDY PLANNER & ACTION BOARD // {todayFormatted}</span>
+            </div>
+            <h3 className="todo-board-title">Design Your Daily Preparation Schedule</h3>
+          </div>
+
+          {/* Progress Gauge */}
+          <div className="todo-progress-gauge">
+            <div className="todo-progress-stats">
+              <span className="todo-pct-num">{completionPct}%</span>
+              <span className="todo-count-label">{completedCount} of {totalCount} Cleared</span>
+            </div>
+            <div className="todo-progress-bar-track">
+              <div
+                className="todo-progress-bar-fill"
+                style={{ width: `${completionPct}%` }}
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* 1-Click Study Presets */}
+        <div className="todo-presets-strip">
+          <span className="presets-label">
+            <HiOutlineLightningBolt /> Quick Add Tasks:
+          </span>
+          <div className="presets-chips">
+            <button
+              type="button"
+              className="preset-chip"
+              onClick={() => handleAddPreset('Daily Editorial & Current Affairs Analysis', '45m', 'high')}
             >
-              <option value="">+ Enlist Examination to Radar...</option>
-              {exams.map(e => (
-                <option key={e.id} value={e.id} disabled={bookmarks.includes(e.id)}>
-                  {e.name} ({e.acronym}) {bookmarks.includes(e.id) ? '— [ENLISTED]' : ''}
+              + Current Affairs (45m)
+            </button>
+            <button
+              type="button"
+              className="preset-chip"
+              onClick={() => handleAddPreset('50 Previous Year Questions (PYQ) Sectional Drill', '90m', 'high')}
+            >
+              + 50 PYQs Practice (90m)
+            </button>
+            <button
+              type="button"
+              className="preset-chip"
+              onClick={() => handleAddPreset('Full-Length Timed Mock Test Simulation', '120m', 'high')}
+            >
+              + Full Mock Test (120m)
+            </button>
+            <button
+              type="button"
+              className="preset-chip"
+              onClick={() => handleAddPreset('CSAT / Quantitative Aptitude Practice Drill', '60m', 'medium')}
+            >
+              + CSAT / Quant (60m)
+            </button>
+            <button
+              type="button"
+              className="preset-chip"
+              onClick={() => handleAddPreset('Core Static Syllabus Chapter Revision & Notes', '60m', 'medium')}
+            >
+              + Static Revision (60m)
+            </button>
+          </div>
+        </div>
+
+        {/* Task Creation Form */}
+        <form onSubmit={handleAddTodo} className="todo-create-form">
+          <div className="todo-input-wrap">
+            <input
+              type="text"
+              className="todo-text-input"
+              placeholder="e.g., Revise Laxmikanth Polity Chapters 5-8, Solve 40 Math questions..."
+              value={newTaskText}
+              onChange={e => setNewTaskText(e.target.value)}
+            />
+          </div>
+
+          <div className="todo-meta-controls">
+            {/* Target Exam Dropdown */}
+            <select
+              className="todo-select"
+              value={newTaskExamId}
+              onChange={e => setNewTaskExamId(e.target.value)}
+              title="Link task to specific examination"
+            >
+              <option value="general">🌐 General Foundation / All Exams</option>
+              {bookmarkedExams.map(ex => (
+                <option key={ex.id} value={ex.id}>
+                  📌 {ex.acronym || ex.name}
                 </option>
               ))}
             </select>
-          </div>
-          <button
-            type="submit"
-            className="mterminal-fetch-btn"
-            disabled={!selectedAddExamId}
-            title="Pin this examination to your active candidate radar"
-          >
-            <HiOutlinePlus />
-            <span>PIN TO RADAR</span>
-          </button>
-        </form>
-      </div>
 
-      {/* 4 Telemetry Metric Cards */}
-      <div className="workstation-telemetry-grid">
-        {/* Metric 1: Active Targets */}
-        <div className="workstation-telemetry-card">
-          <div className="telemetry-card-top">
-            <span className="telemetry-k">ACTIVE TARGETS</span>
-            <HiOutlineBookmark className="telemetry-icon text-amber" />
-          </div>
-          <div className="telemetry-card-main">
-            <span className="telemetry-big-num">{bookmarkedExams.length}</span>
-            <span className="telemetry-unit">Enlisted</span>
-          </div>
-          <div className="telemetry-card-sub">
-            High-Stakes Examination Radar
-          </div>
-        </div>
-
-        {/* Metric 2: Nearest Milestone */}
-        <div className="workstation-telemetry-card">
-          <div className="telemetry-card-top">
-            <span className="telemetry-k">NEAREST MILESTONE</span>
-            <HiOutlineClock className="telemetry-icon text-sky" />
-          </div>
-          <div className="telemetry-card-main">
-            {nearestExam ? (
-              <>
-                <span className="telemetry-big-num text-sky">~{nearestExam.days}d</span>
-                <span className="telemetry-unit">Remaining</span>
-              </>
-            ) : (
-              <span className="telemetry-big-num text-muted">--</span>
-            )}
-          </div>
-          <div className="telemetry-card-sub">
-            {nearestExam ? (
-              <span className="truncate-text" title={nearestExam.exam.name}>
-                {nearestExam.exam.acronym}: {nearestExam.exam.exam_month || 'Upcoming Window'}
-              </span>
-            ) : (
-              'Enlist an exam to track countdown'
-            )}
-          </div>
-        </div>
-
-        {/* Metric 3: Highest Cadre */}
-        <div className="workstation-telemetry-card">
-          <div className="telemetry-card-top">
-            <span className="telemetry-k">TARGETED CADRE</span>
-            <HiOutlineShieldCheck className="telemetry-icon text-emerald" />
-          </div>
-          <div className="telemetry-card-main">
-            <span className="telemetry-cadre-val text-emerald">{highestCadre}</span>
-          </div>
-          <div className="telemetry-card-sub">
-            7th Central Pay Commission Benchmark
-          </div>
-        </div>
-
-        {/* Metric 4: Combined Vacancy Pool */}
-        <div className="workstation-telemetry-card">
-          <div className="telemetry-card-top">
-            <span className="telemetry-k">COMBINED VACANCY POOL</span>
-            <HiOutlineTrendingUp className="telemetry-icon text-amber" />
-          </div>
-          <div className="telemetry-card-main">
-            <span className="telemetry-big-num text-amber">{targetTelemetry.vacancyFormatted}</span>
-            <span className="telemetry-unit">Posts</span>
-          </div>
-          <div className="telemetry-card-sub" style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
-            <span className="telemetry-open-badge" style={{ color: 'var(--emerald, #10b981)', fontWeight: 600, fontSize: '0.74rem' }}>
-              ● {targetTelemetry.openWindows > 0 ? `${targetTelemetry.openWindows} Window${targetTelemetry.openWindows > 1 ? 's' : ''} Open Now` : 'Cycles Monitored'}
-            </span>
-            <span style={{ color: 'var(--muted, #64748b)', fontSize: '0.72rem' }}>
-              across {bookmarkedExams.length} target{bookmarkedExams.length !== 1 ? 's' : ''}
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Workstation Section */}
-      <div className="workstation-content-card">
-        <div className="workstation-section-header">
-          <div className="workstation-header-left">
-            <span className="mterminal-amber-label">ACTIVE CANDIDATE PIPELINE</span>
-            <span className="workstation-count-pill">{bookmarkedExams.length} EXAMINATIONS</span>
-          </div>
-
-          <div className="workstation-tabs">
-            <button
-              className={`workstation-tab-btn ${targetFilter === 'all' ? 'active' : ''}`}
-              onClick={() => setTargetFilter('all')}
+            {/* Priority Selector */}
+            <select
+              className="todo-select"
+              value={newTaskPriority}
+              onChange={e => setNewTaskPriority(e.target.value)}
+              title="Set task priority"
             >
-              All Targets ({bookmarkedExams.length})
+              <option value="high">🔴 High Priority</option>
+              <option value="medium">🟡 Medium Priority</option>
+              <option value="low">🟢 Standard / Low</option>
+            </select>
+
+            {/* Duration Selector */}
+            <select
+              className="todo-select"
+              value={newTaskDuration}
+              onChange={e => setNewTaskDuration(e.target.value)}
+              title="Estimated duration"
+            >
+              <option value="30m">⏱️ 30 Mins</option>
+              <option value="45m">⏱️ 45 Mins</option>
+              <option value="60m">⏱️ 1 Hour</option>
+              <option value="90m">⏱️ 1.5 Hours</option>
+              <option value="120m">⏱️ 2 Hours</option>
+              <option value="180m">⏱️ 3+ Hours</option>
+            </select>
+
+            <button type="submit" className="todo-submit-btn">
+              <HiOutlinePlus /> Add Task
             </button>
           </div>
-        </div>
+        </form>
 
-        {/* Empty State if 0 Bookmarks */}
-        {bookmarkedExams.length === 0 ? (
-          <div className="workstation-empty-state">
-            <div className="empty-state-icon-box">🎯</div>
-            <h3 className="empty-state-title">CANDIDATE RADAR STANDBY</h3>
-            <p className="empty-state-desc">
-              You currently have no target examinations enlisted in your active preparation workstation.
-              Enlist your target examinations to unlock live countdowns, 7th CPC pay telemetry, and syllabus milestone tracking.
-            </p>
-
-            <div className="empty-state-presets">
-              <span className="preset-label">QUICK ENLIST HIGH-STAKES TARGETS:</span>
-              <div className="preset-chips">
-                <button
-                  className="preset-chip"
-                  onClick={() => onToggleBookmark('upsc-cse')}
-                >
-                  + Enlist UPSC CSE
-                </button>
-                <button
-                  className="preset-chip"
-                  onClick={() => onToggleBookmark('ssc-cgl')}
-                >
-                  + Enlist SSC CGL
-                </button>
-                <button
-                  className="preset-chip"
-                  onClick={() => onToggleBookmark('jee-main')}
-                >
-                  + Enlist JEE Main
-                </button>
-                <button
-                  className="preset-chip"
-                  onClick={() => onToggleBookmark('ibps-po')}
-                >
-                  + Enlist IBPS PO
-                </button>
-              </div>
+        {/* Filter and Task Listing */}
+        <div className="todo-list-section">
+          <div className="todo-filter-bar">
+            <div className="todo-filter-chips">
+              <button
+                className={`todo-filter-btn ${todoFilter === 'all' ? 'active' : ''}`}
+                onClick={() => setTodoFilter('all')}
+              >
+                All Tasks ({totalCount})
+              </button>
+              <button
+                className={`todo-filter-btn ${todoFilter === 'pending' ? 'active' : ''}`}
+                onClick={() => setTodoFilter('pending')}
+              >
+                Pending ({totalCount - completedCount})
+              </button>
+              <button
+                className={`todo-filter-btn ${todoFilter === 'completed' ? 'active' : ''}`}
+                onClick={() => setTodoFilter('completed')}
+              >
+                Completed ({completedCount})
+              </button>
             </div>
 
-            <button
-              className="mterminal-action-btn primary-action empty-browse-btn"
-              onClick={() => setActiveView && setActiveView('explore')}
-            >
-              <HiOutlineAcademicCap className="mterminal-btn-icon" />
-              <span>EXPLORE ALL 500 VERIFIED EXAMS</span>
-            </button>
+            {completedCount > 0 && (
+              <button className="todo-clear-btn" onClick={handleClearCompleted}>
+                <HiOutlineTrash /> Clear Completed ({completedCount})
+              </button>
+            )}
+          </div>
+
+          {filteredTodos.length === 0 ? (
+            <div className="todo-empty-box">
+              <HiOutlineClipboardList className="todo-empty-icon" />
+              <p>No {todoFilter === 'all' ? '' : todoFilter} tasks found for today.</p>
+              <span className="todo-empty-hint">
+                Use the presets above or type a study goal to schedule your day!
+              </span>
+            </div>
+          ) : (
+            <div className="todo-items-grid">
+              {filteredTodos.map(task => {
+                const priorityClass = `priority-${task.priority || 'medium'}`
+                return (
+                  <div
+                    key={task.id}
+                    className={`todo-item-card ${task.completed ? 'is-completed' : ''} ${priorityClass}`}
+                  >
+                    <button
+                      type="button"
+                      className={`todo-check-btn ${task.completed ? 'checked' : ''}`}
+                      onClick={() => handleToggleTodo(task.id)}
+                      title={task.completed ? 'Mark as pending' : 'Mark as completed'}
+                      aria-label="Toggle task completion"
+                    >
+                      {task.completed && <HiOutlineCheck />}
+                    </button>
+
+                    <div className="todo-item-content">
+                      <span className={`todo-item-text ${task.completed ? 'strike' : ''}`}>
+                        {task.text}
+                      </span>
+                      <div className="todo-item-tags">
+                        <span className="todo-exam-tag">
+                          {task.examName || 'General'}
+                        </span>
+                        <span className={`todo-priority-tag tag-${task.priority}`}>
+                          {task.priority === 'high' ? 'High' : task.priority === 'medium' ? 'Medium' : 'Low'}
+                        </span>
+                        <span className="todo-duration-tag">
+                          <HiOutlineClock /> {task.duration || '60m'}
+                        </span>
+                      </div>
+                    </div>
+
+                    <button
+                      type="button"
+                      className="todo-delete-btn"
+                      onClick={() => handleDeleteTodo(task.id)}
+                      title="Delete task"
+                      aria-label="Delete task"
+                    >
+                      <HiOutlineTrash />
+                    </button>
+                  </div>
+                )
+              })}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Main Radar Examination Pipeline */}
+      <div className="workstation-body">
+        {bookmarkedExams.length === 0 ? (
+          /* Zero-State Obsidian Billboard */
+          <div className="workstation-empty-state panel">
+            <div className="empty-state-visual">
+              <HiOutlineBookmark className="empty-radar-icon" />
+              <div className="empty-radar-ping" />
+            </div>
+            <h3 className="empty-state-title">No Examinations Added to Active Radar</h3>
+            <p className="empty-state-desc">
+              Your radar lets you track deadlines, monitor combined vacancies, and manage exam-specific study tasks.
+              Pin high-priority examinations directly from the catalog.
+            </p>
+            <div className="empty-state-actions">
+              <button
+                className="mterminal-action-btn primary-action"
+                onClick={() => setActiveView && setActiveView('explore')}
+              >
+                <HiOutlineSparkles className="mterminal-btn-icon" />
+                <span>EXPLORE 500 EXAMINATIONS</span>
+              </button>
+            </div>
           </div>
         ) : (
-          /* Enlisted Exams Workstation Grid */
+          /* Active Examination Dossier Cards */
           <div className="workstation-dossier-list">
             {bookmarkedExams.map((exam) => {
               const estimatedDays = calculateEstimatedDays(exam.exam_month)
-              const steps = examMilestones[exam.id] || [false, false, false, false]
-              const completedCount = steps.filter(Boolean).length
-              const progressPct = Math.round((completedCount / 4) * 100)
+              const examTasks = todoList.filter(t => t.examId === exam.id)
+              const examCompletedTasks = examTasks.filter(t => t.completed).length
               const isCompared = compareList.includes(exam.id)
 
               return (
@@ -384,7 +675,7 @@ export default function MyDashboard({
                     </div>
                   </div>
 
-                  {/* 3-Column Telemetry & Milestone Matrix */}
+                  {/* 3-Column Telemetry & Study Action Plan */}
                   <div className="dossier-matrix-grid">
                     {/* Col 1: Statutory & Competition Profile */}
                     <div className="matrix-col">
@@ -444,59 +735,53 @@ export default function MyDashboard({
                       </div>
                     </div>
 
-                    {/* Col 3: Preparation Milestone Checkpoints */}
+                    {/* Col 3: Daily Action Plan for this Exam */}
                     <div className="matrix-col milestone-col">
                       <div className="matrix-heading flex-between">
-                        <span>STAGE MILESTONES & CHECKLIST</span>
-                        <span className="milestone-counter-tag">{completedCount}/4 CLEARED ({progressPct}%)</span>
+                        <span>DAILY ACTION PLAN ({exam.acronym || 'EXAM'})</span>
+                        <span className="milestone-counter-tag">
+                          {examCompletedTasks}/{examTasks.length} DONE
+                        </span>
                       </div>
 
-                      {/* Micro Progress Bar */}
-                      <div className="milestone-progress-bar">
-                        <div
-                          className="milestone-progress-fill"
-                          style={{ width: `${progressPct}%` }}
-                        />
-                      </div>
+                      {/* Exam Tasks List */}
+                      <div className="exam-card-todos">
+                        {examTasks.length === 0 ? (
+                          <div className="exam-card-todo-empty">
+                            <span>No tasks assigned to {exam.acronym || 'this exam'} yet.</span>
+                          </div>
+                        ) : (
+                          <div className="exam-card-todo-items">
+                            {examTasks.slice(0, 4).map(t => (
+                              <div
+                                key={t.id}
+                                className={`exam-todo-mini-row ${t.completed ? 'completed' : ''}`}
+                                onClick={() => handleToggleTodo(t.id)}
+                              >
+                                <span className={`mini-check ${t.completed ? 'checked' : ''}`}>
+                                  {t.completed && '✓'}
+                                </span>
+                                <span className="mini-todo-text">{t.text}</span>
+                                <span className="mini-todo-time">{t.duration}</span>
+                              </div>
+                            ))}
+                          </div>
+                        )}
 
-                      {/* 4 Interactive Checkpoints */}
-                      <div className="milestone-checklist">
-                        <label className="milestone-check-item">
+                        {/* Inline Task Add for this Exam */}
+                        <div className="exam-inline-add-row">
                           <input
-                            type="checkbox"
-                            checked={steps[0]}
-                            onChange={() => toggleMilestone(exam.id, 0)}
+                            type="text"
+                            className="exam-inline-input"
+                            placeholder={`+ Add study goal for ${exam.acronym || exam.name}...`}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                handleAddCardTask(exam.id, e.target.value)
+                                e.target.value = ''
+                              }
+                            }}
                           />
-                          <span className="check-custom" />
-                          <span className="check-text">1. Syllabus & PYQ Audit (2018-2025)</span>
-                        </label>
-                        <label className="milestone-check-item">
-                          <input
-                            type="checkbox"
-                            checked={steps[1]}
-                            onChange={() => toggleMilestone(exam.id, 1)}
-                          />
-                          <span className="check-custom" />
-                          <span className="check-text">2. Core Standard Reference Materials</span>
-                        </label>
-                        <label className="milestone-check-item">
-                          <input
-                            type="checkbox"
-                            checked={steps[2]}
-                            onChange={() => toggleMilestone(exam.id, 2)}
-                          />
-                          <span className="check-custom" />
-                          <span className="check-text">3. Sectional Timed Practice & Error Log</span>
-                        </label>
-                        <label className="milestone-check-item">
-                          <input
-                            type="checkbox"
-                            checked={steps[3]}
-                            onChange={() => toggleMilestone(exam.id, 3)}
-                          />
-                          <span className="check-custom" />
-                          <span className="check-text">4. Full-Length Comprehensive Simulation</span>
-                        </label>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -530,24 +815,13 @@ export default function MyDashboard({
                       <span>{isCompared ? 'REMOVE FROM COMPARE' : 'ADD TO COMPARE'}</span>
                     </button>
 
-                    <a
-                      href={exam.official_website || 'https://www.india.gov.in'}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mterminal-action-btn tertiary-action"
-                      title="Open conducting authority portal in new tab"
-                    >
-                      <HiOutlineExternalLink className="mterminal-btn-icon" />
-                      <span>COMMISSION PORTAL</span>
-                    </a>
-
                     <button
-                      className="mterminal-action-btn danger-action"
-                      onClick={() => onToggleBookmark(exam.id)}
-                      title="Remove this examination from active candidate radar"
+                      className="mterminal-action-btn remove-action"
+                      onClick={() => onToggleBookmark && onToggleBookmark(exam.id)}
+                      title="Unpin examination from Active Radar"
                     >
                       <HiOutlineTrash className="mterminal-btn-icon" />
-                      <span>REMOVE</span>
+                      <span>UNPIN TARGET</span>
                     </button>
                   </div>
                 </div>
