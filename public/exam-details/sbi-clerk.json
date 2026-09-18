@@ -2,7 +2,6 @@
   "id": "sbi-clerk",
   "schema_version": 1,
   "last_reviewed": "2026-09-11",
-
   "career_ladder": {
     "status": "available",
     "note": "State Bank of India Junior Associates (Customer Support & Sales) have direct career progression avenues within the clerical cadre as well as fast-track internal promotional channels into the Officer cadre (Scale I Trainee Officer / Assistant Manager) after qualifying minimum service periods and competitive departmental examinations.",
@@ -90,7 +89,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "SBI Junior Associates recruitment is a 2-stage competitive online examination followed by a qualifying Local Language Test for candidates without local language credentials in 10th/12th standard. There is no interview for clerical recruitment.",
@@ -191,7 +189,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": null,
@@ -203,8 +200,14 @@
     "pay_source_label": "SBI Junior Associates Recruitment Advertisement and 12th Bipartite Settlement (Scale: ₹24,050-64,480)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 42000, "max": 48000 },
-    "in_hand_range_estimate": { "min": 36000, "max": 42000 },
+    "gross_range_estimate": {
+      "min": 42000,
+      "max": 48000
+    },
+    "in_hand_range_estimate": {
+      "min": 36000,
+      "max": 42000
+    },
     "estimate_confidence": "estimate",
     "estimate_note": "Starting basic pay is ₹24,050 in the scale ₹24,050 - 1340/3 - 28,070 - 1650/3 - 33,020 - 2000/4 - 41,020 - 2340/7 - 57,400 - 4400/1 - 61,800 - 2680/1 - 64,480 under the 12th Bipartite Settlement. Candidates with graduation join with two advance increments (effective basic pay of ₹26,730). Total gross emoluments at metro centres reach approx. ₹46,000 per month inclusive of DA at 58% review baseline, HRA, Transport Allowance, and Special Allowance.",
     "official_perks": [
@@ -218,11 +221,21 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "SBI Clerk attracts among the largest applicant pools nationally for public sector clerical employment.",
     "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 1538,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-18",
+        "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2ViUFJPQ09XMUVsVWxxRGRKdUViZlZYN3lNaHVucEh1X0VyRHd2eFNEYzNKdVY2bVRnT3hQZ1h4eU9KNXZFQ0x0R2dna0ZwSko3cHhtQkRGSkczMGVRWWdhcENuVVhFUFkzTlg3UHNpY3FrNXBMZ1Z3LThJZVVEM2RlVTV6b3M4V09VLWcxQmZPWG1DMGlkS1hLbnFsSWpwQ1B4a1RJNGNoTFk2OFI1azRtQzBBMGU4?oc=5",
+        "source_label": "SBI Clerk (Junior Associate) Recruitment 2026 Notification Out - Apply Online for 1538 Posts - FreeJ"
+      },
       {
         "year": 2023,
         "applicants": 1450000,
@@ -247,7 +260,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, vacancy distributions by circle, and examination results are published on the SBI Careers portal.",
