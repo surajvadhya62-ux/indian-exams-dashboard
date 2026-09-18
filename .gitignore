@@ -10,6 +10,7 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.vite
 *.local
 
 # Editor directories and files
@@ -25,3 +26,7 @@ dist-ssr
 dist.zip
 site.zip
 scripts/automation/*.json
+
+# Portal watch working state. The snapshots are regenerable machine state and churn on every
+# run; the permanent record is data-sourcing/PORTAL-CHANGE-LOG.md, which IS tracked.
+data-sourcing/portal-snapshots/
