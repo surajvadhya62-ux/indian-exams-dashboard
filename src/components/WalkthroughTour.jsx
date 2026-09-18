@@ -93,11 +93,11 @@ export const TOUR_STEPS = [
     id: 'compare',
     viewId: 'compare',
     stepNum: '06',
-    title: 'Forensic Comparison Engine',
-    badge: 'Head-to-Head Matrix',
+    title: 'Head-to-Head Comparison Engine',
+    badge: 'Comparison Matrix',
     icon: <HiOutlineScale />,
     accent: '#f43f5e',
-    description: 'Deep side-by-side forensic evaluation of up to 4 examinations simultaneously.',
+    description: 'Deep side-by-side comparative evaluation of up to 4 examinations simultaneously.',
     features: [
       'Statutory & Cadre Match: Compare 7th CPC pay scales, recruiting commissions, and target designations.',
       'Selection Stage Breakdown: Inspect preliminary, main, interview, and physical test stages in parallel.',
@@ -110,12 +110,12 @@ export const TOUR_STEPS = [
     viewId: 'cadres',
     stepNum: '07',
     title: '7th CPC Central Pay Scales Guide',
-    badge: 'Forensic Compensation',
+    badge: 'Compensation Hierarchy',
     icon: <HiOutlineShieldCheck />,
     accent: '#ec4899',
     description: 'Comprehensive guide to official government pay matrix levels, allowances, and administrative cadres.',
     features: [
-      'Level 1 to Level 18: Full forensic hierarchy from Group D (₹18k base) to Cabinet Secretary (₹2.5 Lakh apex).',
+      'Level 1 to Level 18: Complete pay hierarchy from Group D (₹18k base) to Cabinet Secretary (₹2.5 Lakh apex).',
       'DA & Allowance Simulator: Inspect Dearness Allowance (50%+), HRA, and gross in-hand compensation.',
       'Gazetted vs Non-Gazetted: Clear constitutional distinction across Group A, B, C, and D services.'
     ],
@@ -164,7 +164,7 @@ export const TOUR_STEPS = [
     description: 'Generate publication-grade 4-page PDF research reports for any of the 500 examinations.',
     features: [
       'One-Click Vector PDF: Generates crisp, print-ready dossiers with zero raster pixelation.',
-      'Forensic Syllabus & Benchmarks: Complete subject breakdown, negative marking rules, and 2024–2026 cutoffs.',
+      'Complete Syllabus & Benchmarks: In-depth subject breakdown, negative marking rules, and 2024–2026 cutoffs.',
       'Clean Formatting: Optimized ASCII typography with zero character overlaps or distorted numerals.'
     ],
     hint: 'Tip: Click "Dossier PDF" on any exam card to download the complete vector research report.'
@@ -194,7 +194,15 @@ export default function WalkthroughTour({
   setActiveView,
   onOpenAuth
 }) {
-  const [currentStepIndex, setCurrentStepIndex] = useState(0)
+  const [currentStepIndex, setCurrentStepIndex] = useState(() => {
+    try {
+      const stepParam = parseInt(new URLSearchParams(window.location.search).get('tourStep'), 10)
+      if (!isNaN(stepParam) && stepParam >= 1 && stepParam <= TOUR_STEPS.length) {
+        return stepParam - 1
+      }
+    } catch {}
+    return 0
+  })
   const [isPlaying, setIsPlaying] = useState(false)
   const [progressPct, setProgressPct] = useState(0)
   const timerRef = useRef(null)

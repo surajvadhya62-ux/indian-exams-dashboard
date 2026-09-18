@@ -266,7 +266,7 @@ export default function MyDashboard({
             </div>
             <h1 className="workstation-title">Target Pipeline & Daily Study Planner</h1>
             <p className="workstation-subtitle">
-              Forensic tracking of your pinned examinations, aggregate vacancy pool, and custom daily study schedule.
+              Comprehensive tracking of your pinned examinations, aggregate vacancy pool, and custom daily study schedule.
             </p>
           </div>
 
@@ -307,7 +307,7 @@ export default function MyDashboard({
           </div>
         </div>
 
-        {/* 4-Card Forensic Telemetry Strip */}
+        {/* 4-Card Telemetry Strip */}
         <div className="workstation-telemetry-grid">
           {/* Metric 1: Pinned Targets */}
           <div className="telemetry-card panel">

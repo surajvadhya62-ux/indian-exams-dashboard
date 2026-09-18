@@ -22,6 +22,8 @@ import CommandPalette from './components/CommandPalette'
 import UpdatesFeed from './components/UpdatesFeed'
 import NewsTicker from './components/NewsTicker'
 import MyDashboard from './components/MyDashboard'
+import WalkthroughTour from './components/WalkthroughTour'
+import AuthModal from './components/AuthModal'
 
 /* Session-gated intro check:
    Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
@@ -131,6 +133,97 @@ function App() {
   const [compareList, setCompareList] = useState([])
   const [selectedExam, setSelectedExam] = useState(null)
   const [currentPage, setCurrentPage] = useState(1)
+
+  // Aspirant Auth & Vault State
+  const [currentUser, setCurrentUser] = useState(() => {
+    try {
+      if (new URLSearchParams(window.location.search).get('demoUser') === '1') {
+        return {
+          id: 'usr_lead',
+          name: 'Suraj Vadhya',
+          email: 'surajvadhya62@gmail.com',
+          targetExam: 'UPSC Civil Services (CSE)',
+          targetYear: '2025-2026',
+          joinedAt: new Date().toISOString()
+        }
+      }
+      const saved = localStorage.getItem('indiaexams_auth_user')
+      return saved ? JSON.parse(saved) : null
+    } catch {
+      return null
+    }
+  })
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(() => {
+    try {
+      return new URLSearchParams(window.location.search).get('auth') === '1'
+    } catch {
+      return false
+    }
+  })
+  const [isTourOpen, setIsTourOpen] = useState(() => {
+    try {
+      return new URLSearchParams(window.location.search).get('tour') === '1'
+    } catch {
+      return false
+    }
+  })
+
+  // Daily Aspirant Study Tasks (Shared across Radar, Auth Vault)
+  const [todoList, setTodoList] = useState(() => {
+    try {
+      const saved = localStorage.getItem('indiaexams_daily_todos')
+      if (saved) return JSON.parse(saved)
+    } catch (e) {}
+    return [
+      {
+        id: 'td_1',
+        text: 'Daily Editorial & National Current Affairs Analysis',
+        examId: 'general',
+        examName: 'Daily General Studies',
+        priority: 'high',
+        duration: '45m',
+        completed: true,
+        date: new Date().toISOString().slice(0, 10),
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: 'td_2',
+        text: 'Previous Year Questions (PYQ) Topic Drill — 40 Questions',
+        examId: 'upsc-cse',
+        examName: 'UPSC CSE',
+        priority: 'high',
+        duration: '90m',
+        completed: false,
+        date: new Date().toISOString().slice(0, 10),
+        createdAt: new Date().toISOString()
+      },
+      {
+        id: 'td_3',
+        text: 'CSAT / Aptitude Speed Reasoning Practice',
+        examId: 'ssc-cgl',
+        examName: 'SSC CGL',
+        priority: 'medium',
+        duration: '60m',
+        completed: false,
+        date: new Date().toISOString().slice(0, 10),
+        createdAt: new Date().toISOString()
+      }
+    ]
+  })
+
+  const handleLogin = useCallback((user) => {
+    setCurrentUser(user)
+    try {
+      localStorage.setItem('indiaexams_auth_user', JSON.stringify(user))
+    } catch (e) {}
+  }, [])
+
+  const handleLogout = useCallback(() => {
+    setCurrentUser(null)
+    try {
+      localStorage.removeItem('indiaexams_auth_user')
+    } catch (e) {}
+  }, [])
 
   const [introMounted, setIntroMounted] = useState(() => !shouldSkipIntro())
   const [pageReleased, setPageReleased] = useState(() => shouldSkipIntro())
@@ -397,6 +490,9 @@ function App() {
         theme={theme}
         setTheme={setTheme}
         onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
+        onOpenTour={() => setIsTourOpen(true)}
+        currentUser={currentUser}
+        onOpenAuth={() => setIsAuthModalOpen(true)}
       />
 
       {/* M-Terminal Live Gazette Ticker Strip */}
@@ -428,6 +524,10 @@ function App() {
                   onToggleCompare={toggleCompare}
                   compareList={compareList}
                   setActiveView={goToView}
+                  todoList={todoList}
+                  setTodoList={setTodoList}
+                  currentUser={currentUser}
+                  onOpenAuth={() => setIsAuthModalOpen(true)}
                 />
               </div>
             )}
@@ -612,6 +712,27 @@ function App() {
         theme={theme}
         setTheme={setTheme}
         clearFilters={clearFilters}
+      />
+
+      {/* Interactive Feature Walkthrough Tour Overlay */}
+      <WalkthroughTour
+        isOpen={isTourOpen}
+        onClose={() => setIsTourOpen(false)}
+        activeView={activeView}
+        setActiveView={goToView}
+        onOpenAuth={() => setIsAuthModalOpen(true)}
+      />
+
+      {/* Site-Wide Aspirant Account & Vault Modal */}
+      <AuthModal
+        isOpen={isAuthModalOpen}
+        onClose={() => setIsAuthModalOpen(false)}
+        currentUser={currentUser}
+        onLogin={handleLogin}
+        onLogout={handleLogout}
+        bookmarks={bookmarks}
+        todoList={todoList}
+        exams={examsData}
       />
     </ErrorBoundary>
   )

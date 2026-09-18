@@ -107,7 +107,7 @@ export default function ExamCard({
       {/* Description */}
       <p className="dossier-desc">{exam.description}</p>
 
-      {/* Forensic Specs Strip */}
+      {/* Examination Specs Strip */}
       <div className="dossier-specs-grid">
         <div className="spec-item">
           <span className="spec-label">LEVEL // SCOPE</span>
