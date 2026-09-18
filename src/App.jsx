@@ -556,21 +556,45 @@ function App() {
                   setTodoList={setTodoList}
                   currentUser={currentUser}
                   onOpenAuth={() => setIsAuthModalOpen(true)}
-                  onOpenOverlap={openSyllabusOverlap}
                 />
               </div>
             )}
 
-            {/* Tab 3: Syllabus Overlap & Cross-Exam Fungibility Engine */}
+            {/* Syllabus Overlap Engine - Under Scheduled Maintenance */}
             {activeView === 'overlap' && (
-              <div className="fade-in">
-                <SyllabusOverlapEngine
-                  exams={examsData}
-                  onViewDetails={openExamDetail}
-                  initialPrimaryId={overlapPrimaryId}
-                  initialSecondaryId={overlapSecondaryId}
-                  setActiveView={goToView}
-                />
+              <div className="workstation-container fade-in" style={{ padding: '4.5rem 1.5rem', textAlign: 'center', maxWidth: '780px', margin: '0 auto' }}>
+                <div style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  padding: '5px 14px',
+                  borderRadius: '20px',
+                  background: 'rgba(245, 158, 11, 0.12)',
+                  border: '1px solid rgba(245, 158, 11, 0.3)',
+                  color: '#f59e0b',
+                  fontFamily: 'monospace',
+                  fontSize: '0.78rem',
+                  fontWeight: 700,
+                  marginBottom: '1.5rem',
+                  letterSpacing: '0.08em'
+                }}>
+                  <span className="live-signal-dot" style={{ background: '#f59e0b', boxShadow: '0 0 8px #f59e0b' }} />
+                  MODULE UNDER SCHEDULED MAINTENANCE &amp; CALIBRATION
+                </div>
+                <h2 style={{ fontSize: '2rem', fontWeight: 800, marginBottom: '1rem', color: 'var(--fg)' }}>
+                  Syllabus Overlap Engine Under Refinement
+                </h2>
+                <p style={{ fontSize: '1rem', color: 'var(--muted)', lineHeight: '1.6', marginBottom: '2.5rem' }}>
+                  We are currently upgrading the cross-exam syllabus ontology, micro-topic crosswalks, and paper-by-paper stage calibration across all 500 Central and State examinations. This module is undergoing comprehensive enhancement and will return in an upcoming release.
+                </p>
+                <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+                  <button className="btn-primary" onClick={() => goToView('explore')} style={{ padding: '10px 22px' }}>
+                    Return to Examination Registry
+                  </button>
+                  <button className="btn-secondary" onClick={() => goToView('my-exams')} style={{ padding: '10px 22px' }}>
+                    Go to Candidate Radar
+                  </button>
+                </div>
               </div>
             )}
 
@@ -743,7 +767,6 @@ function App() {
           allExams={examsData}
           onSelectExam={openExamDetail}
           onClose={closeExamDetail}
-          onOpenOverlap={openSyllabusOverlap}
         />
       )}
 

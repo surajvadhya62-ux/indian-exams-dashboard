@@ -45,14 +45,6 @@ export default function CommandPalette({
       action: () => setActiveView('explore')
     },
     {
-      id: 'nav-overlap',
-      type: 'view',
-      title: 'Syllabus Overlap & Cross-Exam Bridge',
-      subtitle: 'Quantified syllabus synergy and incremental delta analysis',
-      icon: <HiOutlineSwitchHorizontal className="cp-icon text-amber" />,
-      action: () => setActiveView('overlap')
-    },
-    {
       id: 'nav-wizard',
       type: 'view',
       title: 'Aspirant Decision Wizard',

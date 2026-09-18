@@ -10,7 +10,6 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt /> },
     { id: 'updates', label: 'Wire', icon: <HiOutlineNewspaper /> },
     { id: 'my-exams', label: 'Radar', icon: <HiOutlineBookmark />, count: bookmarkCount },
-    { id: 'overlap', label: 'Overlap', icon: <HiOutlineSwitchHorizontal /> },
     { id: 'calendar', label: 'Calendar', icon: <HiOutlineCalendar /> },
     { id: 'screener', label: 'Screener', icon: <HiOutlineBadgeCheck /> },
     { id: 'compare', label: 'Compare', icon: <HiOutlineScale />, count: compareCount },
