@@ -1,6 +1,8 @@
 # Inclusion Policy — what belongs in this database
 
-**Status:** draft for the owner's approval. Nothing has been added or removed on the strength of it yet.
+**Status:** **in force.** Scope questions settled by the owner on 2026-09-18 (§8).
+Nothing has yet been added to or removed from the database on its strength — the remediation
+of the existing 500 (§6) and the schema change it depends on (§5) are still outstanding.
 **Date:** 2026-09-18
 **Applies to:** `src/data/exams.json` and the dossiers in `public/exam-details/`
 
@@ -64,10 +66,23 @@ Conducted by one of:
 - a statutory professional institute created by an Act (ICAI, ICSI, ICMAI, Bar Council)
 - a government or government-funded university, board or testing agency, **where the exam
   is a common gateway to more than one institution** (NTA, the state CET cells)
+- an **autonomous body created by an Act, a government resolution, or as a government
+  society or company** — the IITs, IIMs, ISRO, DRDO, BARC, ICAR, AIIMS, KVS, NVS, NCERT
 
 **Out:** private companies, private universities' own entrance tests, coaching-institute
 scholarship tests, and tests run by private certification vendors. A single private
 institution's admission test is out even when it is well known.
+
+**Out:** privately founded, privately governed institutions that merely *receive* government
+aid. A grant does not make a body public.
+
+**The test is creation and ownership, not autonomy.** In Indian administrative usage
+"autonomous" describes how a body governs itself internally, not who owns it — the IITs,
+ISRO, DRDO and KVS are all created by government and funded from the public purse. Reading
+autonomy as a reason to exclude would drop 52 of the current 500 exams, including 16 of the
+176 marked `very_high`: JEE Advanced, CAT, GATE, CUET, UGC-NET, CSIR-NET, ISRO Scientist,
+DRDO CEPTAM, BARC, the KVS and NVS teacher recruitments, ESIC, EPFO and AIIMS Nursing
+Officer. The line belongs at *aided*, not at *autonomous*.
 
 ### B. Open to public application
 
@@ -234,18 +249,36 @@ dossier later, on demand. Nothing goes straight to dossier from an automated dis
 
 ---
 
-## 8. Open questions for the owner
+## 8. Rulings by the owner
 
-1. **Postgraduate and doctoral admission tests** (NEET-PG, GATE as an admission route, UGC-NET,
-   the 49 postgraduate-level entries). In scope under this policy as track A. Confirm that is
-   intended — it is a large share of the current database.
-2. **State CET cells** conduct exams that gate admission to private colleges as well as
-   government ones. Criterion A admits them, on the ground that the conducting body is public
-   and the test is a common gateway. Confirm.
-3. **Recruitment by autonomous bodies and government-aided institutions** — sitting on the
-   edge of criterion A. Suggest in-scope where the body is majority government-funded, but the
-   line is genuinely fuzzy and worth your ruling.
-4. **Should out-of-scope exams be recorded anywhere?** A short exclusions list, with the reason,
-   prevents the same candidate being re-evaluated by every future discovery run. Cheap to keep,
-   and it is the equivalent of documenting the items you scoped out rather than silently
-   dropping them.
+Settled 2026-09-18. These are decisions, not proposals — apply them as written.
+
+1. **Postgraduate and doctoral admission tests are in scope**, as track A. NEET-PG, GATE as an
+   admission route, UGC-NET, CSIR-NET and the 49 postgraduate-level entries all stand.
+2. **State CET cells are in scope.** The conducting body is public and the test is a common
+   gateway, so it qualifies under criterion A even though some of the seats it gates are at
+   private colleges. The character of the *exam* governs, not the character of every seat.
+3. **Autonomous bodies are in scope; government-*aided* private institutions are not.**
+   The owner's initial instinct was to exclude both. On the evidence it was narrowed: excluding
+   autonomous bodies would have removed 52 exams, 16 of them in the top popularity tier,
+   including JEE Advanced, CAT, GATE, ISRO, DRDO, BARC and the KVS/NVS teacher recruitments —
+   because "autonomous" in Indian usage describes internal governance, not ownership. Criterion A
+   now draws the line at creation and funding instead. The exclusion the instinct was reaching
+   for — privately founded bodies that merely receive a government grant — is kept.
+4. **Out-of-scope exams are recorded**, in an exclusions register — see §9.
+
+---
+
+## 9. The exclusions register
+
+Kept at `data-sourcing/EXCLUSIONS.md`. Every candidate rejected by the inclusion test is
+recorded with its name, its conducting body, the criterion it failed, and the date.
+
+Two purposes. It stops the same rejected candidate being re-evaluated by every future
+discovery run, which otherwise happens indefinitely because aggregators keep re-listing it.
+And it is the working-paper trail for the scope decision: a reader can see what was
+considered and set aside, rather than having to infer scope from what happens to be present.
+
+A rejection is not permanent. If an exam is excluded under criterion D (held only once) and is
+then held a second time, it is re-evaluated and admitted. The register records the reason
+precisely so that the conditions for revisiting it are visible.
