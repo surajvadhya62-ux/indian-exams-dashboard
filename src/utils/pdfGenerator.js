@@ -453,22 +453,10 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   doc.line(14, currentY + 1.5, 108, currentY + 1.5)
   currentY += 4
 
-  const compYears = detail?.competition_benchmarks?.years || [
-    {
-      year: year,
-      applicants: exam.applicant_count || '500,000+',
-      vacancies: isJob ? (exam.vacancies || '1,000+') : 'Total Intake Seats',
-      shortlisted_for_mains: isJob ? 'Qualified / Shortlisted' : 'Qualified for Counseling',
-      selectivity_ratio: isJob ? 'High Selectivity Ratio' : 'National Percentile Benchmark'
-    },
-    {
-      year: year - 1,
-      applicants: '480,000+',
-      vacancies: isJob ? '950+' : 'Total Intake Seats',
-      shortlisted_for_mains: 'Qualified Candidates',
-      selectivity_ratio: isJob ? 'High Selectivity Ratio' : 'National Percentile Benchmark'
-    }
-  ]
+  // Only real benchmark data is printed. Where a dossier has none, the section says so.
+  // It previously invented two years of applicant and vacancy figures, including for a
+  // prior cycle, which put fabricated history into a document a candidate keeps.
+  const compYears = detail?.competition_benchmarks?.years || []
 
   const compTableRows = compYears.map(item => [
     item.year.toString(),
@@ -478,33 +466,53 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
     item.selectivity_ratio || 'High Competition Benchmark'
   ])
 
-  autoTable(doc, {
-    startY: currentY,
-    head: [['Examination Cycle', 'Total Registered Candidates', isJob ? 'Notified Vacancies' : 'Intake / Available Seats', 'Qualified / Stage II', 'Selectivity Benchmark']],
-    body: compTableRows,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-    columnStyles: {
-      0: { fontStyle: 'bold', cellWidth: 28 },
-      1: { cellWidth: 38 },
-      2: { cellWidth: 32 },
-      3: { cellWidth: 36 },
-      4: { cellWidth: 48, fontStyle: 'bold', textColor: AMBER }
-    },
-    margin: { left: 14, right: 14 }
-  })
+  if (compTableRows.length > 0) {
+    autoTable(doc, {
+      startY: currentY,
+      head: [['Examination Cycle', 'Total Registered Candidates', isJob ? 'Notified Vacancies' : 'Intake / Available Seats', 'Qualified / Stage II', 'Selectivity Benchmark']],
+      body: compTableRows,
+      theme: 'grid',
+      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
+      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
+      columnStyles: {
+        0: { fontStyle: 'bold', cellWidth: 28 },
+        1: { cellWidth: 38 },
+        2: { cellWidth: 32 },
+        3: { cellWidth: 36 },
+        4: { cellWidth: 48, fontStyle: 'bold', textColor: AMBER }
+      },
+      margin: { left: 14, right: 14 }
+    })
+    currentY = doc.lastAutoTable.finalY + 4
+  } else {
+    currentY += 4
+    doc.setFont('helvetica', 'normal')
+    doc.setFontSize(8)
+    doc.setTextColor(...MUTED)
+    doc.text(
+      'Competition figures for this examination have not yet been verified against the conducting',
+      14,
+      currentY
+    )
+    doc.text(
+      "body's own notification, and are therefore not reproduced here. Check the official website.",
+      14,
+      currentY + 3.6
+    )
+    currentY += 8
+  }
 
-  // Footnote on page 1
-  currentY = doc.lastAutoTable.finalY + 4
-  doc.setFont('helvetica', 'italic')
-  doc.setFontSize(7)
-  doc.setTextColor(...MUTED)
-  doc.text(
-    'Note: Figures derived from official commission notifications, press releases, and verified regulatory statistics.',
-    14,
-    currentY
-  )
+  // Footnote on page 1. Only claimed where a sourced table was actually printed.
+  if (compTableRows.length > 0) {
+    doc.setFont('helvetica', 'italic')
+    doc.setFontSize(7)
+    doc.setTextColor(...MUTED)
+    doc.text(
+      'Note: Figures derived from official commission notifications, press releases, and verified regulatory statistics.',
+      14,
+      currentY
+    )
+  }
 
   // ==========================================
   // PAGE 2: EXAMINATION SCHEME & PAPER PATTERN

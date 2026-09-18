@@ -190,18 +190,34 @@ fields, and **none of them records where a fact came from or when it was last ve
 There is an `official_website` for the exam, but no citation attached to any individual
 figure.
 
-The minimum addition, per record:
+**Implemented 2026-09-18.** Each record now carries a `provenance` object keyed by field
+name, so that cutoffs can join it later without another migration:
 
-| Field | Purpose |
+```json
+"provenance": {
+  "vacancies": {
+    "source_url": null,
+    "source_date": null,
+    "verified_on": null,
+    "confidence": "placeholder",
+    "note": "Default value: \"650 Posts\" appears on 92 exams, so it was not researched for this one."
+  }
+}
+```
+
+`confidence` does the real work, on a five-point scale defined in `src/utils/provenance.js`:
+
+| Level | Meaning |
 |---|---|
-| `source_url` | the specific notification or page a fact was taken from |
-| `source_date` | the date on that document |
-| `verified_on` | when a human last checked it against the source |
-| `confidence` | `verified` / `reported` / `placeholder` |
+| `not_applicable` | the field is meaningless for this kind of exam |
+| `placeholder` | a default value, never researched |
+| `unverified` | possibly right, but no source recorded |
+| `reported` | sourced to a secondary report, not to the notification |
+| `verified` | checked against the conducting body's own document |
 
-`confidence` is the one that does the real work. It lets an unverified figure exist in the
-database while being visibly marked as unverified, rather than sitting silently beside
-verified ones looking identical — which is the situation today.
+**Only `verified` figures are shown to a student.** Everything weaker stays in the database
+and stays off the page. Displaying an unverified number with a caveat beside it does not
+work: the caveat is read once, the number is what gets remembered and planned around.
 
 ---
 
@@ -221,14 +237,26 @@ Measured, not estimated:
 4. **No record carries a source.** Criterion E cannot currently be evidenced for any of the
    500 — including the ones that are entirely correct.
 
-None of this is an argument for deleting anything. Points 1 and 2 are a presentation and
-verification problem: the figures should be marked `placeholder` and suppressed on the
-site until verified, not silently displayed. Point 3 is a reclassification. Point 4 is the
-schema change in §5.
+**Remediated 2026-09-18** for points 1, 2 and 4. Every record was classified on the evidence
+available for its vacancy figure:
 
-**The sequencing consequence is the important part.** Adding exams before §5 exists means
-every new exam inherits the same defect, and the cost of retrofitting sources grows with
-the size of the database. The schema change is cheap now and expensive later.
+| Classification | Records | Basis |
+|---|---|---|
+| `not_applicable` | 121 | admission or qualification exam; the figure was removed |
+| `placeholder` | 228 | the figure appears on at least one other exam, so it was never researched |
+| `unverified` | 151 | unique to this exam, but carries no citation |
+| `verified` | **0** | nothing has yet been checked against a notification |
+
+No data was deleted except the "Posts" counts on the 121 admission and qualification exams,
+where the unit itself was wrong. The 379 recruitment figures are retained and marked.
+
+Point 3 (the track Q reclassification) is **still outstanding** — `exam_type` still reads
+`entrance` for CA, CS, CMA and AIBE. It was left alone because site filters read that field
+and the change needs its own check.
+
+**The sequencing consequence is the important part.** Adding exams before this existed would
+have meant every new exam inheriting the same defect, with the cost of retrofitting sources
+growing as the database grew. Doing it at 500 records was cheap; at 1,500 it would not have been.
 
 ---
 

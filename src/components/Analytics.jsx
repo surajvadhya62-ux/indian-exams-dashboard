@@ -8,6 +8,7 @@ import {
   HiOutlineChartPie, HiOutlineChartBar, HiOutlineFilter
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
+import { verifiedNumber, countVerified } from '../utils/provenance'
 import IndiaMap from './IndiaMap'
 import { SkeletonChart } from './Skeletons'
 
@@ -100,18 +101,18 @@ export default function Analytics({ exams, onApplyFilter }) {
       }
 
       if (!groups[key]) {
-        groups[key] = { name: key, count: 0, vacancies: 0, paySum: 0, payCount: 0, ageSum: 0, ageCount: 0 }
+        groups[key] = { name: key, count: 0, vacancies: 0, vacanciesFrom: 0, paySum: 0, payCount: 0, ageSum: 0, ageCount: 0 }
       }
 
       groups[key].count++
 
-      let vac = 0
-      if (exam.vacancies) {
-        const n = parseInt(exam.vacancies.replace(/[^0-9]/g, ''), 10)
-        if (!isNaN(n)) vac = n
+      // Only verified figures are counted. An exam with no verified figure contributes
+      // nothing rather than a stand-in, so the total is always a sum of real numbers.
+      const vac = verifiedNumber(exam, 'vacancies')
+      if (vac != null) {
+        groups[key].vacancies += vac
+        groups[key].vacanciesFrom++
       }
-      if (!vac) vac = 450
-      groups[key].vacancies += vac
 
       const cadre = (exam.cadre || '').toLowerCase()
       let pay = 35400
@@ -150,7 +151,9 @@ export default function Analytics({ exams, onApplyFilter }) {
 
       if (customMetric === 'vacancies') {
         val = g.vacancies
-        formattedVal = `${g.vacancies.toLocaleString('en-IN')} posts`
+        formattedVal = g.vacanciesFrom
+          ? `${g.vacancies.toLocaleString('en-IN')} posts, from ${g.vacanciesFrom} of ${g.count} exams`
+          : 'No verified figures'
       } else if (customMetric === 'starting_pay') {
         val = Math.round(g.paySum / (g.payCount || 1))
         formattedVal = `Rs. ${val.toLocaleString('en-IN')}/mo`
@@ -189,13 +192,14 @@ export default function Analytics({ exams, onApplyFilter }) {
       data,
       totalCount: filtered.length,
       topLeader: data[0] || null,
-      metricSumFormatted
+      metricSumFormatted,
+      verifiedVacancyCount: countVerified(filtered, 'vacancies')
     }
   }, [exams, customDimension, customMetric, customScopeFilter, customTypeFilter])
 
   const exportCustomCsv = () => {
     if (!customAnalyticsData.data || customAnalyticsData.data.length === 0) return
-    const headers = ['Segment', 'Value', 'Exams Count', 'Estimated Vacancies', 'Avg Starting Pay (Rs/mo)', 'Avg Max Age']
+    const headers = ['Segment', 'Value', 'Exams Count', 'Verified Vacancies', 'Avg Starting Pay (Rs/mo)', 'Avg Max Age']
     const rows = customAnalyticsData.data.map(d => [
       `"${d.name.replace(/"/g, '""')}"`,
       d.value,
@@ -922,10 +926,20 @@ export default function Analytics({ exams, onApplyFilter }) {
               onChange={e => setCustomMetric(e.target.value)}
             >
               <option value="count">Total Examination Targets</option>
-              <option value="vacancies">Estimated Vacancy Volume (Seats)</option>
+              <option value="vacancies" disabled={customAnalyticsData.verifiedVacancyCount === 0}>
+                Vacancy Volume (Posts)
+                {customAnalyticsData.verifiedVacancyCount === 0 ? ' — no verified figures yet' : ''}
+              </option>
               <option value="starting_pay">Est. Starting Basic Pay (Rs./mo)</option>
               <option value="max_age">Average Maximum Age Limit (Years)</option>
             </select>
+            {customMetric === 'vacancies' && customAnalyticsData.verifiedVacancyCount === 0 && (
+              <p className="studio-note">
+                No vacancy figures have been checked against an official notification yet, so there
+                is nothing to total. Unverified figures are held in the database but kept off the
+                charts.
+              </p>
+            )}
           </div>
 
           <div className="studio-control-item">
