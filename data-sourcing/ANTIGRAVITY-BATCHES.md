@@ -42,7 +42,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 
 ---
 
-## Batch 1  -  very high  -  [ ] done
+## Batch 1  -  very high  -  [x] done
 
 ```
 - Airports Authority of India (AAI) Junior Executive (Common Cadre) Exam  [aai-junior-executive-common]  - conducted by Airports Authority of India

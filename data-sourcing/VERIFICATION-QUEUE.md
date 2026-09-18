@@ -8,11 +8,11 @@ guessing — a blank row is the current, honest state.
 
 | # | Exam | Conducting body | Priority | Vacancies found | Source URL | Doc date | Checked? |
 |---|---|---|---|---|---|---|---|
-| 1 | Airports Authority of India (AAI) Junior Executive ( (`aai-junior-executive-common`) | Airports Authority of India | very_high |  |  |  |  |
-| 2 | Andhra Pradesh Grama / Ward Sachivalayam Functionari (`ap-grama-sachivalayam`) | AP Village Ward Secretariat Dept | very_high |  |  |  |  |
-| 3 | State Level Police Recruitment Board AP Police Const (`ap-slprb-constable`) | SLPRB AP | very_high |  |  |  |  |
-| 4 | SLPRB Andhra Pradesh Police Sub-Inspector Examinatio (`ap-slprb-si`) | SLPRB AP | very_high |  |  |  |  |
-| 5 | Agricultural Scientists Recruitment Board (ASRB) AO  (`asrb-icar-administrative-officer`) | ASRB New Delhi | very_high |  |  |  |  |
+| 1 | Airports Authority of India (AAI) Junior Executive ( (`aai-junior-executive-common`) | Airports Authority of India | very_high | 237 (Post Code 03, Junior Executive Common Cadre) | Advt. No. 03/2023 (aai.aero) | 2023-07-21 | Yes |
+| 2 | Andhra Pradesh Grama / Ward Sachivalayam Functionari (`ap-grama-sachivalayam`) | AP Village Ward Secretariat Dept | very_high | none — conducting body's recruitment portal decommissioned, no active/archived notification | — | — | Yes — no document exists to check |
+| 3 | State Level Police Recruitment Board AP Police Const (`ap-slprb-constable`) | SLPRB AP | very_high | 1156 (Civil/AR/Fire/Warder) + 200 (Comms) + 213 (Mechanics/Drivers), 2026 cycle | Rc.No.91,92,93/SLPRB/Rect.2/2026 (slprb.ap.gov.in) | 2026-09-16 | Yes |
+| 4 | SLPRB Andhra Pradesh Police Sub-Inspector Examinatio (`ap-slprb-si`) | SLPRB AP | very_high | 378 (Civil/AR/SPF) + 60 (Comms/PTO), 2026 cycle | Rc.No.81,82/SLPRB/Rect.1/2026 (slprb.ap.gov.in) | 2026-09-16 | Yes |
+| 5 | Agricultural Scientists Recruitment Board (ASRB) AO  (`asrb-icar-administrative-officer`) | ASRB New Delhi | very_high | none — 2021 notification/result PDFs removed from server (404), no newer AO/FAO cycle issued | — | — | Yes — no document exists to check |
 | 6 | Assam Rifles Technical & Tradesmen Recruitment Rally (`assam-rifles-technical-tradesmen`) | Assam Rifles (MHA/MoD) | very_high |  |  |  |  |
 | 7 | Bihar Judicial Service Competitive Examination (Civi (`bihar-pcs-j`) | BPSC & Patna High Court | very_high |  |  |  |  |
 | 8 | Border Security Force (BSF) Head Constable (RO / RM) (`bsf-head-constable-ro`) | Border Security Force (MHA) | very_high |  |  |  |  |

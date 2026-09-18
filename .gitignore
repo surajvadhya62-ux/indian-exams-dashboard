@@ -30,3 +30,8 @@ scripts/automation/*.json
 # Portal watch working state. The snapshots are regenerable machine state and churn on every
 # run; the permanent record is data-sourcing/PORTAL-CHANGE-LOG.md, which IS tracked.
 data-sourcing/portal-snapshots/
+
+# Antigravity verification screenshots. Local evidence for the human screenshot-check step;
+# the permanent record is the written confidence/source_url in each dossier and the row in
+# VERIFICATION-QUEUE.md, not the image itself.
+data-sourcing/screenshots/

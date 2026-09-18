@@ -34,32 +34,35 @@ export default function CompetitionBenchmarks({ section, detailStatus }) {
           </tr>
         </thead>
         <tbody>
-          {years.map((row, i) => (
-            <tr key={i}>
-              <td>{row.year}</td>
-              <td>{row.applicants != null ? row.applicants.toLocaleString('en-IN') : '—'}</td>
-              {hasShortlist && (
-                <td>{row.shortlisted_for_mains != null ? row.shortlisted_for_mains.toLocaleString('en-IN') : '—'}</td>
-              )}
-              <td>{row.vacancies != null ? row.vacancies.toLocaleString('en-IN') : '—'}</td>
-              {hasCutoff && (
-                <td style={{ fontSize: '0.8rem', color: 'var(--amber-bright, #e8a33d)', fontWeight: 600 }}>
-                  {row.cutoff ? row.cutoff : (row.cutoff_marks ? `Gen: ${row.cutoff_marks.general || row.cutoff_marks.ur || '—'}` : '—')}
-                </td>
-              )}
-              <td>{row.selectivity_ratio || '—'}</td>
-              <td>
-                {row.confidence === 'verified' && (
-                  <SourceBadge
-                    confidence={row.confidence}
-                    asOf={row.as_of}
-                    sourceUrl={row.source_url}
-                    sourceLabel={row.source_label}
-                  />
+          {years.map((row, i) => {
+            const verified = row.confidence === 'verified'
+            return (
+              <tr key={i}>
+                <td>{row.year}</td>
+                <td>{verified && row.applicants != null ? row.applicants.toLocaleString('en-IN') : '—'}</td>
+                {hasShortlist && (
+                  <td>{verified && row.shortlisted_for_mains != null ? row.shortlisted_for_mains.toLocaleString('en-IN') : '—'}</td>
                 )}
-              </td>
-            </tr>
-          ))}
+                <td>{verified && row.vacancies != null ? row.vacancies.toLocaleString('en-IN') : '—'}</td>
+                {hasCutoff && (
+                  <td style={{ fontSize: '0.8rem', color: 'var(--amber-bright, #e8a33d)', fontWeight: 600 }}>
+                    {verified ? (row.cutoff ? row.cutoff : (row.cutoff_marks ? `Gen: ${row.cutoff_marks.general || row.cutoff_marks.ur || '—'}` : '—')) : '—'}
+                  </td>
+                )}
+                <td>{verified ? (row.selectivity_ratio || '—') : '—'}</td>
+                <td>
+                  {verified && (
+                    <SourceBadge
+                      confidence={row.confidence}
+                      asOf={row.as_of}
+                      sourceUrl={row.source_url}
+                      sourceLabel={row.source_label}
+                    />
+                  )}
+                </td>
+              </tr>
+            )
+          })}
         </tbody>
       </table>
     </div>
