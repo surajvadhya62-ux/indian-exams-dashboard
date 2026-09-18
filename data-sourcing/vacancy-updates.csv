@@ -1,0 +1,20 @@
+# Vacancy update intake. Drop rows below the header, then run: npm run apply-vacancy-updates
+#
+# Columns:
+#   id            the exam's id in src/data/exams.json (e.g. sbi-clerk) — get it right or the
+#                 row is rejected, nothing is guessed
+#   vacancies     the figure exactly as the notification states it, e.g. "1,538 Posts"
+#   source_url    the official notification or page the figure came from
+#   source_date   the date on that document, YYYY-MM-DD
+#   confidence    "verified"  = a person checked this row against source_url directly
+#                 "reported"  = pulled by a tool (NotebookLM, etc.) and not yet checked by a person
+#   note          optional — anything worth remembering (category-wise breakdown, corrigendum, etc.)
+#
+# A "reported" row is never shown to a site visitor. Only "verified" is. Change reported to
+# verified only after you (or Claude, on your say-so) have actually opened source_url and
+# confirmed the number.
+#
+# Applied rows are removed from this file automatically and moved to
+# data-sourcing/vacancy-update-log.md. Rejected rows are left here with the reason printed
+# in the terminal — fix and rerun.
+id,vacancies,source_url,source_date,confidence,note

@@ -10,6 +10,8 @@
     "watch-portals": "node scripts/automation/portal-watch.mjs",
     "sync-exams": "node scripts/automation/sync-exams.mjs",
     "sync-exams:dry-run": "node scripts/automation/sync-exams.mjs --dry-run",
+    "apply-vacancy-updates": "node scripts/automation/apply-vacancy-updates.mjs",
+    "apply-vacancy-updates:dry-run": "node scripts/automation/apply-vacancy-updates.mjs --dry-run",
     "validate": "node scripts/data-sourcing/validate-details.mjs"
   },
   "devDependencies": {
