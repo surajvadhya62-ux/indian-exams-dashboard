@@ -3,7 +3,8 @@ import {
   HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck,
   HiOutlineSparkles, HiOutlineBookmark,
   HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon,
-  HiOutlineSearch, HiOutlineChatAlt2, HiOutlineNewspaper
+  HiOutlineSearch, HiOutlineChatAlt2, HiOutlineNewspaper,
+  HiOutlineUserCircle
 } from 'react-icons/hi'
 
 export default function Header({
@@ -15,7 +16,10 @@ export default function Header({
   onLogoClick,
   theme = 'dark',
   setTheme,
-  onOpenCommandPalette
+  onOpenCommandPalette,
+  onOpenTour,
+  currentUser,
+  onOpenAuth
 }) {
   const views = [
     { id: 'explore', num: '01', label: 'Explore', icon: <HiOutlineGlobeAlt className="hud-nav-icon" /> },
@@ -58,6 +62,42 @@ export default function Header({
                 <strong>{totalExams}</strong> TARGETS · <strong>342</strong> BODIES
               </span>
             </div>
+
+            {/* Guided Tour Trigger Button */}
+            {onOpenTour && (
+              <button
+                className="hud-tour-btn"
+                onClick={onOpenTour}
+                title="Interactive Feature Walkthrough Tour"
+                aria-label="Start Feature Tour"
+              >
+                <HiOutlineSparkles className="hud-tour-icon text-amber" />
+                <span className="hud-tour-label">Guided Tour</span>
+              </button>
+            )}
+
+            {/* Site-Wide Aspirant Account / Login Trigger */}
+            {onOpenAuth && (
+              <button
+                className={`hud-auth-btn ${currentUser ? 'logged-in' : ''}`}
+                onClick={onOpenAuth}
+                title={currentUser ? `Logged in as ${currentUser.name} (Click to manage vault)` : 'Sign in to save study progress and bookmarks'}
+                aria-label="Aspirant Account Vault"
+              >
+                {currentUser ? (
+                  <>
+                    <span className="auth-avatar-dot" />
+                    <span className="hud-auth-name">{currentUser.name.split(' ')[0]}</span>
+                    <span className="hud-auth-sub">Vault</span>
+                  </>
+                ) : (
+                  <>
+                    <HiOutlineUserCircle className="hud-auth-icon" />
+                    <span className="hud-auth-label">Sign In</span>
+                  </>
+                )}
+              </button>
+            )}
 
             {/* Command Palette Trigger */}
             {onOpenCommandPalette && (
@@ -108,20 +148,23 @@ export default function Header({
               return (
                 <button
                   key={v.id}
-                  className={`hud-tab-btn ${isActive ? 'active' : ''}`}
+                  className={`hud-tab-item ${isActive ? 'active' : ''}`}
                   onClick={() => setActiveView(v.id)}
-                  title={`Navigate to ${v.label}`}
+                  aria-current={isActive ? 'page' : undefined}
                 >
                   <span className="hud-tab-num">{v.num}</span>
-                  <span className="hud-tab-icon">{v.icon}</span>
-                  <span className="hud-tab-label">{v.label}</span>
-                  {v.count > 0 && (
-                    <span className="hud-tab-count-pill">{v.count}</span>
+                  <span className="hud-tab-icon-wrap">{v.icon}</span>
+                  <span className="hud-tab-text">{v.label}</span>
+
+                  {typeof v.count === 'number' && v.count > 0 && (
+                    <span className="hud-tab-counter">{v.count}</span>
                   )}
+
                   {v.badge && (
                     <span className="hud-tab-live-badge">{v.badge}</span>
                   )}
-                  {isActive && <span className="hud-active-underline" />}
+
+                  {isActive && <div className="hud-active-bar" />}
                 </button>
               )
             })}
