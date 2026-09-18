@@ -305,7 +305,7 @@ export default function StoryGate({ exams, onEnter }) {
       <section className="sg-hero">
         {/* Subtle India Topographic Ambient Backdrop */}
         <div className="sg-hero-backdrop-graphic" aria-hidden="true">
-          <svg viewBox={INDIA_MAP_VIEWBOX} className="sg-india-map-silhouette" opacity="0.08">
+          <svg viewBox={INDIA_MAP_VIEWBOX} className="sg-india-map-silhouette" preserveAspectRatio="xMidYMid meet" opacity="0.08">
             <path
               d={INDIA_MAP_PATH}
               fill="currentColor"
