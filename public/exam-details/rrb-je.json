@@ -2,7 +2,6 @@
   "id": "rrb-je",
   "schema_version": 1,
   "last_reviewed": "2026-09-11",
-
   "career_ladder": {
     "status": "available",
     "note": "Junior Engineer (JE) is the cornerstone technical supervisor role in Indian Railways across Civil, Mechanical, Electrical, Signal & Telecommunication, and Stores departments. JEs supervise track maintenance, bridge engineering, rolling stock workshops, loco sheds, and signaling infrastructure. Progression reaches Gazetted Group 'B' managerial roles (ADEN/AEE/ASTE/AMM) via Departmental Selection Examinations (LDCE/AISM).",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment to Junior Engineer (CEN 03/2024) is conducted in four sequential stages: First Stage CBT (CBT-1 screening of general aptitude); Second Stage CBT (CBT-2 evaluating technical engineering discipline and core science); Document Verification (DV); and Medical Examination in prescribed technical medical categories (A-3, B-1, or B-2).",
@@ -155,7 +153,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": "Junior Engineer is placed in Pay Level 6 (₹35,400 – ₹1,12,400) under the 7th Central Pay Commission. JEs receive technical and departmental allowances in addition to central pay entitlements.",
@@ -167,8 +164,14 @@
     "pay_source_label": "7th CPC Railway Services (Revised Pay) Rules, Ministry of Railways",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 62000, "max": 74000 },
-    "in_hand_range_estimate": { "min": 55000, "max": 67000 },
+    "gross_range_estimate": {
+      "min": 62000,
+      "max": 74000
+    },
+    "in_hand_range_estimate": {
+      "min": 55000,
+      "max": 67000
+    },
     "estimate_confidence": "estimate",
     "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 with 58% DA (₹20,532), HRA (10% to 30% depending on city classification X/Y/Z), Transport Allowance (₹1,800 to ₹3,600 + DA on TA), minus 10% NPS contribution.",
     "official_perks": [
@@ -181,11 +184,21 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Vacancies for Junior Engineer and allied technical posts across all Railway Recruitment Boards under Centralised Employment Notices.",
     "years": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "vacancies": 4098,
+        "shortlisted_for_mains": null,
+        "selectivity_ratio": null,
+        "confidence": "reported",
+        "as_of": "2026-09-18",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwOEZmamZjUlpMeTJiOXpHcmpqc0ZkcjljRFY0cFpzay1Va2NwTFczT21fQW1qalg0UFRNdENUMHY2NkxBNFlrVmdBVFNTM0lfRWhWZmpR?oc=5",
+        "source_label": "RRB JE 2026 Notification Out: 4,098 Vacancies, Eligibility, Apply Online - PW"
+      },
       {
         "year": 2024,
         "vacancies": 7951,
@@ -204,7 +217,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications and syllabus schedules published by Railway Recruitment Boards.",
