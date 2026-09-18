@@ -1,15 +1,14 @@
 {
   "id": "osssc-peo",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Panchayat Executive Officers (PEO) and Junior Assistants (JA) are recruited under the Panchayati Raj & Drinking Water Department, Government of Odisha. Promotion opportunities lead from grassroots Gram Panchayat management to block-level and district-level administrative posts under the Odisha Gram Panchayat Service Rules and Odisha Subordinate Administrative Service.",
     "steps": [
       {
         "designation": "Panchayat Executive Officer (PEO) / Junior Assistant",
-        "pay_level": "ORSP 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+        "pay_level": "ORSP 2017 Level 4 (Scale \u20b919,900 - \u20b963,200)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://www.osssc.gov.in",
@@ -17,7 +16,7 @@
       },
       {
         "designation": "Senior Panchayat Executive Officer / Gram Panchayat Officer (GPO)",
-        "pay_level": "ORSP 2017 Level 7 (Scale ₹25,500 - ₹81,100)",
+        "pay_level": "ORSP 2017 Level 7 (Scale \u20b925,500 - \u20b981,100)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://panchayat.odisha.gov.in",
@@ -25,7 +24,7 @@
       },
       {
         "designation": "Block Panchayat Officer (BPO) / PA to BDO",
-        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "pay_level": "ORSP 2017 Level 9 (Scale \u20b935,400 - \u20b91,12,400)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://panchayat.odisha.gov.in",
@@ -33,7 +32,7 @@
       },
       {
         "designation": "Assistant Project Director (DRDA) / Block Development Officer (OAS Class II)",
-        "pay_level": "ORSP 2017 Level 12 (Scale ₹56,100 - ₹1,77,500)",
+        "pay_level": "ORSP 2017 Level 12 (Scale \u20b956,100 - \u20b91,77,500)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://panchayat.odisha.gov.in",
@@ -41,7 +40,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The Combined Recruitment Examination for Panchayat Executive Officer (PEO) and Junior Assistant (JA) consists of a Written Examination (OMR / Offline Mode), followed by a Practical Skill Test in Basic Computer Skills (qualifying), and Document Verification with District Cadre counseling.",
@@ -102,11 +100,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Panchayat Executive Officers (PEO) and Junior Assistants in Odisha are appointed under Pay Matrix Level 4 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹19,900 - ₹63,200 with entry basic pay of ₹19,900). Pay and allowances are disbursed through the Panchayati Raj & Drinking Water Department, Government of Odisha.",
-    "pay_level": "ORSP Rules 2017 Level 4 (Scale ₹19,900 - ₹63,200)",
+    "note": "Panchayat Executive Officers (PEO) and Junior Assistants in Odisha are appointed under Pay Matrix Level 4 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale \u20b919,900 - \u20b963,200 with entry basic pay of \u20b919,900). Pay and allowances are disbursed through the Panchayati Raj & Drinking Water Department, Government of Odisha.",
+    "pay_level": "ORSP Rules 2017 Level 4 (Scale \u20b919,900 - \u20b963,200)",
     "entry_basic_pay": 19900,
     "pay_confidence": "verified",
     "pay_as_of": "2017-09-09",
@@ -123,7 +120,7 @@
       "max": 32500
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimated based on entry basic pay of ₹19,900 + 58% Dearness Allowance (₹11,542) + House Rent Allowance (9% for rural block/panchayat headquarters, up to 18% in municipal areas: ₹1,791 to ₹3,582) + Medical Allowance (₹500) and fixed rural field allowance. Deductions comprise 10% NPS (Basic + DA = ₹3,144), Professional Tax (₹200), and Group Insurance Scheme (GIS ~₹250).",
+    "estimate_note": "Estimated based on entry basic pay of \u20b919,900 + 58% Dearness Allowance (\u20b911,542) + House Rent Allowance (9% for rural block/panchayat headquarters, up to 18% in municipal areas: \u20b91,791 to \u20b93,582) + Medical Allowance (\u20b9500) and fixed rural field allowance. Deductions comprise 10% NPS (Basic + DA = \u20b93,144), Professional Tax (\u20b9200), and Group Insurance Scheme (GIS ~\u20b9250).",
     "official_perks": [
       "Government staff quarters or House Rent Allowance (HRA at 9% to 18% as applicable to posting location)",
       "Conveyance / travel allowance for official visits to Gram Panchayat wards and block headquarters",
@@ -134,11 +131,22 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Applicant, attendance, and selection metrics from official OSSSC recruitment releases for Panchayat Executive Officer and Junior Assistant examinations.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": 680000,
@@ -163,7 +171,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, examination schemes, and portal links from the Odisha Subordinate Staff Selection Commission.",

@@ -1,7 +1,7 @@
 {
   "id": "cghs-pharmacist",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Pharmacists in Central Government Health Scheme (CGHS) wellness centres across India under the Ministry of Health and Family Welfare follow the Central 7th CPC pharmaceutical services promotion hierarchy.",
@@ -13,7 +13,7 @@
         "confidence": "verified",
         "as_of": "2023-03-06",
         "source_url": "https://mohfw.gov.in",
-        "source_label": "CGHS Recruitment Rules / SSC Selection Posts Phase-XI Notice — Pharmacist (Level 5, ₹29,200 – ₹92,300)"
+        "source_label": "CGHS Recruitment Rules / SSC Selection Posts Phase-XI Notice \u2014 Pharmacist (Level 5, \u20b929,200 \u2013 \u20b992,300)"
       },
       {
         "designation": "Senior Pharmacist",
@@ -22,7 +22,7 @@
         "confidence": "verified",
         "as_of": "2023-03-06",
         "source_url": "https://mohfw.gov.in",
-        "source_label": "CGHS Pharmaceutical Cadre Restructuring Rules — Senior Pharmacist (Level 6, ₹35,400 – ₹1,12,400)"
+        "source_label": "CGHS Pharmaceutical Cadre Restructuring Rules \u2014 Senior Pharmacist (Level 6, \u20b935,400 \u2013 \u20b91,12,400)"
       },
       {
         "designation": "Chief Pharmacist",
@@ -31,7 +31,7 @@
         "confidence": "verified",
         "as_of": "2023-03-06",
         "source_url": "https://mohfw.gov.in",
-        "source_label": "Central Health Services — Chief Pharmacist (Level 7, ₹44,900 – ₹1,42,400)"
+        "source_label": "Central Health Services \u2014 Chief Pharmacist (Level 7, \u20b944,900 \u2013 \u20b91,42,400)"
       },
       {
         "designation": "Assistant Director / Stores Officer (Pharmaceuticals)",
@@ -40,7 +40,7 @@
         "confidence": "verified",
         "as_of": "2023-03-06",
         "source_url": "https://mohfw.gov.in",
-        "source_label": "CGHS Medical Stores Administration — Assistant Director Pharmaceuticals (Level 8 / Level 10)"
+        "source_label": "CGHS Medical Stores Administration \u2014 Assistant Director Pharmaceuticals (Level 8 / Level 10)"
       }
     ]
   },
@@ -54,7 +54,7 @@
         "confidence": "verified",
         "as_of": "2023-03-06",
         "source_url": "https://mohfw.gov.in",
-        "source_label": "SSC Selection Posts / CGHS Recruitment Notice — Examination Scheme",
+        "source_label": "SSC Selection Posts / CGHS Recruitment Notice \u2014 Examination Scheme",
         "papers": [
           {
             "paper_name": "Technical Pharmacy Knowledge & Medical Store Procedures",
@@ -104,13 +104,13 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Pharmacists in CGHS wellness centres are appointed under Central 7th CPC Pay Matrix at Level 5 (entry basic ₹29,200; pay scale ₹29,200 – ₹92,300) along with Patient Care Allowance where sanctioned and standard central allowances.",
+    "note": "Pharmacists in CGHS wellness centres are appointed under Central 7th CPC Pay Matrix at Level 5 (entry basic \u20b929,200; pay scale \u20b929,200 \u2013 \u20b992,300) along with Patient Care Allowance where sanctioned and standard central allowances.",
     "pay_level": "Level 5",
     "entry_basic_pay": 29200,
     "pay_confidence": "verified",
     "pay_as_of": "2023-03-06",
     "pay_source_url": "https://mohfw.gov.in",
-    "pay_source_label": "CGHS Recruitment Rules: Pay Matrix Level 5 (₹29,200 – ₹92,300)",
+    "pay_source_label": "CGHS Recruitment Rules: Pay Matrix Level 5 (\u20b929,200 \u2013 \u20b992,300)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -122,12 +122,12 @@
       "max": 55000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated for Level 5 Entry Basic ₹29,200 + 58% DA (₹16,936) + HRA (₹8,760 for Class X metro, ₹5,840 for Class Y) + Transport Allowance (₹3,600 + DA = ₹5,688) + Patient Care Allowance (PCA ~₹4,100/mo). Gross in Class X is ~₹64,684; in-hand is ~₹54,000–₹56,000 after 10% NPS deduction (₹4,614) and standard taxes.",
+    "estimate_note": "Calculated for Level 5 Entry Basic \u20b929,200 + 58% DA (\u20b916,936) + HRA (\u20b98,760 for Class X metro, \u20b95,840 for Class Y) + Transport Allowance (\u20b93,600 + DA = \u20b95,688) + Patient Care Allowance (PCA ~\u20b94,100/mo). Gross in Class X is ~\u20b964,684; in-hand is ~\u20b954,000\u2013\u20b956,000 after 10% NPS deduction (\u20b94,614) and standard taxes.",
     "official_perks": [
       "Comprehensive healthcare and medical treatment for self and family under CGHS wellness scheme",
       "Patient Care Allowance (PCA) as applicable to dispensary healthcare workers",
       "National Pension System (NPS) with 14% defined monthly employer contribution",
-      "Central Government Leave Travel Concession (LTC) and Children Education Allowance (₹2,250/month per child)",
+      "Central Government Leave Travel Concession (LTC) and Children Education Allowance (\u20b92,250/month per child)",
       "General Pool Residential Accommodation (GPRA) eligibility in designated central cities"
     ],
     "perks_confidence": "verified"
@@ -136,6 +136,18 @@
     "status": "available",
     "note": "Recruitment benchmarks for CGHS Pharmacist posts across wellness centres in major Indian cities.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://cghs.gov.in",
+        "source_label": "CGHS MoHFW - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 185,

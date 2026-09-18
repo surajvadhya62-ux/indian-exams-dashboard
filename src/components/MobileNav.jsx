@@ -9,13 +9,13 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
   const items = [
     { id: 'explore', label: 'Explore', icon: <HiOutlineGlobeAlt /> },
     { id: 'updates', label: 'Wire', icon: <HiOutlineNewspaper /> },
-    { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles /> },
-    { id: 'screener', label: 'Eligible?', icon: <HiOutlineBadgeCheck /> },
-    { id: 'my-exams', label: 'My Exams', icon: <HiOutlineBookmark />, count: bookmarkCount },
-    { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar /> },
-    { id: 'cadres', label: 'Grades', icon: <HiOutlineShieldCheck /> },
-    { id: 'compare', label: 'Compare', icon: <HiOutlineScale />, count: compareCount },
+    { id: 'my-exams', label: 'Radar', icon: <HiOutlineBookmark />, count: bookmarkCount },
     { id: 'calendar', label: 'Calendar', icon: <HiOutlineCalendar /> },
+    { id: 'screener', label: 'Screener', icon: <HiOutlineBadgeCheck /> },
+    { id: 'compare', label: 'Compare', icon: <HiOutlineScale />, count: compareCount },
+    { id: 'cadres', label: '7th CPC', icon: <HiOutlineShieldCheck /> },
+    { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar /> },
+    { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles /> },
     { id: 'feedback', label: 'Feedback', icon: <HiOutlineChatAlt2 /> },
   ]
 

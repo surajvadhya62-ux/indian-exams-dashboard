@@ -1,8 +1,7 @@
 {
   "id": "nabard-development-assistant",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Development Assistants in NABARD serve in the clerical/secretarial cadre across Regional Offices and the Head Office in Mumbai. Staff handle administrative, accounting, credit disbursement records, and rural project monitoring support, with departmental promotion avenues into officer grades.",
@@ -14,7 +13,7 @@
         "confidence": "verified",
         "as_of": "2022-09-15",
         "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
-        "source_label": "NABARD — Recruitment of Development Assistant / Development Assistant (Hindi) Notice 2022"
+        "source_label": "NABARD \u2014 Recruitment of Development Assistant / Development Assistant (Hindi) Notice 2022"
       },
       {
         "designation": "Senior Development Assistant",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment comprises a Two-Phase Online Examination (Preliminary and Main Examination) followed by a Language Proficiency Test (LPT) in the official language of the concerned State. Negative marking of 1/4th (0.25 marks) is deducted for each incorrect answer across objective tests.",
@@ -65,7 +63,7 @@
         "confidence": "verified",
         "as_of": "2022-09-15",
         "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
-        "source_label": "NABARD — Scheme of Selection for Development Assistant",
+        "source_label": "NABARD \u2014 Scheme of Selection for Development Assistant",
         "papers": [
           {
             "paper_name": "Test of English Language",
@@ -99,7 +97,7 @@
         "confidence": "verified",
         "as_of": "2022-09-15",
         "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
-        "source_label": "NABARD — Scheme of Selection for Development Assistant",
+        "source_label": "NABARD \u2014 Scheme of Selection for Development Assistant",
         "papers": [
           {
             "paper_name": "Test of Reasoning",
@@ -134,7 +132,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Descriptive English (Essay, Précis Writing, Letter Writing)",
+            "paper_name": "Descriptive English (Essay, Pr\u00e9cis Writing, Letter Writing)",
             "marks": 50,
             "duration_minutes": 30,
             "negative_marking": null,
@@ -149,7 +147,7 @@
         "confidence": "verified",
         "as_of": "2022-09-15",
         "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
-        "source_label": "NABARD — Scheme of Selection for Development Assistant",
+        "source_label": "NABARD \u2014 Scheme of Selection for Development Assistant",
         "papers": [
           {
             "paper_name": "Official Regional Language Proficiency Evaluation",
@@ -163,7 +161,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": null,
@@ -172,13 +169,19 @@
     "pay_confidence": "verified",
     "pay_as_of": "2022-09-15",
     "pay_source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
-    "pay_source_label": "NABARD Staff Regulations & Development Assistant Notification (Scale: ₹13,150 - 750(3) - 15,400 - 900(4) - 19,000 - 1200(6) - 26,200 - 1300(2) - 28,800 - 1480(3) - 33,240 - 1750(1) - 34,990 with 2 advance increments, revised entry basic ₹20,700)",
+    "pay_source_label": "NABARD Staff Regulations & Development Assistant Notification (Scale: \u20b913,150 - 750(3) - 15,400 - 900(4) - 19,000 - 1200(6) - 26,200 - 1300(2) - 28,800 - 1480(3) - 33,240 - 1750(1) - 34,990 with 2 advance increments, revised entry basic \u20b920,700)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 38000, "max": 48000 },
-    "in_hand_range_estimate": { "min": 33000, "max": 42000 },
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 48000
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 42000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Initial monthly gross emoluments are approximately ₹38,000 - ₹48,000 depending on posting center (metro vs non-metro). Allowance structure includes Dearness Allowance, House Rent Allowance (where bank accommodation is not provided), Local Compensatory Allowance, and Transport Allowance.",
+    "estimate_note": "Initial monthly gross emoluments are approximately \u20b938,000 - \u20b948,000 depending on posting center (metro vs non-metro). Allowance structure includes Dearness Allowance, House Rent Allowance (where bank accommodation is not provided), Local Compensatory Allowance, and Transport Allowance.",
     "official_perks": [
       "Bank residential quarters or House Rent Allowance per NABARD rules",
       "Comprehensive medical facilities including dispensary consultation and hospitalization reimbursement",
@@ -189,25 +192,35 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "NABARD Development Assistant recruitment is state-specific; candidates compete against vacancies notified in their respective state/regional office domicile.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 175750,
+        "vacancies": 950,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.nabard.org",
+        "source_label": "NABARD - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2022,
         "applicants": 178000,
         "vacancies": 177,
         "shortlisted_for_mains": 4425,
-        "selectivity_ratio": "approx. 1 in 1005 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 1005 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2022-11-30",
         "source_url": "https://www.nabard.org/careers-notices1.aspx?cid=552&id=26",
-        "source_label": "NABARD — Notice for Recruitment of Development Assistant (173 posts) & Development Assistant Hindi (4 posts)"
+        "source_label": "NABARD \u2014 Notice for Recruitment of Development Assistant (173 posts) & Development Assistant Hindi (4 posts)"
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications and test results are archived on the NABARD career portal under 'Career Notices'.",

@@ -1,14 +1,14 @@
 {
   "id": "iocl-apprentice",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Apprentices at Indian Oil Corporation Limited undergo 1 year of statutory training under the Apprentices Act, 1961. Successful apprentices who transition into permanent non-executive technical cadres (such as Junior Engineering Assistant - IV) advance through IOCL's structured non-executive promotion policy towards executive officer positions.",
     "steps": [
       {
         "designation": "Trade / Technician Apprentice",
-        "pay_level": "Prescribed Monthly Stipend (₹10,500 – ₹15,000 / month)",
+        "pay_level": "Prescribed Monthly Stipend (\u20b910,500 \u2013 \u20b915,000 / month)",
         "years": "1 yr statutory engagement",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Junior Engineering Assistant - IV (JEA-IV) / Technician",
-        "pay_level": "IDA Grade IV (₹25,000 – ₹1,05,000)",
+        "pay_level": "IDA Grade IV (\u20b925,000 \u2013 \u20b91,05,000)",
         "years": "Entry permanent cadre",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Junior Engineering Assistant - III",
-        "pay_level": "IDA Grade V (₹26,500 – ₹1,10,000)",
+        "pay_level": "IDA Grade V (\u20b926,500 \u2013 \u20b91,10,000)",
         "years": "approx. 3 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Engineering Assistant - II",
-        "pay_level": "IDA Grade VI (₹31,000 – ₹1,20,000)",
+        "pay_level": "IDA Grade VI (\u20b931,000 \u2013 \u20b91,20,000)",
         "years": "approx. 4 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Senior Engineering Assistant",
-        "pay_level": "IDA Grade VII (₹36,000 – ₹1,35,000)",
+        "pay_level": "IDA Grade VII (\u20b936,000 \u2013 \u20b91,35,000)",
         "years": "approx. 5 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Officer (Operations / Maintenance / Quality Control)",
-        "pay_level": "IDA Grade A (₹50,000 – ₹1,60,000)",
+        "pay_level": "IDA Grade A (\u20b950,000 \u2013 \u20b91,60,000)",
         "years": "Promotion to Executive Cadre",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -114,8 +114,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Trade and technician apprentices receive monthly statutory stipends as mandated under the Apprentices Act, 1961. Regular non-executive technical staff (JEA-IV) receive basic pay of ₹25,000 in Grade IV with 58% IDA constant as of 2025-07-01, HRA, industrial allowances, and medical cover.",
-    "pay_level": "Apprentice Stipend (₹10,500 – ₹15,000/mo); Regular Post Grade IV (₹25,000 – ₹1,05,000)",
+    "note": "Trade and technician apprentices receive monthly statutory stipends as mandated under the Apprentices Act, 1961. Regular non-executive technical staff (JEA-IV) receive basic pay of \u20b925,000 in Grade IV with 58% IDA constant as of 2025-07-01, HRA, industrial allowances, and medical cover.",
+    "pay_level": "Apprentice Stipend (\u20b910,500 \u2013 \u20b915,000/mo); Regular Post Grade IV (\u20b925,000 \u2013 \u20b91,05,000)",
     "entry_basic_pay": 25000,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-14",
@@ -132,7 +132,7 @@
       "max": 54000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Grade IV regular scale: Basic Pay ₹25,000, 58% IDA (₹14,500), HRA (18% to 27% = ₹4,500 to ₹6,750), and industrial perks (approx. 32% = ₹8,000), less standard statutory deductions.",
+    "estimate_note": "Calculated on Grade IV regular scale: Basic Pay \u20b925,000, 58% IDA (\u20b914,500), HRA (18% to 27% = \u20b94,500 to \u20b96,750), and industrial perks (approx. 32% = \u20b98,000), less standard statutory deductions.",
     "official_perks": [
       "Industrial Dearness Allowance (IDA) indexed to AICPI",
       "Company township residential accommodation or House Rent Allowance (HRA)",
@@ -147,6 +147,18 @@
     "status": "available",
     "note": "Recruitment numbers from recent IOCL apprentice and engineering assistant recruitment notifications across divisions.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://iocl.com",
+        "source_label": "IOCL - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 1720,

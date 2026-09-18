@@ -1,14 +1,14 @@
 {
   "id": "aptransco-assistant-engineer",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Assistant Engineer (Electrical / Civil / Telecom) is the foundational executive engineering cadre in the Transmission Corporation of Andhra Pradesh Limited (APTRANSCO). Officers manage extra-high-voltage (EHV) grid substations (132 kV, 220 kV, 400 kV) and transmission line corridors. Promotions are governed by Regulation 14(a)(1) and Regulation 6(b) of the APSEB Service Regulations (Parts II & III) as adopted by APTRANSCO, requiring passing of prescribed departmental accounts tests.",
     "steps": [
       {
         "designation": "Assistant Engineer (AE / AEE - Electrical / Civil)",
-        "pay_level": "AP Power Utilities Revised Scale (₹63,600 - ₹1,31,220)",
+        "pay_level": "AP Power Utilities Revised Scale (\u20b963,600 - \u20b91,31,220)",
         "years": "0-6 yrs",
         "confidence": "verified",
         "as_of": "2019-08-08",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Deputy Executive Engineer (DEE / ADE - Substation / Line Maintenance)",
-        "pay_level": "AP Power Utilities Revised Scale (₹79,350 - ₹1,48,700)",
+        "pay_level": "AP Power Utilities Revised Scale (\u20b979,350 - \u20b91,48,700)",
         "years": "6-12 yrs",
         "confidence": "verified",
         "as_of": "2019-08-08",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Executive Engineer (EE / DE - Division / Grid Operation)",
-        "pay_level": "AP Power Utilities Revised Scale (₹98,900 - ₹1,68,200)",
+        "pay_level": "AP Power Utilities Revised Scale (\u20b998,900 - \u20b91,68,200)",
         "years": "12-18 yrs",
         "confidence": "verified",
         "as_of": "2019-08-08",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Superintending Engineer (SE - Circle / O&M / TLC)",
-        "pay_level": "AP Power Utilities Revised Scale (₹1,20,500 - ₹1,88,400)",
+        "pay_level": "AP Power Utilities Revised Scale (\u20b91,20,500 - \u20b91,88,400)",
         "years": "18-24 yrs",
         "confidence": "verified",
         "as_of": "2019-08-08",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Chief Engineer (CE - Zone / SLDC / Transmission / HRD)",
-        "pay_level": "AP Power Utilities Revised Scale (₹1,42,000 - ₹2,08,500)",
+        "pay_level": "AP Power Utilities Revised Scale (\u20b91,42,000 - \u20b92,08,500)",
         "years": "24+ yrs",
         "confidence": "reported",
         "as_of": "2019-08-08",
@@ -105,8 +105,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Engineers are remunerated under the Andhra Pradesh Power Utilities Revised Pay Scales (agreed upon via bipartite wage settlements between power utilities management and employee unions). The revised entry pay scale for Assistant Engineer is ₹63,600 - ₹1,31,220 with an entry basic pay of ₹63,600 (replacing the pre-revised scale of ₹41,155 - ₹63,600).",
-    "pay_level": "AP Power Utilities Scale (₹63,600 - ₹1,31,220)",
+    "note": "Engineers are remunerated under the Andhra Pradesh Power Utilities Revised Pay Scales (agreed upon via bipartite wage settlements between power utilities management and employee unions). The revised entry pay scale for Assistant Engineer is \u20b963,600 - \u20b91,31,220 with an entry basic pay of \u20b963,600 (replacing the pre-revised scale of \u20b941,155 - \u20b963,600).",
+    "pay_level": "AP Power Utilities Scale (\u20b963,600 - \u20b91,31,220)",
     "entry_basic_pay": 63600,
     "pay_confidence": "verified",
     "pay_as_of": "2019-08-08",
@@ -123,7 +123,7 @@
       "max": 106000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimated on entry basic pay of ₹63,600 with standardized 58% Dearness Allowance plus HRA (ranging from 8% to 16% as adopted under T.O.O. Ms. No. 94) and substation shift allowances; in-hand estimate deducts 10% EPF/NPS, Professional Tax (₹200), and AP Power Utilities Group Insurance.",
+    "estimate_note": "Estimated on entry basic pay of \u20b963,600 with standardized 58% Dearness Allowance plus HRA (ranging from 8% to 16% as adopted under T.O.O. Ms. No. 94) and substation shift allowances; in-hand estimate deducts 10% EPF/NPS, Professional Tax (\u20b9200), and AP Power Utilities Group Insurance.",
     "official_perks": [
       "House Rent Allowance (HRA) adopted as per AP state rates (8% to 16% under T.O.O. Ms.No.94)",
       "APTRANSCO Employees Medical Attendance Scheme and cashless hospital tie-ups",
@@ -139,11 +139,23 @@
     "note": "Statistics derived from APTRANSCO direct recruitment notifications and engineering cadre schedules.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 175750,
+        "vacancies": 950,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://aptransco.co.in",
+        "source_label": "APTRANSCO - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2019,
         "applicants": 48000,
         "vacancies": 171,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "approx. 1 in 280 (calculated: ~48,000 applicants ÷ 171 notified vacancies across Electrical and Civil)",
+        "selectivity_ratio": "approx. 1 in 280 (calculated: ~48,000 applicants \u00f7 171 notified vacancies across Electrical and Civil)",
         "confidence": "reported",
         "as_of": "2019-03-30",
         "source_url": "https://aptransco.gov.in",
@@ -154,7 +166,7 @@
         "applicants": 42500,
         "vacancies": 146,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "approx. 1 in 291 (calculated: ~42,500 applicants ÷ 146 vacancies)",
+        "selectivity_ratio": "approx. 1 in 291 (calculated: ~42,500 applicants \u00f7 146 vacancies)",
         "confidence": "reported",
         "as_of": "2017-04-15",
         "source_url": "https://aptransco.gov.in",

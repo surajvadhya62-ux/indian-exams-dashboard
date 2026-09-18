@@ -1,10 +1,37 @@
-import { useMemo } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import newsData from '../data/news.json'
+import { fetchLiveExamNews } from '../utils/newsRssFetcher'
 
 export default function NewsTicker({ onSelectNews, setActiveView }) {
-  const tickerItems = useMemo(() => {
-    return newsData.slice(0, 6)
+  const [liveTickerItems, setLiveTickerItems] = useState([])
+
+  // Fetch real-time live RSS items for ticker strip with 5-minute auto-refresh
+  useEffect(() => {
+    let isMounted = true
+    const updateTicker = () => {
+      fetchLiveExamNews().then(res => {
+        if (isMounted && res.success && res.items.length > 0) {
+          setLiveTickerItems(res.items.slice(0, 6))
+        }
+      }).catch(() => {})
+    }
+
+    updateTicker()
+    const interval = setInterval(updateTicker, 300000) // Auto-refresh every 5 minutes
+    return () => {
+      isMounted = false
+      clearInterval(interval)
+    }
   }, [])
+
+  const tickerItems = useMemo(() => {
+    if (liveTickerItems.length > 0) {
+      // Interleave top live items with official statutory circulars
+      const staticTop = newsData.slice(0, 4)
+      return [...liveTickerItems, ...staticTop]
+    }
+    return newsData.slice(0, 8)
+  }, [liveTickerItems])
 
   const handleClick = (item) => {
     if (setActiveView) {
@@ -34,8 +61,13 @@ export default function NewsTicker({ onSelectNews, setActiveView }) {
                 onClick={() => handleClick(item)}
                 title={`Click to view gazette dispatch: ${item.title}`}
               >
-                <span className={`mterminal-mini-tag tag-${item.type_code.toLowerCase()}`}>
-                  [{item.type_code}]
+                {item.is_live && (
+                  <span className="mterminal-live-feed-pill" style={{ marginRight: '6px', padding: '1px 5px', fontSize: '9px' }}>
+                    <span className="mterminal-pulse-dot" /> LIVE
+                  </span>
+                )}
+                <span className={`mterminal-mini-tag tag-${item.type_code?.toLowerCase() || 'notif'}`}>
+                  [{item.type_code || 'NOTIF'}]
                 </span>
                 <span className="mterminal-ticker-exam">{item.exam_acronym}:</span>
                 <span className="mterminal-ticker-text">{item.title}</span>

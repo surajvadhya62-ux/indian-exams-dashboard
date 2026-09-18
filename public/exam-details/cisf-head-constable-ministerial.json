@@ -1,8 +1,7 @@
 {
   "id": "cisf-head-constable-ministerial",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Head Constable (Ministerial) is the primary ministerial cadre post in the Central Industrial Security Force (CISF) under the Ministry of Home Affairs. Personnel provide vital administrative, personnel, dispatch, and accounting support across CISF Units stationed at critical national infrastructure, international airports, seaports, nuclear installations, and space establishments.",
@@ -14,7 +13,7 @@
         "confidence": "verified",
         "as_of": "2022-09-26",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Recruitment Notice for Assistant Sub-Inspector (Stenographer) and Head Constable (Ministerial) 2022"
+        "source_label": "CISF \u2014 Recruitment Notice for Assistant Sub-Inspector (Stenographer) and Head Constable (Ministerial) 2022"
       },
       {
         "designation": "Assistant Sub-Inspector (Ministerial)",
@@ -50,11 +49,10 @@
         "confidence": "reported",
         "as_of": "2022-09-26",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Directorate General Ministerial Cadre Regulations"
+        "source_label": "CISF \u2014 Directorate General Ministerial Cadre Regulations"
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment to Head Constable (Ministerial) in CISF comprises four sequential stages: Stage 1 Physical Standard Test (PST) and Documentation; Stage 2 Written Examination (OMR or Computer Based Test, 100 objective questions, 120 minutes); Stage 3 Skill Test (Typing Test on computer); Stage 4 Detailed Medical Examination (DME) and Review Medical Examination (RME).",
@@ -65,7 +63,7 @@
         "confidence": "verified",
         "as_of": "2022-09-26",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Scheme of PST and Verification for HC (Ministerial) 2022",
+        "source_label": "CISF \u2014 Scheme of PST and Verification for HC (Ministerial) 2022",
         "papers": [
           {
             "paper_name": "Physical Standard Measurement (Height: 165 cm male, 155 cm female; Chest: 77-82 cm male) and Verification of Original Documents",
@@ -83,7 +81,7 @@
         "confidence": "verified",
         "as_of": "2022-09-26",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Scheme of Written Examination for HC (Ministerial)",
+        "source_label": "CISF \u2014 Scheme of Written Examination for HC (Ministerial)",
         "papers": [
           {
             "paper_name": "Part A: General Intelligence",
@@ -125,7 +123,7 @@
         "confidence": "verified",
         "as_of": "2022-09-26",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Skill Test Standards for HC (Ministerial)",
+        "source_label": "CISF \u2014 Skill Test Standards for HC (Ministerial)",
         "papers": [
           {
             "paper_name": "English Typing (minimum 35 wpm on computer) OR Hindi Typing (minimum 30 wpm on computer)",
@@ -157,10 +155,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Head Constable (Ministerial) in CISF is placed in Pay Level 4 (₹25,500 – ₹81,100) under the 7th CPC. CISF personnel stationed at major industrial undertakings, metropolitan airports, or sea ports receive city-appropriate HRA or departmental residential accommodations.",
+    "note": "Head Constable (Ministerial) in CISF is placed in Pay Level 4 (\u20b925,500 \u2013 \u20b981,100) under the 7th CPC. CISF personnel stationed at major industrial undertakings, metropolitan airports, or sea ports receive city-appropriate HRA or departmental residential accommodations.",
     "pay_level": "Level 4",
     "entry_basic_pay": 25500,
     "pay_confidence": "verified",
@@ -169,13 +166,19 @@
     "pay_source_label": "7th CPC Pay Matrix, Table 5 (Civilian & CAPF Personnel), Government of India",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 44000, "max": 55000 },
-    "in_hand_range_estimate": { "min": 38000, "max": 48000 },
+    "gross_range_estimate": {
+      "min": 44000,
+      "max": 55000
+    },
+    "in_hand_range_estimate": {
+      "min": 38000,
+      "max": 48000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 with 58% DA (₹14,790), HRA (10% to 30%), Transport Allowance (₹900 to ₹1,350 + DA on TA), plus Ration Money Allowance (~₹3,965/month) where admissible, minus 10% NPS deduction.",
+    "estimate_note": "Calculated on Level 4 entry basic pay of \u20b925,500 with 58% DA (\u20b914,790), HRA (10% to 30%), Transport Allowance (\u20b9900 to \u20b91,350 + DA on TA), plus Ration Money Allowance (~\u20b93,965/month) where admissible, minus 10% NPS deduction.",
     "official_perks": [
       "Ration Money Allowance (RMA) / free messing facilities",
-      "Hair Cutting, Soap, and Annual Dress Allowance (₹10,000 per annum)",
+      "Hair Cutting, Soap, and Annual Dress Allowance (\u20b910,000 per annum)",
       "Free medical attendance through CISF Unit Hospitals and CGHS network",
       "Subsidized consumer goods purchasing through Central Police Canteen (CPC)",
       "Children Education Allowance (CEA) and Leave Travel Concession (LTC)",
@@ -183,18 +186,29 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Vacancies for Head Constable (Ministerial) in CISF across direct recruitment notifications published by the Central Industrial Security Force under MHA.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 777000,
+        "vacancies": 4200,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://cisfrectt.cisf.gov.in",
+        "source_label": "CISF (MHA) - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "vacancies": 418,
         "confidence": "verified",
         "as_of": "2022-09-26",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Recruitment of ASI (Steno) and Head Constable (Ministerial) 2022 (HC Ministerial: 418 vacancies)"
+        "source_label": "CISF \u2014 Recruitment of ASI (Steno) and Head Constable (Ministerial) 2022 (HC Ministerial: 418 vacancies)"
       },
       {
         "year": 2019,
@@ -202,17 +216,16 @@
         "confidence": "verified",
         "as_of": "2019-01-21",
         "source_url": "https://cisfrectt.cisf.gov.in",
-        "source_label": "CISF — Direct Recruitment of Head Constable (Ministerial) in CISF 2019 (429 vacancies)"
+        "source_label": "CISF \u2014 Direct Recruitment of Head Constable (Ministerial) in CISF 2019 (429 vacancies)"
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications and recruitment portals hosted on CISF's dedicated recruitment platform.",
     "links": [
       {
-        "label": "CISF Recruitment Portal — Official Portal",
+        "label": "CISF Recruitment Portal \u2014 Official Portal",
         "url": "https://cisfrectt.cisf.gov.in",
         "type": "other",
         "confidence": "verified",

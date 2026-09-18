@@ -1,15 +1,14 @@
 {
   "id": "osssc-mphw",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Multipurpose Health Workers (MPHW - Female/Male) are recruited under the Health & Family Welfare Department, Government of Odisha, to deliver primary healthcare, maternal and child healthcare, and national disease control programmes across Sub-Centres and Community Health Centres. Promotion avenues follow the Odisha Subordinate Health Services Rules.",
     "steps": [
       {
         "designation": "Multipurpose Health Worker (MPHW - Female/Male)",
-        "pay_level": "ORSP 2017 Level 5 (Scale ₹21,700 - ₹69,100)",
+        "pay_level": "ORSP 2017 Level 5 (Scale \u20b921,700 - \u20b969,100)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://www.osssc.gov.in",
@@ -17,7 +16,7 @@
       },
       {
         "designation": "Lady Health Visitor (LHV) / Health Supervisor",
-        "pay_level": "ORSP 2017 Level 7 (Scale ₹25,500 - ₹81,100)",
+        "pay_level": "ORSP 2017 Level 7 (Scale \u20b925,500 - \u20b981,100)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://health.odisha.gov.in",
@@ -25,7 +24,7 @@
       },
       {
         "designation": "Block Health Extension Officer (BHEO)",
-        "pay_level": "ORSP 2017 Level 9 (Scale ₹35,400 - ₹1,12,400)",
+        "pay_level": "ORSP 2017 Level 9 (Scale \u20b935,400 - \u20b91,12,400)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://health.odisha.gov.in",
@@ -33,7 +32,7 @@
       },
       {
         "designation": "District Public Health Extension Officer",
-        "pay_level": "ORSP 2017 Level 10 (Scale ₹44,900 - ₹1,42,400)",
+        "pay_level": "ORSP 2017 Level 10 (Scale \u20b944,900 - \u20b91,42,400)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://health.odisha.gov.in",
@@ -41,7 +40,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The OSSSC Multipurpose Health Worker examination comprises a single-stage Written Examination (OMR / CBRE) assessing technical paramedical/nursing coursework along with basic arithmetic and English, followed by Document Verification.",
@@ -84,11 +82,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Multipurpose Health Workers in Odisha are appointed under Pay Matrix Level 5 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale ₹21,700 - ₹69,100 with entry basic pay of ₹21,700). Health workers serving in rural sub-centres and scheduled tribal areas receive additional rural healthcare allowances.",
-    "pay_level": "ORSP Rules 2017 Level 5 (Scale ₹21,700 - ₹69,100)",
+    "note": "Multipurpose Health Workers in Odisha are appointed under Pay Matrix Level 5 of the Odisha Revised Scales of Pay (ORSP) Rules, 2017 (Pay Scale \u20b921,700 - \u20b969,100 with entry basic pay of \u20b921,700). Health workers serving in rural sub-centres and scheduled tribal areas receive additional rural healthcare allowances.",
+    "pay_level": "ORSP Rules 2017 Level 5 (Scale \u20b921,700 - \u20b969,100)",
     "entry_basic_pay": 21700,
     "pay_confidence": "verified",
     "pay_as_of": "2017-09-09",
@@ -105,7 +102,7 @@
       "max": 36000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimated on entry basic pay of ₹21,700 + 58% Dearness Allowance (₹12,586) + House Rent Allowance (9% for rural Sub-Centre/CHC headquarters, up to 18% in municipal health units: ₹1,953 to ₹3,906) + Medical Allowance (₹500) + rural health duty and uniform allowance (~₹1,000). Statutory deductions include 10% NPS (Basic + DA = ₹3,429), Professional Tax (₹200), and GIS (~₹250).",
+    "estimate_note": "Estimated on entry basic pay of \u20b921,700 + 58% Dearness Allowance (\u20b912,586) + House Rent Allowance (9% for rural Sub-Centre/CHC headquarters, up to 18% in municipal health units: \u20b91,953 to \u20b93,906) + Medical Allowance (\u20b9500) + rural health duty and uniform allowance (~\u20b91,000). Statutory deductions include 10% NPS (Basic + DA = \u20b93,429), Professional Tax (\u20b9200), and GIS (~\u20b9250).",
     "official_perks": [
       "Sub-Centre residential quarter accommodation or House Rent Allowance (HRA at 9% to 18% as sanctioned)",
       "Special tribal/rural healthcare service allowance for difficult geographic postings",
@@ -116,11 +113,22 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Candidate registration, test turnout, and merit cutoffs from official OSSSC recruitment releases for Multipurpose Health Worker examinations.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.osssc.gov.in",
+        "source_label": "OSSSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": 48000,
@@ -145,7 +153,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment advertisements, syllabi, and score publications from the Odisha Subordinate Staff Selection Commission.",

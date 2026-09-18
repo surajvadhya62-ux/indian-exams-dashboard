@@ -6,16 +6,20 @@ import {
 } from 'react-icons/hi'
 
 const QUICK_DOMAINS = [
-  'All Domains',
-  'Civil Services',
-  'Defence',
-  'Engineering',
-  'Medical',
-  'Banking',
-  'State PSC',
-  'Law',
-  'Teaching',
-  'Railways'
+  { label: 'All Disciplines', domain: '' },
+  { label: 'Govt Services', domain: 'Government Services' },
+  { label: 'Engineering', domain: 'Engineering' },
+  { label: 'Defence', domain: 'Defence' },
+  { label: 'Law & Judiciary', domain: 'Law' },
+  { label: 'Education', domain: 'Education' },
+  { label: 'Finance & Banking', domain: 'Finance' },
+  { label: 'Medical', domain: 'Medical' },
+  { label: 'Research & Academia', domain: 'Research & Academia' },
+  { label: 'Agriculture', domain: 'Agriculture' },
+  { label: 'Management', domain: 'Management' },
+  { label: 'Civil Services', domain: 'Civil Services' },
+  { label: 'Insurance', domain: 'Insurance' },
+  { label: 'Design', domain: 'Design' }
 ]
 
 export default function SearchFilter({
@@ -87,19 +91,13 @@ export default function SearchFilter({
     }
   }
 
-  const handleQuickDomain = (domainName) => {
-    if (domainName === 'All Domains') {
-      onFilterChange('domain', '')
-    } else {
-      // Find matching domain from full list
-      const match = domains.find(d => d.toLowerCase().includes(domainName.toLowerCase())) || domainName
-      onFilterChange('domain', match)
-    }
+  const handleQuickDomain = (item) => {
+    onFilterChange('domain', item.domain)
   }
 
-  const isQuickDomainActive = (d) => {
-    if (d === 'All Domains') return !filters.domain
-    return filters.domain?.toLowerCase().includes(d.toLowerCase())
+  const isQuickDomainActive = (item) => {
+    if (!item.domain) return !filters.domain
+    return filters.domain === item.domain
   }
 
   return (
@@ -248,12 +246,12 @@ export default function SearchFilter({
             const active = isQuickDomainActive(d)
             return (
               <button
-                key={d}
+                key={d.label}
                 type="button"
                 className={`quick-domain-chip ${active ? 'active' : ''}`}
                 onClick={() => handleQuickDomain(d)}
               >
-                {d}
+                {d.label}
               </button>
             )
           })}
@@ -263,14 +261,29 @@ export default function SearchFilter({
       {/* 4. Secondary Filter Bar & View Controls */}
       <div className="query-controls-strip">
         <div className="controls-left">
-          {/* Level Filter */}
+          {/* Discipline Filter (All 20 Domains) */}
+          <select
+            className="hud-select"
+            value={filters.domain}
+            onChange={(e) => onFilterChange('domain', e.target.value)}
+          >
+            <option value="">Discipline: All ({domains.length})</option>
+            {domains.map(d => <option key={d} value={d}>{d}</option>)}
+          </select>
+
+          {/* Streamlined Entry Level Filter */}
           <select
             className="hud-select"
             value={filters.level}
             onChange={(e) => onFilterChange('level', e.target.value)}
           >
-            <option value="">Entry Level: All</option>
-            {levels.map(l => <option key={l} value={l}>{l}</option>)}
+            <option value="">Entry Level: All Qualifications</option>
+            <option value="10th">10th Pass / Secondary</option>
+            <option value="12th">12th Pass / Intermediate</option>
+            <option value="diploma">Diploma / Polytechnic / ITI</option>
+            <option value="graduate">Graduate / Bachelor's Degree</option>
+            <option value="postgraduate">Postgraduate / Master's Degree</option>
+            <option value="doctoral">Doctoral / Ph.D. / Research</option>
           </select>
 
           {/* Type Filter */}

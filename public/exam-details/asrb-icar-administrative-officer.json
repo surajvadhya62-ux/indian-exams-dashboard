@@ -1,8 +1,7 @@
 {
   "id": "asrb-icar-administrative-officer",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Administrative Officers (AO) and Finance & Accounts Officers (FAO) are the premier administrative and financial executive cadre recruited through national competitive examination conducted by the Agricultural Scientists Recruitment Board (ASRB) for the Indian Council of Agricultural Research (ICAR) and its 64+ national institutes across India. Appointed to Group 'A' Junior Scale (Pay Level 10), officers manage institute general administration, scientific personnel management, legal affairs, procurement, research grants, and financial comptrollership, progressing to Senior Administrative Officer, Chief Administrative Officer, and Joint Secretary at ICAR Headquarters.",
@@ -14,7 +13,7 @@
         "confidence": "verified",
         "as_of": "2021-07-19",
         "source_url": "https://www.asrb.org.in",
-        "source_label": "ASRB Combined Examination Notification No. 02(02)/2021-Exam-I (Pay Level 10, ₹56,100 - ₹1,77,500)"
+        "source_label": "ASRB Combined Examination Notification No. 02(02)/2021-Exam-I (Pay Level 10, \u20b956,100 - \u20b91,77,500)"
       },
       {
         "designation": "Senior Administrative Officer (SAO) / Senior FAO",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The Combined Examination for Administrative Officer (AO) and Finance & Accounts Officer (FAO) conducted by ASRB consists of a three-tier selection process: Tier I (Computer Based Preliminary Screening Examination), Tier II (Descriptive Mains Examination of 4 Papers), and Tier III (Structured Interview / Personality Test).",
@@ -65,7 +63,7 @@
         "confidence": "verified",
         "as_of": "2021-07-19",
         "source_url": "https://www.asrb.org.in",
-        "source_label": "ASRB Notification — Scheme of Tier I Preliminary Examination",
+        "source_label": "ASRB Notification \u2014 Scheme of Tier I Preliminary Examination",
         "papers": [
           {
             "paper_name": "Section A: General Knowledge",
@@ -102,12 +100,12 @@
         ]
       },
       {
-        "stage_name": "Tier II: Mains Examination (Descriptive Written — 4 Papers, 600 Marks Total)",
+        "stage_name": "Tier II: Mains Examination (Descriptive Written \u2014 4 Papers, 600 Marks Total)",
         "stage_order": 2,
         "confidence": "verified",
         "as_of": "2021-07-19",
         "source_url": "https://www.asrb.org.in",
-        "source_label": "ASRB Notification — Scheme of Tier II Mains Examination",
+        "source_label": "ASRB Notification \u2014 Scheme of Tier II Mains Examination",
         "papers": [
           {
             "paper_name": "Paper I: General Awareness (History, Geography, Indian Polity, Economy, Agriculture & Rural Development)",
@@ -149,7 +147,7 @@
         "confidence": "verified",
         "as_of": "2021-07-19",
         "source_url": "https://www.asrb.org.in",
-        "source_label": "ASRB — Scheme of Tier III Interview & Merit Determination",
+        "source_label": "ASRB \u2014 Scheme of Tier III Interview & Merit Determination",
         "papers": [
           {
             "paper_name": "Personality Test / Interview (ASRB New Delhi)",
@@ -163,7 +161,6 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
     "note": null,
@@ -172,7 +169,7 @@
     "pay_confidence": "verified",
     "pay_as_of": "2021-07-19",
     "pay_source_url": "https://www.asrb.org.in",
-    "pay_source_label": "ASRB Notification No. 02(02)/2021-Exam-I — Pay Matrix Level 10 (₹56,100 - ₹1,77,500)",
+    "pay_source_label": "ASRB Notification No. 02(02)/2021-Exam-I \u2014 Pay Matrix Level 10 (\u20b956,100 - \u20b91,77,500)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -184,7 +181,7 @@
       "max": 101000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated based on 7th CPC Level 10 entry basic pay of ₹56,100 (Group A Gazetted). Dearness Allowance at canonical 58% equals ₹32,538. House Rent Allowance ranges from ₹5,610 (10% in Z-class rural ICAR stations) to ₹16,830 (30% in X-class cities like ICAR Headquarters/IARI Pusa, New Delhi). Transport Allowance for Level 10 is ₹7,200 + 58% DA = ₹11,376 in higher TPTA cities (or ₹3,600 + DA = ₹5,688 in other cities). Monthly deductions include National Pension System (10% of Basic + DA = ₹8,864), CGHS, and income tax.",
+    "estimate_note": "Calculated based on 7th CPC Level 10 entry basic pay of \u20b956,100 (Group A Gazetted). Dearness Allowance at canonical 58% equals \u20b932,538. House Rent Allowance ranges from \u20b95,610 (10% in Z-class rural ICAR stations) to \u20b916,830 (30% in X-class cities like ICAR Headquarters/IARI Pusa, New Delhi). Transport Allowance for Level 10 is \u20b97,200 + 58% DA = \u20b911,376 in higher TPTA cities (or \u20b93,600 + DA = \u20b95,688 in other cities). Monthly deductions include National Pension System (10% of Basic + DA = \u20b98,864), CGHS, and income tax.",
     "official_perks": [
       "Allotted Type-V / Type-IV central government institutional residential quarters at ICAR institute campuses or HRA",
       "Transport Allowance and official staff vehicle access for official and administrative duties",
@@ -195,11 +192,22 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment data from the Agricultural Scientists Recruitment Board for ICAR Administrative Officers and Finance & Accounts Officers.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.asrb.org.in",
+        "source_label": "ASRB New Delhi - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2021,
         "applicants": 82000,
@@ -213,7 +221,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment portals and notices maintained by the Agricultural Scientists Recruitment Board.",

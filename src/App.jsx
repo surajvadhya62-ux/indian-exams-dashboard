@@ -86,6 +86,8 @@ function App() {
   // Theme state: only 'dark' and 'light'
   const [theme, setTheme] = useState(() => {
     try {
+      const urlTheme = new URLSearchParams(window.location.search).get('theme')
+      if (urlTheme === 'light' || urlTheme === 'dark') return urlTheme
       const saved = localStorage.getItem('indiaexams_theme')
       if (saved === 'light' || saved === 'dark') return saved
       if (saved === 'gazette') return 'light'
@@ -264,8 +266,32 @@ function App() {
         (exam.state && exam.state.toLowerCase().includes(q)) ||
         (exam.field && exam.field.some(f => f.toLowerCase().includes(q)))
 
-      const matchDomain = !filters.domain || exam.domain === filters.domain
-      const matchLevel = !filters.level || exam.level === filters.level
+      const matchDomain = !filters.domain || (
+        filters.domain === 'Finance'
+          ? (exam.domain === 'Finance' || exam.domain === 'Banking')
+          : exam.domain === filters.domain
+      )
+
+      let matchLevel = true
+      if (filters.level) {
+        const sel = filters.level.toLowerCase()
+        const combined = `${(exam.level || '').toLowerCase()} ${(exam.min_qualification || '').toLowerCase()}`
+        if (sel === '10th') {
+          matchLevel = combined.includes('10th') || combined.includes('matric') || combined.includes('secondary')
+        } else if (sel === '12th') {
+          matchLevel = combined.includes('12th') || combined.includes('intermediate') || combined.includes('undergraduate') || combined.includes('higher secondary')
+        } else if (sel === 'diploma') {
+          matchLevel = combined.includes('diploma') || combined.includes('iti') || combined.includes('polytechnic')
+        } else if (sel === 'graduate') {
+          matchLevel = combined.includes('graduate') || combined.includes('bachelor') || combined.includes('degree') || combined.includes('professional') || combined.includes('b.tech') || combined.includes('mbbs') || combined.includes('llb')
+        } else if (sel === 'postgraduate') {
+          matchLevel = combined.includes('postgraduate') || combined.includes('post graduate') || combined.includes('master') || combined.includes('pg') || combined.includes('m.tech') || combined.includes('md') || combined.includes('ms')
+        } else if (sel === 'doctoral') {
+          matchLevel = combined.includes('doctoral') || combined.includes('ph.d') || combined.includes('phd') || combined.includes('fellowship')
+        } else {
+          matchLevel = (exam.level || '').toLowerCase().includes(sel)
+        }
+      }
       const matchMode = !filters.exam_mode || exam.exam_mode.toLowerCase().includes(filters.exam_mode.toLowerCase())
       const matchFreq = !filters.frequency || exam.frequency === filters.frequency
       const matchType = !filters.exam_type || exam.exam_type === filters.exam_type

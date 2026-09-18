@@ -17,6 +17,7 @@ export default function CompetitionBenchmarks({ section, detailStatus }) {
 
   const years = [...(section.years || [])].sort((a, b) => b.year - a.year)
   const hasShortlist = years.some((row) => row.shortlisted_for_mains != null)
+  const hasCutoff = years.some((row) => row.cutoff != null || row.cutoff_marks != null)
 
   return (
     <div style={{ overflowX: 'auto' }}>
@@ -27,6 +28,7 @@ export default function CompetitionBenchmarks({ section, detailStatus }) {
             <th>Applicants</th>
             {hasShortlist && <th>Shortlisted (Mains)</th>}
             <th>Vacancies</th>
+            {hasCutoff && <th>Cutoff / Qualifying Score</th>}
             <th>Selectivity</th>
             <th>Source</th>
           </tr>
@@ -40,6 +42,11 @@ export default function CompetitionBenchmarks({ section, detailStatus }) {
                 <td>{row.shortlisted_for_mains != null ? row.shortlisted_for_mains.toLocaleString('en-IN') : '—'}</td>
               )}
               <td>{row.vacancies != null ? row.vacancies.toLocaleString('en-IN') : '—'}</td>
+              {hasCutoff && (
+                <td style={{ fontSize: '0.8rem', color: 'var(--amber-bright, #e8a33d)', fontWeight: 600 }}>
+                  {row.cutoff ? row.cutoff : (row.cutoff_marks ? `Gen: ${row.cutoff_marks.general || row.cutoff_marks.ur || '—'}` : '—')}
+                </td>
+              )}
               <td>{row.selectivity_ratio || '—'}</td>
               <td>
                 {row.confidence === 'verified' && (

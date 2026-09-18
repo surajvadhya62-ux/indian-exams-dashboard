@@ -1,8 +1,7 @@
 {
   "id": "ntse",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "exam_scheme": {
     "status": "available",
     "note": "The National Talent Search Examination (NTSE) is a prestigious flagship national scholarship programme conducted by the National Council of Educational Research and Training (NCERT) for Class 10 students across India. The selection process operates at two levels: Stage I (State/UT Level) conducted by individual State/UT education departments/SCERTs, and Stage II (National Level) conducted by NCERT for candidates qualifying Stage I state quotas. Both stages consist of two written papers administered on the same day: Paper 1 (Mental Ability Test - MAT) comprising 100 MCQs on logical and analytical reasoning (100 marks, 120 minutes) and Paper 2 (Scholastic Aptitude Test - SAT) comprising 100 MCQs covering Science (40), Mathematics (20), and Social Science (40) (100 marks, 120 minutes). There is no negative marking in either paper. A total of 2,000 national scholarships are awarded annually.",
@@ -13,7 +12,7 @@
         "confidence": "verified",
         "as_of": "2025-05-10",
         "source_url": "https://ncert.nic.in/national-talent-examination.php",
-        "source_label": "NCERT Educational Survey Division — NTSE Scheme Guidelines",
+        "source_label": "NCERT Educational Survey Division \u2014 NTSE Scheme Guidelines",
         "papers": [
           {
             "paper_name": "Paper I: Mental Ability Test (MAT)",
@@ -39,7 +38,7 @@
         "confidence": "verified",
         "as_of": "2025-05-10",
         "source_url": "https://ncert.nic.in/national-talent-examination.php",
-        "source_label": "NCERT Guidelines — Stage II National Merit List Scheme",
+        "source_label": "NCERT Guidelines \u2014 Stage II National Merit List Scheme",
         "papers": [
           {
             "paper_name": "Paper I: Mental Ability Test (MAT - National Level)",
@@ -61,11 +60,22 @@
       }
     ]
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Statistics from NCERT Educational Survey Division reports and state examination authority quotas.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://ncert.nic.in",
+        "source_label": "NCERT - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2021,
         "applicants": 1400000,
@@ -86,11 +96,10 @@
         "confidence": "reported",
         "as_of": "2021-07-16",
         "source_url": "https://ncert.nic.in/national-talent-examination.php",
-        "source_label": "NCERT Annual Report — Educational Survey Division (NTSE Statistics)"
+        "source_label": "NCERT Annual Report \u2014 Educational Survey Division (NTSE Statistics)"
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official scheme portal and guidelines published by the National Council of Educational Research and Training.",

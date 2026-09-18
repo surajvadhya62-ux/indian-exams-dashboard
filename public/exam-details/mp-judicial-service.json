@@ -1,14 +1,14 @@
 {
   "id": "mp-judicial-service",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "steps": [
       {
         "step_order": 1,
         "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class (JMFC)",
-        "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+        "pay_level": "SNJPC J-1 (\u20b977,840 \u2013 \u20b91,36,520)",
         "promotion_criteria": "Direct recruitment conducted by High Court of Madhya Pradesh (Preliminary Exam, Main Written Exam and Viva-Voce), followed by 1-year institutional training at Madhya Pradesh State Judicial Academy (MPSJA), Jabalpur.",
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -18,7 +18,7 @@
       {
         "step_order": 2,
         "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) / ACJM",
-        "pay_level": "SNJPC J-3 (₹1,11,000 – ₹1,63,030)",
+        "pay_level": "SNJPC J-3 (\u20b91,11,000 \u2013 \u20b91,63,030)",
         "promotion_criteria": "Promotion on seniority-cum-merit by High Court of MP after 5 years of satisfactory judicial service as Civil Judge (Junior Division), based on disposal quotas and ACR scrutiny.",
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -28,7 +28,7 @@
       {
         "step_order": 3,
         "designation": "Additional District & Sessions Judge (ADJ / Additional District Judge)",
-        "pay_level": "SNJPC J-5 (₹1,44,840 – ₹1,94,660)",
+        "pay_level": "SNJPC J-5 (\u20b91,44,840 \u2013 \u20b91,94,660)",
         "promotion_criteria": "Promotion to Higher Judicial Service cadre either through Limited Departmental Competitive Examination (LDCE 10% quota) after 5 years as Senior Civil Judge or through regular DPC quota (65% quota) based on merit-cum-seniority.",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -38,7 +38,7 @@
       {
         "step_order": 4,
         "designation": "Principal District & Sessions Judge (PDJ / District Judge)",
-        "pay_level": "SNJPC J-7 (₹1,99,100 – ₹2,24,100)",
+        "pay_level": "SNJPC J-7 (\u20b91,99,100 \u2013 \u20b92,24,100)",
         "promotion_criteria": "Selection and posting as Head of District Judiciary by Full Court of High Court of Madhya Pradesh on seniority-cum-suitability.",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -48,7 +48,7 @@
       {
         "step_order": 5,
         "designation": "Judge, High Court of Madhya Pradesh",
-        "pay_level": "Constitutional Post (₹2,25,000 fixed)",
+        "pay_level": "Constitutional Post (\u20b92,25,000 fixed)",
         "promotion_criteria": "Elevation to High Court Bench under Article 217(2)(a) of the Constitution of India via Supreme Court Collegium recommendation from state judicial service quota.",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -139,7 +139,7 @@
   },
   "financial_package": {
     "status": "available",
-    "pay_level": "SNJPC J-1 (₹77,840 – ₹1,36,520)",
+    "pay_level": "SNJPC J-1 (\u20b977,840 \u2013 \u20b91,36,520)",
     "entry_basic_pay": 77840,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-12",
@@ -159,7 +159,7 @@
     "official_perks": [
       {
         "perk_name": "Dearness Allowance (DA)",
-        "perk_description": "Dearness Allowance at 58% of basic pay (₹45,147 per month at entry level) under SNJPC judicial pay scales.",
+        "perk_description": "Dearness Allowance at 58% of basic pay (\u20b945,147 per month at entry level) under SNJPC judicial pay scales.",
         "confidence": "verified",
         "source_label": "SNJPC Dearness Allowance Orders"
       },
@@ -193,6 +193,18 @@
   "competition_benchmarks": {
     "status": "available",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://mphc.gov.in",
+        "source_label": "High Court of Madhya Pradesh - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "vacancies": 191,

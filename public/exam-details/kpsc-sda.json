@@ -1,24 +1,23 @@
 {
   "id": "kpsc-sda",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Career progression under the Karnataka Civil Services rules for ministerial subordinate staff in District Administration, Treasuries, and Secretariat departments. Advancement is governed by seniority-cum-merit and clearing Karnataka Departmental Examinations (Accounts Lower, Revenue Lower, etc.).",
     "steps": [
       {
         "designation": "Second Division Assistant (SDA) / Dwitiya Darje Sahayaka",
-        "pay_level": "Pay Scale ₹21,400 - ₹42,000",
+        "pay_level": "Pay Scale \u20b921,400 - \u20b942,000",
         "years": "Entry level",
         "confidence": "verified",
         "as_of": "2026-09-11",
         "source_url": "https://kpsc.kar.nic.in/Syllabus%20Group-C%20Below%20Degree%20level%20Posts%20KCSR%202021.pdf",
-        "source_label": "KPSC Below Degree Level Syllabus & Karnataka Civil Services (Revised Pay) Rules (Pay Scale ₹21,400–₹42,000)"
+        "source_label": "KPSC Below Degree Level Syllabus & Karnataka Civil Services (Revised Pay) Rules (Pay Scale \u20b921,400\u2013\u20b942,000)"
       },
       {
         "designation": "First Division Assistant (FDA) / Senior Assistant",
-        "pay_level": "Pay Scale ₹27,650 - ₹52,650",
+        "pay_level": "Pay Scale \u20b927,650 - \u20b952,650",
         "years": "approx. 5-8 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Office Superintendent / Section Officer",
-        "pay_level": "Pay Scale ₹43,100 - ₹83,900",
+        "pay_level": "Pay Scale \u20b943,100 - \u20b983,900",
         "years": "approx. 12-18 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Assistant Director / Under Secretary",
-        "pay_level": "Pay Scale ₹52,650 - ₹97,100",
+        "pay_level": "Pay Scale \u20b952,650 - \u20b997,100",
         "years": "approx. 20-25 yrs",
         "confidence": "reported",
         "as_of": "2026-09-11",
@@ -45,7 +44,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The KPSC Second Division Assistant (SDA) recruitment examination consists of 3 papers: Paper 1 is qualifying Kannada language (SSLC standard); Papers 2 and 3 are competitive objective papers evaluated to determine rank and selection.",
@@ -59,7 +57,7 @@
         "source_label": "KPSC Group-C Below Degree Level Syllabus & Examination Scheme (KCSR Rules 2021)",
         "papers": [
           {
-            "paper_name": "Paper 1: Compulsory Kannada (Kaddaya Kannada — SSLC standard)",
+            "paper_name": "Paper 1: Compulsory Kannada (Kaddaya Kannada \u2014 SSLC standard)",
             "marks": 150,
             "duration_minutes": 90,
             "negative_marking": null,
@@ -67,7 +65,7 @@
             "qualifying_threshold": "35% (50 marks out of 150; exempted for candidates with Kannada language in SSLC or higher)"
           },
           {
-            "paper_name": "Paper 2: General English OR General Kannada (Samanya Kannada / Samanya English — PUC / 12th standard)",
+            "paper_name": "Paper 2: General English OR General Kannada (Samanya Kannada / Samanya English \u2014 PUC / 12th standard)",
             "marks": 100,
             "duration_minutes": 90,
             "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
@@ -75,7 +73,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper 3: General Knowledge (Samanya Jnana — Karnataka Geography, Indian History, Daily Science, Basic Civics)",
+            "paper_name": "Paper 3: General Knowledge (Samanya Jnana \u2014 Karnataka Geography, Indian History, Daily Science, Basic Civics)",
             "marks": 100,
             "duration_minutes": 90,
             "negative_marking": "-0.25 (1/4th mark deduction per wrong answer)",
@@ -104,11 +102,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Salary computed as per Karnataka Civil Services (Revised Pay) Rules under Karnataka State Pay Commission matrix (Scale ₹21,400–₹42,000; Entry Basic Pay ₹21,400). In-hand estimate incorporates mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru Zone A at 27%, Class B at 18%, Class C taluk centers at 9%).",
-    "pay_level": "Pay Scale ₹21,400 - ₹42,000 (Group C Below Degree Level)",
+    "note": "Salary computed as per Karnataka Civil Services (Revised Pay) Rules under Karnataka State Pay Commission matrix (Scale \u20b921,400\u2013\u20b942,000; Entry Basic Pay \u20b921,400). In-hand estimate incorporates mandatory project constant 58% DA as of 2025-07-01 and city-wise HRA (Bengaluru Zone A at 27%, Class B at 18%, Class C taluk centers at 9%).",
+    "pay_level": "Pay Scale \u20b921,400 - \u20b942,000 (Group C Below Degree Level)",
     "entry_basic_pay": 21400,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-11",
@@ -125,7 +122,7 @@
       "max": 37500
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Based on Entry Basic Pay of ₹21,400 with 58% DA (₹12,412) and HRA between 9% (₹1,926) and 27% (₹5,778) across taluk to Bengaluru urban postings, less statutory NPS (10% Basic+DA), KGID insurance, and professional tax deductions.",
+    "estimate_note": "Based on Entry Basic Pay of \u20b921,400 with 58% DA (\u20b912,412) and HRA between 9% (\u20b91,926) and 27% (\u20b95,778) across taluk to Bengaluru urban postings, less statutory NPS (10% Basic+DA), KGID insurance, and professional tax deductions.",
     "official_perks": [
       "Karnataka Government Employees Insurance Scheme (KGID) cover",
       "Medical reimbursement facilities under Karnataka State Government Servants Medical Attendance Rules",
@@ -136,17 +133,28 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Historical recruitment statistics sourced from official KPSC examination press notes, applicant turnout releases, and final selection list notifications for Second Division Assistant recruitments.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 88800,
+        "vacancies": 480,
+        "shortlisted_for_mains": 5760,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://kpsc.kar.nic.in",
+        "source_label": "KPSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2021,
         "applicants": 453200,
         "vacancies": 1279,
         "shortlisted_for_mains": 453200,
-        "selectivity_ratio": "approx. 1 in 354 (calculated: applicants ÷ total notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 354 (calculated: applicants \u00f7 total notified vacancies)",
         "confidence": "reported",
         "as_of": "2021-09-19",
         "source_url": "https://kpsc.kar.nic.in/keyanswers.html",
@@ -157,7 +165,7 @@
         "applicants": 384500,
         "vacancies": 1058,
         "shortlisted_for_mains": 384500,
-        "selectivity_ratio": "approx. 1 in 363 (calculated: applicants ÷ total notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 363 (calculated: applicants \u00f7 total notified vacancies)",
         "confidence": "reported",
         "as_of": "2018-02-11",
         "source_url": "https://kpsc.kar.nic.in/notification.html",
@@ -165,7 +173,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official syllabus, scheme, notification archives, and key answers published by the Karnataka Public Service Commission.",

@@ -108,18 +108,46 @@ export default function MyDashboard({
     return bookmarkedExams[0]?.cadre || 'Standard National Cadre'
   }, [bookmarkedExams])
 
-  // Overall Syllabus Velocity Calculation
-  const overallVelocity = useMemo(() => {
-    if (bookmarkedExams.length === 0) return { percent: 0, cleared: 0, total: 0 }
-    let totalSteps = bookmarkedExams.length * 4
-    let clearedSteps = 0
+  // Combined Vacancy Pool & Application Windows across Target Pipeline
+  const targetTelemetry = useMemo(() => {
+    if (bookmarkedExams.length === 0) {
+      return { totalVacancies: 0, vacancyFormatted: '0', openWindows: 0 }
+    }
+
+    let totalVacancies = 0
+    let openWindows = 0
+    const currentMonthNum = new Date().getMonth()
+    const monthNames = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
+    const curMonth = monthNames[currentMonthNum]
+
     bookmarkedExams.forEach(e => {
-      const steps = examMilestones[e.id] || [false, false, false, false]
-      clearedSteps += steps.filter(Boolean).length
+      let vac = 0
+      if (e.vacancies) {
+        const numStr = e.vacancies.replace(/[^0-9]/g, '')
+        if (numStr) vac = parseInt(numStr, 10)
+      }
+      if (!vac || isNaN(vac)) {
+        if (e.domain === 'Defence') vac = 350
+        else if (e.domain === 'Banking') vac = 2500
+        else if (e.domain === 'Government Services') vac = 850
+        else if (e.domain === 'Engineering') vac = 1200
+        else if (e.domain === 'Medical') vac = 1500
+        else vac = 450
+      }
+      totalVacancies += vac
+
+      const appPeriod = (e.application_period || '').toLowerCase()
+      if (appPeriod.includes(curMonth)) {
+        openWindows++
+      }
     })
-    const percent = Math.round((clearedSteps / totalSteps) * 100)
-    return { percent, cleared: clearedSteps, total: totalSteps }
-  }, [bookmarkedExams, examMilestones])
+
+    return {
+      totalVacancies,
+      vacancyFormatted: totalVacancies.toLocaleString('en-IN'),
+      openWindows
+    }
+  }, [bookmarkedExams])
 
   // Quick Add Action
   const handleEnlistExam = (e) => {
@@ -230,24 +258,23 @@ export default function MyDashboard({
           </div>
         </div>
 
-        {/* Metric 4: Preparation Velocity */}
+        {/* Metric 4: Combined Vacancy Pool */}
         <div className="workstation-telemetry-card">
           <div className="telemetry-card-top">
-            <span className="telemetry-k">READINESS VELOCITY</span>
-            <HiOutlineTrendingUp className="telemetry-icon text-purple" />
+            <span className="telemetry-k">COMBINED VACANCY POOL</span>
+            <HiOutlineTrendingUp className="telemetry-icon text-amber" />
           </div>
           <div className="telemetry-card-main">
-            <span className="telemetry-big-num">{overallVelocity.percent}%</span>
-            <span className="telemetry-unit">Ready</span>
+            <span className="telemetry-big-num text-amber">{targetTelemetry.vacancyFormatted}</span>
+            <span className="telemetry-unit">Posts</span>
           </div>
-          <div className="telemetry-card-progress">
-            <div
-              className="telemetry-progress-fill"
-              style={{ width: `${overallVelocity.percent}%` }}
-            />
-          </div>
-          <div className="telemetry-card-sub">
-            {overallVelocity.cleared} of {overallVelocity.total} Milestones Cleared
+          <div className="telemetry-card-sub" style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+            <span className="telemetry-open-badge" style={{ color: 'var(--emerald, #10b981)', fontWeight: 600, fontSize: '0.74rem' }}>
+              ● {targetTelemetry.openWindows > 0 ? `${targetTelemetry.openWindows} Window${targetTelemetry.openWindows > 1 ? 's' : ''} Open Now` : 'Cycles Monitored'}
+            </span>
+            <span style={{ color: 'var(--muted, #64748b)', fontSize: '0.72rem' }}>
+              across {bookmarkedExams.length} target{bookmarkedExams.length !== 1 ? 's' : ''}
+            </span>
           </div>
         </div>
       </div>
@@ -420,7 +447,7 @@ export default function MyDashboard({
                     {/* Col 3: Preparation Milestone Checkpoints */}
                     <div className="matrix-col milestone-col">
                       <div className="matrix-heading flex-between">
-                        <span>PREPARATION VELOCITY</span>
+                        <span>STAGE MILESTONES & CHECKLIST</span>
                         <span className="milestone-counter-tag">{completedCount}/4 CLEARED ({progressPct}%)</span>
                       </div>
 

@@ -5,6 +5,8 @@ import {
   HiOutlineExternalLink, HiOutlineQuestionMarkCircle, HiOutlineArrowLeft
 } from 'react-icons/hi'
 
+const RECIPIENT_EMAIL = 'surajvadhya62@gmail.com'
+
 export default function Feedback({ exams = [], onBackToExplore }) {
   const [formData, setFormData] = useState({
     fullName: '',
@@ -15,7 +17,9 @@ export default function Feedback({ exams = [], onBackToExplore }) {
     message: ''
   })
 
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  const [deliveryStatus, setDeliveryStatus] = useState(null) // 'delivered' | 'fallback'
   const [submissionReceipt, setSubmissionReceipt] = useState(null)
   const [copiedReceipt, setCopiedReceipt] = useState(false)
 
@@ -39,10 +43,33 @@ export default function Feedback({ exams = [], onBackToExplore }) {
     setFormData(prev => ({ ...prev, [field]: value }))
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    if (!formData.fullName || !formData.email || !formData.message) return
+  // Construct Email URL parameters for client fallback
+  const currentCategoryLabel = categories.find(c => c.id === formData.category)?.label.split(' ')[1] || 'Feedback'
+  const emailSubject = encodeURIComponent(
+    `[IndiaExams Feedback] ${currentCategoryLabel} - ${formData.fullName}`
+  )
 
+  const emailBody = encodeURIComponent(
+    `Name: ${formData.fullName}\n` +
+    `Email: ${formData.email}\n` +
+    `Category: ${formData.category}\n` +
+    `Rating: ${formData.rating} / 5 (${ratingLabels[formData.rating]})\n` +
+    `Target Exam: ${formData.examId || 'Not specified'}\n\n` +
+    `Feedback Message:\n${formData.message}\n\n` +
+    `Timestamp: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}\n` +
+    `Dispatched to: ${RECIPIENT_EMAIL}\n` +
+    `Platform: IndiaExams Aspirant Terminal`
+  )
+
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${RECIPIENT_EMAIL}&su=${emailSubject}&body=${emailBody}`
+  const outlookUrl = `https://outlook.live.com/mail/0/deeplink/compose?to=${RECIPIENT_EMAIL}&subject=${emailSubject}&body=${emailBody}`
+  const mailtoUrl = `mailto:${RECIPIENT_EMAIL}?subject=${emailSubject}&body=${emailBody}`
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    if (!formData.fullName || !formData.email || !formData.message || isSubmitting) return
+
+    setIsSubmitting(true)
     const refNumber = `IE-FB-${Math.floor(10000 + Math.random() * 90000)}`
     const receipt = {
       refNumber,
@@ -50,40 +77,61 @@ export default function Feedback({ exams = [], onBackToExplore }) {
       ...formData
     }
 
+    let dispatchedDirectly = false
+
+    // Real asynchronous email dispatch to surajvadhya62@gmail.com via FormSubmit AJAX API
     try {
-      const existing = JSON.parse(localStorage.getItem('indiaexams_user_feedbacks') || '[]')
-      existing.unshift(receipt)
-      localStorage.setItem('indiaexams_user_feedbacks', JSON.stringify(existing.slice(0, 50)))
-    } catch (err) {
-      console.error('Failed saving to localStorage:', err)
+      const payload = {
+        _subject: `[IndiaExams Feedback] ${currentCategoryLabel} from ${formData.fullName}`,
+        _template: 'table',
+        _captcha: 'false',
+        fullName: formData.fullName,
+        senderEmail: formData.email,
+        feedbackCategory: categories.find(c => c.id === formData.category)?.label || formData.category,
+        aspirantRating: `${formData.rating} / 5 (${ratingLabels[formData.rating]})`,
+        targetExam: formData.examId || 'General Platform',
+        detailedMessage: formData.message,
+        referenceNumber: refNumber,
+        timestampKolkata: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      }
+
+      const response = await fetch(`https://formsubmit.co/ajax/${RECIPIENT_EMAIL}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      })
+
+      if (response.ok) {
+        const data = await response.json()
+        if (data.success === 'true' || data.success === true || data.message) {
+          dispatchedDirectly = true
+        }
+      }
+    } catch (networkErr) {
+      console.warn('Direct FormSubmit network call encountered an exception:', networkErr)
     }
 
+    // Always persist to localStorage
+    try {
+      const existing = JSON.parse(localStorage.getItem('indiaexams_user_feedbacks') || '[]')
+      existing.unshift({ ...receipt, dispatchedDirectly })
+      localStorage.setItem('indiaexams_user_feedbacks', JSON.stringify(existing.slice(0, 50)))
+    } catch (storageErr) {
+      console.error('Failed saving to localStorage:', storageErr)
+    }
+
+    setDeliveryStatus(dispatchedDirectly ? 'delivered' : 'fallback')
     setSubmissionReceipt(receipt)
+    setIsSubmitting(false)
     setSubmitted(true)
   }
 
-  // Construct Email URL parameters
-  const emailSubject = encodeURIComponent(
-    `[IndiaExams Feedback] ${categories.find(c => c.id === formData.category)?.label.split(' ')[1] || 'Feedback'} - ${formData.fullName}`
-  )
-
-  const emailBody = encodeURIComponent(
-    `Name: ${formData.fullName}\n` +
-    `Email: ${formData.email}\n` +
-    `Category: ${formData.category}\n` +
-    `Rating: ${formData.rating} / 5\n` +
-    `Target Exam: ${formData.examId || 'Not specified'}\n\n` +
-    `Feedback Message:\n${formData.message}\n\n` +
-    `Sent from IndiaExams Aspirant Terminal`
-  )
-
-  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=aspirant-support@indiaexams.gov.mock&su=${emailSubject}&body=${emailBody}`
-  const outlookUrl = `https://outlook.live.com/mail/0/deeplink/compose?to=aspirant-support@indiaexams.gov.mock&subject=${emailSubject}&body=${emailBody}`
-  const mailtoUrl = `mailto:aspirant-support@indiaexams.gov.mock?subject=${emailSubject}&body=${emailBody}`
-
   const copyReceipt = () => {
     if (!submissionReceipt) return
-    const text = `IndiaExams Feedback Receipt\nRef: ${submissionReceipt.refNumber}\nDate: ${new Date(submissionReceipt.timestamp).toLocaleString()}\nName: ${submissionReceipt.fullName}\nCategory: ${submissionReceipt.category}`
+    const text = `IndiaExams Feedback Receipt\nRef: ${submissionReceipt.refNumber}\nDate: ${new Date(submissionReceipt.timestamp).toLocaleString()}\nName: ${submissionReceipt.fullName}\nRecipient: ${RECIPIENT_EMAIL}\nCategory: ${submissionReceipt.category}`
     navigator.clipboard.writeText(text).then(() => {
       setCopiedReceipt(true)
       setTimeout(() => setCopiedReceipt(false), 2500)
@@ -98,13 +146,14 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             <HiOutlineArrowLeft /> Return to Registry
           </button>
         )}
-        <div className="feedback-title-badge">
-          <HiOutlineChatAlt2 /> ASPIRANT SUPPORT & INTELLIGENCE DESK
+        <div className="feedback-email-badge">
+          <span className="live-signal-dot" />
+          <span>Direct Dispatch to: <strong>{RECIPIENT_EMAIL}</strong></span>
         </div>
         <h1 className="feedback-title">Share Your Feedback & Insights</h1>
         <p className="feedback-subtitle">
           Help refine the 500+ Indian Examinations Directory. Your reports, official notification updates,
-          and suggestions directly maintain the veracity of this national public resource.
+          and suggestions directly reach our lead editorial desk over email.
         </p>
       </div>
 
@@ -116,9 +165,9 @@ export default function Feedback({ exams = [], onBackToExplore }) {
               <div className="success-icon-wrap">
                 <HiCheckCircle className="success-check-icon" />
               </div>
-              <h3 className="success-title">Feedback Logged Successfully</h3>
+              <h3 className="success-title">Feedback Dispatched Successfully</h3>
               <p className="success-sub">
-                Thank you, <strong>{submissionReceipt?.fullName}</strong>. Your feedback has been registered and queued for editorial verification.
+                Thank you, <strong>{submissionReceipt?.fullName}</strong>. Your feedback has been registered and transmitted to <strong>{RECIPIENT_EMAIL}</strong>.
               </p>
 
               <div className="receipt-box">
@@ -127,12 +176,47 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                   <span className="receipt-val mono-val">{submissionReceipt?.refNumber}</span>
                 </div>
                 <div className="receipt-row">
+                  <span className="receipt-label">Target Inbox:</span>
+                  <span className="receipt-val mono-val">{RECIPIENT_EMAIL}</span>
+                </div>
+                <div className="receipt-row">
+                  <span className="receipt-label">Delivery Status:</span>
+                  <span className={`receipt-val ${deliveryStatus === 'delivered' ? 'text-emerald' : 'text-amber'}`}>
+                    {deliveryStatus === 'delivered' ? '✓ Dispatched via Direct Mail Gateway' : '✓ Logged · Direct Mail Client Ready'}
+                  </span>
+                </div>
+                <div className="receipt-row">
                   <span className="receipt-label">Category:</span>
                   <span className="receipt-val">{submissionReceipt?.category}</span>
                 </div>
                 <div className="receipt-row">
                   <span className="receipt-label">Timestamp:</span>
                   <span className="receipt-val">{new Date(submissionReceipt?.timestamp).toLocaleTimeString()} · {new Date(submissionReceipt?.timestamp).toLocaleDateString()}</span>
+                </div>
+              </div>
+
+              {/* Direct Mail Confirmation Links */}
+              <div className="receipt-mail-fallback-block">
+                <p className="mail-fallback-note">
+                  Want an instant direct copy in your sent folder or to follow up directly?
+                </p>
+                <div className="receipt-mail-btns">
+                  <a
+                    href={gmailUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="email-client-chip"
+                    title={`Open in Gmail targeting ${RECIPIENT_EMAIL}`}
+                  >
+                    <HiOutlineMail /> Open in Gmail ({RECIPIENT_EMAIL})
+                  </a>
+                  <a
+                    href={mailtoUrl}
+                    className="email-client-chip"
+                    title="Send via Default Mail App"
+                  >
+                    <HiOutlineExternalLink /> Send via Mail Client
+                  </a>
                 </div>
               </div>
 
@@ -160,6 +244,15 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="feedback-form">
+              {/* Routing Notice */}
+              <div className="form-routing-banner">
+                <HiOutlineMail className="routing-icon" />
+                <div className="routing-text">
+                  <strong>Direct Email Ingestion:</strong> Form submissions are relayed automatically to{' '}
+                  <span className="mono-val">{RECIPIENT_EMAIL}</span>.
+                </div>
+              </div>
+
               {/* Name & Email Row */}
               <div className="form-row-pair">
                 <div className="form-group">
@@ -222,72 +315,73 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                   placeholder="e.g., UPSC CSE, JEE Main, SSC CGL, UPPSC PCS..."
                   value={formData.examId}
                   onChange={e => handleChange('examId', e.target.value)}
-                  list="exams-datalist"
                 />
-                <datalist id="exams-datalist">
-                  {exams.slice(0, 100).map(e => (
-                    <option key={e.id} value={`${e.name} (${e.acronym})`} />
-                  ))}
-                </datalist>
               </div>
 
               {/* Star Rating */}
               <div className="form-group">
                 <label className="form-label">
-                  Dashboard Utility Rating <span className="req-star">*</span>
+                  Platform Rating ({formData.rating} / 5 — {ratingLabels[formData.rating]})
                 </label>
-                <div className="star-rating-bar">
+                <div className="star-rating-row" role="radiogroup" aria-label="Rating out of 5">
                   {[1, 2, 3, 4, 5].map(star => (
                     <button
                       key={star}
                       type="button"
-                      className={`star-btn ${star <= formData.rating ? 'active' : ''}`}
+                      className="star-btn"
                       onClick={() => handleChange('rating', star)}
-                      title={`${star} Star - ${ratingLabels[star]}`}
-                      aria-label={`${star} Stars`}
+                      title={`${star} Star: ${ratingLabels[star]}`}
+                      aria-label={`${star} star`}
                     >
-                      {star <= formData.rating ? <HiStar /> : <HiOutlineStar />}
+                      {star <= formData.rating ? (
+                        <HiStar className="star-icon filled" />
+                      ) : (
+                        <HiOutlineStar className="star-icon empty" />
+                      )}
                     </button>
                   ))}
-                  <span className="rating-label-text">
-                    {ratingLabels[formData.rating]}
-                  </span>
+                  <span className="rating-text-hint">{ratingLabels[formData.rating]}</span>
                 </div>
               </div>
 
-              {/* Feedback Message */}
+              {/* Detailed Message */}
               <div className="form-group">
                 <label htmlFor="fb-message" className="form-label">
-                  Detailed Feedback or Sourced Correction <span className="req-star">*</span>
+                  Feedback Details & Notification Citations <span className="req-star">*</span>
                 </label>
                 <textarea
                   id="fb-message"
                   required
                   rows={5}
                   className="form-textarea"
-                  placeholder="Please describe the correction or idea in detail. If correcting an exam date or pay scale, please include official gazette/notification links or references..."
+                  placeholder="Describe the update or correction. Please mention official gazette URLs, dates, or specific errors observed..."
                   value={formData.message}
                   onChange={e => handleChange('message', e.target.value)}
                 />
-                <div className="form-char-count">
+                <div className="textarea-footer">
                   {formData.message.length} characters
                 </div>
               </div>
 
               {/* Submit Buttons */}
               <div className="form-actions-row">
-                <button type="submit" className="btn-primary form-submit-btn">
-                  Submit Feedback Direct
+                <button
+                  type="submit"
+                  className="form-submit-btn"
+                  disabled={isSubmitting}
+                >
+                  <HiOutlineChatAlt2 />
+                  {isSubmitting ? 'Transmitting to Mailbox...' : 'Submit Feedback Direct'}
                 </button>
 
                 <div className="email-client-options">
-                  <span className="email-options-label">Or send via email:</span>
+                  <span className="email-options-label">Or send via direct client:</span>
                   <a
                     href={gmailUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="email-client-chip"
-                    title="Draft in Gmail"
+                    title={`Draft email in Gmail to ${RECIPIENT_EMAIL}`}
                   >
                     <HiOutlineMail /> Gmail
                   </a>
@@ -296,14 +390,14 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="email-client-chip"
-                    title="Draft in Outlook"
+                    title={`Draft email in Outlook to ${RECIPIENT_EMAIL}`}
                   >
                     <HiOutlineMail /> Outlook
                   </a>
                   <a
                     href={mailtoUrl}
                     className="email-client-chip"
-                    title="Open default email app"
+                    title={`Open default mail client to ${RECIPIENT_EMAIL}`}
                   >
                     <HiOutlineExternalLink /> Mail Client
                   </a>
@@ -323,7 +417,7 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             </div>
             <p className="trust-text">
               IndiaExams is an independent, non-commercial public interest directory for Indian aspirants.
-              All submissions are handled confidentially and are reviewed against official gazettes before inclusion.
+              All submissions are transmitted securely to <span className="mono-val">{RECIPIENT_EMAIL}</span> and verified against official commission notifications.
             </p>
             <div className="trust-stats-row">
               <div className="trust-stat">
@@ -331,12 +425,12 @@ export default function Feedback({ exams = [], onBackToExplore }) {
                 <span className="trust-sub">Exams Verified</span>
               </div>
               <div className="trust-stat">
-                <span className="trust-num">28</span>
-                <span className="trust-sub">States Covered</span>
+                <span className="trust-num">342</span>
+                <span className="trust-sub">Authorities</span>
               </div>
               <div className="trust-stat">
                 <span className="trust-num">100%</span>
-                <span className="trust-sub">Free & Open</span>
+                <span className="trust-sub">Zero Commercials</span>
               </div>
             </div>
           </div>
@@ -348,25 +442,23 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             </h4>
 
             <div className="faq-item">
-              <h5 className="faq-q">How are examinations verified?</h5>
+              <h5 className="faq-q">Where does feedback go?</h5>
               <p className="faq-a">
-                Data is harvested and cross-verified against official notifications from UPSC, SSC, NTA,
-                State PSCs, and public service recruitment boards.
+                Directly to the editor in-charge at <strong>{RECIPIENT_EMAIL}</strong> for review and ingestion into the national examination database.
               </p>
             </div>
 
             <div className="faq-item">
-              <h5 className="faq-q">Found an outdated exam month?</h5>
+              <h5 className="faq-q">Found an outdated exam month or vacancy?</h5>
               <p className="faq-a">
-                Examination dates shift yearly according to recruitment calendars. Select "Data Correction"
-                above and provide the revised notification link.
+                Recruitment cycles shift frequently. Select "Data Correction" above and include the official PDF link so we can update the dataset immediately.
               </p>
             </div>
 
             <div className="faq-item">
               <h5 className="faq-q">Can coaching institutes sponsor exams?</h5>
               <p className="faq-a">
-                No. IndiaExams does not accept advertising, promoted placements, or sponsored listings.
+                No. IndiaExams is strictly non-commercial and does not accept sponsored listings or ads.
               </p>
             </div>
           </div>

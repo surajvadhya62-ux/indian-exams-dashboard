@@ -1,24 +1,23 @@
 {
   "id": "wbprb-kolkata-si",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Sub-Inspectors (Unarmed Branch) and Sergeants in Kolkata Police hold executive field command across city police stations, the Detective Department, Special Branch, and Traffic Police departments. Promotion channels are governed by Kolkata Police service regulations, Kolkata Police Act, and the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019).",
     "steps": [
       {
         "designation": "Sub-Inspector of Police (SI / LSI - UB) / Sergeant (Kolkata Police)",
-        "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+        "pay_level": "ROPA 2019 Pay Level 10 (\u20b932,100 \u2013 \u20b982,900)",
         "years": "Entry",
         "confidence": "verified",
         "as_of": "2019-09-25",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Sub-Inspector / Sub-Inspectress (UB) and Sergeant in Kolkata Police 2023, and WBS (ROPA) Rules 2019"
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of Sub-Inspector / Sub-Inspectress (UB) and Sergeant in Kolkata Police 2023, and WBS (ROPA) Rules 2019"
       },
       {
         "designation": "Inspector of Police (Kolkata Police / Officer-in-Charge / Traffic Inspector)",
-        "pay_level": "ROPA 2019 Pay Level 12 (₹35,800 – ₹92,100)",
+        "pay_level": "ROPA 2019 Pay Level 12 (\u20b935,800 \u2013 \u20b992,100)",
         "years": "approx. 6-10 yrs (Seniority-cum-merit)",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -26,8 +25,8 @@
         "source_label": "Kolkata Police Executive Service Regulations"
       },
       {
-        "designation": "Assistant Commissioner of Police (ACP — Kolkata Police / WBPS Cadre)",
-        "pay_level": "ROPA 2019 Pay Level 16 (₹56,100 – ₹1,44,300)",
+        "designation": "Assistant Commissioner of Police (ACP \u2014 Kolkata Police / WBPS Cadre)",
+        "pay_level": "ROPA 2019 Pay Level 16 (\u20b956,100 \u2013 \u20b91,44,300)",
         "years": "approx. 14-18 yrs (Promotion to State Police Service Cadre)",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Deputy Commissioner of Police (DCP / Addl. CP)",
-        "pay_level": "ROPA 2019 Pay Level 17 (₹67,300 – ₹1,73,200)",
+        "pay_level": "ROPA 2019 Pay Level 17 (\u20b967,300 \u2013 \u20b91,73,200)",
         "years": "approx. 20-24 yrs",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -44,8 +43,8 @@
         "source_label": "West Bengal Police Service (WBPS) Promotion Regulations"
       },
       {
-        "designation": "Joint Commissioner of Police (JCP) — Indian Police Service (IPS)",
-        "pay_level": "7th CPC Pay Matrix Level 12 / 13 / 14 (₹78,800 – ₹2,18,200)",
+        "designation": "Joint Commissioner of Police (JCP) \u2014 Indian Police Service (IPS)",
+        "pay_level": "7th CPC Pay Matrix Level 12 / 13 / 14 (\u20b978,800 \u2013 \u20b92,18,200)",
         "years": "Selection (approx. 25+ yrs, via State Police Service Promotion Quota)",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -54,18 +53,17 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment to the posts of Sub-Inspector/Sub-Inspectress (Unarmed Branch) and Sergeant in Kolkata Police is conducted by the West Bengal Police Recruitment Board (WBPRB). The examination pattern consists of: (i) Preliminary Examination (Screening, 200 marks), (ii) Physical Measurement Test (PMT) & Physical Efficiency Test (PET), (iii) Final Combined Competitive Examination (Conventional Descriptive, 200 marks), and (iv) Personality Test (Interview, 30 marks with minimum 8 marks qualifying). Final merit is compiled strictly on the aggregate score of the Final Combined Competitive Examination and the Personality Test (Total: 230 marks).",
     "stages": [
       {
-        "stage_name": "Preliminary Examination — Objective Screening Test (100 MCQs)",
+        "stage_name": "Preliminary Examination \u2014 Objective Screening Test (100 MCQs)",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2023-10-12",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
-        "source_label": "WBPRB — Scheme of Examination for Sub-Inspector / Sub-Inspectress (UB) and Sergeant in Kolkata Police 2023",
+        "source_label": "WBPRB \u2014 Scheme of Examination for Sub-Inspector / Sub-Inspectress (UB) and Sergeant in Kolkata Police 2023",
         "papers": [
           {
             "paper_name": "General Studies",
@@ -99,7 +97,7 @@
         "confidence": "verified",
         "as_of": "2023-10-12",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of SI / Sergeant in Kolkata Police 2023",
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of SI / Sergeant in Kolkata Police 2023",
         "papers": [
           {
             "paper_name": "Physical Measurement Test (PMT)",
@@ -110,7 +108,7 @@
             "qualifying_threshold": "Male SI (UB): Height 167 cm, Weight 56 kg, Chest 79 cm (5 cm expansion); Sergeant (KP): Height 173 cm, Weight 60 kg, Chest 86 cm (5 cm expansion); Female SI (UB): Height 160 cm, Weight 48 kg; Transgender: Height 163 cm, Weight 51 kg"
           },
           {
-            "paper_name": "Physical Efficiency Test (PET) — Running Event",
+            "paper_name": "Physical Efficiency Test (PET) \u2014 Running Event",
             "marks": 0,
             "duration_minutes": 3,
             "negative_marking": null,
@@ -125,7 +123,7 @@
         "confidence": "verified",
         "as_of": "2023-10-12",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
-        "source_label": "WBPRB — Scheme of Examination for SI / Sergeant in Kolkata Police 2023",
+        "source_label": "WBPRB \u2014 Scheme of Examination for SI / Sergeant in Kolkata Police 2023",
         "papers": [
           {
             "paper_name": "Paper I: General Studies and Arithmetic (50 marks GS, 25 marks Logical Reasoning, 25 marks Arithmetic)",
@@ -136,7 +134,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper II: English Language (Drafting of report, translation from vernacular, précis writing, correct use of words and idioms)",
+            "paper_name": "Paper II: English Language (Drafting of report, translation from vernacular, pr\u00e9cis writing, correct use of words and idioms)",
             "marks": 50,
             "duration_minutes": 60,
             "negative_marking": null,
@@ -144,7 +142,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper III: Bengali / Hindi / Urdu / Nepali (Drafting of report, translation from English, précis writing, grammar)",
+            "paper_name": "Paper III: Bengali / Hindi / Urdu / Nepali (Drafting of report, translation from English, pr\u00e9cis writing, grammar)",
             "marks": 50,
             "duration_minutes": 60,
             "negative_marking": null,
@@ -159,7 +157,7 @@
         "confidence": "verified",
         "as_of": "2023-10-12",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
-        "source_label": "WBPRB — Scheme of Examination for SI / Sergeant in Kolkata Police 2023",
+        "source_label": "WBPRB \u2014 Scheme of Examination for SI / Sergeant in Kolkata Police 2023",
         "papers": [
           {
             "paper_name": "Personality Test (Viva-Voce)",
@@ -173,11 +171,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Kolkata Police Sub-Inspectors and Sergeants are appointed under Pay Level 10 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-3 (₹7,100 – ₹37,600 with Grade Pay ₹3,900). Entry basic pay is ₹32,100.",
-    "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+    "note": "Kolkata Police Sub-Inspectors and Sergeants are appointed under Pay Level 10 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-3 (\u20b97,100 \u2013 \u20b937,600 with Grade Pay \u20b93,900). Entry basic pay is \u20b932,100.",
+    "pay_level": "ROPA 2019 Pay Level 10 (\u20b932,100 \u2013 \u20b982,900)",
     "entry_basic_pay": 32100,
     "pay_confidence": "verified",
     "pay_as_of": "2019-09-25",
@@ -185,10 +182,16 @@
     "pay_source_label": "West Bengal Services (Revision of Pay and Allowances) Rules, 2019, Level 10, and WBPRB Kolkata Police Recruitment Notification",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 55000, "max": 61000 },
-    "in_hand_range_estimate": { "min": 49000, "max": 55000 },
+    "gross_range_estimate": {
+      "min": 55000,
+      "max": 61000
+    },
+    "in_hand_range_estimate": {
+      "min": 49000,
+      "max": 55000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on ROPA 2019 Level 10 entry basic pay of ₹32,100 with project constant 58% Dearness Allowance (₹18,618), 12% House Rent Allowance (₹3,852), Medical Allowance (₹500/month), plus Kolkata Police metropolitan mobility and urban policing allowances. Deductions include West Bengal Professional Tax (PTax ₹200) and GPF/NPS contributions (~10% basic+DA).",
+    "estimate_note": "Calculated on ROPA 2019 Level 10 entry basic pay of \u20b932,100 with project constant 58% Dearness Allowance (\u20b918,618), 12% House Rent Allowance (\u20b93,852), Medical Allowance (\u20b9500/month), plus Kolkata Police metropolitan mobility and urban policing allowances. Deductions include West Bengal Professional Tax (PTax \u20b9200) and GPF/NPS contributions (~10% basic+DA).",
     "official_perks": [
       "Kolkata Police executive family residential quarters or 12% House Rent Allowance (HRA)",
       "Coverage under the West Bengal Health Scheme (WBHS) for officer and eligible family members",
@@ -199,17 +202,28 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Kolkata Police Sub-Inspector and Sergeant recruitment is administered by WBPRB for metropolitan policing. Vacancies are verified directly from WBPRB official employment notifications. Applicant counts are reported from administrative briefing statistics.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 175750,
+        "vacancies": 950,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://prb.wb.gov.in",
+        "source_label": "WBPRB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2023,
         "applicants": 95000,
         "vacancies": 309,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "approx. 1 in 307 (calculated: reported applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 307 (calculated: reported applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2023-10-12",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
@@ -220,7 +234,7 @@
         "applicants": 110000,
         "vacancies": 330,
         "shortlisted_for_mains": 5800,
-        "selectivity_ratio": "approx. 1 in 333 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 333 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2021-07-16",
         "source_url": "https://kolkatapolice.gov.in/recruitments/",
@@ -228,34 +242,33 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, application guidelines, and syllabus outlines for Kolkata Police Sub-Inspectors and Sergeants are hosted on the Kolkata Police and West Bengal Police Recruitment Board websites.",
     "links": [
       {
-        "label": "Kolkata Police — Official Recruitment Portal",
+        "label": "Kolkata Police \u2014 Official Recruitment Portal",
         "url": "https://kolkatapolice.gov.in/recruitments/",
         "type": "notification",
         "confidence": "verified",
         "as_of": "2026-09-13"
       },
       {
-        "label": "West Bengal Police Recruitment Board (WBPRB) — Official Portal",
+        "label": "West Bengal Police Recruitment Board (WBPRB) \u2014 Official Portal",
         "url": "https://prb.wb.gov.in",
         "type": "other",
         "confidence": "verified",
         "as_of": "2026-09-13"
       },
       {
-        "label": "West Bengal Police Directorate — Recruitment Notifications Hub",
+        "label": "West Bengal Police Directorate \u2014 Recruitment Notifications Hub",
         "url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
         "type": "notification",
         "confidence": "verified",
         "as_of": "2026-09-13"
       },
       {
-        "label": "Kolkata Police — Official Commissionerate Portal",
+        "label": "Kolkata Police \u2014 Official Commissionerate Portal",
         "url": "https://kolkatapolice.gov.in",
         "type": "other",
         "confidence": "verified",

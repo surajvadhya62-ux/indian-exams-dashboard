@@ -12127,3 +12127,641 @@ input, select {
   max-width: 460px;
   margin: 0 auto;
 }
+
+/* ─────────────────────────────────────────────────────────────
+   16. GLOBAL BUTTON CONTRAST & ACCENTS (Point 12)
+   ───────────────────────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--amber, #c8862a) !important;
+  color: #05070a !important;
+  border: 1px solid var(--amber-bright, #e8a33d) !important;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: var(--amber-bright, #e8a33d) !important;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+[data-theme="light"] .btn-secondary,
+[data-theme="gazette"] .btn-secondary {
+  background: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+[data-theme="light"] .btn-secondary:hover,
+[data-theme="gazette"] .btn-secondary:hover {
+  background: #e2e8f0 !important;
+}
+
+/* Feedback Submit Button */
+.form-submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #c8862a, #e8a33d) !important;
+  color: #05070a !important;
+  font-size: 0.94rem;
+  font-weight: 800;
+  padding: 12px 28px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 14px rgba(200, 134, 42, 0.35);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.form-submit-btn:hover {
+  background: linear-gradient(135deg, #e8a33d, #fbbf24) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(200, 134, 42, 0.45);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   17. CUSTOM ANALYTICS STUDIO (Point 7)
+   ───────────────────────────────────────────────────────────── */
+.custom-analytics-studio {
+  background: rgba(10, 14, 24, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  margin-top: 2rem;
+}
+
+.studio-header-strip {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-wrap: wrap;
+}
+
+.studio-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  font-family: var(--font-mono, monospace);
+  color: var(--amber-bright, #e8a33d);
+  background: rgba(200, 134, 42, 0.12);
+  border: 1px solid rgba(200, 134, 42, 0.25);
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.studio-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #f8fafc;
+  margin: 0 0 4px 0;
+}
+
+.studio-desc {
+  font-size: 0.86rem;
+  color: #94a3b8;
+  margin: 0;
+  max-width: 680px;
+}
+
+.studio-export-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #cbd5e1;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.studio-export-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #f8fafc;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.studio-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: rgba(5, 7, 10, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+}
+
+.studio-control-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 180px;
+}
+
+.studio-label {
+  font-size: 0.68rem;
+  font-family: var(--font-mono, monospace);
+  color: #94a3b8;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.studio-select {
+  padding: 7px 10px;
+  font-size: 0.82rem;
+  border-radius: 6px;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #f8fafc;
+}
+
+.studio-format-pills {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.studio-fmt-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.studio-fmt-btn.active {
+  background: var(--amber, #c8862a);
+  color: #05070a;
+  border-color: var(--amber-bright, #e8a33d);
+}
+
+.studio-telemetry-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-bottom: 1.25rem;
+}
+
+.studio-telemetry-chip {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.studio-telemetry-chip .telemetry-label {
+  font-size: 0.66rem;
+  font-family: var(--font-mono, monospace);
+  color: #64748b;
+}
+
+.studio-telemetry-chip .telemetry-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: var(--font-mono, monospace);
+  color: #f8fafc;
+}
+
+.studio-telemetry-chip .telemetry-value.highlight {
+  color: var(--amber-bright, #e8a33d);
+}
+
+/* Studio Table */
+.studio-table-container {
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  max-height: 440px;
+}
+
+.studio-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  color: #cbd5e1;
+}
+
+.studio-data-table th {
+  background: rgba(15, 23, 42, 0.95);
+  color: #94a3b8;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.72rem;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.studio-data-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.studio-data-table tr:hover td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.segment-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #f8fafc;
+}
+
+.color-swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   18. LIGHT MODE SYNC FOR CALENDAR, ANALYTICS & FEEDBACK (Point 9)
+   ───────────────────────────────────────────────────────────── */
+[data-theme="light"],
+[data-theme="gazette"] {
+  /* Calendar in Light Mode */
+  .calendar-stepper-view {
+    background: #ffffff;
+    border-color: #e2e8f0;
+  }
+  .stepper-header-bar {
+    background: #f8fafc;
+    border-color: #e2e8f0;
+  }
+  .stepper-month-badge {
+    background: #eff6ff;
+    color: #1e40af;
+    border-color: #bfdbfe;
+  }
+  .stepper-month-title {
+    color: #0f172a;
+  }
+  .stepper-event-count {
+    color: #475569;
+  }
+  .stepper-nav-btn {
+    background: #f1f5f9;
+    color: #0f172a;
+    border-color: #cbd5e1;
+  }
+  .stepper-nav-btn:hover {
+    background: #e2e8f0;
+  }
+  .calendar-detailed-card {
+    background: #ffffff !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+  }
+  .calendar-detailed-card:hover {
+    background: #f8fafc !important;
+    border-color: #cbd5e1 !important;
+  }
+  .card-primary-title {
+    color: #0f172a !important;
+  }
+  .card-secondary-title {
+    color: #475569 !important;
+  }
+  .card-meta-pill {
+    background: #f1f5f9 !important;
+    color: #1e293b !important;
+    border-color: #cbd5e1 !important;
+  }
+  .card-meta-date {
+    color: #475569 !important;
+  }
+  .cal-action-btn {
+    background: #f1f5f9 !important;
+    color: #0f172a !important;
+    border-color: #cbd5e1 !important;
+  }
+  .cal-action-btn:hover {
+    background: #e2e8f0 !important;
+  }
+
+  /* Analytics in Light Mode */
+  .chart-card.panel {
+    background: #ffffff !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04) !important;
+  }
+  .chart-card-title {
+    color: #0f172a !important;
+  }
+  .chart-card-subtitle {
+    color: #64748b !important;
+  }
+  .analytics-custom-tooltip {
+    background: #ffffff !important;
+    border-color: #cbd5e1 !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1) !important;
+    color: #0f172a !important;
+  }
+  .tooltip-row {
+    color: #334155 !important;
+  }
+  .tooltip-val {
+    color: #0f172a !important;
+    font-weight: 700 !important;
+  }
+  .analytics-view text {
+    fill: #475569 !important;
+  }
+  .analytics-view .recharts-cartesian-grid line {
+    stroke: #e2e8f0 !important;
+  }
+  .analytics-view ul li span {
+    color: #334155 !important;
+  }
+
+  /* Custom Analytics Studio in Light Mode */
+  .custom-analytics-studio {
+    background: #ffffff !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05) !important;
+  }
+  .studio-title {
+    color: #0f172a !important;
+  }
+  .studio-desc {
+    color: #64748b !important;
+  }
+  .studio-toolbar {
+    background: #f8fafc !important;
+    border-color: #e2e8f0 !important;
+  }
+  .studio-select {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border-color: #cbd5e1 !important;
+  }
+  .studio-fmt-btn {
+    background: #ffffff !important;
+    border-color: #cbd5e1 !important;
+    color: #475569 !important;
+  }
+  .studio-fmt-btn.active {
+    background: var(--amber, #c8862a) !important;
+    color: #05070a !important;
+  }
+  .studio-telemetry-chip {
+    background: #f8fafc !important;
+    border-color: #e2e8f0 !important;
+  }
+  .studio-telemetry-chip .telemetry-label {
+    color: #64748b !important;
+  }
+  .studio-telemetry-chip .telemetry-value {
+    color: #0f172a !important;
+  }
+  .studio-table-container {
+    border-color: #e2e8f0 !important;
+  }
+  .studio-data-table {
+    color: #334155 !important;
+  }
+  .studio-data-table th {
+    background: #f1f5f9 !important;
+    color: #475569 !important;
+    border-color: #e2e8f0 !important;
+  }
+  .studio-data-table td {
+    border-color: #f1f5f9 !important;
+  }
+  .studio-data-table tr:hover td {
+    background: #f8fafc !important;
+  }
+  .segment-name-cell {
+    color: #0f172a !important;
+  }
+  .studio-export-btn {
+    background: #f1f5f9 !important;
+    border-color: #cbd5e1 !important;
+    color: #0f172a !important;
+  }
+  .studio-export-btn:hover {
+    background: #e2e8f0 !important;
+  }
+
+  /* Feedback in Light Mode */
+  .feedback-container {
+    color: #0f172a !important;
+  }
+  .feedback-title {
+    color: #0f172a !important;
+  }
+  .feedback-subtitle {
+    color: #475569 !important;
+  }
+  .feedback-card.panel,
+  .trust-card.panel {
+    background: #ffffff !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05) !important;
+  }
+  .form-label {
+    color: #1e293b !important;
+  }
+  .form-input,
+  .form-textarea,
+  .form-select {
+    background: #f8fafc !important;
+    border-color: #cbd5e1 !important;
+    color: #0f172a !important;
+  }
+  .form-input:focus,
+  .form-textarea:focus,
+  .form-select:focus {
+    background: #ffffff !important;
+    border-color: var(--amber, #c8862a) !important;
+    box-shadow: 0 0 0 3px rgba(200, 134, 42, 0.15) !important;
+  }
+  .receipt-box {
+    background: #f8fafc !important;
+    border-color: #e2e8f0 !important;
+  }
+  .receipt-label {
+    color: #64748b !important;
+  }
+  .receipt-val {
+    color: #0f172a !important;
+  }
+  .receipt-val.mono-val {
+    color: var(--amber-dark, #b45309) !important;
+  }
+  .email-options-label {
+    color: #64748b !important;
+  }
+  .email-client-chip {
+    background: #f1f5f9 !important;
+    border-color: #cbd5e1 !important;
+    color: #334155 !important;
+  }
+  .email-client-chip:hover {
+    background: #e2e8f0 !important;
+    color: #0f172a !important;
+  }
+  .trust-text {
+    color: #475569 !important;
+  }
+  .trust-num {
+    color: #0f172a !important;
+  }
+  .trust-label {
+    color: #64748b !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   19. COMPREHENSIVE MOBILE RESPONSIVENESS (Point 1)
+   ───────────────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  .hud-statutory-pill {
+    display: none;
+  }
+  .hud-cmd-label {
+    display: none;
+  }
+  .hud-cmd-kbd {
+    display: none;
+  }
+  .hud-cmd-btn {
+    padding: 6px 8px;
+  }
+  .hud-brand-text {
+    font-size: 0.95rem;
+    letter-spacing: 0.15em;
+  }
+  .hud-version-chip {
+    display: none;
+  }
+
+  /* Telemetry cards: 2x2 grid */
+  .hud-telemetry-grid,
+  .workstation-telemetry-strip {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  /* Query HUD & Segmented pills */
+  .query-scope-segments {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .query-scope-pill {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .query-controls-strip {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .controls-left,
+  .controls-right {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .hud-select {
+    flex: 1 1 140px;
+  }
+
+  /* Feedback layout stack */
+  .feedback-grid-layout {
+    grid-template-columns: 1fr !important;
+  }
+  .form-row-pair {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Custom Analytics Studio */
+  .studio-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .studio-format-pills {
+    flex-wrap: wrap;
+  }
+
+  /* Modal full-bleed on mobile */
+  .exam-detail-modal {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100vh !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+  }
+  .modal-overlay {
+    padding: 0 !important;
+  }
+
+  /* Bottom page padding for Mobile Bottom Nav */
+  .app-container,
+  .fade-in,
+  .candidate-workstation-wrapper,
+  .feedback-container,
+  .calendar-view,
+  .analytics-view {
+    padding-bottom: 84px !important;
+  }
+}

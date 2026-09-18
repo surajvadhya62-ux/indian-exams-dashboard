@@ -1,15 +1,14 @@
 {
   "id": "up-pcs-j",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Judicial officers in Uttar Pradesh are governed by the Uttar Pradesh Judicial Service Rules, 2001 and the Second National Judicial Pay Commission (SNJPC) uniform pay matrix as mandated by the Supreme Court of India in All India Judges Association v. Union of India. Officers enjoy Assured Career Progression (ACP) at 5-year intervals even if cadre vacancies for promotional posts are awaiting availability.",
     "steps": [
       {
         "designation": "Civil Judge (Junior Division) / Judicial Magistrate First Class",
-        "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+        "pay_level": "SNJPC Level J-1 (\u20b977,840 - \u20b91,36,520)",
         "years": "Entry (approx.)",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -17,8 +16,8 @@
         "source_label": "Second National Judicial Pay Commission (SNJPC) & Supreme Court of India in WP(C) 643/2015"
       },
       {
-        "designation": "Civil Judge (Junior Division) — 1st Stage ACP",
-        "pay_level": "SNJPC Level J-2 (₹92,960 - ₹1,36,520)",
+        "designation": "Civil Judge (Junior Division) \u2014 1st Stage ACP",
+        "pay_level": "SNJPC Level J-2 (\u20b992,960 - \u20b91,36,520)",
         "years": "approx. 5 yrs",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -26,8 +25,8 @@
         "source_label": "Second National Judicial Pay Commission (SNJPC) & Supreme Court of India in WP(C) 643/2015"
       },
       {
-        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) — 2nd Stage ACP",
-        "pay_level": "SNJPC Level J-3 (₹1,11,000 - ₹1,63,030)",
+        "designation": "Civil Judge (Senior Division) / Chief Judicial Magistrate (CJM) \u2014 2nd Stage ACP",
+        "pay_level": "SNJPC Level J-3 (\u20b91,11,000 - \u20b91,63,030)",
         "years": "approx. 10 yrs",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -35,8 +34,8 @@
         "source_label": "Second National Judicial Pay Commission (SNJPC) & Supreme Court of India in WP(C) 643/2015"
       },
       {
-        "designation": "Civil Judge (Senior Division) — 1st Stage ACP",
-        "pay_level": "SNJPC Level J-4 (₹1,22,700 - ₹1,80,200)",
+        "designation": "Civil Judge (Senior Division) \u2014 1st Stage ACP",
+        "pay_level": "SNJPC Level J-4 (\u20b91,22,700 - \u20b91,80,200)",
         "years": "approx. 15 yrs",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Additional District & Sessions Judge (ADJ) / District Judge (Entry Level)",
-        "pay_level": "SNJPC Level J-5 (₹1,44,840 - ₹1,94,660)",
+        "pay_level": "SNJPC Level J-5 (\u20b91,44,840 - \u20b91,94,660)",
         "years": "approx. 18-22 yrs",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -53,8 +52,8 @@
         "source_label": "Second National Judicial Pay Commission (SNJPC) & Supreme Court of India in WP(C) 643/2015"
       },
       {
-        "designation": "District & Sessions Judge — Selection Grade",
-        "pay_level": "SNJPC Level J-6 (₹1,63,030 - ₹2,19,090)",
+        "designation": "District & Sessions Judge \u2014 Selection Grade",
+        "pay_level": "SNJPC Level J-6 (\u20b91,63,030 - \u20b92,19,090)",
         "years": "approx. 22-26 yrs",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -62,8 +61,8 @@
         "source_label": "Second National Judicial Pay Commission (SNJPC) & Supreme Court of India in WP(C) 643/2015"
       },
       {
-        "designation": "District & Sessions Judge — Super Time Scale / Principal District Judge",
-        "pay_level": "SNJPC Level J-7 (₹1,99,100 - ₹2,24,100)",
+        "designation": "District & Sessions Judge \u2014 Super Time Scale / Principal District Judge",
+        "pay_level": "SNJPC Level J-7 (\u20b91,99,100 - \u20b92,24,100)",
         "years": "approx. 26-30 yrs",
         "confidence": "verified",
         "as_of": "2020-01-01",
@@ -72,7 +71,7 @@
       },
       {
         "designation": "Elevation to High Court Judge (High Court of Judicature at Allahabad)",
-        "pay_level": "Constitutional Scale (₹2,25,000 fixed)",
+        "pay_level": "Constitutional Scale (\u20b92,25,000 fixed)",
         "years": "Constitutional Elevation",
         "confidence": "verified",
         "as_of": "2018-01-01",
@@ -81,7 +80,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Examination is conducted in three successive stages: Preliminary Examination (Objective, screening only), Main Examination (Conventional descriptive written), and Viva-Voce (Personality Test). Language papers were separated into English (100 marks) and Hindi (100 marks) under amended UP Judicial Service Rules.",
@@ -129,7 +127,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper II: English Language (Essay, Précis Writing, Translation from Hindi to English)",
+            "paper_name": "Paper II: English Language (Essay, Pr\u00e9cis Writing, Translation from Hindi to English)",
             "marks": 100,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -137,7 +135,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper III: Hindi Language (Essay, Précis Writing, Translation from English to Hindi)",
+            "paper_name": "Paper III: Hindi Language (Essay, Pr\u00e9cis Writing, Translation from English to Hindi)",
             "marks": 100,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -145,7 +143,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper IV: Law I (Substantive Law — Contracts, Torts, Property, Hindu/Muslim Law, Constitutional Law)",
+            "paper_name": "Paper IV: Law I (Substantive Law \u2014 Contracts, Torts, Property, Hindu/Muslim Law, Constitutional Law)",
             "marks": 200,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -153,7 +151,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper V: Law II (Procedure and Evidence — CPC, CrPC, Evidence Act, Pleadings & Judgment Writing)",
+            "paper_name": "Paper V: Law II (Procedure and Evidence \u2014 CPC, CrPC, Evidence Act, Pleadings & Judgment Writing)",
             "marks": 200,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -161,7 +159,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Paper VI: Law III (Penal, Revenue and Local Laws — IPC, UP Revenue Code 2006, UP Urban Buildings Act, Panchayat Raj Act)",
+            "paper_name": "Paper VI: Law III (Penal, Revenue and Local Laws \u2014 IPC, UP Revenue Code 2006, UP Urban Buildings Act, Panchayat Raj Act)",
             "marks": 200,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -190,11 +188,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Judicial officers in UP are paid in accordance with the Second National Judicial Pay Commission (SNJPC) uniform pay scale accepted by the Supreme Court of India in All India Judges Association v. Union of India. Civil Judge (Junior Division) starts at SNJPC Level J-1 with entry basic pay of ₹77,840.",
-    "pay_level": "SNJPC Level J-1 (₹77,840 - ₹1,36,520)",
+    "note": "Judicial officers in UP are paid in accordance with the Second National Judicial Pay Commission (SNJPC) uniform pay scale accepted by the Supreme Court of India in All India Judges Association v. Union of India. Civil Judge (Junior Division) starts at SNJPC Level J-1 with entry basic pay of \u20b977,840.",
+    "pay_level": "SNJPC Level J-1 (\u20b977,840 - \u20b91,36,520)",
     "entry_basic_pay": 77840,
     "pay_confidence": "verified",
     "pay_as_of": "2020-01-01",
@@ -202,10 +199,16 @@
     "pay_source_label": "Second National Judicial Pay Commission (SNJPC) Report & Supreme Court of India Order in WP(C) No. 643/2015",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 125000, "max": 152000 },
-    "in_hand_range_estimate": { "min": 108000, "max": 132000 },
+    "gross_range_estimate": {
+      "min": 125000,
+      "max": 152000
+    },
+    "in_hand_range_estimate": {
+      "min": 108000,
+      "max": 132000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated based on SNJPC J-1 entry basic pay of ₹77,840 at 58% Dearness Allowance (effective 1 Jul 2025), plus judicial allowances (sumptuary allowance ₹1,500, robe allowance, medical allowance, transport allowance) and HRA ranging from 10% to 30% depending on posting district in Uttar Pradesh.",
+    "estimate_note": "Calculated based on SNJPC J-1 entry basic pay of \u20b977,840 at 58% Dearness Allowance (effective 1 Jul 2025), plus judicial allowances (sumptuary allowance \u20b91,500, robe allowance, medical allowance, transport allowance) and HRA ranging from 10% to 30% depending on posting district in Uttar Pradesh.",
     "official_perks": [
       "Official rent-free residential bungalow / government accommodation designated for judicial officers",
       "Official staff (Orderly, Peon, and Camp Office Clerk / Stenographer)",
@@ -217,17 +220,28 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Applicant, preliminary appearance, Mains shortlist, and final vacancy statistics are drawn from official UPPSC press releases and notifications for Advt. No. A-5/E-1/2022 and Advt. No. A-3/E-1/2018.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://uppsc.up.nic.in",
+        "source_label": "UPPSC & Allahabad High Court - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2022,
         "applicants": 79565,
         "vacancies": 303,
         "shortlisted_for_mains": 3145,
-        "selectivity_ratio": "approx. 1 in 263 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 263 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2023-08-30",
         "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
@@ -238,7 +252,7 @@
         "applicants": 64591,
         "vacancies": 610,
         "shortlisted_for_mains": 5795,
-        "selectivity_ratio": "approx. 1 in 106 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 106 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2019-07-20",
         "source_url": "https://uppsc.up.nic.in/CandidatePages/Notifications.aspx",
@@ -246,7 +260,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, post-wise syllabus, examination schedules, and previous cycle question documents are hosted on the UPPSC online portal.",

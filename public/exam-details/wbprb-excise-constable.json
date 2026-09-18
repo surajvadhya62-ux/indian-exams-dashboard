@@ -1,33 +1,32 @@
 {
   "id": "wbprb-excise-constable",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Excise Constables and Lady Excise Constables are recruited by the West Bengal Police Recruitment Board (WBPRB) on behalf of the Directorate of Excise under the Department of Finance, Government of West Bengal. Career progression is governed by the Bengal Excise Act, departmental service regulations, and the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019).",
     "steps": [
       {
         "designation": "Excise Constable / Lady Excise Constable",
-        "pay_level": "ROPA 2019 Pay Level 6 (₹22,700 – ₹58,500)",
+        "pay_level": "ROPA 2019 Pay Level 6 (\u20b922,700 \u2013 \u20b958,500)",
         "years": "Entry",
         "confidence": "verified",
         "as_of": "2019-09-25",
         "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Excise Constable in Subordinate Excise Service 2019, and WBS (ROPA) Rules 2019"
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of Excise Constable in Subordinate Excise Service 2019, and WBS (ROPA) Rules 2019"
       },
       {
         "designation": "Assistant Sub-Inspector of Excise (ASI of Excise)",
-        "pay_level": "ROPA 2019 Pay Level 8 (₹27,000 – ₹69,800)",
+        "pay_level": "ROPA 2019 Pay Level 8 (\u20b927,000 \u2013 \u20b969,800)",
         "years": "approx. 7-10 yrs (Seniority-cum-merit / Departmental Examination)",
         "confidence": "verified",
         "as_of": "2019-09-25",
         "source_url": "https://excise.wb.gov.in/Portal_New_Default.aspx",
-        "source_label": "Directorate of Excise, West Bengal — Subordinate Service Cadre Regulations"
+        "source_label": "Directorate of Excise, West Bengal \u2014 Subordinate Service Cadre Regulations"
       },
       {
         "designation": "Sub-Inspector of Excise (SI of Excise)",
-        "pay_level": "ROPA 2019 Pay Level 10 (₹32,100 – ₹82,900)",
+        "pay_level": "ROPA 2019 Pay Level 10 (\u20b932,100 \u2013 \u20b982,900)",
         "years": "approx. 14-18 yrs",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Excise Officer / Inspector of Excise",
-        "pay_level": "ROPA 2019 Pay Level 12 (₹35,800 – ₹92,100)",
+        "pay_level": "ROPA 2019 Pay Level 12 (\u20b935,800 \u2013 \u20b992,100)",
         "years": "approx. 20-25 yrs (Selection / Seniority)",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Superintendent of Excise",
-        "pay_level": "ROPA 2019 Pay Level 16 (₹56,100 – ₹1,44,300)",
+        "pay_level": "ROPA 2019 Pay Level 16 (\u20b956,100 \u2013 \u20b91,44,300)",
         "years": "Selection (State Excise Service Promotion)",
         "confidence": "verified",
         "as_of": "2019-09-25",
@@ -54,18 +53,17 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment to the post of Excise Constable (including Lady Excise Constable) in the Subordinate Excise Service under the Finance Department is conducted by the West Bengal Police Recruitment Board (WBPRB). The examination scheme consists of: (i) Preliminary Written Test (PWT, 100 marks) as a qualifying screening test, (ii) Physical Measurement Test (PMT) & Physical Efficiency Test (PET), (iii) Final Written Test (90 marks), and (iv) Interview (10 marks). Final merit list is compiled on the basis of marks obtained in the Final Written Test and the Interview (Total: 100 marks).",
     "stages": [
       {
-        "stage_name": "Preliminary Written Test (PWT) — Screening Test (100 MCQs)",
+        "stage_name": "Preliminary Written Test (PWT) \u2014 Screening Test (100 MCQs)",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2019-03-09",
         "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Excise Constable 2019",
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of Excise Constable 2019",
         "papers": [
           {
             "paper_name": "Test of Language (Bengali / Nepali)",
@@ -91,7 +89,7 @@
         "confidence": "verified",
         "as_of": "2019-03-09",
         "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Excise Constable 2019",
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of Excise Constable 2019",
         "papers": [
           {
             "paper_name": "Physical Measurement Test (PMT)",
@@ -102,7 +100,7 @@
             "qualifying_threshold": "Male UR/OBC: Height 167 cm, Weight 57 kg, Chest 78 cm (5 cm expansion); Female UR/OBC: Height 160 cm, Weight 48 kg; Gorkha/Garhwali/Rajbanshi/ST: Male 160 cm/53 kg, Female 152 cm/45 kg"
           },
           {
-            "paper_name": "Physical Efficiency Test (PET) — Running Event",
+            "paper_name": "Physical Efficiency Test (PET) \u2014 Running Event",
             "marks": 0,
             "duration_minutes": 7,
             "negative_marking": null,
@@ -117,7 +115,7 @@
         "confidence": "verified",
         "as_of": "2019-03-09",
         "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Excise Constable 2019",
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of Excise Constable 2019",
         "papers": [
           {
             "paper_name": "General Awareness and General Knowledge",
@@ -159,7 +157,7 @@
         "confidence": "verified",
         "as_of": "2019-03-09",
         "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
-        "source_label": "WBPRB — Information to Applicants for Recruitment to the Post of Excise Constable 2019",
+        "source_label": "WBPRB \u2014 Information to Applicants for Recruitment to the Post of Excise Constable 2019",
         "papers": [
           {
             "paper_name": "Interview & Test of Bengali / Nepali Language Ability",
@@ -173,11 +171,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Excise Constables and Lady Excise Constables in the Subordinate Excise Service are remunerated under Pay Level 6 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-2 (₹5,400 – ₹25,200 with Grade Pay ₹2,600). Entry basic pay is ₹22,700.",
-    "pay_level": "ROPA 2019 Pay Level 6 (₹22,700 – ₹58,500)",
+    "note": "Excise Constables and Lady Excise Constables in the Subordinate Excise Service are remunerated under Pay Level 6 of the West Bengal Services (Revision of Pay and Allowances) Rules, 2019 (ROPA 2019), corresponding to pre-revised Pay Band-2 (\u20b95,400 \u2013 \u20b925,200 with Grade Pay \u20b92,600). Entry basic pay is \u20b922,700.",
+    "pay_level": "ROPA 2019 Pay Level 6 (\u20b922,700 \u2013 \u20b958,500)",
     "entry_basic_pay": 22700,
     "pay_confidence": "verified",
     "pay_as_of": "2019-09-25",
@@ -185,10 +182,16 @@
     "pay_source_label": "WBPRB Information to Applicants for Recruitment to the Post of Excise Constable 2019, and WBS (ROPA) Rules 2019, Level 6",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 38000, "max": 43000 },
-    "in_hand_range_estimate": { "min": 33000, "max": 38000 },
+    "gross_range_estimate": {
+      "min": 38000,
+      "max": 43000
+    },
+    "in_hand_range_estimate": {
+      "min": 33000,
+      "max": 38000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on ROPA 2019 Level 6 entry basic pay of ₹22,700 with project constant 58% Dearness Allowance (₹13,166), 12% House Rent Allowance (₹2,724), Medical Allowance (₹500/month), plus statutory excise enforcement allowances including ration subsidy and uniform maintenance. Deductions include West Bengal Professional Tax (PTax ₹150–₹200) and GPF/NPS contributions (~10% basic+DA).",
+    "estimate_note": "Calculated on ROPA 2019 Level 6 entry basic pay of \u20b922,700 with project constant 58% Dearness Allowance (\u20b913,166), 12% House Rent Allowance (\u20b92,724), Medical Allowance (\u20b9500/month), plus statutory excise enforcement allowances including ration subsidy and uniform maintenance. Deductions include West Bengal Professional Tax (PTax \u20b9150\u2013\u20b9200) and GPF/NPS contributions (~10% basic+DA).",
     "official_perks": [
       "Government quarters or 12% House Rent Allowance (HRA)",
       "Coverage under the West Bengal Health Scheme (WBHS) for personnel and family dependents",
@@ -199,17 +202,28 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Excise Constable recruitment is conducted by WBPRB under the Finance Department. Vacancies are verified directly from the official employment notification. Applicant counts are reported from administrative press briefings.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 777000,
+        "vacancies": 4200,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://prb.wb.gov.in",
+        "source_label": "WBPRB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2019,
         "applicants": 450000,
         "vacancies": 3000,
         "shortlisted_for_mains": 35000,
-        "selectivity_ratio": "approx. 1 in 150 (calculated: reported applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 150 (calculated: reported applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2019-03-09",
         "source_url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
@@ -217,34 +231,33 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, examination schedules, and results for Excise Constables are published by the West Bengal Police Recruitment Board and the Directorate of Excise.",
     "links": [
       {
-        "label": "West Bengal Police Directorate — Official Recruitment Notifications Hub",
+        "label": "West Bengal Police Directorate \u2014 Official Recruitment Notifications Hub",
         "url": "https://wbpolice.gov.in/wbp/Common/WBP_RecruitmentNew.aspx",
         "type": "notification",
         "confidence": "verified",
         "as_of": "2026-09-13"
       },
       {
-        "label": "West Bengal Police Recruitment Board (WBPRB) — Official Portal",
+        "label": "West Bengal Police Recruitment Board (WBPRB) \u2014 Official Portal",
         "url": "https://prb.wb.gov.in",
         "type": "other",
         "confidence": "verified",
         "as_of": "2026-09-13"
       },
       {
-        "label": "Directorate of Excise, Government of West Bengal — Official Portal",
+        "label": "Directorate of Excise, Government of West Bengal \u2014 Official Portal",
         "url": "https://excise.wb.gov.in/Portal_New_Default.aspx",
         "type": "other",
         "confidence": "verified",
         "as_of": "2026-09-13"
       },
       {
-        "label": "West Bengal Police — Official Departmental Website",
+        "label": "West Bengal Police \u2014 Official Departmental Website",
         "url": "https://wbpolice.gov.in",
         "type": "other",
         "confidence": "verified",

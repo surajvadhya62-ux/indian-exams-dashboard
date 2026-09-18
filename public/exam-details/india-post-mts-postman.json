@@ -1,14 +1,14 @@
 {
   "id": "india-post-mts-postman",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Postman, Mail Guard, and Multi Tasking Staff (MTS) in the Department of Posts (India Post) are central government civil employees under the Ministry of Communications. Personnel progress through the postal hierarchy via Limited Departmental Competitive Examinations (LDCE) and time-bound MACP (Modified Assured Career Progression) promotions.",
     "steps": [
       {
         "designation": "Multi Tasking Staff (MTS)",
-        "pay_level": "7th CPC Pay Matrix Level 1 (₹18,000 – ₹56,900)",
+        "pay_level": "7th CPC Pay Matrix Level 1 (\u20b918,000 \u2013 \u20b956,900)",
         "years": "Entry Cadre (Subordinate Service)",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Postman / Mail Guard",
-        "pay_level": "7th CPC Pay Matrix Level 3 (₹21,700 – ₹69,100)",
+        "pay_level": "7th CPC Pay Matrix Level 3 (\u20b921,700 \u2013 \u20b969,100)",
         "years": "Entry Postman / approx. 3 yrs from MTS",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Postal Assistant (PA) / Sorting Assistant (SA)",
-        "pay_level": "7th CPC Pay Matrix Level 4 (₹25,500 – ₹81,100)",
+        "pay_level": "7th CPC Pay Matrix Level 4 (\u20b925,500 \u2013 \u20b981,100)",
         "years": "approx. 3-5 yrs via LDCE",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Lower Selection Grade (LSG / Sub Postmaster / Supervisor)",
-        "pay_level": "7th CPC Pay Matrix Level 5 (₹29,200 – ₹92,300)",
+        "pay_level": "7th CPC Pay Matrix Level 5 (\u20b929,200 \u2013 \u20b992,300)",
         "years": "approx. 5-8 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Higher Selection Grade II (HSG-II / Deputy Postmaster)",
-        "pay_level": "7th CPC Pay Matrix Level 6 (₹35,400 – ₹1,12,400)",
+        "pay_level": "7th CPC Pay Matrix Level 6 (\u20b935,400 \u2013 \u20b91,12,400)",
         "years": "approx. 10-15 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Higher Selection Grade I (HSG-I / Postmaster Grade-I)",
-        "pay_level": "7th CPC Pay Matrix Level 7 (₹44,900 – ₹1,42,400)",
+        "pay_level": "7th CPC Pay Matrix Level 7 (\u20b944,900 \u2013 \u20b91,42,400)",
         "years": "approx. 18-20 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -62,7 +62,7 @@
       },
       {
         "designation": "Assistant Superintendent of Posts (ASPO)",
-        "pay_level": "7th CPC Pay Matrix Level 8 (₹47,600 – ₹1,51,100)",
+        "pay_level": "7th CPC Pay Matrix Level 8 (\u20b947,600 \u2013 \u20b91,51,100)",
         "years": "approx. 22-25 yrs via LDCE / Seniority",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -71,7 +71,7 @@
       },
       {
         "designation": "Superintendent of Post Offices (SPS / Senior Postmaster)",
-        "pay_level": "7th CPC Pay Matrix Level 9 / 10 (₹53,100 – ₹1,77,500)",
+        "pay_level": "7th CPC Pay Matrix Level 9 / 10 (\u20b953,100 \u2013 \u20b91,77,500)",
         "years": "Postal Division Head",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -137,7 +137,7 @@
         "source_label": "India Post DEST Guidelines for Postman/Mail Guard",
         "papers": [
           {
-            "paper_name": "Data Entry Skill Test (1,000 key depressions ± 5%)",
+            "paper_name": "Data Entry Skill Test (1,000 key depressions \u00b1 5%)",
             "marks": 25,
             "duration_minutes": 15,
             "negative_marking": null,
@@ -150,8 +150,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Postman and Mail Guard personnel receive pay under 7th CPC Matrix Level 3 (entry basic pay ₹21,700), while MTS receive Level 1 (entry basic pay ₹18,000). The package includes 58% Central DA constant as of 2025-07-01, HRA (up to 27% in X-class cities), transport allowance, and uniform allowances.",
-    "pay_level": "7th CPC Level 3 (₹21,700 – ₹69,100) for Postman; Level 1 (₹18,000 – ₹56,900) for MTS",
+    "note": "Postman and Mail Guard personnel receive pay under 7th CPC Matrix Level 3 (entry basic pay \u20b921,700), while MTS receive Level 1 (entry basic pay \u20b918,000). The package includes 58% Central DA constant as of 2025-07-01, HRA (up to 27% in X-class cities), transport allowance, and uniform allowances.",
+    "pay_level": "7th CPC Level 3 (\u20b921,700 \u2013 \u20b969,100) for Postman; Level 1 (\u20b918,000 \u2013 \u20b956,900) for MTS",
     "entry_basic_pay": 21700,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-14",
@@ -168,7 +168,7 @@
       "max": 42000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated for Level 3 Postman: Basic Pay ₹21,700, 58% DA (₹12,586), HRA (9% to 27% = ₹1,953 to ₹5,859), Transport Allowance (₹1,350 to ₹3,600 + DA), less NPS (10% of Basic+DA = ₹3,429) and CGHS deductions.",
+    "estimate_note": "Calculated for Level 3 Postman: Basic Pay \u20b921,700, 58% DA (\u20b912,586), HRA (9% to 27% = \u20b91,953 to \u20b95,859), Transport Allowance (\u20b91,350 to \u20b93,600 + DA), less NPS (10% of Basic+DA = \u20b93,429) and CGHS deductions.",
     "official_perks": [
       "Central Government Dearness Allowance (DA) revised bi-annually",
       "House Rent Allowance (HRA) @ 27%/18%/9% or government quarter allotment",
@@ -183,6 +183,18 @@
     "status": "available",
     "note": "Recruitment metrics aggregated across India Post Circle examinations and national recruitment drives.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.indiapost.gov.in",
+        "source_label": "Department of Posts - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 32000,

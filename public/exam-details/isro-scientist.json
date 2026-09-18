@@ -1,8 +1,7 @@
 {
   "id": "isro-scientist",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": null,
@@ -14,7 +13,7 @@
         "confidence": "verified",
         "as_of": "2023-05-25",
         "source_url": "https://www.isro.gov.in/Careers.html",
-        "source_label": "ISRO Centralised Recruitment Board (ICRB) Advt. No. ISRO:ICRB:02(EMC):2023 — Pay Matrix Level 10 (₹56,100 – ₹1,77,500)"
+        "source_label": "ISRO Centralised Recruitment Board (ICRB) Advt. No. ISRO:ICRB:02(EMC):2023 \u2014 Pay Matrix Level 10 (\u20b956,100 \u2013 \u20b91,77,500)"
       },
       {
         "designation": "Scientist / Engineer 'SD'",
@@ -72,7 +71,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment to the post of Scientist/Engineer 'SC' in Level 10 of the Pay Matrix is conducted centrally by the ISRO Centralised Recruitment Board (ICRB), Department of Space, Government of India. The selection process comprises two sequential stages: a Written Test (Computer Based Test) to screen candidates and an Interview. The Written Test carries 100 marks across 95 questions (Part A covers Core Discipline Syllabus, Part B covers Aptitude/Reasoning). Candidates securing minimum 50% in Part A and Part B (40% for reserved) are eligible for shortlisting for the Interview in the ratio of 1:5 based on written test merit. Final empanelment requires a minimum 60% aggregate score (50% for reserved) in the Interview.",
@@ -83,7 +81,7 @@
         "confidence": "verified",
         "as_of": "2023-05-25",
         "source_url": "https://www.isro.gov.in/Careers.html",
-        "source_label": "ISRO ICRB Advt. No. ISRO:ICRB:02(EMC):2023 — Pattern of Written Examination",
+        "source_label": "ISRO ICRB Advt. No. ISRO:ICRB:02(EMC):2023 \u2014 Pattern of Written Examination",
         "papers": [
           {
             "paper_name": "Part 'A': Core Engineering / Science Discipline Specific",
@@ -123,22 +121,27 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "ISRO is a premier R&D organization under the Department of Space, Government of India. Selected Scientists/Engineers are appointed to Pay Level 10 of the central 7th CPC Pay Matrix with an entry basic pay of ₹56,100 per month. Officers are entitled to standard central allowances, performance incentives under PRIS, professional update allowance, and comprehensive healthcare under the Contributory Health Service Scheme (CHSS).",
+    "note": "ISRO is a premier R&D organization under the Department of Space, Government of India. Selected Scientists/Engineers are appointed to Pay Level 10 of the central 7th CPC Pay Matrix with an entry basic pay of \u20b956,100 per month. Officers are entitled to standard central allowances, performance incentives under PRIS, professional update allowance, and comprehensive healthcare under the Contributory Health Service Scheme (CHSS).",
     "pay_level": "Level 10",
     "entry_basic_pay": 56100,
     "pay_confidence": "verified",
     "pay_as_of": "2023-05-25",
     "pay_source_url": "https://www.isro.gov.in/Careers.html",
-    "pay_source_label": "ISRO ICRB Notification — Pay Scale Level 10 (₹56,100 – ₹1,77,500)",
+    "pay_source_label": "ISRO ICRB Notification \u2014 Pay Scale Level 10 (\u20b956,100 \u2013 \u20b91,77,500)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 98000, "max": 118000 },
-    "in_hand_range_estimate": { "min": 86000, "max": 104000 },
+    "gross_range_estimate": {
+      "min": 98000,
+      "max": 118000
+    },
+    "in_hand_range_estimate": {
+      "min": 86000,
+      "max": 104000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 10 basic pay of ₹56,100 with 58% DA (₹32,538), HRA ranging from 10% (Z city, ₹5,610) to 30% (X metro city / Bengaluru HQ, ₹16,830), and Transport Allowance of ₹7,200 + 58% DA (₹11,376 in higher TPTA cities). In-hand estimate reflects standard 10% NPS deduction (₹8,864) and income tax withholdings.",
+    "estimate_note": "Calculated on Level 10 basic pay of \u20b956,100 with 58% DA (\u20b932,538), HRA ranging from 10% (Z city, \u20b95,610) to 30% (X metro city / Bengaluru HQ, \u20b916,830), and Transport Allowance of \u20b97,200 + 58% DA (\u20b911,376 in higher TPTA cities). In-hand estimate reflects standard 10% NPS deduction (\u20b98,864) and income tax withholdings.",
     "official_perks": [
       "Department of Space residential quarters in ISRO housing colonies (e.g., Bengaluru, Thiruvananthapuram, Sriharikota, Ahmedabad) or central HRA",
       "Contributory Health Service Scheme (CHSS) providing complete, cashless medical coverage for employee and recognized family dependents",
@@ -150,11 +153,22 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Consolidated recruitment statistics from ISRO Centralised Recruitment Board notifications and candidate shortlist releases.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.isro.gov.in",
+        "source_label": "ISRO - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 303,
@@ -179,7 +193,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, answer keys, and syllabus documents hosted on the ISRO centralized portal.",

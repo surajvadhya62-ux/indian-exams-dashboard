@@ -1,7 +1,7 @@
 {
   "id": "nbe-fet",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "exam_scheme": {
     "status": "available",
     "note": "The Fellowship Entrance Test (FET) is a national single-window eligibility-cum-ranking entrance examination conducted by NBEMS for admission to 2-year Post-Doctoral / Post-MD/MS/DNB Fellowship Programme of National Board (FNB) and Fellowship Programme for International Students (FPIS) across accredited medical institutions and hospitals in India. The examination is administered as a Computer Based Test (CBT) consisting of 100 multiple-choice questions carrying 400 marks with a duration of 1 hour 45 minutes (105 minutes). Marking scheme: 4 marks for each correct response, deduction of 1 mark for each incorrect response (25% negative marking). The questions evaluate candidates on the core feeder specialty syllabus and subspecialty competencies. Minimum qualifying standard: 50th percentile in the respective fellowship discipline.",
@@ -12,7 +12,7 @@
         "confidence": "verified",
         "as_of": "2024-01-19",
         "source_url": "https://natboard.edu.in",
-        "source_label": "NBEMS Information Bulletin — Fellowship Entrance Test (FET) Examination Scheme",
+        "source_label": "NBEMS Information Bulletin \u2014 Fellowship Entrance Test (FET) Examination Scheme",
         "papers": [
           {
             "paper_name": "Fellowship Subspecialty & Feeder Specialty Paper (100 MCQs)",
@@ -48,6 +48,18 @@
     "status": "available",
     "note": "Candidate statistics for the Fellowship Entrance Test published by NBEMS.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBEMS - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 520,

@@ -28,7 +28,7 @@ function addRunningHeaderFooter(doc, examName, acronym, refId, totalPages = 4) {
     doc.setFont('helvetica', 'normal')
     doc.setFontSize(7.5)
     doc.setTextColor(...MUTED)
-    doc.text(`· STATUTORY RESEARCH DOSSIER · ${refId}`, 68, 10)
+    doc.text(`- STATUTORY RESEARCH DOSSIER - ${refId}`, 68, 10)
 
     doc.setFont('helvetica', 'bold')
     doc.setTextColor(...AMBER)
@@ -153,7 +153,7 @@ function getSyllabusPillars(exam, detail) {
   if (domain.includes('defence') || name.includes('nda') || name.includes('cds') || name.includes('afcat') || name.includes('capf')) {
     return [
       ['Pillar 1: Advanced Mathematics & Trigonometry', 'Algebra, Trigonometric Identities, 2D & 3D Analytical Geometry, Differential & Integral Calculus, Vectors, and Statistics.'],
-      ['Pillar 2: General Ability Test (GAT) — English & Grammar', 'Command of English Language, Idiomatic Usage, Sentence Sequencing, Contextual Vocabulary, and Comprehensive Reading.'],
+      ['Pillar 2: General Ability Test (GAT) - English & Grammar', 'Command of English Language, Idiomatic Usage, Sentence Sequencing, Contextual Vocabulary, and Comprehensive Reading.'],
       ['Pillar 3: General Sciences & Strategic Global Affairs', 'Physics, Chemistry, General Life Sciences, Indian Geopolitics, Defence Modernization, and International Security Affairs.'],
       ['Pillar 4: Officer Intelligence Rating (OIR) & Psychological Aptitude', 'Spatial Reasoning, Situation Reaction Tests, Psychological Agility, Personal Interview Readiness, and SSB Protocol.']
     ]
@@ -199,37 +199,37 @@ function getCareerLadder(exam, detail) {
     // ENTRANCE EXAM: Academic & Industry Career Progression
     if (domain.includes('engineering') || name.includes('gate') || name.includes('jee')) {
       return [
-        ['Year 0-2 (Entry)', 'Graduate Engineer Trainee / Junior Software Engineer', '₹8.0 - ₹18.0 LPA', 'Campus Placements / Tier-1 Tech & Core MNCs'],
-        ['Year 3-6 (Mid-Level)', 'Senior Systems Engineer / Technical Lead', '₹18.0 - ₹35.0 LPA', 'Performance Merit & System Architecture Impact'],
-        ['Year 7-12 (Senior)', 'Principal Engineer / Engineering Manager', '₹35.0 - ₹75.0 LPA', 'Technical Leadership & Product Ownership'],
-        ['Year 12-18 (Executive)', 'Director of Engineering / VP Technology', '₹75.0 LPA - ₹1.5 Cr+', 'Executive Board & Organizational Leadership'],
-        ['PSU Alternative (GATE)', 'Executive Trainee (E-2) -> Chief General Manager (E-8)', 'Level E-2 to E-8 (₹50k - ₹3.0L)', 'Maharatna & Navratna PSUs (ONGC, IOCL, NTPC, BHEL)']
+        ['Year 0-2 (Entry)', 'Graduate Engineer Trainee / Junior Software Engineer', 'Rs. 8.0 - Rs. 18.0 LPA', 'Campus Placements / Tier-1 Tech & Core MNCs'],
+        ['Year 3-6 (Mid-Level)', 'Senior Systems Engineer / Technical Lead', 'Rs. 18.0 - Rs. 35.0 LPA', 'Performance Merit & System Architecture Impact'],
+        ['Year 7-12 (Senior)', 'Principal Engineer / Engineering Manager', 'Rs. 35.0 - Rs. 75.0 LPA', 'Technical Leadership & Product Ownership'],
+        ['Year 12-18 (Executive)', 'Director of Engineering / VP Technology', 'Rs. 75.0 LPA - Rs. 1.5 Cr+', 'Executive Board & Organizational Leadership'],
+        ['PSU Alternative (GATE)', 'Executive Trainee (E-2) -> Chief General Manager (E-8)', 'Level E-2 to E-8 (Rs. 50k - Rs. 3.0L)', 'Maharatna & Navratna PSUs (ONGC, IOCL, NTPC, BHEL)']
       ]
     }
     if (domain.includes('medical') || name.includes('neet')) {
       return [
-        ['Year 0-1 (Internship)', 'Compulsory Rotatory Medical Intern (CRMI)', 'Stipend ₹20k - ₹35k/mo', 'Statutory NMC Hospital Posting'],
-        ['Year 1-4 (Postgraduate)', 'Junior Resident (JR-1 to JR-3 / MD / MS / DNB)', 'Level 10 (₹56,100 - ₹95,000/mo)', 'Medical College Residency Board'],
-        ['Year 4-7 (Senior Residency)', 'Senior Resident (SR) / Super-Specialty Fellow', 'Level 11 (₹67,700 - ₹1,20,000/mo)', 'Hospital Clinical Empanelment'],
-        ['Year 8-15 (Faculty / Specialist)', 'Assistant Professor -> Associate Professor', 'Level 12 - 13A (₹78,800 - ₹2,10,000)', 'State / Central Medical Faculty Board'],
-        ['Year 16+ (Leadership)', 'Professor / Head of Department / Medical Superintendent', 'Level 14 - 15 (₹1,44,200 - ₹2,24,100)', 'Apex Healthcare Directorate & AIIMS Governing Body']
+        ['Year 0-1 (Internship)', 'Compulsory Rotatory Medical Intern (CRMI)', 'Stipend Rs. 20k - Rs. 35k/mo', 'Statutory NMC Hospital Posting'],
+        ['Year 1-4 (Postgraduate)', 'Junior Resident (JR-1 to JR-3 / MD / MS / DNB)', 'Level 10 (Rs. 56,100 - Rs. 95,000/mo)', 'Medical College Residency Board'],
+        ['Year 4-7 (Senior Residency)', 'Senior Resident (SR) / Super-Specialty Fellow', 'Level 11 (Rs. 67,700 - Rs. 1,20,000/mo)', 'Hospital Clinical Empanelment'],
+        ['Year 8-15 (Faculty / Specialist)', 'Assistant Professor -> Associate Professor', 'Level 12 - 13A (Rs. 78,800 - Rs. 2,10,000)', 'State / Central Medical Faculty Board'],
+        ['Year 16+ (Leadership)', 'Professor / Head of Department / Medical Superintendent', 'Level 14 - 15 (Rs. 1,44,200 - Rs. 2,24,100)', 'Apex Healthcare Directorate & AIIMS Governing Body']
       ]
     }
     if (domain.includes('management') || name.includes('cat') || name.includes('mba')) {
       return [
-        ['Year 0-2 (Entry Post-MBA)', 'Management Associate / Consultant / Investment Analyst', '₹18.0 - ₹34.0 LPA', 'Premier Corporate Campus Placements'],
-        ['Year 3-6 (Mid-Level)', 'Senior Consultant / Brand Manager / Product Manager', '₹30.0 - ₹55.0 LPA', 'Corporate Promotion & Business Unit P&L'],
-        ['Year 7-12 (Leadership)', 'Associate Partner / Assistant Vice President (AVP)', '₹55.0 - ₹95.0 LPA', 'Strategic Enterprise Portfolio Leadership'],
-        ['Year 12-18 (Executive)', 'Partner / Vice President / Business Head', '₹1.0 Cr - ₹2.5 Cr+', 'Executive Board Management'],
-        ['Year 18+ (Apex Scale)', 'Chief Executive Officer (CEO) / Managing Director (MD)', '₹2.5 Cr+ & Equity/ESOPs', 'Board of Directors Appointment']
+        ['Year 0-2 (Entry Post-MBA)', 'Management Associate / Consultant / Investment Analyst', 'Rs. 18.0 - Rs. 34.0 LPA', 'Premier Corporate Campus Placements'],
+        ['Year 3-6 (Mid-Level)', 'Senior Consultant / Brand Manager / Product Manager', 'Rs. 30.0 - Rs. 55.0 LPA', 'Corporate Promotion & Business Unit P&L'],
+        ['Year 7-12 (Leadership)', 'Associate Partner / Assistant Vice President (AVP)', 'Rs. 55.0 - Rs. 95.0 LPA', 'Strategic Enterprise Portfolio Leadership'],
+        ['Year 12-18 (Executive)', 'Partner / Vice President / Business Head', 'Rs. 1.0 Cr - Rs. 2.5 Cr+', 'Executive Board Management'],
+        ['Year 18+ (Apex Scale)', 'Chief Executive Officer (CEO) / Managing Director (MD)', 'Rs. 2.5 Cr+ & Equity/ESOPs', 'Board of Directors Appointment']
       ]
     }
     if (domain.includes('law') || name.includes('clat')) {
       return [
-        ['Year 0-3 (Entry)', 'Junior Associate / In-House Legal Officer', '₹12.0 - ₹18.0 LPA', 'Top Tier Corporate Law Firms / MNCs'],
-        ['Year 4-8 (Mid-Level)', 'Senior Associate / Lead Corporate Counsel', '₹22.0 - ₹45.0 LPA', 'Mergers & Acquisitions / Dispute Resolution Practice'],
-        ['Year 8-14 (Senior)', 'Principal Associate / Salaried Partner', '₹45.0 - ₹90.0 LPA', 'Practice Area Head & Client Portfolio'],
-        ['Year 15+ (Apex Legal)', 'Equity Partner / Designated Senior Advocate', '₹1.0 Cr - ₹5.0 Cr+', 'Bar Council & High Court Designation'],
+        ['Year 0-3 (Entry)', 'Junior Associate / In-House Legal Officer', 'Rs. 12.0 - Rs. 18.0 LPA', 'Top Tier Corporate Law Firms / MNCs'],
+        ['Year 4-8 (Mid-Level)', 'Senior Associate / Lead Corporate Counsel', 'Rs. 22.0 - Rs. 45.0 LPA', 'Mergers & Acquisitions / Dispute Resolution Practice'],
+        ['Year 8-14 (Senior)', 'Principal Associate / Salaried Partner', 'Rs. 45.0 - Rs. 90.0 LPA', 'Practice Area Head & Client Portfolio'],
+        ['Year 15+ (Apex Legal)', 'Equity Partner / Designated Senior Advocate', 'Rs. 1.0 Cr - Rs. 5.0 Cr+', 'Bar Council & High Court Designation'],
         ['Judicial Track', 'Civil Judge (Junior Division) -> High Court Justice', 'Judicial Pay Commission Scales', 'State Judicial Services & Collegium Appointment']
       ]
     }
@@ -238,11 +238,11 @@ function getCareerLadder(exam, detail) {
   // JOB EXAMS: Dynamic progression by domain
   if (domain.includes('banking') || domain.includes('finance')) {
     return [
-      ['Entry (0-3 yrs)', 'Probationary Officer (Scale I)', 'Junior Management (₹48,480 - ₹85,920)', 'Direct Recruitment / Probation'],
-      ['3-7 yrs', 'Branch Manager / Manager (Scale II)', 'Middle Management (₹64,820 - ₹93,960)', 'Departmental Promotion Exam'],
-      ['7-11 yrs', 'Senior Branch Manager (Scale III)', 'Middle Management (₹78,230 - ₹1,02,000)', 'Seniority & Performance Review'],
-      ['11-15 yrs', 'Chief Manager (Scale IV)', 'Senior Management (₹1,02,300 - ₹1,15,000)', 'Zonal Promotion Committee'],
-      ['15-20 yrs', 'Assistant General Manager (AGM) (Scale V)', 'Top Executive (₹1,20,000 - ₹1,35,000)', 'Bank Management Board'],
+      ['Entry (0-3 yrs)', 'Probationary Officer (Scale I)', 'Junior Management (Rs. 48,480 - Rs. 85,920)', 'Direct Recruitment / Probation'],
+      ['3-7 yrs', 'Branch Manager / Manager (Scale II)', 'Middle Management (Rs. 64,820 - Rs. 93,960)', 'Departmental Promotion Exam'],
+      ['7-11 yrs', 'Senior Branch Manager (Scale III)', 'Middle Management (Rs. 78,230 - Rs. 1,02,000)', 'Seniority & Performance Review'],
+      ['11-15 yrs', 'Chief Manager (Scale IV)', 'Senior Management (Rs. 1,02,300 - Rs. 1,15,000)', 'Zonal Promotion Committee'],
+      ['15-20 yrs', 'Assistant General Manager (AGM) (Scale V)', 'Top Executive (Rs. 1,20,000 - Rs. 1,35,000)', 'Bank Management Board'],
       ['20-25 yrs', 'Deputy General Manager (DGM) (Scale VI)', 'Top Executive Grade', 'Board of Directors Selection'],
       ['Apex Horizon', 'General Manager (GM) / Executive Director / MD & CEO', 'Apex Banking Scale', 'Financial Services Institutions Bureau (FSIB)']
     ]
@@ -250,35 +250,35 @@ function getCareerLadder(exam, detail) {
 
   if (domain.includes('defence') || domain.includes('police') || name.includes('constable') || name.includes('sub-inspector')) {
     return [
-      ['Entry (0-5 yrs)', 'Sub-Inspector of Police (SI) / Lieutenant', 'Level 6 - 10 (₹35,400 - ₹56,100)', 'Direct Commission Selection'],
-      ['5-10 yrs', 'Inspector of Police / Captain', 'Level 7 - 10B (₹44,900 - ₹67,700)', 'State / Ministry Promotion Board'],
-      ['10-15 yrs', 'Deputy Superintendent of Police (DSP) / Major', 'Level 10 - 11 (₹56,100 - ₹78,800)', 'State PSC / UPSC Induction'],
-      ['15-20 yrs', 'Additional Superintendent of Police (Addl SP) / Lt Col', 'Level 11 - 12 (₹67,700 - ₹1,23,100)', 'IPS Cadre Review / Selection Committee'],
-      ['20-25 yrs', 'Superintendent of Police (SP / SSP) / Colonel', 'Level 12 - 13 (₹78,800 - ₹1,44,200)', 'Ministry of Home Affairs Gazette'],
-      ['25-30 yrs', 'Deputy Inspector General (DIG) / Brigadier', 'Level 13A (₹1,31,100 - ₹2,16,600)', 'Empanelled Central / State Board'],
-      ['Apex Scale', 'Inspector General (IG) / ADG / Director General of Police (DGP)', 'Level 14 - 17 (Up to ₹2,25,000)', 'Cabinet Appointments Committee (ACC)']
+      ['Entry (0-5 yrs)', 'Sub-Inspector of Police (SI) / Lieutenant', 'Level 6 - 10 (Rs. 35,400 - Rs. 56,100)', 'Direct Commission Selection'],
+      ['5-10 yrs', 'Inspector of Police / Captain', 'Level 7 - 10B (Rs. 44,900 - Rs. 67,700)', 'State / Ministry Promotion Board'],
+      ['10-15 yrs', 'Deputy Superintendent of Police (DSP) / Major', 'Level 10 - 11 (Rs. 56,100 - Rs. 78,800)', 'State PSC / UPSC Induction'],
+      ['15-20 yrs', 'Additional Superintendent of Police (Addl SP) / Lt Col', 'Level 11 - 12 (Rs. 67,700 - Rs. 1,23,100)', 'IPS Cadre Review / Selection Committee'],
+      ['20-25 yrs', 'Superintendent of Police (SP / SSP) / Colonel', 'Level 12 - 13 (Rs. 78,800 - Rs. 1,44,200)', 'Ministry of Home Affairs Gazette'],
+      ['25-30 yrs', 'Deputy Inspector General (DIG) / Brigadier', 'Level 13A (Rs. 1,31,100 - Rs. 2,16,600)', 'Empanelled Central / State Board'],
+      ['Apex Scale', 'Inspector General (IG) / ADG / Director General of Police (DGP)', 'Level 14 - 17 (Up to Rs. 2,25,000)', 'Cabinet Appointments Committee (ACC)']
     ]
   }
 
   if (domain.includes('education') || domain.includes('teaching')) {
     return [
-      ['Entry (0-4 yrs)', 'Assistant Teacher / Assistant Professor (Entry)', 'Level 8 - 10 (₹47,600 - ₹57,700)', 'Direct Recruitment Commission'],
-      ['4-9 yrs', 'Senior Teacher / Assistant Professor (Senior Scale)', 'Level 11 (₹68,900 - ₹1,17,200)', 'Career Advancement Scheme (CAS)'],
-      ['9-14 yrs', 'Lecturer / Assistant Professor (Selection Grade)', 'Level 12 (₹79,800 - ₹1,31,400)', 'Academic Performance Indicators (API)'],
-      ['14-18 yrs', 'Headmaster / Associate Professor', 'Level 13A (₹1,31,400 - ₹2,17,100)', 'Statutory Selection Committee'],
-      ['18-25 yrs', 'Principal / Professor', 'Level 14 (₹1,44,200 - ₹2,18,200)', 'Executive Council / Directorate of Education'],
+      ['Entry (0-4 yrs)', 'Assistant Teacher / Assistant Professor (Entry)', 'Level 8 - 10 (Rs. 47,600 - Rs. 57,700)', 'Direct Recruitment Commission'],
+      ['4-9 yrs', 'Senior Teacher / Assistant Professor (Senior Scale)', 'Level 11 (Rs. 68,900 - Rs. 1,17,200)', 'Career Advancement Scheme (CAS)'],
+      ['9-14 yrs', 'Lecturer / Assistant Professor (Selection Grade)', 'Level 12 (Rs. 79,800 - Rs. 1,31,400)', 'Academic Performance Indicators (API)'],
+      ['14-18 yrs', 'Headmaster / Associate Professor', 'Level 13A (Rs. 1,31,400 - Rs. 2,17,100)', 'Statutory Selection Committee'],
+      ['18-25 yrs', 'Principal / Professor', 'Level 14 (Rs. 1,44,200 - Rs. 2,18,200)', 'Executive Council / Directorate of Education'],
       ['Apex Scale', 'Director of School Education / Vice-Chancellor', 'Level 15 - 17 (Apex Scale)', 'Governor / Chancellor Appointment']
     ]
   }
 
   // Civil Services default
   return [
-    ['Entry (0-4 yrs)', 'Sub-Divisional Magistrate (SDM) / Assistant Secretary', 'Level 10 (₹56,100 - ₹1,77,500)', 'Direct Commission Recruitment'],
-    ['4-9 yrs', 'Additional District Magistrate (ADM) / Deputy Secretary', 'Level 11 (₹67,700 - ₹2,08,700)', 'Senior Time Scale Review'],
-    ['9-14 yrs', 'District Magistrate (DM) / Collector / Joint Secretary', 'Level 12 (₹78,800 - ₹2,09,200)', 'Junior Administrative Grade DPC'],
-    ['14-18 yrs', 'Divisional Commissioner / Director (Selection Grade)', 'Level 13 (₹1,23,100 - ₹2,15,900)', 'Selection Grade Committee'],
-    ['18-25 yrs', 'Principal Secretary (State) / Additional Secretary (Centre)', 'Level 14 - 15 (₹1,44,200 - ₹2,24,100)', 'Super Time Scale Gazette'],
-    ['Apex Scale', 'Chief Secretary (State) / Cabinet Secretary of India', 'Level 17 - 18 (Up to ₹2,50,000 fixed)', 'Appointments Committee of the Cabinet']
+    ['Entry (0-4 yrs)', 'Sub-Divisional Magistrate (SDM) / Assistant Secretary', 'Level 10 (Rs. 56,100 - Rs. 1,77,500)', 'Direct Commission Recruitment'],
+    ['4-9 yrs', 'Additional District Magistrate (ADM) / Deputy Secretary', 'Level 11 (Rs. 67,700 - Rs. 2,08,700)', 'Senior Time Scale Review'],
+    ['9-14 yrs', 'District Magistrate (DM) / Collector / Joint Secretary', 'Level 12 (Rs. 78,800 - Rs. 2,09,200)', 'Junior Administrative Grade DPC'],
+    ['14-18 yrs', 'Divisional Commissioner / Director (Selection Grade)', 'Level 13 (Rs. 1,23,100 - Rs. 2,15,900)', 'Selection Grade Committee'],
+    ['18-25 yrs', 'Principal Secretary (State) / Additional Secretary (Centre)', 'Level 14 - 15 (Rs. 1,44,200 - Rs. 2,24,100)', 'Super Time Scale Gazette'],
+    ['Apex Scale', 'Chief Secretary (State) / Cabinet Secretary of India', 'Level 17 - 18 (Up to Rs. 2,50,000 fixed)', 'Appointments Committee of the Cabinet']
   ]
 }
 
@@ -365,7 +365,7 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   doc.setFontSize(8)
   doc.setTextColor(203, 213, 225)
   doc.text(
-    `Conducting Body: ${exam.conducting_body || 'National Commission'} · ${exam.jurisdiction === 'central' ? 'Central / All India' : exam.state || 'State'} · [${isJob ? 'Job Recruitment' : 'Academic Entrance'}]`,
+    `Conducting Body: ${exam.conducting_body || 'National Commission'} | ${exam.jurisdiction === 'central' ? 'Central / All India' : exam.state || 'State'} | [${isJob ? 'Job Recruitment' : 'Academic Entrance'}]`,
     21,
     38
   )
@@ -417,7 +417,7 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   currentY += 4
 
   const paramRows = [
-    ['Conducting Commission', exam.conducting_body || 'N/A', 'Jurisdiction & Domain', `${exam.jurisdiction === 'central' ? 'Central' : exam.state} · ${exam.domain || 'General'}`],
+    ['Conducting Commission', exam.conducting_body || 'N/A', 'Jurisdiction & Domain', `${exam.jurisdiction === 'central' ? 'Central' : exam.state} | ${exam.domain || 'General'}`],
     ['Degree / Educational Level', exam.level || 'Graduate', isJob ? 'Cadre / Service Class' : 'Target Award / Admission', isJob ? (exam.cadre || 'National Service Cadre') : (exam.target_role || 'Undergraduate / Postgraduate Admission')],
     ['Targeted Career Scope', exam.target_role || (isJob ? 'Administrative / Executive' : 'Professional Degree'), 'Examination Mode', exam.exam_mode || 'CBT / Pen-Paper'],
     ['Annual Frequency', exam.frequency || 'Annual', 'Tentative Examination Month', exam.exam_month || 'Notified Annually'],
@@ -658,13 +658,13 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
     const salTier3 = calculateSalary({ basicPay: entryBasic, payLevel: payLevelStr, daPercent: daPct, cityTier: 'z' })
 
     const salaryRows = [
-      ['Entry Basic Pay (Band Scale)', `₹${entryBasic.toLocaleString('en-IN')}`, `₹${entryBasic.toLocaleString('en-IN')}`, `₹${entryBasic.toLocaleString('en-IN')}`],
-      [`Dearness Allowance (DA @ ${daPct}%)`, `₹${salMetro.da.toLocaleString('en-IN')}`, `₹${salTier2.da.toLocaleString('en-IN')}`, `₹${salTier3.da.toLocaleString('en-IN')}`],
-      ['House Rent Allowance (HRA 30%/20%/10%)', `₹${salMetro.hra.toLocaleString('en-IN')} (30%)`, `₹${salTier2.hra.toLocaleString('en-IN')} (20%)`, `₹${salTier3.hra.toLocaleString('en-IN')} (10%)`],
-      ['Transport Allowance (TA + DA on TA)', `₹${(salMetro.ta + salMetro.daOnTa).toLocaleString('en-IN')}`, `₹${(salTier2.ta + salTier2.daOnTa).toLocaleString('en-IN')}`, `₹${(salTier3.ta + salTier3.daOnTa).toLocaleString('en-IN')}`],
-      ['ESTIMATED GROSS MONTHLY PAY', `₹${salMetro.gross.toLocaleString('en-IN')}`, `₹${salTier2.gross.toLocaleString('en-IN')}`, `₹${salTier3.gross.toLocaleString('en-IN')}`],
-      ['Mandatory Deductions (NPS 10% + CGEGIS)', `₹${(salMetro.nps + 120).toLocaleString('en-IN')}`, `₹${(salTier2.nps + 120).toLocaleString('en-IN')}`, `₹${(salTier3.nps + 120).toLocaleString('en-IN')}`],
-      ['ESTIMATED IN-HAND NET SALARY', `₹${salMetro.inHand.toLocaleString('en-IN')}`, `₹${salTier2.inHand.toLocaleString('en-IN')}`, `₹${salTier3.inHand.toLocaleString('en-IN')}`]
+      ['Entry Basic Pay (Band Scale)', `Rs. ${entryBasic.toLocaleString('en-IN')}`, `Rs. ${entryBasic.toLocaleString('en-IN')}`, `Rs. ${entryBasic.toLocaleString('en-IN')}`],
+      [`Dearness Allowance (DA @ ${daPct}%)`, `Rs. ${salMetro.da.toLocaleString('en-IN')}`, `Rs. ${salTier2.da.toLocaleString('en-IN')}`, `Rs. ${salTier3.da.toLocaleString('en-IN')}`],
+      ['House Rent Allowance (HRA 30%/20%/10%)', `Rs. ${salMetro.hra.toLocaleString('en-IN')} (30%)`, `Rs. ${salTier2.hra.toLocaleString('en-IN')} (20%)`, `Rs. ${salTier3.hra.toLocaleString('en-IN')} (10%)`],
+      ['Transport Allowance (TA + DA on TA)', `Rs. ${(salMetro.ta + salMetro.daOnTa).toLocaleString('en-IN')}`, `Rs. ${(salTier2.ta + salTier2.daOnTa).toLocaleString('en-IN')}`, `Rs. ${(salTier3.ta + salTier3.daOnTa).toLocaleString('en-IN')}`],
+      ['ESTIMATED GROSS MONTHLY PAY', `Rs. ${salMetro.gross.toLocaleString('en-IN')}`, `Rs. ${salTier2.gross.toLocaleString('en-IN')}`, `Rs. ${salTier3.gross.toLocaleString('en-IN')}`],
+      ['Mandatory Deductions (NPS 10% + CGEGIS)', `Rs. ${(salMetro.nps + 120).toLocaleString('en-IN')}`, `Rs. ${(salTier2.nps + 120).toLocaleString('en-IN')}`, `Rs. ${(salTier3.nps + 120).toLocaleString('en-IN')}`],
+      ['ESTIMATED IN-HAND NET SALARY', `Rs. ${salMetro.inHand.toLocaleString('en-IN')}`, `Rs. ${salTier2.inHand.toLocaleString('en-IN')}`, `Rs. ${salTier3.inHand.toLocaleString('en-IN')}`]
     ]
 
     autoTable(doc, {
@@ -775,8 +775,8 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
 
     const stipendRows = [
       ['Degree Qualifications Awarded', exam.target_role || 'Bachelor of Technology (B.Tech) / MBBS / MBA / LL.B / Master\'s', 'Awarded by Statutory University'],
-      ['Monthly PG Fellowship / Stipend', '₹12,400/mo (GATE M.Tech) · ₹37,000/mo + HRA (JRF/Ph.D.) · ₹25k - ₹40k/mo (Medical Interns)', 'MHRD / UGC / NMC Guidelines'],
-      ['Corporate Internship Benchmarks', 'Average ₹80,000 – ₹2,50,000 (2-month Summer Internship across Top Tech/Finance/Consulting)', 'Campus Placement Committees']
+      ['Monthly PG Fellowship / Stipend', 'Rs. 12,400/mo (GATE M.Tech) | Rs. 37,000/mo + HRA (JRF/Ph.D.) | Rs. 25k - Rs. 40k/mo (Medical Interns)', 'MHRD / UGC / NMC Guidelines'],
+      ['Corporate Internship Benchmarks', 'Average Rs. 80,000 - Rs. 2,50,000 (2-month Summer Internship across Top Tech/Finance/Consulting)', 'Campus Placement Committees']
     ]
 
     autoTable(doc, {
@@ -914,15 +914,15 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   currentY += 5
 
   const checklistItems = isJob ? [
-    '[✓] Government Photo Identity: Original Aadhaar Card / Passport / Voter ID matching registration name.',
-    '[✓] Category / Reservation Certificates: Valid OBC-NCL / EWS / SC / ST certificate issued within validity window.',
-    '[✓] Educational Credentials: Final Degree Certificate / Consolidated Marksheets from UGC/AICTE recognized institution.',
-    '[✓] Commission Admit Card: Clear colored printout with legible barcode and identical passport photographs.'
+    '[[OK]] Government Photo Identity: Original Aadhaar Card / Passport / Voter ID matching registration name.',
+    '[[OK]] Category / Reservation Certificates: Valid OBC-NCL / EWS / SC / ST certificate issued within validity window.',
+    '[[OK]] Educational Credentials: Final Degree Certificate / Consolidated Marksheets from UGC/AICTE recognized institution.',
+    '[[OK]] Commission Admit Card: Clear colored printout with legible barcode and identical passport photographs.'
   ] : [
-    '[✓] Government Photo Identity: Original Aadhaar Card / Passport / School Photo ID matching admit card credentials.',
-    '[✓] Examination Admit Card: Clear printout along with Self-Declaration (Undertaking) if mandated by Testing Agency.',
-    '[✓] Category / Reservation Certificates: Valid OBC-NCL / EWS / SC / ST certificate for counseling seat allocation.',
-    '[✓] Qualifying Examination Admit Card / Marksheet: Class 12 / Graduation proof for counseling verification.'
+    '[[OK]] Government Photo Identity: Original Aadhaar Card / Passport / School Photo ID matching admit card credentials.',
+    '[[OK]] Examination Admit Card: Clear printout along with Self-Declaration (Undertaking) if mandated by Testing Agency.',
+    '[[OK]] Category / Reservation Certificates: Valid OBC-NCL / EWS / SC / ST certificate for counseling seat allocation.',
+    '[[OK]] Qualifying Examination Admit Card / Marksheet: Class 12 / Graduation proof for counseling verification.'
   ]
 
   doc.setFont('helvetica', 'normal')
@@ -949,7 +949,7 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   doc.setFontSize(7)
   doc.setTextColor(...MUTED)
   doc.text(
-    `Digital Verification Reference: ${refId} · Verified through public commission portals as of ${timestampStr}. For authoritative updates, consult the official portal directly.`,
+    `Digital Verification Reference: ${refId} | Verified through public commission portals as of ${timestampStr}. For authoritative updates, consult the official portal directly.`,
     18,
     currentY + 12
   )
@@ -995,14 +995,14 @@ export function exportComparisonMatrixPdf(compareExams = []) {
   doc.setFont('helvetica', 'normal')
   doc.setFontSize(8)
   doc.setTextColor(203, 213, 225)
-  doc.text(`Reference ID: ${refId} · Generated: ${timestampStr} · Statutory Rules & Guidelines Compliant`, 21, 28)
+  doc.text(`Reference ID: ${refId} | Generated: ${timestampStr} | Statutory Rules & Guidelines Compliant`, 21, 28)
 
   // AutoTable Header: Metric + 1 column per exam
   const headRow = ['Evaluation Criteria', ...compareExams.map(e => `${e.name}\n[${e.acronym || 'ID'}]`)]
 
   // Build matrix rows
   const comparisonRows = [
-    ['Examination Type', ...compareExams.map(e => e.exam_type === 'job' ? '💼 Job Recruitment' : '🎓 Entrance Exam')],
+    ['Examination Type', ...compareExams.map(e => e.exam_type === 'job' ? '[Career] Job Recruitment' : '[Academic] Entrance Exam')],
     ['Conducting Commission', ...compareExams.map(e => e.conducting_body || 'N/A')],
     ['Domain & Discipline', ...compareExams.map(e => e.domain || 'N/A')],
     ['Jurisdiction & Scope', ...compareExams.map(e => e.jurisdiction === 'central' ? 'Central / All India' : `State (${e.state})`)],
@@ -1046,7 +1046,7 @@ export function exportComparisonMatrixPdf(compareExams = []) {
     doc.setFont('helvetica', 'normal')
     doc.setFontSize(7)
     doc.setTextColor(...MUTED)
-    doc.text('INDIAEXAMS INTELLIGENCE SYSTEM · Official Comparative Assessment Matrix · www.indiaexams.org', 14, 202)
+    doc.text('INDIAEXAMS INTELLIGENCE SYSTEM | Official Comparative Assessment Matrix | www.indiaexams.org', 14, 202)
 
     doc.setFont('helvetica', 'bold')
     doc.setTextColor(...NAVY)

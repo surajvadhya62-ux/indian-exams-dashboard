@@ -1,8 +1,7 @@
 {
   "id": "hssc-clerk",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Clerks in Haryana form the foundational ministerial cadre across Haryana Civil Secretariat, Financial Commissioner Revenue, District Commissioners' offices, and statutory boards. Promotion is governed by the Haryana Ministerial Services Rules.",
@@ -45,7 +44,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment for Clerks in Haryana is conducted through HSSC Group C Common Eligibility Test as part of Group 57 (Higher Secondary 10+2 Level Posts), followed by state computer typing clearance.",
@@ -114,16 +112,15 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Clerks in Haryana are placed in Functional Pay Level 2 (FPL-2) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of ₹19,900.",
+    "note": "Clerks in Haryana are placed in Functional Pay Level 2 (FPL-2) under Haryana Civil Services (Revised Pay) Rules, 2016, with entry basic pay of \u20b919,900.",
     "pay_level": "Level 2 (FPL-2)",
     "entry_basic_pay": 19900,
     "pay_confidence": "verified",
     "pay_as_of": "2023-03-07",
     "pay_source_url": "https://hssc.gov.in",
-    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-2 scale ₹19,900 – ₹63,200)",
+    "pay_source_label": "Haryana Civil Services (Revised Pay) Rules, 2016 (FPL-2 scale \u20b919,900 \u2013 \u20b963,200)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -135,7 +132,7 @@
       "max": 36000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on entry Level 2 basic pay of ₹19,900 with 58% Dearness Allowance (₹11,542), House Rent Allowance (8% to 24%), and fixed medical allowance (₹1,000), minus standard employee NPS and insurance deductions.",
+    "estimate_note": "Calculated on entry Level 2 basic pay of \u20b919,900 with 58% Dearness Allowance (\u20b911,542), House Rent Allowance (8% to 24%), and fixed medical allowance (\u20b91,000), minus standard employee NPS and insurance deductions.",
     "official_perks": [
       "Dearness Allowance (DA) at prevailing state rates (58% effective 1 Jul 2025)",
       "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
@@ -146,17 +143,28 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Clerical recruitment in Haryana has historically generated some of the largest applicant counts in state public sector employment.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 444000,
+        "vacancies": 2400,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://hssc.gov.in",
+        "source_label": "HSSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2023,
         "applicants": 32000,
         "vacancies": 3800,
         "shortlisted_for_mains": 32000,
-        "selectivity_ratio": "approx. 1 in 8 (calculated: shortlisted CET candidates ÷ Group 57 clerk vacancies)",
+        "selectivity_ratio": "approx. 1 in 8 (calculated: shortlisted CET candidates \u00f7 Group 57 clerk vacancies)",
         "confidence": "reported",
         "as_of": "2023-08-07",
         "source_url": "https://hssc.gov.in",
@@ -167,7 +175,7 @@
         "applicants": 1500000,
         "vacancies": 4858,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "approx. 1 in 308 (calculated: registered applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 308 (calculated: registered applicants \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2019-12-30",
         "source_url": "https://hssc.gov.in",
@@ -175,13 +183,12 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, group-wise vacancies, and Group 57 Mains syllabus are hosted on HSSC's portal.",
     "links": [
       {
-        "label": "Haryana Staff Selection Commission — Official Website",
+        "label": "Haryana Staff Selection Commission \u2014 Official Website",
         "url": "https://hssc.gov.in",
         "type": "other",
         "confidence": "verified",

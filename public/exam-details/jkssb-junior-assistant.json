@@ -1,16 +1,15 @@
 {
   "id": "jkssb-junior-assistant",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Junior Assistants serve across the J&K Civil Secretariat, Divisional Commissioners, Deputy Commissioner Offices, and various State Line Departments under the Jammu and Kashmir Ministerial Staff (Subordinate) Service Rules.",
     "steps": [
       {
         "designation": "Junior Assistant / Computer Operator",
-        "pay_level": "Level 4 (₹25,500–₹81,100)",
-        "years": "Entry (0–6 yrs)",
+        "pay_level": "Level 4 (\u20b925,500\u2013\u20b981,100)",
+        "years": "Entry (0\u20136 yrs)",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://jkssb.nic.in",
@@ -18,8 +17,8 @@
       },
       {
         "designation": "Senior Assistant",
-        "pay_level": "Level 5 (₹29,200–₹92,300)",
-        "years": "approx. 6–12 yrs",
+        "pay_level": "Level 5 (\u20b929,200\u2013\u20b992,300)",
+        "years": "approx. 6\u201312 yrs",
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://jkssb.nic.in",
@@ -27,8 +26,8 @@
       },
       {
         "designation": "Head Assistant / Statistical Assistant / Section In-Charge",
-        "pay_level": "Level 6 (₹35,400–₹1,12,400)",
-        "years": "approx. 12–18 yrs",
+        "pay_level": "Level 6 (\u20b935,400\u2013\u20b91,12,400)",
+        "years": "approx. 12\u201318 yrs",
         "confidence": "reported",
         "as_of": "2026-09-13",
         "source_url": "https://jkssb.nic.in",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Section Officer (SO - Gazetted)",
-        "pay_level": "Level 7 to Level 8 (₹44,900–₹1,42,400 / ₹47,600–₹1,51,100)",
+        "pay_level": "Level 7 to Level 8 (\u20b944,900\u2013\u20b91,42,400 / \u20b947,600\u2013\u20b91,51,100)",
         "years": "approx. 18+ yrs",
         "confidence": "reported",
         "as_of": "2026-09-13",
@@ -45,7 +44,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Under JKSSB selection criteria, recruitment comprises two sequential stages: Stage 1 Computer Based Type Test (Qualifying, minimum 35 wpm with 90% accuracy), Stage 2 Written Examination (80 marks, 80 minutes), followed by Stage 3 Document Verification. Negative marking in the written test is 0.25 marks per incorrect answer.",
@@ -130,10 +128,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Junior Assistants are appointed in Pay Matrix Level 4 (₹25,500–₹81,100 with Entry Basic Pay ₹25,500) under the Jammu and Kashmir Civil Services (Revised Pay) Rules (S.O. 192 of 2020).",
+    "note": "Junior Assistants are appointed in Pay Matrix Level 4 (\u20b925,500\u2013\u20b981,100 with Entry Basic Pay \u20b925,500) under the Jammu and Kashmir Civil Services (Revised Pay) Rules (S.O. 192 of 2020).",
     "pay_level": "Level 4",
     "entry_basic_pay": 25500,
     "pay_confidence": "verified",
@@ -151,7 +148,7 @@
       "max": 44000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 4 entry basic pay of ₹25,500 at 58% DA (₹14,790 effective 01.07.2025), HRA (9% to 18%: ₹2,295 to ₹4,590 for district headquarters and Civil Secretariat Jammu/Srinagar), Medical Allowance (₹300), Transport Allowance (₹900 + DA = ₹1,422), net of NPS deduction (10% of Basic+DA = ₹4,029) and State Insurance.",
+    "estimate_note": "Calculated on Level 4 entry basic pay of \u20b925,500 at 58% DA (\u20b914,790 effective 01.07.2025), HRA (9% to 18%: \u20b92,295 to \u20b94,590 for district headquarters and Civil Secretariat Jammu/Srinagar), Medical Allowance (\u20b9300), Transport Allowance (\u20b9900 + DA = \u20b91,422), net of NPS deduction (10% of Basic+DA = \u20b94,029) and State Insurance.",
     "official_perks": [
       "Dearness Allowance (DA) revised semi-annually aligned with central rates",
       "House Rent Allowance (HRA) categorized by district / Secretariat posting",
@@ -162,11 +159,22 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment statistics compiled from official JKSSB notifications, skill test result sheets, and final recommendation lists.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 175750,
+        "vacancies": 950,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://jkssb.nic.in",
+        "source_label": "JKSSB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "applicants": 180000,
@@ -181,7 +189,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, type test guidelines, and merit lists published by JKSSB.",

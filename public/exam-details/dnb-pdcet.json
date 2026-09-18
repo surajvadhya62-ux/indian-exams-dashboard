@@ -1,7 +1,7 @@
 {
   "id": "dnb-pdcet",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "exam_scheme": {
     "status": "available",
     "note": "DNB-PDCET (Diplomate of National Board Post Diploma Centralized Entrance Test) is a single-window ranking examination conducted by NBEMS for admission to Post Diploma DNB (Broad Specialty) 2-year secondary DNB training courses across 14 medical specialties in accredited hospitals nationwide. The examination is conducted as a Computer Based Test (CBT) consisting of 120 multiple-choice questions carrying 480 marks with a duration of 2 hours (120 minutes). Marking scheme: 4 marks for each correct response, deduction of 1 mark for each incorrect response (25% negative marking). The question paper for each diploma specialty contains questions exclusively from the curriculum of that respective post-graduate medical diploma specialty. Merit list is prepared specialty-wise based on CBT score.",
@@ -12,7 +12,7 @@
         "confidence": "verified",
         "as_of": "2024-05-28",
         "source_url": "https://natboard.edu.in",
-        "source_label": "NBEMS Information Bulletin — DNB-PDCET Examination Scheme & Blueprint",
+        "source_label": "NBEMS Information Bulletin \u2014 DNB-PDCET Examination Scheme & Blueprint",
         "papers": [
           {
             "paper_name": "Specialty-Specific Post Diploma DNB Examination Paper (120 MCQs)",
@@ -48,6 +48,18 @@
     "status": "available",
     "note": "Candidate statistics for the Post Diploma DNB Centralized Entrance Test published by NBEMS.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://natboard.edu.in",
+        "source_label": "NBE - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 1073,

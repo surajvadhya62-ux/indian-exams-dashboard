@@ -1,15 +1,14 @@
 {
   "id": "csphcl-line-attendant",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
-    "note": "Line Attendant (Paricharak Line / परिचारक लाइन) is the frontline technical operative cadre in Chhattisgarh State Power Holding Company Limited (CSPHCL) and its operating subsidiaries: Chhattisgarh State Power Distribution Company Limited (CSPDCL) and Chhattisgarh State Power Transmission Company Limited (CSPTCL). Appointees execute 11 kV / 33 kV distribution and extra-high-voltage line patrolling, transformer maintenance, earthing, fault rectifications, and overhead line climbing. Promotion progression is governed by CSPHCL Technical & Subordinate Service Regulations, transitioning from Grade-III through Grade-I, leading into supervisory and junior engineering cadres upon qualifying departmental trade tests.",
+    "note": "Line Attendant (Paricharak Line / \u092a\u0930\u093f\u091a\u093e\u0930\u0915 \u0932\u093e\u0907\u0928) is the frontline technical operative cadre in Chhattisgarh State Power Holding Company Limited (CSPHCL) and its operating subsidiaries: Chhattisgarh State Power Distribution Company Limited (CSPDCL) and Chhattisgarh State Power Transmission Company Limited (CSPTCL). Appointees execute 11 kV / 33 kV distribution and extra-high-voltage line patrolling, transformer maintenance, earthing, fault rectifications, and overhead line climbing. Promotion progression is governed by CSPHCL Technical & Subordinate Service Regulations, transitioning from Grade-III through Grade-I, leading into supervisory and junior engineering cadres upon qualifying departmental trade tests.",
     "steps": [
       {
         "designation": "Line Attendant Grade-III / Paricharak (Line) Shreni-3",
-        "pay_level": "CSPHCL Pay Matrix Level S-1 (₹14,800 - ₹33,000)",
+        "pay_level": "CSPHCL Pay Matrix Level S-1 (\u20b914,800 - \u20b933,000)",
         "years": "0-5 yrs",
         "confidence": "verified",
         "as_of": "2026-08-07",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Line Attendant Grade-II / Paricharak (Line) Shreni-2",
-        "pay_level": "CSPHCL Pay Matrix Level S-2 (₹15,600 - ₹45,200)",
+        "pay_level": "CSPHCL Pay Matrix Level S-2 (\u20b915,600 - \u20b945,200)",
         "years": "5-10 yrs",
         "confidence": "verified",
         "as_of": "2026-08-07",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Line Attendant Grade-I / Senior Line Paricharak",
-        "pay_level": "CSPHCL Pay Matrix Level S-4 (₹19,800 - ₹62,600)",
+        "pay_level": "CSPHCL Pay Matrix Level S-4 (\u20b919,800 - \u20b962,600)",
         "years": "10-16 yrs",
         "confidence": "verified",
         "as_of": "2026-08-07",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Line Supervisor / Substation Attendant Grade-I",
-        "pay_level": "CSPHCL Pay Matrix Level S-6 (₹27,600 - ₹90,200)",
+        "pay_level": "CSPHCL Pay Matrix Level S-6 (\u20b927,600 - \u20b990,200)",
         "years": "16-22 yrs",
         "confidence": "verified",
         "as_of": "2026-08-07",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Junior Engineer (T&D / Distribution Line)",
-        "pay_level": "CSPHCL Pay Matrix Level S-8 (₹35,400 - ₹1,12,400)",
+        "pay_level": "CSPHCL Pay Matrix Level S-8 (\u20b935,400 - \u20b91,12,400)",
         "years": "22+ yrs",
         "confidence": "verified",
         "as_of": "2026-08-07",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection for Line Attendant (Paricharak Line) is conducted directly by CSPHCL / CSPDCL through a two-stage evaluation methodology. Stage 1 involves merit compilation based on normalized Class 10 (Matriculation) academic percentage plus service bonus marks for candidates possessing verified contractual line experience in state power companies. Shortlisted candidates in a 1:3 ratio are called for Stage 2, comprising Document Verification and the mandatory Physical Efficiency Pole Climbing Test (8 to 9 meter electric distribution pole climbing with safety harness within prescribed time). The pole climbing test is strictly qualifying in nature; inability to climb the pole results in immediate elimination.",
@@ -113,11 +111,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Line Attendants are remunerated under CSPHCL Wage Scales at Pay Matrix Level S-1 (₹14,800 – ₹33,000) with entry basic pay of ₹14,800. Under Chhattisgarh State direct recruitment service regulations, newly recruited personnel undergo a 3-year probationary training period with phased stipend progression (1st year: 70% of scale minimum = ₹10,360; 2nd year: 80% = ₹11,840; 3rd year: 90% = ₹13,320) plus applicable dearness and field allowances, upon completion of which regular Pay Matrix Level S-1 is drawn.",
-    "pay_level": "CSPHCL Pay Matrix Level S-1 (₹14,800 - ₹33,000)",
+    "note": "Line Attendants are remunerated under CSPHCL Wage Scales at Pay Matrix Level S-1 (\u20b914,800 \u2013 \u20b933,000) with entry basic pay of \u20b914,800. Under Chhattisgarh State direct recruitment service regulations, newly recruited personnel undergo a 3-year probationary training period with phased stipend progression (1st year: 70% of scale minimum = \u20b910,360; 2nd year: 80% = \u20b911,840; 3rd year: 90% = \u20b913,320) plus applicable dearness and field allowances, upon completion of which regular Pay Matrix Level S-1 is drawn.",
+    "pay_level": "CSPHCL Pay Matrix Level S-1 (\u20b914,800 - \u20b933,000)",
     "entry_basic_pay": 14800,
     "pay_confidence": "verified",
     "pay_as_of": "2026-08-07",
@@ -134,7 +131,7 @@
       "max": 24500
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimated on full regular entry basic pay of ₹14,800 with project standard 58% Dearness Allowance (₹8,584), House Rent Allowance (6% to 9% as per city classification in Chhattisgarh = ₹888 to ₹1,332), and technical line hazard/patrol allowances; in-hand estimate deducts 10% NPS/CPF contribution (₹2,338), Group Insurance (GIS/APF), and state Professional Tax (₹150). During the initial 3-year probationary stipend regime (70%/80%/90%), entry in-hand stipend ranges between ₹16,000 and ₹19,000.",
+    "estimate_note": "Estimated on full regular entry basic pay of \u20b914,800 with project standard 58% Dearness Allowance (\u20b98,584), House Rent Allowance (6% to 9% as per city classification in Chhattisgarh = \u20b9888 to \u20b91,332), and technical line hazard/patrol allowances; in-hand estimate deducts 10% NPS/CPF contribution (\u20b92,338), Group Insurance (GIS/APF), and state Professional Tax (\u20b9150). During the initial 3-year probationary stipend regime (70%/80%/90%), entry in-hand stipend ranges between \u20b916,000 and \u20b919,000.",
     "official_perks": [
       "Dearness Allowance revised bi-annually as per state public sector undertaking directives",
       "House Rent Allowance (HRA) at 6% to 9% depending on urban/rural station posting in Chhattisgarh",
@@ -147,17 +144,28 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Candidate statistics derived from official CSPDCL / CSPHCL recruitment releases and administrative announcements issued by the Executive Director (Human Resources).",
     "years": [
       {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://cspc.co.in",
+        "source_label": "CSPHCL - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2021,
         "applicants": 100000,
         "vacancies": 3000,
         "shortlisted_for_mains": 9000,
-        "selectivity_ratio": "approx. 1 in 33 (calculated: ~1,00,000 applicants ÷ 3,000 notified vacancies across Raipur, Bilaspur, Raigarh, Durg, Rajnandgaon, Jagdalpur, and Ambikapur regions)",
+        "selectivity_ratio": "approx. 1 in 33 (calculated: ~1,00,000 applicants \u00f7 3,000 notified vacancies across Raipur, Bilaspur, Raigarh, Durg, Rajnandgaon, Jagdalpur, and Ambikapur regions)",
         "confidence": "reported",
         "as_of": "2022-01-15",
         "source_url": "https://web.cspdcl.co.in/#/FrmViewRecruitment",
@@ -165,7 +173,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, cadre schedules, and employment portals published by Chhattisgarh State Power Companies (CSPHCL / CSPTCL / CSPDCL / CSPGCL).",

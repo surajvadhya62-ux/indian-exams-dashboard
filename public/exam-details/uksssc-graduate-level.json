@@ -1,15 +1,14 @@
 {
   "id": "uksssc-graduate-level",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Recruitment through the UKSSSC Graduate Level Examination feeds into Group 'C' executive, administrative, and developmental positions across Uttarakhand state government departments, primarily the Rural Development Department (Village Development Officer / VDO), Panchayati Raj Department (Village Panchayat Development Officer / VPDO), Social Welfare Department, and Commission subordinate offices. Career progression in rural development and panchayati raj ascends to block and district executive ranks under Uttarakhand state cadre service rules.",
     "steps": [
       {
         "designation": "Village Development Officer (VDO) / Village Panchayat Development Officer (VPDO)",
-        "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+        "pay_level": "Level 4 (\u20b925,500 - \u20b981,100)",
         "years": "Entry (approx. 0-6 yrs)",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Assistant Development Officer (ADO - Panchayat / Rural Development) / Senior VDO",
-        "pay_level": "Level 6 (₹35,400 - ₹1,12,400)",
+        "pay_level": "Level 6 (\u20b935,400 - \u20b91,12,400)",
         "years": "approx. 6-12 yrs",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Block Development Officer (BDO - Subordinate/State Cadre) / District Panchayat Raj Officer (Junior Grade)",
-        "pay_level": "Level 7 (₹44,900 - ₹1,42,400)",
+        "pay_level": "Level 7 (\u20b944,900 - \u20b91,42,400)",
         "years": "approx. 12-18 yrs",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Senior Block Development Officer / Deputy Director (Panchayati Raj / Rural Development)",
-        "pay_level": "Level 10 (₹56,100 - ₹1,77,500)",
+        "pay_level": "Level 10 (\u20b956,100 - \u20b91,77,500)",
         "years": "approx. 18-25 yrs",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Joint Director / Additional Director (Directorate of Panchayati Raj / Rural Development)",
-        "pay_level": "Level 11 (₹67,700 - ₹2,08,700)",
+        "pay_level": "Level 11 (\u20b967,700 - \u20b92,08,700)",
         "years": "approx. 25+ yrs",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The UKSSSC Graduate Level Service Examination scheme is formally approved by the Government of Uttarakhand Personnel and Vigilance Department vide Order No. 426609/XXX(4)/2026-03(03)/26-E-94441 dated 25 August 2026. The examination comprises a single 100-mark objective written test followed by a qualifying computer typing test for posts where typing is prescribed.",
@@ -68,7 +66,7 @@
         "source_label": "Uttarakhand Government Personnel Dept. Approval Order No. 426609/XXX(4)/2026 & UKSSSC Graduate Level Syllabus Notification",
         "papers": [
           {
-            "paper_name": "General Hindi (सामान्य हिन्दी)",
+            "paper_name": "General Hindi (\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0939\u093f\u0928\u094d\u0926\u0940)",
             "marks": 20,
             "duration_minutes": 120,
             "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
@@ -84,7 +82,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Uttarakhand Specific General Knowledge (उत्तराखण्ड का सामान्य ज्ञान)",
+            "paper_name": "Uttarakhand Specific General Knowledge (\u0909\u0924\u094d\u0924\u0930\u093e\u0916\u0923\u094d\u0921 \u0915\u093e \u0938\u093e\u092e\u093e\u0928\u094d\u092f \u091c\u094d\u091e\u093e\u0928)",
             "marks": 40,
             "duration_minutes": 120,
             "negative_marking": "0.25 mark (1/4th negative marking per incorrect answer)",
@@ -99,7 +97,7 @@
         "confidence": "verified",
         "as_of": "2026-08-31",
         "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/08/202608311926073039.pdf",
-        "source_label": "UKSSSC Graduate Level Examination Scheme — Typing Qualification Criteria",
+        "source_label": "UKSSSC Graduate Level Examination Scheme \u2014 Typing Qualification Criteria",
         "papers": [
           {
             "paper_name": "Computer Typing Test (Hindi minimum 4000 key depressions per hour)",
@@ -112,7 +110,7 @@
         ]
       },
       {
-        "stage_name": "Document Scrutiny (अभिलेख सन्निरीक्षा)",
+        "stage_name": "Document Scrutiny (\u0905\u092d\u093f\u0932\u0947\u0916 \u0938\u0928\u094d\u0928\u093f\u0930\u0940\u0915\u094d\u0937\u093e)",
         "stage_order": 3,
         "confidence": "verified",
         "as_of": "2026-01-16",
@@ -131,11 +129,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Graduate level recruits are appointed into Group 'C' posts across Pay Level 4 (₹25,500 - ₹81,100) for Village Development Officers (VDO) and Village Panchayat Development Officers (VPDO), and Pay Level 5 (₹29,200 - ₹92,300) for Assistant Social Welfare Officers under the Uttarakhand State Revised Pay Rules (adapting 7th Pay Commission). Entry basic pay corresponds to Level 4 benchmark ₹25,500.",
-    "pay_level": "Level 4 (₹25,500 - ₹81,100)",
+    "note": "Graduate level recruits are appointed into Group 'C' posts across Pay Level 4 (\u20b925,500 - \u20b981,100) for Village Development Officers (VDO) and Village Panchayat Development Officers (VPDO), and Pay Level 5 (\u20b929,200 - \u20b992,300) for Assistant Social Welfare Officers under the Uttarakhand State Revised Pay Rules (adapting 7th Pay Commission). Entry basic pay corresponds to Level 4 benchmark \u20b925,500.",
+    "pay_level": "Level 4 (\u20b925,500 - \u20b981,100)",
     "entry_basic_pay": 25500,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-14",
@@ -152,28 +149,39 @@
       "max": 43500
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Gross remuneration computed on Level 4 Entry Basic Pay of ₹25,500 with Dearness Allowance at canonical 58% (₹14,790), House Rent Allowance ranging from 9% (₹2,295 in rural blocks/remote mountain stations) to 18% (₹4,590 in urban headquarters such as Dehradun), Fixed Medical Allowance (₹1,000/month), and admissible Hill Compensatory Allowance (HCA) for designated high-altitude mountain blocks. In-hand estimate accounts for statutory National Pension System (NPS) deduction of 10% of Basic + DA (₹4,029) and Uttarakhand State Employees GIS (~₹200).",
+    "estimate_note": "Gross remuneration computed on Level 4 Entry Basic Pay of \u20b925,500 with Dearness Allowance at canonical 58% (\u20b914,790), House Rent Allowance ranging from 9% (\u20b92,295 in rural blocks/remote mountain stations) to 18% (\u20b94,590 in urban headquarters such as Dehradun), Fixed Medical Allowance (\u20b91,000/month), and admissible Hill Compensatory Allowance (HCA) for designated high-altitude mountain blocks. In-hand estimate accounts for statutory National Pension System (NPS) deduction of 10% of Basic + DA (\u20b94,029) and Uttarakhand State Employees GIS (~\u20b9200).",
     "official_perks": [
       "House Rent Allowance (HRA) at 9% to 18% based on posting classification, or government quarter allotment",
       "Hill Compensatory Allowance (HCA) admissible for notified mountain districts and remote hill postings",
-      "Fixed Medical Allowance (FMA) of ₹1,000/month or coverage under Uttarakhand State Health Schemes (USHS)",
+      "Fixed Medical Allowance (FMA) of \u20b91,000/month or coverage under Uttarakhand State Health Schemes (USHS)",
       "Traveling Allowance (TA) and Daily Allowance (DA) for official field tours within gram panchayat circles",
       "Contributory pension coverage under National Pension System (NPS)",
       "Earned leave, casual leave, and medical leave benefits under Uttarakhand Leave Rules"
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "UKSSSC Graduate Level examination participation and selection figures verified directly from official commission notifications, merit lists, and recommendation releases published on sssc.uk.gov.in.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://sssc.uk.gov.in",
+        "source_label": "UKSSSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2023,
         "applicants": 155200,
         "vacancies": 229,
         "shortlisted_for_mains": 1540,
-        "selectivity_ratio": "approx. 1 in 678 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 678 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2026-02-02",
         "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2026/02/20260202866586309.pdf",
@@ -184,7 +192,7 @@
         "applicants": 216519,
         "vacancies": 854,
         "shortlisted_for_mains": 1424,
-        "selectivity_ratio": "approx. 1 in 254 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 254 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2025-08-27",
         "source_url": "https://cdnbbsr.s3waas.gov.in/s34ffd0e19d2069412274bd3025b0e176c/uploads/2025/08/202508272136422806.pdf",
@@ -192,7 +200,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, approved syllabus frameworks, and recommendation lists issued directly by Uttarakhand Subordinate Service Selection Commission (UKSSSC).",

@@ -1,19 +1,19 @@
 {
   "id": "barc-stipendiary-trainee",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": null,
     "steps": [
       {
         "designation": "Stipendiary Trainee Category-I (2-Year Training)",
-        "pay_level": "Stipend (₹24,000 1st yr, ₹26,000 2nd yr)",
+        "pay_level": "Stipend (\u20b924,000 1st yr, \u20b926,000 2nd yr)",
         "years": "Training Period (0-2 yrs)",
         "confidence": "verified",
         "as_of": "2023-04-22",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "BARC Advertisement No. 01/2023 — Stipendiary Trainees Category-I & II"
+        "source_label": "BARC Advertisement No. 01/2023 \u2014 Stipendiary Trainees Category-I & II"
       },
       {
         "designation": "Scientific Assistant (Grade C)",
@@ -22,7 +22,7 @@
         "confidence": "verified",
         "as_of": "2023-04-22",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "BARC Advt 01/2023 — Absorption into Scientific Assistant/C (₹44,900, Level 7)"
+        "source_label": "BARC Advt 01/2023 \u2014 Absorption into Scientific Assistant/C (\u20b944,900, Level 7)"
       },
       {
         "designation": "Scientific Assistant (Grade D)",
@@ -31,7 +31,7 @@
         "confidence": "verified",
         "as_of": "2023-04-22",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "DAE Technical Promotion Scheme — Scientific Assistant/D (Level 8)"
+        "source_label": "DAE Technical Promotion Scheme \u2014 Scientific Assistant/D (Level 8)"
       },
       {
         "designation": "Scientific Assistant (Grade E)",
@@ -40,7 +40,7 @@
         "confidence": "verified",
         "as_of": "2023-04-22",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "DAE Scientific/Technical Cadre Rules — Level 9"
+        "source_label": "DAE Scientific/Technical Cadre Rules \u2014 Level 9"
       },
       {
         "designation": "Scientific Officer (Grade SB / C)",
@@ -63,7 +63,7 @@
         "confidence": "verified",
         "as_of": "2023-04-22",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "BARC Advt 01/2023 — Selection Methodology for Category-I Stipendiary Trainees",
+        "source_label": "BARC Advt 01/2023 \u2014 Selection Methodology for Category-I Stipendiary Trainees",
         "papers": [
           {
             "paper_name": "Technical Discipline CBT",
@@ -81,7 +81,7 @@
         "confidence": "verified",
         "as_of": "2023-04-22",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "BARC Selection Guidelines — Personal Interview",
+        "source_label": "BARC Selection Guidelines \u2014 Personal Interview",
         "papers": [
           {
             "paper_name": "Personal Technical Interview",
@@ -97,13 +97,13 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "During the 2-year training period, Category-I trainees receive a monthly stipend of ₹24,000 (1st year) and ₹26,000 (2nd year) plus a one-time book allowance of ₹3,000. Upon successful completion of training, Category-I trainees are absorbed as Scientific Assistant / C under the 7th CPC Pay Matrix Level 7 (Entry Basic Pay ₹44,900; range ₹44,900 – ₹1,42,400). Compensation includes central DA, HRA, Transport Allowance, PRIS incentive, and CHSS healthcare.",
+    "note": "During the 2-year training period, Category-I trainees receive a monthly stipend of \u20b924,000 (1st year) and \u20b926,000 (2nd year) plus a one-time book allowance of \u20b93,000. Upon successful completion of training, Category-I trainees are absorbed as Scientific Assistant / C under the 7th CPC Pay Matrix Level 7 (Entry Basic Pay \u20b944,900; range \u20b944,900 \u2013 \u20b91,42,400). Compensation includes central DA, HRA, Transport Allowance, PRIS incentive, and CHSS healthcare.",
     "pay_level": "Level 7",
     "entry_basic_pay": 44900,
     "pay_confidence": "verified",
     "pay_as_of": "2023-04-22",
     "pay_source_url": "https://www.barc.gov.in",
-    "pay_source_label": "BARC Advt 01/2023 — Emoluments upon Absorption into Scientific Assistant/C",
+    "pay_source_label": "BARC Advt 01/2023 \u2014 Emoluments upon Absorption into Scientific Assistant/C",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -115,7 +115,7 @@
       "max": 83000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 7 basic ₹44,900 + 58% DA (₹26,042) + 30% HRA Mumbai (₹13,470) + Transport Allowance (₹3,600 + ₹2,088 DA on TA) = gross ₹90,100, in-hand ~₹81,000 after 10% NPS deduction.",
+    "estimate_note": "Calculated on Level 7 basic \u20b944,900 + 58% DA (\u20b926,042) + 30% HRA Mumbai (\u20b913,470) + Transport Allowance (\u20b93,600 + \u20b92,088 DA on TA) = gross \u20b990,100, in-hand ~\u20b981,000 after 10% NPS deduction.",
     "official_perks": [
       "Contributory Health Service Scheme (CHSS) covering full medical care for employee and eligible dependents",
       "DAE Performance Related Incentive Scheme (PRIS) bonuses",
@@ -129,6 +129,18 @@
     "status": "available",
     "note": "Recruitment and vacancy metrics published by BARC for massive consolidated DAE recruitment exercises.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.barc.gov.in",
+        "source_label": "BARC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 1216,

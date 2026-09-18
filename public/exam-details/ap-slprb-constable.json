@@ -1,14 +1,14 @@
 {
   "id": "ap-slprb-constable",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Police Constables in Andhra Pradesh serve as frontline law enforcement personnel under the Andhra Pradesh Police (Stipendiary Cadet Trainee) Rules (G.O.Ms.No.315 Home Dept dated 13.10.1999) and the Andhra Pradesh Police Subordinate Service Rules (G.O.Ms.No.126 Home Dept). Personnel are deployed across Civil Police stations, Special Branch, Armed Reserve (AR), and Andhra Pradesh Special Police (APSP) battalions. Promotion through the subordinate non-gazetted ranks to Head Constable, ASI, and Sub-Inspector is governed by departmental qualifying tests, service seniority, and unblemished record (Annual Confidential Reports).",
     "steps": [
       {
         "designation": "Stipendiary Cadet Trainee (SCT) Police Constable (Civil / APSP)",
-        "pay_level": "AP RPS 2022 Scale (₹25,220 - ₹80,910)",
+        "pay_level": "AP RPS 2022 Scale (\u20b925,220 - \u20b980,910)",
         "years": "Entry (approx. 0-5 yrs)",
         "confidence": "verified",
         "as_of": "2022-11-28",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Head Constable (HC) / Havildar (APSP)",
-        "pay_level": "AP RPS 2022 Scale (₹31,040 - ₹92,050)",
+        "pay_level": "AP RPS 2022 Scale (\u20b931,040 - \u20b992,050)",
         "years": "approx. 5-12 yrs",
         "confidence": "reported",
         "as_of": "2022-01-17",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Assistant Sub-Inspector of Police (ASI) / Assistant Reserve Sub-Inspector (ARSI)",
-        "pay_level": "AP RPS 2022 Scale (₹35,570 - ₹1,09,910)",
+        "pay_level": "AP RPS 2022 Scale (\u20b935,570 - \u20b91,09,910)",
         "years": "approx. 12-20 yrs",
         "confidence": "reported",
         "as_of": "2022-01-17",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Sub-Inspector of Police (SI / Station House Officer) / Reserve Sub-Inspector (RSI)",
-        "pay_level": "AP RPS 2022 Scale (₹44,570 - ₹1,27,480)",
+        "pay_level": "AP RPS 2022 Scale (\u20b944,570 - \u20b91,27,480)",
         "years": "approx. 20-28 yrs",
         "confidence": "verified",
         "as_of": "2022-11-28",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Inspector of Police (Circle Inspector - CI) / Reserve Inspector (RI)",
-        "pay_level": "AP RPS 2022 Scale (₹54,060 - ₹1,40,540)",
+        "pay_level": "AP RPS 2022 Scale (\u20b954,060 - \u20b91,40,540)",
         "years": "approx. 28+ yrs",
         "confidence": "reported",
         "as_of": "2022-01-17",
@@ -123,8 +123,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Constables recruited by SLPRB AP are state-jurisdiction personnel remunerated under the Andhra Pradesh Revised Pay Scales 2022 (AP RPS 2022 / 11th PRC), notified vide G.O.Ms.No.1, Finance (PC-TA) Department, dated 17.01.2022. Direct recruit cadets undergo institutional training during which they receive a monthly stipend as fixed by the State Government. Upon successful completion of training, recruits are appointed into the regular time scale of pay ₹25,220 – ₹80,910 with an entry basic pay of ₹25,220.",
-    "pay_level": "AP RPS 2022 Scale (₹25,220 - ₹80,910)",
+    "note": "Constables recruited by SLPRB AP are state-jurisdiction personnel remunerated under the Andhra Pradesh Revised Pay Scales 2022 (AP RPS 2022 / 11th PRC), notified vide G.O.Ms.No.1, Finance (PC-TA) Department, dated 17.01.2022. Direct recruit cadets undergo institutional training during which they receive a monthly stipend as fixed by the State Government. Upon successful completion of training, recruits are appointed into the regular time scale of pay \u20b925,220 \u2013 \u20b980,910 with an entry basic pay of \u20b925,220.",
+    "pay_level": "AP RPS 2022 Scale (\u20b925,220 - \u20b980,910)",
     "entry_basic_pay": 25220,
     "pay_confidence": "verified",
     "pay_as_of": "2022-11-28",
@@ -141,7 +141,7 @@
       "max": 43000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on AP RPS 2022 entry basic pay of ₹25,220 with standardized project benchmark 58% Dearness Allowance (₹14,628) and HRA ranging from 8% in rural mandal/town stations (₹2,018) to 16% in major urban centers such as Vijayawada and Visakhapatnam (₹4,035), plus monthly police uniform maintenance/washing allowance and special duty/risk allowance. In-hand estimate deducts 10% Contributory Pension Scheme (CPS/APGPS: ₹3,985), APGLI life insurance (~₹500), GIS (~₹60), and Professional Tax (₹200). Initial institutional training receives monthly stipend as determined by Government.",
+    "estimate_note": "Calculated on AP RPS 2022 entry basic pay of \u20b925,220 with standardized project benchmark 58% Dearness Allowance (\u20b914,628) and HRA ranging from 8% in rural mandal/town stations (\u20b92,018) to 16% in major urban centers such as Vijayawada and Visakhapatnam (\u20b94,035), plus monthly police uniform maintenance/washing allowance and special duty/risk allowance. In-hand estimate deducts 10% Contributory Pension Scheme (CPS/APGPS: \u20b93,985), APGLI life insurance (~\u20b9500), GIS (~\u20b960), and Professional Tax (\u20b9200). Initial institutional training receives monthly stipend as determined by Government.",
     "official_perks": [
       "Government police residential quarters or House Rent Allowance (HRA: 8% to 16% as per AP PRC 2022 classification)",
       "Andhra Pradesh Employees Health Scheme (EHS) cashless medical coverage for police personnel and eligible dependents",
@@ -158,11 +158,23 @@
     "note": "Official recruitment applicant and qualification statistics published directly by the State Level Police Recruitment Board Andhra Pradesh (SLPRB AP) across press releases and result notes for the 2022-2023 mass recruitment drive (Notification Rc.No.161/SLPRB/Rect.2/2022).",
     "years": [
       {
+        "year": 2025,
+        "applicants": 777000,
+        "vacancies": 4200,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://slprb.ap.gov.in",
+        "source_label": "SLPRB AP - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2023,
         "applicants": 503487,
         "vacancies": 6100,
         "shortlisted_for_mains": 95208,
-        "selectivity_ratio": "approx. 1 in 83 (calculated: 5,03,487 registered applicants issued hall tickets ÷ 6,100 notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 83 (calculated: 5,03,487 registered applicants issued hall tickets \u00f7 6,100 notified vacancies)",
         "confidence": "verified",
         "as_of": "2023-02-05",
         "source_url": "https://slprb.ap.gov.in/PDFS/Press%20Note%20on%20PCs%20PWT%20%20Result-%2005.02.2023.pdf",
@@ -173,7 +185,7 @@
         "applicants": 394400,
         "vacancies": 3137,
         "shortlisted_for_mains": 109106,
-        "selectivity_ratio": "approx. 1 in 126 (calculated: ~3,94,400 registered applicants ÷ 3,137 notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 126 (calculated: ~3,94,400 registered applicants \u00f7 3,137 notified vacancies)",
         "confidence": "reported",
         "as_of": "2018-12-24",
         "source_url": "https://slprb.ap.gov.in",

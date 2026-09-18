@@ -1,7 +1,7 @@
 {
   "id": "tn-mrb-staff-nurse",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Nursing service career hierarchy in the Tamil Nadu Medical Subordinate Service across government hospitals, medical college hospitals, and primary health centres (PHCs). Per G.O. (Ms) No. 232, nurses are initially appointed on consolidated contract pay and absorbed into the regular time scale of pay (Level 10) after two years of service based on seniority.",
@@ -87,7 +87,7 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "Nurses recruited through MRB are initially placed on a consolidated contractual pay of ₹14,000 per month (with annual increments of ₹500 under G.O. Ms. No. 232, Health and Family Welfare Department). Following completion of two years of satisfactory service, candidates are absorbed into the regular time-scale under Level 10 of the Tamil Nadu Revised Pay Matrix (₹20,600 - ₹75,900).",
+    "note": "Nurses recruited through MRB are initially placed on a consolidated contractual pay of \u20b914,000 per month (with annual increments of \u20b9500 under G.O. Ms. No. 232, Health and Family Welfare Department). Following completion of two years of satisfactory service, candidates are absorbed into the regular time-scale under Level 10 of the Tamil Nadu Revised Pay Matrix (\u20b920,600 - \u20b975,900).",
     "pay_level": "Level 10 (Regular) / Consolidated Rs. 14,000 (Initial 2 yrs)",
     "entry_basic_pay": 20600,
     "pay_confidence": "verified",
@@ -105,7 +105,7 @@
       "max": 37000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimate reflects regular time-scale emoluments post-absorption at Level 10 entry basic pay ₹20,600 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (₹1,200 to ₹3,000), Medical Allowance, Uniform Allowance, and Night Shift Duty Allowance. Deductions include CPS (10% of Basic+DA), NHIS, and professional tax.",
+    "estimate_note": "Estimate reflects regular time-scale emoluments post-absorption at Level 10 entry basic pay \u20b920,600 with 58% DA (effective 1 Jul 2025) plus Tamil Nadu Grade-classified HRA (\u20b91,200 to \u20b93,000), Medical Allowance, Uniform Allowance, and Night Shift Duty Allowance. Deductions include CPS (10% of Basic+DA), NHIS, and professional tax.",
     "official_perks": [
       "Medical insurance coverage under New Health Insurance Scheme (NHIS) for nurses and dependent family members",
       "Uniform Allowance, Washing Allowance, and Night Duty Special Allowance",
@@ -120,11 +120,23 @@
     "note": "The TN MRB Staff Nurse Examination is the primary recruitment mechanism for clinical nursing posts across hundreds of government medical institutions in Tamil Nadu, drawing tens of thousands of GNM and B.Sc. Nursing registered candidates per cycle.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 333000,
+        "vacancies": 1800,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.mrb.tn.gov.in",
+        "source_label": "TN MRB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2019,
         "applicants": 40000,
         "vacancies": 2345,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "approx. 1 in 17 (calculated: registered nursing candidates ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 17 (calculated: registered nursing candidates \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2019-02-07",
         "source_url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
@@ -144,7 +156,7 @@
         "as_of": "2026-09-12"
       },
       {
-        "label": "Direct Recruitment for the Post of Nurses — Official Notification (Advt. No. 02/MRB/2019)",
+        "label": "Direct Recruitment for the Post of Nurses \u2014 Official Notification (Advt. No. 02/MRB/2019)",
         "url": "https://www.mrb.tn.gov.in/departments_cms/uploads/tami_800/content_pdf/Nurses_Notification_07022019.pdf",
         "type": "notification",
         "cycle_label": "MRB-Nurses-2019",

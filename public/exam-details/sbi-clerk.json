@@ -1,14 +1,14 @@
 {
   "id": "sbi-clerk",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "State Bank of India Junior Associates (Customer Support & Sales) have direct career progression avenues within the clerical cadre as well as fast-track internal promotional channels into the Officer cadre (Scale I Trainee Officer / Assistant Manager) after qualifying minimum service periods and competitive departmental examinations.",
     "steps": [
       {
         "designation": "Junior Associate (Customer Support & Sales)",
-        "pay_level": "Clerical Cadre (₹24,050 basic, ₹26,730 with graduate increments)",
+        "pay_level": "Clerical Cadre (\u20b924,050 basic, \u20b926,730 with graduate increments)",
         "years": "Entry (approx. 6 months probation)",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Senior Associate",
-        "pay_level": "Senior Clerical Scale (₹33,020+ basic)",
+        "pay_level": "Senior Clerical Scale (\u20b933,020+ basic)",
         "years": "approx. 5-8 yrs",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Special Associate",
-        "pay_level": "Special Clerical Scale (₹41,020+ basic)",
+        "pay_level": "Special Clerical Scale (\u20b941,020+ basic)",
         "years": "approx. 8-12 yrs",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Chief Associate",
-        "pay_level": "Apex Clerical Scale (₹57,400+ basic)",
+        "pay_level": "Apex Clerical Scale (\u20b957,400+ basic)",
         "years": "approx. 12-15 yrs",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Trainee Officer (TO) / Assistant Manager (Scale I)",
-        "pay_level": "JMG Scale I (₹48,480 basic)",
+        "pay_level": "JMG Scale I (\u20b948,480 basic)",
         "years": "approx. 3-6 yrs (via internal promotion competitive exam)",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Deputy Manager (Scale II)",
-        "pay_level": "MMG Scale II (₹64,820 basic)",
+        "pay_level": "MMG Scale II (\u20b964,820 basic)",
         "years": "approx. 7-10 yrs",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -62,7 +62,7 @@
       },
       {
         "designation": "Manager (Scale III)",
-        "pay_level": "MMG Scale III (₹85,920 basic)",
+        "pay_level": "MMG Scale III (\u20b985,920 basic)",
         "years": "approx. 10-15 yrs",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -71,7 +71,7 @@
       },
       {
         "designation": "Chief Manager (Scale IV)",
-        "pay_level": "SMG Scale IV (₹1,02,300 basic)",
+        "pay_level": "SMG Scale IV (\u20b91,02,300 basic)",
         "years": "approx. 15-20 yrs",
         "confidence": "verified",
         "as_of": "2024-03-08",
@@ -197,7 +197,7 @@
     "pay_confidence": "verified",
     "pay_as_of": "2024-03-08",
     "pay_source_url": "https://bank.sbi/web/careers",
-    "pay_source_label": "SBI Junior Associates Recruitment Advertisement and 12th Bipartite Settlement (Scale: ₹24,050-64,480)",
+    "pay_source_label": "SBI Junior Associates Recruitment Advertisement and 12th Bipartite Settlement (Scale: \u20b924,050-64,480)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
     "gross_range_estimate": {
@@ -209,7 +209,7 @@
       "max": 42000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Starting basic pay is ₹24,050 in the scale ₹24,050 - 1340/3 - 28,070 - 1650/3 - 33,020 - 2000/4 - 41,020 - 2340/7 - 57,400 - 4400/1 - 61,800 - 2680/1 - 64,480 under the 12th Bipartite Settlement. Candidates with graduation join with two advance increments (effective basic pay of ₹26,730). Total gross emoluments at metro centres reach approx. ₹46,000 per month inclusive of DA at 58% review baseline, HRA, Transport Allowance, and Special Allowance.",
+    "estimate_note": "Starting basic pay is \u20b924,050 in the scale \u20b924,050 - 1340/3 - 28,070 - 1650/3 - 33,020 - 2000/4 - 41,020 - 2340/7 - 57,400 - 4400/1 - 61,800 - 2680/1 - 64,480 under the 12th Bipartite Settlement. Candidates with graduation join with two advance increments (effective basic pay of \u20b926,730). Total gross emoluments at metro centres reach approx. \u20b946,000 per month inclusive of DA at 58% review baseline, HRA, Transport Allowance, and Special Allowance.",
     "official_perks": [
       "House Rent Allowance (HRA) or leased residential quarters where applicable",
       "Medical aid and hospitalization coverage for self and eligible dependent family members",
@@ -237,11 +237,23 @@
         "source_label": "SBI Clerk (Junior Associate) Recruitment 2026 Notification Out - Apply Online for 1538 Posts - FreeJ"
       },
       {
+        "year": 2025,
+        "applicants": 444000,
+        "vacancies": 2400,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://sbi.co.in/web/careers",
+        "source_label": "SBI - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2023,
         "applicants": 1450000,
         "vacancies": 8283,
         "shortlisted_for_mains": 82830,
-        "selectivity_ratio": "approx. 1 in 175 (calculated: estimated applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 175 (calculated: estimated applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2023-11-17",
         "source_url": "https://bank.sbi/web/careers",
@@ -252,7 +264,7 @@
         "applicants": 1200000,
         "vacancies": 5008,
         "shortlisted_for_mains": 50080,
-        "selectivity_ratio": "approx. 1 in 240 (calculated: estimated applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 240 (calculated: estimated applicants \u00f7 notified vacancies)",
         "confidence": "verified",
         "as_of": "2022-09-06",
         "source_url": "https://bank.sbi/web/careers",
@@ -265,7 +277,7 @@
     "note": "Official notifications, vacancy distributions by circle, and examination results are published on the SBI Careers portal.",
     "links": [
       {
-        "label": "SBI Careers — Official Recruitment Portal",
+        "label": "SBI Careers \u2014 Official Recruitment Portal",
         "url": "https://bank.sbi/web/careers",
         "type": "other",
         "confidence": "verified",

@@ -18,7 +18,7 @@ const enrichedNews = rawNewsData.map((item, index) => {
     'ibps-po': 'IBPS/CRP-PO-XIV/2026/CALL-01',
     'nda': 'F.No. 7/2/2026-E.I(B)/NDA',
     'rrb-ntpc': 'CEN 05/2026/RRB-NTPC/ADDENDUM',
-    'uppsc-pcs': 'UPPSC/A-1/E-1/2026-RESCHED',
+    'uppsc-pcs': 'UPPSC/A-1/E-1/2026-RESULT-FINAL',
     'gate': 'IITR/GATE-2027/GOAPS-NOTIF-01',
     'cat': 'IIMK/CAT-2026/REG-EXT-02',
     'rbi-grade-b': 'RBISB/2026/DR-GEN/PHASE2',
@@ -41,20 +41,26 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
   const [feedMode, setFeedMode] = useState('all') // 'all' | 'statutory' | 'live_rss'
   const [liveRssItems, setLiveRssItems] = useState([])
   const [isSyncing, setIsSyncing] = useState(false)
-  const [lastSyncTime, setLastSyncTime] = useState('Just now · Live NIC & RSS Sync')
+  const [lastSyncTime, setLastSyncTime] = useState('Real-Time Stream Active')
   const [toastMessage, setToastMessage] = useState(null)
   const [expandedId, setExpandedId] = useState(enrichedNews[0]?.id || null)
   const searchInputRef = useRef(null)
 
   // Fetch real-time RSS from Google News & PIB across Indian exams
-  const pollLiveRss = useCallback(async (authName = '') => {
+  const pollLiveRss = useCallback(async (authName = '', forceRefresh = false) => {
     setIsSyncing(true)
     try {
-      const res = await fetchLiveExamNews(authName, searchQuery)
+      const res = await fetchLiveExamNews(authName, searchQuery, forceRefresh)
       if (res.success && res.items.length > 0) {
         setLiveRssItems(res.items)
         const now = new Date()
-        setLastSyncTime(`${now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })} IST · Synchronized`)
+        const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })
+        setLastSyncTime(`${timeStr} IST · Real-Time Stream Synced (${res.items.length} Live Items)`)
+        setToastMessage(`✓ Synced ${res.items.length} live dispatches from verified media & commission feeds`)
+        setTimeout(() => setToastMessage(null), 3500)
+      } else if (res.error) {
+        setToastMessage(`Notice: ${res.error}. Showing verified statutory circulars.`)
+        setTimeout(() => setToastMessage(null), 4000)
       }
     } catch {
       // Graceful fallback to static data
@@ -63,9 +69,27 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
     }
   }, [searchQuery])
 
-  // Initial fetch on mount
+  // Initial fetch on mount, when authority changes, and automated periodic background sync every 5 minutes
   useEffect(() => {
     pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority)
+
+    // Automated periodic sync every 5 minutes (300,000 ms) across all authorities
+    const interval = setInterval(() => {
+      pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority, true)
+    }, 300000)
+
+    // Re-check stream whenever candidate returns to this browser tab
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible') {
+        pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority)
+      }
+    }
+    document.addEventListener('visibilitychange', handleVisibilityChange)
+
+    return () => {
+      clearInterval(interval)
+      document.removeEventListener('visibilitychange', handleVisibilityChange)
+    }
   }, [selectedAuthority, pollLiveRss])
 
   // Active authority object from authorities.json
@@ -91,9 +115,22 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
     return combinedStream.filter(item => {
       // Authority match (across 342 conducting authorities)
       if (selectedAuthority !== 'all') {
-        const itemAuth = (item.authority_full || item.source || '').toLowerCase()
-        const targetAuth = selectedAuthority.toLowerCase()
-        if (!itemAuth.includes(targetAuth) && !targetAuth.includes(itemAuth)) {
+        const target = selectedAuthority.toLowerCase().trim()
+        const authFull = (item.authority_full || '').toLowerCase()
+        const src = (item.source || '').toLowerCase()
+        const acronym = (item.exam_acronym || '').toLowerCase()
+        const title = (item.title || '').toLowerCase()
+        const examId = (item.exam_id || '').toLowerCase()
+
+        const matches = authFull.includes(target) ||
+                        src.includes(target) ||
+                        acronym.includes(target) ||
+                        title.includes(target) ||
+                        examId.includes(target) ||
+                        target.includes(acronym) ||
+                        target.includes(src)
+
+        if (!matches) {
           return false
         }
       }
@@ -276,8 +313,8 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
             {/* Live Sync / Fetch Button */}
             <button
               className={`mterminal-fetch-btn ${isSyncing ? 'syncing' : ''}`}
-              onClick={() => pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority)}
-              title="Poll Google News & PIB RSS feeds across official commission endpoints"
+              onClick={() => pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority, true)}
+              title="Poll Google News & PIB RSS feeds across official commission endpoints (bypasses cache)"
               disabled={isSyncing}
             >
               <HiOutlineRefresh className={`mterminal-fetch-icon ${isSyncing ? 'spinning' : ''}`} />

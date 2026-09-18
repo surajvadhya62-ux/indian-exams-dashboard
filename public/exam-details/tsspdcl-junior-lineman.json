@@ -1,15 +1,14 @@
 {
   "id": "tsspdcl-junior-lineman",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Junior Lineman (JLM) is the frontline technical operational cadre in Southern Power Distribution Company of Telangana Limited (TSSPDCL / TGSPDCL). Governed by Andhra Pradesh / Telangana State Electricity Board (APSEB/TSEB) Service Regulations and bipartite wage settlements, progression follows a time-bound and departmental trade testing hierarchy leading up to operational engineering grades.",
     "steps": [
       {
         "designation": "Junior Lineman (JLM)",
-        "pay_level": "Revised Scale (₹24,340 - ₹39,405)",
+        "pay_level": "Revised Scale (\u20b924,340 - \u20b939,405)",
         "years": "0-3 yrs",
         "confidence": "verified",
         "as_of": "2023-02-02",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Lineman (LM)",
-        "pay_level": "Power Utility Scale (₹28,320 - ₹45,455)",
+        "pay_level": "Power Utility Scale (\u20b928,320 - \u20b945,455)",
         "years": "3-8 yrs",
         "confidence": "reported",
         "as_of": "2023-02-02",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Line Inspector (LI)",
-        "pay_level": "Power Utility Scale (₹34,165 - ₹55,100)",
+        "pay_level": "Power Utility Scale (\u20b934,165 - \u20b955,100)",
         "years": "8-14 yrs",
         "confidence": "reported",
         "as_of": "2023-02-02",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Sub-Engineer (Electrical)",
-        "pay_level": "Power Utility Scale (₹42,280 - ₹71,940)",
+        "pay_level": "Power Utility Scale (\u20b942,280 - \u20b971,940)",
         "years": "14-20 yrs",
         "confidence": "reported",
         "as_of": "2023-02-02",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Assistant Engineer (Electrical)",
-        "pay_level": "Power Utility Scale (₹64,295 - ₹99,345)",
+        "pay_level": "Power Utility Scale (\u20b964,295 - \u20b999,345)",
         "years": "20+ yrs",
         "confidence": "reported",
         "as_of": "2023-02-02",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection process for Junior Lineman in TSSPDCL comprises an 80-mark Written Examination (Computer Based Test / OMR) of 120 minutes duration containing 80 multiple choice questions (Section A: 65 questions on ITI Electrical/Wireman syllabus; Section B: 15 questions on General Knowledge), followed by up to 20 marks in-service experience weightage for eligible contract artisans/outsourced workers, and a mandatory qualifying 8-metre Pole Climbing Test conducted for shortlisted candidates in a 1:2 ratio.",
@@ -105,11 +103,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Junior Linemen are remunerated under the Telangana Power Utilities (TSSPDCL) revised bipartite pay scale of ₹24,340 – ₹39,405 per month with entry basic pay of ₹24,340, revised upwards from the previous base of ₹22,955. Allowances include Dearness Allowance (DA), House Rent Allowance (HRA) ranging between 10% and 24% depending on location (GHMC/Hyderabad vs district towns), medical allowances, electricity concessions, and EPF/CPF superannuation benefits.",
-    "pay_level": "Revised Scale (₹24,340 - ₹39,405)",
+    "note": "Junior Linemen are remunerated under the Telangana Power Utilities (TSSPDCL) revised bipartite pay scale of \u20b924,340 \u2013 \u20b939,405 per month with entry basic pay of \u20b924,340, revised upwards from the previous base of \u20b922,955. Allowances include Dearness Allowance (DA), House Rent Allowance (HRA) ranging between 10% and 24% depending on location (GHMC/Hyderabad vs district towns), medical allowances, electricity concessions, and EPF/CPF superannuation benefits.",
+    "pay_level": "Revised Scale (\u20b924,340 - \u20b939,405)",
     "entry_basic_pay": 24340,
     "pay_confidence": "verified",
     "pay_as_of": "2023-02-02",
@@ -135,11 +132,22 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Direct recruitment vacancy and participation metrics for Junior Lineman posts across Southern Power Distribution Company of Telangana Limited.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.tssouthernpower.com",
+        "source_label": "TSSPDCL - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": null,
@@ -164,7 +172,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, syllabus documents, and portals issued by Southern Power Distribution Company of Telangana Limited.",

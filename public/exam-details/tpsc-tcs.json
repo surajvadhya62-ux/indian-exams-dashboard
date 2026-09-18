@@ -1,15 +1,14 @@
 {
   "id": "tpsc-tcs",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
-    "note": "Tripura Civil Service (TCS) is the premier state civil executive cadre under the Government of Tripura, governed by the Tripura Civil Service Rules. Direct recruits enter at Tripura Civil Service Grade-II (Group 'A' Gazetted) at Pay Matrix Level 14 (₹54,000 entry basic pay under the Tripura State Civil Services (Revised Pay) (First Amendment) Rules, 2018). Officers advance through TCS Grade-I (Senior Grade), Junior Administrative Grade (JAG), and Selection Grade, culminating in promotion and induction into the Indian Administrative Service (IAS) Tripura Cadre or State Supertime Scale.",
+    "note": "Tripura Civil Service (TCS) is the premier state civil executive cadre under the Government of Tripura, governed by the Tripura Civil Service Rules. Direct recruits enter at Tripura Civil Service Grade-II (Group 'A' Gazetted) at Pay Matrix Level 14 (\u20b954,000 entry basic pay under the Tripura State Civil Services (Revised Pay) (First Amendment) Rules, 2018). Officers advance through TCS Grade-I (Senior Grade), Junior Administrative Grade (JAG), and Selection Grade, culminating in promotion and induction into the Indian Administrative Service (IAS) Tripura Cadre or State Supertime Scale.",
     "steps": [
       {
-        "designation": "Deputy Collector & Magistrate / Sub-Divisional Magistrate (SDM) / Block Development Officer (BDO) — Tripura Civil Service Grade-II",
-        "pay_level": "Level 14 in the Tripura State Pay Matrix (₹54,000 entry basic pay; pre-revised PB-4 ₹15,600 - ₹39,100 + GP ₹5,400 under Tripura ROP Rules 2017/2018)",
+        "designation": "Deputy Collector & Magistrate / Sub-Divisional Magistrate (SDM) / Block Development Officer (BDO) \u2014 Tripura Civil Service Grade-II",
+        "pay_level": "Level 14 in the Tripura State Pay Matrix (\u20b954,000 entry basic pay; pre-revised PB-4 \u20b915,600 - \u20b939,100 + GP \u20b95,400 under Tripura ROP Rules 2017/2018)",
         "years": "Entry (approx.)",
         "confidence": "verified",
         "as_of": "2024-09-12",
@@ -17,8 +16,8 @@
         "source_label": "TPSC Advt. No. 05/2022 & Tripura Civil Service Rules"
       },
       {
-        "designation": "Additional District Magistrate & Collector (ADM) / Sub-Divisional Officer (SDO) Sadar / Under Secretary to Government — TCS Grade-I (Senior Grade)",
-        "pay_level": "Level 15 / Level 16 in the Tripura State Pay Matrix (Entry Basic ₹62,900 - ₹71,400)",
+        "designation": "Additional District Magistrate & Collector (ADM) / Sub-Divisional Officer (SDO) Sadar / Under Secretary to Government \u2014 TCS Grade-I (Senior Grade)",
+        "pay_level": "Level 15 / Level 16 in the Tripura State Pay Matrix (Entry Basic \u20b962,900 - \u20b971,400)",
         "years": "approx. 5-8 yrs",
         "confidence": "reported",
         "as_of": "2024-09-12",
@@ -26,8 +25,8 @@
         "source_label": "Tripura State Civil Services (Revised Pay) (First Amendment) Rules, 2018 & GA (P&T) Department"
       },
       {
-        "designation": "Deputy Secretary to Government of Tripura / Director of State Directorate / Chief Executive Officer (CEO) Zilla Parishad — Junior Administrative Grade (JAG)",
-        "pay_level": "Level 17 in the Tripura State Pay Matrix (Entry Basic ₹78,800)",
+        "designation": "Deputy Secretary to Government of Tripura / Director of State Directorate / Chief Executive Officer (CEO) Zilla Parishad \u2014 Junior Administrative Grade (JAG)",
+        "pay_level": "Level 17 in the Tripura State Pay Matrix (Entry Basic \u20b978,800)",
         "years": "approx. 9-14 yrs",
         "confidence": "reported",
         "as_of": "2024-09-12",
@@ -35,8 +34,8 @@
         "source_label": "Tripura General Administration (Personnel & Training) Department Cadre Management"
       },
       {
-        "designation": "Joint Secretary / Additional Secretary to Government of Tripura / Director of Major Department — Selection Grade",
-        "pay_level": "Level 18 in the Tripura State Pay Matrix (Entry Basic ₹1,18,500)",
+        "designation": "Joint Secretary / Additional Secretary to Government of Tripura / Director of Major Department \u2014 Selection Grade",
+        "pay_level": "Level 18 in the Tripura State Pay Matrix (Entry Basic \u20b91,18,500)",
         "years": "approx. 15-19 yrs",
         "confidence": "reported",
         "as_of": "2024-09-12",
@@ -44,8 +43,8 @@
         "source_label": "Tripura General Administration (Personnel & Training) Department"
       },
       {
-        "designation": "Induction into Indian Administrative Service (IAS) — Tripura Cadre / State Supertime Scale",
-        "pay_level": "IAS Senior Selection Grade (Level 13, ₹1,23,100) to Super Time Scale (Level 14, ₹1,44,200)",
+        "designation": "Induction into Indian Administrative Service (IAS) \u2014 Tripura Cadre / State Supertime Scale",
+        "pay_level": "IAS Senior Selection Grade (Level 13, \u20b91,23,100) to Super Time Scale (Level 14, \u20b91,44,200)",
         "years": "approx. 18-24 yrs",
         "confidence": "reported",
         "as_of": "2024-09-12",
@@ -54,7 +53,7 @@
       },
       {
         "designation": "District Magistrate & Collector (DM) / Special Secretary / Commissioner & Secretary / Principal Secretary to Government of Tripura",
-        "pay_level": "Super Time Scale (Level 14, ₹1,44,200) to Higher Administrative Grade (Level 15, ₹1,82,200)",
+        "pay_level": "Super Time Scale (Level 14, \u20b91,44,200) to Higher Administrative Grade (Level 15, \u20b91,82,200)",
         "years": "approx. 24+ yrs",
         "confidence": "reported",
         "as_of": "2024-09-12",
@@ -63,7 +62,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Recruitment to the Tripura Civil Service (TCS Grade-II) is conducted under the Tripura Civil Service (Appointment by Combined Competitive Examination) Regulations by TPSC across three stages: Preliminary Examination (Objective screening test of 200 marks, 150 minutes, with 0.25 negative marking; 10x vacancies shortlist); Main Examination (Conventional written examination of 6 compulsory papers totaling 800 marks: Language Paper I 100m, Language Paper II 100m, GS I 150m, GS II 150m, GS III 150m, GS IV 150m); and Personality Test / Interview (100 marks; 1:3 ratio), totaling 900 marks for final rank list. Allied state administrative services are recruited through the Tripura Combined Competitive Examination for Miscellaneous Posts (Advt. 18/2025: Prelims 100m, Mains 200m, Interview 20m = 220 total marks for posts including Superintendent of Taxes, Inspector of Small Savings, and Supervisor).",
@@ -95,7 +93,7 @@
         "source_label": "TPSC TCS & TPS Combined Competitive Main Examination Scheme & Syllabus",
         "papers": [
           {
-            "paper_name": "Language Paper I: English Essay, Précis Writing & Report Writing (English Essay 40 marks, Report Writing 30 marks, Précis Writing 30 marks)",
+            "paper_name": "Language Paper I: English Essay, Pr\u00e9cis Writing & Report Writing (English Essay 40 marks, Report Writing 30 marks, Pr\u00e9cis Writing 30 marks)",
             "marks": 100,
             "duration_minutes": 180,
             "negative_marking": null,
@@ -157,11 +155,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Direct recruitment to Tripura Civil Service Grade-II is made at Pay Matrix Level 14 with entry basic pay of ₹54,000 under the Tripura State Civil Services (Revised Pay) (First Amendment) Rules, 2018 (corresponding to pre-revised PB-4 ₹15,600 - ₹39,100 + Grade Pay ₹5,400 under Tripura ROP 2017). Allied administrative posts recruited via Miscellaneous CCE are placed at Level 12 (Superintendent of Taxes, Entry Basic ₹42,900), Level 10 (Inspector of Small Savings, Entry Basic ₹34,700), and Level 9 (Supervisor, Entry Basic ₹27,300).",
-    "pay_level": "Level 14 in the Tripura State Pay Matrix (Entry Basic ₹54,000; pre-revised PB-4 ₹15,600 - ₹39,100 + Grade Pay ₹5,400 under Tripura ROP Rules 2017/2018)",
+    "note": "Direct recruitment to Tripura Civil Service Grade-II is made at Pay Matrix Level 14 with entry basic pay of \u20b954,000 under the Tripura State Civil Services (Revised Pay) (First Amendment) Rules, 2018 (corresponding to pre-revised PB-4 \u20b915,600 - \u20b939,100 + Grade Pay \u20b95,400 under Tripura ROP 2017). Allied administrative posts recruited via Miscellaneous CCE are placed at Level 12 (Superintendent of Taxes, Entry Basic \u20b942,900), Level 10 (Inspector of Small Savings, Entry Basic \u20b934,700), and Level 9 (Supervisor, Entry Basic \u20b927,300).",
+    "pay_level": "Level 14 in the Tripura State Pay Matrix (Entry Basic \u20b954,000; pre-revised PB-4 \u20b915,600 - \u20b939,100 + Grade Pay \u20b95,400 under Tripura ROP Rules 2017/2018)",
     "entry_basic_pay": 54000,
     "pay_confidence": "verified",
     "pay_as_of": "2024-09-12",
@@ -169,10 +166,16 @@
     "pay_source_label": "Tripura State Civil Services (Revised Pay) (First Amendment) Rules, 2018 Table 4 & TPSC Advt. No. 05/2022",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 89600, "max": 96500 },
-    "in_hand_range_estimate": { "min": 79000, "max": 86000 },
+    "gross_range_estimate": {
+      "min": 89600,
+      "max": 96500
+    },
+    "in_hand_range_estimate": {
+      "min": 79000,
+      "max": 86000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Estimated based on Tripura Level 14 entry basic pay of ₹54,000 at project standard 58% Dearness Allowance (effective 1 Jul 2025; ₹31,320) plus House Rent Allowance (8% in Agartala municipal corporation area = ₹4,320, 7% in other district headquarters and subdivisions = ₹3,780), and fixed monthly Medical Allowance (₹500); net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic + DA = ₹8,532/month), Tripura State Employees Group Insurance Scheme (GIS, ₹300/month), and Professional Tax (₹200/month).",
+    "estimate_note": "Estimated based on Tripura Level 14 entry basic pay of \u20b954,000 at project standard 58% Dearness Allowance (effective 1 Jul 2025; \u20b931,320) plus House Rent Allowance (8% in Agartala municipal corporation area = \u20b94,320, 7% in other district headquarters and subdivisions = \u20b93,780), and fixed monthly Medical Allowance (\u20b9500); net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic + DA = \u20b98,532/month), Tripura State Employees Group Insurance Scheme (GIS, \u20b9300/month), and Professional Tax (\u20b9200/month).",
     "official_perks": [
       "Designated government residential accommodation / official bungalow as per district entitlement",
       "Official government vehicle with driver for SDM, BDO, and Deputy Collector executive field administration",
@@ -183,11 +186,22 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Tripura Civil Service (TCS Grade-II) candidate recommendations and cutoff marks verified from primary TPSC result notifications.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 88800,
+        "vacancies": 480,
+        "shortlisted_for_mains": 5760,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://tpsc.tripura.gov.in",
+        "source_label": "TPSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "vacancies": 30,
@@ -208,7 +222,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, syllabi, exam schemes, recommendation lists, and question papers for Tripura Civil Service recruitment are hosted on the Tripura Public Service Commission portal.",

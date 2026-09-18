@@ -1,15 +1,14 @@
 {
   "id": "telangana-forest-fbo",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Forest Beat Officers (FBO) and Forest Section Officers (FSO) are the frontline uniformed protective cadre of the Telangana Forest Department, responsible for boundary patrol, anti-poaching, reserve forest protection, and wildlife preservation. Promotions are governed by the Telangana Forest Subordinate Service Rules (TFSSR) and the Telangana Forest Service Rules.",
     "steps": [
       {
         "designation": "Forest Beat Officer (FBO - Primary Protective Cadre)",
-        "pay_level": "Scale ₹22,900 - 69,150 (Telangana RPS 2020 Scale 5)",
+        "pay_level": "Scale \u20b922,900 - 69,150 (Telangana RPS 2020 Scale 5)",
         "years": "0-6 yrs",
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Forest Section Officer (FSO - Section In-Charge)",
-        "pay_level": "Scale ₹31,040 - 92,050 (Telangana RPS 2020 Scale 11)",
+        "pay_level": "Scale \u20b931,040 - 92,050 (Telangana RPS 2020 Scale 11)",
         "years": "approx. 6-12 yrs",
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Forest Range Officer (FRO - Range Executive Head)",
-        "pay_level": "Scale ₹45,960 - 1,24,150 (Telangana RPS 2020 Scale 17 / Gazetted Group-B)",
+        "pay_level": "Scale \u20b945,960 - 1,24,150 (Telangana RPS 2020 Scale 17 / Gazetted Group-B)",
         "years": "approx. 12-18 yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Sub-Divisional Forest Officer (SDFO) / Assistant Conservator of Forests (ACF)",
-        "pay_level": "Scale ₹54,220 - 1,33,630 (Telangana RPS 2020 Scale 21 / State Forest Service)",
+        "pay_level": "Scale \u20b954,220 - 1,33,630 (Telangana RPS 2020 Scale 21 / State Forest Service)",
         "years": "approx. 20-25 yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Divisional Forest Officer (DFO) / Induction into Indian Forest Service (IFS - Telangana Cadre)",
-        "pay_level": "Pay Matrix Level 11 / 12 (7th CPC IFS Cadre, ₹67,700 - ₹2,09,200)",
+        "pay_level": "Pay Matrix Level 11 / 12 (7th CPC IFS Cadre, \u20b967,700 - \u20b92,09,200)",
         "years": "approx. 25+ yrs",
         "confidence": "reported",
         "as_of": "2026-09-12",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The Forest Beat Officer (FBO) and Forest Section Officer (FSO) selection process comprises three successive stages: (1) Written Examination (Objective Type CBRT/OMR) carrying 200 marks; (2) Physical Walking Test (qualifying nature: 25 km in 4 hours for men, 16 km in 4 hours for women); and (3) Physical Measurement and Medical Examination. NCC certificate holders receive bonus marks (NCC-C: 5 marks, NCC-B: 3 marks, NCC-A: 1 mark) added to written test marks. Minimum qualifying marks for written test are: OC: 40%, BCs: 35%, SCs/STs: 30%.",
@@ -123,11 +121,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Forest Beat Officers in the Telangana Forest Department are compensated under the Telangana Revised Pay Scales 2020 (RPS 2020), notified vide G.O.Ms.No.51, Finance (HRM.IV) Department, dated 11/06/2021. The post is placed in Scale 5 (₹22,900 – 69,150; revised from pre-2020 scale ₹16,400 – 49,870) with an Entry Basic Pay of ₹22,900. (Forest Section Officers start in Scale 11, ₹31,040 – 92,050, entry basic pay ₹31,040). Allowances include 58% project constant DA, HRA (11% to 24%), uniform maintenance allowance, and field hardship rations.",
-    "pay_level": "Scale ₹22,900 - 69,150 (Telangana RPS 2020 Scale 5)",
+    "note": "Forest Beat Officers in the Telangana Forest Department are compensated under the Telangana Revised Pay Scales 2020 (RPS 2020), notified vide G.O.Ms.No.51, Finance (HRM.IV) Department, dated 11/06/2021. The post is placed in Scale 5 (\u20b922,900 \u2013 69,150; revised from pre-2020 scale \u20b916,400 \u2013 49,870) with an Entry Basic Pay of \u20b922,900. (Forest Section Officers start in Scale 11, \u20b931,040 \u2013 92,050, entry basic pay \u20b931,040). Allowances include 58% project constant DA, HRA (11% to 24%), uniform maintenance allowance, and field hardship rations.",
+    "pay_level": "Scale \u20b922,900 - 69,150 (Telangana RPS 2020 Scale 5)",
     "entry_basic_pay": 22900,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-12",
@@ -135,10 +132,16 @@
     "pay_source_label": "TSPSC Notification No. 48/2017 Para I(3) & G.O.Ms.No.51 Finance (HRM.IV) Dept Dt.11/06/2021",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 39500, "max": 45000 },
-    "in_hand_range_estimate": { "min": 35000, "max": 40500 },
+    "gross_range_estimate": {
+      "min": 39500,
+      "max": 45000
+    },
+    "in_hand_range_estimate": {
+      "min": 35000,
+      "max": 40500
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Gross pay calculated on entry basic pay of ₹22,900 with 58% DA (₹13,282), HRA ranging from 11% (₹2,519 in interior beat/range stations) to 24% (₹5,496 in urban division headquarters), plus uniform allowance and field duty allowance (~₹1,500–₹2,500). In-hand reflects standard deductions: 10% NPS employee contribution on Basic+DA (₹3,618), Professional Tax (₹200), and TSGLI/EHS insurance deductions (~₹600).",
+    "estimate_note": "Gross pay calculated on entry basic pay of \u20b922,900 with 58% DA (\u20b913,282), HRA ranging from 11% (\u20b92,519 in interior beat/range stations) to 24% (\u20b95,496 in urban division headquarters), plus uniform allowance and field duty allowance (~\u20b91,500\u2013\u20b92,500). In-hand reflects standard deductions: 10% NPS employee contribution on Basic+DA (\u20b93,618), Professional Tax (\u20b9200), and TSGLI/EHS insurance deductions (~\u20b9600).",
     "official_perks": [
       "Uniform and kit maintenance allowance for field protective forestry operations",
       "Special compensatory allowance for postings in dense forest ranges and tiger reserves (Amrabad, Kawal)",
@@ -149,11 +152,22 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Applicant, vacancy, and provisional selection statistics verified from official TSPSC recruitment notifications and revised selection notifications for Forest Beat Officer (Notification No. 48/2017) and Forest Section Officer (Notification No. 47/2017).",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://forests.telangana.gov.in",
+        "source_label": "Telangana Forest Dept / TSPSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2017,
         "applicants": 450000,
@@ -178,7 +192,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, examination schemes, selection orders, and department portal links for Telangana Forest Department recruitments.",

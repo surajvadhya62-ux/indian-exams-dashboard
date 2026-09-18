@@ -1,14 +1,14 @@
 {
   "id": "central-silk-board-scientist",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Scientific and administrative research progression under Central Silk Board (Ministry of Textiles).",
     "steps": [
       {
         "designation": "Scientist 'B' / Assistant Director",
-        "pay_level": "Level 10 (7th CPC ₹56,100 – ₹1,77,500)",
+        "pay_level": "Level 10 (7th CPC \u20b956,100 \u2013 \u20b91,77,500)",
         "years": "Entry (0-4 yrs)",
         "confidence": "verified",
         "as_of": "2023-02-17",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Scientist 'C'",
-        "pay_level": "Level 11 (7th CPC ₹67,700 – ₹2,08,700)",
+        "pay_level": "Level 11 (7th CPC \u20b967,700 \u2013 \u20b92,08,700)",
         "years": "approx. 4-9 yrs",
         "confidence": "verified",
         "as_of": "2023-02-17",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Scientist 'D'",
-        "pay_level": "Level 12 (7th CPC ₹78,800 – ₹2,09,200)",
+        "pay_level": "Level 12 (7th CPC \u20b978,800 \u2013 \u20b92,09,200)",
         "years": "approx. 9-14 yrs",
         "confidence": "reported",
         "as_of": "2023-02-17",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Director / Scientist 'E'",
-        "pay_level": "Level 13 (7th CPC ₹1,23,100 – ₹2,15,900)",
+        "pay_level": "Level 13 (7th CPC \u20b91,23,100 \u2013 \u20b92,15,900)",
         "years": "approx. 14+ yrs",
         "confidence": "reported",
         "as_of": "2023-02-17",
@@ -89,7 +89,7 @@
   "financial_package": {
     "status": "available",
     "note": "Directly governed by 7th Central Pay Commission (Civilian Employees Matrix).",
-    "pay_level": "Level 10 (7th CPC Scale ₹56,100 – ₹1,77,500)",
+    "pay_level": "Level 10 (7th CPC Scale \u20b956,100 \u2013 \u20b91,77,500)",
     "entry_basic_pay": 56100,
     "pay_confidence": "verified",
     "pay_as_of": "2023-02-17",
@@ -106,11 +106,11 @@
       "max": 98000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on basic ₹56,100, 58% Central DA (₹32,538), HRA (₹5,049 to ₹15,147), and Transport Allowance.",
+    "estimate_note": "Calculated on basic \u20b956,100, 58% Central DA (\u20b932,538), HRA (\u20b95,049 to \u20b915,147), and Transport Allowance.",
     "official_perks": [
       "Central Government Dearness Allowance (DA) revised bi-annually",
       "House Rent Allowance (HRA) as per city classification (27%, 18%, 9%)",
-      "Transport Allowance (TA) of ₹3,600 + DA on TA",
+      "Transport Allowance (TA) of \u20b93,600 + DA on TA",
       "National Pension System (NPS) with 14% government contribution",
       "CGHS medical facilities or CSB medical scheme",
       "Leave Travel Concession (LTC) and Children Education Allowance (CEA)"
@@ -121,6 +121,18 @@
     "status": "available",
     "note": "Recruitment vacancies across CSB research institutes (CSRTI Mysuru, Berhampore, Pampore, etc.).",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 175750,
+        "vacancies": 950,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://csb.gov.in",
+        "source_label": "Central Silk Board - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "vacancies": 66,

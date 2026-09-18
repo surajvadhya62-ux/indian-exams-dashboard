@@ -1,15 +1,14 @@
 {
   "id": "kerala-psc-civil-excise",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Civil Excise Officers serve in the Excise Department of the Government of Kerala to enforce liquor laws, anti-narcotics regulations (NDPS Act), and border checkpost surveillance. Officers advance through Senior Civil Excise Officer (Preventive Officer), Excise Inspector, Circle Inspector of Excise, and Assistant Excise Commissioner upon completing qualifying service and clearing departmental tests conducted by Kerala PSC.",
     "steps": [
       {
-        "designation": "Civil Excise Officer (CEO) — Excise Department",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹27,900 - ₹63,700)",
+        "designation": "Civil Excise Officer (CEO) \u2014 Excise Department",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b927,900 - \u20b963,700)",
         "years": "Entry (approx.)",
         "confidence": "verified",
         "as_of": "2019-12-30",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Senior Civil Excise Officer / Preventive Officer",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹35,600 - ₹75,400)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b935,600 - \u20b975,400)",
         "years": "approx. 5-8 yrs",
         "confidence": "reported",
         "as_of": "2019-12-30",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Excise Inspector (Range / Squad Station Commander)",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹45,600 - ₹95,600)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b945,600 - \u20b995,600)",
         "years": "approx. 12-16 yrs",
         "confidence": "reported",
         "as_of": "2019-12-30",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Circle Inspector of Excise / Assistant Excise Commissioner (Gazetted)",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹55,200 - ₹1,15,300 to ₹65,200 - ₹1,26,400)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b955,200 - \u20b91,15,300 to \u20b965,200 - \u20b91,26,400)",
         "years": "approx. 18-22 yrs",
         "confidence": "reported",
         "as_of": "2019-12-30",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Joint Excise Commissioner / Additional Excise Commissioner",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹85,000 - ₹1,43,600)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b985,000 - \u20b91,43,600)",
         "years": "approx. 24+ yrs",
         "confidence": "reported",
         "as_of": "2019-12-30",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection to Civil Excise Officer involves a multi-stage process: Written OMR Examination (Objective type carrying 100 marks), Physical Measurement Test (PMT), Physical Efficiency Test (PET - National 1-star standard), and Medical Examination. Final district-wise ranked lists are prepared strictly on the basis of marks scored in the Written OMR Examination among candidates who qualify the physical and medical stages.",
@@ -120,7 +118,7 @@
         ]
       },
       {
-        "stage_name": "Stage 3: Physical Efficiency Test (PET — National 1-Star Standard)",
+        "stage_name": "Stage 3: Physical Efficiency Test (PET \u2014 National 1-Star Standard)",
         "stage_order": 3,
         "confidence": "verified",
         "as_of": "2019-12-30",
@@ -157,11 +155,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Civil Excise Officers in the Kerala Excise Department are remunerated under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) at Pay Scale ₹27,900 - ₹63,700 with entry basic pay of ₹27,900.",
-    "pay_level": "Kerala 11th Pay Revision Scale (₹27,900 - ₹63,700)",
+    "note": "Civil Excise Officers in the Kerala Excise Department are remunerated under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) at Pay Scale \u20b927,900 - \u20b963,700 with entry basic pay of \u20b927,900.",
+    "pay_level": "Kerala 11th Pay Revision Scale (\u20b927,900 - \u20b963,700)",
     "entry_basic_pay": 27900,
     "pay_confidence": "verified",
     "pay_as_of": "2019-12-30",
@@ -169,10 +166,16 @@
     "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 538/2019 & Kerala Excise Department Pay Rules",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 46000, "max": 49500 },
-    "in_hand_range_estimate": { "min": 40500, "max": 44500 },
+    "gross_range_estimate": {
+      "min": 46000,
+      "max": 49500
+    },
+    "in_hand_range_estimate": {
+      "min": 40500,
+      "max": 44500
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹27,900 with standard 58% DA (effective 1 Jul 2025, ₹16,182) plus House Rent Allowance (Class A Corporation ₹2,790, Class B Municipalities ₹1,900, Class C Panchayats ₹1,300), Uniform allowance (₹1,000/month), and Risk/Border Checkpost allowance; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹4,408), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), and Professional Tax.",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of \u20b927,900 with standard 58% DA (effective 1 Jul 2025, \u20b916,182) plus House Rent Allowance (Class A Corporation \u20b92,790, Class B Municipalities \u20b91,900, Class C Panchayats \u20b91,300), Uniform allowance (\u20b91,000/month), and Risk/Border Checkpost allowance; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = \u20b94,408), MEDISEP health insurance (\u20b9500/month), State Life Insurance (SLI), and Professional Tax.",
     "official_perks": [
       "Government barracks or departmental quarters allotment in district excise offices and border checkposts",
       "Annual uniform maintenance grant and kit allowance by Excise Department",
@@ -182,17 +185,28 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Applicant, written test qualification, PET qualification, and advice statistics for Civil Excise Officer recruitment across all 14 revenue districts sourced from Kerala PSC annual releases and excise recruitment notifications.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 88800,
+        "vacancies": 480,
+        "shortlisted_for_mains": 5760,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.keralapsc.gov.in",
+        "source_label": "Kerala PSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2019,
         "applicants": 460000,
         "vacancies": 1100,
         "shortlisted_for_mains": 32000,
-        "selectivity_ratio": "approx. 1 in 418 (calculated: 4.6 lakh applicants across 14 districts ÷ ~1,100 total advice made over 3-year ranked list validity; Category No. 538/2019; ~8,500 cleared PET)",
+        "selectivity_ratio": "approx. 1 in 418 (calculated: 4.6 lakh applicants across 14 districts \u00f7 ~1,100 total advice made over 3-year ranked list validity; Category No. 538/2019; ~8,500 cleared PET)",
         "confidence": "reported",
         "as_of": "2022-06-25",
         "source_url": "https://www.keralapsc.gov.in/notifications",
@@ -203,7 +217,7 @@
         "applicants": 380000,
         "vacancies": 750,
         "shortlisted_for_mains": 24000,
-        "selectivity_ratio": "approx. 1 in 506 (calculated: 3.8 lakh applicants for Cat. No. 695/2014 ÷ 750 final appointments across 14 districts)",
+        "selectivity_ratio": "approx. 1 in 506 (calculated: 3.8 lakh applicants for Cat. No. 695/2014 \u00f7 750 final appointments across 14 districts)",
         "confidence": "verified",
         "as_of": "2017-08-10",
         "source_url": "https://www.keralapsc.gov.in/notifications",
@@ -211,7 +225,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, syllabi, and physical standards guidelines for Civil Excise Officer recruitment hosted on Kerala PSC and Kerala Excise official servers.",

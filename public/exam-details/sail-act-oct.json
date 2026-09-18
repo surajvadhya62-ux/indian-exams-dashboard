@@ -1,14 +1,14 @@
 {
   "id": "sail-act-oct",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Technician and operative tradesmen ladder at SAIL plants under NJCS agreement.",
     "steps": [
       {
         "designation": "Attendant-cum-Technician (Trainee) [ACTT]",
-        "pay_level": "S-1 Grade (Scale ₹25,070 – ₹35,070)",
+        "pay_level": "S-1 Grade (Scale \u20b925,070 \u2013 \u20b935,070)",
         "years": "Training (2 yrs)",
         "confidence": "verified",
         "as_of": "2023-11-04",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Attendant-cum-Technician (Confirmed)",
-        "pay_level": "S-1 Grade (Scale ₹25,070 – ₹35,070)",
+        "pay_level": "S-1 Grade (Scale \u20b925,070 \u2013 \u20b935,070)",
         "years": "approx. 2-5 yrs",
         "confidence": "verified",
         "as_of": "2023-11-04",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Senior Technician / Operative",
-        "pay_level": "S-2 to S-3 Grade (Scale ₹26,600 – ₹38,920)",
+        "pay_level": "S-2 to S-3 Grade (Scale \u20b926,600 \u2013 \u20b938,920)",
         "years": "approx. 5-10 yrs",
         "confidence": "reported",
         "as_of": "2023-11-04",
@@ -80,7 +80,7 @@
   "financial_package": {
     "status": "available",
     "note": "Governed by the NJCS wage structure for matriculation + ITI trade operatives.",
-    "pay_level": "S-1 Grade (Scale ₹25,070 – ₹35,070)",
+    "pay_level": "S-1 Grade (Scale \u20b925,070 \u2013 \u20b935,070)",
     "entry_basic_pay": 25070,
     "pay_confidence": "verified",
     "pay_as_of": "2023-11-04",
@@ -97,7 +97,7 @@
       "max": 44000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Consolidated monthly stipend of ₹12,900 in 1st year and ₹15,000 in 2nd year. Confirmed basic ₹25,070 with 58% DA (₹14,541) and perks.",
+    "estimate_note": "Consolidated monthly stipend of \u20b912,900 in 1st year and \u20b915,000 in 2nd year. Confirmed basic \u20b925,070 with 58% DA (\u20b914,541) and perks.",
     "official_perks": [
       "Company quarter in plant township or HRA",
       "Free medical treatment in plant hospitals",
@@ -111,6 +111,18 @@
     "status": "available",
     "note": "Operative vacancy figures across SAIL plants.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://sail.co.in",
+        "source_label": "SAIL - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 85,

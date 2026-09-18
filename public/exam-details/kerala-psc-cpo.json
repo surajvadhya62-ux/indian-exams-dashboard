@@ -1,15 +1,14 @@
 {
   "id": "kerala-psc-cpo",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Civil Police Officers (CPO) / Police Constables are recruited battalion-wise (Armed Police Battalions: SAP, KAP I, KAP II, KAP III, KAP IV, KAP V, MSP) and in District Armed Reserve / Local Police units under Kerala Police. Officers advance from Civil Police Officer to Senior Civil Police Officer (Head Constable), Assistant Sub-Inspector, Sub-Inspector, and Inspector of Police based on seniority, qualifying service, and departmental promotion tests.",
     "steps": [
       {
         "designation": "Civil Police Officer (CPO) / Police Constable (Battalion / District Police)",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹31,100 - ₹66,800)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b931,100 - \u20b966,800)",
         "years": "Entry (approx.)",
         "confidence": "verified",
         "as_of": "2023-12-30",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Senior Civil Police Officer (SCPO) / Head Constable",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹39,300 - ₹83,000)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b939,300 - \u20b983,000)",
         "years": "approx. 7-10 yrs",
         "confidence": "reported",
         "as_of": "2023-12-30",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Assistant Sub-Inspector of Police (ASI)",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹43,400 - ₹91,200)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b943,400 - \u20b991,200)",
         "years": "approx. 14-18 yrs",
         "confidence": "reported",
         "as_of": "2023-12-30",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Sub-Inspector of Police (SI / Station House Officer)",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹45,600 - ₹95,600)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b945,600 - \u20b995,600)",
         "years": "approx. 18-22 yrs",
         "confidence": "reported",
         "as_of": "2023-12-30",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Inspector of Police (IP / Circle Inspector)",
-        "pay_level": "Kerala 11th Pay Revision Scale (₹55,200 - ₹1,15,300)",
+        "pay_level": "Kerala 11th Pay Revision Scale (\u20b955,200 - \u20b91,15,300)",
         "years": "approx. 24+ yrs",
         "confidence": "reported",
         "as_of": "2023-12-30",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection to Civil Police Officer (Police Constable) involves four sequential stages: Written OMR Examination (Objective type carrying 100 marks), Physical Measurement Test (PMT), Physical Efficiency Test (PET - National Physical Efficiency 1-star standard), and Medical Examination. Ranked lists are prepared battalion-wise based strictly on marks obtained in the Written OMR Examination among candidates who qualify the physical and medical stages.",
@@ -120,7 +118,7 @@
         ]
       },
       {
-        "stage_name": "Stage 3: Physical Efficiency Test (PET — National 1-Star Standard)",
+        "stage_name": "Stage 3: Physical Efficiency Test (PET \u2014 National 1-Star Standard)",
         "stage_order": 3,
         "confidence": "verified",
         "as_of": "2023-12-30",
@@ -157,11 +155,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Civil Police Officers in Kerala Police are paid under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) in the pay scale of ₹31,100 - ₹66,800 with entry basic pay of ₹31,100.",
-    "pay_level": "Kerala 11th Pay Revision Scale (₹31,100 - ₹66,800)",
+    "note": "Civil Police Officers in Kerala Police are paid under the Kerala State 11th Pay Revision (G.O.(P) No. 27/2021/Fin) in the pay scale of \u20b931,100 - \u20b966,800 with entry basic pay of \u20b931,100.",
+    "pay_level": "Kerala 11th Pay Revision Scale (\u20b931,100 - \u20b966,800)",
     "entry_basic_pay": 31100,
     "pay_confidence": "verified",
     "pay_as_of": "2023-12-30",
@@ -169,10 +166,16 @@
     "pay_source_label": "Kerala PSC Gazette Notification Cat. No. 593/2023 & Kerala Police Headquarters Pay Rules",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 51500, "max": 55000 },
-    "in_hand_range_estimate": { "min": 45000, "max": 49000 },
+    "gross_range_estimate": {
+      "min": 51500,
+      "max": 55000
+    },
+    "in_hand_range_estimate": {
+      "min": 45000,
+      "max": 49000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of ₹31,100 with standard 58% DA (effective 1 Jul 2025, ₹18,038) plus House Rent Allowance (Class A ₹3,110, Class B ₹2,100, Class C ₹1,500), Police Uniform Allowance (₹1,000/month), and Risk/Washing allowance; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = ₹4,914), MEDISEP health insurance (₹500/month), State Life Insurance (SLI), Police Welfare Fund, and Professional Tax.",
+    "estimate_note": "Calculated on Kerala State 11th Pay Revision entry basic pay of \u20b931,100 with standard 58% DA (effective 1 Jul 2025, \u20b918,038) plus House Rent Allowance (Class A \u20b93,110, Class B \u20b92,100, Class C \u20b91,500), Police Uniform Allowance (\u20b91,000/month), and Risk/Washing allowance; net in-hand reflects statutory deductions for National Pension System (NPS, 10% on Basic+DA = \u20b94,914), MEDISEP health insurance (\u20b9500/month), State Life Insurance (SLI), Police Welfare Fund, and Professional Tax.",
     "official_perks": [
       "Government police barracks accommodation or designated police quarters in armed battalions and district camps",
       "Annual uniform maintenance allowance and kit supply by Kerala Police Department",
@@ -183,17 +186,28 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
-    "note": "Applicant, written test qualification, PET qualification, and advice statistics for Civil Police Officer recruitment across Armed Police Battalions (SAP, MSP, KAP I–V) sourced from Kerala PSC releases and police recruitment reports.",
+    "note": "Applicant, written test qualification, PET qualification, and advice statistics for Civil Police Officer recruitment across Armed Police Battalions (SAP, MSP, KAP I\u2013V) sourced from Kerala PSC releases and police recruitment reports.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 88800,
+        "vacancies": 480,
+        "shortlisted_for_mains": 5760,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.keralapsc.gov.in",
+        "source_label": "Kerala PSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": 650000,
         "vacancies": 4200,
         "shortlisted_for_mains": 45000,
-        "selectivity_ratio": "approx. 1 in 155 (calculated: 6.5 lakh applications across 7 Armed Police Battalions ÷ ~4,200 anticipated advice; Category No. 593/2023; ~45,000 shortlisted for PMT/PET)",
+        "selectivity_ratio": "approx. 1 in 155 (calculated: 6.5 lakh applications across 7 Armed Police Battalions \u00f7 ~4,200 anticipated advice; Category No. 593/2023; ~45,000 shortlisted for PMT/PET)",
         "confidence": "reported",
         "as_of": "2024-06-15",
         "source_url": "https://www.keralapsc.gov.in/notifications",
@@ -204,7 +218,7 @@
         "applicants": 720000,
         "vacancies": 4850,
         "shortlisted_for_mains": 52000,
-        "selectivity_ratio": "approx. 1 in 148 (calculated: 7.2 lakh applicants for Cat. No. 530/2019 ÷ 4,850 final appointments made across battalion ranked lists; 18,500 cleared PET)",
+        "selectivity_ratio": "approx. 1 in 148 (calculated: 7.2 lakh applicants for Cat. No. 530/2019 \u00f7 4,850 final appointments made across battalion ranked lists; 18,500 cleared PET)",
         "confidence": "verified",
         "as_of": "2021-12-15",
         "source_url": "https://www.keralapsc.gov.in/notifications",
@@ -212,7 +226,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, examination syllabi, and physical standards guidelines for Civil Police Officer recruitment published by Kerala PSC and Kerala Police.",

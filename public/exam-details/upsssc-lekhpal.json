@@ -1,8 +1,7 @@
 {
   "id": "upsssc-lekhpal",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Rajasva Lekhpal is the frontline village-level revenue official under the Board of Revenue (Rajasva Parishad), Government of Uttar Pradesh, responsible for maintaining rural cadastral maps (Shajra), village khasra/khatauni land records, crop surveys, and disaster relief enumeration. Direct recruits enter at Pay Level 3 and advance through departmental promotion exams and seniority.",
@@ -50,11 +49,10 @@
         "confidence": "reported",
         "as_of": "2026-09-12",
         "source_url": "https://upsssc.gov.in/default.aspx",
-        "source_label": "UP Civil Service (Executive Branch) Rules — Promotion from Tehsildar"
+        "source_label": "UP Civil Service (Executive Branch) Rules \u2014 Promotion from Tehsildar"
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection to Rajasva Lekhpal comprises preliminary shortlisting of candidates through their normalized UPSSSC PET score, followed by a single-stage Main Written Examination consisting of 100 objective MCQs across four subjects. There is no interview (Group C interviews were abolished by UP Government). Negative marking is 0.25 marks (1/4th) per wrong answer.",
@@ -76,7 +74,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Mathematics (Ganit — Arithmetic, Algebra & Geometry)",
+            "paper_name": "Mathematics (Ganit \u2014 Arithmetic, Algebra & Geometry)",
             "marks": 25,
             "duration_minutes": null,
             "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
@@ -121,10 +119,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Rajasva Lekhpal is assigned Pay Level 3 (Pay Band ₹5,200–₹20,200 with Grade Pay ₹2,000) under the Uttar Pradesh Revised Pay Rules, 2016. In addition to basic salary, Lekhpals receive specific field stationery allowances and cycle/travel maintenance allowances.",
+    "note": "Rajasva Lekhpal is assigned Pay Level 3 (Pay Band \u20b95,200\u2013\u20b920,200 with Grade Pay \u20b92,000) under the Uttar Pradesh Revised Pay Rules, 2016. In addition to basic salary, Lekhpals receive specific field stationery allowances and cycle/travel maintenance allowances.",
     "pay_level": "Level 3",
     "entry_basic_pay": 21700,
     "pay_confidence": "verified",
@@ -142,7 +139,7 @@
       "max": 36000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 3 entry basic pay of ₹21,700 at 58% DA (effective 01.07.2025), HRA (₹1,800 to ₹3,600 based on district classification), field maintenance allowance, net of 10% NPS deduction (₹3,429) and group insurance scheme deductions.",
+    "estimate_note": "Calculated on Level 3 entry basic pay of \u20b921,700 at 58% DA (effective 01.07.2025), HRA (\u20b91,800 to \u20b93,600 based on district classification), field maintenance allowance, net of 10% NPS deduction (\u20b93,429) and group insurance scheme deductions.",
     "official_perks": [
       "Dearness Allowance (DA) revised twice annually",
       "House Rent Allowance (HRA) based on tehsil / district headquarters posting",
@@ -153,11 +150,22 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment benchmarks compiled from official UPSSSC notifications and final recommendation orders for Rajasva Lekhpal cycles.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "http://upsssc.gov.in",
+        "source_label": "UPSSSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "applicants": 247667,
@@ -186,7 +194,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment advertisements, syllabi, master question papers, and final selection orders issued by UPSSSC.",

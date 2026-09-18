@@ -1,8 +1,7 @@
 {
   "id": "rsmssb-junior-accountant",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Junior Accountants in the Directorate of Treasuries & Accounts and Tehsil Revenue Accountants (TRA) in the Board of Revenue are the key financial, accounting, and internal audit officers in Rajasthan state administration. They manage treasury bills, ensure compliance with the General Financial & Accounting Rules (GF&AR), audit departmental expenditures, and manage sub-treasury accounts.",
@@ -35,7 +34,7 @@
         "source_label": "Treasury & Accounts Department Gazetted Cadre Hierarchy"
       },
       {
-        "designation": "Accounts Officer (AO / Rajasthan Accounts Service — State Civil Cadre)",
+        "designation": "Accounts Officer (AO / Rajasthan Accounts Service \u2014 State Civil Cadre)",
         "pay_level": "Level L-14",
         "years": "approx. 18-25 yrs",
         "confidence": "reported",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The Junior Accountant and Tehsil Revenue Accountant Joint Direct Recruitment comprises a single-stage written competitive examination with two objective papers (Paper-I and Paper-II) carrying 450 marks each (total 900 marks), followed by document verification. For each correct response, 3 marks are awarded, and 1 mark is deducted for each incorrect answer (1/3rd negative marking). Minimum qualifying marks are 35% in each paper and 40% aggregate (5% relaxation for SC/ST). There is no interview / viva-voce test.",
@@ -68,7 +66,7 @@
         "source_label": "RSMSSB Jr. Accountant & TRA Detailed Advertisement No. 02/2023",
         "papers": [
           {
-            "paper_name": "Paper I — General Hindi (75 marks), General English (75 marks), GK with reference to Rajasthan (75 marks), General Science (75 marks), Mathematics (75 marks) & Basics of Computer (75 marks)",
+            "paper_name": "Paper I \u2014 General Hindi (75 marks), General English (75 marks), GK with reference to Rajasthan (75 marks), General Science (75 marks), Mathematics (75 marks) & Basics of Computer (75 marks)",
             "marks": 450,
             "duration_minutes": 150,
             "negative_marking": "1 mark deducted per incorrect answer (3 marks per correct question)",
@@ -76,7 +74,7 @@
             "qualifying_threshold": "Minimum 35% in paper (30% for SC/ST)"
           },
           {
-            "paper_name": "Paper II — Book-keeping & Accountancy (75 marks), Business Methods (75 marks), Auditing (75 marks), Indian Economics (75 marks), Rajasthan Civil Services Rules & Joining Time Rules (75 marks) & GF&AR Part-I (75 marks)",
+            "paper_name": "Paper II \u2014 Book-keeping & Accountancy (75 marks), Business Methods (75 marks), Auditing (75 marks), Indian Economics (75 marks), Rajasthan Civil Services Rules & Joining Time Rules (75 marks) & GF&AR Part-I (75 marks)",
             "marks": 450,
             "duration_minutes": 150,
             "negative_marking": "1 mark deducted per incorrect answer (3 marks per correct question)",
@@ -105,10 +103,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Junior Accountants and Tehsil Revenue Accountants are placed in Pay Matrix Level L-10 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹3,600) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹23,700 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹33,800 is drawn.",
+    "note": "Junior Accountants and Tehsil Revenue Accountants are placed in Pay Matrix Level L-10 (Pay Band \u20b99,300\u2013\u20b934,800 with Grade Pay \u20b93,600) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of \u20b923,700 per month is paid. Upon successful completion of probation, regular entry basic pay of \u20b933,800 is drawn.",
     "pay_level": "Level L-10",
     "entry_basic_pay": 33800,
     "pay_confidence": "verified",
@@ -126,7 +123,7 @@
       "max": 54000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level L-10 entry basic pay of ₹33,800 at 58% DA (₹19,604 effective 01.07.2025), HRA (9% to 18%: ₹3,042 to ₹6,084), special accounting allowances, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "estimate_note": "Calculated on Level L-10 entry basic pay of \u20b933,800 at 58% DA (\u20b919,604 effective 01.07.2025), HRA (9% to 18%: \u20b93,042 to \u20b96,084), special accounting allowances, net of State Insurance, General Provident Fund, and RGHS deductions.",
     "official_perks": [
       "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
       "House Rent Allowance (HRA) categorized by posting zone (Class Y and Z cities)",
@@ -136,11 +133,22 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment benchmarks compiled from official RSMSSB Junior Accountant & TRA 2023 result notifications and recommendation lists.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://rsmssb.rajasthan.gov.in",
+        "source_label": "RSMSSB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": 192000,
@@ -155,7 +163,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Primary statutory notifications, amendment advertisements, and selection orders published on the RSMSSB portal.",

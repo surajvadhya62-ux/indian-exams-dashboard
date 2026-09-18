@@ -1,14 +1,14 @@
 {
   "id": "irfc-executive",
   "schema_version": 1,
-  "last_reviewed": "2026-09-13",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Executive finance and managerial cadre at Indian Railway Finance Corporation Limited, New Delhi.",
     "steps": [
       {
         "designation": "Assistant Manager (Finance / Law / IT / CS)",
-        "pay_level": "E-2 Grade (IDA ₹50,000 – ₹1,60,000)",
+        "pay_level": "E-2 Grade (IDA \u20b950,000 \u2013 \u20b91,60,000)",
         "years": "Entry (0-3 yrs)",
         "confidence": "verified",
         "as_of": "2023-07-20",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Deputy Manager",
-        "pay_level": "E-3 Grade (IDA ₹60,000 – ₹1,80,000)",
+        "pay_level": "E-3 Grade (IDA \u20b960,000 \u2013 \u20b91,80,000)",
         "years": "approx. 3-6 yrs",
         "confidence": "verified",
         "as_of": "2023-07-20",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Manager",
-        "pay_level": "E-4 Grade (IDA ₹70,000 – ₹2,00,000)",
+        "pay_level": "E-4 Grade (IDA \u20b970,000 \u2013 \u20b92,00,000)",
         "years": "approx. 6-10 yrs",
         "confidence": "reported",
         "as_of": "2023-07-20",
@@ -80,7 +80,7 @@
   "financial_package": {
     "status": "available",
     "note": "Governed by Schedule A NBFC CPSE pay rules (3rd PRC IDA pattern).",
-    "pay_level": "E-2 Grade (IDA Scale ₹50,000 – ₹1,60,000)",
+    "pay_level": "E-2 Grade (IDA Scale \u20b950,000 \u2013 \u20b91,60,000)",
     "entry_basic_pay": 50000,
     "pay_confidence": "verified",
     "pay_as_of": "2023-07-20",
@@ -97,7 +97,7 @@
       "max": 96000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on basic ₹50,000, 58% IDA DA (₹29,000), Delhi HRA 27% (₹13,500), and cafeteria allowances of 35%.",
+    "estimate_note": "Calculated on basic \u20b950,000, 58% IDA DA (\u20b929,000), Delhi HRA 27% (\u20b913,500), and cafeteria allowances of 35%.",
     "official_perks": [
       "Industrial Dearness Allowance (IDA) revised quarterly",
       "House Rent Allowance (HRA) at 27% for Delhi NCR or leased housing",
@@ -111,6 +111,18 @@
     "status": "available",
     "note": "Lateral and executive officer recruitment figures at IRFC.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://irfc.co.in",
+        "source_label": "IRFC Limited - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 17,

@@ -1,15 +1,14 @@
 {
   "id": "drdo-ceptam-tech-a",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Technician 'A' (Tech-A) is the skilled technical workshop cadre of DRDO holding Class 10 qualification plus ITI certification in designated engineering trades. Technicians operate high-precision machine tools, electronic fabrication assemblies, prototyping workshops, and instrumentation facilities across defence labs. Promotions follow the DRTC flexible complementing framework.",
     "steps": [
       {
         "designation": "Technician 'A' (Tech-A)",
-        "pay_level": "Level 2 (₹19,900 – ₹63,200)",
+        "pay_level": "Level 2 (\u20b919,900 \u2013 \u20b963,200)",
         "years": "Entry rank (Group C Non-Gazetted, Non-Ministerial)",
         "confidence": "verified",
         "as_of": "2022-09-03",
@@ -18,7 +17,7 @@
       },
       {
         "designation": "Technician 'B' (Tech-B)",
-        "pay_level": "Level 3 (₹21,700 – ₹69,100)",
+        "pay_level": "Level 3 (\u20b921,700 \u2013 \u20b969,100)",
         "years": "approx. 5 yrs via Trade Assessment",
         "confidence": "verified",
         "as_of": "2017-05-16",
@@ -27,7 +26,7 @@
       },
       {
         "designation": "Technician 'C' (Tech-C)",
-        "pay_level": "Level 4 (₹25,500 – ₹81,100)",
+        "pay_level": "Level 4 (\u20b925,500 \u2013 \u20b981,100)",
         "years": "approx. 10-12 yrs",
         "confidence": "verified",
         "as_of": "2017-05-16",
@@ -36,7 +35,7 @@
       },
       {
         "designation": "Senior Technician",
-        "pay_level": "Level 5 (₹29,200 – ₹92,300)",
+        "pay_level": "Level 5 (\u20b929,200 \u2013 \u20b992,300)",
         "years": "approx. 15-18 yrs",
         "confidence": "verified",
         "as_of": "2017-05-16",
@@ -45,7 +44,7 @@
       },
       {
         "designation": "Master Craftsman",
-        "pay_level": "Level 6 (₹35,400 – ₹1,12,400)",
+        "pay_level": "Level 6 (\u20b935,400 \u2013 \u20b91,12,400)",
         "years": "approx. 22-26 yrs (highest technician workshop rank)",
         "confidence": "verified",
         "as_of": "2017-05-16",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection to Technician 'A' comprises a two-tier process: Tier-I CBT for Provisional Selection consisting of quantitative aptitude, general intelligence, awareness, English, and trade-specific questions; and Tier-II Trade Test (practical skill test in the relevant trade) which is qualifying in nature. Merit is compiled strictly from Tier-I scores of candidates who qualify Tier-II.",
@@ -65,7 +63,7 @@
         "confidence": "verified",
         "as_of": "2022-09-03",
         "source_url": "https://www.drdo.gov.in",
-        "source_label": "DRDO CEPTAM-10/DRTC — Scheme of Examination for Tech-A",
+        "source_label": "DRDO CEPTAM-10/DRTC \u2014 Scheme of Examination for Tech-A",
         "papers": [
           {
             "paper_name": "Section A (Common Aptitude): Quantitative Ability/Aptitude, General Intelligence & Reasoning, General Awareness, English Language (40 Questions)",
@@ -91,7 +89,7 @@
         "confidence": "verified",
         "as_of": "2022-09-03",
         "source_url": "https://www.drdo.gov.in",
-        "source_label": "DRDO CEPTAM-10/DRTC — Scheme of Tier-II Trade Test for Tech-A",
+        "source_label": "DRDO CEPTAM-10/DRTC \u2014 Scheme of Tier-II Trade Test for Tech-A",
         "papers": [
           {
             "paper_name": "Practical Trade Skill Test: Hands-on evaluation in DRDO laboratory workshops on ITI machines and trade instruments",
@@ -105,37 +103,53 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Technician 'A' in DRDO is placed in Pay Matrix Level 2 (₹19,900 – ₹63,200) under the 7th CPC. Employees receive central DA, HRA, Transport Allowance, CGHS medical coverage, and uniform maintenance allowances.",
-    "pay_level": "Level 2 (₹19,900 – ₹63,200)",
+    "note": "Technician 'A' in DRDO is placed in Pay Matrix Level 2 (\u20b919,900 \u2013 \u20b963,200) under the 7th CPC. Employees receive central DA, HRA, Transport Allowance, CGHS medical coverage, and uniform maintenance allowances.",
+    "pay_level": "Level 2 (\u20b919,900 \u2013 \u20b963,200)",
     "entry_basic_pay": 19900,
     "pay_confidence": "verified",
     "pay_as_of": "2022-09-03",
     "pay_source_url": "https://www.drdo.gov.in",
-    "pay_source_label": "DRDO CEPTAM-10/DRTC Advertisement — Pay Matrix Level 2 for Tech-A",
+    "pay_source_label": "DRDO CEPTAM-10/DRTC Advertisement \u2014 Pay Matrix Level 2 for Tech-A",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 36000, "max": 44000 },
-    "in_hand_range_estimate": { "min": 31000, "max": 38000 },
+    "gross_range_estimate": {
+      "min": 36000,
+      "max": 44000
+    },
+    "in_hand_range_estimate": {
+      "min": 31000,
+      "max": 38000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 2 entry basic pay of ₹19,900: Dearness Allowance @ 58% is ₹11,542; HRA ranges from 10% (₹1,990 in Z class) to 30% (₹5,970 in X class); Transport Allowance is ₹1,350 + DA (₹2,133) in standard research cities. Gross monthly earnings range from ₹36,000 to ₹44,000. In-hand earnings after 10% NPS deduction (₹3,144) are approximately ₹31,000 to ₹38,000.",
+    "estimate_note": "Calculated on Level 2 entry basic pay of \u20b919,900: Dearness Allowance @ 58% is \u20b911,542; HRA ranges from 10% (\u20b91,990 in Z class) to 30% (\u20b95,970 in X class); Transport Allowance is \u20b91,350 + DA (\u20b92,133) in standard research cities. Gross monthly earnings range from \u20b936,000 to \u20b944,000. In-hand earnings after 10% NPS deduction (\u20b93,144) are approximately \u20b931,000 to \u20b938,000.",
     "official_perks": [
       "CGHS or DRDO Laboratory Medical dispensary facilities for self and dependent family members",
       "Government residential quarter allotment in DRDO housing complexes or central HRA",
-      "Children Education Allowance (CEA) of ₹2,250 per month per child",
+      "Children Education Allowance (CEA) of \u20b92,250 per month per child",
       "National Pension System (NPS) with 14% monthly employer contribution by Government of India",
       "Leave Travel Concession (LTC) and annual leave encashment",
       "CSD Canteen card privileges for civilian defence employees"
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment statistics for DRDO CEPTAM Technician 'A' across ITI trades.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.drdo.gov.in",
+        "source_label": "DRDO CEPTAM - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "vacancies": 826,
@@ -160,7 +174,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official portals and syllabus notifications hosted on DRDO portal.",

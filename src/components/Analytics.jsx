@@ -3,6 +3,10 @@ import {
   PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, Tooltip,
   ResponsiveContainer, Legend, AreaChart, Area, CartesianGrid
 } from 'recharts'
+import {
+  HiOutlineSparkles, HiOutlineDownload, HiOutlineTable,
+  HiOutlineChartPie, HiOutlineChartBar, HiOutlineFilter
+} from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
 import IndiaMap from './IndiaMap'
 import { SkeletonChart } from './Skeletons'
@@ -44,6 +48,173 @@ export default function Analytics({ exams, onApplyFilter }) {
     mq.addEventListener('change', handler)
     return () => mq.removeEventListener('change', handler)
   }, [])
+
+  // Custom Analytics Studio State
+  const [customDimension, setCustomDimension] = useState('domain')
+  const [customMetric, setCustomMetric] = useState('count')
+  const [customChartType, setCustomChartType] = useState('bar')
+  const [customScopeFilter, setCustomScopeFilter] = useState('all')
+  const [customTypeFilter, setCustomTypeFilter] = useState('all')
+
+  const customAnalyticsData = useMemo(() => {
+    let filtered = exams || []
+    if (customScopeFilter === 'central') {
+      filtered = filtered.filter(e => e.jurisdiction === 'central')
+    } else if (customScopeFilter === 'state') {
+      filtered = filtered.filter(e => e.jurisdiction === 'state')
+    }
+
+    if (customTypeFilter === 'entrance') {
+      filtered = filtered.filter(e => e.exam_type === 'entrance')
+    } else if (customTypeFilter === 'job') {
+      filtered = filtered.filter(e => e.exam_type === 'job')
+    }
+
+    const groups = {}
+
+    filtered.forEach(exam => {
+      let key = 'Other'
+      if (customDimension === 'domain') {
+        key = exam.domain || 'Unspecified'
+      } else if (customDimension === 'jurisdiction') {
+        key = exam.jurisdiction === 'central' ? 'Central / All-India' : 'State Commission'
+      } else if (customDimension === 'level') {
+        const l = (exam.level || '').toLowerCase()
+        if (l.includes('10th')) key = '10th Pass / Secondary'
+        else if (l.includes('12th') || l.includes('undergraduate')) key = '12th Pass / Intermediate'
+        else if (l.includes('diploma') || l.includes('iti')) key = 'Diploma / ITI'
+        else if (l.includes('postgraduate') || l.includes('master')) key = 'Postgraduate'
+        else if (l.includes('doctoral') || l.includes('ph.d')) key = 'Doctoral / Ph.D.'
+        else key = "Graduate / Bachelor's"
+      } else if (customDimension === 'exam_type') {
+        key = exam.exam_type === 'entrance' ? 'Entrance Examination' : 'Job Recruitment'
+      } else if (customDimension === 'exam_mode') {
+        const m = (exam.exam_mode || '').toLowerCase()
+        if (m.includes('online') || m.includes('cbt')) key = 'Online / CBT'
+        else if (m.includes('offline') || m.includes('omr') || m.includes('pen')) key = 'Offline / OMR'
+        else key = 'Hybrid / Multimodal'
+      } else if (customDimension === 'frequency') {
+        key = exam.frequency || 'Annual'
+      } else if (customDimension === 'state') {
+        key = exam.jurisdiction === 'central' ? 'All-India Central' : (exam.state || 'Regional')
+      }
+
+      if (!groups[key]) {
+        groups[key] = { name: key, count: 0, vacancies: 0, paySum: 0, payCount: 0, ageSum: 0, ageCount: 0 }
+      }
+
+      groups[key].count++
+
+      let vac = 0
+      if (exam.vacancies) {
+        const n = parseInt(exam.vacancies.replace(/[^0-9]/g, ''), 10)
+        if (!isNaN(n)) vac = n
+      }
+      if (!vac) vac = 450
+      groups[key].vacancies += vac
+
+      const cadre = (exam.cadre || '').toLowerCase()
+      let pay = 35400
+      if (cadre.includes('level 10') || cadre.includes('group a')) pay = 56100
+      else if (cadre.includes('level 8')) pay = 47600
+      else if (cadre.includes('level 7')) pay = 44900
+      else if (cadre.includes('level 6') || cadre.includes('group b')) pay = 35400
+      else if (cadre.includes('level 5')) pay = 29200
+      else if (cadre.includes('level 4') || cadre.includes('group c')) pay = 25500
+      else if (cadre.includes('level 2')) pay = 19900
+      else if (cadre.includes('level 1')) pay = 18000
+      groups[key].paySum += pay
+      groups[key].payCount++
+
+      let maxAge = 30
+      if (exam.age_limit) {
+        const nums = exam.age_limit.match(/\d+/g)
+        if (nums && nums.length > 0) {
+          const parsed = parseInt(nums[nums.length - 1], 10)
+          if (parsed >= 16 && parsed <= 60) maxAge = parsed
+        }
+      }
+      groups[key].ageSum += maxAge
+      groups[key].ageCount++
+    })
+
+    const chartColors = [
+      '#c8862a', '#10b981', '#3b82f6', '#8b5cf6', '#ec4899',
+      '#06b6d4', '#f59e0b', '#14b8a6', '#6366f1', '#f97316',
+      '#84cc16', '#a855f7', '#64748b'
+    ]
+
+    let data = Object.values(groups).map((g, idx) => {
+      let val = g.count
+      let formattedVal = `${g.count} exams`
+
+      if (customMetric === 'vacancies') {
+        val = g.vacancies
+        formattedVal = `${g.vacancies.toLocaleString('en-IN')} posts`
+      } else if (customMetric === 'starting_pay') {
+        val = Math.round(g.paySum / (g.payCount || 1))
+        formattedVal = `Rs. ${val.toLocaleString('en-IN')}/mo`
+      } else if (customMetric === 'max_age') {
+        val = Math.round((g.ageSum / (g.ageCount || 1)) * 10) / 10
+        formattedVal = `${val} yrs`
+      }
+
+      return {
+        name: g.name,
+        value: val,
+        rawCount: g.count,
+        vacancies: g.vacancies,
+        avgPay: Math.round(g.paySum / (g.payCount || 1)),
+        avgAge: Math.round((g.ageSum / (g.ageCount || 1)) * 10) / 10,
+        formattedVal,
+        fill: chartColors[idx % chartColors.length]
+      }
+    })
+
+    data.sort((a, b) => b.value - a.value)
+
+    if (customDimension === 'state' && data.length > 12) {
+      data = data.slice(0, 12)
+    }
+
+    const totalMetricSum = data.reduce((acc, d) => acc + d.value, 0)
+    let metricSumFormatted = totalMetricSum.toLocaleString('en-IN')
+    if (customMetric === 'starting_pay') {
+      metricSumFormatted = `Rs. ${Math.round(totalMetricSum / (data.length || 1)).toLocaleString('en-IN')} avg`
+    } else if (customMetric === 'max_age') {
+      metricSumFormatted = `${Math.round((totalMetricSum / (data.length || 1)) * 10) / 10} yrs avg`
+    }
+
+    return {
+      data,
+      totalCount: filtered.length,
+      topLeader: data[0] || null,
+      metricSumFormatted
+    }
+  }, [exams, customDimension, customMetric, customScopeFilter, customTypeFilter])
+
+  const exportCustomCsv = () => {
+    if (!customAnalyticsData.data || customAnalyticsData.data.length === 0) return
+    const headers = ['Segment', 'Value', 'Exams Count', 'Estimated Vacancies', 'Avg Starting Pay (Rs/mo)', 'Avg Max Age']
+    const rows = customAnalyticsData.data.map(d => [
+      `"${d.name.replace(/"/g, '""')}"`,
+      d.value,
+      d.rawCount,
+      d.vacancies,
+      d.avgPay,
+      d.avgAge
+    ])
+    const csvContent = [headers.join(','), ...rows.map(r => r.join(','))].join('\n')
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' })
+    const url = URL.createObjectURL(blob)
+    const link = document.createElement('a')
+    link.href = url
+    link.setAttribute('download', `indiaexams_analytics_${customDimension}_${customMetric}.csv`)
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+    URL.revokeObjectURL(url)
+  }
 
   // Dynamic Telemetry KPIs (100% computed from real data)
   const kpis = useMemo(() => {
@@ -700,6 +871,269 @@ export default function Analytics({ exams, onApplyFilter }) {
             </ul>
           </div>
         )}
+      </div>
+
+      {/* ─────────────────────────────────────────────────────────────
+          CUSTOM ANALYTICS STUDIO WORKBENCH (Point 7)
+          ───────────────────────────────────────────────────────────── */}
+      <div className="custom-analytics-studio panel" style={{ marginTop: '2rem' }}>
+        <div className="studio-header-strip">
+          <div className="studio-title-block">
+            <div className="studio-badge">
+              <HiOutlineSparkles className="studio-sparkle-icon" />
+              <span>DYNAMIC ANALYTICS STUDIO</span>
+            </div>
+            <h3 className="studio-title">Custom Cross-Tabulation & Breakdown Studio</h3>
+            <p className="studio-desc">
+              Generate custom analytics across all parameters. Group by any dimension, calculate metrics, and switch visualizations on the fly without deleting existing analytics.
+            </p>
+          </div>
+
+          <button className="studio-export-btn" onClick={exportCustomCsv} title="Download aggregated breakdown as CSV">
+            <HiOutlineDownload />
+            <span>Export CSV</span>
+          </button>
+        </div>
+
+        {/* Toolbar Controls */}
+        <div className="studio-toolbar">
+          <div className="studio-control-item">
+            <label className="studio-label">GROUP BY DIMENSION:</label>
+            <select
+              className="hud-select studio-select"
+              value={customDimension}
+              onChange={e => setCustomDimension(e.target.value)}
+            >
+              <option value="domain">Discipline / Domain</option>
+              <option value="jurisdiction">Jurisdiction (Central vs State)</option>
+              <option value="level">Qualification Tier</option>
+              <option value="exam_type">Examination Type</option>
+              <option value="exam_mode">Testing Mode (CBT / Offline)</option>
+              <option value="frequency">Cycle Frequency</option>
+              <option value="state">State / Region (Top 12)</option>
+            </select>
+          </div>
+
+          <div className="studio-control-item">
+            <label className="studio-label">METRIC CALCULATION:</label>
+            <select
+              className="hud-select studio-select"
+              value={customMetric}
+              onChange={e => setCustomMetric(e.target.value)}
+            >
+              <option value="count">Total Examination Targets</option>
+              <option value="vacancies">Estimated Vacancy Volume (Seats)</option>
+              <option value="starting_pay">Est. Starting Basic Pay (Rs./mo)</option>
+              <option value="max_age">Average Maximum Age Limit (Years)</option>
+            </select>
+          </div>
+
+          <div className="studio-control-item">
+            <label className="studio-label">VISUALIZATION FORMAT:</label>
+            <div className="studio-format-pills">
+              <button
+                type="button"
+                className={`studio-fmt-btn ${customChartType === 'bar' ? 'active' : ''}`}
+                onClick={() => setCustomChartType('bar')}
+              >
+                <HiOutlineChartBar /> Bar
+              </button>
+              <button
+                type="button"
+                className={`studio-fmt-btn ${customChartType === 'pie' ? 'active' : ''}`}
+                onClick={() => setCustomChartType('pie')}
+              >
+                <HiOutlineChartPie /> Donut
+              </button>
+              <button
+                type="button"
+                className={`studio-fmt-btn ${customChartType === 'area' ? 'active' : ''}`}
+                onClick={() => setCustomChartType('area')}
+              >
+                Area
+              </button>
+              <button
+                type="button"
+                className={`studio-fmt-btn ${customChartType === 'table' ? 'active' : ''}`}
+                onClick={() => setCustomChartType('table')}
+              >
+                <HiOutlineTable /> Table
+              </button>
+            </div>
+          </div>
+
+          <div className="studio-control-item">
+            <label className="studio-label">SCOPE FILTER:</label>
+            <select
+              className="hud-select studio-select"
+              value={customScopeFilter}
+              onChange={e => setCustomScopeFilter(e.target.value)}
+            >
+              <option value="all">All Scopes (Central & State)</option>
+              <option value="central">Central & All-India Only</option>
+              <option value="state">State Commissions Only</option>
+            </select>
+          </div>
+
+          <div className="studio-control-item">
+            <label className="studio-label">TYPE FILTER:</label>
+            <select
+              className="hud-select studio-select"
+              value={customTypeFilter}
+              onChange={e => setCustomTypeFilter(e.target.value)}
+            >
+              <option value="all">All Types</option>
+              <option value="job">Job Recruitment Only</option>
+              <option value="entrance">Entrance Exams Only</option>
+            </select>
+          </div>
+        </div>
+
+        {/* Telemetry Strip */}
+        <div className="studio-telemetry-row">
+          <div className="studio-telemetry-chip">
+            <span className="telemetry-label">ANALYZED TARGETS:</span>
+            <span className="telemetry-value">{customAnalyticsData.totalCount}</span>
+          </div>
+          <div className="studio-telemetry-chip">
+            <span className="telemetry-label">DISTINCT CATEGORIES:</span>
+            <span className="telemetry-value">{customAnalyticsData.data.length}</span>
+          </div>
+          <div className="studio-telemetry-chip">
+            <span className="telemetry-label">LEADER:</span>
+            <span className="telemetry-value highlight">
+              {customAnalyticsData.topLeader ? `${customAnalyticsData.topLeader.name} (${customAnalyticsData.topLeader.formattedVal})` : 'N/A'}
+            </span>
+          </div>
+          <div className="studio-telemetry-chip">
+            <span className="telemetry-label">AGGREGATE:</span>
+            <span className="telemetry-value">{customAnalyticsData.metricSumFormatted}</span>
+          </div>
+        </div>
+
+        {/* Studio Chart Canvas / Table Canvas */}
+        <div className="studio-canvas-area" style={{ marginTop: '1.25rem' }}>
+          {customChartType === 'bar' && (
+            <div style={{ width: '100%', height: 380 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={customAnalyticsData.data}
+                  margin={{ top: 20, right: 20, left: 10, bottom: 60 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" vertical={false} />
+                  <XAxis
+                    dataKey="name"
+                    stroke="#64748b"
+                    tick={{ fill: '#cbd5e1', fontSize: 11 }}
+                    angle={-35}
+                    textAnchor="end"
+                    interval={0}
+                    height={65}
+                  />
+                  <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                  <Tooltip content={<CustomTooltip />} />
+                  <Bar dataKey="value" name="Value" radius={[4, 4, 0, 0]}>
+                    {customAnalyticsData.data.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.fill} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          )}
+
+          {customChartType === 'pie' && (
+            <div style={{ width: '100%', height: 380, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={customAnalyticsData.data}
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={75}
+                    outerRadius={130}
+                    paddingAngle={3}
+                    dataKey="value"
+                    nameKey="name"
+                    label={({ name, percent }) => `${name} (${(percent * 100).toFixed(0)}%)`}
+                  >
+                    {customAnalyticsData.data.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.fill} />
+                    ))}
+                  </Pie>
+                  <Tooltip content={<CustomTooltip />} />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          )}
+
+          {customChartType === 'area' && (
+            <div style={{ width: '100%', height: 380 }}>
+              <ResponsiveContainer width="100%" height="100%">
+                <AreaChart
+                  data={customAnalyticsData.data}
+                  margin={{ top: 20, right: 20, left: 10, bottom: 60 }}
+                >
+                  <defs>
+                    <linearGradient id="studioAreaGrad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#c8862a" stopOpacity={0.4}/>
+                      <stop offset="95%" stopColor="#c8862a" stopOpacity={0}/>
+                    </linearGradient>
+                  </defs>
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" vertical={false} />
+                  <XAxis
+                    dataKey="name"
+                    stroke="#64748b"
+                    tick={{ fill: '#cbd5e1', fontSize: 11 }}
+                    angle={-35}
+                    textAnchor="end"
+                    interval={0}
+                    height={65}
+                  />
+                  <YAxis stroke="#64748b" tick={{ fill: '#94a3b8', fontSize: 11 }} />
+                  <Tooltip content={<CustomTooltip />} />
+                  <Area type="monotone" dataKey="value" stroke="#c8862a" strokeWidth={2} fillOpacity={1} fill="url(#studioAreaGrad)" />
+                </AreaChart>
+              </ResponsiveContainer>
+            </div>
+          )}
+
+          {customChartType === 'table' && (
+            <div className="studio-table-container">
+              <table className="studio-data-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Segment Category</th>
+                    <th style={{ textAlign: 'right' }}>Active Metric Value</th>
+                    <th style={{ textAlign: 'right' }}>Exams Count</th>
+                    <th style={{ textAlign: 'right' }}>Est. Vacancies</th>
+                    <th style={{ textAlign: 'right' }}>Avg Starting Pay</th>
+                    <th style={{ textAlign: 'right' }}>Avg Max Age</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {customAnalyticsData.data.map((row, idx) => (
+                    <tr key={row.name}>
+                      <td className="mono-idx">{idx + 1}</td>
+                      <td className="segment-name-cell">
+                        <span className="color-swatch" style={{ background: row.fill }} />
+                        <strong>{row.name}</strong>
+                      </td>
+                      <td style={{ textAlign: 'right', fontWeight: 700, color: 'var(--amber-bright, #e8a33d)' }}>
+                        {row.formattedVal}
+                      </td>
+                      <td style={{ textAlign: 'right' }}>{row.rawCount}</td>
+                      <td style={{ textAlign: 'right' }}>{row.vacancies.toLocaleString('en-IN')}</td>
+                      <td style={{ textAlign: 'right' }}>Rs. {row.avgPay.toLocaleString('en-IN')}/mo</td>
+                      <td style={{ textAlign: 'right' }}>{row.avgAge} yrs</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
       </div>
     </section>
   )

@@ -1,15 +1,14 @@
 {
   "id": "psssb-clerk",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Clerical cadres in Punjab Government departments, Directorates, and the Punjab Civil Secretariat are governed by the Punjab Civil Services (General and Common Conditions of Service) Rules, 1994 and respective departmental ministerial service rules. Progression from Clerk to Senior Assistant requires 5 years regular service and passing the statutory Senior Assistant departmental examination. Senior Assistants can advance into gazetted administrative cadres including Superintendent and Under Secretary in the Secretariat.",
     "steps": [
       {
         "designation": "Clerk / Junior Assistant / Clerk IT / Clerk Accounts",
-        "pay_level": "Punjab Pay Matrix Level 2 (Scale ₹19,900 - ₹63,200)",
+        "pay_level": "Punjab Pay Matrix Level 2 (Scale \u20b919,900 - \u20b963,200)",
         "years": "Entry (probation 3 years)",
         "confidence": "verified",
         "as_of": "2022-10-18",
@@ -18,25 +17,25 @@
       },
       {
         "designation": "Senior Assistant (Secretariat / Directorate / District Office)",
-        "pay_level": "Punjab Pay Matrix Level 5 (Scale ₹29,200 - ₹92,300)",
+        "pay_level": "Punjab Pay Matrix Level 5 (Scale \u20b929,200 - \u20b992,300)",
         "years": "approx. 5-8 yrs (upon qualifying Senior Assistant departmental examination)",
         "confidence": "verified",
         "as_of": "2022-10-18",
         "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
-        "source_label": "Punjab Civil Services Ministerial Cadre Rules — Senior Assistant Promotion Schedule"
+        "source_label": "Punjab Civil Services Ministerial Cadre Rules \u2014 Senior Assistant Promotion Schedule"
       },
       {
         "designation": "Superintendent Grade II / Office Superintendent",
-        "pay_level": "Punjab Pay Matrix Level 6 (Scale ₹35,400 - ₹1,12,400)",
+        "pay_level": "Punjab Pay Matrix Level 6 (Scale \u20b935,400 - \u20b91,12,400)",
         "years": "approx. 12-16 yrs",
         "confidence": "verified",
         "as_of": "2022-10-18",
         "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
-        "source_label": "Department of Personnel, Government of Punjab — Superintendent Grade II Cadre Rules"
+        "source_label": "Department of Personnel, Government of Punjab \u2014 Superintendent Grade II Cadre Rules"
       },
       {
-        "designation": "Superintendent Grade I — Group A Gazetted (Secretariat Branch Officer)",
-        "pay_level": "Punjab Pay Matrix Level 7 (Scale ₹44,900 - ₹1,42,400)",
+        "designation": "Superintendent Grade I \u2014 Group A Gazetted (Secretariat Branch Officer)",
+        "pay_level": "Punjab Pay Matrix Level 7 (Scale \u20b944,900 - \u20b91,42,400)",
         "years": "approx. 18-22 yrs",
         "confidence": "verified",
         "as_of": "2022-10-18",
@@ -45,16 +44,15 @@
       },
       {
         "designation": "Under Secretary / Administrative Officer / Deputy Secretary",
-        "pay_level": "Punjab Pay Matrix Level 10 / Level 11 (Scale ₹56,100 - ₹1,77,500 / ₹67,700 - ₹2,08,700)",
+        "pay_level": "Punjab Pay Matrix Level 10 / Level 11 (Scale \u20b956,100 - \u20b91,77,500 / \u20b967,700 - \u20b92,08,700)",
         "years": "Apex (State Secretariat executive promotion quota)",
         "confidence": "verified",
         "as_of": "2022-10-18",
         "source_url": "https://sssb.punjab.gov.in/rules-regulations/",
-        "source_label": "Government of Punjab Department of Personnel — Secretariat Executive Induction Register"
+        "source_label": "Government of Punjab Department of Personnel \u2014 Secretariat Executive Induction Register"
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection process consists of three distinct stages: Stage 1 (Objective OMR Written Examination comprising Part A qualifying Punjabi and Part B merit paper), Stage 2 (Mandatory Computer Typing Test in Punjabi Raavi font and English at 30 wpm), and Stage 3 (Counselling & Document Verification). Final merit is compiled strictly on marks secured in Part B of the written test among candidates who qualify Part A and both typing tests.",
@@ -131,11 +129,10 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Salaries for Clerks across Punjab Civil Secretariat, Heads of Departments, and district administrations are governed by the Punjab Civil Services (Revised Pay) Rules, 2021 notified by the Department of Finance, Government of Punjab. Entry basic pay is ₹19,900 under Punjab Pay Matrix Level 2. In terms of Department of Finance policy instructions (Letters No. 7/204/2012-4FP1/60 dated 15.01.2015 and No. 7/42/2020-5FP1/741-746 dated 17.07.2020), newly recruited personnel receive fixed minimum basic pay without allowances during the initial 3-year probation period, after which regular allowances (DA, HRA, secretariat allowance, medical allowance) are admissible in full.",
-    "pay_level": "Punjab Pay Matrix Level 2 (Entry Basic ₹19,900; Scale ₹19,900 - ₹63,200)",
+    "note": "Salaries for Clerks across Punjab Civil Secretariat, Heads of Departments, and district administrations are governed by the Punjab Civil Services (Revised Pay) Rules, 2021 notified by the Department of Finance, Government of Punjab. Entry basic pay is \u20b919,900 under Punjab Pay Matrix Level 2. In terms of Department of Finance policy instructions (Letters No. 7/204/2012-4FP1/60 dated 15.01.2015 and No. 7/42/2020-5FP1/741-746 dated 17.07.2020), newly recruited personnel receive fixed minimum basic pay without allowances during the initial 3-year probation period, after which regular allowances (DA, HRA, secretariat allowance, medical allowance) are admissible in full.",
+    "pay_level": "Punjab Pay Matrix Level 2 (Entry Basic \u20b919,900; Scale \u20b919,900 - \u20b963,200)",
     "entry_basic_pay": 19900,
     "pay_confidence": "verified",
     "pay_as_of": "2022-10-18",
@@ -152,7 +149,7 @@
       "max": 34000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Post-probation gross salary is computed from Punjab Pay Matrix Level 2 entry basic ₹19,900 + 58% DA (₹11,542) + Punjab HRA (ranging from 8% in sub-divisional towns to 16% in SAS Nagar/Mohali and Chandigarh Secretariat postings: ₹1,592 to ₹3,184) + fixed medical allowance (₹1,000) + secretariat/clerical allowance. Net in-hand estimate accounts for statutory deductions including 10% NPS contribution (Basic + DA = ₹3,144), Punjab Development Tax (₹200/month), and GIS (₹120). Newly appointed clerks draw fixed basic ₹19,900 during initial probation as per state policy.",
+    "estimate_note": "Post-probation gross salary is computed from Punjab Pay Matrix Level 2 entry basic \u20b919,900 + 58% DA (\u20b911,542) + Punjab HRA (ranging from 8% in sub-divisional towns to 16% in SAS Nagar/Mohali and Chandigarh Secretariat postings: \u20b91,592 to \u20b93,184) + fixed medical allowance (\u20b91,000) + secretariat/clerical allowance. Net in-hand estimate accounts for statutory deductions including 10% NPS contribution (Basic + DA = \u20b93,144), Punjab Development Tax (\u20b9200/month), and GIS (\u20b9120). Newly appointed clerks draw fixed basic \u20b919,900 during initial probation as per state policy.",
     "official_perks": [
       "Government staff residential quarters allotment in Punjab Government housing estates or district pools (subject to availability)",
       "Fixed monthly medical allowance under Punjab Medical Attendance Rules",
@@ -163,36 +160,46 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Statistics compiled from official PSSSB recruitment notices, examination notifications, and candidate merit lists for Clerk (General), Clerk (IT), and Clerk (Accounts). Selectivity ratio is calculated as total applicants divided by notified vacancies.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 444000,
+        "vacancies": 2400,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://sssb.punjab.gov.in",
+        "source_label": "PSSSB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2022,
         "applicants": 185000,
         "vacancies": 704,
         "shortlisted_for_mains": 3520,
-        "selectivity_ratio": "approx. 1 in 263 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 263 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2022-10-18",
         "source_url": "https://sssb.punjab.gov.in/previous-results/",
-        "source_label": "PSSSB Result & Typing Shortlist for Clerk Recruitment — Advt. No. 15/2022 (704 Clerk General vacancies; approx. 1.85 lakh applicants)."
+        "source_label": "PSSSB Result & Typing Shortlist for Clerk Recruitment \u2014 Advt. No. 15/2022 (704 Clerk General vacancies; approx. 1.85 lakh applicants)."
       },
       {
         "year": 2021,
         "applicants": 320000,
         "vacancies": 2789,
         "shortlisted_for_mains": 13945,
-        "selectivity_ratio": "approx. 1 in 115 (calculated: applicants ÷ notified vacancies)",
+        "selectivity_ratio": "approx. 1 in 115 (calculated: applicants \u00f7 notified vacancies)",
         "confidence": "reported",
         "as_of": "2021-12-06",
         "source_url": "https://sssb.punjab.gov.in/previous-results/",
-        "source_label": "PSSSB Combined Clerk Recruitment Examination — Advt. Nos. 17, 18, 19 of 2021 (2,374 Clerk General, 212 Clerk IT, 203 Clerk Accounts; over 3.2 lakh registered applicants)."
+        "source_label": "PSSSB Combined Clerk Recruitment Examination \u2014 Advt. Nos. 17, 18, 19 of 2021 (2,374 Clerk General, 212 Clerk IT, 203 Clerk Accounts; over 3.2 lakh registered applicants)."
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official examination schemes, typing instructions, and administrative circulars maintained by Punjab Subordinate Services Selection Board (PSSSB), Government of Punjab.",

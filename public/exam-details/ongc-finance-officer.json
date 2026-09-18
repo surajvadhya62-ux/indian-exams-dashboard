@@ -1,14 +1,14 @@
 {
   "id": "ongc-finance-officer",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Finance & Accounts Officers at Oil and Natural Gas Corporation Limited (ONGC) are inducted in Executive Grade E-1 and progress through the specialized finance & accounts hierarchy under ONGC Modified Performance Appraisal System and promotion norms.",
     "steps": [
       {
         "designation": "Finance & Accounts Officer",
-        "pay_level": "IDA Grade E-1 (₹60,000 – ₹1,80,000)",
+        "pay_level": "IDA Grade E-1 (\u20b960,000 \u2013 \u20b91,80,000)",
         "years": "Entry Cadre (1 yr probation)",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -17,7 +17,7 @@
       },
       {
         "designation": "Senior Finance & Accounts Officer",
-        "pay_level": "IDA Grade E-2 (₹70,000 – ₹2,00,000)",
+        "pay_level": "IDA Grade E-2 (\u20b970,000 \u2013 \u20b92,00,000)",
         "years": "approx. 3 yrs",
         "confidence": "verified",
         "as_of": "2026-09-14",
@@ -26,7 +26,7 @@
       },
       {
         "designation": "Deputy Manager (Finance)",
-        "pay_level": "IDA Grade E-3 (₹80,000 – ₹2,20,000)",
+        "pay_level": "IDA Grade E-3 (\u20b980,000 \u2013 \u20b92,20,000)",
         "years": "approx. 3-4 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -35,7 +35,7 @@
       },
       {
         "designation": "Manager (Finance & Accounts)",
-        "pay_level": "IDA Grade E-4 (₹90,000 – ₹2,40,000)",
+        "pay_level": "IDA Grade E-4 (\u20b990,000 \u2013 \u20b92,40,000)",
         "years": "approx. 4 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -44,7 +44,7 @@
       },
       {
         "designation": "Chief Manager (F&A)",
-        "pay_level": "IDA Grade E-5 (₹1,00,000 – ₹2,60,000)",
+        "pay_level": "IDA Grade E-5 (\u20b91,00,000 \u2013 \u20b92,60,000)",
         "years": "approx. 4-5 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -53,7 +53,7 @@
       },
       {
         "designation": "Deputy General Manager (DGM - Finance)",
-        "pay_level": "IDA Grade E-6 (₹1,20,000 – ₹2,80,000)",
+        "pay_level": "IDA Grade E-6 (\u20b91,20,000 \u2013 \u20b92,80,000)",
         "years": "approx. 5 yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -62,7 +62,7 @@
       },
       {
         "designation": "General Manager (GM - Finance)",
-        "pay_level": "IDA Grade E-7 (₹1,30,000 – ₹2,90,000)",
+        "pay_level": "IDA Grade E-7 (\u20b91,30,000 \u2013 \u20b92,90,000)",
         "years": "approx. 20+ yrs",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -71,7 +71,7 @@
       },
       {
         "designation": "Executive Director (ED - Chief of Finance)",
-        "pay_level": "IDA Grade E-9 (₹1,50,000 – ₹3,00,000)",
+        "pay_level": "IDA Grade E-9 (\u20b91,50,000 \u2013 \u20b93,00,000)",
         "years": "Apex Cadre Head",
         "confidence": "reported",
         "as_of": "2026-09-14",
@@ -132,8 +132,8 @@
   },
   "financial_package": {
     "status": "available",
-    "note": "ONGC Finance & Accounts Officers enter at basic pay of ₹60,000 in IDA Grade E-1. The compensation includes 58% IDA constant as of 2025-07-01, HRA (up to 27%), cafeteria perks (35%), mining/offshore exploration allowances where applicable, and annual PRP.",
-    "pay_level": "IDA Grade E-1 (₹60,000 – ₹1,80,000)",
+    "note": "ONGC Finance & Accounts Officers enter at basic pay of \u20b960,000 in IDA Grade E-1. The compensation includes 58% IDA constant as of 2025-07-01, HRA (up to 27%), cafeteria perks (35%), mining/offshore exploration allowances where applicable, and annual PRP.",
+    "pay_level": "IDA Grade E-1 (\u20b960,000 \u2013 \u20b91,80,000)",
     "entry_basic_pay": 60000,
     "pay_confidence": "verified",
     "pay_as_of": "2026-09-14",
@@ -150,7 +150,7 @@
       "max": 118000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated with Basic Pay ₹60,000, 58% IDA (₹34,800), HRA (up to 27% = ₹16,200), and Cafeteria Perks @ 35% (₹21,000), less statutory CPF (12% of Basic+DA) and income tax deductions.",
+    "estimate_note": "Calculated with Basic Pay \u20b960,000, 58% IDA (\u20b934,800), HRA (up to 27% = \u20b916,200), and Cafeteria Perks @ 35% (\u20b921,000), less statutory CPF (12% of Basic+DA) and income tax deductions.",
     "official_perks": [
       "Industrial Dearness Allowance (IDA) revised quarterly per AICPI",
       "Company lease accommodation or House Rent Allowance (HRA) up to 27%",
@@ -165,6 +165,18 @@
     "status": "available",
     "note": "Recruitment metrics from recent ONGC Finance & Accounts Officer recruitment rounds.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.ongcindia.com",
+        "source_label": "ONGC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 32,

@@ -1,8 +1,7 @@
 {
   "id": "dsssb-special-educator",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Special education professionals in Delhi Government and municipal schools (DoE, GNCTD & MCD) progress along the specialized inclusive teaching cadre under Central 7th CPC Pay Scales from Special Educator (Primary) up to administrative leadership in the Inclusive Education Branch.",
@@ -14,7 +13,7 @@
         "confidence": "verified",
         "as_of": "2026-04-13",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
-        "source_label": "DSSSB Supplementary Result Notice No. 1612 dt 13-04-2026 — Special Educator Primary Post Code 32/21 in MCD (Level 6, ₹35,400 – ₹1,12,400)"
+        "source_label": "DSSSB Supplementary Result Notice No. 1612 dt 13-04-2026 \u2014 Special Educator Primary Post Code 32/21 in MCD (Level 6, \u20b935,400 \u2013 \u20b91,12,400)"
       },
       {
         "designation": "Special Education Teacher (TGT) (Directorate of Education)",
@@ -23,7 +22,7 @@
         "confidence": "verified",
         "as_of": "2025-12-15",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
-        "source_label": "DSSSB Notice No. 1576 dt 15-12-2025 — Special Education Teacher Post Code 20/22 in DoE (Level 7, ₹44,900 – ₹1,42,400)"
+        "source_label": "DSSSB Notice No. 1576 dt 15-12-2025 \u2014 Special Education Teacher Post Code 20/22 in DoE (Level 7, \u20b944,900 \u2013 \u20b91,42,400)"
       },
       {
         "designation": "Post Graduate Teacher (Special Education / PGT Inclusive Education)",
@@ -32,7 +31,7 @@
         "confidence": "verified",
         "as_of": "2024-05-27",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
-        "source_label": "Directorate of Education GNCTD — Inclusive Education Cadre Rules (PB-2 GP 4800 / Level 8)"
+        "source_label": "Directorate of Education GNCTD \u2014 Inclusive Education Cadre Rules (PB-2 GP 4800 / Level 8)"
       },
       {
         "designation": "Inclusive Education Officer (IEO) / Special Education Coordinator / Vice Principal",
@@ -41,7 +40,7 @@
         "confidence": "verified",
         "as_of": "2024-05-27",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
-        "source_label": "DoE Inclusive Education Branch — Administrative & Resource Management Cadre Rules (Level 10 Gazetted)"
+        "source_label": "DoE Inclusive Education Branch \u2014 Administrative & Resource Management Cadre Rules (Level 10 Gazetted)"
       },
       {
         "designation": "Deputy Director of Education (Inclusive Education Branch / IEB)",
@@ -50,11 +49,10 @@
         "confidence": "verified",
         "as_of": "2024-05-27",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
-        "source_label": "Directorate of Education GNCTD — State Inclusive Education Administration Cadre"
+        "source_label": "Directorate of Education GNCTD \u2014 State Inclusive Education Administration Cadre"
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "DSSSB conducts recruitment for Special Educators under the One-Tier Technical / Teaching (I-T-T) examination scheme comprising a single 2-hour CBT paper of 200 MCQs (200 marks). Section A evaluates general aptitude (100 marks) and Section B tests domain knowledge in Special Education, Child Development, Learning Disabilities, IEP planning, and pedagogy (100 marks). Section B requires minimum qualifying marks of 40% (UR/EWS), 35% (OBC Delhi), or 30% (SC/ST/PH), with final merit decided on total marks across both sections.",
@@ -65,7 +63,7 @@
         "confidence": "verified",
         "as_of": "2024-01-12",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/generic_multiple_files/noticexamination_scheme_prescribed_by_dsssb_for_the_post_of_tgt_regarding.pdf",
-        "source_label": "DSSSB Resolution No. P&P/2017/17 — Examination Scheme for Special Education Teachers (I-T-T)",
+        "source_label": "DSSSB Resolution No. P&P/2017/17 \u2014 Examination Scheme for Special Education Teachers (I-T-T)",
         "papers": [
           {
             "paper_name": "Section A: General Awareness",
@@ -119,47 +117,63 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Special education teachers in Delhi are placed under Central 7th CPC Pay Matrix: Primary Special Educators commence at Pay Level 6 (entry basic ₹35,400) and TGT Special Education Teachers commence at Pay Level 7 (entry basic ₹44,900), drawing standard Class 'X' metro allowances.",
+    "note": "Special education teachers in Delhi are placed under Central 7th CPC Pay Matrix: Primary Special Educators commence at Pay Level 6 (entry basic \u20b935,400) and TGT Special Education Teachers commence at Pay Level 7 (entry basic \u20b944,900), drawing standard Class 'X' metro allowances.",
     "pay_level": "Level 6",
     "entry_basic_pay": 35400,
     "pay_confidence": "verified",
     "pay_as_of": "2024-05-27",
     "pay_source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
-    "pay_source_label": "DSSSB Advt No. 02/2023 & Addendum dt 27-05-2024 — Pay Scale for Special Education Cadre (Level 6 ₹35,400 / Level 7 ₹44,900)",
+    "pay_source_label": "DSSSB Advt No. 02/2023 & Addendum dt 27-05-2024 \u2014 Pay Scale for Special Education Cadre (Level 6 \u20b935,400 / Level 7 \u20b944,900)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 72000, "max": 95000 },
-    "in_hand_range_estimate": { "min": 64000, "max": 84000 },
+    "gross_range_estimate": {
+      "min": 72000,
+      "max": 95000
+    },
+    "in_hand_range_estimate": {
+      "min": 64000,
+      "max": 84000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Spans entry Special Educator Primary at Level 6 basic ₹35,400 (gross ~₹72,240, in-hand ~₹66,600) to TGT Special Education Teacher at Level 7 basic ₹44,900 (gross ~₹90,100, in-hand ~₹83,000) with 58% DA, 30% Delhi HRA, ₹3,600 + DA on TA, less 10% NPS and medical scheme deductions.",
+    "estimate_note": "Spans entry Special Educator Primary at Level 6 basic \u20b935,400 (gross ~\u20b972,240, in-hand ~\u20b966,600) to TGT Special Education Teacher at Level 7 basic \u20b944,900 (gross ~\u20b990,100, in-hand ~\u20b983,000) with 58% DA, 30% Delhi HRA, \u20b93,600 + DA on TA, less 10% NPS and medical scheme deductions.",
     "official_perks": [
       "Delhi Government Employees Health Scheme (DGEHS) / MCD cashless hospital medical coverage",
       "Resource Room and Special Needs Allowance / specialized pedagogy allowance for inclusive classrooms",
       "Summer Vacation (approx. 50 days) and Winter Break (approx. 10 days) with full salary entitlement",
-      "Children Education Allowance (CEA) of ₹2,250 per month per child plus hostel subsidy",
+      "Children Education Allowance (CEA) of \u20b92,250 per month per child plus hostel subsidy",
       "National Pension System (NPS) with 14% defined monthly government matching contribution",
       "Rehabilitation Council of India (RCI) accredited Continuing Rehabilitation Education (CRE) workshop sponsorships"
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "DSSSB Special Educator recruitments require specialized Rehabilitation Council of India (RCI) qualifications, yielding high candidate selectivity. In the CBT for Special Education Teacher in DoE (Post Code 20/22), 2,793 candidates appeared for 364 vacancies with 767 shortlisted for e-dossier, verified directly from official DSSSB marks notices.",
     "years": [
       {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://dsssb.delhi.gov.in",
+        "source_label": "DSSSB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
+      {
         "year": 2022,
         "vacancies": 364,
         "applicants": null,
         "shortlisted_for_mains": 767,
-        "selectivity_ratio": "approx. 1 in 8 for TGT Special Ed (calculated: 2,793 appeared in CBT ÷ 364 vacancies)",
+        "selectivity_ratio": "approx. 1 in 8 for TGT Special Ed (calculated: 2,793 appeared in CBT \u00f7 364 vacancies)",
         "confidence": "verified",
         "as_of": "2025-12-15",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20251215_17364856.pdf",
-        "source_label": "DSSSB Notice No. 1576 dt 15/12/2025: Post Code 20/22 Special Education Teacher (DoE) — 364 vacancies; 2,793 candidates appeared in CBT; 767 shortlisted for e-dossier (read directly)."
+        "source_label": "DSSSB Notice No. 1576 dt 15/12/2025: Post Code 20/22 Special Education Teacher (DoE) \u2014 364 vacancies; 2,793 candidates appeared in CBT; 767 shortlisted for e-dossier (read directly)."
       },
       {
         "year": 2021,
@@ -170,7 +184,7 @@
         "confidence": "verified",
         "as_of": "2026-04-13",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/universal-tab/img20260413_17565321.pdf",
-        "source_label": "DSSSB Supplementary Result Notice No. 1612 dt 13/04/2026: Post Code 32/21 Special Educator Primary in MCD — 1,126 vacancies; 1,123 selected in main list, 225 in reserve list."
+        "source_label": "DSSSB Supplementary Result Notice No. 1612 dt 13/04/2026: Post Code 32/21 Special Educator Primary in MCD \u2014 1,126 vacancies; 1,123 selected in main list, 225 in reserve list."
       },
       {
         "year": 2023,
@@ -181,11 +195,10 @@
         "confidence": "verified",
         "as_of": "2024-05-27",
         "source_url": "https://dsssb.delhi.gov.in/sites/default/files/DSSSB/circulars-orders/scan20240527_0038.pdf",
-        "source_label": "DSSSB Addendum / Notice dt 27/05/2024 for Advt No. 02/2023: Post Code 58/23 Special Education Teacher in DoE — 587 vacancies."
+        "source_label": "DSSSB Addendum / Notice dt 27/05/2024 for Advt No. 02/2023: Post Code 58/23 Special Education Teacher in DoE \u2014 587 vacancies."
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "All official download links verified live on dsssb.delhi.gov.in.",

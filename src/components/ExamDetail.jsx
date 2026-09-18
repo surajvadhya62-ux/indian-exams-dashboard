@@ -367,13 +367,6 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam 
                 >
                   <HiOutlineDownload /> iCal (.ics)
                 </button>
-                <button
-                  className="modal-sync-btn share-btn"
-                  onClick={copyShareLink}
-                  title="Copy permanent shareable link"
-                >
-                  {copiedLink ? <><HiCheck /> Copied Link!</> : <><HiOutlineShare /> Copy Share URL</>}
-                </button>
               </div>
             </div>
 

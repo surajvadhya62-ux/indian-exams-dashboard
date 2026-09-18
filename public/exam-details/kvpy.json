@@ -1,7 +1,7 @@
 {
   "id": "kvpy",
   "schema_version": 1,
-  "last_reviewed": "2026-09-14",
+  "last_reviewed": "2026-09-18",
   "exam_scheme": {
     "status": "available",
     "note": "The Kishore Vaigyanik Protsahan Yojana (KVPY) was an ongoing National Program of Fellowship in Basic Sciences initiated and funded by the Department of Science and Technology (DST), Government of India, and coordinated by IISc Bangalore. Note: Starting from academic year 2022-23, DST officially decided to subsume KVPY under the DST INSPIRE Fellowship scheme (Innovation in Science Pursuit for Inspired Research), with ongoing KVPY scholars continuing to receive their regular fellowships. The established KVPY Aptitude Test scheme comprised three distinct streams: Stream SA (for students enrolled in Class 11), Stream SX (students in Class 12), and Stream SB (students enrolled in 1st year of undergraduate basic sciences). The test was a 3-hour exam of 100 marks divided into Part I (60 questions: 1 mark each, -0.25 negative marking) and Part II (20 questions: 2 marks each, -0.5 negative marking) covering Mathematics, Physics, Chemistry, and Biology.",
@@ -12,7 +12,7 @@
         "confidence": "verified",
         "as_of": "2022-07-18",
         "source_url": "https://online-inspire.gov.in",
-        "source_label": "DST Government of India Notification — KVPY Fellowship Subsumption under INSPIRE and Historical Examination Scheme",
+        "source_label": "DST Government of India Notification \u2014 KVPY Fellowship Subsumption under INSPIRE and Historical Examination Scheme",
         "papers": [
           {
             "paper_name": "KVPY Aptitude Test (Part I and Part II across Science Subjects)",
@@ -30,6 +30,18 @@
     "status": "available",
     "note": "Historic fellowship award and participation numbers published by IISc / DST KVPY Office.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://online-inspire.gov.in",
+        "source_label": "IISc Bangalore (earlier), now DST INSPIRE - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2022,
         "vacancies": 2500,

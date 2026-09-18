@@ -1,29 +1,28 @@
 {
   "id": "lic-ado",
   "schema_version": 1,
-  "last_reviewed": "2026-09-11",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Apprentice Development Officers (ADOs) in the Life Insurance Corporation of India belong to Class II cadre, responsible for sponsoring, recruiting, training, and managing Life Insurance Agents and mobilizing insurance business within their allotted territories. On successful completion of apprenticeship and probation, candidates are confirmed as regular Development Officers, with a career path leading into Class I Branch and Divisional marketing management cadres.",
     "steps": [
       {
         "designation": "Apprentice Development Officer (ADO)",
-        "pay_level": "Apprenticeship Stipend (~₹51,500/month)",
+        "pay_level": "Apprenticeship Stipend (~\u20b951,500/month)",
         "years": "Apprenticeship period (typically 1 yr)",
         "confidence": "verified",
         "as_of": "2023-01-21",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC of India — Recruitment of Apprentice Development Officers Notification 2023 / Class II Staff Regulations"
+        "source_label": "LIC of India \u2014 Recruitment of Apprentice Development Officers Notification 2023 / Class II Staff Regulations"
       },
       {
         "designation": "Probationary Development Officer (Class II)",
-        "pay_level": "Class II (Scale ₹35,650 - 90,205)",
+        "pay_level": "Class II (Scale \u20b935,650 - 90,205)",
         "years": "Probation period (1 yr post-apprenticeship)",
         "confidence": "verified",
         "as_of": "2023-01-21",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC Staff Regulations — Development Officers (Class II) Terms of Service"
+        "source_label": "LIC Staff Regulations \u2014 Development Officers (Class II) Terms of Service"
       },
       {
         "designation": "Confirmed Development Officer (Class II)",
@@ -35,7 +34,7 @@
         "source_label": "LIC Development Officers Performance Framework"
       },
       {
-        "designation": "Assistant Branch Manager (Sales) — Class I Officer",
+        "designation": "Assistant Branch Manager (Sales) \u2014 Class I Officer",
         "pay_level": "Class I (Scale I / II)",
         "years": "approx. 6-10 yrs (based on business appraisal and performance quota)",
         "confidence": "verified",
@@ -63,7 +62,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection for Apprentice Development Officers is conducted through a three-stage process: Phase I Preliminary Examination (Objective, 100 marks), Phase II Main Examination (Objective, 160 marks, 120 minutes), followed by Phase III Interview and Pre-recruitment Medical Examination. In Preliminary Examination, the English Language test is qualifying only and its score is not counted for shortlisting ranking. In the Main Examination, a negative marking deduction of 1/4th (0.25) mark applies for every incorrect response.",
@@ -74,7 +72,7 @@
         "confidence": "verified",
         "as_of": "2023-01-21",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC of India — Recruitment of Apprentice Development Officers Notification 2023 (Phase-I Scheme)",
+        "source_label": "LIC of India \u2014 Recruitment of Apprentice Development Officers Notification 2023 (Phase-I Scheme)",
         "papers": [
           {
             "paper_name": "Test of Reasoning",
@@ -108,7 +106,7 @@
         "confidence": "verified",
         "as_of": "2023-01-21",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC of India — Recruitment of Apprentice Development Officers Notification 2023 (Phase-II Scheme for Open Market)",
+        "source_label": "LIC of India \u2014 Recruitment of Apprentice Development Officers Notification 2023 (Phase-II Scheme for Open Market)",
         "papers": [
           {
             "paper_name": "Test of Reasoning Ability & Numerical Ability",
@@ -142,7 +140,7 @@
         "confidence": "verified",
         "as_of": "2023-01-21",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC of India — Recruitment of ADO Notification 2023 (Interview Stage)",
+        "source_label": "LIC of India \u2014 Recruitment of ADO Notification 2023 (Interview Stage)",
         "papers": [
           {
             "paper_name": "Personal Interview (LIC Divisional Offices)",
@@ -156,24 +154,29 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "During apprenticeship, candidates receive a fixed stipend equal to the minimum basic pay and DA applicable to Development Officers (approx. ₹51,500/month). On appointment as Probationary Development Officer, basic pay starts at ₹35,650 per month in the scale of ₹35,650 - 2,200(2) - 40,050 - 2,595(2) - 45,240 - 2,645(17) - 90,205 (under subsequent wage revision). Confirmed Development Officers are also eligible for substantial annual performance incentives based on business procurement.",
+    "note": "During apprenticeship, candidates receive a fixed stipend equal to the minimum basic pay and DA applicable to Development Officers (approx. \u20b951,500/month). On appointment as Probationary Development Officer, basic pay starts at \u20b935,650 per month in the scale of \u20b935,650 - 2,200(2) - 40,050 - 2,595(2) - 45,240 - 2,645(17) - 90,205 (under subsequent wage revision). Confirmed Development Officers are also eligible for substantial annual performance incentives based on business procurement.",
     "pay_level": "Class II (Development Officer Scale)",
     "entry_basic_pay": 35650,
     "pay_confidence": "verified",
     "pay_as_of": "2023-01-21",
     "pay_source_url": "https://licindia.in/web/guest/careers",
-    "pay_source_label": "LIC of India — Recruitment of ADO Notification 2023 (Stipend & Emoluments)",
+    "pay_source_label": "LIC of India \u2014 Recruitment of ADO Notification 2023 (Stipend & Emoluments)",
     "da_percent_as_of_review": 58,
     "da_as_of": "2025-07-01",
-    "gross_range_estimate": { "min": 56000, "max": 65000 },
-    "in_hand_range_estimate": { "min": 48000, "max": 56000 },
+    "gross_range_estimate": {
+      "min": 56000,
+      "max": 65000
+    },
+    "in_hand_range_estimate": {
+      "min": 48000,
+      "max": 56000
+    },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on post-confirmation basic pay of ₹35,650 plus Dearness Allowance, House Rent Allowance (10% to 7% by city category), and City Compensatory Allowance; excludes performance-linked incentive bonuses which vary based on agency procurement targets.",
+    "estimate_note": "Calculated on post-confirmation basic pay of \u20b935,650 plus Dearness Allowance, House Rent Allowance (10% to 7% by city category), and City Compensatory Allowance; excludes performance-linked incentive bonuses which vary based on agency procurement targets.",
     "official_perks": [
-      "Fixed stipend of approx. ₹51,500/month during apprenticeship period",
+      "Fixed stipend of approx. \u20b951,500/month during apprenticeship period",
       "Performance-linked incentive bonus based on insurance business mobilization",
       "Comprehensive medical insurance cover / Group Mediclaim for self and family",
       "Defined contribution pension benefits under LIC Pension Rules and Gratuity",
@@ -181,18 +184,29 @@
     ],
     "perks_confidence": "estimate"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "LIC recruits Apprentice Development Officers across 8 Zonal offices (Central, Eastern, East Central, Northern, North Central, Southern, South Central, and Western) for Open Market, Agents, and Employee categories. In the 2023 pan-India recruitment, a total of 9,394 vacancies were notified across zones.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://licindia.in",
+        "source_label": "LIC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "vacancies": 9394,
         "confidence": "verified",
         "as_of": "2023-01-21",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC of India — Recruitment of Apprentice Development Officers Zonal Notifications 2023 (Total 9,394 Vacancies)"
+        "source_label": "LIC of India \u2014 Recruitment of Apprentice Development Officers Zonal Notifications 2023 (Total 9,394 Vacancies)"
       },
       {
         "year": 2019,
@@ -200,11 +214,10 @@
         "confidence": "reported",
         "as_of": "2019-05-20",
         "source_url": "https://licindia.in/web/guest/careers",
-        "source_label": "LIC of India — ADO Recruitment Notification 2019 (8,581 Vacancies)"
+        "source_label": "LIC of India \u2014 ADO Recruitment Notification 2019 (8,581 Vacancies)"
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment resources and career portal links of the Life Insurance Corporation of India.",

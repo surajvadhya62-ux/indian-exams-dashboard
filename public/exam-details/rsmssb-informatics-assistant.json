@@ -1,8 +1,7 @@
 {
   "id": "rsmssb-informatics-assistant",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Informatics Assistants (Soochana Sahayak) are the foundational technical and IT personnel under the Department of Information Technology & Communication (DoIT&C), Government of Rajasthan. Governed by the Rajasthan Computer State and Subordinate Services Rules, 1992, they manage e-Governance portals (RajKaj, SSO, Jan Soochna, e-Mitra), maintain district computer networks, troubleshoot state data centers, and provide IT support across line departments.",
@@ -26,7 +25,7 @@
         "source_label": "DoIT&C Subordinate Technical Promotion Regulations"
       },
       {
-        "designation": "Programmer (State Information Technology Service — Gazetted Class II)",
+        "designation": "Programmer (State Information Technology Service \u2014 Gazetted Class II)",
         "pay_level": "Level L-12",
         "years": "approx. 12-18 yrs",
         "confidence": "verified",
@@ -54,13 +53,12 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "The Informatics Assistant examination is conducted in two parts: Part I consists of a written objective examination of 100 marks for 3 hours, and Part II consists of qualifying typing speed tests in both Hindi and English (15 minutes each at 20 wpm). Candidates qualifying Part I in 3 times the category-wise vacancies are summoned for the Part II typing speed test. There is no interview.",
     "stages": [
       {
-        "stage_name": "Part I — Written Examination (Objective)",
+        "stage_name": "Part I \u2014 Written Examination (Objective)",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -78,7 +76,7 @@
         ]
       },
       {
-        "stage_name": "Part II — Typing Speed Test (Typing Efficiency)",
+        "stage_name": "Part II \u2014 Typing Speed Test (Typing Efficiency)",
         "stage_order": 2,
         "confidence": "verified",
         "as_of": "2026-09-12",
@@ -123,10 +121,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Informatics Assistants are placed in Pay Matrix Level L-8 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹2,800) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of ₹18,500 per month is paid. Upon successful completion of probation, regular entry basic pay of ₹26,300 is drawn in Level L-8.",
+    "note": "Informatics Assistants are placed in Pay Matrix Level L-8 (Pay Band \u20b99,300\u2013\u20b934,800 with Grade Pay \u20b92,800) under the Rajasthan Civil Services (Revised Pay) Rules, 2017. During the mandatory two-year probation period in Rajasthan, a fixed trainee remuneration of \u20b918,500 per month is paid. Upon successful completion of probation, regular entry basic pay of \u20b926,300 is drawn in Level L-8.",
     "pay_level": "Level L-8",
     "entry_basic_pay": 26300,
     "pay_confidence": "verified",
@@ -144,7 +141,7 @@
       "max": 42000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level L-8 entry basic pay of ₹26,300 at 58% DA (₹15,254 effective 01.07.2025), HRA (9% to 18%: ₹2,367 to ₹4,734), technical allowance, net of State Insurance, General Provident Fund, and RGHS deductions.",
+    "estimate_note": "Calculated on Level L-8 entry basic pay of \u20b926,300 at 58% DA (\u20b915,254 effective 01.07.2025), HRA (9% to 18%: \u20b92,367 to \u20b94,734), technical allowance, net of State Insurance, General Provident Fund, and RGHS deductions.",
     "official_perks": [
       "Dearness Allowance (DA) revised semi-annually per Rajasthan Finance Department orders",
       "House Rent Allowance (HRA) categorized by posting zone (Class Y and Z cities)",
@@ -154,11 +151,22 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment benchmarks compiled from official RSMSSB Informatics Assistant 2023 result notifications and selection orders.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 175750,
+        "vacancies": 950,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://rsmssb.rajasthan.gov.in",
+        "source_label": "RSMSSB - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": 145334,
@@ -173,7 +181,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Primary statutory notifications, answer keys, and selection orders published on the RSMSSB portal.",

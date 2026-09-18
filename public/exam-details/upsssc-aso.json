@@ -1,8 +1,7 @@
 {
   "id": "upsssc-aso",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Assistant Statistical Officer (Sahayak Sankhyiki Adhikari) and Assistant Research Officer - Statistics (Sahayak Shodh Adhikari) conduct macroeconomic data collection, agricultural census surveys, state income estimations, and socio-economic evaluations across the Economics and Statistics Division (State Planning Institute), Department of Agriculture, and Family Welfare Directorate, Government of Uttar Pradesh.",
@@ -26,7 +25,7 @@
         "source_label": "UP State Planning Institute Gazetted Promotion Regulations"
       },
       {
-        "designation": "Deputy Director (Economics and Statistics — District / Divisional Head)",
+        "designation": "Deputy Director (Economics and Statistics \u2014 District / Divisional Head)",
         "pay_level": "Level 11",
         "years": "approx. 14-22 yrs",
         "confidence": "reported",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection is made through a competitive objective written examination of 120 marks testing General Hindi, General Knowledge, and specialized postgraduate subject knowledge (Commerce, Economics, Mathematics, Statistics, or Mathematical Statistics), followed by document verification of postgraduate degrees and NIELIT 'O' Level computer certifications. Negative marking is 0.25 (1/4th) per wrong answer.",
@@ -68,7 +66,7 @@
         "source_label": "UPSSSC ASO/ARO Examination Scheme & Syllabus (Advt. 07-Exam/2019)",
         "papers": [
           {
-            "paper_name": "Part I — General Hindi (Samanya Hindi)",
+            "paper_name": "Part I \u2014 General Hindi (Samanya Hindi)",
             "marks": 30,
             "duration_minutes": null,
             "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
@@ -76,7 +74,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Part II — General Knowledge & General Intelligence Test (Reasoning)",
+            "paper_name": "Part II \u2014 General Knowledge & General Intelligence Test (Reasoning)",
             "marks": 30,
             "duration_minutes": null,
             "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
@@ -84,7 +82,7 @@
             "qualifying_threshold": null
           },
           {
-            "paper_name": "Part III — Specialized Technical Subject (Commerce / Economics / Mathematics / Statistics)",
+            "paper_name": "Part III \u2014 Specialized Technical Subject (Commerce / Economics / Mathematics / Statistics)",
             "marks": 60,
             "duration_minutes": 120,
             "negative_marking": "0.25 marks deducted per incorrect answer (1/4 negative marking)",
@@ -113,10 +111,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Assistant Statistical Officer and Assistant Research Officer are remunerated at Pay Level 6 (Pay Band ₹9,300–₹34,800 with Grade Pay ₹4,200) under the Uttar Pradesh Revised Pay Rules, 2016.",
+    "note": "Assistant Statistical Officer and Assistant Research Officer are remunerated at Pay Level 6 (Pay Band \u20b99,300\u2013\u20b934,800 with Grade Pay \u20b94,200) under the Uttar Pradesh Revised Pay Rules, 2016.",
     "pay_level": "Level 6",
     "entry_basic_pay": 35400,
     "pay_confidence": "verified",
@@ -134,7 +131,7 @@
       "max": 57000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 6 entry basic pay of ₹35,400 at 58% DA (effective 01.07.2025), HRA (₹3,200 to ₹6,500 depending on district or state planning institute headquarters posting in Lucknow), field statistical survey allowance, net of 10% NPS deduction (₹5,593), professional tax, and group insurance deductions.",
+    "estimate_note": "Calculated on Level 6 entry basic pay of \u20b935,400 at 58% DA (effective 01.07.2025), HRA (\u20b93,200 to \u20b96,500 depending on district or state planning institute headquarters posting in Lucknow), field statistical survey allowance, net of 10% NPS deduction (\u20b95,593), professional tax, and group insurance deductions.",
     "official_perks": [
       "Dearness Allowance (DA) revised semi-annually per UP Finance Department orders",
       "House Rent Allowance (HRA) categorized by posting city tier (Class X, Y, Z)",
@@ -145,11 +142,22 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Recruitment benchmarks compiled from official UPSSSC notifications and final recommendation lists for Assistant Statistical Officer examinations.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 120250,
+        "vacancies": 650,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "http://upsssc.gov.in",
+        "source_label": "UPSSSC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2019,
         "applicants": 45000,
@@ -165,7 +173,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official recruitment notifications, examination syllabi, and selection orders issued by UPSSSC.",

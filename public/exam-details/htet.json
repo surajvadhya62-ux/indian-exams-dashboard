@@ -1,8 +1,7 @@
 {
   "id": "htet",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "HTET qualifies candidates for appointment as Primary Teachers (PRT), Trained Graduate Teachers (TGT), and Post Graduate Teachers (PGT) across Haryana government and private schools. Recruitment is conducted by HSSC (PRT/TGT) and HPSC (PGT), following the Haryana School Education Department Service Rules.",
@@ -54,13 +53,12 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "HTET is conducted by BSEH in three distinct levels corresponding to school teaching tiers. Each paper consists of 150 multiple choice questions (1 mark each, 150 minutes duration) with no negative marking.",
     "stages": [
       {
-        "stage_name": "Level 1 — Primary Teacher (PRT for Classes 1 to 5)",
+        "stage_name": "Level 1 \u2014 Primary Teacher (PRT for Classes 1 to 5)",
         "stage_order": 1,
         "confidence": "verified",
         "as_of": "2023-10-30",
@@ -76,7 +74,7 @@
             "qualifying_threshold": "60% aggregate (90 marks out of 150) for General; 55% (82 marks) for SC/Differently Abled of Haryana"
           },
           {
-            "paper_name": "Languages — Hindi (15 MCQs) and English (15 MCQs)",
+            "paper_name": "Languages \u2014 Hindi (15 MCQs) and English (15 MCQs)",
             "marks": 30,
             "duration_minutes": 150,
             "negative_marking": "No negative marking",
@@ -84,7 +82,7 @@
             "qualifying_threshold": "Part of composite 150-mark paper"
           },
           {
-            "paper_name": "General Studies — Quantitative Aptitude (10), Reasoning Ability (10), and Haryana GK (10)",
+            "paper_name": "General Studies \u2014 Quantitative Aptitude (10), Reasoning Ability (10), and Haryana GK (10)",
             "marks": 30,
             "duration_minutes": 150,
             "negative_marking": "No negative marking",
@@ -110,7 +108,7 @@
         ]
       },
       {
-        "stage_name": "Level 2 — Trained Graduate Teacher (TGT for Classes 6 to 8)",
+        "stage_name": "Level 2 \u2014 Trained Graduate Teacher (TGT for Classes 6 to 8)",
         "stage_order": 2,
         "confidence": "verified",
         "as_of": "2023-10-30",
@@ -118,7 +116,7 @@
         "source_label": "BSEH HTET Information Bulletin Level 2 Scheme",
         "papers": [
           {
-            "paper_name": "Common Section — CDP (30), Languages Hindi/English (30), and General Studies/Haryana GK (30)",
+            "paper_name": "Common Section \u2014 CDP (30), Languages Hindi/English (30), and General Studies/Haryana GK (30)",
             "marks": 90,
             "duration_minutes": 150,
             "negative_marking": "No negative marking",
@@ -136,7 +134,7 @@
         ]
       },
       {
-        "stage_name": "Level 3 — Post Graduate Teacher (PGT for Classes 9 to 12)",
+        "stage_name": "Level 3 \u2014 Post Graduate Teacher (PGT for Classes 9 to 12)",
         "stage_order": 3,
         "confidence": "verified",
         "as_of": "2023-10-30",
@@ -144,7 +142,7 @@
         "source_label": "BSEH HTET Information Bulletin Level 3 Scheme",
         "papers": [
           {
-            "paper_name": "Common Section — CDP (30), Languages Hindi/English (30), and General Studies/Haryana GK (30)",
+            "paper_name": "Common Section \u2014 CDP (30), Languages Hindi/English (30), and General Studies/Haryana GK (30)",
             "marks": 90,
             "duration_minutes": 150,
             "negative_marking": "No negative marking",
@@ -163,10 +161,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Teachers recruited subsequent to qualifying HTET are placed in Functional Pay Levels FPL-6 (₹35,400 for PRT), FPL-7 (₹44,900 for TGT), and FPL-8 (₹47,600 for PGT) under Haryana Civil Services (Revised Pay) Rules, 2016.",
+    "note": "Teachers recruited subsequent to qualifying HTET are placed in Functional Pay Levels FPL-6 (\u20b935,400 for PRT), FPL-7 (\u20b944,900 for TGT), and FPL-8 (\u20b947,600 for PGT) under Haryana Civil Services (Revised Pay) Rules, 2016.",
     "pay_level": "Level 6 (FPL-6) to Level 8 (FPL-8)",
     "entry_basic_pay": 35400,
     "pay_confidence": "verified",
@@ -184,7 +181,7 @@
       "max": 70000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated across PRT (base ₹35,400) and PGT (base ₹47,600) entry basic pay with 58% Dearness Allowance (₹20,532 to ₹27,608), House Rent Allowance (8% to 24%), and medical allowance, minus standard NPS deductions.",
+    "estimate_note": "Calculated across PRT (base \u20b935,400) and PGT (base \u20b947,600) entry basic pay with 58% Dearness Allowance (\u20b920,532 to \u20b927,608), House Rent Allowance (8% to 24%), and medical allowance, minus standard NPS deductions.",
     "official_perks": [
       "Dearness Allowance (DA) at 58% effective 1 Jul 2025",
       "House Rent Allowance (HRA) categorized by City Grade (X/Y/Z: 24%/16%/8%)",
@@ -195,11 +192,22 @@
     ],
     "perks_confidence": "verified"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "HTET certificate is mandatory for all teaching recruitment in Haryana. Passing percentages vary significantly by level, reflecting rigorous academic standards.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 1572500,
+        "vacancies": 8500,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://bseh.org.in",
+        "source_label": "BSEH Haryana - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2023,
         "applicants": 252028,
@@ -213,13 +221,12 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Information brochures, registration portals, syllabus, and results are published on the Board of School Education Haryana (BSEH) official website.",
     "links": [
       {
-        "label": "Board of School Education Haryana (BSEH) — Official Portal",
+        "label": "Board of School Education Haryana (BSEH) \u2014 Official Portal",
         "url": "https://bseh.org.in",
         "type": "other",
         "confidence": "verified",

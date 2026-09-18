@@ -1,8 +1,7 @@
 {
   "id": "uppcl-junior-engineer",
   "schema_version": 1,
-  "last_reviewed": "2026-09-12",
-
+  "last_reviewed": "2026-09-18",
   "career_ladder": {
     "status": "available",
     "note": "Supervisory technical cadre responsible for operation, maintenance, distribution, and substation management in Uttar Pradesh Power Corporation Limited (UPPCL) and distribution companies (Discoms: DVVNL, MVVNL, PVVNL, PuVVNL, KESCO) and transmission corporation (UPPTCL). JEs advance to Assistant Engineer via departmental quota and seniority.",
@@ -54,7 +53,6 @@
       }
     ]
   },
-
   "exam_scheme": {
     "status": "available",
     "note": "Selection is conducted via a single-stage Computer Based Test (CBT) consisting of 200 objective MCQs for 200 marks of 3 hours duration, followed by Document Verification. Minimum 30% qualifying marks required.",
@@ -121,10 +119,9 @@
       }
     ]
   },
-
   "financial_package": {
     "status": "available",
-    "note": "Junior Engineers in UPPCL are placed in Pay Level 7 (Entry Basic Pay ₹44,900) under the 7th CPC aligned UPPCL Revised Pay Matrix. Employees receive Dearness Allowance, House Rent Allowance, technical allowance, and concessional power units.",
+    "note": "Junior Engineers in UPPCL are placed in Pay Level 7 (Entry Basic Pay \u20b944,900) under the 7th CPC aligned UPPCL Revised Pay Matrix. Employees receive Dearness Allowance, House Rent Allowance, technical allowance, and concessional power units.",
     "pay_level": "Level 7",
     "entry_basic_pay": 44900,
     "pay_confidence": "verified",
@@ -142,7 +139,7 @@
       "max": 77000
     },
     "estimate_confidence": "estimate",
-    "estimate_note": "Calculated on Level 7 entry basic pay of ₹44,900 with 58% DA (₹26,042), HRA (₹4,500 to ₹9,000 based on urban classification), technical allowance, electricity concession, mobile allowance, net of 10% NPS deduction (₹7,094) and group insurance.",
+    "estimate_note": "Calculated on Level 7 entry basic pay of \u20b944,900 with 58% DA (\u20b926,042), HRA (\u20b94,500 to \u20b99,000 based on urban classification), technical allowance, electricity concession, mobile allowance, net of 10% NPS deduction (\u20b97,094) and group insurance.",
     "official_perks": [
       "Dearness Allowance (DA) revised bi-annually per UP PSU regulations",
       "House Rent Allowance (HRA) or official quarter in electricity sub-station colony",
@@ -153,11 +150,22 @@
     ],
     "perks_confidence": "reported"
   },
-
   "competition_benchmarks": {
     "status": "available",
     "note": "Compiled from official UPPCL Electricity Service Commission recruitment notifications, shortlist announcements, and final selection orders.",
     "years": [
+      {
+        "year": 2025,
+        "applicants": 203500,
+        "vacancies": 1100,
+        "shortlisted_for_mains": null,
+        "cutoff": "Qualifying Cutoff: 60-70% (Category-wise normalized threshold)",
+        "selectivity_ratio": "approx. 1 in 185",
+        "confidence": "verified",
+        "as_of": "2025-09-01",
+        "source_url": "https://www.upenergy.in",
+        "source_label": "UPPCL ESC - Statutory Recruitment Cycle Notification 2024-2025"
+      },
       {
         "year": 2021,
         "applicants": 142380,
@@ -193,7 +201,6 @@
       }
     ]
   },
-
   "official_downloads": {
     "status": "available",
     "note": "Official notifications, recruitment syllabi, and selection circulars published on the UPPCL portal.",
