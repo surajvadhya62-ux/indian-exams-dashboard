@@ -1,0 +1,43 @@
+name: Authority Portal Connectivity Probe
+
+# Diagnostic only. Reads nothing but the authority URLs already in sources-config.json,
+# changes no exam data, and writes a single report file back to the repo so the results
+# can be read without opening the Actions UI.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/automation/connectivity-probe.mjs'
+      - '.github/workflows/connectivity-probe.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Probe authority portals
+        run: node scripts/automation/connectivity-probe.mjs
+
+      - name: Commit connectivity report
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add connectivity-report.md
+          if git diff --staged --quiet; then
+            echo "No change to connectivity report."
+          else
+            git commit -m "chore(diagnostics): authority portal connectivity report from CI runner [skip ci]"
+            git push origin main
+          fi
