@@ -495,20 +495,45 @@ professor post, a CEO/MD hire) — real, scrapable, but likely to fail
 org's internal hire). The script doesn't filter these out itself; that judgement belongs to
 whoever reviews the queue against the policy, not to a heuristic.
 
-**Nothing in that queue has been reviewed yet.** It is 70 unreviewed leads, same status as an
-unreviewed row in `NEWS-SCAN-QUEUE.md` — a title that isn't already in the database under a
-name or acronym this script recognises, not a confirmed gap. Some rows are the same
-underlying scheme posted under several different local offices (five separate "UP ECCE
-Educator <district>" rows, for instance) and may collapse to one real candidate, or may
-each be genuinely separate per-district drives — a judgement call, not something the script
-resolved. **The next step is reviewing this batch against `INCLUSION-POLICY.md`'s six
-conditions**, the same discipline already used for the vacancy-verification batches (§6), not
-running the script again or building more automation around it.
+**Update, later the same day: the batch was reviewed.** Every one of the 70 rows in
+`DISCOVERY-QUEUE.md` now carries a status and a one-line reason instead of "unreviewed" — see
+`git log` for the commit that did it (`docs(data): triage all 70 discovery-queue candidates`).
+Breakdown: 12 `STRONG CANDIDATE` (2 with an added classification question), 19 `CANDIDATE`,
+17 `REJECT`/`REJECT-leaning`, 11 `NEEDS OWNER'S CALL` (mostly one question asked once — the
+Anganwadi/ECCE Educator family, §13), and 9 `ALREADY KNOWN`/`DUPLICATE` — matching misses
+confirmed by hand against `exams.json` (Agniveer Air Force, NDA, UKPSC, UPSC IAS/IFS were all
+already tracked under wording this script's matcher didn't recognise).
 
-Not yet set up as a recurring job (no LaunchAgent, unlike the portal watcher in §7) —
-deliberately left as a manual `npm run discover-exams` for now, since the first batch hasn't
-been reviewed yet and there's no reason to generate a second one before the first is dealt
-with.
+**One matching fix was attempted and reverted in the same sitting** — worth reading if the
+matcher is ever touched again. A third check ("trust a single, genuinely distinctive all-caps
+acronym word on its own") was added to catch the UKPSC miss, and broke twice: first by picking
+"Bihar" (a state name) as `bihar-pcs-j`'s "distinctive" word, which then hid the genuine
+"Bihar STET" candidate; then, after restricting to real capitals, by discovering that a
+conducting body's own abbreviation ("UPSSSC", "NIELIT") isn't reliably distinctive at the
+exam level even when it currently identifies only one tracked exam — `nielit-scientist-b`'s
+"NIELIT" wrongly matched the completely different, genuinely new "NIELIT CCC" candidate.
+Reverted to the original two checks. Full reasoning is in `discover-exams.mjs`'s own comments
+— **do not re-attempt this exact fix** without reading them first.
+
+**Now running weekly, not manual-only.** `com.indiaexams.discover-exams.plist` (installed to
+`~/Library/LaunchAgents`, not tracked in this repo — same as the portal watcher's plist),
+Monday 09:00, same hour as the daily portal watch. `run-discover-exams.sh` wraps it, logging to
+`data-sourcing/discover-exams.log`. A run only emails the owner when it finds something
+genuinely new since the last run (`notifyNewDiscoveryCandidates()` in `notify.mjs`) — a quiet
+week produces no email at all. `scripts/automation/discovery-seen.json` (gitignored) tracks
+what's already been surfaced, and was rebuilt from the 70 already-triaged rows before this went
+live, specifically so the first scheduled run wouldn't re-queue and re-email about all of them
+as if they were new.
+
+**A second, separate notification now also exists**, on the owner's own standing
+requirement: `notifyExamAdded()` in `notify.mjs` fires whenever `sync-exams.mjs --add`
+actually succeeds (never on `--dry-run`), regardless of whether the exam came from this
+discovery queue or was added by hand. Both notifications share one Gmail account
+(`indiaexamsautomation@gmail.com`, sending via an app password) and one config file,
+`scripts/automation/notify-config.json` — gitignored, never committed; copy
+`notify-config.example.json` to create it. Neither notification blocks its underlying action
+on failure — a missing or broken email is logged loudly but never stops an exam being added or
+a candidate being queued.
 
 ---
 
@@ -535,15 +560,26 @@ with.
 
 ## 12. Git state at handoff
 
-⚠️ **Not yet pushed as of this update** — `main` is ahead of `origin/main` by the two commits
-below. Always re-check this yourself with `git status -sb` rather than trusting this line; it
-has been wrong in both earlier versions of this handoff written the same day.
+✅ **Pushed** as of this update. Always re-check this yourself with `git status -sb` rather
+than trusting this line; it has been wrong in earlier versions of this handoff the same day.
 
 2026-09-19 commits, later the same day (newest first):
 ```
+b0d4d33 feat(automation): weekly scheduled discovery run, with a notification only when there's something new
+c52b161 feat(automation): email notification whenever a new exam is actually added
+b60c901 docs(data): triage all 70 discovery-queue candidates
+de48abf docs(automation): record and revert a tried-and-broken discover-exams matching rule
+40b747c docs: update handoff — record_tier + registry validation built, discovery run once
 9740f8a feat(automation): aggregator-based exam discovery, writing only to a review queue
 7d116c1 feat(data): add record_tier field, registry-minimum validation, and stub badge
 ```
+
+**A private, gitignored file now exists that isn't in the list above and never will
+be:** `scripts/automation/notify-config.json` holds the real Gmail sending address and app
+password. It's covered by the existing `scripts/automation/*.json` gitignore rule. Its
+template, `notify-config.example.json`, IS tracked (explicitly un-ignored in `.gitignore`) —
+read that file for what a fresh session needs to know if this credential is ever lost or
+rotated.
 
 Earlier 2026-09-19 commits, already on `origin/main`:
 ```
@@ -582,15 +618,18 @@ staging anything; these two should never appear in an automation commit's file l
 
 ## 13. Open questions
 
-- **Push the two new commits (§12).** Not done as of this update — always verify with
+- ~~Push the two new commits.~~ **Done** as of this update — always verify with
   `git status -sb` rather than trusting any line in this document about push state.
-- **`data-sourcing/DISCOVERY-QUEUE.md`'s 70 candidates need reviewing against
-  `INCLUSION-POLICY.md`'s six-condition test (§10a).** This is the actual next step — not
-  running `discover-exams.mjs` again, and not more scaffolding. Several rows look like
-  strong candidates (Bihar STET, UP ECCE Educator, RSSB Computer Instructor); several others
-  are flagged `⚠️ needs recurrence check` because Employment News mostly surfaces one-off
-  single-post hiring, not recurring exams. A candidate that passes review gets added with
-  `sync-exams.mjs --add`; one that fails gets recorded in `EXCLUSIONS.md`, per policy.
+- **`data-sourcing/DISCOVERY-QUEUE.md`'s 70 candidates have been triaged (§10a) but not
+  acted on.** 12 `STRONG CANDIDATE` rows are ready to add via `sync-exams.mjs --add` as soon
+  as the owner confirms them. 11 `NEEDS OWNER'S CALL` rows are waiting on one decision, asked
+  once (the next bullet). The `ALREADY KNOWN`/`DUPLICATE` rows (9 of them) can simply be
+  deleted from the queue file — they're matching misses, not real candidates.
+- **The owner's actual ruling on the Anganwadi/ECCE Educator family is still needed.** One
+  question, asked once, covers 8 of the 11 "needs owner's call" rows: is Anganwadi
+  Worker/Helper and ECCE Educator hiring a real, recurring, statewide competitive exam, or
+  scattered district-by-district merit-list drives with no unified exam behind them? Whichever
+  way this goes, it resolves most of the ambiguous rows at once — don't decide them one by one.
 - **National Career Service (`ncs.gov.in`) was left out of discovery deliberately** (§10a) —
   its homepage is private-sector job data, not government exam notices. Whether it's worth
   the extra work to drive its actual search/filter flow for the government-jobs section it
