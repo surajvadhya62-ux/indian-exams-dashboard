@@ -31,21 +31,23 @@ jobs:
       - name: Run Schema Validation Pre-check
         run: npm run validate
 
-      - name: Scan & Verify Official Sources
+      - name: Scan news feeds for vacancy leads
         run: node scripts/automation/sync-exams.mjs --scan
 
       - name: Test Build Integrity
         run: npm run build
 
-      - name: Commit and Push Updates
+      - name: Commit review queue
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/exams.json public/exam-details/
+          # Only the review queue is ever committed. Exam data is not machine-writable:
+          # a headline is a lead for a human to check, not a source to publish from.
+          git add data-sourcing/NEWS-SCAN-QUEUE.md
           if git diff --staged --quiet; then
-            echo "Registry up to date. No new exams or updates detected."
+            echo "No new leads to queue."
           else
-            git commit -m "Auto-sync: update examination database from official portal scans [skip ci]"
+            git commit -m "News scan: queue vacancy leads for review [skip ci]"
             git push origin main
           fi
 
@@ -87,7 +89,7 @@ jobs:
             }
           '
 
-      - name: Intimate Owner of Existing Exam Updates
+      - name: Intimate Owner of Vacancy Leads Awaiting Review
         if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -101,13 +103,20 @@ jobs:
                 if (Array.isArray(updates) && updates.length > 0) {
                   const { execSync } = require("child_process");
                   for (const u of updates) {
-                    const changesDesc = u.changes.map(c => `• **${c.field}**: \`${c.oldValue}\` ➔ \`${c.newValue}\``).join("\n");
-                    const title = `🔄 [Exam Updated] ${u.name} (${u.acronym || u.id})`;
-                    const body = `### Existing Examination Revised on IndiaExams\n\n` +
-                      `**Exam:** ${u.name} (${u.id})\n\n` +
-                      `#### Revisions Detected:\n${changesDesc}\n\n` +
-                      `*Updated in database and reflected across the Annual Calendar and Search Views.*`;
-                    console.log("Creating update notification for:", u.name);
+                    const title = `🔎 [Lead to check] ${u.name} (${u.acronym || u.id}) — ${u.vacancies} posts claimed`;
+                    const body = `### A news headline mentioned a vacancy figure for this exam\n\n` +
+                      `**Exam:** ${u.name} (\`${u.id}\`)\n` +
+                      `**Figure claimed:** ${u.vacancies}\n` +
+                      `**Headline:** ${u.headline}\n` +
+                      `**Link:** ${u.link || "(none captured)"}\n\n` +
+                      `**Nothing has been written to the database.** This is a lead, not data. ` +
+                      `To act on it, open the conducting body's own notification, confirm the figure ` +
+                      `there, and enter it into the dossier with that citation — then clear the row ` +
+                      `from \`data-sourcing/NEWS-SCAN-QUEUE.md\`.\n\n` +
+                      `Headlines regularly carry figures that look official and are not: expected-vacancy ` +
+                      `guesses, all-post totals pinned to a single post, and one state's share of a ` +
+                      `national drive have all turned up this way.`;
+                    console.log("Creating lead notification for:", u.name);
                     execSync(`gh issue create --title "${title.replace(/"/g, "\\\"")}" --body "${body.replace(/"/g, "\\\"")}"`, { stdio: "inherit" });
                   }
                   // Clear after intimation

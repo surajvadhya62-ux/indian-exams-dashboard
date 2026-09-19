@@ -28,6 +28,7 @@ const SOURCES_CONFIG_PATH = path.join(__dirname, 'sources-config.json')
 const VALIDATE_SCRIPT_PATH = path.join(ROOT_DIR, 'scripts/data-sourcing/validate-details.mjs')
 const NEW_EXAMS_LOG_PATH = path.join(__dirname, 'new-exams-found.json')
 const UPDATES_LOG_PATH = path.join(__dirname, 'exam-updates-found.json')
+const NEWS_QUEUE_PATH = path.join(ROOT_DIR, 'data-sourcing/NEWS-SCAN-QUEUE.md')
 
 function loadJSON(filePath) {
   try {
@@ -376,6 +377,58 @@ function showAuthoritySearch(config) {
   }
 }
 
+// A candidate is identified by exam + figure + year, so a headline that keeps
+// recirculating for weeks is queued once rather than every twelve hours.
+function candidateKey(c) {
+  return `${c.id}|${c.vacancies}|${c.year}`
+}
+
+function queueAlreadyHas(candidate) {
+  if (!fs.existsSync(NEWS_QUEUE_PATH)) return false
+  return fs.readFileSync(NEWS_QUEUE_PATH, 'utf-8').includes(`\`${candidateKey(candidate)}\``)
+}
+
+function appendToNewsQueue(candidates) {
+  const header = `# News scan — review queue
+
+Vacancy figures spotted in news headlines by \`sync-exams.mjs --scan\`, newest first.
+
+**Nothing here is data.** A headline is a lead: it says a figure was mentioned somewhere,
+not that the conducting body published it. To act on a row, open the conducting body's own
+notification, confirm the figure there, and enter it into the dossier with that citation.
+Then delete the row. If the headline turns out to be wrong or unverifiable, delete it anyway
+and note why — an unresolved row is more useful than a quietly applied one.
+
+Headlines routinely carry figures that look authoritative and are not: expected-vacancy
+guesses, all-post totals attributed to a single post, and one state's share of a national
+drive have all appeared here.
+
+---
+`
+
+  const stamp = new Date().toISOString().split('T')[0]
+  const rows = candidates.map(c => {
+    const held = `\`${candidateKey(c)}\``
+    return `## ${c.name} (\`${c.id}\`) — ${c.vacancies.toLocaleString('en-IN')} posts claimed\n\n` +
+      `- **Seen:** ${stamp}\n` +
+      `- **Headline:** ${c.headline}\n` +
+      `- **Link:** ${c.link || '(none captured)'}\n` +
+      `- **Status:** unreviewed\n` +
+      `- **Key:** ${held}\n`
+  }).join('\n')
+
+  if (!fs.existsSync(NEWS_QUEUE_PATH)) {
+    fs.writeFileSync(NEWS_QUEUE_PATH, `${header}\n${rows}`, 'utf-8')
+    return
+  }
+
+  const existing = fs.readFileSync(NEWS_QUEUE_PATH, 'utf-8')
+  const splitAt = existing.indexOf('---\n')
+  const head = splitAt === -1 ? existing : existing.slice(0, splitAt + 4)
+  const body = splitAt === -1 ? '' : existing.slice(splitAt + 4)
+  fs.writeFileSync(NEWS_QUEUE_PATH, `${head}\n${rows}${body}`, 'utf-8')
+}
+
 // Automated portal scanner function
 async function runPortalScan(exams, config, isDryRun = false) {
   console.log('\n===================================================================')
@@ -424,6 +477,7 @@ async function runPortalScan(exams, config, isDryRun = false) {
   ]
 
   const detectedUpdates = []
+  let matchCount = 0
   const existingUpdates = fs.existsSync(UPDATES_LOG_PATH) ? (loadJSON(UPDATES_LOG_PATH) || []) : []
 
   for (const feedUrl of feedUrls) {
@@ -461,50 +515,30 @@ async function runPortalScan(exams, config, isDryRun = false) {
               const countStr = vacMatch[1].replace(/,/g, '')
               const countNum = parseInt(countStr, 10)
               if (countNum > 0) {
-                console.log(`⚡ [LIVE ALERT] Matched: ${exam.name} (${exam.id})`)
+                matchCount++
+                console.log(`⚡ [LEAD] Matched: ${exam.name} (${exam.id})`)
                 console.log(`   Headline: "${rawTitle}"`)
                 console.log(`   Extracted Vacancies: ${countNum}`)
 
-                // Check if dossier already has this cycle
+                // Never written to the database: a headline is a lead to check, not a source.
+                // Recorded as a candidate for human review instead.
                 const dossierPath = path.join(DETAILS_DIR, `${exam.id}.json`)
-                if (fs.existsSync(dossierPath)) {
-                  const dossier = loadJSON(dossierPath)
-                  const currentYear = new Date().getFullYear()
-                  const existingCycle = dossier?.competition_benchmarks?.years?.find(y => y.year === currentYear && y.vacancies === countNum)
-                  if (!existingCycle && !isDryRun) {
-                    if (!dossier.competition_benchmarks) dossier.competition_benchmarks = { status: 'available', years: [] }
-                    if (!dossier.competition_benchmarks.years) dossier.competition_benchmarks.years = []
-                    dossier.competition_benchmarks.years.unshift({
-                      year: currentYear,
-                      applicants: null,
-                      vacancies: countNum,
-                      shortlisted_for_mains: null,
-                      selectivity_ratio: null,
-                      confidence: 'reported',
-                      as_of: new Date().toISOString().split('T')[0],
-                      source_url: link || exam.official_website || exam.website || 'https://upessc.up.gov.in',
-                      source_label: rawTitle.substring(0, 100)
-                    })
-                    saveJSON(dossierPath, dossier)
+                const dossier = fs.existsSync(dossierPath) ? loadJSON(dossierPath) : null
+                const currentYear = new Date().getFullYear()
+                const alreadyHeld = dossier?.competition_benchmarks?.years?.some(
+                  y => y.year === currentYear && y.vacancies === countNum
+                )
 
-                    exam.vacancies = `${countNum.toLocaleString('en-IN')} Posts`
-                    saveJSON(EXAMS_JSON_PATH, exams)
-
-                    if (!detectedUpdates.some(u => u.id === exam.id)) {
-                      detectedUpdates.push({
-                        id: exam.id,
-                        name: exam.name,
-                        acronym: exam.acronym,
-                        changes: [
-                          {
-                            field: 'vacancies',
-                            oldValue: 'Previous Cycle',
-                            newValue: `${countNum.toLocaleString('en-IN')} Posts (${rawTitle})`
-                          }
-                        ]
-                      })
-                    }
-                  }
+                if (!alreadyHeld && !detectedUpdates.some(u => u.id === exam.id && u.vacancies === countNum)) {
+                  detectedUpdates.push({
+                    id: exam.id,
+                    name: exam.name,
+                    acronym: exam.acronym,
+                    vacancies: countNum,
+                    year: currentYear,
+                    headline: rawTitle,
+                    link
+                  })
                 }
               }
             }
@@ -516,10 +550,18 @@ async function runPortalScan(exams, config, isDryRun = false) {
     }
   }
 
-  if (detectedUpdates.length > 0 && !isDryRun) {
-    const mergedUpdates = [...existingUpdates, ...detectedUpdates]
-    saveJSON(UPDATES_LOG_PATH, mergedUpdates)
-    console.log(`\n🎉 Recorded ${detectedUpdates.length} active updates to ${UPDATES_LOG_PATH}`)
+  const fresh = detectedUpdates.filter(c => !queueAlreadyHas(c))
+
+  if (fresh.length === 0) {
+    console.log(`\n✓ ${matchCount} headline match(es); nothing new to queue (already held in a dossier, or already queued).`)
+  } else if (isDryRun) {
+    console.log(`\n[DRY RUN] Would queue ${fresh.length} candidate(s) for review:`)
+    fresh.forEach(c => console.log(`  - ${c.id}: ${c.vacancies} (${c.headline.substring(0, 70)})`))
+  } else {
+    appendToNewsQueue(fresh)
+    saveJSON(UPDATES_LOG_PATH, [...existingUpdates, ...fresh])
+    console.log(`\n✓ Queued ${fresh.length} candidate(s) for review in data-sourcing/NEWS-SCAN-QUEUE.md`)
+    console.log('  Nothing was written to exams.json or any dossier — these are leads, not data.')
   }
 
   console.log(`✓ Portal scan complete. Registry integrity confirmed.\n`)
