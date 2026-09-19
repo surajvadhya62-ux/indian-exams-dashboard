@@ -1,11 +1,16 @@
 # Handoff — India Exams Dashboard
 
-**Date:** 2026-09-19, updated again later the same day (supersedes both the 2026-09-18
-handoff and the earlier 2026-09-19 version — the two-tier model and aggregator discovery,
-previously §10's "next" step, are now built; see §2a and §10a)
+**Date:** 2026-09-19, third update of the same day (supersedes the 2026-09-18 handoff and both
+earlier 2026-09-19 versions — the two-tier model, aggregator discovery, the discovery triage,
+and email notifications are all now built; see §2a, §10a)
 **Owner:** Suraj (chartered accountant, **not a developer** — explain in plain language, use
 audit/accounting framing where it helps, avoid engineering jargon)
 **Purpose:** everything a fresh session needs. Facts below were measured, not assumed.
+
+> **➡️ Picking this up fresh? Go to §10b first.** That section is the live thread — a proposal
+> the owner has been shown and not yet answered (fix the site's own overclaimed coverage
+> figures, and build a Coverage & Method page). Everything else in this document is finished
+> work or a standing reference. §13 lists what else is waiting on an owner decision.
 
 ---
 
@@ -34,6 +39,18 @@ audit/accounting framing where it helps, avoid engineering jargon)
    fabricates data for a newly discovered exam. Both are described where they're structurally
    relevant (§3, §10) rather than as a separate changelog — this handoff describes current
    state, not a timeline.
+8. **Two scheduled jobs now run on this Mac**, both as LaunchAgents in
+   `~/Library/LaunchAgents` (neither plist is tracked in the repo):
+   `com.indiaexams.portal-watch` daily at 09:00 (§7) and `com.indiaexams.discover-exams`
+   weekly, Mondays at 09:00 (§10a). Check both with `launchctl list | grep indiaexams`.
+9. **Two automated emails now send** from `indiaexamsautomation@gmail.com` to the owner —
+   one when an exam is actually added, one when a weekly discovery run finds something new
+   (§10a). Credentials are in `scripts/automation/notify-config.json`, **gitignored and
+   never committed**; `notify-config.example.json` is the tracked template. If the app
+   password is ever lost, regenerate at `myaccount.google.com/apppasswords`.
+10. **`npm run validate` now checks `exams.json` too**, not just the dossier files (§2a). It
+   used to be blind to the master list entirely. A new exam missing any registry-minimum
+   field will now fail it.
 
 ---
 
@@ -537,6 +554,92 @@ a candidate being queued.
 
 ---
 
+## 10b. ⏸️ WHERE THE LAST SESSION STOPPED — a proposal awaiting the owner's yes/no
+
+**This is the live thread. Start here.** Nothing below has been built. The owner asked for a
+handoff mid-decision, so this section carries the full argument rather than a summary, to save
+re-deriving it.
+
+### How it came up
+
+The owner asked: since dossiers will only be built for exams that pass the criteria, shouldn't
+the site have a distinct page showing which exams have full dossiers and which are
+listing-only? The answer given was that the instinct is right but a stub-*browsing* page is the
+wrong shape — nobody browses a database by completeness, and a page whose entire content is
+what hasn't been researched reads as an apology. Four things were proposed instead.
+
+### The four proposed items, and what each is blocked on
+
+| # | Item | Status |
+|---|---|---|
+| 1 | **A Coverage & Method page** — scope, inclusion criteria, coverage counts, evidence standard, known gaps | **NOT blocked. Recommended to do now.** See below. |
+| 2 | **Stubs must sort last** in search results — a registry entry must never outrank a researched exam | Blocked: no stubs exist yet, nothing to sort |
+| 3 | **Every headline count must split** ("1,500 exams · 430 full dossiers") | Partly done — `StatsOverview` already splits (§2a); needs doing wherever else a total appears. Invisible until stubs exist. |
+| 4 | **A "Request a full dossier" button on stub entries** — turns each stub into a demand signal, which is what `INCLUSION-POLICY.md` §4 says should drive promotion but currently has no mechanism. Cheap: `Feedback.jsx` already posts to the owner's email via formsubmit.co, so the plumbing exists. | Blocked: no stub cards to attach it to |
+
+Items 2–4 become live the moment the first registry-tier exam exists — i.e. as soon as any of
+the 12 `STRONG CANDIDATE` rows in `DISCOVERY-QUEUE.md` is added. Do not build them before then;
+they are no-ops with zero stubs.
+
+### Why item 1 is not blocked, and is arguably overdue
+
+An initial recommendation said the whole thing was premature because there are zero registry
+entries. **That was half wrong, and the correction matters.** Item 1's content is already true
+and already interesting today — and there is a live honesty gap on the site right now that has
+nothing to do with stubs.
+
+**Measured 2026-09-19, not estimated** (`npm run derive-vacancies -- --dry-run`, plus a direct
+count over the dossiers):
+
+| The site currently says | What is actually true |
+|---|---|
+| "Verified Active Targets: 499" | 186 of 499 carry a verified vacancy figure; 313 publish none |
+| "Central & State · 100% Citable" | 165 verified dossier rows cite only a homepage, no document |
+| "0.0% Speculation Tolerance · Official Gazette PDFs · Zero Hearsay" | 541 dossier rows are tagged `verified`, but §5 of this document states the pre-2026-09 majority is **analytical assurance only** — no generation pattern found, which is not the same as any individual figure having been checked. Two such rows turned out to be phantom (§4e). |
+
+Those strings are in `src/components/StatsOverview.jsx` (cells 01 and 05). The green "VERIFIED"
+badge on `ExamCard.jsx` is more defensible — its tooltip claims the *entry* is a verified
+statutory registry entry, not that every figure on it is checked — but "100% Citable" and "Zero
+Hearsay" are not defensible against the numbers above.
+
+**The uncomfortable framing, which the owner responds well to (§11):** 170 fabricated rows were
+removed, a scraper writing unvouched figures to live pages was shut off, and a whole provenance
+system was built — and the front page still says "Zero Hearsay." The front page is now the least
+rigorous artifact in the project. It would not survive the standard the owner has applied to
+everything else.
+
+### What item 1 actually is — two halves
+
+**(a) Fix the overclaims** in `StatsOverview.jsx` so they state what is true. "186 of 499
+figures verified against a source document" is a *stronger* claim than "100% Citable", because
+it is checkable and nobody else in this space publishes it.
+
+**(b) Build a Coverage & Method page.** The site has no router — views are hash-based
+(`#explore`, `#analytics`, …) switched on `activeView` in `App.jsx`, with the valid list at
+`App.jsx`'s `validViews` array. A new view plus a nav entry is the consistent way to add it.
+Proposed contents:
+
+- **Scope** — what counts as an exam here; the six inclusion conditions in plain language
+- **Coverage** — 499 exams; the R/A/Q track split (378/117/4); the dossier/registry split
+  (499/0 today, and that number will move)
+- **Evidence standard** — the five confidence levels; that only `verified` figures are shown to
+  a student; that 165 rows are currently *withheld* for citing only a homepage
+- **Known gaps, stated deliberately** — a database that names its own gaps is more trustworthy
+  than one that implies it has none
+
+Also queued, small, and more useful once stubs exist: add the registry/dossier split to the
+existing search filters (`SearchFilter.jsx`, alongside domain/state/track) so the owner can pull
+up "all stubs" for editorial work without a dedicated page.
+
+### The exact state
+
+The owner was asked "want me to build (a) and (b)?" and replied by asking for this handoff
+instead. **So: (a) and (b) are proposed, argued, unstarted, and awaiting a yes/no.** The
+outline above is settled enough that once the owner agrees, the work is component-plus-copy —
+Sonnet, not Opus (§11).
+
+---
+
 ## 11. Working with this owner
 
 - Chartered accountant, not a developer. Plain language; audit framing lands well.
@@ -563,8 +666,10 @@ a candidate being queued.
 ✅ **Pushed** as of this update. Always re-check this yourself with `git status -sb` rather
 than trusting this line; it has been wrong in earlier versions of this handoff the same day.
 
-2026-09-19 commits, later the same day (newest first):
+2026-09-19 commits, later the same day (newest first) — **all pushed**:
 ```
+(this handoff update)
+1d2f528 docs: update handoff — discovery batch triaged, weekly schedule and notifications live
 b0d4d33 feat(automation): weekly scheduled discovery run, with a notification only when there's something new
 c52b161 feat(automation): email notification whenever a new exam is actually added
 b60c901 docs(data): triage all 70 discovery-queue candidates
@@ -573,6 +678,9 @@ de48abf docs(automation): record and revert a tried-and-broken discover-exams ma
 9740f8a feat(automation): aggregator-based exam discovery, writing only to a review queue
 7d116c1 feat(data): add record_tier field, registry-minimum validation, and stub badge
 ```
+
+**Nothing from the §10b proposal is in this list — none of it has been written.** The working
+tree at handoff carries only the owner's own two files (below).
 
 **A private, gitignored file now exists that isn't in the list above and never will
 be:** `scripts/automation/notify-config.json` holds the real Gmail sending address and app
@@ -618,26 +726,38 @@ staging anything; these two should never appear in an automation commit's file l
 
 ## 13. Open questions
 
-- ~~Push the two new commits.~~ **Done** as of this update — always verify with
-  `git status -sb` rather than trusting any line in this document about push state.
+**The four waiting on an owner decision are listed first — everything after them is standing
+technical debt, not a blocked conversation.**
+
+- ⏸️ **1. Build the Coverage & Method page, and fix the site's own overclaims? (§10b)** The
+  live thread. Proposed, argued with measured numbers, awaiting a plain yes/no. If yes, it's
+  Sonnet work: fix two strings in `StatsOverview.jsx`, add one hash-routed view plus a nav
+  entry.
+- ⏸️ **2. The Anganwadi / ECCE Educator ruling.** One question, asked once, resolves 8 of the
+  11 `NEEDS OWNER'S CALL` rows in `DISCOVERY-QUEUE.md`: is this hiring a real, recurring,
+  statewide competitive exam, or scattered district-by-district merit-list drives with no
+  unified exam behind them? Don't decide these row by row.
+- ⏸️ **3. Add the 12 `STRONG CANDIDATE` exams?** Ready to go via `sync-exams.mjs --add`
+  whenever confirmed (each needs `--website`, `--min-qualification` and `--frequency`; the
+  script now refuses without them). Adding even one of these is what unblocks §10b items 2–4,
+  since it creates the first registry-tier record. Strongest of the twelve: MPESB MSPSTET
+  (Madhya Pradesh's own teacher-eligibility test — the obvious gap beside the tracked UPTET/
+  REET/HTET), NVS Class 6 / JNVST, EMRS, BSF HC Ministerial, BSNL JTO, NTA RIMCEE, MP CPCT.
+- ⏸️ **4. `nia-si-inspector` — does it belong in the database at all?** NIA runs no independent
+  competitive exam; hiring goes through SSC CGL (already listed separately) or deputation-only
+  circulars not open to the public. May fail the inclusion policy's own criteria (§6).
+
+---
+
 - **`data-sourcing/DISCOVERY-QUEUE.md`'s 70 candidates have been triaged (§10a) but not
   acted on.** 12 `STRONG CANDIDATE` rows are ready to add via `sync-exams.mjs --add` as soon
   as the owner confirms them. 11 `NEEDS OWNER'S CALL` rows are waiting on one decision, asked
   once (the next bullet). The `ALREADY KNOWN`/`DUPLICATE` rows (9 of them) can simply be
   deleted from the queue file — they're matching misses, not real candidates.
-- **The owner's actual ruling on the Anganwadi/ECCE Educator family is still needed.** One
-  question, asked once, covers 8 of the 11 "needs owner's call" rows: is Anganwadi
-  Worker/Helper and ECCE Educator hiring a real, recurring, statewide competitive exam, or
-  scattered district-by-district merit-list drives with no unified exam behind them? Whichever
-  way this goes, it resolves most of the ambiguous rows at once — don't decide them one by one.
 - **National Career Service (`ncs.gov.in`) was left out of discovery deliberately** (§10a) —
   its homepage is private-sector job data, not government exam notices. Whether it's worth
   the extra work to drive its actual search/filter flow for the government-jobs section it
   presumably has is an open question, not a decided no.
-- **`nia-si-inspector` — does it belong in the database at all?** NIA runs no independent
-  competitive exam; hiring goes through SSC CGL (already listed separately) or deputation-only
-  circulars not open to the public. This may fail the inclusion policy's own criteria. Needs the
-  owner's decision, not more sourcing (§6).
 - **The Wizard's job/entrance picker and Analytics' central-vs-state chart still bucket track Q
   under "Entrance."** Flagged in §3 as a product decision, not fixed — a third bucket may or may
   not be wanted; ask the owner rather than guessing.
