@@ -66,115 +66,97 @@ function printStats(exams) {
   console.log('======================================================\n')
 }
 
-// Generate template for public/exam-details/<id>.json
+// Generate a dossier for public/exam-details/<id>.json for a newly discovered exam.
+//
+// This used to fabricate a full dossier — an invented career ladder, generic exam stages
+// with made-up marks, and a "vacancies_notified: 100" placeholder — all cited to the exam's
+// own website, or to https://www.upsc.gov.in as a fallback when no website was known at all.
+// That's the exact shape of the fabrication defects documented in
+// data-sourcing/AUDIT-2026-09-18-fabricated-benchmarks.md. An aggregator discovering real new
+// exams must not recreate it. This now writes only what discovery actually establishes: the
+// exam exists, and (if given) a source link for it. Every other section is explicitly marked
+// not_available rather than populated with a guess, exactly matching how the frontend already
+// renders a genuinely unsourced section.
+//
+// Matches the ALLOWED_TOP_KEYS / entrance-exam-omits-career_ladder rules enforced by
+// scripts/data-sourcing/validate-details.mjs — this function's output is expected to pass that
+// validator unmodified.
 function createDetailDossierTemplate(exam) {
   const today = new Date().toISOString().split('T')[0]
-  return {
+  const isEntrance = exam.exam_type === 'entrance'
+  const notYetSourced = 'Newly discovered exam — not yet sourced. Pending verification against an official notification.'
+
+  const doc = {
     id: exam.id,
     schema_version: 1,
     last_reviewed: today,
-    career_ladder: {
-      status: "available",
-      note: `Official hierarchy and cadre path for ${exam.name}`,
-      steps: [
-        {
-          designation: exam.target_role || "Initial Post / Trainee",
-          pay_level: exam.salary_grade || "Level 7 (Illustrative)",
-          years: "Entry",
-          confidence: "reported",
-          as_of: today,
-          source_url: exam.website || "https://www.upsc.gov.in",
-          source_label: `${exam.conducting_body} Official Portal / Gazette`
-        },
-        {
-          designation: "Senior Officer / Next Senior Grade",
-          pay_level: "Senior Scale",
-          years: "approx. 4-8 yrs",
-          confidence: "reported",
-          as_of: today,
-          source_url: exam.website || "https://www.upsc.gov.in",
-          source_label: `${exam.conducting_body} Cadre Rules`
-        }
-      ]
-    },
-    exam_scheme: {
-      status: "available",
-      note: "Standard multi-stage statutory recruitment scheme",
-      stages: [
-        {
-          stage_name: "Phase I: Screening / Preliminary Test",
-          stage_order: 1,
-          confidence: "reported",
-          as_of: today,
-          source_url: exam.website || "https://www.upsc.gov.in",
-          source_label: `${exam.conducting_body} Notification`,
-          papers: [
-            {
-              paper_name: "General Studies & Aptitude",
-              marks: 200,
-              duration_minutes: 120,
-              type: "objective_mcq",
-              qualifying_or_merit: "qualifying"
-            }
-          ]
-        },
-        {
-          stage_name: "Phase II: Main Examination / Skill Test",
-          stage_order: 2,
-          confidence: "reported",
-          as_of: today,
-          source_url: exam.website || "https://www.upsc.gov.in",
-          source_label: `${exam.conducting_body} Notification`,
-          papers: [
-            {
-              paper_name: "Domain Competency & Subject Paper",
-              marks: 300,
-              duration_minutes: 180,
-              type: "descriptive",
-              qualifying_or_merit: "merit"
-            }
-          ]
-        }
-      ]
-    },
-    cutoffs_and_vacancies: {
-      status: "available",
-      note: null,
-      cycles: [
-        {
-          cycle_label: `${new Date().getFullYear()} Cycle`,
-          year: new Date().getFullYear(),
-          vacancies_notified: 100,
-          vacancies_confidence: "reported",
-          vacancies_source_url: exam.website || "https://www.upsc.gov.in",
-          vacancies_source_label: "Official Recruitment Notification",
-          cutoffs: []
-        }
-      ]
-    },
-    official_resources: {
-      status: "available",
-      note: null,
-      links: [
-        {
-          label: "Official Portal / Notification",
-          url: exam.website || "https://www.upsc.gov.in",
-          type: "portal",
-          last_verified: today
-        }
-      ]
-    }
   }
+
+  if (!isEntrance) {
+    doc.career_ladder = { status: 'not_available', note: notYetSourced }
+    doc.financial_package = { status: 'not_available', note: notYetSourced }
+  }
+  doc.exam_scheme = { status: 'not_available', note: notYetSourced }
+  doc.competition_benchmarks = { status: 'not_available', note: notYetSourced }
+
+  doc.official_downloads = exam.website
+    ? {
+        status: 'available',
+        note: 'Only the discovery source link — not yet cross-checked against the conducting body\'s own notification.',
+        links: [
+          {
+            label: 'Source link at discovery',
+            url: exam.website,
+            type: 'other',
+            confidence: 'reported',
+            as_of: today,
+          },
+        ],
+      }
+    : { status: 'not_available', note: 'No source link was captured at discovery.' }
+
+  return doc
 }
 
-// Add a newly discovered exam into the database
+// Add a newly discovered exam into the database.
+//
+// This function used to paper over missing facts with plausible-sounding defaults —
+// "Government Authority" as the conducting body, "Graduate" as the level, "21-32 years" as
+// the age limit, even a hardcoded fallback website (UPSC's) for an exam that might have
+// nothing to do with UPSC. Those aren't neutral placeholders; they're specific false claims
+// that look exactly like real data once they're on the page. What discovery actually
+// establishes is the exam's identity (name, conducting body, track/type) and, ideally, a
+// source link — see data-sourcing/INCLUSION-POLICY.md §4 (two-tier registry/dossier model).
+// Everything else is required explicitly or left blank; nothing is guessed.
 function addNewExam(newExamData, dryRun = false) {
   const exams = loadJSON(EXAMS_JSON_PATH)
   if (!exams) return false
 
+  const REQUIRED_FIELDS = ['id', 'name', 'conducting_body', 'domain', 'jurisdiction', 'exam_type', 'track']
+  const missing = REQUIRED_FIELDS.filter(f => !newExamData[f])
+  if (missing.length) {
+    console.error(`Error: missing required field(s) for a new exam: ${missing.join(', ')}`)
+    console.error('These describe what the exam actually is and must be given explicitly — not guessed.')
+    return false
+  }
+
+  if (!['job', 'entrance'].includes(newExamData.exam_type)) {
+    console.error(`Error: exam_type must be "job" or "entrance", got "${newExamData.exam_type}"`)
+    return false
+  }
+  if (!['R', 'A', 'Q'].includes(newExamData.track)) {
+    console.error(`Error: track must be "R", "A" or "Q", got "${newExamData.track}"`)
+    return false
+  }
+  const trackImpliesJob = newExamData.track === 'R'
+  if (trackImpliesJob !== (newExamData.exam_type === 'job')) {
+    console.error(`Error: track "${newExamData.track}" is inconsistent with exam_type "${newExamData.exam_type}" (R must pair with job; A/Q must pair with entrance).`)
+    return false
+  }
+
   // Check duplicate by ID or Acronym
-  const existing = exams.find(e => 
-    e.id.toLowerCase() === newExamData.id.toLowerCase() || 
+  const existing = exams.find(e =>
+    e.id.toLowerCase() === newExamData.id.toLowerCase() ||
     (newExamData.acronym && e.acronym && e.acronym.toLowerCase() === newExamData.acronym.toLowerCase())
   )
 
@@ -183,28 +165,30 @@ function addNewExam(newExamData, dryRun = false) {
     return false
   }
 
-  // Set default fields if missing
+  // Structural fields (derived, not guessed) default; everything else is either required
+  // above or left blank ('') rather than filled with an invented-sounding value.
   const examEntry = {
     id: newExamData.id,
     name: newExamData.name,
     acronym: newExamData.acronym || newExamData.name,
-    conducting_body: newExamData.conducting_body || "Government Authority",
-    domain: newExamData.domain || "Civil Services",
-    exam_type: newExamData.exam_type || "job",
-    jurisdiction: newExamData.jurisdiction || "central",
-    state: newExamData.state || (newExamData.jurisdiction === 'central' ? 'All India' : 'National'),
-    level: newExamData.level || "Graduate",
-    frequency: newExamData.frequency || "Annual",
-    exam_mode: newExamData.exam_mode || "Online CBT",
-    application_period: newExamData.application_period || "Varies",
-    exam_month: newExamData.exam_month || "Varies",
-    description: newExamData.description || `Statutory competitive examination conducted by ${newExamData.conducting_body || 'the authority'}.`,
-    target_role: newExamData.target_role || "Government Service Post",
-    website: newExamData.website || "https://www.upsc.gov.in",
-    salary_grade: newExamData.salary_grade || "Level 7+",
-    eligibility: newExamData.eligibility || "Graduate degree from a recognized university",
-    age_limit: newExamData.age_limit || "21-32 years",
-    selection_process: newExamData.selection_process || "Prelims + Mains + Interview"
+    conducting_body: newExamData.conducting_body,
+    domain: newExamData.domain,
+    exam_type: newExamData.exam_type,
+    track: newExamData.track,
+    jurisdiction: newExamData.jurisdiction,
+    state: newExamData.state || (newExamData.jurisdiction === 'central' ? 'All India' : ''),
+    level: newExamData.level || '',
+    frequency: newExamData.frequency || '',
+    exam_mode: newExamData.exam_mode || '',
+    application_period: newExamData.application_period || '',
+    exam_month: newExamData.exam_month || '',
+    description: newExamData.description || '',
+    target_role: newExamData.target_role || '',
+    website: newExamData.website || '',
+    salary_grade: newExamData.salary_grade || '',
+    eligibility: newExamData.eligibility || '',
+    age_limit: newExamData.age_limit || '',
+    selection_process: newExamData.selection_process || ''
   }
 
   const detailPath = path.join(DETAILS_DIR, `${examEntry.id}.json`)
@@ -633,9 +617,15 @@ async function main() {
 
     const id = getArg('--id')
     const name = getArg('--name')
-    if (!id || !name) {
-      console.error('Error: --id and --name are required when using --add')
-      console.log('Usage: node sync-exams.mjs --add --id "uppsc-ro-aro" --name "UPPSC Review Officer" --body "UPPSC" --jurisdiction "state" --state "Uttar Pradesh"')
+    const body = getArg('--body')
+    const domain = getArg('--domain')
+    const jurisdiction = getArg('--jurisdiction')
+    const examType = getArg('--type')
+    const track = getArg('--track')
+    if (!id || !name || !body || !domain || !jurisdiction || !examType || !track) {
+      console.error('Error: --id, --name, --body, --domain, --jurisdiction, --type and --track are all required when using --add')
+      console.error('Nothing is defaulted — a guessed conducting body, domain or website is exactly the fabrication this script was fixed to stop doing.')
+      console.log('Usage: node sync-exams.mjs --add --id "uppsc-ro-aro" --name "UPPSC Review Officer" --body "UPPSC" --domain "Govt Services" --jurisdiction "state" --state "Uttar Pradesh" --type job --track R --website "https://uppsc.up.nic.in/actual-notification-page"')
       process.exit(1)
     }
 
@@ -643,12 +633,13 @@ async function main() {
       id,
       name,
       acronym: getArg('--acronym') || id.toUpperCase(),
-      conducting_body: getArg('--body') || 'State PSC',
-      domain: getArg('--domain') || 'Civil Services',
-      jurisdiction: getArg('--jurisdiction') || 'state',
-      state: getArg('--state') || 'All India',
-      exam_type: getArg('--type') || 'job',
-      website: getArg('--website') || 'https://uppsc.up.nic.in'
+      conducting_body: body,
+      domain,
+      jurisdiction,
+      state: getArg('--state') || '',
+      exam_type: examType,
+      track,
+      website: getArg('--website') || ''
     }
 
     addNewExam(newExam, isDryRun)
