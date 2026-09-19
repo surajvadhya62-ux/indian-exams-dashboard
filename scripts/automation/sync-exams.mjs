@@ -99,14 +99,14 @@ function createDetailDossierTemplate(exam) {
   doc.exam_scheme = { status: 'not_available', note: notYetSourced }
   doc.competition_benchmarks = { status: 'not_available', note: notYetSourced }
 
-  doc.official_downloads = exam.website
+  doc.official_downloads = exam.official_website
     ? {
         status: 'available',
         note: 'Only the discovery source link — not yet cross-checked against the conducting body\'s own notification.',
         links: [
           {
             label: 'Source link at discovery',
-            url: exam.website,
+            url: exam.official_website,
             type: 'other',
             confidence: 'reported',
             as_of: today,
@@ -132,7 +132,16 @@ function addNewExam(newExamData, dryRun = false) {
   const exams = loadJSON(EXAMS_JSON_PATH)
   if (!exams) return false
 
-  const REQUIRED_FIELDS = ['id', 'name', 'conducting_body', 'domain', 'jurisdiction', 'exam_type', 'track']
+  // official_website, min_qualification and frequency are added here, alongside the
+  // structural fields already required — they're three of the seven registry-minimum
+  // fields INCLUSION-POLICY.md §4 requires of every exams.json record (the other four,
+  // id/name/conducting_body/track, were already required above). Without them, a record
+  // this function creates would fail scripts/data-sourcing/validate-details.mjs's
+  // registry-minimum check — see data-sourcing/DECISION-2026-09-19-record-tier.md §4.
+  const REQUIRED_FIELDS = [
+    'id', 'name', 'conducting_body', 'domain', 'jurisdiction', 'exam_type', 'track',
+    'official_website', 'min_qualification', 'frequency',
+  ]
   const missing = REQUIRED_FIELDS.filter(f => !newExamData[f])
   if (missing.length) {
     console.error(`Error: missing required field(s) for a new exam: ${missing.join(', ')}`)
@@ -175,16 +184,22 @@ function addNewExam(newExamData, dryRun = false) {
     domain: newExamData.domain,
     exam_type: newExamData.exam_type,
     track: newExamData.track,
+    // A newly discovered exam is a stub by definition — everything below is either
+    // required above or explicitly not_available, never guessed. Set directly rather
+    // than left for the next `npm run derive-tiers` run, so the record is honest about
+    // itself from the moment it exists. See DECISION-2026-09-19-record-tier.md §5.
+    record_tier: 'registry',
     jurisdiction: newExamData.jurisdiction,
     state: newExamData.state || (newExamData.jurisdiction === 'central' ? 'All India' : ''),
     level: newExamData.level || '',
-    frequency: newExamData.frequency || '',
+    frequency: newExamData.frequency,
+    min_qualification: newExamData.min_qualification,
     exam_mode: newExamData.exam_mode || '',
     application_period: newExamData.application_period || '',
     exam_month: newExamData.exam_month || '',
     description: newExamData.description || '',
     target_role: newExamData.target_role || '',
-    website: newExamData.website || '',
+    official_website: newExamData.official_website,
     salary_grade: newExamData.salary_grade || '',
     eligibility: newExamData.eligibility || '',
     age_limit: newExamData.age_limit || '',
@@ -622,10 +637,14 @@ async function main() {
     const jurisdiction = getArg('--jurisdiction')
     const examType = getArg('--type')
     const track = getArg('--track')
-    if (!id || !name || !body || !domain || !jurisdiction || !examType || !track) {
-      console.error('Error: --id, --name, --body, --domain, --jurisdiction, --type and --track are all required when using --add')
-      console.error('Nothing is defaulted — a guessed conducting body, domain or website is exactly the fabrication this script was fixed to stop doing.')
-      console.log('Usage: node sync-exams.mjs --add --id "uppsc-ro-aro" --name "UPPSC Review Officer" --body "UPPSC" --domain "Govt Services" --jurisdiction "state" --state "Uttar Pradesh" --type job --track R --website "https://uppsc.up.nic.in/actual-notification-page"')
+    const website = getArg('--website')
+    const minQualification = getArg('--min-qualification')
+    const frequency = getArg('--frequency')
+    if (!id || !name || !body || !domain || !jurisdiction || !examType || !track || !website || !minQualification || !frequency) {
+      console.error('Error: --id, --name, --body, --domain, --jurisdiction, --type, --track, --website, --min-qualification and --frequency are all required when using --add')
+      console.error('Nothing is defaulted — a guessed conducting body, domain, website, minimum qualification or frequency is exactly the fabrication this script was fixed to stop doing.')
+      console.error('These three also close the gap that would otherwise be there: they\'re part of the registry minimum every exams.json record must carry (INCLUSION-POLICY.md §4), so a record missing them would fail "npm run validate".')
+      console.log('Usage: node sync-exams.mjs --add --id "uppsc-ro-aro" --name "UPPSC Review Officer" --body "UPPSC" --domain "Govt Services" --jurisdiction "state" --state "Uttar Pradesh" --type job --track R --website "https://uppsc.up.nic.in/actual-notification-page" --min-qualification "Bachelor\'s Degree" --frequency "Annual"')
       process.exit(1)
     }
 
@@ -639,7 +658,9 @@ async function main() {
       state: getArg('--state') || '',
       exam_type: examType,
       track,
-      website: getArg('--website') || ''
+      official_website: website,
+      min_qualification: minQualification,
+      frequency,
     }
 
     addNewExam(newExam, isDryRun)

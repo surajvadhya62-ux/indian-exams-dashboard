@@ -14,6 +14,8 @@
     "apply-vacancy-updates:dry-run": "node scripts/automation/apply-vacancy-updates.mjs --dry-run",
     "derive-vacancies": "node scripts/automation/derive-vacancy-summary.mjs",
     "derive-vacancies:dry-run": "node scripts/automation/derive-vacancy-summary.mjs --dry-run",
+    "derive-tiers": "node scripts/automation/derive-record-tier.mjs",
+    "derive-tiers:dry-run": "node scripts/automation/derive-record-tier.mjs --dry-run",
     "validate": "node scripts/data-sourcing/validate-details.mjs"
   },
   "devDependencies": {

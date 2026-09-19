@@ -12,6 +12,7 @@ export default function StatsOverview({ exams = [], countUp = true }) {
     const stateCount = exams.filter(e => e.jurisdiction === 'state').length
     const entranceCount = exams.filter(e => e.track === 'A').length
     const jobCount = exams.filter(e => e.track === 'R').length
+    const stubCount = exams.filter(e => e.record_tier === 'registry').length
 
     return {
       total: exams.length || 500,
@@ -20,6 +21,7 @@ export default function StatsOverview({ exams = [], countUp = true }) {
       state: stateCount,
       entrance: entranceCount,
       job: jobCount,
+      stubs: stubCount,
     }
   }, [exams])
 
@@ -58,7 +60,11 @@ export default function StatsOverview({ exams = [], countUp = true }) {
         </div>
         <div className="telemetry-num font-mono">{roll(stats.total)}</div>
         <div className="telemetry-title">Verified Active Targets</div>
-        <div className="telemetry-sub">Central & State · 100% Citable</div>
+        <div className="telemetry-sub">
+          {stats.stubs > 0
+            ? `${stats.total - stats.stubs} full dossiers · ${stats.stubs} registry-only`
+            : 'Central & State · 100% Citable'}
+        </div>
         <span className="telemetry-corner-gem" />
       </div>
 

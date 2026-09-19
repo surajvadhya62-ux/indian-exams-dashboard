@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { getDomainColor } from '../utils/helpers'
 import { isJobTrack } from '../utils/trackLabels'
+import { isRegistryTier } from '../utils/recordTier'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import {
   HiOutlineBookmark, HiBookmark,
   HiOutlineOfficeBuilding, HiOutlineArrowRight,
   HiOutlineDocumentDownload, HiOutlineCheckCircle,
+  HiOutlineExclamationCircle,
   HiOutlineScale, HiCheck
 } from 'react-icons/hi'
 
@@ -23,6 +25,7 @@ export default function ExamCard({
   const isPopular = exam.popularity === 'very_high'
   const isJob = isJobTrack(exam.track)
   const isQualification = exam.track === 'Q'
+  const isStub = isRegistryTier(exam.record_tier)
 
   // Compensation / Seat allocation label
   const payLevelLabel = exam.pay_matrix_level
@@ -59,10 +62,17 @@ export default function ExamCard({
         </div>
 
         <div className="dossier-header-actions" onClick={(e) => e.stopPropagation()}>
-          <span className="dossier-verified-badge" title="Verified statutory registry entry">
-            <HiOutlineCheckCircle className="verified-icon" />
-            <span>VERIFIED</span>
-          </span>
+          {isStub ? (
+            <span className="dossier-stub-badge" title="Registry entry — name, conducting body and official link only; full dossier not yet compiled">
+              <HiOutlineExclamationCircle className="stub-icon" />
+              <span>REGISTRY ENTRY</span>
+            </span>
+          ) : (
+            <span className="dossier-verified-badge" title="Verified statutory registry entry">
+              <HiOutlineCheckCircle className="verified-icon" />
+              <span>VERIFIED</span>
+            </span>
+          )}
 
           {onToggleBookmark && (
             <button

@@ -11731,6 +11731,24 @@ input, select {
   border-radius: 4px;
 }
 
+/* A "registry" tier record — name, conducting body and link only, no full
+   dossier yet. Deliberately NOT green/checkmark like .dossier-verified-badge:
+   this is the "tell a visitor it's a stub before they click" badge from
+   INCLUSION-POLICY.md §4, so it must read as visually distinct and weaker. */
+.dossier-stub-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #94a3b8;
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
 .dossier-radar-btn {
   background: transparent;
   border: none;

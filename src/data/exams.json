@@ -45,7 +45,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jee-advanced",
@@ -93,7 +94,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "neet-ug",
@@ -142,7 +144,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "neet-pg",
@@ -188,7 +191,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cat",
@@ -235,7 +239,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "gate",
@@ -287,7 +292,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "upsc-cse",
@@ -336,7 +342,8 @@
         "note": "Derived from the dossier: 2026 cycle, 1,016 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "clat",
@@ -381,7 +388,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nda",
@@ -424,7 +432,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cds",
@@ -469,7 +478,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "wbjee",
@@ -518,7 +528,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "mht-cet",
@@ -563,7 +574,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "kcet",
@@ -610,7 +622,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-eamcet",
@@ -657,7 +670,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ts-eamcet",
@@ -703,7 +717,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "keam",
@@ -747,7 +762,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "upcet",
@@ -795,7 +811,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "gujcet",
@@ -837,7 +854,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nid-dat",
@@ -883,7 +901,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nift",
@@ -930,7 +949,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "uceed",
@@ -973,7 +993,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ceed",
@@ -1017,7 +1038,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ailet",
@@ -1060,7 +1082,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "afcat",
@@ -1104,7 +1127,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-cgl",
@@ -1151,7 +1175,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-chsl",
@@ -1197,7 +1222,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ibps-po",
@@ -1239,7 +1265,8 @@
         "note": "Derived from the dossier: 2026 cycle, 6,715 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ibps-clerk",
@@ -1281,7 +1308,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sbi-po",
@@ -1322,7 +1350,8 @@
         "note": "Derived from the dossier: 2024 cycle, 600 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rbi-grade-b",
@@ -1368,7 +1397,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ugc-net",
@@ -1420,7 +1450,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "csir-net",
@@ -1465,7 +1496,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ies-ese",
@@ -1508,7 +1540,8 @@
         "note": "Derived from the dossier: 2026 cycle, 474 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mat",
@@ -1549,7 +1582,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cmat",
@@ -1590,7 +1624,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "icar-aieea",
@@ -1640,7 +1675,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-ntpc",
@@ -1686,7 +1722,8 @@
         "note": "Derived from the dossier: 2024 cycle, 11,558 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-group-d",
@@ -1730,7 +1767,8 @@
         "note": "Derived from the dossier: 2025 cycle, 22,195 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-alp",
@@ -1773,7 +1811,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-je",
@@ -1818,7 +1857,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cuet-ug",
@@ -1862,7 +1902,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cuet-pg",
@@ -1906,7 +1947,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "iift",
@@ -1947,7 +1989,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ca",
@@ -1997,7 +2040,8 @@
         "note": "Not applicable: this is a track Q exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "Q"
+    "track": "Q",
+    "record_tier": "dossier"
   },
   {
     "id": "cs",
@@ -2047,7 +2091,8 @@
         "note": "Not applicable: this is a track Q exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "Q"
+    "track": "Q",
+    "record_tier": "dossier"
   },
   {
     "id": "cma",
@@ -2097,7 +2142,8 @@
         "note": "Not applicable: this is a track Q exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "Q"
+    "track": "Q",
+    "record_tier": "dossier"
   },
   {
     "id": "upsc-ifs",
@@ -2141,7 +2187,8 @@
         "note": "Derived from the dossier: 2026 cycle, 80 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "capf-ac",
@@ -2186,7 +2233,8 @@
         "note": "Derived from the dossier: 2025 cycle, 432 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ctet",
@@ -2228,7 +2276,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kvs-pgt-tgt",
@@ -2271,7 +2320,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jam",
@@ -2318,7 +2368,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "tifr-gs",
@@ -2367,7 +2418,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jest",
@@ -2409,7 +2461,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "isi-admission",
@@ -2453,7 +2506,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cmi-entrance",
@@ -2497,7 +2551,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nimcet",
@@ -2538,7 +2593,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nata",
@@ -2578,7 +2634,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "gpat",
@@ -2621,7 +2678,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ntpc-et",
@@ -2668,7 +2726,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "iocl-apprentice",
@@ -2715,7 +2774,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "isro-scientist",
@@ -2762,7 +2822,8 @@
         "note": "Derived from the dossier: 2026 cycle, 175 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "drdo-ceptam",
@@ -2808,7 +2869,8 @@
         "note": "Derived from the dossier: 2025 cycle, 764 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "drdo-set",
@@ -2854,7 +2916,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "barc-oces",
@@ -2901,7 +2964,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "imu-cet",
@@ -2946,7 +3010,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "tissnet",
@@ -2994,7 +3059,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jnu-entrance",
@@ -3042,7 +3108,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "du-entrance",
@@ -3086,7 +3153,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "pet-bhu",
@@ -3129,7 +3197,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "htet",
@@ -3172,7 +3241,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uptet",
@@ -3214,7 +3284,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uppsc-pcs",
@@ -3260,7 +3331,8 @@
         "note": "Derived from the dossier: 2024 cycle, 947 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc",
@@ -3304,7 +3376,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bpsc",
@@ -3349,7 +3422,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rpsc-ras",
@@ -3393,7 +3467,8 @@
         "note": "Derived from the dossier: 2026 cycle, 607 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "appsc",
@@ -3437,7 +3512,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tspsc",
@@ -3480,7 +3556,8 @@
         "note": "Derived from the dossier: 2024 cycle, 563 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kpsc",
@@ -3524,7 +3601,8 @@
         "note": "Derived from the dossier: 2026 cycle, 319 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbcs",
@@ -3567,7 +3645,8 @@
         "note": "Derived from the dossier: 2023 cycle, 244 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nabard-grade-a",
@@ -3612,7 +3691,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sebi-grade-a",
@@ -3657,7 +3737,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "lic-aao",
@@ -3703,7 +3784,8 @@
         "note": "Derived from the dossier: 2025 cycle, 32 + 410 + 81 across 3 verified rows. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "epfo-apfc",
@@ -3747,7 +3829,8 @@
         "note": "Derived from the dossier: 2023 cycle, 159 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "neet-ss",
@@ -3792,7 +3875,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "fmge",
@@ -3832,7 +3916,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ini-cet",
@@ -3878,7 +3963,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jipmer",
@@ -3918,7 +4004,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "afmc-mbbs",
@@ -3959,7 +4046,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "kvpy",
@@ -4003,7 +4091,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ntse",
@@ -4045,7 +4134,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "olympiad-science",
@@ -4091,7 +4181,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "imo",
@@ -4135,7 +4226,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "iiser-aptitude",
@@ -4180,7 +4272,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "iisc-ug",
@@ -4224,7 +4317,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nchm-jee",
@@ -4268,7 +4362,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "indian-army-agniveer",
@@ -4312,7 +4407,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-mts",
@@ -4358,7 +4454,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-gd",
@@ -4403,7 +4500,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-cpo",
@@ -4446,7 +4544,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "fci-manager",
@@ -4491,7 +4590,8 @@
         "note": "Derived from the dossier: 2022 cycle, 113 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsc-cms",
@@ -4534,7 +4634,8 @@
         "note": "Derived from the dossier: 2026 cycle, 1,358 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jee-main-arch",
@@ -4577,7 +4678,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "amu-entrance",
@@ -4628,7 +4730,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jamia-entrance",
@@ -4678,7 +4781,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nest",
@@ -4721,7 +4825,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "iim-cat-fellowship",
@@ -4768,7 +4873,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cgpsc",
@@ -4811,7 +4917,8 @@
         "note": "Derived from the dossier: 2024 cycle, 246 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jharkhand-jpsc",
@@ -4854,7 +4961,8 @@
         "note": "Derived from the dossier: 2026 cycle, 103 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mppsc",
@@ -4897,7 +5005,8 @@
         "note": "Derived from the dossier: 2026 cycle, 155 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hppsc",
@@ -4940,7 +5049,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ukpsc",
@@ -4984,7 +5094,8 @@
         "note": "Derived from the dossier: 2026 cycle, 67 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gail-et",
@@ -5031,7 +5142,8 @@
         "note": "Derived from the dossier: 2024 cycle, 47 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ibps-so",
@@ -5080,7 +5192,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ibps-rrb",
@@ -5124,7 +5237,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "niacl-ao",
@@ -5166,7 +5280,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uiic-ao",
@@ -5208,7 +5323,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "iiit-allahabad",
@@ -5252,7 +5368,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "lic-assistant",
@@ -5293,7 +5410,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "neet-mds",
@@ -5337,7 +5455,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "sail-act-oct",
@@ -5383,7 +5502,8 @@
         "note": "Derived from the dossier: 2024 cycle, 314 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cusat-cat",
@@ -5429,7 +5549,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "tancet",
@@ -5475,7 +5596,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ojee",
@@ -5521,7 +5643,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-icet",
@@ -5564,7 +5687,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ts-icet",
@@ -5606,7 +5730,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-ecet",
@@ -5653,7 +5778,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ts-ecet",
@@ -5697,7 +5823,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cg-pet",
@@ -5742,7 +5869,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "bcece",
@@ -5788,7 +5916,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jkcet",
@@ -5832,7 +5961,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "assam-cee",
@@ -5877,7 +6007,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "atma",
@@ -5921,7 +6052,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "mah-mba-cet",
@@ -5965,7 +6097,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "aiims-nursing",
@@ -6009,7 +6142,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "aiapget",
@@ -6056,7 +6190,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "dnb-pdcet",
@@ -6102,7 +6237,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nbe-fet",
@@ -6145,7 +6281,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "mh-cet-law",
@@ -6189,7 +6326,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-lawcet",
@@ -6232,7 +6370,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "ts-lawcet",
@@ -6274,7 +6413,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "klee",
@@ -6318,7 +6458,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jgeebils",
@@ -6364,7 +6505,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nbhm-phd",
@@ -6409,7 +6551,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "icar-aice-jrf-srf",
@@ -6455,7 +6598,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cg-pat",
@@ -6498,7 +6642,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "mp-pat",
@@ -6542,7 +6687,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "upcatet",
@@ -6587,7 +6733,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "upsc-geo-scientist",
@@ -6633,7 +6780,8 @@
         "note": "Derived from the dossier: 2027 cycle, 126 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-je",
@@ -6677,7 +6825,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-steno",
@@ -6720,7 +6869,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ib-acio",
@@ -6765,7 +6915,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "pgcil-et",
@@ -6809,7 +6960,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bis-scientist-b",
@@ -6854,7 +7006,8 @@
         "note": "Derived from the dossier: 2025 cycle, 20 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bel-trainee-engineer",
@@ -6899,7 +7052,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hal-management-trainee",
@@ -6944,7 +7098,8 @@
         "note": "Derived from the dossier: 2026 cycle, 120 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "apsc-cce",
@@ -6989,7 +7144,8 @@
         "note": "Derived from the dossier: 2024 cycle, 262 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-kas",
@@ -7031,7 +7187,8 @@
         "note": "Derived from the dossier: 2025 cycle, 105 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "opsc-oas",
@@ -7076,7 +7233,8 @@
         "note": "Derived from the dossier: 2024 cycle, 200 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ppsc-pcs",
@@ -7120,7 +7278,8 @@
         "note": "Derived from the dossier: 2025 cycle, 331 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hpsc-hcs",
@@ -7165,7 +7324,8 @@
         "note": "Derived from the dossier: 2026 cycle, 102 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rbi-assistant",
@@ -7209,7 +7369,8 @@
         "note": "Derived from the dossier: 2025 cycle, 651 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sbi-clerk",
@@ -7253,7 +7414,8 @@
         "note": "Derived from the dossier: 2025 cycle, 5,583 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sidbi-grade-a",
@@ -7297,7 +7459,8 @@
         "note": "Derived from the dossier: 2025 cycle, 50 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "exim-bank-mt",
@@ -7342,7 +7505,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gic-re-am",
@@ -7387,7 +7551,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "oicl-ao",
@@ -7432,7 +7597,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "epfo-ssa",
@@ -7476,7 +7642,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "esic-sso",
@@ -7520,7 +7687,8 @@
         "note": "Derived from the dossier: 2022 cycle, 93 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "reet",
@@ -7563,7 +7731,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tntet",
@@ -7606,7 +7775,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ktet",
@@ -7650,7 +7820,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "maha-tet",
@@ -7692,7 +7863,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "fddi-aist",
@@ -7736,7 +7908,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "acet-actuarial",
@@ -7782,7 +7955,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jbims-msc-finance",
@@ -7828,7 +8002,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nibm-pgdm",
@@ -7874,7 +8049,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "mse-msc-finance",
@@ -7919,7 +8095,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "igidr-msc-economics-finance",
@@ -7964,7 +8141,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "dse-mcom",
@@ -8009,7 +8187,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "pfrda-grade-a",
@@ -8054,7 +8233,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ifsca-grade-a",
@@ -8099,7 +8279,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-cgl-aao",
@@ -8144,7 +8325,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nhb-assistant-manager",
@@ -8189,7 +8371,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ecgc-po",
@@ -8234,7 +8417,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rbi-grade-b-depr",
@@ -8279,7 +8463,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nism-certifications",
@@ -8324,7 +8509,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cag-sas",
@@ -8370,7 +8556,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ongc-finance-officer",
@@ -8415,7 +8602,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "iocl-finance-officer",
@@ -8459,7 +8647,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bhel-finance-executive",
@@ -8503,7 +8692,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sbi-so-credit-analyst",
@@ -8548,7 +8738,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsc-ies-iss",
@@ -8592,7 +8783,8 @@
         "note": "Derived from the dossier: 2026 cycle, 44 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-selection-posts",
@@ -8632,7 +8824,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssc-jht",
@@ -8675,7 +8868,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nta-ncet",
@@ -8718,7 +8912,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-technician",
@@ -8764,7 +8959,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-sse",
@@ -8810,7 +9006,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rrb-paramedical",
@@ -8856,7 +9053,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rpf-si-constable",
@@ -8899,7 +9097,8 @@
         "note": "Derived from the dossier: 2024 cycle, 4,660 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rbi-office-attendant",
@@ -8938,7 +9137,8 @@
         "note": "Derived from the dossier: 2025 cycle, 572 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sbi-so",
@@ -8985,7 +9185,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "isro-technical-assistant",
@@ -9031,7 +9232,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "lic-ado",
@@ -9075,7 +9277,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "irdai-grade-a",
@@ -9122,7 +9325,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "npcil-st",
@@ -9168,7 +9372,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "india-post-gds",
@@ -9207,7 +9412,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "india-post-mts-postman",
@@ -9246,7 +9452,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "agniveer-navy",
@@ -9290,7 +9497,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "agniveer-air-force",
@@ -9335,7 +9543,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tnpsc-group-1",
@@ -9379,7 +9588,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gpsc-class-1-2",
@@ -9423,7 +9633,8 @@
         "note": "Derived from the dossier: 2025 cycle, 244 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jkpsc-kas",
@@ -9467,7 +9678,8 @@
         "note": "Derived from the dossier: 2025 cycle, 80 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "goa-psc",
@@ -9506,7 +9718,8 @@
         "note": "Derived from the dossier: 2022 cycle, 24 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nvs-tgt-pgt",
@@ -9552,7 +9765,8 @@
         "note": "Derived from the dossier: 2025 cycle, 5,841 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "super-tet",
@@ -9594,7 +9808,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "aibe",
@@ -9639,7 +9854,8 @@
         "note": "Not applicable: this is a track Q exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "Q"
+    "track": "Q",
+    "record_tier": "dossier"
   },
   {
     "id": "barc-stipendiary-trainee",
@@ -9685,7 +9901,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dmrc-je-sc",
@@ -9731,7 +9948,8 @@
         "note": "Derived from the dossier: 2020 cycle, 1,493 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nia-si-inspector",
@@ -9775,7 +9993,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-pet",
@@ -9820,7 +10039,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-lekhpal",
@@ -9864,7 +10084,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-vdo",
@@ -9908,7 +10129,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-junior-assistant",
@@ -9952,7 +10174,8 @@
         "note": "Derived from the dossier: 2024 cycle, 3,279 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-tubewell-operator",
@@ -9996,7 +10219,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-forest-guard",
@@ -10040,7 +10264,8 @@
         "note": "Derived from the dossier: 2026 cycle, 708 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-je",
@@ -10084,7 +10309,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-anm",
@@ -10128,7 +10354,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-supply-inspector",
@@ -10172,7 +10399,8 @@
         "note": "Derived from the dossier: 2022 cycle, 76 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upprpb-constable",
@@ -10216,7 +10444,8 @@
         "note": "Derived from the dossier: 2024 cycle, 60,244 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upprpb-si",
@@ -10260,7 +10489,8 @@
         "note": "Derived from the dossier: 2025 cycle, 4,543 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upprpb-radio-operator",
@@ -10304,7 +10534,8 @@
         "note": "Derived from the dossier: 2025 cycle, 44 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upprpb-jail-warder",
@@ -10348,7 +10579,8 @@
         "note": "Derived from the dossier: 2018 cycle, 5,805 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-cet-12th",
@@ -10392,7 +10624,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-cet-graduate",
@@ -10436,7 +10669,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-patwari",
@@ -10480,7 +10714,8 @@
         "note": "Derived from the dossier: 2025 cycle, 3,705 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-vdo",
@@ -10524,7 +10759,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-junior-accountant",
@@ -10568,7 +10804,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-informatics-assistant",
@@ -10612,7 +10849,8 @@
         "note": "Derived from the dossier: 2023 cycle, 3,415 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-lab-assistant",
@@ -10655,7 +10893,8 @@
         "note": "Derived from the dossier: 2026 cycle, 804 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-sanganak",
@@ -10699,7 +10938,8 @@
         "note": "Derived from the dossier: 2023 cycle, 625 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rsmssb-agriculture-supervisor",
@@ -10743,7 +10983,8 @@
         "note": "Derived from the dossier: 2026 cycle, 1,100 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rajasthan-police-constable",
@@ -10787,7 +11028,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rajasthan-police-si",
@@ -10831,7 +11073,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,076 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hssc-cet-group-c",
@@ -10875,7 +11118,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hssc-cet-group-d",
@@ -10920,7 +11164,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hssc-canal-patwari",
@@ -10964,7 +11209,8 @@
         "note": "Derived from the dossier: 2024 cycle, 3,053 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hssc-gram-sachiv",
@@ -11008,7 +11254,8 @@
         "note": "Derived from the dossier: 2024 cycle, 3,107 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hssc-clerk",
@@ -11052,7 +11299,8 @@
         "note": "Derived from the dossier: 2024 cycle, 5,930 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "haryana-police-constable",
@@ -11096,7 +11344,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "haryana-police-si",
@@ -11140,7 +11389,8 @@
         "note": "Derived from the dossier: 2024 cycle, 15 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bssc-cgl",
@@ -11184,7 +11434,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,481 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bssc-inter-level",
@@ -11228,7 +11479,8 @@
         "note": "Derived from the dossier: 2023 cycle, 25,311 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bssc-stenographer",
@@ -11272,7 +11524,8 @@
         "note": "Derived from the dossier: 2025 cycle, 531 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bihar-police-constable",
@@ -11316,7 +11569,8 @@
         "note": "Derived from the dossier: 2025 cycle, 19,838 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bihar-police-si",
@@ -11360,7 +11614,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,799 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dsssb-dass-grade-2",
@@ -11404,7 +11659,8 @@
         "note": "Derived from the dossier: 2026 cycle, 617 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dsssb-prt-tgt",
@@ -11448,7 +11704,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,180 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dsssb-nursing-officer",
@@ -11492,7 +11749,8 @@
         "note": "Derived from the dossier: 2025 cycle, 46 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dsssb-warder",
@@ -11536,7 +11794,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,676 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dsssb-special-educator",
@@ -11580,7 +11839,8 @@
         "note": "Derived from the dossier: 2026 cycle, 613 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "upsssc-aso",
@@ -11624,7 +11884,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpesb-patwari",
@@ -11668,7 +11929,8 @@
         "note": "Derived from the dossier: 2026 cycle, 9,073 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpesb-van-rakshak",
@@ -11712,7 +11974,8 @@
         "note": "Derived from the dossier: 2026 cycle, 2,112 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpesb-jail-prahari",
@@ -11756,7 +12019,8 @@
         "note": "Derived from the dossier: 2026 cycle, 200 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpesb-sub-engineer",
@@ -11800,7 +12064,8 @@
         "note": "Derived from the dossier: 2026 cycle, 850 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpesb-mahila-supervisor",
@@ -11844,7 +12109,8 @@
         "note": "Derived from the dossier: 2024 cycle, 457 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpesb-group-4",
@@ -11888,7 +12154,8 @@
         "note": "Derived from the dossier: 2024 cycle, 3,047 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mp-police-constable",
@@ -11932,7 +12199,8 @@
         "note": "Derived from the dossier: 2026 cycle, 7,500 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mp-police-si",
@@ -11976,7 +12244,8 @@
         "note": "Derived from the dossier: 2026 cycle, 507 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "osssc-cre-ri-amin",
@@ -12020,7 +12289,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "osssc-peo",
@@ -12064,7 +12334,8 @@
         "note": "Derived from the dossier: 2023 cycle, 7,239 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "osssc-forest-guard",
@@ -12108,7 +12379,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "osssc-mphw",
@@ -12152,7 +12424,8 @@
         "note": "Derived from the dossier: 2023 cycle, 2,753 + 1,451 across 2 verified rows. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "oprb-police-constable",
@@ -12196,7 +12469,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "oprb-police-si",
@@ -12240,7 +12514,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbprb-police-constable",
@@ -12284,7 +12559,8 @@
         "note": "Derived from the dossier: 2024 cycle, 11,749 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbprb-police-si",
@@ -12327,7 +12603,8 @@
         "note": "Derived from the dossier: 2024 cycle, 464 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbprb-kolkata-constable",
@@ -12371,7 +12648,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbprb-kolkata-si",
@@ -12415,7 +12693,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbprb-excise-constable",
@@ -12459,7 +12738,8 @@
         "note": "Derived from the dossier: 2019 cycle, 3,000 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbhrb-staff-nurse",
@@ -12503,7 +12783,8 @@
         "note": "Derived from the dossier: 2025 cycle, 5,018 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ksp-police-constable",
@@ -12547,7 +12828,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ksp-psi",
@@ -12591,7 +12873,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kea-vao",
@@ -12635,7 +12918,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kpsc-fda",
@@ -12679,7 +12963,8 @@
         "note": "Derived from the dossier: 2021 cycle, 1,112 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kpsc-sda",
@@ -12723,7 +13008,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "karnataka-forest-guard",
@@ -12767,7 +13053,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tnusrb-constable",
@@ -12811,7 +13098,8 @@
         "note": "Derived from the dossier: 2025 cycle, 3,665 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tnusrb-si",
@@ -12855,7 +13143,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,352 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tnpsc-group-4",
@@ -12899,7 +13188,8 @@
         "note": "Derived from the dossier: 2024 cycle, 6,244 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tnpsc-combined-technical",
@@ -12943,7 +13233,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tn-mrb-staff-nurse",
@@ -12987,7 +13278,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tn-mrb-assistant-surgeon",
@@ -13031,7 +13323,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,100 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-slprb-constable",
@@ -13075,7 +13368,8 @@
         "note": "Derived from the dossier: 2026 cycle, 1,156 + 200 + 213 across 3 verified rows. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-slprb-si",
@@ -13118,7 +13412,8 @@
         "note": "Derived from the dossier: 2026 cycle, 378 + 60 across 2 verified rows. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-grama-sachivalayam",
@@ -13162,7 +13457,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "appsc-group-4",
@@ -13206,7 +13502,8 @@
         "note": "Derived from the dossier: 2022 cycle, 670 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tslprb-constable",
@@ -13250,7 +13547,8 @@
         "note": "Derived from the dossier: 2026 cycle, 7,112 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tslprb-si",
@@ -13294,7 +13592,8 @@
         "note": "Derived from the dossier: 2026 cycle, 275 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tspsc-group-4",
@@ -13338,7 +13637,8 @@
         "note": "Derived from the dossier: 2022 cycle, 8,180 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "telangana-forest-fbo",
@@ -13382,7 +13682,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-ldc",
@@ -13426,7 +13727,8 @@
         "note": "Derived from the dossier: 2019 cycle, 11,850 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-cpo",
@@ -13470,7 +13772,8 @@
         "note": "Derived from the dossier: 2019 cycle, 4,850 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-si",
@@ -13514,7 +13817,8 @@
         "note": "Derived from the dossier: 2019 cycle, 214 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-vfa",
@@ -13558,7 +13862,8 @@
         "note": "Derived from the dossier: 2017 cycle, 1,450 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-civil-excise",
@@ -13602,7 +13907,8 @@
         "note": "Derived from the dossier: 2014 cycle, 750 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-psc-fireman",
@@ -13646,7 +13952,8 @@
         "note": "Derived from the dossier: 2019 cycle, 820 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "maha-police-constable",
@@ -13690,7 +13997,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc-subordinate-psi",
@@ -13734,7 +14042,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc-subordinate-sti",
@@ -13778,7 +14087,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc-subordinate-aso",
@@ -13822,7 +14132,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "maha-talathi",
@@ -13866,7 +14177,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "maha-vanrakshak",
@@ -13910,7 +14222,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "maha-krishi-sevak",
@@ -13954,7 +14267,8 @@
         "note": "Derived from the dossier: 2023 cycle, 2,109 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "punjab-police-constable",
@@ -13998,7 +14312,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "punjab-police-si",
@@ -14042,7 +14357,8 @@
         "note": "Derived from the dossier: 2023 cycle, 288 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "psssb-clerk",
@@ -14086,7 +14402,8 @@
         "note": "Derived from the dossier: 2026 cycle, 531 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "psssb-patwari",
@@ -14130,7 +14447,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gujarat-police-constable",
@@ -14174,7 +14492,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gujarat-police-psi",
@@ -14218,7 +14537,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gsssb-cce-clerk",
@@ -14261,7 +14581,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gsssb-talati-mantri",
@@ -14305,7 +14626,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jssc-cgl",
@@ -14349,7 +14671,8 @@
         "note": "Derived from the dossier: 2024 cycle, 2,025 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jssc-excise-constable",
@@ -14392,7 +14715,8 @@
         "note": "Derived from the dossier: 2023 cycle, 583 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uksssc-graduate-level",
@@ -14436,7 +14760,8 @@
         "note": "Derived from the dossier: 2023 cycle, 229 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uksssc-intermediate-level",
@@ -14480,7 +14805,8 @@
         "note": "Derived from the dossier: 2024 cycle, 751 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jkssb-panchayat-secretary",
@@ -14524,7 +14850,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jkssb-accounts-assistant",
@@ -14568,7 +14895,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jkssb-junior-assistant",
@@ -14612,7 +14940,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "otet",
@@ -14655,7 +14984,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "pstet",
@@ -14698,7 +15028,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "aptet",
@@ -14741,7 +15072,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "tstet",
@@ -14784,7 +15116,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "wbtet",
@@ -14827,7 +15160,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "assam-tet",
@@ -14870,7 +15204,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "utet",
@@ -14913,7 +15248,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "hptet",
@@ -14958,7 +15294,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "tripura-tet",
@@ -15001,7 +15338,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "meghalaya-tet",
@@ -15044,7 +15382,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "mizoram-tet",
@@ -15087,7 +15426,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "nagaland-tet",
@@ -15130,7 +15470,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "sikkim-tet",
@@ -15173,7 +15514,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "arunachal-tet",
@@ -15216,7 +15558,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "manipur-tet",
@@ -15259,7 +15602,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "jtet",
@@ -15302,7 +15646,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "cgtet",
@@ -15345,7 +15690,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "gujarat-tet",
@@ -15389,7 +15735,8 @@
         "note": "Not applicable: this is a track A exam (admission or qualification), which does not carry recruitment vacancies of its own. Derived field — see scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "A"
+    "track": "A",
+    "record_tier": "dossier"
   },
   {
     "id": "spsc-cce",
@@ -15432,7 +15779,8 @@
         "note": "Derived from the dossier: 2025 cycle, 25 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "spsc-sub-inspector",
@@ -15476,7 +15824,8 @@
         "note": "Derived from the dossier: 2025 cycle, 39 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "npsc-cce",
@@ -15519,7 +15868,8 @@
         "note": "Derived from the dossier: 2025 cycle, 96 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nssb-csee",
@@ -15563,7 +15913,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc-mizoram-mcs",
@@ -15607,7 +15958,8 @@
         "note": "Derived from the dossier: 2025 cycle, 33 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "msssb-group-c",
@@ -15651,7 +16003,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc-manipur-cce",
@@ -15695,7 +16048,8 @@
         "note": "Derived from the dossier: 2022 cycle, 100 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "manipur-police-si",
@@ -15739,7 +16093,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mpsc-meghalaya-cce",
@@ -15782,7 +16137,8 @@
         "note": "Derived from the dossier: 2025 cycle, 36 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "meghalaya-police-mlp",
@@ -15826,7 +16182,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "appsc-cce",
@@ -15869,7 +16226,8 @@
         "note": "Derived from the dossier: 2026 cycle, 135 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "apssb-cgl",
@@ -15913,7 +16271,8 @@
         "note": "Derived from the dossier: 2026 cycle, 101 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "apssb-csl",
@@ -15957,7 +16316,8 @@
         "note": "Derived from the dossier: 2025 cycle, 450 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tpsc-cce",
@@ -16000,7 +16360,8 @@
         "note": "Derived from the dossier: 2022 cycle, 40 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tripura-police-constable",
@@ -16044,7 +16405,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ladakh-ssrb-matric",
@@ -16088,7 +16450,8 @@
         "note": "Derived from the dossier: 2025 cycle, 346 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ladakh-ssrb-graduate",
@@ -16132,7 +16495,8 @@
         "note": "Derived from the dossier: 2025 cycle, 112 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "puducherry-udc",
@@ -16176,7 +16540,8 @@
         "note": "Derived from the dossier: 2025 cycle, 197 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "puducherry-police-constable",
@@ -16220,7 +16585,8 @@
         "note": "Derived from the dossier: 2026 cycle, 148 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "andaman-administration-cgl",
@@ -16264,7 +16630,8 @@
         "note": "Derived from the dossier: 2026 cycle, 716 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "andaman-police-constable",
@@ -16308,7 +16675,8 @@
         "note": "Derived from the dossier: 2026 cycle, 195 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "chandigarh-police-constable",
@@ -16352,7 +16720,8 @@
         "note": "Derived from the dossier: 2024 cycle, 144 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "chandigarh-admin-clerk",
@@ -16396,7 +16765,8 @@
         "note": "Derived from the dossier: 2026 cycle, 257 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssb-dnhdd-clerk",
@@ -16440,7 +16810,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "goa-ssc-cgl",
@@ -16484,7 +16855,8 @@
         "note": "Derived from the dossier: 2026 cycle, 222 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "lakshadweep-admin-staff",
@@ -16528,7 +16900,8 @@
         "note": "Derived from the dossier: 2026 cycle, 224 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "delhi-djs",
@@ -16572,7 +16945,8 @@
         "note": "Derived from the dossier: 2023 cycle, 53 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "delhi-dhjs",
@@ -16616,7 +16990,8 @@
         "note": "Derived from the dossier: 2026 cycle, 27 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "up-pcs-j",
@@ -16660,7 +17035,8 @@
         "note": "Derived from the dossier: 2022 cycle, 303 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bihar-pcs-j",
@@ -16703,7 +17079,8 @@
         "note": "Derived from the dossier: 2026 cycle, 173 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rajasthan-rjs",
@@ -16747,7 +17124,8 @@
         "note": "Derived from the dossier: 2024 cycle, 222 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mp-judicial-service",
@@ -16791,7 +17169,8 @@
         "note": "Derived from the dossier: 2022 cycle, 191 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "maha-jmfc",
@@ -16834,7 +17213,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gujarat-judicial-service",
@@ -16878,7 +17258,8 @@
         "note": "Derived from the dossier: 2026 cycle, 237 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wb-wbjs",
@@ -16922,7 +17303,8 @@
         "note": "Derived from the dossier: 2022 cycle, 29 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "punjab-judicial-service",
@@ -16965,7 +17347,8 @@
         "note": "Derived from the dossier: 2023 cycle, 159 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "haryana-hcs-judicial",
@@ -17008,7 +17391,8 @@
         "note": "Derived from the dossier: 2024 cycle, 174 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hp-judicial-service",
@@ -17052,7 +17436,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uk-judicial-service",
@@ -17095,7 +17480,8 @@
         "note": "Derived from the dossier: 2023 cycle, 16 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jharkhand-judicial-service",
@@ -17139,7 +17525,8 @@
         "note": "Derived from the dossier: 2024 cycle, 138 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cg-judicial-service",
@@ -17182,7 +17569,8 @@
         "note": "Derived from the dossier: 2024 cycle, 57 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "odisha-ojs",
@@ -17225,7 +17613,8 @@
         "note": "Derived from the dossier: 2024 cycle, 34 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tn-judicial-service",
@@ -17269,7 +17658,8 @@
         "note": "Derived from the dossier: 2023 cycle, 245 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "karnataka-judicial-service",
@@ -17313,7 +17703,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kerala-judicial-service",
@@ -17356,7 +17747,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ap-judicial-service",
@@ -17400,7 +17792,8 @@
         "note": "Derived from the dossier: 2026 cycle, 119 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ts-judicial-service",
@@ -17444,7 +17837,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "assam-gauhati-judicial",
@@ -17487,7 +17881,8 @@
         "note": "Derived from the dossier: 2023 cycle, 33 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jk-judicial-service",
@@ -17530,7 +17925,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sci-law-clerk",
@@ -17574,7 +17970,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sci-jca",
@@ -17618,7 +18015,8 @@
         "note": "Derived from the dossier: 2025 cycle, 241 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "delhi-hc-sja",
@@ -17662,7 +18060,8 @@
         "note": "Derived from the dossier: 2026 cycle, 152 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nhpc-trainee-engineer",
@@ -17706,7 +18105,8 @@
         "note": "Derived from the dossier: 2026 cycle, 72 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sjvn-field-engineer",
@@ -17750,7 +18150,8 @@
         "note": "Derived from the dossier: 2025 cycle, 114 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "thdc-engineer-trainee",
@@ -17794,7 +18195,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "pgcil-diploma-trainee",
@@ -17838,7 +18240,8 @@
         "note": "Derived from the dossier: 2026 cycle, 184 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nalco-mt",
@@ -17882,7 +18285,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "midhani-management-trainee",
@@ -17926,7 +18330,8 @@
         "note": "Derived from the dossier: 2023 cycle, 42 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bdl-management-trainee",
@@ -17970,7 +18375,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mdl-executive-trainee",
@@ -18014,7 +18420,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "grse-management-trainee",
@@ -18058,7 +18465,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gsl-management-trainee",
@@ -18102,7 +18510,8 @@
         "note": "Derived from the dossier: 2024 cycle, 35 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cochin-shipyard-executive",
@@ -18146,7 +18555,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rvnl-site-engineer",
@@ -18190,7 +18600,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ircon-executive-trainee",
@@ -18234,7 +18645,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "concor-management-trainee",
@@ -18278,7 +18690,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dfccil-executive",
@@ -18322,7 +18735,8 @@
         "note": "Derived from the dossier: 2025 cycle, 100 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nfl-management-trainee",
@@ -18366,7 +18780,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rcf-management-trainee",
@@ -18410,7 +18825,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "fact-management-trainee",
@@ -18454,7 +18870,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mecl-geologist-engineer",
@@ -18498,7 +18915,8 @@
         "note": "Derived from the dossier: 2025 cycle, 30 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "moil-management-trainee",
@@ -18542,7 +18960,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kiocl-get",
@@ -18586,7 +19005,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nmdc-maintenance-assistant",
@@ -18630,7 +19050,8 @@
         "note": "Derived from the dossier: 2025 cycle, 446 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nlc-get",
@@ -18674,7 +19095,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "eil-management-trainee",
@@ -18718,7 +19140,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "beml-management-trainee",
@@ -18762,7 +19185,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hal-design-trainee",
@@ -18806,7 +19230,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bel-probationary-engineer",
@@ -18850,7 +19275,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ecil-technical-officer",
@@ -18894,7 +19320,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bpcl-management-trainee",
@@ -18938,7 +19365,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hpcl-officer-engineer",
@@ -18982,7 +19410,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gail-executive-trainee",
@@ -19026,7 +19455,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ongc-graduate-trainee",
@@ -19070,7 +19500,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "iocl-non-executive",
@@ -19114,7 +19545,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cil-management-trainee",
@@ -19158,7 +19590,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "sail-mtt",
@@ -19202,7 +19635,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ntpc-eet",
@@ -19246,7 +19680,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bhel-engineer-trainee",
@@ -19290,7 +19725,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rites-engineer",
@@ -19334,7 +19770,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bhel-artisan",
@@ -19379,7 +19816,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "irfc-executive",
@@ -19423,7 +19861,8 @@
         "note": "Derived from the dossier: 2026 cycle, 23 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uppcl-assistant-engineer",
@@ -19467,7 +19906,8 @@
         "note": "Derived from the dossier: 2021 cycle, 113 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uppcl-junior-engineer",
@@ -19511,7 +19951,8 @@
         "note": "Derived from the dossier: 2021 cycle, 212 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "uppcl-executive-assistant",
@@ -19555,7 +19996,8 @@
         "note": "Derived from the dossier: 2022 cycle, 1,273 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "pspcl-junior-engineer",
@@ -19599,7 +20041,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "pspcl-assistant-lineman",
@@ -19643,7 +20086,8 @@
         "note": "Derived from the dossier: 2025 cycle, 3,000 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "msedcl-junior-engineer",
@@ -19687,7 +20131,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mahatransco-assistant-engineer",
@@ -19731,7 +20176,8 @@
         "note": "Derived from the dossier: 2025 cycle, 134 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "kptcl-junior-engineer",
@@ -19775,7 +20221,8 @@
         "note": "Derived from the dossier: 2022 cycle, 599 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bescom-assistant-engineer",
@@ -19819,7 +20266,8 @@
         "note": "Derived from the dossier: 2022 cycle, 533 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tangedco-assistant-engineer",
@@ -19863,7 +20311,8 @@
         "note": "Derived from the dossier: 2024 cycle, 105 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tsspdcl-junior-lineman",
@@ -19906,7 +20355,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "aptransco-assistant-engineer",
@@ -19950,7 +20400,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "wbsedcl-junior-engineer",
@@ -19994,7 +20445,8 @@
         "note": "Derived from the dossier: 2025 cycle, 401 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bsphcl-junior-engineer",
@@ -20037,7 +20489,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "csphcl-line-attendant",
@@ -20080,7 +20533,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mppgcl-junior-engineer",
@@ -20124,7 +20578,8 @@
         "note": "Derived from the dossier: 2026 cycle, 60 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "aiims-norcet",
@@ -20168,7 +20623,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "esic-nursing-officer",
@@ -20212,7 +20668,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "esic-paramedical",
@@ -20256,7 +20713,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "pgimer-nursing-officer",
@@ -20300,7 +20758,8 @@
         "note": "Derived from the dossier: 2022 cycle, 9 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "jipmer-nursing-officer",
@@ -20344,7 +20803,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "dghs-safdarjung-nurse",
@@ -20388,7 +20848,8 @@
         "note": "Derived from the dossier: 2023 cycle, 894 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cghs-pharmacist",
@@ -20432,7 +20893,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "icg-navik-gd",
@@ -20476,7 +20938,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "icg-navik-db",
@@ -20520,7 +20983,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "icg-yantrik",
@@ -20564,7 +21028,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "icg-assistant-commandant",
@@ -20608,7 +21073,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bsf-head-constable-ro",
@@ -20652,7 +21118,8 @@
         "note": "Derived from the dossier: 2025 cycle, 1,121 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "crpf-head-constable-ministerial",
@@ -20696,7 +21163,8 @@
         "note": "Derived from the dossier: 2024 cycle, 259 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "itbp-sub-inspector-telecom",
@@ -20740,7 +21208,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "ssb-head-constable-tradesman",
@@ -20784,7 +21253,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cisf-head-constable-ministerial",
@@ -20828,7 +21298,8 @@
         "note": "Derived from the dossier: 2024 cycle, 496 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "assam-rifles-technical-tradesmen",
@@ -20872,7 +21343,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "mes-supervisor-barrack-store",
@@ -20916,7 +21388,8 @@
         "note": "Derived from the dossier: 2021 cycle, 502 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "drdo-ceptam-sta-b",
@@ -20960,7 +21433,8 @@
         "note": "Derived from the dossier: 2025 cycle, 561 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "drdo-ceptam-tech-a",
@@ -21005,7 +21479,8 @@
         "note": "Derived from the dossier: 2025 cycle, 203 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "indian-navy-incet-tradesman",
@@ -21049,7 +21524,8 @@
         "note": "Derived from the dossier: 2025 cycle, 207 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "indian-navy-chargeman",
@@ -21093,7 +21569,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "iaf-civilian-group-c",
@@ -21137,7 +21614,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "aai-atc-junior-executive",
@@ -21181,7 +21659,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "aai-junior-executive-common",
@@ -21225,7 +21704,8 @@
         "note": "Derived from the dossier: 2023 cycle, 237 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nabard-development-assistant",
@@ -21269,7 +21749,8 @@
         "note": "Derived from the dossier: 2025 cycle, 162 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "spmcil-junior-office-associate",
@@ -21313,7 +21794,8 @@
         "note": "Derived from the dossier: 2026 cycle, 13 + 22 across 2 verified rows. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "brbnmpl-industrial-workman",
@@ -21357,7 +21839,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "nielit-scientist-b",
@@ -21401,7 +21884,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cdac-project-engineer",
@@ -21445,7 +21929,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "fssai-cfso",
@@ -21489,7 +21974,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "fssai-technical-officer",
@@ -21533,7 +22019,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "bis-technical-assistant",
@@ -21577,7 +22064,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "central-silk-board-scientist",
@@ -21621,7 +22109,8 @@
         "note": "Derived from the dossier: 2025 cycle, 36 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "spices-board-field-officer",
@@ -21665,7 +22154,8 @@
         "note": "Derived from the dossier: 2016 cycle, 5 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "tea-board-development-officer",
@@ -21709,7 +22199,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "coffee-board-extension-officer",
@@ -21753,7 +22244,8 @@
         "note": "Derived from the dossier: 2025 cycle, 43 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "asrb-icar-administrative-officer",
@@ -21797,7 +22289,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "icar-iari-technician",
@@ -21841,7 +22334,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "icfre-technical-assistant",
@@ -21885,7 +22379,8 @@
         "note": "Derived from the dossier: 2026 cycle, 4 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "gsi-driver-mechanic",
@@ -21928,7 +22423,8 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "rvunl-junior-engineer",
@@ -21972,7 +22468,8 @@
         "note": "Derived from the dossier: 2026 cycle, 869 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "hvpn-assistant-engineer",
@@ -22016,7 +22513,8 @@
         "note": "Derived from the dossier: 2025 cycle, 285 from a single verified row. Derived field — do not edit by hand; correct the dossier and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   },
   {
     "id": "cochin-port-pilot",
@@ -22060,6 +22558,7 @@
         "note": "No verified, document-cited vacancy row exists in this exam's dossier yet, so no figure is published. Derived field — do not edit by hand; enter the figure in the dossier against its notification and re-run scripts/automation/derive-vacancy-summary.mjs."
       }
     },
-    "track": "R"
+    "track": "R",
+    "record_tier": "dossier"
   }
 ]

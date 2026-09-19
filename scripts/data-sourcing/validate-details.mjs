@@ -47,6 +47,56 @@ const VALID_STATUSES = new Set(['available', 'not_available'])
 const VALID_CONFIDENCES = new Set(['verified', 'reported', 'estimate'])
 const VALID_LINK_TYPES = new Set(['notification', 'syllabus', 'pyq', 'other'])
 
+// Registry-minimum fields per INCLUSION-POLICY.md §4 — every exams.json record
+// must carry these regardless of whether it has a full dossier behind it.
+const REGISTRY_REQUIRED_FIELDS = [
+  'id',
+  'name',
+  'conducting_body',
+  'track',
+  'min_qualification',
+  'frequency',
+  'official_website',
+]
+const VALID_TRACKS = new Set(['R', 'A', 'Q'])
+const VALID_RECORD_TIERS = new Set(['registry', 'dossier'])
+
+/**
+ * Validates a single exams.json record against the registry minimum and,
+ * where `record_tier` is present, its consistency with the dossier folder.
+ *
+ * This is the check that closes the gap `npm run validate` used to have:
+ * the per-file loop below only ever looked at files that already exist in
+ * public/exam-details/, so a record sitting in exams.json with nothing
+ * behind it was invisible to validation entirely. See
+ * data-sourcing/DECISION-2026-09-19-record-tier.md §4.
+ */
+export function validateRegistryRecord(exam, dossierIds) {
+  const errors = []
+  const id = exam.id || '(missing id)'
+
+  for (const field of REGISTRY_REQUIRED_FIELDS) {
+    const value = exam[field]
+    if (value === undefined || value === null || (typeof value === 'string' && !value.trim())) {
+      errors.push(`exams.json record "${id}": missing registry-minimum field "${field}"`)
+    }
+  }
+
+  if (exam.track !== undefined && !VALID_TRACKS.has(exam.track)) {
+    errors.push(`exams.json record "${id}": invalid "track" ("${exam.track}"), must be R | A | Q`)
+  }
+
+  if (exam.record_tier === undefined) {
+    errors.push(`exams.json record "${id}": missing "record_tier" — run "npm run derive-tiers"`)
+  } else if (!VALID_RECORD_TIERS.has(exam.record_tier)) {
+    errors.push(`exams.json record "${id}": invalid "record_tier" ("${exam.record_tier}"), must be "registry" | "dossier"`)
+  } else if (exam.record_tier === 'dossier' && !dossierIds.has(id)) {
+    errors.push(`exams.json record "${id}": record_tier is "dossier" but no file exists at public/exam-details/${id}.json`)
+  }
+
+  return errors
+}
+
 const REQUIRED_DA_PERCENT = 58
 const REQUIRED_DA_AS_OF = '2025-07-01'
 
@@ -322,7 +372,40 @@ function run() {
   }
 
   console.log()
-  console.log(`Summary: ${files.length} checked, ${totalErrors} error(s), ${totalWarnings} warning(s)`)
+  console.log(`Summary (dossier files): ${files.length} checked, ${totalErrors} error(s), ${totalWarnings} warning(s)`)
+
+  // Only run the registry-wide pass when validating the whole details
+  // directory — a single-file invocation (e.g. checking one exam mid-batch)
+  // has no reason to also re-check the other 498 exams.json records.
+  if (!process.argv[2]) {
+    console.log()
+    console.log(`Validating exams.json registry (${exams.length} record(s))...`)
+
+    const dossierIds = new Set(
+      readdirSync(DETAILS_DIR)
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => f.replace(/\.json$/, ''))
+    )
+
+    const idCounts = new Map()
+    for (const exam of exams) {
+      idCounts.set(exam.id, (idCounts.get(exam.id) || 0) + 1)
+    }
+
+    let registryErrors = 0
+    for (const exam of exams) {
+      const errs = validateRegistryRecord(exam, dossierIds)
+      if (idCounts.get(exam.id) > 1) {
+        errs.push(`exams.json record "${exam.id}": duplicate id (appears ${idCounts.get(exam.id)} times)`)
+      }
+      errs.forEach((e) => console.log(`  ERROR: ${e}`))
+      registryErrors += errs.length
+    }
+
+    console.log()
+    console.log(`Summary (registry): ${exams.length} checked, ${registryErrors} error(s)`)
+    totalErrors += registryErrors
+  }
 
   if (totalErrors > 0) {
     process.exit(1)
