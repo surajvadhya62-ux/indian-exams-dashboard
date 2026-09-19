@@ -1000,6 +1000,12 @@ input, select {
   padding-bottom: 8px;
   margin-bottom: 1.25rem;
   border-bottom: 1px solid var(--hairline);
+  /* Fades the last visible tab at each edge instead of hard-clipping it —
+     without this, a scrollable-but-unscrolled strip reads as "the label got
+     cut off" rather than "there's more to the right". No effect when every
+     tab already fits (nothing sits in the faded 24px to begin with). */
+  mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 24px), transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 24px), transparent);
 }
 
 .dossier-tab-btn {
@@ -5547,6 +5553,59 @@ input, select {
     border-radius: 99px;
   }
 
+  /* "Tools" / "About" groups — a plain .mobile-nav-btn that opens a small
+     popover upward instead of navigating directly. */
+  .mobile-nav-btn.menu-open {
+    color: var(--amber-bright);
+  }
+
+  /* Positioned via inline style (bottom/left from the trigger's own
+     getBoundingClientRect(), computed in MobileNav.jsx), not relative to
+     the trigger — .mobile-bottom-nav scrolls horizontally, which forces
+     the browser to clip vertical overflow too (see MobileNav.jsx's
+     openGroup() comment; same root cause as Header.jsx's desktop
+     dropdown). `position: fixed` sidesteps it entirely. */
+  .mobile-nav-dropdown {
+    position: fixed;
+    min-width: 190px;
+    background: #0b0e14;
+    border: 1px solid var(--hairline-2);
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    box-shadow: 0 -10px 32px -6px rgba(0, 0, 0, 0.6);
+    z-index: 1001;
+  }
+
+  .mobile-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background: transparent;
+    border: none;
+    color: var(--fg);
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .mobile-dropdown-item .mobile-nav-icon {
+    font-size: 1.05rem;
+    position: static;
+  }
+
+  .mobile-dropdown-item:hover,
+  .mobile-dropdown-item.active {
+    background: rgba(232, 163, 61, 0.12);
+    color: var(--amber-bright);
+  }
+
   .modern-metrics-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -6797,6 +6856,26 @@ input, select {
   color: #2563eb !important;
 }
 
+[data-theme="light"] .mobile-nav-dropdown,
+[data-theme="gazette"] .mobile-nav-dropdown {
+  background: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 -10px 32px -6px rgba(0, 0, 0, 0.15) !important;
+}
+
+[data-theme="light"] .mobile-dropdown-item,
+[data-theme="gazette"] .mobile-dropdown-item {
+  color: #334155 !important;
+}
+
+[data-theme="light"] .mobile-dropdown-item:hover,
+[data-theme="light"] .mobile-dropdown-item.active,
+[data-theme="gazette"] .mobile-dropdown-item:hover,
+[data-theme="gazette"] .mobile-dropdown-item.active {
+  background: rgba(37, 99, 235, 0.1) !important;
+  color: #2563eb !important;
+}
+
 [data-theme="light"] .pagination-btn,
 [data-theme="light"] .page-number-btn,
 [data-theme="gazette"] .pagination-btn,
@@ -7878,6 +7957,14 @@ input, select {
   }
 }
 
+.view-loading-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  width: 100%;
+}
+
 .skeleton-line,
 .skeleton-pill,
 .skeleton-circle,
@@ -8346,6 +8433,10 @@ input, select {
   display: flex;
   align-items: center;
   gap: 8px;
+  /* .modal-close sits at position: absolute; right: 1rem, outside this flex
+     row's own layout — without this, the Share button's popover trigger (or
+     the overlap button, when both are present) renders underneath it. */
+  padding-right: 44px;
 }
 
 .modal-share-trigger-btn {
@@ -11207,6 +11298,90 @@ input, select {
   background: linear-gradient(90deg, #e11d48, #c8862a);
   border-radius: 2px 2px 0 0;
   box-shadow: 0 0 10px rgba(225, 29, 72, 0.7);
+}
+
+/* Nav dropdown groups ("Tools", "About") — same visual language as a plain
+   .hud-tab-btn, plus a chevron and a popover panel. */
+
+.hud-tab-chevron {
+  font-size: 11px;
+  opacity: 0.6;
+  transition: transform 0.15s ease;
+}
+
+.hud-tab-btn.menu-open .hud-tab-chevron {
+  transform: rotate(180deg);
+}
+
+.hud-tab-dropdown {
+  /* Positioned via inline style (top/left from the trigger's own
+     getBoundingClientRect(), computed in Header.jsx) rather than
+     `absolute` relative to the trigger — see the render-site comment for
+     why: the trigger sits inside a horizontally-scrolling strip, and an
+     `absolute` child of that strip gets clipped by the vertical overflow
+     the browser silently forces onto a horizontal-auto-scroll container. */
+  position: fixed;
+  min-width: 210px;
+  background: #0b0e14;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.7);
+  z-index: 60;
+}
+
+[data-theme="light"] .hud-tab-dropdown {
+  background: #ffffff;
+  border-color: rgba(15, 23, 42, 0.1);
+  box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.15);
+}
+
+.hud-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 10px;
+  border-radius: 6px;
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  font-size: 12.5px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.hud-dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #f8fafc;
+}
+
+.hud-dropdown-item.active {
+  background: rgba(200, 134, 42, 0.14);
+  color: #e8a33d;
+}
+
+[data-theme="light"] .hud-dropdown-item {
+  color: #334155;
+}
+
+[data-theme="light"] .hud-dropdown-item:hover {
+  background: rgba(15, 23, 42, 0.05);
+  color: #0f172a;
+}
+
+[data-theme="light"] .hud-dropdown-item.active {
+  background: rgba(200, 134, 42, 0.12);
+  color: #a3660f;
+}
+
+.hud-dropdown-item .hud-tab-count-pill {
+  margin-left: auto;
 }
 
 /* ─────────────────────────────────────────────────────────────
@@ -15911,20 +16086,38 @@ html, body {
   }
 }
 
-/* Telemetry Strip Mobile (<= 640px) */
+/* Telemetry Strip Mobile (<= 640px) — a single horizontally-scrollable row
+   instead of three stacked rows. The five tiles used to push roughly 500px
+   of "facts about the database" above the first actual exam, on a screen
+   that's often under 850px tall — the thing a visitor came for started
+   1.3 screens down. All five tiles are still here, still readable, just
+   swipeable rather than stacked; the edge fade (matching .dossier-tab-bar)
+   signals there's more without a hard clip. */
 @media (max-width: 640px) {
   .terminal-telemetry-strip {
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    overflow-x: auto;
+    grid-template-columns: unset;
     gap: 8px;
     margin-bottom: 1rem;
+    padding-bottom: 2px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 20px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 20px), transparent);
+  }
+
+  .terminal-telemetry-strip::-webkit-scrollbar {
+    display: none;
   }
 
   .telemetry-cell {
+    flex: 0 0 148px;
     padding: 10px 12px;
   }
 
   .telemetry-cell:last-child {
-    grid-column: 1 / -1;
+    grid-column: unset;
   }
 
   .telemetry-kicker {
@@ -15944,6 +16137,7 @@ html, body {
   .telemetry-sub {
     font-size: 9.5px;
     line-height: 1.25;
+    white-space: normal;
   }
 }
 

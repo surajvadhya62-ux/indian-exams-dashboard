@@ -93,7 +93,7 @@ export default function StatsOverview({ exams = [], countUp = true }) {
           <HiOutlineShieldCheck className="telemetry-icon text-emerald" />
         </div>
         <div className="telemetry-num font-mono">L1–L18</div>
-        <div className="telemetry-title">Compensation Scope</div>
+        <div className="telemetry-title">Pay Range</div>
         <div className="telemetry-sub">₹18k Entry to ₹2.5L Apex · 50% DA</div>
         <span className="telemetry-corner-gem" />
       </div>
@@ -105,7 +105,7 @@ export default function StatsOverview({ exams = [], countUp = true }) {
           <HiOutlineAcademicCap className="telemetry-icon text-sky" />
         </div>
         <div className="telemetry-num font-mono">{roll(stats.entrance)}</div>
-        <div className="telemetry-title">Premier Entrances</div>
+        <div className="telemetry-title">Admission Exams</div>
         <div className="telemetry-sub">IITs · AIIMS · IIMs · NLUs Seats</div>
         <span className="telemetry-corner-gem" />
       </div>

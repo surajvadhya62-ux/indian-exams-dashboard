@@ -211,7 +211,7 @@ export default function AuthModal({
                   <span className="stat-icon-wrap text-amber"><HiOutlineBookmark /></span>
                   <div className="stat-data">
                     <span className="stat-num">{bookmarks.length}</span>
-                    <span className="stat-lbl">Pinned Targets</span>
+                    <span className="stat-lbl">Saved Exams</span>
                   </div>
                 </div>
 

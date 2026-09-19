@@ -1,12 +1,24 @@
+import { useEffect, useRef, useState } from 'react'
 import {
   HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineGlobeAlt, HiOutlineShieldCheck,
   HiOutlineSparkles, HiOutlineBookmark,
   HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon,
   HiOutlineSearch, HiOutlineChatAlt2, HiOutlineNewspaper,
-  HiOutlineUserCircle, HiOutlineSwitchHorizontal, HiOutlineDocumentText
+  HiOutlineUserCircle, HiOutlineDocumentText,
+  HiOutlineQuestionMarkCircle, HiOutlineChevronDown, HiOutlineAdjustments,
+  HiOutlineInformationCircle
 } from 'react-icons/hi'
 
+// Was 11 flat top-level destinations — overflowed the bar on desktop (the
+// 11th item clipped off the right edge) and required horizontal scrolling
+// on mobile with no visual hint that it did. Grouped into 6: four direct
+// destinations plus two dropdowns ("Tools" for decision-support features,
+// "About" for reference/meta pages). "Overlap" is deliberately left out of
+// Tools — it's currently a "module under maintenance" placeholder (see
+// App.jsx), and giving a disabled feature a permanent nav slot would be the
+// same kind of overclaim the Coverage & Method page exists to correct
+// elsewhere on this site. Add it back once it's real again.
 export default function Header({
   activeView,
   setActiveView,
@@ -23,20 +35,58 @@ export default function Header({
 }) {
   const views = [
     { id: 'explore', num: '01', label: 'Explore', icon: <HiOutlineGlobeAlt className="hud-nav-icon" /> },
-    { id: 'updates', num: '02', label: 'Gazette Wire', icon: <HiOutlineNewspaper className="hud-nav-icon text-amber" />, badge: 'LIVE' },
-    { id: 'my-exams', num: '03', label: 'Radar', count: bookmarkCount, icon: <HiOutlineBookmark className="hud-nav-icon text-amber" /> },
+    { id: 'updates', num: '02', label: 'Updates', icon: <HiOutlineNewspaper className="hud-nav-icon text-amber" />, badge: 'LIVE' },
+    { id: 'my-exams', num: '03', label: 'Saved', count: bookmarkCount, icon: <HiOutlineBookmark className="hud-nav-icon text-amber" /> },
     { id: 'calendar', num: '04', label: 'Calendar', icon: <HiOutlineCalendar className="hud-nav-icon" /> },
-    { id: 'screener', num: '05', label: 'Screener', icon: <HiOutlineBadgeCheck className="hud-nav-icon text-emerald" /> },
-    { id: 'compare', num: '06', label: 'Compare', count: compareCount, icon: <HiOutlineScale className="hud-nav-icon" /> },
-    { id: 'cadres', num: '07', label: '7th CPC Cadres', icon: <HiOutlineShieldCheck className="hud-nav-icon" /> },
-    { id: 'analytics', num: '08', label: 'Analytics', icon: <HiOutlineChartBar className="hud-nav-icon" /> },
-    { id: 'wizard', num: '09', label: 'Wizard', icon: <HiOutlineSparkles className="hud-nav-icon text-amber" /> },
-    { id: 'coverage', num: '10', label: 'Coverage & Method', icon: <HiOutlineDocumentText className="hud-nav-icon" /> },
-    { id: 'feedback', num: '11', label: 'Feedback', icon: <HiOutlineChatAlt2 className="hud-nav-icon text-teal" /> },
+    {
+      id: 'tools', num: '05', label: 'Tools', icon: <HiOutlineAdjustments className="hud-nav-icon" />,
+      children: [
+        { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles className="hud-nav-icon text-amber" /> },
+        { id: 'screener', label: 'Screener', icon: <HiOutlineBadgeCheck className="hud-nav-icon text-emerald" /> },
+        { id: 'compare', label: 'Compare', count: compareCount, icon: <HiOutlineScale className="hud-nav-icon" /> },
+      ],
+    },
+    {
+      id: 'about', num: '06', label: 'About', icon: <HiOutlineInformationCircle className="hud-nav-icon" />,
+      children: [
+        { id: 'coverage', label: 'Coverage & Method', icon: <HiOutlineDocumentText className="hud-nav-icon" /> },
+        { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar className="hud-nav-icon" /> },
+        { id: 'cadres', label: '7th CPC Cadres', icon: <HiOutlineShieldCheck className="hud-nav-icon" /> },
+        { id: 'guide', label: 'Guide', icon: <HiOutlineQuestionMarkCircle className="hud-nav-icon" /> },
+        { id: 'feedback', label: 'Feedback', icon: <HiOutlineChatAlt2 className="hud-nav-icon text-teal" /> },
+      ],
+    },
   ]
 
   const isAnalyticsActive = activeView === 'analytics' || activeView === 'dashboard'
   const isLight = theme === 'light' || theme === 'gazette'
+
+  const isChildActive = (v) => v.id === 'my-exams'
+    ? (activeView === 'my-exams' || activeView === 'saved')
+    : (v.id === 'analytics' ? isAnalyticsActive : activeView === v.id)
+
+  const [openMenu, setOpenMenu] = useState(null) // group id, or null
+  const [menuPos, setMenuPos] = useState(null) // { top, left } of the open dropdown
+  const navRef = useRef(null)
+
+  useEffect(() => {
+    if (!openMenu) return
+    const onDocClick = (e) => {
+      if (navRef.current && !navRef.current.contains(e.target)) setOpenMenu(null)
+    }
+    const onEscape = (e) => { if (e.key === 'Escape') setOpenMenu(null) }
+    document.addEventListener('mousedown', onDocClick)
+    document.addEventListener('keydown', onEscape)
+    return () => {
+      document.removeEventListener('mousedown', onDocClick)
+      document.removeEventListener('keydown', onEscape)
+    }
+  }, [openMenu])
+
+  const selectView = (id) => {
+    setActiveView(id)
+    setOpenMenu(null)
+  }
 
   return (
     <header className="terminal-hud-header">
@@ -61,7 +111,7 @@ export default function Header({
             <div className="hud-statutory-pill" title="Continuous automated ingestion across 342 official commissions">
               <span className="hud-live-dot" />
               <span className="hud-statutory-label">
-                <strong>{totalExams}</strong> TARGETS · <strong>342</strong> BODIES
+                <strong>{totalExams}</strong> exams · <strong>342</strong> bodies
               </span>
             </div>
 
@@ -144,18 +194,40 @@ export default function Header({
         </div>
 
         {/* Bottom Tab Bar with Monospace Numbered Indicators */}
-        <nav className="hud-nav-tabs" aria-label="Terminal Workstation Navigation">
+        <nav className="hud-nav-tabs" aria-label="Terminal Workstation Navigation" ref={navRef}>
           <div className="hud-tabs-scroll">
             {views.map(v => {
-              const isActive = v.id === 'my-exams'
-                ? (activeView === 'my-exams' || activeView === 'saved')
-                : (v.id === 'analytics' ? isAnalyticsActive : activeView === v.id)
+              if (v.children) {
+                const groupActive = v.children.some(isChildActive)
+                const isOpen = openMenu === v.id
+                return (
+                  <button
+                    key={v.id}
+                    className={`hud-tab-btn hud-tab-item ${groupActive ? 'active' : ''} ${isOpen ? 'menu-open' : ''}`}
+                    onClick={(e) => {
+                      if (isOpen) { setOpenMenu(null); return }
+                      const rect = e.currentTarget.getBoundingClientRect()
+                      setMenuPos({ top: rect.bottom + 6, left: rect.left })
+                      setOpenMenu(v.id)
+                    }}
+                    aria-expanded={isOpen}
+                    aria-haspopup="true"
+                  >
+                    <span className="hud-tab-num">{v.num}</span>
+                    <span className="hud-tab-icon-wrap">{v.icon}</span>
+                    <span className="hud-tab-text">{v.label}</span>
+                    <HiOutlineChevronDown className="hud-tab-chevron" />
+                    {groupActive && <div className="hud-active-underline hud-active-bar" />}
+                  </button>
+                )
+              }
 
+              const isActive = isChildActive(v)
               return (
                 <button
                   key={v.id}
                   className={`hud-tab-btn hud-tab-item ${isActive ? 'active' : ''}`}
-                  onClick={() => setActiveView(v.id)}
+                  onClick={() => selectView(v.id)}
                   aria-current={isActive ? 'page' : undefined}
                 >
                   <span className="hud-tab-num">{v.num}</span>
@@ -175,6 +247,42 @@ export default function Header({
               )
             })}
           </div>
+
+          {/* Dropdown panel — deliberately rendered OUTSIDE .hud-tabs-scroll,
+              not nested under the trigger. That container scrolls
+              horizontally (overflow-x: auto), and per the CSS overflow
+              spec, pairing overflow-x: auto with an unset overflow-y
+              silently computes overflow-y to auto too — so a dropdown
+              nested inside it gets clipped the moment it extends past the
+              bar's own height, even though its own computed style reports
+              display: flex/visible. Caught by inspecting computed styles
+              after a screenshot showed the toggle firing (chevron rotated,
+              aria-expanded true) with no visible panel. Fixed by
+              positioning it with `position: fixed` at coordinates taken
+              from the trigger's own getBoundingClientRect() — the header
+              is `position: sticky`, so those coordinates stay correct
+              even after the page scrolls. */}
+          {openMenu && menuPos && (() => {
+            const group = views.find(v => v.id === openMenu)
+            if (!group) return null
+            return (
+              <div className="hud-tab-dropdown fade-in" style={{ top: menuPos.top, left: menuPos.left }}>
+                {group.children.map(child => (
+                  <button
+                    key={child.id}
+                    className={`hud-dropdown-item ${isChildActive(child) ? 'active' : ''}`}
+                    onClick={() => selectView(child.id)}
+                  >
+                    <span className="hud-tab-icon-wrap">{child.icon}</span>
+                    <span>{child.label}</span>
+                    {typeof child.count === 'number' && child.count > 0 && (
+                      <span className="hud-tab-count-pill hud-tab-counter">{child.count}</span>
+                    )}
+                  </button>
+                ))}
+              </div>
+            )
+          })()}
         </nav>
       </div>
     </header>

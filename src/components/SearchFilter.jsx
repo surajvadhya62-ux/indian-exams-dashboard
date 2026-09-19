@@ -189,7 +189,7 @@ export default function SearchFilter({
             ref={searchInputRef}
             type="text"
             className="query-search-input"
-            placeholder="Search 500 targets by acronym, name, conducting commission (UPSC, NTA, SSC, BPSC), or cadre..."
+            placeholder={`Search ${totalCount || 509} exams by acronym, name, conducting commission (UPSC, NTA, SSC, BPSC), or cadre...`}
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value)
@@ -352,7 +352,7 @@ export default function SearchFilter({
           {/* Result Count Metric */}
           <div className="hud-result-counter">
             <span className="count-bold">{resultCount}</span>
-            <span className="count-total">/ {totalCount} Targets</span>
+            <span className="count-total">of {totalCount} exams</span>
           </div>
 
           {/* View Mode Toggle: Grid vs Data Matrix Table */}

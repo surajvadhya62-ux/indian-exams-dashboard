@@ -6,8 +6,11 @@ import {
   HiOutlineExternalLink, HiX, HiChevronLeft, HiChevronRight,
   HiOutlineArrowRight, HiOutlineCalendar, HiOutlineDownload,
   HiOutlineShare, HiOutlineClipboardCopy, HiCheck, HiOutlineMail,
-  HiOutlineSwitchHorizontal
+  HiOutlineSwitchHorizontal, HiOutlineBriefcase, HiOutlineAcademicCap,
+  HiOutlineDocumentText, HiOutlineGlobeAlt, HiOutlineLocationMarker
 } from 'react-icons/hi'
+import { FaWhatsapp, FaTelegramPlane, FaLinkedin } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 import { downloadExamIcs, getGoogleCalendarUrl } from '../utils/calendarSync'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import CareerLadder from './exam-detail/CareerLadder'
@@ -156,7 +159,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
               <button
                 className="modal-overlap-btn"
                 onClick={() => onOpenOverlap(exam)}
-                title={`Calculate syllabus overlap for ${exam.acronym || exam.name} against 500 exams`}
+                title={`Calculate syllabus overlap for ${exam.acronym || exam.name} against every other exam`}
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -238,7 +241,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 className="share-social-btn whatsapp"
                 title="Share on WhatsApp"
               >
-                <span className="social-icon">💬</span> WhatsApp
+                <span className="social-icon"><FaWhatsapp /></span> WhatsApp
               </a>
               <a
                 href={twitterUrl}
@@ -247,7 +250,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 className="share-social-btn twitter"
                 title="Share on X (Twitter)"
               >
-                <span className="social-icon">𝕏</span> X / Twitter
+                <span className="social-icon"><FaXTwitter /></span> X / Twitter
               </a>
               <a
                 href={linkedinUrl}
@@ -256,7 +259,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 className="share-social-btn linkedin"
                 title="Share on LinkedIn"
               >
-                <span className="social-icon">💼</span> LinkedIn
+                <span className="social-icon"><FaLinkedin /></span> LinkedIn
               </a>
               <a
                 href={telegramUrl}
@@ -265,7 +268,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 className="share-social-btn telegram"
                 title="Share on Telegram"
               >
-                <span className="social-icon">✈️</span> Telegram
+                <span className="social-icon"><FaTelegramPlane /></span> Telegram
               </a>
               <a
                 href={mailtoUrl}
@@ -286,10 +289,12 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
               {exam.domain}
             </span>
             <span className="domain-badge domain-type-badge">
-              {isJob ? '💼 Job / Recruitment' : exam.track === 'Q' ? '📜 Professional Qualification' : '🎓 Entrance Exam'}
+              {isJob ? <HiOutlineBriefcase /> : exam.track === 'Q' ? <HiOutlineDocumentText /> : <HiOutlineAcademicCap />}
+              {isJob ? 'Job / Recruitment' : exam.track === 'Q' ? 'Professional Qualification' : 'Entrance Exam'}
             </span>
             <span className={`domain-badge domain-scope-badge ${exam.jurisdiction === 'central' ? 'scope-central-badge' : 'scope-state-badge'}`}>
-              {exam.jurisdiction === 'central' ? '🇮🇳 Central & All-India' : `🏛️ State: ${exam.state}`}
+              {exam.jurisdiction === 'central' ? <HiOutlineGlobeAlt /> : <HiOutlineLocationMarker />}
+              {exam.jurisdiction === 'central' ? 'Central & All-India' : `State: ${exam.state}`}
             </span>
           </div>
           <h2 className="modal-title">{exam.name}</h2>
@@ -324,7 +329,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 <div className="modal-detail-item">
                   <div className="modal-detail-label">Scope & Jurisdiction</div>
                   <div className="modal-detail-value">
-                    {exam.jurisdiction === 'central' ? '🇮🇳 Central / All-India' : `🏛️ State Govt (${exam.state})`}
+                    {exam.jurisdiction === 'central' ? <><HiOutlineGlobeAlt /> Central / All-India</> : <><HiOutlineLocationMarker /> State Govt ({exam.state})</>}
                   </div>
                 </div>
                 {exam.cadre && (
