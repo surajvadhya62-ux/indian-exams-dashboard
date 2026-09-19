@@ -124,6 +124,29 @@ function tokenize(text) {
  * "UPSSSC JA", but Sarkari Result's own headline spelled it "Junior Assistant" rather
  * than "JA" — so the acronym-containment check missed a genuinely already-known exam.
  */
+// A third matching check — "trust a single, genuinely distinctive all-caps acronym
+// word on its own" — was tried and reverted during the 2026-09-19 review batch. It
+// fixed one real miss ("UKPSC Pre" not being recognised as the already-known `ukpsc`
+// exam, acronym "UKPSC PCS", because the candidate never says "PCS") but broke twice
+// trying to get there safely:
+//   1. Picking the longest acronym WORD by character count matched `bihar-pcs-j`'s
+//      "Bihar" (a state name, not an abbreviation) and silently swallowed the genuine
+//      "Bihar STET" candidate. Fixed by only considering words actually written in
+//      capitals in the source text.
+//   2. Even restricted to real capitals, "UPSSSC" is the longest such word in FIVE
+//      different already-tracked exams (one per post), RSMSSB in six — so requiring
+//      the word to belong to only one exam in the CURRENT database seemed like a fix,
+//      until `nielit-scientist-b` (acronym "NIELIT Scientist") showed the deeper
+//      problem: it made "NIELIT CCC" — a completely different, genuinely new exam
+//      from the same body — look already-known too. A conducting body's own
+//      abbreviation identifies the ORGANISATION, not a specific exam, and nothing in
+//      this data reliably says whether a given body runs one flagship exam (UKPSC
+//      effectively does) or several unrelated ones (NIELIT does). No rule tried could
+//      tell those apart from the acronym string alone.
+// Left as two checks, not three: a rare miss like UKPSC costs a human ten seconds to
+// notice already-exists; a body-name false match costs a real new exam silently
+// disappearing, which is worse and much harder to notice. See the file-level comment
+// for why that asymmetry is the standing design principle here.
 function buildKnownExamSets(exams) {
   const sets = []
   for (const exam of exams) {
