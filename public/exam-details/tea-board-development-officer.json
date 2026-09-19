@@ -90,26 +90,9 @@
     "perks_confidence": "verified"
   },
   "competition_benchmarks": {
-    "status": "available",
-    "note": "Field recruitment vacancies advertised by Tea Board of India.",
-    "years": [
-      {
-        "year": 2023,
-        "vacancies": 22,
-        "confidence": "verified",
-        "as_of": "2023-05-12",
-        "source_url": "https://www.teaboard.gov.in",
-        "source_label": "Tea Board Notification 2023"
-      },
-      {
-        "year": 2020,
-        "vacancies": 18,
-        "confidence": "verified",
-        "as_of": "2020-02-20",
-        "source_url": "https://www.teaboard.gov.in",
-        "source_label": "Tea Board Notification 2020"
-      }
-    ]
+    "status": "not_available",
+    "note": "No verified Development Officer recruitment data currently held. Two rows (2023: 22, 2020: 18) were removed 2026-09-19 after a direct check of teaboard.gov.in found no Development Officer notification of any kind for those years, or at all — see data-sourcing/AUDIT-2026-09-19-phantom-aggregator-rows.md. The only current Tea Board engagement found is a 2026 contractual Factory Advisory Officer role (5 posts), a different post and employment type, not entered here.",
+    "years": []
   },
   "official_downloads": {
     "status": "available",

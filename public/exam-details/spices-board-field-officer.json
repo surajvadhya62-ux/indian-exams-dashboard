@@ -91,23 +91,25 @@
   },
   "competition_benchmarks": {
     "status": "available",
-    "note": "Field officer vacancies advertised by Spices Board Kochi.",
+    "note": "Field officer vacancies advertised by Spices Board Kochi. Two rows (2023: 28, 2021: 20) were removed 2026-09-19 after a direct check of the Spices Board's own recruitment archive found no notification of any kind for those years — see data-sourcing/AUDIT-2026-09-19-phantom-aggregator-rows.md.",
     "years": [
       {
-        "year": 2023,
-        "vacancies": 28,
+        "year": 2016,
+        "vacancies": 5,
+        "applicants": null,
         "confidence": "verified",
-        "as_of": "2023-06-15",
-        "source_url": "https://www.indianspices.com",
-        "source_label": "Spices Board Notification 2023"
+        "as_of": "2016-06-30",
+        "source_url": "https://www.indianspices.com/sites/default/files/Notification-10%20_English_%20Final%20Revised%20(1).pdf",
+        "source_label": "Spices Board Notification No. 10 — Field Officer: 5 vacancies (UR 2, ST 1, SC 2). This is the most recent Field Officer notification found; none newer has been issued since. Downloaded directly from the official PDF, screenshot captured, 2026-09-19."
       },
       {
-        "year": 2021,
-        "vacancies": 20,
+        "year": 2015,
+        "vacancies": 6,
+        "applicants": null,
         "confidence": "verified",
-        "as_of": "2021-04-10",
-        "source_url": "https://www.indianspices.com",
-        "source_label": "Spices Board Notification 2021"
+        "as_of": "2015-10-15",
+        "source_url": "https://www.indianspices.com/sites/default/files/Notification%20for%20Post%20No%207%202015(corrected)2.pdf",
+        "source_label": "Spices Board Notification No. 7 — Assistant Director: 4 (Marketing 2, Accounts 1, Cyber Security 1) + Senior Field Officer: 2 = 6. Downloaded directly from the official PDF, screenshot captured, 2026-09-19."
       }
     ]
   },
