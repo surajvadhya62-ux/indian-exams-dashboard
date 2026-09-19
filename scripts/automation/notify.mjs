@@ -91,6 +91,52 @@ export async function notifyExamAdded(exam) {
   }
 }
 
+/**
+ * Sent when a scheduled discover-exams.mjs run finds candidates genuinely new since
+ * the last run — not on every run, only when there's actually something to look at.
+ * See discover-exams.mjs's own comments for why this is a summary count and links,
+ * not a verdict: nothing here has been checked against INCLUSION-POLICY.md yet.
+ *
+ * @param {{source: string, title: string, url: string}[]} candidates
+ * @returns {Promise<{sent: boolean, reason?: string}>}
+ */
+export async function notifyNewDiscoveryCandidates(candidates) {
+  const loaded = loadConfig()
+  if (!loaded.ok) {
+    return { sent: false, reason: loaded.reason }
+  }
+  const { senderEmail, senderAppPassword, recipientEmail } = loaded.cfg
+
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: { user: senderEmail, pass: senderAppPassword },
+  })
+
+  const subject = `${candidates.length} new discovery candidate(s) to review`
+  const lines = candidates.map((c) => `- [${c.source}] ${c.title}\n  ${c.url}`)
+  const text = [
+    `discover-exams.mjs's weekly run found ${candidates.length} title(s) that don't`,
+    `match anything already in the database.`,
+    ``,
+    ...lines,
+    ``,
+    `Nothing here is confirmed — these are leads, same as every other row in`,
+    `data-sourcing/DISCOVERY-QUEUE.md. Check each against INCLUSION-POLICY.md's`,
+    `six-condition test before adding anything.`,
+    ``,
+    `Full queue: data-sourcing/DISCOVERY-QUEUE.md`,
+    ``,
+    `— sent automatically by discover-exams.mjs`,
+  ].join('\n')
+
+  try {
+    await transporter.sendMail({ from: senderEmail, to: recipientEmail, subject, text })
+    return { sent: true }
+  } catch (err) {
+    return { sent: false, reason: `sendMail failed: ${err.message}` }
+  }
+}
+
 // Allow calling this file directly for a one-off connectivity test:
 //   node scripts/automation/notify.mjs --test
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {

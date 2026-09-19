@@ -58,6 +58,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { notifyNewDiscoveryCandidates } from './notify.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT_DIR = path.resolve(__dirname, '../..')
@@ -371,6 +372,17 @@ async function main() {
   saveJSON(SEEN_LOG_PATH, [...seen])
   console.log(`\n✓ Queued ${newCandidates.length} candidate(s) in data-sourcing/DISCOVERY-QUEUE.md`)
   console.log('  Nothing was written to exams.json or any dossier — these are leads, not data.')
+
+  // Only for a real (non-dry-run) batch that actually found something — a scheduled
+  // weekly run with nothing new sends no email at all, so a review prompt only ever
+  // means there's genuinely something to look at.
+  console.log('\nSending discovery notification...')
+  const notifyResult = await notifyNewDiscoveryCandidates(newCandidates)
+  if (notifyResult.sent) {
+    console.log('✓ Notification email sent.')
+  } else {
+    console.warn(`⚠ Notification email NOT sent: ${notifyResult.reason}`)
+  }
 }
 
 main().catch((err) => {
