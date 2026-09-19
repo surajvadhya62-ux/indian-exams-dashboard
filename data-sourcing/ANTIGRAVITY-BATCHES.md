@@ -242,7 +242,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Kendriya Vidyalaya Sangathan Teacher Recruitment  [kvs-pgt-tgt]  - conducted by KVS
 ```
 
-## Batch 21  -  high  -  [ ] done
+## Batch 21  -  high  -  [~] partial — run via Ling 3.0 (text-based, no screenshots); only lic-aao entered, `verified` (owner opened the PDF directly); lic-ado, lic-assistant, maha-krishi-sevak, maha-vanrakshak held on sourcing grounds, see VERIFICATION-QUEUE.md rows 101-105
 
 ```
 - LIC Assistant Administrative Officer  [lic-aao]  - conducted by LIC
@@ -252,7 +252,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Maharashtra Forest Guard (Vanrakshak) Examination  [maha-vanrakshak]  - conducted by Maharashtra Forest Department
 ```
 
-## Batch 22  -  high  -  [ ] done
+## Batch 22  -  high  -  [~] partial — run via Ling 3.0 (text-based, no screenshots); mahatransco entered, `verified` (owner opened the PDF directly); mpsc-manipur-cce needed no change (existing verified entry already better); mes-supervisor, nhpc-trainee-engineer, nmdc-maintenance-assistant held on sourcing grounds, see VERIFICATION-QUEUE.md rows 106-110
 
 ```
 - Maharashtra State Electricity Transmission Co (Mahatransco) AE Exam  [mahatransco-assistant-engineer]  - conducted by MSETCL
@@ -262,7 +262,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - NMDC Limited Junior Officer Trainee & Maintenance Assistant Exam  [nmdc-maintenance-assistant]  - conducted by NMDC Limited
 ```
 
-## Batch 23  -  high  -  [ ] done
+## Batch 23  -  high  -  [~] partial — run via Ling 3.0; ntse correctly resolved as no-data; nvs-tgt-pgt and pgimer-nursing-officer's Store Keeper post entered `verified`; ongc-finance-officer and pgimer-nursing-officer's Nursing Officer post and psssb-clerk held on sourcing grounds, see VERIFICATION-QUEUE.md rows 111-115
 
 ```
 - National Talent Search Examination  [ntse]  - conducted by NCERT
@@ -272,7 +272,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Punjab Subordinate Services Selection Board (PSSSB) Clerk Exam  [psssb-clerk]  - conducted by PSSSB
 ```
 
-## Batch 24  -  high  -  [ ] done
+## Batch 24  -  high  -  [~] partial — run via Ling 3.0; puducherry-udc and rpsc-ras entered `verified` (new cycles); rrb-sse reconfirmed existing entry (no change); punjab-judicial-service needs a re-run targeted at PPSC's Judicial Branch line item specifically; rsmssb-agriculture-supervisor held on sourcing grounds (and flags a citation weakness in its existing verified row too), see VERIFICATION-QUEUE.md rows 116-120
 
 ```
 - DP&AR Puducherry Upper Division Clerk (UDC) & Junior Assistant Exam  [puducherry-udc]  - conducted by DP&AR Puducherry
@@ -282,7 +282,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - RSMSSB Krishi Paryavekshak (Agriculture Supervisor) Exam  [rsmssb-agriculture-supervisor]  - conducted by RSMSSB
 ```
 
-## Batch 25  -  high  -  [ ] done
+## Batch 25  -  high  -  [~] partial — rsmssb-lab-assistant and spmcil-junior-office-associate (both 2026 drives) entered `verified`; rsmssb-informatics-assistant reconfirmed and citation upgraded; rsmssb-junior-accountant reconfirmed (no change); sjvn-field-engineer held — mirror-only sourcing plus a 3-way advert-number mismatch against the existing entry, see VERIFICATION-QUEUE.md rows 121-125
 
 ```
 - RSMSSB Informatics Assistant (Soochana Sahayak) Examination  [rsmssb-informatics-assistant]  - conducted by RSMSSB
@@ -292,7 +292,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Security Printing and Minting Corporation of India (SPMCIL) JOA Exam  [spmcil-junior-office-associate]  - conducted by SPMCIL
 ```
 
-## Batch 26  -  high  -  [ ] done
+## Batch 26  -  high  -  [~] partial — run via Ling 3.0; tn-judicial-service reconfirmed existing verified entry (no change); telangana-forest-fbo, thdc-engineer-trainee, wbcs-style "nothing found" resolved correctly; tn-mrb-staff-nurse flagged for future body-attribution risk (MRB vs NHM-TN); tpsc-cce held — new data was for a different recruitment, wrong scope, see VERIFICATION-QUEUE.md rows 126-130
 
 ```
 - Telangana Forest Department Forest Beat Officer (FBO) & Section Officer Exam  [telangana-forest-fbo]  - conducted by Telangana Forest Dept / TSPSC
@@ -302,7 +302,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Tripura Public Service Commission Combined Competitive Examination  [tpsc-cce]  - conducted by TPSC
 ```
 
-## Batch 27  -  high  -  [ ] done
+## Batch 27  -  high  -  [~] partial — real screenshots and downloaded PDFs for all 5; upprpb-jail-warder, upprpb-radio-operator, upsssc-forest-guard citations upgraded and new cycles added (all `verified`); upsssc-junior-assistant gained a new 2024 cycle and had its 2023 row's advert number and figure corrected; uk-judicial-service held — contradicts an existing verified figure for the same advert number, see VERIFICATION-QUEUE.md rows 131-135
 
 ```
 - Uttarakhand Judicial Service Civil Judge (Junior Division) Examination  [uk-judicial-service]  - conducted by UKPSC & Uttarakhand High Court
@@ -312,7 +312,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - UPSSSC Combined Junior Assistant & Clerk Examination  [upsssc-junior-assistant]  - conducted by UPSSSC
 ```
 
-## Batch 28  -  high  -  [ ] done
+## Batch 28  -  high  -  [~] partial — run via Ling 3.0; uptet and wbprb-excise-constable correctly resolved (no-data / correctly withheld); wbprb-kolkata-si reconfirmed existing verified entry (no change); upsssc-supply-inspector held (self-flagged unverifiable); wb-wbjs flagged — contradicts an existing verified figure for the same advert number, needs owner review, see VERIFICATION-QUEUE.md rows 136-140
 
 ```
 - UPSSSC Supply Inspector & Senior/Junior Assistant Examination  [upsssc-supply-inspector]  - conducted by UPSSSC
@@ -322,7 +322,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Kolkata Police Sub-Inspector & Sergeant Examination  [wbprb-kolkata-si]  - conducted by WBPRB
 ```
 
-## Batch 29  -  medium  -  [ ] done
+## Batch 29  -  medium  -  [x] done — all 5 sourced from direct official PDFs with real screenshots; arunachal-tet resolved as no-vacancy (closes out its post-fabrication "awaiting data" state); bis-scientist-b, bssc-stenographer, central-silk-board-scientist (Pre-Cocoon only), coffee-board-extension-officer (JLO+Extension Inspector only, not the notification's full post count) all entered `verified` with new cycles, see VERIFICATION-QUEUE.md rows 141-145
 
 ```
 - Arunachal Pradesh Teacher Eligibility Test (APTET)  [arunachal-tet]  - conducted by Directorate of Elementary Education Arunachal Pradesh
@@ -332,7 +332,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Coffee Board of India Junior Liaison Officer & Extension Officer Exam  [coffee-board-extension-officer]  - conducted by Coffee Board of India
 ```
 
-## Batch 30  -  medium  -  [ ] done
+## Batch 30  -  medium  -  [x] done — dsssb-special-educator and icfre-technical-assistant entered `verified` with real screenshots (new 2026 cycles); gsi-driver-mechanic correctly resolved as no-data; htet and dnb-pdcet reconfirmed (no change — existing entries were already correctly modelled), see VERIFICATION-QUEUE.md rows 146-150
 
 ```
 - Diplomate of National Board Post Diploma Centralized Entrance Test  [dnb-pdcet]  - conducted by NBE
@@ -342,7 +342,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Indian Council of Forestry Research and Education (ICFRE) Technical Assistant Exam  [icfre-technical-assistant]  - conducted by ICFRE Dehradun
 ```
 
-## Batch 31  -  medium  -  [ ] done
+## Batch 31  -  medium  -  [x] done — run via Ling 3.0; irfc-executive and mecl-geologist-engineer entered `verified` (direct official PDF, downloaded and text-extracted); kiocl-get and kvpy correctly resolved as no-data; jkpsc-kas held — sourced only to search results, official site not actually reached, see VERIFICATION-QUEUE.md rows 151-155
 
 ```
 - Indian Railway Finance Corporation (IRFC) Assistant Manager & Officer Exam  [irfc-executive]  - conducted by IRFC Limited
@@ -352,7 +352,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Mineral Exploration and Consultancy Limited (MECL) Geologist & Executive Exam  [mecl-geologist-engineer]  - conducted by MECL
 ```
 
-## Batch 32  -  medium  -  [ ] done
+## Batch 32  -  medium  -  [x] done — midhani-management-trainee corrected and entered `verified` (downloaded PDF, OCR-checked); osssc-mphw both rows upgraded to `verified` with corrected citations and a year fix; nbe-fet and neet-ss no change (existing entries already had the seat-matrix data this round missed); nia-si-inspector flagged as a possible inclusion-policy exclusion candidate — NIA runs no independent exam of its own, see VERIFICATION-QUEUE.md rows 156-160
 
 ```
 - Mishra Dhatu Nigam Limited (MIDHANI) Management Trainee & Executive Exam  [midhani-management-trainee]  - conducted by MIDHANI
@@ -362,7 +362,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - OSSSC Multipurpose Health Worker (Male / Female) Examination  [osssc-mphw]  - conducted by OSSSC
 ```
 
-## Batch 33  -  medium  -  [ ] done
+## Batch 33  -  medium  -  [x] done — rbi-office-attendant and both sail-act-oct cycles entered `verified`; rsmssb-sanganak's existing 2023 row corrected from a pre-amendment 583 to the amended 625; spices-board-field-officer gained two real historical rows but flagged its existing 2023/2021 rows as unconfirmed; tea-board-development-officer's only current posting is a scope-mismatched contractual role (not entered) and its existing 2023/2020 rows are also flagged as unconfirmed — see VERIFICATION-QUEUE.md rows 161-165. This is the last of the originally-planned 34 batches.
 
 ```
 - Reserve Bank of India Office Attendant Examination  [rbi-office-attendant]  - conducted by RBI
@@ -372,7 +372,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Tea Board of India Development Officer & Factory Advisory Officer Exam  [tea-board-development-officer]  - conducted by Tea Board of India
 ```
 
-## Batch 34  -  medium  -  [ ] done
+## Batch 34  -  medium  -  [~] partial — run via Ling 3.0; upcet, wbcs correctly resolved as no-data; upsssc-aso held — no traceable document link; upsssc-tubewell-operator checked independently and confirmed correct (Ling 3.0's citation concern was itself mistaken); tpsc-tcs confirmed a duplicate of tpsc-cce and removed from the database entirely, see VERIFICATION-QUEUE.md rows 166-170 and EXCLUSIONS.md
 
 ```
 - Uttar Pradesh Combined Entrance Test  [upcet]  - conducted by NTA (for UP government)
@@ -380,4 +380,113 @@ report nothing for that exam rather than falling back to a secondary figure.
 - UPSSSC Tubewell Operator (Nalkoop Chalak) Examination  [upsssc-tubewell-operator]  - conducted by UPSSSC
 - West Bengal Civil Service Exam  [wbcs]  - conducted by WBPSC
 - Tripura Public Service Commission Civil Service Examination  [tpsc-tcs]  - conducted by TPSC
+```
+
+---
+
+## Batch 35 (cleanup)  -  everything held or flagged from batches 21-34  -  [ ] done
+
+Not a fresh slice of the 170 — these 21 items already got a pass and failed for a specific,
+named reason each. The prompt below carries that context so the same mistake doesn't repeat.
+See VERIFICATION-QUEUE.md for the full history on each.
+
+```
+For each exam below, find the most recent recruitment notification issued by the conducting
+body itself. Do not use coaching sites, job-alert sites or news aggregators as a source - use
+them only to locate the official document. Report null for applicants unless the document
+states it. Capture a screenshot of the exact table or line that states the vacancy figure.
+
+Each exam has a note on why the last attempt didn't qualify - read it before searching, it
+tells you what to do differently this time.
+
+GROUP A - last attempt never actually reached the official site (relied on search results or
+secondary corroboration instead). This time, reach the primary document itself, not a summary
+of it:
+- LIC Apprentice Development Officer  [lic-ado]  - conducted by LIC - need a single official
+  document stating an all-India total; only a Delhi-zone-only figure (1,216) has been confirmed
+  so far
+- LIC Assistant Recruitment  [lic-assistant]  - conducted by LIC - the 2019 notification has no
+  consolidated total; check whether a newer LIC Assistant cycle exists at all
+- Maharashtra Krishi Sevak (Agriculture Assistant) Examination  [maha-krishi-sevak]  - conducted
+  by Agriculture Department Maharashtra - need the actual notification PDF, not just the
+  department homepage
+- Maharashtra Forest Guard (Vanrakshak) Examination  [maha-vanrakshak]  - conducted by
+  Maharashtra Forest Department - same problem, need the actual notification PDF
+- Jammu & Kashmir Public Service Commission Combined Competitive Examination  [jkpsc-kas]  -
+  conducted by JKPSC - jkpsc.nic.in must actually load this time; the 80/32 figures were sourced
+  from search results only
+- UPSSSC Assistant Statistical Officer (ASO) & ARO Examination  [upsssc-aso]  - conducted by
+  UPSSSC - need a real link to the Advt 05-Exam/2026 notification and its corrigendum, not just
+  "hosted on upsssc.gov.in"
+- UPSSSC Supply Inspector & Senior/Junior Assistant Examination  [upsssc-supply-inspector]  -
+  conducted by UPSSSC - upsssc.gov.in must actually load this time; last attempt admitted it
+  couldn't reach the site at all
+- Punjab Subordinate Services Selection Board (PSSSB) Clerk Exam  [psssb-clerk]  - conducted by
+  PSSSB - need the actual Advt 02/2026 / corrigendum document, not just "referenced at
+  sssb.punjab.gov.in"
+- ONGC Finance & Accounts Officer Recruitment  [ongc-finance-officer]  - conducted by ONGC - the
+  2022 figure (48) was cross-referenced from secondary sources because the ONGC page is
+  JS-rendered; try to reach the actual advertisement page or PDF directly
+- RSMSSB Krishi Paryavekshak (Agriculture Supervisor) Exam  [rsmssb-agriculture-supervisor]  -
+  conducted by RSMSSB - need the Advt 03/2026 document itself, not just the RSSB homepage.
+  Also check whether a specific document exists for the *existing* dossier's 2023 figure (430),
+  which is also only homepage-sourced
+
+GROUP B - last attempt found the figure only via a coaching-site/job-alert PDF mirror because
+the official domain either 404'd or wasn't reached. This time, get it from the conducting
+body's own domain:
+- Military Engineer Services (MES) Supervisor Barrack & Draughtsman Exam
+  [mes-supervisor-barrack-store]  - conducted by Military Engineer Services (MoD) - reconcile
+  against the existing dossier's 450 for what may be the same notification (Advt/DR/SS(2)/2021/CEPZ)
+- NHPC Limited Trainee Engineer & Trainee Officer Examination  [nhpc-trainee-engineer]  -
+  conducted by NHPC Limited - also check whether a *general* (non-SRD) cycle exists, since the
+  72-vacancy figure found was a reserved-category-only Special Recruitment Drive
+- NMDC Limited Junior Officer Trainee & Maintenance Assistant Exam
+  [nmdc-maintenance-assistant]  - conducted by NMDC Limited - nmdc.co.in is a script-rendered
+  page; try fetching the underlying advertisement PDF directly rather than the rendered page
+- SJVN Limited Field Engineer & Executive Trainee Examination  [sjvn-field-engineer]  -
+  conducted by SJVN Limited - THREE different advertisement numbers are now in play for this one
+  exam (existing: 105/2023 for 153 vacancies; new: 110/2023 for 50, and 122/2025 for 114) -
+  figure out which are real and how they relate before reporting anything
+- PGIMER Chandigarh Nursing Officer & Store Keeper Exam  [pgimer-nursing-officer]  - conducted by
+  PGIMER Chandigarh - specifically the Nursing Officer post (Advt PGI/RC/055/2026/2276, 243
+  vacancies) - need the actual PDF, not just "referenced at pgimer.edu.in" (the Store Keeper post
+  is already resolved, don't re-do it)
+
+GROUP C - last attempt searched the wrong angle and came back with "nothing found" that isn't
+actually a clean no-data result. Search more specifically this time:
+- Punjab Civil Service (Judicial Branch) Examination  [punjab-judicial-service]  - conducted by
+  PPSC & High Court of Punjab & Haryana - the existing dossier shows PPSC *does* sometimes bundle
+  a Judicial Branch component into its combined civil service notification (Advt 2022103, 2023).
+  Check PPSC's latest combined notification specifically for a Judicial Branch line item - don't
+  conclude "not found" just because a standalone notification doesn't exist
+- Tripura Public Service Commission Combined Competitive Examination  [tpsc-cce]  - conducted by
+  TPSC - this dossier specifically tracks the TCS (Deputy Collector/BDO) & TPS (DSP) Grade-II
+  combined exam. Last attempt returned data for an unrelated recruitment (ICDS Supervisor /
+  Inspector Small Savings, Advt 18/2025) - that is NOT this exam. Look specifically for a newer
+  TCS/TPS Grade-II cycle; if none exists beyond the existing 2022 entry (Advt 05/2022, 40
+  vacancies), say so plainly
+
+GROUP D - this one contradicts data already confirmed in our records. Resolve the conflict,
+don't just re-report the same figure:
+- West Bengal Judicial Service Examination (WBJS)  [wb-wbjs]  - conducted by WBPSC & Calcutta
+  High Court - our dossier has Advt 19/2023 verified at 29 vacancies from a specific PDF with a
+  full category cutoff table. Last attempt reported 54 for the same advert number, sourced only
+  to "psc.wb.gov.in, PDF hosted on site" with no link. Open the actual Advt 19/2023 document and
+  confirm which figure - 29 or 54 - is actually printed in it. Also check Advt 9/2024 (2024
+  cycle) the same way, from the primary document only
+
+GROUP E - these are figures already marked verified in our dossier, but a direct, thorough
+check this month found no notification behind them at all. Confirm whether each one is real -
+if you cannot find the underlying document, say so plainly rather than assuming it's fine:
+- LIC Apprentice Development Officer  [lic-ado]  - the existing 2023 row claims 9,394 vacancies,
+  "verified" - is there one official document stating this all-India total, or does it not exist?
+- Spices Board of India Field Officer & Assistant Director Exam
+  [spices-board-field-officer]  - existing rows claim 28 vacancies (2023) and 20 vacancies
+  (2021) - the most recent real notification found so far is from 2016. Do these 2023/2021
+  notifications exist at all?
+- Tea Board of India Development Officer & Factory Advisory Officer Exam
+  [tea-board-development-officer]  - existing rows claim 22 vacancies (2023) and 18 vacancies
+  (2020) for Development Officer - no Development Officer notification of any kind has been
+  found on teaboard.gov.in. Do these notifications exist at all?
 ```

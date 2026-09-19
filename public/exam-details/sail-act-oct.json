@@ -112,6 +112,25 @@
     "note": "Operative vacancy figures across SAIL plants.",
     "years": [
       {
+        "year": 2024,
+        "vacancies": 314,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2024-02-22",
+        "source_url": "https://d1cmkr5tdoeyjk.cloudfront.net/sail/pdf/FULL%20ADVT%2001_2024_OCTT.pdf",
+        "source_label": "SAIL centralized Advt. No. 01/2024 — Operator-cum-Technician Trainee (OCTT), pan-India across 9 plants/units and 10 disciplines: 314 vacancies (Mechanical 97, Electrical 65, Metallurgy 59, Computer/IT 20, Civil 22, Chemical 18, Instrumentation 17, Electronics 8, Ceramic 6, Draughtsman 2). Downloaded directly from the official PDF, screenshot captured, 2026-09-19."
+      },
+      {
+        "year": 2024,
+        "vacancies": 81,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2024-03-15",
+        "source_url": "https://d1cmkr5tdoeyjk.cloudfront.net/sail/pdf/REVISED%20DRAFT%20AD_NON-LATERAL%20DT%2015.3.24.pdf",
+        "source_label": "SAIL Bokaro Steel Plant & JGoM Mines Advt. No. BSL/R/2024/01 — plant-level Non-Executive drive: 81 posts as printed (Operator cum Technician 28, Attendant cum Technician 46, Mining Foreman 3, Surveyor 1, Mining Mate 3). ⚠ 34 of the Attendant-cum-Technician posts (JGoM Mining Trainee) were subsequently cancelled — the current effective total is uncertain and not recalculated here rather than guessed. Downloaded directly from the official PDF, screenshot captured, 2026-09-19. Excluded from the exams.json rollup: 34 posts cancelled after publication, so the printed 81 is not a current figure.",
+        "exclude_from_rollup": true
+      },
+      {
         "year": 2023,
         "vacancies": 85,
         "confidence": "verified",

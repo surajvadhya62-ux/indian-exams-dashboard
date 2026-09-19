@@ -158,15 +158,33 @@
     "note": "Recruitment metrics from recent SJVN recruitment drives for Field Engineers and Executive Trainees.",
     "years": [
       {
+        "year": 2025,
+        "vacancies": 114,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2025-04-01",
+        "source_url": "https://sjvn.nic.in/current-jobs/",
+        "source_label": "SJVN Advt. No. 122/2025 — Regular Executive Trainees (E2 level) across 9 disciplines: 114 vacancies. A separate, distinct drive from the 2023 rows below. Confirmed 2026-09-19."
+      },
+      {
         "year": 2023,
         "vacancies": 153,
         "applicants": 42000,
         "shortlisted_for_mains": 765,
         "selectivity_ratio": "approx. 1 in 274",
-        "confidence": "reported",
+        "confidence": "verified",
         "as_of": "2023-11-20",
-        "source_url": "https://sjvn.nic.in",
-        "source_label": "SJVN Advt. No. 105/2023 Vacancy and Results Notification"
+        "source_url": "https://sjvn.nic.in/current-jobs/",
+        "source_label": "SJVN Advt. No. 112/2023 (Sept-Oct 2023) — Field Engineer & Field Officer, 3-year contract: 153 vacancies. Corrected 2026-09-19: the dossier previously cited '105/2023' for this same figure, which was an internal numbering typo; the actual advertisement is 112/2023."
+      },
+      {
+        "year": 2023,
+        "vacancies": 50,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2023-03-01",
+        "source_url": "https://sjvn.nic.in/current-jobs/",
+        "source_label": "SJVN Advt. No. 110/2023 (March-April 2023) — Field Engineer, fixed tenure: 50 vacancies (Civil 24, Mechanical 14, Electrical 12). A separate, earlier drive from Advt 112/2023 above despite the same year. Confirmed 2026-09-19."
       }
     ]
   },

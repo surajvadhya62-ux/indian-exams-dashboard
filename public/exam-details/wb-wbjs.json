@@ -230,13 +230,22 @@
     "note": "Benchmark figures for WBJS 2023 (Advt. No. 19/2023) and WBJS 2022 (Advt. No. 19/2022) are extracted directly from official WBPSC notifications. In the 2023 cycle, 479 candidates qualified in the Preliminary examination for the Final written examination (Document No. 260 P.S.C./Con., dated 12.02.2026), which was conducted from 08.09.2026 to 19.09.2026. The 2022 cycle notified 29 vacancies (12 clear, 17 anticipated). The 2024 cycle (Advt. No. 9/2024) Preliminary examination was held on 27.09.2026.",
     "years": [
       {
+        "year": 2024,
+        "vacancies": 54,
+        "applicants": null,
+        "confidence": "reported",
+        "as_of": "2025-08-13",
+        "source_url": "https://psc.wb.gov.in",
+        "source_label": "WBPSC Advt. No. 09/2024 — WBJS 2024: 54 vacancies (UR 23, EWS 5, SC 12, ST 3, OBC-A 6, OBC-B 3, PwBD 2). Detailed advertisement issued 13.08.2025, concurrently with Advt 19/2023 — WBPSC ran the 2023 and 2024 cycles as a combined drive totalling 108. Held at `reported`: two independent checks agree on this figure and its breakdown sums exactly, but neither recovered a direct link to the advertisement itself."
+      },
+      {
         "year": 2023,
-        "vacancies": 29,
+        "vacancies": 54,
         "shortlisted_for_mains": 479,
-        "confidence": "verified",
-        "as_of": "2026-02-12",
-        "source_url": "https://psc.wb.gov.in/Download?param1=20260212170511_Results_WBJSRE_Preli_2023.pdf&param2=advertisement",
-        "source_label": "WBPSC — List of 479 Candidates Qualified for West Bengal Judicial Service (Final) Examination 2023 (No. 260 P.S.C./Con. dated 12.02.2026). Category cut-offs (out of 200): General 81.75, OBC-A 57.50, OBC-B 58.75, SC 42.50, ST 40.00, PwBD 40.25, EWS 31.75."
+        "confidence": "reported",
+        "as_of": "2025-08-13",
+        "source_url": "https://psc.wb.gov.in",
+        "source_label": "WBPSC Advt. No. 19/2023 — WBJS 2023: 54 vacancies (UR 23, EWS 5, SC 12, ST 3, OBC-A 6, OBC-B 3, PwBD 2), detailed advertisement 13.08.2025. Corrected 2026-09-19: this row previously showed 29, which was the 2022 cycle's figure carried forward — its cited source was a results notice (479 candidates qualified for the Final Examination, No. 260 P.S.C./Con. dated 12.02.2026) that states no vacancy count at all. The 479 shortlist figure from that notice is retained. Held at `reported` pending a direct link to the advertisement."
       },
       {
         "year": 2022,

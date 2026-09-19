@@ -173,7 +173,8 @@
         "confidence": "verified",
         "as_of": "2026-07-28",
         "source_url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf",
-        "source_label": "ISRO ICRB Advt. ISRO:ICRB:02(EMC-CEPO):2026 — GATE-score-based route for Scientist/Engineer 'SC': 92 vacancies (Electronics 34, Mechanical 26, Computer Science 13, Civil 10, Electrical 4, Refrigeration & AC 2, Architecture 2, plus 1 PRL post). Separate from, and not to be summed casually with, the CBT-route row above without checking whether the two drives target disjoint posts. Owner-verified against screenshot, 2026-09-19."
+        "source_label": "ISRO ICRB Advt. ISRO:ICRB:02(EMC-CEPO):2026 — GATE-score-based route for Scientist/Engineer 'SC': 92 vacancies (Electronics 34, Mechanical 26, Computer Science 13, Civil 10, Electrical 4, Refrigeration & AC 2, Architecture 2, plus 1 PRL post). Separate from, and not to be summed casually with, the CBT-route row above without checking whether the two drives target disjoint posts. Owner-verified against screenshot, 2026-09-19. Excluded from the exams.json rollup: may target the same posts as the CBT-route row, so the two are not summed.",
+        "exclude_from_rollup": true
       },
       {
         "year": 2023,
