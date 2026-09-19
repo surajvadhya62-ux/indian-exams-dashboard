@@ -8,7 +8,6 @@ import {
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
 import { isJobTrack } from '../utils/trackLabels'
-import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import { SkeletonGrid } from './Skeletons'
 
 export default function ExamGrid({
@@ -59,6 +58,7 @@ export default function ExamGrid({
     if (exportingPdfId) return
     try {
       setExportingPdfId(exam.id)
+      const { exportExamDossierPdf } = await import('../utils/pdfGenerator')
       await exportExamDossierPdf(exam)
     } catch (err) {
       console.error('Failed to export row PDF:', err)

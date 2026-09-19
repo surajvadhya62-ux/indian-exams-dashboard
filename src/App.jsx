@@ -1,31 +1,44 @@
-import { useState, useMemo, useCallback, useRef, useEffect } from 'react'
+import { useState, useMemo, useCallback, useRef, useEffect, lazy, Suspense } from 'react'
 import './index.css'
 import examsData from './data/exams.json'
 import Header from './components/Header'
 import StatsOverview from './components/StatsOverview'
 import SearchFilter from './components/SearchFilter'
 import ExamGrid from './components/ExamGrid'
-import Analytics from './components/Analytics'
-import ComparisonTool from './components/ComparisonTool'
-import CalendarView from './components/CalendarView'
-import ExamDetail from './components/ExamDetail'
-import GovtGradesGuide from './components/GovtGradesGuide'
-import HowToUse from './components/HowToUse'
-import CoverageMethod from './components/CoverageMethod'
 import ColdBootIntro from './components/ColdBootIntro'
 import StoryGate from './components/StoryGate'
-import ExamWizard from './components/ExamWizard'
-import EligibilityScreener from './components/EligibilityScreener'
 import MobileNav from './components/MobileNav'
 import ErrorBoundary from './components/ErrorBoundary'
-import Feedback from './components/Feedback'
-import CommandPalette from './components/CommandPalette'
-import UpdatesFeed from './components/UpdatesFeed'
 import NewsTicker from './components/NewsTicker'
-import MyDashboard from './components/MyDashboard'
-import WalkthroughTour from './components/WalkthroughTour'
-import AuthModal from './components/AuthModal'
-import SyllabusOverlapEngine from './components/SyllabusOverlapEngine'
+import { ViewLoadingFallback } from './components/Skeletons'
+
+// Code-split everything that isn't needed for the first paint of the
+// Explore view (the landing view — see `pageReleased`/`dashboardEntered`
+// below). Before this, all of these — including Analytics (pulls in
+// recharts), the PDF/calendar exporters, and every secondary view — shipped
+// in one ~2MB chunk that a visitor downloaded before seeing a single exam.
+// Most of this audience is on a mid-range Android phone on mobile data,
+// where that's a real cost, not a rounding error. Each of these now loads
+// only when its view is actually opened.
+const Analytics = lazy(() => import('./components/Analytics'))
+const ComparisonTool = lazy(() => import('./components/ComparisonTool'))
+const CalendarView = lazy(() => import('./components/CalendarView'))
+const ExamDetail = lazy(() => import('./components/ExamDetail'))
+const GovtGradesGuide = lazy(() => import('./components/GovtGradesGuide'))
+const HowToUse = lazy(() => import('./components/HowToUse'))
+const CoverageMethod = lazy(() => import('./components/CoverageMethod'))
+const ExamWizard = lazy(() => import('./components/ExamWizard'))
+const EligibilityScreener = lazy(() => import('./components/EligibilityScreener'))
+const Feedback = lazy(() => import('./components/Feedback'))
+const CommandPalette = lazy(() => import('./components/CommandPalette'))
+const UpdatesFeed = lazy(() => import('./components/UpdatesFeed'))
+const MyDashboard = lazy(() => import('./components/MyDashboard'))
+const WalkthroughTour = lazy(() => import('./components/WalkthroughTour'))
+const AuthModal = lazy(() => import('./components/AuthModal'))
+// SyllabusOverlapEngine (the real overlap UI) was imported here but never
+// rendered — the 'overlap' view shows an inline "under maintenance"
+// placeholder instead (see below). Dropped the dead import rather than
+// lazy-loading a component nothing ever mounts.
 
 /* Session-gated intro check:
    Plays once per session, unless ?intro=1 forces it, or user has reduced motion */
@@ -531,7 +544,7 @@ function App() {
         {!dashboardEntered ? (
           <StoryGate exams={examsData} onEnter={handleDashboardEnter} />
         ) : (
-          <>
+          <Suspense fallback={<ViewLoadingFallback />}>
             {/* Tab 1: Statutory Gazette & Examination Wire */}
             {activeView === 'updates' && (
               <div className="fade-in">
@@ -586,7 +599,7 @@ function App() {
                   Syllabus Overlap Engine Under Refinement
                 </h2>
                 <p style={{ fontSize: '1rem', color: 'var(--muted)', lineHeight: '1.6', marginBottom: '2.5rem' }}>
-                  We are currently upgrading the cross-exam syllabus ontology, micro-topic crosswalks, and paper-by-paper stage calibration across all 500 Central and State examinations. This module is undergoing comprehensive enhancement and will return in an upcoming release.
+                  We are currently upgrading the cross-exam syllabus ontology, micro-topic crosswalks, and paper-by-paper stage calibration across all {examsData.length} Central and State examinations. This module is undergoing comprehensive enhancement and will return in an upcoming release.
                 </p>
                 <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
                   <button className="btn-primary" onClick={() => goToView('explore')} style={{ padding: '10px 22px' }}>
@@ -636,7 +649,7 @@ function App() {
                     <span className="live-pulse-dot" />
                     <span>CENTRAL & STATE STATUTORY RECRUITMENT REGISTRY</span>
                   </div>
-                  <h1 className="workstation-title">{examsData.length} Indian Examinations Intelligence Terminal</h1>
+                  <h1 className="workstation-title">{examsData.length} Indian Government Exams</h1>
                   <p className="workstation-subtitle">
                     Official statutory repository across 342 commissions, verified gazette cycles, 7th CPC cadres, and downloadable vector dossiers.
                   </p>
@@ -749,33 +762,37 @@ function App() {
                 />
               </div>
             )}
-          </>
+          </Suspense>
         )}
       </main>
 
       {/* Guide Modal when opened from header 'Guide' button */}
       {isGuideOpen && (
-        <div className="modal-overlay" onClick={() => setIsGuideOpen(false)}>
-          <div className="modal-content guide-modal-content" onClick={e => e.stopPropagation()}>
-            <button className="modal-close" onClick={() => setIsGuideOpen(false)} aria-label="Close guide">✕</button>
-            <HowToUse
-              setActiveView={(v) => { setIsGuideOpen(false); goToView(v) }}
-              setFilters={setFilters}
-              setSearchQuery={setSearchQuery}
-              totalExams={examsData.length}
-            />
+        <Suspense fallback={null}>
+          <div className="modal-overlay" onClick={() => setIsGuideOpen(false)}>
+            <div className="modal-content guide-modal-content" onClick={e => e.stopPropagation()}>
+              <button className="modal-close" onClick={() => setIsGuideOpen(false)} aria-label="Close guide">✕</button>
+              <HowToUse
+                setActiveView={(v) => { setIsGuideOpen(false); goToView(v) }}
+                setFilters={setFilters}
+                setSearchQuery={setSearchQuery}
+                totalExams={examsData.length}
+              />
+            </div>
           </div>
-        </div>
+        </Suspense>
       )}
 
       {/* Exam Detail Modal */}
       {selectedExam && (
-        <ExamDetail
-          exam={selectedExam}
-          allExams={examsData}
-          onSelectExam={openExamDetail}
-          onClose={closeExamDetail}
-        />
+        <Suspense fallback={null}>
+          <ExamDetail
+            exam={selectedExam}
+            allExams={examsData}
+            onSelectExam={openExamDetail}
+            onClose={closeExamDetail}
+          />
+        </Suspense>
       )}
 
       {/* Mobile Bottom Navigation */}
@@ -786,39 +803,55 @@ function App() {
         bookmarkCount={bookmarks.length}
       />
 
-      {/* Command Palette (Ctrl+K / ⌘K) */}
-      <CommandPalette
-        isOpen={isCommandPaletteOpen}
-        onClose={() => setIsCommandPaletteOpen(false)}
-        allExams={examsData}
-        onSelectExam={openExamDetail}
-        setActiveView={goToView}
-        theme={theme}
-        setTheme={setTheme}
-        clearFilters={clearFilters}
-        onOpenOverlap={openSyllabusOverlap}
-      />
+      {/* Command Palette (Ctrl+K / ⌘K) — mounted only while open. The
+          Cmd+K keyboard listener lives in this file (see the effect near
+          the top), not inside CommandPalette itself, so it still opens
+          on the shortcut even though the component isn't in the tree
+          until then. */}
+      {isCommandPaletteOpen && (
+        <Suspense fallback={null}>
+          <CommandPalette
+            isOpen={isCommandPaletteOpen}
+            onClose={() => setIsCommandPaletteOpen(false)}
+            allExams={examsData}
+            onSelectExam={openExamDetail}
+            setActiveView={goToView}
+            theme={theme}
+            setTheme={setTheme}
+            clearFilters={clearFilters}
+            onOpenOverlap={openSyllabusOverlap}
+          />
+        </Suspense>
+      )}
 
       {/* Interactive Feature Walkthrough Tour Overlay */}
-      <WalkthroughTour
-        isOpen={isTourOpen}
-        onClose={() => setIsTourOpen(false)}
-        activeView={activeView}
-        setActiveView={goToView}
-        onOpenAuth={() => setIsAuthModalOpen(true)}
-      />
+      {isTourOpen && (
+        <Suspense fallback={null}>
+          <WalkthroughTour
+            isOpen={isTourOpen}
+            onClose={() => setIsTourOpen(false)}
+            activeView={activeView}
+            setActiveView={goToView}
+            onOpenAuth={() => setIsAuthModalOpen(true)}
+          />
+        </Suspense>
+      )}
 
       {/* Site-Wide Aspirant Account & Vault Modal */}
-      <AuthModal
-        isOpen={isAuthModalOpen}
-        onClose={() => setIsAuthModalOpen(false)}
-        currentUser={currentUser}
-        onLogin={handleLogin}
-        onLogout={handleLogout}
-        bookmarks={bookmarks}
-        todoList={todoList}
-        exams={examsData}
-      />
+      {isAuthModalOpen && (
+        <Suspense fallback={null}>
+          <AuthModal
+            isOpen={isAuthModalOpen}
+            onClose={() => setIsAuthModalOpen(false)}
+            currentUser={currentUser}
+            onLogin={handleLogin}
+            onLogout={handleLogout}
+            bookmarks={bookmarks}
+            todoList={todoList}
+            exams={examsData}
+          />
+        </Suspense>
+      )}
     </ErrorBoundary>
   )
 }

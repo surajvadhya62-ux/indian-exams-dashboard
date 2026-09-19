@@ -120,10 +120,24 @@ export function SkeletonStat() {
   )
 }
 
+// Generic fallback for a lazy-loaded view/modal while its code chunk
+// downloads (see App.jsx's code-splitting — most views load on demand
+// rather than in the initial bundle). Deliberately brief and undetailed:
+// on a warm cache this flashes for a frame or two, so it isn't worth
+// building a page-specific skeleton for every destination.
+export function ViewLoadingFallback() {
+  return (
+    <div className="view-loading-fallback fade-in">
+      <div className="skeleton-pill" style={{ width: '46px', height: '46px', borderRadius: '50%' }} />
+    </div>
+  )
+}
+
 export default {
   SkeletonCard,
   SkeletonGrid,
   SkeletonChart,
   SkeletonModal,
-  SkeletonStat
+  SkeletonStat,
+  ViewLoadingFallback
 }

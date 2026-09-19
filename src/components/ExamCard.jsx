@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { getDomainColor } from '../utils/helpers'
 import { isJobTrack } from '../utils/trackLabels'
 import { isRegistryTier } from '../utils/recordTier'
-import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import {
   HiOutlineBookmark, HiBookmark,
   HiOutlineOfficeBuilding, HiOutlineArrowRight,
@@ -37,6 +36,10 @@ export default function ExamCard({
     if (isExportingPdf) return
     try {
       setIsExportingPdf(true)
+      // Dynamic import — jspdf/jspdf-autotable are a meaningful chunk of
+      // weight that every visitor used to pay for on first load, whether
+      // or not they ever export a PDF (see App.jsx's code-splitting note).
+      const { exportExamDossierPdf } = await import('../utils/pdfGenerator')
       await exportExamDossierPdf(exam)
     } catch (err) {
       console.error('Failed to export PDF dossier:', err)
@@ -174,7 +177,7 @@ export default function ExamCard({
           onClick={onViewDetails}
           title="Open comprehensive examination intelligence modal"
         >
-          <span>Inspect</span>
+          <span>View details</span>
           <HiOutlineArrowRight className="btn-arrow" />
         </button>
       </div>
