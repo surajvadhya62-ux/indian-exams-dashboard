@@ -26,6 +26,8 @@ dist-ssr
 dist.zip
 site.zip
 scripts/automation/*.json
+# Except the checked-in template for notify-config.json (real credentials, gitignored above).
+!scripts/automation/notify-config.example.json
 
 # Portal watch working state. The snapshots are regenerable machine state and churn on every
 # run; the permanent record is data-sourcing/PORTAL-CHANGE-LOG.md, which IS tracked.

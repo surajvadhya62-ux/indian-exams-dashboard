@@ -1,0 +1,6 @@
+{
+  "_comment": "Copy this file to notify-config.json (no .example) and fill in the real values. notify-config.json is gitignored (covered by 'scripts/automation/*.json' in .gitignore) — it never gets committed. Do not put real credentials in this .example file.",
+  "senderEmail": "indiaexamsautomation@gmail.com",
+  "senderAppPassword": "16-character Gmail app password goes here — see myaccount.google.com/apppasswords. Not your regular Gmail password.",
+  "recipientEmail": "surajvadhya62@gmail.com"
+}

@@ -17,6 +17,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { execSync } from 'node:child_process'
+import { notifyExamAdded } from './notify.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -128,7 +129,7 @@ function createDetailDossierTemplate(exam) {
 // establishes is the exam's identity (name, conducting body, track/type) and, ideally, a
 // source link — see data-sourcing/INCLUSION-POLICY.md §4 (two-tier registry/dossier model).
 // Everything else is required explicitly or left blank; nothing is guessed.
-function addNewExam(newExamData, dryRun = false) {
+async function addNewExam(newExamData, dryRun = false) {
   const exams = loadJSON(EXAMS_JSON_PATH)
   if (!exams) return false
 
@@ -237,6 +238,20 @@ function addNewExam(newExamData, dryRun = false) {
   } catch (err) {
     console.error('Validation failed on newly added exam:', err.message)
     return false
+  }
+
+  // 5. Owner notification — a standing requirement: an email every time a new exam is
+  // actually added (not on --dry-run, and not for a discovery-queue lead — only here,
+  // after the write and validation above have both succeeded). Never blocks the add
+  // itself: a failed email is logged, not fatal, since refusing a verified exam over a
+  // notification failure would be a worse outcome than a missed email.
+  console.log('\nSending owner notification...')
+  const notifyResult = await notifyExamAdded(examEntry)
+  if (notifyResult.sent) {
+    console.log('✓ Notification email sent.')
+  } else {
+    console.warn(`⚠ Notification email NOT sent: ${notifyResult.reason}`)
+    console.warn('  The exam was still added successfully — this only affects the email.')
   }
 
   printStats(exams)
@@ -663,7 +678,7 @@ async function main() {
       frequency,
     }
 
-    addNewExam(newExam, isDryRun)
+    await addNewExam(newExam, isDryRun)
   }
 
   // Update existing exam via CLI parameters
