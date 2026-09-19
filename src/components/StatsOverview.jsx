@@ -17,10 +17,15 @@ export default function StatsOverview({ exams = [], countUp = true }) {
     const verifiedVacancyCount = exams.filter(e => e.provenance?.vacancies?.confidence === CONFIDENCE.VERIFIED).length
     const total = exams.length || 500
     const verifiedVacancyPct = total ? Math.round((verifiedVacancyCount / total) * 100) : 0
+    // Was hardcoded to 342 — a one-time snapshot that went stale the
+    // moment an added exam introduced a conducting body it had never
+    // seen. Computed live here instead; see
+    // scripts/automation/derive-authorities.mjs.
+    const authorities = new Set(exams.map(e => e.conducting_body)).size
 
     return {
       total,
-      authorities: 342,
+      authorities,
       central: centralCount,
       state: stateCount,
       entrance: entranceCount,

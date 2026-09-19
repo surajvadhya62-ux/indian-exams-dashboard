@@ -33,7 +33,8 @@ export default function CoverageMethod({ exams = [], setActiveView }) {
     const dossierTier = total - registryTier
     const verifiedVacancy = exams.filter(e => e.provenance?.vacancies?.confidence === CONFIDENCE.VERIFIED).length
     const noVacancyPublished = total - verifiedVacancy
-    return { total, R, A, Q, registryTier, dossierTier, verifiedVacancy, noVacancyPublished }
+    const authorities = new Set(exams.map(e => e.conducting_body)).size
+    return { total, R, A, Q, registryTier, dossierTier, verifiedVacancy, noVacancyPublished, authorities }
   }, [exams])
 
   const goExplore = (extra) => {
@@ -224,7 +225,7 @@ export default function CoverageMethod({ exams = [], setActiveView }) {
           <ul className="card-points">
             <li><HiOutlineExclamation className="check-icon" style={{ color: 'var(--amber-bright, #e8a33d)' }} /><span>165 dossier rows are marked &ldquo;Verified&rdquo; but currently cite only a conducting body&rsquo;s homepage rather than a specific document, and are held back from the summary figure until they cite one.</span></li>
             <li><HiOutlineExclamation className="check-icon" style={{ color: 'var(--amber-bright, #e8a33d)' }} /><span>No systematic check has yet been run on whether every &ldquo;Verified&rdquo; row&rsquo;s underlying notification genuinely exists. Two such rows were found, by chance, to have no notification behind them at all and were removed — the rest have not all been individually re-checked.</span></li>
-            <li><HiOutlineExclamation className="check-icon" style={{ color: 'var(--amber-bright, #e8a33d)' }} /><span>Automated change-detection currently reaches 24 of 342 recruiting authorities (about 97 of {stats.total} exams) — many state portals render their notice boards with JavaScript that a lightweight watcher cannot read, or actively block traffic from outside India.</span></li>
+            <li><HiOutlineExclamation className="check-icon" style={{ color: 'var(--amber-bright, #e8a33d)' }} /><span>Automated change-detection currently reaches 24 of {stats.authorities} recruiting authorities (about 97 of {stats.total} exams) — many state portals render their notice boards with JavaScript that a lightweight watcher cannot read, or actively block traffic from outside India.</span></li>
             <li><HiOutlineExclamation className="check-icon" style={{ color: 'var(--amber-bright, #e8a33d)' }} /><span>Discovery of new exams currently draws on two public aggregators (Sarkari Result, Employment News). A third, the National Career Service, was deliberately left out for now — its useful content sits behind a search flow this isn&rsquo;t yet built to drive, not because it was overlooked.</span></li>
           </ul>
         </div>

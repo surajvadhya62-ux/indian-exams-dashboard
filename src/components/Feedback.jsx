@@ -420,11 +420,11 @@ export default function Feedback({ exams = [], onBackToExplore }) {
             </p>
             <div className="trust-stats-row">
               <div className="trust-stat">
-                <span className="trust-num">500</span>
-                <span className="trust-sub">Exams Verified</span>
+                <span className="trust-num">{exams.length}</span>
+                <span className="trust-sub">Exams Tracked</span>
               </div>
               <div className="trust-stat">
-                <span className="trust-num">342</span>
+                <span className="trust-num">{new Set(exams.map(e => e.conducting_body)).size}</span>
                 <span className="trust-sub">Authorities</span>
               </div>
               <div className="trust-stat">

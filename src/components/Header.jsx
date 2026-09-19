@@ -23,6 +23,7 @@ export default function Header({
   activeView,
   setActiveView,
   totalExams = 500,
+  totalAuthorities = 342,
   compareCount = 0,
   bookmarkCount = 0,
   onLogoClick,
@@ -107,11 +108,11 @@ export default function Header({
 
           {/* Center / Right Telemetry Status & Controls */}
           <div className="hud-controls">
-            {/* Live 342 Authorities Status Pill */}
-            <div className="hud-statutory-pill" title="Continuous automated ingestion across 342 official commissions">
+            {/* Live authority-count status pill */}
+            <div className="hud-statutory-pill" title={`Continuous automated ingestion across ${totalAuthorities} official commissions`}>
               <span className="hud-live-dot" />
               <span className="hud-statutory-label">
-                <strong>{totalExams}</strong> exams · <strong>342</strong> bodies
+                <strong>{totalExams}</strong> exams · <strong>{totalAuthorities}</strong> bodies
               </span>
             </div>
 

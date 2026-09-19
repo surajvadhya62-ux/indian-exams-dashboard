@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import {
   HiOutlineGlobeAlt, HiOutlineNewspaper, HiOutlineBookmark,
   HiOutlineCalendar, HiOutlineBadgeCheck, HiOutlineScale,
@@ -8,7 +8,13 @@ import {
   HiOutlineX, HiOutlineCheckCircle, HiOutlineLightningBolt
 } from 'react-icons/hi'
 
-export const TOUR_STEPS = [
+// Was a static array with 8 numbers (500 exams, 342 authorities, a 247/253
+// central/state split) baked directly into narrative strings — all stale
+// the moment an exam was added, and all silently wrong for a while (see
+// App.jsx's totalAuthorities comment for how "342" specifically drifted).
+// Built by a function taking live counts instead, called from inside the
+// component below.
+export const getTourSteps = ({ totalExams = 500, totalAuthorities = 342, centralCount = 247, stateCount = 253 } = {}) => [
   {
     id: 'explore',
     viewId: 'explore',
@@ -17,9 +23,9 @@ export const TOUR_STEPS = [
     badge: 'Registry Core',
     icon: <HiOutlineGlobeAlt />,
     accent: '#3b82f6',
-    description: 'The national registry cataloging 500 verified examinations across 342 statutory conducting bodies.',
+    description: `The national registry cataloging ${totalExams} verified examinations across ${totalAuthorities} statutory conducting bodies.`,
     features: [
-      'Dual-Track Scope: Filter instantly between Central & All-India (247 exams) and State Government (253 exams).',
+      `Dual-Track Scope: Filter instantly between Central & All-India (${centralCount} exams) and State Government (${stateCount} exams).`,
       '20 Disciplines & 6 Qualification Tiers: Precision filtering from 10th Pass to Ph.D. across Engineering, Defence, Law, and more.',
       'Dossier Grid vs Bloomberg Data Matrix: Switch views effortlessly for rapid high-density examination scanning.'
     ],
@@ -37,7 +43,7 @@ export const TOUR_STEPS = [
     features: [
       'Dual-Pipeline Engine: Combines official statutory gazette notices with live RSS media dispatch.',
       'Notification Tagging: Immediate visual indicators for Results, Admit Cards, Application Deadlines, and Syllabi.',
-      '342 Commissions Covered: Real-time surveillance of UPSC, SSC, RRB, NTA, and all 28 State Public Service Commissions.'
+      `${totalAuthorities} Commissions Covered: Real-time surveillance of UPSC, SSC, RRB, NTA, and all 28 State Public Service Commissions.`
     ],
     hint: 'Tip: Look at the top marquee ticker for real-time notification alerts across India.'
   },
@@ -81,7 +87,7 @@ export const TOUR_STEPS = [
     badge: 'Precision Filtering',
     icon: <HiOutlineBadgeCheck />,
     accent: '#06b6d4',
-    description: 'Match your personal profile against all 500 examinations in under 5 seconds.',
+    description: `Match your personal profile against all ${totalExams} examinations in under 5 seconds.`,
     features: [
       'Age & Quota Relaxation: Automatically factors in age limits with Category relaxations (OBC, SC, ST, EWS).',
       'Credential Mapping: Select your exact educational degree to view every single eligible public opening.',
@@ -132,7 +138,7 @@ export const TOUR_STEPS = [
     description: 'Interactive geospatial density maps, national recruitment statistics, and custom cross-tabulations.',
     features: [
       'Interactive India Map: Click any state to view verified examination density and regional commissions.',
-      'Custom Analytics Studio: Group and calculate 500 examinations by Domain, Jurisdiction, Mode, or Pay.',
+      `Custom Analytics Studio: Group and calculate ${totalExams} examinations by Domain, Jurisdiction, Mode, or Pay.`,
       'One-Click CSV Export: Export custom cross-tabulation datasets directly for research.'
     ],
     hint: 'Tip: Click any bar or pie slice on Analytics to filter the Registry automatically.'
@@ -161,7 +167,7 @@ export const TOUR_STEPS = [
     badge: 'Publication-Grade Reports',
     icon: <HiOutlineDocumentText />,
     accent: '#14b8a6',
-    description: 'Generate publication-grade 4-page PDF research reports for any of the 500 examinations.',
+    description: `Generate publication-grade 4-page PDF research reports for any of the ${totalExams} examinations.`,
     features: [
       'One-Click Vector PDF: Generates crisp, print-ready dossiers with zero raster pixelation.',
       'Complete Syllabus & Benchmarks: In-depth subject breakdown, negative marking rules, and 2024–2026 cutoffs.',
@@ -192,8 +198,17 @@ export default function WalkthroughTour({
   onClose,
   activeView,
   setActiveView,
-  onOpenAuth
+  onOpenAuth,
+  totalExams,
+  totalAuthorities,
+  centralCount,
+  stateCount
 }) {
+  const TOUR_STEPS = useMemo(
+    () => getTourSteps({ totalExams, totalAuthorities, centralCount, stateCount }),
+    [totalExams, totalAuthorities, centralCount, stateCount]
+  )
+
   const [currentStepIndex, setCurrentStepIndex] = useState(() => {
     try {
       const stepParam = parseInt(new URLSearchParams(window.location.search).get('tourStep'), 10)

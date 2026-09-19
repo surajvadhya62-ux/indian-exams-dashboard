@@ -384,6 +384,15 @@ function App() {
 
   const centralCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'central').length, [])
   const stateCount = useMemo(() => examsData.filter(e => e.jurisdiction === 'state').length, [])
+  // Was hardcoded "342" in ~8 places across the UI (Header, StatsOverview,
+  // this file's own subtitle, WalkthroughTour, Feedback, UpdatesFeed) —
+  // a one-time snapshot that silently went stale the moment an added exam
+  // introduced a conducting body the snapshot had never seen. Computed
+  // live here, same as totalExams, and threaded down as a prop. See
+  // scripts/automation/derive-authorities.mjs, which keeps the fuller
+  // src/data/authorities.json (used by UpdatesFeed's authority filter)
+  // in sync with the same source data.
+  const totalAuthorities = useMemo(() => new Set(examsData.map(e => e.conducting_body)).size, [])
 
   // Filtered & Sorted Exams
   const filteredExams = useMemo(() => {
@@ -526,6 +535,7 @@ function App() {
         activeView={activeView}
         setActiveView={goToView}
         totalExams={examsData.length}
+        totalAuthorities={totalAuthorities}
         compareCount={compareList.length}
         bookmarkCount={bookmarks.length}
         onLogoClick={handleLogoClick}
@@ -651,7 +661,7 @@ function App() {
                   </div>
                   <h1 className="workstation-title">{examsData.length} Indian Government Exams</h1>
                   <p className="workstation-subtitle">
-                    Official statutory repository across 342 commissions, verified gazette cycles, 7th CPC cadres, and downloadable vector dossiers.
+                    Official statutory repository across {totalAuthorities} commissions, verified gazette cycles, 7th CPC cadres, and downloadable vector dossiers.
                   </p>
                 </div>
                 <StatsOverview exams={examsData} countUp={pageReleased} />
@@ -833,6 +843,10 @@ function App() {
             activeView={activeView}
             setActiveView={goToView}
             onOpenAuth={() => setIsAuthModalOpen(true)}
+            totalExams={examsData.length}
+            totalAuthorities={totalAuthorities}
+            centralCount={centralCount}
+            stateCount={stateCount}
           />
         </Suspense>
       )}

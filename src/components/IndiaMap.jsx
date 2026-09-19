@@ -135,7 +135,7 @@ export default function IndiaMap({ exams = [], onApplyFilter }) {
             🗺️ Interactive National Examination Density Map
           </h3>
           <span className="chart-card-subtitle">
-            Geospatial concentration of 253 state public service and departmental recruitment examinations
+            Geospatial concentration of {exams.filter(e => e.jurisdiction === 'state').length} state public service and departmental recruitment examinations
           </span>
         </div>
         <div className="map-legend-row">

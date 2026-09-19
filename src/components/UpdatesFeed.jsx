@@ -113,7 +113,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
   // Filtered dispatches based on all criteria
   const filteredDispatches = useMemo(() => {
     return combinedStream.filter(item => {
-      // Authority match (across 342 conducting authorities)
+      // Authority match (across authoritiesData.length conducting authorities)
       if (selectedAuthority !== 'all') {
         const target = selectedAuthority.toLowerCase().trim()
         const authFull = (item.authority_full || '').toLowerCase()
@@ -221,21 +221,21 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
           <div className="mterminal-section-title">
             <span className="mterminal-amber-label">STATUTORY GAZETTE & EXAMINATION WIRE</span>
             <span className="mterminal-status-pill">
-              <span className="mterminal-pulse-dot" /> 342 COMMISSIONS INDEXED
+              <span className="mterminal-pulse-dot" /> {authoritiesData.length} COMMISSIONS INDEXED
             </span>
           </div>
 
           <div className="mterminal-filter-cluster">
-            {/* Conducting Authority Dropdown covering all 342 authorities */}
+            {/* Conducting Authority Dropdown covering every known authority */}
             <div className="mterminal-select-wrapper">
               <select
                 className="mterminal-select mterminal-authority-select"
                 value={selectedAuthority}
                 onChange={(e) => setSelectedAuthority(e.target.value)}
-                aria-label="Filter by Conducting Authority (342 total)"
-                title="Select from 342 conducting authorities"
+                aria-label={`Filter by Conducting Authority (${authoritiesData.length} total)`}
+                title={`Select from ${authoritiesData.length} conducting authorities`}
               >
-                <option value="all">All 342 Conducting Authorities</option>
+                <option value="all">All {authoritiesData.length} Conducting Authorities</option>
                 <optgroup label="Primary Central Commissions">
                   <option value="UPSC">UPSC (Union Public Service Commission)</option>
                   <option value="SSC">SSC (Staff Selection Commission)</option>
@@ -244,7 +244,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                   <option value="Railway Recruitment Boards">RRB (Railway Recruitment Boards)</option>
                   <option value="NBEMS">NBEMS (National Board of Examinations in Medical Sciences)</option>
                 </optgroup>
-                <optgroup label="All 342 Conducting Authorities (Alphabetical)">
+                <optgroup label={`All ${authoritiesData.length} Conducting Authorities (Alphabetical)`}>
                   {authoritiesData.map(auth => (
                     <option key={auth.id} value={auth.name}>
                       {auth.name} ({auth.jurisdiction === 'central' ? 'Central' : auth.state || 'State'})
@@ -294,7 +294,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                 ref={searchInputRef}
                 type="text"
                 className="mterminal-search-input"
-                placeholder="Q SEARCH 342 BODIES..."
+                placeholder={`Q SEARCH ${authoritiesData.length} BODIES...`}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 aria-label="Search statutory gazette"
@@ -462,7 +462,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
               <div className="mterminal-meta-label">CONDUCTING AUTHORITIES COVERED</div>
               <div className="mterminal-meta-val">
                 {selectedAuthority === 'all'
-                  ? '342 National & State Bodies'
+                  ? `${authoritiesData.length} National & State Bodies`
                   : activeAuthorityObj?.name || selectedAuthority}
               </div>
             </div>
@@ -475,7 +475,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
               </div>
             </div>
             <div className="mterminal-meta-desc">
-              Cross-referencing statutory notices from all 342 conducting bodies with real-time PIB and verified press media RSS streams.
+              Cross-referencing statutory notices from all {authoritiesData.length} conducting bodies with real-time PIB and verified press media RSS streams.
             </div>
           </div>
         </div>
