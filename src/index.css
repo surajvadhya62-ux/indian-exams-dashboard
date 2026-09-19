@@ -13298,6 +13298,14 @@ input, select {
   box-shadow: 0 0 6px #10b981;
 }
 
+.auth-avatar-img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
 .hud-auth-name {
   font-family: var(--font-mono, monospace);
   font-weight: 600;
@@ -13713,6 +13721,25 @@ input, select {
   margin-top: 0.75rem;
 }
 
+.auth-google-section {
+  margin-bottom: 0.25rem;
+}
+
+.auth-google-btn-slot {
+  display: flex;
+  justify-content: center;
+  /* Google renders its own iframe/button here at a fixed width; centring
+     keeps it tidy inside the narrower auth card. */
+  min-height: 44px;
+}
+
+.auth-google-hint {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin: 8px 0 0;
+}
+
 .auth-divider {
   display: flex;
   align-items: center;
@@ -13777,6 +13804,14 @@ input, select {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  overflow: hidden;
+}
+
+.profile-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .profile-user-name {

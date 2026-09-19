@@ -88,7 +88,11 @@ export default function Header({
               >
                 {currentUser ? (
                   <>
-                    <span className="auth-avatar-dot" />
+                    {currentUser.picture ? (
+                      <img src={currentUser.picture} alt="" className="auth-avatar-img" referrerPolicy="no-referrer" />
+                    ) : (
+                      <span className="auth-avatar-dot" />
+                    )}
                     <span className="hud-auth-name">{currentUser.name.split(' ')[0]}</span>
                     <span className="hud-auth-sub hud-btn-text">Vault</span>
                   </>

@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import {
   HiOutlineUserCircle, HiOutlineMail, HiOutlineLockClosed,
   HiOutlineDownload, HiOutlineUpload, HiOutlineCheckCircle,
@@ -6,6 +6,7 @@ import {
   HiOutlineX, HiOutlineBadgeCheck, HiOutlineDocumentText,
   HiOutlineBookmark, HiOutlineCalendar
 } from 'react-icons/hi'
+import { renderGoogleSignInButton } from '../utils/googleAuth'
 
 export default function AuthModal({
   isOpen,
@@ -28,6 +29,24 @@ export default function AuthModal({
   const [message, setMessage] = useState('')
   const [importStatus, setImportStatus] = useState('')
   const fileInputRef = useRef(null)
+  const googleButtonRef = useRef(null)
+  const [googleStatus, setGoogleStatus] = useState('loading') // 'loading' | 'ready' | 'not_configured' | 'load_failed'
+
+  useEffect(() => {
+    if (!isOpen || currentUser) return
+    renderGoogleSignInButton(googleButtonRef.current, {
+      theme: 'filled_black',
+      onCredential: (profile) => {
+        onLogin(profile)
+        onClose()
+      },
+      onUnavailable: (reason) => setGoogleStatus(reason),
+    }).then(() => {
+      // renderGoogleSignInButton resolves after a successful render too —
+      // only flip to 'ready' if onUnavailable wasn't already called.
+      setGoogleStatus((prev) => (prev === 'loading' ? 'ready' : prev))
+    })
+  }, [isOpen, currentUser])
 
   if (!isOpen) return null
 
@@ -170,7 +189,11 @@ export default function AuthModal({
             <div className="auth-profile-view fade-in">
               <div className="profile-hero-card">
                 <div className="profile-avatar-circle">
-                  {currentUser.name ? currentUser.name[0].toUpperCase() : 'A'}
+                  {currentUser.picture ? (
+                    <img src={currentUser.picture} alt="" className="profile-avatar-img" referrerPolicy="no-referrer" />
+                  ) : (
+                    currentUser.name ? currentUser.name[0].toUpperCase() : 'A'
+                  )}
                 </div>
                 <div className="profile-hero-info">
                   <h3 className="profile-user-name">{currentUser.name}</h3>
@@ -259,6 +282,21 @@ export default function AuthModal({
           ) : (
             /* Sign In / Registration Form */
             <div className="auth-form-view fade-in">
+              {/* Google Sign-In — one click, real identity, no form to fill */}
+              {googleStatus !== 'not_configured' && (
+                <div className="auth-google-section">
+                  <div ref={googleButtonRef} className="auth-google-btn-slot" />
+                  {googleStatus === 'load_failed' && (
+                    <p className="auth-google-hint mono-val">
+                      Google Sign-In couldn't load right now — use the form below instead.
+                    </p>
+                  )}
+                  <div className="auth-divider">
+                    <span>OR</span>
+                  </div>
+                </div>
+              )}
+
               <div className="auth-tabs">
                 <button
                   className={`auth-tab-btn ${authMode === 'login' ? 'active' : ''}`}
