@@ -133,6 +133,14 @@ picker and Analytics' central-vs-state comparison chart still bucket track Q und
 That's a product/UX decision (add a third bucket, or not), not a labeling bug like the ones
 above — left for the owner to decide, not silently changed.
 
+**Measured, as of 2026-09-19 (was "ten files" before the change):** three UI files still compare
+`exam_type` directly — `Analytics.jsx` (8 comparisons: its own local type filter, two KPI counts,
+and the central/state chart), `ExamWizard.jsx` (1, the purpose picker), and the owner's own
+`syllabusTaxonomy.js` (1, untouched by design). The first two are exactly the deliberate
+product-decision leftovers above. Three scripts also read it — `validate-details.mjs`,
+`build-work-queue.mjs` and `sync-exams.mjs` — where branching on `job`/`entrance` is correct
+behaviour (it drives which dossier sections are required), not a bug to migrate.
+
 The track Q boundary itself is settled — see §8 ruling 5 in `INCLUSION-POLICY.md`: Q means the
 exam confers a professional designation or right to practise from a statutory body (ICAI, ICSI,
 ICMAI, the Bar Council). UGC-NET and CSIR-NET stay track A (eligibility to apply, not a licence).
@@ -371,8 +379,8 @@ it raises says a lead needs checking, not that the database was updated.
 
 It still **cannot** add a new exam (`addNewExam()` is only reachable via a manual `--add`); the
 workflow's "new exam → GitHub issue" step is dead code. `addNewExam()` and its dossier template
-also still fabricate placeholder data for anything they do create — see §10, this is a
-prerequisite for the aggregator work, not yet done.
+**used to** fabricate placeholder data for anything they did create — that was fixed later on
+2026-09-19 and is no longer true; see §10.5.
 
 The `sbi-clerk` "1,538 Posts" figure this section previously used as the cautionary example was
 removed in the 2026-09-19 cleanup along with the other 17 (§4d) for its citation, not its
@@ -417,10 +425,9 @@ and permanence, not raw coverage.
    499 records are full dossiers today, there's no stub-record shape, and no "this is a stub"
    badge on the site. Before wiring up real discovery, decide how a stub's completeness status
    is recorded — as a value on an *existing* field, or a new one — with the `exam_type`
-   two-way-switch trap in mind (§3): ten files already read `exam_type` as a strict binary with
-   no branch for a third value, and `track` was nearly walked into the same trap before being
-   wired in as its own field. A stub/full-dossier flag should almost certainly be its own field
-   too, not a new value squeezed onto something else.
+   two-way-switch trap in mind (§3). `track` was nearly walked into that trap before being wired
+   in as its own field instead, which is why a stub/full-dossier flag should almost certainly
+   also be its own field, not a new value squeezed onto something else.
 
 ---
 
@@ -522,7 +529,9 @@ staging anything; these two should never appear in an automation commit's file l
 - **`uk-judicial-service`**: the same advertisement number states 8 vacancies in one document and
   16 in another (a results notice). Needs both opened side by side to resolve, not another
   transcription attempt.
-- Surfacing `track` in the UI (filters, badges) and retiring `exam_type`.
+- ~~Surfacing `track` in the UI (filters, badges)~~ — **done 2026-09-19** (§3). Fully retiring
+  `exam_type` is **not** planned: three scripts branch on it correctly (§3), so the realistic
+  end state is the two fields coexisting, not a migration.
 - The 14 unreachable portals; a browser engine for the JS-rendered ones. Antigravity may solve
   this incidentally — it drives a real browser from an Indian IP.
 - Linking detected notices to specific exams. The watcher says "a notice appeared", not "exam X
