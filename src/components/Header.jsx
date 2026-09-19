@@ -4,7 +4,7 @@ import {
   HiOutlineSparkles, HiOutlineBookmark,
   HiOutlineBadgeCheck, HiOutlineSun, HiOutlineMoon,
   HiOutlineSearch, HiOutlineChatAlt2, HiOutlineNewspaper,
-  HiOutlineUserCircle, HiOutlineSwitchHorizontal
+  HiOutlineUserCircle, HiOutlineSwitchHorizontal, HiOutlineDocumentText
 } from 'react-icons/hi'
 
 export default function Header({
@@ -31,7 +31,8 @@ export default function Header({
     { id: 'cadres', num: '07', label: '7th CPC Cadres', icon: <HiOutlineShieldCheck className="hud-nav-icon" /> },
     { id: 'analytics', num: '08', label: 'Analytics', icon: <HiOutlineChartBar className="hud-nav-icon" /> },
     { id: 'wizard', num: '09', label: 'Wizard', icon: <HiOutlineSparkles className="hud-nav-icon text-amber" /> },
-    { id: 'feedback', num: '10', label: 'Feedback', icon: <HiOutlineChatAlt2 className="hud-nav-icon text-teal" /> },
+    { id: 'coverage', num: '10', label: 'Coverage & Method', icon: <HiOutlineDocumentText className="hud-nav-icon" /> },
+    { id: 'feedback', num: '11', label: 'Feedback', icon: <HiOutlineChatAlt2 className="hud-nav-icon text-teal" /> },
   ]
 
   const isAnalyticsActive = activeView === 'analytics' || activeView === 'dashboard'

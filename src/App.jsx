@@ -11,6 +11,7 @@ import CalendarView from './components/CalendarView'
 import ExamDetail from './components/ExamDetail'
 import GovtGradesGuide from './components/GovtGradesGuide'
 import HowToUse from './components/HowToUse'
+import CoverageMethod from './components/CoverageMethod'
 import ColdBootIntro from './components/ColdBootIntro'
 import StoryGate from './components/StoryGate'
 import ExamWizard from './components/ExamWizard'
@@ -298,7 +299,7 @@ function App() {
         return
       }
 
-      const validViews = ['explore', 'updates', 'my-exams', 'overlap', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'feedback']
+      const validViews = ['explore', 'updates', 'my-exams', 'overlap', 'wizard', 'screener', 'analytics', 'cadres', 'compare', 'calendar', 'guide', 'coverage', 'feedback']
       if (validViews.includes(hash)) {
         setActiveView(hash)
         setShowOnlySaved(false)
@@ -729,6 +730,13 @@ function App() {
                   setSearchQuery={setSearchQuery}
                   totalExams={examsData.length}
                 />
+              </div>
+            )}
+
+            {/* Coverage & Method */}
+            {activeView === 'coverage' && (
+              <div className="fade-in">
+                <CoverageMethod exams={examsData} setActiveView={goToView} />
               </div>
             )}
 

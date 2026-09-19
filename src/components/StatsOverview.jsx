@@ -3,6 +3,7 @@ import {
   HiOutlineGlobeAlt, HiOutlineOfficeBuilding, HiOutlineShieldCheck,
   HiOutlineAcademicCap, HiOutlineCheckCircle
 } from 'react-icons/hi'
+import { CONFIDENCE } from '../utils/provenance'
 
 let hasCountedUp = false
 
@@ -13,15 +14,20 @@ export default function StatsOverview({ exams = [], countUp = true }) {
     const entranceCount = exams.filter(e => e.track === 'A').length
     const jobCount = exams.filter(e => e.track === 'R').length
     const stubCount = exams.filter(e => e.record_tier === 'registry').length
+    const verifiedVacancyCount = exams.filter(e => e.provenance?.vacancies?.confidence === CONFIDENCE.VERIFIED).length
+    const total = exams.length || 500
+    const verifiedVacancyPct = total ? Math.round((verifiedVacancyCount / total) * 100) : 0
 
     return {
-      total: exams.length || 500,
+      total,
       authorities: 342,
       central: centralCount,
       state: stateCount,
       entrance: entranceCount,
       job: jobCount,
       stubs: stubCount,
+      verifiedVacancyCount,
+      verifiedVacancyPct,
     }
   }, [exams])
 
@@ -59,11 +65,11 @@ export default function StatsOverview({ exams = [], countUp = true }) {
           <HiOutlineGlobeAlt className="telemetry-icon text-amber" />
         </div>
         <div className="telemetry-num font-mono">{roll(stats.total)}</div>
-        <div className="telemetry-title">Verified Active Targets</div>
+        <div className="telemetry-title">Tracked Exams</div>
         <div className="telemetry-sub">
           {stats.stubs > 0
             ? `${stats.total - stats.stubs} full dossiers · ${stats.stubs} registry-only`
-            : 'Central & State · 100% Citable'}
+            : 'Central & State · all full dossiers'}
         </div>
         <span className="telemetry-corner-gem" />
       </div>
@@ -110,9 +116,9 @@ export default function StatsOverview({ exams = [], countUp = true }) {
           <span className="telemetry-kicker">INTEGRITY // 05</span>
           <HiOutlineCheckCircle className="telemetry-icon text-amber" />
         </div>
-        <div className="telemetry-num font-mono">0.0%</div>
-        <div className="telemetry-title">Speculation Tolerance</div>
-        <div className="telemetry-sub">Official Gazette PDFs · Zero Hearsay</div>
+        <div className="telemetry-num font-mono">{roll(stats.verifiedVacancyPct)}%</div>
+        <div className="telemetry-title">Vacancy Figures Verified</div>
+        <div className="telemetry-sub">{stats.verifiedVacancyCount} of {stats.total} · checked against a source document</div>
         <span className="telemetry-corner-gem" />
       </div>
     </div>

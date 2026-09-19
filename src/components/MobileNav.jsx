@@ -2,7 +2,7 @@ import {
   HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineShieldCheck, HiOutlineSparkles,
   HiOutlineBookmark, HiOutlineBadgeCheck, HiOutlineChatAlt2,
-  HiOutlineNewspaper, HiOutlineSwitchHorizontal
+  HiOutlineNewspaper, HiOutlineSwitchHorizontal, HiOutlineDocumentText
 } from 'react-icons/hi'
 
 export default function MobileNav({ activeView, setActiveView, compareCount, bookmarkCount }) {
@@ -16,6 +16,7 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
     { id: 'cadres', label: '7th CPC', icon: <HiOutlineShieldCheck /> },
     { id: 'analytics', label: 'Analytics', icon: <HiOutlineChartBar /> },
     { id: 'wizard', label: 'Wizard', icon: <HiOutlineSparkles /> },
+    { id: 'coverage', label: 'Coverage', icon: <HiOutlineDocumentText /> },
     { id: 'feedback', label: 'Feedback', icon: <HiOutlineChatAlt2 /> },
   ]
 
