@@ -636,7 +636,7 @@ function App() {
                     <span className="live-pulse-dot" />
                     <span>CENTRAL & STATE STATUTORY RECRUITMENT REGISTRY</span>
                   </div>
-                  <h1 className="workstation-title">500 Indian Examinations Intelligence Terminal</h1>
+                  <h1 className="workstation-title">{examsData.length} Indian Examinations Intelligence Terminal</h1>
                   <p className="workstation-subtitle">
                     Official statutory repository across 342 commissions, verified gazette cycles, 7th CPC cadres, and downloadable vector dossiers.
                   </p>
