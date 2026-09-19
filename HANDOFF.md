@@ -23,9 +23,15 @@ audit/accounting framing where it helps, avoid engineering jargon)
    don't hand-edit it again, or the next `derive-vacancies` run will silently overwrite the edit.
 5. **`gh` CLI is not installed.** Check GitHub state with `git fetch` + `git log origin/main`.
 6. Node is at `/opt/homebrew/bin/node`. Deployment is automatic on push to `main`
-   (`.github/workflows/deploy.yml` → GitHub Pages). **As of this handoff, 5 commits from
-   2026-09-19 are sitting local, not yet pushed** — check `git status -sb` before assuming the
-   live site reflects the repo.
+   (`.github/workflows/deploy.yml` → GitHub Pages). **All 2026-09-19 work, including the two
+   items below, is pushed to `origin/main` as of this update** — `git status -sb` should show
+   `main` even with `origin/main`. Always check this yourself rather than trusting this line;
+   it was wrong in the version of this handoff written earlier the same day (§12).
+7. **Two more things landed later on 2026-09-19, after the rest of this document was written:**
+   the `track` field (§3) is now actually read by the UI, and `sync-exams.mjs` no longer
+   fabricates data for a newly discovered exam. Both are described where they're structurally
+   relevant (§3, §10) rather than as a separate changelog — this handoff describes current
+   state, not a timeline.
 
 ---
 
@@ -108,9 +114,31 @@ cells in scope; **autonomous bodies in scope, government-*aided* private institu
 the test is creation and funding, not the word "autonomous"; rejected candidates recorded in
 `data-sourcing/EXCLUSIONS.md`.
 
-A `track` field (R/A/Q) exists on all 499 records. **`exam_type` was left alone deliberately** —
-ten files read it as a strict two-way switch (`=== 'job'` / `=== 'entrance'`) with no branch for a
-third value, so changing it is a UI redesign, not a data fix. `track` is not yet read by any UI.
+A `track` field (R/A/Q) exists on all 499 records, and **as of 2026-09-19 it's wired into the
+UI** — the exam cards, the detail modal (badges, the Career Progression tab, the type filter),
+`StatsOverview`, `Analytics`, and the PDF exporter all now branch on `track` via a shared
+`src/utils/trackLabels.js` helper, instead of falling back to the two-way `exam_type` switch.
+This closed a real, visible bug: CA, CS, CMA and AIBE (track Q) were displayed everywhere as an
+"Entrance Exam," including a literally false claim on the Career Progression tab ("this is an
+academic entrance exam, not a recruitment"). `exam_type` itself was **left alone deliberately**
+— it still has only two values (`job`/`entrance`) and the dossier validator
+(`scripts/data-sourcing/validate-details.mjs`) and `sync-exams.mjs` still key off it internally,
+so it isn't going away; only the *UI's* reads were moved to `track`. Two places that write into
+the app's own filter state by key name (`Analytics.jsx`'s central/state chart drill-down
+buttons) had to be updated in the same change, since renaming the filter key without checking
+every caller would have silently broken them.
+
+**Not done, and flagged as a genuine open question, not an oversight:** the Wizard's job/entrance
+picker and Analytics' central-vs-state comparison chart still bucket track Q under "Entrance."
+That's a product/UX decision (add a third bucket, or not), not a labeling bug like the ones
+above — left for the owner to decide, not silently changed.
+
+The track Q boundary itself is settled — see §8 ruling 5 in `INCLUSION-POLICY.md`: Q means the
+exam confers a professional designation or right to practise from a statutory body (ICAI, ICSI,
+ICMAI, the Bar Council). UGC-NET and CSIR-NET stay track A (eligibility to apply, not a licence).
+NISM Regulatory Certifications is flagged as worth a second look — structurally closer to AIBE
+than to an entrance test — once there's an actual `track` filter to judge it against, which there
+now is.
 
 ---
 
@@ -366,20 +394,33 @@ inclusion policy (now written); discovery should come from aggregators (Employme
 Career Service, Sarkari Result) rather than crawling 342 authority sites; the moat is structure
 and permanence, not raw coverage.
 
-**Recommended sequence from here — steps 3 and 4 done, so aggregator work is next:**
+**Recommended sequence from here — steps 3, 4 and the aggregator's prerequisite are done:**
 1. Finish re-sourcing the 170 (§6) — mostly done, a handful of named exceptions remain
 2. Sample the analytically-clean `verified` rows substantively (§5) — not started; the 165
    blocked-from-summary rows (§2, §5) are a natural place to begin, since they're already known
    to be weakly sourced
 3. ~~Settle the two-layer design question~~ — **done 2026-09-19** (§2)
 4. ~~Gate or disable the unvouched auto-sync~~ — **done 2026-09-19** (§9)
-5. **Aggregator-based discovery, with the two-tier registry/dossier model — next.** One
-   prerequisite first: `sync-exams.mjs`'s `addNewExam()` and its `createDetailDossierTemplate()`
-   currently fabricate a full dossier for any new exam — an invented `vacancies_notified: 100`
-   marked `reported`, a generic two-stage exam scheme, a two-rung career ladder — exactly the
-   placeholder-defect shape from §4a. An aggregator that finds real new exams must not create fake
-   dossiers for them; strip that template down to what's actually known (name, conducting body,
-   source link) with everything else marked absent, before wiring up any real discovery.
+5. **Aggregator-based discovery, with the two-tier registry/dossier model — next.**
+   ~~One prerequisite first: strip `sync-exams.mjs`'s fabricated defaults~~ — **done 2026-09-19.**
+   `addNewExam()` and `createDetailDossierTemplate()` used to invent a full dossier for any new
+   exam (a `vacancies_notified: 100` placeholder, a generic exam scheme, a two-rung career
+   ladder, all cited to the exam's own website or a hardcoded UPSC/UPPSC fallback when no website
+   was even known) — exactly the placeholder-defect shape from §4a. Now `id`, `name`,
+   `conducting_body`, `domain`, `jurisdiction`, `exam_type` and `track` are required explicitly
+   (the script exits with a clear error if any is missing, or if `track`/`exam_type` are
+   inconsistent with each other) and every dossier section other than a genuine source link is
+   written as `not_available` with an honest note, rather than guessed. Verified with a real
+   `--add` call that the output still passes `npm run validate`.
+   **What's still actually open, and is the real remaining prerequisite:** the two-tier
+   registry/dossier model itself (`INCLUSION-POLICY.md` §4) doesn't exist as a schema yet — all
+   499 records are full dossiers today, there's no stub-record shape, and no "this is a stub"
+   badge on the site. Before wiring up real discovery, decide how a stub's completeness status
+   is recorded — as a value on an *existing* field, or a new one — with the `exam_type`
+   two-way-switch trap in mind (§3): ten files already read `exam_type` as a strict binary with
+   no branch for a third value, and `track` was nearly walked into the same trap before being
+   wired in as its own field. A stub/full-dossier flag should almost certainly be its own field
+   too, not a new value squeezed onto something else.
 
 ---
 
@@ -406,13 +447,15 @@ and permanence, not raw coverage.
 
 ## 12. Git state at handoff
 
-⚠️ **Committed locally but NOT pushed as of this handoff.** `git status -sb` will show `main`
-ahead of `origin/main`. **Deployment triggers on push** (§0.6) — none of 2026-09-19's work is on
-GitHub or the live site until someone pushes. Check this first; don't assume the commits below
-are live.
+✅ **Pushed.** `git status -sb` shows `main` even with `origin/main` as of this update — always
+re-check this yourself, since this line was wrong (main was 5 commits ahead, unpushed) in the
+version of this handoff written earlier the same day.
 
 2026-09-19 commits (newest first):
 ```
+a4d586c fix(automation): stop sync-exams.mjs fabricating data for newly discovered exams
+aa3bc24 fix(ui): wire the track field into the UI, retiring exam_type's binary read
+3957355 docs: update handoff for 2026-09-19 — two-layer design settled, two new integrity findings
 d35b159 feat(data): derive exams.json vacancies from the dossier instead of hand-editing
 f280b90 fix(automation): stop the news scanner writing to the database
 f2fb5c5 fix(data): remove tpsc-tcs as a duplicate of tpsc-cce
@@ -445,15 +488,20 @@ staging anything; these two should never appear in an automation commit's file l
 
 ## 13. Open questions
 
-- **Push the 5 local commits.** Nothing from 2026-09-19 is live until this happens (§12). Do this
-  before anything else in a new session, or check with the owner why it wasn't already done.
+- ~~Push the local commits.~~ **Done — pushed as of this update (§12).** Still always verify with
+  `git status -sb` rather than trusting this line; it was stale earlier the same day.
 - **`nia-si-inspector` — does it belong in the database at all?** NIA runs no independent
   competitive exam; hiring goes through SSC CGL (already listed separately) or deputation-only
   circulars not open to the public. This may fail the inclusion policy's own criteria. Needs the
   owner's decision, not more sourcing (§6).
-- **The aggregator's prerequisite** — strip the fake-data template out of `addNewExam()` /
-  `createDetailDossierTemplate()` in `sync-exams.mjs` before building any real discovery on top
-  of it (§10).
+- ~~The aggregator's prerequisite~~ — **done.** `sync-exams.mjs` no longer fabricates data for a
+  new exam (§10). **What's actually still open:** the two-tier registry/dossier model itself
+  hasn't been built — no stub-record shape, no "stub" badge on the site, and a real schema
+  decision (own field vs. new value on an existing one — see the `exam_type` two-way-switch
+  trap in §3) needs to be made before it is.
+- **The Wizard's job/entrance picker and Analytics' central-vs-state chart still bucket track Q
+  under "Entrance."** Flagged in §3 as a product decision, not fixed — a third bucket may or may
+  not be wanted; ask the owner rather than guessing.
 - **`derive-vacancy-summary.mjs` is a manual step with no enforcement.** A dossier edit that isn't
   followed by `npm run derive-vacancies` leaves `exams.json` stale with no warning. Consider a
   `validate` hook or pre-commit check.
