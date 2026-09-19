@@ -52,7 +52,7 @@ function App() {
     level: '',
     exam_mode: '',
     frequency: '',
-    exam_type: '',
+    track: '',
     jurisdiction: '',
     state: '',
   })
@@ -415,7 +415,7 @@ function App() {
       }
       const matchMode = !filters.exam_mode || exam.exam_mode.toLowerCase().includes(filters.exam_mode.toLowerCase())
       const matchFreq = !filters.frequency || exam.frequency === filters.frequency
-      const matchType = !filters.exam_type || exam.exam_type === filters.exam_type
+      const matchType = !filters.track || exam.track === filters.track
       const matchJurisdiction = !filters.jurisdiction || exam.jurisdiction === filters.jurisdiction
       const matchState = !filters.state || exam.state === filters.state
 
@@ -458,7 +458,7 @@ function App() {
       level: '',
       exam_mode: '',
       frequency: '',
-      exam_type: '',
+      track: '',
       jurisdiction: '',
       state: '',
     })

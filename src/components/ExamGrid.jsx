@@ -7,6 +7,7 @@ import {
   HiOutlineScale, HiCheck, HiOutlineArrowRight
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
+import { isJobTrack } from '../utils/trackLabels'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import { SkeletonGrid } from './Skeletons'
 
@@ -131,10 +132,10 @@ export default function ExamGrid({
                   const isComparing = compareList.some(e => e.id === exam.id)
                   const isBookmarked = bookmarks.includes(exam.id)
                   const isPopular = exam.popularity === 'very_high'
-                  const isJob = exam.exam_type === 'job'
+                  const isJob = isJobTrack(exam.track)
                   const payLabel = exam.pay_matrix_level
                     ? `Level ${exam.pay_matrix_level}`
-                    : (isJob ? 'Group A / Gazetted' : 'Seat Allocation Track')
+                    : exam.track === 'Q' ? 'Professional Qualification' : (isJob ? 'Group A / Gazetted' : 'Seat Allocation Track')
 
                   return (
                     <tr

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { getDomainColor } from '../utils/helpers'
+import { isJobTrack } from '../utils/trackLabels'
 import { exportExamDossierPdf } from '../utils/pdfGenerator'
 import {
   HiOutlineBookmark, HiBookmark,
@@ -20,12 +21,13 @@ export default function ExamCard({
   const [isExportingPdf, setIsExportingPdf] = useState(false)
   const color = getDomainColor(exam.domain)
   const isPopular = exam.popularity === 'very_high'
-  const isJob = exam.exam_type === 'job'
+  const isJob = isJobTrack(exam.track)
+  const isQualification = exam.track === 'Q'
 
   // Compensation / Seat allocation label
   const payLevelLabel = exam.pay_matrix_level
     ? `Level ${exam.pay_matrix_level}`
-    : (isJob ? 'Group A / Gazetted' : 'Seat Allocation Track')
+    : isQualification ? 'Professional Qualification' : (isJob ? 'Group A / Gazetted' : 'Seat Allocation Track')
 
   const handleDownloadPdf = async (e) => {
     e.stopPropagation()
@@ -117,7 +119,7 @@ export default function ExamCard({
         </div>
 
         <div className="spec-item">
-          <span className="spec-label">{isJob ? '7TH CPC CADRE' : 'ACADEMIC PATH'}</span>
+          <span className="spec-label">{isJob ? '7TH CPC CADRE' : isQualification ? 'PROFESSIONAL TRACK' : 'ACADEMIC PATH'}</span>
           <span className="spec-value highlight-accent">
             {payLevelLabel}
           </span>

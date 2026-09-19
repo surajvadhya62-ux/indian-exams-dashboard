@@ -297,6 +297,14 @@ Settled 2026-09-18. These are decisions, not proposals — apply them as written
    now draws the line at creation and funding instead. The exclusion the instinct was reaching
    for — privately founded bodies that merely receive a government grant — is kept.
 4. **Out-of-scope exams are recorded**, in an exclusions register — see §9.
+5. **Settled 2026-09-19 — the track Q boundary.** Q is for an exam that itself confers a
+   professional designation or a right to practise, awarded by the relevant statutory body —
+   ICAI (CA), ICSI (CS), ICMAI (CMA), the Bar Council (AIBE). UGC-NET and CSIR-NET stay track A
+   under ruling 1 above: passing makes a candidate *eligible to apply* for a teaching or
+   research post, which is a recruitment gateway, not a licence to practise. Revisit if a
+   `track` filter ever ships on the site and NISM Regulatory Certifications — currently track
+   A, but structurally a mandatory practising licence like AIBE rather than an entrance test —
+   looks out of place sitting there.
 
 ---
 

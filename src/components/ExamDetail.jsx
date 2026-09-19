@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { getDomainColor } from '../utils/helpers'
+import { isJobTrack } from '../utils/trackLabels'
 import { useExamDetail } from '../hooks/useExamDetail'
 import {
   HiOutlineExternalLink, HiX, HiChevronLeft, HiChevronRight,
@@ -19,7 +20,7 @@ import { SkeletonModal } from './Skeletons'
 
 export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam, onOpenOverlap }) {
   const color = getDomainColor(exam.domain)
-  const isJob = exam.exam_type === 'job'
+  const isJob = isJobTrack(exam.track)
 
   const tabs = useMemo(() => {
     const list = [
@@ -285,7 +286,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
               {exam.domain}
             </span>
             <span className="domain-badge domain-type-badge">
-              {isJob ? '💼 Job / Recruitment' : '🎓 Entrance Exam'}
+              {isJob ? '💼 Job / Recruitment' : exam.track === 'Q' ? '📜 Professional Qualification' : '🎓 Entrance Exam'}
             </span>
             <span className={`domain-badge domain-scope-badge ${exam.jurisdiction === 'central' ? 'scope-central-badge' : 'scope-state-badge'}`}>
               {exam.jurisdiction === 'central' ? '🇮🇳 Central & All-India' : `🏛️ State: ${exam.state}`}
@@ -473,7 +474,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 <CareerLadder
                   section={detail?.career_ladder}
                   detailStatus={detailStatus}
-                  examType={exam.exam_type}
+                  track={exam.track}
                   domainColor={color}
                 />
               </>
@@ -510,7 +511,7 @@ export default function ExamDetail({ exam, onClose, allExams = [], onSelectExam,
                 <SalaryCalculator
                   section={detail?.financial_package}
                   detailStatus={detailStatus}
-                  examType={exam.exam_type}
+                  track={exam.track}
                 />
               </>
             )}

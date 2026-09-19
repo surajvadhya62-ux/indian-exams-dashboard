@@ -5,7 +5,7 @@ import SourceBadge from './SourceBadge'
 
 const formatRupees = (n) => `₹${Math.round(n).toLocaleString('en-IN')}`
 
-export default function SalaryCalculator({ section, detailStatus, examType }) {
+export default function SalaryCalculator({ section, detailStatus, track }) {
   const [cityTier, setCityTier] = useState('x')
 
   const initialDa = section?.da_percent_as_of_review ?? DEFAULT_DA_PERCENT
@@ -21,11 +21,15 @@ export default function SalaryCalculator({ section, detailStatus, examType }) {
     })
   }, [section, daPercent, cityTier])
 
-  if (examType === 'entrance') {
+  if (track !== 'R') {
     return (
       <DataUnavailable
         tone="not_applicable"
-        note="This is an academic entrance exam, not a recruitment — there is no pay level or salary to calculate."
+        note={
+          track === 'Q'
+            ? 'This is a professional qualification, not a government recruitment — there is no pay level or salary to calculate.'
+            : 'This is an academic entrance exam, not a recruitment — there is no pay level or salary to calculate.'
+        }
       />
     )
   }

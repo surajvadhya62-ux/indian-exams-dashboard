@@ -1,6 +1,7 @@
 import { jsPDF } from 'jspdf'
 import autoTable from 'jspdf-autotable'
 import { calculateSalary } from './payCalculator'
+import { isJobTrack } from './trackLabels'
 
 // Color Palette Constants
 const NAVY = [15, 23, 42]        // #0f172a - Primary Header
@@ -193,7 +194,7 @@ function getCareerLadder(exam, detail) {
 
   const domain = (exam.domain || '').toLowerCase()
   const name = (exam.name || '').toLowerCase()
-  const isJob = exam.exam_type === 'job'
+  const isJob = isJobTrack(exam.track)
 
   if (!isJob) {
     // ENTRANCE EXAM: Academic & Industry Career Progression
@@ -286,7 +287,7 @@ function getCareerLadder(exam, detail) {
  * Generate DYNAMIC Preparation Protocol tailored to exam type and domain
  */
 function getPreparationProtocol(exam) {
-  const isJob = exam.exam_type === 'job'
+  const isJob = isJobTrack(exam.track)
   const domain = (exam.domain || '').toLowerCase()
 
   if (!isJob) {
@@ -336,7 +337,7 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
     year: 'numeric'
   })
 
-  const isJob = exam.exam_type === 'job'
+  const isJob = isJobTrack(exam.track)
 
   // ==========================================
   // PAGE 1: EXECUTIVE COVER & STATUTORY PROFILE
@@ -365,7 +366,7 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   doc.setFontSize(8)
   doc.setTextColor(203, 213, 225)
   doc.text(
-    `Conducting Body: ${exam.conducting_body || 'National Commission'} | ${exam.jurisdiction === 'central' ? 'Central / All India' : exam.state || 'State'} | [${isJob ? 'Job Recruitment' : 'Academic Entrance'}]`,
+    `Conducting Body: ${exam.conducting_body || 'National Commission'} | ${exam.jurisdiction === 'central' ? 'Central / All India' : exam.state || 'State'} | [${isJob ? 'Job Recruitment' : exam.track === 'Q' ? 'Professional Qualification' : 'Academic Entrance'}]`,
     21,
     38
   )
@@ -418,8 +419,8 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
 
   const paramRows = [
     ['Conducting Commission', exam.conducting_body || 'N/A', 'Jurisdiction & Domain', `${exam.jurisdiction === 'central' ? 'Central' : exam.state} | ${exam.domain || 'General'}`],
-    ['Degree / Educational Level', exam.level || 'Graduate', isJob ? 'Cadre / Service Class' : 'Target Award / Admission', isJob ? (exam.cadre || 'National Service Cadre') : (exam.target_role || 'Undergraduate / Postgraduate Admission')],
-    ['Targeted Career Scope', exam.target_role || (isJob ? 'Administrative / Executive' : 'Professional Degree'), 'Examination Mode', exam.exam_mode || 'CBT / Pen-Paper'],
+    ['Degree / Educational Level', exam.level || 'Graduate', isJob ? 'Cadre / Service Class' : exam.track === 'Q' ? 'Award / Designation' : 'Target Award / Admission', isJob ? (exam.cadre || 'National Service Cadre') : exam.track === 'Q' ? (exam.target_role || 'Professional Membership') : (exam.target_role || 'Undergraduate / Postgraduate Admission')],
+    ['Targeted Career Scope', exam.target_role || (isJob ? 'Administrative / Executive' : exam.track === 'Q' ? 'Independent Practice / Professional Role' : 'Professional Degree'), 'Examination Mode', exam.exam_mode || 'CBT / Pen-Paper'],
     ['Annual Frequency', exam.frequency || 'Annual', 'Tentative Examination Month', exam.exam_month || 'Notified Annually'],
     ['Application Notification Window', exam.application_period || 'As notified', 'Official Commission Portal', exam.official_website || 'https://www.india.gov.in'],
     ['Statutory Age Limit', exam.age_limit || 'As per official guidelines', 'Minimum Qualification', exam.min_qualification || 'Degree / 10+2 from recognized board']
@@ -1010,7 +1011,7 @@ export function exportComparisonMatrixPdf(compareExams = []) {
 
   // Build matrix rows
   const comparisonRows = [
-    ['Examination Type', ...compareExams.map(e => e.exam_type === 'job' ? '[Career] Job Recruitment' : '[Academic] Entrance Exam')],
+    ['Examination Type', ...compareExams.map(e => e.track === 'R' ? '[Career] Job Recruitment' : e.track === 'Q' ? '[Professional] Qualification' : '[Academic] Entrance Exam')],
     ['Conducting Commission', ...compareExams.map(e => e.conducting_body || 'N/A')],
     ['Domain & Discipline', ...compareExams.map(e => e.domain || 'N/A')],
     ['Jurisdiction & Scope', ...compareExams.map(e => e.jurisdiction === 'central' ? 'Central / All India' : `State (${e.state})`)],

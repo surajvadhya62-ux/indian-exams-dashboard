@@ -289,12 +289,13 @@ export default function SearchFilter({
           {/* Type Filter */}
           <select
             className="hud-select"
-            value={filters.exam_type}
-            onChange={(e) => onFilterChange('exam_type', e.target.value)}
+            value={filters.track}
+            onChange={(e) => onFilterChange('track', e.target.value)}
           >
             <option value="">Type: All Types</option>
-            <option value="entrance">🎓 Entrance Examination</option>
-            <option value="job">💼 Job Recruitment</option>
+            <option value="A">🎓 Admission Exam</option>
+            <option value="R">💼 Job Recruitment</option>
+            <option value="Q">📜 Professional Qualification</option>
           </select>
 
           {/* Frequency Filter */}

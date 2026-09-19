@@ -88,7 +88,7 @@ export default function Analytics({ exams, onApplyFilter }) {
         else if (l.includes('doctoral') || l.includes('ph.d')) key = 'Doctoral / Ph.D.'
         else key = "Graduate / Bachelor's"
       } else if (customDimension === 'exam_type') {
-        key = exam.exam_type === 'entrance' ? 'Entrance Examination' : 'Job Recruitment'
+        key = exam.track === 'R' ? 'Job Recruitment' : exam.track === 'Q' ? 'Professional Qualification' : 'Entrance Examination'
       } else if (customDimension === 'exam_mode') {
         const m = (exam.exam_mode || '').toLowerCase()
         if (m.includes('online') || m.includes('cbt')) key = 'Online / CBT'
@@ -582,14 +582,14 @@ export default function Analytics({ exams, onApplyFilter }) {
                     fill="#2e9e6b"
                     radius={[4, 4, 0, 0]}
                     cursor={onApplyFilter ? 'pointer' : 'default'}
-                    onClick={() => onApplyFilter && onApplyFilter('exam_type', 'job')}
+                    onClick={() => onApplyFilter && onApplyFilter('track', 'R')}
                   />
                   <Bar
                     dataKey="Entrance / Admissions"
                     fill="#e8a33d"
                     radius={[4, 4, 0, 0]}
                     cursor={onApplyFilter ? 'pointer' : 'default'}
-                    onClick={() => onApplyFilter && onApplyFilter('exam_type', 'entrance')}
+                    onClick={() => onApplyFilter && onApplyFilter('track', 'A')}
                   />
                 </BarChart>
               </ResponsiveContainer>

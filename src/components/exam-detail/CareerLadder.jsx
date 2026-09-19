@@ -3,8 +3,16 @@ import DataUnavailable from './DataUnavailable'
 import SourceBadge from './SourceBadge'
 import { HiOutlineArrowDown, HiOutlineShieldCheck, HiOutlineSparkles, HiOutlineBriefcase } from 'react-icons/hi'
 
-export default function CareerLadder({ section, detailStatus, examType, domainColor = '#3b82f6' }) {
-  if (examType === 'entrance') {
+export default function CareerLadder({ section, detailStatus, track, domainColor = '#3b82f6' }) {
+  if (track === 'Q') {
+    return (
+      <DataUnavailable
+        tone="not_applicable"
+        note="This is a professional qualification, not a government recruitment — progression happens through practice and experience, not a promotion ladder."
+      />
+    )
+  }
+  if (track === 'A') {
     return (
       <DataUnavailable
         tone="not_applicable"

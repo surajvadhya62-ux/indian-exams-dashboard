@@ -10,8 +10,8 @@ export default function StatsOverview({ exams = [], countUp = true }) {
   const stats = useMemo(() => {
     const centralCount = exams.filter(e => e.jurisdiction === 'central').length
     const stateCount = exams.filter(e => e.jurisdiction === 'state').length
-    const entranceCount = exams.filter(e => e.exam_type === 'entrance').length
-    const jobCount = exams.filter(e => e.exam_type === 'job').length
+    const entranceCount = exams.filter(e => e.track === 'A').length
+    const jobCount = exams.filter(e => e.track === 'R').length
 
     return {
       total: exams.length || 500,
