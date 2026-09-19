@@ -1,6 +1,8 @@
 # Handoff — India Exams Dashboard
 
-**Date:** 2026-09-19 (supersedes the 2026-09-18 handoff)
+**Date:** 2026-09-19, updated again later the same day (supersedes both the 2026-09-18
+handoff and the earlier 2026-09-19 version — the two-tier model and aggregator discovery,
+previously §10's "next" step, are now built; see §2a and §10a)
 **Owner:** Suraj (chartered accountant, **not a developer** — explain in plain language, use
 audit/accounting framing where it helps, avoid engineering jargon)
 **Purpose:** everything a fresh session needs. Facts below were measured, not assumed.
@@ -99,6 +101,45 @@ it shipped. If this script is ever rewritten, keep the `track`-based exclusion �
 **SBI Clerk's two live cycles** (a general drive and an SC/ST/OBC backlog drive, different
 figures) is exactly the case the dossier's year-array was built to express and the flat string
 could not — the summary now reports whichever cycle is most recent, from the dossier, correctly.
+
+---
+
+## 2a. The two-tier registry/dossier model — built 2026-09-19 (later the same day)
+
+`INCLUSION-POLICY.md` §4's "registry entry vs. full dossier" split, previously an open schema
+question (§10 used to describe it as the real remaining prerequisite for discovery), is now a
+field: `record_tier`, values `"registry"` or `"dossier"`, on every `exams.json` record. Full
+design reasoning is in `data-sourcing/DECISION-2026-09-19-record-tier.md` — read that before
+touching this field.
+
+**Calculated, not hand-set** — same discipline as `vacancies` (§2). `scripts/automation/
+derive-record-tier.mjs` (`npm run derive-tiers`, with `--dry-run`) looks at each exam's dossier:
+no dossier file, or a dossier with no section marked `status: "available"`, → `"registry"`;
+otherwise → `"dossier"`. Applied 2026-09-19: **all 499 existing records classify as `"dossier"`,
+zero as `"registry"`** — purely additive, nothing changed for a visitor that day.
+
+**`npm run validate` now also checks `exams.json` itself**, not only the dossier files — this
+was a real, previously-undetected gap: the validator's `run()` only ever walked
+`public/exam-details/`, so a record sitting in `exams.json` with nothing behind it was
+invisible to it. It now enforces the registry minimum (name, conducting_body, track,
+min_qualification, frequency, official_website — `INCLUSION-POLICY.md` §4) on every record,
+checks `record_tier` is present and valid, checks a `"dossier"`-tier record actually has a
+dossier file, and checks for duplicate ids (the `tpsc-tcs` class of defect, §1).
+
+**A real bug this surfaced and fixed:** `sync-exams.mjs --add` wrote a new exam's site under a
+key called `website`, which matches no field any existing record actually has (`official_website`
+is the real field, on all 499), and never asked for `min_qualification` or `frequency` at all —
+both required by the registry minimum. A record this function created would have failed the new
+validation immediately. Fixed: `--add` now requires `--website`, `--min-qualification` and
+`--frequency`, writes them under the correct field names, and sets `record_tier: "registry"`
+directly on creation so a newly discovered exam is honest about itself from the moment it
+exists. Verified with a real `--add` call that passed validation, then removed.
+
+**On the site:** `ExamCard.jsx` shows a "REGISTRY ENTRY" badge (via `src/utils/recordTier.js`,
+the same single-source-of-truth pattern as `trackLabels.js`) in place of the green "VERIFIED"
+badge for a registry-tier exam, and `StatsOverview.jsx` reports the dossier/registry split once
+any registry-tier exam exists. Nothing visible changed on 2026-09-19 itself, since there are
+none yet.
 
 ---
 
@@ -402,32 +443,72 @@ inclusion policy (now written); discovery should come from aggregators (Employme
 Career Service, Sarkari Result) rather than crawling 342 authority sites; the moat is structure
 and permanence, not raw coverage.
 
-**Recommended sequence from here — steps 3, 4 and the aggregator's prerequisite are done:**
+**Recommended sequence from here — steps 3, 4 and 5 are done:**
 1. Finish re-sourcing the 170 (§6) — mostly done, a handful of named exceptions remain
 2. Sample the analytically-clean `verified` rows substantively (§5) — not started; the 165
    blocked-from-summary rows (§2, §5) are a natural place to begin, since they're already known
    to be weakly sourced
 3. ~~Settle the two-layer design question~~ — **done 2026-09-19** (§2)
 4. ~~Gate or disable the unvouched auto-sync~~ — **done 2026-09-19** (§9)
-5. **Aggregator-based discovery, with the two-tier registry/dossier model — next.**
-   ~~One prerequisite first: strip `sync-exams.mjs`'s fabricated defaults~~ — **done 2026-09-19.**
-   `addNewExam()` and `createDetailDossierTemplate()` used to invent a full dossier for any new
-   exam (a `vacancies_notified: 100` placeholder, a generic exam scheme, a two-rung career
-   ladder, all cited to the exam's own website or a hardcoded UPSC/UPPSC fallback when no website
-   was even known) — exactly the placeholder-defect shape from §4a. Now `id`, `name`,
-   `conducting_body`, `domain`, `jurisdiction`, `exam_type` and `track` are required explicitly
-   (the script exits with a clear error if any is missing, or if `track`/`exam_type` are
-   inconsistent with each other) and every dossier section other than a genuine source link is
-   written as `not_available` with an honest note, rather than guessed. Verified with a real
-   `--add` call that the output still passes `npm run validate`.
-   **What's still actually open, and is the real remaining prerequisite:** the two-tier
-   registry/dossier model itself (`INCLUSION-POLICY.md` §4) doesn't exist as a schema yet — all
-   499 records are full dossiers today, there's no stub-record shape, and no "this is a stub"
-   badge on the site. Before wiring up real discovery, decide how a stub's completeness status
-   is recorded — as a value on an *existing* field, or a new one — with the `exam_type`
-   two-way-switch trap in mind (§3). `track` was nearly walked into that trap before being wired
-   in as its own field instead, which is why a stub/full-dossier flag should almost certainly
-   also be its own field, not a new value squeezed onto something else.
+5. ~~Aggregator-based discovery, with the two-tier registry/dossier model~~ — **done
+   2026-09-19 (later the same day).** The two-tier model is built (§2a). Discovery is built and
+   has produced a first real batch (§10a). **What's next is reviewing that batch**, not more
+   scaffolding — see §10a and the open questions (§13).
+
+---
+
+## 10a. Aggregator discovery — built and run once, 2026-09-19 (later the same day)
+
+`scripts/automation/discover-exams.mjs` (`npm run discover-exams`, with `--dry-run`).
+Scrapes two public aggregators for exam/recruitment titles and checks each one against the
+499 exams already in the database. **Never writes to `exams.json` or a dossier** — same rule
+as the news scanner (§9), for the same reason (§4d): it appends unmatched titles to
+`data-sourcing/DISCOVERY-QUEUE.md` as leads, nothing more.
+
+**Connectivity checked first, from this Mac (the same Indian-IP environment the portal
+watcher runs from), before building anything:**
+
+| Source | Reachable? | Used? |
+|---|---|---|
+| Sarkari Result (`sarkariresult.com`) | Yes — clean, static, dated posting links | **Yes**, primary source |
+| Employment News (`employmentnews.gov.in`) | Yes, but only at `/NewEmp/Home.aspx` — the bare domain and `www.` subdomain both serve dead ends (a redirect stub, a 404). Carries a small genuinely server-rendered table of recent notices. | **Yes**, secondary source |
+| National Career Service (`ncs.gov.in`) | Reachable, but its homepage is dominated by private-sector job-market data (Apna, Swiggy, staffing agencies), not government exam notices | **No** — left out deliberately, not attempted half-way. Its actually useful section, if one exists, is behind a specific search/filter flow this script doesn't drive. Flagged as a follow-up in §13. |
+
+**Matching, and why it went through two iterations in one run:** a candidate is treated as
+"already known" when either (a) every token of some exam's *acronym* appears in the title, or
+(b) at least two of that exam's *name* tokens do. (b) was added only after evidence: the first
+version used acronym-matching alone, and a real run showed `upsssc-junior-assistant` (acronym
+"UPSSSC JA") wasn't recognised because Sarkari Result's headline spelled out "Junior Assistant"
+rather than "JA". The name-overlap threshold is deliberately **2, not 1** — a single-word
+version would have matched "UP Primary Teacher" against every teacher-eligibility exam already
+in the database (aptet, ctet, htet, ...) and silently discarded a genuine lead. Full reasoning
+is in the comments at the top of the script itself — read them before changing the threshold.
+
+**First real run, 2026-09-19:** 212 raw titles fetched (205 Sarkari Result, 7 Employment
+News) → 15 dropped as not-an-exam-at-all by a small evidence-based pattern list (certificate
+reissues, scholarship disbursals, a general jobseeker registry — none of these are exams) → 127
+matched an existing exam → **70 new candidates queued**, `data-sourcing/DISCOVERY-QUEUE.md`.
+Employment News rows are flagged `⚠️ needs recurrence check` in the queue, since most of what
+it actually surfaces is one-off single-post hiring by an individual PSU or institute (a
+professor post, a CEO/MD hire) — real, scrapable, but likely to fail
+`INCLUSION-POLICY.md` criterion D (recurrence) or A (a common competitive gateway, not one
+org's internal hire). The script doesn't filter these out itself; that judgement belongs to
+whoever reviews the queue against the policy, not to a heuristic.
+
+**Nothing in that queue has been reviewed yet.** It is 70 unreviewed leads, same status as an
+unreviewed row in `NEWS-SCAN-QUEUE.md` — a title that isn't already in the database under a
+name or acronym this script recognises, not a confirmed gap. Some rows are the same
+underlying scheme posted under several different local offices (five separate "UP ECCE
+Educator <district>" rows, for instance) and may collapse to one real candidate, or may
+each be genuinely separate per-district drives — a judgement call, not something the script
+resolved. **The next step is reviewing this batch against `INCLUSION-POLICY.md`'s six
+conditions**, the same discipline already used for the vacancy-verification batches (§6), not
+running the script again or building more automation around it.
+
+Not yet set up as a recurring job (no LaunchAgent, unlike the portal watcher in §7) —
+deliberately left as a manual `npm run discover-exams` for now, since the first batch hasn't
+been reviewed yet and there's no reason to generate a second one before the first is dealt
+with.
 
 ---
 
@@ -454,11 +535,17 @@ and permanence, not raw coverage.
 
 ## 12. Git state at handoff
 
-✅ **Pushed.** `git status -sb` shows `main` even with `origin/main` as of this update — always
-re-check this yourself, since this line was wrong (main was 5 commits ahead, unpushed) in the
-version of this handoff written earlier the same day.
+⚠️ **Not yet pushed as of this update** — `main` is ahead of `origin/main` by the two commits
+below. Always re-check this yourself with `git status -sb` rather than trusting this line; it
+has been wrong in both earlier versions of this handoff written the same day.
 
-2026-09-19 commits (newest first):
+2026-09-19 commits, later the same day (newest first):
+```
+9740f8a feat(automation): aggregator-based exam discovery, writing only to a review queue
+7d116c1 feat(data): add record_tier field, registry-minimum validation, and stub badge
+```
+
+Earlier 2026-09-19 commits, already on `origin/main`:
 ```
 a4d586c fix(automation): stop sync-exams.mjs fabricating data for newly discovered exams
 aa3bc24 fix(ui): wire the track field into the UI, retiring exam_type's binary read
@@ -495,17 +582,23 @@ staging anything; these two should never appear in an automation commit's file l
 
 ## 13. Open questions
 
-- ~~Push the local commits.~~ **Done — pushed as of this update (§12).** Still always verify with
-  `git status -sb` rather than trusting this line; it was stale earlier the same day.
+- **Push the two new commits (§12).** Not done as of this update — always verify with
+  `git status -sb` rather than trusting any line in this document about push state.
+- **`data-sourcing/DISCOVERY-QUEUE.md`'s 70 candidates need reviewing against
+  `INCLUSION-POLICY.md`'s six-condition test (§10a).** This is the actual next step — not
+  running `discover-exams.mjs` again, and not more scaffolding. Several rows look like
+  strong candidates (Bihar STET, UP ECCE Educator, RSSB Computer Instructor); several others
+  are flagged `⚠️ needs recurrence check` because Employment News mostly surfaces one-off
+  single-post hiring, not recurring exams. A candidate that passes review gets added with
+  `sync-exams.mjs --add`; one that fails gets recorded in `EXCLUSIONS.md`, per policy.
+- **National Career Service (`ncs.gov.in`) was left out of discovery deliberately** (§10a) —
+  its homepage is private-sector job data, not government exam notices. Whether it's worth
+  the extra work to drive its actual search/filter flow for the government-jobs section it
+  presumably has is an open question, not a decided no.
 - **`nia-si-inspector` — does it belong in the database at all?** NIA runs no independent
   competitive exam; hiring goes through SSC CGL (already listed separately) or deputation-only
   circulars not open to the public. This may fail the inclusion policy's own criteria. Needs the
   owner's decision, not more sourcing (§6).
-- ~~The aggregator's prerequisite~~ — **done.** `sync-exams.mjs` no longer fabricates data for a
-  new exam (§10). **What's actually still open:** the two-tier registry/dossier model itself
-  hasn't been built — no stub-record shape, no "stub" badge on the site, and a real schema
-  decision (own field vs. new value on an existing one — see the `exam_type` two-way-switch
-  trap in §3) needs to be made before it is.
 - **The Wizard's job/entrance picker and Analytics' central-vs-state chart still bucket track Q
   under "Entrance."** Flagged in §3 as a product decision, not fixed — a third bucket may or may
   not be wanted; ask the owner rather than guessing.
