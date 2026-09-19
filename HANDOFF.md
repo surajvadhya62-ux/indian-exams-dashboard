@@ -293,3 +293,10 @@ Uncommitted: the owner's own `src/utils/syllabusTaxonomy.js` — leave it alone.
 - Linking detected notices to specific exams. The watcher says "a notice appeared", not "exam X
   changed". **This half of the original requirement is still unmet.**
 - `sources-config.json` has missing `psc` fields for Delhi and Ladakh.
+- **RSMSSB Grade III Teacher (Level 1 & 2) direct recruitment has no dossier entry.** Found 2026-09-19
+  while fixing `reet`'s dossier: REET is a qualifying test with no vacancies of its own, but its page
+  carried vacancy figures (48,000 in 2022, 31,000 in 2021) that actually belong to this separate
+  RSMSSB recruitment exam. Those figures have been removed from `reet`'s page (now correctly shows
+  no vacancies), but the underlying exam — likely one of the largest state teacher recruitment
+  drives in the country — is missing from the 500-exam database entirely. Needs a full new dossier
+  (career ladder, exam scheme, etc.), not just a benchmark row; flagging so it isn't lost.

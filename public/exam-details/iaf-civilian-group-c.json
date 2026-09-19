@@ -1,7 +1,7 @@
 {
   "id": "iaf-civilian-group-c",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Civilian Group 'C' staff in the Indian Air Force are recruited across Air Commands, Air Force Stations, and Base Repair Depots (BRDs). Posts range from Multi Tasking Staff (MTS / Mess Staff, Pay Level 1) to Lower Division Clerk (LDC / Storekeeper, Pay Level 2). Promotions follow standard Central Government non-gazetted civilian cadres up to Office Superintendent / Assistant level.",
@@ -141,32 +141,9 @@
     "perks_confidence": "verified"
   },
   "competition_benchmarks": {
-    "status": "available",
-    "note": "Recruitment benchmarks compiled from Indian Air Force civilian recruitment drives across commands.",
-    "years": [
-      {
-        "year": 2021,
-        "vacancies": 1524,
-        "applicants": 620000,
-        "shortlisted_for_mains": 15240,
-        "selectivity_ratio": "1,524 vacancies across Western, Eastern, Central, Maintenance, and Training Commands out of ~6.2 lakh applicants (~1 in 406 selectivity)",
-        "confidence": "reported",
-        "as_of": "2022-01-20",
-        "source_url": "https://indianairforce.nic.in/",
-        "source_label": "IAF Civilian Direct Recruitment 2021 Consolidated Result Panel"
-      },
-      {
-        "year": 2018,
-        "vacancies": 820,
-        "applicants": 380000,
-        "shortlisted_for_mains": 8200,
-        "selectivity_ratio": "820 civilian vacancies filled across Air Force stations; selectivity ~1 in 463",
-        "confidence": "reported",
-        "as_of": "2018-11-10",
-        "source_url": "https://indianairforce.nic.in/",
-        "source_label": "IAF Group 'C' Civilian Recruitment 2018 Selection List"
-      }
-    ]
+    "status": "not_available",
+    "note": "No competition data currently held. The 2021 (1,524) and 2018 (820) figures previously shown here traced to no citable document — the original research log cited only \"IAF Official Website\" with no specific notification. Removed 2026-09-19 after independent re-sourcing found IAF civilian Group C recruitment is run as many small, decentralized station-level notifications (e.g. two separate 2026 drives of 47 and 6 posts) with no single consolidated total ever published — a nationwide figure of this kind would need to be built up from many individual notifications, which hasn't been done yet.",
+    "years": []
   },
   "official_downloads": {
     "status": "available",

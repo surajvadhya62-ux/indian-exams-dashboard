@@ -1,7 +1,7 @@
 {
   "id": "india-post-mts-postman",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Postman, Mail Guard, and Multi Tasking Staff (MTS) in the Department of Posts (India Post) are central government civil employees under the Ministry of Communications. Personnel progress through the postal hierarchy via Limited Departmental Competitive Examinations (LDCE) and time-bound MACP (Modified Assured Career Progression) promotions.",
@@ -180,21 +180,9 @@
     "perks_confidence": "verified"
   },
   "competition_benchmarks": {
-    "status": "available",
-    "note": "Recruitment metrics aggregated across India Post Circle examinations and national recruitment drives.",
-    "years": [
-      {
-        "year": 2023,
-        "vacancies": 32000,
-        "applicants": 1850000,
-        "shortlisted_for_mains": 64000,
-        "selectivity_ratio": "approx. 1 in 58",
-        "confidence": "reported",
-        "as_of": "2023-12-15",
-        "source_url": "https://www.indiapost.gov.in",
-        "source_label": "Department of Posts Circle-wise Vacancy and Recruitment Compilation"
-      }
-    ]
+    "status": "not_available",
+    "note": "No competition data currently held. The prior figure (32,000 vacancies, 2023) traced to no citable document in the original research log, which did not even list competition_benchmarks among this exam's required sections. Removed 2026-09-19 after independent re-sourcing found these posts are filled 100% through internal channels — Limited Departmental Competitive Examination among serving Multi-Tasking Staff, and a competitive exam restricted to serving Gramin Dak Sevaks — with no open-market examination for the general public at all. The only genuine open-market drive found was a dedicated Sports Quota recruitment (Advt. No. W-17/55/2022-SPN-I, 1,899 posts, 2023-11-07), which is a different, narrower channel.",
+    "years": []
   },
   "official_downloads": {
     "status": "available",

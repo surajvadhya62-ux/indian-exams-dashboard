@@ -1,7 +1,7 @@
 {
   "id": "reet",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Qualifying the Rajasthan Eligibility Examination for Teachers (REET) conducted by the Board of Secondary Education Rajasthan (BSER), Ajmer is the statutory prerequisite under Section 23(1) of the Right to Education (RTE) Act, 2009 for recruitment as Primary and Upper Primary Teachers in Rajasthan Government schools. Direct recruitment to the post of Grade III Teacher is conducted under the Rajasthan Educational (State and Subordinate) Service Rules, 2021, following which teachers advance through the State education cadre.",
@@ -183,29 +183,29 @@
   },
   "competition_benchmarks": {
     "status": "available",
-    "note": "REET is Rajasthan's largest public competitive eligibility examination, attracting 15 to 16 lakh candidates across Level 1 and Level 2. In 2022, 14,71,310 candidates appeared out of 15,66,992 registered applicants, and 8,07,145 candidates qualified (6,03,536 in Level 2 and 2,03,609 in Level 1) for recruitment against 48,000 Grade III Teacher vacancies advertised by the State Elementary Education Department.",
+    "note": "REET is Rajasthan's largest public competitive eligibility examination, attracting 15 to 16 lakh candidates across Level 1 and Level 2. In 2022, 14,71,310 candidates appeared out of 15,66,992 registered applicants, and 8,07,145 candidates qualified (6,03,536 in Level 2 and 2,03,609 in Level 1). REET itself has no vacancies — it is a qualifying eligibility test, not a recruitment exam. The Grade III Teacher vacancies that REET-qualified candidates go on to compete for (48,000 in the 2022 cycle, 31,000 in 2021) are advertised separately by RSMSSB / the State Elementary Education Department under their own direct recruitment notification, which does not currently have its own dossier entry in this database.",
     "years": [
       {
         "year": 2022,
         "applicants": 1566992,
-        "vacancies": 48000,
+        "vacancies": null,
         "shortlisted_for_mains": 807145,
-        "selectivity_ratio": "1 in 33 (against 48,000 Grade 3 Teacher vacancies; 8,07,145 candidates qualified the eligibility threshold)",
+        "selectivity_ratio": null,
         "confidence": "verified",
         "as_of": "2026-09-13",
         "source_url": "https://rajeduboard.rajasthan.gov.in/REETRES2022/roll_input.htm",
-        "source_label": "BSER REET 2022 Official Result Portal & Elementary Education Department 48,000 Teacher Notification"
+        "source_label": "BSER REET 2022 Official Result Portal & Elementary Education Department 48,000 Teacher Notification Note (2026-09-19): the vacancy figure previously shown on this row belonged to the separate RSMSSB Grade III Teacher recruitment, not to REET itself, and has been removed from this page pending that exam getting its own dossier entry."
       },
       {
         "year": 2021,
         "applicants": 1651887,
-        "vacancies": 31000,
+        "vacancies": null,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "1 in 53 (16.51 lakh applicants for 31,000 Grade III Teacher vacancies)",
+        "selectivity_ratio": null,
         "confidence": "reported",
         "as_of": "2026-09-13",
         "source_url": "https://rajeduboard.rajasthan.gov.in/RTET-REET/RTET-REET.htm",
-        "source_label": "BSER REET 2021 Candidate Registration Press Release"
+        "source_label": "BSER REET 2021 Candidate Registration Press Release Note (2026-09-19): the vacancy figure previously shown on this row belonged to the separate RSMSSB Grade III Teacher recruitment, not to REET itself, and has been removed from this page pending that exam getting its own dossier entry."
       },
       {
         "year": 2012,

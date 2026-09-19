@@ -1,7 +1,7 @@
 {
   "id": "icar-iari-technician",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Technicians (T-1) in ICAR institutes are recruited centrally by ICAR-IARI to support laboratory analytical services, field trial management, germplasm nurseries, agricultural farm machinery, and post-harvest technology units across 64+ ICAR research institutes. Governed by the ICAR Technical Service Rules (TSR), progression is based on a structured five-year assessment promotion system that is independent of vacancy availability.",
@@ -156,14 +156,14 @@
     "years": [
       {
         "year": 2021,
-        "applicants": 1053000,
+        "applicants": null,
         "vacancies": 802,
         "shortlisted_for_mains": null,
-        "selectivity_ratio": "approx. 1 in 1313 overall selectivity (802 finalized vacancies across ICAR institutes; 10,53,000+ candidates registered and ~5,20,000 candidates appeared in the computer based examination)",
+        "selectivity_ratio": null,
         "confidence": "verified",
         "as_of": "2022-03-08",
         "source_url": "https://www.iari.res.in",
-        "source_label": "ICAR-IARI Press Release & Result Notification for Technician (T-1) Examination"
+        "source_label": "ICAR-IARI Press Release & Result Notification for Technician (T-1) Examination. Applicant/selectivity figures previously shown here traced to no citable source in either official document; removed 2026-09-19 after independent re-sourcing found no such figure in the notification."
       }
     ]
   },
