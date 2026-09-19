@@ -1,7 +1,7 @@
 {
   "id": "dghs-safdarjung-nurse",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Nursing personnel in Central Government hospitals in New Delhi (Safdarjung Hospital, Dr. Ram Manohar Lohia Hospital, Lady Hardinge Medical College & Associated Hospitals, Kalawati Saran Children Hospital) administered by the Directorate General of Health Services (DGHS), MoHFW, follow the Central 7th CPC nursing promotion hierarchy.",
@@ -132,14 +132,14 @@
     "years": [
       {
         "year": 2023,
-        "vacancies": 487,
+        "vacancies": 894,
         "applicants": 112000,
         "shortlisted_for_mains": null,
         "selectivity_ratio": "487 vacancies across nursing and technical cadres in Safdarjung, Dr. RML, LHMC out of ~1.12 lakh applicants (~1 in 230 overall selectivity)",
-        "confidence": "reported",
+        "confidence": "verified",
         "as_of": "2023-12-28",
-        "source_url": "https://dghs.mohfw.gov.in",
-        "source_label": "DGHS Result Notification & Merit List for Central Hospital Recruitment 2023"
+        "source_url": "https://vmmc-sjh.mohfw.gov.in/sites/default/files/Recruitment%20Notice%20for%20Gr%20-%20A%2C%20B%2C%20C%20posts.pdf",
+        "source_label": "DGHS Result Notification & Merit List for Central Hospital Recruitment 2023 CORRECTED 2026-09-19: prior figure (487) traced to no specific document; the actual official notification (RECTT-1/3/2023-Recruitment Cell, corrigendum 2023-10-28) states 894 across SJH/RML/LHMC/KSCH/RHTC (Nursing Attendant 218, OT Assistant 274, Jr. Medical Lab Technologist 159, Medical Lab Technologist 46, Physiotherapist 28, Pharmacist 12, Radiographer 22, etc.). Owner-verified against screenshot, 2026-09-19."
       }
     ]
   },

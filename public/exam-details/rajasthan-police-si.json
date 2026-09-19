@@ -1,7 +1,7 @@
 {
   "id": "rajasthan-police-si",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Promotion from Sub-Inspector to Police Inspector (Circle Inspector / CI) is based on seniority-cum-merit and departmental qualifying criteria under the Rajasthan Police Subordinate Service Rules, 1989. Subsequent promotions into the Rajasthan Police Service (RPS) cadre (Deputy SP to Additional SP) are conducted through Departmental Promotion Committees (DPC) convened by RPSC. Meritorious RPS officers are eligible for induction into the Indian Police Service (IPS) cadre under the IPS (Appointment by Promotion) Regulations.",
@@ -156,6 +156,15 @@
     "status": "available",
     "note": "Applicant, appearance, and vacancy statistics for the RPSC Sub-Inspector / Platoon Commander Combined Competitive Examination. For the 2021 recruitment cycle (Advt. 08/2020-21), 859 vacancies were notified across AP, IB, RAC, and MBC branches. A total of 3,83,097 candidates appeared in the written examination out of approximately 7.97 lakh registered applicants. 20,240 candidates qualified for the Physical Efficiency Test (PET), and 3,291 qualified for the final interview stage.",
     "years": [
+      {
+        "year": 2025,
+        "vacancies": 1076,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-06-02",
+        "source_url": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/B87284F000614D55999928D873BD8B3E.pdf",
+        "source_label": "RPSC Advt. No. 05/Exam/SI-PC/RPSC/EP-I/2025-26 — originally 1,015 (SI AP 896, AP Sahariya 4, AP Scheduled Area 25, SI IB 26, Platoon Commander RAC 64), revised to 1,076 via Corrigendum No. 06/2026-27 (2026-06-02), which raised SI AP Non-Scheduled Area from 896 to 957. Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2021,
         "applicants": 797000,

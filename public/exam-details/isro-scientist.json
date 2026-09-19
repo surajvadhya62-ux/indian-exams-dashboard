@@ -1,7 +1,7 @@
 {
   "id": "isro-scientist",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": null,
@@ -157,6 +157,24 @@
     "status": "available",
     "note": "Consolidated recruitment statistics from ISRO Centralised Recruitment Board notifications and candidate shortlist releases.",
     "years": [
+      {
+        "year": 2026,
+        "vacancies": 175,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-08-27",
+        "source_url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/August/Bilingual_Advertisement_27082026.pdf",
+        "source_label": "ISRO ICRB Advt. ISRO:ICRB:03(EMC):2026 — Written Examination (CBT) route for Scientist/Engineer 'SC': 175 vacancies (Electronics 99, Mechanical 52, Computer Science 21, plus 3 PRL posts). A separate, simultaneous GATE-score-based drive for the same grade is recorded as its own row below — the two routes are not merged. Owner-verified against screenshot, 2026-09-19."
+      },
+      {
+        "year": 2026,
+        "vacancies": 92,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-07-28",
+        "source_url": "https://www.isro.gov.in/media_isro/pdf/recruitmentNotice/2026/July/GATE_Bilingual_Advertisement_2026_28072026.pdf",
+        "source_label": "ISRO ICRB Advt. ISRO:ICRB:02(EMC-CEPO):2026 — GATE-score-based route for Scientist/Engineer 'SC': 92 vacancies (Electronics 34, Mechanical 26, Computer Science 13, Civil 10, Electrical 4, Refrigeration & AC 2, Architecture 2, plus 1 PRL post). Separate from, and not to be summed casually with, the CBT-route row above without checking whether the two drives target disjoint posts. Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2023,
         "vacancies": 303,

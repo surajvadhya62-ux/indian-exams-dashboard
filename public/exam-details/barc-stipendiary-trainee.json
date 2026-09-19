@@ -1,7 +1,7 @@
 {
   "id": "barc-stipendiary-trainee",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": null,
@@ -131,14 +131,14 @@
     "years": [
       {
         "year": 2023,
-        "vacancies": 1216,
+        "vacancies": 4162,
         "applicants": 420000,
         "shortlisted_for_mains": 6100,
-        "selectivity_ratio": "1,216 Category-I vacancies out of ~4,20,000 applicants (~1 in 345 selectivity)",
+        "selectivity_ratio": null,
         "confidence": "reported",
         "as_of": "2023-11-15",
         "source_url": "https://www.barc.gov.in",
-        "source_label": "BARC Recruitment Advt 01/2023 Selection Results"
+        "source_label": "BARC Advt. No. 03/2023/BARC — Stipendiary Trainee: 4,162 total (Category I 1,216 + Category II 2,946). CORRECTED 2026-09-19: prior figure (1,216) only captured Category I; the notification's Stipendiary Trainee total (excluding a further 212 non-trainee direct-recruitment posts also in the same advertisement, which bring the grand total to 4,374) is 4,162. Owner-verified against screenshot, 2026-09-19."
       },
       {
         "year": 2021,

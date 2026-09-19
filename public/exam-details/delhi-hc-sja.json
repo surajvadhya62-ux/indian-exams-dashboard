@@ -1,7 +1,7 @@
 {
   "id": "delhi-hc-sja",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Senior Judicial Assistants (SJA) and Judicial Assistants (JA) form the core administrative and registry backbone of the High Court of Delhi, governed under the Delhi High Court Establishment (Appointment and Conditions of Service) Rules, 1972. They oversee judicial filings, cause lists, courtroom decree drafting, and record maintenance, progressing up to the rank of Registrar.",
@@ -175,6 +175,15 @@
     "status": "available",
     "note": "Applicant and vacancy data from previous recruitment drives conducted by the High Court of Delhi.",
     "years": [
+      {
+        "year": 2026,
+        "vacancies": 152,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-01-30",
+        "source_url": "https://delhihighcourt.nic.in/files/2026-01/recuritment/vacancy_notice_jja_0.pdf",
+        "source_label": "Junior Judicial Assistant / Restorer (Open) Examination 2026 — 152 vacancies (Gen 62, EWS 12, OBC-NCL 44, SC 20, ST 14, incl. 10 PwBD). Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2023,
         "vacancies": 60,

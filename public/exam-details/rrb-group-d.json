@@ -1,7 +1,7 @@
 {
   "id": "rrb-group-d",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "RRB Level-1 (formerly Group 'D') represents the foundational operational workforce of Indian Railways across engineering, mechanical, electrical, signaling, and traffic wings. Through departmental quotas (General Departmental Competitive Examination - GDCE and Limited Departmental Competitive Examination - LDCE), Level-1 employees can advance into supervisory and junior engineering ranks.",
@@ -153,6 +153,15 @@
     "status": "available",
     "note": "RRB Group D (Level-1) represents the single largest recruitment drive in global civil employment history. The RRC-01/2019 cycle notified 1,03,769 vacancies, drawing over 1.15 crore registered applicants. The earlier CEN 02/2018 drive filled 62,907 vacancies with over 1.89 crore applicants.",
     "years": [
+      {
+        "year": 2025,
+        "vacancies": 22195,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-01-31",
+        "source_url": "https://rrbsecunderabad.gov.in/wp-content/uploads/2026/01/Final-Detailed-CEN-09-2025-Level-1-updated-on-30.01.2026.pdf",
+        "source_label": "RRB CEN No. 09/2025 — Level-1 posts: 22,195 vacancies across all Railway zones. Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2019,
         "applicants": 11500000,

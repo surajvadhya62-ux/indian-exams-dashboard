@@ -1,7 +1,7 @@
 {
   "id": "haryana-police-si",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Sub-Inspectors (SI) in Haryana Police are recruited directly for both Male and Female cadres as investigation officers and station house officers. Promotions through the executive police cadre are governed by the Punjab Police Rules (1934, as applicable to Haryana) and Haryana Police Act, 2007.",
@@ -167,15 +167,24 @@
     "note": "Sub-Inspector recruitment in Haryana Police is highly selective, attracting graduates, post-graduates, and law professionals from across Haryana and neighboring states.",
     "years": [
       {
+        "year": 2024,
+        "vacancies": 15,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2024-08-16",
+        "source_url": "https://hssc.gov.in/file/45b28935-4c0a-11f0-a79d-0a499e779f6d/advertisements",
+        "source_label": "HSSC Advt. No. 13/2024 — Special Recruitment Drive (ESP/OSP Sports Quota), Category 40, Male Sub-Inspector (General Duty): 15 vacancies. Separate channel from the 2021 general open cycle. Owner-verified against screenshot, 2026-09-19."
+      },
+      {
         "year": 2021,
         "applicants": 152000,
         "vacancies": 465,
         "shortlisted_for_mains": 3500,
         "selectivity_ratio": "approx. 1 in 326 (calculated: applicants ÷ notified vacancies)",
-        "confidence": "reported",
+        "confidence": "verified",
         "as_of": "2021-10-31",
         "source_url": "https://hssc.gov.in",
-        "source_label": "HSSC Advt 03/2021: 465 vacancies (400 Male SI, 65 Female SI); over 1.52 lakh registered applicants; 1.10 lakh appeared in written exam on September 26, 2021."
+        "source_label": "HSSC Advt 03/2021: 465 vacancies (400 Male SI, 65 Female SI); over 1.52 lakh registered applicants; 1.10 lakh appeared in written exam on September 26, 2021. Owner-verified against screenshot, 2026-09-19."
       }
     ]
   },

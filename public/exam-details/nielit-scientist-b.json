@@ -1,7 +1,7 @@
 {
   "id": "nielit-scientist-b",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": null,
@@ -150,13 +150,13 @@
       {
         "year": 2023,
         "vacancies": 598,
-        "applicants": 142000,
+        "applicants": 111865,
         "shortlisted_for_mains": 213,
         "selectivity_ratio": "598 vacancies (Scientist 'B': 71, Scientific Officer 'SB': 196, Scientific Assistant 'A': 331) advertised; ~213 shortlisted for Scientist 'B' interview out of ~1,42,000 total applicants (~1 in 237 overall)",
-        "confidence": "reported",
+        "confidence": "verified",
         "as_of": "2024-01-20",
         "source_url": "https://www.nielit.gov.in/recruitments",
-        "source_label": "NIELIT NIC Recruitment 2023 Shortlist and Result Statistics"
+        "source_label": "NIELIT NIC Recruitment 2023 Shortlist and Result Statistics CORRECTED 2026-09-19: applicants updated from a vague estimate (142,000) to the precise official count NIELIT itself published (postandcategorywisecount.pdf): 1,11,865 across all 3 posts (36,218 for Scientist 'B' + 39,201 for Scientific/Technical Assistant 'A', plus the balance for Scientific Officer/Engineer 'SB'). Owner-verified against screenshot, 2026-09-19."
       },
       {
         "year": 2020,

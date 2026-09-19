@@ -52,7 +52,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Agricultural Scientists Recruitment Board (ASRB) AO & FAO Examination  [asrb-icar-administrative-officer]  - conducted by ASRB New Delhi
 ```
 
-## Batch 2  -  very high  -  [ ] done
+## Batch 2  -  very high  -  [x] done
 
 ```
 - Assam Rifles Technical & Tradesmen Recruitment Rally Examination  [assam-rifles-technical-tradesmen]  - conducted by Assam Rifles (MHA/MoD)
@@ -62,7 +62,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Chhattisgarh Teacher Eligibility Test (CGTET)  [cgtet]  - conducted by CG Vyapam
 ```
 
-## Batch 3  -  very high  -  [ ] done
+## Batch 3  -  very high  -  [x] done
 
 ```
 - Central Industrial Security Force (CISF) Head Constable (Ministerial) Exam  [cisf-head-constable-ministerial]  - conducted by CISF (MHA)
@@ -72,7 +72,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - DRDO CEPTAM Technician 'A' (Tech-A) Industrial Trade Examination  [drdo-ceptam-tech-a]  - conducted by DRDO CEPTAM
 ```
 
-## Batch 4  -  very high  -  [ ] done
+## Batch 4  -  very high  -  [x] done
 
 ```
 - Employees' Provident Fund Organisation Social Security Assistant  [epfo-ssa]  - conducted by NTA / EPFO
@@ -82,7 +82,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - GPSSB Talati cum Mantri (Panchayat Secretary) Examination  [gsssb-talati-mantri]  - conducted by GPSSB
 ```
 
-## Batch 5  -  very high  -  [ ] done
+## Batch 5  -  very high  -  [x] done
 
 ```
 - Haryana Staff Selection Commission Common Eligibility Test (Group D)  [hssc-cet-group-d]  - conducted by HSSC
@@ -102,7 +102,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - KPSC First Division Assistant (FDA) Recruitment Examination  [kpsc-fda]  - conducted by KPSC
 ```
 
-## Batch 7  -  very high  -  [ ] done
+## Batch 7  -  very high  -  [x] done
 
 ```
 - Karnataka Power Transmission Corporation Limited (KPTCL) JE Exam  [kptcl-junior-engineer]  - conducted by KPTCL
@@ -112,7 +112,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - NIELIT Scientist 'B' & Scientific Assistant 'A' Examination  [nielit-scientist-b]  - conducted by NIELIT / MeitY
 ```
 
-## Batch 8  -  very high  -  [ ] done
+## Batch 8  -  very high  -  [x] done
 
 ```
 - Odisha Police Sub-Inspector of Police Recruitment Examination  [oprb-police-si]  - conducted by Odisha Police OPRB
@@ -122,7 +122,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Rajasthan Police Constable Recruitment Examination  [rajasthan-police-constable]  - conducted by Rajasthan Police
 ```
 
-## Batch 9  -  very high  -  [ ] done
+## Batch 9  -  very high  -  [x] done
 
 ```
 - Rajasthan Police Sub-Inspector / Platoon Commander Examination  [rajasthan-police-si]  - conducted by RPSC
@@ -132,7 +132,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - RSMSSB Rajasthan Patwari Examination  [rsmssb-patwari]  - conducted by RSMSSB
 ```
 
-## Batch 10  -  very high  -  [ ] done
+## Batch 10  -  very high  -  [x] done (ssc-cgl-aao correctly left blank — SSC hasn't released post-wise 2026 vacancies yet)
 
 ```
 - RSMSSB Village Development Officer (Gram Vikas Adhikari) Exam  [rsmssb-vdo]  - conducted by RSMSSB
@@ -142,7 +142,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - SSC CGL Assistant Audit Officer & Assistant Accounts Officer Examination  [ssc-cgl-aao]  - conducted by Staff Selection Commission (SSC)
 ```
 
-## Batch 11  -  very high  -  [ ] done
+## Batch 11  -  very high  -  [x] done
 
 ```
 - TSPSC Group-4 Services (Junior Assistant & Junior Accountant) Exam  [tspsc-group-4]  - conducted by TSPSC
@@ -152,7 +152,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - UPPCL Executive Assistant & Camp Assistant Examination  [uppcl-executive-assistant]  - conducted by UPPCL ESC
 ```
 
-## Batch 12  -  very high  -  [ ] done
+## Batch 12  -  very high  -  [x] done
 
 ```
 - UPPCL Junior Engineer (Trainee) Electrical / Civil Examination  [uppcl-junior-engineer]  - conducted by UPPCL ESC
@@ -162,7 +162,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - West Bengal Primary Teacher Eligibility Test (WBTET)  [wbtet]  - conducted by WBBPE
 ```
 
-## Batch 13  -  high  -  [ ] done
+## Batch 13  -  high  -  [x] done
 
 ```
 - Actuarial Common Entrance Test  [acet-actuarial]  - conducted by Institute of Actuaries of India (IAI)
@@ -172,7 +172,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Bhabha Atomic Research Centre Stipendiary Trainee Examination  [barc-stipendiary-trainee]  - conducted by BARC
 ```
 
-## Batch 14  -  high  -  [ ] done
+## Batch 14  -  high  -  [x] done
 
 ```
 - BEML Limited Management Trainee & Diploma Trainee Examination  [beml-management-trainee]  - conducted by BEML Limited
@@ -182,7 +182,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Bureau of Indian Standards (BIS) Technical Assistant (Laboratory) & SSA Exam  [bis-technical-assistant]  - conducted by Bureau of Indian Standards
 ```
 
-## Batch 15  -  high  -  [ ] done
+## Batch 15  -  high  -  [x] done
 
 ```
 - Central Government Health Scheme (CGHS) Pharmacist & MTS Examination  [cghs-pharmacist]  - conducted by CGHS MoHFW
@@ -192,7 +192,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - DGHS Central Hospitals Staff Nurse & Technical Officer Examination  [dghs-safdarjung-nurse]  - conducted by DGHS MoHFW
 ```
 
-## Batch 16  -  high  -  [ ] done
+## Batch 16  -  high  -  [x] done
 
 ```
 - Delhi Metro Rail Corporation JE / Station Controller Examination  [dmrc-je-sc]  - conducted by DMRC
@@ -202,7 +202,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Hindustan Aeronautics Limited Management / Design Trainee  [hal-management-trainee]  - conducted by HAL
 ```
 
-## Batch 17  -  high  -  [ ] done
+## Batch 17  -  high  -  [x] done
 
 ```
 - Haryana Police Sub-Inspector Examination  [haryana-police-si]  - conducted by HSSC
@@ -212,7 +212,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Haryana Power Utilities (HVPNL / UHBVNL / DHBVNL) Assistant Engineer Exam  [hvpn-assistant-engineer]  - conducted by HVPNL Haryana
 ```
 
-## Batch 18  -  high  -  [ ] done
+## Batch 18  -  high  -  [x] done (3 exams had existing rows with no real source, traced and removed 2026-09-19 — see VERIFICATION-QUEUE.md rows 86-90; iocl-apprentice still needs a follow-up query for the true national 2026 apprentice total)
 
 ```
 - Indian Air Force Civilian Group 'C' Direct Recruitment Examination  [iaf-civilian-group-c]  - conducted by Indian Air Force
@@ -222,7 +222,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Indian Oil Corporation Officers in Finance Function  [iocl-finance-officer]  - conducted by IOCL
 ```
 
-## Batch 19  -  high  -  [ ] done
+## Batch 19  -  high  -  [x] done
 
 ```
 - JIPMER Puducherry Nursing Officer & Medical Record Technician Exam  [jipmer-nursing-officer]  - conducted by JIPMER Puducherry
@@ -232,7 +232,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - Karnataka Judicial Service (Civil Judge) Competitive Examination  [karnataka-judicial-service]  - conducted by High Court of Karnataka
 ```
 
-## Batch 20  -  high  -  [ ] done
+## Batch 20  -  high  -  [x] done
 
 ```
 - Kerala PSC Civil Excise Officer (Excise Department) Exam  [kerala-psc-civil-excise]  - conducted by Kerala PSC

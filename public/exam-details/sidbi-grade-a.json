@@ -1,7 +1,7 @@
 {
   "id": "sidbi-grade-a",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Small Industries Development Bank of India (SIDBI) provides an all-India financial institution cadre hierarchy with promotion avenues from Grade A up to the Executive Board.",
@@ -181,6 +181,15 @@
     "status": "available",
     "note": "Competition benchmarks reflect direct recruitment drives by SIDBI for development banking specialists.",
     "years": [
+      {
+        "year": 2025,
+        "vacancies": 50,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2025-07-14",
+        "source_url": "https://www.sidbi.in/head/uploads/career_document/SIDBI_DETAILED_WEB_ADVT_2025.pdf",
+        "source_label": "SIDBI Advertisement No. 03/Grade 'A' and 'B'/2025-26 — Assistant Manager Grade A, General Stream: 50 vacancies (UR 20, SC 7, ST 3, OBC 15, EWS 5). Combined notification covers Grade A + Grade B (76 total); this row is Grade A only. Note: 50 also happens to be the already-recorded 2023 Grade A figure — coincidence, not a copy-paste; worth a second glance given the combined-notification structure. Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2023,
         "applicants": 65000,

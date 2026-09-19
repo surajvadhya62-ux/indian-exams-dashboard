@@ -1,7 +1,7 @@
 {
   "id": "rbi-assistant",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Reserve Bank of India offers a structured promotional channel allowing Assistants in Class III to advance into the Officer cadre (Grade A and beyond) through departmental qualifying examinations and seniority-merit channels.",
@@ -233,6 +233,15 @@
     "status": "available",
     "note": "Competition benchmarks reflect official vacancy notifications across RBI's 17 regional office circles.",
     "years": [
+      {
+        "year": 2025,
+        "vacancies": 651,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2026-02-16",
+        "source_url": "https://rbidocs.rbi.org.in/rdocs/Content/PDFs/DAASSISTANT2025CCB4E54CEB5542D9987FE6D1EA51D143.PDF",
+        "source_label": "RBI Assistant Recruitment, Panel Year 2025 — 650 regular vacancies across 17 regional offices + 1 backlog (ST, Mumbai) = 651. Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2023,
         "applicants": 380000,

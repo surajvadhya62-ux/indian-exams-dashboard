@@ -1,7 +1,7 @@
 {
   "id": "indian-navy-chargeman",
   "schema_version": 1,
-  "last_reviewed": "2026-09-18",
+  "last_reviewed": "2026-09-19",
   "career_ladder": {
     "status": "available",
     "note": "Civilian Chargeman in the Indian Navy is a technical supervisory post under the Directorate of Civilian Personnel, Naval Headquarters. Chargeman commences as Group 'B' (Non-Gazetted) in 7th CPC Pay Matrix Level 6 and advances through technical supervisory and managerial roles up to General Manager level in Naval Dockyards and Armament Depots.",
@@ -154,6 +154,15 @@
     "status": "available",
     "note": "Recruitment benchmarks compiled from Indian Navy Civilian Entrance Test (INCET) notifications and merit releases.",
     "years": [
+      {
+        "year": 2025,
+        "vacancies": 223,
+        "applicants": null,
+        "confidence": "verified",
+        "as_of": "2025-07-03",
+        "source_url": "https://www.joinindiannavy.gov.in/",
+        "source_label": "Indian Navy INCET-01/2025 Official Notification — 223 vacancies across all 19 Chargeman trade disciplines (Tables B-U), matching this dossier's existing all-disciplines scope (cf. 372 in 2023, 172 in 2021). Note: Antigravity's research specifically detailed the Ammunition Workshop trade alone (8 vacancies, part of a 110-post Table-C group of 3 trades) — that narrower figure was NOT used here to stay consistent with how this exam has always been tracked. Owner-verified against screenshot, 2026-09-19."
+      },
       {
         "year": 2023,
         "vacancies": 372,
