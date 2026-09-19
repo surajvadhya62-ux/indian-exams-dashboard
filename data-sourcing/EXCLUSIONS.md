@@ -39,7 +39,6 @@ district's share of a single state-level exam.
 
 ## Register
 
-*No entries yet. Discovery has not been run against this policy.*
-
 | Date | Candidate | Conducting body | Failed | Note | Revisit when |
 |---|---|---|---|---|---|
+| 2026-09-19 | Tripura Public Service Commission Civil Service Examination (`tpsc-tcs`) | TPSC | U | Duplicate of `tpsc-cce` — same recruitment (TCS Grade-II, Pay Matrix Level 14, ₹54,000 entry, same 2018 pay rules citation, same IAS induction path); both added in the same original bulk-generation commit (`d16afc3`). `tpsc-cce` is the more complete record (it also covers TPS Grade-II, the police half of the same combined exam) and was kept; `tpsc-tcs` removed from `exams.json`, its dossier file, `authorities.json`'s `tpsc` entry, and its `news.json` dispatch stub. Its 2025 benchmark row had already been caught and removed in the 2026-09-18 fabricated-benchmarks audit, and its `exams.json.vacancies` was still on the "480 Posts" 16-exam-wide placeholder — a second-generation cleanup on an entry that never had real data behind it. | Only if TPSC ever splits TCS and TPS into genuinely separate competitive exams (not just separate cadres within one combined exam) |
