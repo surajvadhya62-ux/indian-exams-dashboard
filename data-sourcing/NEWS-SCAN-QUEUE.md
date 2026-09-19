@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Railway Recruitment Board Junior Engineer (`rrb-je`) — 4,098 posts claimed
+
+- **Seen:** 2026-09-19
+- **Headline:** RRB JE 2026 Notification Out: 4,098 Vacancies, Eligibility, Apply Online - PW
+- **Link:** https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwOEZmamZjUlpMeTJiOXpHcmpqc0ZkcjljRFY0cFpzay1Va2NwTFczT21fQW1qalg0UFRNdENUMHY2NkxBNFlrVmdBVFNTM0lfRWhWZmpR?oc=5
+- **Status:** unreviewed
+- **Key:** `rrb-je|4098|2026`
+
 ## Super TET (Uttar Pradesh) (`super-tet`) — 12,405 posts claimed
 
 - **Seen:** 2026-09-19
