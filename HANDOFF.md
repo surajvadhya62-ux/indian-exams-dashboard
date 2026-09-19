@@ -1,6 +1,6 @@
 # Handoff — India Exams Dashboard
 
-**Date:** 2026-09-18 (supersedes the earlier handoff of the same date)
+**Date:** 2026-09-19 (supersedes the 2026-09-18 handoff)
 **Owner:** Suraj (chartered accountant, **not a developer** — explain in plain language, use
 audit/accounting framing where it helps, avoid engineering jargon)
 **Purpose:** everything a fresh session needs. Facts below were measured, not assumed.
@@ -18,11 +18,14 @@ audit/accounting framing where it helps, avoid engineering jargon)
 3. **Do not run portal fetching on GitHub Actions.** Indian government portals refuse US traffic:
    22/38 readable from India, 12/38 from GitHub's San Jose runner. Evidence in
    `connectivity-report.md`.
-4. **There are two separate data layers, and it is easy to edit the wrong one.** See §2. This has
-   already caused one wasted cycle.
+4. **The two-layer design question is settled — `exams.json.vacancies` is now a calculated
+   field.** See §2. It used to be hand-maintained separately from the dossier and the two drifted;
+   don't hand-edit it again, or the next `derive-vacancies` run will silently overwrite the edit.
 5. **`gh` CLI is not installed.** Check GitHub state with `git fetch` + `git log origin/main`.
 6. Node is at `/opt/homebrew/bin/node`. Deployment is automatic on push to `main`
-   (`.github/workflows/deploy.yml` → GitHub Pages).
+   (`.github/workflows/deploy.yml` → GitHub Pages). **As of this handoff, 5 commits from
+   2026-09-19 are sitting local, not yet pushed** — check `git status -sb` before assuming the
+   live site reflects the repo.
 
 ---
 
@@ -33,37 +36,63 @@ A React/Vite site cataloguing Indian government and competitive exams, with a de
 
 | Measure | Value |
 |---|---|
-| Exams in `src/data/exams.json` | 500 |
-| Dossiers in `public/exam-details/` | 500 |
-| `npm run validate` | 500 checked, 0 errors, 0 warnings |
-| Tracks (see §3) | 379 R (recruitment), 117 A (admission), 4 Q (qualification) |
+| Exams in `src/data/exams.json` | 499 (was 500 — `tpsc-tcs` removed 2026-09-19 as a duplicate of `tpsc-cce`) |
+| Dossiers in `public/exam-details/` | 499 |
+| `npm run validate` | 499 checked, 0 errors, 0 warnings |
+| Tracks (see §3) | 378 R (recruitment), 117 A (admission), 4 Q (qualification) |
+| Exams with a `verified` vacancy figure on the summary field | 186 (was 1 on 2026-09-18) — see §2 |
 
 ---
 
-## 2. ⚠️ The two data layers — read before editing any exam data
+## 2. The two data layers — settled 2026-09-19, `exams.json` is now calculated
 
-This is the single most important structural fact about the repo.
+This used to be the single most important open risk in the repo. It is now closed, but the shape
+still matters for understanding the site.
 
 | | `src/data/exams.json` | `public/exam-details/<id>.json` |
 |---|---|---|
-| Holds | one flat record per exam | the deep dossier per exam |
-| Vacancy shape | a single `vacancies` string | `competition_benchmarks.years[]`, one row per cycle |
-| Provenance | `provenance.vacancies{}` (added 2026-09-18) | `confidence`/`source_url`/`as_of` per row (pre-existing) |
+| Holds | one flat record per exam — **the summary, calculated, never hand-edited** | the deep dossier per exam — **the only place vacancy data is entered** |
+| Vacancy shape | a single `vacancies` string, e.g. `"523 Posts"` | `competition_benchmarks.years[]`, one row per cycle, can hold several rows per year |
+| Provenance | `provenance.vacancies{}`, now includes `derived_on` | `confidence`/`source_url`/`as_of` per row (pre-existing) |
 | Shown on the exam page? | **No** | **Yes** — the "Cut-offs & Vacancies" tab |
 | Read by | `Analytics.jsx`, `pdfGenerator.js` | `CompetitionBenchmarks.jsx` |
 
-**Consequence:** updating `exams.json.vacancies` changes nothing a visitor sees. A session
-already made this mistake — verified a figure, wrote it to `exams.json`, and the owner correctly
-reported that nothing changed on the site.
+**The old consequence, now prevented rather than just documented:** updating `exams.json.vacancies`
+by hand used to change nothing a visitor sees, and the two layers would silently drift apart — a
+prior session verified a figure, wrote it only to `exams.json`, and the owner correctly reported
+that nothing changed on the site.
 
-**Also:** the flat `exams.json.vacancies` field is structurally inadequate. SBI Clerk currently
-has two live cycles (a general one and an SC/ST/OBC backlog drive) with different figures; one
-string cannot express which cycle it means. The dossier's year-array can.
+**The fix:** `scripts/automation/derive-vacancy-summary.mjs` (`npm run derive-vacancies`, with a
+`--dry-run`) recalculates `exams.json.vacancies` and `provenance.vacancies` for every exam,
+straight from the dossier. Nobody edits the summary field by hand again — fix the dossier, then
+re-run the script. **This is a manual step, not a hook.** If a dossier is edited and the script
+isn't re-run, `exams.json` goes stale again with no warning. Consider wiring it into `npm run
+validate` or a pre-commit hook if this keeps getting forgotten.
 
-**Unresolved design question, deliberately left open for the owner:** whether
-`exams.json.vacancies` should be retired, derived from the dossier, or kept as a separate
-headline figure for the Analytics rollups (which need one number per exam to chart). Do not
-quietly pick one — ask.
+**The rule the script enforces**, in order:
+1. Only `confidence: "verified"` dossier rows count.
+2. A verified row must also **cite an actual document**, not a bare homepage — `citesDocument()`
+   in the script checks the URL path. As of 2026-09-19, 165 of 541 verified dossier rows fail
+   this and stay blocked from the summary (`--list-blocked` prints them). Two of the rows this
+   caught turned out to have no notification behind them at all (§4d).
+3. Rows flagged `exclude_from_rollup: true` are skipped — for a real, verified figure that must
+   not be summed with a neighbour (two hiring routes that may target the same posts; a drive
+   partly cancelled after publication). Set this flag by hand when adding such a row.
+4. What survives is grouped by the most recent year and summed.
+5. If nothing survives, the field is cleared, not left stale or guessed.
+
+**Track A (admission) and Q (qualification) exams are excluded from all of the above** and always
+resolve to `not_applicable`, driven off the `track` field specifically — **not** off prior
+`provenance`. An early version of this script inferred the admission/qualification classification
+from what the exam's provenance already said, which would have started publishing college seat
+counts as job vacancies the first time an admission exam's provenance was ever touched (e.g.
+`kcet` → "1,20,000 Posts", Karnataka's engineering seat pool, not a government job). Caught before
+it shipped. If this script is ever rewritten, keep the `track`-based exclusion — it is the reason
+119 exams don't have a seat count mislabelled as a vacancy count on their page.
+
+**SBI Clerk's two live cycles** (a general drive and an SC/ST/OBC backlog drive, different
+figures) is exactly the case the dossier's year-array was built to express and the flat string
+could not — the summary now reports whichever cycle is most recent, from the dossier, correctly.
 
 ---
 
@@ -79,7 +108,7 @@ cells in scope; **autonomous bodies in scope, government-*aided* private institu
 the test is creation and funding, not the word "autonomous"; rejected candidates recorded in
 `data-sourcing/EXCLUSIONS.md`.
 
-A `track` field (R/A/Q) exists on all 500 records. **`exam_type` was left alone deliberately** —
+A `track` field (R/A/Q) exists on all 499 records. **`exam_type` was left alone deliberately** —
 ten files read it as a strict two-way switch (`=== 'job'` / `=== 'entrance'`) with no branch for a
 third value, so changing it is a UI redesign, not a data fix. `track` is not yet read by any UI.
 
@@ -87,7 +116,10 @@ third value, so changing it is a UI redesign, not a data fix. `track` is not yet
 
 ## 4. ⚠️ Data integrity — the defining issue of this project
 
-Three separate fabrication defects have been found. Assume more exist.
+**Five** separate fabrication/contamination defects have been found (two more since the
+2026-09-18 handoff). Assume more exist — none of the five were found by looking for defects in
+general; each was found incidentally while doing something else. There has been no systematic
+sweep.
 
 ### 4a. `exams.json` placeholder vacancies (found, marked, suppressed)
 500 records carried a vacancy figure; only 242 distinct values; 92 read "650 Posts". Every record
@@ -128,10 +160,50 @@ display the number.
 
 **Verified dossier rows: 628 before → 459 after.**
 
-### The standing lesson
-Every fabrication so far shared one tell: **a value repeated across exams that should not share
-one.** When touching any data field, run that test first — group by value, count distinct exams.
-It has caught all three defects.
+### 4d. News-scraper writing straight to the database (found and fixed 2026-09-19)
+`.github/workflows/auto-exam-sync.yml` ran `sync-exams.mjs --scan` twice daily. It matched Google
+News headlines against exam names and wrote any number it regex-matched near "vacancies" straight
+into the dossier and `exams.json`, `confidence: "reported"`, source_url pointing at the news
+article. This was documented in the 2026-09-18 handoff (§9, below) as writing to `exams.json`
+only — it also wrote to the dossier, which the site actually displays. That half was undocumented
+until this defect was traced.
+
+**18 rows across 15 high-traffic exams** had reached the live-facing dossier before this was
+caught, including `ssc-cgl`, `sbi-clerk`, `ibps-clerk`, `india-post-gds`, `super-tet`, `rrb-je`.
+Two duplicate figures on the same exam-year (`fci-manager`: 33,556 and 33,566, one headline
+labelled "(Expected)"); a state's regional share published as a national total
+(`india-post-gds`: 918, Andhra Pradesh's slice alone); a figure that duplicated a component
+already inside a verified row beside it (`super-tet`).
+
+**Fixed:** `sync-exams.mjs --scan` no longer writes to any data file. It appends a lead to
+`data-sourcing/NEWS-SCAN-QUEUE.md` instead (exam, claimed figure, headline, link, status
+`unreviewed`, a dedupe key). The workflow now stages only that queue file. Full record:
+`data-sourcing/AUDIT-2026-09-19-news-scraped-benchmarks.md`.
+
+### 4e. Phantom rows with no underlying notification (found 2026-09-19, 4 rows removed)
+Two exams — `spices-board-field-officer` (2023: 28, 2021: 20) and
+`tea-board-development-officer` (2023: 22, 2020: 18) — carried `verified` rows for years with **no
+notification at all**, confirmed by checking each conducting body's own recruitment archive
+directly. This is a different failure from "uncited": uncited means the source hasn't been found
+yet; this means the event did not happen. Neither generation pattern (4a's placeholder, 4c's
+185x-ratio) explains these — they simply haven't been checked before. Full record:
+`data-sourcing/AUDIT-2026-09-19-phantom-aggregator-rows.md`.
+
+**This was found by accident**, while re-sourcing two exams that happened to be in a batch. No
+systematic check of whether a `verified` row's underlying notification actually exists has been
+run across the other ~537 verified rows. That is the natural next audit.
+
+### The standing lesson, now in three parts
+1. **A value repeated across exams that should not share one** (caught 4a, 4c).
+2. **A citation pointing anywhere other than the conducting body** — news domains, coaching
+   sites, job-alert mirrors, or a bare homepage with no document (caught 4d, and is what
+   `derive-vacancy-summary.mjs`'s `citesDocument()` check now enforces mechanically before a
+   figure reaches the summary).
+3. **A `verified` row whose source was never stronger than "unresolved"** is worth a direct check
+   against the conducting body's own archive, not another attempt at the same citation (caught
+   4e). A row that survives checks 1 and 2 is not automatically safe.
+
+None of these are theoretical — each was the specific tell that caught a real defect this month.
 
 ---
 
@@ -139,36 +211,75 @@ It has caught all three defects.
 
 | Layer | Status |
 |---|---|
-| 459 dossier rows marked `verified` | **Analytical assurance only.** No generation pattern found (scattered dates, no constant ratio, specific working notes). This rules out *generated* data; it does **not** confirm any individual figure. Nobody has opened their sources. |
-| 544 dossier rows marked `reported` | Uncited or secondary-sourced. Not shown with a badge. |
-| 1 `exams.json` verified figure | SBI Clerk, checked against the primary PDF. |
+| 541 dossier rows marked `verified` | A large share now genuinely document-checked — every re-sourced row from batches 1-35 (§6) is cited to a specific, directly-downloaded or owner-opened document, several with actual screenshots on disk in `data-sourcing/screenshots/`. The pre-existing majority is still **analytical assurance only** (no generation pattern found; does not confirm any individual figure). No systematic split between the two has been done. |
+| 510 dossier rows marked `reported` | Uncited or secondary-sourced. Not shown with a badge. |
+| 186 `exams.json` figures marked `verified` | Calculated from the dossier (§2), up from 1 (SBI Clerk only) on 2026-09-18. Each traces back to whichever dossier row(s) fed it. |
+| 165 dossier rows marked `verified` but excluded from the summary | Cite only a bare homepage, not a document. `npm run derive-vacancies -- --list-blocked` prints them. This is the visible work queue — treat a blank summary figure as "needs a citation," not "no data." |
 
-**Do not describe the 459 as verified-and-checked.** Sampling them substantively is the natural
-follow-up once §6 is done.
+**Do not describe the pre-2026-09 rows as verified-and-checked**, even where the tag says
+`verified`. Two of them (§4e) turned out to be phantom despite the tag. Sampling the rest
+substantively is still the natural follow-up, and now has a head start: the 165 blocked rows are
+already known to be weak; start there.
 
 ---
 
 ## 6. Current work in progress — re-sourcing the 170
 
-- `data-sourcing/VERIFICATION-QUEUE.md` — the 170 exams, popularity-ordered
-  (60 very_high, 80 high, 29 medium, 1 low).
-- `data-sourcing/ANTIGRAVITY-BATCHES.md` — 34 ready-to-paste batches of 5, with the research
-  prompt. The owner runs these in **Google Antigravity** (agentic IDE, runs on his Mac from an
-  Indian IP, so it reaches portals that scripts and US-hosted tools cannot, and it captures
-  screenshots as evidence).
+**Status as of 2026-09-19: 25 of the original 34 batches fully done, 9 partial, plus a
+"Batch 35 (cleanup)" pass over everything the first attempt held back — most of which is now
+also resolved.** This section used to say the work hadn't started; it is now most of the way
+through.
+
+- `data-sourcing/VERIFICATION-QUEUE.md` — the 170 exams, popularity-ordered, each row updated
+  with what was found, what was entered, and why anything was held.
+- `data-sourcing/ANTIGRAVITY-BATCHES.md` — the 34 original batches plus Batch 35 (cleanup),
+  each marked `[x]` done, `[~]` partial, or `[ ]` not started, with a one-line summary of outcome.
+
+**Two tools are in play, not one.** Batches 1-20 ran through **Google Antigravity** (agentic IDE,
+runs on the owner's Mac from an Indian IP, captures real screenshots — check
+`data-sourcing/screenshots/` for the exam's filename before assuming a batch has no visual
+evidence). From batch 21 onward the owner has also used **Ling 3.0**, a text-based tool with no
+screenshot capability — for that tool, "the owner opened the source PDF himself and confirmed the
+figure" is the equivalent check, and an empty screenshots folder for a Ling 3.0 batch's exams is
+expected, not a red flag. Some later batches (27, 29, 32, 33) came back with real downloaded PDFs,
+OCR text, and screenshots again — check `data-sourcing/screenshots/` and the exam's dossier
+`source_label` before assuming which tool produced a given row.
 
 **The workflow, and the rule that matters:**
-1. Owner runs a batch in Antigravity; it returns figures plus screenshots.
-2. Owner opens the screenshot and confirms the number is actually there.
-3. Only that human check makes it `verified`. Unchecked extraction is `reported` and stays off
-   the page.
-4. Results come back to Claude, which writes them into the **dossier** (not `exams.json` — see §2).
+1. Owner runs a batch (either tool); it returns figures, and ideally a document link or screenshot.
+2. The human check — screenshot, or the owner opening the PDF directly — is what makes a figure
+   `verified`. Unchecked extraction, or extraction sourced to a coaching site / job-alert mirror /
+   bare homepage instead of the conducting body, stays at `reported` and off the page.
+3. Results come back to Claude, which checks each figure against the *existing* dossier entry
+   before writing anything — several real corrections this session were only caught this way
+   (§4, and see the commit `data(vacancies): re-source 39 exams from cleanup batches 21-35` for
+   the specific list). Writes go to the **dossier** only (not `exams.json` — see §2, now
+   calculated from the dossier automatically).
+4. **Default incoming batch data to `verified` without demanding proof each time** — the owner
+   checks the source himself before or after sending a batch. The one exception: hold and flag
+   anything that looks like a genuine problem regardless of whether it was checked — wrong scope,
+   an impossible date, a figure that contradicts an existing verified row, a source that's a bare
+   homepage or a coaching-site mirror. That's a data-integrity catch, not a process-compliance
+   step, and it has caught real issues (§4).
 
 **The prompt's critical instruction:** `applicants` must be null unless a document states it.
 The entire 4c defect was derived applicant counts. A null is worth more than a plausible figure.
 
-**Never give Antigravity write access to this repo.** Data entered without a checkable source
-trail is indistinguishable from data that was invented.
+**Never give Antigravity or Ling 3.0 write access to this repo.** Data entered without a
+checkable source trail is indistinguishable from data that was invented.
+
+**Still open in the queue** (check `data-sourcing/VERIFICATION-QUEUE.md` for current detail on
+each): `reet`, `csphcl-line-attendant`, `iocl-apprentice`, `maha-vanrakshak` (two independent
+transcriptions of the same vacancy table don't sum to their own stated totals — needs a screenshot,
+not another retyping), `ongc-finance-officer`, `pgimer-nursing-officer` (PGIMER itself withdrew
+this vacancy record pending a roster revision — don't enter it even if re-offered), `tn-mrb-staff-nurse`,
+`uk-judicial-service` (same advertisement number gives 8 vacancies in one document and 16 in
+another — needs both documents opened side by side), `upsssc-aso`, `upsssc-tubewell-operator`. Plus
+one structural question that isn't a sourcing task: **`nia-si-inspector`** — NIA runs no
+independent competitive exam of its own; open-market hiring goes entirely through SSC CGL
+(already a separate exam in this database), and NIA's own direct notices are deputation-only, not
+open to the public. This may not meet the inclusion policy's own criteria for a distinct exam.
+Needs the owner's call, not more sourcing.
 
 ---
 
@@ -199,31 +310,47 @@ Controls: `launchctl load|unload ~/Library/LaunchAgents/com.indiaexams.portal-wa
 
 ---
 
-## 8. The vacancy intake pipeline
+## 8. The vacancy intake pipeline — now superseded, not yet retired
 
 `npm run apply-vacancy-updates` (`--dry-run` supported) reads
 `data-sourcing/vacancy-updates.csv` → writes `exams.json` provenance → logs to
 `data-sourcing/vacancy-update-log.md` → removes applied rows, leaves rejected ones with reasons.
 
-Rejects: unknown id, track ≠ R, confidence not `verified`/`reported`, missing source, bad date,
-**and any attempt to downgrade an existing `verified` figure without an explicit checked decision.**
-
-⚠️ **This writes to `exams.json`, which the exam page does not display (§2).** It needs a dossier
-equivalent, or retiring, once the §2 design question is settled.
+⚠️ **§2's design question is now settled, and this script writes to the field that settlement
+made calculated.** Anything this script writes will be silently overwritten the next time
+`npm run derive-vacancies` runs, since that script recalculates `exams.json.vacancies` and
+`provenance.vacancies` from the dossier on every run and does not consult this CSV. Running this
+script no longer has any lasting effect. It has not been deleted or redirected — that's a
+follow-up, either retire it or repoint it at writing dossier rows instead of `exams.json` rows.
+Don't rely on it in the meantime.
 
 ---
 
-## 9. The pre-existing auto-sync, and its standing weakness
+## 9. The auto-sync — fixed 2026-09-19, was live and unvouched for longer than documented
 
 `.github/workflows/auto-exam-sync.yml` runs `sync-exams.mjs --scan` twice daily. It fetches two
-Google News RSS queries, regex-matches headlines against exam names, and writes vacancy figures
-found in headlines straight into the database. It **cannot** add a new exam (`addNewExam()` is
-only reachable via a manual `--add`); the workflow's "new exam → GitHub issue" step is dead code.
+Google News RSS queries and regex-matches headlines against exam names.
 
-**It is still live and still unvouched.** It produced the "1,538 Posts" figure on `sbi-clerk`
-from a headline. That figure later turned out to be *correct* — it was a real SC/ST/OBC backlog
-drive (Advt. CRPD/CR/SPLDRIVE/2026-27/16) — but it reached the database with no verification,
-which is luck, not control. **Consider gating or disabling it.**
+**Corrected from the 2026-09-18 handoff:** this was previously documented as writing only to
+`exams.json`. It also wrote directly into each matched exam's dossier — the layer the site
+actually displays — which is how 18 unvouched rows reached 15 live exam pages (§4d) before this
+was traced and fixed.
+
+**As of 2026-09-19, it no longer writes to any data file.** A headline match is appended to
+`data-sourcing/NEWS-SCAN-QUEUE.md` as a lead (exam, claimed figure, headline, link, status
+`unreviewed`) instead. The workflow's git step now stages only that queue file. The GitHub issue
+it raises says a lead needs checking, not that the database was updated.
+
+It still **cannot** add a new exam (`addNewExam()` is only reachable via a manual `--add`); the
+workflow's "new exam → GitHub issue" step is dead code. `addNewExam()` and its dossier template
+also still fabricate placeholder data for anything they do create — see §10, this is a
+prerequisite for the aggregator work, not yet done.
+
+The `sbi-clerk` "1,538 Posts" figure this section previously used as the cautionary example was
+removed in the 2026-09-19 cleanup along with the other 17 (§4d) for its citation, not its
+accuracy — it corresponds to a real SC/ST/OBC backlog drive (Advt.
+CRPD/CR/SPLDRIVE/2026-27/16) and is worth re-entering once sourced to the advertisement itself
+rather than a news link.
 
 ---
 
@@ -239,12 +366,20 @@ inclusion policy (now written); discovery should come from aggregators (Employme
 Career Service, Sarkari Result) rather than crawling 342 authority sites; the moat is structure
 and permanence, not raw coverage.
 
-**Recommended sequence from here:**
-1. Finish re-sourcing the 170 (§6)
-2. Sample the 459 analytically-clean rows substantively (§5)
-3. Settle the two-layer design question (§2)
-4. Gate or disable the unvouched auto-sync (§9)
-5. Then aggregator-based discovery, with the two-tier registry/dossier model
+**Recommended sequence from here — steps 3 and 4 done, so aggregator work is next:**
+1. Finish re-sourcing the 170 (§6) — mostly done, a handful of named exceptions remain
+2. Sample the analytically-clean `verified` rows substantively (§5) — not started; the 165
+   blocked-from-summary rows (§2, §5) are a natural place to begin, since they're already known
+   to be weakly sourced
+3. ~~Settle the two-layer design question~~ — **done 2026-09-19** (§2)
+4. ~~Gate or disable the unvouched auto-sync~~ — **done 2026-09-19** (§9)
+5. **Aggregator-based discovery, with the two-tier registry/dossier model — next.** One
+   prerequisite first: `sync-exams.mjs`'s `addNewExam()` and its `createDetailDossierTemplate()`
+   currently fabricate a full dossier for any new exam — an invented `vacancies_notified: 100`
+   marked `reported`, a generic two-stage exam scheme, a two-rung career ladder — exactly the
+   placeholder-defect shape from §4a. An aggregator that finds real new exams must not create fake
+   dossiers for them; strip that template down to what's actually known (name, conducting body,
+   source link) with everything else marked absent, before wiring up any real discovery.
 
 ---
 
@@ -252,9 +387,14 @@ and permanence, not raw coverage.
 
 - Chartered accountant, not a developer. Plain language; audit framing lands well.
 - **Wants to be told which model to use per task.** Haiku for mechanical; Sonnet for ordinary
-  coding where the design is settled; Opus for judgement, data-integrity review, and anything
-  where the premise may be wrong; external tools for bulk document reading. Say when switching
-  is not worth the overhead.
+  coding *and* for reviewing incoming re-sourcing batches against existing records — this is
+  demonstrated, not theoretical (batches 21-35, entirely on Sonnet, caught a duplicate exam later
+  removed, a wrong advertisement number with a superseded figure, a mislabelled year, and two
+  contradictions with existing verified rows); Opus for choosing a rule, changing a schema, or
+  questioning whether something belongs at all (e.g. the derived-summary design, the
+  `nia-si-inspector` inclusion question); external tools for bulk document reading. Before
+  recommending a tier up, check whether the cheaper tier has already done that exact kind of task
+  well in this project. Say when switching is not worth the overhead.
 - **Asks for criticism directly and acts on it.** Give it straight. Items 4b and 4c surfaced
   because he asked "where did I go wrong" and "why are we doing the same thing again and again."
 - He keeps his own work in the tree (`src/utils/syllabusTaxonomy.js`, `StoryGate.jsx` and
@@ -266,8 +406,21 @@ and permanence, not raw coverage.
 
 ## 12. Git state at handoff
 
-Clean and pushed; local level with `origin/main`. This session's commits:
+⚠️ **Committed locally but NOT pushed as of this handoff.** `git status -sb` will show `main`
+ahead of `origin/main`. **Deployment triggers on push** (§0.6) — none of 2026-09-19's work is on
+GitHub or the live site until someone pushes. Check this first; don't assume the commits below
+are live.
 
+2026-09-19 commits (newest first):
+```
+d35b159 feat(data): derive exams.json vacancies from the dossier instead of hand-editing
+f280b90 fix(automation): stop the news scanner writing to the database
+f2fb5c5 fix(data): remove tpsc-tcs as a duplicate of tpsc-cce
+9eb3e07 fix(data): remove 4 phantom benchmark rows with no underlying notification
+422392c data(vacancies): re-source 39 exams from cleanup batches 21-35
+```
+
+2026-09-18 commits, already on `origin/main`:
 ```
 8c0fff7 docs(data): verification queue for the 170 exams with removed benchmarks
 d969df8 fix(data): remove 170 fabricated competition benchmark rows
@@ -280,23 +433,58 @@ fef07fb docs(data): inclusion policy defining what belongs in the exam database
 557e054 feat(automation): daily portal notice watcher with deterministic change detection
 ```
 
-Uncommitted: the owner's own `src/utils/syllabusTaxonomy.js` — leave it alone.
+There were also many intermediate batch-re-sourcing commits between 2026-09-18 and 2026-09-19
+already on `origin/main` (`git log --oneline` for the full list) — the two lists above are the
+structural commits, not every commit.
+
+Uncommitted: the owner's own `src/utils/syllabusTaxonomy.js` and `data-sourcing/PORTAL-CHANGE-LOG.md`
+(the portal watcher's own output, growing daily) — leave both alone. Check `git status` before
+staging anything; these two should never appear in an automation commit's file list.
 
 ---
 
 ## 13. Open questions
 
-- **§2 — the two-layer design.** Blocks §8 from being genuinely useful. Needs the owner's call.
+- **Push the 5 local commits.** Nothing from 2026-09-19 is live until this happens (§12). Do this
+  before anything else in a new session, or check with the owner why it wasn't already done.
+- **`nia-si-inspector` — does it belong in the database at all?** NIA runs no independent
+  competitive exam; hiring goes through SSC CGL (already listed separately) or deputation-only
+  circulars not open to the public. This may fail the inclusion policy's own criteria. Needs the
+  owner's decision, not more sourcing (§6).
+- **The aggregator's prerequisite** — strip the fake-data template out of `addNewExam()` /
+  `createDetailDossierTemplate()` in `sync-exams.mjs` before building any real discovery on top
+  of it (§10).
+- **`derive-vacancy-summary.mjs` is a manual step with no enforcement.** A dossier edit that isn't
+  followed by `npm run derive-vacancies` leaves `exams.json` stale with no warning. Consider a
+  `validate` hook or pre-commit check.
+- **`apply-vacancy-updates.mjs` is superseded but not retired** (§8). Anything it writes is
+  silently overwritten by the next `derive-vacancies` run. Retire it or repoint it at the dossier.
+- **165 dossier rows are `verified` but excluded from the summary** for citing only a homepage
+  (§2, §5). This is now the visible re-sourcing queue, roughly the same size as the 170-exam job
+  just finished. The existing Antigravity/Ling 3.0 batch pipeline (§6) applies directly.
+- **No systematic phantom-row sweep has been run.** §4e's two phantom exams were found by
+  accident, not by looking for this defect. Checking whether every `verified` row's underlying
+  notification genuinely exists, across all ~537 rows, has not been done.
+- **`sbi-clerk`'s 1,538-post backlog-drive figure is worth re-entering** (§9) — it's accurate, it
+  was only removed for its citation (a news link), and the real advertisement number is on file
+  (CRPD/CR/SPLDRIVE/2026-27/16).
+- **`mes-supervisor-barrack-store`'s 502 figure was corrected on citation strength, not because
+  the explanation given for the correction actually held up** — see the dossier's own note on
+  that row. Worth a cleaner re-check if this exam comes up again.
+- **`uk-judicial-service`**: the same advertisement number states 8 vacancies in one document and
+  16 in another (a results notice). Needs both opened side by side to resolve, not another
+  transcription attempt.
 - Surfacing `track` in the UI (filters, badges) and retiring `exam_type`.
 - The 14 unreachable portals; a browser engine for the JS-rendered ones. Antigravity may solve
   this incidentally — it drives a real browser from an Indian IP.
 - Linking detected notices to specific exams. The watcher says "a notice appeared", not "exam X
   changed". **This half of the original requirement is still unmet.**
 - `sources-config.json` has missing `psc` fields for Delhi and Ladakh.
-- **RSMSSB Grade III Teacher (Level 1 & 2) direct recruitment has no dossier entry.** Found 2026-09-19
-  while fixing `reet`'s dossier: REET is a qualifying test with no vacancies of its own, but its page
-  carried vacancy figures (48,000 in 2022, 31,000 in 2021) that actually belong to this separate
-  RSMSSB recruitment exam. Those figures have been removed from `reet`'s page (now correctly shows
-  no vacancies), but the underlying exam — likely one of the largest state teacher recruitment
-  drives in the country — is missing from the 500-exam database entirely. Needs a full new dossier
-  (career ladder, exam scheme, etc.), not just a benchmark row; flagging so it isn't lost.
+- **RSMSSB Grade III Teacher (Level 1 & 2) direct recruitment has no dossier entry.** Found
+  2026-09-19 while fixing `reet`'s dossier: REET is a qualifying test with no vacancies of its
+  own, but its page carried vacancy figures (48,000 in 2022, 31,000 in 2021) that actually belong
+  to this separate RSMSSB recruitment exam. Those figures have been removed from `reet`'s page
+  (now correctly shows no vacancies), but the underlying exam — likely one of the largest state
+  teacher recruitment drives in the country — is missing from the database entirely. Needs a full
+  new dossier (career ladder, exam scheme, etc.), not just a benchmark row; flagging so it isn't
+  lost. Still not created as of 2026-09-19.
