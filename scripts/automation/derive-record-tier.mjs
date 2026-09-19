@@ -14,17 +14,30 @@
  * The rule, in full:
  *
  *   1. No dossier file at public/exam-details/<id>.json → "registry".
- *   2. A dossier file exists, but no section in it has status "available" → "registry".
- *      This is a stub in substance no matter how many keys the file has — it's exactly
- *      what sync-exams.mjs --add now produces for a newly discovered exam (every section
- *      written as not_available with an honest note), so a freshly added exam labels
- *      itself correctly with no extra step.
+ *   2. A dossier file exists, but none of the PROFILE_SECTION_KEYS has status
+ *      "available" → "registry". This is a stub in substance no matter how many keys
+ *      the file has.
  *   3. Otherwise → "dossier".
  *
  * This does NOT grade partially-filled dossiers into a third tier. A dossier with some
  * sections available and some not is still "dossier" — the two-tier split is the policy
  * decision (INCLUSION-POLICY.md §4); per-section honesty on a partial dossier is already
  * handled by each tab's own "not yet compiled" message.
+ *
+ * **`official_downloads` is deliberately excluded from PROFILE_SECTION_KEYS — this was a
+ * real bug, found and fixed 2026-09-19 (the same day this script was written).** The
+ * original version checked all five section keys including `official_downloads`, on the
+ * assumption (stated in DECISION-2026-09-19-record-tier.md) that `sync-exams.mjs --add`
+ * always writes every section `not_available` for a fresh exam. That was true only when no
+ * website was known — but `--add` now *requires* `--website` (HANDOFF.md §2a), so
+ * `createDetailDossierTemplate()` in sync-exams.mjs always marks `official_downloads:
+ * { status: "available" }` for every new exam (it holds the one discovery source link).
+ * The result: every exam added via `--add` was silently classified "dossier" tier on its
+ * very first run, never "registry" — the opposite of the documented intent, and the exact
+ * kind of one-section-holds-a-link-so-it-counts-as-done trap this project's other stub
+ * labelling was built to avoid. Caught by testing the 10 exams added 2026-09-19 from the
+ * discovery queue (§10a) before trusting the output. Verified the fix reclassifies exactly
+ * those 10 to "registry" and none of the pre-existing 499 dossiers.
  *
  * Usage:
  *   node scripts/automation/derive-record-tier.mjs --dry-run   (report only, writes nothing)
@@ -40,12 +53,15 @@ const ROOT_DIR = path.resolve(__dirname, '../..')
 const EXAMS_JSON_PATH = path.join(ROOT_DIR, 'src/data/exams.json')
 const DETAILS_DIR = path.join(ROOT_DIR, 'public/exam-details')
 
-const SECTION_KEYS = [
+// Sections that constitute actual dossier depth. `official_downloads` is NOT included —
+// see the file header comment for why: every exam added via sync-exams.mjs --add carries
+// an `official_downloads` section marked "available" (it holds the discovery source link),
+// which would make a bare stub indistinguishable from a real dossier.
+const PROFILE_SECTION_KEYS = [
   'career_ladder',
   'exam_scheme',
   'financial_package',
   'competition_benchmarks',
-  'official_downloads',
 ]
 
 function loadJSON(p) {
@@ -57,7 +73,7 @@ function deriveTierFor(examId) {
   if (!fs.existsSync(dossierPath)) return 'registry'
 
   const dossier = loadJSON(dossierPath)
-  const hasAvailableSection = SECTION_KEYS.some(
+  const hasAvailableSection = PROFILE_SECTION_KEYS.some(
     (key) => dossier?.[key]?.status === 'available'
   )
   return hasAvailableSection ? 'dossier' : 'registry'

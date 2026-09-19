@@ -27,7 +27,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/bseb-stet-august26/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `bihar-stet` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** Real, recurring Bihar state teacher-eligibility test — same category as your existing UPTET/REET/HTET. Not currently tracked.
 - **Key:** `Sarkari Result|bihar-stet`
 
@@ -115,7 +115,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2025/emrs-tgt-pgt-other-2025/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `emrs-staff-recruitment` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** EMRS (Eklavya Model Residential Schools, run by NESTS) staff recruitment — large, national, recurring, and distinct from the already-tracked NVS/KVS teacher exams.
 - **Key:** `Sarkari Result|and-emrs-ii-non-teaching-teaching-tier`
 
@@ -163,7 +163,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/upessc-principal-02-2026/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `upessc-principal` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** UPESSC (UP Secondary Education Services Selection Board) Principal recruitment — large-scale, recurring, state-level. (2 rows, same exam, admit card + syllabus stages — one candidate.)
 - **Key:** `Sarkari Result|principal-upessc`
 
@@ -211,7 +211,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/upessc-up-pgt-teacher-sept26/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `upessc-pgt-teacher` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** UPESSC PGT (Post Graduate Teacher) recruitment — large, recurring, state-level, distinct from the Principal exam above.
 - **Key:** `Sarkari Result|pgt-teacher-up-upessc`
 
@@ -219,7 +219,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/mpesb-mspstet-2026/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `mpesb-mspstet` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** Madhya Pradesh's own teacher-eligibility test (MSPSTET). MP is the obvious gap next to your already-tracked UPTET, REET, HTET.
 - **Key:** `Sarkari Result|and-middle-mpesb-mspstet-primary-school-teachers`
 
@@ -315,7 +315,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/force/bsf-hcmin-asisteno-june24/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `bsf-hc-ministerial-asi-steno` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** BSF's Head Constable (Ministerial) / ASI Steno post. You already track the CRPF, CISF and SSB equivalents of this exact post type — BSF is a clear, matching gap.
 - **Key:** `Sarkari Result|and-asi-bsf-hc-ministerial-steno`
 
@@ -331,7 +331,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/bsnl-jto-2026/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `bsnl-jto` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** BSNL Junior Telecom Officer — a well-known, prominent, recurring PSU exam.
 - **Key:** `Sarkari Result|bsnl-jto`
 
@@ -379,7 +379,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/upessc-principal-02-2026/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `upessc-principal` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** UPESSC (UP Secondary Education Services Selection Board) Principal recruitment — large-scale, recurring, state-level. (2 rows, same exam, admit card + syllabus stages — one candidate.)
 - **Key:** `Sarkari Result|principal-upessc`
 
@@ -411,7 +411,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/nta-rimcee-class-8th-sep26/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `nta-rimcee` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** RIMCEE (Rashtriya Indian Military College Common Entrance Exam) — a prominent, NTA-administered, national-level Class 8 entrance test.
 - **Key:** `Sarkari Result|8th-admissions-class-nta-rimcee`
 
@@ -435,7 +435,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/nvs-class-6th-admission-july26/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `nvs-class-6-jnvst` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** JNVST — the Navodaya Vidyalaya Class 6 student entrance test. You track the NVS teacher recruitment (nvs-tgt-pgt) but not this — one of India's largest, best-known entrance exams by volume. Confirmed genuine gap.
 - **Key:** `Sarkari Result|6th-admissions-class-extended-nvs`
 
@@ -451,7 +451,7 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/upiti-admission-july2026/
-- **Status:** STRONG CANDIDATE
+- **Status:** ADDED — see `up-scvtup-iti-admission` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** UP's state ITI admission process (State Council for Vocational Training) — a genuine, high-volume, common gateway to many ITI colleges statewide.
 - **Key:** `Sarkari Result|admissions-iti-scvtup-up`
 
@@ -547,8 +547,8 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/mp/mp-cpct-2026/
-- **Status:** STRONG CANDIDATE
-- **Triage note:** MP CPCT — Madhya Pradesh's own mandatory computer proficiency certification for state government job applicants. High volume, recurring.
+- **Status:** STRONG CANDIDATE — with a classification question
+- **Triage note:** MP CPCT — Madhya Pradesh's own mandatory computer proficiency certification for state government job applicants. High volume, recurring. Same structural question as NIELIT CCC above: this is a certification required for job eligibility, not a job or an admission itself — held out of the 2026-09-19 batch add alongside NIELIT CCC pending the same owner ruling on track (see HANDOFF.md §13).
 - **Key:** `Sarkari Result|cpct-mp`
 
 ## SSC OTR Online Form 2024 — via Sarkari Result
