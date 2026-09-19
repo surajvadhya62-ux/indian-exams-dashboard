@@ -92,7 +92,7 @@ report nothing for that exam rather than falling back to a secondary figure.
 - ISRO Scientist / Engineer Recruitment  [isro-scientist]  - conducted by ISRO
 ```
 
-## Batch 6  -  very high  -  [ ] done
+## Batch 6  -  very high  -  [x] done
 
 ```
 - JKSSB Panchayat Secretary (Village Level Worker - VLW) Examination  [jkssb-panchayat-secretary]  - conducted by JKSSB
