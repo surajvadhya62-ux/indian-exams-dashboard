@@ -11,4 +11,4 @@
 // won't appear — the rest of sign-in (the name/email form, the guest demo)
 // keeps working exactly as before.
 
-export const GOOGLE_CLIENT_ID = 'YOUR_CLIENT_ID_HERE.apps.googleusercontent.com'
+export const GOOGLE_CLIENT_ID = '840569465709-fn8lfr64q4pts7ucnj6diak4357uvv8d.apps.googleusercontent.com'

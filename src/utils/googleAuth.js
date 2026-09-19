@@ -18,6 +18,8 @@ import { GOOGLE_CLIENT_ID } from '../config/googleAuth'
 const GSI_SCRIPT_SRC = 'https://accounts.google.com/gsi/client'
 
 let scriptLoadPromise = null
+let hasInitialized = false
+let latestOnCredential = null
 
 export function isGoogleSignInConfigured() {
   return Boolean(GOOGLE_CLIENT_ID) && !GOOGLE_CLIENT_ID.includes('YOUR_CLIENT_ID')
@@ -97,11 +99,23 @@ export async function renderGoogleSignInButton(container, { onCredential, onUnav
   try {
     const google = await loadGoogleScript()
 
-    google.accounts.id.initialize({
-      client_id: GOOGLE_CLIENT_ID,
-      callback: (response) => onCredential?.(decodeGoogleCredential(response.credential)),
-      auto_select: false,
-    })
+    // initialize() is a global, one-time registration — calling it again
+    // on every mount (e.g. the auth modal closing and reopening) logs
+    // Google's own "called multiple times" warning and re-registers a
+    // callback pointing at a stale render's closures. The indirection
+    // through `latestOnCredential` lets renderButton() below still be
+    // called fresh every time (it has to be — the container element
+    // itself is a new DOM node each mount) while initialize() itself
+    // only ever runs once per page load.
+    latestOnCredential = onCredential
+    if (!hasInitialized) {
+      google.accounts.id.initialize({
+        client_id: GOOGLE_CLIENT_ID,
+        callback: (response) => latestOnCredential?.(decodeGoogleCredential(response.credential)),
+        auto_select: false,
+      })
+      hasInitialized = true
+    }
 
     google.accounts.id.renderButton(container, {
       type: 'standard',
