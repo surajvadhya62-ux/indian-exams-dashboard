@@ -16,6 +16,8 @@
     "derive-vacancies:dry-run": "node scripts/automation/derive-vacancy-summary.mjs --dry-run",
     "derive-tiers": "node scripts/automation/derive-record-tier.mjs",
     "derive-tiers:dry-run": "node scripts/automation/derive-record-tier.mjs --dry-run",
+    "discover-exams": "node scripts/automation/discover-exams.mjs",
+    "discover-exams:dry-run": "node scripts/automation/discover-exams.mjs --dry-run",
     "validate": "node scripts/data-sourcing/validate-details.mjs"
   },
   "devDependencies": {
