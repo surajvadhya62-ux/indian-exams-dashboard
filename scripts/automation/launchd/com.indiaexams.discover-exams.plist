@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.indiaexams.discover-exams</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/surajvadhya/Projects/indian-exams-dashboard/scripts/automation/run-discover-exams.sh</string>
+    </array>
+
+    <!-- Runs weekly, Monday at 09:00 (same hour as the daily portal watch, so both jobs'
+         log timestamps line up for the owner to compare).
+
+         If the Mac is ASLEEP at 09:00, launchd runs the job on wake.
+         If the Mac is POWERED OFF at 09:00, that occurrence is LOST — launchd does not
+         replay calendar events that elapsed while the machine was off. This plist used to
+         claim otherwise; the same wrong comment on the portal-watch job is why its missed
+         run of Sun 2026-09-20 went unnoticed. RunAtLoad below is the catch-up;
+         run-discover-exams.sh then refuses a second run in a week that already succeeded,
+         so startup never causes a duplicate. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>1</integer>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/surajvadhya/Projects/indian-exams-dashboard</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/surajvadhya/Projects/indian-exams-dashboard/data-sourcing/discover-exams-stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/surajvadhya/Projects/indian-exams-dashboard/data-sourcing/discover-exams-stderr.log</string>
+
+    <!-- The catch-up trigger. Fires on login/startup; the wrapper exits immediately and
+         quietly if a run already succeeded this week, so this only does work in a week
+         whose Monday 09:00 slot was missed because the Mac was off. -->
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>

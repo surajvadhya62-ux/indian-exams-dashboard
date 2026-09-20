@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.indiaexams.portal-watch-heartbeat</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/node</string>
+        <string>/Users/surajvadhya/Projects/indian-exams-dashboard/scripts/automation/portal-watch-heartbeat.mjs</string>
+    </array>
+
+    <!-- Weekly, Sunday at 19:00. Deliberately an EVENING slot, not 09:00 like the other two:
+         the heartbeat reports on the week's runs, so it must fire after the day's own 09:00
+         watch, not before it. Sunday evening also means the note lands before the week starts.
+
+         RunAtLoad is false here, unlike the portal watch itself. A missed heartbeat is not
+         like a missed run: the next week's note covers the same ground (it reads the whole
+         log window), so there is nothing to catch up, and firing one on every login would
+         only train the owner to ignore them. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
+        <key>Hour</key>
+        <integer>19</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/surajvadhya/Projects/indian-exams-dashboard</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/surajvadhya/Projects/indian-exams-dashboard/data-sourcing/portal-watch-heartbeat-stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/surajvadhya/Projects/indian-exams-dashboard/data-sourcing/portal-watch-heartbeat-stderr.log</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
