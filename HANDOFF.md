@@ -296,7 +296,8 @@ writes to `exams.json`.
 |---|---|
 | `scripts/automation/portal-watch.mjs` | the watcher |
 | `scripts/automation/run-portal-watch.sh` | wrapper: logs, alerts on failure |
-| `~/Library/LaunchAgents/com.indiaexams.portal-watch.plist` | daily, 09:00 |
+| `~/Library/LaunchAgents/com.indiaexams.portal-watch.plist` | daily, 09:00 — **the loaded copy** |
+| `scripts/automation/launchd/` | the committed copies of all three schedules, + `install.sh`. The source of truth: edit here, re-run the installer. See its README. |
 | `data-sourcing/PORTAL-CHANGE-LOG.md` | review queue, newest first (tracked) |
 | `data-sourcing/portal-snapshots/` | working state (gitignored) |
 | `scripts/automation/notify.mjs` → `notifyBenchmarkNotices()` | the cut-off/vacancy email, added 2026-09-20 |
