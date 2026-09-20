@@ -3,7 +3,8 @@
 **Date:** 2026-09-20 (supersedes the 2026-09-19 handoff — the Coverage & Method proposal that
 document left as "the live thread" is now built; 10 new exams were added; a full design review
 was done and acted on; Google Sign-In was integrated and activated; a second stale-count defect,
-unrelated to the first, was found and fixed. See §10b–§10f.)
+unrelated to the first, was found and fixed; the portal watcher now emails cut-off and vacancy
+notices instead of only logging them. See §10b–§10f and §7a.)
 **Owner:** Suraj (chartered accountant, **not a developer** — explain in plain language, use
 audit/accounting framing where it helps, avoid engineering jargon)
 **Purpose:** everything a fresh session needs. Facts below were measured, not assumed.
@@ -298,6 +299,7 @@ writes to `exams.json`.
 | `~/Library/LaunchAgents/com.indiaexams.portal-watch.plist` | daily, 09:00 |
 | `data-sourcing/PORTAL-CHANGE-LOG.md` | review queue, newest first (tracked) |
 | `data-sourcing/portal-snapshots/` | working state (gitignored) |
+| `scripts/automation/notify.mjs` → `notifyBenchmarkNotices()` | the cut-off/vacancy email, added 2026-09-20 |
 
 `npm run watch-portals`, ~40s. Reach: **24 of 38** authorities readable, ~1,150 notices watched.
 That is 24 of **348** authorities (6.9% — was quoted as 7.0% of 342; the denominator moved,
@@ -314,6 +316,126 @@ placeholders. The script detects this (`JS_RENDERED`) rather than recording rubb
 Controls: `launchctl load|unload ~/Library/LaunchAgents/com.indiaexams.portal-watch.plist`,
 `launchctl kickstart gui/$(id -u)/com.indiaexams.portal-watch`.
 
+### 7a. The cut-off / vacancy email — added 2026-09-20
+
+**The gap it closes.** Until now the project emailed on two events, both of which were *our own
+data changing*: an exam added (`sync-exams.mjs --add`), and new discovery candidates (weekly).
+Nothing emailed when the **sources** changed. A cut-off or a revised vacancy figure landed in
+`PORTAL-CHANGE-LOG.md` — a file someone has to remember to open — and could sit there unread
+indefinitely. The owner raised this directly: *"I don't get mail for cut-off and vacancies?"*
+He was right; the watcher had no mail capability at all.
+
+Note the asymmetry that made it easy to miss: the two existing emails fire on events the owner
+himself causes, which are the ones he already knows about. The silent one was the event nobody
+is present for.
+
+**What it does.** After writing the change log as before, the watcher filters the new notices
+through `BENCHMARK_KEYWORDS` and mails only those, grouped by authority, links only.
+
+- `BENCHMARK_KEYWORDS` is deliberately much narrower than `NOTICE_KEYWORDS`. The latter decides
+  what counts as a notice and stays broad on purpose (the log should over-report); the former
+  decides what is worth interrupting someone for. It matches cut-off / merit list / vacancy, and
+  `posts` **only when carrying a number** — the bare word appears in nearly every recruitment
+  notice ever written and would make the email worthless.
+- No separate corrigendum clause: corrigenda that revise a vacancy position say "vacancy" or
+  "posts" anyway, while the majority (which only move a date) correctly don't match.
+- **A quiet day sends nothing**, so an email always means there is something to open.
+- A failed send warns loudly and does **not** fail the run — the notices are already in the log,
+  and losing the day's snapshot diff over a mail error is the worse outcome.
+- It writes nothing. Same rule as everything else here: links, never figures.
+
+**Measured, not assumed:** run against the 17 notices already in the change log, 9 matched. The
+hits were the Cutoff Marks results and the numbered post counts; correctly ignored were admit
+cards, interview letters and a press release about a sea buckthorn conclave. One known false
+positive — UPSC's standing "Vacancies in UPSC" link, which is their own internal staffing page,
+not an exam. Excludable by name if it becomes noise.
+
+Test the format without waiting for a portal: `node scripts/automation/notify.mjs --test-benchmarks`.
+
+### 7b. A missed run was invisible — fixed 2026-09-20
+
+**What happened.** Sunday 2026-09-20's 09:00 run never fired. The Mac was powered off from
+23:19 the previous night until 11:46. Nothing reported it — a missed run writes no log entry,
+and no entry is indistinguishable from a quiet day. It was found only by reading the log by hand
+while answering an unrelated question about the schedule.
+
+**The cause, and the wrong belief behind it.** launchd replays a missed `StartCalendarInterval`
+job when the Mac **wakes from sleep**, but **not** when it is switched on after being **powered
+off** — that occurrence is simply lost. The plist's own comment asserted the opposite ("if the
+Mac is asleep **or off**... macOS runs the job at the next opportunity"). The comment was wrong,
+and being wrong in a *reassuring* direction is what kept anyone from looking. Both plists carried
+this text; the discovery one still does (same defect, lower stakes — see below).
+
+**The fix, which needs both halves:**
+
+1. `com.indiaexams.portal-watch.plist` now sets `RunAtLoad` — the job also fires at startup.
+2. `run-portal-watch.sh` refuses to run twice on a day that already succeeded (`--force`
+   overrides). Without this, the startup trigger would be actively harmful: the first run
+   consumes the notice diff, so a duplicate reports nothing, and that day's new notices would
+   never be emailed.
+
+The guard keys off `RUN FINISHED OK`, not merely an attempt, so a failed morning run is still
+retried rather than written off. Verified live: reloading the job fired the startup trigger, the
+guard skipped it, and the day still shows exactly one run.
+
+**The weekly heartbeat** — `portal-watch-heartbeat.mjs`, Sundays 19:00
+(`com.indiaexams.portal-watch-heartbeat.plist`), an **evening** slot so it reports on a week that
+includes that morning's own run.
+
+This is **the one email that always sends**, inverting the rule every other notification here
+follows. That is the entire point: silence from the others is ambiguous — no cut-off email means
+either nothing was published or the watcher never ran, and those are very different. A note that
+arrives regardless makes the absence visible.
+
+It reads only `portal-watch.log` and reports each day as ran / FAILED / DID NOT RUN, with notice
+counts. Two judgements worth keeping:
+
+- A day with a `RUN STARTED` and no finish line is **FAILED**, not OK. An interrupted run is a
+  failure even though nothing wrote the word.
+- A day **before the watcher's first recorded run** is `NOT_SCHEDULED_YET`, listed but not
+  counted. Without this the first heartbeat read "2 of 7 days ran" and would have sent the owner
+  hunting a fault that wasn't there. A monitor that cries wolf in its own first message teaches
+  people to ignore it.
+
+`node scripts/automation/portal-watch-heartbeat.mjs --dry-run` prints the table without sending;
+`--days 14` widens the window.
+
+**The discovery job had the identical defect — fixed the same day.** Same wrong comment, same
+missing catch-up. Lower stakes (a missed Monday means leads arrive late, not that a diff is
+consumed and lost) but fixed anyway, because "it only loses a week" is how a control ends up
+never being checked at all.
+
+`com.indiaexams.discover-exams.plist` now sets `RunAtLoad`, and `run-discover-exams.sh` carries
+the equivalent guard — **per-week, not per-day**, anchored to the Monday the schedule targets.
+Two wrong versions worth not reinventing:
+
+- *"skip if it ran today"* — re-runs on every boot Tuesday through Sunday.
+- *"skip if it ran in the last 7 days"* — breaks the anchor. A Wednesday catch-up would suppress
+  the following Monday, only 5 days later, and the schedule would drift a little further every
+  time it was missed.
+
+Verified against six scenarios (same-week logins, next Monday, a Wednesday catch-up followed by
+the next Monday, and a never-run log): all correct, including the drift trap.
+
+**Deliberately not reloaded on 2026-09-20.** Loading a job with `RunAtLoad` fires it immediately,
+which would have run discovery a day early and emailed candidates unasked. The already-loaded
+definition still fires Monday 09:00 correctly — the schedule did not change — and the new plist
+loads at the next login, which is exactly when its catch-up could first matter. It also
+self-heals the bad case: if the Mac is off this Monday, the old definition misses it, and the new
+one loads at the next boot and catches up.
+
+Its first-ever scheduled run is Monday 2026-09-21; every lead in `DISCOVERY-QUEUE.md` so far came
+from manual runs. Worth checking `data-sourcing/discover-exams.log` exists afterwards — the file
+does not exist yet at all.
+
+**A mistake worth not repeating.** Verifying the module "imported cleanly" by running
+`import("./portal-watch.mjs")` **executes the run** — the file calls `main()` on load. It was
+stopped early but had already refreshed the `upsc` and `rrb` snapshots, which are gitignored and
+so unrestorable. Effect: one day of those two boards' notices was absorbed as "already seen" and
+would never have been reported. Closed by reading both boards directly (RRB: nothing relevant;
+UPSC: 23 items, all still on the board). **To check this script parses, use `node --check`, never
+an import.**
+
 ---
 
 ## 8. The vacancy intake pipeline — superseded, not yet retired
@@ -321,6 +443,15 @@ Controls: `launchctl load|unload ~/Library/LaunchAgents/com.indiaexams.portal-wa
 `npm run apply-vacancy-updates` (`--dry-run` supported). ⚠️ Anything this script writes is
 silently overwritten the next time `npm run derive-vacancies` runs. Not deleted or redirected —
 that's a follow-up. Don't rely on it.
+
+**The route that does work** is the dossier, then `npm run derive-vacancies`. Where the owner
+wants another AI tool to do that typing against a figure he has already verified,
+`data-sourcing/AI-TOOL-PROMPTS.md` (added 2026-09-20) holds the prompts — one for a benchmark
+row, one for `sync-exams.mjs --add`, one for assessing a discovery lead without writing anything.
+The line those prompts hold, and the reason they exist as a file rather than being retyped each
+time: **a tool may type, it may not judge.** `ANTIGRAVITY-BATCHES.md` remains the *research*
+prompt, for figures nobody has checked yet; these are the *application* prompts, for figures the
+owner has.
 
 ---
 

@@ -659,7 +659,13 @@ async function main() {
       console.error('Error: --id, --name, --body, --domain, --jurisdiction, --type, --track, --website, --min-qualification and --frequency are all required when using --add')
       console.error('Nothing is defaulted — a guessed conducting body, domain, website, minimum qualification or frequency is exactly the fabrication this script was fixed to stop doing.')
       console.error('These three also close the gap that would otherwise be there: they\'re part of the registry minimum every exams.json record must carry (INCLUSION-POLICY.md §4), so a record missing them would fail "npm run validate".')
-      console.log('Usage: node sync-exams.mjs --add --id "uppsc-ro-aro" --name "UPPSC Review Officer" --body "UPPSC" --domain "Govt Services" --jurisdiction "state" --state "Uttar Pradesh" --type job --track R --website "https://uppsc.up.nic.in/actual-notification-page" --min-qualification "Bachelor\'s Degree" --frequency "Annual"')
+      // --domain must be one of the values already in use in exams.json. This example said
+      // "Govt Services" until 2026-09-20; no such domain exists (it is "Government Services"),
+      // so anyone copying the example verbatim would have silently created a 21st domain and
+      // split the site's filters. An example is documentation, and a wrong one is a defect.
+      console.log('Usage: node sync-exams.mjs --add --id "uppsc-ro-aro" --name "UPPSC Review Officer" --body "UPPSC" --domain "Government Services" --jurisdiction "state" --state "Uttar Pradesh" --type job --track R --website "https://uppsc.up.nic.in/actual-notification-page" --min-qualification "Bachelor\'s Degree" --frequency "Annual"')
+      console.log('\n--domain must be one already in use. Current values:')
+      console.log('  ' + [...new Set((loadJSON(EXAMS_JSON_PATH) || []).map((e) => e.domain).filter(Boolean))].sort().join(', '))
       process.exit(1)
     }
 
