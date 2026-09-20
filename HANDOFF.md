@@ -3,18 +3,26 @@
 **Date:** 2026-09-20 (supersedes the 2026-09-19 handoff — the Coverage & Method proposal that
 document left as "the live thread" is now built; 10 new exams were added; a full design review
 was done and acted on; Google Sign-In was integrated and activated; a second stale-count defect,
-unrelated to the first, was found and fixed; the portal watcher now emails cut-off and vacancy
-notices instead of only logging them. See §10b–§10f and §7a.)
+unrelated to the first, was found and fixed. A later session the same day rebuilt the
+notification and scheduling layer — see §7a–§7c and §10b–§10f.)
 **Owner:** Suraj (chartered accountant, **not a developer** — explain in plain language, use
 audit/accounting framing where it helps, avoid engineering jargon)
 **Purpose:** everything a fresh session needs. Facts below were measured, not assumed.
 
 > **➡️ Picking this up fresh?** There is no single blocking proposal this time — three standing
 > owner decisions remain (§13), none of them gating other work. The most recent structural
-> changes are §10c (10 new exams, a real tier-classification bug caught mid-way), §10d (a design
-> review acted on in full, including a real CSS bug caught only by testing, not by trusting a
-> log), §10e (Google Sign-In, now live with a real Client ID), and §10f (a second stale-hardcoded-
-> number defect — same disease as §2, different organ). Read §0 first regardless.
+> changes are §7a–§7c (the notification and scheduling layer, rebuilt late on 2026-09-20 after
+> the owner asked a question nobody had asked before — *"I don't get mail for cut-offs and
+> vacancies?"* — which turned out to expose a silently skipped scheduled run), §10c (10 new
+> exams, a real tier-classification bug caught mid-way), §10d (a design review acted on in full),
+> §10e (Google Sign-In, live), and §10f (a second stale-hardcoded-number defect). Read §0 first
+> regardless.
+>
+> **The through-line of §7a–§7c, worth absorbing before touching any of it:** every notification
+> in this project reported on *our own data changing*, which is always something the owner
+> caused. Nothing reported on the *sources* changing, or on the automation *failing to run*.
+> Both blind spots were invisible by construction — they produce no log line, no email, no
+> artefact of any kind. They were found by a question, not by a check.
 
 ---
 
@@ -235,7 +243,7 @@ from "uncited" — this means the event did not happen. Full record:
 check of whether a `verified` row's underlying notification actually exists has been run across
 the other ~537 verified rows.
 
-### The standing lesson, now in three parts (plus a fourth, added 2026-09-20)
+### The standing lesson, now in five parts (a fourth and fifth added 2026-09-20)
 1. **A value repeated across exams that should not share one** (caught 4a, 4c — and see §10f:
    the same generation-family bug, a duplicate real-world entity hiding under two spellings,
    recurred in a completely different field, `conducting_body`, a full session later. This isn't
@@ -253,6 +261,24 @@ the other ~537 verified rows.
    times in one project is a pattern worth generalising: **anything derivable from `exams.json`
    should be derived at render time or by a tracked `derive-*.mjs` script, never typed as a
    literal.**
+5. **A failure that produces no artefact will not be found by reading artefacts** (§7a, §7b).
+   Lessons 1–4 are all about *wrong data being present*, and every tool this project has built —
+   `validate`, `citesDocument()`, the audits — hunts for exactly that. The 2026-09-20 session
+   found two defects of the opposite kind: a cut-off published and never reported, and a
+   scheduled run that never happened. Neither leaves a wrong row, a bad citation or a stale
+   number. They leave **nothing at all**, and nothing is indistinguishable from a quiet day.
+   Both were surfaced by an owner's question, not by any check in the repo.
+
+   The generalisation: **for each automated job, ask what its silence means.** If "no output"
+   and "did not run" look the same from the outside, something must assert liveness
+   independently — which is what the weekly heartbeat (§7b) does, and why it is the one email
+   here that sends even when there is nothing to say. Worth applying to the two jobs that still
+   have no such assertion: the weekly discovery run, and the GitHub Actions news scan (§9).
+
+   A corollary, from the same session: **a comment that asserts a safety property is a claim,
+   not a control.** Both plists said launchd would replay a run missed while the Mac was off. It
+   does not. The comment was wrong in a *reassuring* direction, which is worse than absent — it
+   answered the question that would otherwise have been asked.
 
 None of these are theoretical — each was the specific tell that caught a real defect.
 
@@ -418,16 +444,40 @@ Two wrong versions worth not reinventing:
 Verified against six scenarios (same-week logins, next Monday, a Wednesday catch-up followed by
 the next Monday, and a never-run log): all correct, including the drift trap.
 
-**Deliberately not reloaded on 2026-09-20.** Loading a job with `RunAtLoad` fires it immediately,
-which would have run discovery a day early and emailed candidates unasked. The already-loaded
-definition still fires Monday 09:00 correctly — the schedule did not change — and the new plist
-loads at the next login, which is exactly when its catch-up could first matter. It also
-self-heals the bad case: if the Mac is off this Monday, the old definition misses it, and the new
-one loads at the next boot and catches up.
+**Discovery's first real run happened the same afternoon, by accident of §7c.** It was
+deliberately not reloaded when fixed, precisely because loading a job with `RunAtLoad` fires it
+immediately. Installing the schedules (§7c) then necessarily loaded it, and it ran — a day ahead
+of its Monday slot, having never run on a schedule before. Outcome, from
+`data-sourcing/discover-exams.log`: 212 titles fetched, 138 matched an existing exam, 59 already
+queued, 15 not exams at all, **0 new candidates, nothing queued, no email**. The week guard then
+correctly skipped further runs that day while still allowing Monday 2026-09-21's scheduled one.
 
-Its first-ever scheduled run is Monday 2026-09-21; every lead in `DISCOVERY-QUEUE.md` so far came
-from manual runs. Worth checking `data-sourcing/discover-exams.log` exists afterwards — the file
-does not exist yet at all.
+That is the first time the weekly job has run without a human starting it — every lead currently
+in `DISCOVERY-QUEUE.md` came from manual runs.
+
+### 7c. The schedules themselves had no backup — fixed 2026-09-20
+
+launchd reads job definitions from `~/Library/LaunchAgents`, outside the repo. The scripts were
+version-controlled; the things that actually run them were not. A wiped or replaced Mac would
+have restored every script and no schedule — **including §7b's `RunAtLoad` catch-up, which would
+have restored the missed-run bug without restoring any sign of it.**
+
+`scripts/automation/launchd/` now holds all three plists, a README and `install.sh`. The
+committed copies are the source of truth: edit there, re-run the installer.
+
+The installer does three things that matter for recovery rather than mere copying:
+
+1. **It rewrites the repo path.** The plists hardcode
+   `/Users/surajvadhya/Projects/indian-exams-dashboard`. If the repo moves, every program and log
+   path in them is wrong and **launchd fails silently** — the same failure mode as the missed run,
+   and not one worth reproducing inside a recovery script.
+2. **It refuses to install if `node` is not where the plists expect**, rather than loading jobs
+   that fail invisibly every morning.
+3. **It is safe to re-run** — unloads before loading, so an edited definition takes effect
+   instead of a stale one staying resident. `--status` and `--uninstall` also provided.
+
+Do not move the repo under `Documents`/`Desktop`/`Downloads` (§0). Anywhere else: move it, re-run
+`install.sh`, paths are rewritten.
 
 **A mistake worth not repeating.** Verifying the module "imported cleanly" by running
 `import("./portal-watch.mjs")` **executes the run** — the file calls `main()` on load. It was
@@ -791,9 +841,30 @@ tools were already out.
 ✅ **Pushed** as of this update. Always re-check this yourself with `git status -sb` rather than
 trusting this line.
 
-2026-09-19/20 commits, this update, newest first — **all pushed**:
+2026-09-20 late-session commits (the notification and scheduling work, §7a–§7c), newest first —
+**all pushed**:
 ```
 (this handoff update)
+a9563f8 docs: point §7 at the committed launchd copies as the source of truth
+f9279e1 chore(launchd): back up the three job schedules in the repo, with an installer
+b0f9ff0 docs: prompts for applying verified data via an AI tool; fix a wrong --add example
+ba4269a fix(schedule): catch up scheduled runs missed while the Mac was powered off
+f8683c5 feat(notify): email cut-off/vacancy notices and a weekly still-alive note
+b3b9012 News scan: queue vacancy leads for review [skip ci]   <- automated, not this session
+```
+
+**A second rebase, same cause as the one below.** `origin/main` had again moved between
+committing and pushing — the auto-sync workflow's `b3b9012` (§9). `f8683c5`/`ba4269a`/`b0f9ff0`
+were replayed onto it, so their hashes here are the rebased ones. Expected, not data loss; it is
+simply what happens when a scheduled workflow shares a branch with a working session.
+
+`src/utils/syllabusTaxonomy.js` was modified before this session and is **deliberately left
+uncommitted** — it is the owner's own in-progress work, unrelated to any of the above. It blocked
+the rebase, so it was stashed and restored (checksum verified identical). Do not sweep it into an
+unrelated commit.
+
+Earlier 2026-09-19/20 commits, newest first — **all pushed**:
+```
 9118a25 fix(data): stale "342 authorities" was hardcoded in 9 places; real count is 348
 9c259a7 feat(auth): activate Google Sign-In with the owner's real Client ID
 cde2922 perf(bundle): code-split lazy-loaded views, defer jspdf/recharts to first use
@@ -890,8 +961,11 @@ not a blocked conversation.**
   records — **but neither has been built yet.** Small, and now the natural next piece of work if
   the owner wants the two-tier model to be more than a badge.
 - **`data-sourcing/DISCOVERY-QUEUE.md`'s remaining rows:** 19 `CANDIDATE` rows need more checking
-  before they're addable; the 9 `ALREADY KNOWN`/`DUPLICATE` rows can simply be deleted from the
-  file — they're matching misses, not real candidates, and are just clutter at this point.
+  before they're addable; 3 `STRONG CANDIDATE` rows are closer to ready. That is **22 rows
+  genuinely waiting on the owner** — raised with him directly on 2026-09-20 and not yet actioned.
+  The 9 `ALREADY KNOWN`/`DUPLICATE` rows can simply be deleted — they're matching misses, not
+  real candidates, and are clutter at this point. `data-sourcing/AI-TOOL-PROMPTS.md` §3 has the
+  triage prompt, which assesses without writing anything.
 - **National Career Service (`ncs.gov.in`) was left out of discovery deliberately** — its
   homepage is private-sector job data. Whether it's worth driving its actual search/filter flow
   is an open question, not a decided no.
@@ -903,7 +977,25 @@ not a blocked conversation.**
   visible way, to two of the three (§2a, §10f). Worth actually building the `validate`-hook or
   pre-commit check this handoff has recommended twice now, rather than recommending it a third
   time next update.
-- **`apply-vacancy-updates.mjs` is superseded but not retired** (§8).
+- **`apply-vacancy-updates.mjs` is superseded but not retired** (§8). The owner was shown this
+  directly on 2026-09-20 and it is still live: it writes a figure that `derive-vacancies` later
+  overwrites, and **blanks it entirely** if no dossier row backs it. Either redirect it to write
+  the dossier, or delete it. Leaving a script that silently undoes the user's work is the worst
+  of the three options, and it has now been "a follow-up" across two handoffs.
+- **The cut-off/vacancy email only covers the 24 readable portals** (§7, §7a). The 14 unreachable
+  or JS-rendered authorities — SSC and UPPSC among them — cannot produce a notice, so they cannot
+  produce an email either. The email's silence is therefore only as broad as the watcher's reach,
+  which is 24 of 348 authorities. Do not let it read as full coverage.
+- **One known false positive in the benchmark filter:** UPSC's standing "Vacancies in UPSC" link,
+  which is their own internal staffing page, not an exam. Harmless but recurring; excludable by
+  exact text if it becomes noise (§7a).
+- **The heartbeat has no catch-up, deliberately** (§7b) — but its window is 7 days, so if a
+  Sunday 19:00 note is missed *and* the Mac is off, the days it would have covered scroll out of
+  the next one. Acceptable as built; worth widening the window to 14 if a miss is ever observed.
+- **Nothing yet links a detected cut-off notice to the exam it belongs to.** The email says
+  "RPSC published cut-off marks for Biochemist"; a human still has to know whether that maps to a
+  tracked exam. This is the same unmet need as the long-standing "linking detected notices to
+  specific exams" item below, now with a concrete consumer asking for it.
 - **165 dossier rows are `verified` but excluded from the summary** for citing only a homepage
   (§2, §5). The visible re-sourcing queue.
 - **No systematic phantom-row sweep has been run** (§4e).
