@@ -11,6 +11,12 @@
  * Deciding whether a new notice represents a genuinely new exam is left to a human (or, later,
  * to a model reading this log) — nothing here writes to exams.json.
  *
+ * It also emails the subset of new notices that mention a cut-off or a vacancy figure
+ * (BENCHMARK_KEYWORDS, below), added 2026-09-20. Everything still lands in the change log as
+ * before; the email exists because the log is a file someone has to remember to open, and a
+ * cut-off published in October could sit in it unread until December. The email carries
+ * links, never figures, and changes nothing about what this script writes.
+ *
  * Usage:
  *   node scripts/automation/portal-watch.mjs            # watch all reachable portals
  *   node scripts/automation/portal-watch.mjs --only upsc,uppsc
@@ -22,6 +28,7 @@ import path from 'node:path'
 import https from 'node:https'
 import http from 'node:http'
 import { fileURLToPath } from 'node:url'
+import { notifyBenchmarkNotices } from './notify.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT_DIR = path.resolve(__dirname, '../..')
@@ -43,6 +50,20 @@ const NOTICE_KEYWORDS =
   /(recruit|notification|notice|advert|advt|examination|exam\b|vacan|apply|application|admit card|result|corrigend|syllabus|interview|cut ?off|merit|appointment|post\b|selection)/i
 
 const NAV_NOISE = /^(home|about|about us|contact|contact us|sitemap|feedback|login|sign in|rti|faq|help|search|screen reader|skip to main content|privacy policy|terms|disclaimer|archive|gallery|photo gallery|tenders?)$/i
+
+// Deliberately much narrower than NOTICE_KEYWORDS. That one decides what counts as a notice
+// at all and stays broad on purpose — the change log should over-report. This one decides
+// what is worth interrupting someone for, and targets only the two fields that go stale on
+// the site without anyone causing it: cut-off marks and vacancy counts. An admit-card or
+// exam-date notice is still logged; it just doesn't send mail.
+//
+// "posts" is required to carry a number ("1,538 Posts"), because the bare word appears in
+// almost every recruitment notice ever written and would make the email worthless. A
+// corrigendum needs no clause of its own: the ones that matter here revise a vacancy
+// position and so say "vacancy" or "posts" anyway, while the majority — which only move a
+// date — correctly don't match.
+const BENCHMARK_KEYWORDS =
+  /(cut[\s-]?off|merit list|vacan|\d[\d,]*\s*posts?\b|(number|no\.?) of posts)/i
 
 // ---------------------------------------------------------------- fetching
 
@@ -346,6 +367,31 @@ async function main() {
   console.log(`  ${totalNew} new notice(s) found across ${readable} readable portal(s).`)
   console.log(`  Review them in: data-sourcing/PORTAL-CHANGE-LOG.md`)
   console.log(`${'='.repeat(60)}\n`)
+
+  // Of everything new, mail only what bears on a cut-off or a vacancy figure. A quiet day
+  // sends nothing at all, so an email in the inbox always means there is something to open.
+  // This reports; it writes nothing to exams.json or any dossier, exactly like the rest of
+  // this script.
+  const flagged = results
+    .map((r) => ({ label: r.label, notices: r.added.filter((n) => BENCHMARK_KEYWORDS.test(n.text)) }))
+    .filter((g) => g.notices.length > 0)
+    .sort((a, b) => b.notices.length - a.notices.length)
+
+  if (!flagged.length) {
+    console.log('No cut-off or vacancy notices among them — no email sent.\n')
+    return
+  }
+
+  const flaggedCount = flagged.reduce((n, g) => n + g.notices.length, 0)
+  console.log(`${flaggedCount} of them mention a cut-off or vacancy figure. Sending email...`)
+  const notifyResult = await notifyBenchmarkNotices(flagged)
+  if (notifyResult.sent) {
+    console.log('✓ Notification email sent.\n')
+  } else {
+    // Loud, but never fatal: the notices are already safely in the change log, and failing
+    // the run over an email would lose the day's snapshot diff for no gain.
+    console.warn(`⚠ Notification email NOT sent: ${notifyResult.reason}\n`)
+  }
 }
 
 main().catch((err) => {
