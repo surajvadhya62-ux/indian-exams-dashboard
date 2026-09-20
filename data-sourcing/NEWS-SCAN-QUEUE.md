@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## India Post Gramin Dak Sevak Recruitment (`india-post-gds`) — 23,757 posts claimed
+
+- **Seen:** 2026-09-20
+- **Headline:** India Post GDS Recruitment 2026 Out For 23757 Posts, Check Full Details - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMic0FVX3lxTE43VTJCNVhhZi01YU9sNncxOFRkSEFFVkJEMGVmZnJMOHlNbjZHSGlpUEkydmhOd2t0YjlQN29FZHVHOTkxMEpZYzhfSXJwMFEwRERkMFB1bkFVZHc4dFRDSHFzRHM1d1J4UTBxMDI2amdPQW8?oc=5
+- **Status:** unreviewed
+- **Key:** `india-post-gds|23757|2026`
+
 ## Railway Recruitment Board Junior Engineer (`rrb-je`) — 4,098 posts claimed
 
 - **Seen:** 2026-09-19
