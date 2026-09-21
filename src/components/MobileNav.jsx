@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import {
   HiOutlineGlobeAlt, HiOutlineChartBar, HiOutlineScale,
   HiOutlineCalendar, HiOutlineShieldCheck, HiOutlineSparkles,
@@ -6,6 +6,9 @@ import {
   HiOutlineNewspaper, HiOutlineDocumentText,
   HiOutlineAdjustments, HiOutlineInformationCircle, HiOutlineQuestionMarkCircle
 } from 'react-icons/hi'
+
+// Breathing room kept between an open dropdown and the screen edge.
+const EDGE_GAP = 10
 
 // Mirrors the grouping in Header.jsx — same reasoning (11 flat items were
 // scrolling off the right edge of a 390px screen with no hint they did).
@@ -42,6 +45,7 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
   const [openMenu, setOpenMenu] = useState(null)
   const [menuPos, setMenuPos] = useState(null) // { bottom, left } of the open dropdown
   const wrapRef = useRef(null)
+  const dropdownRef = useRef(null)
 
   useEffect(() => {
     if (!openMenu) return
@@ -51,6 +55,23 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
     document.addEventListener('mousedown', onDocClick)
     return () => document.removeEventListener('mousedown', onDocClick)
   }, [openMenu])
+
+  // The dropdown is centred on its trigger, but "About" is the last button in
+  // the bar — centring it there ran the menu past the right edge of the screen
+  // and cut off the longer labels ("Coverage & Method", "7th CPC Cadres").
+  // Measure it once it is in the DOM and pull it back inside the viewport.
+  // useLayoutEffect, not useEffect, so the nudge lands before the first paint.
+  useLayoutEffect(() => {
+    if (!openMenu || !menuPos || !dropdownRef.current) return
+    const w = dropdownRef.current.offsetWidth
+    const half = w / 2
+    const min = EDGE_GAP + half
+    const max = window.innerWidth - EDGE_GAP - half
+    // A menu wider than the screen has no valid position; centre it and let
+    // the CSS max-width keep it on screen.
+    const left = min > max ? window.innerWidth / 2 : Math.min(Math.max(menuPos.left, min), max)
+    if (Math.abs(left - menuPos.left) > 0.5) setMenuPos(p => ({ ...p, left }))
+  }, [openMenu, menuPos])
 
   const selectView = (id) => {
     setActiveView(id)
@@ -115,6 +136,7 @@ export default function MobileNav({ activeView, setActiveView, compareCount, boo
 
       {openGroupData && menuPos && (
         <div
+          ref={dropdownRef}
           className="mobile-nav-dropdown fade-in"
           style={{ bottom: menuPos.bottom, left: menuPos.left, transform: 'translateX(-50%)' }}
         >

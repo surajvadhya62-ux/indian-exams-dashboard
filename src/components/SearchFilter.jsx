@@ -5,6 +5,24 @@ import {
   HiOutlineFilter, HiOutlineAdjustments
 } from 'react-icons/hi'
 
+// Narrow phones cut the full placeholder off mid-word ("…name, condu"), which
+// reads as a broken layout rather than a hint. Swap in the short version.
+const NARROW_SCREEN = '(max-width: 640px)'
+
+function useNarrowScreen() {
+  const [narrow, setNarrow] = useState(
+    () => typeof window !== 'undefined' && window.matchMedia(NARROW_SCREEN).matches
+  )
+  useEffect(() => {
+    const mq = window.matchMedia(NARROW_SCREEN)
+    const onChange = (e) => setNarrow(e.matches)
+    mq.addEventListener('change', onChange)
+    setNarrow(mq.matches)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
+  return narrow
+}
+
 const QUICK_DOMAINS = [
   { label: 'All Disciplines', domain: '' },
   { label: 'Govt Services', domain: 'Government Services' },
@@ -54,6 +72,7 @@ export default function SearchFilter({
   const searchInputRef = useRef(null)
   const [showSuggestions, setShowSuggestions] = useState(false)
   const [showFilterDrawer, setShowFilterDrawer] = useState(false)
+  const isNarrow = useNarrowScreen()
 
   // Keyboard shortcut: '/' focuses search input, 'Escape' blurs
   useEffect(() => {
@@ -189,7 +208,9 @@ export default function SearchFilter({
             ref={searchInputRef}
             type="text"
             className="query-search-input"
-            placeholder={`Search ${totalCount || 509} exams by acronym, name, conducting commission (UPSC, NTA, SSC, BPSC), or cadre...`}
+            placeholder={isNarrow
+              ? `Search ${totalCount || 509} exams...`
+              : `Search ${totalCount || 509} exams by acronym, name, conducting commission (UPSC, NTA, SSC, BPSC), or cadre...`}
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value)

@@ -3366,10 +3366,19 @@ input, select {
     font-weight: 600;
   }
 
-  /* Month Stepper on Mobile */
+  /* Month Stepper on Mobile.
+     Prev / month / next in one row leaves the middle column about 170px, so
+     "45 exams scheduled · 78 registration windows" broke across lines with
+     the separators left dangling at the ends. Give the month block the whole
+     first row and drop the two nav buttons to a row of their own beneath it. */
   .calendar-month-stepper {
     padding: 10px 12px;
     gap: 8px;
+    flex-wrap: wrap;
+  }
+  .stepper-center {
+    flex: 1 0 100%;
+    order: -1;
   }
   .stepper-nav-btn {
     padding: 6px 10px;
@@ -3391,6 +3400,16 @@ input, select {
     flex-wrap: wrap;
     justify-content: center;
     gap: 4px;
+  }
+  /* The export button always wraps to its own line — the separator that would
+     introduce it ends up stranded at the end of the line above. */
+  .stepper-export-ics-btn {
+    flex: 1 0 100%;
+    justify-content: center;
+    margin-top: 4px;
+  }
+  .meta-divider:has(+ .stepper-export-ics-btn) {
+    display: none;
   }
 
   /* Detailed Event Cards on Mobile - Full Width, High Legibility */
@@ -5568,6 +5587,9 @@ input, select {
   .mobile-nav-dropdown {
     position: fixed;
     min-width: 190px;
+    /* MobileNav.jsx pulls the menu back from the screen edge; this is the
+       backstop for a menu too wide to fit however it is positioned. */
+    max-width: calc(100vw - 20px);
     background: #0b0e14;
     border: 1px solid var(--hairline-2);
     border-radius: 10px;
@@ -5593,6 +5615,17 @@ input, select {
     text-align: left;
     cursor: pointer;
     white-space: nowrap;
+    min-width: 0;
+  }
+
+  /* Labels stay on one line, but never at the cost of running off-screen. */
+  .mobile-dropdown-item > span:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mobile-dropdown-item .mobile-nav-icon {
+    flex: 0 0 auto;
   }
 
   .mobile-dropdown-item .mobile-nav-icon {
@@ -8105,6 +8138,33 @@ input, select {
   }
 }
 
+/* Very narrow phones (iPhone SE and friends, <= 360px).
+   Six tabs at a 60px minimum plus the bar's own padding need 372px, so
+   "About" sat off the right edge of a 320px screen — reachable only by
+   swiping a nav bar that gives no sign it scrolls. Let the tabs share the
+   width evenly instead; all six then fit without scrolling at all. */
+@media (max-width: 360px) {
+  .mobile-bottom-nav {
+    justify-content: space-between;
+    overflow-x: visible;
+  }
+
+  .mobile-nav-btn {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 6px 2px;
+  }
+
+  .mobile-nav-label {
+    font-size: 0.58rem;
+    white-space: nowrap;
+  }
+
+  .mobile-nav-icon {
+    font-size: 1.15rem;
+  }
+}
+
 @keyframes slideUpBottomSheet {
   from {
     transform: translateY(100%);
@@ -9910,6 +9970,112 @@ input, select {
   .mterminal-row-right {
     width: 100%;
     justify-content: space-between;
+  }
+}
+
+/* Gazette Wire on phones (<= 640px).
+   The wire was laid out for a wide card: 20–24px of padding inside a wrapper
+   that already has its own, filter controls sized to their own text (so four
+   of them stacked into a ragged staircase), a fixed-width search box, and a
+   toast pinned to the bottom-right corner — i.e. underneath the bottom nav.
+   Reclaim the width and give every control the same full-width line. */
+@media (max-width: 640px) {
+  .mterminal-wire-wrapper {
+    /* .main-content already supplies the side gutter on mobile. */
+    padding: 0;
+    margin: 1rem auto 2rem;
+  }
+
+  .mterminal-control-header,
+  .mterminal-source-mode-bar,
+  .mterminal-headlines-header,
+  .mterminal-headline-row {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .mterminal-telemetry-row {
+    padding: 16px 14px;
+  }
+
+  .mterminal-control-header {
+    align-items: stretch;
+  }
+
+  .mterminal-section-title {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* One control per line, each the full width of the card. */
+  .mterminal-filter-cluster {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .mterminal-select-wrapper,
+  .mterminal-search-wrapper {
+    width: 100%;
+  }
+
+  .mterminal-select,
+  .mterminal-search-input {
+    width: 100%;
+    /* iOS Safari zooms the page in on any input under 16px. */
+    font-size: 16px;
+  }
+
+  /* Desktop caps this one at 240px so it doesn't dominate the filter row;
+     on a stacked column that just makes it the odd one out. Two classes so
+     this beats the unqualified .mterminal-authority-select defined later. */
+  .mterminal-select.mterminal-authority-select {
+    max-width: none;
+  }
+
+  /* The separators only read as separators mid-line — once the legend wraps
+     they strand at the end of each line. Spacing carries it instead. */
+  .mterminal-legend-sep {
+    display: none;
+  }
+
+  .mterminal-breakdown-legend {
+    gap: 6px 14px;
+  }
+
+  .mterminal-fetch-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* "363 /363  DISPATCHES MATCHED · …" — the caption was tucked on the same
+     baseline as the 42px number, leaving it a ~90px column to wrap in. */
+  .mterminal-score-line {
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px;
+  }
+
+  .mterminal-score-caption {
+    flex: 1 0 100%;
+    margin-left: 0;
+    margin-top: 6px;
+    line-height: 1.5;
+  }
+
+  /* Clear of the 58px bottom nav, and free to wrap rather than run off-screen. */
+  .mterminal-toast {
+    left: 12px;
+    right: 12px;
+    bottom: calc(58px + env(safe-area-inset-bottom) + 12px);
+    align-items: flex-start;
+    line-height: 1.4;
+  }
+
+  .mterminal-toast-icon {
+    flex: 0 0 auto;
+    margin-top: 1px;
   }
 }
 
@@ -13324,9 +13490,14 @@ input, select {
     padding: 0 !important;
   }
 
-  /* Bottom page padding for Mobile Bottom Nav */
+  /* Bottom page padding for Mobile Bottom Nav.
+     NOT .fade-in — that is the generic entry-animation class, worn by
+     dropdowns, share popovers, map hover cards, toasts and tab panels as
+     well as by page roots. Every one of them was getting 84px of dead space
+     stapled to the bottom (the nav group menus were half empty box). The
+     page roots below all render inside .main-content, which already reserves
+     5.5rem of bottom padding on mobile for the nav. */
   .app-container,
-  .fade-in,
   .candidate-workstation-wrapper,
   .feedback-container,
   .calendar-view,
@@ -16068,6 +16239,31 @@ html, body {
   /* Section header */
   .workstation-header {
     margin-bottom: 1rem;
+  }
+
+  /* Kicker / title / subtitle sit side by side on desktop. At 390px that
+     becomes three slivers — the title wrapped to one word per line. Stack
+     them, and let the "pin an exam" controls below run the full width
+     instead of hugging the right edge. */
+  .workstation-title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    width: 100%;
+  }
+
+  .workstation-header-main {
+    gap: 1rem;
+  }
+
+  .workstation-quick-add {
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .quick-add-wrap {
+    max-width: none;
   }
 
   .workstation-kicker {
