@@ -56,14 +56,19 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node -e '
+          # The script is piped to node on stdin via a quoted heredoc rather than passed as
+          # `node -e '...'`. Inside shell quotes an apostrophe in the issue text closes the
+          # quote and a backtick runs as a command; the issue text legitimately contains both.
+          # gh is invoked with execFileSync, which takes arguments directly and never involves
+          # a shell, so nothing in the title or body can be reinterpreted.
+          node <<'NODE'
             const fs = require("fs");
             const logPath = "scripts/automation/new-exams-found.json";
             if (fs.existsSync(logPath)) {
               try {
                 const exams = JSON.parse(fs.readFileSync(logPath, "utf-8"));
                 if (Array.isArray(exams) && exams.length > 0) {
-                  const { execSync } = require("child_process");
+                  const { execFileSync } = require("child_process");
                   for (const exam of exams) {
                     const title = `🔔 [New Exam Found] ${exam.name} (${exam.acronym || exam.id})`;
                     const body = `### New Examination Detected and Added to IndiaExams\n\n` +
@@ -78,7 +83,7 @@ jobs:
                       `- **Official Portal:** ${exam.website}\n\n` +
                       `*Dossier \`public/exam-details/${exam.id}.json\` has been created, schema-verified, and published to live site.*`;
                     console.log("Creating notification issue for:", exam.name);
-                    execSync(`gh issue create --title "${title.replace(/"/g, "\\\"")}" --body "${body.replace(/"/g, "\\\"")}"`, { stdio: "inherit" });
+                    execFileSync("gh", ["issue", "create", "--title", title, "--body", body], { stdio: "inherit" });
                   }
                   // Clear after intimation
                   fs.writeFileSync(logPath, "[]", "utf-8");
@@ -87,21 +92,24 @@ jobs:
                 console.error("Intimation note:", e.message);
               }
             }
-          '
+          NODE
 
       - name: Intimate Owner of Vacancy Leads Awaiting Review
         if: success()
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node -e '
+          # Heredoc + execFileSync, for the reason given on the step above: the lead text
+          # contains apostrophes ("body's", "state's") and backticks, and both were being
+          # reinterpreted by the shell. This step failed on every run from 2026-09-20.
+          node <<'NODE'
             const fs = require("fs");
             const logPath = "scripts/automation/exam-updates-found.json";
             if (fs.existsSync(logPath)) {
               try {
                 const updates = JSON.parse(fs.readFileSync(logPath, "utf-8"));
                 if (Array.isArray(updates) && updates.length > 0) {
-                  const { execSync } = require("child_process");
+                  const { execFileSync } = require("child_process");
                   for (const u of updates) {
                     const title = `🔎 [Lead to check] ${u.name} (${u.acronym || u.id}) — ${u.vacancies} posts claimed`;
                     const body = `### A news headline mentioned a vacancy figure for this exam\n\n` +
@@ -117,7 +125,7 @@ jobs:
                       `guesses, all-post totals pinned to a single post, and one state's share of a ` +
                       `national drive have all turned up this way.`;
                     console.log("Creating lead notification for:", u.name);
-                    execSync(`gh issue create --title "${title.replace(/"/g, "\\\"")}" --body "${body.replace(/"/g, "\\\"")}"`, { stdio: "inherit" });
+                    execFileSync("gh", ["issue", "create", "--title", title, "--body", body], { stdio: "inherit" });
                   }
                   // Clear after intimation
                   fs.writeFileSync(logPath, "[]", "utf-8");
@@ -126,4 +134,4 @@ jobs:
                 console.error("Update intimation note:", e.message);
               }
             }
-          '
+          NODE
