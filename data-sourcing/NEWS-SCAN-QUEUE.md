@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## IBPS Specialist Officer (`ibps-so`) — 1,043 posts claimed
+
+- **Seen:** 2026-09-22
+- **Headline:** IBPS SO 2026 Exam Date Out (1043 Vacancies), Check Mains Exam Schedule - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zTWpuQWZrNHdVeEo0VXBmUGZPRFZRc0NYWk42WmVMeURVT19ZZjd6Wmd0TGh0OTRUc2VEdW9uZ2R5R0k4Mzd1TXpVUkFrQ01FUXhWdA?oc=5
+- **Status:** unreviewed
+- **Key:** `ibps-so|1043|2026`
+
 ## India Post Gramin Dak Sevak Recruitment (`india-post-gds`) — 23,757 posts claimed
 
 - **Seen:** 2026-09-20
