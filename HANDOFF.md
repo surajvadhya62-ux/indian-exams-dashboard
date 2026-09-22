@@ -1,5 +1,11 @@
 # Handoff — India Exams Dashboard
 
+**Date:** 2026-09-22 (a short session, appended to the 2026-09-20 handoff rather than superseding
+it — everything that document says still stands. One defect found and fixed: the auto-sync's
+notification step had failed on all 9 runs since 2026-09-19, and the §4d fix was itself the
+cause (§9a). One analysis recorded and deliberately not acted on: why the portal watcher and the
+news scan cannot substitute for each other, and what it would take to converge them (§9b).)
+
 **Date:** 2026-09-20 (supersedes the 2026-09-19 handoff — the Coverage & Method proposal that
 document left as "the live thread" is now built; 10 new exams were added; a full design review
 was done and acted on; Google Sign-In was integrated and activated; a second stale-count defect,
@@ -17,6 +23,12 @@ audit/accounting framing where it helps, avoid engineering jargon)
 > exams, a real tier-classification bug caught mid-way), §10d (a design review acted on in full),
 > §10e (Google Sign-In, live), and §10f (a second stale-hardcoded-number defect). Read §0 first
 > regardless.
+>
+> **Added 2026-09-22:** read §9a before touching any step that emails, files or prints a human
+> sentence. A data-integrity fix (§4d) was correct as a data fix and silently broke the step
+> that reports its own findings, for 9 consecutive runs. Two runs queued leads that were never
+> announced and **are still unreviewed in `NEWS-SCAN-QUEUE.md`**. §9b records why the watcher
+> and the news scan are not interchangeable — analysis only, deferred by the owner, nothing built.
 >
 > **The through-line of §7a–§7c, worth absorbing before touching any of it:** every notification
 > in this project reported on *our own data changing*, which is always something the owner
@@ -44,6 +56,14 @@ audit/accounting framing where it helps, avoid engineering jargon)
    Re-run the relevant `derive-*.mjs` script after any change that could affect it; don't hand-edit
    the output.
 5. **`gh` CLI is not installed.** Check GitHub state with `git fetch` + `git log origin/main`.
+   **To diagnose a failed Actions run without it** (this is how §9a was found): the repo is
+   public, so `curl -s https://api.github.com/repos/surajvadhya62-ux/indian-exams-dashboard/actions/runs/<run_id>/jobs`
+   works unauthenticated and gives the **pass/fail conclusion of every individual step** — which
+   is usually enough to identify the culprit. `.../actions/workflows` lists workflow ids and
+   `.../actions/workflows/<id>/runs?per_page=100` gives the full run history, which is how the
+   "9 failures, first at 2026-09-19T17:17Z" figure was measured rather than eyeballed. The
+   **job-log** endpoint is the one exception — it returns `403 Must have admin rights` without
+   authentication, so read the step conclusions and reproduce locally instead of chasing logs.
 6. Node is at `/opt/homebrew/bin/node`. Deployment is automatic on push to `main`
    (`.github/workflows/deploy.yml` → GitHub Pages). **All work described in this handoff is
    pushed to `origin/main`** — always verify with `git status -sb` yourself rather than trusting
@@ -243,7 +263,7 @@ from "uncited" — this means the event did not happen. Full record:
 check of whether a `verified` row's underlying notification actually exists has been run across
 the other ~537 verified rows.
 
-### The standing lesson, now in five parts (a fourth and fifth added 2026-09-20)
+### The standing lesson, now in six parts (a fourth and fifth added 2026-09-20, a sixth 2026-09-22)
 1. **A value repeated across exams that should not share one** (caught 4a, 4c — and see §10f:
    the same generation-family bug, a duplicate real-world entity hiding under two spellings,
    recurred in a completely different field, `conducting_body`, a full session later. This isn't
@@ -279,6 +299,24 @@ the other ~537 verified rows.
    not a control.** Both plists said launchd would replay a run missed while the Mac was off. It
    does not. The comment was wrong in a *reassuring* direction, which is worse than absent — it
    answered the question that would otherwise have been asked.
+
+6. **A fix is reviewed in the category it was filed under, and ships its defects in every other
+   category** (§9a, added 2026-09-22). §4d was a data-integrity fix. It was reviewed as one, and
+   as one it was correct — the scanner genuinely stopped writing to the database. The defect it
+   introduced was in the *delivery* of its own findings, and it disabled that delivery completely
+   for 9 consecutive runs. Nobody reviewing a data fix was looking at the notification path.
+
+   The specific mechanism is worth stating on its own, because it will recur: **prose written to
+   be read by a human becomes executable text the moment it is embedded in a shell command, and
+   the carefulness of the prose is exactly what makes it dangerous.** The apostrophe that broke
+   this was in the words *"the conducting body's own notification"* — a sentence added to make
+   the warning clearer. Terse, ungrammatical text would have survived. Backticks around a
+   filename, added for readability, were a second live defect in the same string.
+
+   The control: **any step that emails, files or prints a human sentence must be executed once
+   against real data before it ships.** Not reasoned about — run. §9a's fix was verified by
+   extracting the steps from the parsed YAML and running them against a stub; that check takes
+   minutes and would have caught this on 2026-09-19.
 
 None of these are theoretical — each was the specific tell that caught a real defect.
 
@@ -506,12 +544,118 @@ owner has.
 
 ---
 
-## 9. The auto-sync — fixed 2026-09-19
+## 9. The auto-sync — data-writing fixed 2026-09-19, notification fixed 2026-09-22
 
 `.github/workflows/auto-exam-sync.yml` runs `sync-exams.mjs --scan` twice daily, matching Google
 News RSS headlines against exam names. **No longer writes to any data file** — a headline match
 is appended to `data-sourcing/NEWS-SCAN-QUEUE.md` as a lead instead. It still **cannot** add a
 new exam (`addNewExam()` is only reachable via a manual `--add`).
+
+### 9a. The §4d fix broke the step that reports its own findings — found and fixed 2026-09-22
+
+**How it surfaced.** The owner brought in a GitHub "Run failed" email he had been receiving
+daily and asked what it was. He was not reporting a suspected bug; he wanted the email explained.
+
+**Scope: 9 runs, all of them, no exceptions.** Every run of this workflow from
+`2026-09-19T17:17Z` to `2026-09-22T07:43Z` failed — the complete set since the §4d fix landed.
+
+**The cause is §4d's own fix.** Commit `f280b90` (2026-09-19 14:24 IST), which stopped the
+scanner writing to the database, also rewrote the notification text into careful explanatory
+prose. That prose contains two apostrophes — *"open the conducting **body's** own notification"*
+and *"one **state's** share of a national drive"*. The step ran the script as `node -e '...'`,
+so the whole thing sat inside shell single quotes; the first apostrophe closed the quote, node
+received a truncated script, and it died on an unterminated template literal. **The first run
+after `f280b90` failed, and so did every run after that.**
+
+**A second defect in the same text, which escaping the apostrophes would not have fixed.** The
+body also contains backticks (`` `${u.id}` ``, `` `NEWS-SCAN-QUEUE.md` ``), and the step passed
+the body to `gh issue create --body "..."` — inside double quotes the shell treats a backtick as
+command substitution. Those spans would have been silently emptied, and `super-tet` would have
+been *executed* as a command. The sibling step above it, "Intimate Owner of New Exams", carried
+the identical backtick defect and passed every run only because its text happens to contain no
+apostrophe. Both steps were fixed.
+
+**The fix** (`2ddb9cf`): both steps now pipe the script to node through a quoted heredoc rather
+than wrapping it in shell quotes, and call `gh` through `execFileSync`, which takes an argument
+vector and never involves a shell. No character in a title or body can be reinterpreted.
+
+**Verified before pushing, not after:** both `run` blocks were extracted from the *parsed* YAML
+and executed against a stub `gh` that prints the argv it receives — with a lead present, with a
+new exam whose name contains an apostrophe, and with neither file present, which is the usual CI
+case. All four exit 0, and the apostrophes, em dashes and backticks arrive intact.
+
+**⚠️ Two runs queued leads that were never announced.** Steps 1–6 all passed throughout — only
+the final notification step failed — so the scan kept working and kept committing. `4bef849`
+(2026-09-19) and `b3b9012` (2026-09-20) each appended leads to `NEWS-SCAN-QUEUE.md` and raised
+no ticket. **Those rows are still sitting there unreviewed.** Read the queue rather than assuming
+the ticket backlog is complete.
+
+**Correction to the commit message on `2ddb9cf`:** it states the failures began at
+`2026-09-20T02:20Z`. That is wrong — the true first failure is `2026-09-19T17:17Z`, measured
+from the workflow's full run history. The count of nine is correct. The error is left in the
+commit message rather than rewritten into `main`'s history; this paragraph is the correction.
+
+**What this does and does not say about §4e lesson 5.** This failure was *loud* — GitHub emails
+on a failed run, which is the only reason it was found, and it was found within three days. That
+is the opposite of §7b, where a missed run left no artefact at all and went unnoticed. **The
+liveness gap flagged for this workflow in §13 is still open and is a different problem:** the
+scan running and finding nothing, and the scan not running at all, remain indistinguishable.
+Nothing in this fix addresses that.
+
+**The generalisable lesson is recorded as part 6 of the standing lesson in §4** — a fix is
+reviewed in the category it was filed under and ships its defects in every other category, and
+prose written for a human becomes executable text inside a shell command. Read it there; it is
+not repeated here.
+
+### 9b. Why both the watcher and the news scan exist — analysis 2026-09-22, nothing built
+
+The owner asked whether these two tools could not simply do each other's job. They cannot, and
+the reason is asymmetric — recorded here so the question does not have to be re-derived.
+
+| | **Portal watcher** (§7) | **News scan** (§9) |
+|---|---|---|
+| Source | 38 authority notice boards | 2 Google News RSS searches |
+| Evidence class | **Primary** — the conducting body itself | **Tertiary** — journalism about it |
+| Operation | **Diffs** today's notice list against a stored snapshot | **Extracts** a number from headline text by regex |
+| Reads figures? | **Never.** Links and titles only | Yes — that is its whole purpose |
+| Output usable as a citation? | **Yes** — it hands over the authority's own document | **Never** — it is a pointer to go and look |
+| Runs | This Mac, daily 09:00 | GitHub's US runners, twice daily |
+| Reach | 24 of 348 authorities (~7%) | All 509 exams, but only what Google surfaces |
+| Failure mode | Misses things, **silently** | Confidently wrong numbers, **visibly** |
+
+**The scan cannot replace the watcher, at any quality of implementation.** It cannot produce a
+citation — `citesDocument()` (§2) would reject every one of its outputs by construction. Most of
+the 509 exams are never newsworthy at all, and news is downstream in time of the notice board.
+
+**The watcher could in principle replace the scan, and that is the right long-term direction**,
+but the wall is reach: 38 portals configured, 24 readable, against **348 distinct
+`conducting_body` values** in the registry. Four of the 14 failures are JS-rendered and solvable
+with a browser engine; ten are unreachable at the connection level. The real bottleneck is
+neither — it is that going from 38 to 348 means finding and entering ~310 notice-board URLs by
+hand. That is curation, not engineering, and nobody has done it. (Two caveats, both favourable:
+348 counts distinct strings, and §10f proves at least one authority hides under two spellings;
+and coverage *by exam* matters more than *by authority* — but the "97 of 500" figure quoted in
+§7 is still unverified, so do not lean on it.)
+
+**So the news scan is a compensating control for the watcher's 7% coverage.** Breadth at low
+trust, covering the gap left by narrow coverage at high trust. That framing also gives the
+retirement test: **the scan should be deleted the day it stops finding anything the watcher
+did not** — it is not a permanent fixture.
+
+**The architectural constraint that fixes the direction of any future merge.** The scan cannot
+follow up its own leads by checking the authority's board, because it runs on GitHub's US
+runners and Indian portals refuse US traffic (§0 rule 3). If these two are ever to converge,
+**the scan moves onto the Mac, next to the watcher — never the watcher into the cloud.** Only
+from here can a headline match trigger a real check, turning *"someone claims 12,405 posts"*
+into a claim plus the notification that backs it.
+
+**Nothing above was built.** The owner was shown this on 2026-09-22 and deferred it deliberately.
+Ranked by return, for whenever it is picked up: (1) a browser engine for the 4 JS-rendered
+portals, which recovers SSC and UPPSC — the best return available; (2) expand
+`sources-config.json` past 38, pure curation; (3) move the scan local and have it verify against
+the board, only worth doing after 1 and 2; (4) retire the scan once the test above is met.
+**None of it is urgent** — neither tool can write to the database, so this is blind-spot
+reduction, not a live defect.
 
 ---
 
@@ -841,6 +985,23 @@ tools were already out.
 ✅ **Pushed** as of this update. Always re-check this yourself with `git status -sb` rather than
 trusting this line.
 
+2026-09-22 commits, newest first — **all pushed**:
+```
+(this handoff update)
+2ddb9cf fix(actions): stop the lead-notification step failing on an apostrophe
+```
+
+**Its commit message contains one wrong date** — it says the failures began at
+`2026-09-20T02:20Z`; the true first failure is `2026-09-19T17:17Z` (§9a). The count of nine is
+correct. Deliberately not amended: rewriting a pushed commit on `main` to correct prose is worse
+than a footnote, and this is the footnote.
+
+No rebase was needed this time — `origin/main` had not moved, because the only workflow that
+commits to it is the auto-sync, and its last successful queue commit was `b3b9012` on 2026-09-20
+(§9a). The owner's `src/utils/syllabusTaxonomy.js` and `data-sourcing/PORTAL-CHANGE-LOG.md` were
+**both still uncommitted and were left that way** — only `.github/workflows/auto-exam-sync.yml`
+was staged. Same discipline as every commit below; check `git status` before staging.
+
 2026-09-20 late-session commits (the notification and scheduling work, §7a–§7c), newest first —
 **all pushed**:
 ```
@@ -1004,7 +1165,25 @@ not a blocked conversation.**
   (CRPD/CR/SPLDRIVE/2026-27/16).
 - **`mes-supervisor-barrack-store`'s 502 figure** and **`uk-judicial-service`'s conflicting 8/16
   vacancy figures** — both still need the specific re-check described in the previous handoff.
-- The 14 unreachable portals; a browser engine for the JS-rendered ones.
+- **The 14 unreachable portals; a browser engine for the JS-rendered ones.** As of 2026-09-22
+  this is **the highest-return item on this list** and the reasoning is written up in §9b: 4 of
+  the 14 are JS-rendered and solvable, and two of those are SSC and UPPSC, among the
+  highest-traffic authorities in the database. The other 10 fail at the connection level and are
+  harder. Raised with the owner on 2026-09-22 and **deliberately deferred — he is not doing it
+  now.** Do not re-derive the analysis; read §9b.
+- **Expanding `sources-config.json` past its 38 portals is curation, not engineering** (§9b) —
+  348 distinct `conducting_body` values exist, 24 are watched. Nobody has done the work of
+  finding the remaining notice-board URLs, and no code change would substitute for it.
+- **The news scan is a compensating control, not a permanent fixture** (§9b). Its retirement
+  test: delete it the day it stops finding anything the watcher did not. Not close yet.
+- **If the watcher and the news scan are ever merged, the scan moves to the Mac** — never the
+  watcher to the cloud (§9b, §0 rule 3). The scan cannot verify its own leads from a US runner.
+- **Unreviewed leads sit in `NEWS-SCAN-QUEUE.md` right now** (§9a). Runs `4bef849` and `b3b9012`
+  queued leads while the notification step was broken, so no ticket was ever raised for them.
+  Read the queue file directly; the ticket list understates it.
+- **The auto-sync still has no liveness assertion** (§4e lesson 5) — unchanged by the 2026-09-22
+  fix, which addressed a *loud* failure. "Ran and found nothing" and "did not run" remain
+  indistinguishable for this workflow. The weekly discovery run has the same gap.
 - Linking detected notices to specific exams — still unmet.
 - `sources-config.json` has missing `psc` fields for Delhi and Ladakh.
 - **RSMSSB Grade III Teacher (Level 1 & 2) direct recruitment still has no dossier entry.**
