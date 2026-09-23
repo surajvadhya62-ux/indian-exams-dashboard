@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## State Bank of India Probationary Officer (`sbi-po`) — 1,500 posts claimed
+
+- **Seen:** 2026-09-23
+- **Headline:** SBI PO Notification 2026: Prelims Admit Card Out for 1,500 Vacancies - PW
+- **Link:** https://news.google.com/rss/articles/CBMib0FVX3lxTE4xakx3WHc4amUzaTg4WUkxNl8ySjVpU2pKTC1lcm1DRnlxdUJCSkM2Vjd5NGdJT3ZPMWg3VzQ5NmVTNmRNaVNfN1RHYk9oYjVTcGlGTFg5TFQ1TlpYTzduMDJiMlBhZGlJZkRnVTRENA?oc=5
+- **Status:** unreviewed
+- **Key:** `sbi-po|1500|2026`
+
 ## IBPS Specialist Officer (`ibps-so`) — 1,043 posts claimed
 
 - **Seen:** 2026-09-22
