@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## State Bank of India Junior Associates (Customer Support & Sales) (`sbi-clerk`) — 1,538 posts claimed
+
+- **Seen:** 2026-09-24
+- **Headline:** SBI Clerk (Junior Associate) Recruitment 2026 Notification Out - Apply Online for 1538 Posts - FreeJobAlert.Com
+- **Link:** https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS2ViUFJPQ09XMUVsVWxxRGRKdUViZlZYN3lNaHVucEh1X0VyRHd2eFNEYzNKdVY2bVRnT3hQZ1h4eU9KNXZFQ0x0R2dna0ZwSko3cHhtQkRGSkczMGVRWWdhcENuVVhFUFkzTlg3UHNpY3FrNXBMZ1Z3LThJZVVEM2RlVTV6b3M4V09VLWcxQmZPWG1DMGlkS1hLbnFsSWpwQ1B4a1RJNGNoTFk2OFI1azRtQzBBMGU4?oc=5
+- **Status:** unreviewed
+- **Key:** `sbi-clerk|1538|2026`
+
 ## State Bank of India Probationary Officer (`sbi-po`) — 1,500 posts claimed
 
 - **Seen:** 2026-09-23
