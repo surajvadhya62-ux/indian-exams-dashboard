@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { getMonthExams, getDomainColor } from '../utils/helpers'
 import {
   HiOutlineCalendar, HiOutlineViewGrid, HiOutlineChevronLeft,
@@ -6,6 +6,7 @@ import {
   HiOutlineExternalLink
 } from 'react-icons/hi'
 import { downloadExamIcs, getGoogleCalendarUrl, downloadMonthScheduleIcs } from '../utils/calendarSync'
+import useIsMobile from '../hooks/useIsMobile'
 
 const MONTH_NAMES = [
   'January', 'February', 'March', 'April', 'May', 'June',
@@ -79,6 +80,18 @@ export default function CalendarView({ exams, onViewDetails }) {
   const currentMonthData = useMemo(() => {
     return monthData.find(item => item.month === selectedMonth) || monthData[0]
   }, [monthData, selectedMonth])
+
+  // A busy month runs to 100+ cards; on a phone that's dozens of screens.
+  // Show 25 there (exams first, then application windows) and reveal more on request.
+  const isMobile = useIsMobile()
+  const [mobileVisible, setMobileVisible] = useState(25)
+  useEffect(() => { setMobileVisible(25) }, [selectedMonth, selectedDomain, filterMode])
+  const examList = (filterMode === 'both' || filterMode === 'exams') ? currentMonthData.exams : []
+  const appList = (filterMode === 'both' || filterMode === 'applications') ? currentMonthData.applications : []
+  const listLimit = isMobile ? mobileVisible : Infinity
+  const visibleExams = examList.slice(0, listLimit)
+  const visibleApps = appList.slice(0, Math.max(0, listLimit - examList.length))
+  const hiddenEventCount = examList.length + appList.length - visibleExams.length - visibleApps.length
 
   return (
     <section className="calendar-section">
@@ -231,8 +244,7 @@ export default function CalendarView({ exams, onViewDetails }) {
           {/* Detailed Event Cards List */}
           <div className="calendar-detailed-events-list">
             {/* Scheduled Exams */}
-            {(filterMode === 'both' || filterMode === 'exams') &&
-              currentMonthData.exams.map((exam) => {
+            {visibleExams.map((exam) => {
                 const color = getDomainColor(exam.domain)
                 return (
                   <div
@@ -284,8 +296,7 @@ export default function CalendarView({ exams, onViewDetails }) {
               })}
 
             {/* Application Windows */}
-            {(filterMode === 'both' || filterMode === 'applications') &&
-              currentMonthData.applications.map((exam) => {
+            {visibleApps.map((exam) => {
                 return (
                   <div
                     key={`app-${exam.id}`}
@@ -334,6 +345,12 @@ export default function CalendarView({ exams, onViewDetails }) {
                   </div>
                 )
               })}
+
+            {hiddenEventCount > 0 && (
+              <button type="button" className="show-more-btn" onClick={() => setMobileVisible(v => v + 25)}>
+                Show more ({hiddenEventCount} more)
+              </button>
+            )}
 
             {(monthCounts[selectedMonth]?.total || 0) === 0 && (
               <div className="calendar-empty-state">

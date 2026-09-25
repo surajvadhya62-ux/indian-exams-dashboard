@@ -3,63 +3,76 @@ import {
   HiOutlineSearch, HiOutlineExternalLink, HiOutlineClipboardCopy,
   HiOutlineRefresh, HiOutlineCheck, HiOutlineSparkles,
   HiOutlineChevronDown, HiOutlineChevronUp, HiOutlineDocumentText,
-  HiOutlineRss, HiOutlineShieldCheck, HiOutlineGlobeAlt
+  HiOutlineRss, HiOutlineCollection, HiOutlineGlobeAlt
 } from 'react-icons/hi'
-import rawNewsData from '../data/news.json'
 import authoritiesData from '../data/authorities.json'
-import { fetchLiveExamNews } from '../utils/newsRssFetcher'
+import { fetchLiveExamNews, loadArchive, mergeIntoArchive, getRelativeTime } from '../utils/newsRssFetcher'
+import { newsSummary } from '../utils/newsMatch'
+import useIsMobile from '../hooks/useIsMobile'
 
-// Enrich dispatches with official statutory reference codes
-const enrichedNews = rawNewsData.map((item, index) => {
-  const refPrefixMap = {
-    'upsc-cse': 'F.No. 1/4/2026-E.I(B)',
-    'ssc-cgl': 'F.No. 3/1/2026-P&P-I',
-    'jee-main': 'NTA/2026/JEE-MAIN/CIR-08',
-    'ibps-po': 'IBPS/CRP-PO-XIV/2026/CALL-01',
-    'nda': 'F.No. 7/2/2026-E.I(B)/NDA',
-    'rrb-ntpc': 'CEN 05/2026/RRB-NTPC/ADDENDUM',
-    'uppsc-pcs': 'UPPSC/A-1/E-1/2026-RESULT-FINAL',
-    'gate': 'IITR/GATE-2027/GOAPS-NOTIF-01',
-    'cat': 'IIMK/CAT-2026/REG-EXT-02',
-    'rbi-grade-b': 'RBISB/2026/DR-GEN/PHASE2',
-    'neet-ug': 'NMC/UGMEB/2026/ELIG-CLARIF',
-    'bpsc': 'BPSC/70TH-CCE/NOTIF-2026/1957'
-  }
-  return {
-    ...item,
-    gazette_ref: item.gazette_ref || refPrefixMap[item.exam_id] || `GOI-STATUTORY-CIRCULAR-2026/${String(index + 101).padStart(4, '0')}`,
-    verified_stamp: item.verified_stamp || 'AUTHENTICATED · NIC GAZETTE REPOSITORY',
-    source_type: 'statutory'
-  }
-})
+// The past week's headlines, rebuilt every morning by
+// scripts/automation/refresh-news.mjs. A separate file rather than a bundled
+// import: it's a few hundred KB, and only this view needs all of it.
+const STORED_NEWS_URL = './news/all.json'
+
+const byNewest = (a, b) => (Date.parse(b.published_at) || 0) - (Date.parse(a.published_at) || 0)
 
 export default function UpdatesFeed({ exams = [], onViewDetails }) {
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedAuthority, setSelectedAuthority] = useState('all')
   const [selectedScope, setSelectedScope] = useState('all')
   const [selectedType, setSelectedType] = useState('all')
-  const [feedMode, setFeedMode] = useState('all') // 'all' | 'statutory' | 'live_rss'
-  const [liveRssItems, setLiveRssItems] = useState([])
+  const [feedMode, setFeedMode] = useState('all') // 'all' | 'stored' | 'live_rss'
+  const [storedNews, setStoredNews] = useState([])
+  const [storedStatus, setStoredStatus] = useState('loading') // 'loading' | 'ready' | 'failed'
+  const [liveRssItems, setLiveRssItems] = useState(loadArchive)
+  const liveItemsRef = useRef(liveRssItems)
   const [isSyncing, setIsSyncing] = useState(false)
   const [lastSyncTime, setLastSyncTime] = useState('Real-Time Stream Active')
   const [toastMessage, setToastMessage] = useState(null)
-  const [expandedId, setExpandedId] = useState(enrichedNews[0]?.id || null)
+  const [expandedId, setExpandedId] = useState(null)
   const searchInputRef = useRef(null)
+  // Hundreds of stories — a phone shows 25 at a time
+  const isMobile = useIsMobile()
+  const [mobileVisible, setMobileVisible] = useState(25)
+  useEffect(() => { setMobileVisible(25) }, [searchQuery, selectedAuthority, selectedScope, selectedType, feedMode])
+
+  useEffect(() => {
+    let cancelled = false
+    fetch(STORED_NEWS_URL, { cache: 'no-cache' })
+      .then(res => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
+      .then(items => {
+        if (cancelled) return
+        setStoredNews(Array.isArray(items) ? items : [])
+        setStoredStatus('ready')
+      })
+      .catch(() => { if (!cancelled) setStoredStatus('failed') })
+    return () => { cancelled = true }
+  }, [])
 
   // Fetch real-time RSS from Google News & PIB across Indian exams
-  const pollLiveRss = useCallback(async (authName = '', forceRefresh = false) => {
+  const pollLiveRss = useCallback(async (authName = '', forceRefresh = false, manual = false) => {
     setIsSyncing(true)
     try {
       const res = await fetchLiveExamNews(authName, searchQuery, forceRefresh)
       if (res.success && res.items.length > 0) {
-        setLiveRssItems(res.items)
+        // Add to what's already been collected rather than replacing it —
+        // otherwise the total stays pinned at one fetch's worth of stories
+        const { items: merged, added } = mergeIntoArchive(liveItemsRef.current, res.items)
+        liveItemsRef.current = merged
+        setLiveRssItems(merged)
         const now = new Date()
         const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })
-        setLastSyncTime(`${timeStr} IST · Real-Time Stream Synced (${res.items.length} Live Items)`)
-        setToastMessage(`✓ Synced ${res.items.length} live dispatches from verified media & commission feeds`)
-        setTimeout(() => setToastMessage(null), 3500)
+        setLastSyncTime(`${timeStr} IST · Real-Time Stream Synced (${merged.length} Live Items)`)
+        // Background syncs stay quiet unless they found something new
+        if (added > 0 || manual) {
+          setToastMessage(added > 0
+            ? `✓ ${added} new ${added === 1 ? 'story' : 'stories'} added · ${merged.length} live stories in total`
+            : `✓ Up to date — no new stories since the last sync (${merged.length} live stories)`)
+          setTimeout(() => setToastMessage(null), 3500)
+        }
       } else if (res.error) {
-        setToastMessage(`Notice: ${res.error}. Showing verified statutory circulars.`)
+        setToastMessage(`Couldn't reach the live news source right now. Showing the past week's stored headlines.`)
         setTimeout(() => setToastMessage(null), 4000)
       }
     } catch {
@@ -98,17 +111,21 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
     return authoritiesData.find(a => a.name === selectedAuthority || a.id === selectedAuthority)
   }, [selectedAuthority])
 
-  // Merged stream of Statutory Gazette (Option 1) + Live RSS Feed (Option 2)
+  // Live stories and the stored week, newest first. Both are keyed by article
+  // link (newsMatch.storyId), so a story present in both is counted once.
+  const allStories = useMemo(() => {
+    const byId = new Map()
+    for (const item of [...liveRssItems, ...storedNews]) {
+      if (!byId.has(item.id)) byId.set(item.id, item)
+    }
+    return [...byId.values()].sort(byNewest)
+  }, [liveRssItems, storedNews])
+
   const combinedStream = useMemo(() => {
-    if (feedMode === 'statutory') {
-      return enrichedNews
-    }
-    if (feedMode === 'live_rss') {
-      return liveRssItems
-    }
-    // 'all': place live items at top, followed by official statutory circulars
-    return [...liveRssItems, ...enrichedNews]
-  }, [feedMode, liveRssItems])
+    if (feedMode === 'stored') return storedNews
+    if (feedMode === 'live_rss') return liveRssItems
+    return allStories
+  }, [feedMode, storedNews, liveRssItems, allStories])
 
   // Filtered dispatches based on all criteria
   const filteredDispatches = useMemo(() => {
@@ -152,9 +169,8 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
         const matchExam = item.exam_acronym?.toLowerCase().includes(q)
         const matchSource = item.source?.toLowerCase().includes(q)
         const matchSummary = item.summary?.toLowerCase().includes(q)
-        const matchRef = item.gazette_ref?.toLowerCase().includes(q)
         const matchAuth = item.authority_full?.toLowerCase().includes(q)
-        if (!matchTitle && !matchExam && !matchSource && !matchSummary && !matchRef && !matchAuth) {
+        if (!matchTitle && !matchExam && !matchSource && !matchSummary && !matchAuth) {
           return false
         }
       }
@@ -177,9 +193,9 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
   // Copy citation action
   const handleCopyCitation = (item, e) => {
     e.stopPropagation()
-    const text = `[STATUTORY GAZETTE CITATION] ${item.exam_acronym || item.source} — ${item.title}\nRef: ${item.gazette_ref} | Authority: ${item.authority_full}\nOfficial Portal: ${item.link}`
+    const text = `${item.title} — ${item.source}, ${item.date}\n${item.link}`
     navigator.clipboard.writeText(text).then(() => {
-      setToastMessage(`Citation for ${item.exam_acronym || item.source} copied to clipboard`)
+      setToastMessage('Headline and link copied to clipboard')
       setTimeout(() => setToastMessage(null), 2500)
     }).catch(() => {
       setToastMessage('Failed to copy to clipboard')
@@ -189,6 +205,9 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
 
   // Find linked exam object to allow 1-click jump to Exam Details
   const getExamObject = (examId) => {
+    // Authority-level stories have no exam_id — without this guard the
+    // acronym comparison below matched any exam lacking an acronym
+    if (!examId) return null
     return exams.find(e => e.id === examId || e.acronym?.toLowerCase() === examId?.toLowerCase())
   }
 
@@ -219,7 +238,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
         {/* Top Control Bar */}
         <div className="mterminal-control-header">
           <div className="mterminal-section-title">
-            <span className="mterminal-amber-label">STATUTORY GAZETTE & EXAMINATION WIRE</span>
+            <span className="mterminal-amber-label">EXAM NEWS & UPDATES</span>
             <span className="mterminal-status-pill">
               <span className="mterminal-pulse-dot" /> {authoritiesData.length} COMMISSIONS INDEXED
             </span>
@@ -270,15 +289,15 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
               </select>
             </div>
 
-            {/* Circular Type Dropdown */}
+            {/* Story Type Dropdown */}
             <div className="mterminal-select-wrapper">
               <select
                 className="mterminal-select"
                 value={selectedType}
                 onChange={(e) => setSelectedType(e.target.value)}
-                aria-label="Filter by Circular Type"
+                aria-label="Filter by story type"
               >
-                <option value="all">All Circular Types</option>
+                <option value="all">All Types</option>
                 <option value="NOTIF">[NOTIF] Notifications</option>
                 <option value="ADMIT">[ADMIT] Admit Cards</option>
                 <option value="KEY">[KEY] Answer Keys</option>
@@ -297,7 +316,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                 placeholder={`Q SEARCH ${authoritiesData.length} BODIES...`}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                aria-label="Search statutory gazette"
+                aria-label="Search exam news"
               />
               {searchQuery && (
                 <button
@@ -313,17 +332,17 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
             {/* Live Sync / Fetch Button */}
             <button
               className={`mterminal-fetch-btn ${isSyncing ? 'syncing' : ''}`}
-              onClick={() => pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority, true)}
-              title="Poll Google News & PIB RSS feeds across official commission endpoints (bypasses cache)"
+              onClick={() => pollLiveRss(selectedAuthority === 'all' ? '' : selectedAuthority, true, true)}
+              title="Check Google News for headlines published since the last check"
               disabled={isSyncing}
             >
               <HiOutlineRefresh className={`mterminal-fetch-icon ${isSyncing ? 'spinning' : ''}`} />
-              <span>{isSyncing ? 'SYNCING...' : 'SYNC RSS'}</span>
+              <span>{isSyncing ? 'CHECKING...' : 'CHECK FOR NEW'}</span>
             </button>
           </div>
         </div>
 
-        {/* Source Mode Ribbon: All Intel vs Option 1 (Gazette) vs Option 2 (Live RSS) */}
+        {/* Source filter: everything / the stored week / fetched live in this browser */}
         <div className="mterminal-source-mode-bar">
           <div className="mterminal-mode-pills">
             <button
@@ -331,21 +350,23 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
               onClick={() => setFeedMode('all')}
             >
               <HiOutlineSparkles className="pill-icon" />
-              <span>ALL INTELLIGENCE ({combinedStream.length})</span>
+              <span>ALL NEWS ({allStories.length})</span>
             </button>
             <button
-              className={`mterminal-mode-pill ${feedMode === 'statutory' ? 'active' : ''}`}
-              onClick={() => setFeedMode('statutory')}
+              className={`mterminal-mode-pill ${feedMode === 'stored' ? 'active' : ''}`}
+              onClick={() => setFeedMode('stored')}
+              title="Headlines from the past 7 days, refreshed every morning"
             >
-              <HiOutlineShieldCheck className="pill-icon text-amber" />
-              <span>OPTION 1: OFFICIAL GAZETTE WIRE ({enrichedNews.length})</span>
+              <HiOutlineCollection className="pill-icon text-amber" />
+              <span>PAST 7 DAYS ({storedStatus === 'loading' ? '…' : storedNews.length})</span>
             </button>
             <button
               className={`mterminal-mode-pill ${feedMode === 'live_rss' ? 'active' : ''}`}
               onClick={() => setFeedMode('live_rss')}
+              title="Headlines fetched live while you have this page open"
             >
               <HiOutlineRss className="pill-icon text-emerald" />
-              <span>OPTION 2: LIVE RSS STREAM ({liveRssItems.length})</span>
+              <span>LIVE ({liveRssItems.length})</span>
             </button>
           </div>
 
@@ -378,13 +399,13 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
               <span className="mterminal-big-score">{filteredDispatches.length}</span>
               <span className="mterminal-score-denom">/{combinedStream.length}</span>
               <span className="mterminal-score-caption">
-                DISPATCHES MATCHED · {lastSyncTime}
+                STORIES MATCHED · {lastSyncTime}
               </span>
             </div>
 
             {/* Segmented Horizontal Progress Bar */}
             {filteredDispatches.length > 0 && (
-              <div className="mterminal-segmented-bar" role="progressbar" aria-label="Circular Breakdown">
+              <div className="mterminal-segmented-bar" role="progressbar" aria-label="Breakdown by story type">
                 <div
                   className="mterminal-bar-seg seg-notif"
                   style={{ width: `${(typeCounts.NOTIF / filteredDispatches.length) * 100}%` }}
@@ -467,15 +488,15 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
               </div>
             </div>
             <div className="mterminal-meta-group">
-              <div className="mterminal-meta-label">INTELLIGENCE PIPELINE</div>
+              <div className="mterminal-meta-label">SOURCE</div>
               <div className="mterminal-meta-val">
-                {liveRssItems.length > 0
-                  ? `Dual-Mode: Option 1 Gazette + Option 2 Live RSS (${liveRssItems.length} live)`
-                  : 'Statutory Gazette Crawler Active'}
+                News publishers, via Google News
               </div>
             </div>
             <div className="mterminal-meta-desc">
-              Cross-referencing statutory notices from all {authoritiesData.length} conducting bodies with real-time PIB and verified press media RSS streams.
+              These are news reports, not official notices. Always confirm dates, vacancies and
+              deadlines on the conducting authority's official website before acting.
+              {storedStatus === 'failed' && ' (The stored headlines could not be loaded — showing live headlines only.)'}
             </div>
           </div>
         </div>
@@ -484,13 +505,17 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
         <div className="mterminal-headlines-section">
           <div className="mterminal-headlines-header">
             <span className="mterminal-amber-label">HEADLINES</span>
-            <span className="mterminal-count-label">{filteredDispatches.length} dispatches</span>
+            <span className="mterminal-count-label">{filteredDispatches.length} {filteredDispatches.length === 1 ? 'story' : 'stories'}</span>
           </div>
 
-          {filteredDispatches.length === 0 ? (
+          {filteredDispatches.length === 0 && storedStatus === 'loading' ? (
+            <div className="mterminal-empty-state">
+              <p className="mterminal-empty-msg">Loading headlines…</p>
+            </div>
+          ) : filteredDispatches.length === 0 ? (
             <div className="mterminal-empty-state">
               <p className="mterminal-empty-msg">
-                No circulars or live news found for &quot;{searchQuery || selectedAuthority || selectedScope}&quot;.
+                No news found for &quot;{searchQuery || selectedAuthority || selectedScope}&quot;.
               </p>
               <button
                 className="mterminal-reset-btn"
@@ -507,7 +532,7 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
             </div>
           ) : (
             <div className="mterminal-list">
-              {filteredDispatches.map((item) => {
+              {(isMobile ? filteredDispatches.slice(0, mobileVisible) : filteredDispatches).map((item) => {
                 const isExpanded = expandedId === item.id
                 const examObj = getExamObject(item.exam_id)
 
@@ -531,10 +556,9 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                       aria-expanded={isExpanded}
                     >
                       <div className="mterminal-row-left">
-                        {/* Live RSS Tag if from real-time stream */}
                         {item.is_live && (
                           <span className="mterminal-live-feed-pill">
-                            <span className="mterminal-pulse-dot" /> LIVE RSS
+                            <span className="mterminal-pulse-dot" /> LIVE
                           </span>
                         )}
 
@@ -556,11 +580,11 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
 
                       <div className="mterminal-row-right">
                         <span className="mterminal-source-time">
-                          {item.source} · {item.time_ago}
+                          {item.source} · {item.published_at ? getRelativeTime(item.published_at) : item.time_ago}
                         </span>
                         <button
                           className="mterminal-expand-icon-btn"
-                          aria-label={isExpanded ? 'Collapse circular' : 'Expand circular'}
+                          aria-label={isExpanded ? 'Collapse story' : 'Expand story'}
                         >
                           {isExpanded ? <HiOutlineChevronUp /> : <HiOutlineChevronDown />}
                         </button>
@@ -573,11 +597,11 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                         {/* Meta Ribbon */}
                         <div className="mterminal-drawer-ribbon">
                           <div className="mterminal-ribbon-item">
-                            <span className="mterminal-ribbon-k">STATUTORY REF:</span>
-                            <span className="mterminal-ribbon-v monospace-text">{item.gazette_ref}</span>
+                            <span className="mterminal-ribbon-k">PUBLISHER:</span>
+                            <span className="mterminal-ribbon-v">{item.source}</span>
                           </div>
                           <div className="mterminal-ribbon-item">
-                            <span className="mterminal-ribbon-k">CONDUCTING BODY:</span>
+                            <span className="mterminal-ribbon-k">ABOUT:</span>
                             <span className="mterminal-ribbon-v">{item.authority_full || item.source}</span>
                           </div>
                           <div className="mterminal-ribbon-item">
@@ -585,52 +609,43 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                             <span className="mterminal-ribbon-v monospace-text">{item.date}</span>
                           </div>
                           <div className="mterminal-ribbon-item">
-                            <span className="mterminal-ribbon-k">VERIFICATION:</span>
-                            <span className={`mterminal-ribbon-v ${item.is_live ? 'text-teal' : 'text-emerald'}`}>
-                              {item.verified_stamp}
-                            </span>
+                            <span className="mterminal-ribbon-k">STATUS:</span>
+                            <span className="mterminal-ribbon-v">News report · not an official notice</span>
                           </div>
                         </div>
 
                         {/* Executive Abstract */}
                         <div className="mterminal-drawer-body">
                           <div className="mterminal-drawer-abstract">
-                            <div className="mterminal-drawer-heading">
-                              {item.is_live ? 'PRESS DISPATCH SYNOPSIS' : 'EXECUTIVE GAZETTE ABSTRACT'}
-                            </div>
-                            <p className="mterminal-abstract-text">{item.summary}</p>
+                            <div className="mterminal-drawer-heading">WHAT THIS IS</div>
+                            <p className="mterminal-abstract-text">{newsSummary(item.source, item.date)}</p>
                           </div>
-
-                          {/* Key Statutory Directives */}
-                          {item.key_takeaways && item.key_takeaways.length > 0 && (
-                            <div className="mterminal-drawer-takeaways">
-                              <div className="mterminal-drawer-heading">
-                                {item.is_live ? 'KEY DEVELOPMENTS & CITATIONS' : 'STATUTORY DIRECTIVES & CANDIDATE ACTION ITEMS'}
-                              </div>
-                              <ul className="mterminal-takeaways-list">
-                                {item.key_takeaways.map((takeaway, tIdx) => (
-                                  <li key={tIdx} className="mterminal-takeaway-item">
-                                    <span className="mterminal-bullet-amber">▸</span>
-                                    <span>{takeaway}</span>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                          )}
 
                           {/* Action Cluster */}
                           <div className="mterminal-drawer-actions">
-                            {/* Direct Official Link */}
                             <a
                               href={item.link}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="mterminal-action-btn primary-action"
-                              title="Open official notice / media link in new tab"
+                              title="Open the news article in a new tab"
                             >
                               <HiOutlineExternalLink className="mterminal-btn-icon" />
-                              <span>{item.is_live ? 'VIEW MEDIA SOURCE' : 'OFFICIAL GAZETTE NOTICE'}</span>
+                              <span>READ ARTICLE</span>
                             </a>
+
+                            {/^https?:\/\//.test(item.portal_url || '') && (
+                              <a
+                                href={item.portal_url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mterminal-action-btn secondary-action"
+                                title="Confirm on the conducting authority's own website"
+                              >
+                                <HiOutlineGlobeAlt className="mterminal-btn-icon" />
+                                <span>OFFICIAL WEBSITE</span>
+                              </a>
+                            )}
 
                             {/* Jump to Exam Detail if matched */}
                             {examObj && onViewDetails && (
@@ -648,10 +663,10 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                             <button
                               className="mterminal-action-btn tertiary-action"
                               onClick={(e) => handleCopyCitation(item, e)}
-                              title="Copy citation to clipboard"
+                              title="Copy the headline and link"
                             >
                               <HiOutlineClipboardCopy className="mterminal-btn-icon" />
-                              <span>COPY CITATION</span>
+                              <span>COPY LINK</span>
                             </button>
                           </div>
                         </div>
@@ -660,6 +675,11 @@ export default function UpdatesFeed({ exams = [], onViewDetails }) {
                   </div>
                 )
               })}
+              {isMobile && filteredDispatches.length > mobileVisible && (
+                <button type="button" className="show-more-btn" onClick={() => setMobileVisible(v => v + 25)}>
+                  Show more ({filteredDispatches.length - mobileVisible} more)
+                </button>
+              )}
             </div>
           )}
         </div>

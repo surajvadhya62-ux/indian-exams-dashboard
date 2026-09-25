@@ -4,6 +4,7 @@ import {
   HiOutlineSortDescending, HiOutlineBookmark, HiOutlineX,
   HiOutlineFilter, HiOutlineAdjustments
 } from 'react-icons/hi'
+import useIsMobile from '../hooks/useIsMobile'
 
 // Narrow phones cut the full placeholder off mid-word ("…name, condu"), which
 // reads as a broken layout rather than a hint. Swap in the short version.
@@ -73,6 +74,13 @@ export default function SearchFilter({
   const [showSuggestions, setShowSuggestions] = useState(false)
   const [showFilterDrawer, setShowFilterDrawer] = useState(false)
   const isNarrow = useNarrowScreen()
+  // On a phone the discipline chips and five dropdowns filled more than a
+  // screen before the first exam appeared; they fold behind one button there
+  const isMobile = useIsMobile()
+  const filtersCollapsed = isMobile && !showFilterDrawer
+  // Scope and state stay visible above the button, so they aren't counted as hidden filters
+  const activeFilterCount = (activeFilters || []).filter(([key]) => key !== 'jurisdiction' && key !== 'state').length +
+    (sortBy && sortBy !== 'popularity' ? 1 : 0)
 
   // Keyboard shortcut: '/' focuses search input, 'Escape' blurs
   useEffect(() => {
@@ -120,7 +128,7 @@ export default function SearchFilter({
   }
 
   return (
-    <div className="precision-query-hud" aria-label="Search and Registry Filters">
+    <div className={`precision-query-hud${filtersCollapsed ? ' filters-collapsed' : ''}`} aria-label="Search and Registry Filters">
       {/* 1. Scope & Primary Segment Bar */}
       <div className="query-hud-top">
         <div className="query-scope-segments">
@@ -258,6 +266,19 @@ export default function SearchFilter({
           </div>
         )}
       </div>
+
+      {isMobile && (
+        <button
+          type="button"
+          className={`mobile-filter-toggle${showFilterDrawer ? ' open' : ''}`}
+          onClick={() => setShowFilterDrawer(v => !v)}
+          aria-expanded={showFilterDrawer}
+        >
+          <HiOutlineAdjustments />
+          <span>{showFilterDrawer ? 'Hide filters' : 'Filters & sort'}</span>
+          {activeFilterCount > 0 && <span className="mobile-filter-count">{activeFilterCount}</span>}
+        </button>
+      )}
 
       {/* 3. Quick Domain Segmented Chips */}
       <div className="query-quick-domains">

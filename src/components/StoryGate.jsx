@@ -1,11 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   HiOutlineSearch, HiOutlineScale, HiOutlineShieldCheck, HiOutlineCalendar,
-  HiOutlineArrowRight, HiOutlineArrowDown, HiOutlineCheckCircle, HiOutlineMail
+  HiOutlineArrowRight, HiOutlineArrowDown, HiOutlineCheckCircle
 } from 'react-icons/hi'
 import { INDIA_MAP_PATH, INDIA_MAP_VIEWBOX } from './IndiaMapPath'
-
-const FEEDBACK_EMAIL = 'sraujigdi@gmail.com'
 
 /* ─────────────────────────────────────────────────────────────
    STORY GATE
@@ -42,6 +40,17 @@ const STEPS = [
   { title: 'Compare', desc: 'Line up your shortlist side by side.' },
   { title: 'Check the fine print', desc: 'Eligibility, pay level, and syllabus — in one place.' },
   { title: 'Track the calendar', desc: 'Never miss a notification window.' },
+]
+
+// ids match EligibilityScreener's QUALIFICATIONS
+// `short` is the hero chip; `label` + `desc` the tile in chapter 05
+const START_POINTS = [
+  { qualification: '10th', short: '10th', label: '10th pass', desc: 'India Post GDS and Postman, Agniveer, RRB Technician and more.' },
+  { qualification: '12th', short: '12th', label: '12th pass', desc: 'NDA, SSC Steno, police constable and clerk posts, CA, CS and CMA.' },
+  { qualification: 'graduate', short: 'Graduate', label: 'Graduate', desc: 'Civil services, SSC CGL, bank PO, state PSCs and more.' },
+  { qualification: 'post_graduate', short: 'Postgraduate', label: 'Postgraduate', desc: 'UGC NET, Grade A officer posts at RBI, SIDBI and PFRDA, research programmes.' },
+  // Opens on CA / CS / CMA; LLB, B.Ed and MBBS sit beside it in the same dropdown
+  { qualification: 'ca_cs_cma', short: 'Professional (CA, LLB, B.Ed…)', label: 'Professional', desc: 'CA, CS, CMA, LLB, B.Ed or MBBS: judicial, finance-officer and teaching posts. Pick yours in the screener.' },
 ]
 
 const TIERS = [
@@ -280,13 +289,16 @@ function MagneticButton({ children, onClick }) {
   )
 }
 
-export default function StoryGate({ exams, onEnter }) {
+export default function StoryGate({ exams, onEnter, onStartWith }) {
   const stats = useMemo(() => {
     const total = exams.length
     const central = exams.filter(e => e.jurisdiction === 'central').length
     const state = exams.filter(e => e.jurisdiction === 'state').length
     const domains = new Set(exams.map(e => e.domain)).size
-    return { total, central, state, domains }
+    // The landing page shows a rounded floor ("500+"), not the exact count,
+    // so it doesn't need editing every time a handful of exams are added.
+    const rounded = total >= 100 ? Math.floor(total / 100) * 100 : total
+    return { total, rounded, central, state, domains }
   }, [exams])
 
   const progress = useScrollProgress()
@@ -317,7 +329,7 @@ export default function StoryGate({ exams, onEnter }) {
 
         <p className="sg-eyebrow">National Examinations Intelligence Registry</p>
         <h1 className="sg-headline">
-          {stats.total || 500} examinations.<br />
+          {stats.rounded || 500}+ examinations.<br />
           28 states, 8 UTs.<br />
           <span className="brand-accent">One single directory.</span>
         </h1>
@@ -355,13 +367,26 @@ export default function StoryGate({ exams, onEnter }) {
             See what it does <HiOutlineArrowDown className="sg-scrolldown-arrow" />
           </a>
         </div>
+
+        {/* The same shortcut as chapter 05, surfaced here: most visitors click
+            Open Dashboard and never scroll down to find it */}
+        <div className="sg-hero-start">
+          <span className="sg-hero-start-label">Or see the exams you can apply for. I have passed:</span>
+          <div className="sg-hero-start-chips">
+            {START_POINTS.map(s => (
+              <button key={s.qualification} type="button" className="sg-hero-chip" onClick={() => onStartWith(s.qualification)}>
+                {s.short}
+              </button>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* 01 — BY THE NUMBERS */}
       <section className="sg-chapter" id="sg-numbers">
         <ChapterHead num="01" label="By the Numbers" meta="Live registry" />
         <div className="sg-stats-grid">
-          <StatTile value={stats.total || 500} label="Examinations tracked" sub="Central + State Registry" delay={0} />
+          <StatTile value={stats.rounded || 500} suffix="+" label="Examinations tracked" sub="Central + State Registry" delay={0} />
           <StatTile value={stats.central} label="Central & All-India" sub="UPSC · SSC · RRB · Banks" delay={70} />
           <StatTile value={stats.state} label="State & UT boards" sub="PSCs & subordinate boards" delay={140} />
           <StatTile value={stats.domains} label="Career domains" sub="Engineering to defence to law" delay={210} />
@@ -413,22 +438,30 @@ export default function StoryGate({ exams, onEnter }) {
         </div>
       </section>
 
-      {/* 05 — FEEDBACK */}
+      {/* 05 — START FROM WHERE YOU ARE */}
       <section className="sg-chapter">
-        <ChapterHead num="05" label="Feedback" meta="Stay accurate" />
-        <Reveal className="sg-feedback" threshold={0.12}>
-          <p>
-            Spotted something wrong, or an exam that's missing? We'd rather hear
-            about it than let a stale number sit here — every exam entry links
-            back to a primary source you can check for yourself.
-          </p>
-          <a href={`mailto:${FEEDBACK_EMAIL}`} className="sg-feedback-link">
-            <HiOutlineMail /> {FEEDBACK_EMAIL}
-          </a>
+        <ChapterHead num="05" label="Start From Where You Are" meta="Eligibility screener" />
+        <Reveal className="sg-trust-lead" threshold={0.12}>
+          <p>Pick your highest qualification and see the exams you can sit for.</p>
         </Reveal>
+        <div className="sg-start-grid">
+          {START_POINTS.map((s, i) => (
+            <Reveal
+              as="button"
+              key={s.qualification}
+              className="sg-start-tile"
+              delay={i * 70}
+              threshold={0.12}
+              onClick={() => onStartWith(s.qualification)}
+            >
+              <span className="sg-start-label">{s.label} <HiOutlineArrowRight /></span>
+              <span className="sg-start-desc">{s.desc}</span>
+            </Reveal>
+          ))}
+        </div>
       </section>
 
-      {/* 06 — FINAL CTA */}
+      {/* FINAL CTA */}
       <section className="sg-final">
         <Reveal as="h2" className="sg-final-headline" threshold={0.2}>
           Your shortlist starts here.

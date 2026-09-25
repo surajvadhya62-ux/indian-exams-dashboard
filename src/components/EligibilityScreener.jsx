@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import {
   HiOutlineUser, HiOutlineAcademicCap, HiOutlineLocationMarker,
   HiOutlineClock, HiOutlineCheckCircle,
@@ -6,6 +6,7 @@ import {
   HiOutlineShieldCheck
 } from 'react-icons/hi'
 import { getDomainColor } from '../utils/helpers'
+import useIsMobile from '../hooks/useIsMobile'
 
 const CATEGORIES = [
   { id: 'gen', label: 'General / Unreserved', relaxation: 0, desc: 'Standard upper age limits' },
@@ -15,6 +16,9 @@ const CATEGORIES = [
   { id: 'pwbd', label: 'PwBD / Differently Abled', relaxation: 10, desc: '+10 Years Upper Age Relaxation' },
 ]
 
+// `credential` marks a professional qualification. An exam that *requires* one
+// (see requiredCredential) is open only to candidates holding it; an exam that
+// merely *accepts* one as an alternative route is open to them as well.
 const QUALIFICATIONS = [
   { id: '10th', label: '10th / Matriculation', levelRank: 1 },
   { id: '12th', label: '12th / Intermediate (10+2)', levelRank: 2 },
@@ -22,8 +26,49 @@ const QUALIFICATIONS = [
   { id: 'graduate', label: "Bachelor's Degree (Any Discipline)", levelRank: 4 },
   { id: 'engineering', label: 'B.Tech / B.E. / Technical Degree', levelRank: 4 },
   { id: 'post_graduate', label: "Master's Degree / Post Graduate", levelRank: 5 },
-  { id: 'medical', label: 'MBBS / Medical / Dental Degree', levelRank: 4 },
+  // Rank 5: CA, CS and CMA are treated as equivalent to a Master's (UGC recognition, 2021)
+  { id: 'ca_cs_cma', label: 'CA / CS / CMA (qualified)', levelRank: 5, credential: 'accounting', professional: true },
+  { id: 'law', label: 'LLB / Law Degree', levelRank: 4, credential: 'law', professional: true },
+  { id: 'teaching_bed', label: 'Graduate + B.Ed (Teaching)', levelRank: 4, credential: 'teaching', professional: true },
+  { id: 'teaching_deled', label: '12th + D.El.Ed / D.Ed (Teaching)', levelRank: 2, credential: 'teaching', professional: true },
+  { id: 'medical', label: 'MBBS / BDS (Medical / Dental)', levelRank: 4, credential: 'medical', professional: true },
 ]
+
+// Professional credentials, as they're written in exams.json's min_qualification
+const CREDENTIAL_PATTERNS = {
+  law: /\bLL\.?\s?B\b|bachelor of laws|degree in law|law degree|law graduate|graduate in law|(^|[\/,]\s*)Law\b/i,
+  // "CS" alone is left out on purpose: in engineering requirements it means Computer Science
+  accounting: /\bCA\b|chartered accountant|\bCMA\b|cost accountant|\bICWAI?\b|company secretar/i,
+  // case-sensitive, so "50-bed hospital" isn't read as B.Ed
+  teaching: /\bB\.?\s?Ed\b|D\.?\s?El\.?\s?Ed|D\.?\s?T\.?\s?Ed|\bD\.?\s?Ed\b|\bTTC\b|\bPTC\b|\bBTC\b/,
+  medical: /\bMBBS\b|\bBDS\b/i,
+}
+
+// A plain degree offered as another route in, which makes a listed credential optional
+// ("Postgraduate / Law / Engineering / CA"). "Graduation with B.Ed" is not an alternative.
+const GENERAL_DEGREE_ROUTE = /bachelor'?s degree(?!\s+in\s+law)|graduation(?!\s*(\+|with)\s*(b\.?\s?ed|d\.?\s?el))|graduate in (any|commerce)|any (stream|discipline)|master'?s|post ?graduate|\bMBA\b|\bCFA\b|engineering|b\.?\s?tech|m\.?\s?com/i
+
+function mentionedCredentials(exam) {
+  const q = exam.min_qualification || ''
+  return Object.keys(CREDENTIAL_PATTERNS).filter(key => CREDENTIAL_PATTERNS[key].test(q))
+}
+
+// The credential an exam cannot be sat without, or null. Checked by hand against
+// all 509 exams on 2026-09-25: 25 need an LLB, 34 a B.Ed / D.El.Ed, 6 an MBBS / BDS,
+// 2 a CA / CMA; 18 more accept one of these as an alternative.
+function requiredCredential(exam) {
+  const q = exam.min_qualification || ''
+  // The CA/CS/CMA courses themselves can be entered after Class 12; "varies by post"
+  // covers non-specialist posts too
+  if ((exam.track === 'Q' && /10\+2|class 12|12th/i.test(q)) || /varies by post/i.test(q)) return null
+  for (const [key, re] of Object.entries(CREDENTIAL_PATTERNS)) {
+    if (!re.test(q)) continue
+    const joined = new RegExp(`(\\+|\\bwith\\b)\\s*(${re.source})`, re.flags).test(q) ||
+      new RegExp(`(${re.source})\\.?\\s*\\+`, re.flags).test(q)
+    if (!GENERAL_DEGREE_ROUTE.test(q) || joined) return key
+  }
+  return null
+}
 
 function parseAgeLimits(ageStr) {
   if (!ageStr) return { min: 18, max: 32 }
@@ -69,13 +114,22 @@ function getExamRequiredRank(minQualStr, levelStr) {
   return 4 // default to graduate
 }
 
-export default function EligibilityScreener({ exams, onViewDetails, onApplyFilter }) {
+export default function EligibilityScreener({ exams, onViewDetails, onApplyFilter, initialQualification }) {
   const [age, setAge] = useState(24)
   const [category, setCategory] = useState('gen')
-  const [qualification, setQualification] = useState('graduate')
+  const [qualification, setQualification] = useState(
+    QUALIFICATIONS.some(q => q.id === initialQualification) ? initialQualification : 'graduate'
+  )
   const [domicile, setDomicile] = useState('All')
   const [resultFilter, setResultFilter] = useState('eligible') // 'eligible', 'aging_out', 'all'
   const [domainFilter, setDomainFilter] = useState('All')
+  // Desktop shows the top 48 at once; a phone starts at 12 (each card is
+  // nearly a screen tall there) and reveals more on request
+  const isMobile = useIsMobile()
+  const [mobileVisible, setMobileVisible] = useState(12)
+  const RESULT_CAP = 48
+  // A changed input means a new result list — start it from the top again
+  useEffect(() => { setMobileVisible(12) }, [age, category, qualification, domicile, resultFilter, domainFilter])
 
   // List of states
   const states = useMemo(() => {
@@ -111,9 +165,17 @@ export default function EligibilityScreener({ exams, onViewDetails, onApplyFilte
       const yearsRemaining = allowedMax - age
       const isAgingOut = isAgeQualified && yearsRemaining <= 2
 
-      // Education qualification
+      // Education qualification. A required professional credential decides it
+      // outright: a graduate isn't eligible for a judicial exam without an LLB,
+      // and an LLB holder is.
+      const reqCredential = requiredCredential(exam)
+      const candCredential = selectedQualObj.credential || null
       let isEduQualified = false
-      if (qualification === 'engineering') {
+      if (reqCredential) {
+        isEduQualified = candCredential === reqCredential
+      } else if (candCredential && mentionedCredentials(exam).includes(candCredential)) {
+        isEduQualified = true // e.g. "Master's in Commerce or CA" for a CA
+      } else if (qualification === 'engineering') {
         isEduQualified = exam.domain === 'Engineering' || reqRank <= 4
       } else if (qualification === 'medical') {
         isEduQualified = exam.domain === 'Medical' || reqRank <= 4
@@ -256,11 +318,22 @@ export default function EligibilityScreener({ exams, onViewDetails, onApplyFilte
               onChange={e => setQualification(e.target.value)}
               className="screener-select"
             >
-              {QUALIFICATIONS.map(q => (
-                <option key={q.id} value={q.id}>{q.label}</option>
-              ))}
+              <optgroup label="School & degree">
+                {QUALIFICATIONS.filter(q => !q.professional).map(q => (
+                  <option key={q.id} value={q.id}>{q.label}</option>
+                ))}
+              </optgroup>
+              <optgroup label="Professional qualification">
+                {QUALIFICATIONS.filter(q => q.professional).map(q => (
+                  <option key={q.id} value={q.id}>{q.label}</option>
+                ))}
+              </optgroup>
             </select>
-            <div className="screener-subtext">Includes appearing / final semester</div>
+            <div className="screener-subtext">
+              {selectedQualObj.professional
+                ? 'Also opens exams that require this qualification, such as judicial, teaching or finance-officer posts'
+                : 'Includes appearing / final semester'}
+            </div>
           </div>
 
           {/* Domicile State */}
@@ -354,7 +427,7 @@ export default function EligibilityScreener({ exams, onViewDetails, onApplyFilte
 
       {/* Exam Results Grid */}
       <div className="screener-cards-grid">
-        {displayedExams.slice(0, 48).map(exam => {
+        {displayedExams.slice(0, isMobile ? Math.min(mobileVisible, RESULT_CAP) : RESULT_CAP).map(exam => {
           const domainColor = getDomainColor(exam.domain)
 
           return (
@@ -423,9 +496,15 @@ export default function EligibilityScreener({ exams, onViewDetails, onApplyFilte
         })}
       </div>
 
-      {displayedExams.length > 48 && (
+      {isMobile && mobileVisible < Math.min(displayedExams.length, RESULT_CAP) && (
+        <button type="button" className="show-more-btn" onClick={() => setMobileVisible(v => v + 12)}>
+          Show more ({Math.min(displayedExams.length, RESULT_CAP) - mobileVisible} more)
+        </button>
+      )}
+
+      {displayedExams.length > RESULT_CAP && (!isMobile || mobileVisible >= RESULT_CAP) && (
         <div className="screener-pagination-note">
-          Showing top 48 of {displayedExams.length} matching examinations. Use "Open in Explore Grid" to browse the complete list with full pagination.
+          Showing top {RESULT_CAP} of {displayedExams.length} matching examinations. Use "Open in Explore Grid" to browse the complete list with full pagination.
         </div>
       )}
     </div>

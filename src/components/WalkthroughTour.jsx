@@ -35,17 +35,17 @@ export const getTourSteps = ({ totalExams = 500, totalAuthorities = 342, central
     id: 'updates',
     viewId: 'updates',
     stepNum: '02',
-    title: 'Statutory Gazette Wire & Live Stream',
-    badge: 'Real-Time Ingestion',
+    title: 'Exam News & Updates',
+    badge: 'Refreshed Daily',
     icon: <HiOutlineNewspaper />,
     accent: '#e8a33d',
-    description: 'Continuous dual-pipeline regulatory intelligence tracking official notifications and gazette releases.',
+    description: 'The past week of exam news headlines — results, admit cards, answer keys and notifications — refreshed every morning, plus anything new while you browse.',
     features: [
-      'Dual-Pipeline Engine: Combines official statutory gazette notices with live RSS media dispatch.',
+      'News Reports, Clearly Labelled: Headlines come from news publishers via Google News, each linking to the full article — confirm on the official website before acting.',
       'Notification Tagging: Immediate visual indicators for Results, Admit Cards, Application Deadlines, and Syllabi.',
-      `${totalAuthorities} Commissions Covered: Real-time surveillance of UPSC, SSC, RRB, NTA, and all 28 State Public Service Commissions.`
+      `Filter by Authority: Narrow the feed to any of the ${totalAuthorities} conducting authorities, from UPSC, SSC, RRB and NTA to the state PSCs.`
     ],
-    hint: 'Tip: Look at the top marquee ticker for real-time notification alerts across India.'
+    hint: 'Tip: The strip under the header shows the latest headlines — click one to open Updates.'
   },
   {
     id: 'my-exams',

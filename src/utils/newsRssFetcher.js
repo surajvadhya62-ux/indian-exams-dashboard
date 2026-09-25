@@ -1,21 +1,21 @@
 /**
- * Real-Time News & Press RSS Fetcher for Indian Examinations
- * Supports querying Google News RSS & PIB feeds across all 342 conducting authorities
- * Features resilient multi-tier fetching, open CORS endpoints, intelligent entity recognition,
- * and client-side caching.
+ * Live exam-news fetcher (browser side).
+ *
+ * Pulls the latest Google News headlines through public RSS-to-JSON converters
+ * (browsers can't read Google News directly). The daily stored list
+ * (public/news/all.json, built by scripts/automation/refresh-news.mjs) covers
+ * the past week; this adds whatever has appeared since that morning's run.
+ *
+ * Headlines are labelled with src/utils/newsMatch.js — the same rules the daily
+ * job uses — and a headline that names no tracked exam or authority is dropped.
+ * These are news reports, not official notices, and nothing here says otherwise.
  */
 
-function cleanHtml(rawHtml) {
-  if (!rawHtml) return ''
-  try {
-    const doc = new DOMParser().parseFromString(rawHtml, 'text/html')
-    return (doc.body.textContent || '').trim().replace(/\s+/g, ' ')
-  } catch {
-    return rawHtml.replace(/<[^>]+>/g, '').trim()
-  }
-}
+import examsData from '../data/exams.json'
+import authoritiesData from '../data/authorities.json'
+import { buildMatcher, detectTypeCode, storyId } from './newsMatch'
 
-function getRelativeTime(pubDateStr) {
+export function getRelativeTime(pubDateStr) {
   try {
     const pub = new Date(pubDateStr)
     const now = new Date()
@@ -39,223 +39,7 @@ function getRelativeTime(pubDateStr) {
   }
 }
 
-function detectTypeCode(title = '', desc = '') {
-  const t = `${title} ${desc}`.toLowerCase()
-  if (/result|merit list|cut[- ]?off|scorecard|qualif|rank|declared|shortlist/i.test(t)) {
-    return { code: 'RESULT', tag: 'Result', urgency: 'high' }
-  }
-  if (/admit card|hall ticket|call letter|e-admit/i.test(t)) {
-    return { code: 'ADMIT', tag: 'Admit Card', urgency: 'high' }
-  }
-  if (/answer key|response sheet|objection|omr sheet/i.test(t)) {
-    return { code: 'KEY', tag: 'Answer Key', urgency: 'medium' }
-  }
-  if (/schedule|exam date|time[- ]?table|postpone|shift|calendar|rescheduled|timing/i.test(t)) {
-    return { code: 'SCHED', tag: 'Schedule', urgency: 'high' }
-  }
-  return { code: 'NOTIF', tag: 'Notification', urgency: 'medium' }
-}
-
-/**
- * Intelligent authority & metadata detection across 342 conducting authorities
- */
-function detectAuthorityMetadata(title = '', explicitAuthority = '', desc = '') {
-  const combined = `${title} ${explicitAuthority} ${desc}`.toLowerCase()
-
-  // 1. UPPSC / Uttar Pradesh
-  if (/uppsc|uttar pradesh public service|up pcs/i.test(combined)) {
-    return {
-      exam_id: 'uppsc-pcs',
-      exam_acronym: 'UPPSC PCS',
-      authority_full: 'Uttar Pradesh Public Service Commission (UPPSC)',
-      category: 'state',
-      portal_url: 'https://uppsc.up.nic.in',
-      gazette_prefix: 'UPPSC'
-    }
-  }
-
-  // 2. BPSC / Bihar
-  if (/bpsc|bihar public service|bihar police|bihar si/i.test(combined)) {
-    return {
-      exam_id: 'bpsc',
-      exam_acronym: 'BPSC',
-      authority_full: 'Bihar Public Service Commission (BPSC)',
-      category: 'state',
-      portal_url: 'https://bpsc.bih.nic.in',
-      gazette_prefix: 'BPSC'
-    }
-  }
-
-  // 3. MPSC / Maharashtra
-  if (/mpsc|maharashtra public service|maharashtra hsc|maharashtra ssc/i.test(combined)) {
-    return {
-      exam_id: 'mpsc',
-      exam_acronym: 'MPSC',
-      authority_full: 'Maharashtra Public Service Commission (MPSC)',
-      category: 'state',
-      portal_url: 'https://mpsc.gov.in',
-      gazette_prefix: 'MPSC'
-    }
-  }
-
-  // 4. TNPSC / Tamil Nadu
-  if (/tnpsc|tamil nadu public service/i.test(combined)) {
-    return {
-      exam_id: 'tnpsc',
-      exam_acronym: 'TNPSC',
-      authority_full: 'Tamil Nadu Public Service Commission (TNPSC)',
-      category: 'state',
-      portal_url: 'https://tnpsc.gov.in',
-      gazette_prefix: 'TNPSC'
-    }
-  }
-
-  // 5. DSSSB / Delhi
-  if (/dsssb|delhi subordinate/i.test(combined)) {
-    return {
-      exam_id: 'dsssb',
-      exam_acronym: 'DSSSB',
-      authority_full: 'Delhi Subordinate Services Selection Board (DSSSB)',
-      category: 'state',
-      portal_url: 'https://dsssb.delhi.gov.in',
-      gazette_prefix: 'DSSSB'
-    }
-  }
-
-  // 6. RPSC / Rajasthan
-  if (/rpsc|rajasthan public service|rsmssb/i.test(combined)) {
-    return {
-      exam_id: 'rpsc',
-      exam_acronym: 'RPSC',
-      authority_full: 'Rajasthan Public Service Commission (RPSC)',
-      category: 'state',
-      portal_url: 'https://rpsc.rajasthan.gov.in',
-      gazette_prefix: 'RPSC'
-    }
-  }
-
-  // 7. KPSC / Karnataka
-  if (/kpsc|karnataka public service/i.test(combined)) {
-    return {
-      exam_id: 'kpsc',
-      exam_acronym: 'KPSC',
-      authority_full: 'Karnataka Public Service Commission (KPSC)',
-      category: 'state',
-      portal_url: 'https://kpsc.kar.nic.in',
-      gazette_prefix: 'KPSC'
-    }
-  }
-
-  // 8. WBPSC / West Bengal
-  if (/wbpsc|west bengal public service/i.test(combined)) {
-    return {
-      exam_id: 'wbpsc',
-      exam_acronym: 'WBPSC',
-      authority_full: 'West Bengal Public Service Commission (WBPSC)',
-      category: 'state',
-      portal_url: 'https://psc.wb.gov.in',
-      gazette_prefix: 'WBPSC'
-    }
-  }
-
-  // 9. NTA / UGC NET / NEET / JEE / CUET
-  if (/nta|national testing agency|neet|jee main|jee advanced|ugc net|cuet/i.test(combined)) {
-    const acronym = /ugc net/i.test(combined) ? 'UGC NET' : /neet/i.test(combined) ? 'NEET UG' : /jee/i.test(combined) ? 'JEE Main' : 'NTA'
-    return {
-      exam_id: 'jee-main',
-      exam_acronym: acronym,
-      authority_full: 'National Testing Agency (NTA)',
-      category: 'central',
-      portal_url: 'https://nta.ac.in',
-      gazette_prefix: 'NTA'
-    }
-  }
-
-  // 10. UPSC
-  if (/upsc|civil services|epfo|apfc|union public service/i.test(combined)) {
-    const acronym = /epfo|apfc/i.test(combined) ? 'UPSC EPFO' : 'UPSC CSE'
-    return {
-      exam_id: 'upsc-cse',
-      exam_acronym: acronym,
-      authority_full: 'Union Public Service Commission (UPSC)',
-      category: 'central',
-      portal_url: 'https://upsc.gov.in',
-      gazette_prefix: 'UPSC'
-    }
-  }
-
-  // 11. SSC
-  if (/\bssc\b|staff selection|cgl|chsl|mts|ssc gd|cpo/i.test(combined)) {
-    return {
-      exam_id: 'ssc-cgl',
-      exam_acronym: 'SSC CGL',
-      authority_full: 'Staff Selection Commission (SSC)',
-      category: 'central',
-      portal_url: 'https://ssc.gov.in',
-      gazette_prefix: 'SSC'
-    }
-  }
-
-  // 12. IBPS / Banking
-  if (/ibps|banking personnel|sbi po|sbi clerk|rbi grade|lic|nabard/i.test(combined)) {
-    return {
-      exam_id: 'ibps-po',
-      exam_acronym: 'IBPS PO',
-      authority_full: 'Institute of Banking Personnel Selection (IBPS)',
-      category: 'banking',
-      portal_url: 'https://ibps.in',
-      gazette_prefix: 'IBPS'
-    }
-  }
-
-  // 13. RRB / Railways
-  if (/rrb|railway recruitment|ntpc|railway board/i.test(combined)) {
-    return {
-      exam_id: 'rrb-ntpc',
-      exam_acronym: 'RRB NTPC',
-      authority_full: 'Railway Recruitment Boards (RRB)',
-      category: 'central',
-      portal_url: 'https://indianrailways.gov.in',
-      gazette_prefix: 'RRB'
-    }
-  }
-
-  // 14. Defence / Armed Forces
-  if (/nda|cds|afcat|agniveer|navy|air force|army|capf|bsf|crpf/i.test(combined)) {
-    return {
-      exam_id: 'nda',
-      exam_acronym: 'Defence Wire',
-      authority_full: 'Armed Forces / Ministry of Defence',
-      category: 'defence',
-      portal_url: 'https://joinindianarmy.nic.in',
-      gazette_prefix: 'MOD-WIRE'
-    }
-  }
-
-  // If authority was explicitly provided from the 342 list
-  if (explicitAuthority && explicitAuthority !== 'all') {
-    const isCentral = /upsc|ssc|nta|ibps|rrb|central|union|national|india/i.test(explicitAuthority)
-    const isBanking = /bank|ibps|rbi|sbi|insurance|lic/i.test(explicitAuthority)
-    const isDefence = /defence|army|navy|air force|police|forces/i.test(explicitAuthority)
-    return {
-      exam_id: 'live-dispatch',
-      exam_acronym: explicitAuthority.slice(0, 16).trim(),
-      authority_full: explicitAuthority,
-      category: isBanking ? 'banking' : isDefence ? 'defence' : isCentral ? 'central' : 'state',
-      portal_url: 'https://www.google.com/search?q=' + encodeURIComponent(explicitAuthority + ' official website'),
-      gazette_prefix: 'STAT-WIRE'
-    }
-  }
-
-  return {
-    exam_id: 'live-dispatch',
-    exam_acronym: 'NATIONAL WIRE',
-    authority_full: 'Conducting Commission / Press Wire',
-    category: 'central',
-    portal_url: '#',
-    gazette_prefix: 'LIVE-WIRE'
-  }
-}
+const matchStory = buildMatcher(examsData, authoritiesData)
 
 // In-memory cache for fast tab navigation
 const memoryCache = new Map()
@@ -263,7 +47,7 @@ const memoryCache = new Map()
 export async function fetchLiveExamNews(authorityName = '', examKeyword = '', forceRefresh = false) {
   const authClean = (authorityName && authorityName !== 'all') ? authorityName.trim() : ''
   const kwClean = (examKeyword && examKeyword.trim()) ? examKeyword.trim() : ''
-  const cacheKey = `mterminal_rss_${authClean || 'all'}_${kwClean || 'none'}`
+  const cacheKey = `news_live_v2_${authClean || 'all'}_${kwClean || 'none'}`
 
   // If not forcing refresh, check caches
   if (!forceRefresh) {
@@ -402,72 +186,42 @@ export async function fetchLiveExamNews(authorityName = '', examKeyword = '', fo
 
   // Process & enrich the raw items
   try {
-    const parsedItems = rawItems.slice(0, 16).map((item, idx) => {
-      let rawTitle = item.rawTitle || 'Examination Dispatch'
+    const parsedItems = []
+    for (const item of rawItems.slice(0, 16)) {
+      let rawTitle = item.rawTitle || ''
       const link = item.link || '#'
       const pubDate = item.pubDate || new Date().toISOString()
-      const rawDesc = item.rawDesc || ''
 
       // Extract publisher source from trailing " - Source" if present
       let extractedSource = item.sourceName || ''
-      if (!extractedSource && rawTitle.includes(' - ')) {
+      if (rawTitle.includes(' - ')) {
         const parts = rawTitle.split(' - ')
-        extractedSource = parts.pop().trim()
-        rawTitle = parts.join(' - ').trim()
-      } else if (rawTitle.includes(' - ')) {
-        const parts = rawTitle.split(' - ')
-        parts.pop()
+        const tail = parts.pop().trim()
+        if (!extractedSource) extractedSource = tail
         rawTitle = parts.join(' - ').trim()
       }
+      if (!rawTitle) continue
 
-      if (!extractedSource) {
-        extractedSource = 'National News Wire'
-      }
+      const match = matchStory(rawTitle)
+      if (!match) continue // not about an exam or authority we track
 
-      const typeInfo = detectTypeCode(rawTitle, rawDesc)
-      const authMeta = detectAuthorityMetadata(rawTitle, authClean, rawDesc)
-      const cleanSummary = cleanHtml(rawDesc) ||
-        `Real-time recruitment and examination dispatch regarding ${rawTitle}. Check official media report and conducting commission portal for statutory guidelines.`
-
-      const formattedDate = new Date(pubDate).toLocaleDateString('en-IN', {
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric'
-      })
-
-      const istTime = new Date(pubDate).toLocaleString('en-IN', {
-        timeZone: 'Asia/Kolkata',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: true
-      })
-
-      return {
-        id: `live-rss-${idx}-${Math.abs(hashString(rawTitle))}`,
-        exam_id: authMeta.exam_id,
-        exam_acronym: authMeta.exam_acronym,
+      const published = new Date(pubDate)
+      parsedItems.push({
+        id: storyId(link, rawTitle),
+        exam_id: match.exam_id,
+        exam_acronym: match.exam_acronym,
         title: rawTitle,
-        source: extractedSource,
-        authority_full: authMeta.authority_full,
-        date: formattedDate,
-        time_ago: getRelativeTime(pubDate),
-        tag: typeInfo.tag,
-        type_code: typeInfo.code,
-        category: authMeta.category,
-        urgency: typeInfo.urgency,
+        source: extractedSource || 'News report',
+        authority_full: match.authority_full,
+        date: published.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
+        published_at: published.toISOString(),
+        type_code: detectTypeCode(rawTitle).code,
+        category: match.category,
+        link,
+        portal_url: match.portal_url,
         is_live: true,
-        gazette_ref: `${authMeta.gazette_prefix}-LIVE/${new Date(pubDate).getFullYear()}/${String(idx + 101).padStart(3, '0')}`,
-        verified_stamp: 'AUTHENTICATED · REAL-TIME UPSTREAM STREAM',
-        summary: cleanSummary,
-        key_takeaways: [
-          `Real-time reporting published by ${extractedSource} (${istTime} IST)`,
-          `${authMeta.authority_full} official bulletins and notices monitored continuously`,
-          `Reflects breaking candidate announcements, results, and press communications`
-        ],
-        link: link,
-        portal_url: authMeta.portal_url || link
-      }
-    })
+      })
+    }
 
     // Store in memory and localStorage cache
     const cachePayload = { timestamp: Date.now(), items: parsedItems }
@@ -493,13 +247,50 @@ export async function fetchLiveExamNews(authorityName = '', examKeyword = '', fo
   }
 }
 
-// Simple deterministic string hashing helper
-function hashString(str) {
-  let hash = 0
-  for (let i = 0; i < str.length; i++) {
-    const chr = str.charCodeAt(i)
-    hash = ((hash << 5) - hash) + chr
-    hash |= 0
+/**
+ * Running archive of live stories.
+ *
+ * The upstream converter returns only the latest 10 stories per request, so
+ * each sync used to *replace* the previous 10 — new stories pushed old ones
+ * out and the feed's total never moved. The archive keeps every live story seen
+ * in this browser for ARCHIVE_DAYS, so the count grows as news actually arrives.
+ */
+const ARCHIVE_KEY = 'news_live_archive_v2'
+// Same window as the daily stored list
+const ARCHIVE_DAYS = 7
+const ARCHIVE_MAX = 300
+
+export function loadArchive() {
+  try {
+    const raw = localStorage.getItem(ARCHIVE_KEY)
+    const items = raw ? JSON.parse(raw) : []
+    return Array.isArray(items) ? pruneArchive(items) : []
+  } catch {
+    return []
   }
-  return hash
+}
+
+function pruneArchive(items) {
+  const cutoff = Date.now() - ARCHIVE_DAYS * 86400000
+  return items
+    .filter(item => item.published_at && new Date(item.published_at).getTime() >= cutoff)
+    .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+    .slice(0, ARCHIVE_MAX)
+}
+
+/** Returns the merged archive and how many of `incoming` were not already in it. */
+export function mergeIntoArchive(existing, incoming) {
+  const byId = new Map(existing.map(item => [item.id, item]))
+  for (const item of incoming) {
+    if (item.published_at) byId.set(item.id, item)
+  }
+  const merged = pruneArchive([...byId.values()])
+  const before = new Set(existing.map(item => item.id))
+  const added = merged.filter(item => !before.has(item.id)).length
+  try {
+    localStorage.setItem(ARCHIVE_KEY, JSON.stringify(merged))
+  } catch {
+    // Ignore storage quota limits — the in-memory list still works this session
+  }
+  return { items: merged, added }
 }

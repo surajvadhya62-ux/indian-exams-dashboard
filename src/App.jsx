@@ -10,7 +10,9 @@ import StoryGate from './components/StoryGate'
 import MobileNav from './components/MobileNav'
 import ErrorBoundary from './components/ErrorBoundary'
 import NewsTicker from './components/NewsTicker'
+import MobileTip from './components/MobileTip'
 import { ViewLoadingFallback } from './components/Skeletons'
+import { HiOutlineChatAlt2 } from 'react-icons/hi'
 
 // Code-split everything that isn't needed for the first paint of the
 // Explore view (the landing view — see `pageReleased`/`dashboardEntered`
@@ -76,6 +78,9 @@ function App() {
   const [showOnlySaved, setShowOnlySaved] = useState(false)
   const [isGuideOpen, setIsGuideOpen] = useState(false)
   const [screenerFilteredIds, setScreenerFilteredIds] = useState(null)
+  // Qualification chosen on the landing page's "Start from where you are"
+  // buttons; the screener opens pre-set to it
+  const [screenerPreset, setScreenerPreset] = useState(null)
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false)
 
   // Global Keyboard Shortcuts (Cmd+K / Ctrl+K & / for Command Palette)
@@ -547,15 +552,24 @@ function App() {
         onOpenAuth={() => setIsAuthModalOpen(true)}
       />
 
-      {/* M-Terminal Live Gazette Ticker Strip */}
+      {/* Latest exam-news headlines strip */}
       <NewsTicker setActiveView={goToView} />
 
       <main className={`main-content${pageReleased ? '' : ' app-waiting'}`}>
+        {dashboardEntered && <MobileTip />}
         {!dashboardEntered ? (
-          <StoryGate exams={examsData} onEnter={handleDashboardEnter} />
+          <StoryGate
+            exams={examsData}
+            onEnter={handleDashboardEnter}
+            onStartWith={(qualification) => {
+              setScreenerPreset(qualification)
+              goToView('screener')
+              window.scrollTo(0, 0)
+            }}
+          />
         ) : (
           <Suspense fallback={<ViewLoadingFallback />}>
-            {/* Tab 1: Statutory Gazette & Examination Wire */}
+            {/* Tab 1: Exam news & updates */}
             {activeView === 'updates' && (
               <div className="fade-in">
                 <UpdatesFeed
@@ -641,6 +655,8 @@ function App() {
             {activeView === 'screener' && (
               <div className="fade-in">
                 <EligibilityScreener
+                  key={screenerPreset || 'default'}
+                  initialQualification={screenerPreset}
                   exams={examsData}
                   onViewDetails={openExamDetail}
                   onApplyFilter={(eligibleIds) => {
@@ -661,7 +677,7 @@ function App() {
                   </div>
                   <h1 className="workstation-title">{examsData.length} Indian Government Exams</h1>
                   <p className="workstation-subtitle">
-                    Official statutory repository across {totalAuthorities} commissions, verified gazette cycles, 7th CPC cadres, and downloadable vector dossiers.
+                    Exams from {totalAuthorities} conducting authorities, with eligibility, exam pattern, 7th CPC pay levels and downloadable dossiers.
                   </p>
                 </div>
                 <StatsOverview exams={examsData} countUp={pageReleased} />
@@ -775,6 +791,19 @@ function App() {
           </Suspense>
         )}
       </main>
+
+      {/* Always-visible route to the feedback form — it used to be reachable
+          only from inside the About menu, which few visitors ever opened. */}
+      {dashboardEntered && activeView !== 'feedback' && (
+        <button
+          className="feedback-fab"
+          onClick={() => goToView('feedback')}
+          aria-label="Give feedback"
+        >
+          <HiOutlineChatAlt2 className="feedback-fab-icon" />
+          <span>Feedback</span>
+        </button>
+      )}
 
       {/* Guide Modal when opened from header 'Guide' button */}
       {isGuideOpen && (

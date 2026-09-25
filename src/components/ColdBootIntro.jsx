@@ -203,7 +203,7 @@ export default function ColdBootIntro({ onRelease, onComplete }) {
             </div>
             <div className="cb-track"><div className="cb-fill" /></div>
           </div>
-          <p className="cb-note">Registry synced &mdash; {TOTAL} examinations &middot; {pct}%</p>
+          <p className="cb-note">Registry synced &mdash; {Math.floor(TOTAL / 100) * 100}+ examinations &middot; {pct}%</p>
         </div>
       </div>
 

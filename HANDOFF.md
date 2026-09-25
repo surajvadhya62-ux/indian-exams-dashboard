@@ -1,5 +1,37 @@
 # Handoff — India Exams Dashboard
 
+> **Added 2026-09-25 — the Updates feed's stored news was fabricated, and has been replaced.**
+> `src/data/news.json` (353 items, hand-built 2026-09-18) held no traceable news: 340 items
+> linked only to the india.gov.in home page with templated text, many were dated up to a week
+> after they were written, and all carried invented "GOI-STATUTORY-CIRCULAR" reference numbers
+> labelled "AUTHENTICATED · NIC GAZETTE REPOSITORY". It was deleted. In its place:
+> - `scripts/automation/refresh-news.mjs` builds `public/news/all.json` (past 7 days) and
+>   `public/news/latest.json` (newest 10, for the ticker) from real Google News headlines, keeping
+>   only headlines that name an exam or authority in the registry (`src/utils/newsMatch.js`, also
+>   used by the in-browser live fetch so both label stories identically).
+> - `.github/workflows/refresh-news.yml` runs it daily at 06:10 IST and then **explicitly starts
+>   `deploy.yml`** — a push made with the workflow token doesn't trigger the deploy on its own.
+>   Google News serves US traffic normally, so this is the one fetch that belongs on Actions.
+> - The Updates UI no longer calls anything "gazette", "statutory", "authenticated" or "verified";
+>   every story says it's a news report and points to the official website. Don't reintroduce
+>   reference numbers or verification stamps that no source document issued.
+> - The files live in `public/`, not `src/data/`, on purpose: ~100 stories a day would otherwise be
+>   bundled into the JavaScript every visitor downloads first.
+>
+> **PDF export rewritten (same day)** — `src/utils/pdfGenerator.js` + an embedded, subset Noto Sans
+> (`src/assets/fonts/notoSansPdf.js`) so ₹ prints; the old Helvetica turned every ₹ cell into
+> spaced-out garbage. Removed the "VERIFIED: <download date>" badge, the verification seal, the
+> "extracted from official gazettes" footer, per-domain career tables typed into the code, and
+> syllabus filler. Each figure now prints its own Verified / Reported / Estimated label, source and
+> as-of date; Reported cut-off numbers are withheld, matching the site's own table.
+> **Phone layout** — `src/hooks/useIsMobile.js` drives 25-at-a-time lists (Updates, Calendar; 12 on
+> Screener), folded Explore filters and a dismissible "use a laptop / Desktop site" tip
+> (`MobileTip.jsx`); the styling is one block at the end of `src/index.css`. Desktop unchanged.
+>
+> Same session: landing page shows a rounded "500+" (computed), its email feedback section was
+> replaced by "Start from where you are" (four buttons that open the screener pre-set), and a
+> floating Feedback button now sits bottom-left on every dashboard view.
+
 **Date:** 2026-09-22 (a short session, appended to the 2026-09-20 handoff rather than superseding
 it — everything that document says still stands. One defect found and fixed: the auto-sync's
 notification step had failed on all 9 runs since 2026-09-19, and the §4d fix was itself the

@@ -3939,7 +3939,8 @@ input, select {
 
 /* -- hero -- */
 .sg-hero {
-  padding: 15vh 0 12vh;
+  /* top trimmed from 15vh so the qualification chips fit on a laptop's first screen */
+  padding: 8vh 0 12vh;
   text-align: left;
 }
 .sg-eyebrow {
@@ -3962,7 +3963,7 @@ input, select {
 }
 .sg-sub {
   max-width: 46ch;
-  margin: 0 0 2.5rem;
+  margin: 0 0 2rem;
   font-size: 1.05rem;
   line-height: 1.6;
   color: var(--muted);
@@ -4121,23 +4122,112 @@ input, select {
 .sg-tier h4 { margin: 0 0 0.2rem; font-size: 0.9rem; color: var(--fg); }
 .sg-tier p { margin: 0; font-size: 0.82rem; line-height: 1.5; color: var(--muted); }
 
-/* -- 05 feedback -- */
-.sg-feedback p { max-width: 56ch; font-size: 0.95rem; line-height: 1.6; color: var(--muted); }
-.sg-feedback-link {
+/* -- 05 start from where you are -- */
+.sg-start-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1rem;
+}
+.sg-start-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem;
+  text-align: left;
+  font-family: var(--font-sans);
+  background: var(--panel);
+  border: 1px solid var(--hairline-2);
+  border-radius: var(--radius-sm, 4px);
+  cursor: pointer;
+  transition: opacity 0.8s cubic-bezier(0.2, 0.7, 0.2, 1),
+              transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.3s ease;
+}
+.sg-start-tile:hover { border-color: var(--amber-bright); transform: translateY(-2px); }
+.sg-start-tile:focus-visible { outline: 2px solid var(--amber-bright); outline-offset: 2px; }
+.sg-start-label {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-top: 1rem;
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  font-weight: 500;
+  gap: 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
   color: var(--amber-bright);
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
 }
-.sg-feedback-link:hover { border-color: var(--amber-bright); }
+.sg-start-label svg { flex-shrink: 0; }
+.sg-start-desc { font-size: 0.82rem; line-height: 1.5; color: var(--muted); }
+@media (max-width: 480px) { .sg-start-grid { grid-template-columns: 1fr; } }
 
-/* -- 06 final cta -- */
+/* -- hero: qualification shortcut chips -- */
+.sg-hero-start {
+  position: relative;
+  z-index: 1; /* above the map backdrop, like .sg-hero-actions */
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.sg-hero-start-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.sg-hero-start-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.sg-hero-chip {
+  padding: 0.5rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--fg);
+  background: var(--panel);
+  border: 1px solid var(--hairline-2);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+}
+.sg-hero-chip:hover { border-color: var(--amber-bright); color: var(--amber-bright); transform: translateY(-1px); }
+.sg-hero-chip:focus-visible { outline: 2px solid var(--amber-bright); outline-offset: 2px; }
+@media (max-width: 640px) {
+  .sg-hero-start { margin-top: 1.25rem; }
+  .sg-hero-chip { padding: 0.45rem 0.85rem; font-size: 0.82rem; }
+}
+
+/* -- floating feedback button (dashboard) --
+   Bottom-left, because bottom-right already holds back-to-top and the
+   Updates toasts. Lifted above the 58px mobile bottom nav. */
+.feedback-fab {
+  position: fixed;
+  left: 24px;
+  bottom: 24px;
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.65rem 1.15rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--amber-bright);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+  /* fade in just behind the view's own fade-in, instead of popping in first */
+  animation: fadeIn 0.4s ease 0.35s both;
+}
+.feedback-fab:hover { background: var(--amber); transform: translateY(-1px); }
+.feedback-fab:active { transform: scale(0.97); }
+.feedback-fab-icon { font-size: 1.1rem; }
+@media (max-width: 768px) {
+  .feedback-fab {
+    left: 14px;
+    bottom: calc(58px + 14px + env(safe-area-inset-bottom, 0px));
+    padding: 0.55rem 0.95rem;
+    font-size: 0.82rem;
+  }
+}
+@media print { .feedback-fab { display: none; } }
+
+/* -- final cta -- */
 .sg-final {
   padding: 12vh 0 8vh;
   text-align: center;
@@ -16511,3 +16601,141 @@ html, body {
 
 
 
+/* ==========================================================================
+   PHONE DECLUTTER (<= 768px) — 2026-09-25
+   Kept together at the end of the file so it wins over the earlier rules and
+   can be read (or reverted) as one piece. Desktop is untouched.
+   Paired with behaviour changes in SearchFilter, UpdatesFeed, CalendarView
+   and EligibilityScreener (useIsMobile): shorter lists and folded filters.
+   ========================================================================== */
+
+/* "Show more" — used by the phone-paged lists (all widths, but only phones render it) */
+.show-more-btn {
+  display: block;
+  width: 100%;
+  margin: 12px 0 4px;
+  padding: 0.75rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--amber-bright);
+  background: var(--panel);
+  border: 1px solid var(--hairline-2);
+  border-radius: var(--radius-sm, 6px);
+  cursor: pointer;
+}
+.show-more-btn:hover { border-color: var(--amber-bright); }
+.screener-cards-grid + .show-more-btn { grid-column: 1 / -1; }
+
+/* Explore: the "Filters & sort" toggle (rendered on phones only) */
+.mobile-filter-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 10px 0 2px;
+  padding: 0.55rem 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--fg);
+  background: var(--panel);
+  border: 1px solid var(--hairline-2);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.mobile-filter-toggle.open { border-color: var(--amber-bright); color: var(--amber-bright); }
+.mobile-filter-count {
+  min-width: 1.3rem;
+  padding: 0 0.35rem;
+  font-size: 0.72rem;
+  line-height: 1.3rem;
+  text-align: center;
+  color: var(--ink);
+  background: var(--amber-bright);
+  border-radius: 999px;
+}
+
+/* Phone tip banner */
+.mobile-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 10px 12px 0;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--fg);
+  background: var(--panel);
+  border: 1px solid var(--hairline-2);
+  border-left: 3px solid var(--amber-bright);
+  border-radius: var(--radius-sm, 6px);
+}
+.mobile-tip-icon { flex-shrink: 0; margin-top: 0.1rem; color: var(--amber-bright); font-size: 1rem; }
+.mobile-tip p { margin: 0; flex: 1; }
+.mobile-tip-close {
+  flex-shrink: 0;
+  padding: 0.1rem 0.35rem;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  /* Explore: folded filters */
+  .precision-query-hud.filters-collapsed .query-quick-domains,
+  .precision-query-hud.filters-collapsed .controls-left { display: none !important; }
+
+  /* Explore: scope choice as one compact row instead of three stacked rows */
+  .query-scope-segments {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    gap: 6px;
+    scrollbar-width: none;
+  }
+  .query-scope-segments::-webkit-scrollbar { display: none; }
+  .query-scope-pill {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    padding: 0.45rem 0.75rem !important;
+    white-space: nowrap;
+  }
+
+  /* Stat tiles: same numbers, half the height */
+  .telemetry-cell { padding: 9px 11px !important; }
+  .telemetry-cell .telemetry-sub,
+  .telemetry-cell .telemetry-corner-gem { display: none !important; }
+  .telemetry-num { font-size: 1.35rem !important; line-height: 1.2 !important; }
+  .telemetry-title { font-size: 0.72rem !important; }
+  .telemetry-cell-header { margin-bottom: 4px !important; }
+
+  /* Screener: four summary boxes as a 2 x 2 grid */
+  .screener-kpi-bar {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 8px !important;
+    margin-bottom: 16px !important;
+  }
+  .screener-kpi-card { padding: 10px 8px !important; }
+  .screener-kpi-val { font-size: 1.35rem !important; margin-bottom: 2px !important; }
+
+  /* Feedback form: a long dropdown option was forcing the form ~60px wider
+     than the screen and cutting off its right edge */
+  .feedback-grid-layout { grid-template-columns: minmax(0, 1fr) !important; }
+  .feedback-grid-layout > * { min-width: 0; }
+  .feedback-form .form-select,
+  .feedback-form .form-input,
+  .feedback-form .form-textarea { max-width: 100%; min-width: 0; }
+
+  /* Floating Feedback button: a small round icon so it stops covering text */
+  .feedback-fab {
+    width: 46px;
+    height: 46px;
+    padding: 0 !important;
+    justify-content: center;
+  }
+  .feedback-fab span { display: none; }
+  .feedback-fab-icon { font-size: 1.25rem; }
+}

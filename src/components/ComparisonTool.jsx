@@ -10,11 +10,12 @@ export default function ComparisonTool({ compareList, removeFromCompare }) {
     window.print()
   }
 
-  const handleExportPdf = () => {
+  const handleExportPdf = async () => {
     if (isExportingPdf) return
     setIsExportingPdf(true)
     try {
-      exportComparisonMatrixPdf(compareList)
+      // async: loads the PDF font and each exam's dossier before drawing
+      await exportComparisonMatrixPdf(compareList)
     } catch (err) {
       console.error('Failed to export comparison matrix PDF:', err)
     } finally {

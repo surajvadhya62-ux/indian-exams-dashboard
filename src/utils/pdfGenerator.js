@@ -1,67 +1,181 @@
 import { jsPDF } from 'jspdf'
 import autoTable from 'jspdf-autotable'
-import { calculateSalary } from './payCalculator'
-import { isJobTrack } from './trackLabels'
+import { calculateSalary, DEFAULT_DA_PERCENT } from './payCalculator'
+import { getTrackLabel, isJobTrack } from './trackLabels'
+import { displayValue, provenanceFor } from './provenance'
+import { isRegistryTier, getRecordTierLabel } from './recordTier'
 
-// Color Palette Constants
-const NAVY = [15, 23, 42]        // #0f172a - Primary Header
-const SLATE_BG = [241, 245, 249] // #f1f5f9 - Light table fill
-const AMBER = [200, 134, 42]     // #c8862a - Official Highlight
-const EMERALD = [16, 185, 129]   // #10b981 - Verified / Positive
-const MUTED = [100, 116, 139]    // #64748b - Secondary text
-const BORDER_COLOR = [226, 232, 240] // #e2e8f0
+// PDF export for one exam (the "dossier") and for a side-by-side comparison.
+//
+// The rule this file follows is the site's own rule: print only what the exam's data
+// actually holds, say where each figure came from and how sure we are of it, and say
+// "Not available" rather than fill a gap. Nothing here is typed in as a stand-in for
+// missing data — an earlier version did that (generic career tables, placeholder exam
+// schemes, "verified" stamps carrying the download date) and it has all been removed.
 
-/**
- * Helper to add header & footer banners across all pages
- */
-function addRunningHeaderFooter(doc, examName, acronym, refId, totalPages = 4) {
-  const pageCount = doc.getNumberOfPages()
+const SITE_NAME = 'India Exams Dashboard'
+const SITE_URL = 'https://surajvadhya62-ux.github.io/indian-exams-dashboard/'
+const DISCLAIMER = 'Compiled from public sources. Confirm dates, eligibility and vacancies on the official website before applying.'
+const NOT_AVAILABLE = 'Not available'
 
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i)
+// Palette — restrained: navy for structure, amber as the single accent.
+const NAVY = [15, 23, 42]
+const AMBER = [200, 134, 42]
+const INK = [30, 41, 59]
+const MUTED = [100, 116, 139]
+const BORDER = [226, 232, 240]
+const LABEL_BG = [241, 245, 249]
+const ZEBRA = [248, 250, 252]
+const LINK = [29, 78, 216]
+const DIFF_FILL = [253, 244, 227]
+const WHITE = [255, 255, 255]
 
-    // Running Header
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(8)
-    doc.setTextColor(...NAVY)
-    doc.text('INDIAEXAMS INTELLIGENCE SYSTEM', 14, 10)
+const FONT = 'NotoSans'
+const PT = 0.3528 // mm per point
+const LINE = 1.28 // line-height factor for running text
 
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(7.5)
-    doc.setTextColor(...MUTED)
-    doc.text(`- STATUTORY RESEARCH DOSSIER - ${refId}`, 68, 10)
+// ---------------------------------------------------------------------------
+// Fonts
+// ---------------------------------------------------------------------------
 
-    doc.setFont('helvetica', 'bold')
-    doc.setTextColor(...AMBER)
-    doc.text(acronym ? `[${acronym}]` : '', 196, 10, { align: 'right' })
+let fontDataPromise = null
 
-    // Header hairline
-    doc.setDrawColor(...BORDER_COLOR)
-    doc.setLineWidth(0.3)
-    doc.line(14, 12, 196, 12)
-
-    // Running Footer
-    doc.setDrawColor(...BORDER_COLOR)
-    doc.line(14, 285, 196, 285)
-
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(7)
-    doc.setTextColor(...MUTED)
-    doc.text(
-      'OFFICIAL CITATION: Extracted from Official Commission Gazettes & Regulatory Authorities.',
-      14,
-      289
-    )
-
-    doc.setFont('helvetica', 'bold')
-    doc.setTextColor(...NAVY)
-    doc.text(`Page ${i} of ${pageCount}`, 196, 289, { align: 'right' })
+// jsPDF's built-in Helvetica has no ₹ glyph, so every page uses an embedded Noto Sans
+// subset. It is a dynamic import so the bytes are fetched only when someone exports.
+function loadFontData() {
+  if (!fontDataPromise) {
+    fontDataPromise = import('../assets/fonts/notoSansPdf.js').catch(err => {
+      fontDataPromise = null
+      throw err
+    })
   }
+  return fontDataPromise
 }
 
-/**
- * Fetch exam detail JSON if not already supplied
- */
+async function createDoc(orientation) {
+  const fonts = await loadFontData()
+  const doc = new jsPDF({ orientation, unit: 'mm', format: 'a4', compress: true })
+  doc.addFileToVFS('NotoSans-Regular.ttf', fonts.NOTO_SANS_REGULAR)
+  doc.addFileToVFS('NotoSans-Bold.ttf', fonts.NOTO_SANS_BOLD)
+  doc.addFont('NotoSans-Regular.ttf', FONT, 'normal')
+  doc.addFont('NotoSans-Bold.ttf', FONT, 'bold')
+  // No italic cut is embedded; map the styles so nothing can fall back to Helvetica.
+  doc.addFont('NotoSans-Regular.ttf', FONT, 'italic')
+  doc.addFont('NotoSans-Bold.ttf', FONT, 'bolditalic')
+  doc.setFont(FONT, 'normal')
+  doc.setLineHeightFactor(LINE)
+  return doc
+}
+
+// ---------------------------------------------------------------------------
+// Text helpers
+// ---------------------------------------------------------------------------
+
+// Characters the embedded subset can draw. Anything else is normalised in clean().
+function isSupported(code) {
+  return (code >= 0x20 && code <= 0x7e) ||
+    (code >= 0xa0 && code <= 0xff) ||
+    (code >= 0x2010 && code <= 0x2027) ||
+    (code >= 0x2030 && code <= 0x203a) ||
+    code === 0x20b9 || code === 0x2212 || code === 0x0a
+}
+
+const REPLACEMENTS = { '≥': '>=', '≤': '<=', '→': ' to ', '←': '', '✓': '', '✔': '', '⚠': '', '\t': ' ', '\r': '' }
+
+// jsPDF cannot shape Devanagari (matras and conjuncts come out in the wrong order), so
+// the Hindi/Marathi glosses that some dossiers put in brackets after the English name
+// are dropped from the PDF rather than printed garbled. The English text is kept.
+function stripDevanagari(s) {
+  if (!/[ऀ-ॿ]/.test(s)) return s
+  return s
+    .replace(/[ऀ-ॿ‌‍]+(?:[\s-]+[ऀ-ॿ‌‍]+)*/g, '')
+    .replace(/\(\s*(?:[/,—–-]\s*)*\)/g, '')
+    .replace(/\(\s*(?:[/,—–-]\s*)+/g, '(')
+    .replace(/(?:\s*[/,—–-])+\s*\)/g, ')')
+    .replace(/\s+([,:;).])/g, '$1')
+    .replace(/ {2,}/g, ' ')
+    .trim()
+}
+
+function clean(value) {
+  if (value == null) return ''
+  let s = stripDevanagari(String(value))
+  s = s.replace(/\bRs\.?\s?(?=\d)/g, '₹')
+  let out = ''
+  for (const ch of s) {
+    if (REPLACEMENTS[ch] != null) out += REPLACEMENTS[ch]
+    else if (isSupported(ch.codePointAt(0))) out += ch
+  }
+  return out.replace(/ {2,}/g, ' ').trim()
+}
+
+const has = v => v != null && String(v).trim() !== ''
+const orNA = v => (has(v) ? clean(v) : NOT_AVAILABLE)
+const num = n => Number(n).toLocaleString('en-IN')
+const rupees = n => `₹${Math.round(n).toLocaleString('en-IN')}`
+const isNum = v => typeof v === 'number' && Number.isFinite(v)
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+// "2026-06-18" -> "18 Jun 2026"; "2026-06" -> "Jun 2026"; anything else is printed as is.
+function fmtDate(value) {
+  if (!has(value)) return ''
+  const s = String(value)
+  let m = s.match(/^(\d{4})-(\d{2})-(\d{2})/)
+  if (m) return `${parseInt(m[3], 10)} ${MONTHS[parseInt(m[2], 10) - 1]} ${m[1]}`
+  m = s.match(/^(\d{4})-(\d{2})$/)
+  if (m) return `${MONTHS[parseInt(m[2], 10) - 1]} ${m[1]}`
+  return clean(s)
+}
+
+function todayStr() {
+  const d = new Date()
+  return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`
+}
+
+// Confidence labels, worded as the website's SourceBadge words them.
+function confidenceLabel(confidence) {
+  if (confidence === 'verified') return 'Verified'
+  if (confidence === 'reported') return 'Reported'
+  if (confidence === 'estimate') return 'Estimated'
+  if (confidence === 'not_applicable') return 'Not applicable'
+  return 'Not verified'
+}
+
+function evidenceText(confidence, asOf) {
+  const label = confidenceLabel(confidence)
+  return asOf && (confidence === 'verified' || confidence === 'reported')
+    ? `${label} · as of ${fmtDate(asOf)}`
+    : label
+}
+
+function jurisdictionLabel(exam) {
+  if (exam.jurisdiction === 'central') return 'Central (All India)'
+  if (has(exam.state) && exam.state !== 'All India') return `State — ${clean(exam.state)}`
+  return has(exam.jurisdiction) ? clean(exam.jurisdiction) : NOT_AVAILABLE
+}
+
+function sectionAvailable(section) {
+  return section && typeof section === 'object' && section.status === 'available'
+}
+
+function countBy(items, key = 'confidence') {
+  const counts = {}
+  items.forEach(it => {
+    const label = confidenceLabel(it?.[key])
+    counts[label] = (counts[label] || 0) + 1
+  })
+  const parts = Object.entries(counts)
+  if (parts.length === 1) return `all ${parts[0][0]}`
+  return parts.map(([label, n]) => `${n} ${label}`).join(', ')
+}
+
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`
+
+// ---------------------------------------------------------------------------
+// Data loading
+// ---------------------------------------------------------------------------
+
 async function getExamDetailData(exam, detail) {
   if (detail && Object.keys(detail).length > 0) return detail
   try {
@@ -72,996 +186,1155 @@ async function getExamDetailData(exam, detail) {
       if (data && data.id === exam.id) return data
     }
   } catch (err) {
-    console.warn(`Could not load detailed JSON for ${exam.id}, synthesizing authoritative fallback.`, err)
+    console.warn(`Could not load the detail file for ${exam.id}; the PDF will show basic facts only.`, err)
   }
   return null
 }
 
-/**
- * Generate DYNAMIC high-yield subject pillars tailored to the exam's real papers & domain
- */
-function getSyllabusPillars(exam, detail) {
-  // 1. If detail has papers in exam_scheme, use actual paper names to build pillars!
-  const stages = detail?.exam_scheme?.stages || []
-  const allPapers = []
-  stages.forEach(st => {
-    (st.papers || []).forEach(p => {
-      if (p.paper_name && !allPapers.includes(p.paper_name)) {
-        allPapers.push(p.paper_name)
+// The latest vacancy figure, shown only when verified (same rule as the website).
+function vacancyFact(exam) {
+  const prov = provenanceFor(exam, 'vacancies')
+  const value = displayValue(exam, 'vacancies')
+  if (value != null && has(value)) {
+    const asOf = prov?.source_date ? ` · as of ${fmtDate(prov.source_date)}` : ''
+    return { text: `${clean(value)} (Verified${asOf})`, url: prov?.source_url || null }
+  }
+  if (prov?.confidence === 'not_applicable') return { text: 'Not applicable', url: null }
+  return { text: 'No verified figure on file', url: null }
+}
+
+// Central 7th CPC pay-matrix level, e.g. "Level 10" or "7th CPC Level 3 (...)".
+// State matrices ("Level L-5", "MP Matrix Level 10"), bank scales and PSU IDA grades are
+// excluded because the site's calculator uses central-government allowance rates.
+function isCentralPayMatrix(exam, fp) {
+  if (exam.jurisdiction !== 'central') return false
+  return /^\s*(?:(?:central\s+)?7th\s+CPC\s+)?(?:pay\s+)?level\s*\d+\b/i.test(String(fp?.pay_level || ''))
+}
+
+// ---------------------------------------------------------------------------
+// Layout primitives (shared by both exports)
+// ---------------------------------------------------------------------------
+
+function makeLayout(doc) {
+  const pageW = doc.internal.pageSize.getWidth()
+  const pageH = doc.internal.pageSize.getHeight()
+  const margin = pageW > pageH ? 14 : 16
+  return {
+    doc,
+    pageW,
+    pageH,
+    M: margin,
+    W: pageW - margin * 2,
+    top: 20,
+    bottom: pageH - 17,
+    y: 20
+  }
+}
+
+function lineH(size) {
+  return size * PT * LINE
+}
+
+function setText(doc, size, style = 'normal', color = INK) {
+  doc.setFont(FONT, style)
+  doc.setFontSize(size)
+  doc.setTextColor(...color)
+}
+
+function newPage(L) {
+  L.doc.addPage()
+  L.y = L.top
+}
+
+function ensureSpace(L, needed) {
+  if (L.y + needed > L.bottom) newPage(L)
+}
+
+// Running text that can continue onto the next page line by line.
+function paragraph(L, text, { size = 8.5, style = 'normal', color = INK, indent = 0, gapAfter = 2.5 } = {}) {
+  const body = clean(text)
+  if (!body) return
+  const { doc } = L
+  setText(doc, size, style, color)
+  const lines = doc.splitTextToSize(body, L.W - indent)
+  const lh = lineH(size)
+  lines.forEach(line => {
+    ensureSpace(L, lh)
+    doc.text(line, L.M + indent, L.y, { baseline: 'top' })
+    L.y += lh
+  })
+  L.y += gapAfter
+}
+
+function sectionHeading(L, title, { keepWith = 30 } = {}) {
+  const { doc } = L
+  // Keep the heading with at least the first few rows of what follows it.
+  ensureSpace(L, 12 + keepWith)
+  if (L.y > L.top + 1) L.y += 3
+  doc.setFillColor(...AMBER)
+  doc.rect(L.M, L.y + 0.3, 1.3, 5.2, 'F')
+  setText(doc, 12.5, 'bold', NAVY)
+  doc.text(clean(title), L.M + 4, L.y, { baseline: 'top' })
+  L.y += 7.2
+  doc.setDrawColor(...BORDER)
+  doc.setLineWidth(0.3)
+  doc.line(L.M, L.y, L.M + L.W, L.y)
+  L.y += 4
+}
+
+function subHeading(L, title, right = null, { keepWith = 22 } = {}) {
+  const { doc } = L
+  ensureSpace(L, 6 + keepWith)
+  setText(doc, 9.5, 'bold', NAVY)
+  const maxW = right ? L.W - 62 : L.W
+  const lines = doc.splitTextToSize(clean(title), maxW)
+  doc.text(lines, L.M, L.y, { baseline: 'top' })
+  if (right) {
+    setText(doc, 7.5, 'normal', MUTED)
+    doc.text(clean(right), L.M + L.W, L.y + 0.6, { baseline: 'top', align: 'right' })
+  }
+  L.y += lines.length * lineH(9.5) + 1.5
+}
+
+// Small grey note line under a table.
+function caption(L, text, gapAfter = 2) {
+  paragraph(L, text, { size: 7.2, color: MUTED, gapAfter })
+}
+
+// Numbered source list printed under a table: "[1] Label" + clickable URL.
+function makeSources() {
+  const list = []
+  return {
+    list,
+    add(label, url) {
+      if (!has(label) && !has(url)) return null
+      const key = `${label || ''}|${url || ''}`
+      let idx = list.findIndex(s => s.key === key)
+      if (idx === -1) {
+        list.push({ key, label: clean(label || ''), url: url || null })
+        idx = list.length - 1
       }
+      return idx + 1
+    }
+  }
+}
+
+function breakUrl(doc, url, width) {
+  const out = []
+  let cur = ''
+  for (const ch of url) {
+    if (doc.getTextWidth(cur + ch) > width && cur) {
+      out.push(cur)
+      cur = ch
+    } else {
+      cur += ch
+    }
+  }
+  if (cur) out.push(cur)
+  return out
+}
+
+function renderSources(L, sources, sectionTitle = '') {
+  if (!sources.list.length) return
+  const { doc } = L
+  const lh = lineH(7)
+  const indent = 7
+  const entries = sources.list.map(s => {
+    setText(doc, 7, 'normal', INK)
+    const labelLines = s.label ? doc.splitTextToSize(s.label, L.W - indent) : []
+    setText(doc, 7, 'normal', LINK)
+    const urlLines = s.url ? breakUrl(doc, s.url, L.W - indent) : []
+    return { s, labelLines, urlLines, h: (labelLines.length + urlLines.length) * lh + 0.8 }
+  })
+  const total = lineH(7.5) + 0.4 + entries.reduce((n, e) => n + e.h, 0)
+  const pageBefore = doc.getNumberOfPages()
+  // Keep a short list in one piece; a long one may break between entries.
+  ensureSpace(L, total <= 70 ? total : lineH(7.5) + 0.4 + entries[0].h)
+  // If the list had to start on a fresh page, say which section it belongs to.
+  const title = doc.getNumberOfPages() !== pageBefore && sectionTitle ? `Sources — ${sectionTitle} (continued)` : 'Sources'
+  setText(doc, 7.5, 'bold', MUTED)
+  doc.text(title, L.M, L.y, { baseline: 'top' })
+  L.y += lineH(7.5) + 0.4
+  entries.forEach(({ s, labelLines, urlLines, h }, i) => {
+    ensureSpace(L, h)
+    setText(doc, 7, 'bold', MUTED)
+    doc.text(`[${i + 1}]`, L.M, L.y, { baseline: 'top' })
+    setText(doc, 7, 'normal', INK)
+    labelLines.forEach(line => {
+      doc.text(line, L.M + indent, L.y, { baseline: 'top' })
+      L.y += lh
     })
+    setText(doc, 7, 'normal', LINK)
+    urlLines.forEach(line => {
+      doc.textWithLink(line, L.M + indent, L.y, { url: s.url, baseline: 'top' })
+      L.y += lh
+    })
+    L.y += 0.8
+  })
+  L.y += 2
+}
+
+// Shared autoTable styling.
+function tableBase(L, overrides = {}) {
+  return {
+    startY: L.y,
+    theme: 'grid',
+    margin: { top: L.top, bottom: L.pageH - L.bottom, left: L.M, right: L.M },
+    rowPageBreak: 'avoid',
+    showHead: 'everyPage',
+    styles: {
+      font: FONT,
+      fontStyle: 'normal',
+      fontSize: 8,
+      cellPadding: { top: 2, right: 2.4, bottom: 2, left: 2.4 },
+      textColor: INK,
+      lineColor: BORDER,
+      lineWidth: 0.2,
+      overflow: 'linebreak',
+      valign: 'top'
+    },
+    headStyles: { font: FONT, fillColor: NAVY, textColor: WHITE, fontStyle: 'bold', fontSize: 7.6, valign: 'middle' },
+    alternateRowStyles: { fillColor: ZEBRA },
+    // Cells given as { content, url } become clickable.
+    didDrawCell: data => {
+      const raw = data.cell.raw
+      if (data.section === 'body' && raw && typeof raw === 'object' && raw.url) {
+        L.doc.link(data.cell.x, data.cell.y, data.cell.width, data.cell.height, { url: raw.url })
+      }
+    },
+    ...overrides
+  }
+}
+
+function runTable(L, options) {
+  autoTable(L.doc, options)
+  L.y = L.doc.lastAutoTable.finalY + 2.5
+}
+
+function linkCell(text, url, extraStyles = {}) {
+  return { content: clean(text), url: url || null, styles: url ? { textColor: LINK, ...extraStyles } : extraStyles }
+}
+
+// Header and footer on every page, with "Page X of Y" computed once all pages exist.
+function drawRunningHeaderFooter(L, rightLabel) {
+  const { doc, M, W, pageH } = L
+  const total = doc.getNumberOfPages()
+  for (let i = 1; i <= total; i++) {
+    doc.setPage(i)
+    setText(doc, 7.5, 'bold', NAVY)
+    doc.text(SITE_NAME, M, 9.5, { baseline: 'top' })
+    setText(doc, 7.5, 'normal', MUTED)
+    const label = doc.splitTextToSize(clean(rightLabel), W - 60)[0] || ''
+    doc.text(label, M + W, 9.5, { baseline: 'top', align: 'right' })
+    doc.setDrawColor(...BORDER)
+    doc.setLineWidth(0.3)
+    doc.line(M, 14, M + W, 14)
+
+    const fy = pageH - 13
+    doc.line(M, fy, M + W, fy)
+    setText(doc, 6.8, 'normal', MUTED)
+    doc.text(DISCLAIMER, M, fy + 2.2, { baseline: 'top' })
+    setText(doc, 6.8, 'normal', LINK)
+    doc.textWithLink(SITE_URL, M, fy + 5.6, { url: SITE_URL, baseline: 'top' })
+    setText(doc, 7.2, 'bold', NAVY)
+    doc.text(`Page ${i} of ${total}`, M + W, fy + 5.4, { baseline: 'top', align: 'right' })
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Dossier sections
+// ---------------------------------------------------------------------------
+
+function drawCover(L, exam, detail) {
+  const { doc, M, W } = L
+  const registry = isRegistryTier(exam.record_tier)
+
+  // Title band
+  const padX = 7
+  setText(doc, 18, 'bold', WHITE)
+  const titleLines = doc.splitTextToSize(clean(exam.name || 'Exam'), W - padX * 2).slice(0, 3)
+  const showAcronym = has(exam.acronym) && clean(exam.acronym) !== clean(exam.name)
+  setText(doc, 8.5, 'normal', WHITE)
+  const metaLine = [clean(exam.conducting_body) || null, jurisdictionLabel(exam), getTrackLabel(exam.track)]
+    .filter(Boolean)
+    .join('   ·   ')
+  const metaLines = doc.splitTextToSize(metaLine, W - padX * 2)
+
+  const bandTop = L.y
+  const bandH = 6.5 + 4.5 + titleLines.length * lineH(18) + (showAcronym ? lineH(10.5) + 1 : 0) + 2.5 + metaLines.length * lineH(8.5) + 5
+  doc.setFillColor(...NAVY)
+  doc.rect(M, bandTop, W, bandH, 'F')
+  doc.setFillColor(...AMBER)
+  doc.rect(M, bandTop, 2, bandH, 'F')
+
+  let y = bandTop + 6.5
+  setText(doc, 7, 'bold', AMBER)
+  doc.text('EXAM DOSSIER', M + padX, y, { baseline: 'top' })
+  y += 4.5
+  setText(doc, 18, 'bold', WHITE)
+  doc.text(titleLines, M + padX, y, { baseline: 'top' })
+  y += titleLines.length * lineH(18)
+  if (showAcronym) {
+    setText(doc, 10.5, 'bold', AMBER)
+    doc.text(clean(exam.acronym), M + padX, y + 0.5, { baseline: 'top' })
+    y += lineH(10.5) + 1
+  }
+  y += 2.5
+  setText(doc, 8.5, 'normal', [203, 213, 225])
+  doc.text(metaLines, M + padX, y, { baseline: 'top' })
+  L.y = bandTop + bandH
+
+  // Review / download strip
+  const stripH = 11
+  doc.setFillColor(...LABEL_BG)
+  doc.rect(M, L.y, W, stripH, 'F')
+  const cells = [
+    ['INFORMATION LAST REVIEWED', detail?.last_reviewed ? fmtDate(detail.last_reviewed) : NOT_AVAILABLE],
+    ['RECORD TYPE', registry ? 'Registry entry (basic listing)' : getRecordTierLabel(exam.record_tier)],
+    ['DOWNLOADED ON', todayStr()]
+  ]
+  const cw = W / 3
+  cells.forEach(([label, value], i) => {
+    const x = M + padX + i * cw
+    setText(doc, 6.3, 'bold', MUTED)
+    doc.text(label, x, L.y + 2.3, { baseline: 'top' })
+    setText(doc, 8.8, 'bold', NAVY)
+    doc.text(value, x, L.y + 5.6, { baseline: 'top' })
+  })
+  L.y += stripH + 4
+
+  if (registry) {
+    paragraph(L, 'This exam is a registry entry: only its basic listing is on file. A full dossier (exam pattern, cut-offs, pay, career path) has not been compiled yet — the summary below shows what is and is not on file.', { size: 8, color: MUTED, gapAfter: 3 })
+  }
+
+  // About
+  if (has(exam.description)) {
+    sectionHeading(L, 'About this exam', { keepWith: 12 })
+    paragraph(L, exam.description, { size: 9, gapAfter: 3 })
+  }
+
+  // Key facts at a glance
+  sectionHeading(L, 'Key facts at a glance', { keepWith: 50 })
+  const vac = vacancyFact(exam)
+  const facts = [
+    ['Minimum qualification', orNA(exam.min_qualification)],
+    ['Age limit', orNA(exam.age_limit)],
+    ['Application window', orNA(exam.application_period)],
+    ['Exam month', orNA(exam.exam_month)],
+    ['Mode', orNA(exam.exam_mode)],
+    ['Frequency', orNA(exam.frequency)],
+    ['Level', orNA(exam.level)],
+    [isJobTrack(exam.track) ? 'Posts / roles' : 'Leads to', orNA(exam.target_role)]
+  ]
+  if (isJobTrack(exam.track)) {
+    facts.push(['Cadre / group', orNA(exam.cadre)])
+    facts.push(['Latest vacancies', vac.url ? linkCell(vac.text, vac.url) : vac.text])
+  }
+  facts.push(['Domain', orNA(exam.domain)])
+  const site = has(exam.official_website) && exam.official_website !== '#' ? exam.official_website : null
+  facts.push(['Official website', site ? linkCell(site, site) : NOT_AVAILABLE])
+
+  const rows = []
+  for (let i = 0; i < facts.length; i += 2) {
+    const a = facts[i]
+    const b = facts[i + 1] || ['', '']
+    rows.push([a[0].toUpperCase(), a[1], b[0].toUpperCase(), b[1]])
+  }
+  const labelW = 29
+  const valueW = (W - labelW * 2) / 2
+  runTable(L, tableBase(L, {
+    body: rows,
+    alternateRowStyles: {},
+    styles: { ...tableBase(L).styles, fontSize: 8.3, cellPadding: { top: 1.8, right: 2.6, bottom: 1.8, left: 2.6 } },
+    columnStyles: {
+      0: { cellWidth: labelW, fillColor: LABEL_BG, fontStyle: 'bold', fontSize: 6.4, textColor: MUTED },
+      1: { cellWidth: valueW },
+      2: { cellWidth: labelW, fillColor: LABEL_BG, fontStyle: 'bold', fontSize: 6.4, textColor: MUTED },
+      3: { cellWidth: valueW }
+    }
+  }))
+  caption(L, "Key facts come from the site's exam listing and are not individually source-tagged; the vacancy figure is printed only when it has been verified against the conducting body's own document. Confirm everything on the official website.", 4)
+
+  // What's on file
+  drawContentsSummary(L, exam, detail)
+}
+
+function drawContentsSummary(L, exam, detail) {
+  const isJob = isJobTrack(exam.track)
+  const notCompiled = 'Not yet compiled'
+  const status = (section, describe) => {
+    if (!detail) return notCompiled
+    if (!section) return notCompiled
+    if (section.status === 'not_available') return 'Not publicly available' + (has(section.note) ? ` — ${clean(section.note)}` : '')
+    if (section.status !== 'available') return notCompiled
+    return describe(section)
+  }
+
+  const rows = [
+    ['Exam pattern', status(detail?.exam_scheme, s => {
+      const st = s.stages || []
+      return st.length ? `${plural(st.length, 'stage', 'stages')} · ${countBy(st)}` : notCompiled
+    })],
+    ['Cut-offs & vacancies', status(detail?.competition_benchmarks, s => {
+      const yrs = s.years || []
+      if (!yrs.length) return notCompiled
+      const withheld = yrs.some(y => y.confidence !== 'verified')
+      return `${plural(yrs.length, 'cycle', 'cycles')} · ${countBy(yrs)}${withheld ? ' (figures printed for Verified rows only)' : ''}`
+    })],
+    ['Salary & allowances', isJob
+      ? status(detail?.financial_package, s => {
+          if (!s.entry_basic_pay) return notCompiled
+          const est = s.gross_range_estimate ? '; published salary range Estimated' : ''
+          return `Entry pay ${confidenceLabel(s.pay_confidence)}${est}`
+        })
+      : 'Not applicable — not a recruitment exam'],
+    ['Career progression', isJob
+      ? status(detail?.career_ladder, s => {
+          const st = s.steps || []
+          return st.length ? `${plural(st.length, 'grade', 'grades')} · ${countBy(st)}` : notCompiled
+        })
+      : 'Not applicable — not a recruitment exam'],
+    ['Official documents & links', status(detail?.official_downloads, s => {
+      const ln = s.links || []
+      return ln.length ? `${plural(ln.length, 'link', 'links')} · ${countBy(ln)}` : notCompiled
+    })]
+  ]
+
+  // Legend, measured first so the heading, table and legend stay on one page.
+  const { doc } = L
+  const legend = [
+    ['Verified', "checked against the conducting body's own document."],
+    ['Reported', 'attributed to a named source, not yet re-checked against the official document. As on the website, cut-off and vacancy numbers are not printed for these rows.'],
+    ['Estimated', 'a calculated or approximate figure, not taken from any single document.']
+  ]
+  setText(doc, 7.4, 'normal', INK)
+  const textW = L.W - 8 - 20
+  const lineSets = legend.map(([, t]) => doc.splitTextToSize(t, textW))
+  const lh = lineH(7.4)
+  const boxH = 3 + lh + 1.2 + lineSets.reduce((n, ls) => n + ls.length * lh + 0.6, 0) + 2
+  setText(doc, 8, 'normal', INK)
+  const tableH = 7 + rows.reduce((n, r) => n + doc.splitTextToSize(r[1], L.W - 48 - 4.8).length * lineH(8) + 3.2, 0)
+
+  sectionHeading(L, "What's on file for this exam", { keepWith: tableH + boxH + 4 })
+  runTable(L, tableBase(L, {
+    head: [['Section', 'What the data holds, and how sure it is']],
+    body: rows,
+    styles: { ...tableBase(L).styles, cellPadding: { top: 1.6, right: 2.4, bottom: 1.6, left: 2.4 } },
+    columnStyles: { 0: { cellWidth: 48, fontStyle: 'bold' }, 1: { cellWidth: L.W - 48 } }
+  }))
+
+  ensureSpace(L, boxH + 2)
+  L.y += 1
+  doc.setFillColor(...LABEL_BG)
+  doc.setDrawColor(...BORDER)
+  doc.setLineWidth(0.2)
+  doc.rect(L.M, L.y, L.W, boxH, 'FD')
+  let y = L.y + 2.6
+  setText(doc, 7.6, 'bold', NAVY)
+  doc.text('How to read the labels', L.M + 4, y, { baseline: 'top' })
+  y += lh + 1.2
+  legend.forEach(([label], i) => {
+    setText(doc, 7.4, 'bold', NAVY)
+    doc.text(label, L.M + 4, y, { baseline: 'top' })
+    setText(doc, 7.4, 'normal', INK)
+    doc.text(lineSets[i], L.M + 4 + 20, y, { baseline: 'top' })
+    y += lineSets[i].length * lh + 0.6
+  })
+  L.y += boxH + 4
+}
+
+function drawExamPattern(L, detail) {
+  const scheme = detail?.exam_scheme
+  if (!sectionAvailable(scheme) || !(scheme.stages || []).length) return
+  // Section notes are not printed for available sections: the website does not show
+  // them, and some carry figures (or belong to another section) that the rows do not.
+  sectionHeading(L, 'Exam pattern', { keepWith: 34 })
+
+  const sources = makeSources()
+  const stages = [...scheme.stages].sort((a, b) => (a.stage_order ?? 0) - (b.stage_order ?? 0))
+  stages.forEach((stage, i) => {
+    const ref = sources.add(stage.source_label, stage.source_url)
+    const right = `${evidenceText(stage.confidence, stage.as_of)}${ref ? `  [${ref}]` : ''}`
+    subHeading(L, `Stage ${i + 1}: ${clean(stage.stage_name) || NOT_AVAILABLE}`, right)
+
+    const papers = stage.papers || []
+    if (!papers.length) {
+      caption(L, 'Paper-wise details are not available for this stage.', 3)
+      return
+    }
+    const body = papers.map(p => {
+      const marks = p.marks ?? p.max_marks ?? p.total_marks
+      let name = clean(p.paper_name) || NOT_AVAILABLE
+      if (has(p.notes)) name += `\n${clean(p.notes)}`
+      let role
+      if (p.qualifying_only) role = has(p.qualifying_threshold) ? `Qualifying only — ${clean(p.qualifying_threshold)}` : 'Qualifying only'
+      else role = has(p.qualifying_threshold) ? `Counts towards merit — ${clean(p.qualifying_threshold)}` : 'Counts towards merit'
+      return [
+        name,
+        isNum(marks) ? num(marks) : has(marks) ? clean(marks) : NOT_AVAILABLE,
+        isNum(p.duration_minutes) ? `${p.duration_minutes} min` : NOT_AVAILABLE,
+        has(p.negative_marking) ? clean(p.negative_marking) : NOT_AVAILABLE,
+        role
+      ]
+    })
+    const W = L.W
+    runTable(L, tableBase(L, {
+      head: [['Paper', 'Marks', 'Duration', 'Negative marking', 'Counts for']],
+      body,
+      columnStyles: {
+        0: { cellWidth: W * 0.32, fontStyle: 'bold' },
+        1: { cellWidth: W * 0.08, halign: 'right' },
+        2: { cellWidth: W * 0.12 },
+        3: { cellWidth: W * 0.2 },
+        4: { cellWidth: W * 0.28 }
+      },
+      didParseCell: data => {
+        if (data.section === 'body' && data.cell.text?.[0] === NOT_AVAILABLE) {
+          data.cell.styles.textColor = MUTED
+          data.cell.styles.fontSize = 7.4
+        }
+      }
+    }))
+    L.y += 1.5
+  })
+  renderSources(L, sources, 'Exam pattern')
+}
+
+function formatCutoff(row) {
+  if (has(row.cutoff) && typeof row.cutoff !== 'object') return clean(row.cutoff)
+  const obj = row.cutoff_marks ?? row.cut_off_marks ?? row.cutoffs ?? (typeof row.cutoff === 'object' ? row.cutoff : null)
+  if (!obj) return null
+  const humanise = k => clean(String(k).replace(/_/g, ' ')).replace(/^\w/, c => c.toUpperCase())
+  if (Array.isArray(obj)) {
+    const parts = obj.filter(o => o && (has(o.category) || has(o.marks))).map(o => `${clean(o.category)}: ${clean(o.marks)}`)
+    return parts.length ? parts.join('; ') : null
+  }
+  if (typeof obj === 'object') {
+    const parts = Object.entries(obj)
+      .filter(([k, v]) => k !== 'note' && v != null && typeof v !== 'object')
+      .map(([k, v]) => `${humanise(k)}: ${clean(v)}`)
+    return parts.length ? parts.join('; ') : null
+  }
+  return clean(obj)
+}
+
+const COMPETITION_TITLE = 'Cut-offs & vacancies history'
+
+// For rows whose figures are withheld, a source description that itself quotes a figure
+// (e.g. "Final Vacancies: 36,012 posts filled") would leak the number, so it is replaced.
+// Years, dates and advert numbers are not treated as figures.
+function sourceLabelFor(row) {
+  const label = row.source_label
+  if (row.confidence === 'verified' || !has(label)) return label
+  const withoutIds = String(label)
+    .replace(/\b\d{1,2}[./-]\d{1,2}[./-]\d{2,4}\b/g, '') // dates
+    .replace(/\b(19|20)\d{2}\b/g, '') // years
+    .replace(/\d+\s*\/|\/\s*\d+/g, '') // advert / cycle numbers such as 01/2024, No. 02/2025/CHQ
+  return /\d{1,3}(?:,\d{2,3})+|\d{2,}|\d+(?:\.\d+)?\s*(?:lakh|crore|%)/i.test(withoutIds)
+    ? 'Source description not shown: it quotes the unverified figure.'
+    : label
+}
+
+// A "not available" section is already stated, with its note, in the cover summary, so
+// it is not repeated here.
+function drawCompetition(L, exam, detail) {
+  const cb = detail?.competition_benchmarks
+  if (!sectionAvailable(cb)) return
+  const isJob = isJobTrack(exam.track)
+  const years = [...(cb.years || [])].sort((a, b) => (b.year ?? 0) - (a.year ?? 0))
+  if (!years.length) return
+
+  // The section note is deliberately not printed: the website does not show it, and
+  // notes can quote the very figures that are withheld from Reported rows.
+  sectionHeading(L, COMPETITION_TITLE, { keepWith: 40 })
+
+  // No verified row at all: list the cycles and their sources, without empty figure columns.
+  if (!years.some(r => r.confidence === 'verified')) {
+    const sources = makeSources()
+    const body = years.map(r => {
+      const ref = sources.add(sourceLabelFor(r), r.source_url)
+      const evidence = `${evidenceText(r.confidence, r.as_of)}${ref ? ` [${ref}]` : ''}`
+      return [String(r.year ?? NOT_AVAILABLE), r.source_url ? { content: evidence, url: r.source_url } : evidence]
+    })
+    caption(L, `No cycle on file has been checked against the conducting body's own document yet, so — as on the website — no applicant, ${isJob ? 'vacancy' : 'seat'} or cut-off figures are printed. The cycles and their sources are listed so you can check them yourself.`, 2)
+    runTable(L, tableBase(L, {
+      head: [['Year', 'Evidence']],
+      body,
+      columnStyles: { 0: { cellWidth: 30, fontStyle: 'bold' }, 1: { cellWidth: L.W - 30, textColor: [180, 83, 9] } }
+    }))
+    renderSources(L, sources, COMPETITION_TITLE)
+    return
+  }
+
+  const applicantsOf = r => r.applicants ?? r.total_applicants ?? r.registered_candidates
+  const shortlistOf = r => r.shortlisted_for_mains ?? r.shortlisted ?? r.qualified_stage_1 ?? r.qualified_candidates
+  const hasShortlist = years.some(r => shortlistOf(r) != null)
+  const hasCutoff = years.some(r => formatCutoff(r))
+
+  const sources = makeSources()
+  let anyCalculated = false
+  let anyWithheld = false
+  const WITHHELD = 'Not printed'
+
+  const body = years.map(r => {
+    const verified = r.confidence === 'verified'
+    const ref = sources.add(sourceLabelFor(r), r.source_url)
+    const evidence = `${evidenceText(r.confidence, r.as_of)}${ref ? ` [${ref}]` : ''}`
+    const yearLabel = has(r.cycle_label) ? `${r.year}\n${clean(r.cycle_label)}` : String(r.year ?? NOT_AVAILABLE)
+    const fig = v => {
+      if (!verified) return WITHHELD
+      if (isNum(v)) return num(v)
+      return has(v) ? clean(v) : NOT_AVAILABLE
+    }
+    if (!verified) anyWithheld = true
+
+    let selectivity = NOT_AVAILABLE
+    if (!verified) selectivity = WITHHELD
+    else {
+      const a = applicantsOf(r)
+      const v = r.vacancies
+      if (isNum(a) && isNum(v) && v > 0) {
+        selectivity = `1 in ${num(Math.round(a / v))} (calculated)`
+        anyCalculated = true
+      } else if (has(r.selectivity_ratio)) {
+        selectivity = clean(r.selectivity_ratio)
+      }
+    }
+
+    const row = [yearLabel, fig(applicantsOf(r))]
+    if (hasShortlist) row.push(fig(shortlistOf(r)))
+    row.push(fig(r.vacancies))
+    if (hasCutoff) row.push(verified ? (formatCutoff(r) || NOT_AVAILABLE) : WITHHELD)
+    row.push(selectivity)
+    row.push(r.source_url ? { content: evidence, url: r.source_url } : evidence)
+    return row
   })
 
-  if (allPapers.length >= 3) {
-    // Generate pillars directly from actual verified papers
-    return allPapers.slice(0, 4).map((pName, idx) => {
-      return [
-        `Pillar ${idx + 1}: ${pName}`,
-        `Comprehensive curriculum mastery of ${pName} as prescribed by ${exam.conducting_body || 'the Conducting Authority'}. Includes conceptual clarity, formula applications, and previous years' question patterns.`
-      ]
+  const head = ['Year', 'Applicants']
+  if (hasShortlist) head.push('Shortlisted / qualified')
+  head.push(isJob ? 'Vacancies' : 'Seats / intake')
+  if (hasCutoff) head.push('Cut-off')
+  head.push('Selectivity')
+  head.push('Evidence')
+
+  // Column widths as fractions of the content width, by which optional columns exist.
+  const W = L.W
+  const widths = [0.08, 0.12]
+  if (hasShortlist) widths.push(0.12)
+  widths.push(0.12)
+  if (hasCutoff) widths.push(0.18)
+  widths.push(hasCutoff ? 0.15 : 0.22)
+  const used = widths.reduce((a, b) => a + b, 0)
+  widths.push(1 - used)
+  const columnStyles = {}
+  widths.forEach((f, i) => { columnStyles[i] = { cellWidth: W * f } })
+  columnStyles[0].fontStyle = 'bold'
+  const numericCols = hasShortlist ? [1, 2, 3] : [1, 2]
+  numericCols.forEach(i => { columnStyles[i].halign = 'right' })
+
+  // Notes go above the table so they cannot be stranded on the next page.
+  const notes = []
+  if (anyCalculated) notes.push('Selectivity marked "calculated" is applicants ÷ vacancies, rounded; it is our arithmetic, not a published figure.')
+  if (anyWithheld) notes.push('"Not printed": the row is Reported, not verified against the official document, so — as on the website — its numbers are left out. Its source is listed so you can check it yourself.')
+  if (!isJob) notes.push('For admission exams, "Seats / intake" is shown only where the dossier records it.')
+  notes.forEach((n, i) => caption(L, n, i === notes.length - 1 ? 2 : 0.6))
+
+  runTable(L, tableBase(L, {
+    head: [head],
+    body,
+    columnStyles,
+    didParseCell: data => {
+      if (data.section !== 'body') return
+      const t = data.cell.text?.[0]
+      if (t === WITHHELD || t === NOT_AVAILABLE) {
+        data.cell.styles.textColor = MUTED
+        data.cell.styles.fontSize = 7.4
+      }
+      if (data.column.index === head.length - 1) {
+        data.cell.styles.fontSize = 7.3
+        const raw = data.cell.raw
+        const label = typeof raw === 'object' ? raw.content : raw
+        if (String(label).startsWith('Verified')) data.cell.styles.textColor = [21, 128, 61]
+        else if (String(label).startsWith('Reported')) data.cell.styles.textColor = [180, 83, 9]
+      }
+    }
+  }))
+
+  renderSources(L, sources, COMPETITION_TITLE)
+}
+
+function drawSalary(L, exam, detail) {
+  if (!isJobTrack(exam.track)) return
+  const fp = detail?.financial_package
+  // Not available / not compiled is stated in the cover summary. There is no fallback
+  // pay figure: without the dossier's entry basic pay nothing is calculated.
+  if (!sectionAvailable(fp) || !isNum(fp.entry_basic_pay)) return
+
+  sectionHeading(L, 'Salary & allowances', { keepWith: 40 })
+  const sources = makeSources()
+  const payRef = sources.add(fp.pay_source_label, fp.pay_source_url)
+
+  const intro = [
+    ['PAY LEVEL / SCALE', orNA(fp.pay_level)],
+    ['ENTRY BASIC PAY', `${rupees(fp.entry_basic_pay)} per month`],
+    ['EVIDENCE', `${evidenceText(fp.pay_confidence, fp.pay_as_of)}${payRef ? ` [${payRef}]` : ''}`]
+  ]
+  runTable(L, tableBase(L, {
+    body: intro,
+    alternateRowStyles: {},
+    columnStyles: {
+      0: { cellWidth: 40, fillColor: LABEL_BG, fontStyle: 'bold', fontSize: 6.6, textColor: MUTED },
+      1: { cellWidth: L.W - 40, fontStyle: 'bold' }
+    }
+  }))
+  L.y += 1.5
+
+  const daFromDossier = isNum(fp.da_percent_as_of_review)
+  const daPct = daFromDossier ? fp.da_percent_as_of_review : DEFAULT_DA_PERCENT
+
+  if (isCentralPayMatrix(exam, fp)) {
+    const calc = tier => calculateSalary({ basicPay: fp.entry_basic_pay, payLevel: fp.pay_level, daPercent: daPct, cityTier: tier })
+    const x = calc('x')
+    const yy = calc('y')
+    const z = calc('z')
+    const row = (label, f, opts = {}) => [{ content: label, styles: opts }, ...[x, yy, z].map(s => ({ content: f(s), styles: { halign: 'right', ...opts } }))]
+    const bold = { fontStyle: 'bold' }
+    const body = [
+      row('Basic pay', s => rupees(s.basicPay)),
+      row(`Dearness allowance (DA at ${daPct}%)`, s => rupees(s.da)),
+      row('House rent allowance (30% / 20% / 10% of basic)', s => rupees(s.hra)),
+      row('Transport allowance + DA on it', s => rupees(s.ta + s.daOnTa)),
+      row('Gross monthly pay (estimate)', s => rupees(s.gross), { ...bold, fillColor: LABEL_BG }),
+      row('Less: NPS employee share (10% of basic + DA)', s => `−${rupees(s.nps)}`),
+      row('In-hand before tax and other deductions (estimate)', s => rupees(s.inHand), { ...bold, fillColor: LABEL_BG })
+    ]
+    subHeading(L, 'Estimated monthly pay at entry, by city class', 'Estimated — calculated, not published', { keepWith: 50 })
+    const W = L.W
+    runTable(L, tableBase(L, {
+      head: [[
+        'Component',
+        { content: 'X city (metro)', styles: { halign: 'right' } },
+        { content: 'Y city', styles: { halign: 'right' } },
+        { content: 'Z city (other)', styles: { halign: 'right' } }
+      ]],
+      body,
+      columnStyles: { 0: { cellWidth: W * 0.46 }, 1: { cellWidth: W * 0.18 }, 2: { cellWidth: W * 0.18 }, 3: { cellWidth: W * 0.18 } }
+    }))
+    const assumptions = [
+      daFromDossier
+        ? `DA taken at ${daPct}% — the rate recorded in this exam's dossier${fp.da_as_of ? ` (as of ${fmtDate(fp.da_as_of)})` : ''}.`
+        : `DA assumed at ${daPct}% — the dossier does not record a current DA rate, so the site's default is used.`,
+      'HRA uses the central X / Y / Z city rates (30% / 20% / 10% of basic). Transport allowance is tied to the same city class, an approximation of the official list of higher-rate cities.',
+      'Only the NPS employee share is deducted; income tax, insurance and other deductions are not. Estimate — actual in-hand varies with posting and individual deductions.'
+    ]
+    drawNoteBox(L, 'Assumptions behind this calculation', assumptions)
+  } else {
+    caption(L, `A city-by-city allowance breakdown is not calculated for this post. The site's calculator uses central-government (7th CPC) allowance rates, which do not apply to this pay scale${exam.jurisdiction !== 'central' ? ' (a state post)' : ''}. See the range below and the official notification.`, 3)
+  }
+
+  if (fp.gross_range_estimate && (isNum(fp.gross_range_estimate.min) || isNum(fp.gross_range_estimate.max))) {
+    const g = fp.gross_range_estimate
+    const ih = fp.in_hand_range_estimate
+    const rng = r => (r && isNum(r.min) && isNum(r.max) ? `${rupees(r.min)} – ${rupees(r.max)} per month` : NOT_AVAILABLE)
+    subHeading(L, 'Salary range recorded in the dossier', confidenceLabel(fp.estimate_confidence), { keepWith: 18 })
+    const body = [['GROSS', rng(g)], ['IN-HAND', rng(ih)]]
+    if (has(fp.estimate_note)) body.push(['BASIS', clean(fp.estimate_note)])
+    runTable(L, tableBase(L, {
+      body,
+      alternateRowStyles: {},
+      columnStyles: {
+        0: { cellWidth: 40, fillColor: LABEL_BG, fontStyle: 'bold', fontSize: 6.6, textColor: MUTED },
+        1: { cellWidth: L.W - 40 }
+      }
+    }))
+    L.y += 1.5
+  }
+
+  const perks = (fp.official_perks || []).filter(has)
+  if (perks.length) {
+    subHeading(L, 'Other benefits listed', fp.perks_confidence ? confidenceLabel(fp.perks_confidence) : null, { keepWith: 14 })
+    bulletList(L, perks)
+  }
+  renderSources(L, sources, 'Salary & allowances')
+}
+
+function drawNoteBox(L, title, lines) {
+  const { doc } = L
+  const size = 7.4
+  const lh = lineH(size)
+  setText(doc, size, 'normal', INK)
+  const sets = lines.map(t => doc.splitTextToSize(clean(t), L.W - 12))
+  const h = 3 + lh + 1 + sets.reduce((n, s) => n + s.length * lh + 0.8, 0) + 2
+  ensureSpace(L, h + 2)
+  doc.setFillColor(...DIFF_FILL)
+  doc.rect(L.M, L.y, L.W, h, 'F')
+  doc.setFillColor(...AMBER)
+  doc.rect(L.M, L.y, 1, h, 'F')
+  let y = L.y + 2.6
+  setText(doc, 7.6, 'bold', NAVY)
+  doc.text(clean(title), L.M + 4, y, { baseline: 'top' })
+  y += lh + 1
+  sets.forEach(s => {
+    setText(doc, size, 'normal', INK)
+    doc.text('•', L.M + 4, y, { baseline: 'top' })
+    doc.text(s, L.M + 8, y, { baseline: 'top' })
+    y += s.length * lh + 0.8
+  })
+  L.y += h + 4
+}
+
+function bulletList(L, items, { size = 8 } = {}) {
+  const { doc } = L
+  const lh = lineH(size)
+  const indent = 5
+  items.forEach(item => {
+    setText(doc, size, 'normal', INK)
+    const lines = doc.splitTextToSize(clean(item), L.W - indent)
+    ensureSpace(L, lines.length * lh + 1)
+    setText(doc, size, 'bold', AMBER)
+    doc.text('•', L.M + 1, L.y, { baseline: 'top' })
+    setText(doc, size, 'normal', INK)
+    doc.text(lines, L.M + indent, L.y, { baseline: 'top' })
+    L.y += lines.length * lh + 1.2
+  })
+  L.y += 2
+}
+
+function drawCareer(L, exam, detail) {
+  if (!isJobTrack(exam.track)) return
+  const cl = detail?.career_ladder
+  const steps = sectionAvailable(cl) ? (cl.steps || []) : []
+  if (!steps.length) {
+    sectionHeading(L, 'Career progression', { keepWith: 10 })
+    const why = cl?.status === 'not_available' && has(cl.note) ? ` (${clean(cl.note)})` : ''
+    paragraph(L, `Career progression for this exam hasn't been compiled yet — see the official notification.${why}`, { size: 8.3, color: MUTED, gapAfter: 3 })
+    return
+  }
+
+  sectionHeading(L, 'Career progression', { keepWith: 34 })
+  const sources = makeSources()
+  const ordered = [...steps].sort((a, b) => (a.step_order ?? 0) - (b.step_order ?? 0))
+  const body = ordered.map((s, i) => {
+    const ref = sources.add(s.source_label, s.source_url)
+    let designation = clean(s.designation) || NOT_AVAILABLE
+    const extra = [s.promotion_criteria, s.notes].filter(has).map(clean).join(' ')
+    if (extra) designation += `\n${extra}`
+    const evidence = `${evidenceText(s.confidence, s.as_of)}${ref ? ` [${ref}]` : ''}`
+    return [
+      String(i + 1),
+      designation,
+      orNA(s.pay_level),
+      orNA(s.years),
+      s.source_url ? { content: evidence, url: s.source_url } : evidence
+    ]
+  })
+  const W = L.W
+  runTable(L, tableBase(L, {
+    head: [['#', 'Post / grade', 'Pay level', 'Typical stage', 'Evidence']],
+    body,
+    columnStyles: {
+      0: { cellWidth: W * 0.05, halign: 'center', textColor: MUTED },
+      1: { cellWidth: W * 0.37, fontStyle: 'bold' },
+      2: { cellWidth: W * 0.2 },
+      3: { cellWidth: W * 0.16 },
+      4: { cellWidth: W * 0.22, fontSize: 7.3 }
+    }
+  }))
+  caption(L, 'Years are the typical stage indicated in the source, not a promise; actual promotion depends on vacancies, service rules and performance.', 2.5)
+  renderSources(L, sources, 'Career progression')
+}
+
+const LINK_TYPES = { notification: 'Notification', syllabus: 'Syllabus', pyq: 'Previous papers', answer_key: 'Answer key', other: 'Resource' }
+
+function drawDocuments(L, exam, detail) {
+  const od = detail?.official_downloads
+  const links = sectionAvailable(od) ? (od.links || []).filter(l => has(l.url)) : []
+  const site = has(exam.official_website) && exam.official_website !== '#' ? exam.official_website : null
+  if (!links.length && !site) return
+
+  sectionHeading(L, 'Official documents & links', { keepWith: 26 })
+  if (has(od?.note)) paragraph(L, od.note, { size: 8.3, gapAfter: 3 })
+
+  const body = links.map(l => {
+    const label = clean(l.label) + (has(l.cycle_label) ? `\n${clean(l.cycle_label)}` : '')
+    return [
+      LINK_TYPES[l.type] || 'Resource',
+      label,
+      evidenceText(l.confidence, l.as_of),
+      linkCell(l.url, l.url)
+    ]
+  })
+  if (!links.some(l => l.url === site) && site) {
+    body.push(['Website', 'Official website', 'From the exam listing (no check date recorded)', linkCell(site, site)])
+  }
+  const W = L.W
+  runTable(L, tableBase(L, {
+    head: [['Type', 'Document', 'Link status', 'Address (click to open)']],
+    body,
+    columnStyles: {
+      0: { cellWidth: W * 0.14, fontStyle: 'bold' },
+      1: { cellWidth: W * 0.36 },
+      2: { cellWidth: W * 0.17, fontSize: 7.3 },
+      3: { cellWidth: W * 0.33, fontSize: 7.2 }
+    }
+  }))
+  caption(L, 'Link status records when the link itself was last checked; documents can move or be replaced. Use the official website if a link no longer opens.', 3)
+}
+
+function drawGeneralAdvice(L, exam) {
+  const isJob = isJobTrack(exam.track)
+  const phases = [
+    ['1. Understand the exam', "Read the latest official notification end to end: eligibility, stages, syllabus, marking scheme and dates. Go through the last few years' question papers to see what is asked and how."],
+    ['2. Build the foundation', 'Work through the prescribed syllabus subject by subject using standard textbooks or reference material, and keep short notes you can revise from.'],
+    ['3. Practise under time', "Take timed sectional tests. Check this exam's negative-marking rule in the notification and practise with it, and keep a log of mistakes."],
+    ['4. Simulate and revise', isJob
+      ? 'Take full-length mock tests in exam conditions and revise from your notes. For multi-stage exams, prepare early for the later stages (mains, interview, skill or physical tests).'
+      : 'Take full-length mock tests in exam conditions and revise from your notes. Keep track of counselling or admission steps that follow the result.']
+  ]
+  const checklist = [
+    'Admit card, printed clearly, with any self-declaration asked for.',
+    'Original photo ID whose name matches your application.',
+    'Recent passport-size photographs, if required.',
+    'Category, reservation or disability certificates, if claimed — check the validity date required.',
+    isJob
+      ? 'Degree certificate and mark sheets, for document verification.'
+      : 'Qualifying-exam mark sheet or certificate, for counselling.'
+  ]
+
+  const { doc } = L
+  const gap = 3
+  const cardW = (L.W - gap) / 2
+  const size = 7.8
+  const lh = lineH(size)
+  const pad = 2.5
+
+  // Measure everything first so the section is kept on one page when it fits.
+  setText(doc, size, 'normal', INK)
+  const phaseLines = phases.map(([, t]) => doc.splitTextToSize(t, cardW - pad * 2))
+  const cardH = i => pad + lineH(8.4) + 1 + phaseLines[i].length * lh + pad
+  const rowH = [Math.max(cardH(0), cardH(1)), Math.max(cardH(2), cardH(3))]
+  const colW = (L.W - gap) / 2 - 6
+  const checkLines = checklist.map(t => doc.splitTextToSize(t, colW))
+  const half = Math.ceil(checklist.length / 2)
+  const colH = items => items.reduce((n, ls) => n + ls.length * lh + 1.1, 0)
+  const checkH = Math.max(colH(checkLines.slice(0, half)), colH(checkLines.slice(half)))
+  const intro = `General advice for most competitive exams, not specific to ${clean(exam.acronym || exam.name)} — check its notification for syllabus, marking and dates.`
+  const introH = doc.splitTextToSize(intro, L.W).length * lineH(7.2) + 2.5
+  const blockH = introH + rowH[0] + rowH[1] + gap * 2 + 1 + 6 + checkH
+
+  sectionHeading(L, 'General preparation approach', { keepWith: blockH })
+  caption(L, intro, 2.5)
+
+  // 2 x 2 grid of phase cards.
+  ;[0, 1].forEach(r => {
+    ensureSpace(L, rowH[r])
+    ;[0, 1].forEach(c => {
+      const i = r * 2 + c
+      const x = L.M + c * (cardW + gap)
+      doc.setFillColor(...ZEBRA)
+      doc.setDrawColor(...BORDER)
+      doc.setLineWidth(0.2)
+      doc.rect(x, L.y, cardW, rowH[r], 'FD')
+      doc.setFillColor(...AMBER)
+      doc.rect(x, L.y, 0.9, rowH[r], 'F')
+      setText(doc, 8.4, 'bold', NAVY)
+      doc.text(phases[i][0], x + pad, L.y + pad, { baseline: 'top' })
+      setText(doc, size, 'normal', INK)
+      doc.text(phaseLines[i], x + pad, L.y + pad + lineH(8.4) + 1, { baseline: 'top' })
     })
-  }
+    L.y += rowH[r] + gap
+  })
+  L.y += 1
 
-  // 2. Domain-Specific Dynamic Intelligence Mapping
-  const domain = (exam.domain || '').toLowerCase()
-  const name = (exam.name || '').toLowerCase()
-
-  if (domain.includes('engineering') || domain.includes('architecture') || domain.includes('technical') || name.includes('jee') || name.includes('gate')) {
-    return [
-      ['Pillar 1: Advanced Mathematics & Numerical Methods', 'Calculus, Linear Algebra, Differential Equations, Probability & Statistics, Complex Analysis, and Numerical Computation.'],
-      ['Pillar 2: Foundational Physics & Engineering Sciences', 'Classical Mechanics, Electrodynamics, Thermodynamics, Wave Optics, Modern Physics, and Materials Science.'],
-      ['Pillar 3: Discipline-Specific Core Engineering', 'Branch-specific technical modules (Computer Science, Mechanical, Electrical, Civil, Electronics, Chemical) as per statutory curriculum.'],
-      ['Pillar 4: Analytical Reasoning & Technical Aptitude', 'Data Interpretation, Logical Deduction, Spatial Reasoning, Algorithm Optimization, and Timed Technical Problem Solving.']
-    ]
-  }
-
-  if (domain.includes('medical') || domain.includes('dental') || domain.includes('pharmacy') || domain.includes('nursing') || name.includes('neet')) {
-    return [
-      ['Pillar 1: Cellular Biology, Genetics & Evolution', 'Cell Structure and Function, Biomolecules, Molecular Basis of Inheritance, Mendelian Genetics, and Evolutionary Biology.'],
-      ['Pillar 2: Human Physiology & Anatomical Systems', 'Circulation, Respiration, Endocrine Regulation, Neural Control, Excretion, Locomotion, and Clinical Pathology Fundamentals.'],
-      ['Pillar 3: Chemical Sciences & Medicinal Compounds', 'Organic Chemistry Reactions & Mechanisms, Coordination Chemistry, Chemical Equilibrium, Thermodynamics, and Biomolecules.'],
-      ['Pillar 4: Physical Principles in Healthcare & Diagnostics', 'Mechanics, Optics, Nuclear Physics, Thermodynamics, Radiation, Wave Theory, and Medical Diagnostic Instrumentation Principles.']
-    ]
-  }
-
-  if (domain.includes('management') || domain.includes('business') || name.includes('cat') || name.includes('mat') || name.includes('cmat') || name.includes('xat')) {
-    return [
-      ['Pillar 1: Quantitative Aptitude (QA)', 'Commercial Arithmetic, Number Systems, Modern Algebra, Geometry & Mensuration, Permutations & Combinations, and Probability.'],
-      ['Pillar 2: Data Interpretation & Logical Reasoning (DILR)', 'Complex Multi-source Tables, Bar & Radar Graphs, Analytical Puzzles, Seating Arrangements, Binary Logic, and Matrix Grids.'],
-      ['Pillar 3: Verbal Ability & Reading Comprehension (VARC)', 'Critical Reading Passages, Inference Deduction, Argument Evaluation, Para-jumbles, Contextual Vocabulary, and Summary Completion.'],
-      ['Pillar 4: Executive Decision Making & Business Strategy', 'Case-based Strategic Analysis, Ethical Dilemmas, Managerial Situation Judgments, and Data-Driven Business Problem Solving.']
-    ]
-  }
-
-  if (domain.includes('law') || domain.includes('judicial') || name.includes('clat') || name.includes('judiciary')) {
-    return [
-      ['Pillar 1: Constitutional & Administrative Law', 'Preamble, Fundamental Rights, Directive Principles of State Policy, Separation of Powers, Judicial Review, and Federal Relations.'],
-      ['Pillar 2: Substantive & Procedural Legal Codes', 'Criminal Jurisprudence (BNS/IPC, BNSS/CrPC), Civil Procedure Code (CPC), Law of Contracts, Torts, and Indian Evidence Act/BSA.'],
-      ['Pillar 3: Legal Reasoning & Statutory Interpretation', 'Application of Legal Principles to Factual Scenarios, Ratio Decidendi, Stare Decisis, and Statutory Construction Rules.'],
-      ['Pillar 4: Judicial Precedents & Contemporary Legal Affairs', 'Landmark Supreme Court Judgments, Constitutional Bench Decisions, International Human Rights Treaties, and Emerging Tech Law.']
-    ]
-  }
-
-  if (domain.includes('banking') || domain.includes('finance') || domain.includes('insurance') || name.includes('ibps') || name.includes('sbi') || name.includes('rbi')) {
-    return [
-      ['Pillar 1: Quantitative Aptitude & Data Interpretation', 'Percentage, Profit & Loss, Simple & Compound Interest, Ratio & Proportion, Quadratic Equations, and Multi-tier DI Caselets.'],
-      ['Pillar 2: Reasoning Ability & Computer Aptitude', 'Complex Seating Puzzles, Syllogisms, Machine Input-Output, Blood Relations, Coding-Decoding, and Critical Deduction.'],
-      ['Pillar 3: Banking Awareness, Monetary Economics & Financial Regulations', 'RBI Monetary Policy, Priority Sector Lending, NPA Management, Basel III Norms, Capital Markets, and Union Budget.'],
-      ['Pillar 4: Professional English Communication & Descriptive Writing', 'Advanced Reading Comprehension, Error Spotting, Clause Analysis, Formal Banking Correspondence, and Economic Essays.']
-    ]
-  }
-
-  if (domain.includes('defence') || name.includes('nda') || name.includes('cds') || name.includes('afcat') || name.includes('capf')) {
-    return [
-      ['Pillar 1: Advanced Mathematics & Trigonometry', 'Algebra, Trigonometric Identities, 2D & 3D Analytical Geometry, Differential & Integral Calculus, Vectors, and Statistics.'],
-      ['Pillar 2: General Ability Test (GAT) - English & Grammar', 'Command of English Language, Idiomatic Usage, Sentence Sequencing, Contextual Vocabulary, and Comprehensive Reading.'],
-      ['Pillar 3: General Sciences & Strategic Global Affairs', 'Physics, Chemistry, General Life Sciences, Indian Geopolitics, Defence Modernization, and International Security Affairs.'],
-      ['Pillar 4: Officer Intelligence Rating (OIR) & Psychological Aptitude', 'Spatial Reasoning, Situation Reaction Tests, Psychological Agility, Personal Interview Readiness, and SSB Protocol.']
-    ]
-  }
-
-  if (domain.includes('education') || domain.includes('teaching') || domain.includes('research') || name.includes('tet') || name.includes('net')) {
-    return [
-      ['Pillar 1: Child Development & Educational Pedagogy', 'Principles of Child Growth, Cognitive Learning Theories (Piaget, Vygotsky), Inclusive Education, and Classroom Management.'],
-      ['Pillar 2: Teaching & Educational Research Methodology', 'Pedagogical Frameworks, Research Design, Hypothesis Testing, Evaluation & Continuous Assessment (CCE), and ICT in Education.'],
-      ['Pillar 3: Language Comprehension & Communication Pedagogy', 'First & Second Language Acquisition, Syntax & Grammar, Reading Comprehension, and Bilingual Instructional Methods.'],
-      ['Pillar 4: Subject Discipline Expertise', 'Advanced Curriculum Mastery in Designated Subject Specialization (Sciences, Mathematics, Social Studies, or Literature).']
-    ]
-  }
-
-  // Civil Services / Public Administration default
-  return [
-    ['Pillar 1: Constitutional Polity, Governance & Administration', 'Constitutional Framework, Executive-Legislative Dynamics, Public Policy, Administrative Accountability, and Institutional Reforms.'],
-    ['Pillar 2: Economic Development, Public Finance & Infrastructure', 'Macroeconomic Stability, Fiscal Architecture, 7th CPC Standards, Agricultural Economy, and Sustainable Development Goals.'],
-    ['Pillar 3: Indian Heritage, World Geography & Biodiversity', 'Indian History & National Movement, Physical and Human Geography, Environmental Ecology, Climate Agreements, and Disaster Management.'],
-    ['Pillar 4: Analytical Aptitude, Ethics & Administrative Case Studies', 'Logical Deduction, Data Interpretation, Moral Philosophy, Integrity in Public Service, and Administrative Case Studies.']
-  ]
+  // Two-column checklist with drawn tick boxes.
+  subHeading(L, 'Documents usually asked for', 'General checklist — confirm on your admit card', { keepWith: checkH })
+  const top = L.y
+  ;[checkLines.slice(0, half), checkLines.slice(half)].forEach((col, c) => {
+    let y = top
+    const x = L.M + c * ((L.W + gap) / 2)
+    col.forEach(lines => {
+      doc.setDrawColor(...MUTED)
+      doc.setLineWidth(0.3)
+      doc.rect(x + 0.5, y + 0.5, 2.8, 2.8)
+      setText(doc, size, 'normal', INK)
+      doc.text(lines, x + 6, y, { baseline: 'top' })
+      y += lines.length * lh + 1.1
+    })
+  })
+  L.y = top + checkH + 2
 }
 
-/**
- * Generate DYNAMIC Career Progression Ladder tailored to the specific exam type and domain
- */
-function getCareerLadder(exam, detail) {
-  // If detail JSON has verified career ladder steps, use them directly!
-  if (detail?.career_ladder?.steps && detail.career_ladder.steps.length > 0) {
-    return detail.career_ladder.steps.map(step => [
-      step.years || 'Career Stage',
-      step.designation || 'Commission Role',
-      step.pay_level || '7th CPC Scale',
-      step.source_label ? 'Statutory Gazette Cadre' : 'Departmental Promotion Committee (DPC)'
-    ])
-  }
+// ---------------------------------------------------------------------------
+// Public: single-exam dossier
+// ---------------------------------------------------------------------------
 
-  const domain = (exam.domain || '').toLowerCase()
-  const name = (exam.name || '').toLowerCase()
-  const isJob = isJobTrack(exam.track)
-
-  if (!isJob) {
-    // ENTRANCE EXAM: Academic & Industry Career Progression
-    if (domain.includes('engineering') || name.includes('gate') || name.includes('jee')) {
-      return [
-        ['Year 0-2 (Entry)', 'Graduate Engineer Trainee / Junior Software Engineer', 'Rs. 8.0 - Rs. 18.0 LPA', 'Campus Placements / Tier-1 Tech & Core MNCs'],
-        ['Year 3-6 (Mid-Level)', 'Senior Systems Engineer / Technical Lead', 'Rs. 18.0 - Rs. 35.0 LPA', 'Performance Merit & System Architecture Impact'],
-        ['Year 7-12 (Senior)', 'Principal Engineer / Engineering Manager', 'Rs. 35.0 - Rs. 75.0 LPA', 'Technical Leadership & Product Ownership'],
-        ['Year 12-18 (Executive)', 'Director of Engineering / VP Technology', 'Rs. 75.0 LPA - Rs. 1.5 Cr+', 'Executive Board & Organizational Leadership'],
-        ['PSU Alternative (GATE)', 'Executive Trainee (E-2) -> Chief General Manager (E-8)', 'Level E-2 to E-8 (Rs. 50k - Rs. 3.0L)', 'Maharatna & Navratna PSUs (ONGC, IOCL, NTPC, BHEL)']
-      ]
-    }
-    if (domain.includes('medical') || name.includes('neet')) {
-      return [
-        ['Year 0-1 (Internship)', 'Compulsory Rotatory Medical Intern (CRMI)', 'Stipend Rs. 20k - Rs. 35k/mo', 'Statutory NMC Hospital Posting'],
-        ['Year 1-4 (Postgraduate)', 'Junior Resident (JR-1 to JR-3 / MD / MS / DNB)', 'Level 10 (Rs. 56,100 - Rs. 95,000/mo)', 'Medical College Residency Board'],
-        ['Year 4-7 (Senior Residency)', 'Senior Resident (SR) / Super-Specialty Fellow', 'Level 11 (Rs. 67,700 - Rs. 1,20,000/mo)', 'Hospital Clinical Empanelment'],
-        ['Year 8-15 (Faculty / Specialist)', 'Assistant Professor -> Associate Professor', 'Level 12 - 13A (Rs. 78,800 - Rs. 2,10,000)', 'State / Central Medical Faculty Board'],
-        ['Year 16+ (Leadership)', 'Professor / Head of Department / Medical Superintendent', 'Level 14 - 15 (Rs. 1,44,200 - Rs. 2,24,100)', 'Apex Healthcare Directorate & AIIMS Governing Body']
-      ]
-    }
-    if (domain.includes('management') || name.includes('cat') || name.includes('mba')) {
-      return [
-        ['Year 0-2 (Entry Post-MBA)', 'Management Associate / Consultant / Investment Analyst', 'Rs. 18.0 - Rs. 34.0 LPA', 'Premier Corporate Campus Placements'],
-        ['Year 3-6 (Mid-Level)', 'Senior Consultant / Brand Manager / Product Manager', 'Rs. 30.0 - Rs. 55.0 LPA', 'Corporate Promotion & Business Unit P&L'],
-        ['Year 7-12 (Leadership)', 'Associate Partner / Assistant Vice President (AVP)', 'Rs. 55.0 - Rs. 95.0 LPA', 'Strategic Enterprise Portfolio Leadership'],
-        ['Year 12-18 (Executive)', 'Partner / Vice President / Business Head', 'Rs. 1.0 Cr - Rs. 2.5 Cr+', 'Executive Board Management'],
-        ['Year 18+ (Apex Scale)', 'Chief Executive Officer (CEO) / Managing Director (MD)', 'Rs. 2.5 Cr+ & Equity/ESOPs', 'Board of Directors Appointment']
-      ]
-    }
-    if (domain.includes('law') || name.includes('clat')) {
-      return [
-        ['Year 0-3 (Entry)', 'Junior Associate / In-House Legal Officer', 'Rs. 12.0 - Rs. 18.0 LPA', 'Top Tier Corporate Law Firms / MNCs'],
-        ['Year 4-8 (Mid-Level)', 'Senior Associate / Lead Corporate Counsel', 'Rs. 22.0 - Rs. 45.0 LPA', 'Mergers & Acquisitions / Dispute Resolution Practice'],
-        ['Year 8-14 (Senior)', 'Principal Associate / Salaried Partner', 'Rs. 45.0 - Rs. 90.0 LPA', 'Practice Area Head & Client Portfolio'],
-        ['Year 15+ (Apex Legal)', 'Equity Partner / Designated Senior Advocate', 'Rs. 1.0 Cr - Rs. 5.0 Cr+', 'Bar Council & High Court Designation'],
-        ['Judicial Track', 'Civil Judge (Junior Division) -> High Court Justice', 'Judicial Pay Commission Scales', 'State Judicial Services & Collegium Appointment']
-      ]
-    }
-  }
-
-  // JOB EXAMS: Dynamic progression by domain
-  if (domain.includes('banking') || domain.includes('finance')) {
-    return [
-      ['Entry (0-3 yrs)', 'Probationary Officer (Scale I)', 'Junior Management (Rs. 48,480 - Rs. 85,920)', 'Direct Recruitment / Probation'],
-      ['3-7 yrs', 'Branch Manager / Manager (Scale II)', 'Middle Management (Rs. 64,820 - Rs. 93,960)', 'Departmental Promotion Exam'],
-      ['7-11 yrs', 'Senior Branch Manager (Scale III)', 'Middle Management (Rs. 78,230 - Rs. 1,02,000)', 'Seniority & Performance Review'],
-      ['11-15 yrs', 'Chief Manager (Scale IV)', 'Senior Management (Rs. 1,02,300 - Rs. 1,15,000)', 'Zonal Promotion Committee'],
-      ['15-20 yrs', 'Assistant General Manager (AGM) (Scale V)', 'Top Executive (Rs. 1,20,000 - Rs. 1,35,000)', 'Bank Management Board'],
-      ['20-25 yrs', 'Deputy General Manager (DGM) (Scale VI)', 'Top Executive Grade', 'Board of Directors Selection'],
-      ['Apex Horizon', 'General Manager (GM) / Executive Director / MD & CEO', 'Apex Banking Scale', 'Financial Services Institutions Bureau (FSIB)']
-    ]
-  }
-
-  if (domain.includes('defence') || domain.includes('police') || name.includes('constable') || name.includes('sub-inspector')) {
-    return [
-      ['Entry (0-5 yrs)', 'Sub-Inspector of Police (SI) / Lieutenant', 'Level 6 - 10 (Rs. 35,400 - Rs. 56,100)', 'Direct Commission Selection'],
-      ['5-10 yrs', 'Inspector of Police / Captain', 'Level 7 - 10B (Rs. 44,900 - Rs. 67,700)', 'State / Ministry Promotion Board'],
-      ['10-15 yrs', 'Deputy Superintendent of Police (DSP) / Major', 'Level 10 - 11 (Rs. 56,100 - Rs. 78,800)', 'State PSC / UPSC Induction'],
-      ['15-20 yrs', 'Additional Superintendent of Police (Addl SP) / Lt Col', 'Level 11 - 12 (Rs. 67,700 - Rs. 1,23,100)', 'IPS Cadre Review / Selection Committee'],
-      ['20-25 yrs', 'Superintendent of Police (SP / SSP) / Colonel', 'Level 12 - 13 (Rs. 78,800 - Rs. 1,44,200)', 'Ministry of Home Affairs Gazette'],
-      ['25-30 yrs', 'Deputy Inspector General (DIG) / Brigadier', 'Level 13A (Rs. 1,31,100 - Rs. 2,16,600)', 'Empanelled Central / State Board'],
-      ['Apex Scale', 'Inspector General (IG) / ADG / Director General of Police (DGP)', 'Level 14 - 17 (Up to Rs. 2,25,000)', 'Cabinet Appointments Committee (ACC)']
-    ]
-  }
-
-  if (domain.includes('education') || domain.includes('teaching')) {
-    return [
-      ['Entry (0-4 yrs)', 'Assistant Teacher / Assistant Professor (Entry)', 'Level 8 - 10 (Rs. 47,600 - Rs. 57,700)', 'Direct Recruitment Commission'],
-      ['4-9 yrs', 'Senior Teacher / Assistant Professor (Senior Scale)', 'Level 11 (Rs. 68,900 - Rs. 1,17,200)', 'Career Advancement Scheme (CAS)'],
-      ['9-14 yrs', 'Lecturer / Assistant Professor (Selection Grade)', 'Level 12 (Rs. 79,800 - Rs. 1,31,400)', 'Academic Performance Indicators (API)'],
-      ['14-18 yrs', 'Headmaster / Associate Professor', 'Level 13A (Rs. 1,31,400 - Rs. 2,17,100)', 'Statutory Selection Committee'],
-      ['18-25 yrs', 'Principal / Professor', 'Level 14 (Rs. 1,44,200 - Rs. 2,18,200)', 'Executive Council / Directorate of Education'],
-      ['Apex Scale', 'Director of School Education / Vice-Chancellor', 'Level 15 - 17 (Apex Scale)', 'Governor / Chancellor Appointment']
-    ]
-  }
-
-  // Civil Services default
-  return [
-    ['Entry (0-4 yrs)', 'Sub-Divisional Magistrate (SDM) / Assistant Secretary', 'Level 10 (Rs. 56,100 - Rs. 1,77,500)', 'Direct Commission Recruitment'],
-    ['4-9 yrs', 'Additional District Magistrate (ADM) / Deputy Secretary', 'Level 11 (Rs. 67,700 - Rs. 2,08,700)', 'Senior Time Scale Review'],
-    ['9-14 yrs', 'District Magistrate (DM) / Collector / Joint Secretary', 'Level 12 (Rs. 78,800 - Rs. 2,09,200)', 'Junior Administrative Grade DPC'],
-    ['14-18 yrs', 'Divisional Commissioner / Director (Selection Grade)', 'Level 13 (Rs. 1,23,100 - Rs. 2,15,900)', 'Selection Grade Committee'],
-    ['18-25 yrs', 'Principal Secretary (State) / Additional Secretary (Centre)', 'Level 14 - 15 (Rs. 1,44,200 - Rs. 2,24,100)', 'Super Time Scale Gazette'],
-    ['Apex Scale', 'Chief Secretary (State) / Cabinet Secretary of India', 'Level 17 - 18 (Up to Rs. 2,50,000 fixed)', 'Appointments Committee of the Cabinet']
-  ]
-}
-
-/**
- * Generate DYNAMIC Preparation Protocol tailored to exam type and domain
- */
-function getPreparationProtocol(exam) {
-  const isJob = isJobTrack(exam.track)
-  const domain = (exam.domain || '').toLowerCase()
-
-  if (!isJob) {
-    // ENTRANCE EXAMS PREPARATION PROTOCOL
-    return [
-      ['Phase 1: Foundation & NCERT / Core Concepts (Months 1-4)', 'Master standard textbook fundamentals line-by-line; derive all critical theoretical formulas, biological diagrams, or analytical theorem proofs.'],
-      ['Phase 2: Advanced Problem Solving & Numerical Mastery (Months 5-8)', 'Solve graded problem sets covering multi-concept applications; develop rapid mental arithmetic and sectional speed.'],
-      ['Phase 3: High-Yield Previous 10 Years Questions (Months 9-10)', 'Complete comprehensive chapter-wise PYQs from past decade; classify recurring themes and pinpoint negative marking error traps.'],
-      ['Phase 4: Full-Length CBT Exam Simulations (Months 11-12)', 'Take minimum 30 full-length timed mock tests in actual computer-based test conditions; maintain a detailed error logbook for score stabilization.']
-    ]
-  }
-
-  // JOB RECRUITMENT EXAMS PREPARATION PROTOCOL
-  if (domain.includes('banking') || domain.includes('finance')) {
-    return [
-      ['Phase 1: Speed Arithmetic & Core Logic Building (Months 1-3)', 'Master mental math shortcuts, Vedic tricks, percentages, squares/cubes, and fundamental logical deduction patterns.'],
-      ['Phase 2: Advanced Puzzle Grids & Complex DI Mastery (Months 4-6)', 'Solve 5-8 complex multi-variable seating arrangements daily; practice high-level caselet and mixed chart data interpretation.'],
-      ['Phase 3: Banking Awareness & Current Affairs Immersion (Months 7-9)', 'Daily review of financial newspapers (Mint/ET), RBI circulars, monetary policy rates, Union budget, and economic survey digests.'],
-      ['Phase 4: Full-Length Sectional Speed Simulations (Months 10-12)', 'Take daily sectional speed tests with negative marking cutoff discipline; practice formal descriptive letter and essay typing.']
-    ]
-  }
-
-  // General Government & Civil Services
-  return [
-    ['Phase 1: Statutory Syllabus Mapping & PYQ Audit (Months 1-3)', 'Perform line-by-line syllabus deconstruction; audit past 8 years examination papers to isolate recurring statutory high-yield thematic clusters.'],
-    ['Phase 2: Standard Reference Immersion & Concise Notes (Months 4-7)', 'Study primary authoritative standard references; synthesize concise self-authored revision summaries, flowcharts, and constitutional articles.'],
-    ['Phase 3: Sectional Timed Practice & Error Elimination (Months 8-10)', 'Enforce strict 1/3 negative marking discipline; take daily timed quizzes to calibrate risk-reward ratio in question selection.'],
-    ['Phase 4: Full-Length Simulation & Personality Readiness (Months 11-12)', 'Simulate actual commission examination shifts under strict exam hall conditions; complete minimum 25 full-length test series with interview readiness.']
-  ]
-}
-
-/**
- * Generates an Institutional 4-Page PDF Research Dossier for any exam
- */
 export async function exportExamDossierPdf(exam, suppliedDetail = null) {
   if (!exam) return
 
   const detail = await getExamDetailData(exam, suppliedDetail)
-  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' })
+  const doc = await createDoc('portrait')
+  const L = makeLayout(doc)
 
-  const now = new Date()
-  const year = now.getFullYear()
-  const refId = `IX-DOSSIER/${year}/${(exam.acronym || exam.id || 'EXAM').toUpperCase().replace(/[^A-Z0-9]/g, '')}`
-  const timestampStr = now.toLocaleDateString('en-IN', {
-    day: '2-digit',
-    month: 'short',
-    year: 'numeric'
+  drawCover(L, exam, detail)
+  drawExamPattern(L, detail)
+  drawCompetition(L, exam, detail)
+  drawSalary(L, exam, detail)
+  drawCareer(L, exam, detail)
+  drawDocuments(L, exam, detail)
+  drawGeneralAdvice(L, exam)
+
+  const headerLabel = has(exam.acronym) ? `${clean(exam.acronym)} — ${clean(exam.name)}` : clean(exam.name)
+  drawRunningHeaderFooter(L, headerLabel)
+
+  doc.setProperties({
+    title: `${clean(exam.name)} — exam dossier`,
+    subject: 'Exam dossier compiled from public sources',
+    author: SITE_NAME,
+    creator: SITE_NAME
   })
-
-  const isJob = isJobTrack(exam.track)
-
-  // ==========================================
-  // PAGE 1: EXECUTIVE COVER & STATUTORY PROFILE
-  // ==========================================
-
-  // Title Box Background Banner
-  doc.setFillColor(...NAVY)
-  doc.roundedRect(14, 16, 182, 28, 2, 2, 'F')
-
-  // Amber decorative side accent
-  doc.setFillColor(...AMBER)
-  doc.rect(14, 16, 3, 28, 'F')
-
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(14)
-  doc.setTextColor(255, 255, 255)
-  const titleText = doc.splitTextToSize(exam.name || 'Examination Dossier', 140)
-  doc.text(titleText[0], 21, 25)
-
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10)
-  doc.setTextColor(...AMBER)
-  doc.text(exam.acronym ? `(${exam.acronym})` : '', 21, 32)
-
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(8)
-  doc.setTextColor(203, 213, 225)
-  doc.text(
-    `Conducting Body: ${exam.conducting_body || 'National Commission'} | ${exam.jurisdiction === 'central' ? 'Central / All India' : exam.state || 'State'} | [${isJob ? 'Job Recruitment' : exam.track === 'Q' ? 'Professional Qualification' : 'Academic Entrance'}]`,
-    21,
-    38
-  )
-
-  // Document Badge on Right
-  doc.setFillColor(30, 41, 59)
-  doc.roundedRect(144, 20, 48, 20, 1.5, 1.5, 'F')
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(7)
-  doc.setTextColor(...AMBER)
-  doc.text('RESEARCH CLASSIFICATION', 147, 25)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(8)
-  doc.setTextColor(255, 255, 255)
-  doc.text('ONE-STOP DOSSIER', 147, 30)
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(6.5)
-  doc.setTextColor(148, 163, 184)
-  doc.text(`VERIFIED: ${timestampStr}`, 147, 35)
-
-  // Section 1: Executive Scope & Statutory Overview
-  let currentY = 50
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10.5)
-  doc.setTextColor(...NAVY)
-  doc.text('1. EXECUTIVE MANDATE & STATUTORY SCOPE', 14, currentY)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 1.5, 90, currentY + 1.5)
-
-  currentY += 6
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(8.5)
-  doc.setTextColor(51, 65, 85)
-  const desc = exam.description ||
-    `${exam.name} is a premier statutory competitive examination conducted by ${exam.conducting_body} to evaluate candidates for designated roles and institutional admissions across India. Successful candidates gain entry based strictly on standardized merit evaluation.`
-  const splitDesc = doc.splitTextToSize(desc, 182)
-  doc.text(splitDesc, 14, currentY)
-  currentY += splitDesc.length * 4.2 + 4
-
-  // Section 2: Core Key Parameters (AutoTable)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10.5)
-  doc.setTextColor(...NAVY)
-  doc.text('2. STATUTORY PARAMETERS & ELIGIBILITY ARCHITECTURE', 14, currentY)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 1.5, 115, currentY + 1.5)
-  currentY += 4
-
-  const paramRows = [
-    ['Conducting Commission', exam.conducting_body || 'N/A', 'Jurisdiction & Domain', `${exam.jurisdiction === 'central' ? 'Central' : exam.state} | ${exam.domain || 'General'}`],
-    ['Degree / Educational Level', exam.level || 'Graduate', isJob ? 'Cadre / Service Class' : exam.track === 'Q' ? 'Award / Designation' : 'Target Award / Admission', isJob ? (exam.cadre || 'National Service Cadre') : exam.track === 'Q' ? (exam.target_role || 'Professional Membership') : (exam.target_role || 'Undergraduate / Postgraduate Admission')],
-    ['Targeted Career Scope', exam.target_role || (isJob ? 'Administrative / Executive' : exam.track === 'Q' ? 'Independent Practice / Professional Role' : 'Professional Degree'), 'Examination Mode', exam.exam_mode || 'CBT / Pen-Paper'],
-    ['Annual Frequency', exam.frequency || 'Annual', 'Tentative Examination Month', exam.exam_month || 'Notified Annually'],
-    ['Application Notification Window', exam.application_period || 'As notified', 'Official Commission Portal', exam.official_website || 'https://www.india.gov.in'],
-    ['Statutory Age Limit', exam.age_limit || 'As per official guidelines', 'Minimum Qualification', exam.min_qualification || 'Degree / 10+2 from recognized board']
-  ]
-
-  autoTable(doc, {
-    startY: currentY,
-    head: [['Statutory Parameter', 'Official Specification', 'Statutory Parameter', 'Official Specification']],
-    body: paramRows,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-    columnStyles: {
-      0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 42 },
-      1: { cellWidth: 49 },
-      2: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 42 },
-      3: { cellWidth: 49 }
-    },
-    margin: { left: 14, right: 14 }
-  })
-
-  currentY = doc.lastAutoTable.finalY + 8
-
-  // Section 3: Competition & Selectivity Telemetry (AutoTable)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10.5)
-  doc.setTextColor(...NAVY)
-  doc.text('3. COMPETITION BENCHMARKS & CANDIDATE VOLUME', 14, currentY)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 1.5, 108, currentY + 1.5)
-  currentY += 4
-
-  // Only real benchmark data is printed. Where a dossier has none, the section says so.
-  // It previously invented two years of applicant and vacancy figures, including for a
-  // prior cycle, which put fabricated history into a document a candidate keeps.
-  const compYears = detail?.competition_benchmarks?.years || []
-
-  const compTableRows = compYears.map(item => [
-    item.year.toString(),
-    typeof item.applicants === 'number' ? item.applicants.toLocaleString('en-IN') : item.applicants,
-    typeof item.vacancies === 'number' ? item.vacancies.toLocaleString('en-IN') : item.vacancies,
-    typeof item.shortlisted_for_mains === 'number' ? item.shortlisted_for_mains.toLocaleString('en-IN') : (item.shortlisted_for_mains || 'N/A'),
-    item.selectivity_ratio || 'High Competition Benchmark'
-  ])
-
-  if (compTableRows.length > 0) {
-    autoTable(doc, {
-      startY: currentY,
-      head: [['Examination Cycle', 'Total Registered Candidates', isJob ? 'Notified Vacancies' : 'Intake / Available Seats', 'Qualified / Stage II', 'Selectivity Benchmark']],
-      body: compTableRows,
-      theme: 'grid',
-      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-      columnStyles: {
-        0: { fontStyle: 'bold', cellWidth: 28 },
-        1: { cellWidth: 38 },
-        2: { cellWidth: 32 },
-        3: { cellWidth: 36 },
-        4: { cellWidth: 48, fontStyle: 'bold', textColor: AMBER }
-      },
-      margin: { left: 14, right: 14 }
-    })
-    currentY = doc.lastAutoTable.finalY + 4
-  } else {
-    currentY += 4
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(8)
-    doc.setTextColor(...MUTED)
-    doc.text(
-      'Competition figures for this examination have not yet been verified against the conducting',
-      14,
-      currentY
-    )
-    doc.text(
-      "body's own notification, and are therefore not reproduced here. Check the official website.",
-      14,
-      currentY + 3.6
-    )
-    currentY += 8
-  }
-
-  // Footnote on page 1. Only claimed where a sourced table was actually printed.
-  if (compTableRows.length > 0) {
-    doc.setFont('helvetica', 'italic')
-    doc.setFontSize(7)
-    doc.setTextColor(...MUTED)
-    doc.text(
-      'Note: Figures derived from official commission notifications, press releases, and verified regulatory statistics.',
-      14,
-      currentY
-    )
-  }
-
-  // ==========================================
-  // PAGE 2: EXAMINATION SCHEME & PAPER PATTERN
-  // ==========================================
-  doc.addPage()
-  currentY = 20
-
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(13)
-  doc.setTextColor(...NAVY)
-  doc.text('EXAMINATION SCHEME & MARKING ARCHITECTURE', 14, currentY)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(8)
-  doc.setTextColor(...AMBER)
-  doc.text('SECTION 2: COMPREHENSIVE STAGE & PAPER BLUEPRINT', 14, currentY + 5)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 7, 120, currentY + 7)
-  currentY += 12
-
-  // Extract actual stages or create tailored domain-specific stages
-  const schemeStages = (detail?.exam_scheme?.stages && detail.exam_scheme.stages.length > 0)
-    ? detail.exam_scheme.stages
-    : (isJob ? [
-        {
-          stage_name: 'Stage I: Computer Based Screening Test / Prelims',
-          papers: [
-            { paper_name: 'General Studies & Current Awareness', marks: 100, duration_minutes: 60, negative_marking: '-1/3 per wrong answer', qualifying_only: false },
-            { paper_name: 'Reasoning & Quantitative Aptitude', marks: 100, duration_minutes: 60, negative_marking: '-1/3 per wrong answer', qualifying_only: false }
-          ]
-        },
-        {
-          stage_name: 'Stage II: Core Domain & Descriptive Evaluation',
-          papers: [
-            { paper_name: 'Professional Knowledge / Core Discipline Paper', marks: 200, duration_minutes: 120, negative_marking: '-1/3 per wrong answer', qualifying_only: false }
-          ]
-        }
-      ] : [
-        {
-          stage_name: 'National Computer Based Test (CBT) / Written Exam',
-          papers: [
-            { paper_name: 'Core Discipline & Analytical Paper', marks: 300, duration_minutes: 180, negative_marking: '+4 for correct, -1 for wrong', qualifying_only: false }
-          ]
-        }
-      ])
-
-  const schemeRows = []
-  schemeStages.forEach(st => {
-    schemeRows.push([{
-      content: st.stage_name,
-      colSpan: 5,
-      styles: { fillColor: SLATE_BG, fontStyle: 'bold', textColor: NAVY, fontSize: 8 }
-    }])
-
-    st.papers.forEach(p => {
-      schemeRows.push([
-        p.paper_name,
-        p.marks ? `${p.marks} Marks` : 'Qualifying',
-        p.duration_minutes ? `${p.duration_minutes} Mins` : 'Standard',
-        p.negative_marking || 'None',
-        p.qualifying_only ? `Qualifying (${p.qualifying_threshold || 'Min 33%'})` : 'Merit Ranking'
-      ])
-    })
-  })
-
-  autoTable(doc, {
-    startY: currentY,
-    head: [['Stage & Paper Designation', 'Max Marks', 'Duration', 'Negative Marking Ratio', 'Evaluation Classification']],
-    body: schemeRows,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.4, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-    columnStyles: {
-      0: { cellWidth: 70, fontStyle: 'bold' },
-      1: { cellWidth: 26 },
-      2: { cellWidth: 24 },
-      3: { cellWidth: 32 },
-      4: { cellWidth: 30 }
-    },
-    margin: { left: 14, right: 14 }
-  })
-
-  currentY = doc.lastAutoTable.finalY + 8
-
-  // Section: High-Yield Assessment Domains (DYNAMIC BY EXAM DOMAIN!)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10.5)
-  doc.setTextColor(...NAVY)
-  doc.text('HIGH-YIELD SUBJECT DOMAINS & ASSESSMENT PILLARS', 14, currentY)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 1.5, 110, currentY + 1.5)
-  currentY += 5
-
-  // DYNAMIC PILLARS (Tailored to real exam curriculum, NOT static governance!)
-  const syllabusDomains = getSyllabusPillars(exam, detail)
-
-  autoTable(doc, {
-    startY: currentY,
-    head: [['Evaluation Pillar', 'Core Subject Coverage & High-Yield Focus']],
-    body: syllabusDomains,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-    columnStyles: {
-      0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 60 },
-      1: { cellWidth: 122 }
-    },
-    margin: { left: 14, right: 14 }
-  })
-
-  currentY = doc.lastAutoTable.finalY + 6
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(7.5)
-  doc.setTextColor(...MUTED)
-  doc.text(
-    'Exam Scheme Note: Candidates must adhere strictly to commission timing, negative marking ratios, and qualifying thresholds.',
-    14,
-    currentY
-  )
-
-  // ==========================================
-  // PAGE 3: DYNAMIC BIFURCATION (JOB vs ENTRANCE)
-  // ==========================================
-  doc.addPage()
-  currentY = 20
-
-  if (isJob) {
-    // -------------------------------------------------------------
-    // JOB EXAM: 7TH CPC FINANCIAL MATRIX & OFFICIAL CAREER LADDER
-    // -------------------------------------------------------------
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(13)
-    doc.setTextColor(...NAVY)
-    doc.text('7TH CENTRAL PAY COMMISSION & CAREER HIERARCHY', 14, currentY)
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(8)
-    doc.setTextColor(...AMBER)
-    doc.text('SECTION 3: COMPENSATION MATRIX, ALLOWANCES & APEX LADDER', 14, currentY + 5)
-    doc.setDrawColor(...AMBER)
-    doc.setLineWidth(0.8)
-    doc.line(14, currentY + 7, 132, currentY + 7)
-    currentY += 12
-
-    const entryBasic = detail?.financial_package?.entry_basic_pay || 56100
-    const payLevelStr = detail?.financial_package?.pay_level || exam.cadre || 'Level 10'
-    const daPct = detail?.financial_package?.da_percent_as_of_review || 55
-
-    const salMetro = calculateSalary({ basicPay: entryBasic, payLevel: payLevelStr, daPercent: daPct, cityTier: 'x' })
-    const salTier2 = calculateSalary({ basicPay: entryBasic, payLevel: payLevelStr, daPercent: daPct, cityTier: 'y' })
-    const salTier3 = calculateSalary({ basicPay: entryBasic, payLevel: payLevelStr, daPercent: daPct, cityTier: 'z' })
-
-    const salaryRows = [
-      ['Entry Basic Pay (Band Scale)', `Rs. ${entryBasic.toLocaleString('en-IN')}`, `Rs. ${entryBasic.toLocaleString('en-IN')}`, `Rs. ${entryBasic.toLocaleString('en-IN')}`],
-      [`Dearness Allowance (DA @ ${daPct}%)`, `Rs. ${salMetro.da.toLocaleString('en-IN')}`, `Rs. ${salTier2.da.toLocaleString('en-IN')}`, `Rs. ${salTier3.da.toLocaleString('en-IN')}`],
-      ['House Rent Allowance (HRA 30%/20%/10%)', `Rs. ${salMetro.hra.toLocaleString('en-IN')} (30%)`, `Rs. ${salTier2.hra.toLocaleString('en-IN')} (20%)`, `Rs. ${salTier3.hra.toLocaleString('en-IN')} (10%)`],
-      ['Transport Allowance (TA + DA on TA)', `Rs. ${(salMetro.ta + salMetro.daOnTa).toLocaleString('en-IN')}`, `Rs. ${(salTier2.ta + salTier2.daOnTa).toLocaleString('en-IN')}`, `Rs. ${(salTier3.ta + salTier3.daOnTa).toLocaleString('en-IN')}`],
-      ['ESTIMATED GROSS MONTHLY PAY', `Rs. ${salMetro.gross.toLocaleString('en-IN')}`, `Rs. ${salTier2.gross.toLocaleString('en-IN')}`, `Rs. ${salTier3.gross.toLocaleString('en-IN')}`],
-      ['Mandatory Deductions (NPS 10% + CGEGIS)', `Rs. ${(salMetro.nps + 120).toLocaleString('en-IN')}`, `Rs. ${(salTier2.nps + 120).toLocaleString('en-IN')}`, `Rs. ${(salTier3.nps + 120).toLocaleString('en-IN')}`],
-      ['ESTIMATED IN-HAND NET SALARY', `Rs. ${salMetro.inHand.toLocaleString('en-IN')}`, `Rs. ${salTier2.inHand.toLocaleString('en-IN')}`, `Rs. ${salTier3.inHand.toLocaleString('en-IN')}`]
-    ]
-
-    autoTable(doc, {
-      startY: currentY,
-      head: [[`Pay Component (${payLevelStr})`, 'Metro / X-Cities (Delhi, Mumbai, BLR)', 'Tier-2 / Y-Cities (State Capitals)', 'Tier-3 / Z-Cities (Other Postings)']],
-      body: salaryRows,
-      theme: 'grid',
-      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-      columnStyles: {
-        0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 62 },
-        1: { cellWidth: 40 },
-        2: { cellWidth: 40 },
-        3: { cellWidth: 40 }
-      },
-      didParseCell: (data) => {
-        if (data.row.index === 4 || data.row.index === 6) {
-          data.cell.styles.fontStyle = 'bold'
-          if (data.row.index === 6) {
-            data.cell.styles.textColor = EMERALD
-          }
-        }
-      },
-      margin: { left: 14, right: 14 }
-    })
-
-    currentY = doc.lastAutoTable.finalY + 8
-
-    // Section: Career Ladder
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(10.5)
-    doc.setTextColor(...NAVY)
-    doc.text('OFFICIAL CAREER PROGRESSION & APEX HIERARCHY', 14, currentY)
-    doc.setDrawColor(...AMBER)
-    doc.setLineWidth(0.8)
-    doc.line(14, currentY + 1.5, 95, currentY + 1.5)
-    currentY += 4
-
-    const ladderTableRows = getCareerLadder(exam, detail)
-
-    autoTable(doc, {
-      startY: currentY,
-      head: [['Seniority Horizon', 'Designation & Posting Authority', '7th CPC Pay Scale / Cadre', 'Empanelment Authority']],
-      body: ladderTableRows,
-      theme: 'grid',
-      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-      columnStyles: {
-        0: { fontStyle: 'bold', cellWidth: 32 },
-        1: { fontStyle: 'bold', cellWidth: 64 },
-        2: { cellWidth: 46 },
-        3: { cellWidth: 40 }
-      },
-      margin: { left: 14, right: 14 }
-    })
-
-  } else {
-    // -------------------------------------------------------------
-    // ENTRANCE EXAM: ADMISSIONS, SEAT ALLOCATION & INDUSTRY HORIZONS
-    // -------------------------------------------------------------
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(13)
-    doc.setTextColor(...NAVY)
-    doc.text('ACADEMIC ADMISSIONS, SEAT ALLOCATION & CAREER HORIZONS', 14, currentY)
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(8)
-    doc.setTextColor(...AMBER)
-    doc.text('SECTION 3: PREMIER INSTITUTES, STIPENDS & INDUSTRY PLACEMENT', 14, currentY + 5)
-    doc.setDrawColor(...AMBER)
-    doc.setLineWidth(0.8)
-    doc.line(14, currentY + 7, 140, currentY + 7)
-    currentY += 12
-
-    // Table 1: Admitting Institutions & Counseling
-    const admissionRows = [
-      ['Tier-1 Apex Institutions', 'Institutes of National Importance (IITs, AIIMS, IIMs, NLUs, IISc, Central Universities)', 'Direct Merit Allotment'],
-      ['Tier-2 Premier Institutions', 'NITs, IIITs, State Government Medical/Engineering Colleges, Top B-Schools', 'State / Central Quota Counseling'],
-      ['Statutory Counseling Authorities', 'JoSAA / CSAB (Engineering), MCC (Medical), CAP (State CETs), Consortium of NLUs (Law)', 'Centralized Online Seat Matrix'],
-      ['Reservation & Quota Norms', 'SC (15%), ST (7.5%), OBC-NCL (27%), EWS (10%), PwD (5% horizontal) as per Central/State norms', 'Mandatory Category Certificate Validated']
-    ]
-
-    autoTable(doc, {
-      startY: currentY,
-      head: [['Institutional Classification', 'Participating Premier Colleges & Universities', 'Allotment Authority']],
-      body: admissionRows,
-      theme: 'grid',
-      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-      columnStyles: {
-        0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 50 },
-        1: { cellWidth: 92 },
-        2: { cellWidth: 40 }
-      },
-      margin: { left: 14, right: 14 }
-    })
-
-    currentY = doc.lastAutoTable.finalY + 8
-
-    // Table 2: Fellowships, Stipends & Qualifications Awarded
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(10.5)
-    doc.setTextColor(...NAVY)
-    doc.text('QUALIFICATIONS AWARDED, STIPENDS & SCHOLARSHIPS', 14, currentY)
-    doc.setDrawColor(...AMBER)
-    doc.setLineWidth(0.8)
-    doc.line(14, currentY + 1.5, 110, currentY + 1.5)
-    currentY += 4
-
-    const stipendRows = [
-      ['Degree Qualifications Awarded', exam.target_role || 'Bachelor of Technology (B.Tech) / MBBS / MBA / LL.B / Master\'s', 'Awarded by Statutory University'],
-      ['Monthly PG Fellowship / Stipend', 'Rs. 12,400/mo (GATE M.Tech) | Rs. 37,000/mo + HRA (JRF/Ph.D.) | Rs. 25k - Rs. 40k/mo (Medical Interns)', 'MHRD / UGC / NMC Guidelines'],
-      ['Corporate Internship Benchmarks', 'Average Rs. 80,000 - Rs. 2,50,000 (2-month Summer Internship across Top Tech/Finance/Consulting)', 'Campus Placement Committees']
-    ]
-
-    autoTable(doc, {
-      startY: currentY,
-      head: [['Entitlement / Benchmark', 'Official Coverage & Amount Details', 'Regulatory Framework']],
-      body: stipendRows,
-      theme: 'grid',
-      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-      columnStyles: {
-        0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 54 },
-        1: { cellWidth: 88 },
-        2: { cellWidth: 40 }
-      },
-      margin: { left: 14, right: 14 }
-    })
-
-    currentY = doc.lastAutoTable.finalY + 8
-
-    // Table 3: Career Progression & Industry Placement Trajectory
-    doc.setFont('helvetica', 'bold')
-    doc.setFontSize(10.5)
-    doc.setTextColor(...NAVY)
-    doc.text('INDUSTRY PLACEMENT & PROFESSIONAL CAREER TRAJECTORY', 14, currentY)
-    doc.setDrawColor(...AMBER)
-    doc.setLineWidth(0.8)
-    doc.line(14, currentY + 1.5, 115, currentY + 1.5)
-    currentY += 4
-
-    const entranceCareerRows = getCareerLadder(exam, detail)
-
-    autoTable(doc, {
-      startY: currentY,
-      head: [['Career Horizon', 'Professional Designation / Role', 'Expected Compensation / Scale', 'Industry Sector / Path']],
-      body: entranceCareerRows,
-      theme: 'grid',
-      styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-      headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-      columnStyles: {
-        0: { fontStyle: 'bold', cellWidth: 36 },
-        1: { fontStyle: 'bold', cellWidth: 64 },
-        2: { cellWidth: 42, textColor: EMERALD },
-        3: { cellWidth: 40 }
-      },
-      margin: { left: 14, right: 14 }
-    })
-  }
-
-  // ==========================================
-  // PAGE 4: STATUTORY GAZETTE CITATIONS & PREP ADVISORY
-  // ==========================================
-  doc.addPage()
-  currentY = 20
-
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(13)
-  doc.setTextColor(...NAVY)
-  doc.text('STATUTORY GAZETTE CITATIONS & CANDIDATE ADVISORY', 14, currentY)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(8)
-  doc.setTextColor(...AMBER)
-  doc.text('SECTION 4: OFFICIAL CITATIONS, 4-PHASE STRATEGY & VERIFICATION', 14, currentY + 5)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 7, 138, currentY + 7)
-  currentY += 12
-
-  // Official Downloads Table
-  const officialDownloads = detail?.official_downloads?.links || [
-    { label: `${exam.name} Official Information Bulletin / Notification`, type: 'Notification', url: exam.official_website || 'https://www.india.gov.in' },
-    { label: `${exam.acronym || 'Exam'} Complete Syllabus & Scheme Document`, type: 'Syllabus', url: exam.official_website || 'https://www.india.gov.in' },
-    { label: 'Previous 5 Years Question Papers Repository', type: 'PYQ Archive', url: exam.official_website || 'https://www.india.gov.in' },
-    { label: 'Provisional Answer Key & Result Declaration Portal', type: 'Results Portal', url: exam.official_website || 'https://www.india.gov.in' }
-  ]
-
-  const downloadRows = officialDownloads.map(link => [
-    link.type || 'Official',
-    link.label,
-    link.url || 'Commission Portal'
-  ])
-
-  autoTable(doc, {
-    startY: currentY,
-    head: [['Document Type', 'Statutory Record Description', 'Official Portal Resource URL']],
-    body: downloadRows,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-    columnStyles: {
-      0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 32 },
-      1: { cellWidth: 70 },
-      2: { cellWidth: 80, textColor: [37, 99, 235] }
-    },
-    margin: { left: 14, right: 14 }
-  })
-
-  currentY = doc.lastAutoTable.finalY + 8
-
-  // Section: Strategic 4-Phase Candidate Preparation Protocol (DYNAMIC!)
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10.5)
-  doc.setTextColor(...NAVY)
-  doc.text('STRATEGIC 4-PHASE CANDIDATE PREPARATION PROTOCOL', 14, currentY)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 1.5, 120, currentY + 1.5)
-  currentY += 4
-
-  const protocolRows = getPreparationProtocol(exam)
-
-  autoTable(doc, {
-    startY: currentY,
-    head: [['Phase & Horizon', 'Candidate Milestone Deliverables']],
-    body: protocolRows,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.4, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5 },
-    columnStyles: {
-      0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 62 },
-      1: { cellWidth: 120 }
-    },
-    margin: { left: 14, right: 14 }
-  })
-
-  currentY = doc.lastAutoTable.finalY + 8
-
-  // Mandatory Pre-Exam Document Verification Checklist
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(10.5)
-  doc.setTextColor(...NAVY)
-  doc.text('PRE-EXAMINATION DOCUMENTATION & IDENTITY CHECKLIST', 14, currentY)
-  doc.setDrawColor(...AMBER)
-  doc.setLineWidth(0.8)
-  doc.line(14, currentY + 1.5, 125, currentY + 1.5)
-  currentY += 5
-
-  const checklistItems = isJob ? [
-    '[[OK]] Government Photo Identity: Original Aadhaar Card / Passport / Voter ID matching registration name.',
-    '[[OK]] Category / Reservation Certificates: Valid OBC-NCL / EWS / SC / ST certificate issued within validity window.',
-    '[[OK]] Educational Credentials: Final Degree Certificate / Consolidated Marksheets from UGC/AICTE recognized institution.',
-    '[[OK]] Commission Admit Card: Clear colored printout with legible barcode and identical passport photographs.'
-  ] : [
-    '[[OK]] Government Photo Identity: Original Aadhaar Card / Passport / School Photo ID matching admit card credentials.',
-    '[[OK]] Examination Admit Card: Clear printout along with Self-Declaration (Undertaking) if mandated by Testing Agency.',
-    '[[OK]] Category / Reservation Certificates: Valid OBC-NCL / EWS / SC / ST certificate for counseling seat allocation.',
-    '[[OK]] Qualifying Examination Admit Card / Marksheet: Class 12 / Graduation proof for counseling verification.'
-  ]
-
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(7.5)
-  doc.setTextColor(51, 65, 85)
-  checklistItems.forEach(item => {
-    doc.text(item, 14, currentY)
-    currentY += 4
-  })
-
-  currentY += 3
-  // Verification Seal & Sign-off Box
-  doc.setFillColor(...SLATE_BG)
-  doc.roundedRect(14, currentY, 182, 18, 1.5, 1.5, 'F')
-  doc.setDrawColor(...BORDER_COLOR)
-  doc.rect(14, currentY, 182, 18)
-
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(8)
-  doc.setTextColor(...NAVY)
-  doc.text('NIC & STATUTORY COMMISSION VERIFICATION SEAL', 18, currentY + 6)
-
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(7)
-  doc.setTextColor(...MUTED)
-  doc.text(
-    `Digital Verification Reference: ${refId} | Verified through public commission portals as of ${timestampStr}. For authoritative updates, consult the official portal directly.`,
-    18,
-    currentY + 12
-  )
-
-  // Apply running header and footer across all 4 pages
-  addRunningHeaderFooter(doc, exam.name, exam.acronym, refId, 4)
-
-  // Save the PDF
-  const filename = `${(exam.acronym || exam.name || 'exam').toLowerCase().replace(/[^a-z0-9]/g, '-')}-research-dossier.pdf`
-  doc.save(filename)
+  const slug = String(exam.id || exam.acronym || exam.name || 'exam').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  doc.save(`${slug}-exam-dossier.pdf`)
 }
 
-/**
- * Generates an Institutional Multi-Column Comparison Matrix PDF
- */
-export function exportComparisonMatrixPdf(compareExams = []) {
-  if (!compareExams || compareExams.length === 0) return
+// ---------------------------------------------------------------------------
+// Public: comparison matrix (landscape, 2–4 exams)
+// ---------------------------------------------------------------------------
 
-  // Landscape A4 for rich multi-column view
-  const doc = new jsPDF({ orientation: 'landscape', unit: 'mm', format: 'a4' })
+function comparisonRows(exams, details) {
+  const cell = (fn) => exams.map((e, i) => fn(e, details[i]))
+  const payText = (e, d) => {
+    if (!isJobTrack(e.track)) return 'Not applicable (not a recruitment exam)'
+    const fp = d?.financial_package
+    if (!sectionAvailable(fp) || !isNum(fp.entry_basic_pay)) return NOT_AVAILABLE
+    return `${clean(fp.pay_level)}\nEntry basic ${rupees(fp.entry_basic_pay)}/month\n${evidenceText(fp.pay_confidence, fp.pay_as_of)}`
+  }
+  const stagesText = (e, d) => {
+    const sc = d?.exam_scheme
+    const st = sectionAvailable(sc) ? [...(sc.stages || [])].sort((a, b) => (a.stage_order ?? 0) - (b.stage_order ?? 0)) : []
+    if (!st.length) return NOT_AVAILABLE
+    return `${plural(st.length, 'stage', 'stages')}\n` + st.map((s, i) => `${i + 1}. ${clean(s.stage_name)}`).join('\n')
+  }
+  const stageCount = (e, d) => {
+    const sc = d?.exam_scheme
+    return sectionAvailable(sc) ? (sc.stages || []).length : null
+  }
+  const vac = e => {
+    const v = vacancyFact(e)
+    return v.url ? linkCell(v.text, v.url) : v.text
+  }
+  const site = e => (has(e.official_website) && e.official_website !== '#' ? linkCell(e.official_website, e.official_website) : NOT_AVAILABLE)
 
-  const now = new Date()
-  const year = now.getFullYear()
-  const refId = `IX-COMPARE/${year}/${compareExams.map(e => (e.acronym || 'EXAM').substring(0, 4)).join('-')}`
-  const timestampStr = now.toLocaleDateString('en-IN', {
-    day: '2-digit',
-    month: 'short',
-    year: 'numeric'
-  })
-
-  // Title Banner
-  doc.setFillColor(...NAVY)
-  doc.roundedRect(14, 12, 269, 20, 2, 2, 'F')
-
-  doc.setFillColor(...AMBER)
-  doc.rect(14, 12, 3, 20, 'F')
-
-  doc.setFont('helvetica', 'bold')
-  doc.setFontSize(13)
-  doc.setTextColor(255, 255, 255)
-  doc.text(`STATUTORY EXAMINATION COMPARATIVE ASSESSMENT MATRIX (${compareExams.length} EXAMINATIONS)`, 21, 21)
-
-  doc.setFont('helvetica', 'normal')
-  doc.setFontSize(8)
-  doc.setTextColor(203, 213, 225)
-  doc.text(`Reference ID: ${refId} | Generated: ${timestampStr} | Statutory Rules & Guidelines Compliant`, 21, 28)
-
-  // AutoTable Header: Metric + 1 column per exam
-  const headRow = ['Evaluation Criteria', ...compareExams.map(e => `${e.name}\n[${e.acronym || 'ID'}]`)]
-
-  // Build matrix rows
-  const comparisonRows = [
-    ['Examination Type', ...compareExams.map(e => e.track === 'R' ? '[Career] Job Recruitment' : e.track === 'Q' ? '[Professional] Qualification' : '[Academic] Entrance Exam')],
-    ['Conducting Commission', ...compareExams.map(e => e.conducting_body || 'N/A')],
-    ['Domain & Discipline', ...compareExams.map(e => e.domain || 'N/A')],
-    ['Jurisdiction & Scope', ...compareExams.map(e => e.jurisdiction === 'central' ? 'Central / All India' : `State (${e.state})`)],
-    ['Degree / Entry Level', ...compareExams.map(e => e.level || 'N/A')],
-    ['Targeted Cadre / Role', ...compareExams.map(e => `${e.cadre || 'National Service'}\n(${e.target_role || 'Executive'})`)],
-    ['Examination Mode', ...compareExams.map(e => e.exam_mode || 'N/A')],
-    ['Annual Frequency', ...compareExams.map(e => e.frequency || 'Annual')],
-    ['Tentative Examination Month', ...compareExams.map(e => e.exam_month || 'TBA')],
-    ['Application Notification Period', ...compareExams.map(e => e.application_period || 'As notified')],
-    ['Minimum Educational Criteria', ...compareExams.map(e => e.min_qualification || 'Degree')],
-    ['Statutory Age Limit', ...compareExams.map(e => e.age_limit || 'As per norms')],
-    ['Official Commission Portal', ...compareExams.map(e => e.official_website || 'india.gov.in')]
+  // [label, cells, { diff: false } to exclude from difference shading]
+  return [
+    ['Exam type (track)', cell(e => getTrackLabel(e.track))],
+    ['Conducting body', cell(e => orNA(e.conducting_body))],
+    ['Jurisdiction', cell(e => jurisdictionLabel(e))],
+    ['Domain', cell(e => orNA(e.domain))],
+    ['Minimum qualification', cell(e => orNA(e.min_qualification))],
+    ['Age limit', cell(e => orNA(e.age_limit))],
+    ['Mode', cell(e => orNA(e.exam_mode))],
+    ['Frequency', cell(e => orNA(e.frequency))],
+    ['Application window', cell(e => orNA(e.application_period))],
+    ['Exam month', cell(e => orNA(e.exam_month))],
+    ['Posts / leads to', cell(e => orNA(e.target_role))],
+    ['Latest vacancies', cell(e => vac(e))],
+    ['Pay level / entry pay', cell((e, d) => payText(e, d))],
+    ['Exam stages', cell((e, d) => stagesText(e, d)), { diffOn: cell((e, d) => stageCount(e, d)) }],
+    ['Record type · last reviewed', cell((e, d) => `${getRecordTierLabel(e.record_tier)} · ${d?.last_reviewed ? `reviewed ${fmtDate(d.last_reviewed)}` : 'review date not available'}`),
+      { diffOn: cell(e => getRecordTierLabel(e.record_tier)) }],
+    ['Official website', cell(e => site(e)), { diff: false }]
   ]
+}
 
-  const colWidth = Math.floor(215 / compareExams.length)
-  const columnStyles = {
-    0: { fontStyle: 'bold', fillColor: SLATE_BG, cellWidth: 54 }
+function cellKey(c) {
+  if (c && typeof c === 'object') return String(c.content ?? '').toLowerCase().replace(/\s+/g, ' ').trim()
+  return String(c ?? '').toLowerCase().replace(/\s+/g, ' ').trim()
+}
+
+export async function exportComparisonMatrixPdf(compareExams = []) {
+  if (!compareExams || compareExams.length === 0) return false
+  try {
+    const exams = compareExams.slice(0, 4)
+    const details = await Promise.all(exams.map(e => getExamDetailData(e, null)))
+    const doc = await createDoc('landscape')
+    const L = makeLayout(doc)
+    const { M, W } = L
+
+    // Title band
+    const bandH = 15
+    doc.setFillColor(...NAVY)
+    doc.rect(M, L.y, W, bandH, 'F')
+    doc.setFillColor(...AMBER)
+    doc.rect(M, L.y, 2, bandH, 'F')
+    setText(doc, 7, 'bold', AMBER)
+    doc.text('EXAM COMPARISON', M + 7, L.y + 3, { baseline: 'top' })
+    setText(doc, 13, 'bold', WHITE)
+    const names = exams.map(e => clean(e.acronym || e.name)).join('  vs  ')
+    doc.text(doc.splitTextToSize(names, W - 80)[0], M + 7, L.y + 7, { baseline: 'top' })
+    setText(doc, 7.6, 'normal', [203, 213, 225])
+    doc.text(`${exams.length} exams · Downloaded on ${todayStr()}`, M + W - 5, L.y + 8.4, { baseline: 'top', align: 'right' })
+    L.y += bandH + 3
+
+    const rows = comparisonRows(exams, details)
+    const differs = rows.map(([, cells, opts]) => {
+      if (opts?.diff === false) return false
+      const keys = (opts?.diffOn || cells).map(cellKey)
+      return new Set(keys).size > 1
+    })
+
+    const firstW = 40
+    const colW = (W - firstW) / exams.length
+    const columnStyles = { 0: { cellWidth: firstW, fontStyle: 'bold', fillColor: LABEL_BG } }
+    exams.forEach((_, i) => { columnStyles[i + 1] = { cellWidth: colW } })
+
+    const head = [[
+      { content: 'Criterion', styles: { valign: 'bottom' } },
+      ...exams.map(e => ({
+        content: has(e.acronym) && clean(e.acronym) !== clean(e.name) ? `${clean(e.acronym)}\n${clean(e.name)}` : clean(e.name),
+        styles: { valign: 'bottom' }
+      }))
+    ]]
+    const body = rows.map(([label, cells]) => [label, ...cells])
+
+    runTable(L, tableBase(L, {
+      head,
+      body,
+      alternateRowStyles: {},
+      styles: { ...tableBase(L).styles, fontSize: exams.length >= 4 ? 7.2 : 7.6, cellPadding: { top: 1.35, right: 2.2, bottom: 1.35, left: 2.4 } },
+      headStyles: { ...tableBase(L).headStyles, fontSize: exams.length >= 4 ? 7.4 : 8 },
+      columnStyles,
+      didParseCell: data => {
+        if (data.section !== 'body') return
+        const r = data.row.index
+        if (differs[r]) data.cell.styles.fillColor = data.column.index === 0 ? [250, 234, 204] : DIFF_FILL
+        if (data.column.index > 0 && data.cell.text?.[0] === NOT_AVAILABLE) data.cell.styles.textColor = MUTED
+      },
+      didDrawCell: data => {
+        if (data.section !== 'body') return
+        const raw = data.cell.raw
+        if (raw && typeof raw === 'object' && raw.url) {
+          doc.link(data.cell.x, data.cell.y, data.cell.width, data.cell.height, { url: raw.url })
+        }
+        // An amber edge on the label cell marks a differing row, so it still reads in greyscale.
+        if (data.column.index === 0 && differs[data.row.index]) {
+          doc.setFillColor(...AMBER)
+          doc.rect(data.cell.x, data.cell.y, 1.1, data.cell.height, 'F')
+        }
+      }
+    }))
+
+    caption(L, 'Shaded rows with an amber edge: the exams differ on that point. Vacancies are printed only when verified against the conducting body\'s own document; pay level comes from each exam\'s dossier with its evidence label (Verified / Reported). Other facts come from the site\'s exam listing and are not individually source-tagged.', 1)
+    caption(L, 'Use each exam\'s own dossier PDF for sources and dates, and confirm everything on the official website before applying.', 2)
+
+    drawRunningHeaderFooter(L, `Comparison: ${exams.map(e => clean(e.acronym || e.name)).join(', ')}`)
+    doc.setProperties({ title: `Exam comparison — ${names}`, author: SITE_NAME, creator: SITE_NAME })
+    const slug = exams.map(e => String(e.id || e.acronym || 'exam').toLowerCase().replace(/[^a-z0-9]+/g, '-')).join('-vs-')
+    doc.save(`exam-comparison-${slug}.pdf`)
+    return true
+  } catch (err) {
+    // ComparisonTool calls this without awaiting, so report failures here rather than
+    // leaving an unhandled rejection.
+    console.error('Failed to export comparison PDF:', err)
+    return false
   }
-  for (let i = 1; i <= compareExams.length; i++) {
-    columnStyles[i] = { cellWidth: colWidth }
-  }
-
-  autoTable(doc, {
-    startY: 36,
-    head: [headRow],
-    body: comparisonRows,
-    theme: 'grid',
-    styles: { fontSize: 7.5, cellPadding: 2.2, textColor: [30, 41, 59] },
-    headStyles: { fillColor: NAVY, textColor: [255, 255, 255], fontStyle: 'bold', fontSize: 7.5, halign: 'center' },
-    columnStyles,
-    margin: { left: 14, right: 14 }
-  })
-
-  // Add landscape footer
-  const pageCount = doc.getNumberOfPages()
-  for (let i = 1; i <= pageCount; i++) {
-    doc.setPage(i)
-    doc.setDrawColor(...BORDER_COLOR)
-    doc.line(14, 198, 283, 198)
-
-    doc.setFont('helvetica', 'normal')
-    doc.setFontSize(7)
-    doc.setTextColor(...MUTED)
-    doc.text('INDIAEXAMS INTELLIGENCE SYSTEM | Official Comparative Assessment Matrix | www.indiaexams.org', 14, 202)
-
-    doc.setFont('helvetica', 'bold')
-    doc.setTextColor(...NAVY)
-    doc.text(`Page ${i} of ${pageCount}`, 283, 202, { align: 'right' })
-  }
-
-  const filename = `indiaexams-comparison-matrix-${compareExams.map(e => (e.acronym || 'exam').toLowerCase()).join('-vs-')}.pdf`
-  doc.save(filename)
 }
