@@ -786,7 +786,7 @@ export default function MyDashboard({
               const estimatedDays = calculateEstimatedDays(exam.exam_month)
               const examTasks = todoList.filter(t => t.examId === exam.id)
               const examCompletedTasks = examTasks.filter(t => t.completed).length
-              const isCompared = compareList.includes(exam.id)
+              const isCompared = compareList.some(e => e.id === exam.id)
 
               return (
                 <div key={exam.id} className="workstation-dossier-card">
@@ -950,7 +950,7 @@ export default function MyDashboard({
 
                     <button
                       className={`mterminal-action-btn secondary-action ${isCompared ? 'active-compare' : ''}`}
-                      onClick={() => onToggleCompare && onToggleCompare(exam.id)}
+                      onClick={() => onToggleCompare && onToggleCompare(exam)}
                       title="Add or remove from multi-column comparison matrix"
                     >
                       <HiOutlineScale className="mterminal-btn-icon" />

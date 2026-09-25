@@ -510,14 +510,30 @@ function App() {
     goToView('explore')
   }
 
-  const toggleCompare = (exam) => {
-    setCompareList(prev => {
-      if (prev.find(e => e.id === exam.id)) {
-        return prev.filter(e => e.id !== exam.id)
-      }
-      if (prev.length >= 4) return prev
-      return [...prev, exam]
-    })
+  const [compareNotice, setCompareNotice] = useState(null)
+  const compareNoticeTimer = useRef(null)
+  const showCompareNotice = (text) => {
+    setCompareNotice(text)
+    clearTimeout(compareNoticeTimer.current)
+    compareNoticeTimer.current = setTimeout(() => setCompareNotice(null), 3500)
+  }
+
+  // Accepts an exam or its id: the Saved page used to pass the id, which put a
+  // bare string into the list and broke the Compare screen
+  const toggleCompare = (examOrId) => {
+    const exam = typeof examOrId === 'string' ? examsData.find(e => e.id === examOrId) : examOrId
+    if (!exam) return
+    if (compareList.some(e => e.id === exam.id)) {
+      setCompareList(prev => prev.filter(e => e.id !== exam.id))
+      return
+    }
+    if (compareList.length >= 4) {
+      // Used to be ignored silently, which read as the button not working
+      showCompareNotice('You can compare up to 4 exams. Remove one on the Compare screen to add another.')
+      return
+    }
+    setCompareList(prev => (prev.some(e => e.id === exam.id) || prev.length >= 4 ? prev : [...prev, exam]))
+    showCompareNotice(`${exam.acronym || exam.name} added to Compare (${compareList.length + 1} of 4)`)
   }
 
   const removeFromCompare = (examId) => {
@@ -791,6 +807,17 @@ function App() {
           </Suspense>
         )}
       </main>
+
+      {compareNotice && (
+        <div className="mterminal-toast compare-toast" role="status">
+          <span>{compareNotice}</span>
+          {activeView !== 'compare' && compareList.length > 0 && (
+            <button type="button" className="compare-toast-link" onClick={() => { setCompareNotice(null); goToView('compare') }}>
+              Open Compare
+            </button>
+          )}
+        </div>
+      )}
 
       {/* Always-visible route to the feedback form — it used to be reachable
           only from inside the About menu, which few visitors ever opened. */}

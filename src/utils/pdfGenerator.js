@@ -445,23 +445,17 @@ function drawRunningHeaderFooter(L, rightLabel) {
 // Dossier sections
 // ---------------------------------------------------------------------------
 
-function drawCover(L, exam, detail) {
+// Navy title band opening both PDFs: kicker, title, optional amber sub-title, grey meta line.
+function drawTitleBand(L, { kicker, title, accent = null, meta = '' }) {
   const { doc, M, W } = L
-  const registry = isRegistryTier(exam.record_tier)
-
-  // Title band
   const padX = 7
   setText(doc, 18, 'bold', WHITE)
-  const titleLines = doc.splitTextToSize(clean(exam.name || 'Exam'), W - padX * 2).slice(0, 3)
-  const showAcronym = has(exam.acronym) && clean(exam.acronym) !== clean(exam.name)
+  const titleLines = doc.splitTextToSize(clean(title), W - padX * 2).slice(0, 3)
   setText(doc, 8.5, 'normal', WHITE)
-  const metaLine = [clean(exam.conducting_body) || null, jurisdictionLabel(exam), getTrackLabel(exam.track)]
-    .filter(Boolean)
-    .join('   ·   ')
-  const metaLines = doc.splitTextToSize(metaLine, W - padX * 2)
+  const metaLines = meta ? doc.splitTextToSize(meta, W - padX * 2) : []
 
   const bandTop = L.y
-  const bandH = 6.5 + 4.5 + titleLines.length * lineH(18) + (showAcronym ? lineH(10.5) + 1 : 0) + 2.5 + metaLines.length * lineH(8.5) + 5
+  const bandH = 6.5 + 4.5 + titleLines.length * lineH(18) + (accent ? lineH(10.5) + 1 : 0) + 2.5 + metaLines.length * lineH(8.5) + 5
   doc.setFillColor(...NAVY)
   doc.rect(M, bandTop, W, bandH, 'F')
   doc.setFillColor(...AMBER)
@@ -469,39 +463,56 @@ function drawCover(L, exam, detail) {
 
   let y = bandTop + 6.5
   setText(doc, 7, 'bold', AMBER)
-  doc.text('EXAM DOSSIER', M + padX, y, { baseline: 'top' })
+  doc.text(kicker, M + padX, y, { baseline: 'top' })
   y += 4.5
   setText(doc, 18, 'bold', WHITE)
   doc.text(titleLines, M + padX, y, { baseline: 'top' })
   y += titleLines.length * lineH(18)
-  if (showAcronym) {
+  if (accent) {
     setText(doc, 10.5, 'bold', AMBER)
-    doc.text(clean(exam.acronym), M + padX, y + 0.5, { baseline: 'top' })
+    doc.text(clean(accent), M + padX, y + 0.5, { baseline: 'top' })
     y += lineH(10.5) + 1
   }
   y += 2.5
   setText(doc, 8.5, 'normal', [203, 213, 225])
-  doc.text(metaLines, M + padX, y, { baseline: 'top' })
+  if (metaLines.length) doc.text(metaLines, M + padX, y, { baseline: 'top' })
   L.y = bandTop + bandH
+}
 
-  // Review / download strip
+// Light strip under the title band: three [LABEL, value] cells.
+function drawInfoStrip(L, cells) {
+  const { doc, M, W } = L
+  const padX = 7
   const stripH = 11
   doc.setFillColor(...LABEL_BG)
   doc.rect(M, L.y, W, stripH, 'F')
-  const cells = [
-    ['INFORMATION LAST REVIEWED', detail?.last_reviewed ? fmtDate(detail.last_reviewed) : NOT_AVAILABLE],
-    ['RECORD TYPE', registry ? 'Registry entry (basic listing)' : getRecordTierLabel(exam.record_tier)],
-    ['DOWNLOADED ON', todayStr()]
-  ]
-  const cw = W / 3
+  const cw = W / cells.length
   cells.forEach(([label, value], i) => {
     const x = M + padX + i * cw
     setText(doc, 6.3, 'bold', MUTED)
     doc.text(label, x, L.y + 2.3, { baseline: 'top' })
     setText(doc, 8.8, 'bold', NAVY)
-    doc.text(value, x, L.y + 5.6, { baseline: 'top' })
+    doc.text(doc.splitTextToSize(value, cw - padX)[0] || '', x, L.y + 5.6, { baseline: 'top' })
   })
   L.y += stripH + 4
+}
+
+function drawCover(L, exam, detail) {
+  const { W } = L
+  const registry = isRegistryTier(exam.record_tier)
+
+  const showAcronym = has(exam.acronym) && clean(exam.acronym) !== clean(exam.name)
+  drawTitleBand(L, {
+    kicker: 'EXAM DOSSIER',
+    title: exam.name || 'Exam',
+    accent: showAcronym ? exam.acronym : null,
+    meta: [clean(exam.conducting_body) || null, jurisdictionLabel(exam), getTrackLabel(exam.track)].filter(Boolean).join('   ·   ')
+  })
+  drawInfoStrip(L, [
+    ['INFORMATION LAST REVIEWED', detail?.last_reviewed ? fmtDate(detail.last_reviewed) : NOT_AVAILABLE],
+    ['RECORD TYPE', registry ? 'Registry entry (basic listing)' : getRecordTierLabel(exam.record_tier)],
+    ['DOWNLOADED ON', todayStr()]
+  ])
 
   if (registry) {
     paragraph(L, 'This exam is a registry entry: only its basic listing is on file. A full dossier (exam pattern, cut-offs, pay, career path) has not been compiled yet — the summary below shows what is and is not on file.', { size: 8, color: MUTED, gapAfter: 3 })
@@ -602,16 +613,7 @@ function drawContentsSummary(L, exam, detail) {
 
   // Legend, measured first so the heading, table and legend stay on one page.
   const { doc } = L
-  const legend = [
-    ['Verified', "checked against the conducting body's own document."],
-    ['Reported', 'attributed to a named source, not yet re-checked against the official document. As on the website, cut-off and vacancy numbers are not printed for these rows.'],
-    ['Estimated', 'a calculated or approximate figure, not taken from any single document.']
-  ]
-  setText(doc, 7.4, 'normal', INK)
-  const textW = L.W - 8 - 20
-  const lineSets = legend.map(([, t]) => doc.splitTextToSize(t, textW))
-  const lh = lineH(7.4)
-  const boxH = 3 + lh + 1.2 + lineSets.reduce((n, ls) => n + ls.length * lh + 0.6, 0) + 2
+  const boxH = measureLabelLegend(L)
   setText(doc, 8, 'normal', INK)
   const tableH = 7 + rows.reduce((n, r) => n + doc.splitTextToSize(r[1], L.W - 48 - 4.8).length * lineH(8) + 3.2, 0)
 
@@ -623,6 +625,31 @@ function drawContentsSummary(L, exam, detail) {
     columnStyles: { 0: { cellWidth: 48, fontStyle: 'bold' }, 1: { cellWidth: L.W - 48 } }
   }))
 
+  drawLabelLegend(L)
+}
+
+// "How to read the labels" box, shared by the dossier cover and the comparison.
+const LABEL_LEGEND = [
+  ['Verified', "checked against the conducting body's own document."],
+  ['Reported', 'attributed to a named source, not yet re-checked against the official document. As on the website, cut-off and vacancy numbers are not printed for these rows.'],
+  ['Estimated', 'a calculated or approximate figure, not taken from any single document.']
+]
+
+function legendLineSets(L) {
+  setText(L.doc, 7.4, 'normal', INK)
+  return LABEL_LEGEND.map(([, t]) => L.doc.splitTextToSize(t, L.W - 8 - 20))
+}
+
+function measureLabelLegend(L) {
+  const lh = lineH(7.4)
+  return 3 + lh + 1.2 + legendLineSets(L).reduce((n, ls) => n + ls.length * lh + 0.6, 0) + 2
+}
+
+function drawLabelLegend(L) {
+  const { doc } = L
+  const lineSets = legendLineSets(L)
+  const lh = lineH(7.4)
+  const boxH = measureLabelLegend(L)
   ensureSpace(L, boxH + 2)
   L.y += 1
   doc.setFillColor(...LABEL_BG)
@@ -633,7 +660,7 @@ function drawContentsSummary(L, exam, detail) {
   setText(doc, 7.6, 'bold', NAVY)
   doc.text('How to read the labels', L.M + 4, y, { baseline: 'top' })
   y += lh + 1.2
-  legend.forEach(([label], i) => {
+  LABEL_LEGEND.forEach(([label], i) => {
     setText(doc, 7.4, 'bold', NAVY)
     doc.text(label, L.M + 4, y, { baseline: 'top' })
     setText(doc, 7.4, 'normal', INK)
@@ -1200,13 +1227,15 @@ export async function exportExamDossierPdf(exam, suppliedDetail = null) {
 // Public: comparison matrix (landscape, 2–4 exams)
 // ---------------------------------------------------------------------------
 
-function comparisonRows(exams, details) {
+function comparisonRows(exams, details, sources) {
   const cell = (fn) => exams.map((e, i) => fn(e, details[i]))
+  const refTag = n => (n ? ` [${n}]` : '')
   const payText = (e, d) => {
     if (!isJobTrack(e.track)) return 'Not applicable (not a recruitment exam)'
     const fp = d?.financial_package
     if (!sectionAvailable(fp) || !isNum(fp.entry_basic_pay)) return NOT_AVAILABLE
-    return `${clean(fp.pay_level)}\nEntry basic ${rupees(fp.entry_basic_pay)}/month\n${evidenceText(fp.pay_confidence, fp.pay_as_of)}`
+    const ref = sources.add(fp.pay_source_label ? `${clean(e.acronym || e.name)} pay — ${fp.pay_source_label}` : null, fp.pay_source_url)
+    return `${clean(fp.pay_level)}\nEntry basic ${rupees(fp.entry_basic_pay)}/month\n${evidenceText(fp.pay_confidence, fp.pay_as_of)}${refTag(ref)}`
   }
   const stagesText = (e, d) => {
     const sc = d?.exam_scheme
@@ -1220,7 +1249,9 @@ function comparisonRows(exams, details) {
   }
   const vac = e => {
     const v = vacancyFact(e)
-    return v.url ? linkCell(v.text, v.url) : v.text
+    if (!v.url) return v.text
+    const ref = sources.add(`${clean(e.acronym || e.name)} vacancies — source document`, v.url)
+    return linkCell(`${v.text}${refTag(ref)}`, v.url)
   }
   const site = e => (has(e.official_website) && e.official_website !== '#' ? linkCell(e.official_website, e.official_website) : NOT_AVAILABLE)
 
@@ -1256,35 +1287,42 @@ export async function exportComparisonMatrixPdf(compareExams = []) {
   try {
     const exams = compareExams.slice(0, 4)
     const details = await Promise.all(exams.map(e => getExamDetailData(e, null)))
+    // Landscape: four exam columns don't fit a portrait page. Everything else
+    // (band, strip, headings, label column, legend, sources) matches the dossier.
     const doc = await createDoc('landscape')
     const L = makeLayout(doc)
-    const { M, W } = L
+    const { W } = L
 
-    // Title band
-    const bandH = 15
-    doc.setFillColor(...NAVY)
-    doc.rect(M, L.y, W, bandH, 'F')
-    doc.setFillColor(...AMBER)
-    doc.rect(M, L.y, 2, bandH, 'F')
-    setText(doc, 7, 'bold', AMBER)
-    doc.text('EXAM COMPARISON', M + 7, L.y + 3, { baseline: 'top' })
-    setText(doc, 13, 'bold', WHITE)
     const names = exams.map(e => clean(e.acronym || e.name)).join('  vs  ')
-    doc.text(doc.splitTextToSize(names, W - 80)[0], M + 7, L.y + 7, { baseline: 'top' })
-    setText(doc, 7.6, 'normal', [203, 213, 225])
-    doc.text(`${exams.length} exams · Downloaded on ${todayStr()}`, M + W - 5, L.y + 8.4, { baseline: 'top', align: 'right' })
-    L.y += bandH + 3
+    drawTitleBand(L, {
+      kicker: 'EXAM COMPARISON',
+      title: names,
+      meta: exams.map(e => clean(e.name)).join('   ·   ')
+    })
+    const reviewed = details.map(d => d?.last_reviewed).filter(Boolean).sort()
+    const reviewedText = !reviewed.length
+      ? NOT_AVAILABLE
+      : reviewed[0] === reviewed[reviewed.length - 1]
+        ? fmtDate(reviewed[0])
+        : `${fmtDate(reviewed[0])} to ${fmtDate(reviewed[reviewed.length - 1])}`
+    drawInfoStrip(L, [
+      ['EXAMS COMPARED', String(exams.length)],
+      ['INFORMATION LAST REVIEWED', reviewedText],
+      ['DOWNLOADED ON', todayStr()]
+    ])
 
-    const rows = comparisonRows(exams, details)
+    const sources = makeSources()
+    const rows = comparisonRows(exams, details, sources)
     const differs = rows.map(([, cells, opts]) => {
       if (opts?.diff === false) return false
       const keys = (opts?.diffOn || cells).map(cellKey)
       return new Set(keys).size > 1
     })
 
-    const firstW = 40
+    const firstW = 36
     const colW = (W - firstW) / exams.length
-    const columnStyles = { 0: { cellWidth: firstW, fontStyle: 'bold', fillColor: LABEL_BG } }
+    // Label column styled like the dossier's key-facts labels
+    const columnStyles = { 0: { cellWidth: firstW, fontStyle: 'bold', fillColor: LABEL_BG, fontSize: 6.4, textColor: MUTED } }
     exams.forEach((_, i) => { columnStyles[i + 1] = { cellWidth: colW } })
 
     const head = [[
@@ -1294,8 +1332,9 @@ export async function exportComparisonMatrixPdf(compareExams = []) {
         styles: { valign: 'bottom' }
       }))
     ]]
-    const body = rows.map(([label, cells]) => [label, ...cells])
+    const body = rows.map(([label, cells]) => [label.toUpperCase(), ...cells])
 
+    sectionHeading(L, 'Side-by-side comparison', { keepWith: 40 })
     runTable(L, tableBase(L, {
       head,
       body,
@@ -1323,8 +1362,9 @@ export async function exportComparisonMatrixPdf(compareExams = []) {
       }
     }))
 
-    caption(L, 'Shaded rows with an amber edge: the exams differ on that point. Vacancies are printed only when verified against the conducting body\'s own document; pay level comes from each exam\'s dossier with its evidence label (Verified / Reported). Other facts come from the site\'s exam listing and are not individually source-tagged.', 1)
-    caption(L, 'Use each exam\'s own dossier PDF for sources and dates, and confirm everything on the official website before applying.', 2)
+    caption(L, 'Shaded rows with an amber edge: the exams differ on that point. Vacancies are printed only when verified against the conducting body\'s own document; pay level comes from each exam\'s dossier with its evidence label. Other facts come from the site\'s exam listing and are not individually source-tagged. Each exam\'s own dossier PDF has its full sources.', 2)
+    renderSources(L, sources, 'Side-by-side comparison')
+    drawLabelLegend(L)
 
     drawRunningHeaderFooter(L, `Comparison: ${exams.map(e => clean(e.acronym || e.name)).join(', ')}`)
     doc.setProperties({ title: `Exam comparison — ${names}`, author: SITE_NAME, creator: SITE_NAME })

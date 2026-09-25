@@ -16739,3 +16739,21 @@ html, body {
   .feedback-fab span { display: none; }
   .feedback-fab-icon { font-size: 1.25rem; }
 }
+
+/* Compare add / limit notice (App.jsx) — reuses .mterminal-toast's position and look */
+.compare-toast { display: flex; align-items: center; gap: 12px; max-width: min(460px, calc(100vw - 32px)); }
+.compare-toast-link {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  font: inherit;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--amber-bright);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  /* clear the bottom nav and the round feedback button */
+  .compare-toast { bottom: calc(58px + 70px + env(safe-area-inset-bottom, 0px)) !important; right: 16px !important; left: 16px; }
+}
