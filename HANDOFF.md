@@ -1,36 +1,16 @@
 # Handoff — India Exams Dashboard
 
-> **Added 2026-09-25 — the Updates feed's stored news was fabricated, and has been replaced.**
-> `src/data/news.json` (353 items, hand-built 2026-09-18) held no traceable news: 340 items
-> linked only to the india.gov.in home page with templated text, many were dated up to a week
-> after they were written, and all carried invented "GOI-STATUTORY-CIRCULAR" reference numbers
-> labelled "AUTHENTICATED · NIC GAZETTE REPOSITORY". It was deleted. In its place:
-> - `scripts/automation/refresh-news.mjs` builds `public/news/all.json` (past 7 days) and
->   `public/news/latest.json` (newest 10, for the ticker) from real Google News headlines, keeping
->   only headlines that name an exam or authority in the registry (`src/utils/newsMatch.js`, also
->   used by the in-browser live fetch so both label stories identically).
-> - `.github/workflows/refresh-news.yml` runs it daily at 06:10 IST and then **explicitly starts
->   `deploy.yml`** — a push made with the workflow token doesn't trigger the deploy on its own.
->   Google News serves US traffic normally, so this is the one fetch that belongs on Actions.
-> - The Updates UI no longer calls anything "gazette", "statutory", "authenticated" or "verified";
->   every story says it's a news report and points to the official website. Don't reintroduce
->   reference numbers or verification stamps that no source document issued.
-> - The files live in `public/`, not `src/data/`, on purpose: ~100 stories a day would otherwise be
->   bundled into the JavaScript every visitor downloads first.
->
-> **PDF export rewritten (same day)** — `src/utils/pdfGenerator.js` + an embedded, subset Noto Sans
-> (`src/assets/fonts/notoSansPdf.js`) so ₹ prints; the old Helvetica turned every ₹ cell into
-> spaced-out garbage. Removed the "VERIFIED: <download date>" badge, the verification seal, the
-> "extracted from official gazettes" footer, per-domain career tables typed into the code, and
-> syllabus filler. Each figure now prints its own Verified / Reported / Estimated label, source and
-> as-of date; Reported cut-off numbers are withheld, matching the site's own table.
-> **Phone layout** — `src/hooks/useIsMobile.js` drives 25-at-a-time lists (Updates, Calendar; 12 on
-> Screener), folded Explore filters and a dismissible "use a laptop / Desktop site" tip
-> (`MobileTip.jsx`); the styling is one block at the end of `src/index.css`. Desktop unchanged.
->
-> Same session: landing page shows a rounded "500+" (computed), its email feedback section was
-> replaced by "Start from where you are" (four buttons that open the screener pre-set), and a
-> floating Feedback button now sits bottom-left on every dashboard view.
+**Date:** 2026-09-25 (appended; everything below still stands). A long session driven by owner
+requests that kept exposing integrity defects underneath them. **Read §10g first** — it is the
+whole session in one place. Headlines:
+- **The Updates feed's stored news was fabricated** (§4f) — 353 items, none traceable. Deleted and
+  replaced by a daily real Google News refresh on GitHub Actions (`refresh-news.yml`, §10g.1).
+- **The PDF export printed claims nobody checked** (§4g) — "VERIFIED: <download date>", a
+  verification seal, a gazette-citation footer — and garbled every ₹ figure. Rewritten (§10g.2).
+- **The eligibility screener told plain graduates they could sit exams that require an LLB, B.Ed,
+  MBBS or CA** (§10g.3). Fixed with professional-qualification options; CA/CS/CMA rank as a
+  Master's by owner ruling.
+- Landing page, feedback, phone layout and Compare fixes (§10g.4–§10g.6). All pushed (§12).
 
 **Date:** 2026-09-22 (a short session, appended to the 2026-09-20 handoff rather than superseding
 it — everything that document says still stands. One defect found and fixed: the auto-sync's
@@ -103,7 +83,10 @@ audit/accounting framing where it helps, avoid engineering jargon)
 7. **Two scheduled jobs run on this Mac**, both as LaunchAgents in `~/Library/LaunchAgents`
    (neither plist is tracked in the repo): `com.indiaexams.portal-watch` daily at 09:00 (§7) and
    `com.indiaexams.discover-exams` weekly, Mondays at 09:00 (§10a). Check both with
-   `launchctl list | grep indiaexams`.
+   `launchctl list | grep indiaexams`. **Two more run on GitHub Actions, not the Mac:** the
+   twice-daily news scan (`auto-exam-sync.yml`, §9) and, since 2026-09-25, the daily news
+   refresh (`refresh-news.yml`, 06:10 IST, §10g.1). The owner asked whether a closed laptop
+   stops the refresh — it doesn't; only the Mac jobs depend on the Mac.
 8. **Two automated emails send** from `indiaexamsautomation@gmail.com` to the owner — one when
    an exam is actually added, one when a weekly discovery run finds something new (§10a).
    Credentials are in `scripts/automation/notify-config.json`, **gitignored and never
@@ -258,8 +241,8 @@ recruitment or entrance test. See §10c for why the latter two were deliberately
 
 ## 4. ⚠️ Data integrity — the defining issue of this project
 
-**Five** separate fabrication/contamination defects have been found across the project's
-history. Assume more exist — none were found by looking for defects in general; each was found
+**Seven** separate fabrication/contamination defects have been found across the project's
+history (4f and 4g added 2026-09-25). Assume more exist — none were found by looking for defects in general; each was found
 incidentally while doing something else. There has been no systematic sweep.
 
 ### 4a. `exams.json` placeholder vacancies (found, marked, suppressed)
@@ -295,7 +278,29 @@ from "uncited" — this means the event did not happen. Full record:
 check of whether a `verified` row's underlying notification actually exists has been run across
 the other ~537 verified rows.
 
-### The standing lesson, now in six parts (a fourth and fifth added 2026-09-20, a sixth 2026-09-22)
+### 4f. The Updates feed's stored news was fabricated (found and removed 2026-09-25)
+`src/data/news.json` (353 items, added 2026-09-18 in `b3868d8` "M-Terminal grade Statutory Gazette Wire", extended in `762882e` / `ad639f1`) was
+never news. **340 items linked only to `https://www.india.gov.in`** with one templated sentence
+("The PSSSB has formally notified statutory updates…"); dates ran up to **25 Sep 2026 in a file
+written on 18 Sep**; every item carried an invented reference number (`GOI-STATUTORY-CIRCULAR-
+2026/0101`, `GOI-PSSSB/EXAM-2026/199`) stamped **"AUTHENTICATED · NIC GAZETTE REPOSITORY"**. The
+other 13 linked to real commission home pages but made specific unsourced claims ("2,297
+candidates qualified"). Live Google News headlines were separately stamped "AUTHENTICATED ·
+REAL-TIME UPSTREAM STREAM". Found because the owner asked why the Updates total never changed —
+the answer was that nothing ever refreshed it, and looking at *what* it held exposed the rest.
+Deleted outright; replaced by real headlines (§10g.1).
+
+### 4g. The PDF export printed verification claims it had no basis for (fixed 2026-09-25)
+Every dossier PDF said **"VERIFIED: <today>"** (the download date), carried an **"NIC &
+Statutory Commission Verification Seal"** dated the same way, a footer **"Extracted from Official
+Commission Gazettes"**, a note calling all figures "verified regulatory statistics", an
+"Empanelment Authority" column reading "Statutory Gazette Cadre" in every row, and a URL
+(`www.indiaexams.org`) that isn't the site. Worse, when a dossier had no career data it printed
+**per-domain tables typed into the code** (every Engineering exam got the same "Rs 8–18 LPA"
+private-sector ladder) as if exam-specific. Found while the owner was asking about garbled
+numbers (§10g.2).
+
+### The standing lesson, now in seven parts (a fourth and fifth added 2026-09-20, a sixth 2026-09-22)
 1. **A value repeated across exams that should not share one** (caught 4a, 4c — and see §10f:
    the same generation-family bug, a duplicate real-world entity hiding under two spellings,
    recurred in a completely different field, `conducting_body`, a full session later. This isn't
@@ -349,6 +354,15 @@ the other ~537 verified rows.
    against real data before it ships.** Not reasoned about — run. §9a's fix was verified by
    extracting the steps from the parsed YAML and running them against a stub; that check takes
    minutes and would have caught this on 2026-09-19.
+
+7. **Provenance words are claims, and the presentation layer invented them** (4f, 4g, added
+   2026-09-25). Every earlier defect was in *data*. These two were in the UI and the export:
+   "authenticated", "verified", "seal", "official citation" rendered by code, not read from any
+   field. The data layer's own `confidence` tags were meanwhile correct and ignored. The
+   control: **a verification word may only be rendered from a data field that holds it**
+   (`confidence`, `source_url`, `as_of`, `last_reviewed`). Grep the UI and `pdfGenerator.js`
+   for `gazette|statutory|verified|authentic|seal|official` before shipping anything
+   reader-facing. `Feedback.jsx` still has two such phrases (§13).
 
 None of these are theoretical — each was the specific tell that caught a real defect.
 
@@ -981,6 +995,100 @@ tools were already out.
 
 ---
 
+## 10g. The 2026-09-25 session
+
+Driven entirely by owner requests; each one exposed something larger underneath. Commits
+`7f3c222` and `ce50063` (§12).
+
+### 10g.1 News: fabricated list deleted, real daily refresh built
+- **Why the total never moved:** the live feed converter (rss2json free tier) returns exactly 10
+  stories and each sync *replaced* the previous 10; the stored list never changed. So the total
+  was pinned at 353 + 10 = 363.
+- **Now:** `scripts/automation/refresh-news.mjs` runs 12 Google News searches (`when:7d`), keeps
+  only headlines that name an exam or authority in the registry (`src/utils/newsMatch.js`), and
+  writes `public/news/all.json` (past 7 days, ~620 stories, ~200 KB gzipped) and
+  `public/news/latest.json` (newest 10, for the ticker). Exits non-zero if every search fails, so
+  GitHub emails the owner. `.github/workflows/refresh-news.yml` runs it at 00:40 UTC (06:10 IST),
+  commits if changed, rebases onto the auto-sync's pushes, then **starts `deploy.yml`
+  explicitly** — a push made with the workflow token triggers no other workflow. First scheduled
+  run: 2026-09-26. **Check it ran** (§13).
+- **Why `public/` and not `src/data/`:** ~100 relevant stories a day. Bundled, a week of them would
+  be downloaded by every visitor before the first screen. As files they load only in Updates.
+- **Browser side:** the live fetch uses the same matcher, so a story is labelled identically on
+  both paths; ids are `storyId(link)`, so a story present in both is counted once. Live stories
+  accumulate in `localStorage` (`news_live_archive_v2`, 7 days) — per browser only. Old cache keys
+  (`mterminal_rss_*`) are deliberately abandoned: they held items with the invented labels.
+- **UI:** no "gazette", "statutory", "authenticated" or "verified" anywhere in Updates, the ticker
+  or the walkthrough step. Each story shows publisher, "News report · not an official notice",
+  **Read article** and **Official website**.
+- **Matcher limits:** acronyms match case-sensitively on word boundaries, longest first; an
+  acronym shared by several exams (Agniveer) falls back to authority level. A few loosely related
+  stories get through (e.g. a newspaper's "UPSC Key" current-affairs column). Unmatched headlines
+  are dropped — 216 of 986 on the first run.
+
+### 10g.2 PDF export rewritten (`src/utils/pdfGenerator.js`)
+- **₹:** Helvetica has no ₹ glyph; any cell containing it switched to spaced-out UTF-16 and was
+  truncated ("J M G  S c a l e  I  (¹4 8 , 4 8 0"). Now an embedded, subset Noto Sans
+  (`src/assets/fonts/notoSansPdf.js`, ~26 KB gzipped, lazy-loaded with the PDF chunk). All
+  money prints as ₹1,02,300.
+- **Removed:** everything in §4g. Also the syllabus "pillars" filler and placeholder schemes.
+- **Evidence:** each row prints its own Verified / Reported / Estimated label, numbered clickable
+  sources and as-of date; the cover shows "Information last reviewed" (dossier `last_reviewed`)
+  separately from "Downloaded on". **Reported cut-off/vacancy numbers are withheld** ("Not
+  printed"), matching the site's own table and `INCLUSION-POLICY.md`. Salary pages state the DA
+  assumption; the city-wise HRA/TA breakdown is printed **only for central 7th CPC "Level N"
+  posts** — central allowance rates don't apply to state, bank or PSU scales (§13).
+- **Comparison PDF** (landscape — four columns don't fit portrait) now shares the dossier's title
+  band, info strip, section heading, label-column style, sources list and "How to read the
+  labels" box through extracted helpers (`drawTitleBand`, `drawInfoStrip`, `drawLabelLegend`).
+  The dossier output was checked **pixel-identical** before and after that refactor.
+  `exportComparisonMatrixPdf` is async; `ComparisonTool.jsx` awaits it.
+- Devanagari in brackets is stripped (jsPDF can't shape it) — 46 dossiers affected; English kept.
+
+### 10g.3 Screener: professional qualifications, and a real eligibility bug
+- The screener compared education **levels** only (`getExamRequiredRank`), never the specific
+  degree. A plain graduate was shown as eligible for judicial services (LLB), TETs (B.Ed/D.El.Ed),
+  NEET PG (MBBS), IOCL Finance (CA/CMA); an MBBS doctor could not see NEET PG.
+- **Now** (`EligibilityScreener.jsx`): options CA/CS/CMA, LLB, Graduate + B.Ed, 12th + D.El.Ed,
+  MBBS/BDS in a "Professional qualification" group. `requiredCredential(exam)` reads
+  `min_qualification`: **67 exams require a credential (25 LLB, 34 teaching, 6 medical, 2
+  CA/CMA)** and are shown only to holders; **18 accept one as an alternative route** (PFRDA,
+  SIDBI, IFSCA…) and are opened to holders. Every classification was checked by eye on
+  2026-09-25; four misreadings were fixed on the way ("CS" = Computer Science in engineering
+  requirements; "50-bed hospital" read as B.Ed; EMRS "varies by post"; WBTET's "+ 2-Year D.El.Ed").
+- **Owner ruling 2026-09-25: CA, CS and CMA rank as a Master's** (UGC recognition, 2021) —
+  `levelRank: 5`. Effect: 444 exams open on education alone vs 442 for a postgraduate.
+- **This is regex over free text** — see §13 for why it needs a structured field eventually.
+
+### 10g.4 Landing page (`StoryGate.jsx`) and feedback
+- Headline and first stat tile show a computed floor, "500+" (`Math.floor(n/100)*100`), not the
+  exact count; the cold-boot note does the same. The dashboard itself still shows 509.
+- Email feedback section removed. **Qualification chips in the hero** (10th / 12th / Graduate /
+  Postgraduate / Professional) open the screener pre-set — the owner pointed out visitors click
+  Open Dashboard and never scroll; a fuller "Start from where you are" chapter sits further down.
+  Hero top padding trimmed from 15vh to 8vh so the chips fit a laptop's first screen.
+- Floating **Feedback** button bottom-left on every dashboard view (bottom-right holds back-to-top
+  and toasts); a round icon on phones.
+- Dashboard subtitle's "verified gazette cycles" removed.
+
+### 10g.5 Phone layout (≤768px; desktop checked unchanged)
+- `src/hooks/useIsMobile.js`: Updates and Calendar show 25 at a time, Screener 12, each with Show
+  more (Updates 49,368px → 3,178px tall; Calendar 22,697 → 5,289; Screener 17,747 → 5,602).
+  Explore's filters fold behind one "Filters & sort" button so an exam shows on the first screen.
+- The feedback form was clipped ~60px on the right (a long `<option>` forcing grid min-width).
+- `MobileTip.jsx`: dismissible "Tables read best on a laptop, or with Desktop site turned on".
+  The owner's first idea was *only* a "use desktop" note; he chose fixes plus the tip.
+- All phone styling is one block at the end of `src/index.css` ("PHONE DECLUTTER").
+
+### 10g.6 Compare
+- **The Saved page passed `exam.id` to `toggleCompare`**, which pushed a bare string into the
+  list: the Compare screen showed a nameless column of "N/A". Reproduced on the live site before
+  fixing. `MyDashboard.jsx` now passes the exam; `toggleCompare` also accepts an id defensively.
+- A fifth exam was silently refused at the 4-exam cap — read by the owner as "not working". It now
+  says so; each add shows a notice with an **Open Compare** shortcut.
+
+---
+
 ## 11. Working with this owner
 
 - Chartered accountant, not a developer. Plain language; audit framing lands well.
@@ -1005,6 +1113,14 @@ tools were already out.
   PORTAL-CHANGE-LOG.md`, `StoryGate.jsx` and similar). **Never bundle his uncommitted files into
   an automation commit.** Check `git status` before staging — this was done correctly across
   every commit in §10b–§10f; both his files remained untouched throughout.
+- **"Tell me before doing"** means investigate and present a plan with options, then wait
+  (2026-09-25, mobile and PDF). When he says "do needful", he means fix the underlying problem,
+  not the literal wording — the fabricated news list (§4f) was removed, not relabelled, on that
+  basis, and he agreed.
+- He prefers **fixing over disclaimers**: offered a "use desktop" note or a fix, he chose the fix
+  (plus the note). He makes domain rulings crisply when asked ("CA is equivalent to a Master's").
+- He reviews on **`http://localhost:5173/`** (`npx vite --port 5173`) before saying "commit and
+  push"; `?intro=1` replays the landing page.
 - Ask before committing when the change is substantial, and **ask again before pushing**
   specifically when the change makes something newly live for real visitors (Google Sign-In
   going from built-but-hidden to actually active was treated as its own confirmation point,
@@ -1016,6 +1132,19 @@ tools were already out.
 
 ✅ **Pushed** as of this update. Always re-check this yourself with `git status -sb` rather than
 trusting this line.
+
+2026-09-25 commits, newest first — **all pushed**, both deploys confirmed `success` and checked
+against the live site:
+```
+(this handoff update)
+ce50063 Fix Compare from the Saved page; match the comparison PDF to the dossier format
+7f3c222 Replace fabricated news with a daily real feed; overhaul PDF; declutter mobile; fix screener eligibility
+e9188ef News scan: queue vacancy leads for review [skip ci]   <- automated, not this session
+```
+`7f3c222` was rebased onto three automated news-scan commits (they touched only
+`NEWS-SCAN-QUEUE.md`). The owner's `src/utils/syllabusTaxonomy.js` and
+`data-sourcing/PORTAL-CHANGE-LOG.md` were **left uncommitted again**; `--autostash` carried them
+through the rebase untouched.
 
 2026-09-22 commits, newest first — **all pushed**:
 ```
@@ -1148,6 +1277,34 @@ not a blocked conversation.**
   deputation-only circulars not open to the public.
 
 ---
+
+**Added 2026-09-25:**
+- **Confirm the first scheduled news refresh ran** (2026-09-26, 06:10 IST): Actions → Refresh
+  News Feed, or the runs API (§0 item 5). It has only been run by hand so far. Liveness gap:
+  it fails loudly only if *every* search fails; a run that silently matches nothing leaves the
+  old week in place until it ages out.
+- **Data gaps the PDF work surfaced** (not fixed — data work, not code):
+  UPSC CSE competition rows are `verified` but their source labels say applicant counts came from
+  outlets the author "could not independently open"; IBPS PO 2026 is `verified` but its
+  selectivity text says "estimated applicants"; SSC CGL's dossier has `verified` vacancies
+  (17,727 / 8,415) sourced only to the ssc.gov.in home page while `exams.json` says unverified;
+  GATE 2023/2024 statistics are sourced to the gate2025 site; `upsc-cse.json`'s
+  `exam_scheme.note` holds career-ladder text; 208 source descriptions across dossiers repeat a
+  number that is withheld as Reported. All consistent with §4e lesson 3.
+- **The site's salary calculator applies central HRA/TA rates to every pay package** — 211 of 378
+  are state, bank or PSU scales where those rates don't apply. The PDF no longer does this; the
+  website still does.
+- **The screener's credential rules are regex over `min_qualification` free text** (§10g.3).
+  They were checked by eye against all 509 exams once; a new exam or an edited qualification
+  string is not re-checked by anything. A structured `required_credential` field (derived by a
+  `derive-*.mjs` script and validated, per §4 lesson 4) is the durable fix. Known
+  over-inclusion: a B.Ed holder is treated as eligible for PG + B.Ed posts (KVS PGT, UPESSC PGT).
+  Explore's "Entry Level" filter has no professional options at all.
+- **`Feedback.jsx` still overclaims:** "Direct Dispatch: Official Editorial Desk", "our verified
+  editorial review inbox", "Official Editorial Review Desk". Same class as §4f/§4g; not touched.
+- **`authorities.json` has near-duplicates** (e.g. "AIIMS Delhi" and "AIIMS New Delhi") — §4
+  lesson 1 again. The 348 count likely overstates distinct bodies slightly.
+- The Compare list is not persisted — a reload empties it.
 
 - **Items 2 and 4 of the original §10b proposal (stubs sort last in search; a "Request a full
   dossier" button on stub cards) are now unblocked** — §10c created the first 10 registry-tier
