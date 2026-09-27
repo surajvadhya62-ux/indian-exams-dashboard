@@ -31,14 +31,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Triage note:** Real, recurring Bihar state teacher-eligibility test — same category as your existing UPTET/REET/HTET. Not currently tracked.
 - **Key:** `Sarkari Result|bihar-stet`
 
-## UP Anganwadi Worker Apply Online — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-anganwadi-worker/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Unclear whether this is a formal statewide competitive exam or district-by-district merit-list hiring with no common exam. Same question applies to every other Anganwadi/ECCE row below.
-- **Key:** `Sarkari Result|anganwadi-up-worker`
-
 ## UPPSC Various Post 2024 Result 2026 — via Sarkari Result
 
 - **Seen:** 2026-09-19
@@ -123,8 +115,8 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/rpsc/rpsc-dy-jailor-04-2024/
-- **Status:** CANDIDATE
-- **Triage note:** RPSC Deputy Jailor — a distinct, real RPSC post exam, moderate scale.
+- **Status:** ADDED — see `rpsc-deputy-jailor` in the registry, 2026-09-27 (registry-tier stub)
+- **Triage note:** Confirmed recurring (2024-25 cycle, 73 posts; earlier cycles found too).
 - **Key:** `Sarkari Result|2024-deputy-jailor-rpsc`
 
 ## Indian Airforce Agniveervayu Intake 02/2027 Admit card 2026 — via Sarkari Result
@@ -139,8 +131,8 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/rrb-section-controller-03-2026/
-- **Status:** CANDIDATE
-- **Triage note:** RRB Section Controller — check whether this is genuinely separate from the already-tracked rrb-ntpc, which historically included this category.
+- **Status:** ADDED — see `rrb-section-controller` in the registry, 2026-09-27 (registry-tier stub)
+- **Triage note:** Confirmed genuinely separate from `rrb-ntpc` — runs as its own CEN (CEN 03/2026, 119 posts; CEN 04/2025, 368 posts), not folded into the NTPC post list this cycle.
 - **Key:** `Sarkari Result|application-controller-rrb-section-status`
 
 ## UPSSSC Pharmacist Ayurvedic 2024 Admit Card 2026 — via Sarkari Result
@@ -155,8 +147,8 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/upcisb-various-post-may26/
-- **Status:** CANDIDATE
-- **Triage note:** UPCISB (UP Cooperative Institutional Service Board) — a real statutory recruitment board for the state's cooperative bank system.
+- **Status:** ADDED — see `upcisb-cooperative-bank` in the registry, 2026-09-27 (registry-tier stub)
+- **Triage note:** UPCISB (UP Cooperative Institutional Service Board) — a real statutory recruitment board for the state's cooperative bank system, multiple recruitment rounds confirmed in 2026 alone.
 - **Key:** `Sarkari Result|bank-cooperative-up-upcisb-various`
 
 ## UPESSC Principal Admit Card 2026 — via Sarkari Result
@@ -199,14 +191,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Triage note:** A generic combined-result roundup page, not a distinct exam. UPPSC itself is already tracked (uppsc-pcs).
 - **Key:** `Sarkari Result|2024-uppsc-various`
 
-## UP Anganwadi Helper Bharti Shahjahanpur Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-anganwadi-helper-june26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same open question as UP Anganwadi Worker above — one district's notice for what may be a fragmented, non-exam-based hiring process.
-- **Key:** `Sarkari Result|anganwadi-bharti-helper-shahjahanpur-up`
-
 ## UPESSC UP PGT Teacher Online Form 2026 — via Sarkari Result
 
 - **Seen:** 2026-09-19
@@ -227,8 +211,8 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/upessc-assistant-professor-04-2026/
-- **Status:** CANDIDATE
-- **Triage note:** UPESSC Assistant Professor recruitment for UP government degree colleges — real and recurring.
+- **Status:** ADDED — see `upessc-assistant-professor` in the registry, 2026-09-27 (registry-tier stub)
+- **Triage note:** UPESSC Assistant Professor recruitment for UP government-aided colleges — confirmed real (Advt 04/2026, 1,936 posts).
 - **Key:** `Sarkari Result|assistant-professor-up-upessc`
 
 ## UP Special TET Online Form 2026 — via Sarkari Result
@@ -238,14 +222,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Status:** ALREADY KNOWN-leaning
 - **Triage note:** Very likely a special/supplementary cycle of the already-tracked `uptet` exam, not a separate exam. Worth a quick check, not a new entry.
 - **Key:** `Sarkari Result|special-tet-up`
-
-## UKSSSC Group C Scaler Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/uksssc-group-c-scaler-sep26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** May already be covered by your existing uksssc-graduate-level or uksssc-intermediate-level entries, which are broad combined exams covering multiple posts including this one.
-- **Key:** `Sarkari Result|group-scaler-uksssc`
 
 ## Southern Railway RRC SR Apprentices Online Form 2026 — via Sarkari Result
 
@@ -270,14 +246,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Status:** CANDIDATE
 - **Triage note:** UPSSSC Veterinary Pharmacist — distinct post. (2 rows at different stages — one candidate.)
 - **Key:** `Sarkari Result|pharmacist-upsssc-veterinary`
-
-## UP Anganwadi Worker Bharti Gonda Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-anganwadi-worker/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same underlying scheme as UP Anganwadi Worker above, a different district's notice.
-- **Key:** `Sarkari Result|anganwadi-bharti-gonda-up-worker`
 
 ## UKPSC Pre 2026 Online Form — via Sarkari Result
 
@@ -323,8 +291,8 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 
 - **Seen:** 2026-09-19
 - **Link:** https://www.sarkariresult.com/2026/rpsc-apo-june26/
-- **Status:** CANDIDATE
-- **Triage note:** RPSC Assistant Prosecution Officer — a real, distinct legal-services post exam.
+- **Status:** ADDED — see `rpsc-apo` in the registry, 2026-09-27 (registry-tier stub)
+- **Triage note:** RPSC Assistant Prosecution Officer — confirmed recurring (2024 cycle, 181 posts; 2026 cycle, 371 posts).
 - **Key:** `Sarkari Result|apo-rajasthan-rpsc`
 
 ## BSNL JTO Answer Key 2026 — via Sarkari Result
@@ -423,14 +391,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Triage note:** A single central university's own PhD admission test — same narrowness concern as UPRTOU above.
 - **Key:** `Sarkari Result|admissions-allahabad-phd-university`
 
-## UP DELED Online Counselling 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/updeled-admissions-2/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** This specific row is just a counselling (post-selection) step, not an exam. But the underlying UP D.El.Ed entrance test itself — if a genuine common entrance exists feeding multiple colleges — could be a real, separate candidate worth checking for directly.
-- **Key:** `Sarkari Result|counselling-deled-up`
-
 ## NVS Class 6th Admissions Online Form 2027 Date Extended — via Sarkari Result
 
 - **Seen:** 2026-09-19
@@ -454,54 +414,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Status:** ADDED — see `up-scvtup-iti-admission` in the registry, 2026-09-19 (registry-tier stub)
 - **Triage note:** UP's state ITI admission process (State Council for Vocational Training) — a genuine, high-volume, common gateway to many ITI colleges statewide.
 - **Key:** `Sarkari Result|admissions-iti-scvtup-up`
-
-## UP ECCE Educator Agra Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-ecce-educator-agra-sep26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** One of 6 district-level "UP ECCE Educator" postings (Agra, Mainpuri, Siddharth Nagar, Azamgarh x2, Moradabad). Same open question as the Anganwadi rows: one recurring statewide scheme, or fragmented one-off district drives with no unified exam? Decide once for the whole family, not per district.
-- **Key:** `Sarkari Result|agra-ecce-educator-up`
-
-## UP ECCE Educator Mainpuri Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-ecce-educator-mainpuri-sep26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same ECCE Educator family — see the Agra row above. Do not treat as a separate decision.
-- **Key:** `Sarkari Result|ecce-educator-mainpuri-up`
-
-## UP ECCE Educator Siddharth Nagar Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/uttar-pradesh-ecce-educator-sep26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same ECCE Educator family — see the Agra row above.
-- **Key:** `Sarkari Result|ecce-educator-nagar-siddharth-up`
-
-## UP Azamgarh ECCE Educator Online Form 2026 for 83 Post — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-azamgarh-ecce-educator-sep26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same ECCE Educator family — see the Agra row above.
-- **Key:** `Sarkari Result|83-azamgarh-ecce-educator-for-up`
-
-## UP ECCE Educator Azamgarh Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-ecce-educator-azamgarh-sept26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same ECCE Educator family — see the Agra row above (duplicate district notice).
-- **Key:** `Sarkari Result|azamgarh-ecce-educator-up`
-
-## UP ECCE Educator Moradabad Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/up-ecce-educator-moradabad-sept26/
-- **Status:** NEEDS OWNER'S CALL
-- **Triage note:** Same ECCE Educator family — see the Agra row above.
-- **Key:** `Sarkari Result|ecce-educator-moradabad-up`
 
 ## KGBV Kasturba Gandhi Balika Vidyalaya Shamli Online Form 2026 — via Sarkari Result
 
@@ -527,29 +439,6 @@ in `data-sourcing/EXCLUSIONS.md` with the reason, per policy §2.
 - **Triage note:** A professional registration/licensing process, not an exam or recruitment at all.
 - **Key:** `Sarkari Result|council-nursing-registration-up`
 
-## NIELIT CCC Exam Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/nielit-ccc-july26/
-- **Status:** STRONG CANDIDATE — with a classification question
-- **Triage note:** NIELIT CCC, a nationally recognised computer-literacy certification required for many government job eligibility rules. Real and high-volume, but classify carefully — this may be a Track Q "qualification" case like AIBE, or the kind of certification your own policy already flagged NISM as worth a second look on. Owner's call on track, not just on inclusion. (2 rows, same scheme — one candidate.)
-- **Key:** `Sarkari Result|ccc-nielit`
-
-## NIELIT CCC Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/2026/nielit-ccc-online-form/
-- **Status:** STRONG CANDIDATE — with a classification question
-- **Triage note:** NIELIT CCC, a nationally recognised computer-literacy certification required for many government job eligibility rules. Real and high-volume, but classify carefully — this may be a Track Q "qualification" case like AIBE, or the kind of certification your own policy already flagged NISM as worth a second look on. Owner's call on track, not just on inclusion. (2 rows, same scheme — one candidate.)
-- **Key:** `Sarkari Result|ccc-nielit`
-
-## MP CPCT Online Form 2026 — via Sarkari Result
-
-- **Seen:** 2026-09-19
-- **Link:** https://www.sarkariresult.com/mp/mp-cpct-2026/
-- **Status:** STRONG CANDIDATE — with a classification question
-- **Triage note:** MP CPCT — Madhya Pradesh's own mandatory computer proficiency certification for state government job applicants. High volume, recurring. Same structural question as NIELIT CCC above: this is a certification required for job eligibility, not a job or an admission itself — held out of the 2026-09-19 batch add alongside NIELIT CCC pending the same owner ruling on track (see HANDOFF.md §13).
-- **Key:** `Sarkari Result|cpct-mp`
 
 ## SSC OTR Online Form 2024 — via Sarkari Result
 
