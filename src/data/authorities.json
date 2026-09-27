@@ -306,6 +306,20 @@
     ]
   },
   {
+    "id": "arunachal-pradesh-public-service-commission-appsc",
+    "name": "Arunachal Pradesh Public Service Commission (APPSC)",
+    "domain": "Engineering",
+    "jurisdiction": "state",
+    "state": "Arunachal Pradesh",
+    "website": "https://appsc.gov.in",
+    "exam_ids": [
+      "appsc-jecre"
+    ],
+    "exam_acronyms": [
+      "APPSC-JECRE"
+    ]
+  },
+  {
     "id": "asrb-new-delhi",
     "name": "ASRB New Delhi",
     "domain": "Agriculture",
@@ -3818,6 +3832,20 @@
     ]
   },
   {
+    "id": "pariksha-niyamak-pradhikari-pnp-prayagraj",
+    "name": "Pariksha Niyamak Pradhikari (PNP), Prayagraj",
+    "domain": "Education",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "website": "https://updeled.gov.in",
+    "exam_ids": [
+      "up-deled-entrance"
+    ],
+    "exam_acronyms": [
+      "UP-DELED-ENTRANCE"
+    ]
+  },
+  {
     "id": "pfrda",
     "name": "PFRDA",
     "domain": "Finance",
@@ -3992,6 +4020,20 @@
     ]
   },
   {
+    "id": "railway-recruitment-boards-rrb",
+    "name": "Railway Recruitment Boards (RRB)",
+    "domain": "Government Services",
+    "jurisdiction": "central",
+    "state": "All India",
+    "website": "https://www.rrbcdg.gov.in",
+    "exam_ids": [
+      "rrb-section-controller"
+    ],
+    "exam_acronyms": [
+      "RRB-SECTION-CONTROLLER"
+    ]
+  },
+  {
     "id": "rajasthan-high-court",
     "name": "Rajasthan High Court",
     "domain": "Law",
@@ -4116,11 +4158,15 @@
     "website": "https://rpsc.rajasthan.gov.in",
     "exam_ids": [
       "rpsc-ras",
-      "rajasthan-police-si"
+      "rajasthan-police-si",
+      "rpsc-apo",
+      "rpsc-deputy-jailor"
     ],
     "exam_acronyms": [
       "RPSC RAS",
-      "Raj Police SI"
+      "Raj Police SI",
+      "RPSC-APO",
+      "RPSC-DEPUTY-JAILOR"
     ]
   },
   {
@@ -5072,6 +5118,20 @@
     ]
   },
   {
+    "id": "uttar-pradesh-cooperative-institutional-service-board-upcisb",
+    "name": "Uttar Pradesh Cooperative Institutional Service Board (UPCISB)",
+    "domain": "Banking",
+    "jurisdiction": "state",
+    "state": "Uttar Pradesh",
+    "website": "https://upcisb.upsdc.gov.in",
+    "exam_ids": [
+      "upcisb-cooperative-bank"
+    ],
+    "exam_acronyms": [
+      "UPCISB-COOPERATIVE-BANK"
+    ]
+  },
+  {
     "id": "uttar-pradesh-education-service-selection-commission-upessc",
     "name": "Uttar Pradesh Education Service Selection Commission (UPESSC)",
     "domain": "Education",
@@ -5080,11 +5140,27 @@
     "website": "https://www.upessc.up.gov.in",
     "exam_ids": [
       "upessc-principal",
-      "upessc-pgt-teacher"
+      "upessc-pgt-teacher",
+      "upessc-assistant-professor"
     ],
     "exam_acronyms": [
       "UPESSC Principal",
-      "UPESSC PGT"
+      "UPESSC PGT",
+      "UPESSC-ASSISTANT-PROFESSOR"
+    ]
+  },
+  {
+    "id": "uttarakhand-public-service-commission-ukpsc",
+    "name": "Uttarakhand Public Service Commission (UKPSC)",
+    "domain": "Government Services",
+    "jurisdiction": "state",
+    "state": "Uttarakhand",
+    "website": "https://psc.uk.gov.in",
+    "exam_ids": [
+      "ukpsc-lower-subordinate-services"
+    ],
+    "exam_acronyms": [
+      "UKPSC-LOWER-SUBORDINATE-SERVICES"
     ]
   },
   {

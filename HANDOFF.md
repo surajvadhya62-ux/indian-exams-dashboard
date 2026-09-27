@@ -1,5 +1,24 @@
 # Handoff — India Exams Dashboard
 
+**Date:** 2026-09-27 (appended; everything below still stands). The weekly portal-watcher/
+discovery-queue review, done properly for the first time — every "cutoff or vacancy" and
+"new exam" lead this week was individually checked before being actioned, not batch-approved.
+Read **§10h first** — it's the whole session. Headlines:
+- **8 new exams added**, each with a real, checked recurrence (not just "a headline exists"):
+  `up-deled-entrance`, `rrb-section-controller`, `appsc-jecre`,
+  `ukpsc-lower-subordinate-services`, `rpsc-apo`, `upessc-assistant-professor`,
+  `upcisb-cooperative-bank`, `rpsc-deputy-jailor`. 509 → **517** exams.
+- **The two long-standing owner decisions from §13 (NISM/NIELIT CCC/MP CPCT track boundary,
+  and the Anganwadi/ECCE ruling) are both now resolved** — rejected, not added; recorded in
+  `EXCLUSIONS.md` with reasoning, not just deleted from the queue.
+- **A real assumption caught before it became a wrong reject:** `rrb-section-controller` was
+  initially assumed to be a duplicate of `rrb-ntpc`. Checked before acting — it runs as its own
+  separate CEN and is a genuine gap. Verify before rejecting, not just before adding (§10h.2).
+- **The news-scan queue was triaged for the first time by actual application deadline**, not
+  just left to accumulate — 12 of 14 distinct leads in it had already closed their application
+  window months ago; only two (`super-tet`, `appsc`) still had live or upcoming deadlines, and
+  both were actioned this session (§10h.4).
+
 **Date:** 2026-09-25 (appended; everything below still stands). A long session driven by owner
 requests that kept exposing integrity defects underneath them. **Read §10g first** — it is the
 whole session in one place. Headlines:
@@ -97,7 +116,7 @@ audit/accounting framing where it helps, avoid engineering jargon)
    again, see §10e; the usual cause is a propagation delay after touching the origin list in
    Google Cloud Console, not a code problem.
 10. **`npm run validate` checks `exams.json` and every dossier file.** A new exam missing any
-    registry-minimum field, or a duplicate id, fails it immediately. Current state: **509
+    registry-minimum field, or a duplicate id, fails it immediately. Current state: **517
     checked, 0 errors, 0 warnings** (both the dossier pass and the registry pass).
 
 ---
@@ -109,13 +128,13 @@ A React/Vite site cataloguing Indian government and competitive exams, with a de
 
 | Measure | Value |
 |---|---|
-| Exams in `src/data/exams.json` | **509** (was 499 on 2026-09-19 — 10 added from the discovery queue, §10c) |
+| Exams in `src/data/exams.json` | **517** (was 509 through 2026-09-25 — 8 added this update from the discovery/portal review, §10h) |
 | — with a full dossier | 499 |
-| — registry-only stubs | 10 (all 10 additions — see §10c for why the tier-classifier initially got this wrong) |
-| `npm run validate` | 509 checked, 0 errors, 0 warnings |
-| Tracks (see §3) | 385 R (recruitment), 120 A (admission), 4 Q (qualification) |
-| Exams with a `verified` vacancy figure on the summary field | 186 of 509 (37%) — unchanged this update; none of the 10 new exams have vacancy data yet |
-| Distinct conducting authorities | **348** (was hardcoded to 342 everywhere on the site until 2026-09-20 — see §10f. Not simply 342 + 7 new ones; a real duplicate-naming bug was involved) |
+| — registry-only stubs | 18 (10 from 2026-09-19/20, §10c; 8 more this update, §10h — all pending a full dossier build) |
+| `npm run validate` | 517 checked, 0 errors, 0 warnings |
+| Tracks (see §3) | 392 R (recruitment), 121 A (admission), 4 Q (qualification) |
+| Exams with a `verified` vacancy figure on the summary field | 186 of 517 (36%) — unchanged this update; the 8 new exams and this update's two dossier edits (`ibps-rrb`, `appsc`) are all `reported`, not `verified`, so none reach the summary yet |
+| Distinct conducting authorities | **353** (was 348 as of 2026-09-20, §10f — grew with this update's 8 new exams, each bringing a conducting body; re-derive via `derive-authorities.mjs` after any further add) |
 
 ---
 
@@ -1089,6 +1108,103 @@ Driven entirely by owner requests; each one exposed something larger underneath.
 
 ---
 
+## 10h. The 2026-09-27 session — weekly review done properly, two standing decisions closed
+
+Driven by the owner asking for a status check on the automation, then walking through the
+backlog it surfaced one bucket at a time rather than batch-approving it. Commits `47f24ad` and
+`1da0e2a` (§12).
+
+### 10h.1 The cutoff/vacancy bucket — 26 notices, checked individually, not just counted
+`PORTAL-CHANGE-LOG.md`'s `BENCHMARK_KEYWORDS` filter (§7a) had flagged 26 notices across all 11
+runs since 2026-09-18 as mentioning a cut-off or vacancy figure. Checked each against
+`exams.json` before treating it as actionable, rather than assuming a keyword match means a
+tracked exam exists:
+- **22 of 26 (16 Rajasthan RPSC specialist-post results, 6 UPSC ad-hoc single-department
+  notices) matched no tracked exam at all.** These are niche, one-off departmental recruitment
+  (a single Junior Legal Officer selection, a 13-post Dental Surgeon drive) — exactly what
+  `INCLUSION-POLICY.md` criterion D excludes. Nothing to add or update.
+- **1 (`ibps-rrb`) was a real vacancy update** — added the CRP-RRBs-XV 2026 cycle (13,757,
+  cited to the actual annexure PDF), marked `reported` not `verified` since the PDF itself
+  couldn't be machine-read to confirm the figure firsthand.
+- **3 turned out to be genuine gaps hiding behind the keyword match, not vacancy updates at
+  all** — a UKPSC notice for "Lower Subordinate Services" (a real, distinct, recurring exam
+  from the already-tracked `ukpsc` Upper PCS), an APPSC (Arunachal) notice for "JECRE" (a real,
+  distinct Junior Engineer recruitment from the already-tracked `appsc-cce`), and a Manipur
+  Dental Surgeon notice that stayed a genuine one-off, flagged not added.
+
+### 10h.2 The discovery queue — 33 rows needing a decision, resolved to 0 open judgment calls
+Of `DISCOVERY-QUEUE.md`'s backlog (§13's items 1 and 2, standing since 2026-09-20):
+
+- **NIELIT CCC and MP CPCT (owner ruling, closes §13 item 1):** rejected. Neither confers a
+  job, seat, or professional designation — both are mandatory computer-literacy eligibility
+  certificates other recruitments require as one checklist item, structurally identical to the
+  already-flagged NISM case. Recorded in `EXCLUSIONS.md`, criterion C.
+- **The UP Anganwadi/ECCE Worker family, 9 rows (owner ruling, closes §13 item 2):** rejected,
+  as one consolidated decision rather than 9 separate ones. Verified first — there is no
+  written exam at all; selection is a straight merit list from existing Class 10/12 board
+  marks, run independently by each district's DPO. Two of the nine were also the same Azamgarh
+  posting picked up twice by the aggregator under different wording.
+- **`rrb-section-controller` — a real assumption caught before it became a wrong reject.** The
+  triage note on this row assumed it was a duplicate of the already-tracked `rrb-ntpc`. Checked
+  before rejecting: it runs as its own separate CEN (CEN 03/2026, 119 posts; CEN 04/2025, 368
+  posts), not folded into NTPC this cycle. **Added**, not rejected. Worth stating plainly: the
+  verify-before-acting discipline this project applies to *additions* (§4, §6) applies equally
+  to *rejections* — an assumption that would have quietly discarded a real gap is exactly as
+  costly as one that would have added a fake one.
+- **`upcisb-cooperative-bank`, `upessc-assistant-professor`, `rpsc-apo`, `rpsc-deputy-jailor`
+  — added**, each after confirming actual recurrence (a second, or third, past cycle found, not
+  just the current one) and pulling the conducting body, official website, minimum
+  qualification and frequency from primary/authoritative sources — same discipline as §10c.
+- **UP DELED Online Counselling — rejected as its own row, but surfaced a genuine gap**:
+  counselling is the post-result seat-allotment stage of the UP D.El.Ed entrance exam, not a
+  separate exam. The entrance test itself had no dossier at all. **Added** (`up-deled-entrance`,
+  Bachelor's degree entry, PNP Prayagraj, annual).
+- **14 `CANDIDATE` rows deliberately left open, not decided** — mostly single-post UPSSSC/RSSB
+  technical and paramedical exams (Draftsman/Cartographer, Veterinary Pharmacist, BCG
+  Technician, Moharir, and similar). Recommended a priority split by likely aspirant volume
+  rather than researching all 14; the owner picked 4 of a recommended-higher tier to action
+  and left the rest, deliberately, for later.
+
+### 10h.3 `authorities.json` went stale again, mid-session — caught before the handoff, not after
+The same class of bug as §10f: adding 8 new exams introduced 5 genuinely new conducting bodies
+(APPSC-Arunachal Pradesh via `appsc-jecre`, PNP Prayagraj, the RRB umbrella, UPCISB, UKPSC), and
+`src/data/authorities.json` — calculated, never hand-edited (§10f's own rule) — was not
+re-derived at the time each exam was added. Caught while updating this handoff's stats table,
+by actually running `derive-authorities.mjs --dry-run` rather than assuming the derived file
+was current. 348 → **353**. Re-run `derive-authorities.mjs` after *any* future add, immediately,
+not at the next handoff — this is the second time in two sessions this has gone stale.
+
+### 10h.4 The news-scan queue — triaged by actual application deadline, not just left to grow
+`NEWS-SCAN-QUEUE.md` had 19 unreviewed leads sitting since 2026-09-19, across 14 distinct
+exams. Rather than verify all 14 blind, checked each exam's actual application deadline first:
+**12 had already closed their application window months ago** (SBI Clerk, SBI PO, IBPS SO/
+Clerk, India Post GDS, RRB JE, EPFO APFC, FCI Manager, SSC CGL, Coal India MT, DSSSB TGT/PRT,
+MPPSC) — verifying and entering these would document history, not help a live applicant. Only
+**`super-tet`** (closes 15 Oct 2026) and **`appsc`** (opens 6 Oct, closes 27 Oct 2026) still had
+a real window. Both actioned:
+- `super-tet`'s lead (12,405 posts) turned out to already be fully covered by an existing
+  `verified` 2026 row (15,012 total = 12,405 teachers + 2,607 PGT/Lecturers, Advt 01/2026) — no
+  change needed, the news headline was just the teacher-only slice of a figure already on file.
+- `appsc`'s lead (163 posts) was a genuine gap — added, `reported` not `verified` (Notification
+  No. 07/2026, corroborated across independent secondary reporting, primary PDF not
+  machine-readable to confirm firsthand).
+
+All 19 rows now carry a "Deadline status (checked 2026-09-27)" annotation even where nothing
+else changed — so a future session doesn't have to re-derive which of the remaining 17 are
+worth chasing. **The generalisable point:** a review queue that only grows is not the same
+problem as a review queue nobody has looked at — most of this one's items were stale by the
+time anyone looked, through no fault of the process. Checking real-world timing before spending
+verification effort is now part of how this queue should be worked, not a one-off exercise.
+
+### 10h.5 A structural gotcha worth stating once, plainly
+**"APPSC" is not one thing.** Andhra Pradesh Public Service Commission (`appsc`, tracked since
+before this session) and Arunachal Pradesh Public Service Commission (`appsc-cce`, also
+tracked) share the same common abbreviation. A notice or a news headline reading "APPSC" without
+a state name attached could belong to either — confirmed against `state`/`conducting_body`
+before treating a match as settled, not just the acronym.
+
+---
+
 ## 11. Working with this owner
 
 - Chartered accountant, not a developer. Plain language; audit framing lands well.
@@ -1125,6 +1241,13 @@ Driven entirely by owner requests; each one exposed something larger underneath.
   specifically when the change makes something newly live for real visitors (Google Sign-In
   going from built-but-hidden to actually active was treated as its own confirmation point,
   separate from "should I commit this code at all").
+- **His instructions sometimes arrive voice-dictated and garbled** ("NIE LIT triple C", "check
+  the new SKU" — meaning NIELIT CCC and the news-scan queue, 2026-09-27). Resolve from
+  conversation context rather than asking him to repeat himself; the intent is usually
+  recoverable from what was just discussed.
+- **Runs the automation on a weekly cadence, reviewed one bucket at a time** (portal
+  cutoffs/vacancies, new-exam discoveries, then the news-scan queue) rather than all at once —
+  2026-09-27 is the first time this was done end-to-end in one sitting (§10h).
 
 ---
 
@@ -1132,6 +1255,18 @@ Driven entirely by owner requests; each one exposed something larger underneath.
 
 ✅ **Pushed** as of this update. Always re-check this yourself with `git status -sb` rather than
 trusting this line.
+
+2026-09-27 commits, newest first — **all pushed**:
+```
+(this handoff update, plus a re-derived src/data/authorities.json — see §10h.3)
+1da0e2a Action the two time-sensitive news-scan leads (Super TET, APPSC Group 1)
+47f24ad Add 8 exams from portal/discovery review; reject non-exam leads; update IBPS vacancy figure
+```
+No rebase needed — `origin/main` had not moved since the last push. The owner's
+`src/utils/syllabusTaxonomy.js` was, again, deliberately left uncommitted (he said "we'll see it
+some other day"); `data-sourcing/PORTAL-CHANGE-LOG.md` and `NEWS-SCAN-QUEUE.md`, by contrast,
+**were** committed this time — they're automation-owned files (§7, §9), not the owner's personal
+in-progress work, so they don't get the same "leave alone" treatment `syllabusTaxonomy.js` does.
 
 2026-09-25 commits, newest first — **all pushed**, both deploys confirmed `success` and checked
 against the live site:
@@ -1258,23 +1393,20 @@ before staging anything; these two should never appear in an automation commit's
 
 ## 13. Open questions
 
-**Three are waiting on an owner decision — everything after them is standing technical debt,
-not a blocked conversation.**
+**One is waiting on an owner decision — everything after it is standing technical debt, not a
+blocked conversation.**
 
-- ⏸️ **1. The NISM / NIELIT CCC / MP CPCT track boundary.** One ruling, asked once, resolves
-  all three: is a mandatory computer-proficiency or regulatory certification (required for job
-  *eligibility*, not a job or admission itself) track A (like an entrance test) or track Q (like
-  AIBE — a practising licence)? `INCLUSION-POLICY.md` §8 ruling 5 already flagged NISM as worth
-  revisiting once a `track` filter shipped, which it now has (§3). NIELIT CCC and MP CPCT are
-  sitting in `DISCOVERY-QUEUE.md`, fully researched, ready to add via `sync-exams.mjs --add` the
-  moment this is settled (§10c).
-- ⏸️ **2. The Anganwadi / ECCE Educator ruling.** Unchanged from the previous handoff: one
-  question, asked once, resolves 8 of the 11 `NEEDS OWNER'S CALL` rows in
-  `DISCOVERY-QUEUE.md` — is this hiring a real, recurring, statewide competitive exam, or
-  scattered district-by-district merit-list drives with no unified exam behind them?
-- ⏸️ **3. `nia-si-inspector` — does it belong in the database at all?** Unchanged. NIA runs no
+- ⏸️ **1. `nia-si-inspector` — does it belong in the database at all?** Unchanged. NIA runs no
   independent competitive exam; hiring goes through SSC CGL (already listed separately) or
   deputation-only circulars not open to the public.
+
+**Resolved 2026-09-27 (§10h.2), no longer open:**
+- ~~The NISM / NIELIT CCC / MP CPCT track boundary~~ — **rejected.** NIELIT CCC and MP CPCT are
+  eligibility certificates, not exams under any track; recorded in `EXCLUSIONS.md`. The parallel
+  NISM question (`INCLUSION-POLICY.md` §8 ruling 5) was not re-asked directly but the same
+  reasoning would apply if it resurfaces.
+- ~~The Anganwadi / ECCE Educator ruling~~ — **rejected**, all 9 rows, as one decision. Verified
+  first: no written exam exists for this hiring at all.
 
 ---
 
@@ -1310,12 +1442,15 @@ not a blocked conversation.**
   dossier" button on stub cards) are now unblocked** — §10c created the first 10 registry-tier
   records — **but neither has been built yet.** Small, and now the natural next piece of work if
   the owner wants the two-tier model to be more than a badge.
-- **`data-sourcing/DISCOVERY-QUEUE.md`'s remaining rows:** 19 `CANDIDATE` rows need more checking
-  before they're addable; 3 `STRONG CANDIDATE` rows are closer to ready. That is **22 rows
-  genuinely waiting on the owner** — raised with him directly on 2026-09-20 and not yet actioned.
-  The 9 `ALREADY KNOWN`/`DUPLICATE` rows can simply be deleted — they're matching misses, not
-  real candidates, and are clutter at this point. `data-sourcing/AI-TOOL-PROMPTS.md` §3 has the
-  triage prompt, which assesses without writing anything.
+- **`data-sourcing/DISCOVERY-QUEUE.md`'s remaining rows:** 14 `CANDIDATE` rows, all deliberately
+  deferred, not undecided — raised with the owner on 2026-09-27 as a priority split (mostly
+  single-post UPSSSC/RSSB technical and paramedical exams: Draftsman/Cartographer, Veterinary
+  Pharmacist, BCG Technician, Moharir, and similar), and he chose to action a higher-priority
+  4 (now added, §10h.2) and leave the rest. No `STRONG CANDIDATE` rows remain — both were
+  resolved this update. The 9 `ALREADY KNOWN`/`DUPLICATE` rows can still simply be deleted —
+  they're matching misses, not real candidates, and are clutter at this point.
+  `data-sourcing/AI-TOOL-PROMPTS.md` §3 has the triage prompt, which assesses without writing
+  anything.
 - **National Career Service (`ncs.gov.in`) was left out of discovery deliberately** — its
   homepage is private-sector job data. Whether it's worth driving its actual search/filter flow
   is an open question, not a decided no.
@@ -1367,9 +1502,14 @@ not a blocked conversation.**
   test: delete it the day it stops finding anything the watcher did not. Not close yet.
 - **If the watcher and the news scan are ever merged, the scan moves to the Mac** — never the
   watcher to the cloud (§9b, §0 rule 3). The scan cannot verify its own leads from a US runner.
-- **Unreviewed leads sit in `NEWS-SCAN-QUEUE.md` right now** (§9a). Runs `4bef849` and `b3b9012`
-  queued leads while the notification step was broken, so no ticket was ever raised for them.
-  Read the queue file directly; the ticket list understates it.
+- **17 leads remain in `NEWS-SCAN-QUEUE.md`** (down from 19, §10h.4) — all now carry a "Deadline
+  status (checked 2026-09-27)" annotation. Most (the ones behind `sbi-clerk`, `sbi-po`,
+  `ibps-so`, `india-post-gds`, `rrb-je`, `epfo-apfc`, `fci-manager`, `ibps-clerk`, `ssc-cgl`,
+  `cil-management-trainee`, `dsssb-prt-tgt`, `mppsc`) describe application windows that had
+  already closed by the time anyone looked — worth verifying eventually for the historical
+  record, but not time-sensitive. `psssb-patwari`'s notification had not been formally released
+  as of this check; worth a fresh look. Re-check deadlines again before assuming this framing is
+  still current — it will go stale the same way the queue itself did.
 - **The auto-sync still has no liveness assertion** (§4e lesson 5) — unchanged by the 2026-09-22
   fix, which addressed a *loud* failure. "Ran and found nothing" and "did not run" remain
   indistinguishable for this workflow. The weekly discovery run has the same gap.
@@ -1378,5 +1518,5 @@ not a blocked conversation.**
 - **RSMSSB Grade III Teacher (Level 1 & 2) direct recruitment still has no dossier entry.**
   Found 2026-09-19 while fixing `reet`'s dossier — flagged, not lost, still not created.
 - **The portal watcher's exam-coverage figure ("97 of 500 exams") needs re-verification**
-  against the new 509-exam total and the 7 newly added authorities (§7, §10f) — flagged this
-  update, not yet done.
+  against the current 517-exam total and 353 authorities (§7, §10f, §10h) — flagged again this
+  update, still not done. The denominator has now moved twice since the figure was last checked.
