@@ -59,15 +59,6 @@ drive have all appeared here.
 - **Deadline status (checked 2026-09-27):** CLOSED — application window ended 13 Sep 2026
 - **Key:** `rrb-je|4098|2026`
 
-## Super TET (Uttar Pradesh) (`super-tet`) — 12,405 posts claimed
-
-- **Seen:** 2026-09-19
-- **Headline:** UP Super TET 2026: Applications begin for 12,405 teacher vacancies - indianexpress.com
-- **Link:** https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaUdxemE3QU5YMFZZWE11aW03QWNjbXJMc2llVlBiX3JwUVUzS2J0bzkwa0FOTjI3ZmVXWC11SUl6VGl3LTdFYVYySTA4dGdfVkdnd1B3b2EyRzdaemJwek10SERxeS02WlowLUxtY21ISkt6OWFFVktmZ1JLNzEta2lqM0hqem10WU9wN3pvS0tKb0dzcnRvWUVCay1mbExsSkhkOVlXODBBZHV6VW15X3ZQWm5wRF9jM1FrN3VEY045VE5TYmstZE1TcHN4c2RuTTNpTHBjNVdiQ0JwSUdj0gHmAUFVX3lxTFBHWWZiQmwxbldHSXpVUG4yZ0h4TVBGR3RrZmlldXptU0VqdldOTGFJTVh1YzQyQ3BJeWViXzJ2a2F3RmNRZWdwcVAyREstNXdyZlpMaXFmVGRJTkEzaVQ4d2pubUJlWGVoeVhGRW8zVkJuMXluUmUyU1docFhHeERzeS1lSXdKNUJmTG9EQ21XWTZWLWRhVHV6V2E0VGdxd1dIeWdQV1MwQWNaS0VpWmRoMEoxRjBpN2JORFRvQWoyUnNzd0hDWENzYm04bURBMlEwdmZGLXJ4eGE1dUMtcWFPMG9rNG1B?oc=5
-- **Status:** unreviewed
-- **Deadline status (checked 2026-09-27):** OPEN — applications close 15 Oct 2026 (as of 2026-09-27, ~18 days left)
-- **Key:** `super-tet|12405|2026`
-
 ## India Post Gramin Dak Sevak Recruitment (`india-post-gds`) — 918 posts claimed
 
 - **Seen:** 2026-09-19
@@ -157,15 +148,6 @@ drive have all appeared here.
 - **Status:** unreviewed
 - **Deadline status (checked 2026-09-27):** CLOSED — application window ended 21 Sep 2026
 - **Key:** `india-post-gds|28740|2026`
-
-## Andhra Pradesh Public Service Commission Group-1 Services Examination (`appsc`) — 163 posts claimed
-
-- **Seen:** 2026-09-19
-- **Headline:** APPSC Group 1 Notification 2026 Out For 163 Vacancies, Apply Online, Eligibility, Salary - adda247.com
-- **Link:** https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVF6OEs1SHdvNG9tdXJ2WElvMGh5ZUV2REo3Z1dRcE40QVpXWWxBTVRxLVJnM2JkVERSMGVwQTJ5am56YUxfcndJNUc4bm83Z1BtYkRfVmFvWWxIMjc2bW5xTEI0NWpUNVZSbW1oNG1UdGRKcGFjcVVTb3BKSHlUSWRRTQ?oc=5
-- **Status:** unreviewed
-- **Deadline status (checked 2026-09-27):** UPCOMING — applications open 6 Oct, close 27 Oct 2026 (not yet open as of 2026-09-27)
-- **Key:** `appsc|163|2026`
 
 ## DSSSB TGT & PRT School Teacher Recruitment Examination (`dsssb-prt-tgt`) — 1,417 posts claimed
 
