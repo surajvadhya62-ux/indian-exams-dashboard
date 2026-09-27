@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Super TET (Uttar Pradesh) (`super-tet`) — 12,405 posts claimed
+
+- **Seen:** 2026-09-27
+- **Headline:** UP Super TET 2026: Applications begin for 12,405 teacher vacancies - The Indian Express
+- **Link:** https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaUdxemE3QU5YMFZZWE11aW03QWNjbXJMc2llVlBiX3JwUVUzS2J0bzkwa0FOTjI3ZmVXWC11SUl6VGl3LTdFYVYySTA4dGdfVkdnd1B3b2EyRzdaemJwek10SERxeS02WlowLUxtY21ISkt6OWFFVktmZ1JLNzEta2lqM0hqem10WU9wN3pvS0tKb0dzcnRvWUVCay1mbExsSkhkOVlXODBBZHV6VW15X3ZQWm5wRF9jM1FrN3VEY045VE5TYmstZE1TcHN4c2RuTTNpTHBjNVdiQ0JwSUdj0gHmAUFVX3lxTFBHWWZiQmwxbldHSXpVUG4yZ0h4TVBGR3RrZmlldXptU0VqdldOTGFJTVh1YzQyQ3BJeWViXzJ2a2F3RmNRZWdwcVAyREstNXdyZlpMaXFmVGRJTkEzaVQ4d2pubUJlWGVoeVhGRW8zVkJuMXluUmUyU1docFhHeERzeS1lSXdKNUJmTG9EQ21XWTZWLWRhVHV6V2E0VGdxd1dIeWdQV1MwQWNaS0VpWmRoMEoxRjBpN2JORFRvQWoyUnNzd0hDWENzYm04bURBMlEwdmZGLXJ4eGE1dUMtcWFPMG9rNG1B?oc=5
+- **Status:** unreviewed
+- **Key:** `super-tet|12405|2026`
+
 ## State Bank of India Junior Associates (Customer Support & Sales) (`sbi-clerk`) — 1,538 posts claimed
 
 - **Seen:** 2026-09-24
