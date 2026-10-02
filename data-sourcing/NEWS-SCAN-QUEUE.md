@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## IBPS Clerk Exam (`ibps-clerk`) — 11,663 posts claimed
+
+- **Seen:** 2026-10-02
+- **Headline:** IBPS Clerk Exam Date 2026 Out For 11,663 Vacancies, Check Prelims Exam Date and Shifts - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMickFVX3lxTFAzQktjbG5va2stZkVIdXVzTEJ5dzNlamlDdHN5UEpqUDdZbHh4VWVDWUV5THJFYVN2NW5PNTBXTVliRVpxRXlBVHIzaWs3dWVxVmpXS2JYLTlnc1ExYVU3bThxMEhUQl9MLWs1M3ZmSDAwUQ?oc=5
+- **Status:** unreviewed
+- **Key:** `ibps-clerk|11663|2026`
+
 ## Super TET (Uttar Pradesh) (`super-tet`) — 12,405 posts claimed
 
 - **Seen:** 2026-09-27
