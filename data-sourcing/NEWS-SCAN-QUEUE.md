@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Railway Recruitment Board Group D (`rrb-group-d`) — 22,195 posts claimed
+
+- **Seen:** 2026-10-16
+- **Headline:** RRB Group D Recruitment 2026 - Apply Online for 22195 Posts - FreeJobAlert.Com
+- **Link:** https://news.google.com/rss/articles/CBMipgFBVV95cUxOTDNrdUFHRklRa0U5NHFNQzRtZ0xoZ19mQWFKTU1zZXJQRG8tY3VoUE1YZlFySV9ESGtfTXpjeVJCWDA2LTJ4OU9lR1ZvMnRaNGNRYW1SNUFubnNLQ1lKNUhWc2hsNnB5ZmVIaHpJUEVQNkI0Z3JCVWlmRVBFLXhFeGRaN2I0MU5oQjMwU3BTbmV2ZEFVTWhCblh0eEs0VlhpNG5remVn?oc=5
+- **Status:** unreviewed
+- **Key:** `rrb-group-d|22195|2026`
+
 ## IBPS Clerk Exam (`ibps-clerk`) — 11,663 posts claimed
 
 - **Seen:** 2026-10-02
