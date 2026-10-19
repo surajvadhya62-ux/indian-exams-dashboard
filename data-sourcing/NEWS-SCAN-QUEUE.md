@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Railway Recruitment Board Junior Engineer (`rrb-je`) — 4,029 posts claimed
+
+- **Seen:** 2026-10-19
+- **Headline:** RRB JE 2026 Notification Out: 4,029 Vacancies, Eligibility, Exam Date &amp; Latest Updates - PW
+- **Link:** https://news.google.com/rss/articles/CBMiVkFVX3lxTFBwOEZmamZjUlpMeTJiOXpHcmpqc0ZkcjljRFY0cFpzay1Va2NwTFczT21fQW1qalg0UFRNdENUMHY2NkxBNFlrVmdBVFNTM0lfRWhWZmpR?oc=5
+- **Status:** unreviewed
+- **Key:** `rrb-je|4029|2026`
+
 ## Railway Recruitment Board Group D (`rrb-group-d`) — 22,195 posts claimed
 
 - **Seen:** 2026-10-16
