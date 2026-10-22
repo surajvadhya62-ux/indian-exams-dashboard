@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## UPSC Combined Geo-Scientist Examination (`upsc-geo-scientist`) — 127 posts claimed
+
+- **Seen:** 2026-10-22
+- **Headline:** UPSC CGSE 2027 Notification Out - Combined Geo-Scientist Preliminary Exam for 127 Posts - FreeJobAlert.Com
+- **Link:** https://news.google.com/rss/articles/CBMirAFBVV95cUxPdlUyQTlVVUlpMlE3VW9KV19vazNzLWtJblFJY0dkaEpwOXJlc1drb0x4LUNWeG9iNkctb1JmQ1J6RGdvQUlMd0ZrcUJHbElJbDJJRnFmVXJ1WkZTRlFkVFpiZ3g0SDJXRnpIZXJGSUxYdVVFcEtBQW94cEQ1OU1DWW1uUmE2cFZzM1FUZDlJZ0VscnV2UkdTRWhQQWF6eVhFcEN2amRjVGZiaF81?oc=5
+- **Status:** unreviewed
+- **Key:** `upsc-geo-scientist|127|2026`
+
 ## Railway Recruitment Board Junior Engineer (`rrb-je`) — 4,029 posts claimed
 
 - **Seen:** 2026-10-19
