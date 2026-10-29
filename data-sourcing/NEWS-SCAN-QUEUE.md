@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## United India Insurance Administrative Officer (`uiic-ao`) — 225 posts claimed
+
+- **Seen:** 2026-10-29
+- **Headline:** UIIC AO Exam Date 2026 Out For 225 Vacancies, Check Exam Pattern - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZTlFLYTZ4aF9xSnF3TENCUUk4ZUp2MVloVjE2V2Z2djdObDZpM2tTNngwaXpoVkduaHFjWlNDTDgzNUM3Tl9JUWtVRm9KMTFqTHMwX3hNUzRyMzRSdUE?oc=5
+- **Status:** unreviewed
+- **Key:** `uiic-ao|225|2026`
+
 ## UPSC Combined Geo-Scientist Examination (`upsc-geo-scientist`) — 127 posts claimed
 
 - **Seen:** 2026-10-22
