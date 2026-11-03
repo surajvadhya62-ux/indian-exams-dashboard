@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Railway Recruitment Board Group D (`rrb-group-d`) — 30,000 posts claimed
+
+- **Seen:** 2026-11-03
+- **Headline:** RRB Group D 2026-27 Notification Soon for 30000 Vacancies, Check Eligibility &amp; Details - Career Power
+- **Link:** https://news.google.com/rss/articles/CBMiVkFVX3lxTE01Q0k0SUw5eFVNMlpYNE5HcF96NUZhN0hCYm4waldjc1pJcXpOLWYzZlQ1UUNDNnpvaDVvbHdXTk1EM0ZuUzhuS1JXWHJNdlZFWExhVUd3?oc=5
+- **Status:** unreviewed
+- **Key:** `rrb-group-d|30000|2026`
+
 ## United India Insurance Administrative Officer (`uiic-ao`) — 225 posts claimed
 
 - **Seen:** 2026-10-29
