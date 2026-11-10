@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Tamil Nadu Public Service Commission Group I Services (`tnpsc-group-1`) — 46 posts claimed
+
+- **Seen:** 2026-11-10
+- **Headline:** TNPSC Group 1 Notification 2026 Out For 46 Posts, Check Increased Vacancy Notice - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMiYkFVX3lxTE11STEwbjVsQlQ4RVl4cXAwSWFWaEV0NEsySFdaZXU0T0hZYUlta3VMU2NHRzVDbHhKU3N2eTBBOEhXNlZ1MU5MVDd4M1hvejQzSUZMRTBkcUUzSXoxc0VleHR3?oc=5
+- **Status:** unreviewed
+- **Key:** `tnpsc-group-1|46|2026`
+
 ## Railway Recruitment Board Junior Engineer (`rrb-je`) — 4,487 posts claimed
 
 - **Seen:** 2026-11-04
