@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Railway Recruitment Board Technician Examination (`rrb-technician`) — 3 posts claimed
+
+- **Seen:** 2026-11-13
+- **Headline:** RRB Technician Exam Date 2026 Out For Grade 1 and 3, Revised Vacancy For Grade 3 Posts - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMigAFBVV95cUxNS1VLSmxzTHJJaEV6N3dWd1dtVWQwWGRIWEY5WGI5cjhUazhoNGxkTWdRN21KRVZaUFhYdDR4dVk0Y1IxR1l5TVQ0RVpxdlliclNZSnJ5T3UtR0FBeFB1S2tmcU1VM2F0eFVoSHVmNEZwMlhNNFktSGh1MGFMVjE5ag?oc=5
+- **Status:** unreviewed
+- **Key:** `rrb-technician|3|2026`
+
 ## Tamil Nadu Public Service Commission Group I Services (`tnpsc-group-1`) — 46 posts claimed
 
 - **Seen:** 2026-11-10
