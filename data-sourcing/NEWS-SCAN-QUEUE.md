@@ -14,6 +14,30 @@ drive have all appeared here.
 
 ---
 
+## Small Industries Development Bank of India Assistant Manager (`sidbi-grade-a`) — 68 posts claimed
+
+- **Seen:** 2026-11-21
+- **Headline:** SIDBI Grade A and B Notification 2026 Out 68 Posts, Apply Online Starts - Adda247
+- **Link:** https://news.google.com/rss/articles/CBMid0FVX3lxTFB4NnIzd1MyaWtIVVh3SlRlLWE0Q0pzVFU1akdfeFBJU3dRam0xcDA4a0Q3cEdwaDl1em15dnNHeWQtZnlwMXhsVEtHSVEzR3RxbmtzTExaLXQxcmtXRXE2cGYzanZmbWdPZktmN0ZXbnp2SGkySmU4?oc=5
+- **Status:** unreviewed
+- **Key:** `sidbi-grade-a|68|2026`
+
+## Staff Selection Commission Combined Higher Secondary Level (`ssc-chsl`) — 2,536 posts claimed
+
+- **Seen:** 2026-11-21
+- **Headline:** SSC CHSL Notification 2026 OUT For 2536 Posts - Apply Online at ssc.gov.in - Jagran Josh
+- **Link:** https://news.google.com/rss/articles/CBMi5gFBVV95cUxNckkyZEV3bno0UlYtZGt6MVEzVDNHTkdtbl9NSnplTnFBOVNLeHlTV3Qzdzkyc2lOclYxV2tneEJieUs0WHZsaWVHbmF4eHVpdFQ2elpJQm5WemVNZlJHazVSaWptMkF1OWJtNkltcDZtUnBYNl9CTHBoZmJEeFNpQmM0TTI1QjlLbDJTQi0ySEZ5c1JqekZ4enRBc2ZFUUZ6UUVZUmV4NjV0V1JocXEzXzdBNU9kVGJkaF84S2hLU01YeWZyeG84VWN6UkhFa04yTmdOdnlKN1FBdWJ1b1RoTnp6QzFDd9IB7AFBVV95cUxPb3BFTHhpN2x1VUpFRWJXeDgtd1A0Rm5PVVIxQ1ZGcGU1dklodTJScHRUSnRaZWJQTXJjS2FONXpxdW5CMHpENXY2SkZJT2pQaXRUZEhJYVlwejJsSU1rWkZYUzlaeUR2R0lkcElndjZLaUxfbzZpWU50TmF5aHZfQW9vcUdQbjNzWWRPa2xJNnNfYkVqNkJiWW15enpqUU51blNESFNCZWhaOVpSWG54RFNZUmFtSjZxNl8xamtOU1NEZW9CR0RVQk5aRl9CMGIzdWdGQWtidnMzZVVtYXJJNWhvSTNCMTZCV3RGZQ?oc=5
+- **Status:** unreviewed
+- **Key:** `ssc-chsl|2536|2026`
+
+## BHEL Artisan / ITI Trade Trainee Examination (`bhel-artisan`) — 660 posts claimed
+
+- **Seen:** 2026-11-21
+- **Headline:** BHEL Artisan Recruitment 2026 Notification and Online Form for 660 Vacancies, Apply Begins Today - Career Power
+- **Link:** https://news.google.com/rss/articles/CBMibkFVX3lxTE54ZmxudUdHQXc1U1lhZ2hwbHZ0Umc4TU95UVhWT2JtYmZhX1IzOHFWaVlwUnE1dkxPT09WMWQxVDR0RzJHWkZOLUVTdHdNa1BhNlhvbEVWNUJfaVpoeHZ0ZTUxOGtnbkxsakJVTHpn?oc=5
+- **Status:** unreviewed
+- **Key:** `bhel-artisan|660|2026`
+
 ## Railway Recruitment Board Technician Examination (`rrb-technician`) — 3 posts claimed
 
 - **Seen:** 2026-11-13
