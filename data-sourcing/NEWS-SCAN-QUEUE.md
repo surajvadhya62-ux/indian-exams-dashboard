@@ -14,6 +14,14 @@ drive have all appeared here.
 
 ---
 
+## Railway Recruitment Board Non-Technical Popular Categories (`rrb-ntpc`) — 3,548 posts claimed
+
+- **Seen:** 2026-11-26
+- **Headline:** RRB NTPC Graduate Recruitment 06/2026 Notification Out - Apply Online for 3,548 Posts - FreeJobAlert.Com
+- **Link:** https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRG9NeER4Ym1FSUQwUjR2R3ZfUjNVNFk3SUVkelRwdUo3R2lCOURQZm9yeE1fWXhkMEI0RzNPSDNaTTRnZkJ2V1kwVUJVeVA3b1dYajlhbjFYNHFNRXY3cnpCOTF1NWg4UEZBUFJubTMxS19JTE9Ed3lnU1d2bTF3ZlNPdEJhdWxINlNmSWRfYkk0TFBsaldnOEZnV2laUDRlUmVKSWRJUjJuM0lLLWlNaktqalh3ak9TY0lkUlNOMGk0Zw?oc=5
+- **Status:** unreviewed
+- **Key:** `rrb-ntpc|3548|2026`
+
 ## Small Industries Development Bank of India Assistant Manager (`sidbi-grade-a`) — 68 posts claimed
 
 - **Seen:** 2026-11-21
